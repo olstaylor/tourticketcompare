@@ -37,7 +37,7 @@
         "event_id": 7732014,
         "url": "https://www.vividseats.com/sam-fender-tickets-newcastle-upon-tyne-st-james-park-6-3-2027--concerts-alternative/production/7732014",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -120,7 +120,7 @@
         "event_id": 7732020,
         "url": "https://www.vividseats.com/sam-fender-tickets-newcastle-upon-tyne-st-james-park-6-5-2027--concerts-alternative/production/7732020",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -203,7 +203,7 @@
         "event_id": 7732028,
         "url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-10-2027--concerts-alternative/production/7732028",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272,7 +272,7 @@
         "event_id": 7732036,
         "url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-18-2027--concerts-alternative/production/7732036",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -356,7 +356,7 @@
         "event_id": 7732042,
         "url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-6-20-2027--concerts-alternative/production/7732042",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -498,7 +498,7 @@
         "event_id": 7732058,
         "url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-8-2027--concerts-alternative/production/7732058",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -558,7 +558,7 @@
         "event_id": 7732072,
         "url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-15-2027--concerts-alternative/production/7732072",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -641,7 +641,7 @@
         "event_id": 7732086,
         "url": "https://www.vividseats.com/sam-fender-tickets-manchester-etihad-stadium-7-17-2027--concerts-alternative/production/7732086",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -708,7 +708,7 @@
         "event_id": 7774971,
         "url": "https://www.vividseats.com/sam-fender-tickets-cardiff-principality-stadium---cardiff-6-12-2027--concerts-alternative/production/7774971",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -777,7 +777,7 @@
         "event_id": 7774973,
         "url": "https://www.vividseats.com/sam-fender-tickets-edinburgh-scottish-gas-murrayfield-stadium-7-10-2027--concerts-alternative/production/7774973",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -837,7 +837,7 @@
         "event_id": 7774975,
         "url": "https://www.vividseats.com/sam-fender-tickets-london-wembley-stadium-9-2-2027--concerts-alternative/production/7774975",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -896,7 +896,7 @@
     "ticketmaster_event_id": "0100656601C51D70",
     "ticketmaster_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-boston-massachusetts-04-20-2027/event/0100656601C51D70",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-boston-mgm-music-hall-at-fenway-4-20-2027--concerts-alternative/production/7863244",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-boston-massachusetts-04-20-2027/event/0100656601C51D70",
     "last_verified_at": null,
@@ -918,11 +918,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7863244,
+        "url": "https://www.vividseats.com/sam-fender-tickets-boston-mgm-music-hall-at-fenway-4-20-2027--concerts-alternative/production/7863244",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -950,7 +950,7 @@
     "ticketmaster_event_id": "3C00656ABE8B30D1",
     "ticketmaster_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-new-york-new-york-04-22-2027/event/3C00656ABE8B30D1",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-new-york-radio-city-music-hall-4-22-2027--concerts-alternative/production/7863246",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-new-york-new-york-04-22-2027/event/3C00656ABE8B30D1",
     "last_verified_at": null,
@@ -972,11 +972,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7863246,
+        "url": "https://www.vividseats.com/sam-fender-tickets-new-york-radio-city-music-hall-4-22-2027--concerts-alternative/production/7863246",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1058,7 +1058,7 @@
     "ticketmaster_event_id": "1900656BC0228316",
     "ticketmaster_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-tempe-arizona-05-01-2027/event/1900656BC0228316",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-tempe-mullett-arena-5-1-2027--concerts-alternative/production/7863252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-tempe-arizona-05-01-2027/event/1900656BC0228316",
     "last_verified_at": null,
@@ -1080,11 +1080,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7863252,
+        "url": "https://www.vividseats.com/sam-fender-tickets-tempe-mullett-arena-5-1-2027--concerts-alternative/production/7863252",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1112,7 +1112,7 @@
     "ticketmaster_event_id": "0900656AEBAC19FB",
     "ticketmaster_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-los-angeles-california-05-03-2027/event/0900656AEBAC19FB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-los-angeles-greek-theatre---los-angeles-5-3-2027--concerts-alternative/production/7863254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-los-angeles-california-05-03-2027/event/0900656AEBAC19FB",
     "last_verified_at": null,
@@ -1134,11 +1134,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7863254,
+        "url": "https://www.vividseats.com/sam-fender-tickets-los-angeles-greek-theatre---los-angeles-5-3-2027--concerts-alternative/production/7863254",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1166,7 +1166,7 @@
     "ticketmaster_event_id": "0F00656BBA38AC0C",
     "ticketmaster_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-seattle-washington-05-07-2027/event/0F00656BBA38AC0C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-seattle-wamu-theater---seattle-5-7-2027--concerts-alternative/production/7863256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-seattle-washington-05-07-2027/event/0F00656BBA38AC0C",
     "last_verified_at": null,
@@ -1188,11 +1188,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7863256,
+        "url": "https://www.vividseats.com/sam-fender-tickets-seattle-wamu-theater---seattle-5-7-2027--concerts-alternative/production/7863256",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

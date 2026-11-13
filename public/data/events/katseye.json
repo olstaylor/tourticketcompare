@@ -741,7 +741,7 @@
     "ticketmaster_event_id": "0C0064A99EAF7251",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-dallas-texas-11-11-2026/event/0C0064A99EAF7251",
     "seatgeek_url": "https://seatgeek.com/katseye-tickets/dallas-texas-american-airlines-center-2026-11-11-8-pm/concert/18240151",
-    "vividseats_url": "https://www.vividseats.com/katseye-tickets-dallas-american-airlines-center---tx-11-11-2026--concerts-pop/production/7027961",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-dallas-texas-11-11-2026/event/0C0064A99EAF7251",
     "last_verified_at": "2026-11-07",
@@ -763,11 +763,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7027961,
-        "url": "https://www.vividseats.com/katseye-tickets-dallas-american-airlines-center---tx-11-11-2026--concerts-pop/production/7027961",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -848,7 +848,7 @@
         "event_id": 7027963,
         "url": "https://www.vividseats.com/katseye-tickets-las-vegas-mgm-grand-garden-arena-11-14-2026--concerts-pop/production/7027963",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -929,7 +929,7 @@
         "event_id": 7027965,
         "url": "https://www.vividseats.com/katseye-tickets-seattle-climate-pledge-arena-11-17-2026--concerts-pop/production/7027965",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1011,7 +1011,7 @@
         "event_id": 7027967,
         "url": "https://www.vividseats.com/katseye-tickets-oakland-oakland-arena-11-19-2026--concerts-pop/production/7027967",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1257,7 +1257,7 @@
         "event_id": 7027973,
         "url": "https://www.vividseats.com/katseye-tickets-phoenix-mortgage-matchup-center-11-24-2026--concerts-pop/production/7027973",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {

@@ -1062,7 +1062,7 @@
     "ticketmaster_event_id": "0D00656914023091",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-11-2027--concerts-country-and-folk/production/7860894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
     "last_verified_at": null,
@@ -1084,11 +1084,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7860894,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-11-2027--concerts-country-and-folk/production/7860894",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1116,7 +1116,7 @@
     "ticketmaster_event_id": "0D00656AD703433C",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-12-2027--concerts-country-and-folk/production/7860898",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
     "last_verified_at": null,
@@ -1138,11 +1138,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7860898,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-12-2027--concerts-country-and-folk/production/7860898",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1170,7 +1170,7 @@
     "ticketmaster_event_id": "0100655FDB331C8E",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-25-2027/event/0100655FDB331C8E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-25-2027--concerts-country-and-folk/production/7860902",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-25-2027/event/0100655FDB331C8E",
     "last_verified_at": null,
@@ -1192,11 +1192,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7860902,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-25-2027--concerts-country-and-folk/production/7860902",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1224,7 +1224,7 @@
     "ticketmaster_event_id": "0100656A1708D141",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-26-2027/event/0100656A1708D141",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-26-2027--concerts-country-and-folk/production/7860904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-26-2027/event/0100656A1708D141",
     "last_verified_at": null,
@@ -1246,11 +1246,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7860904,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-26-2027--concerts-country-and-folk/production/7860904",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1278,7 +1278,7 @@
     "ticketmaster_event_id": "0300656989390C6E",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-23-2027--concerts-country-and-folk/production/7860906",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
     "last_verified_at": null,
@@ -1300,11 +1300,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7860906,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-23-2027--concerts-country-and-folk/production/7860906",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1332,7 +1332,7 @@
     "ticketmaster_event_id": "03006569893E0C70",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-24-2027--concerts-country-and-folk/production/7860908",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
     "last_verified_at": null,
@@ -1354,11 +1354,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7860908,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-24-2027--concerts-country-and-folk/production/7860908",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1386,7 +1386,7 @@
     "ticketmaster_event_id": "05006569C16D69D0",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-6-2027--concerts-country-and-folk/production/7860912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
     "last_verified_at": null,
@@ -1408,11 +1408,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7860912,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-6-2027--concerts-country-and-folk/production/7860912",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1440,7 +1440,7 @@
     "ticketmaster_event_id": "0500656A82E72921",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-7-2027--concerts-country-and-folk/production/7860914",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
     "last_verified_at": null,
@@ -1462,11 +1462,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7860914,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-7-2027--concerts-country-and-folk/production/7860914",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

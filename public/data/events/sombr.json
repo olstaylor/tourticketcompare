@@ -2036,7 +2036,7 @@
     "ticketmaster_event_id": "160064888B1E4D69",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
     "seatgeek_url": "https://seatgeek.com/sombr-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-12-7-pm/concert/18175603",
-    "vividseats_url": "https://www.vividseats.com/sombr-tickets-pittsburgh-ppg-paints-arena-11-12-2026--concerts-alternative/production/6898000",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
     "last_verified_at": "2026-11-09",
@@ -2058,11 +2058,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6898000,
-        "url": "https://www.vividseats.com/sombr-tickets-pittsburgh-ppg-paints-arena-11-12-2026--concerts-alternative/production/6898000",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -2135,7 +2135,7 @@
         "event_id": 6898006,
         "url": "https://www.vividseats.com/sombr-tickets-cleveland-rocket-arena-11-13-2026--concerts-alternative/production/6898006",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2208,7 +2208,7 @@
         "event_id": 6898016,
         "url": "https://www.vividseats.com/sombr-tickets-buffalo-keybank-center-11-14-2026--concerts-alternative/production/6898016",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2290,7 +2290,7 @@
         "event_id": 6898024,
         "url": "https://www.vividseats.com/sombr-tickets-toronto-scotiabank-arena-11-16-2026--concerts-alternative/production/6898024",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2368,7 +2368,7 @@
         "event_id": 6898034,
         "url": "https://www.vividseats.com/sombr-tickets-boston-td-garden-11-18-2026--concerts-alternative/production/6898034",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2457,7 +2457,7 @@
         "event_id": 6898038,
         "url": "https://www.vividseats.com/sombr-tickets-philadelphia-xfinity-mobile-arena-11-19-2026--concerts-alternative/production/6898038",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2545,7 +2545,7 @@
         "event_id": 6898048,
         "url": "https://www.vividseats.com/sombr-tickets-newark-prudential-center-11-21-2026--concerts-alternative/production/6898048",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2634,7 +2634,7 @@
         "event_id": 6898010,
         "url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-23-2026/production/6898010",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2727,7 +2727,7 @@
         "event_id": 6902538,
         "url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-24-2026/production/6902538",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2820,7 +2820,7 @@
         "event_id": 7505371,
         "url": "https://www.vividseats.com/sombr-tickets-hamburg-barclays-arena---hamburg-5-14-2027/production/7505371",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2958,7 +2958,7 @@
         "event_id": 7505369,
         "url": "https://www.vividseats.com/sombr-tickets-berlin-uber-arena-5-18-2027/production/7505369",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3320,7 +3320,7 @@
         "event_id": 7505317,
         "url": "https://www.vividseats.com/sombr-tickets-glasgow-bellahouston-park-6-19-2027--concerts-alternative/production/7505317",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3405,7 +3405,7 @@
         "event_id": 7510556,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-21-2027/production/7510556",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3471,7 +3471,7 @@
         "event_id": 7505319,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-22-2027--concerts-alternative/production/7505319",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3537,7 +3537,7 @@
         "event_id": 7510546,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-24-2027/production/7510546",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3603,7 +3603,7 @@
         "event_id": 7518769,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-25-2027/production/7518769",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3669,7 +3669,7 @@
         "event_id": 7527275,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-29-2027/production/7527275",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3793,7 +3793,7 @@
         "event_id": 7505313,
         "url": "https://www.vividseats.com/sombr-tickets-belfast-ormeau-park-6-17-2027--concerts-alternative/production/7505313",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {

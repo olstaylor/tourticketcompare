@@ -37,7 +37,7 @@
         "event_id": 7214045,
         "url": "https://www.vividseats.com/the-dead-south-tickets-london-o2-academy-brixton-3-5-2027/production/7214045",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -94,7 +94,7 @@
     "ticketmaster_event_id": "350064CB90A07FE4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-dead-south-manchester-06-03-2027/event/350064CB90A07FE4",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-manchester-the-warehouse-aviva-studios-3-6-2027/production/7185755",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-dead-south-manchester-06-03-2027/event/350064CB90A07FE4",
     "last_verified_at": "2026-11-10",
@@ -116,11 +116,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7185755,
-        "url": "https://www.vividseats.com/the-dead-south-tickets-manchester-the-warehouse-aviva-studios-3-6-2027/production/7185755",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -177,7 +177,7 @@
         "event_id": 7520869,
         "url": "https://www.vividseats.com/the-dead-south-tickets-wolverhampton-wolverhampton-civic-hall-3-10-2027/production/7520869",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -653,7 +653,7 @@
         "event_id": 7794133,
         "url": "https://www.vividseats.com/the-dead-south-tickets-lexington-the-rail-4-30-2027/production/7794133",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1290,7 +1290,7 @@
     "ticketmaster_event_id": "310065628D73235F",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-02-2027/event/310065628D73235F",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-2-2027/production/7833497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-02-2027/event/310065628D73235F",
     "last_verified_at": "2026-11-10",
@@ -1312,11 +1312,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833497,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-2-2027/production/7833497",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

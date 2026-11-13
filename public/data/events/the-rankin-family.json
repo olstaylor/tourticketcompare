@@ -1,0 +1,532 @@
+[
+  {
+    "id": "tm-the-rankin-family-2027-edmonton-1k78vpbmga2hetj",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Northern Alberta Jubilee Auditorium",
+    "datetime_iso": "2027-03-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065637FF02A66",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-edmonton-alberta-03-12-2027/event/110065637FF02A66",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/edmonton-canada-northern-alberta-jubilee-auditorium-2027-03-12-7-30-pm/concert/18761493",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-edmonton-alberta-03-12-2027/event/110065637FF02A66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065637FF02A66",
+        "discovery_event_id": "1k78vPbMGA2HetJ",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-edmonton-alberta-03-12-2027/event/110065637FF02A66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPbMGA2HetJ",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-calgary-1k78vpbmgac53nm",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Southern Alberta Jubilee Auditorium",
+    "datetime_iso": "2027-03-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065637E2D28EE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-calgary-alberta-03-13-2027/event/110065637E2D28EE",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/calgary-canada-southern-alberta-jubilee-auditorium-2027-03-13-7-30-pm/concert/18761494",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-calgary-alberta-03-13-2027/event/110065637E2D28EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065637E2D28EE",
+        "discovery_event_id": "1k78vPbMGAC53Nm",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-calgary-alberta-03-13-2027/event/110065637E2D28EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPbMGAC53Nm",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-winnipeg-1aozk4ngkerkp1s",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Burton Cummings Theatre",
+    "datetime_iso": "2027-03-16T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006563AF4D62B3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-winnipeg-manitoba-03-15-2027/event/11006563AF4D62B3",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-15-7-30-pm/concert/18761503",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-winnipeg-manitoba-03-15-2027/event/11006563AF4D62B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006563AF4D62B3",
+        "discovery_event_id": "1AoZk4NGkeRKp1S",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-winnipeg-manitoba-03-15-2027/event/11006563AF4D62B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4NGkeRKp1S",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-thunder-bay-1a8zk40gkd5kq6z",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Thunder Bay",
+    "country": "Canada",
+    "venue": "The Auditorium",
+    "datetime_iso": "2027-03-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006564CB19D1C0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/thunder-bay-canada-thunder-bay-community-auditorium-2027-03-17-7-30-pm/concert/18761505",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006564CB19D1C0",
+        "discovery_event_id": "1A8Zk40Gkd5kq6Z",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk40Gkd5kq6Z",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-ottawa-1aszk4ngkdjouzs",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "National Arts Centre / Centre national des Arts",
+    "datetime_iso": "2027-03-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006563E6836E33",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/ottawa-canada-national-arts-centre-2027-03-24-7-30-pm/concert/18761508",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006563E6836E33",
+        "discovery_event_id": "1AsZk4NGkdJOUzS",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4NGkdJOUzS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-niagara-falls-1a8zk40gkdzuhrm",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family",
+    "city": "Niagara Falls",
+    "country": "Canada",
+    "venue": "OLG Stage at Fallsview Casino",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006564C0D9BBEE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-03-27-8-pm/concert/18761514",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006564C0D9BBEE",
+        "discovery_event_id": "1A8Zk40GkdZUhRm",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk40GkdZUhRm",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-montreal-1aszk40gkdkmkar",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Théâtre Beanfield",
+    "datetime_iso": "2027-03-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006564C6DC615E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/montreal-canada-beanfield-theatre-2027-03-29-7-30-pm/concert/18761516",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006564C6DC615E",
+        "discovery_event_id": "1AsZk40GkdkMkAr",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk40GkdkMkAr",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-moncton-1aszk4pgkeuypli",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Moncton",
+    "country": "Canada",
+    "venue": "The Molson Canadian Centre at Casino New Brunswick",
+    "datetime_iso": "2027-03-30T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006565B6E657EC",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-moncton-new-brunswick-03-30-2027/event/31006565B6E657EC",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/moncton-canada-molson-canadian-centre-at-casino-new-brunswick-2027-03-30-7-30-pm/concert/18761517",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-moncton-new-brunswick-03-30-2027/event/31006565B6E657EC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006565B6E657EC",
+        "discovery_event_id": "1AsZk4PGkeUyPLi",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-moncton-new-brunswick-03-30-2027/event/31006565B6E657EC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4PGkeUyPLi",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-halifax-16szk4poezacdevv",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Halifax",
+    "country": "Canada",
+    "venue": "Scotiabank Centre",
+    "datetime_iso": "2027-04-01T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006565827D2100",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-halifax-nova-scotia-04-01-2027/event/31006565827D2100",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/halifax-canada-scotiabank-centre-2027-04-01-7-30-pm/concert/18761518",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-halifax-nova-scotia-04-01-2027/event/31006565827D2100",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006565827D2100",
+        "discovery_event_id": "16sZk4POEZACdevv",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-halifax-nova-scotia-04-01-2027/event/31006565827D2100",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16sZk4POEZACdevv",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-sydney-1aszk4pgkd5nkwf",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family: Together Again Tour",
+    "city": "Sydney",
+    "country": "Canada",
+    "venue": "Centre 200",
+    "datetime_iso": "2027-04-03T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006565CB8C6C94",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/sydney-canada-centre-200-2027-04-03-7-pm/concert/18761519",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006565CB8C6C94",
+        "discovery_event_id": "1AsZk4PGkd5Nkwf",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4PGkd5Nkwf",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  }
+]

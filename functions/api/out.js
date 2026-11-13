@@ -3856,6 +3856,34 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-the-dead-south",
     redirectUrl: "https://seatgeek.com/the-dead-south-tickets",
     verified: true
+  },
+  "kpop-demon-hunters:ticketmaster": {
+    artistSlug: "kpop-demon-hunters",
+    provider: "ticketmaster",
+    linkId: "tm-artist-kpop-demon-hunters",
+    redirectUrl: "https://www.ticketmaster.com/kpop-demon-hunters-tickets/artist/4799111",
+    verified: true
+  },
+  "kpop-demon-hunters:seatgeek": {
+    artistSlug: "kpop-demon-hunters",
+    provider: "seatgeek",
+    linkId: "sg-artist-kpop-demon-hunters",
+    redirectUrl: "https://seatgeek.com/kpop-demon-hunters-tickets",
+    verified: true
+  },
+  "the-rankin-family:ticketmaster": {
+    artistSlug: "the-rankin-family",
+    provider: "ticketmaster",
+    linkId: "tm-artist-the-rankin-family",
+    redirectUrl: "https://www.ticketmaster.com/the-rankin-family-tickets/artist/759399",
+    verified: true
+  },
+  "the-rankin-family:seatgeek": {
+    artistSlug: "the-rankin-family",
+    provider: "seatgeek",
+    linkId: "sg-artist-the-rankin-family",
+    redirectUrl: "https://seatgeek.com/the-rankin-family-tickets",
+    verified: true
   }
 };
 

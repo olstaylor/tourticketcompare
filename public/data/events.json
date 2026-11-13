@@ -402426,5 +402426,1885 @@
         "end": "2027-05-24T01:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-baltimore-1a4zk40gkdlc1yp",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2027-06-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006564DFB4AC25",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-baltimore-maryland-06-05-2027/event/15006564DFB4AC25",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-baltimore-maryland-06-05-2027/event/15006564DFB4AC25",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006564DFB4AC25",
+        "discovery_event_id": "1A4Zk40GkdLc1YP",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-baltimore-maryland-06-05-2027/event/15006564DFB4AC25",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk40GkdLc1YP",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-newark-vv1aezk4pgkd6oqqp",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-06-12T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006565C781A756",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-12-2027/event/02006565C781A756",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-12-2027/event/02006565C781A756",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006565C781A756",
+        "discovery_event_id": "vv1AeZk4PGkd6OQqp",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-12-2027/event/02006565C781A756",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4PGkd6OQqp",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-columbus-vv1aazk4pgkdbhbjx",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2027-06-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006565D8F3A722",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-16-2027/event/05006565D8F3A722",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-16-2027/event/05006565D8F3A722",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006565D8F3A722",
+        "discovery_event_id": "vv1AAZk4PGkdbHBjx",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-16-2027/event/05006565D8F3A722",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4PGkdbHBjx",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-chicago-vv1k8z_pb3g7s3vy",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-06-19T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400656612CD2D30",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-19-2027/event/0400656612CD2D30",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-19-2027/event/0400656612CD2D30",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400656612CD2D30",
+        "discovery_event_id": "vv1k8Z_pb3G7S3VY",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-19-2027/event/0400656612CD2D30",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1k8Z_pb3G7S3VY",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-indianapolis-vv1aazk40gkes_m63",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Gainbridge Fieldhouse",
+    "datetime_iso": "2027-06-23T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006564B16771D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-indianapolis-indiana-06-23-2027/event/05006564B16771D2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-indianapolis-indiana-06-23-2027/event/05006564B16771D2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006564B16771D2",
+        "discovery_event_id": "vv1AAZk40Gkes_M63",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-indianapolis-indiana-06-23-2027/event/05006564B16771D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk40Gkes_M63",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-hamilton-1avzz_pgknnsz0d",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2027-06-26T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000656AAAC78903",
+    "ticketmaster_url": "https://www.ticketmaster.ca/kpop-demon-hunters-golden-world-tour-hamilton-ontario-06-26-2027/event/1000656AAAC78903",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/kpop-demon-hunters-golden-world-tour-hamilton-ontario-06-26-2027/event/1000656AAAC78903",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656AAAC78903",
+        "discovery_event_id": "1AvZZ_pGknnsz0d",
+        "url": "https://www.ticketmaster.ca/kpop-demon-hunters-golden-world-tour-hamilton-ontario-06-26-2027/event/1000656AAAC78903",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_pGknnsz0d",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-belmont-park-1kgzvpbsgagectc",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2027-06-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300065633C0ADFCE",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-29-2027/event/300065633C0ADFCE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-29-2027/event/300065633C0ADFCE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300065633C0ADFCE",
+        "discovery_event_id": "1kGZvPbSGAGecTC",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-29-2027/event/300065633C0ADFCE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kGZvPbSGAGecTC",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-belmont-park-1kgzvpbsgag7qt4",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2027-06-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "300065633C11DFD5",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-30-2027/event/300065633C11DFD5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-30-2027/event/300065633C11DFD5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "300065633C11DFD5",
+        "discovery_event_id": "1kGZvPbSGAG7qT4",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-30-2027/event/300065633C11DFD5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kGZvPbSGAG7qT4",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-pittsburgh-1apzk4pgkedzz2s",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2027-07-03T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "16006565BB0383F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006565BB0383F1",
+        "discovery_event_id": "1ApZk4PGkeDZz2s",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ApZk4PGkeDZz2s",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-charlotte-g5evz_p39bkd-",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-07-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00656497E860E1",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-charlotte-north-carolina-07-07-2027/event/2D00656497E860E1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-charlotte-north-carolina-07-07-2027/event/2D00656497E860E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656497E860E1",
+        "discovery_event_id": "G5eVZ_p39Bkd-",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-charlotte-north-carolina-07-07-2027/event/2D00656497E860E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_p39Bkd-",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-atlanta-vvg1zz_p9cj0zu",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-07-10T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006565CE724E36",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-atlanta-georgia-07-10-2027/event/0E006565CE724E36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-atlanta-georgia-07-10-2027/event/0E006565CE724E36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006565CE724E36",
+        "discovery_event_id": "vvG1zZ_p9Cj0zU",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-atlanta-georgia-07-10-2027/event/0E006565CE724E36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_p9Cj0zU",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-orlando-1axzk4jgkdj4ft4",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-07-17T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "22006566DC554FD5",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-orlando-florida-07-17-2027/event/22006566DC554FD5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-orlando-florida-07-17-2027/event/22006566DC554FD5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "22006566DC554FD5",
+        "discovery_event_id": "1AxZk4JGkdj4fT4",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-orlando-florida-07-17-2027/event/22006566DC554FD5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AxZk4JGkdj4fT4",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-dallas-vvg1yz_pqm-6ap",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2027-07-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006566AE847156",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-20-2027/event/0C006566AE847156",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/dallas-texas-american-airlines-center-2027-07-20-7-30-pm/concert/18772702",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-20-2027/event/0C006566AE847156",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006566AE847156",
+        "discovery_event_id": "vvG1YZ_pQm-6Ap",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-20-2027/event/0C006566AE847156",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_pQm-6Ap",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-dallas-vvg1yz_pqmd65i",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "American Airlines Center",
+    "datetime_iso": "2027-07-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006566AEEC72EC",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-21-2027/event/0C006566AEEC72EC",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/dallas-texas-american-airlines-center-2027-07-21-7-30-pm/concert/18772728",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-21-2027/event/0C006566AEEC72EC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006566AEEC72EC",
+        "discovery_event_id": "vvG1YZ_pQmD65i",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-21-2027/event/0C006566AEEC72EC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_pQmD65i",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-phoenix-16v0z_pj9g7lsu3",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-07-24T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900656997AF3352",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-phoenix-arizona-07-24-2027/event/1900656997AF3352",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-phoenix-arizona-07-24-2027/event/1900656997AF3352",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656997AF3352",
+        "discovery_event_id": "16v0Z_pJ9G7lSu3",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-phoenix-arizona-07-24-2027/event/1900656997AF3352",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16v0Z_pJ9G7lSu3",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T17:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-tacoma-vvg1hz_p9ckjih",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Tacoma",
+    "country": "United States Of America",
+    "venue": "Tacoma Dome",
+    "datetime_iso": "2027-08-14T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006565CE4DCA3C",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-tacoma-washington-08-14-2027/event/0F006565CE4DCA3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-tacoma-washington-08-14-2027/event/0F006565CE4DCA3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006565CE4DCA3C",
+        "discovery_event_id": "vvG1HZ_p9CKjIH",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-tacoma-washington-08-14-2027/event/0F006565CE4DCA3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_p9CKjIH",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-amsterdam-z698xzbpz16v0ozyff",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-09-08T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1911030514",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/1911030514?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/1911030514?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1911030514",
+        "discovery_event_id": "Z698xZbpZ16v0oZYff",
+        "url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/1911030514?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v0oZYff",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T09:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-amsterdam-z698xzbpz1krbj60f",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-09-09T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "798707908",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/798707908?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/798707908?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "798707908",
+        "discovery_event_id": "Z698xZbpZ1krbj60F",
+        "url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/798707908?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1krbj60F",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T09:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-fornebu-z698xzb_z1k-p0apk",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Fornebu",
+    "country": "Norway",
+    "venue": "Unity Arena",
+    "datetime_iso": "2027-09-25T09:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "856905953",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/kpop-demon-hunters-golden-world-tour-tickets/856905953?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/kpop-demon-hunters-golden-world-tour-tickets/856905953?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "856905953",
+        "discovery_event_id": "Z698xZb_Z1k-p0APK",
+        "url": "https://www.ticketmaster.no/event/kpop-demon-hunters-golden-world-tour-tickets/856905953?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z1k-p0APK",
+    "timezone": "Europe/Oslo",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T09:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-brussels-z698xzg2z1kup-z3o",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters",
+    "city": "Brussels",
+    "country": "Belgium",
+    "venue": "ING ARENA",
+    "datetime_iso": "2027-10-02T12:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "356840491",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/kpop-demon-hunters-tickets/356840491",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/kpop-demon-hunters-tickets/356840491",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "356840491",
+        "discovery_event_id": "Z698xZG2Z1kup-Z3o",
+        "url": "https://www.ticketmaster.be/event/kpop-demon-hunters-tickets/356840491",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z1kup-Z3o",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T09:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-dublin-1avoz_pgksg3dqw",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters - Golden World Tour 2027",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "3Arena",
+    "datetime_iso": "2027-10-09T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800656CF54BB6B2",
+    "ticketmaster_url": "https://www.ticketmaster.ie/kpop-demon-hunters-golden-world-tour-dublin-09-10-2027/event/1800656CF54BB6B2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/kpop-demon-hunters-golden-world-tour-dublin-09-10-2027/event/1800656CF54BB6B2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800656CF54BB6B2",
+        "discovery_event_id": "1AvOZ_pGkSg3DQw",
+        "url": "https://www.ticketmaster.ie/kpop-demon-hunters-golden-world-tour-dublin-09-10-2027/event/1800656CF54BB6B2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_pGkSg3DQw",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-glasgow-1adbz_pgkrybqvg",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters - Golden World Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-10-12T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600656BF0E9AD0C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-glasgow-12-10-2027/event/3600656BF0E9AD0C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-glasgow-12-10-2027/event/3600656BF0E9AD0C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600656BF0E9AD0C",
+        "discovery_event_id": "1AdbZ_pGkRYBQVG",
+        "url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-glasgow-12-10-2027/event/3600656BF0E9AD0C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_pGkRYBQVG",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-birmingham-1aegz_pgkm7p-do",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "Kpop Demon Hunters Golden World Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2027-10-16T11:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300656DC49610E0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-birmingham-16-10-2027/event/2300656DC49610E0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-birmingham-16-10-2027/event/2300656DC49610E0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300656DC49610E0",
+        "discovery_event_id": "1AeGZ_pGkM7P-dO",
+        "url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-birmingham-16-10-2027/event/2300656DC49610E0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_pGkM7P-dO",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkm7wjw0",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "Kpop Demon Hunters Golden World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-10-22T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500656DC4F66CA4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-22-10-2027/event/3500656DC4F66CA4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-22-10-2027/event/3500656DC4F66CA4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500656DC4F66CA4",
+        "discovery_event_id": "1AdfZ_pGkM7WJw0",
+        "url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-22-10-2027/event/3500656DC4F66CA4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_pGkM7WJw0",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkmklpyh",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "Kpop Demon Hunters Golden World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-10-23T11:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500656DC67D6E5B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-23-10-2027/event/3500656DC67D6E5B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-23-10-2027/event/3500656DC67D6E5B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500656DC67D6E5B",
+        "discovery_event_id": "1AdfZ_pGkMkLpyh",
+        "url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-23-10-2027/event/3500656DC67D6E5B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_pGkMkLpyh",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-edmonton-1k78vpbmga2hetj",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Northern Alberta Jubilee Auditorium",
+    "datetime_iso": "2027-03-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065637FF02A66",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-edmonton-alberta-03-12-2027/event/110065637FF02A66",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/edmonton-canada-northern-alberta-jubilee-auditorium-2027-03-12-7-30-pm/concert/18761493",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-edmonton-alberta-03-12-2027/event/110065637FF02A66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065637FF02A66",
+        "discovery_event_id": "1k78vPbMGA2HetJ",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-edmonton-alberta-03-12-2027/event/110065637FF02A66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPbMGA2HetJ",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-calgary-1k78vpbmgac53nm",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Southern Alberta Jubilee Auditorium",
+    "datetime_iso": "2027-03-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110065637E2D28EE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-calgary-alberta-03-13-2027/event/110065637E2D28EE",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/calgary-canada-southern-alberta-jubilee-auditorium-2027-03-13-7-30-pm/concert/18761494",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-calgary-alberta-03-13-2027/event/110065637E2D28EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110065637E2D28EE",
+        "discovery_event_id": "1k78vPbMGAC53Nm",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-calgary-alberta-03-13-2027/event/110065637E2D28EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vPbMGAC53Nm",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-winnipeg-1aozk4ngkerkp1s",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Burton Cummings Theatre",
+    "datetime_iso": "2027-03-16T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006563AF4D62B3",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-winnipeg-manitoba-03-15-2027/event/11006563AF4D62B3",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-15-7-30-pm/concert/18761503",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-winnipeg-manitoba-03-15-2027/event/11006563AF4D62B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006563AF4D62B3",
+        "discovery_event_id": "1AoZk4NGkeRKp1S",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-winnipeg-manitoba-03-15-2027/event/11006563AF4D62B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4NGkeRKp1S",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-thunder-bay-1a8zk40gkd5kq6z",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Thunder Bay",
+    "country": "Canada",
+    "venue": "The Auditorium",
+    "datetime_iso": "2027-03-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006564CB19D1C0",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/thunder-bay-canada-thunder-bay-community-auditorium-2027-03-17-7-30-pm/concert/18761505",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006564CB19D1C0",
+        "discovery_event_id": "1A8Zk40Gkd5kq6Z",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk40Gkd5kq6Z",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-ottawa-1aszk4ngkdjouzs",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "National Arts Centre / Centre national des Arts",
+    "datetime_iso": "2027-03-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006563E6836E33",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/ottawa-canada-national-arts-centre-2027-03-24-7-30-pm/concert/18761508",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006563E6836E33",
+        "discovery_event_id": "1AsZk4NGkdJOUzS",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4NGkdJOUzS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-niagara-falls-1a8zk40gkdzuhrm",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family",
+    "city": "Niagara Falls",
+    "country": "Canada",
+    "venue": "OLG Stage at Fallsview Casino",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006564C0D9BBEE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-03-27-8-pm/concert/18761514",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006564C0D9BBEE",
+        "discovery_event_id": "1A8Zk40GkdZUhRm",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk40GkdZUhRm",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-montreal-1aszk40gkdkmkar",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Montreal",
+    "country": "Canada",
+    "venue": "Théâtre Beanfield",
+    "datetime_iso": "2027-03-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006564C6DC615E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/montreal-canada-beanfield-theatre-2027-03-29-7-30-pm/concert/18761516",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006564C6DC615E",
+        "discovery_event_id": "1AsZk40GkdkMkAr",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk40GkdkMkAr",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-moncton-1aszk4pgkeuypli",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Moncton",
+    "country": "Canada",
+    "venue": "The Molson Canadian Centre at Casino New Brunswick",
+    "datetime_iso": "2027-03-30T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006565B6E657EC",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-moncton-new-brunswick-03-30-2027/event/31006565B6E657EC",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/moncton-canada-molson-canadian-centre-at-casino-new-brunswick-2027-03-30-7-30-pm/concert/18761517",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-moncton-new-brunswick-03-30-2027/event/31006565B6E657EC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006565B6E657EC",
+        "discovery_event_id": "1AsZk4PGkeUyPLi",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-moncton-new-brunswick-03-30-2027/event/31006565B6E657EC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4PGkeUyPLi",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-halifax-16szk4poezacdevv",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family - Together Again Tour",
+    "city": "Halifax",
+    "country": "Canada",
+    "venue": "Scotiabank Centre",
+    "datetime_iso": "2027-04-01T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006565827D2100",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-halifax-nova-scotia-04-01-2027/event/31006565827D2100",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/halifax-canada-scotiabank-centre-2027-04-01-7-30-pm/concert/18761518",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-halifax-nova-scotia-04-01-2027/event/31006565827D2100",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006565827D2100",
+        "discovery_event_id": "16sZk4POEZACdevv",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-halifax-nova-scotia-04-01-2027/event/31006565827D2100",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16sZk4POEZACdevv",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-rankin-family-2027-sydney-1aszk4pgkd5nkwf",
+    "artist_slug": "the-rankin-family",
+    "artist_name": "The Rankin Family",
+    "event_name": "The Rankin Family: Together Again Tour",
+    "city": "Sydney",
+    "country": "Canada",
+    "venue": "Centre 200",
+    "datetime_iso": "2027-04-03T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006565CB8C6C94",
+    "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
+    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/sydney-canada-centre-200-2027-04-03-7-pm/concert/18761519",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006565CB8C6C94",
+        "discovery_event_id": "1AsZk4PGkd5Nkwf",
+        "url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4PGkd5Nkwf",
+    "timezone": "America/Halifax",
+    "status": "on-sale"
   }
 ]

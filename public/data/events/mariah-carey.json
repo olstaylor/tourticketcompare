@@ -430,6 +430,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8365854",
+        "url": "https://www.ticketliquidator.com/tickets/8365854/Mariah-Carey-tickets-Thu-Jul-1-2027-Blenheim-Palace",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4pGkeVlziX",
@@ -443,7 +450,8 @@
     ],
     "ticket_limit": 6,
     "genre": "Pop",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365854"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365854",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365854/Mariah-Carey-tickets-Thu-Jul-1-2027-Blenheim-Palace"
   },
   {
     "id": "tm-mariah-carey-2027-scarborough-1agzk49gkd3hqbt",
@@ -499,6 +507,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8365855",
+        "url": "https://www.ticketliquidator.com/tickets/8365855/Mariah-Carey-tickets-Sat-Jul-3-2027-Scarborough-Open-Air-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk49Gkd3HQbT",
@@ -532,6 +547,7 @@
         "end": "2026-11-13T08:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365855"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365855",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365855/Mariah-Carey-tickets-Sat-Jul-3-2027-Scarborough-Open-Air-Theatre"
   }
 ]

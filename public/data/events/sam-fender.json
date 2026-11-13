@@ -937,13 +937,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367764",
+        "url": "https://www.ticketliquidator.com/tickets/8367764/Sam-Fender-tickets-Tue-Apr-20-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_pbvG7sogY",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-19T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367764"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367764",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367764/Sam-Fender-tickets-Tue-Apr-20-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-sam-fender-2027-new-york-g5dyz_pnxxsdo",
@@ -999,13 +1007,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367765",
+        "url": "https://www.ticketliquidator.com/tickets/8367765/Sam-Fender-tickets-Thu-Apr-22-2027-Radio-City-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_pnXxSdo",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-19T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367765"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367765",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367765/Sam-Fender-tickets-Thu-Apr-22-2027-Radio-City-Music-Hall"
   },
   {
     "id": "tm-sam-fender-2027-toronto-1avzz_pgkl1qlzt",
@@ -1115,13 +1131,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367767",
+        "url": "https://www.ticketliquidator.com/tickets/8367767/Sam-Fender-tickets-Sat-May-1-2027-Mullett-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkRZFIGp",
     "timezone": "America/Phoenix",
     "status": "announced",
     "public_onsale_at": "2026-11-19T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367767"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367767/Sam-Fender-tickets-Sat-May-1-2027-Mullett-Arena"
   },
   {
     "id": "tm-sam-fender-2027-los-angeles-vv170z_pgklllved",
@@ -1177,13 +1201,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367768",
+        "url": "https://www.ticketliquidator.com/tickets/8367768/Sam-Fender-tickets-Mon-May-3-2027-Greek-Theatre-Los-Angeles-CA",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGklllvED",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-19T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367768"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367768",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367768/Sam-Fender-tickets-Mon-May-3-2027-Greek-Theatre-Los-Angeles-CA"
   },
   {
     "id": "tm-sam-fender-2027-seattle-vvg1hz_pmbc1yg",
@@ -1239,13 +1271,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367769",
+        "url": "https://www.ticketliquidator.com/tickets/8367769/Sam-Fender-tickets-Fri-May-7-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pmBC1YG",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-19T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367769"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367769",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367769/Sam-Fender-tickets-Fri-May-7-2027-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-sam-fender-2027-vancouver-16ozk4ekdza2k2ve",
@@ -1301,12 +1341,20 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367771",
+        "url": "https://www.ticketliquidator.com/tickets/8367771/Sam-Fender-tickets-Sun-May-9-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZk4EkdZA2k2ve",
     "timezone": "America/Vancouver",
     "status": "announced",
     "public_onsale_at": "2026-11-19T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367771"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367771",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367771/Sam-Fender-tickets-Sun-May-9-2027-Rogers-Arena"
   }
 ]

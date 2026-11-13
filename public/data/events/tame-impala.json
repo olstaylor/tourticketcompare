@@ -2054,13 +2054,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367606",
+        "url": "https://www.ticketliquidator.com/tickets/8367606/Tame-Impala-tickets-Wed-Feb-10-2027-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4JGkeXPfxk",
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-20T18:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367606"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367606",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367606/Tame-Impala-tickets-Wed-Feb-10-2027-BOK-Center"
   },
   {
     "id": "tm-tame-impala-2027-tlajomulco-de-zuniga-g5dvz_pmifp7m",

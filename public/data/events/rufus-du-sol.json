@@ -122,11 +122,19 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8256079",
+        "url": "https://www.ticketliquidator.com/tickets/8256079/Rufus-Du-Sol-tickets-Sun-Nov-22-2026-XS-Nightclub-At-Wynn-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv9uy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256079"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8256079",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8256079/Rufus-Du-Sol-tickets-Sun-Nov-22-2026-XS-Nightclub-At-Wynn-Las-Vegas"
   }
 ]

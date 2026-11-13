@@ -477,18 +477,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8151277",
-        "url": "https://www.ticketliquidator.com/tickets/8151277/Trivium-tickets-Thu-Nov-12-2026-Terminal-5",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZdbS",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151277",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151277/Trivium-tickets-Thu-Nov-12-2026-Terminal-5",
+    "ticketliquidator_url": "",
     "genre": "Rock"
   },
   {
@@ -2033,7 +2033,7 @@
         "event_id": "8359228",
         "url": "https://www.ticketliquidator.com/tickets/8359228/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       }
     },

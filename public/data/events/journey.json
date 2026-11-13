@@ -1939,6 +1939,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8365092",
+        "url": "https://www.ticketliquidator.com/tickets/8365092/Journey-tickets-Wed-Apr-21-2027-Tahoe-Blue-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP_vGACrkE8",
@@ -1972,7 +1979,8 @@
         "end": "2026-11-13T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365092"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365092",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365092/Journey-tickets-Wed-Apr-21-2027-Tahoe-Blue-Event-Center"
   },
   {
     "id": "tm-journey-2027-stateline-1kayvp_vgacljep",
@@ -2028,6 +2036,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8365093",
+        "url": "https://www.ticketliquidator.com/tickets/8365093/Journey-tickets-Fri-Apr-23-2027-Tahoe-Blue-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP_vGACLJEp",
@@ -2061,6 +2076,7 @@
         "end": "2026-11-13T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365093"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365093",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365093/Journey-tickets-Fri-Apr-23-2027-Tahoe-Blue-Event-Center"
   }
 ]

@@ -628,6 +628,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8365871",
+        "url": "https://www.ticketliquidator.com/tickets/8365871/Fall-Out-Boy-tickets-Tue-Jun-8-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vv-vwvA",
@@ -637,7 +644,8 @@
       "Mojo Concerts"
     ],
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365871"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365871",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365871/Fall-Out-Boy-tickets-Tue-Jun-8-2027-Ziggo-Dome"
   },
   {
     "id": "tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj",
@@ -2483,12 +2491,20 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362637",
+        "url": "https://www.ticketliquidator.com/tickets/8362637/Fall-Out-Boy-tickets-Tue-Jul-27-2027-FirstBank-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAA0d",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362637"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362637",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362637/Fall-Out-Boy-tickets-Tue-Jul-27-2027-FirstBank-Stadium"
   },
   {
     "id": "tm-fall-out-boy-2027-saint-charles-z7r9jz1aaakz9",
@@ -2544,12 +2560,20 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362657",
+        "url": "https://www.ticketliquidator.com/tickets/8362657/Fall-Out-Boy-tickets-Fri-Aug-6-2027-Roaming-Hills",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkZ9",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362657"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362657",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362657/Fall-Out-Boy-tickets-Fri-Aug-6-2027-Roaming-Hills"
   },
   {
     "id": "tm-fall-out-boy-2027-sandy-z7r9jz1aaaa0a",

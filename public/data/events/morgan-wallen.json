@@ -1103,13 +1103,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367161",
+        "url": "https://www.ticketliquidator.com/tickets/8367161/Morgan-Wallen-tickets-Fri-Jun-11-2027-Raymond-James-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p0fZNeo",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367161"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367161",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367161/Morgan-Wallen-tickets-Fri-Jun-11-2027-Raymond-James-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2027-tampa-vvg1vz_pl9zvgh",
@@ -1165,13 +1173,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367162",
+        "url": "https://www.ticketliquidator.com/tickets/8367162/Morgan-Wallen-tickets-Sat-Jun-12-2027-Raymond-James-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pl9ZVGH",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367162"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367162",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367162/Morgan-Wallen-tickets-Sat-Jun-12-2027-Raymond-James-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2027-foxborough-vv177z_4gkthgswc",
@@ -1227,13 +1243,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367163",
+        "url": "https://www.ticketliquidator.com/tickets/8367163/Morgan-Wallen-tickets-Fri-Jun-25-2027-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_4GkThGswC",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367163"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367163",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367163/Morgan-Wallen-tickets-Fri-Jun-25-2027-Gillette-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2027-foxborough-vv177z_pgki9euav",
@@ -1289,13 +1313,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367164",
+        "url": "https://www.ticketliquidator.com/tickets/8367164/Morgan-Wallen-tickets-Sat-Jun-26-2027-Gillette-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkI9euAv",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367164"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367164",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367164/Morgan-Wallen-tickets-Sat-Jun-26-2027-Gillette-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2027-orchard-park-vv1fgz_pjac8zdu62",
@@ -1351,13 +1383,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367165",
+        "url": "https://www.ticketliquidator.com/tickets/8367165/Morgan-Wallen-tickets-Fri-Jul-23-2027-New-Highmark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FGZ_pJaC8Zdu62",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367165"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367165",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367165/Morgan-Wallen-tickets-Fri-Jul-23-2027-New-Highmark-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2027-orchard-park-vv16dzk4txkza2vufv",
@@ -1413,13 +1453,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367166",
+        "url": "https://www.ticketliquidator.com/tickets/8367166/Morgan-Wallen-tickets-Sat-Jul-24-2027-New-Highmark-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16dZk4txKZA2vuFv",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367166"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367166",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367166/Morgan-Wallen-tickets-Sat-Jul-24-2027-New-Highmark-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2027-columbus-vv1aazk4tgkdvhpe8",
@@ -1475,13 +1523,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367167",
+        "url": "https://www.ticketliquidator.com/tickets/8367167/Morgan-Wallen-tickets-Fri-Aug-6-2027-Ohio-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4tGkdvhpE8",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367167"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367167",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367167/Morgan-Wallen-tickets-Fri-Aug-6-2027-Ohio-Stadium"
   },
   {
     "id": "tm-morgan-wallen-2027-columbus-vv17fz_pgkneyw0-",
@@ -1537,12 +1593,20 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367168",
+        "url": "https://www.ticketliquidator.com/tickets/8367168/Morgan-Wallen-tickets-Sat-Aug-7-2027-Ohio-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkneyw0-",
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367168"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367168",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367168/Morgan-Wallen-tickets-Sat-Aug-7-2027-Ohio-Stadium"
   }
 ]

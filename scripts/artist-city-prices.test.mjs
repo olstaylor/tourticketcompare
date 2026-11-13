@@ -764,7 +764,18 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     const html = card(id);
     assert(Boolean(html), "the date still renders");
     const providers = [...html.matchAll(/data-cta-provider="([^\"]+)"/g)].map((m) => m[1]);
-    assert(providers.join(",") === "ticketmaster,seatgeek,stubhub-international,ticket-liquidator,ticketnetwork,vivid-seats", "primary first, then marketplaces alphabetically");
+    // Board cards fold the marketplaces with no listed price for the date
+    // behind one closed <details>; each group keeps the display order.
+    const [visibleHtml, foldedHtml = ""] = html.split('<details class="provider-cta-more">');
+    const slugs = (part) => [...part.matchAll(/data-cta-provider="([^\"]+)"/g)].map((m) => m[1]);
+    const displayOrder = ["ticketmaster", "seatgeek", "stubhub-international", "ticket-liquidator", "ticketnetwork", "vivid-seats"];
+    const inOrder = (list) => list.every((slug, index) => index === 0 || displayOrder.indexOf(list[index - 1]) < displayOrder.indexOf(slug));
+    assert([...providers].sort().join(",") === [...displayOrder].sort().join(","), "every ticket site keeps its tracked button on the card");
+    assert(slugs(visibleHtml)[0] === "ticketmaster" && inOrder(slugs(visibleHtml)) && inOrder(slugs(foldedHtml)), "primary first, then marketplaces alphabetically, in the visible group and in the fold");
+    const visibleButtons = visibleHtml.match(/<a class="provider-cta[ "][\s\S]*?<\/a>/g) || [];
+    assert(visibleButtons.slice(1).every((button) => button.includes('data-cta-price-snapshot="present"')), "only ticket sites with a listed price stay visible beside the primary seller");
+    assert(slugs(foldedHtml).length >= 2 && !foldedHtml.includes('data-cta-price-snapshot="present"'), "the fold holds only sites with no listed price, and never hides just one");
+    assert(new RegExp(`<summary>${slugs(foldedHtml).length} more ticket sites with no listed price</summary>`).test(html), "the fold says how many sites it holds and why");
     assert(!/provider-cta-lowest|data-cta-lowest|provider-cta-badge/.test(html), "different listings cannot earn a lowest-price badge");
     assert(html.includes("Primary seller · may include resale") && html.includes("Resale marketplace"), "seller roles are explicit");
     assert(html.includes("From USD") && html.includes('data-cta-price-snapshot="present"'), "starting prices retain their currency and analytics");

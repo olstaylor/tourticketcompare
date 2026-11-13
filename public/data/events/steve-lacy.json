@@ -1132,7 +1132,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZJ84",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ84",
-    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/morrison-colorado-red-rocks-amphitheatre-2026-11-11-8-pm/concert/18485943",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-morrison-red-rocks-amphitheatre-11-11-2026--concerts-rb/production/7423370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZJ84",
@@ -1148,11 +1148,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18485943,
-        "url": "https://seatgeek.com/steve-lacy-tickets/morrison-colorado-red-rocks-amphitheatre-2026-11-11-8-pm/concert/18485943",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7423370,

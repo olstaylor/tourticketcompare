@@ -2894,5 +2894,58 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-new-york-tickets-10-15-2027/event/107680753"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-morrison-z7r9jz1aaadok",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-09-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAdoK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAdoK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAdoK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAdoK",
+        "discovery_event_id": "Z7r9jZ1AAAdoK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAdoK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAdoK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

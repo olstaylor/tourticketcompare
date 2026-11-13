@@ -521,6 +521,8 @@ Infrastructure/automation issues only — dated, short, actionable. Content and 
 
   The owner moved the account to **Workers Paid** on 2026-09-24. After that, a sample of 61 live URLs at 4 in parallel all answered 200.
 
+  **Follow-up, 2026-11-13 (agent):** with 5,000+ events, `/llms.txt` and `/sitemap.xml` cold builds were running past the cap (1102 on 3 of 6 and 2 of 4 requests). `/llms.txt`, `/sitemap.xml`, `/sitemap-index.xml` and `/sitemaps/*.xml` are now served from the Cache API (`functions/_edge-cache.js`): a good build is kept for a day per colo, served immediately, and refreshed in the background after 30 minutes, so a rebuild that is cut off leaves the last good copy in place. These files can therefore lag a deploy by up to about 30 minutes plus one request. If cold builds keep failing in a colo with no copy, cut the build cost or raise the cap.
+
   `wrangler.toml` now sets `[limits] cpu_ms = 2000` as a backstop against a runaway render being billed for the 30s default. Measured 2026-09-25, warm renders are ≤ 50 ms and the heaviest cold request is ~300 ms (`/api/shows?includePrices=true&…&limit=500` ~235 ms). If a legitimate route approaches 2000 ms it will answer 1102, so raise the cap before that happens. Moving back to the Free plan would bring this incident straight back; `limits` requires Paid.
 
 ### Resolved

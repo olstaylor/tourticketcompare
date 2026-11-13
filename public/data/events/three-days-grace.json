@@ -458,7 +458,7 @@
     "ticketmaster_event_id": "1E00636A30FAD861",
     "ticketmaster_url": "https://www.ticketmaster.com/club-level-seating-three-days-grace-denver-colorado-11-11-2026/event/1E00636A30FAD861",
     "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/denver-colorado-ball-arena-2026-11-11-7-pm/concert/17895166",
-    "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-denver-ball-arena-11-11-2026--concerts-hard-rock/production/6276796",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/club-level-seating-three-days-grace-denver-colorado-11-11-2026/event/1E00636A30FAD861",
     "last_verified_at": "2026-11-07",
@@ -480,11 +480,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6276796,
-        "url": "https://www.vividseats.com/three-days-grace-tickets-denver-ball-arena-11-11-2026--concerts-hard-rock/production/6276796",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -562,7 +562,7 @@
         "event_id": 6277283,
         "url": "https://www.vividseats.com/three-days-grace-tickets-nampa-ford-idaho-center-arena-11-14-2026--concerts-hard-rock/production/6277283",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -619,7 +619,7 @@
         "event_id": 6277525,
         "url": "https://www.vividseats.com/three-days-grace-tickets-spokane-numerica-veterans-arena-11-15-2026--concerts-hard-rock/production/6277525",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -692,7 +692,7 @@
         "event_id": 6276738,
         "url": "https://www.vividseats.com/three-days-grace-tickets-sacramento-golden-1-center-11-17-2026--concerts-hard-rock/production/6276738",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -936,7 +936,7 @@
         "event_id": 6276810,
         "url": "https://www.vividseats.com/three-days-grace-tickets-phoenix-talking-stick-resort-amphitheatre-11-21-2026--concerts-hard-rock/production/6276810",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1030,7 +1030,7 @@
         "event_id": 6276780,
         "url": "https://www.vividseats.com/three-days-grace-tickets-inglewood-intuit-dome-11-22-2026--concerts-hard-rock/production/6276780",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "stubhub": {

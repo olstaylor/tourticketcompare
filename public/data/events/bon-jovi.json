@@ -432,7 +432,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-toronto-rogers-stadium---toronto-8-7-2027--concerts-rock/production/7816771",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bon-jovi-forever-tour-toronto-ontario-08-07-2027/event/1000655B041F7CCB",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -477,41 +477,6 @@
     ],
     "presales": [
       {
-        "name": "Bon Jovi Fan Club Presale",
-        "start": "2026-11-11T13:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-11T13:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Presale",
-        "start": "2026-11-11T13:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-11-11T17:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "SiriusXM Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
         "name": "VIP Travel Packages Onsale",
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-06-24T02:00:00Z"
@@ -541,7 +506,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-south-bend-notre-dame-stadium-10-2-2027--concerts-rock/production/7816464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -582,36 +547,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Bon Jovi Fan Club Presale",
-        "start": "2026-11-11T13:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-11T13:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "SiriusXM Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-13T15:00:00Z",

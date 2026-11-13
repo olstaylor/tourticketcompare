@@ -1901,7 +1901,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-21-2027--concerts-rock/production/7850919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1957,28 +1957,6 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "APE Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T06:00:00Z"
-      },
-      {
-        "name": "Caesars Rewards Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T06:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T06:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365092",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365092/Journey-tickets-Wed-Apr-21-2027-Tahoe-Blue-Event-Center"
   },
@@ -1998,7 +1976,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-23-2027--concerts-rock/production/7850921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2054,28 +2032,6 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "APE Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T06:00:00Z"
-      },
-      {
-        "name": "Caesars Rewards Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T06:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T06:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365093",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365093/Journey-tickets-Fri-Apr-23-2027-Tahoe-Blue-Event-Center"
   }

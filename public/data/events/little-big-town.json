@@ -660,7 +660,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-chicago-illinois-11-19-2026/event/070064C47C531CFA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -716,11 +716,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Packages",
-        "start": "2026-06-12T15:00:00Z",
-        "end": "2026-11-13T04:00:00Z"
-      },
       {
         "name": "Chase Cardholder Preferred Tickets",
         "start": "2026-06-12T15:00:00Z",

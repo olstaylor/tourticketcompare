@@ -2016,7 +2016,7 @@
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-10-2027--concerts-rock/production/7861779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-10-2027/event/20006566BE954886",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2068,7 +2068,44 @@
     "status": "announced",
     "public_onsale_at": "2026-11-20T18:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367606",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367606/Tame-Impala-tickets-Wed-Feb-10-2027-BOK-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367606/Tame-Impala-tickets-Wed-Feb-10-2027-BOK-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Early Entry GA Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Early Entry GA",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-10T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tame-impala-2027-tlajomulco-de-zuniga-g5dvz_pmifp7m",
@@ -2086,7 +2123,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2122,7 +2159,23 @@
     "ticketmaster_discovery_event_id": "G5dVZ_pmifp7m",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Venta Fans",
+        "start": "2026-11-16T18:00:00Z",
+        "end": "2026-11-17T05:59:00Z"
+      },
+      {
+        "name": "Preventa Banamex",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tame-impala-2027-ciudad-de-mexico-1av8z_pgknd3rue",
@@ -2140,7 +2193,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-28-02-2027/event/1400656ABB4AF342",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2176,7 +2229,23 @@
     "ticketmaster_discovery_event_id": "1Av8Z_pGknD3Rue",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Venta Fans",
+        "start": "2026-11-16T18:00:00Z",
+        "end": "2026-11-17T05:59:00Z"
+      },
+      {
+        "name": "Preventa Banamex",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tame-impala-2027-ciudad-de-mexico-1av8z_pgklvjvrt",
@@ -2194,7 +2263,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-01-03-2027/event/1400656AC19817A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2230,6 +2299,22 @@
     "ticketmaster_discovery_event_id": "1Av8Z_pGklvJvrt",
     "timezone": "America/Mexico_City",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "OCESA"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Venta Fans",
+        "start": "2026-11-16T18:00:00Z",
+        "end": "2026-11-17T05:59:00Z"
+      },
+      {
+        "name": "Preventa Banamex",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:59:00Z"
+      }
+    ]
   }
 ]

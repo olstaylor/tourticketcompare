@@ -95,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-19-2027/production/7833565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-19-2027/event/22006567BE433B0A",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -137,14 +137,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Folk",
-    "presales": [
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      }
-    ]
+    "genre": "Folk"
   },
   {
     "id": "tm-the-avett-brothers-2027-orlando-1axzk4egkexosiu",
@@ -162,7 +155,7 @@
     "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-20-2027/production/7833523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -219,13 +212,6 @@
     ],
     "ticket_limit": 8,
     "genre": "Folk",
-    "presales": [
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367246",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367246/The-Avett-Brothers-tickets-Sat-Mar-20-2027-House-Of-Blues-Orlando"
   }

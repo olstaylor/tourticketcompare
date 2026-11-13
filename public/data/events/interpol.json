@@ -378,7 +378,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-hidalgo-payne-arena-3-19-2027/production/7745164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-hidalgo-texas-03-19-2027/event/3A006554F23A7AF3",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441,7 +441,14 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "2 for 1",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-interpol-2027-memphis-g5viz_4agmgrr",
@@ -533,7 +540,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-asheville-harrahs-cherokee-center-asheville-3-23-2027--concerts-rock/production/7745555",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-asheville-north-carolina-03-23-2027/event/2D00655440543977",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -588,7 +595,14 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8337025",
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337025/Interpol-tickets-Tue-Mar-23-2027-Thomas-Wolfe-Auditorium-at-Harrahs-Cherokee-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8337025/Interpol-tickets-Tue-Mar-23-2027-Thomas-Wolfe-Auditorium-at-Harrahs-Cherokee-Center",
+    "presales": [
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-interpol-2027-washington-1a4zk4kgkd5cf0g",

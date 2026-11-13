@@ -206,7 +206,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-santa-clara-california-05-22-2027/event/1C006562B1BE9D74",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279,6 +279,11 @@
         "name": "Artist Presale",
         "start": "2026-11-18T23:00:00Z",
         "end": "2026-11-19T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-18T23:00:00Z",
+        "end": "2026-11-19T06:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361511/Stray-Kids-tickets-Sat-May-22-2027-Levis-Stadium",
@@ -301,7 +306,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-san-diego-petco-park-5-25-2027/production/7832915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-san-diego-california-05-25-2027/event/0A006567FA6836E7",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -377,7 +382,8 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361512/Stray-Kids-tickets-Tue-May-25-2027-Petco-Park",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361512",
-    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-san-diego-tickets-5-25-2027/event/107681345"
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-san-diego-tickets-5-25-2027/event/107681345",
+    "ticket_limit": 4
   },
   {
     "id": "tm-stray-kids-2027-inglewood-vvg1iz_4slsivl",
@@ -395,7 +401,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-inglewood-sofi-stadium-5-29-2027/production/7832799",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-inglewood-california-05-29-2027/event/0A00655CEBC68D2B",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -465,9 +471,24 @@
         "end": "2026-11-18T22:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Packages",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-18T22:00:00Z"
+      },
+      {
         "name": "Artist Presale",
         "start": "2026-11-18T23:00:00Z",
         "end": "2026-11-19T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-18T23:00:00Z",
+        "end": "2026-11-19T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-19T23:00:00Z",
+        "end": "2027-05-29T17:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361513/Stray-Kids-tickets-Sat-May-29-2027-SoFi-Stadium",

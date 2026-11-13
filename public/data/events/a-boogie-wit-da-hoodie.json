@@ -780,7 +780,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-london-the-o2---london-1-27-2027--concerts-rap-hip-hop/production/7833211",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-london-27-01-2027/event/35006563D1117CA8",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -822,21 +822,8 @@
     },
     "ticketmaster_discovery_event_id": "1AgZk4NGkdo79wI",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T10:00:00Z",
+    "status": "on-sale",
     "genre": "Hip-Hop/Rap",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T10:00:00Z",
-        "end": "2026-11-13T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-12T10:00:00Z",
-        "end": "2026-11-13T09:00:00Z"
-      }
-    ],
     "ticket_limit": 6,
     "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-the-o2-arena-27-1-2027/event/107680811"
   },
@@ -856,7 +843,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-1-29-2027/production/7832747",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-29-01-2027/event/37006564DCC367A9",
-    "last_verified_at": "2026-11-09",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -912,35 +899,12 @@
     },
     "ticketmaster_discovery_event_id": "1AMZk40GkdjYUrt",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC UK LTD"
     ],
     "ticket_limit": 6,
     "genre": "Hip-Hop/Rap",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-11T10:00:00Z",
-        "end": "2026-11-13T09:00:00Z"
-      },
-      {
-        "name": "Co-op Presale",
-        "start": "2026-11-11T10:00:00Z",
-        "end": "2026-11-13T09:00:00Z"
-      },
-      {
-        "name": "Priority from O2",
-        "start": "2026-11-11T10:00:00Z",
-        "end": "2026-11-13T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-12T10:00:00Z",
-        "end": "2026-11-13T09:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361500",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live",
     "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-29-1-2027/event/107680659"
@@ -961,7 +925,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-manchester-31-01-2027/event/3700656CADFB8D1C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -996,7 +960,11 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_pGkwcXzVj",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T10:00:00Z"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Hip-Hop/Rap"
   }
 ]

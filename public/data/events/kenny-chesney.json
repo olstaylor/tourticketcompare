@@ -911,7 +911,7 @@
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-milwaukee-american-family-field-7-10-2027/production/7557296",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-milwaukee-wisconsin-07-10-2027/event/07006529C8079684",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -972,7 +972,7 @@
       {
         "name": "More Ticket Deals",
         "start": "2026-11-27T16:00:00Z",
-        "end": "2027-01-01T05:59:00Z"
+        "end": "2027-01-01T04:00:00Z"
       }
     ],
     "organizer_names": [

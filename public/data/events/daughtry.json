@@ -1391,7 +1391,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-san-antonio-texas-11-13-2026/event/3A0064CCF65A6281",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1443,13 +1443,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056809",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056809/Daughtry-tickets-Fri-Nov-13-2026-The-Aztec-Theatre",
-    "presales": [
-      {
-        "name": "$20 All In Special",
-        "start": "2026-10-07T15:32:00Z",
-        "end": "2026-11-13T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -3473,7 +3466,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-2-24-2027/production/7841789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3531,26 +3524,6 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Daughtrybe Fan Club Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",

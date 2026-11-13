@@ -6817,6 +6817,38 @@ function lifecycleHoldLabel(show) {
   return "This date's status is being checked, so ticket links are hidden for now.";
 }
 
+// Board cards fold the marketplaces that have no listed price for a date behind
+// one closed <details> (2026-11-13). A six-button card filled a whole phone
+// screen per date, and on the busiest boards most dates carry two or three
+// prices. The rule reads only what the card already shows: Ticketmaster and
+// every button with a fresh listed price stay visible, in the unchanged display
+// order; buttons reading "Check prices" move into the fold, still in order,
+// still plain tracked links in the server HTML. Commission plays no part.
+// Nothing folds when no button has a price (there is nothing to choose
+// between) or when the fold would hide fewer than two buttons (the summary row
+// costs as much as the button it hides).
+const CTA_FOLD_MIN_HIDDEN = 2;
+function splitCardCtaSpecs(ctaSpecs, fold = false) {
+  const hasPrice = (spec) => Boolean(spec.priceAmount && spec.priceAsOf);
+  if (!fold || !ctaSpecs.some(hasPrice)) return { shown: ctaSpecs, folded: [] };
+  const folded = ctaSpecs.filter((spec) => spec.provider !== "ticketmaster" && !hasPrice(spec));
+  if (folded.length < CTA_FOLD_MIN_HIDDEN) return { shown: ctaSpecs, folded: [] };
+  return { shown: ctaSpecs.filter((spec) => !folded.includes(spec)), folded };
+}
+
+function ctaFoldSummary(count) {
+  return `${count} more ticket sites with no listed price`;
+}
+
+// The card's button block: the visible group, then the folded group when
+// splitCardCtaSpecs folds any. `extraHtml` (the generic artist-page "Check
+// prices" buttons) follows the last button wherever that is.
+function renderCardCtaGroupsHtml(ctaSpecs, buttonHtml, { fold = false, extraHtml = "" } = {}) {
+  const { shown, folded } = splitCardCtaSpecs(ctaSpecs, fold);
+  if (!folded.length) return `<div class="provider-cta-group">${shown.map(buttonHtml).join("")}${extraHtml}</div>`;
+  return `<div class="provider-cta-group">${shown.map(buttonHtml).join("")}</div><details class="provider-cta-more"><summary>${escapeHtml(ctaFoldSummary(folded.length))}</summary><div class="provider-cta-group">${folded.map(buttonHtml).join("")}${extraHtml}</div></details>`;
+}
+
 function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableArtist = true, vividSeatsAvailable = false, artistName = "", marketplaceAvailability = {}, artistSlug = "", venueRuns = {}, presentation = {}) {
   const dateParts = showDatePartsServer(show.dateTimeISO, show.timezone);
   const location = showLocationServer(show);
@@ -6836,16 +6868,13 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     const onsaleHtml = `<p class="disclosure-note" data-public-onsale>${escapeHtml(publicOnsaleLabel(show))}${ctaSpecs.length ? " Until then, these are resale listings, which can sit above face value." : ""}</p>`;
     if (ctaSpecs.length) {
       const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
-      const buttonsHtml = ctaSpecs
-        .map((spec) =>
-          renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
-            ...analyticsBase,
-            provider: spec.provider
-          })
-        )
-        .join("");
+      const buttonHtml = (spec) =>
+        renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
+          ...analyticsBase,
+          provider: spec.provider
+        });
       const historyHtml = hasApprovedServerPriceSnapshot(show) ? renderPriceHistoryPanelHtml(artistSlug, show.id) : "";
-      ctaHtml = `${onsaleHtml}${ctaCountLineHtml(ctaSpecs)}<div class="provider-cta-group">${buttonsHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
+      ctaHtml = `${onsaleHtml}${ctaCountLineHtml(ctaSpecs)}${renderCardCtaGroupsHtml(ctaSpecs, buttonHtml, { fold: presentation.foldUnpriced === true })}${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}`;
     } else {
       ctaHtml = onsaleHtml;
     }
@@ -6868,21 +6897,18 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       // replaces "Check prices" with the amount, without moving the provider or
       // splitting the card into separate priced and unpriced sections.
       const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
-      const buttonsHtml = ctaSpecs
-        .map((spec) =>
-          renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
-            ...analyticsBase,
-            provider: spec.provider
-          })
-        )
-        .join("");
+      const buttonHtml = (spec) =>
+        renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
+          ...analyticsBase,
+          provider: spec.provider
+        });
       // The buttons are the only outbound links on the card — there is no
       // second "compare" link to double-count a click through.
       const countHtml = ctaCountLineHtml(ctaSpecs);
       const historyHtml = hasApprovedServerPriceSnapshot(show)
         ? renderPriceHistoryPanelHtml(artistSlug, show.id)
         : "";
-      ctaHtml = `${countHtml}<div class="provider-cta-group">${buttonsHtml}${checkButtonHtml}</div>${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}${checkNoteHtml}`;
+      ctaHtml = `${countHtml}${renderCardCtaGroupsHtml(ctaSpecs, buttonHtml, { fold: presentation.foldUnpriced === true, extraHtml: checkButtonHtml })}${renderServerPriceNotes(ctaSpecs, pricesWereChecked(show), show)}${historyHtml}${checkNoteHtml}`;
     } else if (checkButtonHtml) {
       ctaHtml = `<p class="disclosure-note">No ticket link for this date yet.</p><div class="provider-cta-group">${checkButtonHtml}</div>${checkNoteHtml}`;
     }
@@ -7113,7 +7139,8 @@ function renderShowBoardServerHtml(shows, seatGeekAvailable = false, isIndexable
         .map((show) =>
           renderShowCardServerHtml(show, seatGeekAvailable, isIndexableArtist, vividSeatsAvailable, artistName, marketplaceAvailability, artistSlug, venueRuns, {
             supplementalHtml: showDetailsLinkHtml(eventPageLinkFor ? eventPageLinkFor(show.id) : "", show),
-            artistChecks
+            artistChecks,
+            foldUnpriced: true
           })
         )
         .join("")

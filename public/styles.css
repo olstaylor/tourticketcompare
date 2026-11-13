@@ -3259,3 +3259,27 @@ code {
    dashed and quieter than the exact-date buttons so the two read as different. */
 .show-card .provider-cta-general { border-style: dashed; background: transparent; }
 .show-card .provider-cta-general .provider-cta-role { font-weight: 650; }
+
+/* Board cards: marketplaces with no listed price for the date sit behind one
+   closed row, so a date takes about half a phone screen instead of a whole
+   one. The summary is a full-width 44px tap target. */
+.show-card .provider-cta-more { width: 100%; margin: 0; padding: 0; border: 0; }
+.show-card .provider-cta-more > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1px dashed var(--line);
+  border-radius: 12px;
+  cursor: pointer;
+  list-style: none;
+  font-size: .85rem;
+  font-weight: 650;
+  color: var(--ink-soft);
+}
+.show-card .provider-cta-more > summary::-webkit-details-marker { display: none; }
+.show-card .provider-cta-more > summary::after { content: "+"; font-size: 1.1rem; line-height: 1; }
+.show-card .provider-cta-more[open] > summary::after { content: "\2212"; }
+.show-card .provider-cta-more > .provider-cta-group { margin-top: 8px; }

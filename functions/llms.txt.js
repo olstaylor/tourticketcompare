@@ -14,6 +14,7 @@ import { eventLifecycleHeld } from "./_route-indexability.js";
 import { deriveToursHub, TOURS_HUB_PATH } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import { WORTH_WAITING_PATH, WORTH_WAITING_INDEXABLE } from "./_worth-waiting.js";
+import { withEdgeCache } from "./_edge-cache.js";
 
 // llms.txt (https://llmstxt.org) — a curated index for answer engines and AI
 // crawlers. Derived from _route-metadata.js and the artist data files (the
@@ -220,7 +221,7 @@ function linkLine(origin, path, name, description) {
   return `- [${name}](${origin}${path})${suffix}`;
 }
 
-export async function onRequestGet({ request, env }) {
+export const onRequestGet = withEdgeCache(async function llmsHandler({ request, env }) {
   const requestUrl = new URL(request.url);
   const origin = canonicalOrigin(`${requestUrl.protocol}//${requestUrl.host}`);
 
@@ -396,4 +397,4 @@ ${eventLines.join("\n")}
       "Cache-Control": "public, max-age=3600"
     }
   });
-}
+});

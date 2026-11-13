@@ -9962,11 +9962,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162476",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-atlanta-tickets-11-12-2026/event/107162476",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -9975,7 +9975,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_aUW8bjb",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921664",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-atlanta-tickets-11-12-2026/event/107162476",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -45166,7 +45166,7 @@
         "event_id": "107669953",
         "url": "https://www.stubhub.ie/metallica-uncasville-tickets-11-19-2026/event/107669953",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       }
     },
@@ -45323,7 +45323,7 @@
         "event_id": "107132084",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-1-28-2027/event/107132084",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       }
     },
@@ -45501,7 +45501,7 @@
         "event_id": "107133087",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-4-2027/event/107133087",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       }
     },
@@ -45679,7 +45679,7 @@
         "event_id": "107133091",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-18-2027/event/107133091",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       }
     },
@@ -45857,7 +45857,7 @@
         "event_id": "107133093",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-2-25-2027/event/107133093",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       }
     },
@@ -78162,17 +78162,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107673492",
-        "url": "https://www.stubhub.ie/stella-lefty-tickets-amsterdam-melkweg-13-3-2027/event/107673492",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vj_PxbP",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-tickets-amsterdam-melkweg-13-3-2027/event/107673492",
+    "stubhub_international_url": "",
     "genre": "Rock"
   },
   {
@@ -140565,7 +140565,7 @@
         "event_id": "107133097",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-4-2027/event/107133097",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       }
     },
@@ -140743,7 +140743,7 @@
         "event_id": "107133099",
         "url": "https://www.stubhub.ie/metallica-las-vegas-tickets-3-11-2027/event/107133099",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       }
     },
@@ -179351,6 +179351,13 @@
         "verified": true,
         "last_verified_at": "2026-10-04",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672015",
+        "url": "https://www.stubhub.ie/fontaines-d-c-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-5-5-2027/event/107672015",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkUPzETr",
@@ -179363,7 +179370,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-5-5-2027/event/107672015"
   },
   {
     "id": "tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c",
@@ -186787,11 +186795,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107121125",
-        "url": "https://www.stubhub.ie/the-neighbourhood-miami-tickets-11-12-2026/event/107121125",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_7E0samZ",
@@ -186799,7 +186807,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748318",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748318/The-Neighbourhood-tickets-Thu-Nov-12-2026-Kaseya-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-miami-tickets-11-12-2026/event/107121125",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -287522,11 +287530,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107482399",
-        "url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8195882",
@@ -287540,7 +287548,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8195882/Dave-Matthews-Band-tickets-Thu-Nov-12-2026-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-12-2026/event/107482399",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -300184,17 +300192,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107679179",
-        "url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179",
-        "verified": true,
-        "last_verified_at": "2026-11-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_fGkXe60v9",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179",
+    "stubhub_international_url": "",
     "ticket_limit": 8,
     "genre": "Rock"
   },
@@ -303265,11 +303273,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107167136",
-        "url": "https://www.stubhub.ie/treaty-oak-revival-austin-tickets-11-12-2026/event/107167136",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_19twyeH",
@@ -303277,7 +303285,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7944768",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7944768/Treaty-Oak-Revival-tickets-Thu-Nov-12-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/treaty-oak-revival-austin-tickets-11-12-2026/event/107167136",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -315196,7 +315204,7 @@
         "event_id": "107672199",
         "url": "https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -337771,6 +337779,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679578",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-sevilla-plaza-de-espana-de-sevilla-7-7-2027/event/107679578",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v3duZrF",
@@ -337779,7 +337794,8 @@
     "organizer_names": [
       "Live Nation España S.A.U."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-sevilla-plaza-de-espana-de-sevilla-7-7-2027/event/107679578"
   },
   {
     "id": "tm-u2-2027-stockholm-z698xzq2z16v-3vzat",
@@ -354175,11 +354191,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107140085",
-        "url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-12-2026/event/107140085",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_A0AG7lcYC",
@@ -354187,7 +354203,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772528",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-12-2026/event/107140085",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -380656,6 +380672,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680207",
+        "url": "https://www.stubhub.ie/gorillaz-tickets-mexico-city-palacio-de-los-deportes-11-12-2026/event/107680207",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_4GkM7aQRi",
@@ -380677,7 +380700,8 @@
         "start": "2026-11-13T17:00:00Z",
         "end": "2026-11-14T05:59:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/gorillaz-tickets-mexico-city-palacio-de-los-deportes-11-12-2026/event/107680207"
   },
   {
     "id": "tm-zach-top-2027-thackerville-z7r9jz1aaaeap",
@@ -380794,6 +380818,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680651",
+        "url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-30-4-2027/event/107680651",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZq2Z16vvEjtvk",
@@ -380804,7 +380835,8 @@
     "organizer_names": [
       "Nationalarenan i Solna AB"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-30-4-2027/event/107680651"
   },
   {
     "id": "tm-kings-of-leon-2027-bristow-1ka8vp__gaurfu5",
@@ -382449,6 +382481,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680303",
+        "url": "https://www.stubhub.ie/kings-of-leon-seattle-tickets-9-15-2027/event/107680303",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p57x6W0",
@@ -382493,7 +382532,8 @@
         "start": "2026-11-13T17:00:00Z",
         "end": "2027-08-17T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-seattle-tickets-9-15-2027/event/107680303"
   },
   {
     "id": "tm-kings-of-leon-2027-mountain-view-g5vyz_p1j_6oc",
@@ -382663,6 +382703,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680304",
+        "url": "https://www.stubhub.ie/kings-of-leon-inglewood-tickets-9-18-2027/event/107680304",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkdYVvZ_",
@@ -382707,7 +382754,8 @@
         "start": "2026-11-13T17:00:00Z",
         "end": "2027-08-20T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-inglewood-tickets-9-18-2027/event/107680304"
   },
   {
     "id": "tm-kings-of-leon-2027-phoenix-1a_zk4xgkewyfnx",
@@ -382877,6 +382925,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680305",
+        "url": "https://www.stubhub.ie/kings-of-leon-austin-tickets-9-26-2027/event/107680305",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pK2f12G",
@@ -382931,7 +382986,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-08-30T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-austin-tickets-9-26-2027/event/107680305"
   },
   {
     "id": "tm-kings-of-leon-2027-fort-worth-vvg1yz_4lzyuso",
@@ -382994,6 +383050,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680747",
+        "url": "https://www.stubhub.ie/kings-of-leon-fort-worth-tickets-9-28-2027/event/107680747",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4lZyUSo",
@@ -383038,7 +383101,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-08-30T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-fort-worth-tickets-9-28-2027/event/107680747"
   },
   {
     "id": "tm-kings-of-leon-2027-alpharetta-vvg1zz_pch0zpt",
@@ -383208,6 +383272,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680749",
+        "url": "https://www.stubhub.ie/kings-of-leon-orlando-tickets-10-1-2027/event/107680749",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk40GkdkpVF2",
@@ -383252,7 +383323,8 @@
         "start": "2026-11-13T14:00:00Z",
         "end": "2027-09-02T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-orlando-tickets-10-1-2027/event/107680749"
   },
   {
     "id": "tm-kings-of-leon-2027-raleigh-g5evz_p3nejt5",
@@ -383840,6 +383912,13 @@
         "verified": true,
         "last_verified_at": "2026-11-07",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680753",
+        "url": "https://www.stubhub.ie/kings-of-leon-new-york-tickets-10-15-2027/event/107680753",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_4_HY-cs",
@@ -383893,7 +383972,8 @@
         "start": "2026-11-13T14:00:00Z",
         "end": "2027-10-16T01:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/kings-of-leon-new-york-tickets-10-15-2027/event/107680753"
   },
   {
     "id": "tm-mercyme-2027-johnson-city-z7r9jz1aa7mot",
@@ -385559,6 +385639,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680710",
+        "url": "https://www.stubhub.ie/feid-orlando-tickets-2-5-2027/event/107680710",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4xGkdpcfe6",
@@ -385583,7 +385670,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-01T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-orlando-tickets-2-5-2027/event/107680710"
   },
   {
     "id": "tm-feid-2027-tampa-vvg1vz_p2nz_05",
@@ -385646,6 +385734,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681460",
+        "url": "https://www.stubhub.ie/feid-tampa-tickets-2-6-2027/event/107681460",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p2Nz_05",
@@ -385669,7 +385764,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-02T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-tampa-tickets-2-6-2027/event/107681460"
   },
   {
     "id": "tm-feid-2027-miami-vvg1vz_p5_ebxl",
@@ -385732,6 +385828,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680293",
+        "url": "https://www.stubhub.ie/feid-miami-tickets-2-11-2027/event/107680293",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p5_eBXl",
@@ -385755,7 +385858,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-07T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-miami-tickets-2-11-2027/event/107680293"
   },
   {
     "id": "tm-feid-2027-duluth-vvg1zz_p1ly9za",
@@ -385905,6 +386009,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681453",
+        "url": "https://www.stubhub.ie/feid-charlotte-tickets-2-20-2027/event/107681453",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p1wkIzE",
@@ -385928,7 +386039,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-16T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-charlotte-tickets-2-20-2027/event/107681453"
   },
   {
     "id": "tm-feid-2027-boston-vv1a8vpbygagvprx",
@@ -385991,6 +386103,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680712",
+        "url": "https://www.stubhub.ie/feid-boston-tickets-2-23-2027/event/107680712",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A8vPbyGAGVprx",
@@ -386015,7 +386134,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-21T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-boston-tickets-2-23-2027/event/107680712"
   },
   {
     "id": "tm-feid-2027-washington-15vfz_ffz04-_",
@@ -386078,6 +386198,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680295",
+        "url": "https://www.stubhub.ie/feid-washington-tickets-2-25-2027/event/107680295",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15vfZ_ffz04-_",
@@ -386102,7 +386229,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-21T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-washington-tickets-2-25-2027/event/107680295"
   },
   {
     "id": "tm-feid-2027-philadelphia-1ayzk4pgkel60vj",
@@ -386251,6 +386379,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680713",
+        "url": "https://www.stubhub.ie/feid-brooklyn-tickets-3-3-2027/event/107680713",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dZZ_p3oG7m3PL",
@@ -386275,7 +386410,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-27T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-brooklyn-tickets-3-3-2027/event/107680713"
   },
   {
     "id": "tm-feid-2027-toronto-1a8zk4xgkenbgje",
@@ -386492,6 +386628,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680719",
+        "url": "https://www.stubhub.ie/feid-chicago-tickets-3-18-2027/event/107680719",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4xGkdhJEOW",
@@ -386521,7 +386664,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-03-19T00:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-chicago-tickets-3-18-2027/event/107680719"
   },
   {
     "id": "tm-feid-2027-dallas-vvg1yz_pkmsn11",
@@ -386584,6 +386728,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681458",
+        "url": "https://www.stubhub.ie/feid-dallas-tickets-3-24-2027/event/107681458",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pKMsN11",
@@ -386613,7 +386764,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-03-25T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-dallas-tickets-3-24-2027/event/107681458"
   },
   {
     "id": "tm-feid-2027-austin-g5diz_pkrkhdd",
@@ -386763,6 +386915,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681444",
+        "url": "https://www.stubhub.ie/feid-denver-tickets-3-31-2027/event/107681444",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pKRLpf6",
@@ -386787,7 +386946,8 @@
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-03-27T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-denver-tickets-3-31-2027/event/107681444"
   },
   {
     "id": "tm-feid-2027-seattle-vvg1hz_pkvb_3-",
@@ -386937,6 +387097,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681488",
+        "url": "https://www.stubhub.ie/feid-portland-tickets-4-6-2027/event/107681488",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pCKgfMh",
@@ -386961,7 +387128,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-02T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-portland-tickets-4-6-2027/event/107681488"
   },
   {
     "id": "tm-feid-2027-sacramento-g5vyz_p5pdckj",
@@ -387295,6 +387463,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681487",
+        "url": "https://www.stubhub.ie/feid-fresno-tickets-4-13-2027/event/107681487",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pCEWaOX",
@@ -387319,7 +387494,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-09T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-fresno-tickets-4-13-2027/event/107681487"
   },
   {
     "id": "tm-feid-2027-phoenix-1a_zk4ngkd1yaxd",
@@ -387382,6 +387558,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681464",
+        "url": "https://www.stubhub.ie/feid-phoenix-tickets-4-15-2027/event/107681464",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4NGkd1yAXd",
@@ -387410,7 +387593,8 @@
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-04-11T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-phoenix-tickets-4-15-2027/event/107681464"
   },
   {
     "id": "tm-feid-2027-san-diego-vvg1iz_p2x3bok",
@@ -387560,6 +387744,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680299",
+        "url": "https://www.stubhub.ie/feid-anaheim-tickets-4-25-2027/event/107680299",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkd1rcLp",
@@ -387584,7 +387775,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-21T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-anaheim-tickets-4-25-2027/event/107680299"
   },
   {
     "id": "tm-feid-2027-inglewood-vv1aazk4ngkdggctr",
@@ -387647,6 +387839,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680733",
+        "url": "https://www.stubhub.ie/feid-inglewood-tickets-4-29-2027/event/107680733",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkdGgctR",
@@ -387671,7 +387870,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-25T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-inglewood-tickets-4-29-2027/event/107680733"
   },
   {
     "id": "tm-feid-2027-tlajomulco-de-zuniga-g5dvz_p310vkr",
@@ -387785,6 +387985,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681349",
+        "url": "https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-21-5-2027/event/107681349",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_4GkTI0z0z",
@@ -387801,7 +388008,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-05-22T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-21-5-2027/event/107681349"
   },
   {
     "id": "tm-raye-2027-bergen-z698xzb_z16vgzpeao",
@@ -387915,6 +388123,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680811",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-the-o2-arena-27-1-2027/event/107680811",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4NGkdo79wI",
@@ -387934,7 +388149,8 @@
         "end": "2026-11-13T09:00:00Z"
       }
     ],
-    "ticket_limit": 6
+    "ticket_limit": 6,
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-the-o2-arena-27-1-2027/event/107680811"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-manchester-1amzk40gkdjyurt",
@@ -387997,6 +388213,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680659",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-29-1-2027/event/107680659",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk40GkdjYUrt",
@@ -388031,7 +388254,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361500",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-29-1-2027/event/107680659"
   },
   {
     "id": "tm-mariah-carey-2027-exeter-g5vhz_f0acb90",
@@ -388080,6 +388304,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680288",
+        "url": "https://www.stubhub.ie/mariah-carey-tickets-exeter-powderham-castle-27-6-2027/event/107680288",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_f0ACb90",
@@ -388090,7 +388321,8 @@
       "CUFFE & TAYLOR (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-exeter-powderham-castle-27-6-2027/event/107680288"
   },
   {
     "id": "tm-mariah-carey-2027-cardiff-g5vhz_feidjq8",
@@ -388139,6 +388371,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680285",
+        "url": "https://www.stubhub.ie/mariah-carey-tickets-cardiff-cardiff-castle-29-6-2027/event/107680285",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_fEIdJq8",
@@ -388177,7 +388416,8 @@
         "start": "2026-11-12T09:00:00Z",
         "end": "2026-11-13T08:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-cardiff-cardiff-castle-29-6-2027/event/107680285"
   },
   {
     "id": "tm-mariah-carey-2027-woodstock-1amzk4pgkevlzix",
@@ -388317,6 +388557,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680279",
+        "url": "https://www.stubhub.ie/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-3-7-2027/event/107680279",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk49Gkd3HQbT",
@@ -388351,7 +388598,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365855",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365855/Mariah-Carey-tickets-Sat-Jul-3-2027-Scarborough-Open-Air-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365855/Mariah-Carey-tickets-Sat-Jul-3-2027-Scarborough-Open-Air-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-3-7-2027/event/107680279"
   },
   {
     "id": "tm-fall-out-boy-2027-praha-9-z698xzu0z16eepqfuf",
@@ -388511,6 +388759,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680313",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-madrid-movistar-arena-palacio-de-los-deportes-23-5-2027/event/107680313",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k83O_fe",
@@ -388519,7 +388774,8 @@
     "organizer_names": [
       "Live Nation España Red Path SL"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-madrid-movistar-arena-palacio-de-los-deportes-23-5-2027/event/107680313"
   },
   {
     "id": "tm-fall-out-boy-2027-brussels-z698xzg2z16vfjc3ef",
@@ -388568,6 +388824,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681327",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-brussels-ing-arena-27-5-2027/event/107681327",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vfJC3ef",
@@ -388589,7 +388852,8 @@
         "start": "2026-11-12T11:00:00Z",
         "end": "2026-11-13T10:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-brussels-ing-arena-27-5-2027/event/107681327"
   },
   {
     "id": "tm-fall-out-boy-2027-glasgow-1kuovp_ega1oorm",
@@ -388652,6 +388916,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680316",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-glasgow-ovo-hydro-arena-glasgow-30-5-2027/event/107680316",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kuOvP_EGA1OoRM",
@@ -388677,7 +388948,8 @@
         "start": "2026-11-11T12:00:00Z",
         "end": "2026-11-13T12:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-glasgow-ovo-hydro-arena-glasgow-30-5-2027/event/107680316"
   },
   {
     "id": "tm-fall-out-boy-2027-dublin-1abzk4xgkdbhdty",
@@ -388829,6 +389101,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681319",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-manchester-co-op-live-3-6-2027/event/107681319",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4PGkdukzS6",
@@ -388858,7 +389137,8 @@
         "start": "2026-11-11T12:00:00Z",
         "end": "2026-11-12T11:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-manchester-co-op-live-3-6-2027/event/107681319"
   },
   {
     "id": "tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa",
@@ -388907,6 +389187,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680315",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-london-tottenham-hotspur-stadium-5-6-2027/event/107680315",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_4GkXmx9XA",
@@ -388926,7 +389213,8 @@
         "start": "2026-11-11T12:00:00Z",
         "end": "2026-11-12T11:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-london-tottenham-hotspur-stadium-5-6-2027/event/107680315"
   },
   {
     "id": "tm-fall-out-boy-2027-amsterdam-z698xzbpz16vv-vwva",
@@ -388989,6 +389277,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681325",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-amsterdam-ziggo-dome-8-6-2027/event/107681325",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vv-vwvA",
@@ -388999,7 +389294,8 @@
     ],
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365871",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365871/Fall-Out-Boy-tickets-Tue-Jun-8-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365871/Fall-Out-Boy-tickets-Tue-Jun-8-2027-Ziggo-Dome",
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-amsterdam-ziggo-dome-8-6-2027/event/107681325"
   },
   {
     "id": "tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj",
@@ -389048,6 +389344,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680762",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-lodz-atlas-arena-13-6-2027/event/107680762",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16evYZ9fJ",
@@ -389069,7 +389372,8 @@
         "start": "2026-11-12T11:00:00Z",
         "end": "2026-11-13T10:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-lodz-atlas-arena-13-6-2027/event/107680762"
   },
   {
     "id": "tm-fall-out-boy-2027-arlington-vvg1yz_potb4m0",
@@ -392745,6 +393049,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680736",
+        "url": "https://www.stubhub.ie/stray-kids-seattle-tickets-5-16-2027/event/107680736",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pF4iifZ",
@@ -392769,7 +393080,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361510/Stray-Kids-tickets-Sun-May-16-2027-Lumen-Field",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361510"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361510",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-seattle-tickets-5-16-2027/event/107680736"
   },
   {
     "id": "tm-stray-kids-2027-vancouver-1aozk4pgkepqkay",
@@ -392832,6 +393144,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680740",
+        "url": "https://www.stubhub.ie/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/event/107680740",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4PGkePQkAy",
@@ -392857,7 +393176,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361523"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361523",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/event/107680740"
   },
   {
     "id": "tm-stray-kids-2027-santa-clara-g5vyz_p1srtgv",
@@ -392920,6 +393240,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680741",
+        "url": "https://www.stubhub.ie/stray-kids-santa-clara-tickets-5-22-2027/event/107680741",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p1sRtgV",
@@ -392944,7 +393271,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361511/Stray-Kids-tickets-Sat-May-22-2027-Levis-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361511"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361511",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-santa-clara-tickets-5-22-2027/event/107680741"
   },
   {
     "id": "tm-stray-kids-2027-san-diego-vvg1iz_plbqdhe",
@@ -393007,6 +393335,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681345",
+        "url": "https://www.stubhub.ie/stray-kids-san-diego-tickets-5-25-2027/event/107681345",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pLBQdhE",
@@ -393030,7 +393365,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361512/Stray-Kids-tickets-Tue-May-25-2027-Petco-Park",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361512"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361512",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-san-diego-tickets-5-25-2027/event/107681345"
   },
   {
     "id": "tm-stray-kids-2027-inglewood-vvg1iz_4slsivl",
@@ -393093,6 +393429,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680300",
+        "url": "https://www.stubhub.ie/stray-kids-inglewood-tickets-5-29-2027/event/107680300",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4SlsIVl",
@@ -393117,7 +393460,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361513/Stray-Kids-tickets-Sat-May-29-2027-SoFi-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361513"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361513",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-inglewood-tickets-5-29-2027/event/107680300"
   },
   {
     "id": "tm-stray-kids-2027-houston-g5diz_p4wwnf8",
@@ -393180,6 +393524,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681340",
+        "url": "https://www.stubhub.ie/stray-kids-houston-tickets-6-5-2027/event/107681340",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_p4WWnf8",
@@ -393203,7 +393554,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361515/Stray-Kids-tickets-Sat-Jun-5-2027-Reliant-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361515"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361515",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-houston-tickets-6-5-2027/event/107681340"
   },
   {
     "id": "tm-stray-kids-2027-atlanta-vvg1zz_phzq3g7",
@@ -393266,6 +393618,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680301",
+        "url": "https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_phZq3g7",
@@ -393289,7 +393648,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361516/Stray-Kids-tickets-Tue-Jun-8-2027-Mercedes-Benz-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361516"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361516",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301"
   },
   {
     "id": "tm-stray-kids-2027-miami-vvg1vz_ppnraxv",
@@ -393352,6 +393712,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680302",
+        "url": "https://www.stubhub.ie/stray-kids-miami-gardens-tickets-6-11-2027/event/107680302",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_ppNRAxv",
@@ -393386,7 +393753,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361517/Stray-Kids-tickets-Fri-Jun-11-2027-Hard-Rock-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361517"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361517",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-miami-gardens-tickets-6-11-2027/event/107680302"
   },
   {
     "id": "tm-stray-kids-2027-orlando-1axzk40gkdehatj",
@@ -393449,6 +393817,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680790",
+        "url": "https://www.stubhub.ie/stray-kids-orlando-tickets-6-14-2027/event/107680790",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk40GkdEHATJ",
@@ -393483,7 +393858,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361518/Stray-Kids-tickets-Mon-Jun-14-2027-Camping-World-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361518"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361518",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-orlando-tickets-6-14-2027/event/107680790"
   },
   {
     "id": "tm-stray-kids-2027-chicago-vv1a7zk4ngkdhgi8m",
@@ -393546,6 +393922,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680744",
+        "url": "https://www.stubhub.ie/stray-kids-chicago-tickets-6-18-2027/event/107680744",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4NGkdhgI8m",
@@ -393570,7 +393953,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361519/Stray-Kids-tickets-Fri-Jun-18-2027-Soldier-Field",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361519"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361519",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-chicago-tickets-6-18-2027/event/107680744"
   },
   {
     "id": "tm-stray-kids-2027-toronto-1avzz_4gkdmari8",
@@ -393705,6 +394089,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680746",
+        "url": "https://www.stubhub.ie/stray-kids-east-rutherford-tickets-6-29-2027/event/107680746",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pCNX6a9",
@@ -393728,7 +394119,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361522/Stray-Kids-tickets-Tue-Jun-29-2027-MetLife-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361522"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361522",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-east-rutherford-tickets-6-29-2027/event/107680746"
   },
   {
     "id": "tm-stray-kids-2027-munich-z698xzc2z1kazaygz",
@@ -394776,6 +395168,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680298",
+        "url": "https://www.stubhub.ie/marc-anthony-brooklyn-tickets-4-8-2027/event/107680298",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZvPoNGA5JaT7",
@@ -394825,7 +395224,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361877/Marc-Anthony-tickets-Thu-Apr-8-2027-Barclays-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361877"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361877",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-brooklyn-tickets-4-8-2027/event/107680298"
   },
   {
     "id": "tm-marc-anthony-2027-reading-vv17fz_fgkxhnllx",
@@ -395000,6 +395400,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680728",
+        "url": "https://www.stubhub.ie/marc-anthony-newark-tickets-4-15-2027/event/107680728",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk44GkdQ27W-",
@@ -395049,7 +395456,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361879/Marc-Anthony-tickets-Thu-Apr-15-2027-Prudential-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361879"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361879",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-newark-tickets-4-15-2027/event/107680728"
   },
   {
     "id": "tm-marc-anthony-2027-chicago-vv1a7zk48gkervqur",
@@ -395112,6 +395520,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680731",
+        "url": "https://www.stubhub.ie/marc-anthony-chicago-tickets-4-17-2027/event/107680731",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk48GkeRVQUr",
@@ -395160,7 +395575,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361880/Marc-Anthony-tickets-Sat-Apr-17-2027-United-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361880"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361880",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-chicago-tickets-4-17-2027/event/107680731"
   },
   {
     "id": "tm-marc-anthony-2027-charlotte-g5evz_flstq5b",
@@ -395223,6 +395639,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680309",
+        "url": "https://www.stubhub.ie/marc-anthony-charlotte-tickets-4-23-2027/event/107680309",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fLsTq5b",
@@ -395271,7 +395694,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361881/Marc-Anthony-tickets-Fri-Apr-23-2027-Spectrum-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361881"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361881",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-charlotte-tickets-4-23-2027/event/107680309"
   },
   {
     "id": "tm-marc-anthony-2027-tampa-vvg1vz_fqozpda",
@@ -395334,6 +395758,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680757",
+        "url": "https://www.stubhub.ie/marc-anthony-tampa-tickets-4-25-2027/event/107680757",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fQOzpDa",
@@ -395377,7 +395808,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361882/Marc-Anthony-tickets-Sun-Apr-25-2027-Benchmark-International-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361882"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361882",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-tampa-tickets-4-25-2027/event/107680757"
   },
   {
     "id": "tm-marc-anthony-2027-san-antonio-g5diz_fdkjtum",
@@ -395440,6 +395872,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680732",
+        "url": "https://www.stubhub.ie/marc-anthony-san-antonio-tickets-4-29-2027/event/107680732",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fDKJTUM",
@@ -395489,7 +395928,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361884/Marc-Anthony-tickets-Thu-Apr-29-2027-Frost-Bank-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361884"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361884",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-san-antonio-tickets-4-29-2027/event/107680732"
   },
   {
     "id": "tm-marc-anthony-2027-anaheim-vv170z_fgkmcohlk",
@@ -395552,6 +395992,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680735",
+        "url": "https://www.stubhub.ie/marc-anthony-anaheim-tickets-5-9-2027/event/107680735",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_fGkMCOHLK",
@@ -395601,7 +396048,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361885/Marc-Anthony-tickets-Sun-May-9-2027-Honda-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361885"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361885",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-anaheim-tickets-5-9-2027/event/107680735"
   },
   {
     "id": "tm-marc-anthony-2027-denver-g5vzz_fdioiid",
@@ -395664,6 +396112,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680310",
+        "url": "https://www.stubhub.ie/marc-anthony-denver-tickets-5-13-2027/event/107680310",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fDIoiiD",
@@ -395713,7 +396168,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361886/Marc-Anthony-tickets-Thu-May-13-2027-Ball-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361886"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361886",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-denver-tickets-5-13-2027/event/107680310"
   },
   {
     "id": "tm-marc-anthony-2027-san-francisco-g5vyz_4uwqlns",
@@ -395776,6 +396232,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680738",
+        "url": "https://www.stubhub.ie/marc-anthony-san-francisco-tickets-5-16-2027/event/107680738",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4UwQlnS",
@@ -395827,7 +396290,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361887/Marc-Anthony-tickets-Sun-May-16-2027-Chase-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361887"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361887",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-san-francisco-tickets-5-16-2027/event/107680738"
   },
   {
     "id": "tm-air-supply-2027-wallingford-g5vvz_4snzvtx",
@@ -397874,6 +398338,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681619",
+        "url": "https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-22-5-2027/event/107681619",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_4GkTI0zP7",
@@ -397890,7 +398361,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-05-23T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-22-5-2027/event/107681619"
   },
   {
     "id": "tm-fall-out-boy-2027-seattle-vvg1hz_p5fubur",
@@ -399933,13 +400405,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679491",
+        "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-29-2027/event/107679491",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wo7",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347752",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347752/Noah-Kahan-tickets-Sat-May-29-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347752/Noah-Kahan-tickets-Sat-May-29-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-29-2027/event/107679491"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wof",
@@ -400002,13 +400482,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679492",
+        "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-30-2027/event/107679492",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wof",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347753",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347753/Noah-Kahan-tickets-Sun-May-30-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347753/Noah-Kahan-tickets-Sun-May-30-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-30-2027/event/107679492"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wo4",
@@ -400071,13 +400559,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679493",
+        "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-1-2027/event/107679493",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wo4",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347754",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347754/Noah-Kahan-tickets-Tue-Jun-1-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347754/Noah-Kahan-tickets-Tue-Jun-1-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-1-2027/event/107679493"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wo9",
@@ -400140,13 +400636,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678748",
+        "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-2-2027/event/107678748",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wo9",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347755",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347755/Noah-Kahan-tickets-Wed-Jun-2-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347755/Noah-Kahan-tickets-Wed-Jun-2-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-2-2027/event/107678748"
   },
   {
     "id": "tm-phoebe-bridgers-2027-portland-vvg1hz_pjbo4da",
@@ -402422,13 +402926,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681450",
+        "url": "https://www.stubhub.ie/feid-houston-tickets-3-25-2027/event/107681450",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3v",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359390",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359390/Feid-tickets-Thu-Mar-25-2027-Toyota-Center-TX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359390/Feid-tickets-Thu-Mar-25-2027-Toyota-Center-TX",
+    "stubhub_international_url": "https://www.stubhub.ie/feid-houston-tickets-3-25-2027/event/107681450"
   },
   {
     "id": "tm-feid-2027-salt-lake-city-z7r9jz1aaad3e",
@@ -402491,13 +403003,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681466",
+        "url": "https://www.stubhub.ie/feid-salt-lake-city-tickets-4-2-2027/event/107681466",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3e",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359393",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359393/Feid-tickets-Fri-Apr-2-2027-Delta-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359393/Feid-tickets-Fri-Apr-2-2027-Delta-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/feid-salt-lake-city-tickets-4-2-2027/event/107681466"
   },
   {
     "id": "tm-feid-2027-las-vegas-z7r9jz1aaad3d",
@@ -402560,13 +403080,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680729",
+        "url": "https://www.stubhub.ie/feid-las-vegas-tickets-4-17-2027/event/107680729",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3d",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359409",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359409/Feid-tickets-Sat-Apr-17-2027-MGM-Grand-Garden-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359409/Feid-tickets-Sat-Apr-17-2027-MGM-Grand-Garden-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/feid-las-vegas-tickets-4-17-2027/event/107680729"
   },
   {
     "id": "tm-fall-out-boy-2027-manchester-1adjz_pgkrptysy",

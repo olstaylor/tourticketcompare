@@ -332,11 +332,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107121125",
-        "url": "https://www.stubhub.ie/the-neighbourhood-miami-tickets-11-12-2026/event/107121125",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_7E0samZ",
@@ -344,7 +344,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748318",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748318/The-Neighbourhood-tickets-Thu-Nov-12-2026-Kaseya-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-miami-tickets-11-12-2026/event/107121125",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

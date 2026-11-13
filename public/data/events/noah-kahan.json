@@ -2441,6 +2441,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679578",
+        "url": "https://www.stubhub.ie/noah-kahan-tickets-sevilla-plaza-de-espana-de-sevilla-7-7-2027/event/107679578",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v3duZrF",
@@ -2449,7 +2456,8 @@
     "organizer_names": [
       "Live Nation España S.A.U."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-sevilla-plaza-de-espana-de-sevilla-7-7-2027/event/107679578"
   },
   {
     "id": "tm-noah-kahan-2027-detroit-vv1koz_pjag7zyra",
@@ -2997,13 +3005,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679491",
+        "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-29-2027/event/107679491",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wo7",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347752",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347752/Noah-Kahan-tickets-Sat-May-29-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347752/Noah-Kahan-tickets-Sat-May-29-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-29-2027/event/107679491"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wof",
@@ -3066,13 +3082,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679492",
+        "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-30-2027/event/107679492",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wof",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347753",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347753/Noah-Kahan-tickets-Sun-May-30-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347753/Noah-Kahan-tickets-Sun-May-30-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-30-2027/event/107679492"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wo4",
@@ -3135,13 +3159,21 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679493",
+        "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-1-2027/event/107679493",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wo4",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347754",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347754/Noah-Kahan-tickets-Tue-Jun-1-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347754/Noah-Kahan-tickets-Tue-Jun-1-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-1-2027/event/107679493"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wo9",
@@ -3204,12 +3236,20 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678748",
+        "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-2-2027/event/107678748",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wo9",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347755",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347755/Noah-Kahan-tickets-Wed-Jun-2-2027-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347755/Noah-Kahan-tickets-Wed-Jun-2-2027-Fenway-Park",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-2-2027/event/107678748"
   }
 ]

@@ -1737,11 +1737,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162476",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-atlanta-tickets-11-12-2026/event/107162476",
-        "verified": true,
-        "last_verified_at": "2026-07-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "timezone": "America/New_York",
@@ -1750,7 +1750,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_aUW8bjb",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921664",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-atlanta-tickets-11-12-2026/event/107162476",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

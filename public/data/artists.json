@@ -3650,5 +3650,33 @@
     "last_verified_at": "2026-11-09",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-09"
+  },
+  {
+    "slug": "kpop-demon-hunters",
+    "name": "KPop Demon Hunters",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-13",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-13"
+  },
+  {
+    "slug": "the-rankin-family",
+    "name": "The Rankin Family",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-13",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-13"
   }
 ]

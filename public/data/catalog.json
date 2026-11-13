@@ -8040,6 +8040,58 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "kpop-demon-hunters",
+      "name": "KPop Demon Hunters",
+      "short_description": "Pop act listed on Ticketmaster.",
+      "image_alt": "KPop Demon Hunters artist ticket information",
+      "factual_summary": "KPop Demon Hunters is listed by Ticketmaster under Pop. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the KPop Demon Hunters page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "KPop Demon Hunters Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "KPop Demon Hunters tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find KPop Demon Hunters tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "the-rankin-family",
+      "name": "The Rankin Family",
+      "short_description": "Pop act listed on Ticketmaster.",
+      "image_alt": "The Rankin Family artist ticket information",
+      "factual_summary": "The Rankin Family is listed by Ticketmaster under Pop. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the The Rankin Family page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "The Rankin Family Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "The Rankin Family tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find The Rankin Family tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -15910,6 +15962,62 @@
       "last_checked_at": "2026-11-09",
       "disclosure_required": true,
       "url": "https://seatgeek.com/the-dead-south-tickets"
+    },
+    {
+      "link_id": "tm-artist-kpop-demon-hunters",
+      "artist_slug": "kpop-demon-hunters",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-13",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/kpop-demon-hunters-tickets/artist/4799111"
+    },
+    {
+      "link_id": "sg-artist-kpop-demon-hunters",
+      "artist_slug": "kpop-demon-hunters",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-13",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/kpop-demon-hunters-tickets"
+    },
+    {
+      "link_id": "tm-artist-the-rankin-family",
+      "artist_slug": "the-rankin-family",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-13",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/the-rankin-family-tickets/artist/759399"
+    },
+    {
+      "link_id": "sg-artist-the-rankin-family",
+      "artist_slug": "the-rankin-family",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-13",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/the-rankin-family-tickets"
     }
   ],
   "safety_rules": [

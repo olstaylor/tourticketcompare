@@ -930,12 +930,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367764",
+        "url": "https://www.ticketnetwork.com/en/p/8367764",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_pbvG7sogY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-19T15:00:00Z"
+    "public_onsale_at": "2026-11-19T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367764"
   },
   {
     "id": "tm-sam-fender-2027-new-york-g5dyz_pnxxsdo",
@@ -984,12 +992,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367765",
+        "url": "https://www.ticketnetwork.com/en/p/8367765",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_pnXxSdo",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-19T15:00:00Z"
+    "public_onsale_at": "2026-11-19T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367765"
   },
   {
     "id": "tm-sam-fender-2027-toronto-1avzz_pgkl1qlzt",
@@ -1092,12 +1108,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367767",
+        "url": "https://www.ticketnetwork.com/en/p/8367767",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkRZFIGp",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-11-19T17:00:00Z"
+    "public_onsale_at": "2026-11-19T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367767"
   },
   {
     "id": "tm-sam-fender-2027-los-angeles-vv170z_pgklllved",
@@ -1146,12 +1170,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367768",
+        "url": "https://www.ticketnetwork.com/en/p/8367768",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGklllvED",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-19T18:00:00Z"
+    "public_onsale_at": "2026-11-19T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367768"
   },
   {
     "id": "tm-sam-fender-2027-seattle-vvg1hz_pmbc1yg",
@@ -1200,12 +1232,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367769",
+        "url": "https://www.ticketnetwork.com/en/p/8367769",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pmBC1YG",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-19T18:00:00Z"
+    "public_onsale_at": "2026-11-19T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367769"
   },
   {
     "id": "tm-sam-fender-2027-vancouver-16ozk4ekdza2k2ve",
@@ -1254,11 +1294,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367771",
+        "url": "https://www.ticketnetwork.com/en/p/8367771",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16oZk4EkdZA2k2ve",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-11-19T17:00:00Z"
+    "public_onsale_at": "2026-11-19T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367771"
   }
 ]

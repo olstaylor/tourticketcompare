@@ -4260,13 +4260,21 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7957498",
+        "url": "https://www.ticketnetwork.com/en/p/7957498",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70te4",
     "timezone": "America/Denver",
     "status": "on-sale",
     "genre": "Alternative",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957498/Blue-October-tickets-Fri-Mar-5-2027-Rockwell-At-The-Complex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957498/Blue-October-tickets-Fri-Mar-5-2027-Rockwell-At-The-Complex",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957498"
   },
   {
     "id": "tm-blue-october-2027-denver-z7r9jz1a70_-g",

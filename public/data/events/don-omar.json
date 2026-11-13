@@ -1255,11 +1255,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7976499",
-        "url": "https://www.ticketnetwork.com/en/p/7976499",
-        "verified": true,
-        "last_verified_at": "2026-11-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7976499",
@@ -1279,7 +1279,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EqS",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976499",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976499/Don-Omar-tickets-Wed-Nov-11-2026-Michelob-ULTRA-Arena-At-Mandalay-Bay",
     "stubhub_international_url": "",
     "ticketmaster_status_code": "postponed",
@@ -1334,11 +1334,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7976501",
+        "url": "https://www.ticketnetwork.com/en/p/7976501",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7976501",
@@ -1351,7 +1351,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EfV",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976501",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976501/Don-Omar-tickets-Fri-Nov-13-2026-Delta-Center",
     "ticketmaster_status_code": "rescheduled",
     "genre": "World"

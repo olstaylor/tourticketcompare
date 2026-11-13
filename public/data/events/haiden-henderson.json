@@ -1246,13 +1246,21 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284335",
+        "url": "https://www.ticketnetwork.com/en/p/8284335",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeeFa",
     "timezone": "America/Denver",
     "status": "on-sale",
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284335/Haiden-Henderson-tickets-Thu-May-6-2027-The-Grand-At-The-Complex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284335/Haiden-Henderson-tickets-Thu-May-6-2027-The-Grand-At-The-Complex",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284335"
   },
   {
     "id": "tm-haiden-henderson-2027-praha-5-z698xzu0z16v1ec67a",

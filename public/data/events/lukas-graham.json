@@ -136,18 +136,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8286279",
-        "url": "https://www.ticketnetwork.com/en/p/8286279",
-        "verified": true,
-        "last_verified_at": "2026-09-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_KGj9z2e",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8286279/Lukas-Graham-tickets-Thu-Mar-4-2027-Buckhead-Theatre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8286279",
+    "ticketnetwork_url": "",
     "presales": [
       {
         "name": "Citi® Cardmember Preferred Tickets",

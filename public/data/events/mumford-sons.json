@@ -119,6 +119,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361979",
+        "url": "https://www.ticketnetwork.com/en/p/8361979",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4PGkd1yzSK",
@@ -138,7 +145,8 @@
         "end": "2026-11-13T04:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361979/Mumford-Sons-tickets-Mon-Jul-12-2027-Scotiabank-Saddledome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361979/Mumford-Sons-tickets-Mon-Jul-12-2027-Scotiabank-Saddledome",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361979"
   },
   {
     "id": "tm-mumford-sons-2027-st-john-s-z7r9jz1aaakg4",

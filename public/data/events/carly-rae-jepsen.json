@@ -2360,6 +2360,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8300775",
+        "url": "https://www.ticketnetwork.com/en/p/8300775",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeKuV",
@@ -2369,6 +2376,7 @@
       "LIVE NATION MUSIC"
     ],
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300775/Carly-Rae-Jepsen-tickets-Tue-Apr-27-2027-Rockwell-At-The-Complex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300775/Carly-Rae-Jepsen-tickets-Tue-Apr-27-2027-Rockwell-At-The-Complex",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300775"
   }
 ]

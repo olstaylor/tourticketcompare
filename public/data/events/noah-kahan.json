@@ -2505,6 +2505,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8364611",
+        "url": "https://www.ticketnetwork.com/en/p/8364611",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kOZ_pjaG7zyRA",
@@ -2527,7 +2534,8 @@
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-06-04T21:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364611"
   },
   {
     "id": "tm-noah-kahan-2027-east-rutherford-k7vgf_pevlzwu",
@@ -2583,6 +2591,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8364184",
+        "url": "https://www.ticketnetwork.com/en/p/8364184",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pEvLzwU",
@@ -2605,7 +2620,8 @@
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-06-13T21:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364184"
   },
   {
     "id": "tm-noah-kahan-2027-athens-z7r9jz1aa7wgt",
@@ -2654,11 +2670,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347741",
+        "url": "https://www.ticketnetwork.com/en/p/8347741",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wGt",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347741"
   },
   {
     "id": "tm-noah-kahan-2027-nashville-z7r9jz1aa7wuk",
@@ -2707,11 +2731,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347744",
+        "url": "https://www.ticketnetwork.com/en/p/8347744",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wuk",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347744"
   },
   {
     "id": "tm-noah-kahan-2027-norman-z7r9jz1aa7wuw",
@@ -2866,11 +2898,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347751",
+        "url": "https://www.ticketnetwork.com/en/p/8347751",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7w8x",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347751"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wo7",
@@ -2919,11 +2959,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347752",
+        "url": "https://www.ticketnetwork.com/en/p/8347752",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wo7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347752"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wof",
@@ -2972,11 +3020,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347753",
+        "url": "https://www.ticketnetwork.com/en/p/8347753",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wof",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347753"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wo4",
@@ -3025,11 +3081,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347754",
+        "url": "https://www.ticketnetwork.com/en/p/8347754",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wo4",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347754"
   },
   {
     "id": "tm-noah-kahan-2027-boston-z7r9jz1aa7wo9",
@@ -3078,10 +3142,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8347755",
+        "url": "https://www.ticketnetwork.com/en/p/8347755",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7wo9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347755"
   }
 ]

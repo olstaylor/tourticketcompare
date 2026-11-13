@@ -1531,12 +1531,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366579",
+        "url": "https://www.ticketnetwork.com/en/p/8366579",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvSx4",
     "timezone": "America/Regina",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366579"
   },
   {
     "id": "tm-air-supply-2027-winnipeg-1aozkftgkdfjy5c",
@@ -2150,6 +2158,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361965",
+        "url": "https://www.ticketnetwork.com/en/p/8361965",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_4SNzVtX",
@@ -2193,7 +2208,8 @@
         "end": "2027-01-25T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361965/Air-Supply-tickets-Sun-Jan-31-2027-Toyota-Oakdale-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361965/Air-Supply-tickets-Sun-Jan-31-2027-Toyota-Oakdale-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361965"
   },
   {
     "id": "tm-air-supply-2027-valley-center-vvg1iz_p3nhurb",

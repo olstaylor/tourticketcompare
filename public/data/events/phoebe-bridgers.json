@@ -1316,12 +1316,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367336",
+        "url": "https://www.ticketnetwork.com/en/p/8367336",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pJbo4dA",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367336"
   },
   {
     "id": "tm-phoebe-bridgers-2027-spokane-z7r9jz1aaa8z4",
@@ -1370,12 +1378,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367354",
+        "url": "https://www.ticketnetwork.com/en/p/8367354",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Z4",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T20:00:00Z"
+    "public_onsale_at": "2026-11-20T20:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367354"
   },
   {
     "id": "tm-phoebe-bridgers-2027-edmonton-1aozk4jgkd7ky7-",
@@ -1424,12 +1440,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367349",
+        "url": "https://www.ticketnetwork.com/en/p/8367349",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4JGkd7Ky7-",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367349"
   },
   {
     "id": "tm-phoebe-bridgers-2027-winnipeg-1av7z_pgknuq0xy",
@@ -1478,12 +1502,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367350",
+        "url": "https://www.ticketnetwork.com/en/p/8367350",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_pGknuQ0XY",
     "timezone": "America/Winnipeg",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367350"
   },
   {
     "id": "tm-phoebe-bridgers-2027-kansas-city-z7r9jz1aaa8zp",
@@ -1532,12 +1564,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367390",
+        "url": "https://www.ticketnetwork.com/en/p/8367390",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Zp",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367390"
   },
   {
     "id": "tm-phoebe-bridgers-2027-oklahoma-city-z7r9jz1aaa8z9",
@@ -1586,12 +1626,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367391",
+        "url": "https://www.ticketnetwork.com/en/p/8367391",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Z9",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367391"
   },
   {
     "id": "tm-phoebe-bridgers-2027-lincoln-z7r9jz1aaa8zb",
@@ -1640,12 +1688,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367392",
+        "url": "https://www.ticketnetwork.com/en/p/8367392",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Zb",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367392"
   },
   {
     "id": "tm-phoebe-bridgers-2027-milwaukee-vv1kjz_pjpg7y3tm",
@@ -1694,12 +1750,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367338",
+        "url": "https://www.ticketnetwork.com/en/p/8367338",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kjZ_pJpG7Y3tm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367338"
   },
   {
     "id": "tm-phoebe-bridgers-2027-grand-rapids-z7r9jz1aaa8z_",
@@ -1748,12 +1812,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367393",
+        "url": "https://www.ticketnetwork.com/en/p/8367393",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Z_",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367393"
   },
   {
     "id": "tm-phoebe-bridgers-2027-cleveland-z7r9jz1aaa8zo",
@@ -1802,12 +1874,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367394",
+        "url": "https://www.ticketnetwork.com/en/p/8367394",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8ZO",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367394"
   },
   {
     "id": "tm-phoebe-bridgers-2027-raleigh-g5evz_pekwioi",
@@ -1856,12 +1936,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367339",
+        "url": "https://www.ticketnetwork.com/en/p/8367339",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pEKwioI",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367339"
   },
   {
     "id": "tm-phoebe-bridgers-2027-baltimore-1a4zk4jgkdbmyfh",
@@ -1910,12 +1998,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367340",
+        "url": "https://www.ticketnetwork.com/en/p/8367340",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4JGkdbMyFh",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367340"
   },
   {
     "id": "tm-phoebe-bridgers-2027-pittsburgh-1kaovpqdgaugc_p",
@@ -1964,12 +2060,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367341",
+        "url": "https://www.ticketnetwork.com/en/p/8367341",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOvPQdGAuGc_p",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367341"
   },
   {
     "id": "tm-phoebe-bridgers-2027-newark-vv17fz_pgkrzlrgr",
@@ -2018,12 +2122,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367342",
+        "url": "https://www.ticketnetwork.com/en/p/8367342",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_pGkRZLRgR",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367342"
   },
   {
     "id": "tm-phoebe-bridgers-2027-university-park-vv1aovp_uga2cx87",
@@ -2072,12 +2184,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367343",
+        "url": "https://www.ticketnetwork.com/en/p/8367343",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvP_UGA2Cx87",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367343"
   },
   {
     "id": "tm-phoebe-bridgers-2027-hamilton-168zk4eqbza5ddga",
@@ -2180,12 +2300,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367352",
+        "url": "https://www.ticketnetwork.com/en/p/8367352",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4JGkd6dpXr",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367352"
   },
   {
     "id": "tm-phoebe-bridgers-2027-kanata-1kg8vp_fga54way",
@@ -2288,12 +2416,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367345",
+        "url": "https://www.ticketnetwork.com/en/p/8367345",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pnoRV0S",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367345"
   },
   {
     "id": "tm-phoebe-bridgers-2027-miami-vvg1vz_phkzg-0",
@@ -2342,12 +2478,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367346",
+        "url": "https://www.ticketnetwork.com/en/p/8367346",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_phKzG-0",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367346"
   },
   {
     "id": "tm-phoebe-bridgers-2027-orlando-1axzk4jgkenbxsj",
@@ -2396,12 +2540,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367347",
+        "url": "https://www.ticketnetwork.com/en/p/8367347",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4JGkenBxSJ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367347"
   },
   {
     "id": "tm-phoebe-bridgers-2027-san-antonio-g5diz_peugmcn",
@@ -2450,12 +2602,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367348",
+        "url": "https://www.ticketnetwork.com/en/p/8367348",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pEUGmcN",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367348"
   },
   {
     "id": "tm-phoebe-bridgers-2027-ciudad-de-mexico-1afzk4egkey1bcx",

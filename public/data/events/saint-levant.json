@@ -2147,11 +2147,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8133116",
-        "url": "https://www.ticketnetwork.com/en/p/8133116",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8133116",
@@ -2172,7 +2172,7 @@
         "end": "2027-04-14T16:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8133116",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8133116/Saint-Levant-tickets-Sun-Apr-18-2027-Buckhead-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"

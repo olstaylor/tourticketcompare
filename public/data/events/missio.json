@@ -341,18 +341,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8200529",
-        "url": "https://www.ticketnetwork.com/en/p/8200529",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_8l-vdn4",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8200529/Missio-tickets-Wed-Nov-11-2026-Marquis-Theater-CO",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8200529",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

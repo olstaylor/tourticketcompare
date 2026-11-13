@@ -2047,12 +2047,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367606",
+        "url": "https://www.ticketnetwork.com/en/p/8367606",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4JGkeXPfxk",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367606"
   },
   {
     "id": "tm-tame-impala-2027-tlajomulco-de-zuniga-g5dvz_pmifp7m",

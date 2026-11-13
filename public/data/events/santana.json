@@ -372,11 +372,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8113679",
-        "url": "https://www.ticketnetwork.com/en/p/8113679",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8113679",
@@ -396,7 +396,7 @@
     "ticketmaster_discovery_event_id": "17AYv0G6Ck18F79",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113679",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113679/Santana-tickets-Wed-Nov-11-2026-House-Of-Blues-Las-Vegas",
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-11-2026/event/107472160",
     "organizer_names": [

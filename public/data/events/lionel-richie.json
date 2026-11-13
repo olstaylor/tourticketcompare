@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8165327",
-        "url": "https://www.ticketnetwork.com/en/p/8165327",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5zuJ3",
@@ -65,7 +65,7 @@
         "end": "2026-11-12T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8165327",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],

@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361510",
+        "url": "https://www.ticketnetwork.com/en/p/8361510",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pF4iifZ",
@@ -76,7 +83,8 @@
         "end": "2026-11-19T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361510/Stray-Kids-tickets-Sun-May-16-2027-Lumen-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361510/Stray-Kids-tickets-Sun-May-16-2027-Lumen-Field",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361510"
   },
   {
     "id": "tm-stray-kids-2027-vancouver-1aozk4pgkepqkay",
@@ -132,6 +140,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361523",
+        "url": "https://www.ticketnetwork.com/en/p/8361523",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4PGkePQkAy",
@@ -156,7 +171,8 @@
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
     ],
-    "ticket_limit": 4
+    "ticket_limit": 4,
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361523"
   },
   {
     "id": "tm-stray-kids-2027-santa-clara-g5vyz_p1srtgv",
@@ -212,6 +228,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361511",
+        "url": "https://www.ticketnetwork.com/en/p/8361511",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p1sRtgV",
@@ -235,7 +258,8 @@
         "end": "2026-11-19T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361511/Stray-Kids-tickets-Sat-May-22-2027-Levis-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361511/Stray-Kids-tickets-Sat-May-22-2027-Levis-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361511"
   },
   {
     "id": "tm-stray-kids-2027-san-diego-vvg1iz_plbqdhe",
@@ -291,6 +315,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361512",
+        "url": "https://www.ticketnetwork.com/en/p/8361512",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pLBQdhE",
@@ -313,7 +344,8 @@
         "end": "2026-11-19T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361512/Stray-Kids-tickets-Tue-May-25-2027-Petco-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361512/Stray-Kids-tickets-Tue-May-25-2027-Petco-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361512"
   },
   {
     "id": "tm-stray-kids-2027-inglewood-vvg1iz_4slsivl",
@@ -369,6 +401,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361513",
+        "url": "https://www.ticketnetwork.com/en/p/8361513",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4SlsIVl",
@@ -392,7 +431,8 @@
         "end": "2026-11-19T06:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361513/Stray-Kids-tickets-Sat-May-29-2027-SoFi-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361513/Stray-Kids-tickets-Sat-May-29-2027-SoFi-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361513"
   },
   {
     "id": "tm-stray-kids-2027-houston-g5diz_p4wwnf8",
@@ -448,6 +488,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361515",
+        "url": "https://www.ticketnetwork.com/en/p/8361515",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_p4WWnf8",
@@ -470,7 +517,8 @@
         "end": "2026-11-19T04:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361515/Stray-Kids-tickets-Sat-Jun-5-2027-Reliant-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361515/Stray-Kids-tickets-Sat-Jun-5-2027-Reliant-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361515"
   },
   {
     "id": "tm-stray-kids-2027-atlanta-vvg1zz_phzq3g7",
@@ -526,6 +574,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361516",
+        "url": "https://www.ticketnetwork.com/en/p/8361516",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_phZq3g7",
@@ -548,7 +603,8 @@
         "end": "2026-11-19T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361516/Stray-Kids-tickets-Tue-Jun-8-2027-Mercedes-Benz-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361516/Stray-Kids-tickets-Tue-Jun-8-2027-Mercedes-Benz-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361516"
   },
   {
     "id": "tm-stray-kids-2027-miami-vvg1vz_ppnraxv",
@@ -604,6 +660,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361517",
+        "url": "https://www.ticketnetwork.com/en/p/8361517",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_ppNRAxv",
@@ -637,7 +700,8 @@
         "end": "2026-11-19T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361517/Stray-Kids-tickets-Fri-Jun-11-2027-Hard-Rock-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361517/Stray-Kids-tickets-Fri-Jun-11-2027-Hard-Rock-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361517"
   },
   {
     "id": "tm-stray-kids-2027-orlando-1axzk40gkdehatj",
@@ -693,6 +757,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361518",
+        "url": "https://www.ticketnetwork.com/en/p/8361518",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk40GkdEHATJ",
@@ -726,7 +797,8 @@
         "end": "2026-11-19T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361518/Stray-Kids-tickets-Mon-Jun-14-2027-Camping-World-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361518/Stray-Kids-tickets-Mon-Jun-14-2027-Camping-World-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361518"
   },
   {
     "id": "tm-stray-kids-2027-chicago-vv1a7zk4ngkdhgi8m",
@@ -782,6 +854,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361519",
+        "url": "https://www.ticketnetwork.com/en/p/8361519",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4NGkdhgI8m",
@@ -805,7 +884,8 @@
         "end": "2026-11-19T04:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361519/Stray-Kids-tickets-Fri-Jun-18-2027-Soldier-Field"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361519/Stray-Kids-tickets-Fri-Jun-18-2027-Soldier-Field",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361519"
   },
   {
     "id": "tm-stray-kids-2027-toronto-1avzz_4gkdmari8",
@@ -933,6 +1013,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361522",
+        "url": "https://www.ticketnetwork.com/en/p/8361522",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pCNX6a9",
@@ -955,7 +1042,8 @@
         "end": "2026-11-19T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361522/Stray-Kids-tickets-Tue-Jun-29-2027-MetLife-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361522/Stray-Kids-tickets-Tue-Jun-29-2027-MetLife-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361522"
   },
   {
     "id": "tm-stray-kids-2027-munich-z698xzc2z1kazaygz",

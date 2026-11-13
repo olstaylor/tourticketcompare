@@ -1706,12 +1706,20 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8301028",
+        "url": "https://www.ticketnetwork.com/en/p/8301028",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAefp4",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301028/Chelsea-Cutler-tickets-Tue-Mar-9-2027-Rockwell-At-The-Complex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8301028/Chelsea-Cutler-tickets-Tue-Mar-9-2027-Rockwell-At-The-Complex",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8301028"
   },
   {
     "id": "tm-chelsea-cutler-2027-seattle-z7r9jz1aae_g9",

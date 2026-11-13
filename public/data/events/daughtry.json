@@ -3511,6 +3511,13 @@
         "verified": true,
         "last_verified_at": "2026-11-11",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363950",
+        "url": "https://www.ticketnetwork.com/en/p/8363950",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FfZ_pQ6PSZd2kv",
@@ -3549,6 +3556,7 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-02-18T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363950"
   }
 ]

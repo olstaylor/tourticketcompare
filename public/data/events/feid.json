@@ -2416,6 +2416,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367266",
+        "url": "https://www.ticketnetwork.com/en/p/8367266",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4tGkdUl9aj",
@@ -2438,7 +2445,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-28T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367266"
   },
   {
     "id": "tm-feid-2027-hartford-z7r9jz1aaad3z",
@@ -2487,11 +2495,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8359385",
+        "url": "https://www.ticketnetwork.com/en/p/8359385",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3Z",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359385"
   },
   {
     "id": "tm-feid-2027-houston-z7r9jz1aaad3v",
@@ -2540,11 +2556,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8359390",
+        "url": "https://www.ticketnetwork.com/en/p/8359390",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3v",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359390"
   },
   {
     "id": "tm-feid-2027-salt-lake-city-z7r9jz1aaad3e",
@@ -2593,11 +2617,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8359393",
+        "url": "https://www.ticketnetwork.com/en/p/8359393",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3e",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359393"
   },
   {
     "id": "tm-feid-2027-las-vegas-z7r9jz1aaad3d",
@@ -2646,10 +2678,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8359409",
+        "url": "https://www.ticketnetwork.com/en/p/8359409",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAd3d",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359409"
   }
 ]

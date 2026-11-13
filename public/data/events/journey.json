@@ -1932,6 +1932,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8365092",
+        "url": "https://www.ticketnetwork.com/en/p/8365092",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP_vGACrkE8",
@@ -1964,7 +1971,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2026-11-13T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365092"
   },
   {
     "id": "tm-journey-2027-stateline-1kayvp_vgacljep",
@@ -2013,6 +2021,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8365093",
+        "url": "https://www.ticketnetwork.com/en/p/8365093",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAYvP_vGACLJEp",
@@ -2045,6 +2060,7 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2026-11-13T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365093"
   }
 ]

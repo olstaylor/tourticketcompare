@@ -739,11 +739,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8062602",
-        "url": "https://www.ticketliquidator.com/tickets/8062602/Brand-New-tickets-Wed-Nov-11-2026-Bill-Graham-Civic-Auditorium",
-        "verified": true,
-        "last_verified_at": "2026-10-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107447522",
@@ -763,7 +763,7 @@
     "ticketmaster_discovery_event_id": "G5vYZ_GHzwHnZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8062602/Brand-New-tickets-Wed-Nov-11-2026-Bill-Graham-Civic-Auditorium",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/brand-new-san-francisco-tickets-11-11-2026/event/107447522",
     "ticketnetwork_url": "",
     "organizer_names": [

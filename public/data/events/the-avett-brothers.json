@@ -200,6 +200,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367246",
+        "url": "https://www.ticketliquidator.com/tickets/8367246/The-Avett-Brothers-tickets-Sat-Mar-20-2027-House-Of-Blues-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4EGkeXoSiu",
@@ -219,6 +226,7 @@
         "end": "2026-11-13T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367246"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367246",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367246/The-Avett-Brothers-tickets-Sat-Mar-20-2027-House-Of-Blues-Orlando"
   }
 ]

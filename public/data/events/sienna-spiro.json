@@ -2182,6 +2182,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8365894",
+        "url": "https://www.ticketliquidator.com/tickets/8365894/Sienna-Spiro-tickets-Tue-Jun-15-2027-Fairview-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17kZv0G6Gpq41un",
@@ -2191,7 +2198,8 @@
       "MCD PRODUCTIONS"
     ],
     "genre": "Pop",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365894"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365894",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365894/Sienna-Spiro-tickets-Tue-Jun-15-2027-Fairview-Park"
   },
   {
     "id": "tm-sienna-spiro-2026-salt-lake-city-z7r9jz1aaef49",
@@ -3738,6 +3746,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8365895",
+        "url": "https://www.ticketliquidator.com/tickets/8365895/Sienna-Spiro-tickets-Wed-Jun-16-2027-Fairview-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_4GkUvEgeh",
@@ -3765,6 +3780,7 @@
         "end": "2026-11-13T09:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365895"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365895",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365895/Sienna-Spiro-tickets-Wed-Jun-16-2027-Fairview-Park"
   }
 ]

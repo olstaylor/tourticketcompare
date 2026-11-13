@@ -664,6 +664,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7656035",
+        "url": "https://www.ticketliquidator.com/tickets/7656035/VNV-Nation-tickets-Thu-Mar-18-2027-Nile-Theater-AZ",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7qp8U",
@@ -673,7 +680,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7656035"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7656035",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7656035/VNV-Nation-tickets-Thu-Mar-18-2027-Nile-Theater-AZ"
   },
   {
     "id": "tm-vnv-nation-2027-san-diego-vvg1izbvnuske3",

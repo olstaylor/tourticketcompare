@@ -526,11 +526,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7772528",
-        "url": "https://www.ticketliquidator.com/tickets/7772528/Sting-tickets-Thu-Nov-12-2026-Brooklyn-Paramount",
-        "verified": true,
-        "last_verified_at": "2026-11-02",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107140085",
@@ -544,7 +544,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772528",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772528/Sting-tickets-Thu-Nov-12-2026-Brooklyn-Paramount",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-12-2026/event/107140085",
     "organizer_names": [
       "LIVE NATION MUSIC"

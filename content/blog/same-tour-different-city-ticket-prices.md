@@ -5,7 +5,7 @@ description: "For 10 big tours, one resale site's lowest listed price for the ne
 summary: "Lowest listed resale prices for the same tour in different cities, one site per tour, each figure with the time it was captured. Snapshots up to 18 October 2026."
 date: 2026-10-18
 status: published
-updated: 2026-11-11
+updated: 2026-11-13
 tags:
   - tour-data
 related_guides:
@@ -98,7 +98,7 @@ On TicketNetwork, the lowest listed price for the next date in each of 26 cities
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
 | Nashville | 9 December 2026 | Bridgestone Arena | $37.95 | TicketNetwork | 18 October, 05:56 UTC |
-| Lincoln | 12 November 2026 | Pinnacle Bank Arena | $41.40 | TicketNetwork | 18 October, 05:56 UTC |
+| Lincoln | 12 November 2026 (has passed) | Pinnacle Bank Arena | $41.40 | TicketNetwork | 18 October, 05:56 UTC |
 | North Little Rock | 12 December 2026 | Simmons Bank Arena | $42.55 | TicketNetwork | 18 October, 05:56 UTC |
 | Baltimore | 3 December 2026 | CFG Bank Arena | $90.85 | TicketNetwork | 18 October, 05:56 UTC |
 | Fort Worth | 16 December 2026 | Dickies Arena | $101.20 | TicketNetwork | 18 October, 05:56 UTC |

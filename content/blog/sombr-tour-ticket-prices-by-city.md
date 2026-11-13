@@ -4,7 +4,7 @@ seo_title: "Sombr tour ticket prices by city"
 description: "Sombr's tour in the United States: the lowest listed price for the next date in 8 cities, $43 in Buffalo at the low end, $144 in Boston at the high end."
 summary: "Vivid Seats' lowest listed price for the next Sombr date in each of 8 cities, each figure with the time it was captured. Snapshots 10 November 2026."
 date: 2026-10-24
-updated: 2026-11-10
+updated: 2026-11-12
 status: published
 tags:
   - tour-data
@@ -21,7 +21,7 @@ Sombr's You Are The Reason Tour has 30 dates that TourTicketCompare tracks. In t
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
 | [Buffalo](/artists/sombr/tickets/buffalo-united-states) | 14 November 2026 | KeyBank Center | $43 | Vivid Seats | 10 November, 13:02 UTC |
-| [Pittsburgh](/artists/sombr/tickets/pittsburgh-united-states) | 12 November 2026 | PPG Paints Arena | $53 | Vivid Seats | 10 November, 13:02 UTC |
+| [Pittsburgh](/artists/sombr/tickets/pittsburgh-united-states) | 12 November 2026 (has passed) | PPG Paints Arena | $53 | Vivid Seats | 10 November, 13:02 UTC |
 | [Cleveland](/artists/sombr/tickets/cleveland-united-states) | 13 November 2026 | Rocket Arena | $61 | Vivid Seats | 10 November, 13:02 UTC |
 | [Philadelphia](/artists/sombr/tickets/philadelphia-united-states) | 19 November 2026 | Xfinity Mobile Arena | $68 | Vivid Seats | 10 November, 13:02 UTC |
 | [Washington](/artists/sombr/tickets/washington-united-states) | 10 November 2026 | Capital One Arena | $78 | Vivid Seats | 10 November, 17:50 UTC |
@@ -38,7 +38,7 @@ TicketNetwork also had a recent listed price for the next date in 8 of these cit
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
 | [Washington](/artists/sombr/tickets/washington-united-states) | 10 November 2026 | Capital One Arena | $79.35 | TicketNetwork | 10 November, 13:03 UTC |
-| [Pittsburgh](/artists/sombr/tickets/pittsburgh-united-states) | 12 November 2026 | PPG Paints Arena | $48.30 | TicketNetwork | 10 November, 17:56 UTC |
+| [Pittsburgh](/artists/sombr/tickets/pittsburgh-united-states) | 12 November 2026 (has passed) | PPG Paints Arena | $48.30 | TicketNetwork | 10 November, 17:56 UTC |
 | [Cleveland](/artists/sombr/tickets/cleveland-united-states) | 13 November 2026 | Rocket Arena | $58.65 | TicketNetwork | 10 November, 17:56 UTC |
 | [Buffalo](/artists/sombr/tickets/buffalo-united-states) | 14 November 2026 | KeyBank Center | $37.95 | TicketNetwork | 10 November, 17:56 UTC |
 | [Boston](/artists/sombr/tickets/boston-united-states) | 18 November 2026 | TD Garden | $136.85 | TicketNetwork | 10 November, 09:57 UTC |

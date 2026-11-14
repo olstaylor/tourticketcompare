@@ -48,17 +48,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107455273",
-        "url": "https://www.stubhub.ie/saint-levant-tickets-utrecht-tivoli-vredenburg-13-11-2026/event/107455273",
-        "verified": true,
-        "last_verified_at": "2026-09-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16eZo1d8_",
     "timezone": "Europe/Amsterdam",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/saint-levant-tickets-utrecht-tivoli-vredenburg-13-11-2026/event/107455273",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Stichting TivoliVredenburg"
     ],

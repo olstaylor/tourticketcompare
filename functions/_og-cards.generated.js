@@ -1107,7 +1107,6 @@ export const OG_CARDS = {
   "/venues/mtelus-montreal": {"url":"/og/venues-mtelus-montreal.png","alt":"Concerts at: MTELUS"},
   "/venues/mvp-arena-albany": {"url":"/og/venues-mvp-arena-albany.png","alt":"Concerts at: MVP Arena"},
   "/venues/nationwide-arena-columbus": {"url":"/og/venues-nationwide-arena-columbus.png","alt":"Concerts at: Nationwide Arena"},
-  "/venues/neptune-theatre-seattle": {"url":"/og/venues-neptune-theatre-seattle.png","alt":"Concerts at: Neptune Theatre"},
   "/venues/numerica-veterans-arena-spokane": {"url":"/og/venues-numerica-veterans-arena-spokane.png","alt":"Concerts at: Numerica Veterans Arena"},
   "/venues/o2-academy-birmingham-birmingham": {"url":"/og/venues-o2-academy-birmingham-birmingham.png","alt":"Concerts at: O2 Academy Birmingham"},
   "/venues/o2-academy-brixton-london": {"url":"/og/venues-o2-academy-brixton-london.png","alt":"Concerts at: O2 Academy Brixton"},

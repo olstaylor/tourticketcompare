@@ -424,6 +424,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680273",
+        "url": "https://www.stubhub.ie/mariah-carey-tickets-woodstock-blenheim-palace-1-7-2027/event/107680273",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4pGkeVlziX",
@@ -437,7 +444,8 @@
     "ticket_limit": 6,
     "genre": "Pop",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365854",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365854/Mariah-Carey-tickets-Thu-Jul-1-2027-Blenheim-Palace"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365854/Mariah-Carey-tickets-Thu-Jul-1-2027-Blenheim-Palace",
+    "stubhub_international_url": "https://www.stubhub.ie/mariah-carey-tickets-woodstock-blenheim-palace-1-7-2027/event/107680273"
   },
   {
     "id": "tm-mariah-carey-2027-scarborough-1agzk49gkd3hqbt",

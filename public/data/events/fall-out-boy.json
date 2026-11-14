@@ -751,6 +751,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680873",
+        "url": "https://www.stubhub.ie/fall-out-boy-arlington-tickets-7-13-2027/event/107680873",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_poTB4M0",
@@ -769,7 +776,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-07-07T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-arlington-tickets-7-13-2027/event/107680873"
   },
   {
     "id": "tm-fall-out-boy-2027-atlanta-vvg1zz_pkn5gmk",
@@ -832,6 +840,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680883",
+        "url": "https://www.stubhub.ie/fall-out-boy-atlanta-tickets-7-16-2027/event/107680883",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pKn5gmk",
@@ -850,7 +865,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-07-10T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-atlanta-tickets-7-16-2027/event/107680883"
   },
   {
     "id": "tm-fall-out-boy-2027-washington-1avfz_4gkhvu21c",
@@ -913,6 +929,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680890",
+        "url": "https://www.stubhub.ie/fall-out-boy-washington-tickets-7-18-2027/event/107680890",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_4GkHvU21c",
@@ -931,7 +954,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-07-12T02:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-washington-tickets-7-18-2027/event/107680890"
   },
   {
     "id": "tm-fall-out-boy-2027-detroit-vv1afzk4jgkdvw4eb",
@@ -1142,6 +1166,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680891",
+        "url": "https://www.stubhub.ie/fall-out-boy-chicago-tickets-7-24-2027/event/107680891",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv118Z_pQp44qd",
@@ -1160,7 +1191,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-07-18T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-chicago-tickets-7-24-2027/event/107680891"
   },
   {
     "id": "tm-fall-out-boy-2027-boston-vv1avzk4ngkenvma1",
@@ -1223,6 +1255,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680899",
+        "url": "https://www.stubhub.ie/fall-out-boy-boston-tickets-7-30-2027/event/107680899",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4NGkeNvMA1",
@@ -1241,7 +1280,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-07-30T21:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-boston-tickets-7-30-2027/event/107680899"
   },
   {
     "id": "tm-fall-out-boy-2027-queens-g5vvz_pkqtkyp",
@@ -1369,6 +1409,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680909",
+        "url": "https://www.stubhub.ie/fall-out-boy-atlantic-city-tickets-8-3-2027/event/107680909",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4PGkdw5r4K",
@@ -1380,7 +1427,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-atlantic-city-tickets-8-3-2027/event/107680909"
   },
   {
     "id": "tm-fall-out-boy-2027-hershey-vv1aezk40gkd_hdkn",
@@ -1675,6 +1723,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680887",
+        "url": "https://www.stubhub.ie/fall-out-boy-san-francisco-tickets-8-15-2027/event/107680887",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p3s9D3l",
@@ -1693,7 +1748,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-08-09T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-san-francisco-tickets-8-15-2027/event/107680887"
   },
   {
     "id": "tm-fall-out-boy-2027-san-diego-vvg1iz_pc9ifhq",
@@ -1756,6 +1812,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680897",
+        "url": "https://www.stubhub.ie/fall-out-boy-san-diego-tickets-8-17-2027/event/107680897",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pC9ifhq",
@@ -1773,7 +1836,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-08-11T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-san-diego-tickets-8-17-2027/event/107680897"
   },
   {
     "id": "tm-fall-out-boy-2027-phoenix-1a_zk4xgkdxdu-e",
@@ -1836,6 +1900,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680884",
+        "url": "https://www.stubhub.ie/fall-out-boy-phoenix-tickets-8-19-2027/event/107680884",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zk4xGkdxDU-e",
@@ -1853,7 +1924,8 @@
         "start": "2026-11-12T17:00:00Z",
         "end": "2027-08-13T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-phoenix-tickets-8-19-2027/event/107680884"
   },
   {
     "id": "tm-fall-out-boy-2027-los-angeles-vvg1iz_p4zt_kr",
@@ -1916,6 +1988,13 @@
         "verified": true,
         "last_verified_at": "2026-11-10",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680861",
+        "url": "https://www.stubhub.ie/fall-out-boy-los-angeles-tickets-8-21-2027/event/107680861",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_p4Zt_kR",
@@ -1933,7 +2012,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-08-15T05:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-los-angeles-tickets-8-21-2027/event/107680861"
   },
   {
     "id": "tm-fall-out-boy-2027-portland-z7r9jz1aaaa0k",
@@ -2066,6 +2146,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680954",
+        "url": "https://www.stubhub.ie/fall-out-boy-seattle-tickets-8-24-2027/event/107680954",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p5FUbur",
@@ -2084,7 +2171,8 @@
         "end": "2027-08-18T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362650"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362650",
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-seattle-tickets-8-24-2027/event/107680954"
   },
   {
     "id": "tm-fall-out-boy-2027-manchester-1adjz_pgkrptysy",

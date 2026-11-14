@@ -206,11 +206,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107162862",
-        "url": "https://www.stubhub.ie/treaty-oak-revival-the-woodlands-tickets-11-13-2026/event/107162862",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_1pANpuQ",
@@ -221,7 +221,7 @@
     ],
     "ticket_limit": 6,
     "genre": "Country",
-    "stubhub_international_url": "https://www.stubhub.ie/treaty-oak-revival-the-woodlands-tickets-11-13-2026/event/107162862"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-treaty-oak-revival-2026-tulsa-1aezz_3x88ozdgea",

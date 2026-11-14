@@ -540,11 +540,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107676173",
-        "url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-12-2026/event/107676173",
-        "verified": true,
-        "last_verified_at": "2026-10-29",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4dKkD9j",
@@ -555,7 +555,7 @@
       "AEG LIVE"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338947",
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-12-2026/event/107676173",
+    "stubhub_international_url": "",
     "ticket_limit": 8,
     "genre": "Country"
   },

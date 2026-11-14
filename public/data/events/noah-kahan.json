@@ -378,17 +378,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107155378",
-        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-13-11-2026/event/107155378",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ku8v0x_GAG10Y_",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-13-11-2026/event/107155378",
+    "stubhub_international_url": "",
     "organizer_names": [
       "COMMUNION ONE LTD",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"

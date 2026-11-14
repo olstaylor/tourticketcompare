@@ -1220,11 +1220,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107482390",
-        "url": "https://www.stubhub.ie/jonas-brothers-austin-tickets-11-13-2026/event/107482390",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_8VeSk58",
@@ -1232,7 +1232,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214357",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214357/Jonas-Brothers-tickets-Fri-Nov-13-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-austin-tickets-11-13-2026/event/107482390",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

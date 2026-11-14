@@ -707,6 +707,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680296",
+        "url": "https://www.stubhub.ie/feid-philadelphia-tickets-2-26-2027/event/107680296",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZk4PGkel60Vj",
@@ -729,7 +736,8 @@
         "start": "2026-11-12T15:00:00Z",
         "end": "2027-02-22T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-philadelphia-tickets-2-26-2027/event/107680296"
   },
   {
     "id": "tm-feid-2027-brooklyn-16dzz_p3og7m3pl",
@@ -1236,6 +1244,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680721",
+        "url": "https://www.stubhub.ie/feid-austin-tickets-3-26-2027/event/107680721",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pKRkHDd",
@@ -1259,7 +1274,8 @@
         "start": "2026-11-12T16:00:00Z",
         "end": "2027-03-22T17:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-austin-tickets-3-26-2027/event/107680721"
   },
   {
     "id": "tm-feid-2027-denver-g5vzz_pkrlpf6",
@@ -1416,6 +1432,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680297",
+        "url": "https://www.stubhub.ie/feid-seattle-tickets-4-4-2027/event/107680297",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pKvb_3-",
@@ -1439,7 +1462,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-03-31T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-seattle-tickets-4-4-2027/event/107680297"
   },
   {
     "id": "tm-feid-2027-portland-vvg1hz_pckgfmh",
@@ -1596,6 +1620,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680723",
+        "url": "https://www.stubhub.ie/feid-sacramento-tickets-4-8-2027/event/107680723",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p5pDcKj",
@@ -1624,7 +1655,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-09T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-sacramento-tickets-4-8-2027/event/107680723"
   },
   {
     "id": "tm-feid-2027-san-francisco-g5vyz_p1g3qkq",
@@ -1687,6 +1719,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680726",
+        "url": "https://www.stubhub.ie/feid-san-francisco-tickets-4-10-2027/event/107680726",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p1g3Qkq",
@@ -1715,7 +1754,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-11T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-san-francisco-tickets-4-10-2027/event/107680726"
   },
   {
     "id": "tm-feid-2027-san-jose-g5vyz_p5keuz1",
@@ -1778,6 +1818,13 @@
         "verified": true,
         "last_verified_at": "2026-11-08",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680727",
+        "url": "https://www.stubhub.ie/feid-san-jose-tickets-4-11-2027/event/107680727",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p5KeuZ1",
@@ -1801,7 +1848,8 @@
         "start": "2026-11-12T18:00:00Z",
         "end": "2027-04-07T19:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/feid-san-jose-tickets-4-11-2027/event/107680727"
   },
   {
     "id": "tm-feid-2027-fresno-g5vyz_pcewaox",

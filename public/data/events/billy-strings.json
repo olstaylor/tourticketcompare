@@ -263,6 +263,13 @@
         "verified": true,
         "last_verified_at": "2026-10-26",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680953",
+        "url": "https://www.stubhub.ie/billy-strings-new-orleans-tickets-12-5-2026/event/107680953",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_6n0bmgE",
@@ -271,7 +278,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7843524",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7843524/Billy-Strings-tickets-Sat-Dec-5-2026-Smoothie-King-Center",
     "ticket_limit": 4,
-    "genre": "Country"
+    "genre": "Country",
+    "stubhub_international_url": "https://www.stubhub.ie/billy-strings-new-orleans-tickets-12-5-2026/event/107680953"
   },
   {
     "id": "tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj-",

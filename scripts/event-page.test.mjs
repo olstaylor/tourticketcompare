@@ -302,14 +302,15 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   const eventButtons = buttons(card(page.html, PRICED.id));
   const parentButtons = buttons(card(parent.html, PRICED.id));
   assert(eventButtons.length >= 4, `the event page has the date's ticket buttons (got ${eventButtons.length})`);
-  assert(JSON.stringify(eventButtons) === JSON.stringify(parentButtons), `event and parent cards carry identical buttons, hrefs and prices\n  event:  ${eventButtons.join("\n          ")}\n  parent: ${parentButtons.join("\n          ")}`);
+  // The parent board folds unpriced sites behind one row, so the order differs; the set must match.
+  assert(JSON.stringify([...eventButtons].sort()) === JSON.stringify([...parentButtons].sort()), `event and parent cards carry identical buttons, hrefs and prices\n  event:  ${eventButtons.join("\n          ")}\n  parent: ${parentButtons.join("\n          ")}`);
   assert(eventButtons.some((b) => /USD\s+182/.test(b)) && eventButtons.some((b) => /USD\s+190/.test(b)), "the approved snapshots print on both");
   const artistPage = await render(`/artists/${ARTIST.slug}`);
   // The artist page alone adds generic "Check prices" buttons (event_card_check)
   // for a resale site with no matched link on the date; the matched buttons are
   // the same, so compare those.
   const matchedArtistButtons = buttons(card(artistPage.html, PRICED.id)).filter((b) => !b.includes("ctaLocation=event_card_check"));
-  assert(JSON.stringify(matchedArtistButtons) === JSON.stringify(eventButtons), "the artist page's card matches too");
+  assert(JSON.stringify([...matchedArtistButtons].sort()) === JSON.stringify([...eventButtons].sort()), "the artist page's card matches too");
 
   // Recorded prices: the same figures the artist-city price answer states.
   const prices = text(meta(page.html, /(<section[^>]*aria-labelledby="eventPricesTitle"[\s\S]*?<\/section>)/));
@@ -549,7 +550,7 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   assert(buttons(pricedCard).length >= 4 && buttons(pricedCard).some((b) => /USD\s+182/.test(b)), "the priced card keeps every ticket button and its price inline");
   assert(text(artistCity.html).includes("30-day low USD 150 · Vivid Seats"), "the artist-city price answer still compares the dates inline");
   const eventPage = await render(pathOf(PRICED));
-  assert(JSON.stringify(buttons(pricedCard)) === JSON.stringify(buttons(card(eventPage.html, PRICED.id))), "parent and event cards still carry identical buttons");
+  assert(JSON.stringify([...buttons(pricedCard)].sort()) === JSON.stringify([...buttons(card(eventPage.html, PRICED.id))].sort()), "parent and event cards still carry identical buttons");
   for (const parent of PARENTS) {
     const page = pages.get(parent);
     for (const event of [PRICED, STALE, RESCHEDULED]) {

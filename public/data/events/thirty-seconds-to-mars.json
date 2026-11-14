@@ -965,63 +965,6 @@
     "genre": "Rock"
   },
   {
-    "id": "tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa",
-    "artist_slug": "thirty-seconds-to-mars",
-    "artist_name": "Thirty Seconds to Mars",
-    "event_name": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War | VIP",
-    "city": "Helsinki",
-    "country": "Finland",
-    "venue": "Veikkaus Arena",
-    "datetime_iso": "2027-05-24T15:30:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1131452209",
-    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-%7C-vip-tickets/1131452209?language=en-us",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-%7C-vip-tickets/1131452209?language=en-us",
-    "last_verified_at": "2026-11-07",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1131452209",
-        "discovery_event_id": "Z698xZ8KZ16v7so3Fa",
-        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-%7C-vip-tickets/1131452209?language=en-us",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZ8KZ16v7so3Fa",
-    "timezone": "Europe/Helsinki",
-    "status": "on-sale",
-    "organizer_names": [
-      "Live Nation Finland Oy"
-    ],
-    "genre": "Rock"
-  },
-  {
     "id": "tm-thirty-seconds-to-mars-2027-tallinn-z698xz8kz16vpf_d-9",
     "artist_slug": "thirty-seconds-to-mars",
     "artist_name": "Thirty Seconds to Mars",

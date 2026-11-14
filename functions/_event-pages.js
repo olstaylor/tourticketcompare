@@ -412,7 +412,8 @@ export const RECOGNISER_PREMIUM_SEATS_VENUE_SUFFIX = " loge";
 // admission to the concert. The recogniser withholds the box-seat forms too
 // (BOX_SEAT_NAME_RE there; scripts/event-pages.test.mjs keeps the two equal).
 export const BOX_SEAT_NAME_RE = /\|\s*(?:box|logen)[\s-]?seat\b/i;
-export const TICKET_NOT_INCLUDED_RE = /\bticket not included\b/i;
+// Also: "does NOT include event ticket", "Add-On" and "VIP Soundcheck" upsells.
+export const TICKET_NOT_INCLUDED_RE = /\bticket not included\b|\bdoes not include\b[^|()]{0,40}\bticket\b|\badd-on\b|\bvip sound ?check\b/i;
 
 /**
  * Which non-performance markers a record carries. Empty for a concert.

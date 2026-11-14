@@ -122,7 +122,7 @@ PREMIUM_LISTING_NAME_RE = re.compile(r"\b(?:venue premium|premium priced seat(?:
 # A listing that says the event ticket is not included ("Charli xcx | Vinyl
 # Room Upgrade (TICKET NOT INCLUDED)") is by its own words not admission to the
 # concert. Mirrors TICKET_NOT_INCLUDED_RE in functions/_event-pages.js.
-TICKET_NOT_INCLUDED_RE = re.compile(r"\bticket not included\b", re.IGNORECASE)
+TICKET_NOT_INCLUDED_RE = re.compile(r"\bticket not included\b|\bdoes not include\b[^|()]{0,40}\bticket\b|\badd-on\b|\bvip sound ?check\b", re.IGNORECASE)
 
 # A named listening event does not establish a live performance by the artist.
 LISTENING_EVENT_RE = re.compile(r"\blistening\s+(?:experience|party|session)\b", re.IGNORECASE)

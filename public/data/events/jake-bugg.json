@@ -289,65 +289,6 @@
     "genre": "Rock"
   },
   {
-    "id": "tm-jake-bugg-2027-sheffield-1adfz_ogkmhb1lb",
-    "artist_slug": "jake-bugg",
-    "artist_name": "Jake Bugg",
-    "event_name": "Jake Bugg: Arches Bar Experience",
-    "city": "Sheffield",
-    "country": "Great Britain",
-    "venue": "Sheffield City Hall Oval Hall",
-    "datetime_iso": "2027-02-18T18:30:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "3500651BBC60AAFA",
-    "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-arches-bar-experience-sheffield-18-02-2027/event/3500651BBC60AAFA",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.co.uk/jake-bugg-arches-bar-experience-sheffield-18-02-2027/event/3500651BBC60AAFA",
-    "last_verified_at": "2026-11-07",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "3500651BBC60AAFA",
-        "discovery_event_id": "1AdfZ_oGkmHb1lB",
-        "url": "https://www.ticketmaster.co.uk/jake-bugg-arches-bar-experience-sheffield-18-02-2027/event/3500651BBC60AAFA",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "1AdfZ_oGkmHb1lB",
-    "timezone": "Europe/London",
-    "status": "on-sale",
-    "organizer_names": [
-      "SJM LIMITED (NEW)",
-      "ASM T.A SHEFFIELD CITY HALL"
-    ],
-    "ticket_limit": 6,
-    "genre": "Rock"
-  },
-  {
     "id": "tm-jake-bugg-2027-liverpool-g5vhz_owwx56n",
     "artist_slug": "jake-bugg",
     "artist_name": "Jake Bugg",

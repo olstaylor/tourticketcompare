@@ -37472,18 +37472,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-hazlett-2027-montreal-17g8v0g62kxoauq",
-    "artist_slug": "hazlett",
-    "artist_name": "Hazlett",
-    "country": "Canada",
-    "city": "Montreal",
-    "venue": "Théâtre Beanfield",
-    "datetime_iso": "2027-05-05T00:00:00Z",
-    "timezone": "America/Toronto",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-hazlett-2027-east-cleveland-z7r9jz1a7pe8a",
     "artist_slug": "hazlett",
     "artist_name": "Hazlett",
@@ -44576,18 +44564,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-phoebe-bridgers-2026-forest-brussels-z698xzg2z16ezpgzqe",
-    "artist_slug": "phoebe-bridgers",
-    "artist_name": "Phoebe Bridgers",
-    "country": "Belgium",
-    "city": "Forest (Brussels)",
-    "venue": "Forest National - Legacy Lounge",
-    "datetime_iso": "2026-12-05T17:30:00Z",
-    "timezone": "Europe/Brussels",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-bryson-tiller-2026-albuquerque-g5vzz_5m9qykz",
     "artist_slug": "bryson-tiller",
     "artist_name": "Bryson Tiller",
@@ -49160,18 +49136,6 @@
     "status": "on-sale"
   },
   {
-    "id": "tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa",
-    "artist_slug": "thirty-seconds-to-mars",
-    "artist_name": "Thirty Seconds to Mars",
-    "country": "Finland",
-    "city": "Helsinki",
-    "venue": "Veikkaus Arena",
-    "datetime_iso": "2027-05-24T15:30:00Z",
-    "timezone": "Europe/Helsinki",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
     "id": "tm-cristian-castro-2026-glendale-1a_zko8gkebja4t",
     "artist_slug": "cristian-castro",
     "artist_name": "Cristian Castro",
@@ -50751,18 +50715,6 @@
     "city": "Manchester",
     "venue": "O2 Apollo Manchester",
     "datetime_iso": "2027-04-10T18:00:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-brandi-carlile-2027-wolverhampton-g5vhz_8ni4sv1",
-    "artist_slug": "brandi-carlile",
-    "artist_name": "Brandi Carlile",
-    "country": "Great Britain",
-    "city": "Wolverhampton",
-    "venue": "University of Wolverhampton at The Civic Hall",
-    "datetime_iso": "2027-04-11T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "on-sale"
@@ -55311,18 +55263,6 @@
     "city": "Gateshead",
     "venue": "The Glasshouse International Centre for Music",
     "datetime_iso": "2027-02-17T19:00:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-jake-bugg-2027-sheffield-1adfz_ogkmhb1lb",
-    "artist_slug": "jake-bugg",
-    "artist_name": "Jake Bugg",
-    "country": "Great Britain",
-    "city": "Sheffield",
-    "venue": "Sheffield City Hall Oval Hall",
-    "datetime_iso": "2027-02-18T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "on-sale"
@@ -63339,18 +63279,6 @@
     "city": "Cardiff",
     "venue": "Cardiff Castle",
     "datetime_iso": "2027-06-29T16:00:00Z",
-    "timezone": "Europe/London",
-    "tour_name": "",
-    "status": "on-sale"
-  },
-  {
-    "id": "tm-mariah-carey-2027-woodstock-1amzk4pgkevlzix",
-    "artist_slug": "mariah-carey",
-    "artist_name": "Mariah Carey",
-    "country": "Great Britain",
-    "city": "Woodstock",
-    "venue": "Blenheim Palace",
-    "datetime_iso": "2027-07-01T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "on-sale"

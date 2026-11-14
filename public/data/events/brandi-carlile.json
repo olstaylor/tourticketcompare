@@ -1664,64 +1664,6 @@
     "genre": "Rock"
   },
   {
-    "id": "tm-brandi-carlile-2027-wolverhampton-g5vhz_8ni4sv1",
-    "artist_slug": "brandi-carlile",
-    "artist_name": "Brandi Carlile",
-    "event_name": "Brandi Carlile - VIP Soundcheck (does NOT include event ticket)",
-    "city": "Wolverhampton",
-    "country": "Great Britain",
-    "venue": "University of Wolverhampton at The Civic Hall",
-    "datetime_iso": "2027-04-11T18:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "1F00650AAC57304A",
-    "ticketmaster_url": "https://www.ticketmaster.co.uk/brandi-carlile-vip-soundcheck-does-not-wolverhampton-11-04-2027/event/1F00650AAC57304A",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.co.uk/brandi-carlile-vip-soundcheck-does-not-wolverhampton-11-04-2027/event/1F00650AAC57304A",
-    "last_verified_at": "2026-11-07",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "1F00650AAC57304A",
-        "discovery_event_id": "G5vHZ_8ni4Sv1",
-        "url": "https://www.ticketmaster.co.uk/brandi-carlile-vip-soundcheck-does-not-wolverhampton-11-04-2027/event/1F00650AAC57304A",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "G5vHZ_8ni4Sv1",
-    "timezone": "Europe/London",
-    "status": "on-sale",
-    "organizer_names": [
-      "AEG PRESENTS"
-    ],
-    "ticket_limit": 6,
-    "genre": "Rock"
-  },
-  {
     "id": "tm-brandi-carlile-2027-london-16dbz_8rdg7g-dj",
     "artist_slug": "brandi-carlile",
     "artist_name": "Brandi Carlile",

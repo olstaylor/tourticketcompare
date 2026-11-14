@@ -254,7 +254,7 @@ const EVENTS = [STRONG, MULTI_A, MULTI_B, ONE_LANE, TWO_LANES, TWO_PRICE_LANES, 
   const upsell = at("concert-upsell", "2026-09-30T01:01:00Z", { event_name: `${ARTIST.name} | Venue Premium Packages`, venue: "Terrace Club" });
   assert("   a non-performance variant leaves the concert row unambiguous", groupOf([concert, upsell])[0]?.classification === D.NON_PERFORMANCE_VARIANT && decide([concert, upsell], concert).eligible);
 
-  const addOn = at("concert-add-on", "2026-09-30T02:00:00Z", { event_name: `${concert.event_name} | Bistronomy Experience`, venue: "Legacy Lounge" });
+  const addOn = at("concert-bistro", "2026-09-30T02:00:00Z", { event_name: `${concert.event_name} | Bistronomy Experience`, venue: "Legacy Lounge" });
   const addOnGroup = groupOf([concert, addOn])[0];
   assert("   an add-on product named '<concert> | …' is excluded and the concert stays eligible", addOnGroup?.classification === D.ADD_ON_VARIANT && decide([concert, addOn], concert).eligible && decide([concert, addOn], addOn).reasons.includes(R.DUPLICATE_AMBIGUITY));
 

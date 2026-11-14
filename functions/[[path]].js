@@ -1044,6 +1044,7 @@ async function resolveRoute(pathname, env) {
     // again when a future event is added.
     const artistEvents = await loadArtistEvents(env, artist.slug);
     const hasUpcoming = artistHasUpcomingShow(artistEvents, artist.slug);
+    enrichedArtist.last_verified_at = newestLinkCheckDate(artistEvents, artist.slug, enrichedArtist.last_verified_at);
     // The year(s) in the title are read off the same future shows the board
     // renders, in each card's venue-local calendar.
     const futureShows = futureShowsForArtist(artistEvents, artist.slug);
@@ -5307,6 +5308,29 @@ function renderProviderFallback(catalog, artist, surface, providerAvailability =
     })
     .join("");
   return `<section class="provider-panel"><h2>Where to buy</h2><p class="muted">These go to the artist's page on each ticket site, not to a specific date.</p><div class="provider-actions">${cards}</div></section>`;
+}
+
+// The date the artist page prints as its link check. The daily audit holds the
+// artist-level date whenever any one link is WAF-blocked (Ticketmaster and
+// SeatGeek answer the checker 403 on every URL), so that date can sit months
+// behind real checks. Each seller's own sync stamps `provider_links.<seller>.
+// last_verified_at` when it re-verifies a link, so the newest such stamp on an
+// upcoming date is a real check on this artist's links. The later of the two
+// dates wins; nothing is written, and an artist with no real stamp keeps its
+// artist-level date.
+function newestLinkCheckDate(events, artistSlug, artistDate = "") {
+  const slug = slugify(artistSlug);
+  const now = Date.now();
+  const today = new Date(now).toISOString().slice(0, 10);
+  let newest = ISO_DAY.test(String(artistDate || "")) ? String(artistDate) : "";
+  for (const event of events || []) {
+    if (!event || slugify(event.artist_slug) !== slug || !isUpcomingShow(event, now)) continue;
+    for (const link of Object.values(event.provider_links || {})) {
+      const day = String(link?.last_verified_at || "");
+      if (link?.verified === true && link?.url && ISO_DAY.test(day) && day <= today && day > newest) newest = day;
+    }
+  }
+  return newest || String(artistDate || "");
 }
 
 function formatVerificationDate(value) {

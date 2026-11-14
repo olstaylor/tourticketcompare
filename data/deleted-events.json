@@ -320,6 +320,72 @@
       "canonical_id": "tm-tyla-2026-seattle-vvg1hz_2qgz489",
       "reason": "Duplicate of the retained frozen-cohort Seattle event: both exact Ticketmaster Discovery records confirm Tyla at Paramount Theatre on 2026-11-17 at 20:00 local. Retain the existing TTC identity and its live rescheduled source; remove this second admission record. API-verified 2026-11-05.",
       "deleted_at": "2026-11-05"
+    },
+    {
+      "artist_slug": "hazlett",
+      "id": "tm-hazlett-2027-montreal-17g8v0g62kxoauq",
+      "ticketmaster_discovery_event_id": "17G8v0G62kxOAuQ",
+      "ticketmaster_event_id": "310064F1A280535A",
+      "venue": "Théâtre Beanfield",
+      "datetime_iso": "2027-05-05T00:00:00Z",
+      "timezone": "America/Toronto",
+      "reason": "Add-on/upsell product, not concert admission (\"The Pre-Show Speakeasy with Hazlett - Add-On\"). Removed on owner approval 2026-11-14 after weekend audit.",
+      "deleted_at": "2026-11-14"
+    },
+    {
+      "artist_slug": "phoebe-bridgers",
+      "id": "tm-phoebe-bridgers-2026-forest-brussels-z698xzg2z16ezpgzqe",
+      "ticketmaster_discovery_event_id": "Z698xZG2Z16eZpGzqe",
+      "ticketmaster_event_id": "2016338742",
+      "venue": "Forest National - Legacy Lounge",
+      "datetime_iso": "2026-12-05T17:30:00Z",
+      "timezone": "Europe/Brussels",
+      "reason": "Add-on/upsell product, not concert admission (\"Phoebe Bridgers, The Lost Tour | be•at Premium Bistronomy Experience\"). Removed on owner approval 2026-11-14 after weekend audit.",
+      "deleted_at": "2026-11-14"
+    },
+    {
+      "artist_slug": "thirty-seconds-to-mars",
+      "id": "tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa",
+      "ticketmaster_discovery_event_id": "Z698xZ8KZ16v7so3Fa",
+      "ticketmaster_event_id": "1131452209",
+      "venue": "Veikkaus Arena",
+      "datetime_iso": "2027-05-24T15:30:00Z",
+      "timezone": "Europe/Helsinki",
+      "reason": "Add-on/upsell product, not concert admission (\"Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War | VIP\"). Removed on owner approval 2026-11-14 after weekend audit.",
+      "deleted_at": "2026-11-14"
+    },
+    {
+      "artist_slug": "brandi-carlile",
+      "id": "tm-brandi-carlile-2027-wolverhampton-g5vhz_8ni4sv1",
+      "ticketmaster_discovery_event_id": "G5vHZ_8ni4Sv1",
+      "ticketmaster_event_id": "1F00650AAC57304A",
+      "venue": "University of Wolverhampton at The Civic Hall",
+      "datetime_iso": "2027-04-11T18:00:00Z",
+      "timezone": "Europe/London",
+      "reason": "Add-on/upsell product, not concert admission (\"Brandi Carlile - VIP Soundcheck (does NOT include event ticket)\"). Removed on owner approval 2026-11-14 after weekend audit.",
+      "deleted_at": "2026-11-14"
+    },
+    {
+      "artist_slug": "jake-bugg",
+      "id": "tm-jake-bugg-2027-sheffield-1adfz_ogkmhb1lb",
+      "ticketmaster_discovery_event_id": "1AdfZ_oGkmHb1lB",
+      "ticketmaster_event_id": "3500651BBC60AAFA",
+      "venue": "Sheffield City Hall Oval Hall",
+      "datetime_iso": "2027-02-18T18:30:00Z",
+      "timezone": "Europe/London",
+      "reason": "Add-on/upsell product, not concert admission (\"Jake Bugg: Arches Bar Experience\"). Removed on owner approval 2026-11-14 after weekend audit.",
+      "deleted_at": "2026-11-14"
+    },
+    {
+      "artist_slug": "mariah-carey",
+      "id": "tm-mariah-carey-2027-woodstock-1amzk4pgkevlzix",
+      "ticketmaster_discovery_event_id": "1AMZk4pGkeVlziX",
+      "ticketmaster_event_id": "37006556B4AF8B3E",
+      "venue": "Blenheim Palace",
+      "datetime_iso": "2027-07-01T16:00:00Z",
+      "timezone": "Europe/London",
+      "reason": "Add-on/upsell product, not concert admission (\"The Orangery - Does not include event ticket - Mariah Carey\"). Removed on owner approval 2026-11-14 after weekend audit.",
+      "deleted_at": "2026-11-14"
     }
   ]
 }

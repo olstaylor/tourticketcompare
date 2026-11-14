@@ -292,6 +292,10 @@ assert("keys are fixed-length lowercase hex", GOLDEN_KEYS.every(([id]) => new Re
   assert("\"| Box-Seat\" is flagged", flagged({ event_name: "Teddy Swims - The UGLY Tour | Box-Seat" }));
   assert("\"| Logen-Seat\" (German: box seat) is flagged", flagged({ event_name: "SABATON: The Legendary Tour Part 2 | Logen-Seat" }));
   assert("\"(Event Ticket Not Included)\" is flagged", flagged({ event_name: "Latto VIP Upgrades (Event Ticket Not Included)" }));
+  assert("\"VIP Soundcheck (does NOT include event ticket)\" is flagged", flagged({ event_name: "Brandi Carlile VIP Soundcheck (does NOT include event ticket)" }));
+  assert("\"Does not include event ticket\" is flagged", flagged({ event_name: "Mariah Carey - The Orangery - Does not include event ticket" }));
+  assert("\"Add-On\" upsell is flagged", flagged({ event_name: "Hazlett | Pre-Show Speakeasy Add-On" }));
+  assert("a concert whose name says \"includes\" is not flagged", !flagged({ event_name: "Show (ticket includes meet and greet)" }));
   assert("a plain concert is not flagged", !flagged({}));
   assert("a Lounge venue is not flagged", !flagged({ venue: "The Rebel Lounge" }));
   // Venue Premium / Premium Priced listings are withheld at ingestion (owner

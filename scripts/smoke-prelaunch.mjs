@@ -3903,7 +3903,7 @@ assert(!beyonceEmptyStatePage.text.includes("event records"), "empty-board artis
 // Artist-level provider buttons land on the artist's page, not on one date, so
 // neither the provenance block nor the shared help may claim otherwise.
 assert(
-  manyBoard.html.includes("every button on a date card opens that exact show"),
+  manyBoard.html.includes("each button links to the ticket site's page for that date"),
   "the provenance block should scope the exact-event claim to date-card buttons"
 );
 assert(

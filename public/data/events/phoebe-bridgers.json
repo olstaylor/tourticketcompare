@@ -1214,62 +1214,6 @@
     "genre": "Rock"
   },
   {
-    "id": "tm-phoebe-bridgers-2026-forest-brussels-z698xzg2z16ezpgzqe",
-    "artist_slug": "phoebe-bridgers",
-    "artist_name": "Phoebe Bridgers",
-    "event_name": "Phoebe Bridgers, The Lost Tour | be•at Premium Bistronomy Experience",
-    "city": "Forest (Brussels)",
-    "country": "Belgium",
-    "venue": "Forest National - Legacy Lounge",
-    "datetime_iso": "2026-12-05T17:30:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "2016338742",
-    "ticketmaster_url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-%7C-beat-premium-bistronomy-experience-tickets/2016338742",
-    "seatgeek_url": "",
-    "vividseats_url": "",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-%7C-beat-premium-bistronomy-experience-tickets/2016338742",
-    "last_verified_at": "2026-11-07",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "2016338742",
-        "discovery_event_id": "Z698xZG2Z16eZpGzqe",
-        "url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-%7C-beat-premium-bistronomy-experience-tickets/2016338742",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "stubhub": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      }
-    },
-    "ticketmaster_discovery_event_id": "Z698xZG2Z16eZpGzqe",
-    "timezone": "Europe/Brussels",
-    "status": "on-sale",
-    "organizer_names": [
-      "be•at Premium"
-    ]
-  },
-  {
     "id": "tm-phoebe-bridgers-2027-portland-vvg1hz_pjbo4da",
     "artist_slug": "phoebe-bridgers",
     "artist_name": "Phoebe Bridgers",

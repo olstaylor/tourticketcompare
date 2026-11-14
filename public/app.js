@@ -1672,6 +1672,12 @@ function renderShowDateBadge(show) {
   return badge;
 }
 
+// Display-only: drop a leading "SOLD OUT!"/"Rescheduled" label from the source title.
+function displayEventName(value) {
+  const raw = String(value || "").trim();
+  return raw.replace(/^\s*(?:sold[\s-]*out|rescheduled)\s*[!:|\u2013\u2014-]+\s*/i, "").trim() || raw;
+}
+
 function showLocation(show) {
   return [show.city, show.venue]
     .map((value) => String(value || "").trim())
@@ -2416,7 +2422,7 @@ function renderShowCard(show, options = {}) {
 
   const location = showLocation(show);
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
-  const eventName = String(show.event_name || "").trim();
+  const eventName = displayEventName(show.event_name);
   if (options.locationTitle && location) {
     // Artist boards: the city and venue are what differentiates each date, so
     // they lead; the event name adds support acts / tour info when it says
@@ -3964,7 +3970,7 @@ function renderSimplePage(type) {
         "Do not treat general guidance as financial, legal, ticketing, or travel advice for your individual circumstances."
       ]),
       policySection("Content and trademarks", [["The site's text, design and compiled data belong to TourTicketCompare. Artist names, ticket-site names and logos belong to their owners and appear only to identify them."]]),
-      policySection("Accuracy and liability", [["Information is checked before it is published, but no page, link, price, date, provider or service can be guaranteed complete, current, available or error-free. As far as the law allows, TourTicketCompare is not liable for any loss arising from your use of the site or from a purchase made on another site. Nothing in these terms limits any right you have that cannot be excluded by law. If you spot a problem, report it on the ", ["contact page", "/contact"], "."]]),
+      policySection("Accuracy and liability", [["Information is checked automatically before it is published, but no page, link, price, date, provider or service can be guaranteed complete, current, available or error-free. As far as the law allows, TourTicketCompare is not liable for any loss arising from your use of the site or from a purchase made on another site. Nothing in these terms limits any right you have that cannot be excluded by law. If you spot a problem, report it on the ", ["contact page", "/contact"], "."]]),
       policySection("Changes and contact", [["The site and these terms may change as the service develops; the version on this page is the one that applies. Questions about these terms can be sent to ", helloEmail, "."]])
     );
     text(section, "p", "This is a plain-language policy, not legal advice.", "disclosure-note");

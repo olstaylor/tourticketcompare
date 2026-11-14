@@ -1507,8 +1507,18 @@ function foldName(value) {
     .trim();
 }
 
+// Ticketmaster sometimes bakes a transient status into the listing title
+// ("SOLD OUT! ...", "Rescheduled - ..."). The stored name is left as the source
+// has it; only the display strips a leading status label, which goes stale.
+const TRANSIENT_NAME_PREFIX_RE = /^\s*(?:sold[\s-]*out|rescheduled)\s*[!:|\u2013\u2014-]+\s*/i;
+function displayEventName(value) {
+  const raw = String(value || "").trim();
+  const stripped = raw.replace(TRANSIENT_NAME_PREFIX_RE, "").trim();
+  return stripped || raw;
+}
+
 function musicEventName(show, artistName) {
-  const eventName = String(show.event_name || "").trim();
+  const eventName = displayEventName(show.event_name);
   const artist = foldName(artistName);
   // Whole words only: "Rush" must not match "Rushmore", nor "Muse" "Museum".
   if (eventName && artist && ` ${foldName(eventName)} `.includes(` ${artist} `)) return eventName;
@@ -5334,12 +5344,12 @@ function renderVerificationDisclosure(artist, hasShows = true) {
   // printing it would be a freshness claim attached to nothing.
   const artistVerifiedDate = hasShows ? formatVerificationDate(artist.last_verified_at) : null;
   const checkedLine = artistVerifiedDate
-    ? `<p><strong>Last checked:</strong> ticket links checked ${escapeHtml(
+    ? `<p><strong>Last checked:</strong> ticket links checked automatically against the ticket site on ${escapeHtml(
         artistVerifiedDate
       )}.</p>`
     : "";
   const verificationLines = hasShows
-    ? `<p><strong>What's checked:</strong> each date's day, venue and city match the ticket site, and every button on a date card opens that exact show. If a link stops working, the date stays listed without a button.</p><p><strong>What isn't checked:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site confirms those when you buy.</p>`
+    ? `<p><strong>What's checked:</strong> each date's day, venue and city are checked automatically against the ticket site, and each button links to the ticket site's page for that date. A date can be held for a recheck, and if a link stops working, the date stays listed without a button.</p><p><strong>What isn't checked:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site confirms those when you buy.</p>`
     : `<p><strong>What's checked:</strong> TTC has not verified any upcoming ${escapeHtml(
         artist.name
       )} dates. This does not mean no shows have been announced. A date only goes up once its day, venue and city are confirmed, and a ticket button only once its link opens that exact show.</p>`;
@@ -6919,7 +6929,7 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
   // and the group heading names the venue, so "city · venue" on every card said
   // nothing new and the artist, the thing that differs, is the heading instead.
   const titleFallback = show.city ? `Show – ${show.city}` : "Upcoming show";
-  const eventName = String(show.event_name || "").trim();
+  const eventName = displayEventName(show.event_name);
   const titleArtist = presentation.titleArtist === true && Boolean(artistName);
   const title = titleArtist ? artistName : location || eventName || titleFallback;
   const artistHtml = !titleArtist && presentation.showArtistName === true && artistName
@@ -7777,7 +7787,7 @@ function renderEventPageBody(route, events, env) {
 
   const dateLabel = formatShowDateServer(show.dateTimeISO, show.timezone);
   const localTime = showLocalTimeServer(show.dateTimeISO, show.timezone);
-  const eventName = String(show.event_name || "").trim();
+  const eventName = displayEventName(show.event_name);
   const verified = formatVerificationDate(show.last_verified_at);
   const status = eventStatusFact(show);
   const previousDate = eventPreviousStartDate(show);

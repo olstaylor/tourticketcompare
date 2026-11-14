@@ -99,7 +99,7 @@
         "event_id": 18606379,
         "url": "https://seatgeek.com/valley-tickets/montreal-canada-le-studio-td-2027-02-05-8-pm/concert/18606379",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -180,7 +180,7 @@
         "event_id": 18606169,
         "url": "https://seatgeek.com/valley-tickets/ottawa-canada-bronson-centre-2027-02-06-7-pm/concert/18606169",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -299,7 +299,7 @@
         "event_id": 18606118,
         "url": "https://seatgeek.com/valley-tickets/london-canada-london-music-hall-2027-02-10-7-pm/concert/18606118",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -499,7 +499,7 @@
         "event_id": 18606405,
         "url": "https://seatgeek.com/valley-tickets/winnipeg-canada-the-park-theatre-2027-02-16-7-pm/concert/18606405",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -633,7 +633,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652EA2AE8DDE",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
-    "seatgeek_url": "https://seatgeek.com/valley-tickets/edmonton-canada-midway-edmonton-2027-02-19-6-30-pm/concert/18606369",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
@@ -720,7 +720,7 @@
         "event_id": 18605986,
         "url": "https://seatgeek.com/valley-tickets/calgary-canada-the-palace-theatre-calgary-2027-02-20-6-pm/concert/18605986",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -874,7 +874,7 @@
         "event_id": 18606271,
         "url": "https://seatgeek.com/valley-tickets/vancouver-canada-commodore-ballroom-2027-02-24-7-pm/concert/18606271",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -974,7 +974,7 @@
         "event_id": 18606330,
         "url": "https://seatgeek.com/valley-tickets/seattle-washington-neptune-theatre-wa-2027-02-26-8-pm/concert/18606330",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1190,7 +1190,7 @@
         "event_id": 18606549,
         "url": "https://seatgeek.com/valley-tickets/los-angeles-california-the-bellwether-2027-03-02-8-pm/concert/18606549",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1252,7 +1252,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfg",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/valley-tickets/phoenix-arizona-crescent-ballroom-2027-03-03-8-pm/concert/18762616",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfg",
@@ -1268,11 +1268,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18762616,
+        "url": "https://seatgeek.com/valley-tickets/phoenix-arizona-crescent-ballroom-2027-03-03-8-pm/concert/18762616",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1340,7 +1340,7 @@
         "event_id": 18606235,
         "url": "https://seatgeek.com/valley-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-03-05-7-pm/concert/18606235",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

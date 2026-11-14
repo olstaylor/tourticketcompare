@@ -2035,7 +2035,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "160064888B1E4D69",
     "ticketmaster_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
-    "seatgeek_url": "https://seatgeek.com/sombr-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-12-7-pm/concert/18175603",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-pittsburgh-pennsylvania-11-12-2026/event/160064888B1E4D69",
@@ -2051,11 +2051,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18175603,
-        "url": "https://seatgeek.com/sombr-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-12-7-pm/concert/18175603",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

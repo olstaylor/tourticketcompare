@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18761493,
+        "url": "https://seatgeek.com/the-rankin-family-tickets/edmonton-canada-northern-alberta-jubilee-auditorium-2027-03-12-7-30-pm/concert/18761493",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -80,11 +80,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18761494,
+        "url": "https://seatgeek.com/the-rankin-family-tickets/calgary-canada-southern-alberta-jubilee-auditorium-2027-03-13-7-30-pm/concert/18761494",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -133,11 +133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18761503,
+        "url": "https://seatgeek.com/the-rankin-family-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-15-7-30-pm/concert/18761503",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -170,7 +170,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006564CB19D1C0",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
-    "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/thunder-bay-canada-thunder-bay-community-auditorium-2027-03-17-7-30-pm/concert/18761505",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
@@ -190,7 +190,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -239,11 +239,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18761508,
+        "url": "https://seatgeek.com/the-rankin-family-tickets/ottawa-canada-national-arts-centre-2027-03-24-7-30-pm/concert/18761508",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -292,11 +292,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18761514,
+        "url": "https://seatgeek.com/the-rankin-family-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-03-27-8-pm/concert/18761514",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -345,11 +345,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18761516,
+        "url": "https://seatgeek.com/the-rankin-family-tickets/montreal-canada-beanfield-theatre-2027-03-29-7-30-pm/concert/18761516",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -398,11 +398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18761517,
+        "url": "https://seatgeek.com/the-rankin-family-tickets/moncton-canada-molson-canadian-centre-at-casino-new-brunswick-2027-03-30-7-30-pm/concert/18761517",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -451,11 +451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18761518,
+        "url": "https://seatgeek.com/the-rankin-family-tickets/halifax-canada-scotiabank-centre-2027-04-01-7-30-pm/concert/18761518",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -504,11 +504,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18761519,
+        "url": "https://seatgeek.com/the-rankin-family-tickets/sydney-canada-centre-200-2027-04-03-7-pm/concert/18761519",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

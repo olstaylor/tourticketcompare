@@ -2575,7 +2575,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7wGt",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wGt",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/athens-georgia-sanford-stadium-2027-04-24-6-30-pm/concert/18728706",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-athens-sanford-stadium-4-24-2027--concerts-pop/production/7773104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wGt",
@@ -2591,11 +2591,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728706,
+        "url": "https://seatgeek.com/noah-kahan-tickets/athens-georgia-sanford-stadium-2027-04-24-6-30-pm/concert/18728706",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773104,
@@ -2644,7 +2644,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7wuk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wuk",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/nashville-tennessee-nissan-stadium-2027-05-04-6-30-pm/concert/18723384",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-nashville-nissan-stadium-5-4-2027--concerts-pop/production/7773112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wuk",
@@ -2660,11 +2660,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18723384,
+        "url": "https://seatgeek.com/noah-kahan-tickets/nashville-tennessee-nissan-stadium-2027-05-04-6-30-pm/concert/18723384",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773112,
@@ -2713,7 +2713,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7wuw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wuw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/norman-oklahoma-gaylord-family-oklahoma-memorial-stadium-2027-05-09-6-30-pm/concert/18728705",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-norman-oklahoma-memorial-stadium-5-9-2027--concerts-pop/production/7773116",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wuw",
@@ -2729,11 +2729,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728705,
+        "url": "https://seatgeek.com/noah-kahan-tickets/norman-oklahoma-gaylord-family-oklahoma-memorial-stadium-2027-05-09-6-30-pm/concert/18728705",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773116,
@@ -2766,7 +2766,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7wob",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wob",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/austin-texas-darrell-k-royal-texas-memorial-stadium-2027-05-15-6-30-pm/concert/18728715",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-austin-darrell-k-royal---texas-memorial-stadium-5-15-2027--concerts-pop/production/7773120",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wob",
@@ -2782,11 +2782,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728715,
+        "url": "https://seatgeek.com/noah-kahan-tickets/austin-texas-darrell-k-royal-texas-memorial-stadium-2027-05-15-6-30-pm/concert/18728715",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773120,
@@ -2819,7 +2819,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7w8x",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7w8x",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/madison-wisconsin-camp-randall-stadium-2027-05-26-6-30-pm/concert/18728720",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-madison-camp-randall-stadium-5-26-2027--concerts-pop/production/7773134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7w8x",
@@ -2835,11 +2835,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728720,
+        "url": "https://seatgeek.com/noah-kahan-tickets/madison-wisconsin-camp-randall-stadium-2027-05-26-6-30-pm/concert/18728720",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773134,
@@ -2888,7 +2888,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7wo7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wo7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/boston-massachusetts-fenway-park-2027-05-29-6-pm/concert/18728723",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-boston-fenway-park-5-29-2027--concerts-pop/production/7773149",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wo7",
@@ -2904,11 +2904,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728723,
+        "url": "https://seatgeek.com/noah-kahan-tickets/boston-massachusetts-fenway-park-2027-05-29-6-pm/concert/18728723",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773149,
@@ -2965,7 +2965,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7wof",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wof",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/boston-massachusetts-fenway-park-2027-05-30-6-pm/concert/18728725",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-boston-fenway-park-5-30-2027--concerts-pop/production/7773155",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wof",
@@ -2981,11 +2981,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728725,
+        "url": "https://seatgeek.com/noah-kahan-tickets/boston-massachusetts-fenway-park-2027-05-30-6-pm/concert/18728725",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773155,
@@ -3042,7 +3042,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7wo4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wo4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/boston-massachusetts-fenway-park-2027-06-01-6-pm/concert/18728724",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-boston-fenway-park-6-1-2027--concerts-pop/production/7773165",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wo4",
@@ -3058,11 +3058,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728724,
+        "url": "https://seatgeek.com/noah-kahan-tickets/boston-massachusetts-fenway-park-2027-06-01-6-pm/concert/18728724",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773165,
@@ -3119,7 +3119,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7wo9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wo9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/boston-massachusetts-fenway-park-2027-06-02-6-pm/concert/18728726",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-boston-fenway-park-6-2-2027--concerts-pop/production/7773169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7wo9",
@@ -3135,11 +3135,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728726,
+        "url": "https://seatgeek.com/noah-kahan-tickets/boston-massachusetts-fenway-park-2027-06-02-6-pm/concert/18728726",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7773169,

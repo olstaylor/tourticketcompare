@@ -1368,7 +1368,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8Z4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Z4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/spokane-washington-numerica-veterans-arena-2027-02-18-7-30-pm/concert/18760656",
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-spokane-numerica-veterans-arena-2-18-2027--concerts-rock/production/7861689",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Z4",
@@ -1384,11 +1384,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760656,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/spokane-washington-numerica-veterans-arena-2027-02-18-7-30-pm/concert/18760656",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861689,
@@ -1613,7 +1613,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8Zp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Zp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/kansas-city-missouri-t-mobile-center-2027-02-26-7-30-pm/concert/18760622",
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-kansas-city-t-mobile-center-2-26-2027--concerts-rock/production/7861701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Zp",
@@ -1629,11 +1629,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760622,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/kansas-city-missouri-t-mobile-center-2027-02-26-7-30-pm/concert/18760622",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861701,
@@ -1683,7 +1683,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8Z9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Z9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/oklahoma-city-oklahoma-paycom-center-2027-02-28-7-30-pm/concert/18760621",
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-oklahoma-city-paycom-center-2-28-2027--concerts-rock/production/7861703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Z9",
@@ -1699,11 +1699,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760621,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/oklahoma-city-oklahoma-paycom-center-2027-02-28-7-30-pm/concert/18760621",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861703,
@@ -1753,7 +1753,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8Zb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Zb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/lincoln-nebraska-pinnacle-bank-arena-2027-03-02-7-30-pm/concert/18760620",
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-lincoln-pinnacle-bank-arena-3-2-2027--concerts-rock/production/7861727",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Zb",
@@ -1769,11 +1769,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760620,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/lincoln-nebraska-pinnacle-bank-arena-2027-03-02-7-30-pm/concert/18760620",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861727,
@@ -1910,7 +1910,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8Z_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Z_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/grand-rapids-michigan-van-andel-arena-2027-03-06-7-30-pm/concert/18760631",
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-grand-rapids-van-andel-arena-3-6-2027--concerts-rock/production/7861749",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Z_",
@@ -1926,11 +1926,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760631,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/grand-rapids-michigan-van-andel-arena-2027-03-06-7-30-pm/concert/18760631",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861749,
@@ -1980,7 +1980,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8ZO",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ZO",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/cleveland-ohio-rocket-arena-2027-03-07-7-30-pm/concert/18744825",
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-cleveland-rocket-arena-3-7-2027--concerts-rock/production/7861751",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ZO",
@@ -1996,11 +1996,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18744825,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/cleveland-ohio-rocket-arena-2027-03-07-7-30-pm/concert/18744825",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861751,

@@ -287,7 +287,11 @@ function evaluateCandidate(event, artistName, candidate, { matchStartTime = true
 }
 
 function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, catalogComplete, preserveAbsentStored = false }) {
-  if (storedCandidate?.ok) return { action: storedVerified ? "none" : "verify", candidate: storedCandidate };
+  // A stored, already-verified link that the same run's full matcher just
+  // confirmed against the live listing is a genuine recheck: "refresh" moves
+  // only last_verified_at forward (never the url/id), so the freshness gate
+  // reflects real checks instead of the date a link was first written.
+  if (storedCandidate?.ok) return { action: storedVerified ? "refresh" : "verify", candidate: storedCandidate };
   if (passing.length > 1) return { action: "conflict", candidate: null };
   // One passing listing in a partial catalog is not proof it is the only one:
   // an unfetched page could hold a second (a conflict), so nothing is added.
@@ -316,7 +320,7 @@ export function closestMiss(evaluations) {
 function outcomeNote(action, { ambiguousListing = false, storedListed = false, catalogComplete = false, stopReason = "", nearMiss = "" } = {}) {
   if (ambiguousListing) return "ambiguous: one listing passes for performances at different start times";
   if (action === "conflict") return "ambiguous: several qualifying listings for this event";
-  if (["verify", "add", "correct"].includes(action)) return "-";
+  if (["verify", "add", "correct", "refresh"].includes(action)) return "-";
   if (["clear", "unverify"].includes(action)) return "no qualifying listing (the complete catalog no longer lists the stored link)";
   if (storedListed) return "-";
   if (!catalogComplete) return `not checked: catalog incomplete (${stopReason || "unknown"})`;
@@ -379,6 +383,7 @@ function renderLog(summary, generatedAt = new Date().toISOString(), { previousLo
     `- Events selected: ${summary.selected}`,
     `- API calls made: ${summary.api_calls}`,
     `- Verified provenance written: ${summary.verified}`,
+    `- Verified dates refreshed (link re-confirmed against the live listing): ${summary.refreshed ?? 0}`,
     `- URLs added: ${summary.added}`,
     `- URLs corrected: ${summary.corrected}`,
     `- URLs cleared: ${summary.cleared}`,
@@ -402,11 +407,18 @@ function logPathFor(provider) {
 }
 
 function applyOutcome(event, config, outcome, today) {
-  if (!["verify", "add", "correct", "clear", "unverify"].includes(outcome.action)) return false;
+  if (!["verify", "add", "correct", "clear", "unverify", "refresh"].includes(outcome.action)) return false;
   if (!event.provider_links || typeof event.provider_links !== "object") event.provider_links = {};
   if (["clear", "unverify"].includes(outcome.action)) {
     event[config.urlField] = "";
     event.provider_links[config.linkKey] = { event_id: null, url: null, verified: false, last_verified_at: null, availability_status: "not_listed" };
+    return true;
+  }
+  if (outcome.action === "refresh") {
+    const link = event.provider_links[config.linkKey];
+    // Only the date moves; a link already stamped today is not a change.
+    if (!link || link.verified !== true || link.last_verified_at === today) return false;
+    link.last_verified_at = today;
     return true;
   }
   event[config.urlField] = outcome.candidate.url;
@@ -672,7 +684,7 @@ async function run(options, deps = {}) {
       // One listing is one performance. If it passes for performances on
       // different start times, nothing says which one it is: it is not written to
       // any of them. A link already stored and verified is left as it is.
-      const ambiguousListing = Boolean(outcome.candidate && ambiguous.has(outcome.candidate.externalId) && ["verify", "add", "correct"].includes(outcome.action));
+      const ambiguousListing = Boolean(outcome.candidate && ambiguous.has(outcome.candidate.externalId) && ["verify", "add", "correct", "refresh"].includes(outcome.action));
       if (ambiguousListing) outcome = { action: "conflict", candidate: null };
       const applied = options.apply && applyOutcome(event, config, outcome, (deps.now || new Date()).toISOString().slice(0, 10));
       const preservedAbsentStored = !storedStartUnresolved && catalog.narrowed && storedUrl && !storedCandidate?.ok && passing.length === 0 && !exactIdComplete;
@@ -703,6 +715,7 @@ async function run(options, deps = {}) {
     provider: config.slug, mode: options.apply ? "apply" : "dry-run", selected: selected.length, api_calls: state.apiCalls,
     changed: results.filter((row) => row.applied).length,
     verified: results.filter((row) => row.action === "verify").length,
+    refreshed: results.filter((row) => row.action === "refresh").length,
     added: results.filter((row) => row.action === "add").length,
     corrected: results.filter((row) => row.action === "correct").length,
     cleared: results.filter((row) => row.action === "clear").length,
@@ -909,6 +922,13 @@ async function selfTest() {
   // A narrowed discovery miss must be resolved by ID, not kept indefinitely.
   const existing = { ...event, ticketnetwork_url: candidate.normalizedUrl,
     provider_links: { ticketnetwork: { verified: true, event_id: candidate.externalId } } };
+  // "refresh" moves only last_verified_at on an already-verified link.
+  const refreshCfg = providerConfig("ticketnetwork");
+  const refreshEvent = { ticketnetwork_url: "https://example.test/u", provider_links: { ticketnetwork: { event_id: "1", url: "https://example.test/u", verified: true, last_verified_at: "2026-08-01", availability_status: "listed" } } };
+  assert.equal(applyOutcome(refreshEvent, refreshCfg, { action: "refresh", candidate: { url: "https://other.test/x", externalId: "9" } }, "2026-11-14"), true);
+  assert.deepEqual(refreshEvent.provider_links.ticketnetwork, { event_id: "1", url: "https://example.test/u", verified: true, last_verified_at: "2026-11-14", availability_status: "listed" });
+  assert.equal(refreshEvent.ticketnetwork_url, "https://example.test/u");
+  assert.equal(applyOutcome(refreshEvent, refreshCfg, { action: "refresh", candidate: {} }, "2026-11-14"), false);
   const exactRun = async (reply) => {
     const queries = [];
     const summary = await run({ provider: "ticketnetwork", apply: false, delayMs: 0 }, {
@@ -922,7 +942,7 @@ async function selfTest() {
     assert.deepEqual(queries, ["RAYE", candidate.externalId]);
     return summary.results[0];
   };
-  assert.equal((await exactRun({ candidates: [candidate], complete: true })).action, "none");
+  assert.equal((await exactRun({ candidates: [candidate], complete: true })).action, "refresh");
   assert.equal((await exactRun({ candidates: [], complete: true })).action, "unverify");
   const exactHeld = await exactRun({ candidates: [], complete: false, stopReason: "api_call_limit" });
   assert.equal(exactHeld.action, "none");
@@ -1064,7 +1084,7 @@ async function selfTest() {
   assert.equal(eventLocalStart(winter), "2027-07-09T19:30");
   const wrongTimeStored = { ...evening, ticketnetwork_url: timed.normalizedUrl, provider_links: { ticketnetwork: { verified: true, event_id: timed.externalId } } };
   assert.deepEqual(actions(await runWith("ticketnetwork", [matinee, wrongTimeStored], [timed])), { matinee: "add", evening: "unverify" });
-  assert.deepEqual(actions(await runWith("ticketnetwork", [wrongTimeStored], [timed])), { evening: "none" }, "unambiguous single-performance matches retain their existing gate");
+  assert.deepEqual(actions(await runWith("ticketnetwork", [wrongTimeStored], [timed])), { evening: "refresh" }, "unambiguous single-performance matches retain their existing gate");
   assert.deepEqual(productCandidates(providerConfig("stubhub-international"), { ...timedItem, Url: "https://www.stubhub.ie/event/123" }, "123")[0].localStartTimes, []);
   // 3. A URL without a date (TicketNetwork) cannot verify one listing against
   // two nights: neither night gets it.
@@ -1083,7 +1103,7 @@ async function selfTest() {
     { ...night("n4", 4, { "ticket-liquidator": tlHeld }), ticketliquidator_url: tl.normalizedUrl },
     { ...night("n5", 5, { "ticket-liquidator": tlHeld }), ticketliquidator_url: tl.normalizedUrl }
   ], [tl]);
-  assert.deepEqual(actions(wrongStored), { n4: "unverify", n5: "none" });
+  assert.deepEqual(actions(wrongStored), { n4: "unverify", n5: "refresh" });
   // 10. Every result carries the audit-log note the coverage report reads back.
   const notes = (summary) => Object.fromEntries(summary.results.map((row) => [row.event_id, row.note]));
   assert.equal(fresh.results.every((row) => row.note.startsWith("ambiguous:")), true);
@@ -1175,7 +1195,7 @@ async function main() {
   }
   await fs.writeFile(logPath, renderLog(summary, undefined, { previousLog, filter, scopeShowIds }));
   if (!options.json) console.log(`Audit log: ${path.relative(ROOT, logPath)}`);
-  console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.selected} selected, ${summary.changed} changed, ${summary.added} added, ${summary.verified} verified, ${summary.corrected} corrected, ${summary.cleared} cleared, ${summary.unverified} unverified, ${summary.conflicts} conflicts.`);
+  console.log(options.json ? JSON.stringify(summary, null, 2) : `${summary.provider} ${summary.mode}: ${summary.selected} selected, ${summary.changed} changed, ${summary.added} added, ${summary.verified} verified, ${summary.refreshed} refreshed, ${summary.corrected} corrected, ${summary.cleared} cleared, ${summary.unverified} unverified, ${summary.conflicts} conflicts.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main().catch((error) => { console.error(error?.stack || error); process.exitCode = 1; });

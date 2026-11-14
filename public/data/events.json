@@ -404658,5 +404658,2152 @@
     "ticketmaster_discovery_event_id": "1AsZk4PGkd5Nkwf",
     "timezone": "America/Halifax",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-alan-walker-2027-jacksonville-z7r9jz1aaakpn",
+    "artist_slug": "alan-walker",
+    "artist_name": "Alan Walker",
+    "event_name": "Alan Walker",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "FIVE",
+    "datetime_iso": "2027-02-03T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkPN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkPN",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkPN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkPN",
+        "discovery_event_id": "Z7r9jZ1AAAkPN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkPN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkPN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kevin-gates-2026-richmond-z7r9jz1aaao8v",
+    "artist_slug": "kevin-gates",
+    "artist_name": "Kevin Gates",
+    "event_name": "JBEG MLK CLASSIC",
+    "city": "Richmond",
+    "country": "United States Of America",
+    "venue": "Altria Theater",
+    "datetime_iso": "2026-12-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAo8V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAo8V",
+        "discovery_event_id": "Z7r9jZ1AAAo8V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAo8V",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-oklahoma-city-vvg1yz_pm_4u36",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Oklahoma City",
+    "country": "United States Of America",
+    "venue": "Paycom Center",
+    "datetime_iso": "2027-04-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00656B99576487",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-oklahoma-city-oklahoma-04-05-2027/event/0C00656B99576487",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-oklahoma-city-oklahoma-04-05-2027/event/0C00656B99576487",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00656B99576487",
+        "discovery_event_id": "vvG1YZ_pm_4U36",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-oklahoma-city-oklahoma-04-05-2027/event/0C00656B99576487",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_pm_4U36",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-north-little-rock-g5viz_pi6umuc",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "North Little Rock",
+    "country": "United States Of America",
+    "venue": "Simmons Bank Arena",
+    "datetime_iso": "2027-04-07T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656A07377DAD",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-north-little-rock-arkansas-04-06-2027/event/1B00656A07377DAD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-north-little-rock-arkansas-04-06-2027/event/1B00656A07377DAD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656A07377DAD",
+        "discovery_event_id": "G5viZ_pI6uMUc",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-north-little-rock-arkansas-04-06-2027/event/1B00656A07377DAD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pI6uMUc",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-hollywood-vvg1vz_pwf7u4q",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2027-04-09T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00656C9413655D",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-hollywood-florida-04-09-2027/event/0D00656C9413655D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-hollywood-florida-04-09-2027/event/0D00656C9413655D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00656C9413655D",
+        "discovery_event_id": "vvG1VZ_pwf7U4q",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-hollywood-florida-04-09-2027/event/0D00656C9413655D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pwf7U4q",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-orlando-1aefz_pgkm4kktv",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-04-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200656B95186A41",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-orlando-florida-04-10-2027/event/2200656B95186A41",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-orlando-florida-04-10-2027/event/2200656B95186A41",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200656B95186A41",
+        "discovery_event_id": "1AeFZ_pGkm4kktv",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-orlando-florida-04-10-2027/event/2200656B95186A41",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_pGkm4kktv",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-tampa-vvg1vz_prcolqy",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Benchmark International Arena",
+    "datetime_iso": "2027-04-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00656BCE45F6B0",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-tampa-florida-04-12-2027/event/0D00656BCE45F6B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-tampa-florida-04-12-2027/event/0D00656BCE45F6B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00656BCE45F6B0",
+        "discovery_event_id": "vvG1VZ_pRCoLQY",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-tampa-florida-04-12-2027/event/0D00656BCE45F6B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pRCoLQY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-jacksonville-1aefz_pgkwxdf59",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "VyStar Veterans Memorial Arena",
+    "datetime_iso": "2027-04-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2200656CBEED42D7",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-jacksonville-florida-04-13-2027/event/2200656CBEED42D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-jacksonville-florida-04-13-2027/event/2200656CBEED42D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200656CBEED42D7",
+        "discovery_event_id": "1AeFZ_pGkwXDf59",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-jacksonville-florida-04-13-2027/event/2200656CBEED42D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_pGkwXDf59",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-knoxville-g5viz_pcmddpz",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Food City Center",
+    "datetime_iso": "2027-04-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656B6EEC3580",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-knoxville-tennessee-04-15-2027/event/1B00656B6EEC3580",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-knoxville-tennessee-04-15-2027/event/1B00656B6EEC3580",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656B6EEC3580",
+        "discovery_event_id": "G5viZ_pcmDdpZ",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-knoxville-tennessee-04-15-2027/event/1B00656B6EEC3580",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pcmDdpZ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-louisville-1avbz_pgkm-pfx2",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "KFC Yum! Center",
+    "datetime_iso": "2027-04-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600656BA194888F",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-louisville-kentucky-04-16-2027/event/1600656BA194888F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-louisville-kentucky-04-16-2027/event/1600656BA194888F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656BA194888F",
+        "discovery_event_id": "1AvbZ_pGkm-PFx2",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-louisville-kentucky-04-16-2027/event/1600656BA194888F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_pGkm-PFx2",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-saint-louis-vv17bz_pgkm394lj",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2027-04-19T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656B925D5AE6",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-saint-louis-missouri-04-18-2027/event/0600656B925D5AE6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-saint-louis-missouri-04-18-2027/event/0600656B925D5AE6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656B925D5AE6",
+        "discovery_event_id": "vv17bZ_pGkm394lJ",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-saint-louis-missouri-04-18-2027/event/0600656B925D5AE6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkm394lJ",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-sioux-falls-vv17bz_pgknvdnah",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Sioux Falls",
+    "country": "United States Of America",
+    "venue": "Denny Sanford PREMIER Center",
+    "datetime_iso": "2027-04-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656AB40EA15B",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-sioux-falls-south-dakota-04-21-2027/event/0600656AB40EA15B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-sioux-falls-south-dakota-04-21-2027/event/0600656AB40EA15B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656AB40EA15B",
+        "discovery_event_id": "vv17bZ_pGknVdnAh",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-sioux-falls-south-dakota-04-21-2027/event/0600656AB40EA15B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGknVdnAh",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-winnipeg-1av7z_pgkwqqal2",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Canada Life Centre",
+    "datetime_iso": "2027-04-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100656C9D745ACF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-winnipeg-manitoba-04-23-2027/event/1100656C9D745ACF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-winnipeg-manitoba-04-23-2027/event/1100656C9D745ACF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100656C9D745ACF",
+        "discovery_event_id": "1Av7Z_pGkwqqAl2",
+        "url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-winnipeg-manitoba-04-23-2027/event/1100656C9D745ACF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_pGkwqqAl2",
+    "timezone": "America/Winnipeg",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-grand-rapids-vv17oz_pgkrvt515",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Van Andel Arena",
+    "datetime_iso": "2027-04-26T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800656BF4FCB28B",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-grand-rapids-michigan-04-26-2027/event/0800656BF4FCB28B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-grand-rapids-michigan-04-26-2027/event/0800656BF4FCB28B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656BF4FCB28B",
+        "discovery_event_id": "vv17OZ_pGkRVT515",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-grand-rapids-michigan-04-26-2027/event/0800656BF4FCB28B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_pGkRVT515",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-columbus-vv17fz_pgkrmanar",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2027-04-28T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500656BF716315E",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-columbus-ohio-04-28-2027/event/0500656BF716315E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-columbus-ohio-04-28-2027/event/0500656BF716315E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656BF716315E",
+        "discovery_event_id": "vv17fZ_pGkRMANAr",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-columbus-ohio-04-28-2027/event/0500656BF716315E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_pGkRMANAr",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-hamilton-1avzz_pgkiu_f3b",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Hamilton",
+    "country": "Canada",
+    "venue": "TD Coliseum",
+    "datetime_iso": "2027-04-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000656A0D6544BA",
+    "ticketmaster_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-hamilton-ontario-04-30-2027/event/1000656A0D6544BA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-hamilton-ontario-04-30-2027/event/1000656A0D6544BA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656A0D6544BA",
+        "discovery_event_id": "1AvZZ_pGkIu_f3B",
+        "url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-hamilton-ontario-04-30-2027/event/1000656A0D6544BA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_pGkIu_f3B",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-kanata-1aszk4jgkdqmz4o",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Kanata",
+    "country": "Canada",
+    "venue": "Canadian Tire Centre",
+    "datetime_iso": "2027-05-01T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006566DDDF8560",
+    "ticketmaster_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-kanata-ontario-05-01-2027/event/31006566DDDF8560",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-kanata-ontario-05-01-2027/event/31006566DDDF8560",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006566DDDF8560",
+        "discovery_event_id": "1AsZk4JGkdqMz4O",
+        "url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-kanata-ontario-05-01-2027/event/31006566DDDF8560",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4JGkdqMz4O",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-quebec-1ad7z_pgkmtnafk",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Quebec",
+    "country": "Canada",
+    "venue": "Centre Videotron",
+    "datetime_iso": "2027-05-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100656BA98C5513",
+    "ticketmaster_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-quebec-quebec-05-02-2027/event/3100656BA98C5513",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-quebec-quebec-05-02-2027/event/3100656BA98C5513",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100656BA98C5513",
+        "discovery_event_id": "1Ad7Z_pGkmtNAfK",
+        "url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-quebec-quebec-05-02-2027/event/3100656BA98C5513",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_pGkmtNAfK",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-albany-k7vgf_prpg3o4",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "MVP Arena",
+    "datetime_iso": "2027-05-04T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000656BD6312455",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-albany-new-york-05-04-2027/event/0000656BD6312455",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-albany-new-york-05-04-2027/event/0000656BD6312455",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000656BD6312455",
+        "discovery_event_id": "k7vGF_pRpG3o4",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-albany-new-york-05-04-2027/event/0000656BD6312455",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pRpG3o4",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-belmont-park-1adzz_pgkmwcbz2",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Belmont Park",
+    "country": "United States Of America",
+    "venue": "UBS Arena",
+    "datetime_iso": "2027-05-05T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000656BBD39800F",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-belmont-park-new-york-05-05-2027/event/3000656BBD39800F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-belmont-park-new-york-05-05-2027/event/3000656BBD39800F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000656BBD39800F",
+        "discovery_event_id": "1AdZZ_pGkmWCbZ2",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-belmont-park-new-york-05-05-2027/event/3000656BBD39800F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_pGkmWCbZ2",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-baltimore-1avfz_pgkrfpurm",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "CFG Bank Arena",
+    "datetime_iso": "2027-05-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500656BD494D7AE",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-baltimore-maryland-05-07-2027/event/1500656BD494D7AE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-baltimore-maryland-05-07-2027/event/1500656BD494D7AE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500656BD494D7AE",
+        "discovery_event_id": "1AvfZ_pGkRfPurm",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-baltimore-maryland-05-07-2027/event/1500656BD494D7AE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_pGkRfPurm",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-uncasville-g5vvz_piu1phv",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2027-05-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D00656A0D2966F4",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-uncasville-connecticut-05-08-2027/event/1D00656A0D2966F4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-uncasville-connecticut-05-08-2027/event/1D00656A0D2966F4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D00656A0D2966F4",
+        "discovery_event_id": "G5vVZ_pIu1phV",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-uncasville-connecticut-05-08-2027/event/1D00656A0D2966F4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_pIu1phV",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-raleigh-g5evz_pmr-wuh",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Coastal Credit Union Music Park at Walnut Creek",
+    "datetime_iso": "2027-05-11T23:40:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00656BAF87D35B",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-raleigh-north-carolina-05-11-2027/event/2D00656BAF87D35B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-raleigh-north-carolina-05-11-2027/event/2D00656BAF87D35B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656BAF87D35B",
+        "discovery_event_id": "G5eVZ_pmR-Wuh",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-raleigh-north-carolina-05-11-2027/event/2D00656BAF87D35B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pmR-Wuh",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-charleston-g5evz_pwy4cww",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "Credit One Stadium",
+    "datetime_iso": "2027-05-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00656CB956DF72",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-charleston-south-carolina-05-12-2027/event/2D00656CB956DF72",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-charleston-south-carolina-05-12-2027/event/2D00656CB956DF72",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656CB956DF72",
+        "discovery_event_id": "G5eVZ_pwy4cWw",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-charleston-south-carolina-05-12-2027/event/2D00656CB956DF72",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pwy4cWw",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-noblesville-vv17fz_pgkmuvbx2",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Noblesville",
+    "country": "United States Of America",
+    "venue": "Ruoff Music Center",
+    "datetime_iso": "2027-05-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500656BB607AF8F",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-noblesville-indiana-05-14-2027/event/0500656BB607AF8F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-noblesville-indiana-05-14-2027/event/0500656BB607AF8F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656BB607AF8F",
+        "discovery_event_id": "vv17fZ_pGkmUvBX2",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-noblesville-indiana-05-14-2027/event/0500656BB607AF8F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_pGkmUvBX2",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-alex-warren-2027-birmingham-1aezz_pgkmbd7bp",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Amphitheater",
+    "datetime_iso": "2027-05-17T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000656BBA0C4E96",
+    "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-birmingham-alabama-05-16-2027/event/2000656BBA0C4E96",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-birmingham-alabama-05-16-2027/event/2000656BBA0C4E96",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000656BBA0C4E96",
+        "discovery_event_id": "1AeZZ_pGkmBd7Bp",
+        "url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-birmingham-alabama-05-16-2027/event/2000656BBA0C4E96",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_pGkmBd7Bp",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-marc-anthony-2027-glendale-z7r9jz1aaakad",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2027-05-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkAd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkAd",
+        "discovery_event_id": "Z7r9jZ1AAAkAd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkAd",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kings-of-leon-2027-morrison-z7r9jz1aaadok",
+    "artist_slug": "kings-of-leon",
+    "artist_name": "Kings Of Leon",
+    "event_name": "Kings of Leon",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-09-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAdoK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAdoK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAdoK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAdoK",
+        "discovery_event_id": "Z7r9jZ1AAAdoK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAdoK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAdoK",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-johnson-2027-albany-k7vgf_4nhl9nn",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "MVP Arena",
+    "datetime_iso": "2027-03-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000655ABCAD78E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-13-2027/event/0000655ABCAD78E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-13-2027/event/0000655ABCAD78E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000655ABCAD78E3",
+        "discovery_event_id": "k7vGF_4nHl9NN",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-13-2027/event/0000655ABCAD78E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_4nHl9NN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-cody-johnson-2027-fargo-vv1akzk4fgkejxfzw",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Fargo",
+    "country": "United States Of America",
+    "venue": "Fargodome",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006554A6F88E32",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-fargo-north-dakota-03-20-2027/event/06006554A6F88E32",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-fargo-north-dakota-03-20-2027/event/06006554A6F88E32",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006554A6F88E32",
+        "discovery_event_id": "vv1AkZk4fGkeJXFzw",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-fargo-north-dakota-03-20-2027/event/06006554A6F88E32",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4fGkeJXFzw",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-cody-johnson-2027-charlottesville-vv1avzk4ngkde3rwt",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "John Paul Jones Arena",
+    "datetime_iso": "2027-04-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006563E749ECA9",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-03-2027/event/01006563E749ECA9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-03-2027/event/01006563E749ECA9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006563E749ECA9",
+        "discovery_event_id": "vv1AvZk4NGkdE3rwt",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-03-2027/event/01006563E749ECA9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4NGkdE3rwt",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-the-dead-south-2027-cleveland-z7r9jz1aaa67e",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South: Silence,Please Tour 2027",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Agora Theatre",
+    "datetime_iso": "2027-04-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA67e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA67e",
+        "discovery_event_id": "Z7r9jZ1AAA67e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67e",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-dead-south-2027-pittsburgh-z7r9jz1aaakfy",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South w/ Amigo the Devil",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Stage AE",
+    "datetime_iso": "2027-04-18T22:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkfY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkfY",
+        "discovery_event_id": "Z7r9jZ1AAAkfY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-dead-south-2027-new-york-z7r9jz1aaak4a",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South - 16+",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Webster Hall",
+    "datetime_iso": "2027-04-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAk4A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk4A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk4A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAk4A",
+        "discovery_event_id": "Z7r9jZ1AAAk4A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk4A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAk4A",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-dead-south-2027-new-haven-z7r9jz1aaa67a",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South: Silence, Please Tour 2027",
+    "city": "New Haven",
+    "country": "United States Of America",
+    "venue": "College Street Music Hall",
+    "datetime_iso": "2027-04-24T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA67A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA67A",
+        "discovery_event_id": "Z7r9jZ1AAA67A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67A",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-dead-south-2027-boston-z7r9jz1aaa67f",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South: Silence, Please Tour 2027",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Roadrunner-Boston",
+    "datetime_iso": "2027-04-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA67F",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67F",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA67F",
+        "discovery_event_id": "Z7r9jZ1AAA67F",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67F",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-dead-south-2027-columbus-z7r9jz1aaa67t",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South: Silence, Please Tour 2027",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "KEMBA Live!",
+    "datetime_iso": "2027-04-26T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA67t",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67t",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67t",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA67t",
+        "discovery_event_id": "Z7r9jZ1AAA67t",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67t",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67t",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-dead-south-2027-asheville-z7r9jz1aaa6ao",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South: Silence, Please Tour 2027",
+    "city": "Asheville",
+    "country": "United States Of America",
+    "venue": "Asheville Yards",
+    "datetime_iso": "2027-05-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6Ao",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ao",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ao",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6Ao",
+        "discovery_event_id": "Z7r9jZ1AAA6Ao",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ao",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6Ao",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-dead-south-2027-atlanta-z7r9jz1aaa6az",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South: Silence, Please Tour 2027",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "The Eastern-GA",
+    "datetime_iso": "2027-05-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6AZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6AZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6AZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6AZ",
+        "discovery_event_id": "Z7r9jZ1AAA6AZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6AZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6AZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-the-dead-south-2027-denver-z7r9jz1aaa6vm",
+    "artist_slug": "the-dead-south",
+    "artist_name": "The Dead South",
+    "event_name": "The Dead South",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Levitt Pavilion Denver",
+    "datetime_iso": "2027-07-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6vM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6vM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6vM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6vM",
+        "discovery_event_id": "Z7r9jZ1AAA6vM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6vM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6vM",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

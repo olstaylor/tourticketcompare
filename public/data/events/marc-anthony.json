@@ -2345,5 +2345,58 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361887/Marc-Anthony-tickets-Sun-May-16-2027-Chase-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361887",
     "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-san-francisco-tickets-5-16-2027/event/107680738"
+  },
+  {
+    "id": "tm-marc-anthony-2027-glendale-z7r9jz1aaakad",
+    "artist_slug": "marc-anthony",
+    "artist_name": "Marc Anthony",
+    "event_name": "Marc Anthony",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2027-05-08T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkAd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkAd",
+        "discovery_event_id": "Z7r9jZ1AAAkAd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkAd",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
   }
 ]

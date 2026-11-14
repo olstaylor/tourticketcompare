@@ -2420,7 +2420,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-harrisburg-riverfront-park---harrisburg-8-6-2027/production/7849169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-harrisburg-pennsylvania-08-06-2027/event/02006569EE79EB01",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2469,8 +2469,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4tGkdmrriv",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366152",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366152/Death-Cab-for-Cutie-tickets-Fri-Aug-6-2027-Riverfront-Park-Harrisburg"

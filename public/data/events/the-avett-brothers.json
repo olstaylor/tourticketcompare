@@ -95,7 +95,7 @@
     "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-19-2027/production/7833565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-19-2027/event/22006567BE433B0A",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -130,8 +130,7 @@
     },
     "ticketmaster_discovery_event_id": "1AxZk4EGkeX8Si1",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)",
       "LIVE NATION MUSIC"
@@ -155,7 +154,7 @@
     "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-20-2027/production/7833523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,8 +203,7 @@
     },
     "ticketmaster_discovery_event_id": "1AxZk4EGkeXoSiu",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)",
       "LIVE NATION MUSIC"

@@ -2783,7 +2783,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-phoenix-mortgage-matchup-center-5-20-2027/production/7017195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-phoenix-arizona-05-20-2027/event/190064A78D814E6F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2848,6 +2848,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-05-15T17:00:00Z",
         "end": "2027-02-18T05:00:00Z"
+      },
+      {
+        "name": "Ticket Deals",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2027-01-01T06:59:00Z"
       }
     ],
     "organizer_names": [

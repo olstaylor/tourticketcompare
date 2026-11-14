@@ -1465,7 +1465,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-dallas-majestic-theatre-dallas-11-14-2026--concerts-rock/production/7170034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1517,13 +1517,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056810",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056810/Daughtry-tickets-Sat-Nov-14-2026-Majestic-Theatre-Dallas",
-    "presales": [
-      {
-        "name": "$20 All-In Ticket Offer",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-11-14T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1538,7 +1531,7 @@
     "city": "Pine Bluff",
     "country": "United States Of America",
     "venue": "Saracen Casino Resort",
-    "datetime_iso": "2027-01-24T02:00:00Z",
+    "datetime_iso": "2027-01-24T01:00:00Z",
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "1B00653C36D66691",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
@@ -1546,7 +1539,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-pine-bluff-saracen-casino-resort-1-23-2027/production/7624290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3466,7 +3459,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-2-24-2027/production/7841789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3515,8 +3508,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1FfZ_pQ6PSZd2kv",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363950/Daughtry-tickets-Wed-Feb-24-2027-Mershon-Auditorium-At-Wexner-Center-For-The-Arts",
     "organizer_names": [
       "LIVE NATION MUSIC"

@@ -348,7 +348,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-top-tickets-george-gorge-amphitheatre-7-2-2027--concerts-country-and-folk/production/7834141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-the-red-clay-strays-george-washington-07-02-2027/event/0F00656499C96EEA",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -383,8 +383,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p3_wpDn",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

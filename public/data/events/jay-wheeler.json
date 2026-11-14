@@ -332,7 +332,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-miami-kaseya-center-3-11-2027/production/7653858",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-miami-florida-03-11-2027/event/0D00654119AE11EB",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +395,14 @@
     "organizer_names": [
       "LOUD AND LIVE"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-23T15:00:00Z",
+        "end": "2026-11-30T15:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jay-wheeler-2027-atlanta-vvg1zz_f288dbv",

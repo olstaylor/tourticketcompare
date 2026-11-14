@@ -12037,7 +12037,7 @@
     "artist_name": "Beartooth",
     "country": "United States Of America",
     "city": "Phoenix",
-    "venue": "Arizona Financial Theatre",
+    "venue": "The Van Buren",
     "datetime_iso": "2026-12-17T01:30:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "Pure Ecstasy World Tour",
@@ -27662,7 +27662,7 @@
     "country": "United States Of America",
     "city": "Pine Bluff",
     "venue": "Saracen Casino Resort",
-    "datetime_iso": "2027-01-24T02:00:00Z",
+    "datetime_iso": "2027-01-24T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "20 Years Unplugged Tour",
     "status": "on-sale"
@@ -46586,7 +46586,7 @@
     "country": "Germany",
     "city": "Düsseldorf",
     "venue": "Mitsubishi Electric HALLE",
-    "datetime_iso": "2026-12-07T19:00:00Z",
+    "datetime_iso": "2026-12-07T18:30:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
     "status": "on-sale"
@@ -50257,7 +50257,7 @@
     "artist_name": "Victoria Monet",
     "country": "United States Of America",
     "city": "Seattle",
-    "venue": "WAMU Theater",
+    "venue": "Paramount Theatre",
     "datetime_iso": "2026-12-15T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
@@ -62129,7 +62129,7 @@
     "datetime_iso": "2027-08-07T22:30:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-bon-jovi-2027-south-bend-vv1kv8vp_zga5o3gv",
@@ -62141,7 +62141,7 @@
     "datetime_iso": "2027-10-02T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-dom-dolla-2027-miami-z7r9jz1aaavbz",
@@ -62321,7 +62321,7 @@
     "datetime_iso": "2027-05-08T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-philadelphia-vv1aezk4xgkdfbii2",
@@ -62333,7 +62333,7 @@
     "datetime_iso": "2027-05-12T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-cuyahoga-falls-vv16azk4nouzac7agu",
@@ -62345,7 +62345,7 @@
     "datetime_iso": "2027-05-14T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-noblesville-vv1aazk4ngkdiu1bn",
@@ -62357,7 +62357,7 @@
     "datetime_iso": "2027-05-15T23:30:00Z",
     "timezone": "America/Indiana/Indianapolis",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-grand-rapids-vv1afzk4xgkdurf5s",
@@ -62369,7 +62369,7 @@
     "datetime_iso": "2027-05-18T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-clarkston-vv1afzk4pgkdf_fbn",
@@ -62381,7 +62381,7 @@
     "datetime_iso": "2027-05-23T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-bridgeport-g5vvz_pclhssb",
@@ -62393,7 +62393,7 @@
     "datetime_iso": "2027-05-25T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-saratoga-springs-k7vgf_p52u5pn",
@@ -62405,7 +62405,7 @@
     "datetime_iso": "2027-05-27T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-bangor-vv1a8vpbygagbkh_",
@@ -62417,7 +62417,7 @@
     "datetime_iso": "2027-05-29T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-bethel-k7vgf_pkjzmnn",
@@ -62429,7 +62429,7 @@
     "datetime_iso": "2027-05-30T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-toronto-16vzz_poyg7venm",
@@ -62441,7 +62441,7 @@
     "datetime_iso": "2027-06-02T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-shakopee-16-zk40-tza2vg27",
@@ -62453,7 +62453,7 @@
     "datetime_iso": "2027-06-06T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-tinley-park-vv1kvzvpbygacp7l6",
@@ -62465,7 +62465,7 @@
     "datetime_iso": "2027-06-07T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-west-valley-city-g5vzz_p2iqpnf",
@@ -62477,7 +62477,7 @@
     "datetime_iso": "2027-09-12T01:30:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-vancouver-16v7z_ppfg7nnqo",
@@ -62489,7 +62489,7 @@
     "datetime_iso": "2027-09-15T02:30:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-seattle-vvg1hz_p57x6w0",
@@ -62501,7 +62501,7 @@
     "datetime_iso": "2027-09-16T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-mountain-view-g5vyz_p1j_6oc",
@@ -62513,7 +62513,7 @@
     "datetime_iso": "2027-09-18T02:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-inglewood-vv1aazk4ngkdyvvz_",
@@ -62525,7 +62525,7 @@
     "datetime_iso": "2027-09-19T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-phoenix-1a_zk4xgkewyfnx",
@@ -62537,7 +62537,7 @@
     "datetime_iso": "2027-09-25T02:30:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-austin-g5diz_pk2f12g",
@@ -62549,7 +62549,7 @@
     "datetime_iso": "2027-09-27T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-fort-worth-vvg1yz_4lzyuso",
@@ -62561,7 +62561,7 @@
     "datetime_iso": "2027-09-29T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-alpharetta-vvg1zz_pch0zpt",
@@ -62573,7 +62573,7 @@
     "datetime_iso": "2027-09-30T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-orlando-1axzk40gkdkpvf2",
@@ -62585,7 +62585,7 @@
     "datetime_iso": "2027-10-01T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-raleigh-g5evz_p3nejt5",
@@ -62597,7 +62597,7 @@
     "datetime_iso": "2027-10-03T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-charlotte-g5evz_p5ab5ro",
@@ -62609,7 +62609,7 @@
     "datetime_iso": "2027-10-06T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-franklin-g5viz_p28lhsa",
@@ -62621,7 +62621,7 @@
     "datetime_iso": "2027-10-09T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-cincinnati-1apzk4ngkdmfbs-",
@@ -62633,7 +62633,7 @@
     "datetime_iso": "2027-10-12T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-mansfield-vv1avzk40gkelbik2",
@@ -62645,7 +62645,7 @@
     "datetime_iso": "2027-10-14T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kings-of-leon-2027-new-york-g5diz_4_hy-cs",
@@ -62657,7 +62657,7 @@
     "datetime_iso": "2027-10-16T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mercyme-2027-johnson-city-z7r9jz1aa7mot",
@@ -63701,7 +63701,7 @@
     "datetime_iso": "2027-04-20T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-saint-louis-16e7z_pf4g7neqx",
@@ -63713,7 +63713,7 @@
     "datetime_iso": "2027-04-28T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-kansas-city-vv1akzk40gkemk2eh",
@@ -63725,7 +63725,7 @@
     "datetime_iso": "2027-04-29T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-lexington-1avbz_4gku2y0tx",
@@ -63749,7 +63749,7 @@
     "datetime_iso": "2027-05-02T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-vancouver-1k78vpbzgacmkgo",
@@ -63761,7 +63761,7 @@
     "datetime_iso": "2027-09-24T01:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-kelowna-z7r9jz1aa7moa",
@@ -63773,7 +63773,7 @@
     "datetime_iso": "2027-09-25T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-calgary-1aozk4xgkd6z6-j",
@@ -63785,7 +63785,7 @@
     "datetime_iso": "2027-09-26T02:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-edmonton-1aozk4ngkemvpah",
@@ -63797,7 +63797,7 @@
     "datetime_iso": "2027-09-27T02:00:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-toronto-1a8zk4pgkexzbc2",
@@ -63809,7 +63809,7 @@
     "datetime_iso": "2027-10-01T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-montreal-1kg8vpbigaujeuh",
@@ -63821,7 +63821,7 @@
     "datetime_iso": "2027-10-02T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-montreal-1kg8vpbigaujwul",
@@ -63833,7 +63833,7 @@
     "datetime_iso": "2027-10-03T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-ottawa-1aszk40gkda6px7",
@@ -63845,7 +63845,7 @@
     "datetime_iso": "2027-10-03T23:00:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-thunder-bay-1avzz_4gkumrenk",
@@ -63857,7 +63857,7 @@
     "datetime_iso": "2027-10-07T00:00:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-dead-south-2027-winnipeg-16ozk4nosza5dc55",
@@ -63869,7 +63869,7 @@
     "datetime_iso": "2027-10-08T01:00:00Z",
     "timezone": "America/Winnipeg",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-alan-walker-2027-atlanta-vvg1zz_3cjp_wx",
@@ -63881,7 +63881,7 @@
     "datetime_iso": "2027-01-30T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-alan-walker-2027-st-petersburg-vvg1vz_phftijy",
@@ -63893,7 +63893,7 @@
     "datetime_iso": "2027-02-04T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-alan-walker-2027-orlando-1axzk4vgkeuzkdw",
@@ -63905,7 +63905,7 @@
     "datetime_iso": "2027-02-05T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-dylan-gossett-2027-nottingham-g5vhz_ph339p8",
@@ -64133,7 +64133,7 @@
     "datetime_iso": "2027-07-10T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mumford-sons-2027-calgary-1aozk4pgkd1yzsk",
@@ -64145,7 +64145,7 @@
     "datetime_iso": "2027-07-13T01:30:00Z",
     "timezone": "America/Edmonton",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-top-2027-george-vvg1hz_p3_wpdn",
@@ -64157,7 +64157,7 @@
     "datetime_iso": "2027-07-03T01:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-karan-aujla-2027-chicago-vv1a7zk40gkewyzkr",
@@ -64169,7 +64169,7 @@
     "datetime_iso": "2027-02-14T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-bryan-adams-2027-niagara-falls-16vzz_p36g7nu6g",
@@ -64181,7 +64181,7 @@
     "datetime_iso": "2027-05-23T00:00:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-dropkick-murphys-2027-lexington-1apzk48gkdukuzi",
@@ -64193,7 +64193,7 @@
     "datetime_iso": "2027-02-24T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-toronto-1avzz_fgkd8tkbf",
@@ -64205,7 +64205,7 @@
     "datetime_iso": "2027-04-02T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-montreal-1aszk4vgkd9di_a",
@@ -64217,7 +64217,7 @@
     "datetime_iso": "2027-04-05T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-brooklyn-1kgzvponga5jat7",
@@ -64229,7 +64229,7 @@
     "datetime_iso": "2027-04-09T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-reading-vv17fz_fgkxhnllx",
@@ -64241,7 +64241,7 @@
     "datetime_iso": "2027-04-11T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-newark-vv1aezk44gkdq27w-",
@@ -64253,7 +64253,7 @@
     "datetime_iso": "2027-04-16T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-chicago-vv1a7zk48gkervqur",
@@ -64265,7 +64265,7 @@
     "datetime_iso": "2027-04-18T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-charlotte-g5evz_flstq5b",
@@ -64277,7 +64277,7 @@
     "datetime_iso": "2027-04-24T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-tampa-vvg1vz_fqozpda",
@@ -64289,7 +64289,7 @@
     "datetime_iso": "2027-04-26T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-san-antonio-g5diz_fdkjtum",
@@ -64298,10 +64298,10 @@
     "country": "United States Of America",
     "city": "San Antonio",
     "venue": "Frost Bank Center",
-    "datetime_iso": "2027-04-30T00:00:00Z",
+    "datetime_iso": "2027-04-30T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-anaheim-vv170z_fgkmcohlk",
@@ -64313,7 +64313,7 @@
     "datetime_iso": "2027-05-10T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-denver-g5vzz_fdioiid",
@@ -64325,7 +64325,7 @@
     "datetime_iso": "2027-05-14T02:00:00Z",
     "timezone": "America/Denver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-marc-anthony-2027-san-francisco-g5vyz_4uwqlns",
@@ -64337,7 +64337,7 @@
     "datetime_iso": "2027-05-17T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-air-supply-2027-wallingford-g5vvz_4snzvtx",
@@ -64349,7 +64349,7 @@
     "datetime_iso": "2027-02-01T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-air-supply-2027-valley-center-vvg1iz_p3nhurb",
@@ -64361,7 +64361,7 @@
     "datetime_iso": "2027-02-13T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-avett-brothers-2027-orlando-1axzk4egkex8si1",
@@ -64373,7 +64373,7 @@
     "datetime_iso": "2027-03-19T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-avett-brothers-2027-orlando-1axzk4egkexosiu",
@@ -64385,7 +64385,7 @@
     "datetime_iso": "2027-03-20T22:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-harrisburg-vv1aezk4tgkdmrriv",
@@ -64397,7 +64397,7 @@
     "datetime_iso": "2027-08-06T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sienna-spiro-2027-dublin-1avoz_4gkuvegeh",
@@ -64421,7 +64421,7 @@
     "datetime_iso": "2027-02-25T00:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-detroit-vv1koz_pjag7zyra",
@@ -64457,7 +64457,7 @@
     "datetime_iso": "2027-04-22T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-journey-2027-stateline-1kayvp_vgacljep",
@@ -64469,7 +64469,7 @@
     "datetime_iso": "2027-04-24T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-leon-bridges-2027-honolulu-vvg1iz_4bdasgg",
@@ -64481,7 +64481,7 @@
     "datetime_iso": "2027-02-21T06:00:00Z",
     "timezone": "Pacific/Honolulu",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-lincoln-g5vyz_ph5-cbb",
@@ -64493,7 +64493,7 @@
     "datetime_iso": "2027-02-20T03:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-billy-strings-2027-tampa-vvg1vz_pkwq5nj",
@@ -65477,7 +65477,7 @@
     "datetime_iso": "2027-06-06T17:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-fall-out-boy-2027-nashville-z7r9jz1aaaa0d",

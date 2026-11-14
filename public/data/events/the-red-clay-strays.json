@@ -1226,7 +1226,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-raleigh-lenovo-center-1-22-2027--concerts-country-and-folk/production/7637000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-raleigh-north-carolina-01-22-2027/event/2D00653CB7AEBFCA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1287,6 +1287,11 @@
         "name": "Amex Reserved Tickets®",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-01-22T23:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Offer",
+        "start": "2026-11-23T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300893/The-Red-Clay-Strays-tickets-Fri-Jan-22-2027-Lenovo-Center",

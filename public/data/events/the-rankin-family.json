@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-edmonton-northern-alberta-jubilee-auditorium-3-12-2027/production/7834202",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-edmonton-alberta-03-12-2027/event/110065637FF02A66",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,15 @@
     "ticketmaster_discovery_event_id": "1k78vPbMGA2HetJ",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370370/The-Rankin-Family-tickets-Fri-Mar-12-2027-Northern-Alberta-Jubilee-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370370/The-Rankin-Family-tickets-Fri-Mar-12-2027-Northern-Alberta-Jubilee-Auditorium",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-calgary-1k78vpbmgac53nm",
@@ -76,7 +84,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-calgary-southern-alberta-jubilee-auditorium-3-13-2027/production/7834199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-calgary-alberta-03-13-2027/event/110065637E2D28EE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -111,7 +119,15 @@
     },
     "ticketmaster_discovery_event_id": "1k78vPbMGAC53Nm",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-winnipeg-1aozk4ngkerkp1s",
@@ -129,7 +145,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-winnipeg-burton-cummings-theatre-3-15-2027/production/7833467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-winnipeg-manitoba-03-15-2027/event/11006563AF4D62B3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -164,7 +180,22 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk4NGkeRKp1S",
     "timezone": "America/Winnipeg",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-03-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-rankin-family-2027-thunder-bay-1a8zk40gkd5kq6z",
@@ -182,7 +213,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -217,7 +248,15 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk40Gkd5kq6Z",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-ottawa-1aszk4ngkdjouzs",
@@ -235,7 +274,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -270,7 +309,15 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4NGkdJOUzS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "NATIONAL ARTS CENTRE (CANADA)",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-niagara-falls-1a8zk40gkdzuhrm",
@@ -288,7 +335,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -323,7 +370,9 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk40GkdZUhRm",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-montreal-1aszk40gkdkmkar",
@@ -341,7 +390,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -384,7 +433,14 @@
     "ticketmaster_discovery_event_id": "1AsZk40GkdkMkAr",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370341/The-Rankin-Family-tickets-Mon-Mar-29-2027-Theatre-Beanfield"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370341/The-Rankin-Family-tickets-Mon-Mar-29-2027-Theatre-Beanfield",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-moncton-1aszk4pgkeuypli",
@@ -402,7 +458,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-moncton-molson-canadian-centre-at-casino-new-brunswick-3-30-2027/production/7833229",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-moncton-new-brunswick-03-30-2027/event/31006565B6E657EC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -437,7 +493,13 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4PGkeUyPLi",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-halifax-16szk4poezacdevv",
@@ -455,7 +517,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-halifax-scotiabank-centre-4-1-2027/production/7833203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-halifax-nova-scotia-04-01-2027/event/31006565827D2100",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -490,7 +552,13 @@
     },
     "ticketmaster_discovery_event_id": "16sZk4POEZACdevv",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "EVENKO CO-PRO WITH LIVE NATION"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-sydney-1aszk4pgkd5nkwf",
@@ -508,7 +576,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-sydney-centre-200-4-3-2027/production/7833217",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -543,6 +611,7 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4PGkd5Nkwf",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   }
 ]

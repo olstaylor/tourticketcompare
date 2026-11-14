@@ -1491,7 +1491,7 @@
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-23-2027--concerts-country-and-folk/production/7860906",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1553,12 +1553,32 @@
       {
         "name": "Club Wallen Presale",
         "start": "2026-11-17T14:00:00Z",
-        "end": "2026-11-17T15:00:00Z"
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Travel VIP Packages Presale",
+        "start": "2026-11-17T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-17T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
       },
       {
         "name": "Artist Presale",
         "start": "2026-11-17T16:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Travel VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-10T03:59:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-10T03:59:00Z"
       }
     ]
   },
@@ -1578,7 +1598,7 @@
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-24-2027--concerts-country-and-folk/production/7860908",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1640,12 +1660,32 @@
       {
         "name": "Club Wallen Presale",
         "start": "2026-11-18T14:00:00Z",
-        "end": "2026-11-18T15:00:00Z"
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Travel VIP Packages Presale",
+        "start": "2026-11-18T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
       },
       {
         "name": "Artist Presale",
         "start": "2026-11-18T16:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Travel VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-10T03:59:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-10T03:59:00Z"
       }
     ]
   },

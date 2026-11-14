@@ -35371,7 +35371,7 @@
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-phoenix-mortgage-matchup-center-5-20-2027/production/7017195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-phoenix-arizona-05-20-2027/event/190064A78D814E6F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -35436,6 +35436,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-05-15T17:00:00Z",
         "end": "2027-02-18T05:00:00Z"
+      },
+      {
+        "name": "Ticket Deals",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2027-01-01T06:59:00Z"
       }
     ],
     "organizer_names": [
@@ -37438,7 +37443,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37498,13 +37503,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457487",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457487/Doja-Cat-tickets-Tue-Nov-17-2026-State-Farm-Arena-GA",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-10-10T14:00:00Z",
-        "end": "2026-11-13T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -62575,7 +62573,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-raleigh-lenovo-center-12-7-2026/production/7394057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-raleigh-north-carolina-12-07-2026/event/2D0064FF8623951B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -62632,6 +62630,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-12-01T03:00:00Z"
+      },
+      {
+        "name": "TMNME3 4pack Offer",
+        "start": "2026-11-16T15:00:00Z",
+        "end": "2026-12-06T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -62914,7 +62917,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-bossier-city-brookshire-grocery-arena-12-13-2026/production/7394179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-bossier-city-louisiana-12-13-2026/event/1B0064FD70E4366E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -62971,6 +62974,16 @@
         "name": "VIP Package Public Onsale",
         "start": "2026-08-14T15:00:00Z",
         "end": "2026-12-03T04:00:00Z"
+      },
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-23T06:01:00Z",
+        "end": "2026-12-08T05:59:00Z"
+      },
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-23T16:00:00Z",
+        "end": "2026-12-08T05:59:00Z"
       }
     ],
     "genre": "Rock"
@@ -64407,7 +64420,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-denver-fillmore-auditorium-denver-11-20-2026--concerts-pop/production/7347439",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-denver-colorado-11-20-2026/event/1E0064F6BBFECD61",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -64457,13 +64470,6 @@
     "ticketmaster_discovery_event_id": "G5vzZ_2QDTig-",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-31T16:00:00Z",
-        "end": "2026-11-14T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -72822,10 +72828,10 @@
     "id": "tm-beartooth-2026-phoenix-17k8v0g61i5gitx",
     "artist_slug": "beartooth",
     "artist_name": "Beartooth",
-    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "event_name": "Beartooth: Pure Ecstasy World Tour - MOVED TO THE VAN BUREN!",
     "city": "Phoenix",
     "country": "United States Of America",
-    "venue": "Arizona Financial Theatre",
+    "venue": "The Van Buren",
     "datetime_iso": "2026-12-17T01:30:00Z",
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "190064AB0B328FE2",
@@ -72834,7 +72840,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-phoenix-arizona-financial-theatre-12-16-2026/production/7052703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -82825,7 +82831,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/missio-toronto-ontario-11-20-2026/event/1000650AF4CE612B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -82861,13 +82867,6 @@
     "ticketmaster_discovery_event_id": "1AvZZ_8GklVSJ7l",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T13:00:00Z",
-        "end": "2026-11-14T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION CANADA-ROGERS",
@@ -97082,7 +97081,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-fishers-fishers-event-center-3-5-2027--concerts-adult-contemporary/production/7492523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-fishers-indiana-03-05-2027/event/05006515C676EDEE",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -97144,6 +97143,11 @@
         "name": "Holiday Deals Offer",
         "start": "2026-11-16T15:00:00Z",
         "end": "2027-01-01T03:00:00Z"
+      },
+      {
+        "name": "$25 All In Offer",
+        "start": "2026-11-24T05:01:00Z",
+        "end": "2026-12-01T04:59:00Z"
       }
     ]
   },
@@ -101391,7 +101395,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-austin-moody-center-atx-2-4-2027/production/7540254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-austin-texas-02-04-2027/event/3A006521A5AD9867",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -101453,14 +101457,14 @@
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-austin-tickets-2-4-2027/event/107667778",
     "presales": [
       {
-        "name": "VIP Packages Onsale",
-        "start": "2010-09-18T15:00:00Z",
-        "end": "2027-01-25T23:00:00Z"
-      },
-      {
         "name": "Amex Reserved Tickets",
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-01-22T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-25T23:00:00Z"
       }
     ],
     "organizer_names": [
@@ -102887,7 +102891,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-manchester-new-hampshire-11-27-2026/event/01006514AD3A08EB",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -102937,13 +102941,6 @@
     "ticketmaster_discovery_event_id": "vv1AvZkffGkecCONl",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "T-Mobile® Concert Perks",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-14T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -104365,7 +104362,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-greenville-south-carolina-12-11-2026/event/2D006513F33FA1B5",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -104415,13 +104412,6 @@
     "ticketmaster_discovery_event_id": "G5eVZ_o2S2Bkg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-14T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -165318,7 +165308,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-raleigh-lenovo-center-1-22-2027--concerts-country-and-folk/production/7637000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-raleigh-north-carolina-01-22-2027/event/2D00653CB7AEBFCA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -165379,6 +165369,11 @@
         "name": "Amex Reserved Tickets®",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-01-22T23:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Offer",
+        "start": "2026-11-23T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300893/The-Red-Clay-Strays-tickets-Fri-Jan-22-2027-Lenovo-Center",
@@ -168972,7 +168967,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-dallas-majestic-theatre-dallas-11-14-2026--concerts-rock/production/7170034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-dallas-texas-11-14-2026/event/0C0064C9C54BBBEF",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -169024,13 +169019,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056810",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056810/Daughtry-tickets-Sat-Nov-14-2026-Majestic-Theatre-Dallas",
-    "presales": [
-      {
-        "name": "$20 All-In Ticket Offer",
-        "start": "2026-10-07T15:00:00Z",
-        "end": "2026-11-14T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -169045,7 +169033,7 @@
     "city": "Pine Bluff",
     "country": "United States Of America",
     "venue": "Saracen Casino Resort",
-    "datetime_iso": "2027-01-24T02:00:00Z",
+    "datetime_iso": "2027-01-24T01:00:00Z",
     "tour_name": "20 Years Unplugged Tour",
     "ticketmaster_event_id": "1B00653C36D66691",
     "ticketmaster_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
@@ -169053,7 +169041,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-pine-bluff-saracen-casino-resort-1-23-2027/production/7624290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -192899,7 +192887,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-tucson-linda-ronstadt-music-hall-2-13-2027--concerts-world-music/production/7593512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -192954,7 +192942,14 @@
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
-    "genre": "Ballads/Romantic"
+    "genre": "Ballads/Romantic",
+    "presales": [
+      {
+        "name": "Thanksgiving/Cyber Monday Sale",
+        "start": "2026-11-26T17:00:00Z",
+        "end": "2026-12-01T06:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-flans-2027-atlanta-vvg1zz_k5zjmuk",
@@ -208035,7 +208030,7 @@
     "vividseats_url": "https://www.vividseats.com/jay-wheeler-tickets-miami-kaseya-center-3-11-2027/production/7653858",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jay-wheeler-lvf-tour-miami-florida-03-11-2027/event/0D00654119AE11EB",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -208098,7 +208093,14 @@
     "organizer_names": [
       "LOUD AND LIVE"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-23T15:00:00Z",
+        "end": "2026-11-30T15:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jay-wheeler-2027-atlanta-vvg1zz_f288dbv",
@@ -216904,7 +216906,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-omaha-nebraska-11-20-2026/event/20006328BBAC19A8",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -216955,13 +216957,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-11-14T04:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410012",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410012/Sabaton-tickets-Fri-Nov-20-2026-Steelhouse-Omaha",
     "organizer_names": [
@@ -264467,7 +264462,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-palm-desert-california-11-17-2026/event/0A00650C36443D5D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -264505,13 +264500,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-13T20:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -286887,7 +286875,7 @@
     "city": "Düsseldorf",
     "country": "Germany",
     "venue": "Mitsubishi Electric HALLE",
-    "datetime_iso": "2026-12-07T19:00:00Z",
+    "datetime_iso": "2026-12-07T18:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "917770412",
     "ticketmaster_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
@@ -286895,7 +286883,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-12-7-2026--concerts-pop/production/7212682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -288211,7 +288199,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-birmingham-bjcc-concert-hall-12-5-2026--concerts-latin-music/production/6711178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-birmingham-alabama-12-05-2026/event/20006458C68AEF1B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -288263,6 +288251,11 @@
         "name": "VIP Onsale",
         "start": "2026-02-27T17:00:00Z",
         "end": "2026-12-04T23:00:00Z"
+      },
+      {
+        "name": "Cyber Savings Week",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
       }
     ],
     "ticket_limit": 8,
@@ -303784,7 +303777,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-oxon-hill-the-theater-at-mgm-national-harbor-2-11-2027/production/7688462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-11-2027/event/150065489BAE63F1",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -303840,7 +303833,14 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "R&B"
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-26T15:00:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5ij2m",
@@ -304786,7 +304786,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-12-04-2026/event/170062F0FD686374",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -304822,13 +304822,6 @@
     "ticketmaster_discovery_event_id": "17AYvxG62dWQkuV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Official Platinum Onsale",
-        "start": "2025-07-25T17:00:00Z",
-        "end": "2026-11-14T05:00:00Z"
-      }
-    ],
     "ticket_limit": 8,
     "genre": "Pop"
   },
@@ -308632,10 +308625,10 @@
     "id": "tm-victoria-monet-2026-seattle-vvg1hz_31fteps",
     "artist_slug": "victoria-monet",
     "artist_name": "Victoria Monet",
-    "event_name": "Victoria Monét: Frequency Of Love Tour",
+    "event_name": "Victoria Monét: Frequency Of Love Tour - Moved to Paramount Theater",
     "city": "Seattle",
     "country": "United States Of America",
-    "venue": "WAMU Theater",
+    "venue": "Paramount Theatre",
     "datetime_iso": "2026-12-15T04:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0F00652294FE75B1",
@@ -308644,7 +308637,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-seattle-wamu-theater---seattle-12-14-2026/production/7540335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -344079,7 +344072,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-westbury-flagstar-at-westbury-music-fair-11-14-2026/production/6956190",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-westbury-new-york-11-14-2026/event/00006484C03BC3A5",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -344117,13 +344110,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-01T14:00:00Z",
-        "end": "2026-11-14T03:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -354024,7 +354010,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-17-2026--concerts-adult-contemporary/production/6727921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-17-2026/event/0000645905A4DBF0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -354086,13 +354072,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-17-2026/event/107140082",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-06T15:00:00Z",
-        "end": "2026-11-13T17:00:00Z"
-      }
     ],
     "genre": "Rock"
   },
@@ -358465,7 +358444,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-diego-california-11-20-2026/event/0A006363ACF562CE",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -358512,13 +358491,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-11-14T18:00:00Z",
-        "end": "2026-11-14T06:00:00Z"
-      }
-    ],
     "ticket_limit": 8,
     "genre": "Rock"
   },
@@ -358538,7 +358510,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-phoenix-talking-stick-resort-amphitheatre-11-21-2026--concerts-hard-rock/production/6276810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-phoenix-arizona-11-21-2026/event/19006364AE216854",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -358602,11 +358574,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred",
-        "start": "2025-11-14T17:00:00Z",
-        "end": "2026-11-14T05:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2025-11-14T17:00:00Z",
@@ -362970,7 +362937,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-baltimore-the-paramount-baltimore-11-20-2026/production/7366680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci35th-anniversary-tour-of-forever-my-baltimore-maryland-11-20-2026/event/150064F69DF8A007",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363024,13 +362991,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167890/Jodeci-tickets-Fri-Nov-20-2026-The-Paramount-Baltimore",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Public Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-14T04:55:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "R&B"
@@ -363806,7 +363766,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-savannah-savannah-civic-center---johnny-mercer-theatre-12-8-2026/production/7353314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-savannah-georgia-12-08-2026/event/0E0064F6ADE5B208",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363850,11 +363810,6 @@
         "name": "VIP Package Onsale",
         "start": "2026-07-31T14:00:00Z",
         "end": "2026-12-02T04:55:00Z"
-      },
-      {
-        "name": "Buy One Get One Free Offer",
-        "start": "2026-10-28T19:15:00Z",
-        "end": "2026-11-14T04:59:00Z"
       }
     ],
     "ticket_limit": 8,
@@ -366103,7 +366058,7 @@
     "vividseats_url": "https://www.vividseats.com/mercyme-tickets-reading-santander-arena-4-4-2027/production/7714342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-reading-pennsylvania-04-04-2027/event/0200654CCF138C02",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -366158,7 +366113,14 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326566",
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326566/MercyMe-tickets-Sun-Apr-4-2027-Santander-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326566/MercyMe-tickets-Sun-Apr-4-2027-Santander-Arena",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T05:01:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mercyme-2027-portland-vv177z_fgkxgyxqn",
@@ -366465,7 +366427,7 @@
     "vividseats_url": "https://www.vividseats.com/mercyme-tickets-bossier-city-brookshire-grocery-arena-4-18-2027/production/7714460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-bossier-city-louisiana-04-18-2027/event/1B00654EF1D517FA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -366520,7 +366482,14 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T06:01:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mercyme-2027-tulsa-1aezz_fgkbolkrk",
@@ -367015,7 +366984,7 @@
     "vividseats_url": "https://www.vividseats.com/mercyme-tickets-evansville-ford-center-evansville-5-2-2027/production/7714414",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-evansville-indiana-05-02-2027/event/0500654CBB44B772",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -367071,7 +367040,14 @@
       "AWAKENING EVENTS",
       "VENUWORKS CORPORATE"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T16:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-omer-adam-2026-brooklyn-1ayzk4vgkdfutko",
@@ -379398,7 +379374,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-toronto-rogers-stadium---toronto-8-7-2027--concerts-rock/production/7816771",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bon-jovi-forever-tour-toronto-ontario-08-07-2027/event/1000655B041F7CCB",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379433,8 +379409,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_4Gki76MS5",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -379472,7 +379447,7 @@
     "vividseats_url": "https://www.vividseats.com/bon-jovi-tickets-south-bend-notre-dame-stadium-10-2-2027--concerts-rock/production/7816464",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/bon-jovi-forever-tour-south-bend-indiana-10-02-2027/event/050065640B452301",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -379507,8 +379482,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kv8vP_ZGA5o3Gv",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -380225,7 +380199,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/gorillaz-ciudad-de-mexico-11-12-2026/event/1400655DC425ABEC",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380273,13 +380247,6 @@
       "OCESA"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Gran Venta HSBC-Crédito y Débito",
-        "start": "2026-11-13T17:00:00Z",
-        "end": "2026-11-14T05:59:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-tickets-mexico-city-palacio-de-los-deportes-11-12-2026/event/107680207"
   },
   {
@@ -380433,7 +380400,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bristow-jiffy-lube-live-5-8-2027/production/7824368",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bristow-virginia-05-08-2027/event/150065659D794D8B",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380489,8 +380456,7 @@
     },
     "ticketmaster_discovery_event_id": "1kA8vP__GAurfU5",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359338/Kings-Of-Leon-tickets-Sat-May-8-2027-Jiffy-Lube-Live",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359338",
     "organizer_names": [
@@ -380523,7 +380489,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-philadelphia-td-pavilion-at-the-mann-5-12-2027/production/7824366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-philadelphia-pennsylvania-05-12-2027/event/02006562C8EA8A0F",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380558,8 +380524,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4xGkdFBII2",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -380589,7 +380554,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-cuyahoga-falls-blossom-music-center-5-14-2027/production/7824370",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-cuyahoga-falls-ohio-05-14-2027/event/05006563836D34BC",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380645,8 +380610,7 @@
     },
     "ticketmaster_discovery_event_id": "vv16AZk4NOUZAC7AGu",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359343/Kings-Of-Leon-tickets-Fri-May-14-2027-Blossom-Music-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359343",
     "organizer_names": [
@@ -380689,7 +380653,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-noblesville-ruoff-music-center-5-15-2027/production/7824350",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-noblesville-indiana-05-15-2027/event/05006563E8D8A623",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380738,8 +380702,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4NGkdIU1bN",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359344/Kings-Of-Leon-tickets-Sat-May-15-2027-Ruoff-Music-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359344",
     "organizer_names": [
@@ -380771,7 +380734,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-grand-rapids-acrisure-amphitheater-5-18-2027/production/7824346",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-grand-rapids-michigan-05-18-2027/event/08006562F67882F1",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380820,8 +380783,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4xGkdUrF5s",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359345/Kings-Of-Leon-tickets-Tue-May-18-2027-Acrisure-Amphitheater",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359345",
     "organizer_names": [
@@ -380853,7 +380815,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-clarkston-pine-knob-music-theatre-5-23-2027/production/7824352",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-clarkston-michigan-05-23-2027/event/08006565C8654EA3",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380909,8 +380871,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4PGkdF_fBN",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359346/Kings-Of-Leon-tickets-Sun-May-23-2027-Pine-Knob-Music-Theatre",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359346",
     "organizer_names": [
@@ -380942,7 +380903,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bridgeport-hartford-healthcare-amphitheater-5-25-2027/production/7824336",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bridgeport-connecticut-05-25-2027/event/1D0065639FF31CFA",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -380998,8 +380959,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_pCLHsSB",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359347/Kings-Of-Leon-tickets-Tue-May-25-2027-Hartford-HealthCare-Amphitheater",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359347",
     "organizer_names": [
@@ -381037,7 +380997,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-saratoga-springs-albany-med-health-system-at-saratoga-performing-arts-center-5-27-2027/production/7824374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-saratoga-springs-new-york-05-27-2027/event/00006562CFD8B5A3",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381086,8 +381046,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_p52U5pN",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359348/Kings-Of-Leon-tickets-Thu-May-27-2027-Albany-Med-Health-System-at-SPAC",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359348",
     "organizer_names": [
@@ -381119,7 +381078,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bangor-maine-savings-amphitheater-5-29-2027/production/7824344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bangor-maine-05-29-2027/event/010065639C6066D9",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381168,8 +381127,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1A8vPbyGAGbkh_",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359349/Kings-Of-Leon-tickets-Sat-May-29-2027-Maine-Savings-Amphitheater",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359349",
     "organizer_names": [
@@ -381202,7 +381160,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bethel-bethel-woods-center-for-the-arts-5-30-2027/production/7824408",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bethel-new-york-05-30-2027/event/00006564DCE2EAA3",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381258,8 +381216,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_pKjzmnN",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359350/Kings-Of-Leon-tickets-Sun-May-30-2027-Bethel-Woods-Center-For-The-Arts",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359350",
     "organizer_names": [
@@ -381292,7 +381249,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-toronto-rbc-amphitheatre-6-2-2027/production/7824372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kings-of-leon-toronto-ontario-06-02-2027/event/1000656470D028EE",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381327,8 +381284,7 @@
     },
     "ticketmaster_discovery_event_id": "16vZZ_poYG7VeNm",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -381354,7 +381310,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-shakopee-mystic-lake-amphitheater---shakopee-6-5-2027/production/7824340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-shakopee-minnesota-06-05-2027/event/21006564869E0BE3",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381389,8 +381345,7 @@
     },
     "ticketmaster_discovery_event_id": "16-Zk40-tZA2vG27",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -381420,7 +381375,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-tinley-park-credit-union-1-amphitheatre-6-6-2027/production/7824332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-tinley-park-illinois-06-06-2027/event/040065639E5847C7",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381476,8 +381431,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kvZvPbyGACp7L6",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359352/Kings-Of-Leon-tickets-Sun-Jun-6-2027-Credit-Union-1-Amphitheatre",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359352",
     "organizer_names": [
@@ -381510,7 +381464,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-west-valley-city-utah-09-11-2027/event/1E006563EC6968C8",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381545,8 +381499,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_p2iQpNF",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -381581,7 +381534,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-vancouver-rogers-arena-9-14-2027/production/7824434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381637,8 +381590,7 @@
     },
     "ticketmaster_discovery_event_id": "16v7Z_ppFG7nNqO",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359372/Kings-Of-Leon-tickets-Tue-Sep-14-2027-Rogers-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359372",
     "organizer_names": [
@@ -381674,7 +381626,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-seattle-climate-pledge-arena-9-15-2027--concerts-rock/production/7824362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-seattle-washington-09-15-2027/event/0F006562C4887F64",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381730,8 +381682,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p57x6W0",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359354/Kings-Of-Leon-tickets-Wed-Sep-15-2027-Climate-Pledge-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359354",
     "organizer_names": [
@@ -381764,7 +381715,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-mountain-view-shoreline-amphitheatre---ca-9-17-2027/production/7824356",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-mountain-view-california-09-17-2027/event/1C0065629C64780E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381820,8 +381771,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p1j_6OC",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359355/Kings-Of-Leon-tickets-Fri-Sep-17-2027-Shoreline-Amphitheatre-CA",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359355",
     "organizer_names": [
@@ -381859,7 +381809,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-inglewood-kia-forum-9-18-2027/production/7824348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-inglewood-california-09-18-2027/event/09006563F0D01019",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381915,8 +381865,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AaZk4NGkdYVvZ_",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359356/Kings-Of-Leon-tickets-Sat-Sep-18-2027-The-Kia-Forum",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359356",
     "organizer_names": [
@@ -381949,7 +381898,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-phoenix-talking-stick-resort-amphitheatre-9-24-2027/production/7824354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-phoenix-arizona-09-24-2027/event/19006562BDE54AA2",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382005,8 +381954,7 @@
     },
     "ticketmaster_discovery_event_id": "1A_Zk4xGkeWyfnx",
     "timezone": "America/Phoenix",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359358/Kings-Of-Leon-tickets-Fri-Sep-24-2027-Talking-Stick-Resort-Amphitheatre",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359358",
     "organizer_names": [
@@ -382039,7 +381987,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-austin-moody-center-atx-9-26-2027--concerts-rock/production/7824360",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-austin-texas-09-26-2027/event/3A006564CF50A3CC",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382095,8 +382043,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pK2f12G",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359359/Kings-Of-Leon-tickets-Sun-Sep-26-2027-Moody-Center-ATX",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359359",
     "organizer_names": [
@@ -382134,7 +382081,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-fort-worth-ariat-arena-9-28-2027/production/7824422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-fort-worth-texas-09-28-2027/event/0C00655AC0E76CD1",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382190,8 +382137,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4lZyUSo",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359360/Kings-Of-Leon-tickets-Tue-Sep-28-2027-Ariat-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359360",
     "organizer_names": [
@@ -382224,7 +382170,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-alpharetta-ameris-bank-amphitheatre-9-30-2027/production/7824330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-alpharetta-georgia-09-30-2027/event/0E0065639B9385BF",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382280,8 +382226,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pCh0zpT",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359361/Kings-Of-Leon-tickets-Thu-Sep-30-2027-Ameris-Bank-Amphitheatre",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359361",
     "organizer_names": [
@@ -382314,7 +382259,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-orlando-kia-center-10-1-2027/production/7824342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-orlando-florida-10-01-2027/event/22006564C65B420F",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382370,8 +382315,7 @@
     },
     "ticketmaster_discovery_event_id": "1AxZk40GkdkpVF2",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359362/Kings-Of-Leon-tickets-Fri-Oct-1-2027-Kia-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359362",
     "organizer_names": [
@@ -382404,7 +382348,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-3-2027/production/7824436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-raleigh-north-carolina-10-03-2027/event/2D006564A39E6FCB",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382460,8 +382404,7 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p3NEJT5",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359364/Kings-Of-Leon-tickets-Sun-Oct-3-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359364",
     "organizer_names": [
@@ -382494,7 +382437,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-charlotte-truliant-amphitheater-10-6-2027/production/7824406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-charlotte-north-carolina-10-06-2027/event/2D006562C5E8B791",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382550,8 +382493,7 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p5AB5ro",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359365/Kings-Of-Leon-tickets-Wed-Oct-6-2027-Truliant-Amphitheater",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359365",
     "organizer_names": [
@@ -382584,7 +382526,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-franklin-firstbank-amphitheater-10-8-2027/production/7824438",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-franklin-tennessee-10-08-2027/event/1B006563D07FCC45",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382640,8 +382582,7 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_p28LHsA",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359366/Kings-Of-Leon-tickets-Fri-Oct-8-2027-FirstBank-Amphitheater",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359366",
     "organizer_names": [
@@ -382674,7 +382615,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-cincinnati-the-farmer-music-center-10-12-2027/production/7824430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-cincinnati-ohio-10-12-2027/event/16006563EE23AC61",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382723,8 +382664,7 @@
     },
     "ticketmaster_discovery_event_id": "1ApZk4NGkdmFBs-",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359367/Kings-Of-Leon-tickets-Tue-Oct-12-2027-The-Farmer-Music-Center",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359367",
     "organizer_names": [
@@ -382756,7 +382696,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-mansfield-xfinity-center---ma-10-14-2027/production/7824364",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-mansfield-massachusetts-10-14-2027/event/01006564AB6284CF",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382812,8 +382752,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZk40GkelbIK2",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359368/Kings-Of-Leon-tickets-Thu-Oct-14-2027-Xfinity-Center-MA",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359368",
     "organizer_names": [
@@ -382846,7 +382785,7 @@
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-new-york-madison-square-garden-10-15-2027/production/7824410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-new-york-new-york-10-15-2027/event/3B0065567CC21B71",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -382902,8 +382841,7 @@
     },
     "ticketmaster_discovery_event_id": "G5diZ_4_HY-cs",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T14:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359370/Kings-Of-Leon-tickets-Fri-Oct-15-2027-Madison-Square-Garden",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359370",
     "organizer_names": [
@@ -389886,7 +389824,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-silver-spring-the-fillmore-silver-spring-4-19-2027/production/7835102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-silence-please-tour-silver-spring-maryland-04-19-2027/event/1500655FE53EBDA4",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389935,8 +389873,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvfZ_4GkTP2lU0",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361963",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361963/The-Dead-South-tickets-Mon-Apr-19-2027-The-Fillmore-Silver-Spring",
     "organizer_names": [
@@ -389968,7 +389905,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-silence-please-tour-saint-louis-missouri-04-27-2027/event/2100656515A82762",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390003,8 +389940,7 @@
     },
     "ticketmaster_discovery_event_id": "16e7Z_pf4G7neqx",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "genre": "Rock"
   },
   {
@@ -390023,7 +389959,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-kansas-city-crossroads-kc-at-grinders-4-28-2027/production/7833445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-kansas-city-missouri-04-28-2027/event/06006564B718F0BC",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390058,8 +389994,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AkZk40GkeMk2eH",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "MAMMOTH INC"
     ],
@@ -390156,7 +390091,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-nashville-tennessee-05-01-2027/event/1B006564A01B9322",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390205,8 +390140,7 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_p3OkyGx",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361931",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361931/The-Dead-South-tickets-Sat-May-1-2027-The-Truth",
     "organizer_names": [
@@ -390237,7 +390171,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-vancouver-british-columbia-09-23-2027/event/110065638EDD3D60",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390286,8 +390220,7 @@
     },
     "ticketmaster_discovery_event_id": "1k78vPbzGACMKgO",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T19:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361932",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361932/The-Dead-South-tickets-Thu-Sep-23-2027-Malkin-Bowl-Stanley-Park",
     "organizer_names": [
@@ -390315,7 +390248,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7MOA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -390364,8 +390297,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7MOA",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361934",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361934/The-Dead-South-tickets-Fri-Sep-24-2027-Prospera-Place"
   },
@@ -390385,7 +390317,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-calgary-alberta-09-25-2027/event/11006562C7E07866",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390420,8 +390352,7 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk4xGkd6z6-J",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -390447,7 +390378,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-edmonton-alberta-09-26-2027/event/11006563AE05617C",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390482,8 +390413,7 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk4NGkemvpAH",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -390508,7 +390438,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-toronto-massey-hall---allied-music-centre-9-30-2027/production/7834163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-toronto-ontario-09-30-2027/event/10006565BE018B4F",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390543,8 +390473,7 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk4PGkeXZbc2",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -390569,7 +390498,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-1-2027/production/7833561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-01-2027/event/310065628D70235B",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390618,8 +390547,7 @@
     },
     "ticketmaster_discovery_event_id": "1kG8vPbIGAujeuh",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361941",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361941/The-Dead-South-tickets-Fri-Oct-1-2027-MTelus",
     "organizer_names": [
@@ -390644,7 +390572,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-2-2027/production/7833497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-02-2027/event/310065628D73235F",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390693,8 +390621,7 @@
     },
     "ticketmaster_discovery_event_id": "1kG8vPbIGAujwuL",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361942",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361942/The-Dead-South-tickets-Sat-Oct-2-2027-MTelus",
     "organizer_names": [
@@ -390719,7 +390646,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-ottawa-ontario-10-03-2027/event/31006564C51E5F84",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390754,8 +390681,7 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk40GkdA6PX7",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
@@ -390779,7 +390705,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-thunder-bay-ontario-10-06-2027/event/1000655DAE7A7A93",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390814,8 +390740,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_4GkUmrEnK",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "genre": "Rock"
   },
@@ -390835,7 +390760,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-winnipeg-burton-cummings-theatre-10-7-2027/production/7833549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-winnipeg-manitoba-10-07-2027/event/11006563833A2DAA",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390884,8 +390809,7 @@
     },
     "ticketmaster_discovery_event_id": "16oZk4NOSZA5dC55",
     "timezone": "America/Winnipeg",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361946",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361946/The-Dead-South-tickets-Thu-Oct-7-2027-Burton-Cummings-Theatre",
     "organizer_names": [
@@ -390920,7 +390844,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-atlanta-coca-cola-roxy-theatre-1-29-2027--concerts-dance-electronica/production/7843441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-legend-of-atlantis-tour-atlanta-georgia-01-29-2027/event/0E0065239C599CA2",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390969,33 +390893,12 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3Cjp_wx",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "genre": "Dance/Electronic",
     "presales": [
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-14T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -391021,7 +390924,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-st-petersburg-florida-02-03-2027/event/0D006566D4A6C9B9",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391056,8 +390959,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_phftiJy",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC",
       "NO CLUBS"
@@ -391065,26 +390967,6 @@
     "ticket_limit": 6,
     "genre": "Dance/Electronic",
     "presales": [
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
-      {
-        "name": "Daddy Kool Records Presale",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-11T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -391108,7 +390990,7 @@
     "vividseats_url": "https://www.vividseats.com/alan-walker-tickets-lake-buena-vista-house-of-blues-orlando-2-4-2027/production/7835470",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alan-walker-orlando-florida-02-04-2027/event/22006541B6E13EFD",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391157,8 +391039,7 @@
     },
     "ticketmaster_discovery_event_id": "1AxZk4vGkeUzKDW",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)",
       "LIVE NATION MUSIC"
@@ -391166,26 +391047,6 @@
     "ticket_limit": 6,
     "genre": "Dance/Electronic",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "Reserved by Spotify",
-        "start": "2026-11-10T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -392117,7 +391978,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-orlando-camping-world-stadium-6-14-2027/production/7832837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-orlando-florida-06-14-2027/event/22006564E7F05FE6",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392200,6 +392061,11 @@
         "name": "Artist Presale VIP Packages",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2027-06-10T16:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361518/Stray-Kids-tickets-Mon-Jun-14-2027-Camping-World-Stadium",
@@ -392222,7 +392088,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-chicago-soldier-field-6-18-2027/production/7832839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-18-2027/event/04006563DBD6842E",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392292,9 +392158,24 @@
         "end": "2026-11-18T20:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Package",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-18T20:00:00Z"
+      },
+      {
         "name": "Artist Presale",
         "start": "2026-11-18T21:00:00Z",
         "end": "2026-11-19T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Package",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-19T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-19T21:00:00Z",
+        "end": "2027-06-14T17:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361519/Stray-Kids-tickets-Fri-Jun-18-2027-Soldier-Field",
@@ -392763,7 +392644,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mumford-sons-milwaukee-wisconsin-07-09-2027/event/07006564D1106BF8",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392798,8 +392679,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk40Gkdo7kRz",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "SUMMERFEST PRODUCTIONS"
     ],
@@ -392822,7 +392702,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/mumford-sons-stampede-concert-series-calgary-alberta-07-12-2027/event/11006565CAE78CD3",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392871,8 +392751,7 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk4PGkd1yzSK",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
@@ -392898,7 +392777,7 @@
     "vividseats_url": "https://www.vividseats.com/zach-top-tickets-george-gorge-amphitheatre-7-2-2027--concerts-country-and-folk/production/7834141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-the-red-clay-strays-george-washington-07-02-2027/event/0F00656499C96EEA",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392933,8 +392812,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p3_wpDn",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -392957,7 +392835,7 @@
     "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-chicago-united-center-2-13-2027/production/7833531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-chicago-illinois-02-13-2027/event/04006564BDE784EF",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393006,8 +392884,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk40GkeWyzKR",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -393039,7 +392916,7 @@
     "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-niagara-falls-olg-stage-at-fallsview-casino-5-22-2027/production/7836262",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bryan-adams-roll-with-the-punches-niagara-falls-ontario-05-22-2027/event/1000656487AB61F5",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393074,8 +392951,7 @@
     },
     "ticketmaster_discovery_event_id": "16vZZ_p36G7nU6g",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "genre": "Rock",
     "presales": [
@@ -393102,7 +392978,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-lexington-the-rail-2-23-2027/production/7836216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-lexington-kentucky-02-23-2027/event/16006550CD4CD028",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393151,8 +393027,7 @@
     },
     "ticketmaster_discovery_event_id": "1ApZk48GkduKuZI",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "PEACHTREE ENTERTAINMENT"
     ],
@@ -393177,7 +393052,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-toronto-scotiabank-arena-4-1-2027/production/7833319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-toronto-ontario-04-01-2027/event/1000654ED0A53608",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393212,44 +393087,13 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_fGkD8tKbF",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Live INSIDER Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -393273,7 +393117,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-montreal-bell-centre-4-4-2027/production/7833537",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-montreal-quebec-04-04-2027/event/31006541D7EE8649",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393322,39 +393166,13 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4vGkd9DI_a",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "EVENKO ONLY"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "Prévente Forfaits VIP Packages Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Prévente Artiste Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Prévente Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Prévente CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "Forfaits VIP Packages",
         "start": "2026-11-13T15:00:00Z",
@@ -393380,7 +393198,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-brooklyn-barclays-center-4-8-2027/production/7833135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-brooklyn-new-york-04-08-2027/event/300065463B989FC4",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393436,44 +393254,13 @@
     },
     "ticketmaster_discovery_event_id": "1kGZvPoNGA5JaT7",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Barclays Center Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -393500,7 +393287,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-reading-pennsylvania-04-10-2027/event/0200654FBC8EBAFE",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393549,44 +393336,13 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkXHNllX",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -393612,7 +393368,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-newark-prudential-center-4-15-2027/production/7833191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-newark-new-jersey-04-15-2027/event/02006555DA3C4F61",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393668,44 +393424,13 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZk44GkdQ27W-",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -393732,7 +393457,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-chicago-united-center-4-17-2027/production/7833243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-chicago-illinois-04-17-2027/event/04006550AFD1AD9E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393788,43 +393513,12 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk48GkeRVQUr",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T15:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:59:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T16:10:00Z",
-        "end": "2026-11-13T15:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T16:00:00Z",
@@ -393851,7 +393545,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-charlotte-spectrum-center-4-23-2027/production/7833245",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-charlotte-north-carolina-04-23-2027/event/2D006547F1FDD2D8",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393907,43 +393601,12 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fLsTq5b",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
-      {
-        "name": "Spectrum Center Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -393970,7 +393633,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-tampa-benchmark-international-arena-4-25-2027/production/7833247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-tampa-florida-04-25-2027/event/0D006546A0E16EC9",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394026,38 +393689,12 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fQOzpDa",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -394076,7 +393713,7 @@
     "city": "San Antonio",
     "country": "United States Of America",
     "venue": "Frost Bank Center",
-    "datetime_iso": "2027-04-30T00:00:00Z",
+    "datetime_iso": "2027-04-30T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "3A00654ED39BFDB7",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
@@ -394084,7 +393721,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-antonio-frost-bank-center-4-29-2027--concerts-latin-music/production/7842721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394140,44 +393777,13 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fDKJTUM",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T15:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:59:00Z"
-      },
-      {
-        "name": "Frost Bank Center Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T16:00:00Z",
@@ -394204,7 +393810,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-anaheim-honda-center-5-9-2027/production/7833255",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-anaheim-california-05-09-2027/event/0900654DCE83C7D3",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394260,44 +393866,13 @@
     },
     "ticketmaster_discovery_event_id": "vv170Z_fGkMCOHLK",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T17:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "CMN PRESALE",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:59:00Z"
-      },
-      {
-        "name": "VENUE PRESALE",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T18:00:00Z",
@@ -394324,7 +393899,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-denver-ball-arena-5-13-2027/production/7833291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-denver-colorado-05-13-2027/event/1E00654EE846CB3B",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394380,44 +393955,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fDIoiiD",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T16:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T16:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:45:00Z"
-      },
-      {
-        "name": "Ball Arena Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:59:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T17:00:00Z",
@@ -394444,7 +393988,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-francisco-chase-center-5-16-2027/production/7833293",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-francisco-california-05-16-2027/event/1C00655DB26ABAB3",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394500,41 +394044,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4UwQlnS",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T17:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Venue/Warriors Dub Club/Insider Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
       {
         "name": "Chase Preferred Seating",
         "start": "2026-11-13T18:00:00Z",
@@ -394566,7 +394079,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-wallingford-toyota-oakdale-theatre-1-31-2027/production/7833895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-wallingford-connecticut-01-31-2027/event/1D00655CE3E34A7E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394615,8 +394128,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_4SNzVtX",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -394653,7 +394165,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-valley-center-events-center-at-harrahs-resort-socal-2-12-2027/production/7835522",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-valley-center-california-02-12-2027/event/0A006564A3F36BFA",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394688,8 +394200,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_p3NHURB",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "legal_age_enforced": true,
     "genre": "Pop",
@@ -394717,7 +394228,7 @@
     "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-19-2027/production/7833565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-19-2027/event/22006567BE433B0A",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394752,8 +394263,7 @@
     },
     "ticketmaster_discovery_event_id": "1AxZk4EGkeX8Si1",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)",
       "LIVE NATION MUSIC"
@@ -394777,7 +394287,7 @@
     "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-20-2027/production/7833523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394826,8 +394336,7 @@
     },
     "ticketmaster_discovery_event_id": "1AxZk4EGkeXoSiu",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)",
       "LIVE NATION MUSIC"
@@ -394853,7 +394362,7 @@
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-harrisburg-riverfront-park---harrisburg-8-6-2027/production/7849169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-harrisburg-pennsylvania-08-06-2027/event/02006569EE79EB01",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -394902,8 +394411,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4tGkdmrriv",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366152",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366152/Death-Cab-for-Cutie-tickets-Fri-Aug-6-2027-Riverfront-Park-Harrisburg"
@@ -394997,7 +394505,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-2-24-2027/production/7841789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-columbus-ohio-02-24-2027/event/0500656687973E50",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395046,8 +394554,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1FfZ_pQ6PSZd2kv",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363950/Daughtry-tickets-Wed-Feb-24-2027-Mershon-Auditorium-At-Wexner-Center-For-The-Arts",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -395249,7 +394756,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-21-2027--concerts-rock/production/7850919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395298,8 +394805,7 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvP_vGACrkE8",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "ANOTHER PLANET"
     ],
@@ -395324,7 +394830,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-23-2027--concerts-rock/production/7850921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395373,8 +394879,7 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvP_vGACLJEp",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "ANOTHER PLANET"
     ],
@@ -395399,7 +394904,7 @@
     "vividseats_url": "https://www.vividseats.com/leon-bridges-tickets-honolulu-tom-moffatt-waikiki-shell-2-20-2027/production/7847587",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/leon-bridges-presents-the-happiness-anytime-honolulu-hawaii-02-20-2027/event/0A00655E83173335",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395434,8 +394939,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4BdASGg",
     "timezone": "Pacific/Honolulu",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T20:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "genre": "R&B"
   },
@@ -395455,7 +394959,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-2-19-2027/production/7845546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-lincoln-california-02-19-2027/event/1C006566CB84EE98",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395504,8 +395008,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_ph5-CBb",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "genre": "Latin",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365425",
@@ -397640,7 +397143,7 @@
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-23-2027--concerts-country-and-folk/production/7860906",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -397702,12 +397205,32 @@
       {
         "name": "Club Wallen Presale",
         "start": "2026-11-17T14:00:00Z",
-        "end": "2026-11-17T15:00:00Z"
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Travel VIP Packages Presale",
+        "start": "2026-11-17T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-17T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
       },
       {
         "name": "Artist Presale",
         "start": "2026-11-17T16:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Travel VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-10T03:59:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-10T03:59:00Z"
       }
     ]
   },
@@ -397727,7 +397250,7 @@
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-24-2027--concerts-country-and-folk/production/7860908",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -397789,12 +397312,32 @@
       {
         "name": "Club Wallen Presale",
         "start": "2026-11-18T14:00:00Z",
-        "end": "2026-11-18T15:00:00Z"
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Travel VIP Packages Presale",
+        "start": "2026-11-18T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
       },
       {
         "name": "Artist Presale",
         "start": "2026-11-18T16:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Travel VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-10T03:59:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-10T03:59:00Z"
       }
     ]
   },
@@ -399583,7 +399126,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-milwaukee-fiserv-forum-3-4-2027/production/7861289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-milwaukee-wisconsin-03-04-2027/event/0700656996C12A6E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -399651,6 +399194,11 @@
         "name": "Official Artist Presale - Day 2",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Side & Obstructed View Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-05T03:30:00Z"
       }
     ]
   },
@@ -400072,7 +399620,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-newark-prudential-center-3-16-2027/production/7861499",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-newark-new-jersey-03-16-2027/event/0200656BC07EFD6F",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400138,6 +399686,9 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -400472,7 +400023,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-tampa-benchmark-international-arena-4-22-2027--concerts-rock/production/7861537",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-tampa-florida-04-22-2027/event/0D00656A91BF4933",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400540,7 +400091,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4
   },
   {
     "id": "tm-phoebe-bridgers-2027-miami-vvg1vz_phkzg-0",
@@ -401203,7 +400755,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-toronto-ontario-04-24-2027/event/1000656ACA76BE29",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401256,6 +400808,11 @@
       },
       {
         "name": "Discord Presale",
+        "start": "2026-11-17T17:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
         "start": "2026-11-17T17:00:00Z",
         "end": "2026-11-19T03:00:00Z"
       },
@@ -401583,7 +401140,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-vancouver-british-columbia-05-09-2027/event/11006567183E5E01",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401652,6 +401209,11 @@
       },
       {
         "name": "Discord Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-19T05:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
         "start": "2026-11-17T19:00:00Z",
         "end": "2026-11-19T05:00:00Z"
       },
@@ -401995,7 +401557,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-manchester-co-op-live-6-6-2027/production/7860802",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-06-06-2027/event/3700656BD6A79CF0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402030,8 +401592,24 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_pGkRptySY",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T12:00:00Z"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Co-op Members Sale",
+        "start": "2026-11-13T12:00:00Z",
+        "end": "2026-11-15T12:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-13T12:00:00Z",
+        "end": "2026-11-15T12:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-nashville-z7r9jz1aaaa0d",
@@ -402252,7 +401830,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-23-05-2027/event/1400655FE8958949",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402295,16 +401873,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Preventa Banamex",
-        "start": "2026-11-13T17:00:00Z",
-        "end": "2026-11-14T05:59:00Z"
-      },
-      {
-        "name": "Preventa Banamex Paquetes VIP",
-        "start": "2026-11-13T17:00:00Z",
-        "end": "2026-11-14T05:59:00Z"
-      },
-      {
         "name": "Venta General Paquetes VIP",
         "start": "2026-11-14T17:00:00Z",
         "end": "2027-05-24T01:00:00Z"
@@ -402327,7 +401895,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-baltimore-maryland-06-05-2027/event/15006564DFB4AC25",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402363,7 +401931,69 @@
     "ticketmaster_discovery_event_id": "1A4Zk40GkdLc1YP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG - TICKETING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-09T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-27T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-newark-vv1aezk4pgkd6oqqp",
@@ -402381,7 +402011,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-12-2027/event/02006565C781A756",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402417,7 +402047,64 @@
     "ticketmaster_discovery_event_id": "vv1AeZk4PGkd6OQqp",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-16T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-03T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-columbus-vv1aazk4pgkdbhbjx",
@@ -402435,7 +402122,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-columbus-value-city-arena-at-schottenstein-center-6-16-2027/production/7870459",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-16-2027/event/05006565D8F3A722",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402479,7 +402166,64 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369579/KPOP-Demon-Hunters-tickets-Wed-Jun-16-2027-Value-City-Arena-at-The-Schottenstein-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369579/KPOP-Demon-Hunters-tickets-Wed-Jun-16-2027-Value-City-Arena-at-The-Schottenstein-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-20T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-20T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-chicago-vv1k8z_pb3g7s3vy",
@@ -402497,7 +402241,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-19-2027/event/0400656612CD2D30",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402533,7 +402277,59 @@
     "ticketmaster_discovery_event_id": "vv1k8Z_pb3G7S3VY",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "AEG - TICKETING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-19T15:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-23T03:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-23T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-06-10T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-indianapolis-vv1aazk40gkes_m63",
@@ -402551,7 +402347,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-indianapolis-gainbridge-fieldhouse-6-23-2027--theater-family/production/7870485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-indianapolis-indiana-06-23-2027/event/05006564B16771D2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402595,7 +402391,64 @@
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369582/KPOP-Demon-Hunters-tickets-Wed-Jun-23-2027-Gainbridge-Fieldhouse"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369582/KPOP-Demon-Hunters-tickets-Wed-Jun-23-2027-Gainbridge-Fieldhouse",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-27T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-27T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-12T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-hamilton-1avzz_pgknnsz0d",
@@ -402613,7 +402466,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kpop-demon-hunters-golden-world-tour-hamilton-ontario-06-26-2027/event/1000656AAAC78903",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402649,7 +402502,59 @@
     "ticketmaster_discovery_event_id": "1AvZZ_pGknnsz0d",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE (CANADA)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-30T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-30T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-17T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-belmont-park-1kgzvpbsgagectc",
@@ -402667,7 +402572,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-29-2027/production/7870441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-29-2027/event/300065633C0ADFCE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402703,7 +402608,54 @@
     "ticketmaster_discovery_event_id": "1kGZvPbSGAGecTC",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-02T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-02T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-19T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-belmont-park-1kgzvpbsgag7qt4",
@@ -402721,7 +402673,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-30-2027/production/7870471",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-30-2027/event/300065633C11DFD5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402757,7 +402709,54 @@
     "ticketmaster_discovery_event_id": "1kGZvPbSGAG7qT4",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-02T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-03T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-19T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-pittsburgh-1apzk4pgkedzz2s",
@@ -402775,7 +402774,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402811,7 +402810,68 @@
     "ticketmaster_discovery_event_id": "1ApZk4PGkeDZz2s",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-06T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-06T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-24T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-charlotte-g5evz_p39bkd-",
@@ -402829,7 +402889,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-charlotte-spectrum-center-7-7-2027/production/7870457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-charlotte-north-carolina-07-07-2027/event/2D00656497E860E1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402873,7 +402933,63 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369586/KPOP-Demon-Hunters-tickets-Wed-Jul-7-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369586/KPOP-Demon-Hunters-tickets-Wed-Jul-7-2027-Spectrum-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Spectrum Center Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-10T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-10T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-26T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-atlanta-vvg1zz_p9cj0zu",
@@ -402891,7 +403007,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-atlanta-georgia-07-10-2027/event/0E006565CE724E36",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402927,7 +403043,69 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_p9Cj0zU",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-13T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-13T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-30T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-orlando-1axzk4jgkdj4ft4",
@@ -402945,7 +403123,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-orlando-florida-07-17-2027/event/22006566DC554FD5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402981,7 +403159,64 @@
     "ticketmaster_discovery_event_id": "1AxZk4JGkdj4fT4",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-20T02:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-20T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-08T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-dallas-vvg1yz_pqm-6ap",
@@ -402999,7 +403234,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-20-2027/production/7870467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-20-2027/event/0C006566AE847156",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403043,7 +403278,49 @@
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-20T16:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369592/KPOP-Demon-Hunters-tickets-Tue-Jul-20-2027-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369592/KPOP-Demon-Hunters-tickets-Tue-Jul-20-2027-American-Airlines-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-19T15:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-06-23T03:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-06-23T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-07-09T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-dallas-vvg1yz_pqmd65i",
@@ -403061,7 +403338,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-21-2027/production/7870455",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-21-2027/event/0C006566AEEC72EC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403105,7 +403382,49 @@
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-20T16:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369593/KPOP-Demon-Hunters-tickets-Wed-Jul-21-2027-American-Airlines-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369593/KPOP-Demon-Hunters-tickets-Wed-Jul-21-2027-American-Airlines-Center",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-19T15:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-06-24T03:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-06-24T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-07-09T22:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-phoenix-16v0z_pj9g7lsu3",
@@ -403123,7 +403442,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-phoenix-arizona-07-24-2027/event/1900656997AF3352",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403159,7 +403478,64 @@
     "ticketmaster_discovery_event_id": "16v0Z_pJ9G7lSu3",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-19T16:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Mortgage Matchup Center Presale",
+        "start": "2026-11-19T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-06-27T05:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-06-27T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-07-15T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-tacoma-vvg1hz_p9ckjih",
@@ -403177,7 +403553,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-tacoma-washington-08-14-2027/event/0F006565CE4DCA3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403213,7 +403589,59 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_p9CKjIH",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard VIP Package Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-19T17:45:00Z"
+      },
+      {
+        "name": "Mastercard Presale Tickets",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Venue/Ticketmaster/Radio Presales",
+        "start": "2026-11-19T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Mastercard Collection Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-07-18T05:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-07-18T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-08-05T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-amsterdam-z698xzbpz16v0ozyff",
@@ -403231,8 +403659,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/1911030514?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-14",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1911030514",
@@ -403275,7 +403703,28 @@
     "timezone": "Europe/Amsterdam",
     "status": "announced",
     "public_onsale_at": "2026-11-20T09:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369607/KPOP-Demon-Hunters-tickets-Wed-Sep-8-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369607/KPOP-Demon-Hunters-tickets-Wed-Sep-8-2027-Ziggo-Dome",
+    "organizer_names": [
+      "Greenhouse Talent"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T09:00:00Z",
+        "end": "2026-11-19T21:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T09:00:00Z",
+        "end": "2026-11-19T21:00:00Z"
+      },
+      {
+        "name": "Greenhouse Talent Presale",
+        "start": "2026-11-19T13:00:00Z",
+        "end": "2026-11-19T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-amsterdam-z698xzbpz1krbj60f",
@@ -403293,8 +403742,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/798707908?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-14",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "798707908",
@@ -403337,7 +403786,28 @@
     "timezone": "Europe/Amsterdam",
     "status": "announced",
     "public_onsale_at": "2026-11-20T09:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369608/KPOP-Demon-Hunters-tickets-Thu-Sep-9-2027-Ziggo-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369608/KPOP-Demon-Hunters-tickets-Thu-Sep-9-2027-Ziggo-Dome",
+    "organizer_names": [
+      "Greenhouse Talent"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T09:00:00Z",
+        "end": "2026-11-19T21:00:00Z"
+      },
+      {
+        "name": "FOR THE FANS Presale",
+        "start": "2026-11-19T09:00:00Z",
+        "end": "2026-11-19T21:00:00Z"
+      },
+      {
+        "name": "Greenhouse Talent Presale",
+        "start": "2026-11-19T13:00:00Z",
+        "end": "2026-11-19T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-fornebu-z698xzb_z1k-p0apk",
@@ -403355,8 +403825,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/kpop-demon-hunters-golden-world-tour-tickets/856905953?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-14",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "856905953",
@@ -403391,7 +403861,28 @@
     "ticketmaster_discovery_event_id": "Z698xZb_Z1k-p0APK",
     "timezone": "Europe/Oslo",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z"
+    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "organizer_names": [
+      "AEG Presents Norway AS"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T09:00:00Z",
+        "end": "2026-11-19T21:00:00Z"
+      },
+      {
+        "name": "For The Fans Presale",
+        "start": "2026-11-19T09:00:00Z",
+        "end": "2026-11-19T21:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-11-19T13:00:00Z",
+        "end": "2026-11-19T21:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-brussels-z698xzg2z1kup-z3o",
@@ -403409,8 +403900,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/kpop-demon-hunters-tickets/356840491",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-14",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "356840491",
@@ -403445,7 +403936,33 @@
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kup-Z3o",
     "timezone": "Europe/Brussels",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z"
+    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "organizer_names": [
+      "Greenhouse Talent"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "ING Presale",
+        "start": "2026-11-18T09:00:00Z",
+        "end": "2026-11-20T08:00:00Z"
+      },
+      {
+        "name": "Mastercard® Presale",
+        "start": "2026-11-18T09:00:00Z",
+        "end": "2026-11-20T08:00:00Z"
+      },
+      {
+        "name": "For The Fans-presale",
+        "start": "2026-11-19T09:00:00Z",
+        "end": "2026-11-20T08:00:00Z"
+      },
+      {
+        "name": "Greenhouse Talent Presale",
+        "start": "2026-11-19T13:00:00Z",
+        "end": "2026-11-20T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-dublin-1avoz_pgksg3dqw",
@@ -403463,7 +403980,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/kpop-demon-hunters-golden-world-tour-dublin-09-10-2027/event/1800656CF54BB6B2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403499,7 +404016,35 @@
     "ticketmaster_discovery_event_id": "1AvOZ_pGkSg3DQw",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "AMPHITHEATRE IRELAND",
+      "AIKEN PROMOTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Bank Of Ireland Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Three+ Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "For the Fans Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-glasgow-1adbz_pgkrybqvg",
@@ -403517,7 +404062,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-glasgow-12-10-2027/event/3600656BF0E9AD0C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403561,7 +404106,35 @@
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-11-20T10:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369645/KPOP-Demon-Hunters-tickets-Tue-Oct-12-2027-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369645/KPOP-Demon-Hunters-tickets-Tue-Oct-12-2027-OVO-Hydro",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "ticket_limit": 8,
+    "genre": "Children's Music",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "OVO Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T14:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-birmingham-1aegz_pgkm7p-do",
@@ -403579,7 +404152,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-birmingham-16-10-2027/event/2300656DC49610E0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403615,7 +404188,8 @@
     "ticketmaster_discovery_event_id": "1AeGZ_pGkM7P-dO",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "genre": "Children's Music"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkm7wjw0",
@@ -403633,7 +404207,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-22-10-2027/event/3500656DC4F66CA4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403669,7 +404243,8 @@
     "ticketmaster_discovery_event_id": "1AdfZ_pGkM7WJw0",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "genre": "Children's Music"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkmklpyh",
@@ -403687,7 +404262,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-23-10-2027/event/3500656DC67D6E5B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403723,7 +404298,8 @@
     "ticketmaster_discovery_event_id": "1AdfZ_pGkMkLpyh",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "genre": "Children's Music"
   },
   {
     "id": "tm-the-rankin-family-2027-edmonton-1k78vpbmga2hetj",
@@ -403741,7 +404317,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-edmonton-northern-alberta-jubilee-auditorium-3-12-2027/production/7834202",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-edmonton-alberta-03-12-2027/event/110065637FF02A66",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403784,7 +404360,15 @@
     "ticketmaster_discovery_event_id": "1k78vPbMGA2HetJ",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370370/The-Rankin-Family-tickets-Fri-Mar-12-2027-Northern-Alberta-Jubilee-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370370/The-Rankin-Family-tickets-Fri-Mar-12-2027-Northern-Alberta-Jubilee-Auditorium",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-calgary-1k78vpbmgac53nm",
@@ -403802,7 +404386,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-calgary-southern-alberta-jubilee-auditorium-3-13-2027/production/7834199",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-calgary-alberta-03-13-2027/event/110065637E2D28EE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403837,7 +404421,15 @@
     },
     "ticketmaster_discovery_event_id": "1k78vPbMGAC53Nm",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-winnipeg-1aozk4ngkerkp1s",
@@ -403855,7 +404447,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-winnipeg-burton-cummings-theatre-3-15-2027/production/7833467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-winnipeg-manitoba-03-15-2027/event/11006563AF4D62B3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403890,7 +404482,22 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk4NGkeRKp1S",
     "timezone": "America/Winnipeg",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-03-02T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-rankin-family-2027-thunder-bay-1a8zk40gkd5kq6z",
@@ -403908,7 +404515,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403943,7 +404550,15 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk40Gkd5kq6Z",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-ottawa-1aszk4ngkdjouzs",
@@ -403961,7 +404576,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403996,7 +404611,15 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4NGkdJOUzS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "NATIONAL ARTS CENTRE (CANADA)",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-niagara-falls-1a8zk40gkdzuhrm",
@@ -404014,7 +404637,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -404049,7 +404672,9 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk40GkdZUhRm",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-montreal-1aszk40gkdkmkar",
@@ -404067,7 +404692,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -404110,7 +404735,14 @@
     "ticketmaster_discovery_event_id": "1AsZk40GkdkMkAr",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370341/The-Rankin-Family-tickets-Mon-Mar-29-2027-Theatre-Beanfield"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370341/The-Rankin-Family-tickets-Mon-Mar-29-2027-Theatre-Beanfield",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-moncton-1aszk4pgkeuypli",
@@ -404128,7 +404760,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-moncton-molson-canadian-centre-at-casino-new-brunswick-3-30-2027/production/7833229",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-moncton-new-brunswick-03-30-2027/event/31006565B6E657EC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -404163,7 +404795,13 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4PGkeUyPLi",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-halifax-16szk4poezacdevv",
@@ -404181,7 +404819,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-halifax-scotiabank-centre-4-1-2027/production/7833203",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-halifax-nova-scotia-04-01-2027/event/31006565827D2100",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -404216,7 +404854,13 @@
     },
     "ticketmaster_discovery_event_id": "16sZk4POEZACdevv",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "EVENKO CO-PRO WITH LIVE NATION"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-the-rankin-family-2027-sydney-1aszk4pgkd5nkwf",
@@ -404234,7 +404878,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-sydney-centre-200-4-3-2027/production/7833217",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -404269,6 +404913,7 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4PGkd5Nkwf",
     "timezone": "America/Halifax",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   }
 ]

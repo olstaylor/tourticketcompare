@@ -784,7 +784,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-baltimore-the-paramount-baltimore-11-20-2026/production/7366680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci35th-anniversary-tour-of-forever-my-baltimore-maryland-11-20-2026/event/150064F69DF8A007",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -838,13 +838,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167890/Jodeci-tickets-Fri-Nov-20-2026-The-Paramount-Baltimore",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Public Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-14T04:55:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "R&B"
@@ -1620,7 +1613,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-savannah-savannah-civic-center---johnny-mercer-theatre-12-8-2026/production/7353314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-savannah-georgia-12-08-2026/event/0E0064F6ADE5B208",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1664,11 +1657,6 @@
         "name": "VIP Package Onsale",
         "start": "2026-07-31T14:00:00Z",
         "end": "2026-12-02T04:55:00Z"
-      },
-      {
-        "name": "Buy One Get One Free Offer",
-        "start": "2026-10-28T19:15:00Z",
-        "end": "2026-11-14T04:59:00Z"
       }
     ],
     "ticket_limit": 8,

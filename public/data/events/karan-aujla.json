@@ -557,7 +557,7 @@
     "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-chicago-united-center-2-13-2027/production/7833531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-chicago-illinois-02-13-2027/event/04006564BDE784EF",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -606,8 +606,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk40GkeWyzKR",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

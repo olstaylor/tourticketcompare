@@ -1358,7 +1358,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-raleigh-lenovo-center-12-7-2026/production/7394057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-raleigh-north-carolina-12-07-2026/event/2D0064FF8623951B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1415,6 +1415,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-14T14:00:00Z",
         "end": "2026-12-01T03:00:00Z"
+      },
+      {
+        "name": "TMNME3 4pack Offer",
+        "start": "2026-11-16T15:00:00Z",
+        "end": "2026-12-06T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -1697,7 +1702,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-bossier-city-brookshire-grocery-arena-12-13-2026/production/7394179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-bossier-city-louisiana-12-13-2026/event/1B0064FD70E4366E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1754,6 +1759,16 @@
         "name": "VIP Package Public Onsale",
         "start": "2026-08-14T15:00:00Z",
         "end": "2026-12-03T04:00:00Z"
+      },
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-23T06:01:00Z",
+        "end": "2026-12-08T05:59:00Z"
+      },
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-23T16:00:00Z",
+        "end": "2026-12-08T05:59:00Z"
       }
     ],
     "genre": "Rock"

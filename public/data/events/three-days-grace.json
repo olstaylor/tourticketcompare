@@ -841,7 +841,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-san-diego-california-11-20-2026/event/0A006363ACF562CE",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -888,13 +888,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-11-14T18:00:00Z",
-        "end": "2026-11-14T06:00:00Z"
-      }
-    ],
     "ticket_limit": 8,
     "genre": "Rock"
   },
@@ -914,7 +907,7 @@
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-phoenix-talking-stick-resort-amphitheatre-11-21-2026--concerts-hard-rock/production/6276810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-phoenix-arizona-11-21-2026/event/19006364AE216854",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -978,11 +971,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred",
-        "start": "2025-11-14T17:00:00Z",
-        "end": "2026-11-14T05:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2025-11-14T17:00:00Z",

@@ -533,7 +533,7 @@
     "vividseats_url": "https://www.vividseats.com/boyz-ii-men-tickets-oxon-hill-the-theater-at-mgm-national-harbor-2-11-2027/production/7688462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/boyz-ii-men-national-harbor-maryland-02-11-2027/event/150065489BAE63F1",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -589,7 +589,14 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "R&B"
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-26T15:00:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5ij2m",

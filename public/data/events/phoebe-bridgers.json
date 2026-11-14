@@ -1771,7 +1771,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-milwaukee-fiserv-forum-3-4-2027/production/7861289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-milwaukee-wisconsin-03-04-2027/event/0700656996C12A6E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1839,6 +1839,11 @@
         "name": "Official Artist Presale - Day 2",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Side & Obstructed View Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-05T03:30:00Z"
       }
     ]
   },
@@ -2260,7 +2265,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-newark-prudential-center-3-16-2027/production/7861499",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-newark-new-jersey-03-16-2027/event/0200656BC07EFD6F",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2326,6 +2331,9 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
+    ],
+    "organizer_names": [
+      "AEG LIVE"
     ]
   },
   {
@@ -2660,7 +2668,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-tampa-benchmark-international-arena-4-22-2027--concerts-rock/production/7861537",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-tampa-florida-04-22-2027/event/0D00656A91BF4933",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2728,7 +2736,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticket_limit": 4
   },
   {
     "id": "tm-phoebe-bridgers-2027-miami-vvg1vz_phkzg-0",

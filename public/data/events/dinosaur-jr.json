@@ -1612,7 +1612,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAv8OP",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8OP",
     "seatgeek_url": "https://seatgeek.com/dinosaur-jr-tickets/minneapolis-minnesota-first-avenue-minneapolis-2027-03-04-8-pm/concert/18540453",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dinosaur-jr-tickets-minneapolis-first-avenue-3-4-2027--concerts-rock/production/7492662",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv8OP",
     "last_verified_at": "2026-11-07",
@@ -1634,11 +1634,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7492662,
+        "url": "https://www.vividseats.com/dinosaur-jr-tickets-minneapolis-first-avenue-3-4-2027--concerts-rock/production/7492662",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -418,7 +418,7 @@
         "event_id": 7835102,
         "url": "https://www.vividseats.com/the-dead-south-tickets-silver-spring-the-fillmore-silver-spring-4-19-2027/production/7835102",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -555,7 +555,7 @@
         "event_id": 7833445,
         "url": "https://www.vividseats.com/the-dead-south-tickets-kansas-city-crossroads-kc-at-grinders-4-28-2027/production/7833445",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -688,7 +688,7 @@
         "event_id": 7834201,
         "url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -954,7 +954,7 @@
     "ticketmaster_event_id": "11006563AE05617C",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-edmonton-alberta-09-26-2027/event/11006563AE05617C",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-edmonton-edmonton-expo-centre-9-26-2027/production/7834195",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-edmonton-alberta-09-26-2027/event/11006563AE05617C",
     "last_verified_at": "2026-11-13",
@@ -976,11 +976,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7834195,
-        "url": "https://www.vividseats.com/the-dead-south-tickets-edmonton-edmonton-expo-centre-9-26-2027/production/7834195",
-        "verified": true,
-        "last_verified_at": "2026-11-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1076,7 +1076,7 @@
     "ticketmaster_event_id": "310065628D70235B",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-01-2027/event/310065628D70235B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-1-2027/production/7833561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-01-2027/event/310065628D70235B",
     "last_verified_at": "2026-11-13",
@@ -1098,11 +1098,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833561,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-1-2027/production/7833561",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1367,7 +1367,7 @@
         "event_id": 7833549,
         "url": "https://www.vividseats.com/the-dead-south-tickets-winnipeg-burton-cummings-theatre-10-7-2027/production/7833549",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub": {

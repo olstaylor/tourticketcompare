@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7P3C3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3C3",
     "seatgeek_url": "https://seatgeek.com/dom-dolla-tickets/las-vegas-nevada-liv-nightclub-las-vegas-2026-11-21-10-30-pm/concert/18598936",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dom-dolla-tickets-las-vegas-liv-nightclub-las-vegas-11-21-2026--concerts-dance-electronica/production/7871152",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7P3C3",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7871152,
+        "url": "https://www.vividseats.com/dom-dolla-tickets-las-vegas-liv-nightclub-las-vegas-11-21-2026--concerts-dance-electronica/production/7871152",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

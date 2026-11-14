@@ -35,7 +35,7 @@ import { relatedArtistsBySharedCity } from "./_related-artists.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, COMPARISON_MIN_PRICE_PROVIDERS, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveThisWeek, renderThisWeekHtml, THIS_WEEK_GUIDE_PATHS } from "./_this-week.js";
-import { deriveToursHub, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
+import { deriveToursHub, deriveToursHubCityRuns, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import {
   WORTH_WAITING_PATH,
@@ -789,6 +789,7 @@ async function resolveRoute(pathname, env) {
       .filter((artist) => artist && artistPageIndexable(artist, hubEvents, slugify(artist.slug)))
       .map((artist) => slugify(artist.slug));
     const hub = deriveToursHub(hubEvents, catalog, undefined, undefined, indexableSlugs);
+    hub.cityRuns = deriveToursHubCityRuns(hubEvents, indexableSlugs);
     return {
       type: "tours-hub",
       path,
@@ -6220,11 +6221,24 @@ export function renderToursHubBody(route) {
         hub.artists.map((artist) => ({ href: artist.path, name: artist.artistName, meta: toursHubArtistMeta(artist) }))
       )}`
     : `<p>${anchor("Browse artists", "/artists", "text-link")} to see what is already on sale.</p>`;
+  const nameBySlug = new Map(hub.artists.map((artist) => [artist.artistSlug, artist.artistName]));
+  const runs = (hub.cityRuns || []).filter((run) => nameBySlug.has(run.artistSlug));
+  const runsHtml = runs.length
+    ? `<section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
+        `Longest ${hub.year} city runs`
+      )}</h2><p>Artists with several dates in one city. Open a run to see each date and its checked ticket links.</p></div>${renderTileListHtml(
+        runs.map((run) => ({
+          href: run.path,
+          name: `${nameBySlug.get(run.artistSlug)} in ${run.city}`,
+          meta: [`${run.showCount} dates`, run.venueCount === 1 ? "1 venue" : `${run.venueCount} venues`, run.country].join(" · ")
+        }))
+      )}</section>`
+    : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="toursHubTitle">${renderBreadcrumbHtml(
     route
   )}<h1 id="toursHubTitle">${escapeHtml(`${hub.year} concert tours`)}</h1><p class="lead">${escapeHtml(
     lead
-  )}</p><section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
+  )}</p>${runsHtml}<section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
     `Artists with ${hub.year} dates`
   )}</h2><p>Most dates first. Months are in each venue's local calendar.</p></div>${listHtml}</section>${collapsedGroupHtml(
     "About this list",

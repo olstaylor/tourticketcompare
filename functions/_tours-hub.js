@@ -3,6 +3,7 @@ import { eventLocalDateParts } from "./_event-local-date.js";
 import { eventLifecycleHeld } from "./_route-indexability.js";
 import { artistTourLabel } from "./_route-metadata.js";
 import { normalizeCountry } from "./_cities.js";
+import { deriveIndexableArtistCities } from "./_artist-cities.js";
 
 // The /tours/<year> hub: every tracked artist with upcoming dates in that year,
 // each linking to its existing artist page. It adds no per-event pages and no
@@ -82,4 +83,27 @@ export function deriveToursHub(events, catalog, year = TOURS_HUB_YEAR, now = Dat
     countryCount: new Set(artists.flatMap((artist) => artist.countries)).size,
     indexable: TOURS_HUB_INDEXABLE && artists.length > 0
   };
+}
+
+/**
+ * The longest city runs in `year`: indexable artist-city pages (2+ publishable
+ * dates in one city, artist page indexable), ranked by how many of those dates
+ * fall in `year`. Each row links the artist-city page that already exists and
+ * is already in the sitemap; nothing here is a new page or a new fact.
+ *
+ * @param {any[]} events Raw events.json records.
+ * @param {Iterable<string>} indexableArtistSlugs Artists whose page is indexable.
+ * @param {number} [year]
+ * @param {number} [now]
+ * @param {number} [limit]
+ */
+export function deriveToursHubCityRuns(events, indexableArtistSlugs, year = TOURS_HUB_YEAR, now = Date.now(), limit = 12) {
+  const inYear = (Array.isArray(events) ? events : []).filter((event) => {
+    if (eventLifecycleHeld(event) || !isUpcomingShow(event, now)) return false;
+    return eventLocalDateParts(event)?.year === year;
+  });
+  return deriveIndexableArtistCities(inYear, indexableArtistSlugs, { now })
+    .sort((a, b) => b.showCount - a.showCount || a.path.localeCompare(b.path))
+    .slice(0, limit)
+    .map((run) => ({ artistSlug: run.artistSlug, path: run.path, city: run.city, country: run.country, showCount: run.showCount, venueCount: run.venueCount }));
 }

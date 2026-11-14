@@ -22,7 +22,7 @@ const NOW_MS = Date.parse("2026-10-09T12:00:00Z");
 Date.now = () => NOW_MS;
 
 const load = (relativePath) => import(pathToFileURL(path.join(root, relativePath)));
-const { deriveToursHub, TOURS_HUB_INDEXABLE, TOURS_HUB_PATH } = await load("functions/_tours-hub.js");
+const { deriveToursHub, deriveToursHubCityRuns, TOURS_HUB_INDEXABLE, TOURS_HUB_PATH } = await load("functions/_tours-hub.js");
 const { renderToursHubBody } = await load("functions/[[path]].js");
 
 const catalog = {
@@ -81,6 +81,21 @@ assert(body.includes('href="/artists/artist-a"') && body.includes('href="/artist
 assert(!/ticketmaster\.com|\/events\/|\/api\/out/.test(body), "the page links no ticket site, event page or redirect");
 assert(body.includes("Feb–Aug") && body.includes("2 dates"), "each row says how many dates and which months");
 assert(!/(?:[$£€]|\b(?:USD|CAD|AUD|GBP|EUR)\s+)\d/.test(body), "the page carries no price figures");
+
+// City runs: only 2+ dates in one city, in the year, for indexable artists, and
+// each links the existing artist-city page.
+const runEvents = [
+  event("r-1", "artist-a", "2027-03-01T03:00:00Z"),
+  event("r-2", "artist-a", "2027-03-02T03:00:00Z"),
+  event("r-3", "artist-b", "2027-03-01T03:00:00Z")
+];
+const runs = deriveToursHubCityRuns(runEvents, ["artist-a", "artist-b"], 2027, NOW_MS);
+assert(runs.every((run) => run.showCount >= 2 && run.path.includes("/tickets/")), "city runs are 2+ dates and link the artist-city page");
+assert(!runs.some((run) => run.artistSlug === "artist-b"), "a single date in a city is not a run");
+assert(deriveToursHubCityRuns(runEvents, [], 2027, NOW_MS).length === 0, "artists whose page is noindex have no runs");
+assert(deriveToursHubCityRuns(runEvents, ["artist-a"], 2028, NOW_MS).length === 0, "runs outside the year are not counted");
+const runBody = renderToursHubBody({ path: TOURS_HUB_PATH, hub: { ...hub, cityRuns: [{ artistSlug: "artist-a", path: "/artists/artist-a/tickets/springfield-united-states", city: "Springfield", country: "United States", showCount: 2, venueCount: 1 }] }, breadcrumb: [] });
+assert(runBody.includes("Longest 2027 city runs") && runBody.includes('href="/artists/artist-a/tickets/springfield-united-states"'), "the page links each city run");
 
 const empty = renderToursHubBody({ path: TOURS_HUB_PATH, hub: deriveToursHub([], catalog, 2027, NOW_MS), breadcrumb: [] });
 assert(empty.includes("No tracked artist has upcoming dates in 2027 yet"), "an empty hub says so");

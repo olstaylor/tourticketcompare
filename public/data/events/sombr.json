@@ -2109,7 +2109,7 @@
     "tour_name": "You Are The Reason Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7xav7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xav7",
-    "seatgeek_url": "https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-cleveland-rocket-arena-11-13-2026--concerts-alternative/production/6898006",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xav7",
@@ -2125,11 +2125,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18157641,
-        "url": "https://seatgeek.com/sombr-tickets/cleveland-ohio-rocket-arena-2026-11-13-7-30-pm/concert/18157641",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6898006,

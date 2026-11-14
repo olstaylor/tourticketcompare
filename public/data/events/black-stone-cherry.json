@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe8Ot",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8Ot",
-    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18637121",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/black-stone-cherry-tickets-milwaukee-the-rave-eagles-club-11-13-2026--concerts-rock/production/7621062",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8Ot",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18637121,
-        "url": "https://seatgeek.com/black-stone-cherry-tickets/milwaukee-wisconsin-the-rave-eagles-club-2026-11-13-8-pm/concert/18637121",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7621062,
@@ -83,7 +83,7 @@
         "event_id": 18637126,
         "url": "https://seatgeek.com/black-stone-cherry-tickets/omaha-nebraska-the-waiting-room-omaha-2026-11-18-8-pm/concert/18637126",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -437,7 +437,7 @@
         "event_id": 18637149,
         "url": "https://seatgeek.com/black-stone-cherry-tickets/hartford-connecticut-webster-underground-hartford-2026-12-05-8-pm/concert/18637149",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -506,7 +506,7 @@
         "event_id": 18637158,
         "url": "https://seatgeek.com/black-stone-cherry-tickets/columbus-ohio-the-king-of-clubs-oh-2026-12-12-5-30-pm/concert/18637158",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "vivid-seats": {

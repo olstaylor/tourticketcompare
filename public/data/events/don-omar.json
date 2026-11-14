@@ -1297,7 +1297,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A70EfV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
-    "seatgeek_url": "https://seatgeek.com/don-omar-tickets/salt-lake-city-utah-delta-center-1-2026-11-13-8-pm/concert/18758909",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70EfV",
@@ -1313,11 +1313,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18758909,
-        "url": "https://seatgeek.com/don-omar-tickets/salt-lake-city-utah-delta-center-1-2026-11-13-8-pm/concert/18758909",
-        "verified": true,
-        "last_verified_at": "2026-11-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2756,7 +2756,7 @@
         "event_id": 18325141,
         "url": "https://seatgeek.com/don-omar-tickets/tampa-florida-benchmark-international-arena-2027-03-10-8-pm/concert/18325141",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2844,7 +2844,7 @@
         "event_id": 18325223,
         "url": "https://seatgeek.com/don-omar-tickets/miami-florida-kaseya-center-2027-03-12-8-pm/concert/18325223",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2932,7 +2932,7 @@
         "event_id": 18325188,
         "url": "https://seatgeek.com/don-omar-tickets/orlando-florida-kia-center-2027-03-14-8-pm/concert/18325188",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -344,14 +344,18 @@ export function selectEvents(events, registryBySlug, options, now = new Date()) 
       skipped.push({ event, reason: "event is in the past — SeatGeek delists finished shows; nothing to maintain" });
       continue;
     }
-    selected.push({ event, rank: verified ? (stale ? 1 : 2) : 0, instant });
+    // Stale proofs carry their age so the oldest are re-checked first.
+    const verifiedAt = stale ? Date.parse(`${clean(sgLink?.last_verified_at, 32).slice(0, 10)}T00:00:00Z`) : 0;
+    selected.push({ event, rank: verified ? (stale ? 1 : 2) : 0, instant, verifiedAt: Number.isNaN(verifiedAt) ? 0 : verifiedAt });
   }
   // The daily lane stopped at --max-api-calls 400 against ~700 selected events,
   // so file order decided who got checked: artists added late in events.json
   // never reached the front, and their missing links became work-queue issues
   // (2026-10-09). Spend the budget where a link is missing or unproven first,
   // then stale proofs, then fresh needs_recheck proofs; soonest show first.
-  selected.sort((a, b) => a.rank - b.rank || a.instant - b.instant);
+  // Within the stale tier the OLDEST proof goes first (a capped run used to
+  // spend its budget on the soonest shows and never reach long-unverified links).
+  selected.sort((a, b) => a.rank - b.rank || (a.rank === 1 ? a.verifiedAt - b.verifiedAt : 0) || a.instant - b.instant);
   const ordered = selected.map((row) => row.event);
   return { selected: options.limit === null ? ordered : ordered.slice(0, options.limit), skipped };
 }
@@ -633,6 +637,11 @@ function selfTest() {
     { ...base, id: "o4", verification_status: "needs_recheck", datetime_iso: "2026-08-01T00:00:00Z" }
   ], registryBySlug, selOptions, now).selected.map((event) => event.id);
   assert("budget goes to missing links (soonest first), then stale, then fresh proofs", order.join(",") === "o4,o3,o2,o1");
+  const staleOrder = selectEvents([
+    { ...base, id: "a1", verification_status: "machine_high_confidence", datetime_iso: "2026-09-01T00:00:00Z", provider_links: { seatgeek: { verified: true, url: "https://seatgeek.com/x/concert/7", last_verified_at: "2026-06-20" } } },
+    { ...base, id: "a2", verification_status: "machine_high_confidence", datetime_iso: "2026-10-01T00:00:00Z", provider_links: { seatgeek: { verified: true, url: "https://seatgeek.com/x/concert/8", last_verified_at: "2026-05-01" } } }
+  ], registryBySlug, selOptions, now).selected.map((event) => event.id);
+  assert("stale proofs: oldest last_verified_at first, not soonest show", staleOrder.join(",") === "a2,a1");
   const queue = Array.from({ length: 10 }, (_, i) => i);
   assert("uncapped run keeps the whole priority order", rotateSelection(queue, null, 3).join() === queue.join());
   assert("capped run starts at the day's window", rotateSelection(queue, 8, 1).join() === "4,5,6,7,8,9,0,1,2,3");
@@ -725,7 +734,14 @@ async function main() {
   const today = isoDate(now);
   const selection = selectEvents(events, registryBySlug, options, now);
   const { skipped } = selection;
-  const selected = rotateSelection(selection.selected, options.maxApiCalls, Math.floor(now.getTime() / 86400000));
+  // Rotate only the unproven head (missing/unverified links, whose failed
+  // discovery can hold the front every night). The proven tail stays strictly
+  // oldest-first: a re-checked link is re-stamped and leaves the stale tier, so
+  // the oldest proofs are reached within a few capped runs.
+  const isProven = (event) => event?.provider_links?.seatgeek?.verified === true;
+  const unprovenHead = selection.selected.filter((event) => !isProven(event));
+  const provenTail = selection.selected.filter(isProven);
+  const selected = [...rotateSelection(unprovenHead, options.maxApiCalls, Math.floor(now.getTime() / 86400000)), ...provenTail];
   const runState = { apiCalls: 0, rateLimitResponses: 0, stopReason: "" };
   const results = [];
   const changedIds = new Set();

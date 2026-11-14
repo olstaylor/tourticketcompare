@@ -12,6 +12,7 @@ import { deriveToursHub, TOURS_HUB_PATH } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import { WORTH_WAITING_PATH, WORTH_WAITING_INDEXABLE } from "./_worth-waiting.js";
 import { eventIndexingPilotFor } from "./[[path]].js";
+import { withEdgeCache } from "./_edge-cache.js";
 
 // Derived from _route-metadata.js (single source of truth) so the sitemap
 // cannot silently drift from the routes the site actually renders.
@@ -436,22 +437,22 @@ export function segmentLastmod(entries) {
 
 // /sitemap.xml keeps serving every indexable URL in one urlset: IndexNow, the
 // site audits and any engine that already has it submitted read it as before.
-export async function onRequestGet({ request, env }) {
+export const onRequestGet = withEdgeCache(async function sitemapHandler({ request, env }) {
   const segments = await buildSitemapSegments(env, SITEMAP_SEGMENTS, rawRequestOrigin(request));
   const entries = SITEMAP_SEGMENTS.flatMap((segment) => segments[segment]);
   return xmlResponse(renderUrlset(entries, requestOrigin(request)));
-}
+});
 
 /** Handler for one /sitemaps/<segment>.xml file. */
 export function segmentHandler(segment) {
-  return async function onRequestGet({ request, env }) {
+  return withEdgeCache(async function onRequestGet({ request, env }) {
     const segments = await buildSitemapSegments(env, [segment], rawRequestOrigin(request));
     return xmlResponse(renderUrlset(segments[segment] || [], requestOrigin(request)));
-  };
+  });
 }
 
 /** Handler for /sitemap-index.xml: one <sitemap> per non-empty segment. */
-export async function sitemapIndexHandler({ request, env }) {
+export const sitemapIndexHandler = withEdgeCache(async function sitemapIndex({ request, env }) {
   const origin = requestOrigin(request);
   const segments = await buildSitemapSegments(env, SITEMAP_SEGMENTS, rawRequestOrigin(request));
   const items = SITEMAP_SEGMENTS.filter((segment) => segments[segment].length)
@@ -471,4 +472,4 @@ export async function sitemapIndexHandler({ request, env }) {
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${items}
 </sitemapindex>`);
-}
+});

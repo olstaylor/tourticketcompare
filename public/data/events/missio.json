@@ -428,7 +428,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/missio-toronto-ontario-11-20-2026/event/1000650AF4CE612B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -464,13 +464,6 @@
     "ticketmaster_discovery_event_id": "1AvZZ_8GklVSJ7l",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-14T13:00:00Z",
-        "end": "2026-11-14T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION CANADA-ROGERS",

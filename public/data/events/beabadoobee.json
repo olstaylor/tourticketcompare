@@ -946,7 +946,7 @@
     "city": "Düsseldorf",
     "country": "Germany",
     "venue": "Mitsubishi Electric HALLE",
-    "datetime_iso": "2026-12-07T19:00:00Z",
+    "datetime_iso": "2026-12-07T18:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "917770412",
     "ticketmaster_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
@@ -954,7 +954,7 @@
     "vividseats_url": "https://www.vividseats.com/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-12-7-2026--concerts-pop/production/7212682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

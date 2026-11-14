@@ -1901,7 +1901,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-21-2027--concerts-rock/production/7850919",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-21-2027/event/170065641E7869D0",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1950,8 +1950,7 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvP_vGACrkE8",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "ANOTHER PLANET"
     ],
@@ -1976,7 +1975,7 @@
     "vividseats_url": "https://www.vividseats.com/journey---rock-band-tickets-stateline-tahoe-blue-event-center-4-23-2027--concerts-rock/production/7850921",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/journey-stateline-nevada-04-23-2027/event/170065641E7E69D6",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2025,8 +2024,7 @@
     },
     "ticketmaster_discovery_event_id": "1kAYvP_vGACLJEp",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "ANOTHER PLANET"
     ],

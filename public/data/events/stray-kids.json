@@ -804,7 +804,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-orlando-camping-world-stadium-6-14-2027/production/7832837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-orlando-florida-06-14-2027/event/22006564E7F05FE6",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -887,6 +887,11 @@
         "name": "Artist Presale VIP Packages",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2027-06-10T16:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361518/Stray-Kids-tickets-Mon-Jun-14-2027-Camping-World-Stadium",
@@ -909,7 +914,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-chicago-soldier-field-6-18-2027/production/7832839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-18-2027/event/04006563DBD6842E",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -979,9 +984,24 @@
         "end": "2026-11-18T20:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Package",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-18T20:00:00Z"
+      },
+      {
         "name": "Artist Presale",
         "start": "2026-11-18T21:00:00Z",
         "end": "2026-11-19T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Package",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-19T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-19T21:00:00Z",
+        "end": "2027-06-14T17:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361519/Stray-Kids-tickets-Fri-Jun-18-2027-Soldier-Field",

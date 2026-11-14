@@ -1608,7 +1608,7 @@
     "vividseats_url": "https://www.vividseats.com/andrea-bocelli-tickets-austin-moody-center-atx-2-4-2027/production/7540254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/andrea-bocelli-romanza-30th-anniversary-world-austin-texas-02-04-2027/event/3A006521A5AD9867",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1670,14 +1670,14 @@
     "stubhub_international_url": "https://www.stubhub.ie/andrea-bocelli-austin-tickets-2-4-2027/event/107667778",
     "presales": [
       {
-        "name": "VIP Packages Onsale",
-        "start": "2010-09-18T15:00:00Z",
-        "end": "2027-01-25T23:00:00Z"
-      },
-      {
         "name": "Amex Reserved Tickets",
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-01-22T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-09-18T15:00:00Z",
+        "end": "2027-01-25T23:00:00Z"
       }
     ],
     "organizer_names": [

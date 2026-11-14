@@ -853,7 +853,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/gorillaz-ciudad-de-mexico-11-12-2026/event/1400655DC425ABEC",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -901,13 +901,6 @@
       "OCESA"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Gran Venta HSBC-Crédito y Débito",
-        "start": "2026-11-13T17:00:00Z",
-        "end": "2026-11-14T05:59:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/gorillaz-tickets-mexico-city-palacio-de-los-deportes-11-12-2026/event/107680207"
   }
 ]

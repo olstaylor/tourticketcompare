@@ -1277,7 +1277,7 @@
     "vividseats_url": "https://www.vividseats.com/mercyme-tickets-reading-santander-arena-4-4-2027/production/7714342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-reading-pennsylvania-04-04-2027/event/0200654CCF138C02",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1332,7 +1332,14 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326566",
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326566/MercyMe-tickets-Sun-Apr-4-2027-Santander-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326566/MercyMe-tickets-Sun-Apr-4-2027-Santander-Arena",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T05:01:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mercyme-2027-portland-vv177z_fgkxgyxqn",
@@ -1639,7 +1646,7 @@
     "vividseats_url": "https://www.vividseats.com/mercyme-tickets-bossier-city-brookshire-grocery-arena-4-18-2027/production/7714460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-bossier-city-louisiana-04-18-2027/event/1B00654EF1D517FA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1694,7 +1701,14 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T06:01:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mercyme-2027-tulsa-1aezz_fgkbolkrk",
@@ -2189,7 +2203,7 @@
     "vividseats_url": "https://www.vividseats.com/mercyme-tickets-evansville-ford-center-evansville-5-2-2027/production/7714414",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-evansville-indiana-05-02-2027/event/0500654CBB44B772",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2245,7 +2259,14 @@
       "AWAKENING EVENTS",
       "VENUWORKS CORPORATE"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T16:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mercyme-2027-chattanooga-z7r9jz1aa7_af",

@@ -284,7 +284,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-westbury-flagstar-at-westbury-music-fair-11-14-2026/production/6956190",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-westbury-new-york-11-14-2026/event/00006484C03BC3A5",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -322,13 +322,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-01T14:00:00Z",
-        "end": "2026-11-14T03:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -2128,7 +2121,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-wallingford-toyota-oakdale-theatre-1-31-2027/production/7833895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-wallingford-connecticut-01-31-2027/event/1D00655CE3E34A7E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2177,8 +2170,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_4SNzVtX",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2215,7 +2207,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-valley-center-events-center-at-harrahs-resort-socal-2-12-2027/production/7835522",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-valley-center-california-02-12-2027/event/0A006564A3F36BFA",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2250,8 +2242,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_p3NHURB",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "legal_age_enforced": true,
     "genre": "Pop",

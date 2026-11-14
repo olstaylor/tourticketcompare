@@ -69,7 +69,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-tucson-linda-ronstadt-music-hall-2-13-2027--concerts-world-music/production/7593512",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-tucson-arizona-02-13-2027/event/1900652E81BD370C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -124,7 +124,14 @@
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
-    "genre": "Ballads/Romantic"
+    "genre": "Ballads/Romantic",
+    "presales": [
+      {
+        "name": "Thanksgiving/Cyber Monday Sale",
+        "start": "2026-11-26T17:00:00Z",
+        "end": "2026-12-01T06:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-flans-2027-atlanta-vvg1zz_k5zjmuk",

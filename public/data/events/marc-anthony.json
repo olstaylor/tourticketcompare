@@ -973,7 +973,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-toronto-scotiabank-arena-4-1-2027/production/7833319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-toronto-ontario-04-01-2027/event/1000654ED0A53608",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1008,44 +1008,13 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_fGkD8tKbF",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Live INSIDER Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -1069,7 +1038,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-montreal-bell-centre-4-4-2027/production/7833537",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/marc-anthony-the-last-dance-montreal-quebec-04-04-2027/event/31006541D7EE8649",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1118,39 +1087,13 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4vGkd9DI_a",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "EVENKO ONLY"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "Prévente Forfaits VIP Packages Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Prévente Artiste Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Prévente Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Prévente CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "Forfaits VIP Packages",
         "start": "2026-11-13T15:00:00Z",
@@ -1176,7 +1119,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-brooklyn-barclays-center-4-8-2027/production/7833135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-brooklyn-new-york-04-08-2027/event/300065463B989FC4",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1232,44 +1175,13 @@
     },
     "ticketmaster_discovery_event_id": "1kGZvPoNGA5JaT7",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Barclays Center Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -1296,7 +1208,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-reading-pennsylvania-04-10-2027/event/0200654FBC8EBAFE",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1345,44 +1257,13 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_fGkXHNllX",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -1408,7 +1289,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-newark-prudential-center-4-15-2027/production/7833191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-newark-new-jersey-04-15-2027/event/02006555DA3C4F61",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1464,44 +1345,13 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZk44GkdQ27W-",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -1528,7 +1378,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-chicago-united-center-4-17-2027/production/7833243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-chicago-illinois-04-17-2027/event/04006550AFD1AD9E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1584,43 +1434,12 @@
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk48GkeRVQUr",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T15:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:59:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T16:10:00Z",
-        "end": "2026-11-13T15:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T16:00:00Z",
@@ -1647,7 +1466,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-charlotte-spectrum-center-4-23-2027/production/7833245",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-charlotte-north-carolina-04-23-2027/event/2D006547F1FDD2D8",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1703,43 +1522,12 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fLsTq5b",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
-      {
-        "name": "Spectrum Center Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -1766,7 +1554,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-tampa-benchmark-international-arena-4-25-2027/production/7833247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-tampa-florida-04-25-2027/event/0D006546A0E16EC9",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1822,38 +1610,12 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fQOzpDa",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-12T14:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:45:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T14:59:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-13T15:00:00Z",
@@ -1872,7 +1634,7 @@
     "city": "San Antonio",
     "country": "United States Of America",
     "venue": "Frost Bank Center",
-    "datetime_iso": "2027-04-30T00:00:00Z",
+    "datetime_iso": "2027-04-30T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "3A00654ED39BFDB7",
     "ticketmaster_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
@@ -1880,7 +1642,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-antonio-frost-bank-center-4-29-2027--concerts-latin-music/production/7842721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-antonio-texas-04-29-2027/event/3A00654ED39BFDB7",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1936,44 +1698,13 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_fDKJTUM",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T15:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T15:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:59:00Z"
-      },
-      {
-        "name": "Frost Bank Center Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T15:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T16:00:00Z",
@@ -2000,7 +1731,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-anaheim-honda-center-5-9-2027/production/7833255",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-anaheim-california-05-09-2027/event/0900654DCE83C7D3",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2056,44 +1787,13 @@
     },
     "ticketmaster_discovery_event_id": "vv170Z_fGkMCOHLK",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T17:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "CMN PRESALE",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:59:00Z"
-      },
-      {
-        "name": "VENUE PRESALE",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T18:00:00Z",
@@ -2120,7 +1820,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-denver-ball-arena-5-13-2027/production/7833291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-denver-colorado-05-13-2027/event/1E00654EE846CB3B",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2176,44 +1876,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vzZ_fDIoiiD",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T16:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T16:00:00Z",
-        "end": "2026-11-13T16:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:45:00Z"
-      },
-      {
-        "name": "Ball Arena Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:59:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T16:59:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-13T17:00:00Z",
@@ -2240,7 +1909,7 @@
     "vividseats_url": "https://www.vividseats.com/marc-anthony-tickets-san-francisco-chase-center-5-16-2027/production/7833293",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/marc-anthony-the-last-dance-san-francisco-california-05-16-2027/event/1C00655DB26ABAB3",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2296,41 +1965,10 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4UwQlnS",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T18:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "CMN Registration Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T17:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-12T17:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "CMN Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
-      {
-        "name": "Venue/Warriors Dub Club/Insider Presale",
-        "start": "2026-11-12T18:00:00Z",
-        "end": "2026-11-13T17:45:00Z"
-      },
       {
         "name": "Chase Preferred Seating",
         "start": "2026-11-13T18:00:00Z",

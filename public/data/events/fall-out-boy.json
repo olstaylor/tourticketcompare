@@ -2190,7 +2190,7 @@
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-manchester-co-op-live-6-6-2027/production/7860802",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fall-out-boy-twilight-of-the-manchester-06-06-2027/event/3700656BD6A79CF0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2225,8 +2225,24 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_pGkRptySY",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T12:00:00Z"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Co-op Members Sale",
+        "start": "2026-11-13T12:00:00Z",
+        "end": "2026-11-15T12:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-13T12:00:00Z",
+        "end": "2026-11-15T12:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-fall-out-boy-2027-nashville-z7r9jz1aaaa0d",

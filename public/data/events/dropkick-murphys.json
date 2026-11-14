@@ -2257,7 +2257,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-lexington-the-rail-2-23-2027/production/7836216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-lexington-kentucky-02-23-2027/event/16006550CD4CD028",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2306,8 +2306,7 @@
     },
     "ticketmaster_discovery_event_id": "1ApZk48GkduKuZI",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "PEACHTREE ENTERTAINMENT"
     ],

@@ -1500,7 +1500,7 @@
     "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-niagara-falls-olg-stage-at-fallsview-casino-5-22-2027/production/7836262",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/bryan-adams-roll-with-the-punches-niagara-falls-ontario-05-22-2027/event/1000656487AB61F5",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1535,8 +1535,7 @@
     },
     "ticketmaster_discovery_event_id": "16vZZ_p36G7nU6g",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-13T15:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "genre": "Rock",
     "presales": [

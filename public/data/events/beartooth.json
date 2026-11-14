@@ -1599,10 +1599,10 @@
     "id": "tm-beartooth-2026-phoenix-17k8v0g61i5gitx",
     "artist_slug": "beartooth",
     "artist_name": "Beartooth",
-    "event_name": "Beartooth: Pure Ecstasy World Tour",
+    "event_name": "Beartooth: Pure Ecstasy World Tour - MOVED TO THE VAN BUREN!",
     "city": "Phoenix",
     "country": "United States Of America",
-    "venue": "Arizona Financial Theatre",
+    "venue": "The Van Buren",
     "datetime_iso": "2026-12-17T01:30:00Z",
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "190064AB0B328FE2",
@@ -1611,7 +1611,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-phoenix-arizona-financial-theatre-12-16-2026/production/7052703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

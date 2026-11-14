@@ -1102,7 +1102,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-toronto-ontario-04-24-2027/event/1000656ACA76BE29",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1155,6 +1155,11 @@
       },
       {
         "name": "Discord Presale",
+        "start": "2026-11-17T17:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
         "start": "2026-11-17T17:00:00Z",
         "end": "2026-11-19T03:00:00Z"
       },
@@ -1482,7 +1487,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-vancouver-british-columbia-05-09-2027/event/11006567183E5E01",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-14",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1551,6 +1556,11 @@
       },
       {
         "name": "Discord Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-19T05:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
         "start": "2026-11-17T19:00:00Z",
         "end": "2026-11-19T05:00:00Z"
       },

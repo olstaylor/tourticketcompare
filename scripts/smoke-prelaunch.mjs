@@ -859,6 +859,8 @@ function extractSitemapLocs(xml) {
 }
 
 async function sitemapLocs(envOverride = env) {
+  // The sitemap is served from the edge cache; each fixture env needs a fresh build.
+  globalThis.caches.default = new MemoryCache();
   const response = await sitemapModule.onRequestGet({
     request: new Request("https://tourticketcompare.com/sitemap.xml"),
     env: envOverride

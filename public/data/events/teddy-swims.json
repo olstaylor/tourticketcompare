@@ -2210,7 +2210,7 @@
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7xpf-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpf-",
-    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpf-",
@@ -2226,11 +2226,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18185177,
-        "url": "https://seatgeek.com/teddy-swims-tickets/san-diego-california-pechanga-arena-san-diego-2026-11-13-7-pm/concert/18185177",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2298,7 +2298,7 @@
         "event_id": 18185180,
         "url": "https://seatgeek.com/teddy-swims-tickets/las-vegas-nevada-t-mobile-arena-2026-11-14-7-pm/concert/18185180",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "vivid-seats": {

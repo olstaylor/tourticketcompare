@@ -885,7 +885,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006562C7E07866",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-calgary-alberta-09-25-2027/event/11006562C7E07866",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/calgary-canada-grey-eagle-event-centre-2027-09-25-8-pm/concert/18754775",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-calgary-alberta-09-25-2027/event/11006562C7E07866",
@@ -901,11 +901,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754775,
+        "url": "https://seatgeek.com/the-dead-south-tickets/calgary-canada-grey-eagle-event-centre-2027-09-25-8-pm/concert/18754775",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -946,7 +946,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006563AE05617C",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-edmonton-alberta-09-26-2027/event/11006563AE05617C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/edmonton-canada-edmonton-expo-centre-2027-09-26-8-pm/concert/18754433",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-edmonton-alberta-09-26-2027/event/11006563AE05617C",
@@ -962,11 +962,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754433,
+        "url": "https://seatgeek.com/the-dead-south-tickets/edmonton-canada-edmonton-expo-centre-2027-09-26-8-pm/concert/18754433",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1214,7 +1214,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006564C51E5F84",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-ottawa-ontario-10-03-2027/event/31006564C51E5F84",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/ottawa-canada-history-ottawa-2027-10-03-7-pm/concert/18754933",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-ottawa-ontario-10-03-2027/event/31006564C51E5F84",
@@ -1230,11 +1230,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754933,
+        "url": "https://seatgeek.com/the-dead-south-tickets/ottawa-canada-history-ottawa-2027-10-03-7-pm/concert/18754933",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1293,7 +1293,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

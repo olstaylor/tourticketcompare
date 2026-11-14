@@ -1382,7 +1382,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006566C44F9121",
     "ticketmaster_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-edmonton-alberta-02-20-2027/event/11006566C44F9121",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/edmonton-canada-rogers-place-2027-02-20-7-30-pm/concert/18760618",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-edmonton-alberta-02-20-2027/event/11006566C44F9121",
@@ -1398,11 +1398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760618,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/edmonton-canada-rogers-place-2027-02-20-7-30-pm/concert/18760618",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

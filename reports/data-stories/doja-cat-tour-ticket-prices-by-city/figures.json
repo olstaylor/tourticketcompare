@@ -11,8 +11,8 @@
   "siteLabel": "Vivid Seats",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-14T07:04:24.495Z",
-  "capturedTo": "2026-11-14T10:33:34.419Z",
+  "capturedFrom": "2026-11-14T14:34:41.768Z",
+  "capturedTo": "2026-11-14T17:08:16.001Z",
   "tourDates": 10,
   "coverage": {
     "marketCities": 8,
@@ -35,7 +35,7 @@
     "localDate": "2026-11-18",
     "price": 59,
     "currency": "USD",
-    "capturedAt": "2026-11-14T07:04:24.495Z"
+    "capturedAt": "2026-11-14T14:34:41.768Z"
   },
   "high": {
     "city": "New York",
@@ -45,7 +45,7 @@
     "localDate": "2026-12-01",
     "price": 128,
     "currency": "USD",
-    "capturedAt": "2026-11-14T07:04:24.495Z"
+    "capturedAt": "2026-11-14T14:34:41.768Z"
   },
   "median": 73.5,
   "ratio": 2.1,
@@ -58,7 +58,7 @@
       "localDate": "2026-11-18",
       "price": 59,
       "currency": "USD",
-      "capturedAt": "2026-11-14T07:04:24.495Z",
+      "capturedAt": "2026-11-14T14:34:41.768Z",
       "path": "/artists/doja-cat/tickets/charlotte-united-states"
     },
     {
@@ -69,7 +69,7 @@
       "localDate": "2026-11-14",
       "price": 63,
       "currency": "USD",
-      "capturedAt": "2026-11-14T10:33:34.419Z",
+      "capturedAt": "2026-11-14T17:08:16.001Z",
       "path": "/artists/doja-cat/tickets/orlando-united-states"
     },
     {
@@ -80,7 +80,7 @@
       "localDate": "2026-11-20",
       "price": 71,
       "currency": "USD",
-      "capturedAt": "2026-11-14T07:04:24.495Z",
+      "capturedAt": "2026-11-14T14:34:41.768Z",
       "path": "/artists/doja-cat/tickets/baltimore-united-states"
     },
     {
@@ -91,7 +91,7 @@
       "localDate": "2026-11-29",
       "price": 73,
       "currency": "USD",
-      "capturedAt": "2026-11-14T07:04:24.495Z",
+      "capturedAt": "2026-11-14T14:34:41.768Z",
       "path": "/artists/doja-cat/tickets/philadelphia-united-states"
     },
     {
@@ -102,7 +102,7 @@
       "localDate": "2026-11-17",
       "price": 74,
       "currency": "USD",
-      "capturedAt": "2026-11-14T07:04:24.495Z",
+      "capturedAt": "2026-11-14T14:34:41.768Z",
       "path": "/artists/doja-cat/tickets/atlanta-united-states"
     },
     {
@@ -113,7 +113,7 @@
       "localDate": "2026-11-21",
       "price": 93,
       "currency": "USD",
-      "capturedAt": "2026-11-14T07:04:24.495Z",
+      "capturedAt": "2026-11-14T14:34:41.768Z",
       "path": "/artists/doja-cat/tickets/washington-united-states"
     },
     {
@@ -124,7 +124,7 @@
       "localDate": "2026-11-23",
       "price": 102,
       "currency": "USD",
-      "capturedAt": "2026-11-14T07:04:24.495Z",
+      "capturedAt": "2026-11-14T14:34:41.768Z",
       "path": "/artists/doja-cat/tickets/boston-united-states"
     },
     {
@@ -135,7 +135,7 @@
       "localDate": "2026-12-01",
       "price": 128,
       "currency": "USD",
-      "capturedAt": "2026-11-14T07:04:24.495Z",
+      "capturedAt": "2026-11-14T14:34:41.768Z",
       "path": "/artists/doja-cat/tickets/new-york-united-states"
     }
   ],
@@ -149,9 +149,9 @@
         "venue": "Kia Center",
         "eventId": "tm-doja-cat-2026-orlando-1aefzbsgklnlnmt",
         "localDate": "2026-11-14",
-        "price": 59.8,
+        "price": 78.2,
         "currency": "USD",
-        "capturedAt": "2026-11-14T07:05:35.214Z",
+        "capturedAt": "2026-11-14T14:34:03.880Z",
         "path": "/artists/doja-cat/tickets/orlando-united-states"
       },
       {

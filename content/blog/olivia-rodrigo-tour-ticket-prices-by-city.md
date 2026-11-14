@@ -20,15 +20,15 @@ Olivia Rodrigo's The Unraveled Tour has 57 dates that TourTicketCompare tracks. 
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Sunrise](/artists/olivia-rodrigo/tickets/sunrise-united-states) | 19 November 2026 | Amerant Bank Arena | $278 | Vivid Seats | 14 November, 10:34 UTC |
-| [Seattle](/artists/olivia-rodrigo/tickets/seattle-united-states) | 7 December 2026 | Climate Pledge Arena | $310 | Vivid Seats | 14 November, 07:04 UTC |
-| [Nashville](/artists/olivia-rodrigo/tickets/nashville-united-states) | 23 November 2026 | Bridgestone Arena | $363 | Vivid Seats | 14 November, 10:34 UTC |
-| [Oakland](/artists/olivia-rodrigo/tickets/oakland-united-states) | 11 December 2026 | Oakland Arena | $369 | Vivid Seats | 14 November, 10:34 UTC |
-| [Las Vegas](/artists/olivia-rodrigo/tickets/las-vegas-united-states) | 19 December 2026 | T-Mobile Arena | $379 | Vivid Seats | 14 November, 07:04 UTC |
-| [Orlando](/artists/olivia-rodrigo/tickets/orlando-united-states) | 15 November 2026 | Kia Center | $392 | Vivid Seats | 14 November, 10:34 UTC |
-| [Sacramento](/artists/olivia-rodrigo/tickets/sacramento-united-states) | 15 December 2026 | Golden 1 Center | $437 | Vivid Seats | 14 November, 07:04 UTC |
-| [Brooklyn](/artists/olivia-rodrigo/tickets/brooklyn-united-states) | 11 February 2027 | Barclays Center | $466 | Vivid Seats | 14 November, 07:04 UTC |
-| [Inglewood](/artists/olivia-rodrigo/tickets/inglewood-united-states) | 12 January 2027 | Intuit Dome | $477 | Vivid Seats | 14 November, 07:04 UTC |
+| [Sunrise](/artists/olivia-rodrigo/tickets/sunrise-united-states) | 19 November 2026 | Amerant Bank Arena | $278 | Vivid Seats | 14 November, 17:08 UTC |
+| [Seattle](/artists/olivia-rodrigo/tickets/seattle-united-states) | 7 December 2026 | Climate Pledge Arena | $302 | Vivid Seats | 14 November, 14:34 UTC |
+| [Nashville](/artists/olivia-rodrigo/tickets/nashville-united-states) | 23 November 2026 | Bridgestone Arena | $363 | Vivid Seats | 14 November, 17:08 UTC |
+| [Oakland](/artists/olivia-rodrigo/tickets/oakland-united-states) | 11 December 2026 | Oakland Arena | $369 | Vivid Seats | 14 November, 17:08 UTC |
+| [Las Vegas](/artists/olivia-rodrigo/tickets/las-vegas-united-states) | 19 December 2026 | T-Mobile Arena | $379 | Vivid Seats | 14 November, 14:34 UTC |
+| [Orlando](/artists/olivia-rodrigo/tickets/orlando-united-states) | 15 November 2026 | Kia Center | $407 | Vivid Seats | 14 November, 17:08 UTC |
+| [Sacramento](/artists/olivia-rodrigo/tickets/sacramento-united-states) | 15 December 2026 | Golden 1 Center | $437 | Vivid Seats | 14 November, 14:34 UTC |
+| [Brooklyn](/artists/olivia-rodrigo/tickets/brooklyn-united-states) | 11 February 2027 | Barclays Center | $466 | Vivid Seats | 14 November, 14:34 UTC |
+| [Inglewood](/artists/olivia-rodrigo/tickets/inglewood-united-states) | 12 January 2027 | Intuit Dome | $477 | Vivid Seats | 14 November, 14:34 UTC |
 
 Each figure is the lowest listed price on Vivid Seats for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -38,11 +38,11 @@ TicketNetwork also had a recent listed price for the next date in 9 of these cit
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Orlando](/artists/olivia-rodrigo/tickets/orlando-united-states) | 15 November 2026 | Kia Center | $480.70 | TicketNetwork | 14 November, 11:29 UTC |
-| [Sunrise](/artists/olivia-rodrigo/tickets/sunrise-united-states) | 19 November 2026 | Amerant Bank Arena | $248.40 | TicketNetwork | 14 November, 11:29 UTC |
-| [Nashville](/artists/olivia-rodrigo/tickets/nashville-united-states) | 23 November 2026 | Bridgestone Arena | $409.40 | TicketNetwork | 14 November, 11:29 UTC |
+| [Orlando](/artists/olivia-rodrigo/tickets/orlando-united-states) | 15 November 2026 | Kia Center | $503.70 | TicketNetwork | 14 November, 18:04 UTC |
+| [Sunrise](/artists/olivia-rodrigo/tickets/sunrise-united-states) | 19 November 2026 | Amerant Bank Arena | $248.40 | TicketNetwork | 14 November, 18:04 UTC |
+| [Nashville](/artists/olivia-rodrigo/tickets/nashville-united-states) | 23 November 2026 | Bridgestone Arena | $422.05 | TicketNetwork | 14 November, 18:04 UTC |
 | [Seattle](/artists/olivia-rodrigo/tickets/seattle-united-states) | 7 December 2026 | Climate Pledge Arena | $340.40 | TicketNetwork | 14 November, 11:31 UTC |
-| [Oakland](/artists/olivia-rodrigo/tickets/oakland-united-states) | 11 December 2026 | Oakland Arena | $469.20 | TicketNetwork | 14 November, 11:29 UTC |
+| [Oakland](/artists/olivia-rodrigo/tickets/oakland-united-states) | 11 December 2026 | Oakland Arena | $469.20 | TicketNetwork | 14 November, 18:04 UTC |
 | [Sacramento](/artists/olivia-rodrigo/tickets/sacramento-united-states) | 15 December 2026 | Golden 1 Center | $414 | TicketNetwork | 14 November, 11:31 UTC |
 | [Las Vegas](/artists/olivia-rodrigo/tickets/las-vegas-united-states) | 19 December 2026 | T-Mobile Arena | $480.70 | TicketNetwork | 14 November, 11:31 UTC |
 | [Inglewood](/artists/olivia-rodrigo/tickets/inglewood-united-states) | 12 January 2027 | Intuit Dome | $600.30 | TicketNetwork | 14 November, 11:31 UTC |

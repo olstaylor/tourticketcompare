@@ -20,14 +20,14 @@ Doja Cat's Tour Ma Vie World Tour has 10 dates that TourTicketCompare tracks. In
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Charlotte](/artists/doja-cat/tickets/charlotte-united-states) | 18 November 2026 | Spectrum Center | $59 | Vivid Seats | 14 November, 07:04 UTC |
-| [Orlando](/artists/doja-cat/tickets/orlando-united-states) | 14 November 2026 | Kia Center | $63 | Vivid Seats | 14 November, 10:33 UTC |
-| [Baltimore](/artists/doja-cat/tickets/baltimore-united-states) | 20 November 2026 | CFG Bank Arena | $71 | Vivid Seats | 14 November, 07:04 UTC |
-| [Philadelphia](/artists/doja-cat/tickets/philadelphia-united-states) | 29 November 2026 | Xfinity Mobile Arena | $73 | Vivid Seats | 14 November, 07:04 UTC |
-| [Atlanta](/artists/doja-cat/tickets/atlanta-united-states) | 17 November 2026 | State Farm Arena | $74 | Vivid Seats | 14 November, 07:04 UTC |
-| [Washington](/artists/doja-cat/tickets/washington-united-states) | 21 November 2026 | Capital One Arena | $93 | Vivid Seats | 14 November, 07:04 UTC |
-| [Boston](/artists/doja-cat/tickets/boston-united-states) | 23 November 2026 | TD Garden | $102 | Vivid Seats | 14 November, 07:04 UTC |
-| [New York](/artists/doja-cat/tickets/new-york-united-states) | 1 December 2026 | Madison Square Garden | $128 | Vivid Seats | 14 November, 07:04 UTC |
+| [Charlotte](/artists/doja-cat/tickets/charlotte-united-states) | 18 November 2026 | Spectrum Center | $59 | Vivid Seats | 14 November, 14:34 UTC |
+| [Orlando](/artists/doja-cat/tickets/orlando-united-states) | 14 November 2026 | Kia Center | $63 | Vivid Seats | 14 November, 17:08 UTC |
+| [Baltimore](/artists/doja-cat/tickets/baltimore-united-states) | 20 November 2026 | CFG Bank Arena | $71 | Vivid Seats | 14 November, 14:34 UTC |
+| [Philadelphia](/artists/doja-cat/tickets/philadelphia-united-states) | 29 November 2026 | Xfinity Mobile Arena | $73 | Vivid Seats | 14 November, 14:34 UTC |
+| [Atlanta](/artists/doja-cat/tickets/atlanta-united-states) | 17 November 2026 | State Farm Arena | $74 | Vivid Seats | 14 November, 14:34 UTC |
+| [Washington](/artists/doja-cat/tickets/washington-united-states) | 21 November 2026 | Capital One Arena | $93 | Vivid Seats | 14 November, 14:34 UTC |
+| [Boston](/artists/doja-cat/tickets/boston-united-states) | 23 November 2026 | TD Garden | $102 | Vivid Seats | 14 November, 14:34 UTC |
+| [New York](/artists/doja-cat/tickets/new-york-united-states) | 1 December 2026 | Madison Square Garden | $128 | Vivid Seats | 14 November, 14:34 UTC |
 
 Each figure is the lowest listed price on Vivid Seats for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -37,7 +37,7 @@ TicketNetwork also had a recent listed price for the next date in 8 of these cit
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Orlando](/artists/doja-cat/tickets/orlando-united-states) | 14 November 2026 | Kia Center | $59.80 | TicketNetwork | 14 November, 07:05 UTC |
+| [Orlando](/artists/doja-cat/tickets/orlando-united-states) | 14 November 2026 | Kia Center | $78.20 | TicketNetwork | 14 November, 14:34 UTC |
 | [Atlanta](/artists/doja-cat/tickets/atlanta-united-states) | 17 November 2026 | State Farm Arena | $75.90 | TicketNetwork | 14 November, 11:31 UTC |
 | [Charlotte](/artists/doja-cat/tickets/charlotte-united-states) | 18 November 2026 | Spectrum Center | $59.80 | TicketNetwork | 14 November, 11:31 UTC |
 | [Baltimore](/artists/doja-cat/tickets/baltimore-united-states) | 20 November 2026 | CFG Bank Arena | $64.40 | TicketNetwork | 14 November, 11:31 UTC |

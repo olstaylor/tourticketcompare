@@ -86,7 +86,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAvso0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvso0",
     "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-25-8-pm/concert/18592690",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-25-2027/production/7557732",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvso0",
     "last_verified_at": "2026-11-07",
@@ -108,11 +108,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7557732,
+        "url": "https://www.vividseats.com/psychedelic-furs-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-25-2027/production/7557732",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1089,7 +1089,7 @@
     "ticketmaster_event_id": "3E006531A1D24130",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/psychedelic-furs-tickets-birmingham-o2-academy---birmingham-1-26-2027/production/7855378",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-psychedelic-furs-the-jesus-mary-birmingham-26-01-2027/event/3E006531A1D24130",
     "last_verified_at": "2026-11-07",
@@ -1111,11 +1111,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7855378,
+        "url": "https://www.vividseats.com/psychedelic-furs-tickets-birmingham-o2-academy---birmingham-1-26-2027/production/7855378",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

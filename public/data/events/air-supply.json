@@ -541,7 +541,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70Eoz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
     "seatgeek_url": "https://seatgeek.com/air-supply-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-11-22-7-pm/concert/18355667",
-    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-jacksonville-florida-theatre-jacksonville-11-22-2026/production/7047661",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
     "last_verified_at": "2026-11-07",
@@ -563,11 +563,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7047661,
-        "url": "https://www.vividseats.com/air-supply-tickets-jacksonville-florida-theatre-jacksonville-11-22-2026/production/7047661",
-        "verified": true,
-        "last_verified_at": "2026-11-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -2010,7 +2010,7 @@
         "event_id": 7559511,
         "url": "https://www.vividseats.com/air-supply-tickets-penticton-south-okanagan-events-centre-2-19-2027/production/7559511",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2150,7 +2150,7 @@
         "event_id": 7833895,
         "url": "https://www.vividseats.com/air-supply-tickets-wallingford-toyota-oakdale-theatre-1-31-2027/production/7833895",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2237,7 +2237,7 @@
         "event_id": 7835522,
         "url": "https://www.vividseats.com/air-supply-tickets-valley-center-events-center-at-harrahs-resort-socal-2-12-2027/production/7835522",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub": {

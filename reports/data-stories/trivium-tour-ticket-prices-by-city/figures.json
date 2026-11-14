@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-10",
+  "asOf": "2026-11-14",
   "artistSlug": "trivium",
   "artist": "Trivium",
   "artistPageIndexable": true,
@@ -11,16 +11,17 @@
   "siteLabel": "TicketNetwork",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-10T09:57:49.607Z",
-  "capturedTo": "2026-11-10T17:57:03.719Z",
-  "tourDates": 28,
+  "capturedFrom": "2026-11-14T07:05:33.973Z",
+  "capturedTo": "2026-11-14T11:35:23.095Z",
+  "tourDates": 25,
   "coverage": {
-    "marketCities": 24,
-    "pricedCities": 22,
-    "share": 0.9166666666666666,
+    "marketCities": 21,
+    "pricedCities": 18,
+    "share": 0.8571428571428571,
     "unpricedCities": [
       "Reno",
-      "Saint Louis"
+      "Saint Louis",
+      "Worcester"
     ],
     "otherCountries": [
       {
@@ -31,14 +32,14 @@
     ]
   },
   "low": {
-    "city": "Inglewood",
+    "city": "Denver",
     "country": "United States",
-    "venue": "YouTube Theater",
-    "eventId": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
-    "localDate": "2026-12-04",
-    "price": 27.6,
+    "venue": "Mission Ballroom",
+    "eventId": "tm-trivium-2026-denver-z7r9jz1aazdby",
+    "localDate": "2026-12-13",
+    "price": 48.3,
     "currency": "USD",
-    "capturedAt": "2026-11-10T09:57:51.452Z"
+    "capturedAt": "2026-11-14T11:32:43.110Z"
   },
   "high": {
     "city": "Charlotte",
@@ -46,34 +47,23 @@
     "venue": "The Fillmore Charlotte",
     "eventId": "tm-trivium-2026-charlotte-g5evz_cufmier",
     "localDate": "2026-12-19",
-    "price": 147.2,
+    "price": 126.5,
     "currency": "USD",
-    "capturedAt": "2026-11-10T09:57:53.012Z"
+    "capturedAt": "2026-11-14T11:32:44.316Z"
   },
-  "median": 77.05000000000001,
-  "ratio": 5.3,
+  "median": 71.3,
+  "ratio": 2.6,
   "cities": [
     {
-      "city": "Inglewood",
+      "city": "Denver",
       "country": "United States",
-      "venue": "YouTube Theater",
-      "eventId": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
-      "localDate": "2026-12-04",
-      "price": 27.6,
+      "venue": "Mission Ballroom",
+      "eventId": "tm-trivium-2026-denver-z7r9jz1aazdby",
+      "localDate": "2026-12-13",
+      "price": 48.3,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:51.452Z",
-      "path": "/artists/trivium/tickets/inglewood-united-states"
-    },
-    {
-      "city": "Dallas",
-      "country": "United States",
-      "venue": "South Side Ballroom",
-      "eventId": "tm-trivium-2026-dallas-vvg1yz_cdoxznj",
-      "localDate": "2026-11-29",
-      "price": 42.55,
-      "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:51.186Z",
-      "path": "/artists/trivium/tickets/dallas-united-states"
+      "capturedAt": "2026-11-14T11:32:43.110Z",
+      "path": "/artists/trivium/tickets/denver-united-states"
     },
     {
       "city": "Nashville",
@@ -81,43 +71,21 @@
       "venue": "The Pinnacle - TN",
       "eventId": "tm-trivium-2026-nashville-z7r9jz1aazdbm",
       "localDate": "2026-11-24",
-      "price": 47.15,
+      "price": 51.75,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:50.901Z",
+      "capturedAt": "2026-11-14T11:32:39.448Z",
       "path": "/artists/trivium/tickets/nashville-united-states"
     },
     {
-      "city": "Royal Oak",
+      "city": "Inglewood",
       "country": "United States",
-      "venue": "Royal Oak Music Theatre",
-      "eventId": "tm-trivium-2026-royal-oak-z7r9jz1aazdbu",
-      "localDate": "2026-11-20",
-      "price": 48.3,
+      "venue": "YouTube Theater",
+      "eventId": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
+      "localDate": "2026-12-04",
+      "price": 54.05,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:50.321Z",
-      "path": "/artists/trivium/tickets/royal-oak-united-states"
-    },
-    {
-      "city": "Houston",
-      "country": "United States",
-      "venue": "Bayou Music Center",
-      "eventId": "tm-trivium-2026-houston-g5diz_cdfyhi_",
-      "localDate": "2026-11-28",
-      "price": 58.65,
-      "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:51.037Z",
-      "path": "/artists/trivium/tickets/houston-united-states"
-    },
-    {
-      "city": "Las Vegas",
-      "country": "United States",
-      "venue": "Pearl Concert Theater at Palms Casino Resort",
-      "eventId": "tm-trivium-2026-las-vegas-z7r9jz1a7j_4j",
-      "localDate": "2026-12-03",
-      "price": 59.8,
-      "currency": "USD",
-      "capturedAt": "2026-11-10T17:57:03.719Z",
-      "path": "/artists/trivium/tickets/las-vegas-united-states"
+      "capturedAt": "2026-11-14T11:32:40.489Z",
+      "path": "/artists/trivium/tickets/inglewood-united-states"
     },
     {
       "city": "San Francisco",
@@ -127,30 +95,63 @@
       "localDate": "2026-12-05",
       "price": 59.8,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:51.571Z",
+      "capturedAt": "2026-11-14T11:32:41.996Z",
       "path": "/artists/trivium/tickets/san-francisco-united-states"
     },
     {
-      "city": "Denver",
+      "city": "Las Vegas",
       "country": "United States",
-      "venue": "Mission Ballroom",
-      "eventId": "tm-trivium-2026-denver-z7r9jz1aazdby",
-      "localDate": "2026-12-13",
-      "price": 66.7,
+      "venue": "Pearl Concert Theater at Palms Casino Resort",
+      "eventId": "tm-trivium-2026-las-vegas-z7r9jz1a7j_4j",
+      "localDate": "2026-12-03",
+      "price": 62.1,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:52.341Z",
-      "path": "/artists/trivium/tickets/denver-united-states"
+      "capturedAt": "2026-11-14T11:35:23.095Z",
+      "path": "/artists/trivium/tickets/las-vegas-united-states"
     },
     {
-      "city": "New York",
+      "city": "Royal Oak",
       "country": "United States",
-      "venue": "Terminal 5",
-      "eventId": "tm-trivium-2026-new-york-z7r9jz1aazdbs",
-      "localDate": "2026-11-12",
+      "venue": "Royal Oak Music Theatre",
+      "eventId": "tm-trivium-2026-royal-oak-z7r9jz1aazdbu",
+      "localDate": "2026-11-20",
+      "price": 62.5,
+      "currency": "USD",
+      "capturedAt": "2026-11-14T11:32:38.652Z",
+      "path": "/artists/trivium/tickets/royal-oak-united-states"
+    },
+    {
+      "city": "Houston",
+      "country": "United States",
+      "venue": "Bayou Music Center",
+      "eventId": "tm-trivium-2026-houston-g5diz_cdfyhi_",
+      "localDate": "2026-11-28",
+      "price": 63.25,
+      "currency": "USD",
+      "capturedAt": "2026-11-14T11:32:39.667Z",
+      "path": "/artists/trivium/tickets/houston-united-states"
+    },
+    {
+      "city": "Dallas",
+      "country": "United States",
+      "venue": "South Side Ballroom",
+      "eventId": "tm-trivium-2026-dallas-vvg1yz_cdoxznj",
+      "localDate": "2026-11-29",
       "price": 66.7,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:49.607Z",
-      "path": "/artists/trivium/tickets/new-york-united-states"
+      "capturedAt": "2026-11-14T11:32:39.979Z",
+      "path": "/artists/trivium/tickets/dallas-united-states"
+    },
+    {
+      "city": "Omaha",
+      "country": "United States",
+      "venue": "Steelhouse Omaha",
+      "eventId": "tm-trivium-2026-omaha-17fzv0g6cxxpndr",
+      "localDate": "2026-12-16",
+      "price": 71.3,
+      "currency": "USD",
+      "capturedAt": "2026-11-14T11:32:43.726Z",
+      "path": "/artists/trivium/tickets/omaha-united-states"
     },
     {
       "city": "Phoenix",
@@ -160,19 +161,8 @@
       "localDate": "2026-12-02",
       "price": 71.3,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:51.330Z",
+      "capturedAt": "2026-11-14T11:32:40.231Z",
       "path": "/artists/trivium/tickets/phoenix-united-states"
-    },
-    {
-      "city": "Omaha",
-      "country": "United States",
-      "venue": "Steelhouse Omaha",
-      "eventId": "tm-trivium-2026-omaha-17fzv0g6cxxpndr",
-      "localDate": "2026-12-16",
-      "price": 75.9,
-      "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:52.714Z",
-      "path": "/artists/trivium/tickets/omaha-united-states"
     },
     {
       "city": "Chicago",
@@ -182,30 +172,8 @@
       "localDate": "2026-11-21",
       "price": 78.2,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:50.588Z",
+      "capturedAt": "2026-11-14T11:32:38.878Z",
       "path": "/artists/trivium/tickets/chicago-united-states"
-    },
-    {
-      "city": "Worcester",
-      "country": "United States",
-      "venue": "Palladium-MA",
-      "eventId": "tm-trivium-2026-worcester-z7r9jz1aazdbg",
-      "localDate": "2026-11-15",
-      "price": 81.65,
-      "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:49.901Z",
-      "path": "/artists/trivium/tickets/worcester-united-states"
-    },
-    {
-      "city": "Pittsburgh",
-      "country": "United States",
-      "venue": "Citizens Live at The Wylie",
-      "eventId": "tm-trivium-2026-pittsburgh-17aov0g6cymqerk",
-      "localDate": "2026-12-18",
-      "price": 85.1,
-      "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:52.845Z",
-      "path": "/artists/trivium/tickets/pittsburgh-united-states"
     },
     {
       "city": "Seattle",
@@ -215,7 +183,7 @@
       "localDate": "2026-12-09",
       "price": 92,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:52.077Z",
+      "capturedAt": "2026-11-14T11:32:42.765Z",
       "path": "/artists/trivium/tickets/seattle-united-states"
     },
     {
@@ -224,9 +192,9 @@
       "venue": "The Sylvee",
       "eventId": "tm-trivium-2026-madison-vvg1jz_cbaz-zj",
       "localDate": "2026-11-22",
-      "price": 94.3,
+      "price": 93.15,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:50.736Z",
+      "capturedAt": "2026-11-14T11:32:39.113Z",
       "path": "/artists/trivium/tickets/madison-united-states"
     },
     {
@@ -237,19 +205,19 @@
       "localDate": "2026-11-27",
       "price": 97.75,
       "currency": "USD",
-      "capturedAt": "2026-11-10T17:57:03.487Z",
+      "capturedAt": "2026-11-14T11:35:22.846Z",
       "path": "/artists/trivium/tickets/san-antonio-united-states"
     },
     {
-      "city": "New Haven",
+      "city": "Tulsa",
       "country": "United States",
-      "venue": "College Street Music Hall",
-      "eventId": "tm-trivium-2026-new-haven-z7r9jz1aazdbw",
-      "localDate": "2026-11-11",
-      "price": 103.5,
+      "venue": "Tulsa Theater",
+      "eventId": "tm-trivium-2026-tulsa-z7r9jz1aazd_z",
+      "localDate": "2026-12-15",
+      "price": 98.9,
       "currency": "USD",
-      "capturedAt": "2026-11-10T13:03:14.689Z",
-      "path": "/artists/trivium/tickets/new-haven-united-states"
+      "capturedAt": "2026-11-14T11:32:43.502Z",
+      "path": "/artists/trivium/tickets/tulsa-united-states"
     },
     {
       "city": "Philadelphia",
@@ -259,30 +227,19 @@
       "localDate": "2026-11-14",
       "price": 108.1,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:49.766Z",
+      "capturedAt": "2026-11-14T07:05:33.973Z",
       "path": "/artists/trivium/tickets/philadelphia-united-states"
     },
     {
-      "city": "Tulsa",
+      "city": "Pittsburgh",
       "country": "United States",
-      "venue": "Tulsa Theater",
-      "eventId": "tm-trivium-2026-tulsa-z7r9jz1aazd_z",
-      "localDate": "2026-12-15",
-      "price": 108.1,
+      "venue": "Citizens Live at The Wylie",
+      "eventId": "tm-trivium-2026-pittsburgh-17aov0g6cymqerk",
+      "localDate": "2026-12-18",
+      "price": 111.55,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:52.550Z",
-      "path": "/artists/trivium/tickets/tulsa-united-states"
-    },
-    {
-      "city": "Silver Spring",
-      "country": "United States",
-      "venue": "The Fillmore Silver Spring",
-      "eventId": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
-      "localDate": "2026-11-10",
-      "price": 121.9,
-      "currency": "USD",
-      "capturedAt": "2026-11-10T13:03:07.906Z",
-      "path": "/artists/trivium/tickets/silver-spring-united-states"
+      "capturedAt": "2026-11-14T11:32:43.945Z",
+      "path": "/artists/trivium/tickets/pittsburgh-united-states"
     },
     {
       "city": "Charlotte",
@@ -290,9 +247,9 @@
       "venue": "The Fillmore Charlotte",
       "eventId": "tm-trivium-2026-charlotte-g5evz_cufmier",
       "localDate": "2026-12-19",
-      "price": 147.2,
+      "price": 126.5,
       "currency": "USD",
-      "capturedAt": "2026-11-10T09:57:53.012Z",
+      "capturedAt": "2026-11-14T11:32:44.316Z",
       "path": "/artists/trivium/tickets/charlotte-united-states"
     }
   ],
@@ -301,47 +258,14 @@
     "siteLabel": "Vivid Seats",
     "cities": [
       {
-        "city": "Silver Spring",
-        "country": "United States",
-        "venue": "The Fillmore Silver Spring",
-        "eventId": "tm-trivium-2026-silver-spring-17a8v0g6cngp9y6",
-        "localDate": "2026-11-10",
-        "price": 65,
-        "currency": "USD",
-        "capturedAt": "2026-11-10T17:50:22.711Z",
-        "path": "/artists/trivium/tickets/silver-spring-united-states"
-      },
-      {
-        "city": "New Haven",
-        "country": "United States",
-        "venue": "College Street Music Hall",
-        "eventId": "tm-trivium-2026-new-haven-z7r9jz1aazdbw",
-        "localDate": "2026-11-11",
-        "price": 68,
-        "currency": "USD",
-        "capturedAt": "2026-11-10T17:50:22.711Z",
-        "path": "/artists/trivium/tickets/new-haven-united-states"
-      },
-      {
-        "city": "New York",
-        "country": "United States",
-        "venue": "Terminal 5",
-        "eventId": "tm-trivium-2026-new-york-z7r9jz1aazdbs",
-        "localDate": "2026-11-12",
-        "price": 73,
-        "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
-        "path": "/artists/trivium/tickets/new-york-united-states"
-      },
-      {
         "city": "Philadelphia",
         "country": "United States",
         "venue": "Franklin Music Hall",
         "eventId": "tm-trivium-2026-philadelphia-z7r9jz1aazdbv",
         "localDate": "2026-11-14",
-        "price": 99,
+        "price": 92,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-13T16:24:31.376Z",
         "path": "/artists/trivium/tickets/philadelphia-united-states"
       },
       {
@@ -350,9 +274,9 @@
         "venue": "Royal Oak Music Theatre",
         "eventId": "tm-trivium-2026-royal-oak-z7r9jz1aazdbu",
         "localDate": "2026-11-20",
-        "price": 57,
+        "price": 38,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.407Z",
         "path": "/artists/trivium/tickets/royal-oak-united-states"
       },
       {
@@ -361,9 +285,9 @@
         "venue": "Aragon Ballroom",
         "eventId": "tm-trivium-2026-chicago-vvg18z_cnmg_i8",
         "localDate": "2026-11-21",
-        "price": 65,
+        "price": 74,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.407Z",
         "path": "/artists/trivium/tickets/chicago-united-states"
       },
       {
@@ -372,9 +296,9 @@
         "venue": "The Sylvee",
         "eventId": "tm-trivium-2026-madison-vvg1jz_cbaz-zj",
         "localDate": "2026-11-22",
-        "price": 82,
+        "price": 80,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.407Z",
         "path": "/artists/trivium/tickets/madison-united-states"
       },
       {
@@ -383,9 +307,9 @@
         "venue": "Boeing Center at Tech Port",
         "eventId": "tm-trivium-2026-san-antonio-z7r9jz1aazdco",
         "localDate": "2026-11-27",
-        "price": 87,
+        "price": 78,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/san-antonio-united-states"
       },
       {
@@ -396,7 +320,7 @@
         "localDate": "2026-11-28",
         "price": 50,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.407Z",
         "path": "/artists/trivium/tickets/houston-united-states"
       },
       {
@@ -405,9 +329,9 @@
         "venue": "South Side Ballroom",
         "eventId": "tm-trivium-2026-dallas-vvg1yz_cdoxznj",
         "localDate": "2026-11-29",
-        "price": 55,
+        "price": 63,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/dallas-united-states"
       },
       {
@@ -416,9 +340,9 @@
         "venue": "Arizona Financial Theatre",
         "eventId": "tm-trivium-2026-phoenix-17k8v0g62douihb",
         "localDate": "2026-12-02",
-        "price": 78,
+        "price": 79,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/phoenix-united-states"
       },
       {
@@ -427,9 +351,9 @@
         "venue": "Pearl Concert Theater at Palms Casino Resort",
         "eventId": "tm-trivium-2026-las-vegas-z7r9jz1a7j_4j",
         "localDate": "2026-12-03",
-        "price": 54,
+        "price": 55,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/las-vegas-united-states"
       },
       {
@@ -438,9 +362,9 @@
         "venue": "YouTube Theater",
         "eventId": "tm-trivium-2026-inglewood-vvg1iz_ceqwhij",
         "localDate": "2026-12-04",
-        "price": 34,
+        "price": 45,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/inglewood-united-states"
       },
       {
@@ -451,7 +375,7 @@
         "localDate": "2026-12-09",
         "price": 87,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/seattle-united-states"
       },
       {
@@ -460,9 +384,9 @@
         "venue": "Mission Ballroom",
         "eventId": "tm-trivium-2026-denver-z7r9jz1aazdby",
         "localDate": "2026-12-13",
-        "price": 61,
+        "price": 64,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/denver-united-states"
       },
       {
@@ -471,9 +395,9 @@
         "venue": "Tulsa Theater",
         "eventId": "tm-trivium-2026-tulsa-z7r9jz1aazd_z",
         "localDate": "2026-12-15",
-        "price": 90,
+        "price": 85,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/tulsa-united-states"
       },
       {
@@ -482,9 +406,9 @@
         "venue": "Citizens Live at The Wylie",
         "eventId": "tm-trivium-2026-pittsburgh-17aov0g6cymqerk",
         "localDate": "2026-12-18",
-        "price": 73,
+        "price": 93,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/pittsburgh-united-states"
       },
       {
@@ -493,9 +417,9 @@
         "venue": "The Fillmore Charlotte",
         "eventId": "tm-trivium-2026-charlotte-g5evz_cufmier",
         "localDate": "2026-12-19",
-        "price": 127,
+        "price": 109,
         "currency": "USD",
-        "capturedAt": "2026-11-10T13:02:50.341Z",
+        "capturedAt": "2026-11-14T07:04:30.408Z",
         "path": "/artists/trivium/tickets/charlotte-united-states"
       }
     ]

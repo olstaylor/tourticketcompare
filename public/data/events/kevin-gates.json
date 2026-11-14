@@ -70,5 +70,58 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-kevin-gates-2026-richmond-z7r9jz1aaao8v",
+    "artist_slug": "kevin-gates",
+    "artist_name": "Kevin Gates",
+    "event_name": "JBEG MLK CLASSIC",
+    "city": "Richmond",
+    "country": "United States Of America",
+    "venue": "Altria Theater",
+    "datetime_iso": "2026-12-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAo8V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAo8V",
+        "discovery_event_id": "Z7r9jZ1AAAo8V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAo8V",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

@@ -433,7 +433,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006488230D715D",
     "ticketmaster_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-national-harbor-maryland-11-12-2026/event/15006488230D715D",
-    "seatgeek_url": "https://seatgeek.com/jodeci-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-12-8-pm/concert/18407243",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-oxon-hill-the-theater-at-mgm-national-harbor-11-12-2026/production/7353247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-national-harbor-maryland-11-12-2026/event/15006488230D715D",
@@ -449,11 +449,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18407243,
-        "url": "https://seatgeek.com/jodeci-tickets/national-harbor-maryland-the-theater-at-mgm-national-harbor-2026-11-12-8-pm/concert/18407243",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7353247,
@@ -1627,7 +1627,7 @@
         "event_id": 18407269,
         "url": "https://seatgeek.com/jodeci-tickets/savannah-georgia-savannah-civic-center-johnny-mercer-theatre-2026-12-08-8-pm/concert/18407269",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2097,7 +2097,7 @@
         "event_id": 18407279,
         "url": "https://seatgeek.com/jodeci-tickets/charlotte-north-carolina-ovens-auditorium-2026-12-19-8-pm/concert/18407279",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2178,7 +2178,7 @@
         "event_id": 18522802,
         "url": "https://seatgeek.com/jodeci-tickets/charlotte-north-carolina-ovens-auditorium-2026-12-20-8-pm/concert/18522802",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2259,7 +2259,7 @@
         "event_id": 18407226,
         "url": "https://seatgeek.com/jodeci-tickets/san-francisco-california-the-masonic-san-francisco-2027-01-08-8-pm/concert/18407226",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2341,7 +2341,7 @@
         "event_id": 18407227,
         "url": "https://seatgeek.com/jodeci-tickets/inglewood-california-youtube-theater-2027-01-09-8-pm/concert/18407227",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2416,7 +2416,7 @@
         "event_id": 18407231,
         "url": "https://seatgeek.com/jodeci-tickets/el-cajon-california-the-magnolia-1-2027-01-10-7-pm/concert/18407231",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2498,7 +2498,7 @@
         "event_id": 18407229,
         "url": "https://seatgeek.com/jodeci-tickets/phoenix-arizona-arizona-financial-theatre-2027-01-15-8-pm/concert/18407229",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2580,7 +2580,7 @@
         "event_id": 18407228,
         "url": "https://seatgeek.com/jodeci-tickets/ontario-california-toyota-arena-ontario-2027-01-16-8-pm/concert/18407228",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

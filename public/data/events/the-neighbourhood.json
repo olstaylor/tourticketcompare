@@ -281,7 +281,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006449E4C49B80",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
-    "seatgeek_url": "https://seatgeek.com/the-neighbourhood-tickets/miami-florida-kaseya-center-2026-11-12-7-30-pm/concert/18085137",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-miami-kaseya-center-11-12-2026--concerts-rock/production/6690355",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-miami-florida-11-12-2026/event/0D006449E4C49B80",
@@ -297,11 +297,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18085137,
-        "url": "https://seatgeek.com/the-neighbourhood-tickets/miami-florida-kaseya-center-2026-11-12-7-30-pm/concert/18085137",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6690355,
@@ -1199,7 +1199,7 @@
         "event_id": 18726902,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/denver-colorado-ball-arena-2027-03-02-7-pm/concert/18726902",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1353,7 +1353,7 @@
         "event_id": 18726900,
         "url": "https://seatgeek.com/the-neighbourhood-tickets/dallas-texas-american-airlines-center-2027-03-07-7-pm/concert/18726900",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

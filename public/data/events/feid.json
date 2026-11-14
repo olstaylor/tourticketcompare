@@ -2505,11 +2505,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758824,
+        "url": "https://seatgeek.com/feid-tickets/brooklyn-new-york-barclays-center-2027-03-04-8-pm/concert/18758824",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7852375,
@@ -2591,11 +2591,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746731,
+        "url": "https://seatgeek.com/feid-tickets/hartford-connecticut-peoplesbank-arena-2027-02-28-8-pm/concert/18746731",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7825066,
@@ -2647,7 +2647,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAd3v",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAd3v",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/houston-texas-toyota-center-2027-03-25-8-pm/concert/18746744",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-houston-toyota-center---tx-3-25-2027/production/7824748",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAd3v",
@@ -2663,11 +2663,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746744,
+        "url": "https://seatgeek.com/feid-tickets/houston-texas-toyota-center-2027-03-25-8-pm/concert/18746744",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824748,
@@ -2727,7 +2727,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAd3e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAd3e",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/salt-lake-city-utah-delta-center-1-2027-04-02-8-pm/concert/18576692",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-salt-lake-city-delta-center-4-2-2027/production/7824750",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAd3e",
@@ -2743,11 +2743,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18576692,
+        "url": "https://seatgeek.com/feid-tickets/salt-lake-city-utah-delta-center-1-2027-04-02-8-pm/concert/18576692",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824750,
@@ -2807,7 +2807,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAd3d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAd3d",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/las-vegas-nevada-mgm-grand-garden-arena-2027-04-17-8-pm/concert/18746759",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-las-vegas-mgm-grand-garden-arena-4-17-2027/production/7824762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAd3d",
@@ -2823,11 +2823,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746759,
+        "url": "https://seatgeek.com/feid-tickets/las-vegas-nevada-mgm-grand-garden-arena-2027-04-17-8-pm/concert/18746759",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824762,

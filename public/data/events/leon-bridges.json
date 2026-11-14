@@ -2438,11 +2438,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18756049,
+        "url": "https://seatgeek.com/leon-bridges-tickets/honolulu-hawaii-tom-moffatt-waikiki-shell-2027-02-20-8-pm/concert/18756049",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7847587,

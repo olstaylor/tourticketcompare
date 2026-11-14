@@ -675,11 +675,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772702,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/dallas-texas-american-airlines-center-2027-07-20-7-30-pm/concert/18772702",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -729,11 +729,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772728,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/dallas-texas-american-airlines-center-2027-07-21-7-30-pm/concert/18772728",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

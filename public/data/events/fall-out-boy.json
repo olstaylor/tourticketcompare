@@ -2152,7 +2152,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAA0d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0d",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/nashville-tennessee-firstbank-stadium-2027-07-27-5-30-pm/concert/18753412",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-nashville-firstbank-stadium-7-27-2027--concerts-rock/production/7835306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0d",
@@ -2168,11 +2168,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753412,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/nashville-tennessee-firstbank-stadium-2027-07-27-5-30-pm/concert/18753412",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835306,
@@ -2298,7 +2298,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAA0A",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/sandy-utah-america-first-field-2027-08-13-5-30-pm/concert/18738275",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAA0A",
@@ -2314,11 +2314,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738275,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/sandy-utah-america-first-field-2027-08-13-5-30-pm/concert/18738275",
+        "verified": true,
+        "last_verified_at": "2026-11-13",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

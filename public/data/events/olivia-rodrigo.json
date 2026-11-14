@@ -1687,7 +1687,7 @@
     "tour_name": "The Unraveled Tour",
     "ticketmaster_event_id": "0E00649DBD418718",
     "ticketmaster_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-12-2026/event/0E00649DBD418718",
-    "seatgeek_url": "https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-12-7-pm/concert/18211698",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/olivia-rodrigo-tickets-atlanta-state-farm-arena-11-12-2026--concerts-pop/production/6969274",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/olivia-rodrigo-the-unraveled-tour-atlanta-georgia-11-12-2026/event/0E00649DBD418718",
@@ -1702,11 +1702,11 @@
         "discovery_event_id": "vvG1zZ_aUW8bjb"
       },
       "seatgeek": {
-        "event_id": 18211698,
-        "url": "https://seatgeek.com/olivia-rodrigo-tickets/atlanta-georgia-state-farm-arena-1-2026-11-12-7-pm/concert/18211698",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6969274,
@@ -3081,7 +3081,7 @@
         "event_id": 18211724,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-12-7-pm/concert/18211724",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3170,7 +3170,7 @@
         "event_id": 18211726,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-13-7-pm/concert/18211726",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3259,7 +3259,7 @@
         "event_id": 18214730,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-16-7-pm/concert/18214730",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3348,7 +3348,7 @@
         "event_id": 18211731,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-17-7-pm/concert/18211731",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3437,7 +3437,7 @@
         "event_id": 18224991,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-20-7-pm/concert/18224991",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3526,7 +3526,7 @@
         "event_id": 18224990,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-21-7-pm/concert/18224990",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3615,7 +3615,7 @@
         "event_id": 18225825,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-24-7-pm/concert/18225825",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3704,7 +3704,7 @@
         "event_id": 18227093,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-25-7-pm/concert/18227093",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3793,7 +3793,7 @@
         "event_id": 18230500,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-28-7-pm/concert/18230500",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3887,7 +3887,7 @@
         "event_id": 18230501,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-29-7-pm/concert/18230501",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3981,7 +3981,7 @@
         "event_id": 18211656,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-11-7-pm/concert/18211656",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4063,7 +4063,7 @@
         "event_id": 18211659,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-12-7-pm/concert/18211659",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4145,7 +4145,7 @@
         "event_id": 18211660,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-15-7-pm/concert/18211660",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4227,7 +4227,7 @@
         "event_id": 18211657,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-16-7-pm/concert/18211657",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4309,7 +4309,7 @@
         "event_id": 18224685,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-19-7-pm/concert/18224685",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4391,7 +4391,7 @@
         "event_id": 18224992,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-20-7-pm/concert/18224992",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4473,7 +4473,7 @@
         "event_id": 18226585,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-23-7-pm/concert/18226585",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4555,7 +4555,7 @@
         "event_id": 18226587,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-24-7-pm/concert/18226587",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4637,7 +4637,7 @@
         "event_id": 18227138,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-27-7-pm/concert/18227138",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4726,7 +4726,7 @@
         "event_id": 18229435,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-28-7-pm/concert/18229435",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

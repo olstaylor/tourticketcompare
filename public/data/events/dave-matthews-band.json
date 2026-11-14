@@ -385,7 +385,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3B0064F8E6F49510",
     "ticketmaster_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-12-2026/event/3B0064F8E6F49510",
-    "seatgeek_url": "https://seatgeek.com/dave-matthews-band-tickets/new-york-new-york-madison-square-garden-2026-11-12-7-30-pm/concert/18474900",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/dave-matthews-band-tickets-new-york-madison-square-garden-11-12-2026/production/7415809",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dave-matthews-band-new-york-new-york-11-12-2026/event/3B0064F8E6F49510",
@@ -401,11 +401,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18474900,
-        "url": "https://seatgeek.com/dave-matthews-band-tickets/new-york-new-york-madison-square-garden-2026-11-12-7-30-pm/concert/18474900",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7415809,

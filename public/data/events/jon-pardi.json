@@ -361,7 +361,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060064EFC5035BE2",
     "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-cedar-rapids-iowa-11-12-2026/event/060064EFC5035BE2",
-    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/cedar-rapids-iowa-alliant-energy-powerhouse-2026-11-12-7-pm/concert/18390356",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-cedar-rapids-alliant-energy-powerhouse-11-12-2026--concerts-country-and-folk/production/7320585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-cedar-rapids-iowa-11-12-2026/event/060064EFC5035BE2",
@@ -377,11 +377,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18390356,
-        "url": "https://seatgeek.com/jon-pardi-tickets/cedar-rapids-iowa-alliant-energy-powerhouse-2026-11-12-7-pm/concert/18390356",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7320585,

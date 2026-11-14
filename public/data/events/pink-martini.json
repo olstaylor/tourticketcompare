@@ -712,7 +712,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7PV8_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PV8_",
-    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/athens-georgia-hodgson-concert-hall-at-the-uga-performing-arts-center-2027-01-19-7-30-pm/concert/18701989",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7PV8_",
@@ -855,7 +855,7 @@
         "event_id": 18358276,
         "url": "https://seatgeek.com/pink-martini-tickets/cleveland-ohio-gartner-auditorium-2027-02-10-7-pm/concert/18358276",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1065,7 +1065,7 @@
         "event_id": 18472526,
         "url": "https://seatgeek.com/pink-martini-tickets/minneapolis-minnesota-pantages-theatre-minneapolis-2027-02-13-8-pm/concert/18472526",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1139,7 +1139,7 @@
         "event_id": 18472525,
         "url": "https://seatgeek.com/pink-martini-tickets/minneapolis-minnesota-pantages-theatre-minneapolis-2027-02-14-2-pm/concert/18472525",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1194,7 +1194,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "07006505AD2C5574",
     "ticketmaster_url": "https://www.ticketmaster.com/pink-martini-madison-wisconsin-02-16-2027/event/07006505AD2C5574",
-    "seatgeek_url": "https://seatgeek.com/pink-martini-tickets/madison-wisconsin-orpheum-theatre-madison-2027-02-16-7-30-pm/concert/18472447",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-madison-wisconsin-02-16-2027/event/07006505AD2C5574",

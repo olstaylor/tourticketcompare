@@ -741,7 +741,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7POZg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/daytona-beach-florida-peabody-auditorium-2027-01-22-8-pm/concert/18355671",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
@@ -951,7 +951,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D0064F8873333FB",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/immokalee-florida-seminole-casino-immokalee-2027-01-30-8-pm/concert/18424504",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
@@ -1247,7 +1247,7 @@
         "event_id": 18533274,
         "url": "https://seatgeek.com/air-supply-tickets/rancho-mirage-california-agua-caliente-casino-rancho-mirage-2027-02-13-8-pm/concert/18533274",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1325,7 +1325,7 @@
         "event_id": 18593901,
         "url": "https://seatgeek.com/air-supply-tickets/abbotsford-canada-rogers-forum-2027-02-18-7-30-pm/concert/18593901",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1461,7 +1461,7 @@
         "event_id": 18594382,
         "url": "https://seatgeek.com/air-supply-tickets/calgary-canada-grey-eagle-event-centre-2027-02-24-7-pm/concert/18594382",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1585,7 +1585,7 @@
         "event_id": 18593527,
         "url": "https://seatgeek.com/air-supply-tickets/winnipeg-canada-canada-life-centre-2027-02-28-7-30-pm/concert/18593527",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1735,7 +1735,7 @@
         "event_id": 18618284,
         "url": "https://seatgeek.com/air-supply-tickets/rama-canada-casino-rama-resort-2027-03-05-9-pm/concert/18618284",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1802,7 +1802,7 @@
         "event_id": 18594770,
         "url": "https://seatgeek.com/air-supply-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2027-03-06-8-pm/concert/18594770",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1870,7 +1870,7 @@
         "event_id": 18593816,
         "url": "https://seatgeek.com/air-supply-tickets/windsor-canada-the-colosseum-at-caesars-windsor-2027-03-07-7-pm/concert/18593816",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-13",
         "availability_status": "listed"
       },
       "vivid-seats": {

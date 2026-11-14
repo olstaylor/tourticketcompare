@@ -80,7 +80,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A0064A5E9CB90BC",
     "ticketmaster_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-austin-texas-11-12-2026/event/3A0064A5E9CB90BC",
-    "seatgeek_url": "https://seatgeek.com/treaty-oak-revival-tickets/austin-texas-moody-center-atx-2026-11-12-7-pm/concert/18229329",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/treaty-oak-revival-tickets-austin-moody-center-atx-11-12-2026--concerts-country-and-folk/production/7006221",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/treaty-oak-revival-west-texas-degenerate-austin-texas-11-12-2026/event/3A0064A5E9CB90BC",
@@ -96,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18229329,
-        "url": "https://seatgeek.com/treaty-oak-revival-tickets/austin-texas-moody-center-atx-2026-11-12-7-pm/concert/18229329",
-        "verified": true,
-        "last_verified_at": "2026-11-10",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7006221,

@@ -82,3 +82,22 @@ export function describeNavigation(request, canonicalHost = "tourticketcompare.c
     direct: fetchSite !== "same-origin" && referer !== "same_origin"
   };
 }
+
+// A request to /api/out whose Referer is itself an /api/out URL. Real visitors
+// click a button on a page, so the Referer is always that page. /api/out only
+// ever answers with a redirect to a seller, so nothing a browser can render
+// links back to it. Since 13 Nov 2026 a crawler forges this Referer (plus
+// Sec-Fetch-Site: same-origin) to pass the WAF rule and the receipt gate,
+// producing ~200-500 fake redirects a day with source_path "/api/out".
+export function isSelfReferredRedirect(request, canonicalHost = "tourticketcompare.com") {
+  const rawReferer = request?.headers?.get?.("referer");
+  if (!rawReferer) return false;
+  try {
+    const referer = new URL(rawReferer);
+    const host = referer.hostname.toLowerCase();
+    const ours = host === canonicalHost || host.endsWith(`.${canonicalHost}`);
+    return ours && /^\/api\/out(?:\/|$)/i.test(referer.pathname);
+  } catch (error) {
+    return false;
+  }
+}

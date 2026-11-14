@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { readFileSync } from 'node:fs';
 import { DatabaseSync } from 'node:sqlite';
-import { describeNavigation, isLikelyBot } from '../functions/_bot-detection.js';
+import { describeNavigation, isLikelyBot, isSelfReferredRedirect } from '../functions/_bot-detection.js';
 import { onRequestGet } from '../functions/api/out.js';
 import { onRequest as middleware } from '../functions/_middleware.js';
 import { humanRedirectSql, pageBackedSql } from './lib/human-clicks.mjs';
@@ -185,4 +185,34 @@ test('/api/out refuses Chrome that sends no Sec-Fetch-Site, but not real visitor
     assert.equal(reached, true, JSON.stringify(headers));
     assert.equal(response.status, 200);
   }
+});
+
+test('/api/out refuses a forged self-referral but still redirects real page clicks', async () => {
+  const bot = fixture();
+  const forged = await onRequestGet({
+    request: out({ referer: 'https://tourticketcompare.com/api/out?showId=x&provider=seatgeek', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate' }),
+    env: bot.env
+  });
+  assert.equal(forged.status, 403);
+  assert.equal(forged.headers.get('location'), null);
+  assert.equal(bot.db.prepare('SELECT COUNT(*) n FROM analytics_events').get().n, 0);
+
+  const real = fixture();
+  const res = await onRequestGet({
+    request: out({ referer: 'https://tourticketcompare.com/artists/test-artist', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate' }),
+    env: real.env
+  });
+  assert.equal(res.status, 302);
+  assert.match(res.headers.get('location'), /seatgeek\.pxf\.io/);
+  assert.match(res.headers.get('location'), /subid1=/i);
+  assert.ok(real.db.prepare('SELECT COUNT(*) n FROM analytics_events').get().n >= 1);
+});
+
+test('isSelfReferredRedirect matches only /api/out referers on our host', () => {
+  const r = referer => new Request('https://tourticketcompare.com/api/out', { headers: referer ? { referer } : {} });
+  assert.equal(isSelfReferredRedirect(r('https://tourticketcompare.com/api/out?x=1')), true);
+  assert.equal(isSelfReferredRedirect(r('https://tourticketcompare.com/artists/a')), false);
+  assert.equal(isSelfReferredRedirect(r('https://tourticketcompare.com/api/outage')), false);
+  assert.equal(isSelfReferredRedirect(r('https://example.com/api/out')), false);
+  assert.equal(isSelfReferredRedirect(r(null)), false);
 });

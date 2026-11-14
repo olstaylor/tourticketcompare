@@ -1,6 +1,6 @@
 import { impactMarketplacePublicEnabled } from "../_impact-marketplace-config.js";
 import { browserIntentIdFromRequest } from "../_browser-intent.js";
-import { describeNavigation, isLikelyBot } from "../_bot-detection.js";
+import { describeNavigation, isLikelyBot, isSelfReferredRedirect } from "../_bot-detection.js";
 import { insertAnalyticsRow } from "../_analytics-write.js";
 import { eventLifecycleHeld } from "../_route-indexability.js";
 import {
@@ -5021,6 +5021,11 @@ function impactFailurePayload(provider, resolved, result, config) {
 }
 
 async function handleOut(request, env, mode) {
+  // Forged self-referral from the 13 Nov 2026 crawler: refuse before any click
+  // ID, tracking call or receipt. Real clicks never carry this Referer.
+  if (isSelfReferredRedirect(request)) {
+    return json({ ok: false, status: "blocked_self_referral" }, 403);
+  }
   const url = new URL(request.url);
   const body = await readBody(request);
   const showId = clean(body.showId || url.searchParams.get("showId"), 255);

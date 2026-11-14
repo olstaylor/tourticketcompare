@@ -45311,7 +45311,7 @@
         "event_id": "7775512",
         "url": "https://www.ticketliquidator.com/tickets/7775512/Metallica-tickets-Thu-Jan-28-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -45489,7 +45489,7 @@
         "event_id": "7785086",
         "url": "https://www.ticketliquidator.com/tickets/7785086/Metallica-tickets-Thu-Feb-4-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -45667,7 +45667,7 @@
         "event_id": "7785088",
         "url": "https://www.ticketliquidator.com/tickets/7785088/Metallica-tickets-Thu-Feb-18-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -45845,7 +45845,7 @@
         "event_id": "7785090",
         "url": "https://www.ticketliquidator.com/tickets/7785090/Metallica-tickets-Thu-Feb-25-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -54081,18 +54081,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7976501",
-        "url": "https://www.ticketliquidator.com/tickets/7976501/Don-Omar-tickets-Fri-Nov-13-2026-Delta-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EfV",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976501",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976501/Don-Omar-tickets-Fri-Nov-13-2026-Delta-Center",
+    "ticketliquidator_url": "",
     "ticketmaster_status_code": "rescheduled",
     "genre": "World"
   },
@@ -58402,7 +58402,7 @@
         "event_id": "7827975",
         "url": "https://www.ticketliquidator.com/tickets/7827975/Blue-October-tickets-Fri-Nov-27-2026-The-Pavilion-at-Toyota-Music-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -64121,18 +64121,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8164815",
-        "url": "https://www.ticketliquidator.com/tickets/8164815/Tyla-tickets-Thu-Nov-12-2026-Hard-Rock-Live-Sacramento",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_2QphIOW",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164815",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164815/Tyla-tickets-Thu-Nov-12-2026-Hard-Rock-Live-Sacramento",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -64362,11 +64362,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": "8164824",
+        "url": "https://www.ticketliquidator.com/tickets/8164824/Tyla-tickets-Tue-Nov-17-2026-Paramount-Theatre-Seattle",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -64380,7 +64380,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164824/Tyla-tickets-Tue-Nov-17-2026-Paramount-Theatre-Seattle",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -69810,7 +69810,7 @@
         "event_id": "8359228",
         "url": "https://www.ticketliquidator.com/tickets/8359228/Trivium-tickets-Tue-Dec-15-2026-Tulsa-Theater",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -102414,7 +102414,7 @@
         "event_id": "8255032",
         "url": "https://www.ticketliquidator.com/tickets/8255032/Trans-Siberian-Orchestra-tickets-Thu-Nov-19-2026-Resch-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -102570,7 +102570,7 @@
         "event_id": "8255035",
         "url": "https://www.ticketliquidator.com/tickets/8255035/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Heritage-Bank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -102643,7 +102643,7 @@
         "event_id": "8255039",
         "url": "https://www.ticketliquidator.com/tickets/8255039/Trans-Siberian-Orchestra-tickets-Sat-Nov-21-2026-Ball-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -102716,7 +102716,7 @@
         "event_id": "8255040",
         "url": "https://www.ticketliquidator.com/tickets/8255040/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Covelli-Centre-Youngstown",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -102789,7 +102789,7 @@
         "event_id": "8255044",
         "url": "https://www.ticketliquidator.com/tickets/8255044/Trans-Siberian-Orchestra-tickets-Tue-Nov-24-2026-Delta-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -102930,7 +102930,7 @@
         "event_id": "8255047",
         "url": "https://www.ticketliquidator.com/tickets/8255047/Trans-Siberian-Orchestra-tickets-Fri-Nov-27-2026-SNHU-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -103079,7 +103079,7 @@
         "event_id": "8255052",
         "url": "https://www.ticketliquidator.com/tickets/8255052/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-DCU-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -103153,7 +103153,7 @@
         "event_id": "8255054",
         "url": "https://www.ticketliquidator.com/tickets/8255054/Trans-Siberian-Orchestra-tickets-Sat-Nov-28-2026-Moda-Center-at-the-Rose-Quarter",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -103233,7 +103233,7 @@
         "event_id": "8255056",
         "url": "https://www.ticketliquidator.com/tickets/8255056/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Mohegan-Sun-Arena-CT",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -103303,7 +103303,7 @@
         "event_id": "8255058",
         "url": "https://www.ticketliquidator.com/tickets/8255058/Trans-Siberian-Orchestra-tickets-Sun-Nov-29-2026-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -103384,7 +103384,7 @@
         "event_id": "8255061",
         "url": "https://www.ticketliquidator.com/tickets/8255061/Trans-Siberian-Orchestra-tickets-Wed-Dec-2-2026-Golden-1-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -103720,7 +103720,7 @@
         "event_id": "8255065",
         "url": "https://www.ticketliquidator.com/tickets/8255065/Trans-Siberian-Orchestra-tickets-Fri-Dec-4-2026-Huntington-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -103793,7 +103793,7 @@
         "event_id": "8255068",
         "url": "https://www.ticketliquidator.com/tickets/8255068/Trans-Siberian-Orchestra-tickets-Sat-Dec-5-2026-Nationwide-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -103867,7 +103867,7 @@
         "event_id": "8255071",
         "url": "https://www.ticketliquidator.com/tickets/8255071/Trans-Siberian-Orchestra-tickets-Sat-Dec-5-2026-Toyota-Arena-Ontario",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -103937,7 +103937,7 @@
         "event_id": "8255072",
         "url": "https://www.ticketliquidator.com/tickets/8255072/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Van-Andel-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -104011,7 +104011,7 @@
         "event_id": "8255079",
         "url": "https://www.ticketliquidator.com/tickets/8255079/Trans-Siberian-Orchestra-tickets-Sun-Dec-6-2026-Mortgage-Matchup-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -104408,7 +104408,7 @@
         "event_id": "8256376",
         "url": "https://www.ticketliquidator.com/tickets/8256376/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Bon-Secours-Wellness-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -104489,7 +104489,7 @@
         "event_id": "8255087",
         "url": "https://www.ticketliquidator.com/tickets/8255087/Trans-Siberian-Orchestra-tickets-Fri-Dec-11-2026-Toyota-Center-TX",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -104562,7 +104562,7 @@
         "event_id": "8255089",
         "url": "https://www.ticketliquidator.com/tickets/8255089/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Spectrum-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -104647,7 +104647,7 @@
         "event_id": "8255092",
         "url": "https://www.ticketliquidator.com/tickets/8255092/Trans-Siberian-Orchestra-tickets-Sat-Dec-12-2026-Frost-Bank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -104727,7 +104727,7 @@
         "event_id": "8255093",
         "url": "https://www.ticketliquidator.com/tickets/8255093/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-Gas-South-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -104807,7 +104807,7 @@
         "event_id": "8255097",
         "url": "https://www.ticketliquidator.com/tickets/8255097/Trans-Siberian-Orchestra-tickets-Sun-Dec-13-2026-American-Airlines-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -105229,7 +105229,7 @@
         "event_id": "8255105",
         "url": "https://www.ticketliquidator.com/tickets/8255105/Trans-Siberian-Orchestra-tickets-Fri-Dec-18-2026-Giant-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -105401,7 +105401,7 @@
         "event_id": "8255108",
         "url": "https://www.ticketliquidator.com/tickets/8255108/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-Kia-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -105481,7 +105481,7 @@
         "event_id": "8255109",
         "url": "https://www.ticketliquidator.com/tickets/8255109/Trans-Siberian-Orchestra-tickets-Sat-Dec-19-2026-PPG-Paints-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -105562,7 +105562,7 @@
         "event_id": "8255113",
         "url": "https://www.ticketliquidator.com/tickets/8255113/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Xfinity-Mobile-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -105647,7 +105647,7 @@
         "event_id": "8255112",
         "url": "https://www.ticketliquidator.com/tickets/8255112/Trans-Siberian-Orchestra-tickets-Sun-Dec-20-2026-Benchmark-International-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -105732,7 +105732,7 @@
         "event_id": "8255116",
         "url": "https://www.ticketliquidator.com/tickets/8255116/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Rocket-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -105805,7 +105805,7 @@
         "event_id": "8255117",
         "url": "https://www.ticketliquidator.com/tickets/8255117/Trans-Siberian-Orchestra-tickets-Tue-Dec-22-2026-Gainbridge-Fieldhouse",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -105891,7 +105891,7 @@
         "event_id": "8255120",
         "url": "https://www.ticketliquidator.com/tickets/8255120/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Little-Caesars-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -105976,7 +105976,7 @@
         "event_id": "8255121",
         "url": "https://www.ticketliquidator.com/tickets/8255121/Trans-Siberian-Orchestra-tickets-Wed-Dec-23-2026-Allstate-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -106067,7 +106067,7 @@
         "event_id": "8255124",
         "url": "https://www.ticketliquidator.com/tickets/8255124/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -106144,7 +106144,7 @@
         "event_id": "8255125",
         "url": "https://www.ticketliquidator.com/tickets/8255125/Trans-Siberian-Orchestra-tickets-Sat-Dec-26-2026-Fiserv-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -106226,7 +106226,7 @@
         "event_id": "8255128",
         "url": "https://www.ticketliquidator.com/tickets/8255128/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Capital-One-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -106317,7 +106317,7 @@
         "event_id": "8255130",
         "url": "https://www.ticketliquidator.com/tickets/8255130/Trans-Siberian-Orchestra-tickets-Sun-Dec-27-2026-Target-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -129342,18 +129342,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8058397",
-        "url": "https://www.ticketliquidator.com/tickets/8058397/Sienna-Spiro-tickets-Thu-Nov-12-2026-Orpheum-Theatre-Los-Angeles",
-        "verified": true,
-        "last_verified_at": "2026-09-26",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_udZ2l-k",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8058397",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8058397/Sienna-Spiro-tickets-Thu-Nov-12-2026-Orpheum-Theatre-Los-Angeles",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "GOLDENVOICE (AEG)",
       "WME AGENCY"
@@ -140541,7 +140541,7 @@
         "event_id": "7785868",
         "url": "https://www.ticketliquidator.com/tickets/7785868/Metallica-tickets-Thu-Mar-4-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -140719,7 +140719,7 @@
         "event_id": "7785870",
         "url": "https://www.ticketliquidator.com/tickets/7785870/Metallica-tickets-Thu-Mar-11-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -142699,7 +142699,7 @@
         "event_id": "8255043",
         "url": "https://www.ticketliquidator.com/tickets/8255043/Trans-Siberian-Orchestra-tickets-Sun-Nov-22-2026-Broadmoor-World-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -211702,7 +211702,7 @@
         "event_id": "8255134",
         "url": "https://www.ticketliquidator.com/tickets/8255134/Trans-Siberian-Orchestra-tickets-Tue-Dec-29-2026-T-Mobile-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -211792,7 +211792,7 @@
         "event_id": "8255136",
         "url": "https://www.ticketliquidator.com/tickets/8255136/Trans-Siberian-Orchestra-tickets-Wed-Dec-30-2026-KeyBank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -255948,11 +255948,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8113680",
-        "url": "https://www.ticketliquidator.com/tickets/8113680/Santana-tickets-Thu-Nov-12-2026-House-Of-Blues-Las-Vegas",
-        "verified": true,
-        "last_verified_at": "2026-10-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107469466",
@@ -255966,7 +255966,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113680",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113680/Santana-tickets-Thu-Nov-12-2026-House-Of-Blues-Las-Vegas",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/santana-las-vegas-tickets-11-12-2026/event/107469466",
     "organizer_names": [
       "HOUSE OF BLUES CONCERTS (HOB)"
@@ -268368,7 +268368,7 @@
         "event_id": "8284338",
         "url": "https://www.ticketliquidator.com/tickets/8284338/Haiden-Henderson-tickets-Wed-May-12-2027-Hawthorne-Lounge-at-Hawthorne-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -297736,11 +297736,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8338947",
-        "url": "https://www.ticketliquidator.com/tickets/8338947/Garth-Brooks-tickets-Thu-Nov-12-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8338947",
@@ -297760,7 +297760,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_4dKkD9j",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338947/Garth-Brooks-tickets-Thu-Nov-12-2026-Climate-Pledge-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -301461,7 +301461,7 @@
         "event_id": "8238813",
         "url": "https://www.ticketliquidator.com/tickets/8238813/Billy-Strings-tickets-Thu-Feb-4-2027-ExploreAshevillecom-Arena-at-Harrahs-Cherokee-Center",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -301816,7 +301816,7 @@
         "event_id": "8238819",
         "url": "https://www.ticketliquidator.com/tickets/8238819/Billy-Strings-tickets-Fri-Feb-12-2027-Gas-South-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -301958,7 +301958,7 @@
         "event_id": "8238823",
         "url": "https://www.ticketliquidator.com/tickets/8238823/Billy-Strings-tickets-Fri-Feb-19-2027-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -315210,7 +315210,7 @@
         "event_id": "8311023",
         "url": "https://www.ticketliquidator.com/tickets/8311023/Phish-tickets-Wed-Dec-30-2026-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -327024,7 +327024,7 @@
         "event_id": "8319720",
         "url": "https://www.ticketliquidator.com/tickets/8319720/Dropkick-Murphys-tickets-Sat-Mar-13-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -353277,7 +353277,7 @@
         "event_id": "8034649",
         "url": "https://www.ticketliquidator.com/tickets/8034649/Lady-A-Country-Group-tickets-Mon-Dec-21-2026-Ryman-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -363024,12 +363024,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369960",
+        "url": "https://www.ticketliquidator.com/tickets/8369960/Jodeci-tickets-Sat-Nov-14-2026-KeyBank-State-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAed_7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369960/Jodeci-tickets-Sat-Nov-14-2026-KeyBank-State-Theatre"
   },
   {
     "id": "tm-jodeci-2026-bristol-g5viz_25fd7l0",
@@ -376573,7 +376581,7 @@
         "event_id": "8048528",
         "url": "https://www.ticketliquidator.com/tickets/8048528/Lenny-Pearce-tickets-Sat-Nov-21-2026-The-Fillmore-Silver-Spring",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       }
     },
@@ -395776,7 +395784,7 @@
         "event_id": "8363806",
         "url": "https://www.ticketliquidator.com/tickets/8363806/Billy-Strings-tickets-Fri-Apr-16-2027-North-Charleston-Coliseum",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -396043,7 +396051,7 @@
         "event_id": "8363819",
         "url": "https://www.ticketliquidator.com/tickets/8363819/Billy-Strings-tickets-Fri-Apr-23-2027-First-Horizon-Coliseum-At-Greensboro-Complex",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -396221,7 +396229,7 @@
         "event_id": "8363832",
         "url": "https://www.ticketliquidator.com/tickets/8363832/Billy-Strings-tickets-Fri-Jun-4-2027-Legacy-Arena-at-The-BJCC",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-14",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -402582,12 +402590,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369579",
+        "url": "https://www.ticketliquidator.com/tickets/8369579/KPOP-Demon-Hunters-tickets-Wed-Jun-16-2027-Value-City-Arena-at-The-Schottenstein-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4PGkdbHBjx",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369579/KPOP-Demon-Hunters-tickets-Wed-Jun-16-2027-Value-City-Arena-at-The-Schottenstein-Center"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-chicago-vv1k8z_pb3g7s3vy",
@@ -402690,12 +402706,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369582",
+        "url": "https://www.ticketliquidator.com/tickets/8369582/KPOP-Demon-Hunters-tickets-Wed-Jun-23-2027-Gainbridge-Fieldhouse",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk40Gkes_M63",
     "timezone": "America/Indiana/Indianapolis",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369582/KPOP-Demon-Hunters-tickets-Wed-Jun-23-2027-Gainbridge-Fieldhouse"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-hamilton-1avzz_pgknnsz0d",
@@ -402960,12 +402984,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369586",
+        "url": "https://www.ticketliquidator.com/tickets/8369586/KPOP-Demon-Hunters-tickets-Wed-Jul-7-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p39Bkd-",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369586/KPOP-Demon-Hunters-tickets-Wed-Jul-7-2027-Spectrum-Center"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-atlanta-vvg1zz_p9cj0zu",
@@ -403122,12 +403154,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369592",
+        "url": "https://www.ticketliquidator.com/tickets/8369592/KPOP-Demon-Hunters-tickets-Tue-Jul-20-2027-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pQm-6Ap",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369592/KPOP-Demon-Hunters-tickets-Tue-Jul-20-2027-American-Airlines-Center"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-dallas-vvg1yz_pqmd65i",
@@ -403176,12 +403216,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369593",
+        "url": "https://www.ticketliquidator.com/tickets/8369593/KPOP-Demon-Hunters-tickets-Wed-Jul-21-2027-American-Airlines-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pQmD65i",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369593/KPOP-Demon-Hunters-tickets-Wed-Jul-21-2027-American-Airlines-Center"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-phoenix-16v0z_pj9g7lsu3",
@@ -403338,12 +403386,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369607",
+        "url": "https://www.ticketliquidator.com/tickets/8369607/KPOP-Demon-Hunters-tickets-Wed-Sep-8-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0oZYff",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z"
+    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369607/KPOP-Demon-Hunters-tickets-Wed-Sep-8-2027-Ziggo-Dome"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-amsterdam-z698xzbpz1krbj60f",
@@ -403392,12 +403448,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369608",
+        "url": "https://www.ticketliquidator.com/tickets/8369608/KPOP-Demon-Hunters-tickets-Thu-Sep-9-2027-Ziggo-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1krbj60F",
     "timezone": "Europe/Amsterdam",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z"
+    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369608/KPOP-Demon-Hunters-tickets-Thu-Sep-9-2027-Ziggo-Dome"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-fornebu-z698xzb_z1k-p0apk",
@@ -403608,12 +403672,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369645",
+        "url": "https://www.ticketliquidator.com/tickets/8369645/KPOP-Demon-Hunters-tickets-Tue-Oct-12-2027-OVO-Hydro",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_pGkRYBQVG",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369645/KPOP-Demon-Hunters-tickets-Tue-Oct-12-2027-OVO-Hydro"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-birmingham-1aegz_pgkm7p-do",
@@ -403824,11 +403896,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8370370",
+        "url": "https://www.ticketliquidator.com/tickets/8370370/The-Rankin-Family-tickets-Fri-Mar-12-2027-Northern-Alberta-Jubilee-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPbMGA2HetJ",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370370/The-Rankin-Family-tickets-Fri-Mar-12-2027-Northern-Alberta-Jubilee-Auditorium"
   },
   {
     "id": "tm-the-rankin-family-2027-calgary-1k78vpbmgac53nm",
@@ -404142,11 +404222,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8370341",
+        "url": "https://www.ticketliquidator.com/tickets/8370341/The-Rankin-Family-tickets-Mon-Mar-29-2027-Theatre-Beanfield",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk40GkdkMkAr",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370341/The-Rankin-Family-tickets-Mon-Mar-29-2027-Theatre-Beanfield"
   },
   {
     "id": "tm-the-rankin-family-2027-moncton-1aszk4pgkeuypli",

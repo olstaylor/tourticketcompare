@@ -542,12 +542,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369960",
+        "url": "https://www.ticketliquidator.com/tickets/8369960/Jodeci-tickets-Sat-Nov-14-2026-KeyBank-State-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAed_7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369960/Jodeci-tickets-Sat-Nov-14-2026-KeyBank-State-Theatre"
   },
   {
     "id": "tm-jodeci-2026-bristol-g5viz_25fd7l0",

@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8370370",
+        "url": "https://www.ticketliquidator.com/tickets/8370370/The-Rankin-Family-tickets-Fri-Mar-12-2027-Northern-Alberta-Jubilee-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPbMGA2HetJ",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370370/The-Rankin-Family-tickets-Fri-Mar-12-2027-Northern-Alberta-Jubilee-Auditorium"
   },
   {
     "id": "tm-the-rankin-family-2027-calgary-1k78vpbmgac53nm",
@@ -364,11 +372,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8370341",
+        "url": "https://www.ticketliquidator.com/tickets/8370341/The-Rankin-Family-tickets-Mon-Mar-29-2027-Theatre-Beanfield",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk40GkdkMkAr",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370341/The-Rankin-Family-tickets-Mon-Mar-29-2027-Theatre-Beanfield"
   },
   {
     "id": "tm-the-rankin-family-2027-moncton-1aszk4pgkeuypli",

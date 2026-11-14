@@ -55,7 +55,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
-      pull-requests: read
+      pull-requests: write
     outputs:
       proceed: ${{ steps.open.outputs.proceed }}
     steps:
@@ -69,6 +69,17 @@ jobs:
             echo "proceed=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+          # A refresh PR auto-merges within about an hour. One still open after
+          # 24 hours has gone stale (for example merge conflicts after main moved)
+          # and would block every later run, so close it; this run rebuilds it.
+          cutoff=$(date -u -d '24 hours ago' +%Y-%m-%dT%H:%M:%SZ)
+          for stale in $(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
+            --json number,headRefName,createdAt \
+            --jq ".[] | select((.headRefName | startswith(\"automation/artist-city-reports-\")) and .createdAt < \"$cutoff\") | .number"); do
+            gh pr close "$stale" --repo "$GITHUB_REPOSITORY" --delete-branch \
+              --comment "Closed: this refresh PR was still open after 24 hours (stale), so the next run rebuilds the reports from current snapshots."
+            echo "Closed stale city report refresh PR #$stale." >> "$GITHUB_STEP_SUMMARY"
+          done
           open=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --json headRefName \
             --jq '[.[] | select(.headRefName | startswith("automation/artist-city-reports-"))] | length')
           if [ "$open" -gt 0 ]; then

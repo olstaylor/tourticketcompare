@@ -67,12 +67,12 @@ Open items:
 
 ### 4. Routine data hygiene (recurring)
 
-- **`needs_recheck`:** 716 events (recounted 2026-10-12; 664 upcoming). This is not a manual CTA queue; runtime checks handle the destinations.
+- **`needs_recheck`:** 911 events (recounted 2026-11-14; 657 upcoming). This is not a manual CTA queue; runtime checks handle the destinations.
   - 72 upcoming ones (of 89 in total) lack a verified resale lane (2026-10-05). Once past their public on-sale, they still show the Ticketmaster button.
   - The count climbs with each large ingestion run. Recount it with the same test `scripts/validate-status-counts.mjs` uses.
   - Compute "renders no CTA" claims with `eventLinkPublishable` and `providerEventPublishable`, never by hand.
 - **Guide source re-verification (human-only):** the owner last did this on 2026-09-21 across all 18 guides. Source sites return 403 to agents, so an agent must never bump a `last_checked` date. `npm run guides:sources:check` only covers reachability.
-- **Blank tour labels:** 690 events on indexable artists have an empty `tour_name` (2026-10-06, after the verified backfills in #1370, #1372 and #1373), mostly from Ticketmaster ingestion. Backfill only with verified tour names; never infer them from URLs or `event_name`.
+- **Blank tour labels:** 3,411 events across 229 indexable artists have an empty `tour_name` (counted 2026-11-14; it was 690 on 2026-10-06), mostly from Ticketmaster ingestion and auto-promoted artists. Backfill only with verified tour names; never infer them from URLs or `event_name`.
 - **`events-index.json`:** `validate-partitions.mjs` enforces it. Fix any failure with `npm run events:partition`, never by hand.
 - **Tombstones:** when deleting an `events.json` row that Ticketmaster still lists, add it to `data/deleted-events.json` in the same change (`docs/PROVIDER_SYNC.md`).
 - **Non-performance rows (resolved 2026-10-05):** the owner approved removing 14 upgrade, premium-package and box-seat rows (including the three Hamburg box-seat rows previously listed here). 13 are removed and tombstoned by Ticketmaster id only, so the real concert listing at the same venue and night can still be ingested. The 14th, charli-xcx Glasgow 2027-02-15 "Venue Premium" (`tm-charli-xcx-2027-glasgow-1auzkftgkez7jxt`), is a frozen event-indexing pilot member. The owner decided on 2026-10-05 to leave it until the pilot ends, then remove it and tombstone it by Ticketmaster id like the others (`ticketmaster_event_id` `36006529B81268A9`). The pilot has no fixed end date; the guard in `audit:indexable-surface:check` fails while the key is pinned and its row is missing.

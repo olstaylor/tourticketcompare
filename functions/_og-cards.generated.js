@@ -507,7 +507,6 @@ export const OG_CARDS = {
   "/artists/niall-horan": {"url":"/og/artists-niall-horan.png","alt":"Tickets & tour dates: Niall Horan"},
   "/artists/niall-horan/presale": {"url":"/og/artists-niall-horan-presale.png","alt":"Presale: Niall Horan"},
   "/artists/niall-horan/ticket-prices": {"url":"/og/artists-niall-horan-ticket-prices.png","alt":"Ticket prices: Niall Horan"},
-  "/artists/niall-horan/tickets/belfast-united-kingdom": {"url":"/og/artists-niall-horan-tickets-belfast-united-kingdom.png","alt":"Tickets: Niall Horan in Belfast"},
   "/artists/niall-horan/tickets/ciudad-de-m-xico-mexico": {"url":"/og/artists-niall-horan-tickets-ciudad-de-m-xico-mexico.png","alt":"Tickets: Niall Horan in Ciudad de México"},
   "/artists/nickelback": {"url":"/og/artists-nickelback.png","alt":"Tickets & tour dates: Nickelback"},
   "/artists/nickelback/ticket-prices": {"url":"/og/artists-nickelback-ticket-prices.png","alt":"Ticket prices: Nickelback"},

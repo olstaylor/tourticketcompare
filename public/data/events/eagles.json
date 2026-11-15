@@ -93,7 +93,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "17006484FED61E34",
     "ticketmaster_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-14-2026/event/17006484FED61E34",
-    "seatgeek_url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-14-8-30-pm/concert/18219946",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-at-the-venetian-resort-11-14-2026--concerts-adult-contemporary/production/6981869",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-14-2026/event/17006484FED61E34",
@@ -109,11 +109,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18219946,
-        "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-14-8-30-pm/concert/18219946",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6981869,
@@ -194,7 +194,7 @@
         "event_id": 18219952,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-27-8-30-pm/concert/18219952",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -283,7 +283,7 @@
         "event_id": 18219951,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-11-28-8-30-pm/concert/18219951",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -372,7 +372,7 @@
         "event_id": 18355049,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-04-8-30-pm/concert/18355049",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -461,7 +461,7 @@
         "event_id": 18355050,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-05-8-30-pm/concert/18355050",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -550,7 +550,7 @@
         "event_id": 18355052,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-11-8-30-pm/concert/18355052",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -639,7 +639,7 @@
         "event_id": 18355051,
         "url": "https://seatgeek.com/eagles-tickets/las-vegas-nevada-sphere-2026-12-12-8-30-pm/concert/18355051",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

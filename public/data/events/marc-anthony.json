@@ -30,7 +30,7 @@
         "event_id": 18164939,
         "url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-11-20-9-pm/concert/18164939",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -104,7 +104,7 @@
         "event_id": 18164938,
         "url": "https://seatgeek.com/marc-anthony-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-11-21-9-pm/concert/18164938",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1996,7 +1996,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAkAd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAd",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/marc-anthony-tickets/glendale-arizona-desert-diamond-arena-2027-05-07-8-pm/concert/18753495",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAd",
@@ -2012,11 +2012,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753495,
+        "url": "https://seatgeek.com/marc-anthony-tickets/glendale-arizona-desert-diamond-arena-2027-05-07-8-pm/concert/18753495",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -1236,7 +1236,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B0064CABED5F446",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
-    "seatgeek_url": "https://seatgeek.com/amble-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-11-14-8-pm/concert/18312209",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/amble-tickets-nashville-brooklyn-bowl---nashville-11-14-2026/production/7165441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-nashville-tennessee-11-14-2026/event/1B0064CABED5F446",
@@ -1252,11 +1252,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18312209,
-        "url": "https://seatgeek.com/amble-tickets/nashville-tennessee-brooklyn-bowl-nashville-2026-11-14-8-pm/concert/18312209",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7165441,
@@ -1329,7 +1329,7 @@
         "event_id": 18222773,
         "url": "https://seatgeek.com/amble-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2026-11-16-7-pm/concert/18222773",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1402,7 +1402,7 @@
         "event_id": 18222798,
         "url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1460,7 +1460,7 @@
         "event_id": 18223872,
         "url": "https://seatgeek.com/amble-tickets/dallas-texas-the-echo-lounge-music-hall-2026-11-18-7-pm/concert/18223872",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

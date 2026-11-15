@@ -596,7 +596,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006562C8EA8A0F",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-philadelphia-pennsylvania-05-12-2027/event/02006562C8EA8A0F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2027-05-12-7-30-pm/concert/18746640",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-philadelphia-td-pavilion-at-the-mann-5-12-2027/production/7824366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-philadelphia-pennsylvania-05-12-2027/event/02006562C8EA8A0F",
@@ -612,11 +612,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746640,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/philadelphia-pennsylvania-td-pavilion-at-the-mann-center-2027-05-12-7-30-pm/concert/18746640",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824366,
@@ -1356,7 +1356,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000656470D028EE",
     "ticketmaster_url": "https://www.ticketmaster.ca/kings-of-leon-toronto-ontario-06-02-2027/event/1000656470D028EE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/toronto-canada-rbc-amphitheatre-2027-06-02-7-30-pm/concert/18746695",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-toronto-rbc-amphitheatre-6-2-2027/production/7824372",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kings-of-leon-toronto-ontario-06-02-2027/event/1000656470D028EE",
@@ -1372,11 +1372,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746695,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/toronto-canada-rbc-amphitheatre-2027-06-02-7-30-pm/concert/18746695",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824372,
@@ -1417,7 +1417,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "21006564869E0BE3",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-shakopee-minnesota-06-05-2027/event/21006564869E0BE3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/shakopee-minnesota-mystic-lake-amphitheater-2027-06-05-7-pm/concert/18746658",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-shakopee-mystic-lake-amphitheater---shakopee-6-5-2027/production/7824340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-shakopee-minnesota-06-05-2027/event/21006564869E0BE3",
@@ -1433,11 +1433,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746658,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/shakopee-minnesota-mystic-lake-amphitheater-2027-06-05-7-pm/concert/18746658",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824340,
@@ -2990,7 +2990,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAdoK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAdoK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-20-7-30-pm/concert/18746670",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAdoK",
@@ -3006,11 +3006,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746670,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/morrison-colorado-red-rocks-amphitheatre-2027-09-20-7-30-pm/concert/18746670",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

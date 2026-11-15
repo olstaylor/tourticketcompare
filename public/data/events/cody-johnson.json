@@ -470,5 +470,167 @@
     ],
     "ticket_limit": 8,
     "genre": "Country"
+  },
+  {
+    "id": "tm-cody-johnson-2027-albany-k7vgf_4nhl9nn",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "MVP Arena",
+    "datetime_iso": "2027-03-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000655ABCAD78E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-13-2027/event/0000655ABCAD78E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-13-2027/event/0000655ABCAD78E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000655ABCAD78E3",
+        "discovery_event_id": "k7vGF_4nHl9NN",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-13-2027/event/0000655ABCAD78E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_4nHl9NN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-cody-johnson-2027-fargo-vv1akzk4fgkejxfzw",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Fargo",
+    "country": "United States Of America",
+    "venue": "Fargodome",
+    "datetime_iso": "2027-03-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006554A6F88E32",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-fargo-north-dakota-03-20-2027/event/06006554A6F88E32",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-fargo-north-dakota-03-20-2027/event/06006554A6F88E32",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006554A6F88E32",
+        "discovery_event_id": "vv1AkZk4fGkeJXFzw",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-fargo-north-dakota-03-20-2027/event/06006554A6F88E32",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4fGkeJXFzw",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-cody-johnson-2027-charlottesville-vv1avzk4ngkde3rwt",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "John Paul Jones Arena",
+    "datetime_iso": "2027-04-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006563E749ECA9",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-03-2027/event/01006563E749ECA9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-03-2027/event/01006563E749ECA9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006563E749ECA9",
+        "discovery_event_id": "vv1AvZk4NGkdE3rwt",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-03-2027/event/01006563E749ECA9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4NGkdE3rwt",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-14",
+  "asOf": "2026-11-15",
   "artistSlug": "carly-rae-jepsen",
   "artist": "Carly Rae Jepsen",
   "artistPageIndexable": true,
@@ -11,8 +11,8 @@
   "siteLabel": "TicketNetwork",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-14T18:05:02.838Z",
-  "capturedTo": "2026-11-14T18:06:20.882Z",
+  "capturedFrom": "2026-11-15T10:58:38.541Z",
+  "capturedTo": "2026-11-15T10:59:06.585Z",
   "tourDates": 27,
   "coverage": {
     "marketCities": 20,
@@ -35,7 +35,7 @@
     "localDate": "2027-05-12",
     "price": 69,
     "currency": "USD",
-    "capturedAt": "2026-11-14T18:05:04.897Z"
+    "capturedAt": "2026-11-15T10:58:41.424Z"
   },
   "high": {
     "city": "Chicago",
@@ -45,7 +45,7 @@
     "localDate": "2027-05-21",
     "price": 332.35,
     "currency": "USD",
-    "capturedAt": "2026-11-14T18:05:05.827Z"
+    "capturedAt": "2026-11-15T10:58:42.686Z"
   },
   "median": 94.875,
   "ratio": 4.8,
@@ -58,7 +58,7 @@
       "localDate": "2027-05-12",
       "price": 69,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:04.897Z",
+      "capturedAt": "2026-11-15T10:58:41.424Z",
       "path": "/artists/carly-rae-jepsen/tickets/charlotte-united-states"
     },
     {
@@ -69,7 +69,7 @@
       "localDate": "2027-05-19",
       "price": 70.15,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:05.622Z",
+      "capturedAt": "2026-11-15T10:58:42.422Z",
       "path": "/artists/carly-rae-jepsen/tickets/boston-united-states"
     },
     {
@@ -80,8 +80,19 @@
       "localDate": "2027-05-07",
       "price": 73.6,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:04.124Z",
+      "capturedAt": "2026-11-15T10:58:40.455Z",
       "path": "/artists/carly-rae-jepsen/tickets/austin-united-states"
+    },
+    {
+      "city": "Morrison",
+      "country": "United States",
+      "venue": "Red Rocks Amphitheatre",
+      "eventId": "tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz",
+      "localDate": "2027-04-25",
+      "price": 73.6,
+      "currency": "USD",
+      "capturedAt": "2026-11-15T10:59:06.351Z",
+      "path": "/artists/carly-rae-jepsen/tickets/morrison-united-states"
     },
     {
       "city": "Houston",
@@ -91,19 +102,8 @@
       "localDate": "2027-05-08",
       "price": 74.75,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:04.321Z",
+      "capturedAt": "2026-11-15T10:58:40.696Z",
       "path": "/artists/carly-rae-jepsen/tickets/houston-united-states"
-    },
-    {
-      "city": "Morrison",
-      "country": "United States",
-      "venue": "Red Rocks Amphitheatre",
-      "eventId": "tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz",
-      "localDate": "2027-04-25",
-      "price": 74.75,
-      "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:22.816Z",
-      "path": "/artists/carly-rae-jepsen/tickets/morrison-united-states"
     },
     {
       "city": "Detroit",
@@ -113,7 +113,7 @@
       "localDate": "2027-05-22",
       "price": 81.65,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:06.004Z",
+      "capturedAt": "2026-11-15T10:58:42.934Z",
       "path": "/artists/carly-rae-jepsen/tickets/detroit-united-states"
     },
     {
@@ -124,7 +124,7 @@
       "localDate": "2027-05-18",
       "price": 81.65,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:05.446Z",
+      "capturedAt": "2026-11-15T10:58:42.182Z",
       "path": "/artists/carly-rae-jepsen/tickets/philadelphia-united-states"
     },
     {
@@ -135,7 +135,7 @@
       "localDate": "2027-05-05",
       "price": 83.95,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:03.937Z",
+      "capturedAt": "2026-11-15T10:58:40.219Z",
       "path": "/artists/carly-rae-jepsen/tickets/irving-united-states"
     },
     {
@@ -146,7 +146,7 @@
       "localDate": "2027-04-22",
       "price": 88.55,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:03.073Z",
+      "capturedAt": "2026-11-15T10:58:38.791Z",
       "path": "/artists/carly-rae-jepsen/tickets/inglewood-united-states"
     },
     {
@@ -157,7 +157,7 @@
       "localDate": "2027-05-10",
       "price": 89.7,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:04.534Z",
+      "capturedAt": "2026-11-15T10:58:40.928Z",
       "path": "/artists/carly-rae-jepsen/tickets/nashville-united-states"
     },
     {
@@ -168,7 +168,7 @@
       "localDate": "2027-04-21",
       "price": 100.05,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:02.838Z",
+      "capturedAt": "2026-11-15T10:58:38.541Z",
       "path": "/artists/carly-rae-jepsen/tickets/san-francisco-united-states"
     },
     {
@@ -179,7 +179,7 @@
       "localDate": "2027-05-15",
       "price": 102.35,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:05.261Z",
+      "capturedAt": "2026-11-15T10:58:41.913Z",
       "path": "/artists/carly-rae-jepsen/tickets/new-york-united-states"
     },
     {
@@ -190,7 +190,7 @@
       "localDate": "2027-05-01",
       "price": 102.35,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:03.700Z",
+      "capturedAt": "2026-11-15T10:58:39.907Z",
       "path": "/artists/carly-rae-jepsen/tickets/phoenix-united-states"
     },
     {
@@ -201,7 +201,7 @@
       "localDate": "2027-04-27",
       "price": 121.9,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:06:20.882Z",
+      "capturedAt": "2026-11-15T10:59:06.585Z",
       "path": "/artists/carly-rae-jepsen/tickets/salt-lake-city-united-states"
     },
     {
@@ -212,8 +212,19 @@
       "localDate": "2027-05-11",
       "price": 123.05,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:04.715Z",
+      "capturedAt": "2026-11-15T10:58:41.186Z",
       "path": "/artists/carly-rae-jepsen/tickets/atlanta-united-states"
+    },
+    {
+      "city": "Washington",
+      "country": "United States",
+      "venue": "The Anthem",
+      "eventId": "tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn",
+      "localDate": "2027-05-14",
+      "price": 123.05,
+      "currency": "USD",
+      "capturedAt": "2026-11-15T10:58:41.668Z",
+      "path": "/artists/carly-rae-jepsen/tickets/washington-united-states"
     },
     {
       "city": "Las Vegas",
@@ -223,7 +234,7 @@
       "localDate": "2027-04-30",
       "price": 124.2,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:03.515Z",
+      "capturedAt": "2026-11-15T10:58:39.516Z",
       "path": "/artists/carly-rae-jepsen/tickets/las-vegas-united-states"
     },
     {
@@ -234,19 +245,8 @@
       "localDate": "2027-04-23",
       "price": 124.2,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:03.266Z",
+      "capturedAt": "2026-11-15T10:58:39.073Z",
       "path": "/artists/carly-rae-jepsen/tickets/san-diego-united-states"
-    },
-    {
-      "city": "Washington",
-      "country": "United States",
-      "venue": "The Anthem",
-      "eventId": "tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn",
-      "localDate": "2027-05-14",
-      "price": 133.4,
-      "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:05.073Z",
-      "path": "/artists/carly-rae-jepsen/tickets/washington-united-states"
     },
     {
       "city": "Portland",
@@ -256,7 +256,7 @@
       "localDate": "2027-04-19",
       "price": 150.65,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:22.643Z",
+      "capturedAt": "2026-11-15T10:59:06.110Z",
       "path": "/artists/carly-rae-jepsen/tickets/portland-united-states"
     },
     {
@@ -267,7 +267,7 @@
       "localDate": "2027-05-21",
       "price": 332.35,
       "currency": "USD",
-      "capturedAt": "2026-11-14T18:05:05.827Z",
+      "capturedAt": "2026-11-15T10:58:42.686Z",
       "path": "/artists/carly-rae-jepsen/tickets/chicago-united-states"
     }
   ],
@@ -283,7 +283,7 @@
         "localDate": "2027-04-19",
         "price": 125,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.019Z",
+        "capturedAt": "2026-11-15T18:01:47.360Z",
         "path": "/artists/carly-rae-jepsen/tickets/portland-united-states"
       },
       {
@@ -294,7 +294,7 @@
         "localDate": "2027-04-21",
         "price": 79,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/san-francisco-united-states"
       },
       {
@@ -303,9 +303,9 @@
         "venue": "Kia Forum",
         "eventId": "tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm",
         "localDate": "2027-04-22",
-        "price": 65,
+        "price": 67,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/inglewood-united-states"
       },
       {
@@ -316,7 +316,7 @@
         "localDate": "2027-04-23",
         "price": 106,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/san-diego-united-states"
       },
       {
@@ -327,7 +327,7 @@
         "localDate": "2027-04-25",
         "price": 82,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.019Z",
+        "capturedAt": "2026-11-15T18:01:47.360Z",
         "path": "/artists/carly-rae-jepsen/tickets/morrison-united-states"
       },
       {
@@ -338,7 +338,7 @@
         "localDate": "2027-04-27",
         "price": 102,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.019Z",
+        "capturedAt": "2026-11-15T18:01:47.360Z",
         "path": "/artists/carly-rae-jepsen/tickets/salt-lake-city-united-states"
       },
       {
@@ -349,7 +349,7 @@
         "localDate": "2027-04-30",
         "price": 101,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/las-vegas-united-states"
       },
       {
@@ -358,9 +358,9 @@
         "venue": "Arizona Financial Theatre",
         "eventId": "tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n",
         "localDate": "2027-05-01",
-        "price": 87,
+        "price": 89,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/phoenix-united-states"
       },
       {
@@ -371,7 +371,7 @@
         "localDate": "2027-05-05",
         "price": 82,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/irving-united-states"
       },
       {
@@ -382,7 +382,7 @@
         "localDate": "2027-05-07",
         "price": 60,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/austin-united-states"
       },
       {
@@ -393,7 +393,7 @@
         "localDate": "2027-05-08",
         "price": 65,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/houston-united-states"
       },
       {
@@ -404,7 +404,7 @@
         "localDate": "2027-05-10",
         "price": 94,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/nashville-united-states"
       },
       {
@@ -413,9 +413,9 @@
         "venue": "Coca-Cola Roxy",
         "eventId": "tm-carly-rae-jepsen-2027-atlanta-vvg1zz_kmrbzzs",
         "localDate": "2027-05-11",
-        "price": 110,
+        "price": 106,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/atlanta-united-states"
       },
       {
@@ -426,7 +426,7 @@
         "localDate": "2027-05-12",
         "price": 59,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/charlotte-united-states"
       },
       {
@@ -435,9 +435,9 @@
         "venue": "The Anthem",
         "eventId": "tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn",
         "localDate": "2027-05-14",
-        "price": 104,
+        "price": 96,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/washington-united-states"
       },
       {
@@ -448,7 +448,7 @@
         "localDate": "2027-05-15",
         "price": 80,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/new-york-united-states"
       },
       {
@@ -459,7 +459,7 @@
         "localDate": "2027-05-19",
         "price": 68,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/boston-united-states"
       },
       {
@@ -470,7 +470,7 @@
         "localDate": "2027-05-22",
         "price": 80,
         "currency": "USD",
-        "capturedAt": "2026-11-14T14:40:17.018Z",
+        "capturedAt": "2026-11-15T18:01:47.359Z",
         "path": "/artists/carly-rae-jepsen/tickets/detroit-united-states"
       }
     ]

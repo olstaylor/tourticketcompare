@@ -1538,7 +1538,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-milwaukee-wisconsin-11-21-2026/event/0700634DB37053C5",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1590,11 +1590,6 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-10-24T15:00:00Z",
-        "end": "2026-11-15T04:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2025-10-24T15:00:00Z",

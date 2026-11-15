@@ -87,7 +87,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-15",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -122,6 +122,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAo8V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Hip-Hop/Rap"
   }
 ]

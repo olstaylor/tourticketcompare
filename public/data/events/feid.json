@@ -2939,7 +2939,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-23-05-2027/event/1400655FE8958949",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2981,8 +2981,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av8Z_4GkTIPbPa",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-11-14T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],

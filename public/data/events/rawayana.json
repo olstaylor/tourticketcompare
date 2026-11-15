@@ -259,7 +259,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-houston-713-music-hall-11-18-2026--concerts-pop/production/6791762",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-houston-texas-11-18-2026/event/3A00646CA0F69CE9",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -321,13 +321,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/rawayana-houston-tickets-11-18-2026/event/107140388",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-19T15:00:00Z",
-        "end": "2026-11-14T18:00:00Z"
-      }
     ],
     "ticket_limit": 6,
     "genre": "Pop"

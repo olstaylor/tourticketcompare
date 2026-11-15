@@ -1449,7 +1449,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-denver-fillmore-auditorium-denver-12-12-2026--concerts-hard-rock/production/7052882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-denver-colorado-12-12-2026/event/1E0064ACE8D5E3F3",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1499,13 +1499,6 @@
     "ticketmaster_discovery_event_id": "G5vzZ_1SIgr2S",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T16:00:00Z",
-        "end": "2026-11-15T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

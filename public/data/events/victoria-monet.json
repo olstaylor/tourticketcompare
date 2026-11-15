@@ -869,7 +869,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-toronto-coca-cola-coliseum-11-21-2026/production/7540337",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-toronto-ontario-11-21-2026/event/10006521DE5B8A2C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -912,11 +912,6 @@
       "LIVE NATION CANADA-ROGERS"
     ],
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-09-16T14:00:00Z",
-        "end": "2026-11-15T03:00:00Z"
-      },
       {
         "name": "2 for $50 all-in Offer",
         "start": "2026-10-23T17:00:00Z",

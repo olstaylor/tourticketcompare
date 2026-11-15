@@ -776,7 +776,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-pittsburgh-ppg-paints-arena-11-21-2026/production/7393834",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-pittsburgh-pennsylvania-11-21-2026/event/16006503DE3BB43A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -836,13 +836,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184422",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184422/Pentatonix-tickets-Sat-Nov-21-2026-PPG-Paints-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-pittsburgh-tickets-11-21-2026/event/107476103",
-    "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-15T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

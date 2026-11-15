@@ -1945,7 +1945,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/kpop-demon-hunters-golden-world-tour-tickets/856905953?language=en-us",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1995,12 +1995,12 @@
       {
         "name": "For The Fans Presale",
         "start": "2026-11-19T09:00:00Z",
-        "end": "2026-11-19T21:00:00Z"
+        "end": "2026-11-20T08:00:00Z"
       },
       {
         "name": "AEG Presale",
         "start": "2026-11-19T13:00:00Z",
-        "end": "2026-11-19T21:00:00Z"
+        "end": "2026-11-20T08:00:00Z"
       }
     ]
   },

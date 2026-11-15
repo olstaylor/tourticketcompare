@@ -2,9 +2,9 @@
 title: "Carly Rae Jepsen tour tickets: listed prices city by city"
 seo_title: "Carly Rae Jepsen ticket prices by city"
 description: "Carly Rae Jepsen tour: the next date in 20 cities, $69 in Charlotte at the low end, $332.35 in Chicago at the high end."
-summary: "TicketNetwork's lowest listed price for the next Carly Rae Jepsen date in each of 20 cities, each figure with the time it was captured. Snapshots 14 November 2026."
+summary: "TicketNetwork's lowest listed price for the next Carly Rae Jepsen date in each of 20 cities, each figure with the time it was captured. Snapshots 15 November 2026."
 date: 2026-10-26
-updated: 2026-11-14
+updated: 2026-11-15
 status: published
 tags:
   - tour-data
@@ -20,26 +20,26 @@ Carly Rae Jepsen's Day and Night Tour has 27 dates that TourTicketCompare tracks
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Charlotte](/artists/carly-rae-jepsen/tickets/charlotte-united-states) | 12 May 2027 | Skyla Credit Union Amphitheatre | $69 | TicketNetwork | 14 November, 18:05 UTC |
-| [Boston](/artists/carly-rae-jepsen/tickets/boston-united-states) | 19 May 2027 | MGM Music Hall at Fenway | $70.15 | TicketNetwork | 14 November, 18:05 UTC |
-| [Austin](/artists/carly-rae-jepsen/tickets/austin-united-states) | 7 May 2027 | Moody Amphitheater | $73.60 | TicketNetwork | 14 November, 18:05 UTC |
-| [Houston](/artists/carly-rae-jepsen/tickets/houston-united-states) | 8 May 2027 | 713 Music Hall | $74.75 | TicketNetwork | 14 November, 18:05 UTC |
-| [Morrison](/artists/carly-rae-jepsen/tickets/morrison-united-states) | 25 April 2027 | Red Rocks Amphitheatre | $74.75 | TicketNetwork | 14 November, 18:05 UTC |
-| [Detroit](/artists/carly-rae-jepsen/tickets/detroit-united-states) | 22 May 2027 | Fox Theatre Detroit | $81.65 | TicketNetwork | 14 November, 18:05 UTC |
-| [Philadelphia](/artists/carly-rae-jepsen/tickets/philadelphia-united-states) | 18 May 2027 | The Met Presented by Highmark | $81.65 | TicketNetwork | 14 November, 18:05 UTC |
-| [Irving](/artists/carly-rae-jepsen/tickets/irving-united-states) | 5 May 2027 | The Pavilion at Toyota Music Factory | $83.95 | TicketNetwork | 14 November, 18:05 UTC |
-| [Inglewood](/artists/carly-rae-jepsen/tickets/inglewood-united-states) | 22 April 2027 | Kia Forum | $88.55 | TicketNetwork | 14 November, 18:05 UTC |
-| [Nashville](/artists/carly-rae-jepsen/tickets/nashville-united-states) | 10 May 2027 | The Truth | $89.70 | TicketNetwork | 14 November, 18:05 UTC |
-| [San Francisco](/artists/carly-rae-jepsen/tickets/san-francisco-united-states) | 21 April 2027 | Bill Graham Civic Auditorium | $100.05 | TicketNetwork | 14 November, 18:05 UTC |
-| [New York](/artists/carly-rae-jepsen/tickets/new-york-united-states) | 15 May 2027 | Madison Square Garden | $102.35 | TicketNetwork | 14 November, 18:05 UTC |
-| [Phoenix](/artists/carly-rae-jepsen/tickets/phoenix-united-states) | 1 May 2027 | Arizona Financial Theatre | $102.35 | TicketNetwork | 14 November, 18:05 UTC |
-| [Salt Lake City](/artists/carly-rae-jepsen/tickets/salt-lake-city-united-states) | 27 April 2027 | Rockwell at The Complex - UT | $121.90 | TicketNetwork | 14 November, 18:06 UTC |
-| [Atlanta](/artists/carly-rae-jepsen/tickets/atlanta-united-states) | 11 May 2027 | Coca-Cola Roxy | $123.05 | TicketNetwork | 14 November, 18:05 UTC |
-| [Las Vegas](/artists/carly-rae-jepsen/tickets/las-vegas-united-states) | 30 April 2027 | The Cosmopolitan of Las Vegas | $124.20 | TicketNetwork | 14 November, 18:05 UTC |
-| [San Diego](/artists/carly-rae-jepsen/tickets/san-diego-united-states) | 23 April 2027 | Petco Park | $124.20 | TicketNetwork | 14 November, 18:05 UTC |
-| [Washington](/artists/carly-rae-jepsen/tickets/washington-united-states) | 14 May 2027 | The Anthem | $133.40 | TicketNetwork | 14 November, 18:05 UTC |
-| [Portland](/artists/carly-rae-jepsen/tickets/portland-united-states) | 19 April 2027 | Arlene Schnitzer Concert Hall | $150.65 | TicketNetwork | 14 November, 18:05 UTC |
-| [Chicago](/artists/carly-rae-jepsen/tickets/chicago-united-states) | 21 May 2027 | The Chicago Theatre | $332.35 | TicketNetwork | 14 November, 18:05 UTC |
+| [Charlotte](/artists/carly-rae-jepsen/tickets/charlotte-united-states) | 12 May 2027 | Skyla Credit Union Amphitheatre | $69 | TicketNetwork | 15 November, 10:58 UTC |
+| [Boston](/artists/carly-rae-jepsen/tickets/boston-united-states) | 19 May 2027 | MGM Music Hall at Fenway | $70.15 | TicketNetwork | 15 November, 10:58 UTC |
+| [Austin](/artists/carly-rae-jepsen/tickets/austin-united-states) | 7 May 2027 | Moody Amphitheater | $73.60 | TicketNetwork | 15 November, 10:58 UTC |
+| [Morrison](/artists/carly-rae-jepsen/tickets/morrison-united-states) | 25 April 2027 | Red Rocks Amphitheatre | $73.60 | TicketNetwork | 15 November, 10:59 UTC |
+| [Houston](/artists/carly-rae-jepsen/tickets/houston-united-states) | 8 May 2027 | 713 Music Hall | $74.75 | TicketNetwork | 15 November, 10:58 UTC |
+| [Detroit](/artists/carly-rae-jepsen/tickets/detroit-united-states) | 22 May 2027 | Fox Theatre Detroit | $81.65 | TicketNetwork | 15 November, 10:58 UTC |
+| [Philadelphia](/artists/carly-rae-jepsen/tickets/philadelphia-united-states) | 18 May 2027 | The Met Presented by Highmark | $81.65 | TicketNetwork | 15 November, 10:58 UTC |
+| [Irving](/artists/carly-rae-jepsen/tickets/irving-united-states) | 5 May 2027 | The Pavilion at Toyota Music Factory | $83.95 | TicketNetwork | 15 November, 10:58 UTC |
+| [Inglewood](/artists/carly-rae-jepsen/tickets/inglewood-united-states) | 22 April 2027 | Kia Forum | $88.55 | TicketNetwork | 15 November, 10:58 UTC |
+| [Nashville](/artists/carly-rae-jepsen/tickets/nashville-united-states) | 10 May 2027 | The Truth | $89.70 | TicketNetwork | 15 November, 10:58 UTC |
+| [San Francisco](/artists/carly-rae-jepsen/tickets/san-francisco-united-states) | 21 April 2027 | Bill Graham Civic Auditorium | $100.05 | TicketNetwork | 15 November, 10:58 UTC |
+| [New York](/artists/carly-rae-jepsen/tickets/new-york-united-states) | 15 May 2027 | Madison Square Garden | $102.35 | TicketNetwork | 15 November, 10:58 UTC |
+| [Phoenix](/artists/carly-rae-jepsen/tickets/phoenix-united-states) | 1 May 2027 | Arizona Financial Theatre | $102.35 | TicketNetwork | 15 November, 10:58 UTC |
+| [Salt Lake City](/artists/carly-rae-jepsen/tickets/salt-lake-city-united-states) | 27 April 2027 | Rockwell at The Complex - UT | $121.90 | TicketNetwork | 15 November, 10:59 UTC |
+| [Atlanta](/artists/carly-rae-jepsen/tickets/atlanta-united-states) | 11 May 2027 | Coca-Cola Roxy | $123.05 | TicketNetwork | 15 November, 10:58 UTC |
+| [Washington](/artists/carly-rae-jepsen/tickets/washington-united-states) | 14 May 2027 | The Anthem | $123.05 | TicketNetwork | 15 November, 10:58 UTC |
+| [Las Vegas](/artists/carly-rae-jepsen/tickets/las-vegas-united-states) | 30 April 2027 | The Cosmopolitan of Las Vegas | $124.20 | TicketNetwork | 15 November, 10:58 UTC |
+| [San Diego](/artists/carly-rae-jepsen/tickets/san-diego-united-states) | 23 April 2027 | Petco Park | $124.20 | TicketNetwork | 15 November, 10:58 UTC |
+| [Portland](/artists/carly-rae-jepsen/tickets/portland-united-states) | 19 April 2027 | Arlene Schnitzer Concert Hall | $150.65 | TicketNetwork | 15 November, 10:59 UTC |
+| [Chicago](/artists/carly-rae-jepsen/tickets/chicago-united-states) | 21 May 2027 | The Chicago Theatre | $332.35 | TicketNetwork | 15 November, 10:58 UTC |
 
 Each figure is the lowest listed price on TicketNetwork for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -49,24 +49,24 @@ Vivid Seats also had a recent listed price for the next date in 18 of these citi
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Portland](/artists/carly-rae-jepsen/tickets/portland-united-states) | 19 April 2027 | Arlene Schnitzer Concert Hall | $125 | Vivid Seats | 14 November, 14:40 UTC |
-| [San Francisco](/artists/carly-rae-jepsen/tickets/san-francisco-united-states) | 21 April 2027 | Bill Graham Civic Auditorium | $79 | Vivid Seats | 14 November, 14:40 UTC |
-| [Inglewood](/artists/carly-rae-jepsen/tickets/inglewood-united-states) | 22 April 2027 | Kia Forum | $65 | Vivid Seats | 14 November, 14:40 UTC |
-| [San Diego](/artists/carly-rae-jepsen/tickets/san-diego-united-states) | 23 April 2027 | Petco Park | $106 | Vivid Seats | 14 November, 14:40 UTC |
-| [Morrison](/artists/carly-rae-jepsen/tickets/morrison-united-states) | 25 April 2027 | Red Rocks Amphitheatre | $82 | Vivid Seats | 14 November, 14:40 UTC |
-| [Salt Lake City](/artists/carly-rae-jepsen/tickets/salt-lake-city-united-states) | 27 April 2027 | Rockwell at The Complex - UT | $102 | Vivid Seats | 14 November, 14:40 UTC |
-| [Las Vegas](/artists/carly-rae-jepsen/tickets/las-vegas-united-states) | 30 April 2027 | The Cosmopolitan of Las Vegas | $101 | Vivid Seats | 14 November, 14:40 UTC |
-| [Phoenix](/artists/carly-rae-jepsen/tickets/phoenix-united-states) | 1 May 2027 | Arizona Financial Theatre | $87 | Vivid Seats | 14 November, 14:40 UTC |
-| [Irving](/artists/carly-rae-jepsen/tickets/irving-united-states) | 5 May 2027 | The Pavilion at Toyota Music Factory | $82 | Vivid Seats | 14 November, 14:40 UTC |
-| [Austin](/artists/carly-rae-jepsen/tickets/austin-united-states) | 7 May 2027 | Moody Amphitheater | $60 | Vivid Seats | 14 November, 14:40 UTC |
-| [Houston](/artists/carly-rae-jepsen/tickets/houston-united-states) | 8 May 2027 | 713 Music Hall | $65 | Vivid Seats | 14 November, 14:40 UTC |
-| [Nashville](/artists/carly-rae-jepsen/tickets/nashville-united-states) | 10 May 2027 | The Truth | $94 | Vivid Seats | 14 November, 14:40 UTC |
-| [Atlanta](/artists/carly-rae-jepsen/tickets/atlanta-united-states) | 11 May 2027 | Coca-Cola Roxy | $110 | Vivid Seats | 14 November, 14:40 UTC |
-| [Charlotte](/artists/carly-rae-jepsen/tickets/charlotte-united-states) | 12 May 2027 | Skyla Credit Union Amphitheatre | $59 | Vivid Seats | 14 November, 14:40 UTC |
-| [Washington](/artists/carly-rae-jepsen/tickets/washington-united-states) | 14 May 2027 | The Anthem | $104 | Vivid Seats | 14 November, 14:40 UTC |
-| [New York](/artists/carly-rae-jepsen/tickets/new-york-united-states) | 15 May 2027 | Madison Square Garden | $80 | Vivid Seats | 14 November, 14:40 UTC |
-| [Boston](/artists/carly-rae-jepsen/tickets/boston-united-states) | 19 May 2027 | MGM Music Hall at Fenway | $68 | Vivid Seats | 14 November, 14:40 UTC |
-| [Detroit](/artists/carly-rae-jepsen/tickets/detroit-united-states) | 22 May 2027 | Fox Theatre Detroit | $80 | Vivid Seats | 14 November, 14:40 UTC |
+| [Portland](/artists/carly-rae-jepsen/tickets/portland-united-states) | 19 April 2027 | Arlene Schnitzer Concert Hall | $125 | Vivid Seats | 15 November, 18:01 UTC |
+| [San Francisco](/artists/carly-rae-jepsen/tickets/san-francisco-united-states) | 21 April 2027 | Bill Graham Civic Auditorium | $79 | Vivid Seats | 15 November, 18:01 UTC |
+| [Inglewood](/artists/carly-rae-jepsen/tickets/inglewood-united-states) | 22 April 2027 | Kia Forum | $67 | Vivid Seats | 15 November, 18:01 UTC |
+| [San Diego](/artists/carly-rae-jepsen/tickets/san-diego-united-states) | 23 April 2027 | Petco Park | $106 | Vivid Seats | 15 November, 18:01 UTC |
+| [Morrison](/artists/carly-rae-jepsen/tickets/morrison-united-states) | 25 April 2027 | Red Rocks Amphitheatre | $82 | Vivid Seats | 15 November, 18:01 UTC |
+| [Salt Lake City](/artists/carly-rae-jepsen/tickets/salt-lake-city-united-states) | 27 April 2027 | Rockwell at The Complex - UT | $102 | Vivid Seats | 15 November, 18:01 UTC |
+| [Las Vegas](/artists/carly-rae-jepsen/tickets/las-vegas-united-states) | 30 April 2027 | The Cosmopolitan of Las Vegas | $101 | Vivid Seats | 15 November, 18:01 UTC |
+| [Phoenix](/artists/carly-rae-jepsen/tickets/phoenix-united-states) | 1 May 2027 | Arizona Financial Theatre | $89 | Vivid Seats | 15 November, 18:01 UTC |
+| [Irving](/artists/carly-rae-jepsen/tickets/irving-united-states) | 5 May 2027 | The Pavilion at Toyota Music Factory | $82 | Vivid Seats | 15 November, 18:01 UTC |
+| [Austin](/artists/carly-rae-jepsen/tickets/austin-united-states) | 7 May 2027 | Moody Amphitheater | $60 | Vivid Seats | 15 November, 18:01 UTC |
+| [Houston](/artists/carly-rae-jepsen/tickets/houston-united-states) | 8 May 2027 | 713 Music Hall | $65 | Vivid Seats | 15 November, 18:01 UTC |
+| [Nashville](/artists/carly-rae-jepsen/tickets/nashville-united-states) | 10 May 2027 | The Truth | $94 | Vivid Seats | 15 November, 18:01 UTC |
+| [Atlanta](/artists/carly-rae-jepsen/tickets/atlanta-united-states) | 11 May 2027 | Coca-Cola Roxy | $106 | Vivid Seats | 15 November, 18:01 UTC |
+| [Charlotte](/artists/carly-rae-jepsen/tickets/charlotte-united-states) | 12 May 2027 | Skyla Credit Union Amphitheatre | $59 | Vivid Seats | 15 November, 18:01 UTC |
+| [Washington](/artists/carly-rae-jepsen/tickets/washington-united-states) | 14 May 2027 | The Anthem | $96 | Vivid Seats | 15 November, 18:01 UTC |
+| [New York](/artists/carly-rae-jepsen/tickets/new-york-united-states) | 15 May 2027 | Madison Square Garden | $80 | Vivid Seats | 15 November, 18:01 UTC |
+| [Boston](/artists/carly-rae-jepsen/tickets/boston-united-states) | 19 May 2027 | MGM Music Hall at Fenway | $68 | Vivid Seats | 15 November, 18:01 UTC |
+| [Detroit](/artists/carly-rae-jepsen/tickets/detroit-united-states) | 22 May 2027 | Fox Theatre Detroit | $80 | Vivid Seats | 15 November, 18:01 UTC |
 
 ## How this was worked out
 

@@ -80,9 +80,9 @@ concurrency:
 jobs:
   new-shows:
     runs-on: ubuntu-latest
-    # Queueing (up to 14 minutes) sits outside the 59-minute publishing step,
+    # Queueing (up to 30 minutes) sits outside the 59-minute publishing step,
     # which holds the App token minted just before it.
-    timeout-minutes: 79
+    timeout-minutes: 95
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -93,7 +93,7 @@ jobs:
         # their merges. See scripts/wait-for-writer-lanes.mjs.
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 14
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 30
 
       - name: Setup Node.js
         uses: actions/setup-node@v5

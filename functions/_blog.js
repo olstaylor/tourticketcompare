@@ -70,6 +70,7 @@ function normalizePost(raw) {
     dateModified,
     status: text(raw.status) || "published",
     author: text(raw.author) || "TourTicketCompare",
+    review: text(raw.review) === "automated" ? "automated" : "",
     tags: slugList(raw.tags),
     relatedGuides: slugList(raw.relatedGuides),
     relatedArtists: slugList(raw.relatedArtists),

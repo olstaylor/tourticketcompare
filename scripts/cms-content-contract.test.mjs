@@ -75,6 +75,7 @@ const COLLECTIONS = [
       "status",
       "tags",
       "author",
+      "review",
       "related_guides",
       "related_artists",
       "sources"

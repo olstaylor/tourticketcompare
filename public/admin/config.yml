@@ -318,6 +318,13 @@ collections:
           Lowercase, hyphenated. A tag page is only indexed once two or more
           published posts share the tag.
 
+      - name: review
+        label: Review marker
+        widget: hidden
+        required: false
+        # Set by the automated publisher ("automated"); never typed by an
+        # editor. A hidden field is kept so a browser edit does not drop it.
+
       - name: related_guides
         label: Related guides
         widget: relation

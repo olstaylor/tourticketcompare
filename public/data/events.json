@@ -407918,5 +407918,3662 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6vM",
     "timezone": "America/Denver",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-hollywood-vvg1vz_p3xfvoe",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks & The Tonedeaf Hippies",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2027-02-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006564A2234802",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-hollywood-florida-02-03-2027/event/0D006564A2234802",
+    "seatgeek_url": "https://seatgeek.com/cody-jinks-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-03-8-pm/concert/18754087",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-hollywood-florida-02-03-2027/event/0D006564A2234802",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006564A2234802",
+        "discovery_event_id": "vvG1VZ_p3xFVOe",
+        "url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-hollywood-florida-02-03-2027/event/0D006564A2234802",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_p3xFVOe",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-cocoa-z7r9jz1aaakjb",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks",
+    "city": "Cocoa",
+    "country": "United States Of America",
+    "venue": "Riverfront Park - Cocoa Village",
+    "datetime_iso": "2027-02-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkJb",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkJb",
+    "seatgeek_url": "https://seatgeek.com/cody-jinks-tickets/cocoa-florida-cocoa-riverfront-park-2027-02-05-6-pm/concert/18754085",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkJb",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkJb",
+        "discovery_event_id": "Z7r9jZ1AAAkJb",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkJb",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkJb",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-apopka-z7r9jz1aaakjo",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks",
+    "city": "Apopka",
+    "country": "United States Of America",
+    "venue": "Apopka Amphitheater",
+    "datetime_iso": "2027-02-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkJo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkJo",
+    "seatgeek_url": "https://seatgeek.com/cody-jinks-tickets/apopka-florida-apopka-amphitheater-2027-02-06-6-pm/concert/18754088",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkJo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkJo",
+        "discovery_event_id": "Z7r9jZ1AAAkJo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkJo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkJo",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-macon-vvg1zz_pcm9nti",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks: The Working Man Tour",
+    "city": "Macon",
+    "country": "United States Of America",
+    "venue": "Macon City Auditorium",
+    "datetime_iso": "2027-02-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006563AE5EAA68",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-jinks-the-working-man-tour-macon-georgia-02-07-2027/event/0E006563AE5EAA68",
+    "seatgeek_url": "https://seatgeek.com/cody-jinks-tickets/macon-georgia-macon-city-auditorium-2027-02-07-8-pm/concert/18754089",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-jinks-the-working-man-tour-macon-georgia-02-07-2027/event/0E006563AE5EAA68",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006563AE5EAA68",
+        "discovery_event_id": "vvG1zZ_pCm9ntI",
+        "url": "https://www.ticketmaster.com/cody-jinks-the-working-man-tour-macon-georgia-02-07-2027/event/0E006563AE5EAA68",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_pCm9ntI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-fort-worth-z7r9jz1aaakr8",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks - 18+",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Billy Bob's",
+    "datetime_iso": "2027-04-02T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkr8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkr8",
+    "seatgeek_url": "https://seatgeek.com/cody-jinks-tickets/fort-worth-texas-billy-bob-s-texas-2027-04-01-9-pm/concert/18754084",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkr8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkr8",
+        "discovery_event_id": "Z7r9jZ1AAAkr8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkr8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkr8",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-fort-worth-z7r9jz1aaakrz",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks - 18+",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Billy Bob's",
+    "datetime_iso": "2027-04-03T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkrZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkrZ",
+    "seatgeek_url": "https://seatgeek.com/cody-jinks-tickets/fort-worth-texas-billy-bob-s-texas-2027-04-02-10-pm/concert/18754086",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkrZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkrZ",
+        "discovery_event_id": "Z7r9jZ1AAAkrZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkrZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkrZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-las-vegas-1a9zk40gkdisrrp",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks & The Tonedeaf Hippies",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Fontainebleau Las Vegas",
+    "datetime_iso": "2027-04-26T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006564ECC6FBD6",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-las-vegas-nevada-04-25-2027/event/17006564ECC6FBD6",
+    "seatgeek_url": "https://seatgeek.com/cody-jinks-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2027-04-25-8-pm/concert/18754094",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-las-vegas-nevada-04-25-2027/event/17006564ECC6FBD6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006564ECC6FBD6",
+        "discovery_event_id": "1A9Zk40GkdisRRp",
+        "url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-las-vegas-nevada-04-25-2027/event/17006564ECC6FBD6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk40GkdisRRp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-modesto-g5vyz_4lc0uvr",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks & the ToneDeaf Hippies - The Working Man Tour",
+    "city": "Modesto",
+    "country": "United States Of America",
+    "venue": "The Fruit Yard Amphitheater",
+    "datetime_iso": "2027-06-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00655ACE93606F",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-modesto-california-06-11-2027/event/1C00655ACE93606F",
+    "seatgeek_url": "https://seatgeek.com/cody-jinks-tickets/modesto-california-fruit-yard-amphitheater-2027-06-11-7-pm/concert/18754095",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-modesto-california-06-11-2027/event/1C00655ACE93606F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00655ACE93606F",
+        "discovery_event_id": "G5vYZ_4lC0UvR",
+        "url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-modesto-california-06-11-2027/event/1C00655ACE93606F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_4lC0UvR",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-lake-tahoe-1a9zk4ngkdmvw-8",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks & The Tonedeaf Hippies",
+    "city": "Lake Tahoe",
+    "country": "United States Of America",
+    "venue": "Lake Tahoe Amphitheatre at Caesars Republic",
+    "datetime_iso": "2027-06-13T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006563EED3D850",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-lake-tahoe-nevada-06-12-2027/event/17006563EED3D850",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-lake-tahoe-nevada-06-12-2027/event/17006563EED3D850",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006563EED3D850",
+        "discovery_event_id": "1A9Zk4NGkdmVW-8",
+        "url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-lake-tahoe-nevada-06-12-2027/event/17006563EED3D850",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4NGkdmVW-8",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-central-point-vvg1hz_pkp9lkp",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks & the ToneDeaf Hippies - The Working Man Tour",
+    "city": "Central Point",
+    "country": "United States Of America",
+    "venue": "Bi-Mart Amphitheater",
+    "datetime_iso": "2027-06-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006564E55EB1A5",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-central-point-oregon-06-15-2027/event/0F006564E55EB1A5",
+    "seatgeek_url": "https://seatgeek.com/cody-jinks-tickets/central-point-oregon-bi-mart-amphitheater-2027-06-15-7-pm/concert/18754098",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-central-point-oregon-06-15-2027/event/0F006564E55EB1A5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006564E55EB1A5",
+        "discovery_event_id": "vvG1HZ_pKP9lkP",
+        "url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-central-point-oregon-06-15-2027/event/0F006564E55EB1A5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_pKP9lkP",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-eugene-z7r9jz1aaa837",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks & The Tonedeaf Hippies: The Working Man Tour",
+    "city": "Eugene",
+    "country": "United States Of America",
+    "venue": "Cuthbert Amphitheater",
+    "datetime_iso": "2027-06-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA837",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA837",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA837",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA837",
+        "discovery_event_id": "Z7r9jZ1AAA837",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA837",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA837",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-spokane-vvg1hz_pqqx4vc",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks & The Tonedeaf Hippies: The Working Man Tour",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Gesa Pavilion",
+    "datetime_iso": "2027-06-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F0065669D89506D",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-spokane-washington-06-18-2027/event/0F0065669D89506D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-spokane-washington-06-18-2027/event/0F0065669D89506D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0065669D89506D",
+        "discovery_event_id": "vvG1HZ_pQqx4vc",
+        "url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-spokane-washington-06-18-2027/event/0F0065669D89506D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_pQqx4vc",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-boise-g5vzz_pk4ma4q",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks - Garden Suite",
+    "city": "Boise",
+    "country": "United States Of America",
+    "venue": "Outlaw Field at the Idaho Botanical Garden",
+    "datetime_iso": "2027-06-20T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006564D5DC555D",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-jinks-garden-suite-boise-idaho-06-19-2027/event/1E006564D5DC555D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-jinks-garden-suite-boise-idaho-06-19-2027/event/1E006564D5DC555D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006564D5DC555D",
+        "discovery_event_id": "G5vzZ_pK4MA4q",
+        "url": "https://www.ticketmaster.com/cody-jinks-garden-suite-boise-idaho-06-19-2027/event/1E006564D5DC555D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pK4MA4q",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-jinks-2027-billings-z7r9jz1aaa6e_",
+    "artist_slug": "cody-jinks",
+    "artist_name": "Cody Jinks",
+    "event_name": "Cody Jinks & The Tonedeaf Hippies",
+    "city": "Billings",
+    "country": "United States Of America",
+    "venue": "Billings Downtown Skatepark",
+    "datetime_iso": "2027-06-23T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6e_",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6e_",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6e_",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6e_",
+        "discovery_event_id": "Z7r9jZ1AAA6e_",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6e_",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6e_",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-vashon-z7r9jz1aaakuy",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Vashon",
+    "country": "United States Of America",
+    "venue": "Vashon Center for the Arts",
+    "datetime_iso": "2027-03-21T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkuy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkuy",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/vashon-washington-vashon-center-for-the-arts-2027-03-20-7-30-pm/concert/18758750",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkuy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkuy",
+        "discovery_event_id": "Z7r9jZ1AAAkuy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkuy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkuy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-vashon-z7r9jz1aaakcz",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Vashon",
+    "country": "United States Of America",
+    "venue": "Vashon Center for the Arts",
+    "datetime_iso": "2027-03-22T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCZ",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/vashon-washington-vashon-center-for-the-arts-2027-03-21-7-30-pm/concert/18758748",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCZ",
+        "discovery_event_id": "Z7r9jZ1AAAkCZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-richmond-1aozk4jgkdae_qq",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Richmond",
+    "country": "Canada",
+    "venue": "River Rock Casino Resort",
+    "datetime_iso": "2027-03-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006566C909969A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-richmond-british-columbia-03-23-2027/event/11006566C909969A",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/richmond-canada-river-rock-casino-2027-03-23-8-pm/concert/18754737",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-richmond-british-columbia-03-23-2027/event/11006566C909969A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006566C909969A",
+        "discovery_event_id": "1AoZk4JGkdae_QQ",
+        "url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-richmond-british-columbia-03-23-2027/event/11006566C909969A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4JGkdae_QQ",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-calgary-1aozk40gkdyyany",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge: Rise Again 2027",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Grey Eagle Event Centre",
+    "datetime_iso": "2027-03-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006564F9C09AB9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-calgary-alberta-03-25-2027/event/11006564F9C09AB9",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/calgary-canada-grey-eagle-event-centre-2027-03-25-8-pm/concert/18754777",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-calgary-alberta-03-25-2027/event/11006564F9C09AB9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006564F9C09AB9",
+        "discovery_event_id": "1AoZk40GkdyYany",
+        "url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-calgary-alberta-03-25-2027/event/11006564F9C09AB9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk40GkdyYany",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-enoch-1aozk4pgkdrvn3r",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge: Rise Again",
+    "city": "Enoch",
+    "country": "Canada",
+    "venue": "River Cree Resort & Casino",
+    "datetime_iso": "2027-03-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006565DE06A49E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-enoch-alberta-03-26-2027/event/11006565DE06A49E",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/enoch-canada-river-cree-resort-casino-2027-03-26-9-pm/concert/18754353",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-enoch-alberta-03-26-2027/event/11006565DE06A49E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006565DE06A49E",
+        "discovery_event_id": "1AoZk4PGkdrvn3r",
+        "url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-enoch-alberta-03-26-2027/event/11006565DE06A49E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4PGkdrvn3r",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-saskatoon-z7r9jz1aaakcv",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Saskatoon",
+    "country": "Canada",
+    "venue": "TCU Place",
+    "datetime_iso": "2027-03-28T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCv",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCv",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/saskatoon-canada-tcu-place-2027-03-27-7-30-pm/concert/18758749",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCv",
+        "discovery_event_id": "Z7r9jZ1AAAkCv",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCv",
+    "timezone": "America/Regina",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-regina-z7r9jz1aaakce",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge w/ Begonia",
+    "city": "Regina",
+    "country": "Canada",
+    "venue": "Conexus Performing Arts Center",
+    "datetime_iso": "2027-03-30T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCe",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCe",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/regina-canada-conexus-arts-centre-2027-03-29-7-30-pm/concert/18758751",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCe",
+        "discovery_event_id": "Z7r9jZ1AAAkCe",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-winnipeg-1aozk4jgkenj9vg",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Burton Cummings Theatre",
+    "datetime_iso": "2027-03-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006566AA717075",
+    "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-winnipeg-manitoba-03-30-2027/event/11006566AA717075",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-30-8-pm/concert/18754333",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-winnipeg-manitoba-03-30-2027/event/11006566AA717075",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006566AA717075",
+        "discovery_event_id": "1AoZk4JGkenj9vg",
+        "url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-winnipeg-manitoba-03-30-2027/event/11006566AA717075",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4JGkenj9vg",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-des-moines-vv1akzk4ngkd0rml4",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Hoyt Sherman Place",
+    "datetime_iso": "2027-04-02T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006563E47AE7D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-des-moines-iowa-04-01-2027/event/06006563E47AE7D5",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/des-moines-iowa-hoyt-sherman-place-2027-04-01-7-30-pm/concert/18754305",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-des-moines-iowa-04-01-2027/event/06006563E47AE7D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006563E47AE7D5",
+        "discovery_event_id": "vv1AkZk4NGkd0rmL4",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-des-moines-iowa-04-01-2027/event/06006563E47AE7D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4NGkd0rmL4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-nashville-vv1aazk4xgkdnma5h",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge: Rise Again 2027",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Brown County Music Center",
+    "datetime_iso": "2027-04-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006562E3DC92FC",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-nashville-indiana-04-02-2027/event/05006562E3DC92FC",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/nashville-indiana-brown-county-music-center-2027-04-02-8-pm/concert/18754809",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-nashville-indiana-04-02-2027/event/05006562E3DC92FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006562E3DC92FC",
+        "discovery_event_id": "vv1AAZk4xGkdNMa5H",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-nashville-indiana-04-02-2027/event/05006562E3DC92FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4xGkdNMa5H",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-madison-vv1a6zk4ngkd9d6lz",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Orpheum Theater",
+    "datetime_iso": "2027-04-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006563D70C77C0",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-madison-wisconsin-04-03-2027/event/07006563D70C77C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-madison-wisconsin-04-03-2027/event/07006563D70C77C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006563D70C77C0",
+        "discovery_event_id": "vv1A6Zk4NGkd9d6LZ",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-madison-wisconsin-04-03-2027/event/07006563D70C77C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk4NGkd9d6LZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-milwaukee-z7r9jz1aaakcd",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Pabst Theater",
+    "datetime_iso": "2027-04-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCd",
+        "discovery_event_id": "Z7r9jZ1AAAkCd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-shipshewana-z7r9jz1aaakap",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Shipshewana",
+    "country": "United States Of America",
+    "venue": "Blue Gate Performing Arts Center",
+    "datetime_iso": "2027-04-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkAP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkAP",
+        "discovery_event_id": "Z7r9jZ1AAAkAP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkAP",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-knoxville-g5viz_p14c6_a",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Tennessee Theatre",
+    "datetime_iso": "2027-04-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656295387649",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656295387649",
+        "discovery_event_id": "G5viZ_p14C6_a",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_p14C6_a",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-danville-vv1avzk4pgkdw6bmt",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Danville",
+    "country": "United States Of America",
+    "venue": "The Pantheon at Caesars Virginia",
+    "datetime_iso": "2027-04-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006565FD1FABBF",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006565FD1FABBF",
+        "discovery_event_id": "vv1AvZk4PGkdW6BmT",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4PGkdW6BmT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-columbus-z7r9jz1aaakc7",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "RiverCenter For The Performing Arts",
+    "datetime_iso": "2027-04-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkC7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkC7",
+        "discovery_event_id": "Z7r9jZ1AAAkC7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkC7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-charleston-g5evz_pcyahcw",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "The Charleston Music Hall",
+    "datetime_iso": "2027-04-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006563B015BB7D",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006563B015BB7D",
+        "discovery_event_id": "G5eVZ_pCYAhcW",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pCYAhcW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-charlotte-z7r9jz1aaakzi",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Blumenthal Arts Center",
+    "datetime_iso": "2027-04-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkZI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkZI",
+        "discovery_event_id": "Z7r9jZ1AAAkZI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkZI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-york-z7r9jz1aaakca",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "York",
+    "country": "United States Of America",
+    "venue": "Appell Center for the Performing Arts",
+    "datetime_iso": "2027-04-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCA",
+        "discovery_event_id": "Z7r9jZ1AAAkCA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-portsmouth-z7r9jz1aaakck",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge (21+ Event)",
+    "city": "Portsmouth",
+    "country": "United States Of America",
+    "venue": "Rivers Casino Portsmouth Event Center",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCk",
+        "discovery_event_id": "Z7r9jZ1AAAkCk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-north-myrtle-beach-z7r9jz1aaakc6",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "North Myrtle Beach",
+    "country": "United States Of America",
+    "venue": "Alabama Theatre - Myrtle Beach",
+    "datetime_iso": "2027-04-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkC6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkC6",
+        "discovery_event_id": "Z7r9jZ1AAAkC6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkC6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-springfield-z7r9jz1aaakfo",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Springfield",
+    "country": "United States Of America",
+    "venue": "Gillioz Theatre",
+    "datetime_iso": "2027-04-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkfO",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfO",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfO",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkfO",
+        "discovery_event_id": "Z7r9jZ1AAAkfO",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfO",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-wichita-vv1kbz_pfvg7sw9z",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge: Rise Again 2027",
+    "city": "Wichita",
+    "country": "United States Of America",
+    "venue": "Wichita Orpheum Theatre",
+    "datetime_iso": "2027-04-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656534CF25F8",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-wichita-kansas-04-21-2027/event/0600656534CF25F8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-wichita-kansas-04-21-2027/event/0600656534CF25F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656534CF25F8",
+        "discovery_event_id": "vv1kbZ_pfVG7Sw9z",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-wichita-kansas-04-21-2027/event/0600656534CF25F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_pfVG7Sw9z",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-chandler-1a_zk4ngkdm2bwk",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge Rise Again 2027",
+    "city": "Chandler",
+    "country": "United States Of America",
+    "venue": "The Showroom at Wild Horse Pass Resort & Casino",
+    "datetime_iso": "2027-04-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006563EE3FAF53",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006563EE3FAF53",
+        "discovery_event_id": "1A_Zk4NGkdm2BWK",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zk4NGkdm2BWK",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-tucson-z7r9jz1aaakca",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Tucson",
+    "country": "United States Of America",
+    "venue": "Fox Tucson Theatre",
+    "datetime_iso": "2027-04-25T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCa",
+        "discovery_event_id": "Z7r9jZ1AAAkCa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCa",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2026-atlantic-city-1atzk4fgkd6j8cf",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Ocean Resort Casino, HQ2 Nightclub and HQ2 Dayclub/Beachclub",
+    "datetime_iso": "2026-11-22T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14369754",
+    "ticketmaster_url": "https://www.ticketweb.com/event/two-friends-ocean-casino-resort-tickets/14369754?REFERRAL_ID=tmfeed",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/atlantic-city-new-jersey-ocean-resort-casino-hq2-beachclub-2026-11-21-11-pm/concert/18664299",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/two-friends-ocean-casino-resort-tickets/14369754?REFERRAL_ID=tmfeed",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14369754",
+        "discovery_event_id": "1AtZk4FGkd6j8cF",
+        "url": "https://www.ticketweb.com/event/two-friends-ocean-casino-resort-tickets/14369754?REFERRAL_ID=tmfeed",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AtZk4FGkd6j8cF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2026-nashville-g5viz_kmfvexe",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends Presents 'Big Boots Land'",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-12-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00646DD4067882",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-presents-big-boots-land-nashville-tennessee-12-05-2026/event/1B00646DD4067882",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/nashville-tennessee-the-truth-nashville-2026-12-05-8-pm/concert/18126049",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-presents-big-boots-land-nashville-tennessee-12-05-2026/event/1B00646DD4067882",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00646DD4067882",
+        "discovery_event_id": "G5viZ_kMfvExe",
+        "url": "https://www.ticketmaster.com/two-friends-presents-big-boots-land-nashville-tennessee-12-05-2026/event/1B00646DD4067882",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_kMfvExe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2026-seattle-vvg1hz_krkthyp",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "White Rabbit Group Presents More The Merrier ft. Two Friends (18+)",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2026-12-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00653BD3A7CE56",
+    "ticketmaster_url": "https://www.ticketmaster.com/white-rabbit-group-presents-more-the-seattle-washington-12-12-2026/event/0F00653BD3A7CE56",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/seattle-washington-wamu-theater-2026-12-12-7-pm/concert/18633839",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/white-rabbit-group-presents-more-the-seattle-washington-12-12-2026/event/0F00653BD3A7CE56",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00653BD3A7CE56",
+        "discovery_event_id": "vvG1HZ_KRKtHyp",
+        "url": "https://www.ticketmaster.com/white-rabbit-group-presents-more-the-seattle-washington-12-12-2026/event/0F00653BD3A7CE56",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_KRKtHyp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-tampa-vvg1vz_fhrt2gz",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "2027 NYE Celebration featuring Two Friends",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Seminole Hard Rock Tampa Event Center",
+    "datetime_iso": "2027-01-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006546DEFCF300",
+    "ticketmaster_url": "https://www.ticketmaster.com/2027-nye-celebration-featuring-two-friends-tampa-florida-12-31-2026/event/0D006546DEFCF300",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/tampa-florida-seminole-hard-rock-tampa-2026-12-31-9-pm/concert/18739111",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/2027-nye-celebration-featuring-two-friends-tampa-florida-12-31-2026/event/0D006546DEFCF300",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006546DEFCF300",
+        "discovery_event_id": "vvG1VZ_fhrT2GZ",
+        "url": "https://www.ticketmaster.com/2027-nye-celebration-featuring-two-friends-tampa-florida-12-31-2026/event/0D006546DEFCF300",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_fhrT2GZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-morrison-z7r9jz1aa76-a",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends Present: Big Bootie World",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA76-A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76-A",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/morrison-colorado-red-rocks-amphitheatre-2027-04-30-7-pm/concert/18683907",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76-A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA76-A",
+        "discovery_event_id": "Z7r9jZ1AA76-A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76-A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA76-A",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-saint-louis-1a-zk4pgkdsvsmy",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2027-05-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006565F3071BB9",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-saint-louis-missouri-05-05-2027/event/21006565F3071BB9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-saint-louis-missouri-05-05-2027/event/21006565F3071BB9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006565F3071BB9",
+        "discovery_event_id": "1A-Zk4PGkdSvsmy",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-saint-louis-missouri-05-05-2027/event/21006565F3071BB9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-Zk4PGkdSvsmy",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-indianapolis-vv1aazk40gkd83bu9",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Everwise Amphitheater at White River State Park",
+    "datetime_iso": "2027-05-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006564D04BAD97",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-indianapolis-indiana-05-06-2027/event/05006564D04BAD97",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/indianapolis-indiana-everwise-amphitheater-at-white-river-state-park-2027-05-06-7-pm/concert/18756186",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-indianapolis-indiana-05-06-2027/event/05006564D04BAD97",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006564D04BAD97",
+        "discovery_event_id": "vv1AAZk40Gkd83BU9",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-indianapolis-indiana-05-06-2027/event/05006564D04BAD97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk40Gkd83BU9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-milwaukee-vv1a6zk4n0kbize5e",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Landmark Credit Union Live",
+    "datetime_iso": "2027-05-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006563913628A1",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-milwaukee-wisconsin-05-07-2027/event/07006563913628A1",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-05-07-8-pm/concert/18757860",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-milwaukee-wisconsin-05-07-2027/event/07006563913628A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006563913628A1",
+        "discovery_event_id": "vv1a6Zk4N0KbIZe5e",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-milwaukee-wisconsin-05-07-2027/event/07006563913628A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1a6Zk4N0KbIZe5e",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-minneapolis-vv1akzk4jgkehfygr",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Armory",
+    "datetime_iso": "2027-05-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006566BC230D5E",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-minneapolis-minnesota-05-08-2027/event/06006566BC230D5E",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-05-08-9-pm/concert/18757536",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-minneapolis-minnesota-05-08-2027/event/06006566BC230D5E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006566BC230D5E",
+        "discovery_event_id": "vv1AkZk4JGkeHFYgr",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-minneapolis-minnesota-05-08-2027/event/06006566BC230D5E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4JGkeHFYgr",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-chicago-vv1a7zkfwgkdmtcgf",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends Present: Big Bootie Land 2027",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Northerly Island",
+    "datetime_iso": "2027-05-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006532EEA6D308",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-present-big-bootie-land-chicago-illinois-05-15-2027/event/04006532EEA6D308",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/chicago-illinois-huntington-bank-pavilion-at-northerly-island-2027-05-15-6-30-pm/concert/18612569",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-present-big-bootie-land-chicago-illinois-05-15-2027/event/04006532EEA6D308",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006532EEA6D308",
+        "discovery_event_id": "vv1A7ZkfwGkdmtcGF",
+        "url": "https://www.ticketmaster.com/two-friends-present-big-bootie-land-chicago-illinois-05-15-2027/event/04006532EEA6D308",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfwGkdmtcGF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-detroit-z7r9jz1aaa6pk",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends - 16+",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Masonic Temple - Detroit",
+    "datetime_iso": "2027-05-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6pk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6pk",
+        "discovery_event_id": "Z7r9jZ1AAA6pk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-ottawa-1aszk4xgkdbc6bg",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2027-05-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006562FAB47EB5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-22-2027/event/31006562FAB47EB5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-22-2027/event/31006562FAB47EB5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006562FAB47EB5",
+        "discovery_event_id": "1AsZk4xGkdBc6Bg",
+        "url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-22-2027/event/31006562FAB47EB5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4xGkdBc6Bg",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-ottawa-1ad7z_pgkgxjwbt",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2027-05-23T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100656D7E73263F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-23-2027/event/3100656D7E73263F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-23-2027/event/3100656D7E73263F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100656D7E73263F",
+        "discovery_event_id": "1Ad7Z_pGkgXjwbT",
+        "url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-23-2027/event/3100656D7E73263F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_pGkgXjwbT",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-washington-1a4zk4t-ngzze8d",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Echostage",
+    "datetime_iso": "2027-05-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006569863338F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006569863338F2",
+        "discovery_event_id": "1a4Zk4t-NGzZe8d",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1a4Zk4t-NGzZe8d",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-boston-vv1avzk4xgkddw012",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-05-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006562FBF6428F",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006562FBF6428F",
+        "discovery_event_id": "vv1AvZk4xGkdDW012",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4xGkdDW012",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-philadelphia-vv1aovp_fga1qsqx",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Skyline Stage at Highmark Mann",
+    "datetime_iso": "2027-06-04T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065648A7736A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-philadelphia-pennsylvania-06-04-2027/event/020065648A7736A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-philadelphia-pennsylvania-06-04-2027/event/020065648A7736A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065648A7736A2",
+        "discovery_event_id": "vv1AOvP_FGA1qSQx",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-philadelphia-pennsylvania-06-04-2027/event/020065648A7736A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AOvP_FGA1qSQx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-brooklyn-z7r9jz1aaa6pa",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Under the 'K' Bridge Park",
+    "datetime_iso": "2027-06-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6pA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6pA",
+        "discovery_event_id": "Z7r9jZ1AAA6pA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-columbus-z7r9jz1aaa6ux",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "KEMBA Live!",
+    "datetime_iso": "2027-06-09T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6ux",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6ux",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6ux",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6ux",
+        "discovery_event_id": "Z7r9jZ1AAA6ux",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6ux",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6ux",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-pittsburgh-z7r9jz1aaa6p7",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Stage AE",
+    "datetime_iso": "2027-06-10T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6p7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6p7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6p7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6p7",
+        "discovery_event_id": "Z7r9jZ1AAA6p7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6p7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6p7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-newport-z7r9jz1aaa8fi",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Newport",
+    "country": "United States Of America",
+    "venue": "MegaCorp Pavilion",
+    "datetime_iso": "2027-06-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8FI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8FI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8FI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8FI",
+        "discovery_event_id": "Z7r9jZ1AAA8FI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8FI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8FI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-cleveland-z7r9jz1aaa6c3",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Jacobs Pavilion at Nautica",
+    "datetime_iso": "2027-06-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6C3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6C3",
+        "discovery_event_id": "Z7r9jZ1AAA6C3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6C3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-raleigh-g5evz_p5qexa6",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "The Ritz",
+    "datetime_iso": "2027-06-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006562DA9FE147",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006562DA9FE147",
+        "discovery_event_id": "G5eVZ_p5QEXA6",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_p5QEXA6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-north-charleston-g5evz_p3scbo8",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "North Charleston",
+    "country": "United States Of America",
+    "venue": "Firefly Distillery",
+    "datetime_iso": "2027-06-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006564B3398810",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006564B3398810",
+        "discovery_event_id": "G5eVZ_p3SCbO8",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_p3SCbO8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-charlotte-g5evz_pnwhvow",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Skyla Credit Union Amphitheatre",
+    "datetime_iso": "2027-06-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00656ABDF34472",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656ABDF34472",
+        "discovery_event_id": "G5eVZ_pnWHVow",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pnWHVow",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-atlanta-vvg1zz_phfqf4s",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2027-06-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006566C8694573",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006566C8694573",
+        "discovery_event_id": "vvG1zZ_phFQf4S",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_phFQf4S",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-houston-z7r9jz1aaa6pd",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends - 18+",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "DUCTWORK - Houston",
+    "datetime_iso": "2027-06-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6pd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6pd",
+        "discovery_event_id": "Z7r9jZ1AAA6pd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-austin-g5diz_pmgcpjv",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2027-06-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00656B8C3969B4",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00656B8C3969B4",
+        "discovery_event_id": "G5dIZ_pmGCpJV",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pmGCpJV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-irving-vvg1yz_phht2we",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-06-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006566FCA4FC82",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006566FCA4FC82",
+        "discovery_event_id": "vvG1YZ_phHt2we",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_phHt2we",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-toronto-1a8zk49gkesrne-",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends Present: Big Bootie World",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "RBC Amphitheatre",
+    "datetime_iso": "2027-06-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006557B1BEA9E1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-present-big-bootie-world-toronto-ontario-06-30-2027/event/10006557B1BEA9E1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/two-friends-present-big-bootie-world-toronto-ontario-06-30-2027/event/10006557B1BEA9E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006557B1BEA9E1",
+        "discovery_event_id": "1A8Zk49GkesRnE-",
+        "url": "https://www.ticketmaster.ca/two-friends-present-big-bootie-world-toronto-ontario-06-30-2027/event/10006557B1BEA9E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk49GkesRnE-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-bala-1avzz_4gkztkppc",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Bala",
+    "country": "Canada",
+    "venue": "The KEE to Bala",
+    "datetime_iso": "2027-07-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000655E2919658E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-bala-ontario-07-01-2027/event/1000655E2919658E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-bala-ontario-07-01-2027/event/1000655E2919658E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000655E2919658E",
+        "discovery_event_id": "1AvZZ_4GkztkppC",
+        "url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-bala-ontario-07-01-2027/event/1000655E2919658E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_4GkztkppC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

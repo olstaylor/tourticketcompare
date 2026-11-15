@@ -1,0 +1,1327 @@
+[
+  {
+    "id": "tm-melissa-etheridge-2027-vashon-z7r9jz1aaakuy",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Vashon",
+    "country": "United States Of America",
+    "venue": "Vashon Center for the Arts",
+    "datetime_iso": "2027-03-21T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkuy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkuy",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/vashon-washington-vashon-center-for-the-arts-2027-03-20-7-30-pm/concert/18758750",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkuy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkuy",
+        "discovery_event_id": "Z7r9jZ1AAAkuy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkuy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkuy",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-vashon-z7r9jz1aaakcz",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Vashon",
+    "country": "United States Of America",
+    "venue": "Vashon Center for the Arts",
+    "datetime_iso": "2027-03-22T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCZ",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/vashon-washington-vashon-center-for-the-arts-2027-03-21-7-30-pm/concert/18758748",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCZ",
+        "discovery_event_id": "Z7r9jZ1AAAkCZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCZ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-richmond-1aozk4jgkdae_qq",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Richmond",
+    "country": "Canada",
+    "venue": "River Rock Casino Resort",
+    "datetime_iso": "2027-03-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006566C909969A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-richmond-british-columbia-03-23-2027/event/11006566C909969A",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/richmond-canada-river-rock-casino-2027-03-23-8-pm/concert/18754737",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-richmond-british-columbia-03-23-2027/event/11006566C909969A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006566C909969A",
+        "discovery_event_id": "1AoZk4JGkdae_QQ",
+        "url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-richmond-british-columbia-03-23-2027/event/11006566C909969A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4JGkdae_QQ",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-calgary-1aozk40gkdyyany",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge: Rise Again 2027",
+    "city": "Calgary",
+    "country": "Canada",
+    "venue": "Grey Eagle Event Centre",
+    "datetime_iso": "2027-03-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006564F9C09AB9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-calgary-alberta-03-25-2027/event/11006564F9C09AB9",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/calgary-canada-grey-eagle-event-centre-2027-03-25-8-pm/concert/18754777",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-calgary-alberta-03-25-2027/event/11006564F9C09AB9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006564F9C09AB9",
+        "discovery_event_id": "1AoZk40GkdyYany",
+        "url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-calgary-alberta-03-25-2027/event/11006564F9C09AB9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk40GkdyYany",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-enoch-1aozk4pgkdrvn3r",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge: Rise Again",
+    "city": "Enoch",
+    "country": "Canada",
+    "venue": "River Cree Resort & Casino",
+    "datetime_iso": "2027-03-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006565DE06A49E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-enoch-alberta-03-26-2027/event/11006565DE06A49E",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/enoch-canada-river-cree-resort-casino-2027-03-26-9-pm/concert/18754353",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-enoch-alberta-03-26-2027/event/11006565DE06A49E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006565DE06A49E",
+        "discovery_event_id": "1AoZk4PGkdrvn3r",
+        "url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-enoch-alberta-03-26-2027/event/11006565DE06A49E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4PGkdrvn3r",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-saskatoon-z7r9jz1aaakcv",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Saskatoon",
+    "country": "Canada",
+    "venue": "TCU Place",
+    "datetime_iso": "2027-03-28T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCv",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCv",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/saskatoon-canada-tcu-place-2027-03-27-7-30-pm/concert/18758749",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCv",
+        "discovery_event_id": "Z7r9jZ1AAAkCv",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCv",
+    "timezone": "America/Regina",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-regina-z7r9jz1aaakce",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge w/ Begonia",
+    "city": "Regina",
+    "country": "Canada",
+    "venue": "Conexus Performing Arts Center",
+    "datetime_iso": "2027-03-30T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCe",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCe",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/regina-canada-conexus-arts-centre-2027-03-29-7-30-pm/concert/18758751",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCe",
+        "discovery_event_id": "Z7r9jZ1AAAkCe",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-winnipeg-1aozk4jgkenj9vg",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Winnipeg",
+    "country": "Canada",
+    "venue": "Burton Cummings Theatre",
+    "datetime_iso": "2027-03-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006566AA717075",
+    "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-winnipeg-manitoba-03-30-2027/event/11006566AA717075",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-30-8-pm/concert/18754333",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-winnipeg-manitoba-03-30-2027/event/11006566AA717075",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006566AA717075",
+        "discovery_event_id": "1AoZk4JGkenj9vg",
+        "url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-winnipeg-manitoba-03-30-2027/event/11006566AA717075",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4JGkenj9vg",
+    "timezone": "America/Winnipeg",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-des-moines-vv1akzk4ngkd0rml4",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Hoyt Sherman Place",
+    "datetime_iso": "2027-04-02T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006563E47AE7D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-des-moines-iowa-04-01-2027/event/06006563E47AE7D5",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/des-moines-iowa-hoyt-sherman-place-2027-04-01-7-30-pm/concert/18754305",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-des-moines-iowa-04-01-2027/event/06006563E47AE7D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006563E47AE7D5",
+        "discovery_event_id": "vv1AkZk4NGkd0rmL4",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-des-moines-iowa-04-01-2027/event/06006563E47AE7D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4NGkd0rmL4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-nashville-vv1aazk4xgkdnma5h",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge: Rise Again 2027",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Brown County Music Center",
+    "datetime_iso": "2027-04-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006562E3DC92FC",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-nashville-indiana-04-02-2027/event/05006562E3DC92FC",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/nashville-indiana-brown-county-music-center-2027-04-02-8-pm/concert/18754809",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-nashville-indiana-04-02-2027/event/05006562E3DC92FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006562E3DC92FC",
+        "discovery_event_id": "vv1AAZk4xGkdNMa5H",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-nashville-indiana-04-02-2027/event/05006562E3DC92FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4xGkdNMa5H",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-madison-vv1a6zk4ngkd9d6lz",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Orpheum Theater",
+    "datetime_iso": "2027-04-04T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006563D70C77C0",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-madison-wisconsin-04-03-2027/event/07006563D70C77C0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-madison-wisconsin-04-03-2027/event/07006563D70C77C0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006563D70C77C0",
+        "discovery_event_id": "vv1A6Zk4NGkd9d6LZ",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-madison-wisconsin-04-03-2027/event/07006563D70C77C0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A6Zk4NGkd9d6LZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-milwaukee-z7r9jz1aaakcd",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Pabst Theater",
+    "datetime_iso": "2027-04-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCd",
+        "discovery_event_id": "Z7r9jZ1AAAkCd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-shipshewana-z7r9jz1aaakap",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Shipshewana",
+    "country": "United States Of America",
+    "venue": "Blue Gate Performing Arts Center",
+    "datetime_iso": "2027-04-06T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkAP",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAP",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAP",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkAP",
+        "discovery_event_id": "Z7r9jZ1AAAkAP",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAP",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkAP",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-knoxville-g5viz_p14c6_a",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Tennessee Theatre",
+    "datetime_iso": "2027-04-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656295387649",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656295387649",
+        "discovery_event_id": "G5viZ_p14C6_a",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_p14C6_a",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-danville-vv1avzk4pgkdw6bmt",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Danville",
+    "country": "United States Of America",
+    "venue": "The Pantheon at Caesars Virginia",
+    "datetime_iso": "2027-04-10T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006565FD1FABBF",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006565FD1FABBF",
+        "discovery_event_id": "vv1AvZk4PGkdW6BmT",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4PGkdW6BmT",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-columbus-z7r9jz1aaakc7",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "RiverCenter For The Performing Arts",
+    "datetime_iso": "2027-04-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkC7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkC7",
+        "discovery_event_id": "Z7r9jZ1AAAkC7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkC7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-charleston-g5evz_pcyahcw",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge - Rise Again 2027",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "The Charleston Music Hall",
+    "datetime_iso": "2027-04-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006563B015BB7D",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006563B015BB7D",
+        "discovery_event_id": "G5eVZ_pCYAhcW",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pCYAhcW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-charlotte-z7r9jz1aaakzi",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Blumenthal Arts Center",
+    "datetime_iso": "2027-04-14T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkZI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkZI",
+        "discovery_event_id": "Z7r9jZ1AAAkZI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkZI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-york-z7r9jz1aaakca",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "York",
+    "country": "United States Of America",
+    "venue": "Appell Center for the Performing Arts",
+    "datetime_iso": "2027-04-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCA",
+        "discovery_event_id": "Z7r9jZ1AAAkCA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-portsmouth-z7r9jz1aaakck",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge (21+ Event)",
+    "city": "Portsmouth",
+    "country": "United States Of America",
+    "venue": "Rivers Casino Portsmouth Event Center",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCk",
+        "discovery_event_id": "Z7r9jZ1AAAkCk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-north-myrtle-beach-z7r9jz1aaakc6",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "North Myrtle Beach",
+    "country": "United States Of America",
+    "venue": "Alabama Theatre - Myrtle Beach",
+    "datetime_iso": "2027-04-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkC6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkC6",
+        "discovery_event_id": "Z7r9jZ1AAAkC6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkC6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-springfield-z7r9jz1aaakfo",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Springfield",
+    "country": "United States Of America",
+    "venue": "Gillioz Theatre",
+    "datetime_iso": "2027-04-21T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkfO",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfO",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfO",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkfO",
+        "discovery_event_id": "Z7r9jZ1AAAkfO",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfO",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfO",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-wichita-vv1kbz_pfvg7sw9z",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge: Rise Again 2027",
+    "city": "Wichita",
+    "country": "United States Of America",
+    "venue": "Wichita Orpheum Theatre",
+    "datetime_iso": "2027-04-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656534CF25F8",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-wichita-kansas-04-21-2027/event/0600656534CF25F8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-wichita-kansas-04-21-2027/event/0600656534CF25F8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656534CF25F8",
+        "discovery_event_id": "vv1kbZ_pfVG7Sw9z",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-wichita-kansas-04-21-2027/event/0600656534CF25F8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kbZ_pfVG7Sw9z",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-chandler-1a_zk4ngkdm2bwk",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge Rise Again 2027",
+    "city": "Chandler",
+    "country": "United States Of America",
+    "venue": "The Showroom at Wild Horse Pass Resort & Casino",
+    "datetime_iso": "2027-04-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006563EE3FAF53",
+    "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006563EE3FAF53",
+        "discovery_event_id": "1A_Zk4NGkdm2BWK",
+        "url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zk4NGkdm2BWK",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-melissa-etheridge-2027-tucson-z7r9jz1aaakca",
+    "artist_slug": "melissa-etheridge",
+    "artist_name": "Melissa Etheridge",
+    "event_name": "Melissa Etheridge",
+    "city": "Tucson",
+    "country": "United States Of America",
+    "venue": "Fox Tucson Theatre",
+    "datetime_iso": "2027-04-25T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAkCa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAkCa",
+        "discovery_event_id": "Z7r9jZ1AAAkCa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCa",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  }
+]

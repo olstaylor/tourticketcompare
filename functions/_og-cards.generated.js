@@ -320,6 +320,7 @@ export const OG_CARDS = {
   "/artists/hilary-duff/tickets/ciudad-de-m-xico-mexico": {"url":"/og/artists-hilary-duff-tickets-ciudad-de-m-xico-mexico.png","alt":"Tickets: Hilary Duff in Ciudad de México"},
   "/artists/hilary-duff/tickets/vancouver-canada": {"url":"/og/artists-hilary-duff-tickets-vancouver-canada.png","alt":"Tickets: Hilary Duff in Vancouver"},
   "/artists/hollywood-undead": {"url":"/og/artists-hollywood-undead.png","alt":"Tickets & tour dates: Hollywood Undead"},
+  "/artists/hollywood-undead/ticket-prices": {"url":"/og/artists-hollywood-undead-ticket-prices.png","alt":"Ticket prices: Hollywood Undead"},
   "/artists/illenium": {"url":"/og/artists-illenium.png","alt":"Tickets & tour dates: ILLENIUM"},
   "/artists/illenium/tickets/san-francisco-united-states": {"url":"/og/artists-illenium-tickets-san-francisco-united-states.png","alt":"Tickets: ILLENIUM in San Francisco"},
   "/artists/imagine-dragons": {"url":"/og/artists-imagine-dragons.png","alt":"Tickets & tour dates: Imagine Dragons"},

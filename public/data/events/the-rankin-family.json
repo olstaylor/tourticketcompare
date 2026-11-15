@@ -271,7 +271,7 @@
     "ticketmaster_event_id": "31006563E6836E33",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/ottawa-canada-national-arts-centre-2027-03-24-7-30-pm/concert/18761508",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-ottawa-southam-hall-at-national-arts-centre-3-24-2027/production/7859943",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
     "last_verified_at": "2026-11-14",
@@ -293,11 +293,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7859943,
+        "url": "https://www.vividseats.com/the-rankin-family-tickets-ottawa-southam-hall-at-national-arts-centre-3-24-2027/production/7859943",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -332,7 +332,7 @@
     "ticketmaster_event_id": "10006564C0D9BBEE",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-03-27-8-pm/concert/18761514",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-niagara-falls-olg-stage-at-fallsview-casino-3-27-2027/production/7834161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-niagara-falls-ontario-03-27-2027/event/10006564C0D9BBEE",
     "last_verified_at": "2026-11-14",
@@ -354,11 +354,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834161,
+        "url": "https://www.vividseats.com/the-rankin-family-tickets-niagara-falls-olg-stage-at-fallsview-casino-3-27-2027/production/7834161",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -387,7 +387,7 @@
     "ticketmaster_event_id": "31006564C6DC615E",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/montreal-canada-beanfield-theatre-2027-03-29-7-30-pm/concert/18761516",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-montreal-beanfield-theatre-3-29-2027/production/7848838",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
     "last_verified_at": "2026-11-14",
@@ -409,11 +409,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7848838,
+        "url": "https://www.vividseats.com/the-rankin-family-tickets-montreal-beanfield-theatre-3-29-2027/production/7848838",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

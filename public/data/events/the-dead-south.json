@@ -947,7 +947,7 @@
     "ticketmaster_event_id": "11006563AE05617C",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-edmonton-alberta-09-26-2027/event/11006563AE05617C",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/edmonton-canada-edmonton-expo-centre-2027-09-26-8-pm/concert/18754433",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-edmonton-edmonton-expo-centre-9-26-2027/production/7834195",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-edmonton-alberta-09-26-2027/event/11006563AE05617C",
     "last_verified_at": "2026-11-14",
@@ -969,11 +969,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7834195,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-edmonton-edmonton-expo-centre-9-26-2027/production/7834195",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1215,7 +1215,7 @@
     "ticketmaster_event_id": "31006564C51E5F84",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-ottawa-ontario-10-03-2027/event/31006564C51E5F84",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/ottawa-canada-history-ottawa-2027-10-03-7-pm/concert/18754933",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-ottawa-history-ottawa-10-3-2027/production/7834159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-ottawa-ontario-10-03-2027/event/31006564C51E5F84",
     "last_verified_at": "2026-11-14",
@@ -1237,11 +1237,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834159,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-ottawa-history-ottawa-10-3-2027/production/7834159",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

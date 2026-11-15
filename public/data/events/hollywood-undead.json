@@ -365,7 +365,7 @@
     "ticketmaster_event_id": "3E0065388C2618CC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/hollywood-undead-london-24-02-2027/event/3E0065388C2618CC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hollywood-undead-tickets-london-o2-forum-kentish-town-2-24-2027/production/7743420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-london-24-02-2027/event/3E0065388C2618CC",
     "last_verified_at": "2026-11-07",
@@ -387,11 +387,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7743420,
+        "url": "https://www.vividseats.com/hollywood-undead-tickets-london-o2-forum-kentish-town-2-24-2027/production/7743420",
+        "verified": true,
+        "last_verified_at": "2026-11-14",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

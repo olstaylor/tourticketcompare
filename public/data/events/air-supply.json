@@ -250,18 +250,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8071982",
-        "url": "https://www.ticketliquidator.com/tickets/8071982/Air-Supply-tickets-Fri-Nov-13-2026-The-Theater-at-MGM-National-Harbor",
-        "verified": true,
-        "last_verified_at": "2026-10-31",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G6Gpn4B8s",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8071982",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071982/Air-Supply-tickets-Fri-Nov-13-2026-The-Theater-at-MGM-National-Harbor",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -385,7 +385,7 @@
         "event_id": "7997065",
         "url": "https://www.ticketliquidator.com/tickets/7997065/Air-Supply-tickets-Sun-Nov-15-2026-Hackensack-Meridian-Health-Theatre-at-the-Count-Basie-Center-for-the-Arts",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -510,7 +510,7 @@
         "event_id": "8025763",
         "url": "https://www.ticketliquidator.com/tickets/8025763/Air-Supply-tickets-Sat-Nov-21-2026-Ruth-Eckerd-Hall",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -580,7 +580,7 @@
         "event_id": "7985796",
         "url": "https://www.ticketliquidator.com/tickets/7985796/Air-Supply-tickets-Sun-Nov-22-2026-Florida-Theatre-Jacksonville",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -707,7 +707,7 @@
         "event_id": "8199121",
         "url": "https://www.ticketliquidator.com/tickets/8199121/Air-Supply-tickets-Thu-Jan-21-2027-Sunrise-Theatre-FL",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -835,7 +835,7 @@
         "event_id": "8062550",
         "url": "https://www.ticketliquidator.com/tickets/8062550/Air-Supply-tickets-Sun-Jan-24-2027-Van-Wezel-Performing-Arts-Hall",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -905,7 +905,7 @@
         "event_id": "8293949",
         "url": "https://www.ticketliquidator.com/tickets/8293949/Air-Supply-tickets-Fri-Jan-29-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1057,7 +1057,7 @@
         "event_id": "8193701",
         "url": "https://www.ticketliquidator.com/tickets/8193701/Air-Supply-tickets-Fri-Feb-5-2027-Hard-Rock-Live-Rockford",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1190,7 +1190,7 @@
         "event_id": "8231497",
         "url": "https://www.ticketliquidator.com/tickets/8231497/Air-Supply-tickets-Sun-Feb-7-2027-Genesee-Theatre",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1268,7 +1268,7 @@
         "event_id": "8238782",
         "url": "https://www.ticketliquidator.com/tickets/8238782/Air-Supply-tickets-Sat-Feb-13-2027-The-Show-Agua-Caliente-Casino",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1346,7 +1346,7 @@
         "event_id": "8274264",
         "url": "https://www.ticketliquidator.com/tickets/8274264/Air-Supply-tickets-Thu-Feb-18-2027-Rogers-Forum",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1536,7 +1536,7 @@
         "event_id": "8366579",
         "url": "https://www.ticketliquidator.com/tickets/8366579/Air-Supply-tickets-Fri-Feb-26-2027-Temple-Gardens-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1606,7 +1606,7 @@
         "event_id": "8274110",
         "url": "https://www.ticketliquidator.com/tickets/8274110/Air-Supply-tickets-Sun-Feb-28-2027-Canada-Life-Centre",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2024,7 +2024,7 @@
         "event_id": "8269067",
         "url": "https://www.ticketliquidator.com/tickets/8269067/Air-Supply-tickets-Fri-Feb-19-2027-South-Okanagan-Events-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2094,7 +2094,7 @@
         "event_id": "8355435",
         "url": "https://www.ticketliquidator.com/tickets/8355435/Air-Supply-tickets-Sun-Feb-21-2027-CN-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2157,7 +2157,7 @@
         "event_id": "8361965",
         "url": "https://www.ticketliquidator.com/tickets/8361965/Air-Supply-tickets-Sun-Jan-31-2027-Toyota-Oakdale-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {

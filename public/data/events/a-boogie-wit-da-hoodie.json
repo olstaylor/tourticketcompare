@@ -329,11 +329,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8303912",
-        "url": "https://www.ticketliquidator.com/tickets/8303912/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Nov-13-2026-Liacouras-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-08",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -348,7 +348,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303912",
     "genre": "Hip-Hop/Rap",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303912/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Nov-13-2026-Liacouras-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": ""
   },
   {
@@ -410,7 +410,7 @@
         "event_id": "8276916",
         "url": "https://www.ticketliquidator.com/tickets/8276916/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Nov-14-2026-Liacouras-Center",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -549,7 +549,7 @@
         "event_id": "8293991",
         "url": "https://www.ticketliquidator.com/tickets/8293991/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-5-2026-Orlando-Amphitheater-at-Central-Florida-Fairgrounds",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -618,7 +618,7 @@
         "event_id": "8294956",
         "url": "https://www.ticketliquidator.com/tickets/8294956/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-12-2026-The-Armory-Minneapolis",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -692,7 +692,7 @@
         "event_id": "8293968",
         "url": "https://www.ticketliquidator.com/tickets/8293968/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-19-2026-PeoplesBank-Arena",
         "verified": true,
-        "last_verified_at": "2026-10-21",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -886,7 +886,7 @@
         "event_id": "8361500",
         "url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {

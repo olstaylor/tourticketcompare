@@ -1256,11 +1256,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8199808",
-        "url": "https://www.ticketliquidator.com/tickets/8199808/Steve-Lacy-tickets-Fri-Nov-13-2026-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
-        "verified": true,
-        "last_verified_at": "2026-10-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107482317",
@@ -1274,7 +1274,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199808",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199808/Steve-Lacy-tickets-Fri-Nov-13-2026-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-las-vegas-tickets-11-13-2026/event/107482317",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1341,7 +1341,7 @@
         "event_id": "8199809",
         "url": "https://www.ticketliquidator.com/tickets/8199809/Steve-Lacy-tickets-Tue-Nov-17-2026-Arizona-Financial-Theatre",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1415,7 +1415,7 @@
         "event_id": "8199810",
         "url": "https://www.ticketliquidator.com/tickets/8199810/Steve-Lacy-tickets-Thu-Nov-19-2026-Gallagher-Square-at-Petco-Park",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1497,7 +1497,7 @@
         "event_id": "8199811",
         "url": "https://www.ticketliquidator.com/tickets/8199811/Steve-Lacy-tickets-Sat-Nov-21-2026-Hollywood-Bowl",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1580,7 +1580,7 @@
         "event_id": "8199812",
         "url": "https://www.ticketliquidator.com/tickets/8199812/Steve-Lacy-tickets-Tue-Nov-24-2026-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1663,7 +1663,7 @@
         "event_id": "8286236",
         "url": "https://www.ticketliquidator.com/tickets/8286236/Steve-Lacy-tickets-Wed-Nov-25-2026-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1753,7 +1753,7 @@
         "event_id": "8199813",
         "url": "https://www.ticketliquidator.com/tickets/8199813/Steve-Lacy-tickets-Sat-Nov-28-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1835,7 +1835,7 @@
         "event_id": "8199816",
         "url": "https://www.ticketliquidator.com/tickets/8199816/Steve-Lacy-tickets-Mon-Nov-30-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {

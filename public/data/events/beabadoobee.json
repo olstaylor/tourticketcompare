@@ -424,11 +424,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8090672",
-        "url": "https://www.ticketliquidator.com/tickets/8090672/beabadoobee-tickets-Sat-Nov-14-2026-OVO-Hydro",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107447517",
@@ -448,7 +448,7 @@
     "ticketmaster_discovery_event_id": "17uOv0G6urYBa3U",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090672/beabadoobee-tickets-Sat-Nov-14-2026-OVO-Hydro",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517",
     "organizer_names": [
       "DF CONCERTS LIMITED",
@@ -577,7 +577,7 @@
         "event_id": "8090671",
         "url": "https://www.ticketliquidator.com/tickets/8090671/beabadoobee-tickets-Tue-Nov-17-2026-AO-Arena",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -771,7 +771,7 @@
         "event_id": "8094857",
         "url": "https://www.ticketliquidator.com/tickets/8094857/beabadoobee-tickets-Fri-Nov-27-2026-Oslo-Spektrum",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -909,7 +909,7 @@
         "event_id": "8094855",
         "url": "https://www.ticketliquidator.com/tickets/8094855/beabadoobee-tickets-Sun-Dec-6-2026-Tempodrom",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -990,7 +990,7 @@
         "event_id": "8094856",
         "url": "https://www.ticketliquidator.com/tickets/8094856/beabadoobee-tickets-Mon-Dec-7-2026-Mitsubishi-Electric-Halle",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "stubhub-international": {

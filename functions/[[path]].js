@@ -1918,7 +1918,7 @@ function blogPostingSchema(route, origin) {
       post.author === SITE_BYLINE_NAME
         ? { "@id": organizationId }
         : { "@type": "Person", name: post.author },
-    editor: post.author === SITE_BYLINE_NAME ? reviewerSchemaRef(origin) : undefined,
+    editor: post.author === SITE_BYLINE_NAME && post.review !== "automated" ? reviewerSchemaRef(origin) : undefined,
     publisher: { "@id": organizationId },
     isPartOf: { "@id": `${origin}/#website` },
     inLanguage: "en",
@@ -5063,7 +5063,7 @@ function renderBlogProvenance(post) {
   const dates = [published ? `Published ${published}` : "", updated ? `Updated ${updated}` : ""].filter(Boolean);
   // anchor() escapes its own label — do not pre-escape, or an author name
   // containing & or an apostrophe renders double-escaped.
-  const byline = post.author === SITE_BYLINE_NAME ? `${siteBylineHtml()}${reviewerBylineHtml()}` : `By ${escapeHtml(post.author)}`;
+  const byline = post.author === SITE_BYLINE_NAME ? `${siteBylineHtml()}${post.review === "automated" ? "" : reviewerBylineHtml()}` : `By ${escapeHtml(post.author)}`;
   return `<div class="guide-provenance"><p>${byline}${
     dates.length ? ` · ${escapeHtml(dates.join(" · "))}` : ""
   }</p><p class="disclosure-note">TourTicketCompare is an independent, unofficial site and does not sell tickets. Some outbound ticket links earn a commission, which never changes what gets published — see the ${anchor(

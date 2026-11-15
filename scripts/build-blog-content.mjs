@@ -73,12 +73,17 @@ const ALLOWED_KEYS = new Set([
   "status",
   "tags",
   "author",
+  "review",
   "related_guides",
   "related_artists",
   "sources"
 ]);
 const REQUIRED_KEYS = ["title", "description", "summary", "date"];
 const ALLOWED_STATUS = new Set(["published", "draft"]);
+// `review: automated` marks a post that went live through a gated automated
+// check with no person reading it first, so it carries no "Reviewed by" credit.
+// Omit the key for a post a person reviewed.
+const ALLOWED_REVIEW = new Set(["automated"]);
 // Posts are credited to the site. The `author` front-matter key is still
 // parsed, but validatePost() rejects any value other than this one.
 const DEFAULT_AUTHOR = "TourTicketCompare";
@@ -190,6 +195,9 @@ function validatePost(post, context) {
   if (!post.sections.length) problems.push(`${where}: the post body is empty`);
   // Owner direction 2026-09-24: bylines credit the site; since 2026-10-23 the
   // renderer adds "Reviewed by Ollie Taylor". See docs/CONTENT_RULES.md.
+  if (post.review && !ALLOWED_REVIEW.has(post.review)) {
+    problems.push(`${where}: "review" must be "automated" or omitted (got "${post.review}")`);
+  }
   if (post.author !== DEFAULT_AUTHOR) {
     problems.push(`${where}: "author" must be ${DEFAULT_AUTHOR} (got "${post.author}"); bylines credit the site`);
   }
@@ -320,6 +328,7 @@ function normalizePost(file, source) {
     dateModified: String(frontMatter.updated ?? "").trim(),
     status: String(frontMatter.status ?? "published").trim() || "published",
     author: String(frontMatter.author ?? "").trim() || DEFAULT_AUTHOR,
+    review: String(frontMatter.review ?? "").trim(),
     tags: toList(frontMatter.tags),
     relatedGuides: toList(frontMatter.related_guides).map((slug) => slug.replace(/^\/guides\//, "")),
     relatedArtists: toList(frontMatter.related_artists).map((slug) => slug.replace(/^\/artists\//, "")),
@@ -354,6 +363,7 @@ function toRuntimeRecord(post) {
     wordCount: post.wordCount,
     sections: post.sections
   };
+  if (post.review) record.review = post.review;
   if (post.sources.length) record.sources = post.sources;
   return record;
 }
@@ -639,6 +649,11 @@ function selfTest() {
 
   const namedAuthor = validatePost({ ...base, author: "Someone Else" }, context);
   assert(namedAuthor.some((problem) => /bylines credit the site/.test(problem)), "a byline other than the site fails validation");
+
+  const badReview = validatePost({ ...base, review: "done" }, context);
+  assert(badReview.some((problem) => /"review" must be/.test(problem)), "an unknown review value fails validation");
+  const autoReview = validatePost({ ...base, review: "automated" }, context);
+  assert(!autoReview.some((problem) => /"review"/.test(problem)), "review: automated passes validation");
 
   const withImage = validatePost({ ...base, sections: [{ type: "section", title: "H", content: "![alt](/assets/blog/x.png)" }] }, context);
   assert(withImage.some((problem) => /images are not supported/.test(problem)), "an embedded image fails validation");

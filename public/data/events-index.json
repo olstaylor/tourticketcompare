@@ -60566,7 +60566,7 @@
     "country": "Mexico",
     "city": "Monterrey",
     "venue": "Auditorio Banamex",
-    "datetime_iso": "2026-11-17T03:00:00Z",
+    "datetime_iso": "2026-12-16T03:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
     "status": "on-sale"
@@ -60578,7 +60578,7 @@
     "country": "Mexico",
     "city": "Monterrey",
     "venue": "Auditorio Banamex",
-    "datetime_iso": "2026-11-18T03:00:00Z",
+    "datetime_iso": "2026-12-17T03:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
     "status": "on-sale"
@@ -62285,7 +62285,7 @@
     "datetime_iso": "2026-12-12T02:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-zach-top-2027-thackerville-z7r9jz1aaaeap",
@@ -65525,7 +65525,7 @@
     "datetime_iso": "2027-05-24T01:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-baltimore-1a4zk40gkdlc1yp",

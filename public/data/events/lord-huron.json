@@ -567,7 +567,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-philadelphia-pennsylvania-12-12-2026/event/020064FBB561F75F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -623,11 +623,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-07T14:00:00Z",
-        "end": "2026-11-15T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-08-07T14:00:00Z",

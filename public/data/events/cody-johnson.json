@@ -487,7 +487,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-13-2027/event/0000655ABCAD78E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -523,7 +523,26 @@
     "ticketmaster_discovery_event_id": "k7vGF_4nHl9NN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Cody Johnson Fan Club Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "MVP Arena Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-cody-johnson-2027-fargo-vv1akzk4fgkejxfzw",
@@ -541,7 +560,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-fargo-north-dakota-03-20-2027/event/06006554A6F88E32",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -577,7 +596,29 @@
     "ticketmaster_discovery_event_id": "vv1AkZk4fGkeJXFzw",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "POLICE PRODUCTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "COJO Fan Club Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-cody-johnson-2027-charlottesville-vv1avzk4ngkde3rwt",
@@ -595,7 +636,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-03-2027/event/01006563E749ECA9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -631,6 +672,32 @@
     "ticketmaster_discovery_event_id": "vv1AvZk4NGkdE3rwt",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "POLICE PRODUCTIONS"
+    ],
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "COJO Fan Club Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Offer",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2027-04-03T23:00:00Z"
+      },
+      {
+        "name": "John Paul Jones Arena",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      }
+    ]
   }
 ]

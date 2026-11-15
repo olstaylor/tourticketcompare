@@ -1396,7 +1396,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-18-2026--concerts-pop/production/7446302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-15",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1459,13 +1459,6 @@
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-14T20:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"

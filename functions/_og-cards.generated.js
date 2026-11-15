@@ -249,7 +249,6 @@ export const OG_CARDS = {
   "/artists/garth-brooks/ticket-prices": {"url":"/og/artists-garth-brooks-ticket-prices.png","alt":"Ticket prices: Garth Brooks"},
   "/artists/garth-brooks/tickets/hamilton-canada": {"url":"/og/artists-garth-brooks-tickets-hamilton-canada.png","alt":"Tickets: Garth Brooks in Hamilton"},
   "/artists/garth-brooks/tickets/north-little-rock-united-states": {"url":"/og/artists-garth-brooks-tickets-north-little-rock-united-states.png","alt":"Tickets: Garth Brooks in North Little Rock"},
-  "/artists/garth-brooks/tickets/seattle-united-states": {"url":"/og/artists-garth-brooks-tickets-seattle-united-states.png","alt":"Tickets: Garth Brooks in Seattle"},
   "/artists/gary-allan": {"url":"/og/artists-gary-allan.png","alt":"Tickets & tour dates: Gary Allan"},
   "/artists/gary-allan/presale": {"url":"/og/artists-gary-allan-presale.png","alt":"Presale: Gary Allan"},
   "/artists/gary-allan/ticket-prices": {"url":"/og/artists-gary-allan-ticket-prices.png","alt":"Ticket prices: Gary Allan"},

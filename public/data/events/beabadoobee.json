@@ -431,11 +431,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107447517",
-        "url": "https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8090672",
@@ -449,7 +449,7 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517",
+    "stubhub_international_url": "",
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "SCOTTISH EVENT CAMPUS LIMITED"
@@ -510,7 +510,7 @@
         "event_id": "107447518",
         "url": "https://www.stubhub.ie/beabadoobee-tickets-cardiff-utilita-arena-cardiff-16-11-2026/event/107447518",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -584,7 +584,7 @@
         "event_id": "107417852",
         "url": "https://www.stubhub.ie/beabadoobee-tickets-manchester-manchester-ao-arena-17-11-2026/event/107417852",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -778,7 +778,7 @@
         "event_id": "107417938",
         "url": "https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -916,7 +916,7 @@
         "event_id": "107417969",
         "url": "https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -997,7 +997,7 @@
         "event_id": "107417970",
         "url": "https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970",
         "verified": true,
-        "last_verified_at": "2026-10-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {

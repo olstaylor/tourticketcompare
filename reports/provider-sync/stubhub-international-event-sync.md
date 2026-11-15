@@ -1,6 +1,6 @@
 # StubHub International event sync log
 
-Generated: 2026-11-14T03:20:02.320Z
+Generated: 2026-11-15T02:09:09.237Z
 
 Written by `scripts/sync-impact-marketplace-events.mjs`. One Impact catalog
 fetch per registry-verified artist; a link is written only for one
@@ -10,186 +10,184 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 ## Run summary
 
 - Mode: apply
-- Events selected: 4144
-- API calls made: 238
+- Events selected: 4106
+- API calls made: 231
 - Verified provenance written: 0
-- URLs added: 33
+- Verified dates refreshed (link re-confirmed against the live listing): 1511
+- URLs added: 3
 - URLs corrected: 8
 - URLs cleared: 0
-- Provenance un-verified: 13
+- Provenance un-verified: 12
 - Conflicts (ambiguous, untouched): 26
-- No qualifying listing (complete catalog): 2586
+- No qualifying listing (complete catalog): 2558
 - Not checked (catalog incomplete): 0
 
 ## Outcomes
 
 | showId | artist | action | StubHub International id | url | notes |
 | --- | --- | --- | --- | --- | --- |
-| tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj | Olivia Rodrigo | none | 107164284 | https://www.stubhub.ie/olivia-rodrigo-orlando-tickets-11-15-2026/event/107164284 | - |
-| tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf | Olivia Rodrigo | none | 107162477 | https://www.stubhub.ie/olivia-rodrigo-orlando-tickets-11-16-2026/event/107162477 | - |
-| tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f | Olivia Rodrigo | none | 107164285 | https://www.stubhub.ie/olivia-rodrigo-sunrise-tickets-11-19-2026/event/107164285 | - |
-| tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o | Olivia Rodrigo | none | 107162478 | https://www.stubhub.ie/olivia-rodrigo-sunrise-tickets-11-20-2026/event/107162478 | - |
-| tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo | Olivia Rodrigo | none | 107162480 | https://www.stubhub.ie/olivia-rodrigo-nashville-tickets-11-23-2026/event/107162480 | - |
-| tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh | Olivia Rodrigo | none | 107162481 | https://www.stubhub.ie/olivia-rodrigo-nashville-tickets-11-24-2026/event/107162481 | - |
-| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb | Olivia Rodrigo | none | 107162486 | https://www.stubhub.ie/olivia-rodrigo-tickets-vancouver-rogers-arena-12-1-2026/event/107162486 | - |
-| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj | Olivia Rodrigo | none | 107162487 | https://www.stubhub.ie/olivia-rodrigo-tickets-vancouver-rogers-arena-12-2-2026/event/107162487 | - |
-| tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty | Olivia Rodrigo | none | 107164282 | https://www.stubhub.ie/olivia-rodrigo-seattle-tickets-12-7-2026/event/107164282 | - |
-| tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1 | Olivia Rodrigo | none | 107164283 | https://www.stubhub.ie/olivia-rodrigo-seattle-tickets-12-8-2026/event/107164283 | - |
-| tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b | Olivia Rodrigo | none | 107162479 | https://www.stubhub.ie/olivia-rodrigo-oakland-tickets-12-11-2026/event/107162479 | - |
-| tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1 | Olivia Rodrigo | none | 107165398 | https://www.stubhub.ie/olivia-rodrigo-oakland-tickets-12-12-2026/event/107165398 | - |
-| tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi | Olivia Rodrigo | none | 107165396 | https://www.stubhub.ie/olivia-rodrigo-sacramento-tickets-12-15-2026/event/107165396 | - |
-| tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy | Olivia Rodrigo | none | 107164281 | https://www.stubhub.ie/olivia-rodrigo-sacramento-tickets-12-16-2026/event/107164281 | - |
-| tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk | Olivia Rodrigo | none | 107162473 | https://www.stubhub.ie/olivia-rodrigo-las-vegas-tickets-12-19-2026/event/107162473 | - |
-| tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | Olivia Rodrigo | none | 107162474 | https://www.stubhub.ie/olivia-rodrigo-las-vegas-tickets-12-20-2026/event/107162474 | - |
-| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw | Olivia Rodrigo | none | 107165394 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-12-2027/event/107165394 | - |
-| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b | Olivia Rodrigo | none | 107162475 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-13-2027/event/107162475 | - |
-| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku | Olivia Rodrigo | none | 107165395 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-16-2027/event/107165395 | - |
-| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45 | Olivia Rodrigo | none | 107164280 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-17-2027/event/107164280 | - |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr | Olivia Rodrigo | none | 107164682 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-20-2027/event/107164682 | - |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph | Olivia Rodrigo | none | 107162642 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-21-2027/event/107162642 | - |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo | Olivia Rodrigo | none | 107162643 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-24-2027/event/107162643 | - |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd | Olivia Rodrigo | none | 107162644 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-25-2027/event/107162644 | - |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte- | Olivia Rodrigo | none | 107162645 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-28-2027/event/107162645 | - |
-| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq | Olivia Rodrigo | none | 107165566 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-29-2027/event/107165566 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq | Olivia Rodrigo | none | 107164286 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-11-2027/event/107164286 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn | Olivia Rodrigo | none | 107162482 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-12-2027/event/107162482 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl | Olivia Rodrigo | none | 107164287 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-15-2027/event/107164287 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs | Olivia Rodrigo | none | 107162483 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-16-2027/event/107162483 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx | Olivia Rodrigo | none | 107164683 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-19-2027/event/107164683 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi | Olivia Rodrigo | none | 107164684 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-20-2027/event/107164684 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi | Olivia Rodrigo | none | 107162646 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-23-2027/event/107162646 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw | Olivia Rodrigo | none | 107162647 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-24-2027/event/107162647 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg | Olivia Rodrigo | none | 107165567 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-27-2027/event/107165567 | - |
-| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx | Olivia Rodrigo | none | 107162648 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-28-2027/event/107162648 | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e | Olivia Rodrigo | none | 107164337 | https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-23-3-2027/event/107164337 | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa | Olivia Rodrigo | none | 107164338 | https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-24-3-2027/event/107164338 | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za | Olivia Rodrigo | none | 107164440 | https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-27-3-2027/event/107164440 | - |
-| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm | Olivia Rodrigo | none | 107164441 | https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-28-3-2027/event/107164441 | - |
-| tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao | Olivia Rodrigo | none | 107164313 | https://www.stubhub.ie/olivia-rodrigo-tickets-munich-olympiahalle-munich-1-4-2027/event/107164313 | - |
-| tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8 | Olivia Rodrigo | none | 107164314 | https://www.stubhub.ie/olivia-rodrigo-tickets-munich-olympiahalle-munich-2-4-2027/event/107164314 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah | Olivia Rodrigo | none | 107164278 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-5-4-2027/event/107164278 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3 | Olivia Rodrigo | none | 107165391 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-6-4-2027/event/107165391 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkusmfph | Olivia Rodrigo | none | 107162472 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-8-4-2027/event/107162472 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkug10qr | Olivia Rodrigo | none | 107165392 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-9-4-2027/event/107165392 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep | Olivia Rodrigo | none | 107164439 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-12-4-2027/event/107164439 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff | Olivia Rodrigo | none | 107165474 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-14-4-2027/event/107165474 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd | Olivia Rodrigo | none | 107164448 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-15-4-2027/event/107164448 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol | Olivia Rodrigo | none | 107162545 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-19-4-2027/event/107162545 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i | Olivia Rodrigo | none | 107164518 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-20-4-2027/event/107164518 | - |
-| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b | Olivia Rodrigo | none | 107165386 | https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-1-5-2027/event/107165386 | - |
-| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6 | Olivia Rodrigo | none | 107164275 | https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-2-5-2027/event/107164275 | - |
-| tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7 | Olivia Rodrigo | none | 107164442 | https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-5-5-2027/event/107164442 | - |
-| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_ | Olivia Rodrigo | none | 107165538 | https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-6-5-2027/event/107165538 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p | Olivia Rodrigo | none | 107165539 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-9-5-2027/event/107165539 | - |
-| tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3 | Olivia Rodrigo | none | 107164542 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-10-5-2027/event/107164542 | - |
-| tm-gracie-abrams-2026-denver-g5vzz_55eui2w | Gracie Abrams | none | 107198457 | https://www.stubhub.ie/gracie-abrams-denver-tickets-12-2-2026/event/107198457 | - |
-| tm-gracie-abrams-2026-denver-g5vzz_5lhxedg | Gracie Abrams | none | 107198458 | https://www.stubhub.ie/gracie-abrams-denver-tickets-12-3-2026/event/107198458 | - |
-| tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx | Gracie Abrams | none | 107198459 | https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-6-2026/event/107198459 | - |
-| tm-gracie-abrams-2026-oakland-g5vyz_5mq0w7n | Gracie Abrams | none | 107198460 | https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-7-2026/event/107198460 | - |
-| tm-gracie-abrams-2026-glendale-17k8v0g652smnjw | Gracie Abrams | none | 107198461 | https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-9-2026/event/107198461 | - |
-| tm-gracie-abrams-2026-glendale-17k8v0g65839wds | Gracie Abrams | none | 107198462 | https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-10-2026/event/107198462 | - |
-| tm-gracie-abrams-2026-inglewood-vvg10z_53kkqpx | Gracie Abrams | none | 107248077 | https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-14-2026/event/107248077 | - |
-| tm-gracie-abrams-2026-inglewood-vvg10z_5r0-czu | Gracie Abrams | none | 107198463 | https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-18-2026/event/107198463 | - |
-| tm-gracie-abrams-2026-inglewood-vvg10z_5r0nxzp | Gracie Abrams | none | 107198464 | https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-19-2026/event/107198464 | - |
-| tm-gracie-abrams-2026-inglewood-vvg10z_5r0eryu | Gracie Abrams | none | 107198465 | https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-20-2026/event/107198465 | - |
-| tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f | Gracie Abrams | none | 107198466 | https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-26-2027/event/107198466 | - |
-| tm-gracie-abrams-2027-seattle-vvg1hz_5rykvjn | Gracie Abrams | none | 107198467 | https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-27-2027/event/107198467 | - |
-| tm-gracie-abrams-2027-seattle-vvg1hz_5ry97ef | Gracie Abrams | none | 107198468 | https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-29-2027/event/107198468 | - |
-| tm-gracie-abrams-2027-portland-vvg1hz_1byq5cg | Gracie Abrams | none | 107248078 | https://www.stubhub.ie/gracie-abrams-portland-tickets-1-31-2027/event/107248078 | - |
-| tm-gracie-abrams-2027-portland-vvg1hz_1byqdcd | Gracie Abrams | none | 107248079 | https://www.stubhub.ie/gracie-abrams-portland-tickets-2-1-2027/event/107248079 | - |
-| tm-gracie-abrams-2027-chicago-vv1fvzv0pycdz72ag6 | Gracie Abrams | none | 107248080 | https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-11-2027/event/107248080 | - |
-| tm-gracie-abrams-2027-chicago-vvg18z_5rd-dah | Gracie Abrams | none | 107248081 | https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-12-2027/event/107248081 | - |
-| tm-gracie-abrams-2027-nashville-g5viz_51oey1w | Gracie Abrams | none | 107198471 | https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-14-2027/event/107198471 | - |
-| tm-gracie-abrams-2027-nashville-g5viz_5rgv7ra | Gracie Abrams | none | 107198472 | https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-15-2027/event/107198472 | - |
+| tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj | Olivia Rodrigo | refresh (applied) | 107164284 | https://www.stubhub.ie/olivia-rodrigo-orlando-tickets-11-15-2026/event/107164284 | - |
+| tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf | Olivia Rodrigo | refresh (applied) | 107162477 | https://www.stubhub.ie/olivia-rodrigo-orlando-tickets-11-16-2026/event/107162477 | - |
+| tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f | Olivia Rodrigo | refresh (applied) | 107164285 | https://www.stubhub.ie/olivia-rodrigo-sunrise-tickets-11-19-2026/event/107164285 | - |
+| tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o | Olivia Rodrigo | refresh (applied) | 107162478 | https://www.stubhub.ie/olivia-rodrigo-sunrise-tickets-11-20-2026/event/107162478 | - |
+| tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo | Olivia Rodrigo | refresh (applied) | 107162480 | https://www.stubhub.ie/olivia-rodrigo-nashville-tickets-11-23-2026/event/107162480 | - |
+| tm-olivia-rodrigo-2026-nashville-g5viz_avcebgh | Olivia Rodrigo | refresh (applied) | 107162481 | https://www.stubhub.ie/olivia-rodrigo-nashville-tickets-11-24-2026/event/107162481 | - |
+| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueipzb | Olivia Rodrigo | refresh (applied) | 107162486 | https://www.stubhub.ie/olivia-rodrigo-tickets-vancouver-rogers-arena-12-1-2026/event/107162486 | - |
+| tm-olivia-rodrigo-2026-vancouver-1av7z_agkueckzj | Olivia Rodrigo | refresh (applied) | 107162487 | https://www.stubhub.ie/olivia-rodrigo-tickets-vancouver-rogers-arena-12-2-2026/event/107162487 | - |
+| tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty | Olivia Rodrigo | refresh (applied) | 107164282 | https://www.stubhub.ie/olivia-rodrigo-seattle-tickets-12-7-2026/event/107164282 | - |
+| tm-olivia-rodrigo-2026-seattle-vvg1hz_amegpa1 | Olivia Rodrigo | refresh (applied) | 107164283 | https://www.stubhub.ie/olivia-rodrigo-seattle-tickets-12-8-2026/event/107164283 | - |
+| tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b | Olivia Rodrigo | refresh (applied) | 107162479 | https://www.stubhub.ie/olivia-rodrigo-oakland-tickets-12-11-2026/event/107162479 | - |
+| tm-olivia-rodrigo-2026-oakland-g5vyz_ambfsp1 | Olivia Rodrigo | refresh (applied) | 107165398 | https://www.stubhub.ie/olivia-rodrigo-oakland-tickets-12-12-2026/event/107165398 | - |
+| tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi | Olivia Rodrigo | refresh (applied) | 107165396 | https://www.stubhub.ie/olivia-rodrigo-sacramento-tickets-12-15-2026/event/107165396 | - |
+| tm-olivia-rodrigo-2026-sacramento-g5vyz_awlnnfy | Olivia Rodrigo | refresh (applied) | 107164281 | https://www.stubhub.ie/olivia-rodrigo-sacramento-tickets-12-16-2026/event/107164281 | - |
+| tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk | Olivia Rodrigo | refresh (applied) | 107162473 | https://www.stubhub.ie/olivia-rodrigo-las-vegas-tickets-12-19-2026/event/107162473 | - |
+| tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kf | Olivia Rodrigo | refresh (applied) | 107162474 | https://www.stubhub.ie/olivia-rodrigo-las-vegas-tickets-12-20-2026/event/107162474 | - |
+| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmesjcw | Olivia Rodrigo | refresh (applied) | 107165394 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-12-2027/event/107165394 | - |
+| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b | Olivia Rodrigo | refresh (applied) | 107162475 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-13-2027/event/107162475 | - |
+| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmikkku | Olivia Rodrigo | refresh (applied) | 107165395 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-16-2027/event/107165395 | - |
+| tm-olivia-rodrigo-2027-inglewood-vv170z_agkmijp45 | Olivia Rodrigo | refresh (applied) | 107164280 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-17-2027/event/107164280 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mjrpr | Olivia Rodrigo | refresh (applied) | 107164682 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-20-2027/event/107164682 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mtrph | Olivia Rodrigo | refresh (applied) | 107162642 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-21-2027/event/107162642 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mirjo | Olivia Rodrigo | refresh (applied) | 107162643 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-24-2027/event/107162643 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mrtjd | Olivia Rodrigo | refresh (applied) | 107162644 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-25-2027/event/107162644 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mwte- | Olivia Rodrigo | refresh (applied) | 107162645 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-28-2027/event/107162645 | - |
+| tm-olivia-rodrigo-2027-inglewood-vvg10z_13mzliq | Olivia Rodrigo | refresh (applied) | 107165566 | https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-29-2027/event/107165566 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq | Olivia Rodrigo | refresh (applied) | 107164286 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-11-2027/event/107164286 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv43gjn | Olivia Rodrigo | refresh (applied) | 107162482 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-12-2027/event/107162482 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv44jjl | Olivia Rodrigo | refresh (applied) | 107164287 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-15-2027/event/107164287 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkv49hjs | Olivia Rodrigo | refresh (applied) | 107162483 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-16-2027/event/107162483 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwvwpx | Olivia Rodrigo | refresh (applied) | 107164683 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-19-2027/event/107164683 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwdwpi | Olivia Rodrigo | refresh (applied) | 107164684 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-20-2027/event/107164684 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwkupi | Olivia Rodrigo | refresh (applied) | 107162646 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-23-2027/event/107162646 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwfupw | Olivia Rodrigo | refresh (applied) | 107162647 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-24-2027/event/107162647 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvw1wpg | Olivia Rodrigo | refresh (applied) | 107165567 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-27-2027/event/107165567 | - |
+| tm-olivia-rodrigo-2027-brooklyn-1adzz_agkvwuqpx | Olivia Rodrigo | refresh (applied) | 107162648 | https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-28-2027/event/107162648 | - |
+| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16vawas-e | Olivia Rodrigo | refresh (applied) | 107164337 | https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-23-3-2027/event/107164337 | - |
+| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz1kk7ajpa | Olivia Rodrigo | refresh (applied) | 107164338 | https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-24-3-2027/event/107164338 | - |
+| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v1zf-za | Olivia Rodrigo | refresh (applied) | 107164440 | https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-27-3-2027/event/107164440 | - |
+| tm-olivia-rodrigo-2027-amsterdam-z698xzbpz16v_8bagm | Olivia Rodrigo | refresh (applied) | 107164441 | https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-28-3-2027/event/107164441 | - |
+| tm-olivia-rodrigo-2027-munich-z698xzc2z1kfyg9ao | Olivia Rodrigo | refresh (applied) | 107164313 | https://www.stubhub.ie/olivia-rodrigo-tickets-munich-olympiahalle-munich-1-4-2027/event/107164313 | - |
+| tm-olivia-rodrigo-2027-munich-z698xzc2z16vuw_9j8 | Olivia Rodrigo | refresh (applied) | 107164314 | https://www.stubhub.ie/olivia-rodrigo-tickets-munich-olympiahalle-munich-2-4-2027/event/107164314 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkuyj7ah | Olivia Rodrigo | refresh (applied) | 107164278 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-5-4-2027/event/107164278 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkusg7f3 | Olivia Rodrigo | refresh (applied) | 107165391 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-6-4-2027/event/107165391 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkusmfph | Olivia Rodrigo | refresh (applied) | 107162472 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-8-4-2027/event/107162472 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkug10qr | Olivia Rodrigo | refresh (applied) | 107165392 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-9-4-2027/event/107165392 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkdf5uep | Olivia Rodrigo | refresh (applied) | 107164439 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-12-4-2027/event/107164439 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkdbfuff | Olivia Rodrigo | refresh (applied) | 107165474 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-14-4-2027/event/107165474 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkdqyuqd | Olivia Rodrigo | refresh (applied) | 107164448 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-15-4-2027/event/107164448 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkdjmpol | Olivia Rodrigo | refresh (applied) | 107162545 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-19-4-2027/event/107162545 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkdj-m1i | Olivia Rodrigo | refresh (applied) | 107164518 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-20-4-2027/event/107164518 | - |
+| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1kf4gb0b | Olivia Rodrigo | refresh (applied) | 107165386 | https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-1-5-2027/event/107165386 | - |
+| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8uzwj6 | Olivia Rodrigo | refresh (applied) | 107164275 | https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-2-5-2027/event/107164275 | - |
+| tm-olivia-rodrigo-2027-barcelona-z698xz2qz16ezxvpe7 | Olivia Rodrigo | refresh (applied) | 107164442 | https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-5-5-2027/event/107164442 | - |
+| tm-olivia-rodrigo-2027-barcelona-z698xz2qz1k8ffjf_ | Olivia Rodrigo | refresh (applied) | 107165538 | https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-6-5-2027/event/107165538 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkdz-z3p | Olivia Rodrigo | refresh (applied) | 107165539 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-9-5-2027/event/107165539 | - |
+| tm-olivia-rodrigo-2027-london-1adfz_agkdd-fh3 | Olivia Rodrigo | refresh (applied) | 107164542 | https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-10-5-2027/event/107164542 | - |
+| tm-gracie-abrams-2026-denver-g5vzz_55eui2w | Gracie Abrams | refresh (applied) | 107198457 | https://www.stubhub.ie/gracie-abrams-denver-tickets-12-2-2026/event/107198457 | - |
+| tm-gracie-abrams-2026-denver-g5vzz_5lhxedg | Gracie Abrams | refresh (applied) | 107198458 | https://www.stubhub.ie/gracie-abrams-denver-tickets-12-3-2026/event/107198458 | - |
+| tm-gracie-abrams-2026-oakland-g5vyz_1udxfhx | Gracie Abrams | refresh (applied) | 107198459 | https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-6-2026/event/107198459 | - |
+| tm-gracie-abrams-2026-oakland-g5vyz_5mq0w7n | Gracie Abrams | refresh (applied) | 107198460 | https://www.stubhub.ie/gracie-abrams-oakland-tickets-12-7-2026/event/107198460 | - |
+| tm-gracie-abrams-2026-glendale-17k8v0g652smnjw | Gracie Abrams | refresh (applied) | 107198461 | https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-9-2026/event/107198461 | - |
+| tm-gracie-abrams-2026-glendale-17k8v0g65839wds | Gracie Abrams | refresh (applied) | 107198462 | https://www.stubhub.ie/gracie-abrams-glendale-tickets-12-10-2026/event/107198462 | - |
+| tm-gracie-abrams-2026-inglewood-vvg10z_53kkqpx | Gracie Abrams | refresh (applied) | 107248077 | https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-14-2026/event/107248077 | - |
+| tm-gracie-abrams-2026-inglewood-vvg10z_5r0-czu | Gracie Abrams | refresh (applied) | 107198463 | https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-18-2026/event/107198463 | - |
+| tm-gracie-abrams-2026-inglewood-vvg10z_5r0nxzp | Gracie Abrams | refresh (applied) | 107198464 | https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-19-2026/event/107198464 | - |
+| tm-gracie-abrams-2026-inglewood-vvg10z_5r0eryu | Gracie Abrams | refresh (applied) | 107198465 | https://www.stubhub.ie/gracie-abrams-inglewood-tickets-12-20-2026/event/107198465 | - |
+| tm-gracie-abrams-2027-seattle-vvg1hz_1bnjn8f | Gracie Abrams | refresh (applied) | 107198466 | https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-26-2027/event/107198466 | - |
+| tm-gracie-abrams-2027-seattle-vvg1hz_5rykvjn | Gracie Abrams | refresh (applied) | 107198467 | https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-27-2027/event/107198467 | - |
+| tm-gracie-abrams-2027-seattle-vvg1hz_5ry97ef | Gracie Abrams | refresh (applied) | 107198468 | https://www.stubhub.ie/gracie-abrams-seattle-tickets-1-29-2027/event/107198468 | - |
+| tm-gracie-abrams-2027-portland-vvg1hz_1byq5cg | Gracie Abrams | refresh (applied) | 107248078 | https://www.stubhub.ie/gracie-abrams-portland-tickets-1-31-2027/event/107248078 | - |
+| tm-gracie-abrams-2027-portland-vvg1hz_1byqdcd | Gracie Abrams | refresh (applied) | 107248079 | https://www.stubhub.ie/gracie-abrams-portland-tickets-2-1-2027/event/107248079 | - |
+| tm-gracie-abrams-2027-chicago-vv1fvzv0pycdz72ag6 | Gracie Abrams | refresh (applied) | 107248080 | https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-11-2027/event/107248080 | - |
+| tm-gracie-abrams-2027-chicago-vvg18z_5rd-dah | Gracie Abrams | refresh (applied) | 107248081 | https://www.stubhub.ie/gracie-abrams-chicago-tickets-2-12-2027/event/107248081 | - |
+| tm-gracie-abrams-2027-nashville-g5viz_51oey1w | Gracie Abrams | refresh (applied) | 107198471 | https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-14-2027/event/107198471 | - |
+| tm-gracie-abrams-2027-nashville-g5viz_5rgv7ra | Gracie Abrams | refresh (applied) | 107198472 | https://www.stubhub.ie/gracie-abrams-nashville-tickets-2-15-2027/event/107198472 | - |
 | tm-gracie-abrams-2027-toronto-177zv0g61sqb4k8 | Gracie Abrams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gracie-abrams-2027-toronto-177zv0g65ic_clu | Gracie Abrams | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gracie-abrams-2027-atlanta-vvg1zz_5nqeia0 | Gracie Abrams | none | 107198473 | https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-23-2027/event/107198473 | - |
-| tm-gracie-abrams-2027-atlanta-vvg1zz_5nqiiai | Gracie Abrams | none | 107198474 | https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-24-2027/event/107198474 | - |
-| tm-gracie-abrams-2027-charlotte-g5evz_am0wlwu | Gracie Abrams | none | 107249077 | https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-26-2027/event/107249077 | - |
-| tm-gracie-abrams-2027-charlotte-g5evz_5ryzbyv | Gracie Abrams | none | 107198477 | https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-27-2027/event/107198477 | - |
-| tm-gracie-abrams-2027-boston-vv177z_agkwp_mnl | Gracie Abrams | none | 107198480 | https://www.stubhub.ie/gracie-abrams-boston-tickets-3-1-2027/event/107198480 | - |
-| tm-gracie-abrams-2027-boston-vvg17z_5rug2cb | Gracie Abrams | none | 107198481 | https://www.stubhub.ie/gracie-abrams-boston-tickets-3-2-2027/event/107198481 | - |
-| tm-gracie-abrams-2027-washington-1avfz_agksfejeq | Gracie Abrams | none | 107198483 | https://www.stubhub.ie/gracie-abrams-washington-tickets-3-4-2027/event/107198483 | - |
-| tm-gracie-abrams-2027-washington-17a8v0g65r4j5jx | Gracie Abrams | none | 107198484 | https://www.stubhub.ie/gracie-abrams-washington-tickets-3-5-2027/event/107198484 | - |
+| tm-gracie-abrams-2027-atlanta-vvg1zz_5nqeia0 | Gracie Abrams | refresh (applied) | 107198473 | https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-23-2027/event/107198473 | - |
+| tm-gracie-abrams-2027-atlanta-vvg1zz_5nqiiai | Gracie Abrams | refresh (applied) | 107198474 | https://www.stubhub.ie/gracie-abrams-atlanta-tickets-2-24-2027/event/107198474 | - |
+| tm-gracie-abrams-2027-charlotte-g5evz_am0wlwu | Gracie Abrams | refresh (applied) | 107249077 | https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-26-2027/event/107249077 | - |
+| tm-gracie-abrams-2027-charlotte-g5evz_5ryzbyv | Gracie Abrams | refresh (applied) | 107198477 | https://www.stubhub.ie/gracie-abrams-charlotte-tickets-2-27-2027/event/107198477 | - |
+| tm-gracie-abrams-2027-boston-vv177z_agkwp_mnl | Gracie Abrams | refresh (applied) | 107198480 | https://www.stubhub.ie/gracie-abrams-boston-tickets-3-1-2027/event/107198480 | - |
+| tm-gracie-abrams-2027-boston-vvg17z_5rug2cb | Gracie Abrams | refresh (applied) | 107198481 | https://www.stubhub.ie/gracie-abrams-boston-tickets-3-2-2027/event/107198481 | - |
+| tm-gracie-abrams-2027-washington-1avfz_agksfejeq | Gracie Abrams | refresh (applied) | 107198483 | https://www.stubhub.ie/gracie-abrams-washington-tickets-3-4-2027/event/107198483 | - |
+| tm-gracie-abrams-2027-washington-17a8v0g65r4j5jx | Gracie Abrams | refresh (applied) | 107198484 | https://www.stubhub.ie/gracie-abrams-washington-tickets-3-5-2027/event/107198484 | - |
 | tm-gracie-abrams-2027-montreal-17g8v0g65th0d1g | Gracie Abrams | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-gracie-abrams-2027-montreal-17g8v0g65thpd1k | Gracie Abrams | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-gracie-abrams-2027-philadelphia-17gzv0g65pru4zd | Gracie Abrams | none | 107198482 | https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-12-2027/event/107198482 | - |
-| tm-gracie-abrams-2027-philadelphia-17gzv0g65prugzw | Gracie Abrams | none | 107198479 | https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-13-2027/event/107198479 | - |
-| tm-gracie-abrams-2027-brooklyn-17gzv0g61s0b9dq | Gracie Abrams | none | 107249078 | https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-16-2027/event/107249078 | - |
-| tm-gracie-abrams-2027-brooklyn-17gzv0g65ie2coz | Gracie Abrams | none | 107198478 | https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-17-2027/event/107198478 | - |
-| tm-gracie-abrams-2027-brooklyn-17gzv0g65iekqou | Gracie Abrams | none | 107198476 | https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-19-2027/event/107198476 | - |
-| tm-gracie-abrams-2027-brooklyn-17gzv0g65iebqor | Gracie Abrams | none | 107198475 | https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-20-2027/event/107198475 | - |
+| tm-gracie-abrams-2027-philadelphia-17gzv0g65pru4zd | Gracie Abrams | refresh (applied) | 107198482 | https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-12-2027/event/107198482 | - |
+| tm-gracie-abrams-2027-philadelphia-17gzv0g65prugzw | Gracie Abrams | refresh (applied) | 107198479 | https://www.stubhub.ie/gracie-abrams-philadelphia-tickets-3-13-2027/event/107198479 | - |
+| tm-gracie-abrams-2027-brooklyn-17gzv0g61s0b9dq | Gracie Abrams | refresh (applied) | 107249078 | https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-16-2027/event/107249078 | - |
+| tm-gracie-abrams-2027-brooklyn-17gzv0g65ie2coz | Gracie Abrams | refresh (applied) | 107198478 | https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-17-2027/event/107198478 | - |
+| tm-gracie-abrams-2027-brooklyn-17gzv0g65iekqou | Gracie Abrams | refresh (applied) | 107198476 | https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-19-2027/event/107198476 | - |
+| tm-gracie-abrams-2027-brooklyn-17gzv0g65iebqor | Gracie Abrams | refresh (applied) | 107198475 | https://www.stubhub.ie/gracie-abrams-brooklyn-tickets-3-20-2027/event/107198475 | - |
 | tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k_p3f_b | Gracie Abrams | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-gracie-abrams-2027-merksem-antwerpen-z698xzg2z1k4vofa4 | Gracie Abrams | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-gracie-abrams-2027-manchester-17uyv0g65rbpnzf | Gracie Abrams | none | 107255078 | https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-22-4-2027/event/107255078 | - |
-| tm-gracie-abrams-2027-manchester-17uyv0g6gk_vkhl | Gracie Abrams | none | 107288081 | https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-24-4-2027/event/107288081 | - |
-| tm-gracie-abrams-2027-manchester-17uyv0g6gkp6vc5 | Gracie Abrams | none | 107288082 | https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-25-4-2027/event/107288082 | - |
-| tm-gracie-abrams-2027-london-17u8v0g65wthjl9 | Gracie Abrams | none | 107255080 | https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-30-4-2027/event/107255080 | - |
-| tm-gracie-abrams-2027-london-17u8v0g65wi6peh | Gracie Abrams | none | 107198540 | https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-1-5-2027/event/107198540 | - |
-| tm-gracie-abrams-2027-london-17u8v0g65wcbpi1 | Gracie Abrams | none | 107198541 | https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-3-5-2027/event/107198541 | - |
-| tm-gracie-abrams-2027-london-17u8v0g65wm9us5 | Gracie Abrams | none | 107255081 | https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-4-5-2027/event/107255081 | - |
-| tm-gracie-abrams-2027-amsterdam-z698xzbpz16vpdafzk | Gracie Abrams | none | 107244080 | https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-7-5-2027/event/107244080 | - |
-| tm-gracie-abrams-2027-amsterdam-z698xzbpz16v00_azt | Gracie Abrams | none | 107244081 | https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-8-5-2027/event/107244081 | - |
-| tm-gracie-abrams-2027-amsterdam-z698xzbpz16v0oan4g | Gracie Abrams | none | 107244082 | https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-10-5-2027/event/107244082 | - |
-| tm-gracie-abrams-2027-berlin-z698xzc2z16vx9ppa7 | Gracie Abrams | none | 107244077 | https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-12-5-2027/event/107244077 | - |
-| tm-gracie-abrams-2027-berlin-z698xzc2z16vfef4pp | Gracie Abrams | none | 107198415 | https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-13-5-2027/event/107198415 | - |
-| tm-gracie-abrams-2027-barcelona-z698xz2qz16vav0xgz | Gracie Abrams | none | 107198414 | https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-27-5-2027/event/107198414 | - |
-| tm-gracie-abrams-2027-barcelona-z698xz2qz16vpsaikv | Gracie Abrams | none | 107242082 | https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-28-5-2027/event/107242082 | - |
+| tm-gracie-abrams-2027-manchester-17uyv0g65rbpnzf | Gracie Abrams | refresh (applied) | 107255078 | https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-22-4-2027/event/107255078 | - |
+| tm-gracie-abrams-2027-manchester-17uyv0g6gk_vkhl | Gracie Abrams | refresh (applied) | 107288081 | https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-24-4-2027/event/107288081 | - |
+| tm-gracie-abrams-2027-manchester-17uyv0g6gkp6vc5 | Gracie Abrams | refresh (applied) | 107288082 | https://www.stubhub.ie/gracie-abrams-tickets-manchester-co-op-live-25-4-2027/event/107288082 | - |
+| tm-gracie-abrams-2027-london-17u8v0g65wthjl9 | Gracie Abrams | refresh (applied) | 107255080 | https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-30-4-2027/event/107255080 | - |
+| tm-gracie-abrams-2027-london-17u8v0g65wi6peh | Gracie Abrams | refresh (applied) | 107198540 | https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-1-5-2027/event/107198540 | - |
+| tm-gracie-abrams-2027-london-17u8v0g65wcbpi1 | Gracie Abrams | refresh (applied) | 107198541 | https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-3-5-2027/event/107198541 | - |
+| tm-gracie-abrams-2027-london-17u8v0g65wm9us5 | Gracie Abrams | refresh (applied) | 107255081 | https://www.stubhub.ie/gracie-abrams-tickets-london-the-o2-arena-4-5-2027/event/107255081 | - |
+| tm-gracie-abrams-2027-amsterdam-z698xzbpz16vpdafzk | Gracie Abrams | refresh (applied) | 107244080 | https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-7-5-2027/event/107244080 | - |
+| tm-gracie-abrams-2027-amsterdam-z698xzbpz16v00_azt | Gracie Abrams | refresh (applied) | 107244081 | https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-8-5-2027/event/107244081 | - |
+| tm-gracie-abrams-2027-amsterdam-z698xzbpz16v0oan4g | Gracie Abrams | refresh (applied) | 107244082 | https://www.stubhub.ie/gracie-abrams-tickets-amsterdam-ziggo-dome-10-5-2027/event/107244082 | - |
+| tm-gracie-abrams-2027-berlin-z698xzc2z16vx9ppa7 | Gracie Abrams | refresh (applied) | 107244077 | https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-12-5-2027/event/107244077 | - |
+| tm-gracie-abrams-2027-berlin-z698xzc2z16vfef4pp | Gracie Abrams | refresh (applied) | 107198415 | https://www.stubhub.ie/gracie-abrams-tickets-berlin-uber-arena-13-5-2027/event/107198415 | - |
+| tm-gracie-abrams-2027-barcelona-z698xz2qz16vav0xgz | Gracie Abrams | refresh (applied) | 107198414 | https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-27-5-2027/event/107198414 | - |
+| tm-gracie-abrams-2027-barcelona-z698xz2qz16vpsaikv | Gracie Abrams | refresh (applied) | 107242082 | https://www.stubhub.ie/gracie-abrams-tickets-barcelona-palau-sant-jordi-28-5-2027/event/107242082 | - |
 | tm-niall-horan-2027-saint-paul-z7r9jz1a704vb | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-niall-horan-2027-detroit-vvg1oz_1rv4ast | Niall Horan | none | 107165599 | https://www.stubhub.ie/niall-horan-detroit-tickets-3-19-2027/event/107165599 | - |
+| tm-niall-horan-2027-detroit-vvg1oz_1rv4ast | Niall Horan | refresh (applied) | 107165599 | https://www.stubhub.ie/niall-horan-detroit-tickets-3-19-2027/event/107165599 | - |
 | tm-niall-horan-2027-columbus-vvg1fz_1x9ig7q | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-niall-horan-2027-chicago-vvg18z_1llyajb | Niall Horan | none | 107166117 | https://www.stubhub.ie/niall-horan-chicago-tickets-3-23-2027/event/107166117 | - |
+| tm-niall-horan-2027-chicago-vvg18z_1llyajb | Niall Horan | refresh (applied) | 107166117 | https://www.stubhub.ie/niall-horan-chicago-tickets-3-23-2027/event/107166117 | - |
 | tm-niall-horan-2027-indianapolis-vvg1fz_1htnybv | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-niall-horan-2027-saint-louis-vvg1bz_1qy32om | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-niall-horan-2027-toronto-177zv0g61h1eoxc | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-niall-horan-2027-montreal-17g8v0g61rtd60v | Niall Horan | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-niall-horan-2027-brooklyn-17gzv0g61hpqmr1 | Niall Horan | none | 107162727 | https://www.stubhub.ie/niall-horan-brooklyn-tickets-4-4-2027/event/107162727 | - |
+| tm-niall-horan-2027-brooklyn-17gzv0g61hpqmr1 | Niall Horan | refresh (applied) | 107162727 | https://www.stubhub.ie/niall-horan-brooklyn-tickets-4-4-2027/event/107162727 | - |
 | tm-niall-horan-2027-baltimore-17a8v0g61lfcmsv | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-niall-horan-2027-boston-vvg17z_1qxbhwy | Niall Horan | none | 107165601 | https://www.stubhub.ie/niall-horan-boston-tickets-4-12-2027/event/107165601 | - |
+| tm-niall-horan-2027-boston-vvg17z_1qxbhwy | Niall Horan | refresh (applied) | 107165601 | https://www.stubhub.ie/niall-horan-boston-tickets-4-12-2027/event/107165601 | - |
 | tm-niall-horan-2027-raleigh-g5evz_1r802la | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-niall-horan-2027-orlando-17fov0g61xk1ezu | Niall Horan | none | 107165602 | https://www.stubhub.ie/niall-horan-orlando-tickets-4-17-2027/event/107165602 | - |
-| tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt | Niall Horan | none | 107165603 | https://www.stubhub.ie/niall-horan-atlanta-tickets-4-28-2027/event/107165603 | - |
-| tm-niall-horan-2027-new-orleans-g5viz_1xkcnon | Niall Horan | none | 107162728 | https://www.stubhub.ie/niall-horan-new-orleans-tickets-4-29-2027/event/107162728 | - |
-| tm-niall-horan-2027-houston-z7r9jz1a709uy | Niall Horan | none | 107162729 | https://www.stubhub.ie/niall-horan-houston-tickets-5-1-2027/event/107162729 | - |
-| tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer | Niall Horan | none | 107166118 | https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118 | - |
-| tm-niall-horan-2027-austin-g5diz_1lpaglw | Niall Horan | none | 107166124 | https://www.stubhub.ie/niall-horan-austin-tickets-5-14-2027/event/107166124 | - |
-| tm-niall-horan-2027-denver-g5vzz_1lspoiu | Niall Horan | none | 107162733 | https://www.stubhub.ie/niall-horan-denver-tickets-5-16-2027/event/107162733 | - |
+| tm-niall-horan-2027-orlando-17fov0g61xk1ezu | Niall Horan | refresh (applied) | 107165602 | https://www.stubhub.ie/niall-horan-orlando-tickets-4-17-2027/event/107165602 | - |
+| tm-niall-horan-2027-atlanta-vvg1zz_1hoxudt | Niall Horan | refresh (applied) | 107165603 | https://www.stubhub.ie/niall-horan-atlanta-tickets-4-28-2027/event/107165603 | - |
+| tm-niall-horan-2027-new-orleans-g5viz_1xkcnon | Niall Horan | refresh (applied) | 107162728 | https://www.stubhub.ie/niall-horan-new-orleans-tickets-4-29-2027/event/107162728 | - |
+| tm-niall-horan-2027-houston-z7r9jz1a709uy | Niall Horan | refresh (applied) | 107162729 | https://www.stubhub.ie/niall-horan-houston-tickets-5-1-2027/event/107162729 | - |
+| tm-niall-horan-2027-fort-worth-vvg1yz_1r1jeer | Niall Horan | refresh (applied) | 107166118 | https://www.stubhub.ie/niall-horan-fort-worth-tickets-5-2-2027/event/107166118 | - |
+| tm-niall-horan-2027-austin-g5diz_1lpaglw | Niall Horan | refresh (applied) | 107166124 | https://www.stubhub.ie/niall-horan-austin-tickets-5-14-2027/event/107166124 | - |
+| tm-niall-horan-2027-denver-g5vzz_1lspoiu | Niall Horan | refresh (applied) | 107162733 | https://www.stubhub.ie/niall-horan-denver-tickets-5-16-2027/event/107162733 | - |
 | tm-niall-horan-2027-west-valley-city-g5vzz_1xafaiw | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-niall-horan-2027-phoenix-17k8v0g61ruofyr | Niall Horan | none | 107166121 | https://www.stubhub.ie/niall-horan-phoenix-tickets-5-20-2027/event/107166121 | - |
-| tm-niall-horan-2027-inglewood-vvg10z_1jzwise | Niall Horan | none | 107170309 | https://www.stubhub.ie/niall-horan-inglewood-tickets-5-22-2027/event/107170309 | - |
-| tm-niall-horan-2027-san-francisco-g5vyz_195tivo | Niall Horan | none | 107166120 | https://www.stubhub.ie/niall-horan-san-francisco-tickets-5-25-2027/event/107166120 | - |
-| tm-niall-horan-2027-seattle-vvg1hz_1hqc03- | Niall Horan | none | 107162731 | https://www.stubhub.ie/niall-horan-seattle-tickets-5-27-2027/event/107162731 | - |
-| tm-niall-horan-2027-vancouver-1778v0g61qodyye | Niall Horan | none | 107165604 | https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604 | - |
-| tm-doja-cat-2026-tampa-vvg1vzbslmpvjz | Doja Cat | unverify (applied) | 106969175 | https://www.stubhub.ie/doja-cat-tampa-tickets-11-13-2026/event/106969175 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-doja-cat-2026-orlando-1aefzbsgklnlnmt | Doja Cat | none | 106969170 | https://www.stubhub.ie/doja-cat-orlando-tickets-11-14-2026/event/106969170 | - |
-| tm-doja-cat-2026-atlanta-vvg1zzbsle3ugd | Doja Cat | none | 107202114 | https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114 | - |
-| tm-doja-cat-2026-charlotte-g5evzbsemdalv | Doja Cat | none | 107202115 | https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115 | - |
+| tm-niall-horan-2027-phoenix-17k8v0g61ruofyr | Niall Horan | refresh (applied) | 107166121 | https://www.stubhub.ie/niall-horan-phoenix-tickets-5-20-2027/event/107166121 | - |
+| tm-niall-horan-2027-inglewood-vvg10z_1jzwise | Niall Horan | refresh (applied) | 107170309 | https://www.stubhub.ie/niall-horan-inglewood-tickets-5-22-2027/event/107170309 | - |
+| tm-niall-horan-2027-san-francisco-g5vyz_195tivo | Niall Horan | refresh (applied) | 107166120 | https://www.stubhub.ie/niall-horan-san-francisco-tickets-5-25-2027/event/107166120 | - |
+| tm-niall-horan-2027-seattle-vvg1hz_1hqc03- | Niall Horan | refresh (applied) | 107162731 | https://www.stubhub.ie/niall-horan-seattle-tickets-5-27-2027/event/107162731 | - |
+| tm-niall-horan-2027-vancouver-1778v0g61qodyye | Niall Horan | refresh (applied) | 107165604 | https://www.stubhub.ie/niall-horan-tickets-vancouver-rogers-arena-5-29-2027/event/107165604 | - |
+| tm-doja-cat-2026-orlando-1aefzbsgklnlnmt | Doja Cat | refresh (applied) | 106969170 | https://www.stubhub.ie/doja-cat-orlando-tickets-11-14-2026/event/106969170 | - |
+| tm-doja-cat-2026-atlanta-vvg1zzbsle3ugd | Doja Cat | refresh (applied) | 107202114 | https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114 | - |
+| tm-doja-cat-2026-charlotte-g5evzbsemdalv | Doja Cat | refresh (applied) | 107202115 | https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115 | - |
 | tm-doja-cat-2026-baltimore-1avfzbsgknfre1x | Doja Cat | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-doja-cat-2026-washington-1a4zkgygkdpgprp | Doja Cat | none | 106969162 | https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162 | - |
-| tm-doja-cat-2026-boston-vv1f7zbs09vyzd227 | Doja Cat | none | 106969161 | https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161 | - |
+| tm-doja-cat-2026-washington-1a4zkgygkdpgprp | Doja Cat | refresh (applied) | 106969162 | https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162 | - |
+| tm-doja-cat-2026-boston-vv1f7zbs09vyzd227 | Doja Cat | refresh (applied) | 106969161 | https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161 | - |
 | tm-doja-cat-2026-toronto-1k7zvncbgagve_c | Doja Cat | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-doja-cat-2026-montreal-1aszkgygkemvjjt | Doja Cat | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-doja-cat-2026-philadelphia-1adzzbsgkldzvua | Doja Cat | none | 106972096 | https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096 | - |
-| tm-doja-cat-2026-new-york-g5dizbsintkzt | Doja Cat | none | 106969160 | https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160 | - |
-| tm-sombr-2026-cleveland-z7r9jz1a7xav7 | Sombr | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sombr-2026-buffalo-k7v17_f0kg7ij1e | Sombr | none | 107154730 | https://www.stubhub.ie/sombr-buffalo-tickets-11-14-2026/event/107154730 | - |
+| tm-doja-cat-2026-philadelphia-1adzzbsgkldzvua | Doja Cat | refresh (applied) | 106972096 | https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096 | - |
+| tm-doja-cat-2026-new-york-g5dizbsintkzt | Doja Cat | refresh (applied) | 106969160 | https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160 | - |
+| tm-sombr-2026-buffalo-k7v17_f0kg7ij1e | Sombr | unverify (applied) | 107154730 | https://www.stubhub.ie/sombr-buffalo-tickets-11-14-2026/event/107154730 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-sombr-2026-toronto-1a8zk36gkdv1i_l | Sombr | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sombr-2026-boston-vv1avzk36gkdfnkex | Sombr | none | 107154733 | https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733 | - |
-| tm-sombr-2026-philadelphia-1kgzv0xbga5zeae | Sombr | none | 107154735 | https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735 | - |
-| tm-sombr-2026-newark-vv1aezk3fgkdhlmuf | Sombr | none | 107155495 | https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495 | - |
-| tm-sombr-2026-new-york-g5diz_flfogz- | Sombr | none | 107154738 | https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738 | - |
-| tm-sombr-2026-new-york-g5diz_flffpzi | Sombr | none | 107160120 | https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120 | - |
-| tm-john-summit-2026-columbus-vvg1fz_52gqiba | John Summit | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-john-summit-2026-charlotte-g5evz_52qpkue | John Summit | none | 107189135 | https://www.stubhub.ie/john-summit-charlotte-tickets-11-14-2026/event/107189135 | - |
-| tm-john-summit-2026-atlanta-vvg1zz_527ymui | John Summit | none | 107185234 | https://www.stubhub.ie/john-summit-atlanta-tickets-11-15-2026/event/107185234 | - |
-| tm-john-summit-2026-miami-vvg1vz_51zozkr | John Summit | none | 107189137 | https://www.stubhub.ie/john-summit-miami-tickets-11-20-2026/event/107189137 | - |
-| tm-john-summit-2026-miami-vvg1vz_5ctzbz1 | John Summit | none | 107189136 | https://www.stubhub.ie/john-summit-miami-tickets-11-21-2026/event/107189136 | - |
-| tm-john-summit-2026-chicago-vvg18z_52-bljx | John Summit | none | 107189138 | https://www.stubhub.ie/john-summit-chicago-tickets-11-24-2026/event/107189138 | - |
-| tm-john-summit-2026-chicago-vvg18z_52-dlqv | John Summit | none | 107189139 | https://www.stubhub.ie/john-summit-chicago-tickets-11-25-2026/event/107189139 | - |
+| tm-sombr-2026-boston-vv1avzk36gkdfnkex | Sombr | refresh (applied) | 107154733 | https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733 | - |
+| tm-sombr-2026-philadelphia-1kgzv0xbga5zeae | Sombr | refresh (applied) | 107154735 | https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735 | - |
+| tm-sombr-2026-newark-vv1aezk3fgkdhlmuf | Sombr | refresh (applied) | 107155495 | https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495 | - |
+| tm-sombr-2026-new-york-g5diz_flfogz- | Sombr | refresh (applied) | 107154738 | https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738 | - |
+| tm-sombr-2026-new-york-g5diz_flffpzi | Sombr | refresh (applied) | 107160120 | https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120 | - |
+| tm-john-summit-2026-charlotte-g5evz_52qpkue | John Summit | unverify (applied) | 107189135 | https://www.stubhub.ie/john-summit-charlotte-tickets-11-14-2026/event/107189135 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-john-summit-2026-atlanta-vvg1zz_527ymui | John Summit | refresh (applied) | 107185234 | https://www.stubhub.ie/john-summit-atlanta-tickets-11-15-2026/event/107185234 | - |
+| tm-john-summit-2026-miami-vvg1vz_51zozkr | John Summit | refresh (applied) | 107189137 | https://www.stubhub.ie/john-summit-miami-tickets-11-20-2026/event/107189137 | - |
+| tm-john-summit-2026-miami-vvg1vz_5ctzbz1 | John Summit | refresh (applied) | 107189136 | https://www.stubhub.ie/john-summit-miami-tickets-11-21-2026/event/107189136 | - |
+| tm-john-summit-2026-chicago-vvg18z_52-bljx | John Summit | refresh (applied) | 107189138 | https://www.stubhub.ie/john-summit-chicago-tickets-11-24-2026/event/107189138 | - |
+| tm-john-summit-2026-chicago-vvg18z_52-dlqv | John Summit | refresh (applied) | 107189139 | https://www.stubhub.ie/john-summit-chicago-tickets-11-25-2026/event/107189139 | - |
 | tm-john-summit-2026-philadelphia-vvg1fz_5ctejox | John Summit | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-john-summit-2026-brooklyn-17gzv0g655ozaay | John Summit | none | 107189140 | https://www.stubhub.ie/john-summit-brooklyn-tickets-11-28-2026/event/107189140 | - |
-| tm-john-summit-2026-oakland-g5vyz_5chdjie | John Summit | none | 107189141 | https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141 | - |
-| tm-john-summit-2026-oakland-g5vyz_5925f5n | John Summit | none | 107289083 | https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083 | - |
+| tm-john-summit-2026-brooklyn-17gzv0g655ozaay | John Summit | refresh (applied) | 107189140 | https://www.stubhub.ie/john-summit-brooklyn-tickets-11-28-2026/event/107189140 | - |
+| tm-john-summit-2026-oakland-g5vyz_5chdjie | John Summit | refresh (applied) | 107189141 | https://www.stubhub.ie/john-summit-oakland-tickets-12-4-2026/event/107189141 | - |
+| tm-john-summit-2026-oakland-g5vyz_5925f5n | John Summit | refresh (applied) | 107289083 | https://www.stubhub.ie/john-summit-oakland-tickets-12-5-2026/event/107289083 | - |
 | tm-john-summit-2026-los-angeles-vvg1iz_2teslqm | John Summit | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-karol-g-2027-barcelona-z698xz2qz1k-d-v1k | Karol G | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk | Karol G | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
@@ -200,88 +198,87 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-karol-g-2027-madrid-z698xz2qz1kpmzkfn | Karol G | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-karol-g-2027-madrid-z698xz2qz16v8zxv0i | Karol G | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-karol-g-2027-madrid-z698xz2qz1koujx1f | Karol G | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-karol-g-2027-london-1agzk3ogkddbuhf | Karol G | none | 107161134 | https://www.stubhub.ie/karol-g-tickets-london-tottenham-hotspur-stadium-6-7-2027/event/107161134 | - |
-| tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy | Karol G | none | 107162215 | https://www.stubhub.ie/karol-g-tickets-amsterdam-johan-cruijff-arena-10-7-2027/event/107162215 | - |
+| tm-karol-g-2027-london-1agzk3ogkddbuhf | Karol G | refresh (applied) | 107161134 | https://www.stubhub.ie/karol-g-tickets-london-tottenham-hotspur-stadium-6-7-2027/event/107161134 | - |
+| tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy | Karol G | refresh (applied) | 107162215 | https://www.stubhub.ie/karol-g-tickets-amsterdam-johan-cruijff-arena-10-7-2027/event/107162215 | - |
 | tm-metallica-2026-uncasville-g5vvz_6nrigot | Metallica | correct (applied) | 107669953 | https://www.stubhub.ie/metallica-uncasville-tickets-11-19-2026/event/107669953 | - |
-| tm-metallica-2026-uncasville-g5vvz_6n-zpjb | Metallica | none | 107669955 | https://www.stubhub.ie/metallica-uncasville-tickets-11-21-2026/event/107669955 | - |
+| tm-metallica-2026-uncasville-g5vvz_6n-zpjb | Metallica | refresh (applied) | 107669955 | https://www.stubhub.ie/metallica-uncasville-tickets-11-21-2026/event/107669955 | - |
 | tm-metallica-2027-las-vegas-1fayv0b_z4z7ggvk | Metallica | correct (applied) | 107132084 | https://www.stubhub.ie/metallica-las-vegas-tickets-1-28-2027/event/107132084 | - |
-| tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr | Metallica | none | 107132085 | https://www.stubhub.ie/metallica-las-vegas-tickets-1-30-2027/event/107132085 | - |
+| tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr | Metallica | refresh (applied) | 107132085 | https://www.stubhub.ie/metallica-las-vegas-tickets-1-30-2027/event/107132085 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gke0yct0 | Metallica | correct (applied) | 107133087 | https://www.stubhub.ie/metallica-las-vegas-tickets-2-4-2027/event/107133087 | - |
-| tm-metallica-2027-las-vegas-1a9zko-gkepzr6s | Metallica | none | 107133088 | https://www.stubhub.ie/metallica-las-vegas-tickets-2-6-2027/event/107133088 | - |
+| tm-metallica-2027-las-vegas-1a9zko-gkepzr6s | Metallica | refresh (applied) | 107133088 | https://www.stubhub.ie/metallica-las-vegas-tickets-2-6-2027/event/107133088 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gke0ywtn | Metallica | correct (applied) | 107133091 | https://www.stubhub.ie/metallica-las-vegas-tickets-2-18-2027/event/107133091 | - |
-| tm-metallica-2027-las-vegas-1a9zko-gkepzr6g | Metallica | none | 107133092 | https://www.stubhub.ie/metallica-las-vegas-tickets-2-20-2027/event/107133092 | - |
+| tm-metallica-2027-las-vegas-1a9zko-gkepzr6g | Metallica | refresh (applied) | 107133092 | https://www.stubhub.ie/metallica-las-vegas-tickets-2-20-2027/event/107133092 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gke0buti | Metallica | correct (applied) | 107133093 | https://www.stubhub.ie/metallica-las-vegas-tickets-2-25-2027/event/107133093 | - |
-| tm-metallica-2027-las-vegas-1a9zko-gkepzxff | Metallica | none | 107133100 | https://www.stubhub.ie/metallica-las-vegas-tickets-3-13-2027/event/107133100 | - |
-| tm-teddy-swims-2026-san-diego-z7r9jz1a7xpf- | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-teddy-swims-2026-las-vegas-z7r9jz1a7xpfb | Teddy Swims | none | 107158279 | https://www.stubhub.ie/teddy-swims-las-vegas-tickets-11-14-2026/event/107158279 | - |
-| tm-teddy-swims-2026-phoenix-1av0z_fgkbna4b9 | Teddy Swims | none | 107158280 | https://www.stubhub.ie/teddy-swims-phoenix-tickets-11-16-2026/event/107158280 | - |
-| tm-teddy-swims-2026-inglewood-vv170z_fgkmxw1os | Teddy Swims | none | 107158281 | https://www.stubhub.ie/teddy-swims-inglewood-tickets-11-18-2026/event/107158281 | - |
-| tm-teddy-swims-2027-berlin-z698xzc2z16v8g0v0d | Teddy Swims | none | 107458277 | https://www.stubhub.ie/teddy-swims-tickets-berlin-uber-arena-11-3-2027/event/107458277 | - |
-| tm-teddy-swims-2027-amsterdam-z698xzbpz16vajo8c6 | Teddy Swims | none | 107455905 | https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-16-3-2027/event/107455905 | - |
-| tm-teddy-swims-2027-amsterdam-z698xzbpz1kb300fz | Teddy Swims | none | 107460175 | https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-17-3-2027/event/107460175 | - |
-| tm-teddy-swims-2027-amsterdam-z698xzbpz16vckf4-9 | Teddy Swims | none | 107460176 | https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-18-3-2027/event/107460176 | - |
+| tm-metallica-2027-las-vegas-1a9zko-gkepzxff | Metallica | refresh (applied) | 107133100 | https://www.stubhub.ie/metallica-las-vegas-tickets-3-13-2027/event/107133100 | - |
+| tm-teddy-swims-2026-san-diego-z7r9jz1a7xpf- | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-teddy-swims-2026-las-vegas-z7r9jz1a7xpfb | Teddy Swims | refresh (applied) | 107158279 | https://www.stubhub.ie/teddy-swims-las-vegas-tickets-11-14-2026/event/107158279 | - |
+| tm-teddy-swims-2026-phoenix-1av0z_fgkbna4b9 | Teddy Swims | refresh (applied) | 107158280 | https://www.stubhub.ie/teddy-swims-phoenix-tickets-11-16-2026/event/107158280 | - |
+| tm-teddy-swims-2026-inglewood-vv170z_fgkmxw1os | Teddy Swims | refresh (applied) | 107158281 | https://www.stubhub.ie/teddy-swims-inglewood-tickets-11-18-2026/event/107158281 | - |
+| tm-teddy-swims-2027-berlin-z698xzc2z16v8g0v0d | Teddy Swims | refresh (applied) | 107458277 | https://www.stubhub.ie/teddy-swims-tickets-berlin-uber-arena-11-3-2027/event/107458277 | - |
+| tm-teddy-swims-2027-amsterdam-z698xzbpz16vajo8c6 | Teddy Swims | refresh (applied) | 107455905 | https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-16-3-2027/event/107455905 | - |
+| tm-teddy-swims-2027-amsterdam-z698xzbpz1kb300fz | Teddy Swims | refresh (applied) | 107460175 | https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-17-3-2027/event/107460175 | - |
+| tm-teddy-swims-2027-amsterdam-z698xzbpz16vckf4-9 | Teddy Swims | refresh (applied) | 107460176 | https://www.stubhub.ie/teddy-swims-tickets-amsterdam-ziggo-dome-18-3-2027/event/107460176 | - |
 | tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z1kf7vp3p | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z16v_sztub | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-teddy-swims-2027-glasgow-17uov0g62qlspvu | Teddy Swims | none | 107455913 | https://www.stubhub.ie/teddy-swims-tickets-glasgow-ovo-hydro-arena-glasgow-13-4-2027/event/107455913 | - |
-| tm-teddy-swims-2027-manchester-17uyv0g62pcoosz | Teddy Swims | none | 107455914 | https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-16-4-2027/event/107455914 | - |
-| tm-teddy-swims-2027-manchester-17uyv0g62m2z8vc | Teddy Swims | none | 107460174 | https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-17-4-2027/event/107460174 | - |
-| tm-teddy-swims-2027-london-17u8v0g6253xeaz | Teddy Swims | none | 107455915 | https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-21-4-2027/event/107455915 | - |
-| tm-teddy-swims-2027-london-17u8v0g623cnnvk | Teddy Swims | none | 107460173 | https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-22-4-2027/event/107460173 | - |
-| tm-teddy-swims-2027-london-17u8v0g623yvkkm | Teddy Swims | none | 107469438 | https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438 | - |
-| tm-five-finger-death-punch-2027-manchester-g5vhz_gnh6q4f | Five Finger Death Punch | none | 107164485 | https://www.stubhub.ie/five-finger-death-punch-tickets-manchester-manchester-ao-arena-16-1-2027/event/107164485 | - |
-| tm-five-finger-death-punch-2027-birmingham-1anzk3bgkev6s0s | Five Finger Death Punch | none | 107164486 | https://www.stubhub.ie/five-finger-death-punch-tickets-birmingham-bp-pulse-live-22-1-2027/event/107164486 | - |
-| tm-five-finger-death-punch-2027-london-1agzk3bgkdreu6- | Five Finger Death Punch | none | 107162584 | https://www.stubhub.ie/five-finger-death-punch-tickets-london-the-o2-arena-23-1-2027/event/107162584 | - |
-| tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_ | Five Finger Death Punch | none | 107164435 | https://www.stubhub.ie/five-finger-death-punch-tickets-lodz-atlas-arena-29-1-2027/event/107164435 | - |
+| tm-teddy-swims-2027-glasgow-17uov0g62qlspvu | Teddy Swims | refresh (applied) | 107455913 | https://www.stubhub.ie/teddy-swims-tickets-glasgow-ovo-hydro-arena-glasgow-13-4-2027/event/107455913 | - |
+| tm-teddy-swims-2027-manchester-17uyv0g62pcoosz | Teddy Swims | refresh (applied) | 107455914 | https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-16-4-2027/event/107455914 | - |
+| tm-teddy-swims-2027-manchester-17uyv0g62m2z8vc | Teddy Swims | refresh (applied) | 107460174 | https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-17-4-2027/event/107460174 | - |
+| tm-teddy-swims-2027-london-17u8v0g6253xeaz | Teddy Swims | refresh (applied) | 107455915 | https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-21-4-2027/event/107455915 | - |
+| tm-teddy-swims-2027-london-17u8v0g623cnnvk | Teddy Swims | refresh (applied) | 107460173 | https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-22-4-2027/event/107460173 | - |
+| tm-teddy-swims-2027-london-17u8v0g623yvkkm | Teddy Swims | refresh (applied) | 107469438 | https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438 | - |
+| tm-five-finger-death-punch-2027-manchester-g5vhz_gnh6q4f | Five Finger Death Punch | refresh (applied) | 107164485 | https://www.stubhub.ie/five-finger-death-punch-tickets-manchester-manchester-ao-arena-16-1-2027/event/107164485 | - |
+| tm-five-finger-death-punch-2027-birmingham-1anzk3bgkev6s0s | Five Finger Death Punch | refresh (applied) | 107164486 | https://www.stubhub.ie/five-finger-death-punch-tickets-birmingham-bp-pulse-live-22-1-2027/event/107164486 | - |
+| tm-five-finger-death-punch-2027-london-1agzk3bgkdreu6- | Five Finger Death Punch | refresh (applied) | 107162584 | https://www.stubhub.ie/five-finger-death-punch-tickets-london-the-o2-arena-23-1-2027/event/107162584 | - |
+| tm-five-finger-death-punch-2027-odz-z698xzqpz1k-o8yj_ | Five Finger Death Punch | refresh (applied) | 107164435 | https://www.stubhub.ie/five-finger-death-punch-tickets-lodz-atlas-arena-29-1-2027/event/107164435 | - |
 | tm-five-finger-death-punch-2027-forest-brussels-z698xzg2z1asr3q7 | Five Finger Death Punch | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-teddy-swims-2027-manchester-17uyv0g62mo98gp | Teddy Swims | none | 107482769 | https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-18-4-2027/event/107482769 | - |
-| tm-tame-impala-2027-manchester-1amzkf4gkemyn8u | Tame Impala | none | 107506102 | https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-28-5-2027/event/107506102 | - |
-| tm-tame-impala-2027-manchester-1amzkf_gkdr-2ec | Tame Impala | none | 107554383 | https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-29-5-2027/event/107554383 | - |
-| tm-tame-impala-2027-london-16dfz_ofpg7t8j2 | Tame Impala | none | 107482744 | https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-1-6-2027/event/107482744 | - |
-| tm-tame-impala-2027-london-16dfz_ofjg7iyih | Tame Impala | none | 107506103 | https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-2-6-2027/event/107506103 | - |
-| tm-tame-impala-2027-london-1agzkfbgkdvvzlq | Tame Impala | none | 107554382 | https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-3-6-2027/event/107554382 | - |
-| tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z | Tame Impala | none | 107506132 | https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-7-6-2027/event/107506132 | - |
-| tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i | Tame Impala | none | 107506133 | https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-8-6-2027/event/107506133 | - |
+| tm-teddy-swims-2027-manchester-17uyv0g62mo98gp | Teddy Swims | refresh (applied) | 107482769 | https://www.stubhub.ie/teddy-swims-tickets-manchester-co-op-live-18-4-2027/event/107482769 | - |
+| tm-tame-impala-2027-manchester-1amzkf4gkemyn8u | Tame Impala | refresh (applied) | 107506102 | https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-28-5-2027/event/107506102 | - |
+| tm-tame-impala-2027-manchester-1amzkf_gkdr-2ec | Tame Impala | refresh (applied) | 107554383 | https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-29-5-2027/event/107554383 | - |
+| tm-tame-impala-2027-london-16dfz_ofpg7t8j2 | Tame Impala | refresh (applied) | 107482744 | https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-1-6-2027/event/107482744 | - |
+| tm-tame-impala-2027-london-16dfz_ofjg7iyih | Tame Impala | refresh (applied) | 107506103 | https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-2-6-2027/event/107506103 | - |
+| tm-tame-impala-2027-london-1agzkfbgkdvvzlq | Tame Impala | refresh (applied) | 107554382 | https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-3-6-2027/event/107554382 | - |
+| tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z | Tame Impala | refresh (applied) | 107506132 | https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-7-6-2027/event/107506132 | - |
+| tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i | Tame Impala | refresh (applied) | 107506133 | https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-8-6-2027/event/107506133 | - |
 | tm-tame-impala-2027-rotterdam-z698xzbpz1k3e07a0 | Tame Impala | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-don-omar-2026-salt-lake-city-z7r9jz1a70efv | Don Omar | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-don-omar-2027-denver-g5vzz_u2hqxbt | Don Omar | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-don-omar-2027-sacramento-g5vyz_u1sfm0b | Don Omar | none | 107418002 | https://www.stubhub.ie/don-omar-sacramento-tickets-2-5-2027/event/107418002 | - |
-| tm-don-omar-2027-seattle-vvg1hz_u4jzxck | Don Omar | none | 107447672 | https://www.stubhub.ie/don-omar-seattle-tickets-2-7-2027/event/107447672 | - |
+| tm-don-omar-2027-sacramento-g5vyz_u1sfm0b | Don Omar | refresh (applied) | 107418002 | https://www.stubhub.ie/don-omar-sacramento-tickets-2-5-2027/event/107418002 | - |
+| tm-don-omar-2027-seattle-vvg1hz_u4jzxck | Don Omar | refresh (applied) | 107447672 | https://www.stubhub.ie/don-omar-seattle-tickets-2-7-2027/event/107447672 | - |
 | tm-don-omar-2027-san-diego-z7r9jz1a7pggy | Don Omar | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-don-omar-2027-fresno-g5vyz_u5k7ws7 | Don Omar | none | 107447673 | https://www.stubhub.ie/don-omar-fresno-tickets-2-11-2027/event/107447673 | - |
-| tm-don-omar-2027-inglewood-vvg10z_u2a3ul3 | Don Omar | none | 107447674 | https://www.stubhub.ie/don-omar-inglewood-tickets-2-12-2027/event/107447674 | - |
+| tm-don-omar-2027-fresno-g5vyz_u5k7ws7 | Don Omar | refresh (applied) | 107447673 | https://www.stubhub.ie/don-omar-fresno-tickets-2-11-2027/event/107447673 | - |
+| tm-don-omar-2027-inglewood-vvg10z_u2a3ul3 | Don Omar | refresh (applied) | 107447674 | https://www.stubhub.ie/don-omar-inglewood-tickets-2-12-2027/event/107447674 | - |
 | tm-don-omar-2027-toronto-177zv0g6u2fwanb | Don Omar | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-don-omar-2027-montreal-17g8v0g6ucxtixy | Don Omar | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-don-omar-2027-rosemont-vvg18z_u5mkrgh | Don Omar | none | 107447675 | https://www.stubhub.ie/don-omar-rosemont-tickets-2-26-2027/event/107447675 | - |
+| tm-don-omar-2027-rosemont-vvg18z_u5mkrgh | Don Omar | refresh (applied) | 107447675 | https://www.stubhub.ie/don-omar-rosemont-tickets-2-26-2027/event/107447675 | - |
 | tm-don-omar-2027-belmont-park-17gzv0g6u15uw7e | Don Omar | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-don-omar-2027-newark-vvg1fz_u5xkezy | Don Omar | none | 107447677 | https://www.stubhub.ie/don-omar-newark-tickets-3-3-2027/event/107447677 | - |
+| tm-don-omar-2027-newark-vvg1fz_u5xkezy | Don Omar | refresh (applied) | 107447677 | https://www.stubhub.ie/don-omar-newark-tickets-3-3-2027/event/107447677 | - |
 | tm-don-omar-2027-baltimore-17a8v0g6ukar9g1 | Don Omar | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-don-omar-2027-fort-worth-vvg1yz_u1_ouro | Don Omar | none | 107447678 | https://www.stubhub.ie/don-omar-fort-worth-tickets-3-6-2027/event/107447678 | - |
-| tm-don-omar-2027-austin-g5diz_u3mkhzt | Don Omar | none | 107447679 | https://www.stubhub.ie/don-omar-austin-tickets-3-7-2027/event/107447679 | - |
-| tm-don-omar-2027-tampa-vvg1vz_uc-buha | Don Omar | none | 107447680 | https://www.stubhub.ie/don-omar-tampa-tickets-3-10-2027/event/107447680 | - |
-| tm-don-omar-2027-miami-vvg1vz_uk8ovtf | Don Omar | none | 107447681 | https://www.stubhub.ie/don-omar-miami-tickets-3-12-2027/event/107447681 | - |
-| tm-don-omar-2027-orlando-17fov0g6u6m7kw6 | Don Omar | none | 107447682 | https://www.stubhub.ie/don-omar-orlando-tickets-3-14-2027/event/107447682 | - |
-| tm-luke-combs-2027-arlington-z7r9jz1aazyf6 | Luke Combs | none | 107482401 | https://www.stubhub.ie/luke-combs-arlington-tickets-4-3-2027/event/107482401 | - |
-| tm-luke-combs-2027-detroit-vv1afzkf6gkesjjgl | Luke Combs | none | 107482403 | https://www.stubhub.ie/luke-combs-detroit-tickets-4-17-2027/event/107482403 | - |
-| tm-luke-combs-2027-philadelphia-vv17fz_8gklpk2ll | Luke Combs | none | 107495114 | https://www.stubhub.ie/luke-combs-philadelphia-tickets-4-24-2027/event/107495114 | - |
-| tm-luke-combs-2027-foxborough-vv177z_8gkinn93w | Luke Combs | none | 107495115 | https://www.stubhub.ie/luke-combs-foxborough-tickets-5-1-2027/event/107495115 | - |
-| tm-luke-combs-2027-pittsburgh-1avbz_8gkd1oiqd | Luke Combs | none | 107495116 | https://www.stubhub.ie/luke-combs-pittsburgh-tickets-5-8-2027/event/107495116 | - |
+| tm-don-omar-2027-fort-worth-vvg1yz_u1_ouro | Don Omar | refresh (applied) | 107447678 | https://www.stubhub.ie/don-omar-fort-worth-tickets-3-6-2027/event/107447678 | - |
+| tm-don-omar-2027-austin-g5diz_u3mkhzt | Don Omar | refresh (applied) | 107447679 | https://www.stubhub.ie/don-omar-austin-tickets-3-7-2027/event/107447679 | - |
+| tm-don-omar-2027-tampa-vvg1vz_uc-buha | Don Omar | refresh (applied) | 107447680 | https://www.stubhub.ie/don-omar-tampa-tickets-3-10-2027/event/107447680 | - |
+| tm-don-omar-2027-miami-vvg1vz_uk8ovtf | Don Omar | refresh (applied) | 107447681 | https://www.stubhub.ie/don-omar-miami-tickets-3-12-2027/event/107447681 | - |
+| tm-don-omar-2027-orlando-17fov0g6u6m7kw6 | Don Omar | refresh (applied) | 107447682 | https://www.stubhub.ie/don-omar-orlando-tickets-3-14-2027/event/107447682 | - |
+| tm-luke-combs-2027-arlington-z7r9jz1aazyf6 | Luke Combs | refresh (applied) | 107482401 | https://www.stubhub.ie/luke-combs-arlington-tickets-4-3-2027/event/107482401 | - |
+| tm-luke-combs-2027-detroit-vv1afzkf6gkesjjgl | Luke Combs | refresh (applied) | 107482403 | https://www.stubhub.ie/luke-combs-detroit-tickets-4-17-2027/event/107482403 | - |
+| tm-luke-combs-2027-philadelphia-vv17fz_8gklpk2ll | Luke Combs | refresh (applied) | 107495114 | https://www.stubhub.ie/luke-combs-philadelphia-tickets-4-24-2027/event/107495114 | - |
+| tm-luke-combs-2027-foxborough-vv177z_8gkinn93w | Luke Combs | refresh (applied) | 107495115 | https://www.stubhub.ie/luke-combs-foxborough-tickets-5-1-2027/event/107495115 | - |
+| tm-luke-combs-2027-pittsburgh-1avbz_8gkd1oiqd | Luke Combs | refresh (applied) | 107495116 | https://www.stubhub.ie/luke-combs-pittsburgh-tickets-5-8-2027/event/107495116 | - |
 | tm-luke-combs-2027-kansas-city-vv1akzkf6gkesjbxu | Luke Combs | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-luke-combs-2027-edmonton-1av7z_8gkw3oea5 | Luke Combs | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-luke-combs-2027-vancouver-1av7z_8gkwig5fh | Luke Combs | none | 107495117 | https://www.stubhub.ie/luke-combs-tickets-vancouver-bc-place-stadium-6-5-2027/event/107495117 | - |
+| tm-luke-combs-2027-vancouver-1av7z_8gkwig5fh | Luke Combs | refresh (applied) | 107495117 | https://www.stubhub.ie/luke-combs-tickets-vancouver-bc-place-stadium-6-5-2027/event/107495117 | - |
 | tm-luke-combs-2027-boise-g5vzz_8lfjx4v | Luke Combs | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-luke-combs-2027-denver-g5vzz_8l39sxz | Luke Combs | none | 107495118 | https://www.stubhub.ie/luke-combs-denver-tickets-6-19-2027/event/107495118 | - |
-| tm-luke-combs-2027-san-diego-vvg1iz_8l9y-6a | Luke Combs | none | 107495119 | https://www.stubhub.ie/luke-combs-san-diego-tickets-6-26-2027/event/107495119 | - |
-| tm-blue-october-2026-boston-vv177z_kgkw31n77 | Blue October | unverify (applied) | 107148356 | https://www.stubhub.ie/blue-october-boston-tickets-11-13-2026/event/107148356 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-luke-combs-2027-denver-g5vzz_8l39sxz | Luke Combs | refresh (applied) | 107495118 | https://www.stubhub.ie/luke-combs-denver-tickets-6-19-2027/event/107495118 | - |
+| tm-luke-combs-2027-san-diego-vvg1iz_8l9y-6a | Luke Combs | refresh (applied) | 107495119 | https://www.stubhub.ie/luke-combs-san-diego-tickets-6-26-2027/event/107495119 | - |
 | tm-blue-october-2026-wilkes-barre-vv1aezkosgkdamrl_ | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-philadelphia-vv1aezkowgkdcmrr7 | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-blue-october-2026-charlotte-g5evz_kng4bet | Blue October | none | 107151194 | https://www.stubhub.ie/blue-october-charlotte-tickets-11-17-2026/event/107151194 | - |
+| tm-blue-october-2026-charlotte-g5evz_kng4bet | Blue October | refresh (applied) | 107151194 | https://www.stubhub.ie/blue-october-charlotte-tickets-11-17-2026/event/107151194 | - |
 | tm-blue-october-2026-jacksonville-z7r9jz1a7-v03 | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-clearwater-z7r9jz1a7-v0f | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-blue-october-2026-orlando-1aefz_kgknmxmnk | Blue October | none | 107152093 | https://www.stubhub.ie/blue-october-orlando-tickets-11-21-2026/event/107152093 | - |
+| tm-blue-october-2026-orlando-1aefz_kgknmxmnk | Blue October | refresh (applied) | 107152093 | https://www.stubhub.ie/blue-october-orlando-tickets-11-21-2026/event/107152093 | - |
 | tm-blue-october-2026-atlanta-vvg1zz_6ddzdk3 | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-nashville-g5viz_kskltsv | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-blue-october-2026-irving-vvg1yz_6kcyhkx | Blue October | none | 107148357 | https://www.stubhub.ie/blue-october-irving-tickets-11-27-2026/event/107148357 | - |
-| tm-blue-october-2026-irving-vvg1yz_68kdxnx | Blue October | none | 107151195 | https://www.stubhub.ie/blue-october-irving-tickets-11-28-2026/event/107151195 | - |
+| tm-blue-october-2026-irving-vvg1yz_6kcyhkx | Blue October | refresh (applied) | 107148357 | https://www.stubhub.ie/blue-october-irving-tickets-11-27-2026/event/107148357 | - |
+| tm-blue-october-2026-irving-vvg1yz_68kdxnx | Blue October | refresh (applied) | 107151195 | https://www.stubhub.ie/blue-october-irving-tickets-11-28-2026/event/107151195 | - |
 | tm-blue-october-2026-kansas-city-z7r9jz1a7xk4- | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-minneapolis-vv1akzkowgkdjzvr0 | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-la-vista-1aezz_kgks7afny | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
@@ -290,9 +287,9 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-blue-october-2026-austin-z7r9jz1a7-v0k | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-hidalgo-g5diz_6r53fc7 | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2026-corpus-christi-g5diz_65ljyy0 | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-blue-october-2026-houston-g5diz_65lrohi | Blue October | none | 107148358 | https://www.stubhub.ie/blue-october-houston-tickets-12-18-2026/event/107148358 | - |
-| tm-blue-october-2026-houston-g5diz_65lyohs | Blue October | none | 107152094 | https://www.stubhub.ie/blue-october-houston-tickets-12-19-2026/event/107152094 | - |
-| tm-blue-october-2026-houston-g5diz_1sa9wed | Blue October | none | 107447944 | https://www.stubhub.ie/blue-october-houston-tickets-12-20-2026/event/107447944 | - |
+| tm-blue-october-2026-houston-g5diz_65lrohi | Blue October | refresh (applied) | 107148358 | https://www.stubhub.ie/blue-october-houston-tickets-12-18-2026/event/107148358 | - |
+| tm-blue-october-2026-houston-g5diz_65lyohs | Blue October | refresh (applied) | 107152094 | https://www.stubhub.ie/blue-october-houston-tickets-12-19-2026/event/107152094 | - |
+| tm-blue-october-2026-houston-g5diz_1sa9wed | Blue October | refresh (applied) | 107447944 | https://www.stubhub.ie/blue-october-houston-tickets-12-20-2026/event/107447944 | - |
 | tm-blue-october-2027-midland-z7r9jz1a70pjo | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2027-el-paso-vvg1yz_1msxe0e | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2027-amarillo-z7r9jz1a7pxau | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
@@ -302,7 +299,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-blue-october-2027-los-angeles-vvg10z_1ri5jq_ | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2027-san-luis-obispo-z7r9jz1a70_f7 | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2027-valley-center-vvg1iz_1qjyqty | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-blue-october-2027-las-vegas-17ayv0g61ppuqbc | Blue October | none | 107482707 | https://www.stubhub.ie/blue-october-las-vegas-tickets-2-13-2027/event/107482707 | - |
+| tm-blue-october-2027-las-vegas-17ayv0g61ppuqbc | Blue October | refresh (applied) | 107482707 | https://www.stubhub.ie/blue-october-las-vegas-tickets-2-13-2027/event/107482707 | - |
 | tm-blue-october-2027-bakersfield-z7r9jz1a70_4m | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2027-san-francisco-z7r9jz1a70_4z | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2027-sacramento-g5vyz_1kgjhjj | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
@@ -320,74 +317,73 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-blue-october-2027-chicago-z7r9jz1a70_-s | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2027-des-moines-vvg1bz_1xphcoz | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2027-rockford-17f8v0g61mnfk5g | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg | Pentatonix | none | 107476101 | https://www.stubhub.ie/pentatonix-milwaukee-tickets-11-14-2026/event/107476101 | - |
+| tm-pentatonix-2026-milwaukee-vvg1jz_296mpvg | Pentatonix | refresh (applied) | 107476101 | https://www.stubhub.ie/pentatonix-milwaukee-tickets-11-14-2026/event/107476101 | - |
 | tm-pentatonix-2026-grand-rapids-vvg1oz_2h1hwe2 | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-pentatonix-2026-louisville-1apzkf7gker9zih | Pentatonix | none | 107469564 | https://www.stubhub.ie/pentatonix-louisville-tickets-11-16-2026/event/107469564 | - |
-| tm-pentatonix-2026-buffalo-k7vgf_8kru5hf | Pentatonix | none | 107476102 | https://www.stubhub.ie/pentatonix-buffalo-tickets-11-18-2026/event/107476102 | - |
+| tm-pentatonix-2026-louisville-1apzkf7gker9zih | Pentatonix | refresh (applied) | 107469564 | https://www.stubhub.ie/pentatonix-louisville-tickets-11-16-2026/event/107469564 | - |
+| tm-pentatonix-2026-buffalo-k7vgf_8kru5hf | Pentatonix | refresh (applied) | 107476102 | https://www.stubhub.ie/pentatonix-buffalo-tickets-11-18-2026/event/107476102 | - |
 | tm-pentatonix-2026-cleveland-z7r9jz1aazofo | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b | Pentatonix | none | 107476103 | https://www.stubhub.ie/pentatonix-pittsburgh-tickets-11-21-2026/event/107476103 | - |
+| tm-pentatonix-2026-pittsburgh-1apzkfdgkdrcd8b | Pentatonix | refresh (applied) | 107476103 | https://www.stubhub.ie/pentatonix-pittsburgh-tickets-11-21-2026/event/107476103 | - |
 | tm-pentatonix-2026-hamilton-1a8zkf7gkdvkv7f | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pentatonix-2026-charlottesville-vv1f7z_8uv7ozdc1c | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-pentatonix-2026-albany-k7vgf_2br5dvf | Pentatonix | none | 107476104 | https://www.stubhub.ie/pentatonix-albany-tickets-11-29-2026/event/107476104 | - |
-| tm-pentatonix-2026-baltimore-17a8v0g62urg9es | Pentatonix | none | 107476105 | https://www.stubhub.ie/pentatonix-baltimore-tickets-12-3-2026/event/107476105 | - |
+| tm-pentatonix-2026-albany-k7vgf_2br5dvf | Pentatonix | refresh (applied) | 107476104 | https://www.stubhub.ie/pentatonix-albany-tickets-11-29-2026/event/107476104 | - |
+| tm-pentatonix-2026-baltimore-17a8v0g62urg9es | Pentatonix | refresh (applied) | 107476105 | https://www.stubhub.ie/pentatonix-baltimore-tickets-12-3-2026/event/107476105 | - |
 | tm-pentatonix-2026-columbia-g5evz_2t_yqom | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pentatonix-2026-greenville-g5evz_2tznjd_ | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pentatonix-2026-raleigh-g5evz_2xkfyfh | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-pentatonix-2026-nashville-g5viz_8pdi7wi | Pentatonix | none | 107469565 | https://www.stubhub.ie/pentatonix-nashville-tickets-12-9-2026/event/107469565 | - |
-| tm-pentatonix-2026-atlanta-vvg1zz_8pzyi3r | Pentatonix | none | 107476106 | https://www.stubhub.ie/pentatonix-atlanta-tickets-12-10-2026/event/107476106 | - |
+| tm-pentatonix-2026-nashville-g5viz_8pdi7wi | Pentatonix | refresh (applied) | 107469565 | https://www.stubhub.ie/pentatonix-nashville-tickets-12-9-2026/event/107469565 | - |
+| tm-pentatonix-2026-atlanta-vvg1zz_8pzyi3r | Pentatonix | refresh (applied) | 107476106 | https://www.stubhub.ie/pentatonix-atlanta-tickets-12-10-2026/event/107476106 | - |
 | tm-pentatonix-2026-north-little-rock-g5viz_2r0054y | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pentatonix-2026-bossier-city-g5viz_2gyyd_m | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-pentatonix-2026-austin-g5diz_8kmjslp | Pentatonix | none | 107476107 | https://www.stubhub.ie/pentatonix-austin-tickets-12-15-2026/event/107476107 | - |
-| tm-pentatonix-2026-fort-worth-vvg1yz_cn4la0m | Pentatonix | none | 107469566 | https://www.stubhub.ie/pentatonix-fort-worth-tickets-12-16-2026/event/107469566 | - |
+| tm-pentatonix-2026-austin-g5diz_8kmjslp | Pentatonix | refresh (applied) | 107476107 | https://www.stubhub.ie/pentatonix-austin-tickets-12-15-2026/event/107476107 | - |
+| tm-pentatonix-2026-fort-worth-vvg1yz_cn4la0m | Pentatonix | refresh (applied) | 107469566 | https://www.stubhub.ie/pentatonix-fort-worth-tickets-12-16-2026/event/107469566 | - |
 | tm-pentatonix-2026-lubbock-z7r9jz1aaz-j6 | Pentatonix | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-pentatonix-2026-glendale-16_zkfdauzauuafa | Pentatonix | none | 107469567 | https://www.stubhub.ie/pentatonix-glendale-tickets-12-19-2026/event/107469567 | - |
+| tm-pentatonix-2026-glendale-16_zkfdauzauuafa | Pentatonix | refresh (applied) | 107469567 | https://www.stubhub.ie/pentatonix-glendale-tickets-12-19-2026/event/107469567 | - |
 | tm-pentatonix-2026-san-diego-vvg1iz_2i-g3fb | Pentatonix | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn | Pentatonix | none | 107469569 | https://www.stubhub.ie/pentatonix-inglewood-tickets-12-22-2026/event/107469569 | - |
-| tm-tyla-2026-wheatland-g5vyz_2qphiow | Tyla | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-tyla-2026-san-francisco-g5vyz_2fimqin | Tyla | none | 107460123 | https://www.stubhub.ie/tyla-oakland-tickets-11-13-2026/event/107460123 | - |
-| tm-tyla-2026-vancouver-1778v0g62hxtorg | Tyla | none | 107462079 | https://www.stubhub.ie/tyla-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-11-15-2026/event/107462079 | - |
+| tm-pentatonix-2026-inglewood-vv1aazkf7gkdi1gsn | Pentatonix | refresh (applied) | 107469569 | https://www.stubhub.ie/pentatonix-inglewood-tickets-12-22-2026/event/107469569 | - |
+| tm-tyla-2026-san-francisco-g5vyz_2fimqin | Tyla | unverify (applied) | 107460123 | https://www.stubhub.ie/tyla-san-francisco-tickets-11-13-2026/event/107460123 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-tyla-2026-vancouver-1778v0g62hxtorg | Tyla | refresh (applied) | 107462079 | https://www.stubhub.ie/tyla-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-11-15-2026/event/107462079 | - |
 | tm-tyla-2026-seattle-vvg1hz_2qgz489 | Tyla | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-tyla-2026-denver-g5vzz_2qdtig- | Tyla | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-tyla-2026-chicago-vvg18z_2o77qju | Tyla | none | 107460124 | https://www.stubhub.ie/tyla-chicago-tickets-11-22-2026/event/107460124 | - |
-| tm-tyla-2026-boston-vvg17z_2pblciw | Tyla | none | 107460125 | https://www.stubhub.ie/tyla-boston-tickets-11-25-2026/event/107460125 | - |
+| tm-tyla-2026-chicago-vvg18z_2o77qju | Tyla | refresh (applied) | 107460124 | https://www.stubhub.ie/tyla-chicago-tickets-11-22-2026/event/107460124 | - |
+| tm-tyla-2026-boston-vvg17z_2pblciw | Tyla | refresh (applied) | 107460125 | https://www.stubhub.ie/tyla-boston-tickets-11-25-2026/event/107460125 | - |
 | tm-tyla-2026-toronto-177zv0g6294fsr8 | Tyla | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-tyla-2026-brooklyn-k7vgf_2xiqkw5 | Tyla | none | 107460126 | https://www.stubhub.ie/tyla-brooklyn-tickets-11-28-2026/event/107460126 | - |
-| tm-tyla-2026-brooklyn-k7vgf_2xiquwo | Tyla | none | 107524086 | https://www.stubhub.ie/tyla-brooklyn-tickets-11-29-2026/event/107524086 | - |
-| tm-tyla-2026-washington-17a8v0g6267w7kc | Tyla | none | 107460129 | https://www.stubhub.ie/tyla-washington-tickets-12-2-2026/event/107460129 | - |
-| tm-tyla-2026-tampa-vvg1vz_2xeqp5j | Tyla | none | 107460130 | https://www.stubhub.ie/tyla-tampa-tickets-12-5-2026/event/107460130 | - |
-| tm-tyla-2026-atlanta-vvg1zz_2xnv9ge | Tyla | none | 107460138 | https://www.stubhub.ie/tyla-atlanta-tickets-12-6-2026/event/107460138 | - |
-| tm-tyla-2026-irving-vvg1yz_2hhoqxx | Tyla | none | 107460139 | https://www.stubhub.ie/tyla-irving-tickets-12-9-2026/event/107460139 | - |
-| tm-tyla-2026-houston-g5diz_2qrewdk | Tyla | none | 107463078 | https://www.stubhub.ie/tyla-houston-tickets-12-10-2026/event/107463078 | - |
-| tm-tyla-2026-austin-g5diz_2xjh2vb | Tyla | none | 107460140 | https://www.stubhub.ie/tyla-austin-tickets-12-11-2026/event/107460140 | - |
-| tm-tyla-2026-phoenix-17k8v0g62ljff-n | Tyla | none | 107463079 | https://www.stubhub.ie/tyla-phoenix-tickets-12-14-2026/event/107463079 | - |
+| tm-tyla-2026-brooklyn-k7vgf_2xiqkw5 | Tyla | refresh (applied) | 107460126 | https://www.stubhub.ie/tyla-brooklyn-tickets-11-28-2026/event/107460126 | - |
+| tm-tyla-2026-brooklyn-k7vgf_2xiquwo | Tyla | refresh (applied) | 107524086 | https://www.stubhub.ie/tyla-brooklyn-tickets-11-29-2026/event/107524086 | - |
+| tm-tyla-2026-washington-17a8v0g6267w7kc | Tyla | refresh (applied) | 107460129 | https://www.stubhub.ie/tyla-washington-tickets-12-2-2026/event/107460129 | - |
+| tm-tyla-2026-tampa-vvg1vz_2xeqp5j | Tyla | refresh (applied) | 107460130 | https://www.stubhub.ie/tyla-tampa-tickets-12-5-2026/event/107460130 | - |
+| tm-tyla-2026-atlanta-vvg1zz_2xnv9ge | Tyla | refresh (applied) | 107460138 | https://www.stubhub.ie/tyla-atlanta-tickets-12-6-2026/event/107460138 | - |
+| tm-tyla-2026-irving-vvg1yz_2hhoqxx | Tyla | refresh (applied) | 107460139 | https://www.stubhub.ie/tyla-irving-tickets-12-9-2026/event/107460139 | - |
+| tm-tyla-2026-houston-g5diz_2qrewdk | Tyla | refresh (applied) | 107463078 | https://www.stubhub.ie/tyla-houston-tickets-12-10-2026/event/107463078 | - |
+| tm-tyla-2026-austin-g5diz_2xjh2vb | Tyla | refresh (applied) | 107460140 | https://www.stubhub.ie/tyla-austin-tickets-12-11-2026/event/107460140 | - |
+| tm-tyla-2026-phoenix-17k8v0g62ljff-n | Tyla | refresh (applied) | 107463079 | https://www.stubhub.ie/tyla-phoenix-tickets-12-14-2026/event/107463079 | - |
 | tm-tyla-2026-san-diego-vvg1iz_cilyeb0 | Tyla | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-tyla-2026-inglewood-vvg1iz_cjqejmf | Tyla | none | 107460141 | https://www.stubhub.ie/tyla-inglewood-tickets-12-16-2026/event/107460141 | - |
+| tm-tyla-2026-inglewood-vvg1iz_cjqejmf | Tyla | refresh (applied) | 107460141 | https://www.stubhub.ie/tyla-inglewood-tickets-12-16-2026/event/107460141 | - |
 | tm-tyla-2026-las-vegas-17ayv0g629nf-rw | Tyla | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k4d_v4s | Nothing But Thieves | none | 107202079 | https://www.stubhub.ie/nothing-but-thieves-tickets-amsterdam-ziggo-dome-15-1-2027/event/107202079 | - |
-| tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k86ab8e | Nothing But Thieves | none | 107198102 | https://www.stubhub.ie/nothing-but-thieves-tickets-amsterdam-ziggo-dome-16-1-2027/event/107198102 | - |
+| tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k4d_v4s | Nothing But Thieves | refresh (applied) | 107202079 | https://www.stubhub.ie/nothing-but-thieves-tickets-amsterdam-ziggo-dome-15-1-2027/event/107202079 | - |
+| tm-nothing-but-thieves-2027-amsterdam-z698xzbpz1k86ab8e | Nothing But Thieves | refresh (applied) | 107198102 | https://www.stubhub.ie/nothing-but-thieves-tickets-amsterdam-ziggo-dome-16-1-2027/event/107198102 | - |
 | tm-nothing-but-thieves-2027-assago-zg9rmiynyzefv7 | Nothing But Thieves | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nothing-but-thieves-2027-merksem-antwerpen-z698xzg2z16v_u87zn | Nothing But Thieves | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-nothing-but-thieves-2027-nottingham-17u8v0g65hxepmr | Nothing But Thieves | none | 107198108 | https://www.stubhub.ie/nothing-but-thieves-tickets-nottingham-motorpoint-arena-nottingham-4-2-2027/event/107198108 | - |
-| tm-nothing-but-thieves-2027-london-17u8v0g65h5y7dp | Nothing But Thieves | none | 107198109 | https://www.stubhub.ie/nothing-but-thieves-tickets-london-the-o2-arena-5-2-2027/event/107198109 | - |
-| tm-nothing-but-thieves-2027-cardiff-17uov0g65qps55o | Nothing But Thieves | none | 107274077 | https://www.stubhub.ie/nothing-but-thieves-tickets-cardiff-utilita-arena-cardiff-8-2-2027/event/107274077 | - |
-| tm-nothing-but-thieves-2027-glasgow-17uov0g65qojiik | Nothing But Thieves | none | 107198110 | https://www.stubhub.ie/nothing-but-thieves-tickets-glasgow-ovo-hydro-arena-glasgow-10-2-2027/event/107198110 | - |
-| tm-nothing-but-thieves-2027-manchester-17uyv0g65hofvrj | Nothing But Thieves | none | 107198111 | https://www.stubhub.ie/nothing-but-thieves-tickets-manchester-co-op-live-12-2-2027/event/107198111 | - |
-| tm-nothing-but-thieves-2027-birmingham-17fyv0g65h43oux | Nothing But Thieves | none | 107198112 | https://www.stubhub.ie/nothing-but-thieves-tickets-birmingham-bp-pulse-live-13-2-2027/event/107198112 | - |
-| tm-nothing-but-thieves-2027-vancouver-1778v0g65pb8zxj | Nothing But Thieves | none | 107257081 | https://www.stubhub.ie/nothing-but-thieves-tickets-vancouver-queen-elizabeth-theatre-vancouver-3-30-2027/event/107257081 | - |
-| tm-nothing-but-thieves-2027-seattle-vvg1hz_59quyyu | Nothing But Thieves | none | 107257082 | https://www.stubhub.ie/nothing-but-thieves-seattle-tickets-3-31-2027/event/107257082 | - |
+| tm-nothing-but-thieves-2027-nottingham-17u8v0g65hxepmr | Nothing But Thieves | refresh (applied) | 107198108 | https://www.stubhub.ie/nothing-but-thieves-tickets-nottingham-motorpoint-arena-nottingham-4-2-2027/event/107198108 | - |
+| tm-nothing-but-thieves-2027-london-17u8v0g65h5y7dp | Nothing But Thieves | refresh (applied) | 107198109 | https://www.stubhub.ie/nothing-but-thieves-tickets-london-the-o2-arena-5-2-2027/event/107198109 | - |
+| tm-nothing-but-thieves-2027-cardiff-17uov0g65qps55o | Nothing But Thieves | refresh (applied) | 107274077 | https://www.stubhub.ie/nothing-but-thieves-tickets-cardiff-utilita-arena-cardiff-8-2-2027/event/107274077 | - |
+| tm-nothing-but-thieves-2027-glasgow-17uov0g65qojiik | Nothing But Thieves | refresh (applied) | 107198110 | https://www.stubhub.ie/nothing-but-thieves-tickets-glasgow-ovo-hydro-arena-glasgow-10-2-2027/event/107198110 | - |
+| tm-nothing-but-thieves-2027-manchester-17uyv0g65hofvrj | Nothing But Thieves | refresh (applied) | 107198111 | https://www.stubhub.ie/nothing-but-thieves-tickets-manchester-co-op-live-12-2-2027/event/107198111 | - |
+| tm-nothing-but-thieves-2027-birmingham-17fyv0g65h43oux | Nothing But Thieves | refresh (applied) | 107198112 | https://www.stubhub.ie/nothing-but-thieves-tickets-birmingham-bp-pulse-live-13-2-2027/event/107198112 | - |
+| tm-nothing-but-thieves-2027-vancouver-1778v0g65pb8zxj | Nothing But Thieves | refresh (applied) | 107257081 | https://www.stubhub.ie/nothing-but-thieves-tickets-vancouver-queen-elizabeth-theatre-vancouver-3-30-2027/event/107257081 | - |
+| tm-nothing-but-thieves-2027-seattle-vvg1hz_59quyyu | Nothing But Thieves | refresh (applied) | 107257082 | https://www.stubhub.ie/nothing-but-thieves-seattle-tickets-3-31-2027/event/107257082 | - |
 | tm-nothing-but-thieves-2027-portland-z7r9jz1a70gfm | Nothing But Thieves | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nothing-but-thieves-2027-oakland-g5vyz_5kszteq | Nothing But Thieves | none | 107258748 | https://www.stubhub.ie/nothing-but-thieves-oakland-tickets-4-3-2027/event/107258748 | - |
-| tm-nothing-but-thieves-2027-hollywood-vvg10z_5blnvha | Nothing But Thieves | none | 107198560 | https://www.stubhub.ie/nothing-but-thieves-hollywood-tickets-4-4-2027/event/107198560 | - |
+| tm-nothing-but-thieves-2027-oakland-g5vyz_5kszteq | Nothing But Thieves | refresh (applied) | 107258748 | https://www.stubhub.ie/nothing-but-thieves-oakland-tickets-4-3-2027/event/107258748 | - |
+| tm-nothing-but-thieves-2027-hollywood-vvg10z_5blnvha | Nothing But Thieves | refresh (applied) | 107198560 | https://www.stubhub.ie/nothing-but-thieves-hollywood-tickets-4-4-2027/event/107198560 | - |
 | tm-nothing-but-thieves-2027-phoenix-17k8v0g659aif3n | Nothing But Thieves | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nothing-but-thieves-2027-denver-z7r9jz1a70g46 | Nothing But Thieves | none | 107198561 | https://www.stubhub.ie/nothing-but-thieves-denver-tickets-4-9-2027/event/107198561 | - |
+| tm-nothing-but-thieves-2027-denver-z7r9jz1a70g46 | Nothing But Thieves | refresh (applied) | 107198561 | https://www.stubhub.ie/nothing-but-thieves-denver-tickets-4-9-2027/event/107198561 | - |
 | tm-nothing-but-thieves-2027-minneapolis-vvg1bz_5fojtcd | Nothing But Thieves | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nothing-but-thieves-2027-chicago-vvg18z_5oubqpe | Nothing But Thieves | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-nothing-but-thieves-2027-detroit-vvg1oz_5qme6mi | Nothing But Thieves | none | 107198563 | https://www.stubhub.ie/nothing-but-thieves-detroit-tickets-4-13-2027/event/107198563 | - |
-| tm-nothing-but-thieves-2027-mckees-rocks-17aov0g65qrt_qd | Nothing But Thieves | none | 107198564 | https://www.stubhub.ie/nothing-but-thieves-mckees-rocks-tickets-4-15-2027/event/107198564 | - |
-| tm-nothing-but-thieves-2027-philadelphia-vvg1fz_5qfmzvi | Nothing But Thieves | none | 107257084 | https://www.stubhub.ie/nothing-but-thieves-philadelphia-tickets-4-16-2027/event/107257084 | - |
-| tm-nothing-but-thieves-2027-brooklyn-k7vgf_5qzhcl7 | Nothing But Thieves | none | 107257085 | https://www.stubhub.ie/nothing-but-thieves-brooklyn-tickets-4-17-2027/event/107257085 | - |
-| tm-nothing-but-thieves-2027-boston-vvg17z_5qrro-j | Nothing But Thieves | none | 107289101 | https://www.stubhub.ie/nothing-but-thieves-boston-tickets-4-19-2027/event/107289101 | - |
-| tm-nothing-but-thieves-2027-montreal-17g8v0g65q_kpje | Nothing But Thieves | none | 107257083 | https://www.stubhub.ie/nothing-but-thieves-tickets-montreal-mtelus-4-20-2027/event/107257083 | - |
+| tm-nothing-but-thieves-2027-detroit-vvg1oz_5qme6mi | Nothing But Thieves | refresh (applied) | 107198563 | https://www.stubhub.ie/nothing-but-thieves-detroit-tickets-4-13-2027/event/107198563 | - |
+| tm-nothing-but-thieves-2027-mckees-rocks-17aov0g65qrt_qd | Nothing But Thieves | refresh (applied) | 107198564 | https://www.stubhub.ie/nothing-but-thieves-mckees-rocks-tickets-4-15-2027/event/107198564 | - |
+| tm-nothing-but-thieves-2027-philadelphia-vvg1fz_5qfmzvi | Nothing But Thieves | refresh (applied) | 107257084 | https://www.stubhub.ie/nothing-but-thieves-philadelphia-tickets-4-16-2027/event/107257084 | - |
+| tm-nothing-but-thieves-2027-brooklyn-k7vgf_5qzhcl7 | Nothing But Thieves | refresh (applied) | 107257085 | https://www.stubhub.ie/nothing-but-thieves-brooklyn-tickets-4-17-2027/event/107257085 | - |
+| tm-nothing-but-thieves-2027-boston-vvg17z_5qrro-j | Nothing But Thieves | refresh (applied) | 107289101 | https://www.stubhub.ie/nothing-but-thieves-boston-tickets-4-19-2027/event/107289101 | - |
+| tm-nothing-but-thieves-2027-montreal-17g8v0g65q_kpje | Nothing But Thieves | refresh (applied) | 107257083 | https://www.stubhub.ie/nothing-but-thieves-tickets-montreal-mtelus-4-20-2027/event/107257083 | - |
 | tm-nothing-but-thieves-2027-toronto-177zv0g65qu93gl | Nothing But Thieves | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trivium-2026-philadelphia-z7r9jz1aazdbv | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trivium-2026-worcester-z7r9jz1aazdbg | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
@@ -401,7 +397,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-trivium-2026-houston-g5diz_cdfyhi_ | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trivium-2026-dallas-vvg1yz_cdoxznj | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trivium-2026-phoenix-17k8v0g62douihb | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-trivium-2026-inglewood-vvg1iz_ceqwhij | Trivium | none | 107482741 | https://www.stubhub.ie/trivium-inglewood-tickets-12-4-2026/event/107482741 | - |
+| tm-trivium-2026-inglewood-vvg1iz_ceqwhij | Trivium | refresh (applied) | 107482741 | https://www.stubhub.ie/trivium-inglewood-tickets-12-4-2026/event/107482741 | - |
 | tm-trivium-2026-san-francisco-g5vyz_2ejmndl | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trivium-2026-penticton-z7r9jz1aazdbz | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trivium-2026-vancouver-1778v0g626krqj1 | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
@@ -412,21 +408,20 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-trivium-2026-omaha-17fzv0g6cxxpndr | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trivium-2026-pittsburgh-17aov0g6cymqerk | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trivium-2026-charlotte-g5evz_cufmier | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-trivium-2027-glasgow-1auzkfpgken_hpc | Trivium | none | 107526122 | https://www.stubhub.ie/trivium-tickets-glasgow-ovo-hydro-arena-glasgow-31-3-2027/event/107526122 | - |
-| tm-trivium-2027-manchester-1amzkffgkdkmgfp | Trivium | none | 107482875 | https://www.stubhub.ie/trivium-tickets-manchester-co-op-live-2-4-2027/event/107482875 | - |
-| tm-trivium-2027-london-g5vhz_o63ceuv | Trivium | none | 107532082 | https://www.stubhub.ie/trivium-tickets-london-alexandra-palace-3-4-2027/event/107532082 | - |
-| tm-trivium-2027-cardiff-1kuovpa6gacrw-h | Trivium | none | 107532092 | https://www.stubhub.ie/trivium-tickets-cardiff-utilita-arena-cardiff-4-4-2027/event/107532092 | - |
+| tm-trivium-2027-glasgow-1auzkfpgken_hpc | Trivium | refresh (applied) | 107526122 | https://www.stubhub.ie/trivium-tickets-glasgow-ovo-hydro-arena-glasgow-31-3-2027/event/107526122 | - |
+| tm-trivium-2027-manchester-1amzkffgkdkmgfp | Trivium | refresh (applied) | 107482875 | https://www.stubhub.ie/trivium-tickets-manchester-co-op-live-2-4-2027/event/107482875 | - |
+| tm-trivium-2027-london-g5vhz_o63ceuv | Trivium | refresh (applied) | 107532082 | https://www.stubhub.ie/trivium-tickets-london-alexandra-palace-3-4-2027/event/107532082 | - |
+| tm-trivium-2027-cardiff-1kuovpa6gacrw-h | Trivium | refresh (applied) | 107532092 | https://www.stubhub.ie/trivium-tickets-cardiff-utilita-arena-cardiff-4-4-2027/event/107532092 | - |
 | tm-sabaton-2026-pittsburgh-1avbz_kgkwfjp1j | Sabaton | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sabaton-2026-nashville-g5viz_kmyac0s | Sabaton | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sabaton-2026-orlando-16efz_afzg7dbn1 | Sabaton | none | 107142116 | https://www.stubhub.ie/sabaton-orlando-tickets-12-11-2026/event/107142116 | - |
+| tm-sabaton-2026-orlando-16efz_afzg7dbn1 | Sabaton | refresh (applied) | 107142116 | https://www.stubhub.ie/sabaton-orlando-tickets-12-11-2026/event/107142116 | - |
 | tm-sabaton-2026-fort-lauderdale-z7r9jz1a7-oqe | Sabaton | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sabaton-2027-glasgow-17uov0g6g3si1v4 | Sabaton | none | 107304077 | https://www.stubhub.ie/sabaton-tickets-glasgow-ovo-hydro-arena-glasgow-9-4-2027/event/107304077 | - |
-| tm-sabaton-2027-birmingham-17fyv0g6gp8gytu | Sabaton | none | 107304078 | https://www.stubhub.ie/sabaton-tickets-birmingham-bp-pulse-live-10-4-2027/event/107304078 | - |
+| tm-sabaton-2027-glasgow-17uov0g6g3si1v4 | Sabaton | refresh (applied) | 107304077 | https://www.stubhub.ie/sabaton-tickets-glasgow-ovo-hydro-arena-glasgow-9-4-2027/event/107304077 | - |
+| tm-sabaton-2027-birmingham-17fyv0g6gp8gytu | Sabaton | refresh (applied) | 107304078 | https://www.stubhub.ie/sabaton-tickets-birmingham-bp-pulse-live-10-4-2027/event/107304078 | - |
 | tm-sabaton-2027-rotterdam-z698xzbpz1k_n08z3 | Sabaton | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-beartooth-2026-philadelphia-z7r9jz1a70tke | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beartooth-2026-national-harbor-17a8v0g61vjcef3 | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beartooth-2026-pittsburgh-z7r9jz1a70t36 | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-beartooth-2026-chicago-vvg18z_1nj0ag4 | Beartooth | none | 107417483 | https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483 | - |
+| tm-beartooth-2026-chicago-vvg18z_1nj0ag4 | Beartooth | refresh (applied) | 107417483 | https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483 | - |
 | tm-beartooth-2026-maplewood-z7r9jz1aava89 | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beartooth-2026-omaha-17fzv0g61sq6aec | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beartooth-2026-nashville-g5viz_1sjbpcf | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
@@ -435,40 +430,40 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-beartooth-2026-saint-augustine-z7r9jz1a70igm | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beartooth-2026-fort-lauderdale-z7r9jz1a70igy | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beartooth-2026-new-orleans-g5viz_1lu2gm0 | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-beartooth-2026-dallas-vvg1yz_1mmkrmi | Beartooth | none | 107417485 | https://www.stubhub.ie/beartooth-dallas-tickets-12-10-2026/event/107417485 | - |
+| tm-beartooth-2026-dallas-vvg1yz_1mmkrmi | Beartooth | refresh (applied) | 107417485 | https://www.stubhub.ie/beartooth-dallas-tickets-12-10-2026/event/107417485 | - |
 | tm-beartooth-2026-denver-g5vzz_1sigr2s | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beartooth-2026-salt-lake-city-g5vzz_1w63kam | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-beartooth-2026-phoenix-17k8v0g61i5gitx | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-beartooth-2026-hollywood-vvg10z_1ikgdyb | Beartooth | none | 107417486 | https://www.stubhub.ie/beartooth-hollywood-tickets-12-18-2026/event/107417486 | - |
+| tm-beartooth-2026-hollywood-vvg10z_1ikgdyb | Beartooth | refresh (applied) | 107417486 | https://www.stubhub.ie/beartooth-hollywood-tickets-12-18-2026/event/107417486 | - |
 | tm-beartooth-2026-wheatland-g5vyz_1xgdb2f | Beartooth | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-luke-combs-2027-minneapolis-z7r9jz1aazgx6 | Luke Combs | none | 107482402 | https://www.stubhub.ie/luke-combs-minneapolis-tickets-4-10-2027/event/107482402 | - |
-| tm-sombr-2027-hamburg-z698xzc2z1k-yjfqj | Sombr | none | 107666407 | https://www.stubhub.ie/sombr-tickets-hamburg-barclays-arena-hamburg-14-5-2027/event/107666407 | - |
+| tm-luke-combs-2027-minneapolis-z7r9jz1aazgx6 | Luke Combs | refresh (applied) | 107482402 | https://www.stubhub.ie/luke-combs-minneapolis-tickets-4-10-2027/event/107482402 | - |
+| tm-sombr-2027-hamburg-z698xzc2z1k-yjfqj | Sombr | refresh (applied) | 107666407 | https://www.stubhub.ie/sombr-tickets-hamburg-barclays-arena-hamburg-14-5-2027/event/107666407 | - |
 | tm-sombr-2027-merksem-antwerpen-z698xzg2z16v0pps8o | Sombr | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-sombr-2027-berlin-z698xzc2z1akrz8f | Sombr | none | 107666398 | https://www.stubhub.ie/sombr-tickets-berlin-uber-arena-18-5-2027/event/107666398 | - |
-| tm-sombr-2027-munich-z698xzc2z1kosuv4v | Sombr | none | 107666431 | https://www.stubhub.ie/sombr-tickets-munich-olympiahalle-munich-28-5-2027/event/107666431 | - |
-| tm-sombr-2027-amsterdam-z698xzbpz16ee7oboy | Sombr | none | 107666327 | https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-31-5-2027/event/107666327 | - |
-| tm-sombr-2027-amsterdam-z698xzbpz16v0w4skv | Sombr | none | 107665761 | https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-1-6-2027/event/107665761 | - |
+| tm-sombr-2027-berlin-z698xzc2z1akrz8f | Sombr | refresh (applied) | 107666398 | https://www.stubhub.ie/sombr-tickets-berlin-uber-arena-18-5-2027/event/107666398 | - |
+| tm-sombr-2027-munich-z698xzc2z1kosuv4v | Sombr | refresh (applied) | 107666431 | https://www.stubhub.ie/sombr-tickets-munich-olympiahalle-munich-28-5-2027/event/107666431 | - |
+| tm-sombr-2027-amsterdam-z698xzbpz16ee7oboy | Sombr | refresh (applied) | 107666327 | https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-31-5-2027/event/107666327 | - |
+| tm-sombr-2027-amsterdam-z698xzbpz16v0w4skv | Sombr | refresh (applied) | 107665761 | https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-1-6-2027/event/107665761 | - |
 | tm-sombr-2027-milano-zg9rmiynyzd611 | Sombr | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sombr-2027-glasgow-1auzkfbgkeiqyo0 | Sombr | none | 107666406 | https://www.stubhub.ie/sombr-tickets-glasgow-bellahouston-park-19-6-2027/event/107666406 | - |
-| tm-sombr-2027-london-1adfz_ogkwyrfux | Sombr | none | 107666543 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-21-6-2027/event/107666543 | - |
-| tm-sombr-2027-london-1adfz_ogklwvhfa | Sombr | none | 107665338 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-22-6-2027/event/107665338 | - |
-| tm-sombr-2027-london-1adfz_ogkwskt7w | Sombr | none | 107666544 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-24-6-2027/event/107666544 | - |
-| tm-sombr-2027-london-1adfz_ogkwy2ti0 | Sombr | none | 107666748 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-25-6-2027/event/107666748 | - |
-| tm-sombr-2027-london-1adfz_ogkwwynfm | Sombr | none | 107666815 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-29-6-2027/event/107666815 | - |
+| tm-sombr-2027-glasgow-1auzkfbgkeiqyo0 | Sombr | refresh (applied) | 107666406 | https://www.stubhub.ie/sombr-tickets-glasgow-bellahouston-park-19-6-2027/event/107666406 | - |
+| tm-sombr-2027-london-1adfz_ogkwyrfux | Sombr | refresh (applied) | 107666543 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-21-6-2027/event/107666543 | - |
+| tm-sombr-2027-london-1adfz_ogklwvhfa | Sombr | refresh (applied) | 107665338 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-22-6-2027/event/107665338 | - |
+| tm-sombr-2027-london-1adfz_ogkwskt7w | Sombr | refresh (applied) | 107666544 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-24-6-2027/event/107666544 | - |
+| tm-sombr-2027-london-1adfz_ogkwy2ti0 | Sombr | refresh (applied) | 107666748 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-25-6-2027/event/107666748 | - |
+| tm-sombr-2027-london-1adfz_ogkwwynfm | Sombr | refresh (applied) | 107666815 | https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-29-6-2027/event/107666815 | - |
 | tm-teddy-swims-2027-greenwich-z7r9jz1aav0v4 | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-teddy-swims-2027-greenwich-z7r9jz1aav0vp | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-polyphia-2026-barcelona-z698xz2qz16va8gvrd | Polyphia | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-polyphia-2026-madrid-z698xz2qz1kp_ozf3 | Polyphia | none | 107446182 | https://www.stubhub.ie/polyphia-tickets-madrid-la-riviera-23-11-2026/event/107446182 | - |
+| tm-polyphia-2026-madrid-z698xz2qz1kp_ozf3 | Polyphia | refresh (applied) | 107446182 | https://www.stubhub.ie/polyphia-tickets-madrid-la-riviera-23-11-2026/event/107446182 | - |
 | tm-polyphia-2026-milano-zg9rmiynyzefaa | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-polyphia-2026-warsaw-z698xzqpz1k-vasek | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-polyphia-2026-berlin-z698xzc2z16vompnuz | Polyphia | none | 107417602 | https://www.stubhub.ie/polyphia-tickets-berlin-tempodrom-5-12-2026/event/107417602 | - |
+| tm-polyphia-2026-berlin-z698xzc2z16vompnuz | Polyphia | refresh (applied) | 107417602 | https://www.stubhub.ie/polyphia-tickets-berlin-tempodrom-5-12-2026/event/107417602 | - |
 | tm-polyphia-2026-oberhausen-z698xzc2z16vk8v9xd | Polyphia | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-polyphia-2026-birmingham-g5dzz_gsc9wjr | Polyphia | none | 107438077 | https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077 | - |
-| tm-polyphia-2026-manchester-g5vhz_gr4jgl2 | Polyphia | none | 107439077 | https://www.stubhub.ie/polyphia-tickets-manchester-manchester-academy-12-12-2026/event/107439077 | - |
-| tm-polyphia-2026-leeds-g5dzz_gl9y_6t | Polyphia | none | 107440077 | https://www.stubhub.ie/polyphia-tickets-leeds-o2-academy-leeds-15-12-2026/event/107440077 | - |
-| tm-polyphia-2026-london-g5dzz_gljhn6p | Polyphia | none | 107440078 | https://www.stubhub.ie/polyphia-tickets-london-o2-academy-brixton-16-12-2026/event/107440078 | - |
+| tm-polyphia-2026-birmingham-g5dzz_gsc9wjr | Polyphia | refresh (applied) | 107438077 | https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077 | - |
+| tm-polyphia-2026-manchester-g5vhz_gr4jgl2 | Polyphia | refresh (applied) | 107439077 | https://www.stubhub.ie/polyphia-tickets-manchester-manchester-academy-12-12-2026/event/107439077 | - |
+| tm-polyphia-2026-leeds-g5dzz_gl9y_6t | Polyphia | refresh (applied) | 107440077 | https://www.stubhub.ie/polyphia-tickets-leeds-o2-academy-leeds-15-12-2026/event/107440077 | - |
+| tm-polyphia-2026-london-g5dzz_gljhn6p | Polyphia | refresh (applied) | 107440078 | https://www.stubhub.ie/polyphia-tickets-london-o2-academy-brixton-16-12-2026/event/107440078 | - |
 | tm-polyphia-2027-phoenix-16_zkf_ofzag77fu | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-polyphia-2027-las-vegas-169zkfppazau15va | Polyphia | none | 107676192 | https://www.stubhub.ie/polyphia-las-vegas-tickets-2-6-2027/event/107676192 | - |
+| tm-polyphia-2027-las-vegas-169zkfppazau15va | Polyphia | refresh (applied) | 107676192 | https://www.stubhub.ie/polyphia-las-vegas-tickets-2-6-2027/event/107676192 | - |
 | tm-polyphia-2027-san-diego-z7r9jz1aav67j | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-polyphia-2027-seattle-vvg1hz_oxmv1cx | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-polyphia-2027-salt-lake-city-g5vzz_ojsblfw | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
@@ -487,11 +482,11 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-stella-lefty-2027-toronto-1a8zkf4gkddr1l2 | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stella-lefty-2027-toronto-1avzz_ogklpe4bz | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stella-lefty-2027-montreal-1kg8vp7yga51kww | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-stella-lefty-2027-boston-vv168vp7y-kz7ukua | Stella Lefty | none | 107557106 | https://www.stubhub.ie/stella-lefty-boston-tickets-1-17-2027/event/107557106 | - |
-| tm-stella-lefty-2027-brooklyn-k7vgf_ocrjdss | Stella Lefty | none | 107557107 | https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-19-2027/event/107557107 | - |
-| tm-stella-lefty-2027-brooklyn-k7vgf_ocrqdsw | Stella Lefty | none | 107554549 | https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-20-2027/event/107554549 | - |
+| tm-stella-lefty-2027-boston-vv168vp7y-kz7ukua | Stella Lefty | refresh (applied) | 107557106 | https://www.stubhub.ie/stella-lefty-boston-tickets-1-17-2027/event/107557106 | - |
+| tm-stella-lefty-2027-brooklyn-k7vgf_ocrjdss | Stella Lefty | refresh (applied) | 107557107 | https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-19-2027/event/107557107 | - |
+| tm-stella-lefty-2027-brooklyn-k7vgf_ocrqdsw | Stella Lefty | refresh (applied) | 107554549 | https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-20-2027/event/107554549 | - |
 | tm-stella-lefty-2027-philadelphia-vv1aezkfkgkddxsrk | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-stella-lefty-2027-washington-1a4zkffgkdf8c-z | Stella Lefty | none | 107670970 | https://www.stubhub.ie/stella-lefty-washington-tickets-1-23-2027/event/107670970 | - |
+| tm-stella-lefty-2027-washington-1a4zkffgkdf8c-z | Stella Lefty | refresh (applied) | 107670970 | https://www.stubhub.ie/stella-lefty-washington-tickets-1-23-2027/event/107670970 | - |
 | tm-stella-lefty-2027-charlotte-g5evz_o9kpb3z | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stella-lefty-2027-atlanta-vvg1zz_olg43wy | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stella-lefty-2027-dallas-vvg1yz_o8qf6xm | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
@@ -501,16 +496,15 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-stella-lefty-2027-denver-g5vzz_o3ivhxh | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stella-lefty-2027-chicago-vv1a7zkf3ovc9zec5 | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stella-lefty-2027-amsterdam-z698xzbpz16vj_pxbp | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-stella-lefty-2027-manchester-g5dzz_36uppzk | Stella Lefty | none | 107666800 | https://www.stubhub.ie/stella-lefty-tickets-manchester-o2-ritz-manchester-19-3-2027/event/107666800 | - |
+| tm-stella-lefty-2027-manchester-g5dzz_36uppzk | Stella Lefty | refresh (applied) | 107666800 | https://www.stubhub.ie/stella-lefty-tickets-manchester-o2-ritz-manchester-19-3-2027/event/107666800 | - |
 | tm-stella-lefty-2027-birmingham-g5dzz_o1n7vhc | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-saint-levant-2026-utrecht-z698xzbpz16ezo1d8_ | Saint Levant | unverify (applied) | 107455273 | https://www.stubhub.ie/saint-levant-tickets-utrecht-tivoli-vredenburg-13-11-2026/event/107455273 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-saint-levant-2026-amsterdam-z698xzbpz1kqt7gc_ | Saint Levant | none | 107455274 | https://www.stubhub.ie/saint-levant-tickets-amsterdam-melkweg-14-11-2026/event/107455274 | - |
+| tm-saint-levant-2026-amsterdam-z698xzbpz1kqt7gc_ | Saint Levant | unverify (applied) | 107455274 | https://www.stubhub.ie/saint-levant-tickets-amsterdam-melkweg-14-11-2026/event/107455274 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-saint-levant-2026-stockholm-z698xzq2z16vfgv3vs | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2026-milano-zg9rmiynyzdda7 | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2027-ottawa-1aszkf_gkdi5bcd | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2027-london-1avzz_ogktcpwjw | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2027-toronto-1a8zkf_gkdyntyg | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-saint-levant-2027-brooklyn-k7vgf_ocsz0pi | Saint Levant | none | 107665812 | https://www.stubhub.ie/saint-levant-brooklyn-tickets-4-1-2027/event/107665812 | - |
+| tm-saint-levant-2027-brooklyn-k7vgf_ocsz0pi | Saint Levant | refresh (applied) | 107665812 | https://www.stubhub.ie/saint-levant-brooklyn-tickets-4-1-2027/event/107665812 | - |
 | tm-saint-levant-2027-chicago-vv1a7zkf_gkewujj1 | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2027-detroit-vv1koz_opyg7lxkw | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2027-silver-spring-1ka8vpkbgagykaz | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
@@ -522,27 +516,27 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-airborne-toxic-event-2027-chicago-z7r9jz1aazbfj | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-airborne-toxic-event-2027-englewood-z7r9jz1aazgov | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-airborne-toxic-event-2027-portland-z7r9jz1aazfzx | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-andrea-bocelli-2026-boston-vv1k7z_dz6g7ymm- | Andrea Bocelli | none | 107083032 | https://www.stubhub.ie/andrea-bocelli-boston-tickets-12-10-2026/event/107083032 | - |
-| tm-andrea-bocelli-2026-buffalo-k7vgf_dlhwxlk | Andrea Bocelli | none | 107189125 | https://www.stubhub.ie/andrea-bocelli-buffalo-tickets-12-11-2026/event/107189125 | - |
+| tm-andrea-bocelli-2026-boston-vv1k7z_dz6g7ymm- | Andrea Bocelli | refresh (applied) | 107083032 | https://www.stubhub.ie/andrea-bocelli-boston-tickets-12-10-2026/event/107083032 | - |
+| tm-andrea-bocelli-2026-buffalo-k7vgf_dlhwxlk | Andrea Bocelli | refresh (applied) | 107189125 | https://www.stubhub.ie/andrea-bocelli-buffalo-tickets-12-11-2026/event/107189125 | - |
 | tm-andrea-bocelli-2026-montreal-1ad7z_dgkclbvf3 | Andrea Bocelli | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-andrea-bocelli-2026-new-york-g5diz_drrs_4p | Andrea Bocelli | none | 107083033 | https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-16-2026/event/107083033 | - |
-| tm-andrea-bocelli-2026-new-york-g5diz_drrgy4q | Andrea Bocelli | none | 107092096 | https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-17-2026/event/107092096 | - |
+| tm-andrea-bocelli-2026-new-york-g5diz_drrs_4p | Andrea Bocelli | refresh (applied) | 107083033 | https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-16-2026/event/107083033 | - |
+| tm-andrea-bocelli-2026-new-york-g5diz_drrgy4q | Andrea Bocelli | refresh (applied) | 107092096 | https://www.stubhub.ie/andrea-bocelli-new-york-tickets-12-17-2026/event/107092096 | - |
 | tm-andrea-bocelli-2026-hamilton-1a8zk8vgkel0c3m | Andrea Bocelli | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-andrea-bocelli-2026-pittsburgh-1apzk8vgkdk8zer | Andrea Bocelli | none | 107083034 | https://www.stubhub.ie/andrea-bocelli-pittsburgh-tickets-12-21-2026/event/107083034 | - |
-| tm-andrea-bocelli-2026-philadelphia-1ayzk8ygkdwg9ej | Andrea Bocelli | none | 107083035 | https://www.stubhub.ie/andrea-bocelli-philadelphia-tickets-12-22-2026/event/107083035 | - |
-| tm-andrea-bocelli-2027-cardiff-1agzkfkgkejnxkj | Andrea Bocelli | none | 107476080 | https://www.stubhub.ie/andrea-bocelli-tickets-cardiff-principality-stadium-cardiff-8-5-2027/event/107476080 | - |
-| tm-morat-2027-inglewood-vvg10z_1tsiuwe | Morat | none | 107258452 | https://www.stubhub.ie/morat-inglewood-tickets-2-26-2027/event/107258452 | - |
+| tm-andrea-bocelli-2026-pittsburgh-1apzk8vgkdk8zer | Andrea Bocelli | refresh (applied) | 107083034 | https://www.stubhub.ie/andrea-bocelli-pittsburgh-tickets-12-21-2026/event/107083034 | - |
+| tm-andrea-bocelli-2026-philadelphia-1ayzk8ygkdwg9ej | Andrea Bocelli | refresh (applied) | 107083035 | https://www.stubhub.ie/andrea-bocelli-philadelphia-tickets-12-22-2026/event/107083035 | - |
+| tm-andrea-bocelli-2027-cardiff-1agzkfkgkejnxkj | Andrea Bocelli | refresh (applied) | 107476080 | https://www.stubhub.ie/andrea-bocelli-tickets-cardiff-principality-stadium-cardiff-8-5-2027/event/107476080 | - |
+| tm-morat-2027-inglewood-vvg10z_1tsiuwe | Morat | refresh (applied) | 107258452 | https://www.stubhub.ie/morat-inglewood-tickets-2-26-2027/event/107258452 | - |
 | tm-morat-2027-el-paso-vvg1yz_1xncffn | Morat | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-morat-2027-rosemont-vvg18z_1rgckw0 | Morat | none | 107258453 | https://www.stubhub.ie/morat-rosemont-tickets-3-5-2027/event/107258453 | - |
-| tm-morat-2027-boston-vvg17z_1b5nnhl | Morat | none | 107202169 | https://www.stubhub.ie/morat-boston-tickets-3-7-2027/event/107202169 | - |
+| tm-morat-2027-rosemont-vvg18z_1rgckw0 | Morat | refresh (applied) | 107258453 | https://www.stubhub.ie/morat-rosemont-tickets-3-5-2027/event/107258453 | - |
+| tm-morat-2027-boston-vvg17z_1b5nnhl | Morat | refresh (applied) | 107202169 | https://www.stubhub.ie/morat-boston-tickets-3-7-2027/event/107202169 | - |
 | tm-morat-2027-grand-prairie-z7r9jz1a70iu_ | Morat | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-morat-2027-sugar-land-z7r9jz1a70iu- | Morat | none | 107198192 | https://www.stubhub.ie/morat-sugar-land-tickets-3-13-2027/event/107198192 | - |
-| tm-morat-2027-hidalgo-g5diz_1bprewh | Morat | none | 107202170 | https://www.stubhub.ie/morat-hidalgo-tickets-3-14-2027/event/107202170 | - |
-| tm-morat-2027-orlando-17fov0g61xg_prh | Morat | none | 107202171 | https://www.stubhub.ie/morat-orlando-tickets-3-18-2027/event/107202171 | - |
-| tm-morat-2027-miami-vvg1vz_1toy-p6 | Morat | none | 107198193 | https://www.stubhub.ie/morat-miami-tickets-3-20-2027/event/107198193 | - |
+| tm-morat-2027-sugar-land-z7r9jz1a70iu- | Morat | refresh (applied) | 107198192 | https://www.stubhub.ie/morat-sugar-land-tickets-3-13-2027/event/107198192 | - |
+| tm-morat-2027-hidalgo-g5diz_1bprewh | Morat | refresh (applied) | 107202170 | https://www.stubhub.ie/morat-hidalgo-tickets-3-14-2027/event/107202170 | - |
+| tm-morat-2027-orlando-17fov0g61xg_prh | Morat | refresh (applied) | 107202171 | https://www.stubhub.ie/morat-orlando-tickets-3-18-2027/event/107202171 | - |
+| tm-morat-2027-miami-vvg1vz_1toy-p6 | Morat | refresh (applied) | 107198193 | https://www.stubhub.ie/morat-miami-tickets-3-20-2027/event/107198193 | - |
 | tm-morat-2027-toronto-177zv0g65ag8wpj | Morat | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-morat-2027-montreal-17g8v0g65cezfzf | Morat | none | 107203077 | https://www.stubhub.ie/morat-tickets-montreal-mtelus-3-27-2027/event/107203077 | - |
-| tm-morat-2027-brooklyn-17gzv0g61xr7dfv | Morat | none | 107198194 | https://www.stubhub.ie/morat-brooklyn-tickets-4-1-2027/event/107198194 | - |
+| tm-morat-2027-montreal-17g8v0g65cezfzf | Morat | refresh (applied) | 107203077 | https://www.stubhub.ie/morat-tickets-montreal-mtelus-3-27-2027/event/107203077 | - |
+| tm-morat-2027-brooklyn-17gzv0g61xr7dfv | Morat | refresh (applied) | 107198194 | https://www.stubhub.ie/morat-brooklyn-tickets-4-1-2027/event/107198194 | - |
 | tm-morat-2027-fairfax-17a8v0g61boau0r | Morat | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-missio-2026-detroit-z7r9jz1aaziv8 | Missio | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-missio-2026-toronto-1avzz_8gklvsj7l | Missio | none | - | - | no qualifying listing (complete catalog checked) |
@@ -571,11 +565,10 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-vnv-nation-2027-salt-lake-city-z7r9jz1a7pmzg | VNV Nation | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-vnv-nation-2027-st-paul-z7r9jz1a7jzvu | VNV Nation | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-vnv-nation-2027-chicago-z7r9jz1a7pupm | VNV Nation | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-michelle-branch-2026-lexington-17aov0g6cdozqjd | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-charleston-g5evz_8w8tpxk | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-atlanta-vvg1zz_8qvo7-q | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-dallas-vvg1yz_8by9itm | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-michelle-branch-2027-houston-g5diz_8jaig6j | Michelle Branch | none | 107667195 | https://www.stubhub.ie/michelle-branch-houston-tickets-3-7-2027/event/107667195 | - |
+| tm-michelle-branch-2027-houston-g5diz_8jaig6j | Michelle Branch | refresh (applied) | 107667195 | https://www.stubhub.ie/michelle-branch-houston-tickets-3-7-2027/event/107667195 | - |
 | tm-michelle-branch-2027-tempe-1av0z_8gkntcuaa | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-anaheim-vv1aazkf6gkdxx2ly | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-los-angeles-vv170z_8gksjroc_ | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
@@ -584,25 +577,25 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-michelle-branch-2027-columbus-z7r9jz1aazmzz | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-royal-oak-z7r9jz1aazmje | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-portland-vv177z_8gkm-dic1 | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-michelle-branch-2027-new-york-g5diz_8xxfdpf | Michelle Branch | none | 107667196 | https://www.stubhub.ie/michelle-branch-new-york-tickets-3-25-2027/event/107667196 | - |
+| tm-michelle-branch-2027-new-york-g5diz_8xxfdpf | Michelle Branch | refresh (applied) | 107667196 | https://www.stubhub.ie/michelle-branch-new-york-tickets-3-25-2027/event/107667196 | - |
 | tm-michelle-branch-2027-silver-spring-16vfz_809g7nt6o | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-philadelphia-z7r9jz1aazyqb | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fkj-2027-portland-z7r9jz1a7pdgd | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fkj-2027-seattle-z7r9jz1a7pduz | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fkj-2027-vancouver-1778v0g65j57kh7 | FKJ | none | 107447309 | https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/event/107447309 | - |
-| tm-fkj-2027-vancouver-1778v0g6g4hh0bi | FKJ | none | 107447310 | https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-26-2027/event/107447310 | - |
+| tm-fkj-2027-vancouver-1778v0g65j57kh7 | FKJ | refresh (applied) | 107447309 | https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-25-2027/event/107447309 | - |
+| tm-fkj-2027-vancouver-1778v0g6g4hh0bi | FKJ | refresh (applied) | 107447310 | https://www.stubhub.ie/fkj-tickets-vancouver-commodore-ballroom-4-26-2027/event/107447310 | - |
 | tm-fkj-2027-denver-z7r9jz1a7pk0s | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fkj-2027-chicago-vvg18z_5uyql9j | FKJ | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-fkj-2027-toronto-177zv0g65u2nyx_ | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fkj-2027-montreal-17g8v0g65rqmwty | FKJ | none | 107447311 | https://www.stubhub.ie/fkj-tickets-montreal-mtelus-5-31-2027/event/107447311 | - |
-| tm-fkj-2027-boston-vvg17z_5ryet2j | FKJ | none | 107447312 | https://www.stubhub.ie/fkj-boston-tickets-6-1-2027/event/107447312 | - |
+| tm-fkj-2027-montreal-17g8v0g65rqmwty | FKJ | refresh (applied) | 107447311 | https://www.stubhub.ie/fkj-tickets-montreal-mtelus-5-31-2027/event/107447311 | - |
+| tm-fkj-2027-boston-vvg17z_5ryet2j | FKJ | refresh (applied) | 107447312 | https://www.stubhub.ie/fkj-boston-tickets-6-1-2027/event/107447312 | - |
 | tm-fkj-2027-philadelphia-vvg1fz_5rrowhv | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fkj-2027-brooklyn-k7vgf_5rij1fj | FKJ | none | 107417665 | https://www.stubhub.ie/fkj-brooklyn-tickets-6-4-2027/event/107417665 | - |
-| tm-fkj-2027-washington-17a8v0g65nnmzs3 | FKJ | none | 107447313 | https://www.stubhub.ie/fkj-washington-tickets-6-7-2027/event/107447313 | - |
+| tm-fkj-2027-brooklyn-k7vgf_5rij1fj | FKJ | refresh (applied) | 107417665 | https://www.stubhub.ie/fkj-brooklyn-tickets-6-4-2027/event/107417665 | - |
+| tm-fkj-2027-washington-17a8v0g65nnmzs3 | FKJ | refresh (applied) | 107447313 | https://www.stubhub.ie/fkj-washington-tickets-6-7-2027/event/107447313 | - |
 | tm-fkj-2027-atlanta-vvg1zz_59up5bx | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fkj-2027-houston-g5diz_5msvufk | FKJ | none | 107447314 | https://www.stubhub.ie/fkj-houston-tickets-6-11-2027/event/107447314 | - |
+| tm-fkj-2027-houston-g5diz_5msvufk | FKJ | refresh (applied) | 107447314 | https://www.stubhub.ie/fkj-houston-tickets-6-11-2027/event/107447314 | - |
 | tm-fkj-2027-austin-z7r9jz1a7pdvn | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fkj-2027-dallas-vvg1yz_5ry7uyw | FKJ | none | 107447315 | https://www.stubhub.ie/fkj-dallas-tickets-6-14-2027/event/107447315 | - |
+| tm-fkj-2027-dallas-vvg1yz_5ry7uyw | FKJ | refresh (applied) | 107447315 | https://www.stubhub.ie/fkj-dallas-tickets-6-14-2027/event/107447315 | - |
 | tm-sylvan-esso-2027-seattle-vvg1hz_g92don0 | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sylvan-esso-2027-vancouver-z7r9jz1a7pffp | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sylvan-esso-2027-portland-z7r9jz1a7pf-d | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
@@ -619,14 +612,14 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sylvan-esso-2027-birmingham-17fzv0g6gpo7w2j | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sylvan-esso-2027-nashville-g5viz_g3v82ae | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2026-amsterdam-z698xzbpz16evuaf-z | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-blondshell-2026-manchester-g5dzz_anefaed | Blondshell | none | 107170279 | https://www.stubhub.ie/blondshell-tickets-manchester-o2-ritz-manchester-12-12-2026/event/107170279 | - |
-| tm-blondshell-2026-glasgow-17uov0g616cnj6j | Blondshell | none | 107170280 | https://www.stubhub.ie/blondshell-tickets-glasgow-the-old-fruitmarket-13-12-2026/event/107170280 | - |
-| tm-blondshell-2026-london-g5vhz_adn7kja | Blondshell | none | 107170278 | https://www.stubhub.ie/blondshell-tickets-london-the-roundhouse-15-12-2026/event/107170278 | - |
+| tm-blondshell-2026-manchester-g5dzz_anefaed | Blondshell | refresh (applied) | 107170279 | https://www.stubhub.ie/blondshell-tickets-manchester-o2-ritz-manchester-12-12-2026/event/107170279 | - |
+| tm-blondshell-2026-glasgow-17uov0g616cnj6j | Blondshell | refresh (applied) | 107170280 | https://www.stubhub.ie/blondshell-tickets-glasgow-the-old-fruitmarket-13-12-2026/event/107170280 | - |
+| tm-blondshell-2026-london-g5vhz_adn7kja | Blondshell | refresh (applied) | 107170278 | https://www.stubhub.ie/blondshell-tickets-london-the-roundhouse-15-12-2026/event/107170278 | - |
 | tm-pink-martini-2026-reno-17ayv0g651b0bey | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2026-redding-z7r9jz1a7ps3o | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2026-fairfax-z7r9jz1aazojt | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2026-lebanon-z7r9jz1a7pwba | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-pink-martini-2026-brooklyn-k7vgf_u53h-yh | Pink Martini | none | 107478247 | https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247 | - |
+| tm-pink-martini-2026-brooklyn-k7vgf_u53h-yh | Pink Martini | refresh (applied) | 107478247 | https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247 | - |
 | tm-pink-martini-2026-philadelphia-z7r9jz1a70ppv | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2026-red-bank-g5vvz_gnt3jau | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2026-boston-z7r9jz1a7psqp | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
@@ -646,38 +639,38 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-pink-martini-2027-toronto-177zv0g65s2z1n6 | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2027-quebec-17g8v0g61ihh8sg | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2027-houston-g5diz_8uc2ajn | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-harry-styles-2026-docklands-1apzk8ugkd2sm8u | Harry Styles | none | 107082955 | https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-27-11-2026/event/107082955 | - |
-| tm-harry-styles-2026-docklands-16efz_dckg7slsc | Harry Styles | none | 107082956 | https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-28-11-2026/event/107082956 | - |
-| tm-harry-styles-2026-docklands-1apzk8ugkd2mxoc | Harry Styles | none | 107082957 | https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-2-12-2026/event/107082957 | - |
-| tm-harry-styles-2026-docklands-1apzk8ugkd2broi | Harry Styles | none | 107495125 | https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-4-12-2026/event/107495125 | - |
+| tm-harry-styles-2026-docklands-1apzk8ugkd2sm8u | Harry Styles | refresh (applied) | 107082955 | https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-27-11-2026/event/107082955 | - |
+| tm-harry-styles-2026-docklands-16efz_dckg7slsc | Harry Styles | refresh (applied) | 107082956 | https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-28-11-2026/event/107082956 | - |
+| tm-harry-styles-2026-docklands-1apzk8ugkd2mxoc | Harry Styles | refresh (applied) | 107082957 | https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-2-12-2026/event/107082957 | - |
+| tm-harry-styles-2026-docklands-1apzk8ugkd2broi | Harry Styles | refresh (applied) | 107495125 | https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-4-12-2026/event/107495125 | - |
 | tm-harry-styles-2026-sydney-olympic-park-1ka8v0ukgagf72c | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-harry-styles-2026-sydney-olympic-park-1apzk8ugkdafgq9 | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-harry-styles-2027-pasadena-vvg1iz_3npi4df | Harry Styles | none | 107667648 | https://www.stubhub.ie/harry-styles-pasadena-tickets-4-23-2027/event/107667648 | - |
-| tm-harry-styles-2027-pasadena-vvg1iz_3ntnu7b | Harry Styles | none | 107667649 | https://www.stubhub.ie/harry-styles-pasadena-tickets-4-24-2027/event/107667649 | - |
+| tm-harry-styles-2027-pasadena-vvg1iz_3npi4df | Harry Styles | refresh (applied) | 107667648 | https://www.stubhub.ie/harry-styles-pasadena-tickets-4-23-2027/event/107667648 | - |
+| tm-harry-styles-2027-pasadena-vvg1iz_3ntnu7b | Harry Styles | refresh (applied) | 107667649 | https://www.stubhub.ie/harry-styles-pasadena-tickets-4-24-2027/event/107667649 | - |
 | tm-harry-styles-2027-toronto-1a8zkftgkdpce50 | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-harry-styles-2027-toronto-1a8zkftanayze5g | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-harry-styles-2027-atlanta-vvg1zz_3nnlppu | Harry Styles | none | 107667650 | https://www.stubhub.ie/harry-styles-atlanta-tickets-5-21-2027/event/107667650 | - |
-| tm-harry-styles-2027-atlanta-vvg1zz_3ef8eqn | Harry Styles | none | 107667651 | https://www.stubhub.ie/harry-styles-atlanta-tickets-5-22-2027/event/107667651 | - |
-| tm-harry-styles-2027-chicago-vv1a7zkftgkdrmtch | Harry Styles | none | 107667652 | https://www.stubhub.ie/harry-styles-chicago-tickets-5-28-2027/event/107667652 | - |
-| tm-harry-styles-2027-chicago-vv1a7zkftgkdgsgdj | Harry Styles | none | 107667653 | https://www.stubhub.ie/harry-styles-chicago-tickets-5-29-2027/event/107667653 | - |
+| tm-harry-styles-2027-atlanta-vvg1zz_3nnlppu | Harry Styles | refresh (applied) | 107667650 | https://www.stubhub.ie/harry-styles-atlanta-tickets-5-21-2027/event/107667650 | - |
+| tm-harry-styles-2027-atlanta-vvg1zz_3ef8eqn | Harry Styles | refresh (applied) | 107667651 | https://www.stubhub.ie/harry-styles-atlanta-tickets-5-22-2027/event/107667651 | - |
+| tm-harry-styles-2027-chicago-vv1a7zkftgkdrmtch | Harry Styles | refresh (applied) | 107667652 | https://www.stubhub.ie/harry-styles-chicago-tickets-5-28-2027/event/107667652 | - |
+| tm-harry-styles-2027-chicago-vv1a7zkftgkdgsgdj | Harry Styles | refresh (applied) | 107667653 | https://www.stubhub.ie/harry-styles-chicago-tickets-5-29-2027/event/107667653 | - |
 | tm-harry-styles-2027-madrid-z698xz2qz16v0sptae | Harry Styles | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-harry-styles-2027-madrid-z698xz2qz16v8zj448 | Harry Styles | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-harry-styles-2027-dublin-1abzkftgkexalp_ | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-harry-styles-2027-dublin-1avoz_3gkn1nb3y | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-harry-styles-2027-london-1aegz_8gkdalwdz | Harry Styles | none | 107666015 | https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-25-8-2027/event/107666015 | - |
-| tm-harry-styles-2027-london-1anzkfigkew9djd | Harry Styles | none | 107667637 | https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-27-8-2027/event/107667637 | - |
-| tm-harry-styles-2027-london-1anzkfigkeycdjb | Harry Styles | none | 107666016 | https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-28-8-2027/event/107666016 | - |
-| tm-bts-2027-docklands-17a8v0g65r_eq8g | BTS | none | 107258449 | https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-10-2-2027/event/107258449 | - |
-| tm-bts-2027-docklands-17a8v0g659_gumr | BTS | none | 107258450 | https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-12-2-2027/event/107258450 | - |
-| tm-bts-2027-docklands-17a8v0g65r_ew8m | BTS | none | 107258451 | https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-13-2-2027/event/107258451 | - |
+| tm-harry-styles-2027-london-1aegz_8gkdalwdz | Harry Styles | refresh (applied) | 107666015 | https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-25-8-2027/event/107666015 | - |
+| tm-harry-styles-2027-london-1anzkfigkew9djd | Harry Styles | refresh (applied) | 107667637 | https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-27-8-2027/event/107667637 | - |
+| tm-harry-styles-2027-london-1anzkfigkeycdjb | Harry Styles | refresh (applied) | 107666016 | https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-28-8-2027/event/107666016 | - |
+| tm-bts-2027-docklands-17a8v0g65r_eq8g | BTS | refresh (applied) | 107258449 | https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-10-2-2027/event/107258449 | - |
+| tm-bts-2027-docklands-17a8v0g659_gumr | BTS | refresh (applied) | 107258450 | https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-12-2-2027/event/107258450 | - |
+| tm-bts-2027-docklands-17a8v0g65r_ew8m | BTS | refresh (applied) | 107258451 | https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-13-2-2027/event/107258451 | - |
 | tm-bts-2027-sydney-olympic-park-17a8v0g65qfkdo_ | BTS | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bts-2027-sydney-olympic-park-17a8v0g65qfik-s | BTS | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bruno-mars-2027-burswood-1apzkfbgkdn2ves | Bruno Mars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bruno-mars-2027-burswood-1aefz_ogklrp4vu | Bruno Mars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bruno-mars-2027-docklands-1aefz_o37vvzdckk | Bruno Mars | none | 107666002 | https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002 | - |
-| tm-bruno-mars-2027-docklands-1aefz_ogknww0xk | Bruno Mars | none | 107666003 | https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003 | - |
-| tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5 | Bruno Mars | none | 107666004 | https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004 | - |
-| tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2 | Bruno Mars | none | 107667338 | https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-24-2-2027/event/107667338 | - |
+| tm-bruno-mars-2027-docklands-1aefz_o37vvzdckk | Bruno Mars | refresh (applied) | 107666002 | https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002 | - |
+| tm-bruno-mars-2027-docklands-1aefz_ogknww0xk | Bruno Mars | refresh (applied) | 107666003 | https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003 | - |
+| tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5 | Bruno Mars | refresh (applied) | 107666004 | https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004 | - |
+| tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2 | Bruno Mars | refresh (applied) | 107667338 | https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-24-2-2027/event/107667338 | - |
 | tm-bruno-mars-2027-milton-1akzkf3gkdacg5v | Bruno Mars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bruno-mars-2027-milton-1avgz_ogklamkhm | Bruno Mars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bruno-mars-2027-sydney-olympic-park-1aefz_o3ezszduv6 | Bruno Mars | none | - | - | no qualifying listing (complete catalog checked) |
@@ -686,9 +679,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-bruno-mars-2027-sydney-olympic-park-1aefz_ogknaxoik | Bruno Mars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gracie-abrams-2027-dublin-17kzv0g65nd0zys | Gracie Abrams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gracie-abrams-2027-dublin-17kzv0g65ndpfyh | Gracie Abrams | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-niall-horan-2026-dublin-1avoz_6rofjzd576 | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sombr-2027-co-dublin-1abzkf4gkd83jcw | Sombr | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sombr-2027-belfast-16doz_oxfg7tv55 | Sombr | none | 107666405 | https://www.stubhub.ie/sombr-tickets-belfast-ormeau-park-17-6-2027/event/107666405 | - |
+| tm-sombr-2027-belfast-16doz_oxfg7tv55 | Sombr | refresh (applied) | 107666405 | https://www.stubhub.ie/sombr-tickets-belfast-ormeau-park-17-6-2027/event/107666405 | - |
 | tm-teddy-swims-2027-dublin-17kzv0g626ngihj | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-five-finger-death-punch-2027-dublin-1avoz_fgkbmo2st | Five Finger Death Punch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nothing-but-thieves-2027-dublin-17kzv0g654xs6b3 | Nothing But Thieves | none | - | - | no qualifying listing (complete catalog checked) |
@@ -703,12 +695,12 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-tobymac-2027-lexington-1apzkfbgker-a4j | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-huntsville-1aozkfbgkdezfqd | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-lafayette-g5viz_2bfz904 | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-tobymac-2027-tampa-vvg1vz_oe_5n5h | TobyMac | none | 107666769 | https://www.stubhub.ie/tobymac-tampa-tickets-2-4-2027/event/107666769 | - |
-| tm-tobymac-2027-sunrise-z7r9jz1aav8xe | TobyMac | none | 107666770 | https://www.stubhub.ie/tobymac-sunrise-tickets-2-5-2027/event/107666770 | - |
-| tm-tobymac-2027-orlando-1axzkf_gkdtkgpv | TobyMac | none | 107666375 | https://www.stubhub.ie/tobymac-orlando-tickets-2-6-2027/event/107666375 | - |
-| tm-tobymac-2027-estero-vvg1vz_onusnh8 | TobyMac | none | 107666771 | https://www.stubhub.ie/tobymac-estero-tickets-2-7-2027/event/107666771 | - |
+| tm-tobymac-2027-tampa-vvg1vz_oe_5n5h | TobyMac | refresh (applied) | 107666769 | https://www.stubhub.ie/tobymac-tampa-tickets-2-4-2027/event/107666769 | - |
+| tm-tobymac-2027-sunrise-z7r9jz1aav8xe | TobyMac | refresh (applied) | 107666770 | https://www.stubhub.ie/tobymac-sunrise-tickets-2-5-2027/event/107666770 | - |
+| tm-tobymac-2027-orlando-1axzkf_gkdtkgpv | TobyMac | refresh (applied) | 107666375 | https://www.stubhub.ie/tobymac-orlando-tickets-2-6-2027/event/107666375 | - |
+| tm-tobymac-2027-estero-vvg1vz_onusnh8 | TobyMac | refresh (applied) | 107666771 | https://www.stubhub.ie/tobymac-estero-tickets-2-7-2027/event/107666771 | - |
 | tm-tobymac-2027-pensacola-g5viz_o9zokbz | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-tobymac-2027-sugar-land-z7r9jz1aav8op | TobyMac | none | 107666772 | https://www.stubhub.ie/tobymac-sugar-land-tickets-2-12-2027/event/107666772 | - |
+| tm-tobymac-2027-sugar-land-z7r9jz1aav8op | TobyMac | refresh (applied) | 107666772 | https://www.stubhub.ie/tobymac-sugar-land-tickets-2-12-2027/event/107666772 | - |
 | tm-tobymac-2027-grand-prairie-z7r9jz1aav8of | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-columbus-vv1aazkfbgkdjr-4o | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-norfolk-z7r9jz1aav8r3 | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
@@ -720,7 +712,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-tobymac-2027-fishers-vv1aazkf4gkdkqmmm | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-cape-girardeau-z7r9jz1aav8-f | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-grand-rapids-vv1afzkfbgkdx_n_v | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-tobymac-2027-austin-g5diz_oelxrxd | TobyMac | none | 107666374 | https://www.stubhub.ie/tobymac-austin-tickets-3-11-2027/event/107666374 | - |
+| tm-tobymac-2027-austin-g5diz_oelxrxd | TobyMac | refresh (applied) | 107666374 | https://www.stubhub.ie/tobymac-austin-tickets-3-11-2027/event/107666374 | - |
 | tm-tobymac-2027-lubbock-z7r9jz1aav8o_ | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-rockford-vv1a7zkfpgkdtiktq | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-saint-louis-vv1akzkf_gkdu8agp | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
@@ -730,17 +722,17 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-michelle-branch-2027-nashville-z7r9jz1aazyfg | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-yuridia-2027-seattle-vvg1hz_36ea3aq | Yuridia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-yuridia-2027-reno-1a9zkf0gkdps324 | Yuridia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-yuridia-2027-san-jose-g5vyz_oxvxyml | Yuridia | none | 107667623 | https://www.stubhub.ie/yuridia-san-jose-tickets-2-7-2027/event/107667623 | - |
+| tm-yuridia-2027-san-jose-g5vyz_oxvxyml | Yuridia | refresh (applied) | 107667623 | https://www.stubhub.ie/yuridia-san-jose-tickets-2-7-2027/event/107667623 | - |
 | tm-yuridia-2027-palm-desert-vvg1iz_35qkx8b | Yuridia | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-yuridia-2027-phoenix-1a_zkfxgkecvpec | Yuridia | none | 107666051 | https://www.stubhub.ie/yuridia-phoenix-tickets-2-13-2027/event/107666051 | - |
+| tm-yuridia-2027-phoenix-1a_zkfxgkecvpec | Yuridia | refresh (applied) | 107666051 | https://www.stubhub.ie/yuridia-phoenix-tickets-2-13-2027/event/107666051 | - |
 | tm-yuridia-2027-highland-z7r9jz1aav-j_ | Yuridia | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-yuridia-2027-las-vegas-1ayzkfngkdql5vb | Yuridia | none | 107666031 | https://www.stubhub.ie/yuridia-las-vegas-tickets-2-18-2027/event/107666031 | - |
-| tm-yuridia-2027-inglewood-vvg1iz_3kmopkh | Yuridia | none | 107666048 | https://www.stubhub.ie/yuridia-inglewood-tickets-2-20-2027/event/107666048 | - |
-| tm-yuridia-2027-inglewood-vvg1iz_33c4njl | Yuridia | none | 107668406 | https://www.stubhub.ie/yuridia-inglewood-tickets-2-21-2027/event/107668406 | - |
-| tm-yuridia-2027-fresno-g5vyz_35vhmjx | Yuridia | none | 107666042 | https://www.stubhub.ie/yuridia-fresno-tickets-2-25-2027/event/107666042 | - |
+| tm-yuridia-2027-las-vegas-1ayzkfngkdql5vb | Yuridia | refresh (applied) | 107666031 | https://www.stubhub.ie/yuridia-las-vegas-tickets-2-18-2027/event/107666031 | - |
+| tm-yuridia-2027-inglewood-vvg1iz_3kmopkh | Yuridia | refresh (applied) | 107666048 | https://www.stubhub.ie/yuridia-inglewood-tickets-2-20-2027/event/107666048 | - |
+| tm-yuridia-2027-inglewood-vvg1iz_33c4njl | Yuridia | refresh (applied) | 107668406 | https://www.stubhub.ie/yuridia-inglewood-tickets-2-21-2027/event/107668406 | - |
+| tm-yuridia-2027-fresno-g5vyz_35vhmjx | Yuridia | refresh (applied) | 107666042 | https://www.stubhub.ie/yuridia-fresno-tickets-2-25-2027/event/107666042 | - |
 | tm-yuridia-2027-wheatland-g5vyz_32kawxi | Yuridia | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-yuridia-2027-san-diego-vvg1iz_3fqrwdv | Yuridia | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-yuridia-2027-dallas-vvg1yz_32hm5d6 | Yuridia | none | 107666053 | https://www.stubhub.ie/yuridia-dallas-tickets-3-12-2027/event/107666053 | - |
+| tm-yuridia-2027-dallas-vvg1yz_32hm5d6 | Yuridia | refresh (applied) | 107666053 | https://www.stubhub.ie/yuridia-dallas-tickets-3-12-2027/event/107666053 | - |
 | tm-yuridia-2027-el-paso-vvg1yz_3ggzxqt | Yuridia | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-yuridia-2027-laredo-g5diz_3f66dhn | Yuridia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-yuridia-2027-rosemont-vv1a7zkf0gkenyiy- | Yuridia | none | - | - | no qualifying listing (complete catalog checked) |
@@ -748,36 +740,36 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-fkj-2027-salt-lake-city-z7r9jz1a7pk0m | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sylvan-esso-2027-salt-lake-city-z7r9jz1a7pxjk | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-harry-styles-2027-dublin-1avoz_3gklibgmq | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-harry-styles-2027-arlington-z7r9jz1aavp49 | Harry Styles | none | 107666028 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-9-2027/event/107666028 | - |
-| tm-harry-styles-2027-arlington-z7r9jz1aavp4p | Harry Styles | none | 107667647 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-10-2027/event/107667647 | - |
-| tm-harry-styles-2027-arlington-z7r9jz1aavsoa | Harry Styles | none | 107668117 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-16-2027/event/107668117 | - |
-| tm-harry-styles-2027-pasadena-vvg1iz_3bgqfli | Harry Styles | none | 107668108 | https://www.stubhub.ie/harry-styles-pasadena-tickets-4-30-2027/event/107668108 | - |
-| tm-harry-styles-2027-pasadena-vvg1iz_3bg-0lz | Harry Styles | none | 107668109 | https://www.stubhub.ie/harry-styles-pasadena-tickets-5-1-2027/event/107668109 | - |
+| tm-harry-styles-2027-arlington-z7r9jz1aavp49 | Harry Styles | refresh (applied) | 107666028 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-9-2027/event/107666028 | - |
+| tm-harry-styles-2027-arlington-z7r9jz1aavp4p | Harry Styles | refresh (applied) | 107667647 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-10-2027/event/107667647 | - |
+| tm-harry-styles-2027-arlington-z7r9jz1aavsoa | Harry Styles | refresh (applied) | 107668117 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-16-2027/event/107668117 | - |
+| tm-harry-styles-2027-pasadena-vvg1iz_3bgqfli | Harry Styles | refresh (applied) | 107668108 | https://www.stubhub.ie/harry-styles-pasadena-tickets-4-30-2027/event/107668108 | - |
+| tm-harry-styles-2027-pasadena-vvg1iz_3bg-0lz | Harry Styles | refresh (applied) | 107668109 | https://www.stubhub.ie/harry-styles-pasadena-tickets-5-1-2027/event/107668109 | - |
 | tm-harry-styles-2027-toronto-1avzz_3gkzqzh13 | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-harry-styles-2027-toronto-1avzz_3gkzqbl5d | Harry Styles | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-harry-styles-2027-chicago-vv1a7zkftgkdbxpoy | Harry Styles | none | 107668112 | https://www.stubhub.ie/harry-styles-chicago-tickets-6-4-2027/event/107668112 | - |
-| tm-harry-styles-2027-chicago-vv1a7zkftgkdwejgw | Harry Styles | none | 107668113 | https://www.stubhub.ie/harry-styles-chicago-tickets-6-5-2027/event/107668113 | - |
+| tm-harry-styles-2027-chicago-vv1a7zkftgkdbxpoy | Harry Styles | refresh (applied) | 107668112 | https://www.stubhub.ie/harry-styles-chicago-tickets-6-4-2027/event/107668112 | - |
+| tm-harry-styles-2027-chicago-vv1a7zkftgkdwejgw | Harry Styles | refresh (applied) | 107668113 | https://www.stubhub.ie/harry-styles-chicago-tickets-6-5-2027/event/107668113 | - |
 | tm-harry-styles-2027-madrid-z698xz2qz1ko4op48 | Harry Styles | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-harry-styles-2027-arlington-z7r9jz1aavszi | Harry Styles | none | 107668149 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-14-2027/event/107668149 | - |
-| tm-harry-styles-2027-arlington-z7r9jz1aavw00 | Harry Styles | none | 107668118 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-17-2027/event/107668118 | - |
-| tm-harry-styles-2027-chicago-vv1a7zkftgkdxye23 | Harry Styles | none | 107668111 | https://www.stubhub.ie/harry-styles-chicago-tickets-5-31-2027/event/107668111 | - |
+| tm-harry-styles-2027-arlington-z7r9jz1aavszi | Harry Styles | refresh (applied) | 107668149 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-14-2027/event/107668149 | - |
+| tm-harry-styles-2027-arlington-z7r9jz1aavw00 | Harry Styles | refresh (applied) | 107668118 | https://www.stubhub.ie/harry-styles-arlington-tickets-4-17-2027/event/107668118 | - |
+| tm-harry-styles-2027-chicago-vv1a7zkftgkdxye23 | Harry Styles | refresh (applied) | 107668111 | https://www.stubhub.ie/harry-styles-chicago-tickets-5-31-2027/event/107668111 | - |
 | tm-charli-xcx-2027-dublin-16voz_3jvg7sk3f | Charli xcx | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-charli-xcx-2027-glasgow-1auzkftgkez7jxt | Charli xcx | none | 107668440 | https://www.stubhub.ie/charli-xcx-tickets-glasgow-ovo-hydro-arena-glasgow-15-2-2027/event/107668440 | - |
-| tm-charli-xcx-2027-manchester-1amzkfegkdf5asp | Charli xcx | none | 107668439 | https://www.stubhub.ie/charli-xcx-tickets-manchester-co-op-live-17-2-2027/event/107668439 | - |
-| tm-charli-xcx-2027-london-1agzkfigkenre1t | Charli xcx | none | 107668441 | https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441 | - |
-| tm-charli-xcx-2027-london-1adfz_3gknni7-u | Charli xcx | none | 107669390 | https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390 | - |
-| tm-charli-xcx-2027-amsterdam-z698xzbpz1kqn76of | Charli xcx | none | 107666206 | https://www.stubhub.ie/charli-xcx-tickets-amsterdam-ziggo-dome-22-2-2027/event/107666206 | - |
+| tm-charli-xcx-2027-glasgow-1auzkftgkez7jxt | Charli xcx | refresh (applied) | 107668440 | https://www.stubhub.ie/charli-xcx-tickets-glasgow-ovo-hydro-arena-glasgow-15-2-2027/event/107668440 | - |
+| tm-charli-xcx-2027-manchester-1amzkfegkdf5asp | Charli xcx | refresh (applied) | 107668439 | https://www.stubhub.ie/charli-xcx-tickets-manchester-co-op-live-17-2-2027/event/107668439 | - |
+| tm-charli-xcx-2027-london-1agzkfigkenre1t | Charli xcx | refresh (applied) | 107668441 | https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441 | - |
+| tm-charli-xcx-2027-london-1adfz_3gknni7-u | Charli xcx | refresh (applied) | 107669390 | https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390 | - |
+| tm-charli-xcx-2027-amsterdam-z698xzbpz1kqn76of | Charli xcx | refresh (applied) | 107666206 | https://www.stubhub.ie/charli-xcx-tickets-amsterdam-ziggo-dome-22-2-2027/event/107666206 | - |
 | tm-blue-october-2027-saint-louis-1ae7z_3gkiei5ox | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stella-lefty-2026-saint-louis-1a-zkfxgkegfvfo | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-andrea-bocelli-2027-charlotte-g5evz_8mutuyo | Andrea Bocelli | none | 107670725 | https://www.stubhub.ie/andrea-bocelli-charlotte-tickets-1-29-2027/event/107670725 | - |
-| tm-andrea-bocelli-2027-baltimore-1a4zkffgkepsf12 | Andrea Bocelli | none | 107670724 | https://www.stubhub.ie/andrea-bocelli-baltimore-tickets-1-31-2027/event/107670724 | - |
-| tm-andrea-bocelli-2027-atlanta-vvg1zz_36bbobm | Andrea Bocelli | none | 107671371 | https://www.stubhub.ie/andrea-bocelli-atlanta-tickets-2-2-2027/event/107671371 | - |
-| tm-andrea-bocelli-2027-austin-g5diz_3kpl_-e | Andrea Bocelli | none | 107667778 | https://www.stubhub.ie/andrea-bocelli-austin-tickets-2-4-2027/event/107667778 | - |
-| tm-andrea-bocelli-2027-dallas-vvg1yz_33_tj3c | Andrea Bocelli | none | 107669463 | https://www.stubhub.ie/andrea-bocelli-dallas-tickets-2-5-2027/event/107669463 | - |
-| tm-andrea-bocelli-2027-houston-z7r9jz1aavs_v | Andrea Bocelli | none | 107670723 | https://www.stubhub.ie/andrea-bocelli-houston-tickets-2-7-2027/event/107670723 | - |
-| tm-andrea-bocelli-2027-orlando-1axzkfigkdrsgpw | Andrea Bocelli | none | 107667788 | https://www.stubhub.ie/andrea-bocelli-orlando-tickets-2-10-2027/event/107667788 | - |
-| tm-andrea-bocelli-2027-hollywood-vvg1vz_3nv0vjm | Andrea Bocelli | none | 107668031 | https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-12-2027/event/107668031 | - |
-| tm-andrea-bocelli-2027-hollywood-vvg1vz_3ervkx7 | Andrea Bocelli | none | 107668032 | https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-13-2027/event/107668032 | - |
+| tm-andrea-bocelli-2027-charlotte-g5evz_8mutuyo | Andrea Bocelli | refresh (applied) | 107670725 | https://www.stubhub.ie/andrea-bocelli-charlotte-tickets-1-29-2027/event/107670725 | - |
+| tm-andrea-bocelli-2027-baltimore-1a4zkffgkepsf12 | Andrea Bocelli | refresh (applied) | 107670724 | https://www.stubhub.ie/andrea-bocelli-baltimore-tickets-1-31-2027/event/107670724 | - |
+| tm-andrea-bocelli-2027-atlanta-vvg1zz_36bbobm | Andrea Bocelli | refresh (applied) | 107671371 | https://www.stubhub.ie/andrea-bocelli-atlanta-tickets-2-2-2027/event/107671371 | - |
+| tm-andrea-bocelli-2027-austin-g5diz_3kpl_-e | Andrea Bocelli | refresh (applied) | 107667778 | https://www.stubhub.ie/andrea-bocelli-austin-tickets-2-4-2027/event/107667778 | - |
+| tm-andrea-bocelli-2027-dallas-vvg1yz_33_tj3c | Andrea Bocelli | refresh (applied) | 107669463 | https://www.stubhub.ie/andrea-bocelli-dallas-tickets-2-5-2027/event/107669463 | - |
+| tm-andrea-bocelli-2027-houston-z7r9jz1aavs_v | Andrea Bocelli | refresh (applied) | 107670723 | https://www.stubhub.ie/andrea-bocelli-houston-tickets-2-7-2027/event/107670723 | - |
+| tm-andrea-bocelli-2027-orlando-1axzkfigkdrsgpw | Andrea Bocelli | refresh (applied) | 107667788 | https://www.stubhub.ie/andrea-bocelli-orlando-tickets-2-10-2027/event/107667788 | - |
+| tm-andrea-bocelli-2027-hollywood-vvg1vz_3nv0vjm | Andrea Bocelli | refresh (applied) | 107668031 | https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-12-2027/event/107668031 | - |
+| tm-andrea-bocelli-2027-hollywood-vvg1vz_3ervkx7 | Andrea Bocelli | refresh (applied) | 107668032 | https://www.stubhub.ie/andrea-bocelli-hollywood-tickets-2-13-2027/event/107668032 | - |
 | tm-tobymac-2027-fairfax-1a4zkf_gkd7dmjf | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-fairfax-1a4zkf_gkdgvwvn | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tobymac-2027-san-antonio-g5diz_olf8jri | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
@@ -787,14 +779,14 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-trans-siberian-orchestra-2026-green-bay-z7r9jz1aavxjs | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trans-siberian-orchestra-2026-council-bluffs-vv17bz_8gkr7r5-j | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trans-siberian-orchestra-2026-cincinnati-1apzkffgkdggxqt | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107666303 @ no start time ("Trans-Siberian Orchestra Denver"), 107667932 @ no start time ("Trans-Siberian Orchestra Denver") |
+| tm-trans-siberian-orchestra-2026-denver-g5vzz_o66yljp | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107667932 @ no start time ("Trans-Siberian Orchestra Denver"), 107666303 @ no start time ("Trans-Siberian Orchestra Denver") |
 | tm-trans-siberian-orchestra-2026-youngstown-vv1aazkfagkd2zwpt | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trans-siberian-orchestra-2026-salt-lake-city-z7r9jz1aavpc_ | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107666306 @ no start time ("Trans-Siberian Orchestra Salt Lake City"), 107667919 @ no start time ("Trans-Siberian Orchestra Salt Lake City") |
 | tm-trans-siberian-orchestra-2026-wilkes-barre-vv17fz_8gku2vdcc | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-trans-siberian-orchestra-2026-manchester-vv1avzkffgkecconl | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trans-siberian-orchestra-2026-boise-g5vzz_8l3-m4c | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trans-siberian-orchestra-2026-worcester-vv1avzkf7gkd6__c- | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107667926 @ no start time ("Trans-Siberian Orchestra Portland"), 107666312 @ no start time ("Trans-Siberian Orchestra Portland") |
+| tm-trans-siberian-orchestra-2026-portland-vvg1hz_8rkn5r8 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107666312 @ no start time ("Trans-Siberian Orchestra Portland"), 107667926 @ no start time ("Trans-Siberian Orchestra Portland") |
 | tm-trans-siberian-orchestra-2026-uncasville-g5vvz_8ebyjdo | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-trans-siberian-orchestra-2026-seattle-vvg1hz_8bxdfpp | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107667743 @ no start time ("Trans-Siberian Orchestra Seattle"), 107667744 @ no start time ("Trans-Siberian Orchestra Seattle") |
 | tm-trans-siberian-orchestra-2026-sacramento-g5vyz_8hivhsq | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107667746 @ no start time ("Trans-Siberian Orchestra Sacramento"), 107667745 @ no start time ("Trans-Siberian Orchestra Sacramento") |
@@ -807,21 +799,21 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-trans-siberian-orchestra-2026-grand-rapids-vv17oz_8gksfqipn | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-trans-siberian-orchestra-2026-phoenix-1av0z_8gks2uk5t | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107666315 @ no start time ("Trans-Siberian Orchestra Phoenix"), 107667922 @ no start time ("Trans-Siberian Orchestra Phoenix") |
 | tm-trans-siberian-orchestra-2026-allentown-17gzv0g62dv8e6s | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-trans-siberian-orchestra-2026-austin-g5diz_od7g9c0 | Trans-Siberian Orchestra | none | 107667756 | https://www.stubhub.ie/trans-siberian-orchestra-austin-tickets-12-9-2026/event/107667756 | - |
-| tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0 | Trans-Siberian Orchestra | none | 107667924 | https://www.stubhub.ie/trans-siberian-orchestra-raleigh-tickets-12-10-2026/event/107667924 | - |
+| tm-trans-siberian-orchestra-2026-austin-g5diz_od7g9c0 | Trans-Siberian Orchestra | refresh (applied) | 107667756 | https://www.stubhub.ie/trans-siberian-orchestra-austin-tickets-12-9-2026/event/107667756 | - |
+| tm-trans-siberian-orchestra-2026-raleigh-g5evz_2wee5m0 | Trans-Siberian Orchestra | refresh (applied) | 107667924 | https://www.stubhub.ie/trans-siberian-orchestra-raleigh-tickets-12-10-2026/event/107667924 | - |
 | tm-trans-siberian-orchestra-2026-bossier-city-g5viz_8b0hcmp | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-trans-siberian-orchestra-2026-greenville-g5evz_o2s2bkg | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107666309 @ no start time ("Trans-Siberian Orchestra Houston"), 107667917 @ no start time ("Trans-Siberian Orchestra Houston") |
+| tm-trans-siberian-orchestra-2026-houston-z7r9jz1aavnas | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107667917 @ no start time ("Trans-Siberian Orchestra Houston"), 107666309 @ no start time ("Trans-Siberian Orchestra Houston") |
 | tm-trans-siberian-orchestra-2026-charlotte-g5evz_o6l3kkc | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107667934 @ no start time ("Trans-Siberian Orchestra Charlotte"), 107667916 @ no start time ("Trans-Siberian Orchestra Charlotte") |
 | tm-trans-siberian-orchestra-2026-san-antonio-g5diz_8q4vky5 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107666088 @ no start time ("Trans-Siberian Orchestra San Antonio"), 107666089 @ no start time ("Trans-Siberian Orchestra San Antonio") |
 | tm-trans-siberian-orchestra-2026-duluth-vvg1zz_8rk7fyq | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107667918 @ no start time ("Trans-Siberian Orchestra Dallas"), 107666301 @ no start time ("Trans-Siberian Orchestra Dallas") |
+| tm-trans-siberian-orchestra-2026-dallas-vvg1yz_8bgba0q | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107666301 @ no start time ("Trans-Siberian Orchestra Dallas"), 107667918 @ no start time ("Trans-Siberian Orchestra Dallas") |
 | tm-trans-siberian-orchestra-2026-charlottesville-vv177z_ogksqlpte | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-trans-siberian-orchestra-2026-birmingham-1aezz_ockcvzdcau | Trans-Siberian Orchestra | none | 107667920 | https://www.stubhub.ie/trans-siberian-orchestra-north-birmingham-tickets-12-16-2026/event/107667920 | - |
+| tm-trans-siberian-orchestra-2026-birmingham-1aezz_ockcvzdcau | Trans-Siberian Orchestra | refresh (applied) | 107667920 | https://www.stubhub.ie/trans-siberian-orchestra-north-birmingham-tickets-12-16-2026/event/107667920 | - |
 | tm-trans-siberian-orchestra-2026-jacksonville-1aefz_ogkwzigon | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trans-siberian-orchestra-2026-albany-k7vgf_8uqsipg | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trans-siberian-orchestra-2026-hershey-vv1aovpkfgau5bfb | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-trans-siberian-orchestra-2026-sunrise-z7r9jz1aavnag | Trans-Siberian Orchestra | none | 107666302 | https://www.stubhub.ie/trans-siberian-orchestra-sunrise-tickets-12-18-2026/event/107666302 | - |
+| tm-trans-siberian-orchestra-2026-sunrise-z7r9jz1aavnag | Trans-Siberian Orchestra | refresh (applied) | 107666302 | https://www.stubhub.ie/trans-siberian-orchestra-sunrise-tickets-12-18-2026/event/107666302 | - |
 | tm-trans-siberian-orchestra-2026-orlando-1aefz_8gkmasnhq | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107666093 @ no start time ("Trans-Siberian Orchestra Orlando"), 107667761 @ no start time ("Trans-Siberian Orchestra Orlando") |
 | tm-trans-siberian-orchestra-2026-pittsburgh-1apzkfdgkej_ji6 | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107667925 @ no start time ("Trans-Siberian Orchestra Pittsburgh"), 107667921 @ no start time ("Trans-Siberian Orchestra Pittsburgh") |
 | tm-trans-siberian-orchestra-2026-philadelphia-1adzz_8gkbpbarl | Trans-Siberian Orchestra | conflict | - | - | ambiguous: missing or conflicting performance start evidence; candidates: 107666096 @ no start time ("Trans-Siberian Orchestra Philadelphia"), 107666097 @ no start time ("Trans-Siberian Orchestra Philadelphia") |
@@ -837,25 +829,25 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-death-cab-for-cutie-2026-brisbane-1akzk3fgkd_ud6g | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2026-chicago-vvg18z_cej4l_d | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-austin-z7r9jz1aavtfx | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-alan-walker-2027-irving-vvg1yz_3nb2d-j | Alan Walker | none | 107668184 | https://www.stubhub.ie/alan-walker-irving-tickets-1-22-2027/event/107668184 | - |
-| tm-alan-walker-2027-houston-g5diz_3no4w3_ | Alan Walker | none | 107668029 | https://www.stubhub.ie/alan-walker-houston-tickets-1-23-2027/event/107668029 | - |
+| tm-alan-walker-2027-irving-vvg1yz_3nb2d-j | Alan Walker | refresh (applied) | 107668184 | https://www.stubhub.ie/alan-walker-irving-tickets-1-22-2027/event/107668184 | - |
+| tm-alan-walker-2027-houston-g5diz_3no4w3_ | Alan Walker | refresh (applied) | 107668029 | https://www.stubhub.ie/alan-walker-houston-tickets-1-23-2027/event/107668029 | - |
 | tm-alan-walker-2027-saint-louis-1a-zkf0gkdapg7j | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-nashville-z7r9jz1aavt47 | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-raleigh-g5evz_31nnqnu | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-charleston-g5evz_3nuc_ky | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-alan-walker-2027-washington-1a4zkftgkdat1lk | Alan Walker | none | 107668183 | https://www.stubhub.ie/alan-walker-washington-tickets-2-6-2027/event/107668183 | - |
-| tm-alan-walker-2027-philadelphia-vv1aezkfxgkdmhfsx | Alan Walker | none | 107668178 | https://www.stubhub.ie/alan-walker-philadelphia-tickets-2-9-2027/event/107668178 | - |
-| tm-alan-walker-2027-boston-vv1a8vpfzgauaajv | Alan Walker | none | 107668152 | https://www.stubhub.ie/alan-walker-boston-tickets-2-10-2027/event/107668152 | - |
+| tm-alan-walker-2027-washington-1a4zkftgkdat1lk | Alan Walker | refresh (applied) | 107668183 | https://www.stubhub.ie/alan-walker-washington-tickets-2-6-2027/event/107668183 | - |
+| tm-alan-walker-2027-philadelphia-vv1aezkfxgkdmhfsx | Alan Walker | refresh (applied) | 107668178 | https://www.stubhub.ie/alan-walker-philadelphia-tickets-2-9-2027/event/107668178 | - |
+| tm-alan-walker-2027-boston-vv1a8vpfzgauaajv | Alan Walker | refresh (applied) | 107668152 | https://www.stubhub.ie/alan-walker-boston-tickets-2-10-2027/event/107668152 | - |
 | tm-alan-walker-2027-new-york-z7r9jz1aavt4a | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-new-york-z7r9jz1aavt4k | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-alan-walker-2027-montreal-1aszkfngkelr9-v | Alan Walker | none | 107668165 | https://www.stubhub.ie/alan-walker-tickets-montreal-mtelus-2-16-2027/event/107668165 | - |
+| tm-alan-walker-2027-montreal-1aszkfngkelr9-v | Alan Walker | refresh (applied) | 107668165 | https://www.stubhub.ie/alan-walker-tickets-montreal-mtelus-2-16-2027/event/107668165 | - |
 | tm-alan-walker-2027-toronto-1avzz_3gkilb6g_ | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-toronto-1avzz_3gkilbmgn | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-ottawa-16d7z_3qeg7dn9t | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-pittsburgh-z7r9jz1aavt46 | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-columbus-z7r9jz1aavt4f | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-indianapolis-vv1aazkfegkewtmln | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-alan-walker-2027-chicago-vv1k8z_3gyg7zohx | Alan Walker | none | 107668175 | https://www.stubhub.ie/alan-walker-chicago-tickets-2-26-2027/event/107668175 | - |
+| tm-alan-walker-2027-chicago-vv1k8z_3gyg7zohx | Alan Walker | refresh (applied) | 107668175 | https://www.stubhub.ie/alan-walker-chicago-tickets-2-26-2027/event/107668175 | - |
 | tm-alan-walker-2027-seattle-z7r9jz1aavt4a | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-portland-z7r9jz1aavt48 | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-alan-walker-2027-los-angeles-vvg1iz_3n0r6vh | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
@@ -873,105 +865,105 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-psychedelic-furs-2027-huntington-k7vgf_3n_asme | The Psychedelic Furs | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-psychedelic-furs-2027-northfield-vv17fz_ogkhgkwao | The Psychedelic Furs | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-eros-ramazzotti-2027-new-york-g5dyz_ou7is1y | Eros Ramazzotti | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-warning-2027-madrid-z698xz2qz1k_074bf | The Warning | none | 107668442 | https://www.stubhub.ie/the-warning-tickets-madrid-palacio-vistalegre-9-3-2027/event/107668442 | - |
-| tm-the-warning-2027-barcelona-z698xz2qz16vgvavjf | The Warning | none | 107668069 | https://www.stubhub.ie/the-warning-tickets-barcelona-sant-jordi-club-10-3-2027/event/107668069 | - |
-| tm-the-warning-2027-birmingham-g5dzz_3jthdkp | The Warning | none | 107668114 | https://www.stubhub.ie/the-warning-tickets-birmingham-o2-academy-birmingham-29-3-2027/event/107668114 | - |
-| tm-the-warning-2027-glasgow-g5dzz_3cmwwj3 | The Warning | none | 107668115 | https://www.stubhub.ie/the-warning-tickets-glasgow-o2-academy-glasgow-30-3-2027/event/107668115 | - |
+| tm-the-warning-2027-madrid-z698xz2qz1k_074bf | The Warning | refresh (applied) | 107668442 | https://www.stubhub.ie/the-warning-tickets-madrid-palacio-vistalegre-9-3-2027/event/107668442 | - |
+| tm-the-warning-2027-barcelona-z698xz2qz16vgvavjf | The Warning | refresh (applied) | 107668069 | https://www.stubhub.ie/the-warning-tickets-barcelona-sant-jordi-club-10-3-2027/event/107668069 | - |
+| tm-the-warning-2027-birmingham-g5dzz_3jthdkp | The Warning | refresh (applied) | 107668114 | https://www.stubhub.ie/the-warning-tickets-birmingham-o2-academy-birmingham-29-3-2027/event/107668114 | - |
+| tm-the-warning-2027-glasgow-g5dzz_3cmwwj3 | The Warning | refresh (applied) | 107668115 | https://www.stubhub.ie/the-warning-tickets-glasgow-o2-academy-glasgow-30-3-2027/event/107668115 | - |
 | tm-the-warning-2027-manchester-g5dzz_3jr_df6 | The Warning | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-the-warning-2027-phoenix-1av0z_3gkl3jytk | The Warning | none | 107668181 | https://www.stubhub.ie/the-warning-phoenix-tickets-4-18-2027/event/107668181 | - |
+| tm-the-warning-2027-phoenix-1av0z_3gkl3jytk | The Warning | refresh (applied) | 107668181 | https://www.stubhub.ie/the-warning-phoenix-tickets-4-18-2027/event/107668181 | - |
 | tm-the-warning-2027-san-francisco-z7r9jz1aavtgn | The Warning | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-warning-2027-portland-z7r9jz1aavtg0 | The Warning | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-warning-2027-seattle-vvg1hz_3rqncw_ | The Warning | none | 107668671 | https://www.stubhub.ie/the-warning-seattle-tickets-4-23-2027/event/107668671 | - |
-| tm-the-warning-2027-vancouver-z7r9jz1aavjo7 | The Warning | none | 107668672 | https://www.stubhub.ie/the-warning-tickets-vancouver-vogue-theatre-vancouver-4-25-2027/event/107668672 | - |
-| tm-the-warning-2027-denver-g5vzz_3mnvfjd | The Warning | none | 107668159 | https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159 | - |
+| tm-the-warning-2027-seattle-vvg1hz_3rqncw_ | The Warning | refresh (applied) | 107668671 | https://www.stubhub.ie/the-warning-seattle-tickets-4-23-2027/event/107668671 | - |
+| tm-the-warning-2027-vancouver-z7r9jz1aavjo7 | The Warning | refresh (applied) | 107668672 | https://www.stubhub.ie/the-warning-tickets-vancouver-vogue-theatre-vancouver-4-25-2027/event/107668672 | - |
+| tm-the-warning-2027-denver-g5vzz_3mnvfjd | The Warning | refresh (applied) | 107668159 | https://www.stubhub.ie/the-warning-denver-tickets-4-28-2027/event/107668159 | - |
 | tm-the-warning-2027-oklahoma-city-z7r9jz1aavtgp | The Warning | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-warning-2027-houston-g5diz_30oeism | The Warning | none | 107668162 | https://www.stubhub.ie/the-warning-houston-tickets-5-2-2027/event/107668162 | - |
+| tm-the-warning-2027-houston-g5diz_30oeism | The Warning | refresh (applied) | 107668162 | https://www.stubhub.ie/the-warning-houston-tickets-5-2-2027/event/107668162 | - |
 | tm-the-warning-2027-atlanta-z7r9jz1aavtgj | The Warning | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-warning-2027-detroit-vv17oz_3gklkji_k | The Warning | none | 107668673 | https://www.stubhub.ie/the-warning-detroit-tickets-5-6-2027/event/107668673 | - |
+| tm-the-warning-2027-detroit-vv17oz_3gklkji_k | The Warning | refresh (applied) | 107668673 | https://www.stubhub.ie/the-warning-detroit-tickets-5-6-2027/event/107668673 | - |
 | tm-the-warning-2027-ottawa-1ad7z_3gklmhbs8 | The Warning | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-warning-2027-montreal-1ad7z_3gknfhkqk | The Warning | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-warning-2027-toronto-1avzz_3gkltrh3z | The Warning | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-warning-2027-pittsburgh-1avbz_3gknh0_t1 | The Warning | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-warning-2027-brooklyn-k7vgf_3iu7xhd | The Warning | none | 107668061 | https://www.stubhub.ie/the-warning-brooklyn-tickets-5-18-2027/event/107668061 | - |
-| tm-the-warning-2027-boston-vv177z_3gklqgssu | The Warning | none | 107668674 | https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674 | - |
-| tm-metallica-2027-vancouver-1av7z_3gkd3wcu8 | Metallica | none | 107668657 | https://www.stubhub.ie/metallica-tickets-vancouver-bc-place-stadium-5-8-2027/event/107668657 | - |
-| tm-metallica-2027-san-diego-vvg1iz_3rsxtwd | Metallica | none | 107669480 | https://www.stubhub.ie/metallica-san-diego-tickets-5-13-2027/event/107669480 | - |
-| tm-metallica-2027-el-paso-vvg1yz_3zjrn4d | Metallica | none | 107669513 | https://www.stubhub.ie/metallica-el-paso-tickets-5-18-2027/event/107669513 | - |
-| tm-metallica-2027-san-antonio-g5diz_3mpis-k | Metallica | none | 107669512 | https://www.stubhub.ie/metallica-san-antonio-tickets-5-22-2027/event/107669512 | - |
+| tm-the-warning-2027-brooklyn-k7vgf_3iu7xhd | The Warning | refresh (applied) | 107668061 | https://www.stubhub.ie/the-warning-brooklyn-tickets-5-18-2027/event/107668061 | - |
+| tm-the-warning-2027-boston-vv177z_3gklqgssu | The Warning | refresh (applied) | 107668674 | https://www.stubhub.ie/the-warning-boston-tickets-5-23-2027/event/107668674 | - |
+| tm-metallica-2027-vancouver-1av7z_3gkd3wcu8 | Metallica | refresh (applied) | 107668657 | https://www.stubhub.ie/metallica-tickets-vancouver-bc-place-stadium-5-8-2027/event/107668657 | - |
+| tm-metallica-2027-san-diego-vvg1iz_3rsxtwd | Metallica | refresh (applied) | 107669480 | https://www.stubhub.ie/metallica-san-diego-tickets-5-13-2027/event/107669480 | - |
+| tm-metallica-2027-el-paso-vvg1yz_3zjrn4d | Metallica | refresh (applied) | 107669513 | https://www.stubhub.ie/metallica-el-paso-tickets-5-18-2027/event/107669513 | - |
+| tm-metallica-2027-san-antonio-g5diz_3mpis-k | Metallica | refresh (applied) | 107669512 | https://www.stubhub.ie/metallica-san-antonio-tickets-5-22-2027/event/107669512 | - |
 | tm-metallica-2027-fayetteville-g5viz_om30atl | Metallica | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-metallica-2027-kansas-city-vv17bz_3gkwemfok | Metallica | none | 107668967 | https://www.stubhub.ie/metallica-kansas-city-tickets-5-29-2027/event/107668967 | - |
-| tm-metallica-2027-indianapolis-vv17fz_3gktr8lni | Metallica | none | 107668970 | https://www.stubhub.ie/metallica-indianapolis-tickets-6-5-2027/event/107668970 | - |
-| tm-metallica-2027-orchard-park-vv17gz_3gktmreup | Metallica | none | 107668971 | https://www.stubhub.ie/metallica-orchard-park-tickets-6-8-2027/event/107668971 | - |
-| tm-metallica-2027-cleveland-vv17fz_3gkdywngg | Metallica | none | 107668973 | https://www.stubhub.ie/metallica-cleveland-tickets-6-15-2027/event/107668973 | - |
-| tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9 | Metallica | none | 107668972 | https://www.stubhub.ie/metallica-salt-lake-city-tickets-6-19-2027/event/107668972 | - |
+| tm-metallica-2027-kansas-city-vv17bz_3gkwemfok | Metallica | refresh (applied) | 107668967 | https://www.stubhub.ie/metallica-kansas-city-tickets-5-29-2027/event/107668967 | - |
+| tm-metallica-2027-indianapolis-vv17fz_3gktr8lni | Metallica | refresh (applied) | 107668970 | https://www.stubhub.ie/metallica-indianapolis-tickets-6-5-2027/event/107668970 | - |
+| tm-metallica-2027-orchard-park-vv17gz_3gktmreup | Metallica | refresh (applied) | 107668971 | https://www.stubhub.ie/metallica-orchard-park-tickets-6-8-2027/event/107668971 | - |
+| tm-metallica-2027-cleveland-vv17fz_3gkdywngg | Metallica | refresh (applied) | 107668973 | https://www.stubhub.ie/metallica-cleveland-tickets-6-15-2027/event/107668973 | - |
+| tm-metallica-2027-salt-lake-city-g5vzz_3hepr-9 | Metallica | refresh (applied) | 107668972 | https://www.stubhub.ie/metallica-salt-lake-city-tickets-6-19-2027/event/107668972 | - |
 | tm-teddy-swims-2027-dublin-17kzv0g6260hbxf | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-teddy-swims-2027-london-17u8v0g623nj3ov | Teddy Swims | none | 107669573 | https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573 | - |
+| tm-teddy-swims-2027-london-17u8v0g623nj3ov | Teddy Swims | refresh (applied) | 107669573 | https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573 | - |
 | tm-michelle-branch-2027-tulsa-z7r9jz1aazuoa | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-yuridia-2027-rosemont-vv1a7zkf0gkeskm_x | Yuridia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2027-charlottesville-z7r9jz1aav-zj | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-oasis-2027-munich-z698xzc2z16vca8yqu | Oasis | none | 107667899 | https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-2-7-2027/event/107667899 | - |
-| tm-oasis-2027-munich-z698xzc2z16ezoffov | Oasis | none | 107667900 | https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-3-7-2027/event/107667900 | - |
-| tm-oasis-2027-munich-z698xzc2z16v7f7_4g | Oasis | none | 107669977 | https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-6-7-2027/event/107669977 | - |
+| tm-oasis-2027-munich-z698xzc2z16vca8yqu | Oasis | refresh (applied) | 107667899 | https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-2-7-2027/event/107667899 | - |
+| tm-oasis-2027-munich-z698xzc2z16ezoffov | Oasis | refresh (applied) | 107667900 | https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-3-7-2027/event/107667900 | - |
+| tm-oasis-2027-munich-z698xzc2z16v7f7_4g | Oasis | refresh (applied) | 107669977 | https://www.stubhub.ie/oasis-tickets-munich-allianz-arena-6-7-2027/event/107669977 | - |
 | tm-hans-zimmer-2027-belmont-park-1adzz_3gkmrvuzw | Hans Zimmer | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-hans-zimmer-2027-newark-vv1aezkfygkepjhre | Hans Zimmer | none | 107669465 | https://www.stubhub.ie/hans-zimmer-newark-tickets-2-21-2027/event/107669465 | - |
-| tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy | Hans Zimmer | none | 107669466 | https://www.stubhub.ie/hans-zimmer-philadelphia-tickets-2-23-2027/event/107669466 | - |
-| tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr | Hans Zimmer | none | 107668647 | https://www.stubhub.ie/hans-zimmer-boston-tickets-2-24-2027/event/107668647 | - |
+| tm-hans-zimmer-2027-newark-vv1aezkfygkepjhre | Hans Zimmer | refresh (applied) | 107669465 | https://www.stubhub.ie/hans-zimmer-newark-tickets-2-21-2027/event/107669465 | - |
+| tm-hans-zimmer-2027-philadelphia-1kgzvpgaga1lecy | Hans Zimmer | refresh (applied) | 107669466 | https://www.stubhub.ie/hans-zimmer-philadelphia-tickets-2-23-2027/event/107669466 | - |
+| tm-hans-zimmer-2027-boston-vv1avzkftgkdjvzxr | Hans Zimmer | refresh (applied) | 107668647 | https://www.stubhub.ie/hans-zimmer-boston-tickets-2-24-2027/event/107668647 | - |
 | tm-hans-zimmer-2027-kanata-1aszkf0gkdalm2x | Hans Zimmer | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hans-zimmer-2027-quebec-1fg8vp17a7z7uce8 | Hans Zimmer | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj | Hans Zimmer | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hans-zimmer-2027-detroit-vv17oz_3gky-owzw | Hans Zimmer | none | 107669517 | https://www.stubhub.ie/hans-zimmer-detroit-tickets-3-3-2027/event/107669517 | - |
-| tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g | Hans Zimmer | none | 107669467 | https://www.stubhub.ie/hans-zimmer-chicago-tickets-3-5-2027/event/107669467 | - |
-| tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1 | Hans Zimmer | none | 107669524 | https://www.stubhub.ie/hans-zimmer-cincinnati-tickets-3-7-2027/event/107669524 | - |
-| tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3 | Hans Zimmer | none | 107669525 | https://www.stubhub.ie/hans-zimmer-charlotte-tickets-3-9-2027/event/107669525 | - |
-| tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx | Hans Zimmer | none | 107669468 | https://www.stubhub.ie/hans-zimmer-orlando-tickets-3-11-2027/event/107669468 | - |
-| tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8 | Hans Zimmer | none | 107668651 | https://www.stubhub.ie/hans-zimmer-miami-tickets-3-13-2027/event/107668651 | - |
-| tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj | Hans Zimmer | none | 107669539 | https://www.stubhub.ie/hans-zimmer-tampa-tickets-3-14-2027/event/107669539 | - |
-| tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc | Hans Zimmer | none | 107669533 | https://www.stubhub.ie/hans-zimmer-atlanta-tickets-3-16-2027/event/107669533 | - |
-| tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc | Hans Zimmer | none | 107668746 | https://www.stubhub.ie/hans-zimmer-nashville-tickets-3-17-2027/event/107668746 | - |
-| tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt | Hans Zimmer | none | 107669471 | https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471 | - |
-| tm-hans-zimmer-2027-denver-g5vzz_keile5w | Hans Zimmer | none | 107669532 | https://www.stubhub.ie/hans-zimmer-denver-tickets-3-25-2027/event/107669532 | - |
-| tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb | Hans Zimmer | none | 107669528 | https://www.stubhub.ie/hans-zimmer-phoenix-tickets-3-30-2027/event/107669528 | - |
-| tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn | Hans Zimmer | none | 107668652 | https://www.stubhub.ie/hans-zimmer-anaheim-tickets-4-2-2027/event/107668652 | - |
-| tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk | Hans Zimmer | none | 107669477 | https://www.stubhub.ie/hans-zimmer-san-francisco-tickets-4-4-2027/event/107669477 | - |
-| tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc | Hans Zimmer | none | 107669478 | https://www.stubhub.ie/hans-zimmer-sacramento-tickets-4-5-2027/event/107669478 | - |
-| tm-hans-zimmer-2027-vancouver-1av7z_3gkxmnqqq | Hans Zimmer | none | 107669530 | https://www.stubhub.ie/hans-zimmer-vancouver-tickets-rogers-arena-4-8-2027/event/107669530 | - |
-| tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl | Hans Zimmer | none | 107669479 | https://www.stubhub.ie/hans-zimmer-seattle-tickets-4-9-2027/event/107669479 | - |
-| tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv | Hans Zimmer | none | 107668737 | https://www.stubhub.ie/hans-zimmer-portland-tickets-4-11-2027/event/107668737 | - |
-| tm-kenny-chesney-2027-tampa-vvg1vz_3xhd4sr | Kenny Chesney | none | 107668525 | https://www.stubhub.ie/kenny-chesney-tampa-tickets-4-24-2027/event/107668525 | - |
+| tm-hans-zimmer-2027-detroit-vv17oz_3gky-owzw | Hans Zimmer | refresh (applied) | 107669517 | https://www.stubhub.ie/hans-zimmer-detroit-tickets-3-3-2027/event/107669517 | - |
+| tm-hans-zimmer-2027-chicago-vv178z_3gkta7u7g | Hans Zimmer | refresh (applied) | 107669467 | https://www.stubhub.ie/hans-zimmer-chicago-tickets-3-5-2027/event/107669467 | - |
+| tm-hans-zimmer-2027-cincinnati-1avbz_3gkbx_fb1 | Hans Zimmer | refresh (applied) | 107669524 | https://www.stubhub.ie/hans-zimmer-cincinnati-tickets-3-7-2027/event/107669524 | - |
+| tm-hans-zimmer-2027-charlotte-g5evz_3h3lwh3 | Hans Zimmer | refresh (applied) | 107669525 | https://www.stubhub.ie/hans-zimmer-charlotte-tickets-3-9-2027/event/107669525 | - |
+| tm-hans-zimmer-2027-orlando-1axzkfygkexmgrx | Hans Zimmer | refresh (applied) | 107669468 | https://www.stubhub.ie/hans-zimmer-orlando-tickets-3-11-2027/event/107669468 | - |
+| tm-hans-zimmer-2027-miami-vvg1vz_3gotwd8 | Hans Zimmer | refresh (applied) | 107668651 | https://www.stubhub.ie/hans-zimmer-miami-tickets-3-13-2027/event/107668651 | - |
+| tm-hans-zimmer-2027-tampa-vvg1vz_3xhwnhj | Hans Zimmer | refresh (applied) | 107669539 | https://www.stubhub.ie/hans-zimmer-tampa-tickets-3-14-2027/event/107669539 | - |
+| tm-hans-zimmer-2027-atlanta-vvg1zz_3ebknkc | Hans Zimmer | refresh (applied) | 107669533 | https://www.stubhub.ie/hans-zimmer-atlanta-tickets-3-16-2027/event/107669533 | - |
+| tm-hans-zimmer-2027-nashville-g5viz_3pzfvfc | Hans Zimmer | refresh (applied) | 107668746 | https://www.stubhub.ie/hans-zimmer-nashville-tickets-3-17-2027/event/107668746 | - |
+| tm-hans-zimmer-2027-fort-worth-vvg1yz_8uydbmt | Hans Zimmer | refresh (applied) | 107669471 | https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471 | - |
+| tm-hans-zimmer-2027-denver-g5vzz_keile5w | Hans Zimmer | refresh (applied) | 107669532 | https://www.stubhub.ie/hans-zimmer-denver-tickets-3-25-2027/event/107669532 | - |
+| tm-hans-zimmer-2027-phoenix-1av0z_3gktywjdb | Hans Zimmer | refresh (applied) | 107669528 | https://www.stubhub.ie/hans-zimmer-phoenix-tickets-3-30-2027/event/107669528 | - |
+| tm-hans-zimmer-2027-anaheim-vv170z_3gkwtdbyn | Hans Zimmer | refresh (applied) | 107668652 | https://www.stubhub.ie/hans-zimmer-anaheim-tickets-4-2-2027/event/107668652 | - |
+| tm-hans-zimmer-2027-san-francisco-g5vyz_32ucflk | Hans Zimmer | refresh (applied) | 107669477 | https://www.stubhub.ie/hans-zimmer-san-francisco-tickets-4-4-2027/event/107669477 | - |
+| tm-hans-zimmer-2027-sacramento-g5vyz_3nnpqvc | Hans Zimmer | refresh (applied) | 107669478 | https://www.stubhub.ie/hans-zimmer-sacramento-tickets-4-5-2027/event/107669478 | - |
+| tm-hans-zimmer-2027-vancouver-1av7z_3gkxmnqqq | Hans Zimmer | refresh (applied) | 107669530 | https://www.stubhub.ie/hans-zimmer-vancouver-tickets-rogers-arena-4-8-2027/event/107669530 | - |
+| tm-hans-zimmer-2027-seattle-vvg1hz_3exntsl | Hans Zimmer | refresh (applied) | 107669479 | https://www.stubhub.ie/hans-zimmer-seattle-tickets-4-9-2027/event/107669479 | - |
+| tm-hans-zimmer-2027-portland-vvg1hz_3zbqmzv | Hans Zimmer | refresh (applied) | 107668737 | https://www.stubhub.ie/hans-zimmer-portland-tickets-4-11-2027/event/107668737 | - |
+| tm-kenny-chesney-2027-tampa-vvg1vz_3xhd4sr | Kenny Chesney | refresh (applied) | 107668525 | https://www.stubhub.ie/kenny-chesney-tampa-tickets-4-24-2027/event/107668525 | - |
 | tm-kenny-chesney-2027-greenville-z7r9jz1aavsad | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kenny-chesney-2027-arlington-z7r9jz1aavsa7 | Kenny Chesney | none | 107668526 | https://www.stubhub.ie/kenny-chesney-arlington-tickets-5-8-2027/event/107668526 | - |
+| tm-kenny-chesney-2027-arlington-z7r9jz1aavsa7 | Kenny Chesney | refresh (applied) | 107668526 | https://www.stubhub.ie/kenny-chesney-arlington-tickets-5-8-2027/event/107668526 | - |
 | tm-kenny-chesney-2027-saint-louis-vv1kvovpfigaupvvy | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kenny-chesney-2027-minneapolis-vv1akzkf0gkdyrnq8 | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kenny-chesney-2027-pittsburgh-1apzkfxgkdbuj3l | Kenny Chesney | none | 107668125 | https://www.stubhub.ie/kenny-chesney-pittsburgh-tickets-5-29-2027/event/107668125 | - |
+| tm-kenny-chesney-2027-pittsburgh-1apzkfxgkdbuj3l | Kenny Chesney | refresh (applied) | 107668125 | https://www.stubhub.ie/kenny-chesney-pittsburgh-tickets-5-29-2027/event/107668125 | - |
 | tm-kenny-chesney-2027-ames-vv1kbz_3x6g7cusy | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kenny-chesney-2027-philadelphia-vv1aezkfigkdubjp8 | Kenny Chesney | none | 107668529 | https://www.stubhub.ie/kenny-chesney-philadelphia-tickets-6-12-2027/event/107668529 | - |
+| tm-kenny-chesney-2027-philadelphia-vv1aezkfigkdubjp8 | Kenny Chesney | refresh (applied) | 107668529 | https://www.stubhub.ie/kenny-chesney-philadelphia-tickets-6-12-2027/event/107668529 | - |
 | tm-kenny-chesney-2027-orchard-park-vv1adzkfngkd3refj | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kenny-chesney-2027-chicago-vv1f8z_3ao7xzd2g1 | Kenny Chesney | none | 107668530 | https://www.stubhub.ie/kenny-chesney-chicago-tickets-6-26-2027/event/107668530 | - |
+| tm-kenny-chesney-2027-chicago-vv1f8z_3ao7xzd2g1 | Kenny Chesney | refresh (applied) | 107668530 | https://www.stubhub.ie/kenny-chesney-chicago-tickets-6-26-2027/event/107668530 | - |
 | tm-kenny-chesney-2027-nashville-z7r9jz1aavsaa | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kenny-chesney-2027-milwaukee-vv1a6zkftgkdfvyq7 | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kenny-chesney-2027-denver-g5vzz_3k6u08y | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kenny-chesney-2027-kansas-city-vv1akzkfxgkdkijos | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kenny-chesney-2027-atlanta-vvg1zz_3x03by9 | Kenny Chesney | none | 107668714 | https://www.stubhub.ie/kenny-chesney-atlanta-tickets-7-31-2027/event/107668714 | - |
-| tm-kenny-chesney-2027-east-rutherford-k7vgf_3cwtd0z | Kenny Chesney | none | 107668126 | https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-8-7-2027/event/107668126 | - |
+| tm-kenny-chesney-2027-atlanta-vvg1zz_3x03by9 | Kenny Chesney | refresh (applied) | 107668714 | https://www.stubhub.ie/kenny-chesney-atlanta-tickets-7-31-2027/event/107668714 | - |
+| tm-kenny-chesney-2027-east-rutherford-k7vgf_3cwtd0z | Kenny Chesney | refresh (applied) | 107668126 | https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-8-7-2027/event/107668126 | - |
 | tm-kenny-chesney-2027-detroit-vv17oz_8gkmnwpji | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kenny-chesney-2027-charlotte-g5evz_3c19bfo | Kenny Chesney | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kenny-chesney-2027-foxborough-vv177z_3gkt1lkmv | Kenny Chesney | none | 107672442 | https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442 | - |
-| tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo | Kenny Chesney | none | 107668127 | https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-28-2027/event/107668127 | - |
+| tm-kenny-chesney-2027-foxborough-vv177z_3gkt1lkmv | Kenny Chesney | refresh (applied) | 107672442 | https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442 | - |
+| tm-kenny-chesney-2027-foxborough-vv1avzkfxgkdu8gfo | Kenny Chesney | refresh (applied) | 107668127 | https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-28-2027/event/107668127 | - |
 | tm-death-cab-for-cutie-2027-honolulu-vvg1iz_3dqr_0d | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-nashville-g5viz_3bvgq-a | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-death-cab-for-cutie-2027-knoxville-g5viz_3xoa9li | Death Cab for Cutie | none | 107669558 | https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558 | - |
-| tm-death-cab-for-cutie-2027-miami-beach-vvg1vz_3ltyqny | Death Cab for Cutie | none | 107669542 | https://www.stubhub.ie/death-cab-for-cutie-miami-beach-tickets-3-18-2027/event/107669542 | - |
-| tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe | Death Cab for Cutie | none | 107669541 | https://www.stubhub.ie/death-cab-for-cutie-orlando-tickets-3-20-2027/event/107669541 | - |
-| tm-death-cab-for-cutie-2027-houston-g5diz_3dogrf9 | Death Cab for Cutie | none | 107669472 | https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472 | - |
+| tm-death-cab-for-cutie-2027-knoxville-g5viz_3xoa9li | Death Cab for Cutie | refresh (applied) | 107669558 | https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558 | - |
+| tm-death-cab-for-cutie-2027-miami-beach-vvg1vz_3ltyqny | Death Cab for Cutie | refresh (applied) | 107669542 | https://www.stubhub.ie/death-cab-for-cutie-miami-beach-tickets-3-18-2027/event/107669542 | - |
+| tm-death-cab-for-cutie-2027-orlando-1aefz_3gkr16pfe | Death Cab for Cutie | refresh (applied) | 107669541 | https://www.stubhub.ie/death-cab-for-cutie-orlando-tickets-3-20-2027/event/107669541 | - |
+| tm-death-cab-for-cutie-2027-houston-g5diz_3dogrf9 | Death Cab for Cutie | refresh (applied) | 107669472 | https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472 | - |
 | tm-death-cab-for-cutie-2027-pittsburgh-1apzkfygkd_ubdt | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-niagara-falls-1avzz_3gkxslrqs | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-ottawa-1ad7z_3gkhxejxw | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-death-cab-for-cutie-2027-montreal-1ad7z_3gkrplg-n | Death Cab for Cutie | none | 107668756 | https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756 | - |
-| tm-death-cab-for-cutie-2027-boston-vv177z_3gklgkjcy | Death Cab for Cutie | none | 107668654 | https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654 | - |
-| tm-death-cab-for-cutie-2027-boston-vv177z_3gklgfg2c | Death Cab for Cutie | none | 107668655 | https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655 | - |
+| tm-death-cab-for-cutie-2027-montreal-1ad7z_3gkrplg-n | Death Cab for Cutie | refresh (applied) | 107668756 | https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756 | - |
+| tm-death-cab-for-cutie-2027-boston-vv177z_3gklgkjcy | Death Cab for Cutie | refresh (applied) | 107668654 | https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654 | - |
+| tm-death-cab-for-cutie-2027-boston-vv177z_3gklgfg2c | Death Cab for Cutie | refresh (applied) | 107668655 | https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655 | - |
 | tm-death-cab-for-cutie-2027-uncasville-g5vvz_3vqdtrt | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-portland-vv1k7z_ke_g7zcjz | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-death-cab-for-cutie-2027-new-york-g5dyz_kedn3qx | Death Cab for Cutie | none | 107668766 | https://www.stubhub.ie/death-cab-for-cutie-new-york-tickets-4-13-2027/event/107668766 | - |
+| tm-death-cab-for-cutie-2027-new-york-g5dyz_kedn3qx | Death Cab for Cutie | refresh (applied) | 107668766 | https://www.stubhub.ie/death-cab-for-cutie-new-york-tickets-4-13-2027/event/107668766 | - |
 | tm-death-cab-for-cutie-2027-asheville-g5evz_3io8wkm | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-psychedelic-furs-2027-ridgefield-z7r9jz1aavuq6 | The Psychedelic Furs | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-psychedelic-furs-2027-birmingham-g5dzz_kk-v07y | The Psychedelic Furs | none | - | - | no qualifying listing (complete catalog checked) |
@@ -987,149 +979,148 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-atmosphere-2027-kansas-city-vv11bz_k7z0sqj | Atmosphere | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-atmosphere-2027-joliet-vv17jz_3gknvxst7 | Atmosphere | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-atmosphere-2027-rockford-1ae7z_3gkl5agu0 | Atmosphere | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hilary-duff-2027-vancouver-1aozko7gkervl69 | Hilary Duff | none | 107107148 | https://www.stubhub.ie/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027/event/107107148 | - |
+| tm-hilary-duff-2027-vancouver-1aozko7gkervl69 | Hilary Duff | refresh (applied) | 107107148 | https://www.stubhub.ie/hilary-duff-tickets-vancouver-rogers-arena-1-22-2027/event/107107148 | - |
 | tm-hilary-duff-2027-vancouver-1av7z_7gkuh7fot | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hilary-duff-2027-calgary-1k78v0ojga2h3es | Hilary Duff | none | 107102455 | https://www.stubhub.ie/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027/event/107102455 | - |
-| tm-hilary-duff-2027-edmonton-1k78v0ooga1ytpq | Hilary Duff | none | 107102454 | https://www.stubhub.ie/hilary-duff-tickets-edmonton-rogers-place-1-27-2027/event/107102454 | - |
+| tm-hilary-duff-2027-calgary-1k78v0ojga2h3es | Hilary Duff | refresh (applied) | 107102455 | https://www.stubhub.ie/hilary-duff-tickets-calgary-scotiabank-saddledome-1-26-2027/event/107102455 | - |
+| tm-hilary-duff-2027-edmonton-1k78v0ooga1ytpq | Hilary Duff | refresh (applied) | 107102454 | https://www.stubhub.ie/hilary-duff-tickets-edmonton-rogers-place-1-27-2027/event/107102454 | - |
 | tm-hilary-duff-2027-saskatoon-1k78v0fmgaungny | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hilary-duff-2027-winnipeg-1av7z_7gknwgxan | Hilary Duff | none | 107098999 | https://www.stubhub.ie/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027/event/107098999 | - |
+| tm-hilary-duff-2027-winnipeg-1av7z_7gknwgxan | Hilary Duff | refresh (applied) | 107098999 | https://www.stubhub.ie/hilary-duff-tickets-winnipeg-canada-life-centre-1-30-2027/event/107098999 | - |
 | tm-hilary-duff-2027-hamilton-1avzz_7gkr2rr5b | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hilary-duff-2027-kanata-1aszkokgkdr1nwx | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hilary-duff-2027-montreal-1aszkoagkeug7uo | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-hilary-duff-2027-halifax-1ad7z_7gkm3f7fo | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hilary-duff-2027-madrid-z698xz2qz16vpo4y_t | Hilary Duff | none | 107668996 | https://www.stubhub.ie/hilary-duff-tickets-madrid-movistar-arena-palacio-de-los-deportes-7-5-2027/event/107668996 | - |
+| tm-hilary-duff-2027-madrid-z698xz2qz16vpo4y_t | Hilary Duff | refresh (applied) | 107668996 | https://www.stubhub.ie/hilary-duff-tickets-madrid-movistar-arena-palacio-de-los-deportes-7-5-2027/event/107668996 | - |
 | tm-hilary-duff-2027-milano-zg9rmiynyz776e | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hilary-duff-2027-forest-brussels-z698xzg2z1kqm7d-k | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-hilary-duff-2027-amsterdam-z698xzbpz1k3djpek | Hilary Duff | none | 107668998 | https://www.stubhub.ie/hilary-duff-tickets-amsterdam-ziggo-dome-17-5-2027/event/107668998 | - |
-| tm-hilary-duff-2027-orlando-1axzkfugkdwff3y | Hilary Duff | none | 107669005 | https://www.stubhub.ie/hilary-duff-orlando-tickets-10-2-2027/event/107669005 | - |
-| tm-hilary-duff-2027-raleigh-g5evz_kpqg6lj | Hilary Duff | none | 107669009 | https://www.stubhub.ie/hilary-duff-raleigh-tickets-10-4-2027/event/107669009 | - |
-| tm-hilary-duff-2027-baltimore-1a4zkfwgket7cfe | Hilary Duff | none | 107669006 | https://www.stubhub.ie/hilary-duff-baltimore-tickets-10-6-2027/event/107669006 | - |
-| tm-hilary-duff-2027-uncasville-g5vvz_k5dwnjz | Hilary Duff | none | 107670000 | https://www.stubhub.ie/hilary-duff-uncasville-tickets-10-8-2027/event/107670000 | - |
-| tm-hilary-duff-2027-hershey-vv1aezkfugkempa0j | Hilary Duff | none | 107670001 | https://www.stubhub.ie/hilary-duff-hershey-tickets-10-9-2027/event/107670001 | - |
-| tm-hilary-duff-2027-buffalo-k7vgf_k9lboi8 | Hilary Duff | none | 107669008 | https://www.stubhub.ie/hilary-duff-buffalo-tickets-10-11-2027/event/107669008 | - |
-| tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe | Hilary Duff | none | 107669996 | https://www.stubhub.ie/hilary-duff-columbus-tickets-10-15-2027/event/107669996 | - |
-| tm-hilary-duff-2027-pittsburgh-1apzkfsgkdqpqgi | Hilary Duff | none | 107669007 | https://www.stubhub.ie/hilary-duff-pittsburgh-tickets-10-16-2027/event/107669007 | - |
-| tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s | Hilary Duff | none | 107669998 | https://www.stubhub.ie/hilary-duff-san-antonio-tickets-11-5-2027/event/107669998 | - |
-| tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg | Hilary Duff | none | 107669002 | https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002 | - |
-| tm-hilary-duff-2027-tulsa-1aozkfggkd6ydle | Hilary Duff | none | 107669997 | https://www.stubhub.ie/hilary-duff-tulsa-tickets-11-8-2027/event/107669997 | - |
+| tm-hilary-duff-2027-amsterdam-z698xzbpz1k3djpek | Hilary Duff | refresh (applied) | 107668998 | https://www.stubhub.ie/hilary-duff-tickets-amsterdam-ziggo-dome-17-5-2027/event/107668998 | - |
+| tm-hilary-duff-2027-orlando-1axzkfugkdwff3y | Hilary Duff | refresh (applied) | 107669005 | https://www.stubhub.ie/hilary-duff-orlando-tickets-10-2-2027/event/107669005 | - |
+| tm-hilary-duff-2027-raleigh-g5evz_kpqg6lj | Hilary Duff | refresh (applied) | 107669009 | https://www.stubhub.ie/hilary-duff-raleigh-tickets-10-4-2027/event/107669009 | - |
+| tm-hilary-duff-2027-baltimore-1a4zkfwgket7cfe | Hilary Duff | refresh (applied) | 107669006 | https://www.stubhub.ie/hilary-duff-baltimore-tickets-10-6-2027/event/107669006 | - |
+| tm-hilary-duff-2027-uncasville-g5vvz_k5dwnjz | Hilary Duff | refresh (applied) | 107670000 | https://www.stubhub.ie/hilary-duff-uncasville-tickets-10-8-2027/event/107670000 | - |
+| tm-hilary-duff-2027-hershey-vv1aezkfugkempa0j | Hilary Duff | refresh (applied) | 107670001 | https://www.stubhub.ie/hilary-duff-hershey-tickets-10-9-2027/event/107670001 | - |
+| tm-hilary-duff-2027-buffalo-k7vgf_k9lboi8 | Hilary Duff | refresh (applied) | 107669008 | https://www.stubhub.ie/hilary-duff-buffalo-tickets-10-11-2027/event/107669008 | - |
+| tm-hilary-duff-2027-columbus-vv1kv8vpu8ga1ilbe | Hilary Duff | refresh (applied) | 107669996 | https://www.stubhub.ie/hilary-duff-columbus-tickets-10-15-2027/event/107669996 | - |
+| tm-hilary-duff-2027-pittsburgh-1apzkfsgkdqpqgi | Hilary Duff | refresh (applied) | 107669007 | https://www.stubhub.ie/hilary-duff-pittsburgh-tickets-10-16-2027/event/107669007 | - |
+| tm-hilary-duff-2027-san-antonio-g5diz_kh8lc6s | Hilary Duff | refresh (applied) | 107669998 | https://www.stubhub.ie/hilary-duff-san-antonio-tickets-11-5-2027/event/107669998 | - |
+| tm-hilary-duff-2027-fort-worth-vvg1yz_3lpl3yg | Hilary Duff | refresh (applied) | 107669002 | https://www.stubhub.ie/hilary-duff-fort-worth-tickets-11-6-2027/event/107669002 | - |
+| tm-hilary-duff-2027-tulsa-1aozkfggkd6ydle | Hilary Duff | refresh (applied) | 107669997 | https://www.stubhub.ie/hilary-duff-tulsa-tickets-11-8-2027/event/107669997 | - |
 | tm-hilary-duff-2027-omaha-vv1akzkfggkdletyo | Hilary Duff | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-hilary-duff-2027-milwaukee-vv1a6zkfggkdrdjze | Hilary Duff | none | 107669010 | https://www.stubhub.ie/hilary-duff-milwaukee-tickets-11-12-2027/event/107669010 | - |
-| tm-hilary-duff-2027-kansas-city-vv1kvovpuoga1lapx | Hilary Duff | none | 107670007 | https://www.stubhub.ie/hilary-duff-kansas-city-tickets-11-15-2027/event/107670007 | - |
-| tm-hilary-duff-2027-denver-g5vzz_kkrpbyy | Hilary Duff | none | 107669020 | https://www.stubhub.ie/hilary-duff-denver-tickets-11-17-2027/event/107669020 | - |
-| tm-hilary-duff-2027-anaheim-vv110z_kqbpjub | Hilary Duff | none | 107670011 | https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-20-2027/event/107670011 | - |
-| tm-josiah-queen-2027-tulsa-1aozkf0gkevkv5m | Josiah Queen | none | 107666045 | https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045 | - |
+| tm-hilary-duff-2027-milwaukee-vv1a6zkfggkdrdjze | Hilary Duff | refresh (applied) | 107669010 | https://www.stubhub.ie/hilary-duff-milwaukee-tickets-11-12-2027/event/107669010 | - |
+| tm-hilary-duff-2027-kansas-city-vv1kvovpuoga1lapx | Hilary Duff | refresh (applied) | 107670007 | https://www.stubhub.ie/hilary-duff-kansas-city-tickets-11-15-2027/event/107670007 | - |
+| tm-hilary-duff-2027-denver-g5vzz_kkrpbyy | Hilary Duff | refresh (applied) | 107669020 | https://www.stubhub.ie/hilary-duff-denver-tickets-11-17-2027/event/107669020 | - |
+| tm-hilary-duff-2027-anaheim-vv110z_kqbpjub | Hilary Duff | refresh (applied) | 107670011 | https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-20-2027/event/107670011 | - |
+| tm-josiah-queen-2027-tulsa-1aozkf0gkevkv5m | Josiah Queen | refresh (applied) | 107666045 | https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045 | - |
 | tm-josiah-queen-2027-saint-louis-vv1akzkfngkee0a6p | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-josiah-queen-2027-indianapolis-vv1ffz_3xppazdu26 | Josiah Queen | none | 107666047 | https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047 | - |
+| tm-josiah-queen-2027-indianapolis-vv1ffz_3xppazdu26 | Josiah Queen | refresh (applied) | 107666047 | https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047 | - |
 | tm-josiah-queen-2027-grand-rapids-vv1afzkfngkeiofuw | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-josiah-queen-2027-toronto-1a8zkf-gkdrxwct | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-josiah-queen-2027-worcester-vv1a8vpfygauucfi | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-josiah-queen-2027-hershey-vv1aezkf0gkdfm7yq | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-josiah-queen-2027-charlotte-g5evz_3r2npem | Josiah Queen | none | 107666040 | https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040 | - |
+| tm-josiah-queen-2027-charlotte-g5evz_3r2npem | Josiah Queen | refresh (applied) | 107666040 | https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040 | - |
 | tm-josiah-queen-2027-duluth-vvg1zz_3nnlvdz | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-josiah-queen-2027-hoffman-estates-vv1a7zkfigkdsnse_ | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-josiah-queen-2027-anaheim-vv16azkf00fza5k85a | Josiah Queen | none | 107666044 | https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044 | - |
+| tm-josiah-queen-2027-anaheim-vv16azkf00fza5k85a | Josiah Queen | refresh (applied) | 107666044 | https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044 | - |
 | tm-josiah-queen-2027-san-diego-vvg1iz_33lzbne | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-josiah-queen-2027-glendale-1fk8vpavkaz7g1ee | Josiah Queen | none | 107666038 | https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038 | - |
-| tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm | Josiah Queen | none | 107669692 | https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692 | - |
+| tm-josiah-queen-2027-glendale-1fk8vpavkaz7g1ee | Josiah Queen | refresh (applied) | 107666038 | https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038 | - |
+| tm-josiah-queen-2027-fort-worth-vvg1yz_kebfbqm | Josiah Queen | refresh (applied) | 107669692 | https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692 | - |
 | tm-josiah-queen-2027-cedar-park-g5diz_32hchtd | Josiah Queen | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-josiah-queen-2027-fort-worth-vvg1yz_35oahaq | Josiah Queen | none | 107666052 | https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052 | - |
+| tm-josiah-queen-2027-fort-worth-vvg1yz_35oahaq | Josiah Queen | refresh (applied) | 107666052 | https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052 | - |
 | tm-ha-ash-2027-toronto-1a8zkfwgkedyh_t | Ha*Ash | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-ha-ash-2027-indianapolis-vv1kv8vpg3ga1gw8k | Ha*Ash | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-ha-ash-2027-rosemont-vv1fvzvpg_o4z7ueuv | Ha*Ash | none | 107669703 | https://www.stubhub.ie/ha-ash-rosemont-tickets-4-23-2027/event/107669703 | - |
-| tm-ha-ash-2027-denver-g5vzz_k1t3qaq | Ha*Ash | none | 107668948 | https://www.stubhub.ie/ha-ash-denver-tickets-4-25-2027/event/107668948 | - |
-| tm-ha-ash-2027-seattle-vvg1hz_k1hjj1j | Ha*Ash | none | 107669704 | https://www.stubhub.ie/ha-ash-seattle-tickets-4-28-2027/event/107669704 | - |
-| tm-ha-ash-2027-inglewood-vvg1iz_3teyn4f | Ha*Ash | none | 107668940 | https://www.stubhub.ie/ha-ash-inglewood-tickets-5-2-2027/event/107668940 | - |
-| tm-ha-ash-2027-san-jose-g5vyz_k6wigg_ | Ha*Ash | none | 107668951 | https://www.stubhub.ie/ha-ash-san-jose-tickets-5-6-2027/event/107668951 | - |
-| tm-ha-ash-2027-phoenix-1a_zkfwgkdcnqcy | Ha*Ash | none | 107668952 | https://www.stubhub.ie/ha-ash-phoenix-tickets-5-8-2027/event/107668952 | - |
-| tm-ha-ash-2027-el-paso-vvg1yz_kgeolu1 | Ha*Ash | none | 107668954 | https://www.stubhub.ie/ha-ash-el-paso-tickets-5-12-2027/event/107668954 | - |
-| tm-ha-ash-2027-irving-vvg1yz_k558xwt | Ha*Ash | none | 107668955 | https://www.stubhub.ie/ha-ash-irving-tickets-5-14-2027/event/107668955 | - |
-| tm-ha-ash-2027-hidalgo-g5diz_kauvdks | Ha*Ash | none | 107668956 | https://www.stubhub.ie/ha-ash-hidalgo-tickets-5-15-2027/event/107668956 | - |
-| tm-ha-ash-2027-houston-g5diz_kkygldl | Ha*Ash | none | 107669694 | https://www.stubhub.ie/ha-ash-houston-tickets-5-16-2027/event/107669694 | - |
-| tm-ha-ash-2027-new-york-k7vgf_kc2qanb | Ha*Ash | none | 107668959 | https://www.stubhub.ie/ha-ash-new-york-tickets-5-19-2027/event/107668959 | - |
-| tm-ha-ash-2027-atlanta-vvg1zz_k1bpf9p | Ha*Ash | none | 107668960 | https://www.stubhub.ie/ha-ash-atlanta-tickets-5-21-2027/event/107668960 | - |
-| tm-ha-ash-2027-miami-beach-vvg1vz_k1-dzg7 | Ha*Ash | none | 107669710 | https://www.stubhub.ie/ha-ash-miami-beach-tickets-5-22-2027/event/107669710 | - |
+| tm-ha-ash-2027-rosemont-vv1fvzvpg_o4z7ueuv | Ha*Ash | refresh (applied) | 107669703 | https://www.stubhub.ie/ha-ash-rosemont-tickets-4-23-2027/event/107669703 | - |
+| tm-ha-ash-2027-denver-g5vzz_k1t3qaq | Ha*Ash | refresh (applied) | 107668948 | https://www.stubhub.ie/ha-ash-denver-tickets-4-25-2027/event/107668948 | - |
+| tm-ha-ash-2027-seattle-vvg1hz_k1hjj1j | Ha*Ash | refresh (applied) | 107669704 | https://www.stubhub.ie/ha-ash-seattle-tickets-4-28-2027/event/107669704 | - |
+| tm-ha-ash-2027-inglewood-vvg1iz_3teyn4f | Ha*Ash | refresh (applied) | 107668940 | https://www.stubhub.ie/ha-ash-inglewood-tickets-5-2-2027/event/107668940 | - |
+| tm-ha-ash-2027-san-jose-g5vyz_k6wigg_ | Ha*Ash | refresh (applied) | 107668951 | https://www.stubhub.ie/ha-ash-san-jose-tickets-5-6-2027/event/107668951 | - |
+| tm-ha-ash-2027-phoenix-1a_zkfwgkdcnqcy | Ha*Ash | refresh (applied) | 107668952 | https://www.stubhub.ie/ha-ash-phoenix-tickets-5-8-2027/event/107668952 | - |
+| tm-ha-ash-2027-el-paso-vvg1yz_kgeolu1 | Ha*Ash | refresh (applied) | 107668954 | https://www.stubhub.ie/ha-ash-el-paso-tickets-5-12-2027/event/107668954 | - |
+| tm-ha-ash-2027-irving-vvg1yz_k558xwt | Ha*Ash | refresh (applied) | 107668955 | https://www.stubhub.ie/ha-ash-irving-tickets-5-14-2027/event/107668955 | - |
+| tm-ha-ash-2027-hidalgo-g5diz_kauvdks | Ha*Ash | refresh (applied) | 107668956 | https://www.stubhub.ie/ha-ash-hidalgo-tickets-5-15-2027/event/107668956 | - |
+| tm-ha-ash-2027-houston-g5diz_kkygldl | Ha*Ash | refresh (applied) | 107669694 | https://www.stubhub.ie/ha-ash-houston-tickets-5-16-2027/event/107669694 | - |
+| tm-ha-ash-2027-new-york-k7vgf_kc2qanb | Ha*Ash | refresh (applied) | 107668959 | https://www.stubhub.ie/ha-ash-new-york-tickets-5-19-2027/event/107668959 | - |
+| tm-ha-ash-2027-atlanta-vvg1zz_k1bpf9p | Ha*Ash | refresh (applied) | 107668960 | https://www.stubhub.ie/ha-ash-atlanta-tickets-5-21-2027/event/107668960 | - |
+| tm-ha-ash-2027-miami-beach-vvg1vz_k1-dzg7 | Ha*Ash | refresh (applied) | 107669710 | https://www.stubhub.ie/ha-ash-miami-beach-tickets-5-22-2027/event/107669710 | - |
 | tm-lukas-graham-2027-dallas-vvg1yz_kg_q-ih | Lukas Graham | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lukas-graham-2027-atlanta-vvg1zz_kgj9z2e | Lukas Graham | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-lukas-graham-2027-tampa-vvg1vz_kpwcutv | Lukas Graham | none | 107669267 | https://www.stubhub.ie/lukas-graham-tampa-tickets-3-5-2027/event/107669267 | - |
-| tm-lukas-graham-2027-charlotte-g5evz_kpbekzf | Lukas Graham | none | 107669270 | https://www.stubhub.ie/lukas-graham-charlotte-tickets-3-7-2027/event/107669270 | - |
-| tm-lukas-graham-2027-silver-spring-1a4zkfwgkdu1_zg | Lukas Graham | none | 107669269 | https://www.stubhub.ie/lukas-graham-silver-spring-tickets-3-9-2027/event/107669269 | - |
-| tm-lukas-graham-2027-new-york-k7vgf_kq-e_yf | Lukas Graham | none | 107670522 | https://www.stubhub.ie/lukas-graham-new-york-tickets-3-10-2027/event/107670522 | - |
-| tm-lukas-graham-2027-boston-vv1k7z_k8xg7ihpb | Lukas Graham | none | 107670525 | https://www.stubhub.ie/lukas-graham-boston-tickets-4-2-2027/event/107670525 | - |
-| tm-lukas-graham-2027-philadelphia-vv1aovpuf-zf9v5 | Lukas Graham | none | 107669266 | https://www.stubhub.ie/lukas-graham-philadelphia-tickets-4-3-2027/event/107669266 | - |
+| tm-lukas-graham-2027-tampa-vvg1vz_kpwcutv | Lukas Graham | refresh (applied) | 107669267 | https://www.stubhub.ie/lukas-graham-tampa-tickets-3-5-2027/event/107669267 | - |
+| tm-lukas-graham-2027-charlotte-g5evz_kpbekzf | Lukas Graham | refresh (applied) | 107669270 | https://www.stubhub.ie/lukas-graham-charlotte-tickets-3-7-2027/event/107669270 | - |
+| tm-lukas-graham-2027-silver-spring-1a4zkfwgkdu1_zg | Lukas Graham | refresh (applied) | 107669269 | https://www.stubhub.ie/lukas-graham-silver-spring-tickets-3-9-2027/event/107669269 | - |
+| tm-lukas-graham-2027-new-york-k7vgf_kq-e_yf | Lukas Graham | refresh (applied) | 107670522 | https://www.stubhub.ie/lukas-graham-new-york-tickets-3-10-2027/event/107670522 | - |
+| tm-lukas-graham-2027-boston-vv1k7z_k8xg7ihpb | Lukas Graham | refresh (applied) | 107670525 | https://www.stubhub.ie/lukas-graham-boston-tickets-4-2-2027/event/107670525 | - |
+| tm-lukas-graham-2027-philadelphia-vv1aovpuf-zf9v5 | Lukas Graham | refresh (applied) | 107669266 | https://www.stubhub.ie/lukas-graham-philadelphia-tickets-4-3-2027/event/107669266 | - |
 | tm-lukas-graham-2027-toronto-1f7zvpgxaoz786kf | Lukas Graham | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lukas-graham-2027-detroit-vv1afzkfwgkddfuvd | Lukas Graham | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lukas-graham-2027-indianapolis-vv1kv8vpuvgauq0sn | Lukas Graham | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lukas-graham-2027-minneapolis-vv11bz_kf-ovb0 | Lukas Graham | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lukas-graham-2027-chicago-vv1a7zkfugkegdi06 | Lukas Graham | none | 107670520 | https://www.stubhub.ie/lukas-graham-chicago-tickets-4-11-2027/event/107670520 | - |
+| tm-lukas-graham-2027-chicago-vv1a7zkfugkegdi06 | Lukas Graham | refresh (applied) | 107670520 | https://www.stubhub.ie/lukas-graham-chicago-tickets-4-11-2027/event/107670520 | - |
 | tm-passenger-2027-brussels-z698xzg2z16v-xbfos | Passenger | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-passenger-2027-milano-zg9rmiynyzd6ea | Passenger | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-passenger-2027-dublin-1avoz_8gkm9ghn7 | Passenger | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-passenger-2027-belfast-16zzkfkojzage16c | Passenger | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-passenger-2027-glasgow-g5dzz_8wyqwf1 | Passenger | none | 107506125 | https://www.stubhub.ie/passenger-tickets-glasgow-o2-academy-glasgow-11-9-2027/event/107506125 | - |
-| tm-passenger-2027-edinburgh-1adbz_8gks0vdnw | Passenger | none | 107506126 | https://www.stubhub.ie/passenger-tickets-edinburgh-usher-hall-12-9-2027/event/107506126 | - |
+| tm-passenger-2027-glasgow-g5dzz_8wyqwf1 | Passenger | refresh (applied) | 107506125 | https://www.stubhub.ie/passenger-tickets-glasgow-o2-academy-glasgow-11-9-2027/event/107506125 | - |
+| tm-passenger-2027-edinburgh-1adbz_8gks0vdnw | Passenger | refresh (applied) | 107506126 | https://www.stubhub.ie/passenger-tickets-edinburgh-usher-hall-12-9-2027/event/107506126 | - |
 | tm-passenger-2027-newcastle-upon-tyne-g5dzz_o6adefx | Passenger | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-passenger-2027-manchester-17uov0g62wjanur | Passenger | none | 107482766 | https://www.stubhub.ie/passenger-tickets-manchester-o2-apollo-manchester-15-9-2027/event/107482766 | - |
-| tm-passenger-2027-london-1auzkf3gkd0sykm | Passenger | none | 107482767 | https://www.stubhub.ie/passenger-tickets-london-eventim-apollo-17-9-2027/event/107482767 | - |
-| tm-passenger-2027-exeter-g5vhz_o2o0irs | Passenger | none | 107506128 | https://www.stubhub.ie/passenger-tickets-exeter-great-hall-exeter-21-9-2027/event/107506128 | - |
-| tm-passenger-2027-birmingham-g5dzz_2wg0-vu | Passenger | none | 107482768 | https://www.stubhub.ie/passenger-tickets-birmingham-o2-academy-birmingham-24-9-2027/event/107482768 | - |
-| tm-passenger-2027-brighton-g5vhz_o5oziab | Passenger | none | 107506129 | https://www.stubhub.ie/passenger-tickets-brighton-brighton-dome-25-9-2027/event/107506129 | - |
+| tm-passenger-2027-manchester-17uov0g62wjanur | Passenger | refresh (applied) | 107482766 | https://www.stubhub.ie/passenger-tickets-manchester-o2-apollo-manchester-15-9-2027/event/107482766 | - |
+| tm-passenger-2027-london-1auzkf3gkd0sykm | Passenger | refresh (applied) | 107482767 | https://www.stubhub.ie/passenger-tickets-london-eventim-apollo-17-9-2027/event/107482767 | - |
+| tm-passenger-2027-exeter-g5vhz_o2o0irs | Passenger | refresh (applied) | 107506128 | https://www.stubhub.ie/passenger-tickets-exeter-great-hall-exeter-21-9-2027/event/107506128 | - |
+| tm-passenger-2027-birmingham-g5dzz_2wg0-vu | Passenger | refresh (applied) | 107482768 | https://www.stubhub.ie/passenger-tickets-birmingham-o2-academy-birmingham-24-9-2027/event/107482768 | - |
+| tm-passenger-2027-brighton-g5vhz_o5oziab | Passenger | refresh (applied) | 107506129 | https://www.stubhub.ie/passenger-tickets-brighton-brighton-dome-25-9-2027/event/107506129 | - |
 | tm-passenger-2027-brisbane-1avgz_8gkmdlzyi | Passenger | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-passenger-2027-st-kilda-1avgz_8gkm6pbt5 | Passenger | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-passenger-2027-sydney-16vgz_oayg7zvfp | Passenger | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-john-summit-2026-brooklyn-17gzv0g65ttxsbe | John Summit | none | 107670646 | https://www.stubhub.ie/john-summit-brooklyn-tickets-11-29-2026/event/107670646 | - |
+| tm-john-summit-2026-brooklyn-17gzv0g65ttxsbe | John Summit | refresh (applied) | 107670646 | https://www.stubhub.ie/john-summit-brooklyn-tickets-11-29-2026/event/107670646 | - |
 | tm-vnv-nation-2027-denver-z7r9jz1a7jv8m | VNV Nation | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-oasis-2027-glasgow-1adfz_3gknft-og | Oasis | none | 107666276 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-21-5-2027/event/107666276 | - |
-| tm-oasis-2027-glasgow-1agzkfwgkd1ybno | Oasis | none | 107666277 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-23-5-2027/event/107666277 | - |
-| tm-oasis-2027-glasgow-1agzkfwgkd5kfpx | Oasis | none | 107666278 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-25-5-2027/event/107666278 | - |
-| tm-oasis-2027-glasgow-1agzkfwgkd5pben | Oasis | none | 107666279 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279 | - |
-| tm-oasis-2027-glasgow-1agzkfwgkdu5imb | Oasis | none | 107666280 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-29-5-2027/event/107666280 | - |
-| tm-oasis-2027-manchester-g5dzz_3lwzpdp | Oasis | none | 107667903 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-4-6-2027/event/107667903 | - |
-| tm-oasis-2027-manchester-g5dzz_3lmyj87 | Oasis | none | 107667904 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-6-6-2027/event/107667904 | - |
-| tm-oasis-2027-manchester-g5dzz_3lbuu4c | Oasis | none | 107666273 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-8-6-2027/event/107666273 | - |
-| tm-oasis-2027-manchester-g5dzz_3lwcjqy | Oasis | none | 107667905 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905 | - |
-| tm-oasis-2027-manchester-g5dzz_3lxmu-j | Oasis | none | 107667906 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-12-6-2027/event/107667906 | - |
-| tm-oasis-2027-manchester-g5dzz_3nq9ecb | Oasis | none | 107666274 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-15-6-2027/event/107666274 | - |
-| tm-oasis-2027-manchester-g5dzz_3lv67ao | Oasis | none | 107667907 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907 | - |
-| tm-oasis-2027-manchester-g5dzz_3l--ppl | Oasis | none | 107667908 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-19-6-2027/event/107667908 | - |
-| tm-oasis-2027-manchester-g5dzz_3l0pglg | Oasis | none | 107667909 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-22-6-2027/event/107667909 | - |
-| tm-oasis-2027-manchester-g5dzz_3ljog0t | Oasis | none | 107666275 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275 | - |
-| tm-oasis-2027-manchester-g5dzz_3lnpprv | Oasis | none | 107667910 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-26-6-2027/event/107667910 | - |
+| tm-oasis-2027-glasgow-1adfz_3gknft-og | Oasis | refresh (applied) | 107666276 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-21-5-2027/event/107666276 | - |
+| tm-oasis-2027-glasgow-1agzkfwgkd1ybno | Oasis | refresh (applied) | 107666277 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-23-5-2027/event/107666277 | - |
+| tm-oasis-2027-glasgow-1agzkfwgkd5kfpx | Oasis | refresh (applied) | 107666278 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-25-5-2027/event/107666278 | - |
+| tm-oasis-2027-glasgow-1agzkfwgkd5pben | Oasis | refresh (applied) | 107666279 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-28-5-2027/event/107666279 | - |
+| tm-oasis-2027-glasgow-1agzkfwgkdu5imb | Oasis | refresh (applied) | 107666280 | https://www.stubhub.ie/oasis-tickets-glasgow-celtic-park-29-5-2027/event/107666280 | - |
+| tm-oasis-2027-manchester-g5dzz_3lwzpdp | Oasis | refresh (applied) | 107667903 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-4-6-2027/event/107667903 | - |
+| tm-oasis-2027-manchester-g5dzz_3lmyj87 | Oasis | refresh (applied) | 107667904 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-6-6-2027/event/107667904 | - |
+| tm-oasis-2027-manchester-g5dzz_3lbuu4c | Oasis | refresh (applied) | 107666273 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-8-6-2027/event/107666273 | - |
+| tm-oasis-2027-manchester-g5dzz_3lwcjqy | Oasis | refresh (applied) | 107667905 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-11-6-2027/event/107667905 | - |
+| tm-oasis-2027-manchester-g5dzz_3lxmu-j | Oasis | refresh (applied) | 107667906 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-12-6-2027/event/107667906 | - |
+| tm-oasis-2027-manchester-g5dzz_3nq9ecb | Oasis | refresh (applied) | 107666274 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-15-6-2027/event/107666274 | - |
+| tm-oasis-2027-manchester-g5dzz_3lv67ao | Oasis | refresh (applied) | 107667907 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-18-6-2027/event/107667907 | - |
+| tm-oasis-2027-manchester-g5dzz_3l--ppl | Oasis | refresh (applied) | 107667908 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-19-6-2027/event/107667908 | - |
+| tm-oasis-2027-manchester-g5dzz_3l0pglg | Oasis | refresh (applied) | 107667909 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-22-6-2027/event/107667909 | - |
+| tm-oasis-2027-manchester-g5dzz_3ljog0t | Oasis | refresh (applied) | 107666275 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-25-6-2027/event/107666275 | - |
+| tm-oasis-2027-manchester-g5dzz_3lnpprv | Oasis | refresh (applied) | 107667910 | https://www.stubhub.ie/oasis-tickets-manchester-etihad-stadium-26-6-2027/event/107667910 | - |
 | tm-oasis-2027-co-meath-1avoz_3gkrnpmuo | Oasis | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-oasis-2027-co-meath-1avoz_3gkrn9ru4 | Oasis | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-oasis-2027-stevenage-1adjz_3gklfny3e | Oasis | none | 107666281 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-11-9-2027/event/107666281 | - |
-| tm-oasis-2027-stevenage-1adjz_3gkrrmy7n | Oasis | none | 107666282 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-12-9-2027/event/107666282 | - |
-| tm-oasis-2027-stevenage-1adjz_3gkrnjt4_ | Oasis | none | 107666283 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-18-9-2027/event/107666283 | - |
-| tm-oasis-2027-stevenage-1adjz_3gkreiyj0 | Oasis | none | 107666284 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-19-9-2027/event/107666284 | - |
-| tm-oasis-2027-stevenage-1adjz_3gkrs3n_k | Oasis | none | 107669975 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-25-9-2027/event/107669975 | - |
-| tm-oasis-2027-stevenage-1adjz_3gkrz1qva | Oasis | none | 107669976 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-26-9-2027/event/107669976 | - |
+| tm-oasis-2027-stevenage-1adjz_3gklfny3e | Oasis | refresh (applied) | 107666281 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-11-9-2027/event/107666281 | - |
+| tm-oasis-2027-stevenage-1adjz_3gkrrmy7n | Oasis | refresh (applied) | 107666282 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-12-9-2027/event/107666282 | - |
+| tm-oasis-2027-stevenage-1adjz_3gkrnjt4_ | Oasis | refresh (applied) | 107666283 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-18-9-2027/event/107666283 | - |
+| tm-oasis-2027-stevenage-1adjz_3gkreiyj0 | Oasis | refresh (applied) | 107666284 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-19-9-2027/event/107666284 | - |
+| tm-oasis-2027-stevenage-1adjz_3gkrs3n_k | Oasis | refresh (applied) | 107669975 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-25-9-2027/event/107669975 | - |
+| tm-oasis-2027-stevenage-1adjz_3gkrz1qva | Oasis | refresh (applied) | 107669976 | https://www.stubhub.ie/oasis-tickets-stevenage-knebworth-park-26-9-2027/event/107669976 | - |
 | tm-atmosphere-2027-salt-lake-city-g5vzz_kl2vywj | Atmosphere | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-oasis-2027-barcelona-z698xz2qz1kosq3xa | Oasis | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-oasis-2027-barcelona-z698xz2qz1kvz7a4m | Oasis | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b | Oasis | none | 107667901 | https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901 | - |
-| tm-oasis-2027-amsterdam-z698xzbpz1kodp337 | Oasis | none | 107667902 | https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-17-7-2027/event/107667902 | - |
-| tm-sienna-spiro-2026-los-angeles-vvg10z_udz2l-k | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-oasis-2027-amsterdam-z698xzbpz16vrdz-8b | Oasis | refresh (applied) | 107667901 | https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-16-7-2027/event/107667901 | - |
+| tm-oasis-2027-amsterdam-z698xzbpz1kodp337 | Oasis | refresh (applied) | 107667902 | https://www.stubhub.ie/oasis-tickets-amsterdam-johan-cruijff-arena-17-7-2027/event/107667902 | - |
 | tm-sienna-spiro-2027-west-melbourne-177yv0g6gecffyz | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sienna-spiro-2027-west-melbourne-177yv0g6gmjpde2 | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sienna-spiro-2027-brisbane-177yv0g6gjxxnip | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sienna-spiro-2027-edinburgh-g5dzz_g3xlvct | Sienna Spiro | none | 107433077 | https://www.stubhub.ie/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-22-2-2027/event/107433077 | - |
-| tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc | Sienna Spiro | none | 107417236 | https://www.stubhub.ie/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-23-2-2027/event/107417236 | - |
-| tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt | Sienna Spiro | none | 107432077 | https://www.stubhub.ie/sienna-spiro-tickets-manchester-o2-apollo-manchester-1-3-2027/event/107432077 | - |
-| tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e | Sienna Spiro | none | 107417237 | https://www.stubhub.ie/sienna-spiro-tickets-manchester-o2-apollo-manchester-2-3-2027/event/107417237 | - |
+| tm-sienna-spiro-2027-edinburgh-g5dzz_g3xlvct | Sienna Spiro | refresh (applied) | 107433077 | https://www.stubhub.ie/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-22-2-2027/event/107433077 | - |
+| tm-sienna-spiro-2027-edinburgh-g5dzz_g3jtvqc | Sienna Spiro | refresh (applied) | 107417236 | https://www.stubhub.ie/sienna-spiro-tickets-edinburgh-edinburgh-corn-exchange-23-2-2027/event/107417236 | - |
+| tm-sienna-spiro-2027-manchester-17uov0g6ghevqqt | Sienna Spiro | refresh (applied) | 107432077 | https://www.stubhub.ie/sienna-spiro-tickets-manchester-o2-apollo-manchester-1-3-2027/event/107432077 | - |
+| tm-sienna-spiro-2027-manchester-17uov0g6gnyji_e | Sienna Spiro | refresh (applied) | 107417237 | https://www.stubhub.ie/sienna-spiro-tickets-manchester-o2-apollo-manchester-2-3-2027/event/107417237 | - |
 | tm-sienna-spiro-2027-forest-brussels-z698xzg2z1kk3-m-y | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-sienna-spiro-2027-berlin-z698xzc2z16v0n7t_u | Sienna Spiro | none | 107447255 | https://www.stubhub.ie/sienna-spiro-tickets-berlin-tempodrom-24-3-2027/event/107447255 | - |
+| tm-sienna-spiro-2027-berlin-z698xzc2z16v0n7t_u | Sienna Spiro | refresh (applied) | 107447255 | https://www.stubhub.ie/sienna-spiro-tickets-berlin-tempodrom-24-3-2027/event/107447255 | - |
 | tm-sienna-spiro-2027-milano-zg9rmiynyzef6a | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sienna-spiro-2027-barcelona-z698xz2qz16evg76uk | Sienna Spiro | none | 107356077 | https://www.stubhub.ie/sienna-spiro-tickets-barcelona-sala-paral-lel-62-29-3-2027/event/107356077 | - |
-| tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3 | Sienna Spiro | none | 107356078 | https://www.stubhub.ie/sienna-spiro-tickets-madrid-la-riviera-30-3-2027/event/107356078 | - |
+| tm-sienna-spiro-2027-barcelona-z698xz2qz16evg76uk | Sienna Spiro | refresh (applied) | 107356077 | https://www.stubhub.ie/sienna-spiro-tickets-barcelona-sala-paral-lel-62-29-3-2027/event/107356077 | - |
+| tm-sienna-spiro-2027-madrid-z698xz2qz16v4sjdu3 | Sienna Spiro | refresh (applied) | 107356078 | https://www.stubhub.ie/sienna-spiro-tickets-madrid-la-riviera-30-3-2027/event/107356078 | - |
 | tm-sienna-spiro-2027-dublin-17kzv0g6gpq41un | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-malcolm-todd-2027-stockholm-z698xzq2z1afq0g8 | Malcolm Todd | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-malcolm-todd-2027-forest-brussels-z698xzg2z1a3rzza | Malcolm Todd | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-malcolm-todd-2027-dublin-1kkzvpfyga5vo0x | Malcolm Todd | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-malcolm-todd-2027-glasgow-1adbz_3gknizpvr | Malcolm Todd | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-malcolm-todd-2027-birmingham-g5dzz_3nh3wrn | Malcolm Todd | none | 107667996 | https://www.stubhub.ie/malcolm-todd-tickets-birmingham-o2-academy-birmingham-27-2-2027/event/107667996 | - |
-| tm-malcolm-todd-2027-manchester-1adbz_3gknvr9ad | Malcolm Todd | none | 107668009 | https://www.stubhub.ie/malcolm-todd-tickets-manchester-o2-apollo-manchester-28-2-2027/event/107668009 | - |
-| tm-malcolm-todd-2027-london-g5dzz_3lpy7hq | Malcolm Todd | none | 107667988 | https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-2-3-2027/event/107667988 | - |
-| tm-malcolm-todd-2027-london-g5dzz_3rjik2s | Malcolm Todd | none | 107668448 | https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/event/107668448 | - |
-| tm-malcolm-todd-2027-london-g5dzz_3rsuku2 | Malcolm Todd | none | 107669504 | https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-4-3-2027/event/107669504 | - |
+| tm-malcolm-todd-2027-birmingham-g5dzz_3nh3wrn | Malcolm Todd | refresh (applied) | 107667996 | https://www.stubhub.ie/malcolm-todd-tickets-birmingham-o2-academy-birmingham-27-2-2027/event/107667996 | - |
+| tm-malcolm-todd-2027-manchester-1adbz_3gknvr9ad | Malcolm Todd | refresh (applied) | 107668009 | https://www.stubhub.ie/malcolm-todd-tickets-manchester-o2-apollo-manchester-28-2-2027/event/107668009 | - |
+| tm-malcolm-todd-2027-london-g5dzz_3lpy7hq | Malcolm Todd | refresh (applied) | 107667988 | https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-2-3-2027/event/107667988 | - |
+| tm-malcolm-todd-2027-london-g5dzz_3rjik2s | Malcolm Todd | refresh (applied) | 107668448 | https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/event/107668448 | - |
+| tm-malcolm-todd-2027-london-g5dzz_3rsuku2 | Malcolm Todd | refresh (applied) | 107669504 | https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-4-3-2027/event/107669504 | - |
 | tm-malcolm-todd-2027-brisbane-1akzkftgkduv9ih | Malcolm Todd | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-malcolm-todd-2027-west-melbourne-1avgz_3gklkoff0 | Malcolm Todd | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-malcolm-todd-2027-west-melbourne-1avgz_3gkdbmub7 | Malcolm Todd | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1138,27 +1129,27 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-lizzy-mcalpine-2027-torrensville-1akzkfggkdqgjdn | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-brisbane-1akzkfugkeggjy4 | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-warsaw-z698xzqpz16vfyab0p | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lizzy-mcalpine-2027-glasgow-g5dzz_krfm-83 | Lizzy McAlpine | none | 107671407 | https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-9-4-2027/event/107671407 | - |
+| tm-lizzy-mcalpine-2027-glasgow-g5dzz_krfm-83 | Lizzy McAlpine | refresh (applied) | 107671407 | https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-9-4-2027/event/107671407 | - |
 | tm-lizzy-mcalpine-2027-dublin-16bzkfw-sza81kca | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lizzy-mcalpine-2027-houston-g5diz_kko6pz2 | Lizzy McAlpine | none | 107670451 | https://www.stubhub.ie/lizzy-mcalpine-houston-tickets-5-1-2027/event/107670451 | - |
+| tm-lizzy-mcalpine-2027-houston-g5diz_kko6pz2 | Lizzy McAlpine | refresh (applied) | 107670451 | https://www.stubhub.ie/lizzy-mcalpine-houston-tickets-5-1-2027/event/107670451 | - |
 | tm-lizzy-mcalpine-2027-durham-g5evz_klljeql | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-detroit-vv1afzkfmgkdd0jd5 | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-indianapolis-vv1aazkfggkeu7rbe | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-minneapolis-vv1akzkfsgkdlvc7g | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-saint-louis-vv1kvovpu_ga2r6bf | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lizzy-mcalpine-2027-nashville-g5viz_kqsm0og | Lizzy McAlpine | none | 107670480 | https://www.stubhub.ie/lizzy-mcalpine-nashville-tickets-6-16-2027/event/107670480 | - |
-| tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp | Lizzy McAlpine | none | 107670455 | https://www.stubhub.ie/lizzy-mcalpine-philadelphia-tickets-6-18-2027/event/107670455 | - |
+| tm-lizzy-mcalpine-2027-nashville-g5viz_kqsm0og | Lizzy McAlpine | refresh (applied) | 107670480 | https://www.stubhub.ie/lizzy-mcalpine-nashville-tickets-6-16-2027/event/107670480 | - |
+| tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp | Lizzy McAlpine | refresh (applied) | 107670455 | https://www.stubhub.ie/lizzy-mcalpine-philadelphia-tickets-6-18-2027/event/107670455 | - |
 | tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bapr | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lizzy-mcalpine-2027-new-york-g5diz_kr8e3se | Lizzy McAlpine | none | 107670456 | https://www.stubhub.ie/lizzy-mcalpine-new-york-tickets-6-24-2027/event/107670456 | - |
+| tm-lizzy-mcalpine-2027-new-york-g5diz_kr8e3se | Lizzy McAlpine | refresh (applied) | 107670456 | https://www.stubhub.ie/lizzy-mcalpine-new-york-tickets-6-24-2027/event/107670456 | - |
 | tm-lizzy-mcalpine-2027-columbia-1a4zkfmgkejxp8r | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-toronto-1a8zkfwgke-nzw8 | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lizzy-mcalpine-2027-chicago-vv1a7zkfggkenm_sz | Lizzy McAlpine | none | 107669203 | https://www.stubhub.ie/lizzy-mcalpine-chicago-tickets-6-29-2027/event/107669203 | - |
-| tm-lizzy-mcalpine-2027-austin-g5diz_k1qabc1 | Lizzy McAlpine | none | 107670457 | https://www.stubhub.ie/lizzy-mcalpine-austin-tickets-7-2-2027/event/107670457 | - |
+| tm-lizzy-mcalpine-2027-chicago-vv1a7zkfggkenm_sz | Lizzy McAlpine | refresh (applied) | 107669203 | https://www.stubhub.ie/lizzy-mcalpine-chicago-tickets-6-29-2027/event/107669203 | - |
+| tm-lizzy-mcalpine-2027-austin-g5diz_k1qabc1 | Lizzy McAlpine | refresh (applied) | 107670457 | https://www.stubhub.ie/lizzy-mcalpine-austin-tickets-7-2-2027/event/107670457 | - |
 | tm-lizzy-mcalpine-2027-san-diego-vvg1iz_k_8qjmi | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lizzy-mcalpine-2027-inglewood-vv1aazkfugkdnwr6l | Lizzy McAlpine | none | 107670458 | https://www.stubhub.ie/lizzy-mcalpine-inglewood-tickets-7-10-2027/event/107670458 | - |
-| tm-lizzy-mcalpine-2027-san-francisco-g5vyz_k6tphz4 | Lizzy McAlpine | none | 107670459 | https://www.stubhub.ie/lizzy-mcalpine-san-francisco-tickets-7-13-2027/event/107670459 | - |
+| tm-lizzy-mcalpine-2027-inglewood-vv1aazkfugkdnwr6l | Lizzy McAlpine | refresh (applied) | 107670458 | https://www.stubhub.ie/lizzy-mcalpine-inglewood-tickets-7-10-2027/event/107670458 | - |
+| tm-lizzy-mcalpine-2027-san-francisco-g5vyz_k6tphz4 | Lizzy McAlpine | refresh (applied) | 107670459 | https://www.stubhub.ie/lizzy-mcalpine-san-francisco-tickets-7-13-2027/event/107670459 | - |
 | tm-lizzy-mcalpine-2027-portland-vvg1hz_kpe4n79 | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lizzy-mcalpine-2027-seattle-vvg1hz_kf6i_hn | Lizzy McAlpine | none | 107670460 | https://www.stubhub.ie/lizzy-mcalpine-seattle-tickets-7-17-2027/event/107670460 | - |
+| tm-lizzy-mcalpine-2027-seattle-vvg1hz_kf6i_hn | Lizzy McAlpine | refresh (applied) | 107670460 | https://www.stubhub.ie/lizzy-mcalpine-seattle-tickets-7-17-2027/event/107670460 | - |
 | tm-the-interrupters-2027-tempe-16v0z_3j3g7wujq | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-interrupters-2027-dallas-vvg1yz_k69fczg | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-interrupters-2027-houston-g5diz_3r-jkhd | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1167,7 +1158,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-interrupters-2027-orlando-1aefz_3gkdwdk5a | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-interrupters-2027-atlanta-vvg1zz_3dh5hjb | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-interrupters-2027-silver-spring-1avfz_3gkbss6tr | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-interrupters-2027-brooklyn-k7vgf_k6y5uwc | The Interrupters | none | 107669193 | https://www.stubhub.ie/the-interrupters-brooklyn-tickets-4-4-2027/event/107669193 | - |
+| tm-the-interrupters-2027-brooklyn-k7vgf_k6y5uwc | The Interrupters | refresh (applied) | 107669193 | https://www.stubhub.ie/the-interrupters-brooklyn-tickets-4-4-2027/event/107669193 | - |
 | tm-the-interrupters-2027-boston-vv1avzkftgkexzmrt | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-interrupters-2027-montreal-1ad7z_3gkmrxjga | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-interrupters-2027-toronto-1a8zkfsgkdrk_-b | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1192,26 +1183,26 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dinosaur-jr-2027-chicago-z7r9jz1aaedov | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dinosaur-jr-2027-toronto-1a8zkf4gkdtrlfj | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dinosaur-jr-2027-boston-vv16vzkf4vvza5c5kf | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-oasis-2027-foxborough-vv1avzkftgkehnj-e | Oasis | none | 107666285 | https://www.stubhub.ie/oasis-foxborough-tickets-8-10-2027/event/107666285 | - |
-| tm-oasis-2027-foxborough-vv1avzkfggke0ghpz | Oasis | none | 107666286 | https://www.stubhub.ie/oasis-foxborough-tickets-8-13-2027/event/107666286 | - |
-| tm-oasis-2027-foxborough-vv1avzkfggke08hpi | Oasis | none | 107666287 | https://www.stubhub.ie/oasis-foxborough-tickets-8-14-2027/event/107666287 | - |
-| tm-oasis-2027-las-vegas-1kayvp7_ga25ajz | Oasis | none | 107666288 | https://www.stubhub.ie/oasis-las-vegas-tickets-8-20-2027/event/107666288 | - |
-| tm-oasis-2027-las-vegas-1kayvp7_ga2gaje | Oasis | none | 107666289 | https://www.stubhub.ie/oasis-las-vegas-tickets-8-21-2027/event/107666289 | - |
-| tm-oasis-2027-las-vegas-1kayvp7_ga2u_jk | Oasis | none | 107666290 | https://www.stubhub.ie/oasis-las-vegas-tickets-8-24-2027/event/107666290 | - |
-| tm-harry-styles-2027-glendale-z7r9jz1aavp4_ | Harry Styles | none | 107667646 | https://www.stubhub.ie/harry-styles-glendale-tickets-4-2-2027/event/107667646 | - |
-| tm-harry-styles-2027-glendale-z7r9jz1aavp4b | Harry Styles | none | 107666027 | https://www.stubhub.ie/harry-styles-glendale-tickets-4-3-2027/event/107666027 | - |
-| tm-gracie-abrams-2027-glasgow-17uov0g65lvesak | Gracie Abrams | none | 107255079 | https://www.stubhub.ie/gracie-abrams-tickets-glasgow-ovo-hydro-arena-glasgow-27-4-2027/event/107255079 | - |
-| tm-gracie-abrams-2027-glasgow-17uov0g65vd1fhq | Gracie Abrams | none | 107288083 | https://www.stubhub.ie/gracie-abrams-tickets-glasgow-ovo-hydro-arena-glasgow-28-4-2027/event/107288083 | - |
+| tm-oasis-2027-foxborough-vv1avzkftgkehnj-e | Oasis | refresh (applied) | 107666285 | https://www.stubhub.ie/oasis-foxborough-tickets-8-10-2027/event/107666285 | - |
+| tm-oasis-2027-foxborough-vv1avzkfggke0ghpz | Oasis | refresh (applied) | 107666286 | https://www.stubhub.ie/oasis-foxborough-tickets-8-13-2027/event/107666286 | - |
+| tm-oasis-2027-foxborough-vv1avzkfggke08hpi | Oasis | refresh (applied) | 107666287 | https://www.stubhub.ie/oasis-foxborough-tickets-8-14-2027/event/107666287 | - |
+| tm-oasis-2027-las-vegas-1kayvp7_ga25ajz | Oasis | refresh (applied) | 107666288 | https://www.stubhub.ie/oasis-las-vegas-tickets-8-20-2027/event/107666288 | - |
+| tm-oasis-2027-las-vegas-1kayvp7_ga2gaje | Oasis | refresh (applied) | 107666289 | https://www.stubhub.ie/oasis-las-vegas-tickets-8-21-2027/event/107666289 | - |
+| tm-oasis-2027-las-vegas-1kayvp7_ga2u_jk | Oasis | refresh (applied) | 107666290 | https://www.stubhub.ie/oasis-las-vegas-tickets-8-24-2027/event/107666290 | - |
+| tm-harry-styles-2027-glendale-z7r9jz1aavp4_ | Harry Styles | refresh (applied) | 107667646 | https://www.stubhub.ie/harry-styles-glendale-tickets-4-2-2027/event/107667646 | - |
+| tm-harry-styles-2027-glendale-z7r9jz1aavp4b | Harry Styles | refresh (applied) | 107666027 | https://www.stubhub.ie/harry-styles-glendale-tickets-4-3-2027/event/107666027 | - |
+| tm-gracie-abrams-2027-glasgow-17uov0g65lvesak | Gracie Abrams | refresh (applied) | 107255079 | https://www.stubhub.ie/gracie-abrams-tickets-glasgow-ovo-hydro-arena-glasgow-27-4-2027/event/107255079 | - |
+| tm-gracie-abrams-2027-glasgow-17uov0g65vd1fhq | Gracie Abrams | refresh (applied) | 107288083 | https://www.stubhub.ie/gracie-abrams-tickets-glasgow-ovo-hydro-arena-glasgow-28-4-2027/event/107288083 | - |
 | tm-niall-horan-2026-belfast-1adoz_kgkuhawcy | Niall Horan | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-niall-horan-2026-belfast-1adoz_6gkmwqvwh | Niall Horan | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-niall-horan-2027-hartford-z7r9jz1a709uz | Niall Horan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-metallica-2027-las-vegas-1a9zko-gkepzm6y | Metallica | none | 107133094 | https://www.stubhub.ie/metallica-las-vegas-tickets-2-27-2027/event/107133094 | - |
+| tm-metallica-2027-las-vegas-1a9zko-gkepzm6y | Metallica | refresh (applied) | 107133094 | https://www.stubhub.ie/metallica-las-vegas-tickets-2-27-2027/event/107133094 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gke0butu | Metallica | correct (applied) | 107133097 | https://www.stubhub.ie/metallica-las-vegas-tickets-3-4-2027/event/107133097 | - |
-| tm-metallica-2027-las-vegas-1a9zko-gkepzm6w | Metallica | none | 107133098 | https://www.stubhub.ie/metallica-las-vegas-tickets-3-6-2027/event/107133098 | - |
+| tm-metallica-2027-las-vegas-1a9zko-gkepzm6w | Metallica | refresh (applied) | 107133098 | https://www.stubhub.ie/metallica-las-vegas-tickets-3-6-2027/event/107133098 | - |
 | tm-metallica-2027-las-vegas-1a9zko-gke0bqtz | Metallica | correct (applied) | 107133099 | https://www.stubhub.ie/metallica-las-vegas-tickets-3-11-2027/event/107133099 | - |
-| tm-metallica-2027-raleigh-z7r9jz1aavwaj | Metallica | none | 107668969 | https://www.stubhub.ie/metallica-raleigh-tickets-6-2-2027/event/107668969 | - |
-| tm-metallica-2027-madison-z7r9jz1aavw0o | Metallica | none | 107669957 | https://www.stubhub.ie/metallica-madison-tickets-6-12-2027/event/107669957 | - |
-| tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes | Five Finger Death Punch | none | 107165490 | https://www.stubhub.ie/five-finger-death-punch-tickets-glasgow-ovo-hydro-arena-glasgow-17-1-2027/event/107165490 | - |
+| tm-metallica-2027-raleigh-z7r9jz1aavwaj | Metallica | refresh (applied) | 107668969 | https://www.stubhub.ie/metallica-raleigh-tickets-6-2-2027/event/107668969 | - |
+| tm-metallica-2027-madison-z7r9jz1aavw0o | Metallica | refresh (applied) | 107669957 | https://www.stubhub.ie/metallica-madison-tickets-6-12-2027/event/107669957 | - |
+| tm-five-finger-death-punch-2027-glasgow-1adbz_agkuc9oes | Five Finger Death Punch | refresh (applied) | 107165490 | https://www.stubhub.ie/five-finger-death-punch-tickets-glasgow-ovo-hydro-arena-glasgow-17-1-2027/event/107165490 | - |
 | tm-blue-october-2026-san-antonio-z7r9jz1a7-vz7 | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blue-october-2027-albuquerque-z7r9jz1a70pgn | Blue October | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-trivium-2026-san-antonio-z7r9jz1aazdco | Trivium | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1223,16 +1214,16 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-stella-lefty-2027-austin-z7r9jz1aav7f6 | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stella-lefty-2027-nashville-z7r9jz1aav7ff | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stella-lefty-2027-nashville-z7r9jz1aavffx | Stella Lefty | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-yuridia-2027-sugar-land-z7r9jz1aav-_t | Yuridia | none | 107666035 | https://www.stubhub.ie/yuridia-sugar-land-tickets-3-11-2027/event/107666035 | - |
+| tm-yuridia-2027-sugar-land-z7r9jz1aav-_t | Yuridia | refresh (applied) | 107666035 | https://www.stubhub.ie/yuridia-sugar-land-tickets-3-11-2027/event/107666035 | - |
 | tm-yuridia-2027-edinburg-z7r9jz1aav-_y | Yuridia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-yuridia-2027-brooklyn-z7r9jz1aav-_s | Yuridia | none | 107666054 | https://www.stubhub.ie/yuridia-brooklyn-tickets-3-27-2027/event/107666054 | - |
+| tm-yuridia-2027-brooklyn-z7r9jz1aav-_s | Yuridia | refresh (applied) | 107666054 | https://www.stubhub.ie/yuridia-brooklyn-tickets-3-27-2027/event/107666054 | - |
 | tm-hans-zimmer-2027-hartford-z7r9jz1aavvqk | Hans Zimmer | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hans-zimmer-2027-kansas-city-z7r9jz1aavvq6 | Hans Zimmer | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hans-zimmer-2027-oklahoma-city-z7r9jz1aavvqf | Hans Zimmer | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hans-zimmer-2027-salt-lake-city-z7r9jz1aavvqa | Hans Zimmer | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hans-zimmer-2027-los-angeles-z7r9jz1aavvq8 | Hans Zimmer | none | 107669476 | https://www.stubhub.ie/hans-zimmer-los-angeles-tickets-4-1-2027/event/107669476 | - |
+| tm-hans-zimmer-2027-los-angeles-z7r9jz1aavvq8 | Hans Zimmer | refresh (applied) | 107669476 | https://www.stubhub.ie/hans-zimmer-los-angeles-tickets-4-1-2027/event/107669476 | - |
 | tm-trans-siberian-orchestra-2026-colorado-springs-z7r9jz1aavnz9 | Trans-Siberian Orchestra | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-trans-siberian-orchestra-2026-las-vegas-z7r9jz1aavnzs | Trans-Siberian Orchestra | none | 107667930 | https://www.stubhub.ie/trans-siberian-orchestra-las-vegas-tickets-12-4-2026/event/107667930 | - |
+| tm-trans-siberian-orchestra-2026-las-vegas-z7r9jz1aavnzs | Trans-Siberian Orchestra | refresh (applied) | 107667930 | https://www.stubhub.ie/trans-siberian-orchestra-las-vegas-tickets-12-4-2026/event/107667930 | - |
 | tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavufx | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-atlanta-z7r9jz1aavuf- | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-saint-augustine-z7r9jz1aavgpy | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1244,8 +1235,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-atmosphere-2027-fort-collins-z7r9jz1aaezpv | Atmosphere | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-atmosphere-2027-grand-junction-z7r9jz1aaezfe | Atmosphere | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-atmosphere-2027-minneapolis-z7r9jz1aaez4o | Atmosphere | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-warning-2027-las-vegas-z7r9jz1aavtgx | The Warning | none | 107668670 | https://www.stubhub.ie/the-warning-las-vegas-tickets-4-17-2027/event/107668670 | - |
-| tm-the-warning-2027-san-antonio-z7r9jz1aavtf4 | The Warning | none | 107668180 | https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180 | - |
+| tm-the-warning-2027-las-vegas-z7r9jz1aavtgx | The Warning | refresh (applied) | 107668670 | https://www.stubhub.ie/the-warning-las-vegas-tickets-4-17-2027/event/107668670 | - |
+| tm-the-warning-2027-san-antonio-z7r9jz1aavtf4 | The Warning | refresh (applied) | 107668180 | https://www.stubhub.ie/the-warning-san-antonio-tickets-4-30-2027/event/107668180 | - |
 | tm-ha-ash-2027-portland-z7r9jz1aavz-k | Ha*Ash | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-ha-ash-2027-highland-z7r9jz1aavz-m | Ha*Ash | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-needtobreathe-2027-omaha-1aezz_kekbozdu2k | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1255,9 +1246,9 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-needtobreathe-2027-madison-vv17jz_3gktprkgd | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-needtobreathe-2027-grand-rapids-vv1afzkfwgkd2p_kw | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-needtobreathe-2027-cincinnati-1kaovpgtgauok5q | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-needtobreathe-2027-brooklyn-k7vgf_kxvnxba | NEEDTOBREATHE | none | 107670702 | https://www.stubhub.ie/needtobreathe-brooklyn-tickets-3-4-2027/event/107670702 | - |
-| tm-needtobreathe-2027-boston-vv177z_3gkiozdvt | NEEDTOBREATHE | none | 107670703 | https://www.stubhub.ie/needtobreathe-boston-tickets-3-5-2027/event/107670703 | - |
-| tm-needtobreathe-2027-washington-1a4zkfggkdjqhau | NEEDTOBREATHE | none | 107671866 | https://www.stubhub.ie/needtobreathe-washington-tickets-3-6-2027/event/107671866 | - |
+| tm-needtobreathe-2027-brooklyn-k7vgf_kxvnxba | NEEDTOBREATHE | refresh (applied) | 107670702 | https://www.stubhub.ie/needtobreathe-brooklyn-tickets-3-4-2027/event/107670702 | - |
+| tm-needtobreathe-2027-boston-vv177z_3gkiozdvt | NEEDTOBREATHE | refresh (applied) | 107670703 | https://www.stubhub.ie/needtobreathe-boston-tickets-3-5-2027/event/107670703 | - |
+| tm-needtobreathe-2027-washington-1a4zkfggkdjqhau | NEEDTOBREATHE | refresh (applied) | 107671866 | https://www.stubhub.ie/needtobreathe-washington-tickets-3-6-2027/event/107671866 | - |
 | tm-needtobreathe-2027-pittsburgh-1apzkfggkd9zzsh | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-needtobreathe-2027-durham-g5evz_khc4kmz | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-needtobreathe-2027-asheville-g5evz_kd9sqw9 | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1267,7 +1258,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-needtobreathe-2027-memphis-g5viz_k1t4cqs | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-needtobreathe-2027-memphis-g5viz_k1tpwrf | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-needtobreathe-2027-new-orleans-g5viz_ocxa2ai | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-needtobreathe-2027-houston-g5diz_kkbawh- | NEEDTOBREATHE | none | 107671360 | https://www.stubhub.ie/needtobreathe-houston-tickets-3-20-2027/event/107671360 | - |
+| tm-needtobreathe-2027-houston-g5diz_kkbawh- | NEEDTOBREATHE | refresh (applied) | 107671360 | https://www.stubhub.ie/needtobreathe-houston-tickets-3-20-2027/event/107671360 | - |
 | tm-foy-vance-2026-seattle-vvg1hz_7scn270 | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foy-vance-2026-spokane-g5vzz_akiabhz | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foy-vance-2026-boise-g5vzz_akyqnb8 | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1282,7 +1273,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-foy-vance-2027-york-z7r9jz1a7pnjx | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foy-vance-2027-boston-vv177z_7gksjyniw | Foy Vance | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-lemonheads-2027-boston-vv177z_3gkn_hus- | The Lemonheads | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-lemonheads-2027-brooklyn-k7vgf_3rtiqkk | The Lemonheads | none | 107668936 | https://www.stubhub.ie/the-lemonheads-brooklyn-tickets-2-11-2027/event/107668936 | - |
+| tm-the-lemonheads-2027-brooklyn-k7vgf_3rtiqkk | The Lemonheads | refresh (applied) | 107668936 | https://www.stubhub.ie/the-lemonheads-brooklyn-tickets-2-11-2027/event/107668936 | - |
 | tm-the-lemonheads-2027-atlanta-vvg1zz_3rf_-sk | The Lemonheads | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-lemonheads-2027-houston-g5diz_3mypste | The Lemonheads | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-lemonheads-2027-los-angeles-vv1ke8vp13ga5mfmw | The Lemonheads | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1339,7 +1330,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dylan-scott-2027-rochester-vv17bz_3gklxuys_ | Dylan Scott | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-scott-2027-philadelphia-vv17fz_3gklnt6ea | Dylan Scott | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-scott-2027-wallingford-g5vvz_3ekjcji | Dylan Scott | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dylan-scott-2027-boston-vv1avzkftgkeyygcg | Dylan Scott | none | 107668644 | https://www.stubhub.ie/dylan-scott-boston-tickets-2-6-2027/event/107668644 | - |
+| tm-dylan-scott-2027-boston-vv1avzkftgkeyygcg | Dylan Scott | refresh (applied) | 107668644 | https://www.stubhub.ie/dylan-scott-boston-tickets-2-6-2027/event/107668644 | - |
 | tm-dylan-scott-2027-denver-z7r9jz1aavse_ | Dylan Scott | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-scott-2027-omaha-1aezz_3gknwydtt | Dylan Scott | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-scott-2027-park-city-vv17bz_3gkmnbnzl | Dylan Scott | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1404,7 +1395,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-too-many-zooz-2027-houston-g5diz_kf4niru | Too Many Zooz | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-too-many-zooz-2027-tucson-z7r9jz1aavmvf | Too Many Zooz | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-too-many-zooz-2027-seattle-vvg1hz_3tamn7s | Too Many Zooz | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-amble-2026-atlanta-z7r9jz1a70p_n | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2026-nashville-g5viz_gnxglok | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2026-new-orleans-g5viz_aeqhsnh | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2026-austin-g5diz_ahr-flp | Amble | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1412,41 +1402,41 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-amble-2026-co-mayo-1abzkfugkd8h21y | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2026-co-mayo-1abzkfugkd8hl5a | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2026-co-mayo-1abzkfugkd8hr56 | Amble | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-amble-2027-madrid-z698xz2qz1kozfaa3 | Amble | none | 107198141 | https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141 | - |
-| tm-amble-2027-barcelona-z698xz2qz16vb40_3f | Amble | none | 107198142 | https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142 | - |
+| tm-amble-2027-madrid-z698xz2qz1kozfaa3 | Amble | refresh (applied) | 107198141 | https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141 | - |
+| tm-amble-2027-barcelona-z698xz2qz16vb40_3f | Amble | refresh (applied) | 107198142 | https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142 | - |
 | tm-amble-2027-johanneshov-z698xzq2z16v73foub | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2027-amsterdam-z698xzbpz16vb-0aa8 | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2027-amsterdam-z698xzbpz1kqkuae7 | Amble | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-amble-2027-belfast-17czv0g62qetzl- | Amble | none | 107482906 | https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906 | - |
+| tm-amble-2027-belfast-17czv0g62qetzl- | Amble | refresh (applied) | 107482906 | https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906 | - |
 | tm-amble-2027-co-dublin-17kzv0g62mxw25r | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2027-glasgow-17uov0g62brrf6b | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2027-limerick-city-17kzv0g62sp3q8m | Amble | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-amble-2027-manchester-g5vhz_8upt3w4 | Amble | none | 107483077 | https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077 | - |
+| tm-amble-2027-manchester-g5vhz_8upt3w4 | Amble | refresh (applied) | 107483077 | https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077 | - |
 | tm-amble-2027-london-g5vhz_8sflgki | Amble | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-andrea-bocelli-2027-birmingham-1aegz_kgkwagold | Andrea Bocelli | none | 107670584 | https://www.stubhub.ie/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-29-9-2027/event/107670584 | - |
-| tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av | Andrea Bocelli | none | 107671323 | https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323 | - |
-| tm-fantasia-2027-washington-1ka8vpuogaub0mr | Fantasia | none | 107671382 | https://www.stubhub.ie/fantasia-washington-tickets-2-5-2027/event/107671382 | - |
+| tm-andrea-bocelli-2027-birmingham-1aegz_kgkwagold | Andrea Bocelli | refresh (applied) | 107670584 | https://www.stubhub.ie/andrea-bocelli-tickets-birmingham-utilita-arena-birmingham-29-9-2027/event/107670584 | - |
+| tm-andrea-bocelli-2027-glasgow-1adbz_k03jdzd5av | Andrea Bocelli | refresh (applied) | 107671323 | https://www.stubhub.ie/andrea-bocelli-tickets-glasgow-ovo-hydro-arena-glasgow-9-10-2027/event/107671323 | - |
+| tm-fantasia-2027-washington-1ka8vpuogaub0mr | Fantasia | refresh (applied) | 107671382 | https://www.stubhub.ie/fantasia-washington-tickets-2-5-2027/event/107671382 | - |
 | tm-fantasia-2027-norfolk-vv1avzkfmgkdn5kye | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fantasia-2027-belmont-park-1ayzkfugkdwafjv | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fantasia-2027-atlantic-city-vv1aezkfmgkegjgo6 | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fantasia-2027-new-orleans-g5viz_k6css2k | Fantasia | none | 107670734 | https://www.stubhub.ie/fantasia-new-orleans-tickets-2-19-2027/event/107670734 | - |
+| tm-fantasia-2027-new-orleans-g5viz_k6css2k | Fantasia | refresh (applied) | 107670734 | https://www.stubhub.ie/fantasia-new-orleans-tickets-2-19-2027/event/107670734 | - |
 | tm-fantasia-2027-biloxi-g5viz_kxokyjj | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fantasia-2027-ontario-vv1aazkfzgketkqbz | Fantasia | none | 107671383 | https://www.stubhub.ie/fantasia-ontario-tickets-3-5-2027/event/107671383 | - |
+| tm-fantasia-2027-ontario-vv1aazkfzgketkqbz | Fantasia | refresh (applied) | 107671383 | https://www.stubhub.ie/fantasia-ontario-tickets-3-5-2027/event/107671383 | - |
 | tm-fantasia-2027-oakland-g5vyz_krz5jaf | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3 | Fantasia | none | 107671384 | https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384 | - |
-| tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6 | Fantasia | none | 107670735 | https://www.stubhub.ie/fantasia-atlanta-tickets-3-26-2027/event/107670735 | - |
+| tm-fantasia-2027-fort-worth-vvg1yz_kbtlwh3 | Fantasia | refresh (applied) | 107671384 | https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384 | - |
+| tm-fantasia-2027-atlanta-vvg1zz_kqs5ty6 | Fantasia | refresh (applied) | 107670735 | https://www.stubhub.ie/fantasia-atlanta-tickets-3-26-2027/event/107670735 | - |
 | tm-fantasia-2027-orlando-1aefz_3gkx--7oo | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fantasia-2027-saint-louis-vv17bz_3gktv8xq0 | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fantasia-2027-southaven-g5viz_krb7nuq | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fantasia-2027-jacksonville-1axzkfwgkeynp6z | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fantasia-2027-hollywood-vvg1vz_k9lsilt | Fantasia | none | 107670736 | https://www.stubhub.ie/fantasia-hollywood-tickets-4-17-2027/event/107670736 | - |
+| tm-fantasia-2027-hollywood-vvg1vz_k9lsilt | Fantasia | refresh (applied) | 107670736 | https://www.stubhub.ie/fantasia-hollywood-tickets-4-17-2027/event/107670736 | - |
 | tm-fantasia-2027-phoenix-1a_zkfmgke0qgen | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fantasia-2027-charlotte-g5evz_k5a0ajy | Fantasia | none | 107671385 | https://www.stubhub.ie/fantasia-charlotte-tickets-5-7-2027/event/107671385 | - |
+| tm-fantasia-2027-charlotte-g5evz_k5a0ajy | Fantasia | refresh (applied) | 107671385 | https://www.stubhub.ie/fantasia-charlotte-tickets-5-7-2027/event/107671385 | - |
 | tm-fantasia-2027-raleigh-g5evz_kx4nbzb | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fantasia-2027-chicago-vv1a7zkfugkdbhxkp | Fantasia | none | 107670737 | https://www.stubhub.ie/fantasia-chicago-tickets-5-14-2027/event/107670737 | - |
-| tm-fantasia-2027-detroit-vv1afzkfsgkdkxfme | Fantasia | none | 107671386 | https://www.stubhub.ie/fantasia-detroit-tickets-5-15-2027/event/107671386 | - |
+| tm-fantasia-2027-chicago-vv1a7zkfugkdbhxkp | Fantasia | refresh (applied) | 107670737 | https://www.stubhub.ie/fantasia-chicago-tickets-5-14-2027/event/107670737 | - |
+| tm-fantasia-2027-detroit-vv1afzkfsgkdkxfme | Fantasia | refresh (applied) | 107671386 | https://www.stubhub.ie/fantasia-detroit-tickets-5-15-2027/event/107671386 | - |
 | tm-fantasia-2027-providence-vv1avzkfygkdtqjz9 | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fantasia-2027-newark-vv1aezkfugke-q6sn | Fantasia | none | 107670738 | https://www.stubhub.ie/fantasia-newark-tickets-5-22-2027/event/107670738 | - |
+| tm-fantasia-2027-newark-vv1aezkfugke-q6sn | Fantasia | refresh (applied) | 107670738 | https://www.stubhub.ie/fantasia-newark-tickets-5-22-2027/event/107670738 | - |
 | tm-a-perfect-circle-2026-adelaide-1aefz_kgkrmdjgo | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2026-brisbane-1avgz_kgklfnuo6 | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2026-honolulu-vvg1iz_1qirhb6 | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1457,10 +1447,10 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemh_mw | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-niagara-falls-1a8zkfmgkemjazz | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-detroit-vv16fzkfma3zac8uka | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-a-perfect-circle-2027-boston-vv1k7z_kr_g7rccc | A Perfect Circle | none | 107671548 | https://www.stubhub.ie/a-perfect-circle-boston-tickets-4-27-2027/event/107671548 | - |
+| tm-a-perfect-circle-2027-boston-vv1k7z_kr_g7rccc | A Perfect Circle | refresh (applied) | 107671548 | https://www.stubhub.ie/a-perfect-circle-boston-tickets-4-27-2027/event/107671548 | - |
 | tm-a-perfect-circle-2027-uncasville-g5vvz_khq_fxg | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-camden-vv1aezkfzgkdun44v | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-a-perfect-circle-2027-newark-vv1aezkfzgkecfwzd | A Perfect Circle | none | 107671549 | https://www.stubhub.ie/a-perfect-circle-newark-tickets-5-1-2027/event/107671549 | - |
+| tm-a-perfect-circle-2027-newark-vv1aezkfzgkecfwzd | A Perfect Circle | refresh (applied) | 107671549 | https://www.stubhub.ie/a-perfect-circle-newark-tickets-5-1-2027/event/107671549 | - |
 | tm-a-perfect-circle-2027-charlotte-g5evz_kj8b4gy | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-duluth-vvg1zz_kxwhwhz | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-the-woodlands-g5diz_kjdvhi6 | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1470,11 +1460,11 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-a-perfect-circle-2027-chicago-vv1kjz_kf7g7lms3 | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-shakopee-1a-zkfygkehcamo | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-west-valley-city-g5vzz_kk2w7ui | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-a-perfect-circle-2027-seattle-vvg1hz_kfmppzs | A Perfect Circle | none | 107671553 | https://www.stubhub.ie/a-perfect-circle-seattle-tickets-5-30-2027/event/107671553 | - |
+| tm-a-perfect-circle-2027-seattle-vvg1hz_kfmppzs | A Perfect Circle | refresh (applied) | 107671553 | https://www.stubhub.ie/a-perfect-circle-seattle-tickets-5-30-2027/event/107671553 | - |
 | tm-a-perfect-circle-2027-portland-vvg1hz_kbfgxyu | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-reno-1a9zkfygkembtoj | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-daly-city-g5vyz_kwfsetp | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-a-perfect-circle-2027-hollywood-vvg1iz_kj6yzfl | A Perfect Circle | none | 107671554 | https://www.stubhub.ie/a-perfect-circle-hollywood-tickets-6-6-2027/event/107671554 | - |
+| tm-a-perfect-circle-2027-hollywood-vvg1iz_kj6yzfl | A Perfect Circle | refresh (applied) | 107671554 | https://www.stubhub.ie/a-perfect-circle-hollywood-tickets-6-6-2027/event/107671554 | - |
 | tm-a-perfect-circle-2027-chula-vista-vvg1iz_kl8jvkq | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8myho | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2027-las-vegas-1a9zkfmgkd8y8h4 | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1484,7 +1474,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-chelsea-cutler-2027-washington-164zkfuqdzacd655 | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chelsea-cutler-2027-washington-1avfz_kgkw7gvak | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chelsea-cutler-2027-philadelphia-vv1aovpuygauryej | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-chelsea-cutler-2027-brooklyn-k7vgf_kze_vgc | Chelsea Cutler | none | 107671540 | https://www.stubhub.ie/chelsea-cutler-brooklyn-tickets-2-12-2027/event/107671540 | - |
+| tm-chelsea-cutler-2027-brooklyn-k7vgf_kze_vgc | Chelsea Cutler | refresh (applied) | 107671540 | https://www.stubhub.ie/chelsea-cutler-brooklyn-tickets-2-12-2027/event/107671540 | - |
 | tm-chelsea-cutler-2027-toronto-1avzz_kgkstt7dw | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chelsea-cutler-2027-detroit-vv1afzkfugkelhvg0 | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chelsea-cutler-2027-chicago-vv178z_kgks8xdpl | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1494,11 +1484,10 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-chelsea-cutler-2027-los-angeles-vv1aazkfzgkdgncya | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chelsea-cutler-2027-san-diego-vvg1iz_ks1c6a3 | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chelsea-cutler-2027-boise-g5vzz_ksxzvbs | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-red-clay-strays-2026-atlanta-vvg1zz_7rkxyy- | The Red Clay Strays | unverify (applied) | 107130357 | https://www.stubhub.ie/the-red-clay-strays-atlanta-tickets-11-13-2026/event/107130357 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-the-red-clay-strays-2026-las-vegas-z7r9jz1a70pzp | The Red Clay Strays | none | 107198216 | https://www.stubhub.ie/the-red-clay-strays-las-vegas-tickets-12-5-2026/event/107198216 | - |
+| tm-the-red-clay-strays-2026-las-vegas-z7r9jz1a70pzp | The Red Clay Strays | refresh (applied) | 107198216 | https://www.stubhub.ie/the-red-clay-strays-las-vegas-tickets-12-5-2026/event/107198216 | - |
 | tm-the-red-clay-strays-2027-raleigh-g5evz_kwmllt1 | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-columbia-g5evz_ksmjps3 | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-red-clay-strays-2027-rosemont-vv178z_kgksozism | The Red Clay Strays | none | 107671538 | https://www.stubhub.ie/the-red-clay-strays-rosemont-tickets-1-28-2027/event/107671538 | - |
+| tm-the-red-clay-strays-2027-rosemont-vv178z_kgksozism | The Red Clay Strays | refresh (applied) | 107671538 | https://www.stubhub.ie/the-red-clay-strays-rosemont-tickets-1-28-2027/event/107671538 | - |
 | tm-the-red-clay-strays-2027-saint-louis-vv17bz_3gkxtmyfx | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-omaha-vv17bz_kgks0gmzs | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-indianapolis-vv17fz_kgks5i1ir | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1521,8 +1510,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-red-clay-strays-2027-boise-g5vzz_kjqef3d | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-rogers-g5viz_kuooawu | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-corpus-christi-g5diz_ksvr9iw | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1 | The Red Clay Strays | none | 107671555 | https://www.stubhub.ie/the-red-clay-strays-austin-tickets-9-19-2027/event/107671555 | - |
-| tm-daughtry-2026-san-antonio-g5diz_gsupj1v | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-the-red-clay-strays-2027-austin-g5diz_kmbauv1 | The Red Clay Strays | refresh (applied) | 107671555 | https://www.stubhub.ie/the-red-clay-strays-austin-tickets-9-19-2027/event/107671555 | - |
 | tm-daughtry-2026-dallas-vvg1yz_gea3drr | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2027-pine-bluff-g5viz_kyugjqo | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2027-orlando-1kfovpgdga2huxq | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1543,24 +1531,24 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-daughtry-2027-nashville-g5viz_khosea- | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2027-atlanta-vvg1zz_klwyfxu | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-andrea-bocelli-2027-chorzow-z698xzqpz16v7kfvze | Andrea Bocelli | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-andrea-bocelli-2027-london-1adfz_kgkbcpkr9 | Andrea Bocelli | none | 107671324 | https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324 | - |
-| tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk | Andrea Bocelli | none | 107671325 | https://www.stubhub.ie/andrea-bocelli-tickets-manchester-co-op-live-5-10-2027/event/107671325 | - |
+| tm-andrea-bocelli-2027-london-1adfz_kgkbcpkr9 | Andrea Bocelli | refresh (applied) | 107671324 | https://www.stubhub.ie/andrea-bocelli-tickets-london-the-o2-arena-1-10-2027/event/107671324 | - |
+| tm-andrea-bocelli-2027-manchester-1amzkfzgkd7qkyk | Andrea Bocelli | refresh (applied) | 107671325 | https://www.stubhub.ie/andrea-bocelli-tickets-manchester-co-op-live-5-10-2027/event/107671325 | - |
 | tm-blondshell-2027-vancouver-16ozkfzopzauakea | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2027-asbury-park-k7vgf_knjlgim | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2027-madison-vv1kvyvpc_ga55f1w | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2027-detroit-vv1afzkfmgkdgjzny | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2027-saint-louis-vv1kbz_kjdg7cpvx | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-detroit-z7r9jz1aaeefp | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hilary-duff-2027-sunrise-z7r9jz1aaeve7 | Hilary Duff | none | 107669003 | https://www.stubhub.ie/hilary-duff-sunrise-tickets-10-1-2027/event/107669003 | - |
-| tm-hilary-duff-2027-cleveland-z7r9jz1aaevea | Hilary Duff | none | 107669004 | https://www.stubhub.ie/hilary-duff-cleveland-tickets-10-13-2027/event/107669004 | - |
-| tm-hilary-duff-2027-des-moines-z7r9jz1aaevep | Hilary Duff | none | 107669019 | https://www.stubhub.ie/hilary-duff-des-moines-tickets-11-14-2027/event/107669019 | - |
-| tm-hilary-duff-2027-anaheim-vv170z_kgkrlzqwi | Hilary Duff | none | 107671556 | https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-21-2027/event/107671556 | - |
+| tm-hilary-duff-2027-sunrise-z7r9jz1aaeve7 | Hilary Duff | refresh (applied) | 107669003 | https://www.stubhub.ie/hilary-duff-sunrise-tickets-10-1-2027/event/107669003 | - |
+| tm-hilary-duff-2027-cleveland-z7r9jz1aaevea | Hilary Duff | refresh (applied) | 107669004 | https://www.stubhub.ie/hilary-duff-cleveland-tickets-10-13-2027/event/107669004 | - |
+| tm-hilary-duff-2027-des-moines-z7r9jz1aaevep | Hilary Duff | refresh (applied) | 107669019 | https://www.stubhub.ie/hilary-duff-des-moines-tickets-11-14-2027/event/107669019 | - |
+| tm-hilary-duff-2027-anaheim-vv170z_kgkrlzqwi | Hilary Duff | refresh (applied) | 107671556 | https://www.stubhub.ie/hilary-duff-anaheim-tickets-11-21-2027/event/107671556 | - |
 | tm-lizzy-mcalpine-2027-torrensville-1akzkfggkepdplf | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lizzy-mcalpine-2027-london-g5dzz_krvbn6w | Lizzy McAlpine | none | 107671408 | https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-31-3-2027/event/107671408 | - |
-| tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p | Lizzy McAlpine | none | 107671423 | https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-1-4-2027/event/107671423 | - |
-| tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk | Lizzy McAlpine | none | 107670889 | https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-2-4-2027/event/107670889 | - |
-| tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096 | Lizzy McAlpine | none | 107671411 | https://www.stubhub.ie/lizzy-mcalpine-tickets-birmingham-o2-academy-birmingham-7-4-2027/event/107671411 | - |
-| tm-lizzy-mcalpine-2027-glasgow-g5dzz_kwtjarb | Lizzy McAlpine | none | 107671893 | https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-10-4-2027/event/107671893 | - |
+| tm-lizzy-mcalpine-2027-london-g5dzz_krvbn6w | Lizzy McAlpine | refresh (applied) | 107671408 | https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-31-3-2027/event/107671408 | - |
+| tm-lizzy-mcalpine-2027-london-g5dzz_kslx95p | Lizzy McAlpine | refresh (applied) | 107671423 | https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-1-4-2027/event/107671423 | - |
+| tm-lizzy-mcalpine-2027-london-g5dzz_kscgmsk | Lizzy McAlpine | refresh (applied) | 107670889 | https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-2-4-2027/event/107670889 | - |
+| tm-lizzy-mcalpine-2027-birmingham-g5dzz_kkek096 | Lizzy McAlpine | refresh (applied) | 107671411 | https://www.stubhub.ie/lizzy-mcalpine-tickets-birmingham-o2-academy-birmingham-7-4-2027/event/107671411 | - |
+| tm-lizzy-mcalpine-2027-glasgow-g5dzz_kwtjarb | Lizzy McAlpine | refresh (applied) | 107671893 | https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-10-4-2027/event/107671893 | - |
 | tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3 | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-atlanta-z7r9jz1aaea-b | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09 | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1569,7 +1557,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-lizzy-mcalpine-2027-kansas-city-z7r9jz1aaekqk | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-oklahoma-city-z7r9jz1aaea-p | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bypi | Lizzy McAlpine | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6 | Lizzy McAlpine | none | 107669216 | https://www.stubhub.ie/lizzy-mcalpine-morrison-tickets-7-6-2027/event/107669216 | - |
+| tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6 | Lizzy McAlpine | refresh (applied) | 107669216 | https://www.stubhub.ie/lizzy-mcalpine-morrison-tickets-7-6-2027/event/107669216 | - |
 | tm-dinosaur-jr-2027-philadelphia-z7r9jz1aavk18 | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-needtobreathe-2027-kansas-city-z7r9jz1aaek_i | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-needtobreathe-2027-lancaster-z7r9jz1aaek_t | NEEDTOBREATHE | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1580,7 +1568,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-tommy-emmanuel-2027-ottawa-1aszkfgjd0vzecc | Tommy Emmanuel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tommy-emmanuel-2027-toronto-z7r9jz1aaeox3 | Tommy Emmanuel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-yacht-rock-revue-2027-jacksonville-z7r9jz1aaeebg | Yacht Rock Revue | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-too-many-zooz-2026-buffalo-z7r9jz1aav60y | Too Many Zooz | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2026-co-mayo-1abzkfugkd8w25a | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-amble-2026-co-mayo-1abzkfugkd8wl5u | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fantasia-2027-las-vegas-z7r9jz1aaef4j | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1595,46 +1582,46 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-daughtry-2027-orono-z7r9jz1aae836 | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2027-charlottesville-z7r9jz1aae83f | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-savannah-vvg1zz_kdabkfs | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-tampa-vvg1vz_kmcwtil | Greta Van Fleet | none | 107670988 | https://www.stubhub.ie/greta-van-fleet-tampa-tickets-2-5-2027/event/107670988 | - |
-| tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx | Greta Van Fleet | none | 107670989 | https://www.stubhub.ie/greta-van-fleet-jacksonville-tickets-2-6-2027/event/107670989 | - |
-| tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip | Greta Van Fleet | none | 107671897 | https://www.stubhub.ie/greta-van-fleet-atlanta-tickets-2-9-2027/event/107671897 | - |
-| tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy | Greta Van Fleet | none | 107671898 | https://www.stubhub.ie/greta-van-fleet-nashville-tickets-2-10-2027/event/107671898 | - |
-| tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr | Greta Van Fleet | none | 107671861 | https://www.stubhub.ie/greta-van-fleet-rosemont-tickets-2-12-2027/event/107671861 | - |
+| tm-greta-van-fleet-2027-tampa-vvg1vz_kmcwtil | Greta Van Fleet | refresh (applied) | 107670988 | https://www.stubhub.ie/greta-van-fleet-tampa-tickets-2-5-2027/event/107670988 | - |
+| tm-greta-van-fleet-2027-jacksonville-1aefz_kgkdyuafx | Greta Van Fleet | refresh (applied) | 107670989 | https://www.stubhub.ie/greta-van-fleet-jacksonville-tickets-2-6-2027/event/107670989 | - |
+| tm-greta-van-fleet-2027-atlanta-vvg1zz_kmneaip | Greta Van Fleet | refresh (applied) | 107671897 | https://www.stubhub.ie/greta-van-fleet-atlanta-tickets-2-9-2027/event/107671897 | - |
+| tm-greta-van-fleet-2027-nashville-g5viz_kzhjzwy | Greta Van Fleet | refresh (applied) | 107671898 | https://www.stubhub.ie/greta-van-fleet-nashville-tickets-2-10-2027/event/107671898 | - |
+| tm-greta-van-fleet-2027-rosemont-vv178z_kgkmrjctr | Greta Van Fleet | refresh (applied) | 107671861 | https://www.stubhub.ie/greta-van-fleet-rosemont-tickets-2-12-2027/event/107671861 | - |
 | tm-greta-van-fleet-2027-omaha-vv17bz_kgkmgzcnp | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-minneapolis-vv17bz_kgku0ofzs | Greta Van Fleet | none | 107671899 | https://www.stubhub.ie/greta-van-fleet-minneapolis-tickets-2-15-2027/event/107671899 | - |
+| tm-greta-van-fleet-2027-minneapolis-vv17bz_kgku0ofzs | Greta Van Fleet | refresh (applied) | 107671899 | https://www.stubhub.ie/greta-van-fleet-minneapolis-tickets-2-15-2027/event/107671899 | - |
 | tm-greta-van-fleet-2027-louisville-1avbz_kgkbymb5h | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-pittsburgh-1avbz_kgkmosrsz | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-detroit-vv17oz_kgkwt_pf2 | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-boston-vv177z_kgknm09yr | Greta Van Fleet | none | 107671865 | https://www.stubhub.ie/greta-van-fleet-boston-tickets-3-5-2027/event/107671865 | - |
+| tm-greta-van-fleet-2027-boston-vv177z_kgknm09yr | Greta Van Fleet | refresh (applied) | 107671865 | https://www.stubhub.ie/greta-van-fleet-boston-tickets-3-5-2027/event/107671865 | - |
 | tm-greta-van-fleet-2027-albany-k7vgf_kbmaa9o | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-brooklyn-1adzz_kgkljmams | Greta Van Fleet | none | 107671868 | https://www.stubhub.ie/greta-van-fleet-brooklyn-tickets-3-8-2027/event/107671868 | - |
-| tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y | Greta Van Fleet | none | 107671869 | https://www.stubhub.ie/greta-van-fleet-philadelphia-tickets-3-10-2027/event/107671869 | - |
+| tm-greta-van-fleet-2027-brooklyn-1adzz_kgkljmams | Greta Van Fleet | refresh (applied) | 107671868 | https://www.stubhub.ie/greta-van-fleet-brooklyn-tickets-3-8-2027/event/107671868 | - |
+| tm-greta-van-fleet-2027-philadelphia-1adzz_kgkv_zy6y | Greta Van Fleet | refresh (applied) | 107671869 | https://www.stubhub.ie/greta-van-fleet-philadelphia-tickets-3-10-2027/event/107671869 | - |
 | tm-greta-van-fleet-2027-charlotte-g5evz_kd5pkxs | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-knoxville-g5viz_fat50pa | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r | Greta Van Fleet | none | 107671871 | https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871 | - |
+| tm-greta-van-fleet-2027-fort-worth-vvg1yz_f6vci7r | Greta Van Fleet | refresh (applied) | 107671871 | https://www.stubhub.ie/greta-van-fleet-fort-worth-tickets-3-15-2027/event/107671871 | - |
 | tm-greta-van-fleet-2027-tulsa-1aezz_kgkdnv4sg | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh | Greta Van Fleet | none | 107671872 | https://www.stubhub.ie/greta-van-fleet-anaheim-tickets-3-19-2027/event/107671872 | - |
+| tm-greta-van-fleet-2027-anaheim-vv170z_kgkm7preh | Greta Van Fleet | refresh (applied) | 107671872 | https://www.stubhub.ie/greta-van-fleet-anaheim-tickets-3-19-2027/event/107671872 | - |
 | tm-greta-van-fleet-2027-phoenix-1av0z_kgkbck9ok | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-reno-1avjz_kgkmchefe | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-seattle-vvg1hz_km-zrdh | Greta Van Fleet | none | 107671873 | https://www.stubhub.ie/greta-van-fleet-seattle-tickets-3-24-2027/event/107671873 | - |
+| tm-greta-van-fleet-2027-seattle-vvg1hz_km-zrdh | Greta Van Fleet | refresh (applied) | 107671873 | https://www.stubhub.ie/greta-van-fleet-seattle-tickets-3-24-2027/event/107671873 | - |
 | tm-greta-van-fleet-2027-portland-vvg1hz_kle7js7 | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-boise-g5vzz_fkffj8x | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-denver-g5vzz_kbjtioy | Greta Van Fleet | none | 107670990 | https://www.stubhub.ie/greta-van-fleet-denver-tickets-3-30-2027/event/107670990 | - |
-| tm-greta-van-fleet-2027-munich-z698xzc2z16v70efz3 | Greta Van Fleet | none | 107670991 | https://www.stubhub.ie/greta-van-fleet-tickets-munich-olympiahalle-munich-15-5-2027/event/107670991 | - |
+| tm-greta-van-fleet-2027-denver-g5vzz_kbjtioy | Greta Van Fleet | refresh (applied) | 107670990 | https://www.stubhub.ie/greta-van-fleet-denver-tickets-3-30-2027/event/107670990 | - |
+| tm-greta-van-fleet-2027-munich-z698xzc2z16v70efz3 | Greta Van Fleet | refresh (applied) | 107670991 | https://www.stubhub.ie/greta-van-fleet-tickets-munich-olympiahalle-munich-15-5-2027/event/107670991 | - |
 | tm-greta-van-fleet-2027-assago-zg9rmiynyz7k7a | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-hamburg-z698xzc2z1k83jea7 | Greta Van Fleet | none | 107671901 | https://www.stubhub.ie/greta-van-fleet-tickets-hamburg-barclays-arena-hamburg-18-5-2027/event/107671901 | - |
-| tm-greta-van-fleet-2027-berlin-z698xzc2z1kfv0zvs | Greta Van Fleet | none | 107670992 | https://www.stubhub.ie/greta-van-fleet-tickets-berlin-uber-arena-21-5-2027/event/107670992 | - |
-| tm-greta-van-fleet-2027-amsterdam-z698xzbpz1kpzobgo | Greta Van Fleet | none | 107670944 | https://www.stubhub.ie/greta-van-fleet-tickets-amsterdam-ziggo-dome-24-5-2027/event/107670944 | - |
+| tm-greta-van-fleet-2027-hamburg-z698xzc2z1k83jea7 | Greta Van Fleet | refresh (applied) | 107671901 | https://www.stubhub.ie/greta-van-fleet-tickets-hamburg-barclays-arena-hamburg-18-5-2027/event/107671901 | - |
+| tm-greta-van-fleet-2027-berlin-z698xzc2z1kfv0zvs | Greta Van Fleet | refresh (applied) | 107670992 | https://www.stubhub.ie/greta-van-fleet-tickets-berlin-uber-arena-21-5-2027/event/107670992 | - |
+| tm-greta-van-fleet-2027-amsterdam-z698xzbpz1kpzobgo | Greta Van Fleet | refresh (applied) | 107670944 | https://www.stubhub.ie/greta-van-fleet-tickets-amsterdam-ziggo-dome-24-5-2027/event/107670944 | - |
 | tm-greta-van-fleet-2027-forest-brussels-z698xzg2z16ez30gvn | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-greta-van-fleet-2027-london-1adfz_kgkmuet5g | Greta Van Fleet | none | 107671665 | https://www.stubhub.ie/greta-van-fleet-tickets-london-the-o2-arena-28-5-2027/event/107671665 | - |
-| tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov | Greta Van Fleet | none | 107671666 | https://www.stubhub.ie/greta-van-fleet-tickets-birmingham-utilita-arena-birmingham-30-5-2027/event/107671666 | - |
-| tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70 | Greta Van Fleet | none | 107671667 | https://www.stubhub.ie/greta-van-fleet-tickets-manchester-co-op-live-1-6-2027/event/107671667 | - |
+| tm-greta-van-fleet-2027-london-1adfz_kgkmuet5g | Greta Van Fleet | refresh (applied) | 107671665 | https://www.stubhub.ie/greta-van-fleet-tickets-london-the-o2-arena-28-5-2027/event/107671665 | - |
+| tm-greta-van-fleet-2027-birmingham-1aegz_kgkmz0sov | Greta Van Fleet | refresh (applied) | 107671666 | https://www.stubhub.ie/greta-van-fleet-tickets-birmingham-utilita-arena-birmingham-30-5-2027/event/107671666 | - |
+| tm-greta-van-fleet-2027-manchester-1adjz_kgkbyud70 | Greta Van Fleet | refresh (applied) | 107671667 | https://www.stubhub.ie/greta-van-fleet-tickets-manchester-co-op-live-1-6-2027/event/107671667 | - |
 | tm-greta-van-fleet-2027-dublin-1abzkfmgkes3wyd | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-vancouver-1av7z_kgkw_ogty | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-edmonton-1av7z_kgkmfujae | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-calgary-1av7z_kgkum7iwv | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-winnipeg-1av7z_kgkmeitov | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-kansas-city-vv1akzk4vgkdr0kg1 | Greta Van Fleet | none | 107671900 | https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900 | - |
+| tm-greta-van-fleet-2027-kansas-city-vv1akzk4vgkdr0kg1 | Greta Van Fleet | refresh (applied) | 107671900 | https://www.stubhub.ie/greta-van-fleet-kansas-city-tickets-7-13-2027/event/107671900 | - |
 | tm-greta-van-fleet-2027-saint-louis-vv17bz_kgkm_stkv | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-columbus-vv1aazk4vgkexl1ix | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-noblesville-vv17fz_kgkmuku1m | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1648,47 +1635,47 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-greta-van-fleet-2027-grand-rapids-vv17oz_kgkwlsfog | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2026-liverpool-1adjz_8gkv_dtbp | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-fontaines-d-c-2026-leeds-g5vhz_8b5sfcc | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-fontaines-d-c-2026-birmingham-1aegz_8gkdxxlc2 | Fontaines D.C. | none | 107554687 | https://www.stubhub.ie/fontaines-d-c-tickets-birmingham-utilita-arena-birmingham-25-11-2026/event/107554687 | - |
-| tm-fontaines-d-c-2026-london-1agzkfogkenxxaj | Fontaines D.C. | none | 107636077 | https://www.stubhub.ie/fontaines-d-c-tickets-london-the-o2-arena-27-11-2026/event/107636077 | - |
-| tm-fontaines-d-c-2027-boston-vv1avzkfggkedosqi | Fontaines D.C. | none | 107671881 | https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-23-2027/event/107671881 | - |
+| tm-fontaines-d-c-2026-birmingham-1aegz_8gkdxxlc2 | Fontaines D.C. | refresh (applied) | 107554687 | https://www.stubhub.ie/fontaines-d-c-tickets-birmingham-utilita-arena-birmingham-25-11-2026/event/107554687 | - |
+| tm-fontaines-d-c-2026-london-1agzkfogkenxxaj | Fontaines D.C. | refresh (applied) | 107636077 | https://www.stubhub.ie/fontaines-d-c-tickets-london-the-o2-arena-27-11-2026/event/107636077 | - |
+| tm-fontaines-d-c-2027-boston-vv1avzkfggkedosqi | Fontaines D.C. | refresh (applied) | 107671881 | https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-23-2027/event/107671881 | - |
 | tm-fontaines-d-c-2027-philadelphia-vv17fz_kgks-xsxp | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-fontaines-d-c-2027-detroit-vv17oz_kgksew9wu | Fontaines D.C. | none | 107672469 | https://www.stubhub.ie/fontaines-d-c-detroit-tickets-4-27-2027/event/107672469 | - |
+| tm-fontaines-d-c-2027-detroit-vv17oz_kgksew9wu | Fontaines D.C. | refresh (applied) | 107672469 | https://www.stubhub.ie/fontaines-d-c-detroit-tickets-4-27-2027/event/107672469 | - |
 | tm-fontaines-d-c-2027-chicago-vv1k8z_fkfg7zjno | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-fontaines-d-c-2027-milwaukee-vv17jz_kgkloizcl | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2027-minneapolis-vv17bz_kgkijqu5x | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fontaines-d-c-2027-vancouver-1av7z_kgkupzetr | Fontaines D.C. | none | 107672015 | https://www.stubhub.ie/fontaines-d-c-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-5-5-2027/event/107672015 | - |
-| tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c | Fontaines D.C. | none | 107672464 | https://www.stubhub.ie/fontaines-d-c-seattle-tickets-5-8-2027/event/107672464 | - |
-| tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid | Fontaines D.C. | none | 107672016 | https://www.stubhub.ie/fontaines-d-c-sacramento-tickets-5-11-2027/event/107672016 | - |
-| tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj | Fontaines D.C. | none | 107672467 | https://www.stubhub.ie/fontaines-d-c-san-francisco-tickets-5-12-2027/event/107672467 | - |
+| tm-fontaines-d-c-2027-vancouver-1av7z_kgkupzetr | Fontaines D.C. | refresh (applied) | 107672015 | https://www.stubhub.ie/fontaines-d-c-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-5-5-2027/event/107672015 | - |
+| tm-fontaines-d-c-2027-seattle-vvg1hz_kbr3b0c | Fontaines D.C. | refresh (applied) | 107672464 | https://www.stubhub.ie/fontaines-d-c-seattle-tickets-5-8-2027/event/107672464 | - |
+| tm-fontaines-d-c-2027-sacramento-g5vyz_kmgztid | Fontaines D.C. | refresh (applied) | 107672016 | https://www.stubhub.ie/fontaines-d-c-sacramento-tickets-5-11-2027/event/107672016 | - |
+| tm-fontaines-d-c-2027-san-francisco-g5vyz_k9cdguj | Fontaines D.C. | refresh (applied) | 107672467 | https://www.stubhub.ie/fontaines-d-c-san-francisco-tickets-5-12-2027/event/107672467 | - |
 | tm-fontaines-d-c-2027-milano-zg9rmiynyzd1ve | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2027-co-meath-1avoz_ogkwypefm | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2027-co-meath-1avoz_ogkw7fwfl | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2027-cardiff-g5vhz_oiinrjk | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-fontaines-d-c-2027-newcastle-upon-tyne-1adfz_ogkm3hlfk | Fontaines D.C. | none | 107665864 | https://www.stubhub.ie/fontaines-d-c-tickets-newcastle-upon-tyne-st-james-park-1-7-2027/event/107665864 | - |
-| tm-fontaines-d-c-2027-manchester-g5dzz_omjzv0z | Fontaines D.C. | none | 107665865 | https://www.stubhub.ie/fontaines-d-c-tickets-manchester-heaton-park-3-7-2027/event/107665865 | - |
-| tm-fontaines-d-c-2027-manchester-g5dzz_osdpprt | Fontaines D.C. | none | 107667263 | https://www.stubhub.ie/fontaines-d-c-tickets-manchester-heaton-park-4-7-2027/event/107667263 | - |
-| tm-fontaines-d-c-2027-glasgow-1adbz_ogkrs74cl | Fontaines D.C. | none | 107665866 | https://www.stubhub.ie/fontaines-d-c-tickets-glasgow-glasgow-green-6-7-2027/event/107665866 | - |
-| tm-fontaines-d-c-2027-london-1ku8vpf_ga19knu | Fontaines D.C. | none | 107665867 | https://www.stubhub.ie/fontaines-d-c-tickets-london-london-stadium-9-7-2027/event/107665867 | - |
+| tm-fontaines-d-c-2027-newcastle-upon-tyne-1adfz_ogkm3hlfk | Fontaines D.C. | refresh (applied) | 107665864 | https://www.stubhub.ie/fontaines-d-c-tickets-newcastle-upon-tyne-st-james-park-1-7-2027/event/107665864 | - |
+| tm-fontaines-d-c-2027-manchester-g5dzz_omjzv0z | Fontaines D.C. | refresh (applied) | 107665865 | https://www.stubhub.ie/fontaines-d-c-tickets-manchester-heaton-park-3-7-2027/event/107665865 | - |
+| tm-fontaines-d-c-2027-manchester-g5dzz_osdpprt | Fontaines D.C. | refresh (applied) | 107667263 | https://www.stubhub.ie/fontaines-d-c-tickets-manchester-heaton-park-4-7-2027/event/107667263 | - |
+| tm-fontaines-d-c-2027-glasgow-1adbz_ogkrs74cl | Fontaines D.C. | refresh (applied) | 107665866 | https://www.stubhub.ie/fontaines-d-c-tickets-glasgow-glasgow-green-6-7-2027/event/107665866 | - |
+| tm-fontaines-d-c-2027-london-1ku8vpf_ga19knu | Fontaines D.C. | refresh (applied) | 107665867 | https://www.stubhub.ie/fontaines-d-c-tickets-london-london-stadium-9-7-2027/event/107665867 | - |
 | tm-fontaines-d-c-2027-toronto-1avzz_kgkmdxopu | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2027-columbia-16vfz_fkag7mpc7 | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2027-atlanta-vvg1zz_keib7ia | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et | Fontaines D.C. | none | 107671885 | https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885 | - |
-| tm-riley-green-2026-las-vegas-z7r9jz1a7peqa | Riley Green | none | 107678763 | https://www.stubhub.ie/riley-green-las-vegas-tickets-12-6-2026/event/107678763 | - |
-| tm-riley-green-2026-las-vegas-z7r9jz1a7peq7 | Riley Green | none | 107678765 | https://www.stubhub.ie/riley-green-las-vegas-tickets-12-10-2026/event/107678765 | - |
+| tm-fontaines-d-c-2027-inglewood-vv1ke8vpuyga5p1et | Fontaines D.C. | refresh (applied) | 107671885 | https://www.stubhub.ie/fontaines-d-c-inglewood-tickets-10-15-2027/event/107671885 | - |
+| tm-riley-green-2026-las-vegas-z7r9jz1a7peqa | Riley Green | refresh (applied) | 107678763 | https://www.stubhub.ie/riley-green-las-vegas-tickets-12-6-2026/event/107678763 | - |
+| tm-riley-green-2026-las-vegas-z7r9jz1a7peq7 | Riley Green | refresh (applied) | 107678765 | https://www.stubhub.ie/riley-green-las-vegas-tickets-12-10-2026/event/107678765 | - |
 | tm-riley-green-2027-spokane-z7r9jz1aaezrp | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-riley-green-2027-seattle-vvg1hz_keoq4yp | Riley Green | none | 107671388 | https://www.stubhub.ie/riley-green-seattle-tickets-4-2-2027/event/107671388 | - |
+| tm-riley-green-2027-seattle-vvg1hz_keoq4yp | Riley Green | refresh (applied) | 107671388 | https://www.stubhub.ie/riley-green-seattle-tickets-4-2-2027/event/107671388 | - |
 | tm-riley-green-2027-eugene-vvg1hz_3divdk0 | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-edmonton-1av7z_3gkwgn0bp | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-calgary-1aozkfygkderjem | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-saskatoon-1av7z_3gkdixvhi | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-riley-green-2027-raleigh-g5evz_ke-2cfw | Riley Green | none | 107679607 | https://www.stubhub.ie/riley-green-raleigh-tickets-4-29-2027/event/107679607 | - |
+| tm-riley-green-2027-raleigh-g5evz_ke-2cfw | Riley Green | refresh (applied) | 107679607 | https://www.stubhub.ie/riley-green-raleigh-tickets-4-29-2027/event/107679607 | - |
 | tm-riley-green-2027-knoxville-g5viz_3wie3-p | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-greenville-g5evz_k14klik | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s | Riley Green | none | 107671387 | https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387 | - |
+| tm-riley-green-2027-fort-worth-vvg1yz_kepbp4s | Riley Green | refresh (applied) | 107671387 | https://www.stubhub.ie/riley-green-fort-worth-tickets-5-6-2027/event/107671387 | - |
 | tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-rogers-g5viz_k5ft6hv | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-tulsa-1aozkfsgkexhv7n | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-riley-green-2027-dallas-vvg1yz_k1h0ipi | Riley Green | none | 107679610 | https://www.stubhub.ie/riley-green-dallas-tickets-5-21-2027/event/107679610 | - |
+| tm-riley-green-2027-dallas-vvg1yz_k1h0ipi | Riley Green | refresh (applied) | 107679610 | https://www.stubhub.ie/riley-green-dallas-tickets-5-21-2027/event/107679610 | - |
 | tm-riley-green-2027-lafayette-g5viz_3r9l7s7 | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-brandon-g5viz_3t3qkqr | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-orange-beach-g5viz_kvcnsvm | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1698,91 +1685,91 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-riley-green-2027-toronto-1a8zkfwgkd5hxip | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-gilford-vv1avzkfsgke-elvi | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-gilford-vv1avzkfsgkeipxy_ | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-riley-green-2027-clarkston-vv1afzkfwgkdw_jcp | Riley Green | none | 107679602 | https://www.stubhub.ie/riley-green-clarkston-tickets-6-25-2027/event/107679602 | - |
-| tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1 | Riley Green | none | 107679605 | https://www.stubhub.ie/riley-green-clarkston-tickets-6-26-2027/event/107679605 | - |
+| tm-riley-green-2027-clarkston-vv1afzkfwgkdw_jcp | Riley Green | refresh (applied) | 107679602 | https://www.stubhub.ie/riley-green-clarkston-tickets-6-25-2027/event/107679602 | - |
+| tm-riley-green-2027-clarkston-vv1afzkfygkenvgq1 | Riley Green | refresh (applied) | 107679605 | https://www.stubhub.ie/riley-green-clarkston-tickets-6-26-2027/event/107679605 | - |
 | tm-riley-green-2027-syracuse-k7vgf_k1rwxjy | Riley Green | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-riley-green-2027-allentown-1adzz_3gkdwsja0 | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-riley-green-2027-columbia-1a4zkfwgkdajcik | Riley Green | none | 107679601 | https://www.stubhub.ie/riley-green-columbia-tickets-7-22-2027/event/107679601 | - |
+| tm-riley-green-2027-columbia-1a4zkfwgkdajcik | Riley Green | refresh (applied) | 107679601 | https://www.stubhub.ie/riley-green-columbia-tickets-7-22-2027/event/107679601 | - |
 | tm-riley-green-2027-bethel-k7vgf_kkxvsto | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm | Riley Green | none | 107671436 | https://www.stubhub.ie/riley-green-mansfield-tickets-7-24-2027/event/107671436 | - |
+| tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm | Riley Green | refresh (applied) | 107671436 | https://www.stubhub.ie/riley-green-mansfield-tickets-7-24-2027/event/107671436 | - |
 | tm-riley-green-2027-evansville-vv16azkfwxpza8acgv | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-maryland-heights-vv1fvovpgtqtz755aa | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-riley-green-2027-milwaukee-vv1a6zkfwgkdjdyhh | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-eugene-z7r9jz1aaeojp | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-austin-g5diz_kepkpyq | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-carly-rae-jepsen-2027-edmonton-1av7z_kgklarlu8 | Carly Rae Jepsen | none | 107671807 | https://www.stubhub.ie/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/event/107671807 | - |
+| tm-carly-rae-jepsen-2027-edmonton-1av7z_kgklarlu8 | Carly Rae Jepsen | refresh (applied) | 107671807 | https://www.stubhub.ie/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/event/107671807 | - |
 | tm-carly-rae-jepsen-2027-calgary-1av7z_kgkulm9f3 | Carly Rae Jepsen | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-carly-rae-jepsen-2027-vancouver-1av7z_kgklk3dkw | Carly Rae Jepsen | none | 107670983 | https://www.stubhub.ie/carly-rae-jepsen-tickets-vancouver-orpheum-theatre-vancouver-4-18-2027/event/107670983 | - |
-| tm-carly-rae-jepsen-2027-san-francisco-g5vyz_kdn9abg | Carly Rae Jepsen | none | 107671822 | https://www.stubhub.ie/carly-rae-jepsen-san-francisco-tickets-4-21-2027/event/107671822 | - |
-| tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm | Carly Rae Jepsen | none | 107671547 | https://www.stubhub.ie/carly-rae-jepsen-inglewood-tickets-4-22-2027/event/107671547 | - |
-| tm-carly-rae-jepsen-2027-san-diego-vvg1iz_kmdzlco | Carly Rae Jepsen | none | 107671798 | https://www.stubhub.ie/carly-rae-jepsen-san-diego-tickets-4-23-2027/event/107671798 | - |
-| tm-carly-rae-jepsen-2027-las-vegas-1avjz_kgksxz4qo | Carly Rae Jepsen | none | 107671811 | https://www.stubhub.ie/carly-rae-jepsen-las-vegas-tickets-4-30-2027/event/107671811 | - |
-| tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n | Carly Rae Jepsen | none | 107671825 | https://www.stubhub.ie/carly-rae-jepsen-phoenix-tickets-5-1-2027/event/107671825 | - |
-| tm-carly-rae-jepsen-2027-irving-vvg1yz_kwbaerl | Carly Rae Jepsen | none | 107671805 | https://www.stubhub.ie/carly-rae-jepsen-irving-tickets-5-5-2027/event/107671805 | - |
-| tm-carly-rae-jepsen-2027-austin-g5diz_kbdqtji | Carly Rae Jepsen | none | 107671818 | https://www.stubhub.ie/carly-rae-jepsen-austin-tickets-5-7-2027/event/107671818 | - |
-| tm-carly-rae-jepsen-2027-houston-g5diz_kbuz9jg | Carly Rae Jepsen | none | 107671550 | https://www.stubhub.ie/carly-rae-jepsen-houston-tickets-5-8-2027/event/107671550 | - |
+| tm-carly-rae-jepsen-2027-vancouver-1av7z_kgklk3dkw | Carly Rae Jepsen | refresh (applied) | 107670983 | https://www.stubhub.ie/carly-rae-jepsen-tickets-vancouver-orpheum-theatre-vancouver-4-18-2027/event/107670983 | - |
+| tm-carly-rae-jepsen-2027-san-francisco-g5vyz_kdn9abg | Carly Rae Jepsen | refresh (applied) | 107671822 | https://www.stubhub.ie/carly-rae-jepsen-san-francisco-tickets-4-21-2027/event/107671822 | - |
+| tm-carly-rae-jepsen-2027-inglewood-vv170z_kgkmkrrsm | Carly Rae Jepsen | refresh (applied) | 107671547 | https://www.stubhub.ie/carly-rae-jepsen-inglewood-tickets-4-22-2027/event/107671547 | - |
+| tm-carly-rae-jepsen-2027-san-diego-vvg1iz_kmdzlco | Carly Rae Jepsen | refresh (applied) | 107671798 | https://www.stubhub.ie/carly-rae-jepsen-san-diego-tickets-4-23-2027/event/107671798 | - |
+| tm-carly-rae-jepsen-2027-las-vegas-1avjz_kgksxz4qo | Carly Rae Jepsen | refresh (applied) | 107671811 | https://www.stubhub.ie/carly-rae-jepsen-las-vegas-tickets-4-30-2027/event/107671811 | - |
+| tm-carly-rae-jepsen-2027-phoenix-1kk8vpc_gacbk4n | Carly Rae Jepsen | refresh (applied) | 107671825 | https://www.stubhub.ie/carly-rae-jepsen-phoenix-tickets-5-1-2027/event/107671825 | - |
+| tm-carly-rae-jepsen-2027-irving-vvg1yz_kwbaerl | Carly Rae Jepsen | refresh (applied) | 107671805 | https://www.stubhub.ie/carly-rae-jepsen-irving-tickets-5-5-2027/event/107671805 | - |
+| tm-carly-rae-jepsen-2027-austin-g5diz_kbdqtji | Carly Rae Jepsen | refresh (applied) | 107671818 | https://www.stubhub.ie/carly-rae-jepsen-austin-tickets-5-7-2027/event/107671818 | - |
+| tm-carly-rae-jepsen-2027-houston-g5diz_kbuz9jg | Carly Rae Jepsen | refresh (applied) | 107671550 | https://www.stubhub.ie/carly-rae-jepsen-houston-tickets-5-8-2027/event/107671550 | - |
 | tm-carly-rae-jepsen-2027-nashville-g5viz_kdzypqh | Carly Rae Jepsen | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-carly-rae-jepsen-2027-atlanta-vvg1zz_kmrbzzs | Carly Rae Jepsen | none | 107671834 | https://www.stubhub.ie/carly-rae-jepsen-atlanta-tickets-5-11-2027/event/107671834 | - |
-| tm-carly-rae-jepsen-2027-charlotte-g5evz_ksv1qq1 | Carly Rae Jepsen | none | 107671821 | https://www.stubhub.ie/carly-rae-jepsen-charlotte-tickets-5-12-2027/event/107671821 | - |
-| tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn | Carly Rae Jepsen | none | 107671883 | https://www.stubhub.ie/carly-rae-jepsen-washington-tickets-5-14-2027/event/107671883 | - |
-| tm-carly-rae-jepsen-2027-new-york-g5diz_krvp7ot | Carly Rae Jepsen | none | 107671551 | https://www.stubhub.ie/carly-rae-jepsen-new-york-tickets-5-15-2027/event/107671551 | - |
+| tm-carly-rae-jepsen-2027-atlanta-vvg1zz_kmrbzzs | Carly Rae Jepsen | refresh (applied) | 107671834 | https://www.stubhub.ie/carly-rae-jepsen-atlanta-tickets-5-11-2027/event/107671834 | - |
+| tm-carly-rae-jepsen-2027-charlotte-g5evz_ksv1qq1 | Carly Rae Jepsen | refresh (applied) | 107671821 | https://www.stubhub.ie/carly-rae-jepsen-charlotte-tickets-5-12-2027/event/107671821 | - |
+| tm-carly-rae-jepsen-2027-washington-1avfz_kgkz-xcfn | Carly Rae Jepsen | refresh (applied) | 107671883 | https://www.stubhub.ie/carly-rae-jepsen-washington-tickets-5-14-2027/event/107671883 | - |
+| tm-carly-rae-jepsen-2027-new-york-g5diz_krvp7ot | Carly Rae Jepsen | refresh (applied) | 107671551 | https://www.stubhub.ie/carly-rae-jepsen-new-york-tickets-5-15-2027/event/107671551 | - |
 | tm-carly-rae-jepsen-2027-philadelphia-vv17fz_kgkmz_nj4 | Carly Rae Jepsen | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-carly-rae-jepsen-2027-boston-vv177z_kgklscrut | Carly Rae Jepsen | none | 107671552 | https://www.stubhub.ie/carly-rae-jepsen-boston-tickets-5-19-2027/event/107671552 | - |
-| tm-carly-rae-jepsen-2027-chicago-vv17jz_kgkbbdisc | Carly Rae Jepsen | none | 107671809 | https://www.stubhub.ie/carly-rae-jepsen-chicago-tickets-5-21-2027/event/107671809 | - |
-| tm-carly-rae-jepsen-2027-detroit-vv17oz_kgkdnnigp | Carly Rae Jepsen | none | 107671817 | https://www.stubhub.ie/carly-rae-jepsen-detroit-tickets-5-22-2027/event/107671817 | - |
+| tm-carly-rae-jepsen-2027-boston-vv177z_kgklscrut | Carly Rae Jepsen | refresh (applied) | 107671552 | https://www.stubhub.ie/carly-rae-jepsen-boston-tickets-5-19-2027/event/107671552 | - |
+| tm-carly-rae-jepsen-2027-chicago-vv17jz_kgkbbdisc | Carly Rae Jepsen | refresh (applied) | 107671809 | https://www.stubhub.ie/carly-rae-jepsen-chicago-tickets-5-21-2027/event/107671809 | - |
+| tm-carly-rae-jepsen-2027-detroit-vv17oz_kgkdnnigp | Carly Rae Jepsen | refresh (applied) | 107671817 | https://www.stubhub.ie/carly-rae-jepsen-detroit-tickets-5-22-2027/event/107671817 | - |
 | tm-carly-rae-jepsen-2027-toronto-1avzz_kgkiawwxu | Carly Rae Jepsen | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-carly-rae-jepsen-2027-ottawa-1ad7z_kgkir7yjb | Carly Rae Jepsen | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-carly-rae-jepsen-2027-montreal-1ad7z_kgkumfj2g | Carly Rae Jepsen | none | 107671816 | https://www.stubhub.ie/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027/event/107671816 | - |
-| tm-teddy-swims-2027-hamburg-z698xzc2z16vpvz6g3 | Teddy Swims | none | 107458276 | https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276 | - |
-| tm-the-warning-2027-london-1adjz_3gknpoval | The Warning | none | 107668110 | https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110 | - |
+| tm-carly-rae-jepsen-2027-montreal-1ad7z_kgkumfj2g | Carly Rae Jepsen | refresh (applied) | 107671816 | https://www.stubhub.ie/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027/event/107671816 | - |
+| tm-teddy-swims-2027-hamburg-z698xzc2z16vpvz6g3 | Teddy Swims | refresh (applied) | 107458276 | https://www.stubhub.ie/teddy-swims-tickets-hamburg-barclays-arena-hamburg-10-3-2027/event/107458276 | - |
+| tm-the-warning-2027-london-1adjz_3gknpoval | The Warning | refresh (applied) | 107668110 | https://www.stubhub.ie/the-warning-tickets-london-ovo-arena-wembley-2-4-2027/event/107668110 | - |
 | tm-the-lemonheads-2027-englewood-z7r9jz1aavvvk | The Lemonheads | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-haiden-henderson-2027-englewood-z7r9jz1aaevqs | Haiden Henderson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-lubbock-z7r9jz1aaef4t | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-pink-martini-2027-liverpool-g5vhz_fpr6w_w | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj | Pink Martini | none | 107671926 | https://www.stubhub.ie/pink-martini-tickets-edinburgh-usher-hall-4-7-2027/event/107671926 | - |
+| tm-pink-martini-2027-edinburgh-1auzk4agkdmo6dj | Pink Martini | refresh (applied) | 107671926 | https://www.stubhub.ie/pink-martini-tickets-edinburgh-usher-hall-4-7-2027/event/107671926 | - |
 | tm-the-neighbourhood-2026-nashville-g5viz_kmzyt_i | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-neighbourhood-2026-kansas-city-vv17bz_7gkr3ru0p | The Neighbourhood | none | 107121127 | https://www.stubhub.ie/the-neighbourhood-kansas-city-tickets-11-16-2026/event/107121127 | - |
-| tm-the-neighbourhood-2026-chicago-vv1a7zkoagkdxvkbx | The Neighbourhood | none | 107148374 | https://www.stubhub.ie/the-neighbourhood-chicago-tickets-11-18-2026/event/107148374 | - |
-| tm-the-neighbourhood-2026-detroit-vv17oz_7gkwiaino | The Neighbourhood | none | 107121126 | https://www.stubhub.ie/the-neighbourhood-detroit-tickets-11-19-2026/event/107121126 | - |
-| tm-the-neighbourhood-2026-brooklyn-1ayzkoagkdftezg | The Neighbourhood | none | 107121128 | https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-21-2026/event/107121128 | - |
-| tm-the-neighbourhood-2026-brooklyn-15dzz_aozvwft | The Neighbourhood | none | 107165138 | https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-22-2026/event/107165138 | - |
-| tm-the-neighbourhood-2026-phoenix-16v0z_ac6g7w4dv | The Neighbourhood | none | 107123113 | https://www.stubhub.ie/the-neighbourhood-phoenix-tickets-11-30-2026/event/107123113 | - |
-| tm-the-neighbourhood-2026-san-francisco-g5vyz_a2kv6-_ | The Neighbourhood | none | 107123114 | https://www.stubhub.ie/the-neighbourhood-san-francisco-tickets-12-2-2026/event/107123114 | - |
-| tm-the-neighbourhood-2026-inglewood-vv1aazkodgkdu9feo | The Neighbourhood | none | 107123115 | https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-4-2026/event/107123115 | - |
-| tm-the-neighbourhood-2026-inglewood-vv1k0z_a8dg7vtxb | The Neighbourhood | none | 107164092 | https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-5-2026/event/107164092 | - |
+| tm-the-neighbourhood-2026-kansas-city-vv17bz_7gkr3ru0p | The Neighbourhood | refresh (applied) | 107121127 | https://www.stubhub.ie/the-neighbourhood-kansas-city-tickets-11-16-2026/event/107121127 | - |
+| tm-the-neighbourhood-2026-chicago-vv1a7zkoagkdxvkbx | The Neighbourhood | refresh (applied) | 107148374 | https://www.stubhub.ie/the-neighbourhood-chicago-tickets-11-18-2026/event/107148374 | - |
+| tm-the-neighbourhood-2026-detroit-vv17oz_7gkwiaino | The Neighbourhood | refresh (applied) | 107121126 | https://www.stubhub.ie/the-neighbourhood-detroit-tickets-11-19-2026/event/107121126 | - |
+| tm-the-neighbourhood-2026-brooklyn-1ayzkoagkdftezg | The Neighbourhood | refresh (applied) | 107121128 | https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-21-2026/event/107121128 | - |
+| tm-the-neighbourhood-2026-brooklyn-15dzz_aozvwft | The Neighbourhood | refresh (applied) | 107165138 | https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-22-2026/event/107165138 | - |
+| tm-the-neighbourhood-2026-phoenix-16v0z_ac6g7w4dv | The Neighbourhood | refresh (applied) | 107123113 | https://www.stubhub.ie/the-neighbourhood-phoenix-tickets-11-30-2026/event/107123113 | - |
+| tm-the-neighbourhood-2026-san-francisco-g5vyz_a2kv6-_ | The Neighbourhood | refresh (applied) | 107123114 | https://www.stubhub.ie/the-neighbourhood-san-francisco-tickets-12-2-2026/event/107123114 | - |
+| tm-the-neighbourhood-2026-inglewood-vv1aazkodgkdu9feo | The Neighbourhood | refresh (applied) | 107123115 | https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-4-2026/event/107123115 | - |
+| tm-the-neighbourhood-2026-inglewood-vv1k0z_a8dg7vtxb | The Neighbourhood | refresh (applied) | 107164092 | https://www.stubhub.ie/the-neighbourhood-inglewood-tickets-12-5-2026/event/107164092 | - |
 | tm-staind-2027-manchester-vv177z_kgkbyj0rc | Staind | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-staind-2027-baltimore-11a8vpokayf8vu | Staind | none | 107677685 | https://www.stubhub.ie/staind-baltimore-tickets-3-6-2027/event/107677685 | - |
-| tm-staind-2027-pittsburgh-1avbz_kgkdoccp7 | Staind | none | 107677645 | https://www.stubhub.ie/staind-pittsburgh-tickets-3-8-2027/event/107677645 | - |
+| tm-staind-2027-baltimore-11a8vpokayf8vu | Staind | refresh (applied) | 107677685 | https://www.stubhub.ie/staind-baltimore-tickets-3-6-2027/event/107677685 | - |
+| tm-staind-2027-pittsburgh-1avbz_kgkdoccp7 | Staind | refresh (applied) | 107677645 | https://www.stubhub.ie/staind-pittsburgh-tickets-3-8-2027/event/107677645 | - |
 | tm-staind-2027-reading-vv1aezk4vgkeshnyh | Staind | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-staind-2027-huntington-1kaovp8iga2ivff | Staind | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-staind-2027-tampa-vvg1vz_f6ermdd | Staind | none | 107677684 | https://www.stubhub.ie/staind-tampa-tickets-3-12-2027/event/107677684 | - |
-| tm-staind-2027-west-palm-beach-vvg1vz_kdb8l2e | Staind | none | 107677674 | https://www.stubhub.ie/staind-west-palm-beach-tickets-3-13-2027/event/107677674 | - |
-| tm-staind-2027-birmingham-1aozk4vgkdpep6o | Staind | none | 107677637 | https://www.stubhub.ie/staind-north-birmingham-tickets-3-16-2027/event/107677637 | - |
-| tm-staind-2027-oklahoma-city-vvg1yz_kb9ngdb | Staind | none | 107677638 | https://www.stubhub.ie/staind-oklahoma-city-tickets-3-18-2027/event/107677638 | - |
-| tm-staind-2027-dallas-vvg1yz_ffb7hxs | Staind | none | 107677642 | https://www.stubhub.ie/staind-dallas-tickets-3-19-2027/event/107677642 | - |
-| tm-staind-2027-san-antonio-g5diz_fkhzhba | Staind | none | 107677647 | https://www.stubhub.ie/staind-san-antonio-tickets-3-20-2027/event/107677647 | - |
-| tm-staind-2027-denver-g5vzz_f7kx5yq | Staind | none | 107677624 | https://www.stubhub.ie/staind-denver-tickets-3-22-2027/event/107677624 | - |
+| tm-staind-2027-tampa-vvg1vz_f6ermdd | Staind | refresh (applied) | 107677684 | https://www.stubhub.ie/staind-tampa-tickets-3-12-2027/event/107677684 | - |
+| tm-staind-2027-west-palm-beach-vvg1vz_kdb8l2e | Staind | refresh (applied) | 107677674 | https://www.stubhub.ie/staind-west-palm-beach-tickets-3-13-2027/event/107677674 | - |
+| tm-staind-2027-birmingham-1aozk4vgkdpep6o | Staind | refresh (applied) | 107677637 | https://www.stubhub.ie/staind-north-birmingham-tickets-3-16-2027/event/107677637 | - |
+| tm-staind-2027-oklahoma-city-vvg1yz_kb9ngdb | Staind | refresh (applied) | 107677638 | https://www.stubhub.ie/staind-oklahoma-city-tickets-3-18-2027/event/107677638 | - |
+| tm-staind-2027-dallas-vvg1yz_ffb7hxs | Staind | refresh (applied) | 107677642 | https://www.stubhub.ie/staind-dallas-tickets-3-19-2027/event/107677642 | - |
+| tm-staind-2027-san-antonio-g5diz_fkhzhba | Staind | refresh (applied) | 107677647 | https://www.stubhub.ie/staind-san-antonio-tickets-3-20-2027/event/107677647 | - |
+| tm-staind-2027-denver-g5vzz_f7kx5yq | Staind | refresh (applied) | 107677624 | https://www.stubhub.ie/staind-denver-tickets-3-22-2027/event/107677624 | - |
 | tm-staind-2027-boise-g5vzz_kb7mfuo | Staind | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-staind-2027-seattle-vvg1hz_km9huyk | Staind | none | 107677669 | https://www.stubhub.ie/staind-seattle-tickets-3-27-2027/event/107677669 | - |
-| tm-staind-2027-vancouver-1aozk4egkdceqzp | Staind | none | 107677691 | https://www.stubhub.ie/staind-tickets-vancouver-rogers-arena-3-29-2027/event/107677691 | - |
-| tm-staind-2027-calgary-1av7z_kgkm-emew | Staind | none | 107677623 | https://www.stubhub.ie/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/event/107677623 | - |
-| tm-staind-2027-edmonton-1av7z_kgkz_xe9- | Staind | none | 107677660 | https://www.stubhub.ie/staind-tickets-edmonton-rogers-place-4-1-2027/event/107677660 | - |
+| tm-staind-2027-seattle-vvg1hz_km9huyk | Staind | refresh (applied) | 107677669 | https://www.stubhub.ie/staind-seattle-tickets-3-27-2027/event/107677669 | - |
+| tm-staind-2027-vancouver-1aozk4egkdceqzp | Staind | refresh (applied) | 107677691 | https://www.stubhub.ie/staind-tickets-vancouver-rogers-arena-3-29-2027/event/107677691 | - |
+| tm-staind-2027-calgary-1av7z_kgkm-emew | Staind | refresh (applied) | 107677623 | https://www.stubhub.ie/staind-tickets-calgary-scotiabank-saddledome-3-31-2027/event/107677623 | - |
+| tm-staind-2027-edmonton-1av7z_kgkz_xe9- | Staind | refresh (applied) | 107677660 | https://www.stubhub.ie/staind-tickets-edmonton-rogers-place-4-1-2027/event/107677660 | - |
 | tm-staind-2027-sioux-falls-vv1akzk4vgkd8j7ov | Staind | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-staind-2027-fargo-vv17bz_kgkuwy5mz | Staind | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-staind-2027-omaha-vv1kvovp8tga5iapt | Staind | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-staind-2027-kansas-city-vv1akzk4vgkegdrbt | Staind | none | 107677663 | https://www.stubhub.ie/staind-kansas-city-tickets-4-10-2027/event/107677663 | - |
-| tm-staind-2027-moline-vv1fbz_fkec7zdga1 | Staind | none | 107677652 | https://www.stubhub.ie/staind-moline-tickets-4-11-2027/event/107677652 | - |
-| tm-staind-2027-grand-rapids-vv17oz_kgkmqeain | Staind | none | 107677634 | https://www.stubhub.ie/staind-grand-rapids-tickets-4-13-2027/event/107677634 | - |
+| tm-staind-2027-kansas-city-vv1akzk4vgkegdrbt | Staind | refresh (applied) | 107677663 | https://www.stubhub.ie/staind-kansas-city-tickets-4-10-2027/event/107677663 | - |
+| tm-staind-2027-moline-vv1fbz_fkec7zdga1 | Staind | refresh (applied) | 107677652 | https://www.stubhub.ie/staind-moline-tickets-4-11-2027/event/107677652 | - |
+| tm-staind-2027-grand-rapids-vv17oz_kgkmqeain | Staind | refresh (applied) | 107677634 | https://www.stubhub.ie/staind-grand-rapids-tickets-4-13-2027/event/107677634 | - |
 | tm-staind-2027-evansville-vv17fz_kgkd3hr7l | Staind | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2026-apopka-z7r9jz1a7ps7y | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2026-brisbane-177yv0g61tezlg8 | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2026-sydney-177yv0g655_-4r3 | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2026-west-melbourne-177yv0g653cuwz_ | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dylan-gossett-2027-london-g5dzz_8kn_3tz | Dylan Gossett | none | 107469555 | https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555 | - |
+| tm-dylan-gossett-2027-london-g5dzz_8kn_3tz | Dylan Gossett | refresh (applied) | 107469555 | https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555 | - |
 | tm-dylan-gossett-2027-manchester-g5dzz_8hqwevt | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-dylan-gossett-2027-birmingham-g5dzz_83l8ohz | Dylan Gossett | none | 107476097 | https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097 | - |
-| tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3 | Dylan Gossett | none | 107482715 | https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715 | - |
-| tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp | Dylan Gossett | none | 107469557 | https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557 | - |
+| tm-dylan-gossett-2027-birmingham-g5dzz_83l8ohz | Dylan Gossett | refresh (applied) | 107476097 | https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097 | - |
+| tm-dylan-gossett-2027-glasgow-g5dzz_8pg5sb3 | Dylan Gossett | refresh (applied) | 107482715 | https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715 | - |
+| tm-dylan-gossett-2027-glasgow-g5dzz_8qwdoqp | Dylan Gossett | refresh (applied) | 107469557 | https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557 | - |
 | tm-dylan-gossett-2027-dublin-17kzv0g62wo552g | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2027-charleston-g5evz_kdp4j6z | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2027-north-myrtle-beach-g5evz_kuxkrl8 | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1818,8 +1805,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-flans-2027-houston-g5diz_k6-kevr | Flans | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-flans-2027-mcallen-g5diz_3wgxkbw | Flans | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-flans-2027-san-jose-g5vyz_k6lhlxq | Flans | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-warren-zeiders-2027-orlando-1axzk4vgkenxkjc | Warren Zeiders | none | 107672617 | https://www.stubhub.ie/warren-zeiders-orlando-tickets-3-25-2027/event/107672617 | - |
-| tm-warren-zeiders-2027-hollywood-vvg1vz_fkapkzq | Warren Zeiders | none | 107671875 | https://www.stubhub.ie/warren-zeiders-hollywood-tickets-3-26-2027/event/107671875 | - |
+| tm-warren-zeiders-2027-orlando-1axzk4vgkenxkjc | Warren Zeiders | refresh (applied) | 107672617 | https://www.stubhub.ie/warren-zeiders-orlando-tickets-3-25-2027/event/107672617 | - |
+| tm-warren-zeiders-2027-hollywood-vvg1vz_fkapkzq | Warren Zeiders | refresh (applied) | 107671875 | https://www.stubhub.ie/warren-zeiders-hollywood-tickets-3-26-2027/event/107671875 | - |
 | tm-warren-zeiders-2027-waukee-1ae7z_kgkdkgpa5 | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-warren-zeiders-2027-grand-rapids-vv1afzk4vgkeyak2y | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-warren-zeiders-2027-chicago-vv1k8z_f1pg7v9f6 | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
@@ -1827,26 +1814,26 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-warren-zeiders-2027-pittsburgh-1apzk4vgkd7rttm | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-warren-zeiders-2027-cincinnati-1avbz_kgkbydi6_ | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-warren-zeiders-2027-columbia-g5evz_kbmywhz | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-warren-zeiders-2027-atlanta-vvg1zz_f6dz4ap | Warren Zeiders | none | 107672606 | https://www.stubhub.ie/warren-zeiders-atlanta-tickets-4-30-2027/event/107672606 | - |
+| tm-warren-zeiders-2027-atlanta-vvg1zz_f6dz4ap | Warren Zeiders | refresh (applied) | 107672606 | https://www.stubhub.ie/warren-zeiders-atlanta-tickets-4-30-2027/event/107672606 | - |
 | tm-john-summit-2027-warsaw-z698xzqpz16eva44jn | John Summit | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-john-summit-2027-forest-brussels-z698xzg2z1kfkv_0g | John Summit | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-john-summit-2027-amsterdam-z698xzbpz16vu0fx-w | John Summit | none | 107671906 | https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906 | - |
-| tm-john-summit-2027-london-1agzk4egkdwrmjf | John Summit | none | 107671913 | https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913 | - |
-| tm-pink-martini-2027-london-g5vhz_fqbbwez | Pink Martini | none | 107671924 | https://www.stubhub.ie/pink-martini-tickets-london-london-royal-albert-hall-2-7-2027/event/107671924 | - |
+| tm-john-summit-2027-amsterdam-z698xzbpz16vu0fx-w | John Summit | refresh (applied) | 107671906 | https://www.stubhub.ie/john-summit-tickets-amsterdam-ziggo-dome-13-2-2027/event/107671906 | - |
+| tm-john-summit-2027-london-1agzk4egkdwrmjf | John Summit | refresh (applied) | 107671913 | https://www.stubhub.ie/john-summit-tickets-london-the-o2-arena-27-2-2027/event/107671913 | - |
+| tm-pink-martini-2027-london-g5vhz_fqbbwez | Pink Martini | refresh (applied) | 107671924 | https://www.stubhub.ie/pink-martini-tickets-london-london-royal-albert-hall-2-7-2027/event/107671924 | - |
 | tm-haiden-henderson-2027-salt-lake-city-z7r9jz1aaeefa | Haiden Henderson | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-red-clay-strays-2027-los-angeles-z7r9jz1aaek0t | The Red Clay Strays | none | 107672795 | https://www.stubhub.ie/the-red-clay-strays-los-angeles-tickets-8-17-2027/event/107672795 | - |
+| tm-the-red-clay-strays-2027-los-angeles-z7r9jz1aaek0t | The Red Clay Strays | refresh (applied) | 107672795 | https://www.stubhub.ie/the-red-clay-strays-los-angeles-tickets-8-17-2027/event/107672795 | - |
 | tm-carly-rae-jepsen-2027-toronto-1a8zk47gkd65fpy | Carly Rae Jepsen | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-flans-2027-grand-prairie-z7r9jz1aaeaoe | Flans | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-huntsville-z7r9jz1aavu_y | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-lemonheads-2027-omaha-z7r9jz1aavv7w | The Lemonheads | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fontaines-d-c-2027-boston-vv1avzkfggkedloqr | Fontaines D.C. | none | 107672109 | https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-22-2027/event/107672109 | - |
+| tm-fontaines-d-c-2027-boston-vv1avzkfggkedloqr | Fontaines D.C. | refresh (applied) | 107672109 | https://www.stubhub.ie/fontaines-d-c-boston-tickets-4-22-2027/event/107672109 | - |
 | tm-fontaines-d-c-2027-vancouver-1aozk4v0aa_zegf | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-latto-2026-boston-z7r9jz1aae_7z | Latto | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-dallas-z7r9jz1aavuug | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-too-many-zooz-2027-portland-z7r9jz1aaeerf | Too Many Zooz | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-cleveland-z7r9jz1aaefgw | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-carly-rae-jepsen-2027-portland-z7r9jz1aaekuy | Carly Rae Jepsen | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz | Carly Rae Jepsen | none | 107671803 | https://www.stubhub.ie/carly-rae-jepsen-morrison-tickets-4-25-2027/event/107671803 | - |
+| tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz | Carly Rae Jepsen | refresh (applied) | 107671803 | https://www.stubhub.ie/carly-rae-jepsen-morrison-tickets-4-25-2027/event/107671803 | - |
 | tm-carly-rae-jepsen-2027-salt-lake-city-z7r9jz1aaekuv | Carly Rae Jepsen | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-dancing-with-the-stars-2027-manchester-vv1avzkfzgkexi5cw | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-buffalo-k7v16k4vppotze82 | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1858,17 +1845,17 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dancing-with-the-stars-2027-minneapolis-vv1akzkfzgkdjnlsm | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-milwaukee-vv1a6zkfzgkemf4pv | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-allentown-1kgzvp8fgagolc1 | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dancing-with-the-stars-2027-philadelphia-1ayzk4vgkepepvt | Dancing With The Stars | none | 107672823 | https://www.stubhub.ie/dancing-with-the-stars-philadelphia-tickets-2-4-2027/event/107672823 | - |
-| tm-dancing-with-the-stars-2027-new-york-g5diz_f1zup-t | Dancing With The Stars | none | 107672247 | https://www.stubhub.ie/dancing-with-the-stars-new-york-tickets-2-5-2027/event/107672247 | - |
-| tm-dancing-with-the-stars-2027-washington-1a4zkfsgkew-uk5 | Dancing With The Stars | none | 107672824 | https://www.stubhub.ie/dancing-with-the-stars-washington-tickets-2-7-2027/event/107672824 | - |
+| tm-dancing-with-the-stars-2027-philadelphia-1ayzk4vgkepepvt | Dancing With The Stars | refresh (applied) | 107672823 | https://www.stubhub.ie/dancing-with-the-stars-philadelphia-tickets-2-4-2027/event/107672823 | - |
+| tm-dancing-with-the-stars-2027-new-york-g5diz_f1zup-t | Dancing With The Stars | refresh (applied) | 107672247 | https://www.stubhub.ie/dancing-with-the-stars-new-york-tickets-2-5-2027/event/107672247 | - |
+| tm-dancing-with-the-stars-2027-washington-1a4zkfsgkew-uk5 | Dancing With The Stars | refresh (applied) | 107672824 | https://www.stubhub.ie/dancing-with-the-stars-washington-tickets-2-7-2027/event/107672824 | - |
 | tm-dancing-with-the-stars-2027-baltimore-1a4zk4vgkewzdyv | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-pittsburgh-1apzkfygkdqrluc | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dancing-with-the-stars-2027-boston-vv177z_kgks9d4wi | Dancing With The Stars | none | 107672248 | https://www.stubhub.ie/dancing-with-the-stars-boston-tickets-2-11-2027/event/107672248 | - |
+| tm-dancing-with-the-stars-2027-boston-vv177z_kgks9d4wi | Dancing With The Stars | refresh (applied) | 107672248 | https://www.stubhub.ie/dancing-with-the-stars-boston-tickets-2-11-2027/event/107672248 | - |
 | tm-dancing-with-the-stars-2027-albany-k7vgf_km48smn | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dancing-with-the-stars-2027-newark-vv17fz_kgkbxwhxi | Dancing With The Stars | none | 107672825 | https://www.stubhub.ie/dancing-with-the-stars-newark-tickets-2-13-2027/event/107672825 | - |
+| tm-dancing-with-the-stars-2027-newark-vv17fz_kgkbxwhxi | Dancing With The Stars | refresh (applied) | 107672825 | https://www.stubhub.ie/dancing-with-the-stars-newark-tickets-2-13-2027/event/107672825 | - |
 | tm-dancing-with-the-stars-2027-hershey-vv1aezk4egkd_54wn | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-columbus-vv1kv8vp83gacza6r | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dancing-with-the-stars-2027-rosemont-vv178z_kgku4hpsc | Dancing With The Stars | none | 107672249 | https://www.stubhub.ie/dancing-with-the-stars-rosemont-tickets-2-19-2027/event/107672249 | - |
+| tm-dancing-with-the-stars-2027-rosemont-vv178z_kgku4hpsc | Dancing With The Stars | refresh (applied) | 107672249 | https://www.stubhub.ie/dancing-with-the-stars-rosemont-tickets-2-19-2027/event/107672249 | - |
 | tm-dancing-with-the-stars-2027-moline-vv17bz_kgkbyihs4 | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-omaha-vv1akzk4egkdjg6nb | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-kansas-city-vv1kbz_fk9g7ylk6 | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1881,19 +1868,19 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dancing-with-the-stars-2027-tampa-vvg1vz_kbbl4rs | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-birmingham-1aezz_kgkwr4ecx | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-new-orleans-g5viz_kxwz34h | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dancing-with-the-stars-2027-austin-g5diz_knamopo | Dancing With The Stars | none | 107672826 | https://www.stubhub.ie/dancing-with-the-stars-austin-tickets-3-12-2027/event/107672826 | - |
-| tm-dancing-with-the-stars-2027-san-antonio-g5diz_kdu_auv | Dancing With The Stars | none | 107672827 | https://www.stubhub.ie/dancing-with-the-stars-san-antonio-tickets-3-13-2027/event/107672827 | - |
+| tm-dancing-with-the-stars-2027-austin-g5diz_knamopo | Dancing With The Stars | refresh (applied) | 107672826 | https://www.stubhub.ie/dancing-with-the-stars-austin-tickets-3-12-2027/event/107672826 | - |
+| tm-dancing-with-the-stars-2027-san-antonio-g5diz_kdu_auv | Dancing With The Stars | refresh (applied) | 107672827 | https://www.stubhub.ie/dancing-with-the-stars-san-antonio-tickets-3-13-2027/event/107672827 | - |
 | tm-dancing-with-the-stars-2027-dallas-vvg1yz_ke4gsnj | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-tulsa-1aezz_kgkslhpir | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-denver-g5vzz_kbv0118 | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dancing-with-the-stars-2027-seattle-vvg1hz_f63jugd | Dancing With The Stars | none | 107672828 | https://www.stubhub.ie/dancing-with-the-stars-seattle-tickets-3-22-2027/event/107672828 | - |
+| tm-dancing-with-the-stars-2027-seattle-vvg1hz_f63jugd | Dancing With The Stars | refresh (applied) | 107672828 | https://www.stubhub.ie/dancing-with-the-stars-seattle-tickets-3-22-2027/event/107672828 | - |
 | tm-dancing-with-the-stars-2027-abbotsford-1aozkfygkejjqyp | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-portland-vvg1hz_kxomi0l | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dancing-with-the-stars-2027-sacramento-g5vyz_kzd-r6s | Dancing With The Stars | none | 107672250 | https://www.stubhub.ie/dancing-with-the-stars-sacramento-tickets-3-26-2027/event/107672250 | - |
-| tm-dancing-with-the-stars-2027-san-jose-g5vyz_kxgynut | Dancing With The Stars | none | 107672251 | https://www.stubhub.ie/dancing-with-the-stars-san-jose-tickets-3-27-2027/event/107672251 | - |
+| tm-dancing-with-the-stars-2027-sacramento-g5vyz_kzd-r6s | Dancing With The Stars | refresh (applied) | 107672250 | https://www.stubhub.ie/dancing-with-the-stars-sacramento-tickets-3-26-2027/event/107672250 | - |
+| tm-dancing-with-the-stars-2027-san-jose-g5vyz_kxgynut | Dancing With The Stars | refresh (applied) | 107672251 | https://www.stubhub.ie/dancing-with-the-stars-san-jose-tickets-3-27-2027/event/107672251 | - |
 | tm-dancing-with-the-stars-2027-san-diego-vvg1iz_kxrbyxe | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dancing-with-the-stars-2027-anaheim-vv170z_kgkbh3n6- | Dancing With The Stars | none | 107672252 | https://www.stubhub.ie/dancing-with-the-stars-anaheim-tickets-4-1-2027/event/107672252 | - |
-| tm-dancing-with-the-stars-2027-los-angeles-g5eyz_fk9yzip | Dancing With The Stars | none | 107672829 | https://www.stubhub.ie/dancing-with-the-stars-los-angeles-tickets-4-2-2027/event/107672829 | - |
+| tm-dancing-with-the-stars-2027-anaheim-vv170z_kgkbh3n6- | Dancing With The Stars | refresh (applied) | 107672252 | https://www.stubhub.ie/dancing-with-the-stars-anaheim-tickets-4-1-2027/event/107672252 | - |
+| tm-dancing-with-the-stars-2027-los-angeles-g5eyz_fk9yzip | Dancing With The Stars | refresh (applied) | 107672829 | https://www.stubhub.ie/dancing-with-the-stars-los-angeles-tickets-4-2-2027/event/107672829 | - |
 | tm-dancing-with-the-stars-2027-phoenix-1av0z_kgkb3yfyn | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-mobile-g5viz_f1cm1bo | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dancing-with-the-stars-2027-greenville-g5evz_kdpl_8w | Dancing With The Stars | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1905,38 +1892,38 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-def-leppard-2027-detroit-vv1afzk4egkelpgxa | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-toronto-1a8zk4egkdrqf1w | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-quebec-1aszk4agkesu4rw | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-newark-vv1aezk4kgkdvinob | Def Leppard | none | 107672812 | https://www.stubhub.ie/def-leppard-newark-tickets-3-13-2027/event/107672812 | - |
-| tm-def-leppard-2027-boston-vv1a8vp88ga16tl3 | Def Leppard | none | 107672813 | https://www.stubhub.ie/def-leppard-boston-tickets-3-17-2027/event/107672813 | - |
+| tm-def-leppard-2027-newark-vv1aezk4kgkdvinob | Def Leppard | refresh (applied) | 107672812 | https://www.stubhub.ie/def-leppard-newark-tickets-3-13-2027/event/107672812 | - |
+| tm-def-leppard-2027-boston-vv1a8vp88ga16tl3 | Def Leppard | refresh (applied) | 107672813 | https://www.stubhub.ie/def-leppard-boston-tickets-3-17-2027/event/107672813 | - |
 | tm-def-leppard-2027-nashville-g5viz_f9p6_vj | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-washington-17a8v0g62pvh_yy | Def Leppard | none | 107672814 | https://www.stubhub.ie/def-leppard-washington-tickets-3-21-2027/event/107672814 | - |
+| tm-def-leppard-2027-washington-17a8v0g62pvh_yy | Def Leppard | refresh (applied) | 107672814 | https://www.stubhub.ie/def-leppard-washington-tickets-3-21-2027/event/107672814 | - |
 | tm-def-leppard-2027-pittsburgh-1apzk4egkdr8ult | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-chicago-vv1k8z_fgkg7dl8f | Def Leppard | none | 107672815 | https://www.stubhub.ie/def-leppard-chicago-tickets-3-25-2027/event/107672815 | - |
+| tm-def-leppard-2027-chicago-vv1k8z_fgkg7dl8f | Def Leppard | refresh (applied) | 107672815 | https://www.stubhub.ie/def-leppard-chicago-tickets-3-25-2027/event/107672815 | - |
 | tm-def-leppard-2027-denver-g5vzz_frfov07 | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-austin-g5diz_f1_s12h | Def Leppard | none | 107672238 | https://www.stubhub.ie/def-leppard-austin-tickets-4-13-2027/event/107672238 | - |
+| tm-def-leppard-2027-austin-g5diz_f1_s12h | Def Leppard | refresh (applied) | 107672238 | https://www.stubhub.ie/def-leppard-austin-tickets-4-13-2027/event/107672238 | - |
 | tm-def-leppard-2027-north-little-rock-g5viz_f5gacpb | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-fort-worth-vvg1yz_fhfmaat | Def Leppard | none | 107672239 | https://www.stubhub.ie/def-leppard-fort-worth-tickets-4-18-2027/event/107672239 | - |
+| tm-def-leppard-2027-fort-worth-vvg1yz_fhfmaat | Def Leppard | refresh (applied) | 107672239 | https://www.stubhub.ie/def-leppard-fort-worth-tickets-4-18-2027/event/107672239 | - |
 | tm-def-leppard-2027-mobile-g5viz_fptcweu | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-wichita-vv1akzk4kgkexoysl | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-lincoln-vv1akzk4vgkel3utc | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-glendale-1kk8vp8bga1l7cc | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-hollywood-vvg1iz_f7e8nik | Def Leppard | none | 107672816 | https://www.stubhub.ie/def-leppard-hollywood-tickets-5-1-2027/event/107672816 | - |
-| tm-def-leppard-2027-san-francisco-g5vyz_f5oof-x | Def Leppard | none | 107672817 | https://www.stubhub.ie/def-leppard-san-francisco-tickets-5-5-2027/event/107672817 | - |
-| tm-def-leppard-2027-sacramento-g5vyz_f5hdkto | Def Leppard | none | 107672240 | https://www.stubhub.ie/def-leppard-sacramento-tickets-5-7-2027/event/107672240 | - |
-| tm-def-leppard-2027-seattle-vvg1hz_f1kfpyl | Def Leppard | none | 107672241 | https://www.stubhub.ie/def-leppard-seattle-tickets-5-9-2027/event/107672241 | - |
+| tm-def-leppard-2027-hollywood-vvg1iz_f7e8nik | Def Leppard | refresh (applied) | 107672816 | https://www.stubhub.ie/def-leppard-hollywood-tickets-5-1-2027/event/107672816 | - |
+| tm-def-leppard-2027-san-francisco-g5vyz_f5oof-x | Def Leppard | refresh (applied) | 107672817 | https://www.stubhub.ie/def-leppard-san-francisco-tickets-5-5-2027/event/107672817 | - |
+| tm-def-leppard-2027-sacramento-g5vyz_f5hdkto | Def Leppard | refresh (applied) | 107672240 | https://www.stubhub.ie/def-leppard-sacramento-tickets-5-7-2027/event/107672240 | - |
+| tm-def-leppard-2027-seattle-vvg1hz_f1kfpyl | Def Leppard | refresh (applied) | 107672241 | https://www.stubhub.ie/def-leppard-seattle-tickets-5-9-2027/event/107672241 | - |
 | tm-def-leppard-2027-vancouver-1aozk4agkddzaes | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-edmonton-1k78vpoiga55fiz | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-san-antonio-g5diz_fqmcwez | Def Leppard | none | 107672818 | https://www.stubhub.ie/def-leppard-san-antonio-tickets-5-29-2027/event/107672818 | - |
+| tm-def-leppard-2027-san-antonio-g5diz_fqmcwez | Def Leppard | refresh (applied) | 107672818 | https://www.stubhub.ie/def-leppard-san-antonio-tickets-5-29-2027/event/107672818 | - |
 | tm-def-leppard-2027-oklahoma-city-vvg1yz_fkymbmf | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-milwaukee-vv1a6zk4kgkd_k6yp | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-saint-louis-vv1kvovp8tga1iyft | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-louisville-1kaovpoiga1ispc | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-savannah-vvg1zz_fqp5bwn | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-tampa-vvg1vz_fpw01di | Def Leppard | none | 107672819 | https://www.stubhub.ie/def-leppard-tampa-tickets-6-13-2027/event/107672819 | - |
+| tm-def-leppard-2027-tampa-vvg1vz_fpw01di | Def Leppard | refresh (applied) | 107672819 | https://www.stubhub.ie/def-leppard-tampa-tickets-6-13-2027/event/107672819 | - |
 | tm-def-leppard-2027-atlanta-vvg1zz_fpttjci | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-columbus-vv1aazk4kgkdpgu4v | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-new-york-g5diz_fkxvp6l | Def Leppard | none | 107672820 | https://www.stubhub.ie/def-leppard-new-york-tickets-6-23-2027/event/107672820 | - |
+| tm-def-leppard-2027-new-york-g5diz_fkxvp6l | Def Leppard | refresh (applied) | 107672820 | https://www.stubhub.ie/def-leppard-new-york-tickets-6-23-2027/event/107672820 | - |
 | tm-def-leppard-2027-uncasville-g5vvz_fbgzjmo | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-philadelphia-1ayzk4agkeprd7q | Def Leppard | none | 107672821 | https://www.stubhub.ie/def-leppard-philadelphia-tickets-6-27-2027/event/107672821 | - |
+| tm-def-leppard-2027-philadelphia-1ayzk4agkeprd7q | Def Leppard | refresh (applied) | 107672821 | https://www.stubhub.ie/def-leppard-philadelphia-tickets-6-27-2027/event/107672821 | - |
 | tm-def-leppard-2027-charlotte-g5evz_fps2umn | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-indianapolis-vv1kv8vp8_ga1mpgy | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nickelback-2026-durant-vvg1yz_3xvgs07 | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
@@ -1945,69 +1932,69 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-nickelback-2027-grand-rapids-vv1afzk4agkd4fpse | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nickelback-2027-columbus-vv1aazk4agkduqw0h | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nickelback-2027-indianapolis-vv1aazk4agkdzn6zd | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nickelback-2027-chicago-vv1a7zk4agkexo6el | Nickelback | none | 107672947 | https://www.stubhub.ie/nickelback-chicago-tickets-2-18-2027/event/107672947 | - |
+| tm-nickelback-2027-chicago-vv1a7zk4agkexo6el | Nickelback | refresh (applied) | 107672947 | https://www.stubhub.ie/nickelback-chicago-tickets-2-18-2027/event/107672947 | - |
 | tm-nickelback-2027-saint-louis-vv1akzk4kgkdiwpu8 | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nickelback-2027-nashville-g5viz_frya27y | Nickelback | none | 107673019 | https://www.stubhub.ie/nickelback-nashville-tickets-2-21-2027/event/107673019 | - |
+| tm-nickelback-2027-nashville-g5viz_frya27y | Nickelback | refresh (applied) | 107673019 | https://www.stubhub.ie/nickelback-nashville-tickets-2-21-2027/event/107673019 | - |
 | tm-nickelback-2027-knoxville-g5viz_f9kxnbt | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nickelback-2027-hollywood-vvg1vz_fpmhiza | Nickelback | none | 107673324 | https://www.stubhub.ie/nickelback-hollywood-tickets-2-26-2027/event/107673324 | - |
-| tm-nickelback-2027-atlanta-vvg1zz_f9i_ugh | Nickelback | none | 107673015 | https://www.stubhub.ie/nickelback-atlanta-tickets-3-2-2027/event/107673015 | - |
-| tm-nickelback-2027-raleigh-g5evz_fh5odfi | Nickelback | none | 107673021 | https://www.stubhub.ie/nickelback-raleigh-tickets-3-4-2027/event/107673021 | - |
-| tm-nickelback-2027-newark-vv1kfz_fj7g7twmf | Nickelback | none | 107672949 | https://www.stubhub.ie/nickelback-newark-tickets-3-6-2027/event/107672949 | - |
-| tm-nickelback-2027-washington-16vfz_ffeg7mdpa | Nickelback | none | 107672950 | https://www.stubhub.ie/nickelback-washington-tickets-3-8-2027/event/107672950 | - |
-| tm-nickelback-2027-boston-vv1avzk4egkdzjayi | Nickelback | none | 107672951 | https://www.stubhub.ie/nickelback-boston-tickets-3-10-2027/event/107672951 | - |
+| tm-nickelback-2027-hollywood-vvg1vz_fpmhiza | Nickelback | refresh (applied) | 107673324 | https://www.stubhub.ie/nickelback-hollywood-tickets-2-26-2027/event/107673324 | - |
+| tm-nickelback-2027-atlanta-vvg1zz_f9i_ugh | Nickelback | refresh (applied) | 107673015 | https://www.stubhub.ie/nickelback-atlanta-tickets-3-2-2027/event/107673015 | - |
+| tm-nickelback-2027-raleigh-g5evz_fh5odfi | Nickelback | refresh (applied) | 107673021 | https://www.stubhub.ie/nickelback-raleigh-tickets-3-4-2027/event/107673021 | - |
+| tm-nickelback-2027-newark-vv1kfz_fj7g7twmf | Nickelback | refresh (applied) | 107672949 | https://www.stubhub.ie/nickelback-newark-tickets-3-6-2027/event/107672949 | - |
+| tm-nickelback-2027-washington-16vfz_ffeg7mdpa | Nickelback | refresh (applied) | 107672950 | https://www.stubhub.ie/nickelback-washington-tickets-3-8-2027/event/107672950 | - |
+| tm-nickelback-2027-boston-vv1avzk4egkdzjayi | Nickelback | refresh (applied) | 107672951 | https://www.stubhub.ie/nickelback-boston-tickets-3-10-2027/event/107672951 | - |
 | tm-nickelback-2027-montreal-15d7z_fqpa0kk | Nickelback | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-nickelback-2027-hamilton-1a8zk4axofsze2g | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nickelback-2027-toronto-1a8zk47gkdvbcpm | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nickelback-2027-buffalo-k7vgf_fruee-y | Nickelback | none | 107673397 | https://www.stubhub.ie/nickelback-buffalo-tickets-3-24-2027/event/107673397 | - |
-| tm-nickelback-2027-detroit-vv1afzk46gkdogect | Nickelback | none | 107673398 | https://www.stubhub.ie/nickelback-detroit-tickets-3-26-2027/event/107673398 | - |
+| tm-nickelback-2027-buffalo-k7vgf_fruee-y | Nickelback | refresh (applied) | 107673397 | https://www.stubhub.ie/nickelback-buffalo-tickets-3-24-2027/event/107673397 | - |
+| tm-nickelback-2027-detroit-vv1afzk46gkdogect | Nickelback | refresh (applied) | 107673398 | https://www.stubhub.ie/nickelback-detroit-tickets-3-26-2027/event/107673398 | - |
 | tm-nickelback-2027-milwaukee-vv1a6zk4agkd7raaf | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nickelback-2027-saskatoon-16v7z_ff7g7wwtw | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nickelback-2027-edmonton-1f78vpoopnz72877 | Nickelback | none | 107673389 | https://www.stubhub.ie/nickelback-tickets-edmonton-rogers-place-4-3-2027/event/107673389 | - |
-| tm-nickelback-2027-calgary-1aozk4kgkd_yj0d | Nickelback | none | 107673023 | https://www.stubhub.ie/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/event/107673023 | - |
-| tm-nickelback-2027-vancouver-1aozk4agkdpx1_p | Nickelback | none | 107673022 | https://www.stubhub.ie/nickelback-tickets-vancouver-rogers-arena-4-9-2027/event/107673022 | - |
-| tm-nickelback-2027-seattle-vvg1hz_f5mpsjc | Nickelback | none | 107672953 | https://www.stubhub.ie/nickelback-seattle-tickets-4-10-2027/event/107672953 | - |
-| tm-nickelback-2027-sacramento-g5vyz_f9d-9xg | Nickelback | none | 107672954 | https://www.stubhub.ie/nickelback-sacramento-tickets-4-13-2027/event/107672954 | - |
-| tm-nickelback-2027-anaheim-vv1aazk4kgkeh-rr7 | Nickelback | none | 107673326 | https://www.stubhub.ie/nickelback-anaheim-tickets-4-18-2027/event/107673326 | - |
-| tm-nickelback-2027-phoenix-1a_zk4kgkd7q1b3 | Nickelback | none | 107673399 | https://www.stubhub.ie/nickelback-phoenix-tickets-4-20-2027/event/107673399 | - |
-| tm-nickelback-2027-denver-g5vzz_fpgv_um | Nickelback | none | 107673401 | https://www.stubhub.ie/nickelback-denver-tickets-4-24-2027/event/107673401 | - |
-| tm-nickelback-2027-dallas-vvg1yz_f9cwbxt | Nickelback | none | 107673388 | https://www.stubhub.ie/nickelback-dallas-tickets-4-27-2027/event/107673388 | - |
-| tm-nickelback-2027-san-antonio-g5diz_fruim0m | Nickelback | none | 107672956 | https://www.stubhub.ie/nickelback-san-antonio-tickets-5-1-2027/event/107672956 | - |
+| tm-nickelback-2027-edmonton-1f78vpoopnz72877 | Nickelback | refresh (applied) | 107673389 | https://www.stubhub.ie/nickelback-tickets-edmonton-rogers-place-4-3-2027/event/107673389 | - |
+| tm-nickelback-2027-calgary-1aozk4kgkd_yj0d | Nickelback | refresh (applied) | 107673023 | https://www.stubhub.ie/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/event/107673023 | - |
+| tm-nickelback-2027-vancouver-1aozk4agkdpx1_p | Nickelback | refresh (applied) | 107673022 | https://www.stubhub.ie/nickelback-tickets-vancouver-rogers-arena-4-9-2027/event/107673022 | - |
+| tm-nickelback-2027-seattle-vvg1hz_f5mpsjc | Nickelback | refresh (applied) | 107672953 | https://www.stubhub.ie/nickelback-seattle-tickets-4-10-2027/event/107672953 | - |
+| tm-nickelback-2027-sacramento-g5vyz_f9d-9xg | Nickelback | refresh (applied) | 107672954 | https://www.stubhub.ie/nickelback-sacramento-tickets-4-13-2027/event/107672954 | - |
+| tm-nickelback-2027-anaheim-vv1aazk4kgkeh-rr7 | Nickelback | refresh (applied) | 107673326 | https://www.stubhub.ie/nickelback-anaheim-tickets-4-18-2027/event/107673326 | - |
+| tm-nickelback-2027-phoenix-1a_zk4kgkd7q1b3 | Nickelback | refresh (applied) | 107673399 | https://www.stubhub.ie/nickelback-phoenix-tickets-4-20-2027/event/107673399 | - |
+| tm-nickelback-2027-denver-g5vzz_fpgv_um | Nickelback | refresh (applied) | 107673401 | https://www.stubhub.ie/nickelback-denver-tickets-4-24-2027/event/107673401 | - |
+| tm-nickelback-2027-dallas-vvg1yz_f9cwbxt | Nickelback | refresh (applied) | 107673388 | https://www.stubhub.ie/nickelback-dallas-tickets-4-27-2027/event/107673388 | - |
+| tm-nickelback-2027-san-antonio-g5diz_fruim0m | Nickelback | refresh (applied) | 107672956 | https://www.stubhub.ie/nickelback-san-antonio-tickets-5-1-2027/event/107672956 | - |
 | tm-nickelback-2027-leeds-g5vhz_flmspew | Nickelback | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-nickelback-2027-london-1agzk46gkdjr1bv | Nickelback | none | 107672260 | https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260 | - |
-| tm-nickelback-2027-birmingham-1kfyvp3_gagcomu | Nickelback | none | 107672835 | https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835 | - |
+| tm-nickelback-2027-london-1agzk46gkdjr1bv | Nickelback | refresh (applied) | 107672260 | https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260 | - |
+| tm-nickelback-2027-birmingham-1kfyvp3_gagcomu | Nickelback | refresh (applied) | 107672835 | https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835 | - |
 | tm-nickelback-2027-dublin-1abzkfmgkepnjt6 | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nickelback-2027-glasgow-1auzk46gkexekqz | Nickelback | none | 107672836 | https://www.stubhub.ie/nickelback-tickets-glasgow-ovo-hydro-arena-glasgow-1-6-2027/event/107672836 | - |
-| tm-nickelback-2027-manchester-1amzk46gkdgpim1 | Nickelback | none | 107672261 | https://www.stubhub.ie/nickelback-tickets-manchester-co-op-live-2-6-2027/event/107672261 | - |
+| tm-nickelback-2027-glasgow-1auzk46gkexekqz | Nickelback | refresh (applied) | 107672836 | https://www.stubhub.ie/nickelback-tickets-glasgow-ovo-hydro-arena-glasgow-1-6-2027/event/107672836 | - |
+| tm-nickelback-2027-manchester-1amzk46gkdgpim1 | Nickelback | refresh (applied) | 107672261 | https://www.stubhub.ie/nickelback-tickets-manchester-co-op-live-2-6-2027/event/107672261 | - |
 | tm-nickelback-2027-forest-brussels-z698xzg2z1kppuzf3 | Nickelback | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-nickelback-2027-amsterdam-z698xzbpz1k-uqgjg | Nickelback | none | 107672932 | https://www.stubhub.ie/nickelback-tickets-amsterdam-ziggo-dome-7-6-2027/event/107672932 | - |
-| tm-nickelback-2027-hannover-z698xzc2z16v-v0tgv | Nickelback | none | 107672924 | https://www.stubhub.ie/nickelback-tickets-hannover-zag-arena-11-6-2027/event/107672924 | - |
-| tm-nickelback-2027-munich-z698xzc2z1k-kk3-_ | Nickelback | none | 107672318 | https://www.stubhub.ie/nickelback-tickets-munich-olympiahalle-munich-19-6-2027/event/107672318 | - |
+| tm-nickelback-2027-amsterdam-z698xzbpz1k-uqgjg | Nickelback | refresh (applied) | 107672932 | https://www.stubhub.ie/nickelback-tickets-amsterdam-ziggo-dome-7-6-2027/event/107672932 | - |
+| tm-nickelback-2027-hannover-z698xzc2z16v-v0tgv | Nickelback | refresh (applied) | 107672924 | https://www.stubhub.ie/nickelback-tickets-hannover-zag-arena-11-6-2027/event/107672924 | - |
+| tm-nickelback-2027-munich-z698xzc2z1k-kk3-_ | Nickelback | refresh (applied) | 107672318 | https://www.stubhub.ie/nickelback-tickets-munich-olympiahalle-munich-19-6-2027/event/107672318 | - |
 | tm-nickelback-2027-assago-zg9rmiynyza161 | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nickelback-2027-odz-z698xzqpz1kvw7fvb | Nickelback | none | 107672927 | https://www.stubhub.ie/nickelback-tickets-lodz-atlas-arena-1-7-2027/event/107672927 | - |
+| tm-nickelback-2027-odz-z698xzqpz1kvw7fvb | Nickelback | refresh (applied) | 107672927 | https://www.stubhub.ie/nickelback-tickets-lodz-atlas-arena-1-7-2027/event/107672927 | - |
 | tm-jay-wheeler-2026-malaga-z698xz2qz1kf3jk0a | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-jay-wheeler-2026-valencia-z698xz2qz16v4e4u-v | Jay Wheeler | none | 107671915 | https://www.stubhub.ie/jay-wheeler-tickets-valencia-roig-arena-8-12-2026/event/107671915 | - |
-| tm-jay-wheeler-2026-bilbao-z698xz2qz1kvb7mek | Jay Wheeler | none | 107671917 | https://www.stubhub.ie/jay-wheeler-tickets-bilbao-bilbao-arena-miribilla-10-12-2026/event/107671917 | - |
-| tm-jay-wheeler-2026-madrid-z698xz2qz16va4ba8- | Jay Wheeler | none | 107671918 | https://www.stubhub.ie/jay-wheeler-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-12-2026/event/107671918 | - |
-| tm-jay-wheeler-2026-barcelona-z698xz2qz1k-ngufw | Jay Wheeler | none | 107670995 | https://www.stubhub.ie/jay-wheeler-tickets-barcelona-palau-sant-jordi-19-12-2026/event/107670995 | - |
-| tm-jay-wheeler-2027-miami-vvg1vz_f7_l-6l | Jay Wheeler | none | 107671870 | https://www.stubhub.ie/jay-wheeler-miami-tickets-3-11-2027/event/107671870 | - |
+| tm-jay-wheeler-2026-valencia-z698xz2qz16v4e4u-v | Jay Wheeler | refresh (applied) | 107671915 | https://www.stubhub.ie/jay-wheeler-tickets-valencia-roig-arena-8-12-2026/event/107671915 | - |
+| tm-jay-wheeler-2026-bilbao-z698xz2qz1kvb7mek | Jay Wheeler | refresh (applied) | 107671917 | https://www.stubhub.ie/jay-wheeler-tickets-bilbao-bilbao-arena-miribilla-10-12-2026/event/107671917 | - |
+| tm-jay-wheeler-2026-madrid-z698xz2qz16va4ba8- | Jay Wheeler | refresh (applied) | 107671918 | https://www.stubhub.ie/jay-wheeler-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-12-2026/event/107671918 | - |
+| tm-jay-wheeler-2026-barcelona-z698xz2qz1k-ngufw | Jay Wheeler | refresh (applied) | 107670995 | https://www.stubhub.ie/jay-wheeler-tickets-barcelona-palau-sant-jordi-19-12-2026/event/107670995 | - |
+| tm-jay-wheeler-2027-miami-vvg1vz_f7_l-6l | Jay Wheeler | refresh (applied) | 107671870 | https://www.stubhub.ie/jay-wheeler-miami-tickets-3-11-2027/event/107671870 | - |
 | tm-jay-wheeler-2027-atlanta-vvg1zz_f288dbv | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jay-wheeler-2027-charlotte-g5evz_f75dxcp | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jay-wheeler-2027-washington-1a4zk4egkd30m3a | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jay-wheeler-2027-atlantic-city-vv1aezk4vgkduqubi | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jay-wheeler-2027-mashantucket-g5vvz_fp_melk | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jay-wheeler-2027-brooklyn-1ayzk4vgkebxenn | Jay Wheeler | none | 107671874 | https://www.stubhub.ie/jay-wheeler-brooklyn-tickets-3-24-2027/event/107671874 | - |
+| tm-jay-wheeler-2027-brooklyn-1ayzk4vgkebxenn | Jay Wheeler | refresh (applied) | 107671874 | https://www.stubhub.ie/jay-wheeler-brooklyn-tickets-3-24-2027/event/107671874 | - |
 | tm-jay-wheeler-2027-reading-vv17fz_kgkblt_5x | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jay-wheeler-2027-boston-vv1avzk4agkejxnem | Jay Wheeler | none | 107672213 | https://www.stubhub.ie/jay-wheeler-boston-tickets-3-27-2027/event/107672213 | - |
+| tm-jay-wheeler-2027-boston-vv1avzk4agkejxnem | Jay Wheeler | refresh (applied) | 107672213 | https://www.stubhub.ie/jay-wheeler-boston-tickets-3-27-2027/event/107672213 | - |
 | tm-jay-wheeler-2027-rosemont-vv178z_kgkbjdkxl | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jay-wheeler-2027-denver-g5vzz_f20_jhu | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jay-wheeler-2027-irving-vvg1yz_f8nrws_ | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jay-wheeler-2027-houston-g5diz_f62ij1f | Jay Wheeler | none | 107671877 | https://www.stubhub.ie/jay-wheeler-houston-tickets-4-7-2027/event/107671877 | - |
-| tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn | Jay Wheeler | none | 107671878 | https://www.stubhub.ie/jay-wheeler-inglewood-tickets-4-10-2027/event/107671878 | - |
-| tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5 | Jay Wheeler | none | 107671880 | https://www.stubhub.ie/jay-wheeler-orlando-tickets-4-15-2027/event/107671880 | - |
+| tm-jay-wheeler-2027-houston-g5diz_f62ij1f | Jay Wheeler | refresh (applied) | 107671877 | https://www.stubhub.ie/jay-wheeler-houston-tickets-4-7-2027/event/107671877 | - |
+| tm-jay-wheeler-2027-inglewood-vvg1iz_f8af9cn | Jay Wheeler | refresh (applied) | 107671878 | https://www.stubhub.ie/jay-wheeler-inglewood-tickets-4-10-2027/event/107671878 | - |
+| tm-jay-wheeler-2027-orlando-1axzk4vgkd6tfj5 | Jay Wheeler | refresh (applied) | 107671880 | https://www.stubhub.ie/jay-wheeler-orlando-tickets-4-15-2027/event/107671880 | - |
 | tm-mico-2027-barcelona-z698xz2qz1k4j0yoa | Mico | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-mico-2027-amsterdam-z698xzbpz16vzefpea | Mico | none | 107673345 | https://www.stubhub.ie/mico-tickets-amsterdam-melkweg-29-1-2027/event/107673345 | - |
-| tm-mico-2027-manchester-g5vhz_flmnkjc | Mico | none | 107672867 | https://www.stubhub.ie/mico-tickets-manchester-manchester-academy-1-2-2027/event/107672867 | - |
-| tm-mico-2027-london-g5vhz_fjlqa3s | Mico | none | 107672270 | https://www.stubhub.ie/mico-tickets-london-the-roundhouse-4-2-2027/event/107672270 | - |
+| tm-mico-2027-amsterdam-z698xzbpz16vzefpea | Mico | refresh (applied) | 107673345 | https://www.stubhub.ie/mico-tickets-amsterdam-melkweg-29-1-2027/event/107673345 | - |
+| tm-mico-2027-manchester-g5vhz_flmnkjc | Mico | refresh (applied) | 107672867 | https://www.stubhub.ie/mico-tickets-manchester-manchester-academy-1-2-2027/event/107672867 | - |
+| tm-mico-2027-london-g5vhz_fjlqa3s | Mico | refresh (applied) | 107672270 | https://www.stubhub.ie/mico-tickets-london-the-roundhouse-4-2-2027/event/107672270 | - |
 | tm-mico-2027-dublin-1abzk46gkd9elri | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-charlotte-g5evz_fqqay6k | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-charleston-g5evz_fxr2vbf | Mico | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2038,41 +2025,41 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-red-clay-strays-2027-englewood-z7r9jz1aaef4s | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-huntsville-z7r9jz1aaek-6 | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-oklahoma-city-z7r9jz1aaefef | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fontaines-d-c-2027-columbus-z7r9jz1aaepk6 | Fontaines D.C. | none | 107672465 | https://www.stubhub.ie/fontaines-d-c-columbus-tickets-9-24-2027/event/107672465 | - |
-| tm-fontaines-d-c-2027-forest-hills-z7r9jz1aaep7g | Fontaines D.C. | none | 107672017 | https://www.stubhub.ie/fontaines-d-c-flushing-tickets-9-28-2027/event/107672017 | - |
+| tm-fontaines-d-c-2027-columbus-z7r9jz1aaepk6 | Fontaines D.C. | refresh (applied) | 107672465 | https://www.stubhub.ie/fontaines-d-c-columbus-tickets-9-24-2027/event/107672465 | - |
+| tm-fontaines-d-c-2027-forest-hills-z7r9jz1aaep7g | Fontaines D.C. | refresh (applied) | 107672017 | https://www.stubhub.ie/fontaines-d-c-flushing-tickets-9-28-2027/event/107672017 | - |
 | tm-fontaines-d-c-2027-forest-hills-z7r9jz1aa7v_9 | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2027-nashville-z7r9jz1aaepkf | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fontaines-d-c-2027-morrison-z7r9jz1aaepka | Fontaines D.C. | none | 107672466 | https://www.stubhub.ie/fontaines-d-c-morrison-tickets-10-13-2027/event/107672466 | - |
+| tm-fontaines-d-c-2027-morrison-z7r9jz1aaepka | Fontaines D.C. | refresh (applied) | 107672466 | https://www.stubhub.ie/fontaines-d-c-morrison-tickets-10-13-2027/event/107672466 | - |
 | tm-staind-2027-spokane-z7r9jz1aae_qs | Staind | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-staind-2027-billings-z7r9jz1aae_qg | Staind | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-staind-2027-cleveland-z7r9jz1aae_q- | Staind | none | 107677632 | https://www.stubhub.ie/staind-cleveland-tickets-4-16-2027/event/107677632 | - |
+| tm-staind-2027-cleveland-z7r9jz1aae_q- | Staind | refresh (applied) | 107677632 | https://www.stubhub.ie/staind-cleveland-tickets-4-16-2027/event/107677632 | - |
 | tm-warren-zeiders-2027-kansas-city-z7r9jz1aaeb7w | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-warren-zeiders-2027-fort-worth-z7r9jz1aaeb7s | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-warren-zeiders-2027-helotes-z7r9jz1aaeb7v | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-warren-zeiders-2027-louisville-z7r9jz1aaeb7g | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkesyi9m | Bruno Mars | none | 107129518 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-3-12-2026/event/107129518 | - |
-| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu | Bruno Mars | none | 107133105 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-4-12-2026/event/107133105 | - |
-| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy | Bruno Mars | none | 107133106 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-7-12-2026/event/107133106 | - |
-| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd | Bruno Mars | none | 107133107 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-8-12-2026/event/107133107 | - |
-| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehaqnd | Bruno Mars | none | 107554343 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-11-12-2026/event/107554343 | - |
-| tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y | Bruno Mars | none | 107667645 | https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-13-3-2027/event/107667645 | - |
-| tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj | Bruno Mars | none | 107666025 | https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-14-3-2027/event/107666025 | - |
-| tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn | Bruno Mars | none | 107666026 | https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-16-3-2027/event/107666026 | - |
-| tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdnvnrg | Niall Horan | none | 107670791 | https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-7-5-2027/event/107670791 | - |
-| tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdpr1hq | Niall Horan | none | 107672844 | https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-8-5-2027/event/107672844 | - |
+| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkesyi9m | Bruno Mars | refresh (applied) | 107129518 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-3-12-2026/event/107129518 | - |
+| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfcxu | Bruno Mars | refresh (applied) | 107133105 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-4-12-2026/event/107133105 | - |
+| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxy | Bruno Mars | refresh (applied) | 107133106 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-7-12-2026/event/107133106 | - |
+| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehfwxd | Bruno Mars | refresh (applied) | 107133107 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-8-12-2026/event/107133107 | - |
+| tm-bruno-mars-2026-ciudad-de-mexico-1afzkokgkehaqnd | Bruno Mars | refresh (applied) | 107554343 | https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-11-12-2026/event/107554343 | - |
+| tm-bruno-mars-2027-auckland-1a0zkfkgkeslw-y | Bruno Mars | refresh (applied) | 107667645 | https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-13-3-2027/event/107667645 | - |
+| tm-bruno-mars-2027-auckland-1ae8z_ogkiuunsj | Bruno Mars | refresh (applied) | 107666025 | https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-14-3-2027/event/107666025 | - |
+| tm-bruno-mars-2027-auckland-1ae8z_ogksqr0wn | Bruno Mars | refresh (applied) | 107666026 | https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-16-3-2027/event/107666026 | - |
+| tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdnvnrg | Niall Horan | refresh (applied) | 107670791 | https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-7-5-2027/event/107670791 | - |
+| tm-niall-horan-2027-ciudad-de-mexico-1afzkfegkdpr1hq | Niall Horan | refresh (applied) | 107672844 | https://www.stubhub.ie/niall-horan-tickets-mexico-city-palacio-de-los-deportes-8-5-2027/event/107672844 | - |
 | tm-niall-horan-2027-tlajomulco-de-zuniga-g5dvz_31eksvx | Niall Horan | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-sombr-2027-mexico-1av8z_agkn6tndi | Sombr | none | 107158149 | https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149 | - |
-| tm-sombr-2027-mexico-1av8z_agknaoeux | Sombr | none | 107449736 | https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736 | - |
+| tm-sombr-2027-mexico-1av8z_agkn6tndi | Sombr | refresh (applied) | 107158149 | https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149 | - |
+| tm-sombr-2027-mexico-1av8z_agknaoeux | Sombr | refresh (applied) | 107449736 | https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736 | - |
 | tm-sombr-2027-auckland-1ae8z_ogkmlufo4 | Sombr | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sombr-2027-fornebu-z698xzb_z16vfe17ut | Sombr | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-sombr-2027-helsinki-z698xz8kz1kuwpvu6 | Sombr | none | 107666323 | https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323 | - |
+| tm-sombr-2027-helsinki-z698xz8kz1kuwpvu6 | Sombr | refresh (applied) | 107666323 | https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323 | - |
 | tm-sombr-2027-praha-9-z698xzu0z16v-zgmz9 | Sombr | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-sombr-2027-zurich-z698xzu3z16vqgjk0e | Sombr | none | 107666419 | https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419 | - |
+| tm-sombr-2027-zurich-z698xzu3z16vqgjk0e | Sombr | refresh (applied) | 107666419 | https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419 | - |
 | tm-sombr-2027-vienna-z698xz5rz16vfevjbe | Sombr | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-john-summit-2027-zurich-z698xzu3z1kxvu8oj | John Summit | none | 107672167 | https://www.stubhub.ie/john-summit-tickets-zurich-halle-622-zurich-eventhalle-20-2-2027/event/107672167 | - |
-| tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknv53if | Karol G | none | 107161135 | https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-13-11-2026/event/107161135 | - |
-| tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefxra | Karol G | none | 107162454 | https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-14-11-2026/event/107162454 | - |
-| tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefwr5 | Karol G | none | 107165371 | https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-15-11-2026/event/107165371 | - |
+| tm-john-summit-2027-zurich-z698xzu3z1kxvu8oj | John Summit | refresh (applied) | 107672167 | https://www.stubhub.ie/john-summit-tickets-zurich-halle-622-zurich-eventhalle-20-2-2027/event/107672167 | - |
+| tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknv53if | Karol G | unverify (applied) | 107161135 | https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-13-11-2026/event/107161135 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefxra | Karol G | refresh (applied) | 107162454 | https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-14-11-2026/event/107162454 | - |
+| tm-karol-g-2026-ciudad-de-mexico-1av8z_kgknefwr5 | Karol G | refresh (applied) | 107165371 | https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-15-11-2026/event/107165371 | - |
 | tm-teddy-swims-2027-fornebu-z698xzb_z1aakf8y | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-teddy-swims-2027-praha-9-z698xzu0z1kq9x78k | Teddy Swims | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-five-finger-death-punch-2027-praha-9-z698xzu0z1kq-uavz | Five Finger Death Punch | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
@@ -2103,22 +2090,22 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-beartooth-2026-charleston-rz7hnez1af0fgk | Beartooth | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-polyphia-2026-zurich-z698xzu3z16v333k4j | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-polyphia-2026-praha-7-z698xzu0z16vqdqwjv | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-polyphia-2027-hollywood-vvg10z_glgj36a | Polyphia | none | 107455605 | https://www.stubhub.ie/polyphia-hollywood-tickets-2-9-2027/event/107455605 | - |
-| tm-polyphia-2027-anaheim-vvg10z_gea9xhx | Polyphia | none | 107455581 | https://www.stubhub.ie/polyphia-anaheim-tickets-2-11-2027/event/107455581 | - |
-| tm-polyphia-2027-san-francisco-g5vyz_gra3gjr | Polyphia | none | 107455566 | https://www.stubhub.ie/polyphia-san-francisco-tickets-2-14-2027/event/107455566 | - |
+| tm-polyphia-2027-hollywood-vvg10z_glgj36a | Polyphia | refresh (applied) | 107455605 | https://www.stubhub.ie/polyphia-hollywood-tickets-2-9-2027/event/107455605 | - |
+| tm-polyphia-2027-anaheim-vvg10z_gea9xhx | Polyphia | refresh (applied) | 107455581 | https://www.stubhub.ie/polyphia-anaheim-tickets-2-11-2027/event/107455581 | - |
+| tm-polyphia-2027-san-francisco-g5vyz_gra3gjr | Polyphia | refresh (applied) | 107455566 | https://www.stubhub.ie/polyphia-san-francisco-tickets-2-14-2027/event/107455566 | - |
 | tm-polyphia-2027-milwaukee-vvg1jz_gjngwwq | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-polyphia-2027-chicago-vvg18z_gjsjbx- | Polyphia | none | 107457341 | https://www.stubhub.ie/polyphia-chicago-tickets-2-25-2027/event/107457341 | - |
+| tm-polyphia-2027-chicago-vvg18z_gjsjbx- | Polyphia | refresh (applied) | 107457341 | https://www.stubhub.ie/polyphia-chicago-tickets-2-25-2027/event/107457341 | - |
 | tm-polyphia-2027-detroit-vvg1oz_ge56_sr | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-polyphia-2027-toronto-177zv0g6gmyx7u7 | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-polyphia-2027-montreal-17g8v0g6gnmzpef | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-polyphia-2027-philadelphia-vvg1fz_gn-cuhm | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-polyphia-2027-brooklyn-k7vgf_gsymxmt | Polyphia | none | 107455573 | https://www.stubhub.ie/polyphia-brooklyn-tickets-3-6-2027/event/107455573 | - |
-| tm-polyphia-2027-boston-vvg17z_ge-9vq3 | Polyphia | none | 107451606 | https://www.stubhub.ie/polyphia-boston-tickets-3-7-2027/event/107451606 | - |
+| tm-polyphia-2027-brooklyn-k7vgf_gsymxmt | Polyphia | refresh (applied) | 107455573 | https://www.stubhub.ie/polyphia-brooklyn-tickets-3-6-2027/event/107455573 | - |
+| tm-polyphia-2027-boston-vvg17z_ge-9vq3 | Polyphia | refresh (applied) | 107451606 | https://www.stubhub.ie/polyphia-boston-tickets-3-7-2027/event/107451606 | - |
 | tm-polyphia-2027-washington-17a8v0g6gmr0lc4 | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-polyphia-2027-orlando-17fov0g6gemc12a | Polyphia | none | 107457292 | https://www.stubhub.ie/polyphia-orlando-tickets-3-13-2027/event/107457292 | - |
+| tm-polyphia-2027-orlando-17fov0g6gemc12a | Polyphia | refresh (applied) | 107457292 | https://www.stubhub.ie/polyphia-orlando-tickets-3-13-2027/event/107457292 | - |
 | tm-polyphia-2027-atlanta-vvg1zz_gwmeyrd | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-polyphia-2027-nashville-g5viz_gnfsyiq | Polyphia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-polyphia-2027-dallas-vvg1yz_glmqcu0 | Polyphia | none | 107457344 | https://www.stubhub.ie/polyphia-dallas-tickets-3-20-2027/event/107457344 | - |
+| tm-polyphia-2027-dallas-vvg1yz_glmqcu0 | Polyphia | refresh (applied) | 107457344 | https://www.stubhub.ie/polyphia-dallas-tickets-3-20-2027/event/107457344 | - |
 | tm-tobymac-2027-sioux-falls-vv1akzkg_gkd7w414 | TobyMac | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2026-k-benhavn-v-z698xzc4z16ez9zpo4 | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2026-oslo-z698xzb_z1kk3atjs | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2127,8 +2114,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-saint-levant-2027-toronto-177zv0g6cemcutq | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2027-boston-vvg17z_cxqdi4_ | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2027-philadelphia-vvg1fz_cxbxmek | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-saint-levant-2027-brooklyn-k7vgf_cl-wdb8 | Saint Levant | none | 107478085 | https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-30-2027/event/107478085 | - |
-| tm-saint-levant-2027-brooklyn-k7vgf_cl-wsb- | Saint Levant | none | 107478087 | https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-31-2027/event/107478087 | - |
+| tm-saint-levant-2027-brooklyn-k7vgf_cl-wdb8 | Saint Levant | refresh (applied) | 107478085 | https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-30-2027/event/107478085 | - |
+| tm-saint-levant-2027-brooklyn-k7vgf_cl-wsb- | Saint Levant | refresh (applied) | 107478087 | https://www.stubhub.ie/saint-levant-brooklyn-tickets-3-31-2027/event/107478087 | - |
 | tm-saint-levant-2027-detroit-vvg1oz_cxteu1p | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2027-silver-spring-17a8v0g6cjqrj2z | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-saint-levant-2027-charlotte-g5evz_cxoz58q | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2150,7 +2137,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-airborne-toxic-event-2027-cleveland-vvg1fz_1qxxiit | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-airborne-toxic-event-2027-detroit-vv17oz_agkmoc3ug | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-airborne-toxic-event-2027-minneapolis-vvg1bz_1fhethg | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-airborne-toxic-event-2027-las-vegas-17ayv0g61avjbwz | The Airborne Toxic Event | none | 107676279 | https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279 | - |
+| tm-the-airborne-toxic-event-2027-las-vegas-17ayv0g61avjbwz | The Airborne Toxic Event | refresh (applied) | 107676279 | https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279 | - |
 | tm-the-airborne-toxic-event-2027-san-diego-vvg1iz_a0ap_1u | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-airborne-toxic-event-2027-phoenix-17k8v0g61nr_nrj | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-airborne-toxic-event-2027-salt-lake-city-g5vzz_1rps_y3 | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2161,10 +2148,9 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-airborne-toxic-event-2027-menlo-park-z7r9jz1a70ijm | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-airborne-toxic-event-2027-menlo-park-z7r9jz1a7pj3f | The Airborne Toxic Event | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-andrea-bocelli-2026-abu-dhabi-z698xz52z1k7pedfx | Andrea Bocelli | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkedteuw | Morat | unverify (applied) | 107155498 | https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-13-11-2026/event/107155498 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkedteut | Morat | none | 107154770 | https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770 | - |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmuj | Morat | none | 107154769 | https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769 | - |
-| tm-morat-2026-ciudad-de-mexico-1afzk3egkedtmmv | Morat | none | 107649095 | https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095 | - |
+| tm-morat-2026-ciudad-de-mexico-1afzk3egkedteut | Morat | refresh (applied) | 107154770 | https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-14-11-2026/event/107154770 | - |
+| tm-morat-2026-ciudad-de-mexico-1afzk3egkedjmuj | Morat | refresh (applied) | 107154769 | https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-15-11-2026/event/107154769 | - |
+| tm-morat-2026-ciudad-de-mexico-1afzk3egkedtmmv | Morat | refresh (applied) | 107649095 | https://www.stubhub.ie/morat-tickets-mexico-city-palacio-de-los-deportes-17-11-2026/event/107649095 | - |
 | tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6tnua- | Morat | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-morat-2026-tlajomulco-de-zuniga-g5dvz_f6ivj5r | Morat | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-vnv-nation-2027-limerick-city-1avozbugknqkh_5 | VNV Nation | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2185,7 +2171,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-vnv-nation-2027-brooklyn-k7vgfbvbkdnzs | VNV Nation | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-vnv-nation-2027-baltimore-1avfzbvgklmrqky | VNV Nation | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-vnv-nation-2027-millvale-rz7hnez1afbaps | VNV Nation | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-yuridia-2026-zapopan-g5dvz_aia5kvd | Yuridia | none | 107165422 | https://www.stubhub.ie/yuridia-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-5-12-2026/event/107165422 | - |
+| tm-yuridia-2026-zapopan-g5dvz_aia5kvd | Yuridia | refresh (applied) | 107165422 | https://www.stubhub.ie/yuridia-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-5-12-2026/event/107165422 | - |
 | tm-fkj-2027-auckland-17azv0g6cklgovf | FKJ | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sylvan-esso-2027-new-orleans-rz7hnez1afqk8n | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2027-san-diego-vvg1iz_1wv8vq3 | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2199,8 +2185,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-blondshell-2027-boston-vvg17z_1uqvup8 | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2027-montreal-17g8v0g61mppmq0 | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2027-toronto-177zv0g61ygdrn9 | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-blondshell-2027-brooklyn-z7r9jz1a70gjw | Blondshell | none | 107672785 | https://www.stubhub.ie/blondshell-brooklyn-tickets-3-22-2027/event/107672785 | - |
-| tm-hans-zimmer-2026-abu-dhabi-z698xz52z16vb-f9q_ | Hans Zimmer | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-blondshell-2027-brooklyn-z7r9jz1a70gjw | Blondshell | refresh (applied) | 107672785 | https://www.stubhub.ie/blondshell-brooklyn-tickets-3-22-2027/event/107672785 | - |
 | tm-the-psychedelic-furs-2026-san-luis-obispo-z7r9jz1a7-o8k | The Psychedelic Furs | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-psychedelic-furs-2026-phoenix-z7r9jz1a70kx4 | The Psychedelic Furs | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-psychedelic-furs-2027-rancho-mirage-z7r9jz1a7-n8k | The Psychedelic Furs | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2212,16 +2197,16 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-psychedelic-furs-2027-jacksonville-z7r9jz1a703oe | The Psychedelic Furs | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-psychedelic-furs-2027-charlotte-g5evz_ausriiu | The Psychedelic Furs | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-eros-ramazzotti-2027-toronto-1avzzbigklzuxko | Eros Ramazzotti | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-eros-ramazzotti-2027-laval-1aszk16gkexqstp | Eros Ramazzotti | none | 107138188 | https://www.stubhub.ie/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/event/107138188 | - |
-| tm-eros-ramazzotti-2027-boston-vv1avzk1fgkd0riv2 | Eros Ramazzotti | none | 106750225 | https://www.stubhub.ie/eros-ramazzotti-boston-tickets-9-29-2027/event/106750225 | - |
-| tm-eros-ramazzotti-2027-rosemont-vv1a7zk1egkeidoc0 | Eros Ramazzotti | none | 106747121 | https://www.stubhub.ie/eros-ramazzotti-rosemont-tickets-10-5-2027/event/106747121 | - |
-| tm-eros-ramazzotti-2027-miami-vvg1vzbicfi7sa | Eros Ramazzotti | none | 106747122 | https://www.stubhub.ie/eros-ramazzotti-miami-tickets-10-8-2027/event/106747122 | - |
-| tm-eros-ramazzotti-2027-sugar-land-z7r9jz1a74uo8 | Eros Ramazzotti | none | 107394131 | https://www.stubhub.ie/eros-ramazzotti-sugar-land-tickets-10-13-2027/event/107394131 | - |
-| tm-eros-ramazzotti-2027-inglewood-vvg1izbiyf5ko0 | Eros Ramazzotti | none | 106747124 | https://www.stubhub.ie/eros-ramazzotti-inglewood-tickets-10-16-2027/event/106747124 | - |
-| tm-the-warning-2027-ciudad-de-mexico-1afzkf4gkenopd9 | The Warning | none | 107665621 | https://www.stubhub.ie/the-warning-tickets-mexico-city-estadio-gnp-seguros-5-2-2027/event/107665621 | - |
-| tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdoa5fw | Hilary Duff | none | 107102490 | https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-12-2-2027/event/107102490 | - |
-| tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdomhcz | Hilary Duff | none | 107116077 | https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-13-2-2027/event/107116077 | - |
-| tm-hilary-duff-2027-zapopan-1av8z_fgknzgqjq | Hilary Duff | none | 107162296 | https://www.stubhub.ie/hilary-duff-tickets-guadalajara-auditorio-telmex-15-2-2027/event/107162296 | - |
+| tm-eros-ramazzotti-2027-laval-1aszk16gkexqstp | Eros Ramazzotti | refresh (applied) | 107138188 | https://www.stubhub.ie/eros-ramazzotti-tickets-laval-place-bell-9-26-2027/event/107138188 | - |
+| tm-eros-ramazzotti-2027-boston-vv1avzk1fgkd0riv2 | Eros Ramazzotti | refresh (applied) | 106750225 | https://www.stubhub.ie/eros-ramazzotti-boston-tickets-9-29-2027/event/106750225 | - |
+| tm-eros-ramazzotti-2027-rosemont-vv1a7zk1egkeidoc0 | Eros Ramazzotti | refresh (applied) | 106747121 | https://www.stubhub.ie/eros-ramazzotti-rosemont-tickets-10-5-2027/event/106747121 | - |
+| tm-eros-ramazzotti-2027-miami-vvg1vzbicfi7sa | Eros Ramazzotti | refresh (applied) | 106747122 | https://www.stubhub.ie/eros-ramazzotti-miami-tickets-10-8-2027/event/106747122 | - |
+| tm-eros-ramazzotti-2027-sugar-land-z7r9jz1a74uo8 | Eros Ramazzotti | refresh (applied) | 107394131 | https://www.stubhub.ie/eros-ramazzotti-sugar-land-tickets-10-13-2027/event/107394131 | - |
+| tm-eros-ramazzotti-2027-inglewood-vvg1izbiyf5ko0 | Eros Ramazzotti | refresh (applied) | 106747124 | https://www.stubhub.ie/eros-ramazzotti-inglewood-tickets-10-16-2027/event/106747124 | - |
+| tm-the-warning-2027-ciudad-de-mexico-1afzkf4gkenopd9 | The Warning | refresh (applied) | 107665621 | https://www.stubhub.ie/the-warning-tickets-mexico-city-estadio-gnp-seguros-5-2-2027/event/107665621 | - |
+| tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdoa5fw | Hilary Duff | refresh (applied) | 107102490 | https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-12-2-2027/event/107102490 | - |
+| tm-hilary-duff-2027-ciudad-de-mexico-1afzko6gkdomhcz | Hilary Duff | refresh (applied) | 107116077 | https://www.stubhub.ie/hilary-duff-tickets-mexico-city-palacio-de-los-deportes-13-2-2027/event/107116077 | - |
+| tm-hilary-duff-2027-zapopan-1av8z_fgknzgqjq | Hilary Duff | refresh (applied) | 107162296 | https://www.stubhub.ie/hilary-duff-tickets-guadalajara-auditorio-telmex-15-2-2027/event/107162296 | - |
 | tm-passenger-2027-zurich-z698xzu3z1kg0bbov | Passenger | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-passenger-2027-praha-1-z698xzu0z16v4-_k4a | Passenger | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sienna-spiro-2027-auckland-17azv0g6gnlzs7o | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2249,8 +2234,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-amble-2027-praha-5-z698xzu0z1kje4u8k | Amble | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-perfect-circle-2026-auckland-1ae8z_kgkr16koz | A Perfect Circle | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-greta-van-fleet-2027-praha-9-z698xzu0z1k0yg9c_ | Greta Van Fleet | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3 | Fontaines D.C. | none | 107670888 | https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-24-3-2027/event/107670888 | - |
-| tm-fontaines-d-c-2027-mexico-1av8z_ogkxugz79 | Fontaines D.C. | none | 107669312 | https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-25-3-2027/event/107669312 | - |
+| tm-fontaines-d-c-2027-mexico-1av8z_ogku9epc3 | Fontaines D.C. | refresh (applied) | 107670888 | https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-24-3-2027/event/107670888 | - |
+| tm-fontaines-d-c-2027-mexico-1av8z_ogkxugz79 | Fontaines D.C. | refresh (applied) | 107669312 | https://www.stubhub.ie/fontaines-d-c-tickets-mexico-city-pepsi-center-wtc-25-3-2027/event/107669312 | - |
 | tm-hazlett-2027-nashville-z7r9jz1a7p0ay | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-charlotte-g5evz_gmhpguu | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-charlottesville-vvg17z_gcwfexc | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2259,7 +2244,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-hazlett-2027-new-york-k7vgf_gs3k6br | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-portland-vvg17z_grwzm6s | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-boston-vvg17z_grnbkkr | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hazlett-2027-montreal-17g8v0g62kxoauq | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-east-cleveland-z7r9jz1a7pe8a | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-toronto-177zv0g6gsbxg-l | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-chicago-vvg18z_glqlopk | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2274,39 +2258,38 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-hazlett-2027-dallas-z7r9jz1a7pge_ | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2026-auckland-17azv0g65cuaddf | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2026-waipara-17azv0g653pu3v4 | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nickelback-2027-zurich-z698xzu3z1kjt1pck | Nickelback | none | 107672925 | https://www.stubhub.ie/nickelback-tickets-zurich-hallenstadion-zurich-20-6-2027/event/107672925 | - |
+| tm-nickelback-2027-zurich-z698xzu3z1kjt1pck | Nickelback | refresh (applied) | 107672925 | https://www.stubhub.ie/nickelback-tickets-zurich-hallenstadion-zurich-20-6-2027/event/107672925 | - |
 | tm-nickelback-2027-vienna-z698xz5rz16vz489ev | Nickelback | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-nickelback-2027-praha-9-z698xzu0z1kqvft7s | Nickelback | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-nickelback-2027-helsinki-z698xz8kz16vqs7sfi | Nickelback | none | 107672935 | https://www.stubhub.ie/nickelback-tickets-helsinki-veikkaus-arena-7-7-2027/event/107672935 | - |
+| tm-nickelback-2027-helsinki-z698xz8kz16vqs7sfi | Nickelback | refresh (applied) | 107672935 | https://www.stubhub.ie/nickelback-tickets-helsinki-veikkaus-arena-7-7-2027/event/107672935 | - |
 | tm-nickelback-2027-fornebu-z698xzb_z1an7vpy | Nickelback | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-jay-wheeler-2027-estero-vvg1vz9zkibwmk | Jay Wheeler | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jay-wheeler-2027-mexico-16fzkfupgza8kga7 | Jay Wheeler | none | 107672154 | https://www.stubhub.ie/jay-wheeler-tickets-mexico-city-pepsi-center-wtc-16-5-2027/event/107672154 | - |
+| tm-jay-wheeler-2027-mexico-16fzkfupgza8kga7 | Jay Wheeler | refresh (applied) | 107672154 | https://www.stubhub.ie/jay-wheeler-tickets-mexico-city-pepsi-center-wtc-16-5-2027/event/107672154 | - |
 | tm-mico-2027-praha-1-z698xzu0z16vxkonfi | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-k-benhavn-v-z698xzc4z16vj9j7ev | Mico | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-mico-2027-cleveland-rz7hnez1afut40 | Mico | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-rod-wave-2026-sunrise-z7r9jz1a7ppag | Rod Wave | none | 107447271 | https://www.stubhub.ie/rod-wave-sunrise-tickets-11-14-2026/event/107447271 | - |
-| tm-rod-wave-2026-sunrise-z7r9jz1aazfq4 | Rod Wave | none | 107554704 | https://www.stubhub.ie/rod-wave-sunrise-tickets-11-15-2026/event/107554704 | - |
-| tm-rod-wave-2026-atlanta-vvg1zz_uzryhlw | Rod Wave | none | 107554705 | https://www.stubhub.ie/rod-wave-atlanta-tickets-11-18-2026/event/107554705 | - |
-| tm-rod-wave-2026-atlanta-vvg1zz_uqszfce | Rod Wave | none | 107554706 | https://www.stubhub.ie/rod-wave-atlanta-tickets-11-19-2026/event/107554706 | - |
-| tm-steve-lacy-2026-las-vegas-169zkfdovza26a51 | Steve Lacy | none | 107482317 | https://www.stubhub.ie/steve-lacy-las-vegas-tickets-11-13-2026/event/107482317 | - |
+| tm-rod-wave-2026-sunrise-z7r9jz1a7ppag | Rod Wave | refresh (applied) | 107447271 | https://www.stubhub.ie/rod-wave-sunrise-tickets-11-14-2026/event/107447271 | - |
+| tm-rod-wave-2026-sunrise-z7r9jz1aazfq4 | Rod Wave | refresh (applied) | 107554704 | https://www.stubhub.ie/rod-wave-sunrise-tickets-11-15-2026/event/107554704 | - |
+| tm-rod-wave-2026-atlanta-vvg1zz_uzryhlw | Rod Wave | refresh (applied) | 107554705 | https://www.stubhub.ie/rod-wave-atlanta-tickets-11-18-2026/event/107554705 | - |
+| tm-rod-wave-2026-atlanta-vvg1zz_uqszfce | Rod Wave | refresh (applied) | 107554706 | https://www.stubhub.ie/rod-wave-atlanta-tickets-11-19-2026/event/107554706 | - |
+| tm-steve-lacy-2026-las-vegas-169zkfdovza26a51 | Steve Lacy | unverify (applied) | 107482317 | https://www.stubhub.ie/steve-lacy-las-vegas-tickets-11-13-2026/event/107482317 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-steve-lacy-2026-phoenix-16_zkf6fzza2g752 | Steve Lacy | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-steve-lacy-2026-san-diego-vvg1iz_8prddbi | Steve Lacy | none | 107482318 | https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318 | - |
-| tm-steve-lacy-2026-hollywood-vvg1iz_8f-wifq | Steve Lacy | none | 107484106 | https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106 | - |
-| tm-steve-lacy-2026-san-francisco-g5vyz_8boyp-m | Steve Lacy | none | 107482319 | https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319 | - |
-| tm-steve-lacy-2026-san-francisco-g5vyz_8bk7kme | Steve Lacy | none | 107672773 | https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773 | - |
-| tm-steve-lacy-2026-seattle-vvg1hz_8pk8e2l | Steve Lacy | none | 107482320 | https://www.stubhub.ie/steve-lacy-seattle-tickets-11-28-2026/event/107482320 | - |
-| tm-steve-lacy-2026-vancouver-1aozkf7gkepzmxx | Steve Lacy | none | 107482321 | https://www.stubhub.ie/steve-lacy-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-11-30-2026/event/107482321 | - |
-| tm-the-smashing-pumpkins-2026-inglewood-vvg10z_1t5e4o_ | The Smashing Pumpkins | unverify (applied) | 107185110 | https://www.stubhub.ie/the-smashing-pumpkins-inglewood-tickets-11-12-2026/event/107185110 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnenx | Fuerza Regida | none | 107671520 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-28-1-2027/event/107671520 | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdlzcpt | Fuerza Regida | none | 107672800 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-29-1-2027/event/107672800 | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdowrar | Fuerza Regida | none | 107672234 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-30-1-2027/event/107672234 | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdxsfp_ | Fuerza Regida | none | 107671608 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-31-1-2027/event/107671608 | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdn9bgh | Fuerza Regida | none | 107671609 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-1-2-2027/event/107671609 | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacn3ld | Fuerza Regida | none | 107670793 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-3-2-2027/event/107670793 | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgauwxey | Fuerza Regida | none | 107670885 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-4-2-2027/event/107670885 | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnxl1 | Fuerza Regida | none | 107670794 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-5-2-2027/event/107670794 | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnwlg | Fuerza Regida | none | 107670886 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-6-2-2027/event/107670886 | - |
-| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgaclelp | Fuerza Regida | none | 107670887 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-7-2-2027/event/107670887 | - |
+| tm-steve-lacy-2026-san-diego-vvg1iz_8prddbi | Steve Lacy | refresh (applied) | 107482318 | https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318 | - |
+| tm-steve-lacy-2026-hollywood-vvg1iz_8f-wifq | Steve Lacy | refresh (applied) | 107484106 | https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106 | - |
+| tm-steve-lacy-2026-san-francisco-g5vyz_8boyp-m | Steve Lacy | refresh (applied) | 107482319 | https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319 | - |
+| tm-steve-lacy-2026-san-francisco-g5vyz_8bk7kme | Steve Lacy | refresh (applied) | 107672773 | https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773 | - |
+| tm-steve-lacy-2026-seattle-vvg1hz_8pk8e2l | Steve Lacy | refresh (applied) | 107482320 | https://www.stubhub.ie/steve-lacy-seattle-tickets-11-28-2026/event/107482320 | - |
+| tm-steve-lacy-2026-vancouver-1aozkf7gkepzmxx | Steve Lacy | refresh (applied) | 107482321 | https://www.stubhub.ie/steve-lacy-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-11-30-2026/event/107482321 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnenx | Fuerza Regida | refresh (applied) | 107671520 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-28-1-2027/event/107671520 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdlzcpt | Fuerza Regida | refresh (applied) | 107672800 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-29-1-2027/event/107672800 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4egkdowrar | Fuerza Regida | refresh (applied) | 107672234 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-30-1-2027/event/107672234 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdxsfp_ | Fuerza Regida | refresh (applied) | 107671608 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-31-1-2027/event/107671608 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1afzk4vgkdn9bgh | Fuerza Regida | refresh (applied) | 107671609 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-1-2-2027/event/107671609 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacn3ld | Fuerza Regida | refresh (applied) | 107670793 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-3-2-2027/event/107670793 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgauwxey | Fuerza Regida | refresh (applied) | 107670885 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-4-2-2027/event/107670885 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnxl1 | Fuerza Regida | refresh (applied) | 107670794 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-5-2-2027/event/107670794 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgacnwlg | Fuerza Regida | refresh (applied) | 107670886 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-6-2-2027/event/107670886 | - |
+| tm-fuerza-regida-2027-ciudad-de-mexico-1kazvpazgaclelp | Fuerza Regida | refresh (applied) | 107670887 | https://www.stubhub.ie/fuerza-regida-tickets-mexico-city-palacio-de-los-deportes-7-2-2027/event/107670887 | - |
 | tm-mei-semones-2027-cambridge-z7r9jz1aaebpz | Mei Semones | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mei-semones-2027-portland-z7r9jz1aaekpv | Mei Semones | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mei-semones-2027-toronto-rz7hnez1afu780 | Mei Semones | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2328,75 +2311,74 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mei-semones-2027-lexington-z7r9jz1aaek09 | Mei Semones | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mei-semones-2027-columbus-z7r9jz1aaef7k | Mei Semones | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mei-semones-2027-pittsburgh-1avbz_kgkuez9wb | Mei Semones | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-slipknot-2027-london-1anzkfggkdhuzzd | Slipknot | none | 107670588 | https://www.stubhub.ie/slipknot-tickets-london-wembley-stadium-3-7-2027/event/107670588 | - |
-| tm-slipknot-2027-washington-1a4zkfmgkdgza4s | Slipknot | none | 107669315 | https://www.stubhub.ie/slipknot-washington-tickets-7-16-2027/event/107669315 | - |
+| tm-slipknot-2027-london-1anzkfggkdhuzzd | Slipknot | refresh (applied) | 107670588 | https://www.stubhub.ie/slipknot-tickets-london-wembley-stadium-3-7-2027/event/107670588 | - |
+| tm-slipknot-2027-washington-1a4zkfmgkdgza4s | Slipknot | refresh (applied) | 107669315 | https://www.stubhub.ie/slipknot-washington-tickets-7-16-2027/event/107669315 | - |
 | tm-slipknot-2027-queens-g5vvz_kci8xei | Slipknot | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-slipknot-2027-montreal-1ad7z_3gkln01oc | Slipknot | none | 107669317 | https://www.stubhub.ie/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027/event/107669317 | - |
+| tm-slipknot-2027-montreal-1ad7z_3gkln01oc | Slipknot | refresh (applied) | 107669317 | https://www.stubhub.ie/slipknot-tickets-montreal-parc-jean-drapeau-7-21-2027/event/107669317 | - |
 | tm-slipknot-2027-toronto-1k7zvpczgauvkjd | Slipknot | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-slipknot-2027-chicago-vv167zkfmpfza26gu7 | Slipknot | none | 107669318 | https://www.stubhub.ie/slipknot-chicago-tickets-7-25-2027/event/107669318 | - |
-| tm-slipknot-2027-hershey-vv1aezkfzgkdcrpxj | Slipknot | none | 107670828 | https://www.stubhub.ie/slipknot-hershey-tickets-7-28-2027/event/107670828 | - |
-| tm-slipknot-2027-boston-z7r9jz1aavzbi | Slipknot | none | 107671319 | https://www.stubhub.ie/slipknot-boston-tickets-7-31-2027/event/107671319 | - |
+| tm-slipknot-2027-chicago-vv167zkfmpfza26gu7 | Slipknot | refresh (applied) | 107669318 | https://www.stubhub.ie/slipknot-chicago-tickets-7-25-2027/event/107669318 | - |
+| tm-slipknot-2027-hershey-vv1aezkfzgkdcrpxj | Slipknot | refresh (applied) | 107670828 | https://www.stubhub.ie/slipknot-hershey-tickets-7-28-2027/event/107670828 | - |
+| tm-slipknot-2027-boston-z7r9jz1aavzbi | Slipknot | refresh (applied) | 107671319 | https://www.stubhub.ie/slipknot-boston-tickets-7-31-2027/event/107671319 | - |
 | tm-slipknot-2027-nashville-z7r9jz1aaeazk | Slipknot | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-slipknot-2027-houston-g5diz_kx0z68q | Slipknot | none | 107671320 | https://www.stubhub.ie/slipknot-houston-tickets-8-6-2027/event/107671320 | - |
+| tm-slipknot-2027-houston-g5diz_kx0z68q | Slipknot | refresh (applied) | 107671320 | https://www.stubhub.ie/slipknot-houston-tickets-8-6-2027/event/107671320 | - |
 | tm-slipknot-2027-commerce-city-g5vzz_kofjm9p | Slipknot | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-slipknot-2027-inglewood-vvg1iz_k9by2hw | Slipknot | none | 107671321 | https://www.stubhub.ie/slipknot-inglewood-tickets-8-13-2027/event/107671321 | - |
-| tm-slipknot-2027-san-francisco-g5vyz_khsbrlp | Slipknot | none | 107671342 | https://www.stubhub.ie/slipknot-san-francisco-tickets-8-15-2027/event/107671342 | - |
-| tm-slipknot-2027-phoenix-1a_zkfggkdfoifq | Slipknot | none | 107671322 | https://www.stubhub.ie/slipknot-phoenix-tickets-8-18-2027/event/107671322 | - |
-| tm-noah-kahan-2026-london-1ku8v0x_gag10y_ | Noah Kahan | unverify (applied) | 107155378 | https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-13-11-2026/event/107155378 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-noah-kahan-2026-london-1ku8v0x_gag57yq | Noah Kahan | none | 107155379 | https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-14-11-2026/event/107155379 | - |
+| tm-slipknot-2027-inglewood-vvg1iz_k9by2hw | Slipknot | refresh (applied) | 107671321 | https://www.stubhub.ie/slipknot-inglewood-tickets-8-13-2027/event/107671321 | - |
+| tm-slipknot-2027-san-francisco-g5vyz_khsbrlp | Slipknot | refresh (applied) | 107671342 | https://www.stubhub.ie/slipknot-san-francisco-tickets-8-15-2027/event/107671342 | - |
+| tm-slipknot-2027-phoenix-1a_zkfggkdfoifq | Slipknot | refresh (applied) | 107671322 | https://www.stubhub.ie/slipknot-phoenix-tickets-8-18-2027/event/107671322 | - |
+| tm-noah-kahan-2026-london-1ku8v0x_gag57yq | Noah Kahan | unverify (applied) | 107155379 | https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-14-11-2026/event/107155379 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-noah-kahan-2026-dublin-1avoz_fgkn52bxo | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-noah-kahan-2026-dublin-1kkzv0x9ga2yvxh | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-noah-kahan-2026-dublin-1abzk3agkdihdnu | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-noah-kahan-2026-munich-z698xzc2z1k3fveos | Noah Kahan | none | 107156345 | https://www.stubhub.ie/noah-kahan-tickets-munich-olympiahalle-munich-4-12-2026/event/107156345 | - |
+| tm-noah-kahan-2026-munich-z698xzc2z1k3fveos | Noah Kahan | refresh (applied) | 107156345 | https://www.stubhub.ie/noah-kahan-tickets-munich-olympiahalle-munich-4-12-2026/event/107156345 | - |
 | tm-noah-kahan-2027-glasgow-1adbz_8gkufqoce | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-noah-kahan-2027-dublin-1abzkffgkeyrrov | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-noah-kahan-2027-dublin-1abzkfbgkd7h5py | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-noah-kahan-2027-london-1anzkf3gkd7-b4s | Noah Kahan | none | 107499079 | https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-23-7-2027/event/107499079 | - |
-| tm-noah-kahan-2027-london-1anzkf4gkexwogg | Noah Kahan | none | 107482950 | https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-24-7-2027/event/107482950 | - |
-| tm-noah-kahan-2027-london-1anzkf4gkddlzu_ | Noah Kahan | none | 107666382 | https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-25-7-2027/event/107666382 | - |
-| tm-eagles-2026-las-vegas-1a9zk37gkdxvozi | Eagles | none | 107162527 | https://www.stubhub.ie/eagles-las-vegas-tickets-11-13-2026/event/107162527 | - |
-| tm-eagles-2026-las-vegas-1a9zk37gkdxg-zv | Eagles | none | 107162528 | https://www.stubhub.ie/eagles-las-vegas-tickets-11-14-2026/event/107162528 | - |
-| tm-eagles-2026-las-vegas-1a9zk37gkdxusyv | Eagles | none | 107162529 | https://www.stubhub.ie/eagles-las-vegas-tickets-11-27-2026/event/107162529 | - |
-| tm-eagles-2026-las-vegas-1a9zk37gkdxzvy5 | Eagles | none | 107162530 | https://www.stubhub.ie/eagles-las-vegas-tickets-11-28-2026/event/107162530 | - |
-| tm-eagles-2026-las-vegas-1a9zk3dgkdpxlsb | Eagles | none | 107449339 | https://www.stubhub.ie/eagles-las-vegas-tickets-12-4-2026/event/107449339 | - |
-| tm-eagles-2026-las-vegas-1a9zk3dgkdpxrsr | Eagles | none | 107450172 | https://www.stubhub.ie/eagles-las-vegas-tickets-12-5-2026/event/107450172 | - |
-| tm-eagles-2026-las-vegas-1a9zk3dgkdpxrso | Eagles | none | 107450173 | https://www.stubhub.ie/eagles-las-vegas-tickets-12-11-2026/event/107450173 | - |
-| tm-eagles-2026-las-vegas-1a9zk3dgkdbgzr6 | Eagles | none | 107449340 | https://www.stubhub.ie/eagles-las-vegas-tickets-12-12-2026/event/107449340 | - |
-| tm-eagles-2027-las-vegas-1a9zk3dgkdpxrs0 | Eagles | none | 107469467 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-15-2027/event/107469467 | - |
-| tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsj | Eagles | none | 107472163 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-16-2027/event/107472163 | - |
-| tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsi | Eagles | none | 107469468 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-22-2027/event/107469468 | - |
-| tm-eagles-2027-las-vegas-1a9zk3dgkdpt2sm | Eagles | none | 107472164 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-23-2027/event/107472164 | - |
+| tm-noah-kahan-2027-london-1anzkf3gkd7-b4s | Noah Kahan | refresh (applied) | 107499079 | https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-23-7-2027/event/107499079 | - |
+| tm-noah-kahan-2027-london-1anzkf4gkexwogg | Noah Kahan | refresh (applied) | 107482950 | https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-24-7-2027/event/107482950 | - |
+| tm-noah-kahan-2027-london-1anzkf4gkddlzu_ | Noah Kahan | refresh (applied) | 107666382 | https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-25-7-2027/event/107666382 | - |
+| tm-eagles-2026-las-vegas-1a9zk37gkdxvozi | Eagles | unverify (applied) | 107162527 | https://www.stubhub.ie/eagles-las-vegas-tickets-11-13-2026/event/107162527 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-eagles-2026-las-vegas-1a9zk37gkdxg-zv | Eagles | refresh (applied) | 107162528 | https://www.stubhub.ie/eagles-las-vegas-tickets-11-14-2026/event/107162528 | - |
+| tm-eagles-2026-las-vegas-1a9zk37gkdxusyv | Eagles | refresh (applied) | 107162529 | https://www.stubhub.ie/eagles-las-vegas-tickets-11-27-2026/event/107162529 | - |
+| tm-eagles-2026-las-vegas-1a9zk37gkdxzvy5 | Eagles | refresh (applied) | 107162530 | https://www.stubhub.ie/eagles-las-vegas-tickets-11-28-2026/event/107162530 | - |
+| tm-eagles-2026-las-vegas-1a9zk3dgkdpxlsb | Eagles | refresh (applied) | 107449339 | https://www.stubhub.ie/eagles-las-vegas-tickets-12-4-2026/event/107449339 | - |
+| tm-eagles-2026-las-vegas-1a9zk3dgkdpxrsr | Eagles | refresh (applied) | 107450172 | https://www.stubhub.ie/eagles-las-vegas-tickets-12-5-2026/event/107450172 | - |
+| tm-eagles-2026-las-vegas-1a9zk3dgkdpxrso | Eagles | refresh (applied) | 107450173 | https://www.stubhub.ie/eagles-las-vegas-tickets-12-11-2026/event/107450173 | - |
+| tm-eagles-2026-las-vegas-1a9zk3dgkdbgzr6 | Eagles | refresh (applied) | 107449340 | https://www.stubhub.ie/eagles-las-vegas-tickets-12-12-2026/event/107449340 | - |
+| tm-eagles-2027-las-vegas-1a9zk3dgkdpxrs0 | Eagles | refresh (applied) | 107469467 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-15-2027/event/107469467 | - |
+| tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsj | Eagles | refresh (applied) | 107472163 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-16-2027/event/107472163 | - |
+| tm-eagles-2027-las-vegas-1a9zk3dgkdpxtsi | Eagles | refresh (applied) | 107469468 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-22-2027/event/107469468 | - |
+| tm-eagles-2027-las-vegas-1a9zk3dgkdpt2sm | Eagles | refresh (applied) | 107472164 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-23-2027/event/107472164 | - |
 | tm-journey-2026-greenville-g5evz_1k1vuwb | Journey | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-journey-2026-saint-louis-vvg1bz_1qqkifj | Journey | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-journey-2026-houston-z7r9jz1a70_fz | Journey | none | 107169148 | https://www.stubhub.ie/journey-houston-tickets-11-18-2026/event/107169148 | - |
-| tm-journey-2026-dallas-vvg1yz_14w7vrn | Journey | none | 107170294 | https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294 | - |
+| tm-journey-2026-houston-z7r9jz1a70_fz | Journey | refresh (applied) | 107169148 | https://www.stubhub.ie/journey-houston-tickets-11-18-2026/event/107169148 | - |
+| tm-journey-2026-dallas-vvg1yz_14w7vrn | Journey | refresh (applied) | 107170294 | https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294 | - |
 | tm-journey-2026-denver-g5vzz_1kxjfbe | Journey | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-journey-2026-anaheim-vvg10z_1q4chn3 | Journey | none | 107625088 | https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088 | - |
-| tm-journey-2026-las-vegas-z7r9jz1a70_7f | Journey | none | 107170293 | https://www.stubhub.ie/journey-las-vegas-tickets-11-27-2026/event/107170293 | - |
-| tm-journey-2026-san-francisco-g5vyz_aeock9c | Journey | none | 107169142 | https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142 | - |
-| tm-john-mayer-2027-las-vegas-11ayvpu8jkxpvc | John Mayer | none | 107670707 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-8-2027/event/107670707 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7ucku | John Mayer | none | 107670708 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-10-2027/event/107670708 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7uckz | John Mayer | none | 107670709 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-11-2027/event/107670709 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7uwkb | John Mayer | none | 107670710 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-15-2027/event/107670710 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7mukw | John Mayer | none | 107670714 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-17-2027/event/107670714 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7mukt | John Mayer | none | 107670715 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-18-2027/event/107670715 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_fp3g7i6pt | John Mayer | none | 107672216 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-28-2027/event/107672216 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_fp3g7w9n5 | John Mayer | none | 107672217 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-30-2027/event/107672217 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_fp3g7dmck | John Mayer | none | 107672790 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-1-2027/event/107672790 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7mqfv | John Mayer | none | 107672218 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-5-2027/event/107672218 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7mcfd | John Mayer | none | 107672792 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-7-2027/event/107672792 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7mwfa | John Mayer | none | 107672219 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-8-2027/event/107672219 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7mwf6 | John Mayer | none | 107672220 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-12-2027/event/107672220 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7zufa | John Mayer | none | 107672221 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-14-2027/event/107672221 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7zqf5 | John Mayer | none | 107672222 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-15-2027/event/107672222 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7zqfu | John Mayer | none | 107672793 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-2-2027/event/107672793 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7zcf2 | John Mayer | none | 107672224 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-4-2027/event/107672224 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7zwf4 | John Mayer | none | 107672794 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-5-2027/event/107672794 | - |
-| tm-backstreet-boys-2026-las-vegas-17ayv0g62tqwir3 | Backstreet Boys | none | 107524102 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-26-2026/event/107524102 | - |
-| tm-backstreet-boys-2026-las-vegas-17ayv0g62tqtbry | Backstreet Boys | none | 107524103 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-27-2026/event/107524103 | - |
-| tm-backstreet-boys-2027-las-vegas-17ayv0g62th2fwx | Backstreet Boys | none | 107484115 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-31-2026/event/107484115 | - |
-| tm-backstreet-boys-2027-las-vegas-17ayv0g62thois9 | Backstreet Boys | none | 107484116 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-1-2027/event/107484116 | - |
-| tm-backstreet-boys-2027-las-vegas-17ayv0g62th3iss | Backstreet Boys | none | 107484117 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-2-2027/event/107484117 | - |
+| tm-journey-2026-anaheim-vvg10z_1q4chn3 | Journey | refresh (applied) | 107625088 | https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088 | - |
+| tm-journey-2026-las-vegas-z7r9jz1a70_7f | Journey | refresh (applied) | 107170293 | https://www.stubhub.ie/journey-las-vegas-tickets-11-27-2026/event/107170293 | - |
+| tm-journey-2026-san-francisco-g5vyz_aeock9c | Journey | refresh (applied) | 107169142 | https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142 | - |
+| tm-john-mayer-2027-las-vegas-11ayvpu8jkxpvc | John Mayer | refresh (applied) | 107670707 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-8-2027/event/107670707 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7ucku | John Mayer | refresh (applied) | 107670708 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-10-2027/event/107670708 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7uckz | John Mayer | refresh (applied) | 107670709 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-11-2027/event/107670709 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7uwkb | John Mayer | refresh (applied) | 107670710 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-15-2027/event/107670710 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7mukw | John Mayer | refresh (applied) | 107670714 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-17-2027/event/107670714 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7mukt | John Mayer | refresh (applied) | 107670715 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-18-2027/event/107670715 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_fp3g7i6pt | John Mayer | refresh (applied) | 107672216 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-28-2027/event/107672216 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_fp3g7w9n5 | John Mayer | refresh (applied) | 107672217 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-4-30-2027/event/107672217 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_fp3g7dmck | John Mayer | refresh (applied) | 107672790 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-1-2027/event/107672790 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7mqfv | John Mayer | refresh (applied) | 107672218 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-5-2027/event/107672218 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7mcfd | John Mayer | refresh (applied) | 107672792 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-7-2027/event/107672792 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7mwfa | John Mayer | refresh (applied) | 107672219 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-8-2027/event/107672219 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7mwf6 | John Mayer | refresh (applied) | 107672220 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-12-2027/event/107672220 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zufa | John Mayer | refresh (applied) | 107672221 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-14-2027/event/107672221 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zqf5 | John Mayer | refresh (applied) | 107672222 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-5-15-2027/event/107672222 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zqfu | John Mayer | refresh (applied) | 107672793 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-2-2027/event/107672793 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zcf2 | John Mayer | refresh (applied) | 107672224 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-4-2027/event/107672224 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zwf4 | John Mayer | refresh (applied) | 107672794 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-5-2027/event/107672794 | - |
+| tm-backstreet-boys-2026-las-vegas-17ayv0g62tqwir3 | Backstreet Boys | refresh (applied) | 107524102 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-26-2026/event/107524102 | - |
+| tm-backstreet-boys-2026-las-vegas-17ayv0g62tqtbry | Backstreet Boys | refresh (applied) | 107524103 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-27-2026/event/107524103 | - |
+| tm-backstreet-boys-2027-las-vegas-17ayv0g62th2fwx | Backstreet Boys | refresh (applied) | 107484115 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-31-2026/event/107484115 | - |
+| tm-backstreet-boys-2027-las-vegas-17ayv0g62thois9 | Backstreet Boys | refresh (applied) | 107484116 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-1-2027/event/107484116 | - |
+| tm-backstreet-boys-2027-las-vegas-17ayv0g62th3iss | Backstreet Boys | refresh (applied) | 107484117 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-1-2-2027/event/107484117 | - |
 | tm-backstreet-boys-2027-toronto-1avzz_kgkz7jcq4 | Backstreet Boys | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-backstreet-boys-2027-toronto-1avzz_kgkz7qqq_ | Backstreet Boys | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-backstreet-boys-2027-toronto-1avzz_kgkz7ruqx | Backstreet Boys | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2419,27 +2401,27 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-rod-stewart-2027-niagara-falls-16vzzbmcag7m0q9 | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-rod-stewart-2027-savannah-vvg1zz_kexgebo | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-rod-stewart-2027-biloxi-g5viz_kjgqiyx | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-rod-stewart-2027-hollywood-vvg1vz_3j9ejp4 | Rod Stewart | none | 107669469 | https://www.stubhub.ie/rod-stewart-hollywood-tickets-3-12-2027/event/107669469 | - |
+| tm-rod-stewart-2027-hollywood-vvg1vz_3j9ejp4 | Rod Stewart | refresh (applied) | 107669469 | https://www.stubhub.ie/rod-stewart-hollywood-tickets-3-12-2027/event/107669469 | - |
 | tm-rod-stewart-2027-saint-augustine-z7r9jz1aavybs | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-rod-stewart-2027-uncasville-g5vvz_flfx92d | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-rod-stewart-2027-dublin-1avoz_kgkw68xnf | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-rod-stewart-2027-glasgow-1auzkfygkdhvxxd | Rod Stewart | none | 107671673 | https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-1-5-2027/event/107671673 | - |
-| tm-rod-stewart-2027-birmingham-1kfyvpcfga2dzlv | Rod Stewart | none | 107670604 | https://www.stubhub.ie/rod-stewart-tickets-birmingham-utilita-arena-birmingham-4-5-2027/event/107670604 | - |
-| tm-rod-stewart-2027-manchester-1amzkfugkesbky7 | Rod Stewart | none | 107670603 | https://www.stubhub.ie/rod-stewart-tickets-manchester-co-op-live-6-5-2027/event/107670603 | - |
-| tm-rod-stewart-2027-manchester-1amzkfzgkdjwz0v | Rod Stewart | none | 107671676 | https://www.stubhub.ie/rod-stewart-tickets-manchester-co-op-live-8-5-2027/event/107671676 | - |
-| tm-rod-stewart-2027-london-1agzkfzgkdv3zff | Rod Stewart | none | 107671346 | https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-11-5-2027/event/107671346 | - |
-| tm-rod-stewart-2027-london-1agzkfzgkdvmnjo | Rod Stewart | none | 107671677 | https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-14-5-2027/event/107671677 | - |
-| tm-rod-stewart-2027-amsterdam-z698xzbpz1kbf3oo4 | Rod Stewart | none | 107669291 | https://www.stubhub.ie/rod-stewart-tickets-amsterdam-ziggo-dome-28-5-2027/event/107669291 | - |
+| tm-rod-stewart-2027-glasgow-1auzkfygkdhvxxd | Rod Stewart | refresh (applied) | 107671673 | https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-1-5-2027/event/107671673 | - |
+| tm-rod-stewart-2027-birmingham-1kfyvpcfga2dzlv | Rod Stewart | refresh (applied) | 107670604 | https://www.stubhub.ie/rod-stewart-tickets-birmingham-utilita-arena-birmingham-4-5-2027/event/107670604 | - |
+| tm-rod-stewart-2027-manchester-1amzkfugkesbky7 | Rod Stewart | refresh (applied) | 107670603 | https://www.stubhub.ie/rod-stewart-tickets-manchester-co-op-live-6-5-2027/event/107670603 | - |
+| tm-rod-stewart-2027-manchester-1amzkfzgkdjwz0v | Rod Stewart | refresh (applied) | 107671676 | https://www.stubhub.ie/rod-stewart-tickets-manchester-co-op-live-8-5-2027/event/107671676 | - |
+| tm-rod-stewart-2027-london-1agzkfzgkdv3zff | Rod Stewart | refresh (applied) | 107671346 | https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-11-5-2027/event/107671346 | - |
+| tm-rod-stewart-2027-london-1agzkfzgkdvmnjo | Rod Stewart | refresh (applied) | 107671677 | https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-14-5-2027/event/107671677 | - |
+| tm-rod-stewart-2027-amsterdam-z698xzbpz1kbf3oo4 | Rod Stewart | refresh (applied) | 107669291 | https://www.stubhub.ie/rod-stewart-tickets-amsterdam-ziggo-dome-28-5-2027/event/107669291 | - |
 | tm-rod-stewart-2027-merksem-antwerpen-z698xzg2z1kq_k_u9 | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-rod-stewart-2027-berlin-z698xzc2z16vov80ga | Rod Stewart | none | 107669292 | https://www.stubhub.ie/rod-stewart-tickets-berlin-uber-arena-1-6-2027/event/107669292 | - |
-| tm-rod-stewart-2027-helsinki-z698xz8kz16v7ia-bv | Rod Stewart | none | 107669296 | https://www.stubhub.ie/rod-stewart-tickets-helsinki-veikkaus-arena-9-6-2027/event/107669296 | - |
+| tm-rod-stewart-2027-berlin-z698xzc2z16vov80ga | Rod Stewart | refresh (applied) | 107669292 | https://www.stubhub.ie/rod-stewart-tickets-berlin-uber-arena-1-6-2027/event/107669292 | - |
+| tm-rod-stewart-2027-helsinki-z698xz8kz16v7ia-bv | Rod Stewart | refresh (applied) | 107669296 | https://www.stubhub.ie/rod-stewart-tickets-helsinki-veikkaus-arena-9-6-2027/event/107669296 | - |
 | tm-rod-stewart-2027-trondheim-z698xzb_z16vaukozj | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-rod-stewart-2027-munich-z698xzc2z1kqvo_bs | Rod Stewart | none | 107670553 | https://www.stubhub.ie/rod-stewart-tickets-munich-olympiahalle-munich-20-6-2027/event/107670553 | - |
+| tm-rod-stewart-2027-munich-z698xzc2z1kqvo_bs | Rod Stewart | refresh (applied) | 107670553 | https://www.stubhub.ie/rod-stewart-tickets-munich-olympiahalle-munich-20-6-2027/event/107670553 | - |
 | tm-rod-stewart-2027-praha-9-z698xzu0z16v8ffvx6 | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-rod-stewart-2027-krakow-z698xzqpz1kk400qk | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-rod-stewart-2027-hannover-z698xzc2z1k88ofxe | Rod Stewart | none | 107669294 | https://www.stubhub.ie/rod-stewart-tickets-hannover-zag-arena-24-7-2027/event/107669294 | - |
-| tm-rod-stewart-2027-morrison-z7r9jz1a7qu14 | Rod Stewart | none | 107665317 | https://www.stubhub.ie/rod-stewart-morrison-tickets-9-2-2027/event/107665317 | - |
-| tm-rod-stewart-2027-morrison-z7r9jz1a7r6o4 | Rod Stewart | none | 107665318 | https://www.stubhub.ie/rod-stewart-morrison-tickets-9-3-2027/event/107665318 | - |
+| tm-rod-stewart-2027-hannover-z698xzc2z1k88ofxe | Rod Stewart | refresh (applied) | 107669294 | https://www.stubhub.ie/rod-stewart-tickets-hannover-zag-arena-24-7-2027/event/107669294 | - |
+| tm-rod-stewart-2027-morrison-z7r9jz1a7qu14 | Rod Stewart | refresh (applied) | 107665317 | https://www.stubhub.ie/rod-stewart-morrison-tickets-9-2-2027/event/107665317 | - |
+| tm-rod-stewart-2027-morrison-z7r9jz1a7r6o4 | Rod Stewart | refresh (applied) | 107665318 | https://www.stubhub.ie/rod-stewart-morrison-tickets-9-3-2027/event/107665318 | - |
 | tm-leon-bridges-2027-south-yarra-1avgz_3gkmvg9lb | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-south-yarra-1avgz_3gkrjiqf8 | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-las-vegas-1a9zkfsgkex2qfe | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2450,10 +2432,10 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-leon-bridges-2027-alpharetta-vvg1zz_k76-tb0 | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-wilmington-g5evz_kw2tkfi | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-columbia-1avfz_fqmqezd586 | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-leon-bridges-2027-boston-vv177z_kgkikdrri | Leon Bridges | none | 107672226 | https://www.stubhub.ie/leon-bridges-boston-tickets-7-24-2027/event/107672226 | - |
+| tm-leon-bridges-2027-boston-vv177z_kgkikdrri | Leon Bridges | refresh (applied) | 107672226 | https://www.stubhub.ie/leon-bridges-boston-tickets-7-24-2027/event/107672226 | - |
 | tm-leon-bridges-2027-philadelphia-vv17fz_kgkbngqe2 | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-bend-vvg1hz_ks7yjc4 | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-leon-bridges-2027-seattle-vvg1hz_fqtqa-a | Leon Bridges | none | 107672227 | https://www.stubhub.ie/leon-bridges-seattle-tickets-8-13-2027/event/107672227 | - |
+| tm-leon-bridges-2027-seattle-vvg1hz_fqtqa-a | Leon Bridges | refresh (applied) | 107672227 | https://www.stubhub.ie/leon-bridges-seattle-tickets-8-13-2027/event/107672227 | - |
 | tm-leon-bridges-2027-edmonton-1aozkfigkdr2_nl | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-calgary-1aozkfygkeskgd1 | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-calgary-1aozkfygkesvjka | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2463,133 +2445,132 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-leon-bridges-2027-milwaukee-vv17jz_kgkbyybma | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-minneapolis-vv1fbz_fb9zezd8da | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-rogers-g5viz_kpps1qm | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-leon-bridges-2027-austin-g5diz_flks0j9 | Leon Bridges | none | 107672228 | https://www.stubhub.ie/leon-bridges-austin-tickets-9-24-2027/event/107672228 | - |
-| tm-leon-bridges-2027-houston-g5diz_kb01hxf | Leon Bridges | none | 107672229 | https://www.stubhub.ie/leon-bridges-houston-tickets-9-25-2027/event/107672229 | - |
+| tm-leon-bridges-2027-austin-g5diz_flks0j9 | Leon Bridges | refresh (applied) | 107672228 | https://www.stubhub.ie/leon-bridges-austin-tickets-9-24-2027/event/107672228 | - |
+| tm-leon-bridges-2027-houston-g5diz_kb01hxf | Leon Bridges | refresh (applied) | 107672229 | https://www.stubhub.ie/leon-bridges-houston-tickets-9-25-2027/event/107672229 | - |
 | tm-leon-bridges-2027-phoenix-1a_zk4kgkdlzjqa | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lionel-richie-2026-las-vegas-17ayv0g62k5zcj9 | Lionel Richie | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
+| tm-lionel-richie-2026-las-vegas-17ayv0g62k5zcj9 | Lionel Richie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lionel-richie-2026-las-vegas-17ayv0g62k5yqjh | Lionel Richie | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-lionel-richie-2027-las-vegas-17ayv0g62k5uqjk | Lionel Richie | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-lionel-richie-2027-las-vegas-17ayv0g62k5muj2 | Lionel Richie | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z | Lionel Richie | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-8nc- | Earth, Wind & Fire | none | 107672592 | https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-11-2026/event/107672592 | - |
-| tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-okcm | Earth, Wind & Fire | none | 107672603 | https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-12-2026/event/107672603 | - |
-| tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd | Earth, Wind & Fire | none | 107672613 | https://www.stubhub.ie/earth-wind-fire-thackerville-tickets-12-31-2026/event/107672613 | - |
-| tm-earth-wind-fire-2027-west-palm-beach-z7r9jz1aaea-g | Earth, Wind & Fire | none | 107672588 | https://www.stubhub.ie/earth-wind-fire-west-palm-beach-tickets-3-6-2027/event/107672588 | - |
-| tm-earth-wind-fire-2027-brandon-g5viz_kuehuto | Earth, Wind & Fire | none | 107672596 | https://www.stubhub.ie/earth-wind-fire-brandon-tickets-4-17-2027/event/107672596 | - |
-| tm-earth-wind-fire-2027-southaven-g5viz_f7otpyl | Earth, Wind & Fire | none | 107672610 | https://www.stubhub.ie/earth-wind-fire-southaven-tickets-4-20-2027/event/107672610 | - |
+| tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-8nc- | Earth, Wind & Fire | refresh (applied) | 107672592 | https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-11-2026/event/107672592 | - |
+| tm-earth-wind-fire-2026-atlantic-city-vv1aezkfagkd-okcm | Earth, Wind & Fire | refresh (applied) | 107672603 | https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-12-2026/event/107672603 | - |
+| tm-earth-wind-fire-2027-thackerville-z7r9jz1aazwqd | Earth, Wind & Fire | refresh (applied) | 107672613 | https://www.stubhub.ie/earth-wind-fire-thackerville-tickets-12-31-2026/event/107672613 | - |
+| tm-earth-wind-fire-2027-west-palm-beach-z7r9jz1aaea-g | Earth, Wind & Fire | refresh (applied) | 107672588 | https://www.stubhub.ie/earth-wind-fire-west-palm-beach-tickets-3-6-2027/event/107672588 | - |
+| tm-earth-wind-fire-2027-brandon-g5viz_kuehuto | Earth, Wind & Fire | refresh (applied) | 107672596 | https://www.stubhub.ie/earth-wind-fire-brandon-tickets-4-17-2027/event/107672596 | - |
+| tm-earth-wind-fire-2027-southaven-g5viz_f7otpyl | Earth, Wind & Fire | refresh (applied) | 107672610 | https://www.stubhub.ie/earth-wind-fire-southaven-tickets-4-20-2027/event/107672610 | - |
 | tm-earth-wind-fire-2027-huntsville-z7r9jz1aaeb18 | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-earth-wind-fire-2027-atlanta-vvg1zz_33xgiy_ | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-earth-wind-fire-2027-savannah-vvg1zz_3cl5hyq | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-earth-wind-fire-2027-columbia-g5evz_kl2875x | Earth, Wind & Fire | none | 107672599 | https://www.stubhub.ie/earth-wind-fire-columbia-tickets-4-27-2027/event/107672599 | - |
-| tm-earth-wind-fire-2027-knoxville-g5viz_35urusm | Earth, Wind & Fire | none | 107672591 | https://www.stubhub.ie/earth-wind-fire-knoxville-tickets-4-28-2027/event/107672591 | - |
-| tm-earth-wind-fire-2027-charlotte-g5evz_kmaoltm | Earth, Wind & Fire | none | 107672619 | https://www.stubhub.ie/earth-wind-fire-charlotte-tickets-4-30-2027/event/107672619 | - |
+| tm-earth-wind-fire-2027-columbia-g5evz_kl2875x | Earth, Wind & Fire | refresh (applied) | 107672599 | https://www.stubhub.ie/earth-wind-fire-columbia-tickets-4-27-2027/event/107672599 | - |
+| tm-earth-wind-fire-2027-knoxville-g5viz_35urusm | Earth, Wind & Fire | refresh (applied) | 107672591 | https://www.stubhub.ie/earth-wind-fire-knoxville-tickets-4-28-2027/event/107672591 | - |
+| tm-earth-wind-fire-2027-charlotte-g5evz_kmaoltm | Earth, Wind & Fire | refresh (applied) | 107672619 | https://www.stubhub.ie/earth-wind-fire-charlotte-tickets-4-30-2027/event/107672619 | - |
 | tm-earth-wind-fire-2027-durham-g5evz_f5p7r9- | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-santana-2026-las-vegas-17ayv0g6ck13z7p | Santana | none | 107472161 | https://www.stubhub.ie/santana-las-vegas-tickets-11-14-2026/event/107472161 | - |
-| tm-santana-2026-las-vegas-17ayv0g6ck1fb7i | Santana | none | 107472162 | https://www.stubhub.ie/santana-las-vegas-tickets-11-15-2026/event/107472162 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gau5vmo | Santana | none | 107676182 | https://www.stubhub.ie/santana-las-vegas-tickets-1-20-2027/event/107676182 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gaugomb | Santana | none | 107676183 | https://www.stubhub.ie/santana-las-vegas-tickets-1-21-2027/event/107676183 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gauu-zk | Santana | none | 107676185 | https://www.stubhub.ie/santana-las-vegas-tickets-1-23-2027/event/107676185 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gaucsz4 | Santana | none | 107676186 | https://www.stubhub.ie/santana-las-vegas-tickets-1-24-2027/event/107676186 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gau8vze | Santana | none | 107676188 | https://www.stubhub.ie/santana-las-vegas-tickets-1-27-2027/event/107676188 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gauoozw | Santana | none | 107676189 | https://www.stubhub.ie/santana-las-vegas-tickets-1-28-2027/event/107676189 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gau3-y4 | Santana | none | 107676190 | https://www.stubhub.ie/santana-las-vegas-tickets-1-30-2027/event/107676190 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gauksyx | Santana | none | 107676191 | https://www.stubhub.ie/santana-las-vegas-tickets-1-31-2027/event/107676191 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gau4vyt | Santana | none | 107676246 | https://www.stubhub.ie/santana-las-vegas-tickets-5-12-2027/event/107676246 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gaupoyr | Santana | none | 107676247 | https://www.stubhub.ie/santana-las-vegas-tickets-5-13-2027/event/107676247 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gau9-ys | Santana | none | 107676252 | https://www.stubhub.ie/santana-las-vegas-tickets-5-15-2027/event/107676252 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gaubsyw | Santana | none | 107676254 | https://www.stubhub.ie/santana-las-vegas-tickets-5-16-2027/event/107676254 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gauq-b9 | Santana | none | 107676260 | https://www.stubhub.ie/santana-las-vegas-tickets-5-19-2027/event/107676260 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gaujvbi | Santana | none | 107676262 | https://www.stubhub.ie/santana-las-vegas-tickets-5-20-2027/event/107676262 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gauq-bb | Santana | none | 107676264 | https://www.stubhub.ie/santana-las-vegas-tickets-5-22-2027/event/107676264 | - |
-| tm-santana-2027-las-vegas-1kayvpa0gaursdv | Santana | none | 107676265 | https://www.stubhub.ie/santana-las-vegas-tickets-5-23-2027/event/107676265 | - |
+| tm-santana-2026-las-vegas-17ayv0g6ck13z7p | Santana | refresh (applied) | 107472161 | https://www.stubhub.ie/santana-las-vegas-tickets-11-14-2026/event/107472161 | - |
+| tm-santana-2026-las-vegas-17ayv0g6ck1fb7i | Santana | refresh (applied) | 107472162 | https://www.stubhub.ie/santana-las-vegas-tickets-11-15-2026/event/107472162 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gau5vmo | Santana | refresh (applied) | 107676182 | https://www.stubhub.ie/santana-las-vegas-tickets-1-20-2027/event/107676182 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gaugomb | Santana | refresh (applied) | 107676183 | https://www.stubhub.ie/santana-las-vegas-tickets-1-21-2027/event/107676183 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gauu-zk | Santana | refresh (applied) | 107676185 | https://www.stubhub.ie/santana-las-vegas-tickets-1-23-2027/event/107676185 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gaucsz4 | Santana | refresh (applied) | 107676186 | https://www.stubhub.ie/santana-las-vegas-tickets-1-24-2027/event/107676186 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gau8vze | Santana | refresh (applied) | 107676188 | https://www.stubhub.ie/santana-las-vegas-tickets-1-27-2027/event/107676188 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gauoozw | Santana | refresh (applied) | 107676189 | https://www.stubhub.ie/santana-las-vegas-tickets-1-28-2027/event/107676189 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gau3-y4 | Santana | refresh (applied) | 107676190 | https://www.stubhub.ie/santana-las-vegas-tickets-1-30-2027/event/107676190 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gauksyx | Santana | refresh (applied) | 107676191 | https://www.stubhub.ie/santana-las-vegas-tickets-1-31-2027/event/107676191 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gau4vyt | Santana | refresh (applied) | 107676246 | https://www.stubhub.ie/santana-las-vegas-tickets-5-12-2027/event/107676246 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gaupoyr | Santana | refresh (applied) | 107676247 | https://www.stubhub.ie/santana-las-vegas-tickets-5-13-2027/event/107676247 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gau9-ys | Santana | refresh (applied) | 107676252 | https://www.stubhub.ie/santana-las-vegas-tickets-5-15-2027/event/107676252 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gaubsyw | Santana | refresh (applied) | 107676254 | https://www.stubhub.ie/santana-las-vegas-tickets-5-16-2027/event/107676254 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gauq-b9 | Santana | refresh (applied) | 107676260 | https://www.stubhub.ie/santana-las-vegas-tickets-5-19-2027/event/107676260 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gaujvbi | Santana | refresh (applied) | 107676262 | https://www.stubhub.ie/santana-las-vegas-tickets-5-20-2027/event/107676262 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gauq-bb | Santana | refresh (applied) | 107676264 | https://www.stubhub.ie/santana-las-vegas-tickets-5-22-2027/event/107676264 | - |
+| tm-santana-2027-las-vegas-1kayvpa0gaursdv | Santana | refresh (applied) | 107676265 | https://www.stubhub.ie/santana-las-vegas-tickets-5-23-2027/event/107676265 | - |
 | tm-simple-minds-2027-auckland-17azv0g6g9-xfc0 | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-minds-2027-wellington-17azv0g6gjon-by | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-minds-2027-christchurch-17azv0g6gjwt3e9 | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-minds-2027-assago-zg9rmiynyzdf1v | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-minds-2027-casalecchio-di-reno-bologna-zg9rmiynyzdfaa | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-simple-minds-2027-munich-z698xzc2z16vqkpa7j | Simple Minds | none | 107666712 | https://www.stubhub.ie/simple-minds-tickets-munich-olympiahalle-munich-20-4-2027/event/107666712 | - |
-| tm-simple-minds-2027-berlin-z698xzc2z1kbdpf-d | Simple Minds | none | 107666719 | https://www.stubhub.ie/simple-minds-tickets-berlin-uber-arena-21-4-2027/event/107666719 | - |
-| tm-simple-minds-2027-hamburg-z698xzc2z1k0n7tj3 | Simple Minds | none | 107666704 | https://www.stubhub.ie/simple-minds-tickets-hamburg-barclays-arena-hamburg-27-4-2027/event/107666704 | - |
-| tm-simple-minds-2027-amsterdam-z698xzbpz16v_t_v7k | Simple Minds | none | 107665751 | https://www.stubhub.ie/simple-minds-tickets-amsterdam-ziggo-dome-30-4-2027/event/107665751 | - |
+| tm-simple-minds-2027-munich-z698xzc2z16vqkpa7j | Simple Minds | refresh (applied) | 107666712 | https://www.stubhub.ie/simple-minds-tickets-munich-olympiahalle-munich-20-4-2027/event/107666712 | - |
+| tm-simple-minds-2027-berlin-z698xzc2z1kbdpf-d | Simple Minds | refresh (applied) | 107666719 | https://www.stubhub.ie/simple-minds-tickets-berlin-uber-arena-21-4-2027/event/107666719 | - |
+| tm-simple-minds-2027-hamburg-z698xzc2z1k0n7tj3 | Simple Minds | refresh (applied) | 107666704 | https://www.stubhub.ie/simple-minds-tickets-hamburg-barclays-arena-hamburg-27-4-2027/event/107666704 | - |
+| tm-simple-minds-2027-amsterdam-z698xzbpz16v_t_v7k | Simple Minds | refresh (applied) | 107665751 | https://www.stubhub.ie/simple-minds-tickets-amsterdam-ziggo-dome-30-4-2027/event/107665751 | - |
 | tm-simple-minds-2027-amsterdam-z698xzbpz1k8banaf | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-simple-minds-2027-london-16dfz_313g7wgmr | Simple Minds | none | 107666654 | https://www.stubhub.ie/simple-minds-tickets-london-the-o2-arena-6-5-2027/event/107666654 | - |
-| tm-simple-minds-2027-manchester-1amzkfxgkdzwjhm | Simple Minds | none | 107666655 | https://www.stubhub.ie/simple-minds-tickets-manchester-co-op-live-7-5-2027/event/107666655 | - |
-| tm-simple-minds-2027-birmingham-1aegz_31ka4zdg5d | Simple Minds | none | 107665743 | https://www.stubhub.ie/simple-minds-tickets-birmingham-utilita-arena-birmingham-8-5-2027/event/107665743 | - |
-| tm-simple-minds-2027-nottingham-1adfz_31k14zduv5 | Simple Minds | none | 107665744 | https://www.stubhub.ie/simple-minds-tickets-nottingham-motorpoint-arena-nottingham-10-5-2027/event/107665744 | - |
+| tm-simple-minds-2027-london-16dfz_313g7wgmr | Simple Minds | refresh (applied) | 107666654 | https://www.stubhub.ie/simple-minds-tickets-london-the-o2-arena-6-5-2027/event/107666654 | - |
+| tm-simple-minds-2027-manchester-1amzkfxgkdzwjhm | Simple Minds | refresh (applied) | 107666655 | https://www.stubhub.ie/simple-minds-tickets-manchester-co-op-live-7-5-2027/event/107666655 | - |
+| tm-simple-minds-2027-birmingham-1aegz_31ka4zdg5d | Simple Minds | refresh (applied) | 107665743 | https://www.stubhub.ie/simple-minds-tickets-birmingham-utilita-arena-birmingham-8-5-2027/event/107665743 | - |
+| tm-simple-minds-2027-nottingham-1adfz_31k14zduv5 | Simple Minds | refresh (applied) | 107665744 | https://www.stubhub.ie/simple-minds-tickets-nottingham-motorpoint-arena-nottingham-10-5-2027/event/107665744 | - |
 | tm-simple-minds-2027-leeds-g5vhz_31k8si9 | Simple Minds | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-simple-minds-2027-newcastle-upon-tyne-g5vhz_31k4viz | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-simple-minds-2027-glasgow-1auzkfxgkd0xdr8 | Simple Minds | none | 107666657 | https://www.stubhub.ie/simple-minds-tickets-glasgow-ovo-hydro-arena-glasgow-14-5-2027/event/107666657 | - |
+| tm-simple-minds-2027-glasgow-1auzkfxgkd0xdr8 | Simple Minds | refresh (applied) | 107666657 | https://www.stubhub.ie/simple-minds-tickets-glasgow-ovo-hydro-arena-glasgow-14-5-2027/event/107666657 | - |
 | tm-simple-minds-2027-dublin-1kkzvpk_ga2vkuc | Simple Minds | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-thirty-seconds-to-mars-2027-madrid-z698xz2qz1kvp4xag | Thirty Seconds to Mars | none | 107154484 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484 | - |
-| tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4 | Thirty Seconds to Mars | none | 107154485 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485 | - |
+| tm-thirty-seconds-to-mars-2027-madrid-z698xz2qz1kvp4xag | Thirty Seconds to Mars | refresh (applied) | 107154484 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484 | - |
+| tm-thirty-seconds-to-mars-2027-valencia-z698xz2qz16vuf8kq4 | Thirty Seconds to Mars | refresh (applied) | 107154485 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485 | - |
 | tm-thirty-seconds-to-mars-2027-assago-zg9rmiynyzeadk | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-thirty-seconds-to-mars-2027-munich-z698xzc2z16vfvofpp | Thirty Seconds to Mars | none | 107156408 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408 | - |
+| tm-thirty-seconds-to-mars-2027-munich-z698xzc2z16vfvofpp | Thirty Seconds to Mars | refresh (applied) | 107156408 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408 | - |
 | tm-thirty-seconds-to-mars-2027-vienna-z698xz5rz1k-suw-g | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-thirty-seconds-to-mars-2027-krakow-z698xzqpz1ke8f3ad | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-thirty-seconds-to-mars-2027-hannover-z698xzc2z16vqp_xfz | Thirty Seconds to Mars | none | 107156422 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422 | - |
+| tm-thirty-seconds-to-mars-2027-hannover-z698xzc2z16vqp_xfz | Thirty Seconds to Mars | refresh (applied) | 107156422 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422 | - |
 | tm-thirty-seconds-to-mars-2027-merksem-antwerpen-z698xzg2z1k-8asf4 | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u | Thirty Seconds to Mars | none | 107158077 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077 | - |
-| tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs | Thirty Seconds to Mars | none | 107155347 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-manchester-co-op-live-29-4-2027/event/107155347 | - |
+| tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u | Thirty Seconds to Mars | refresh (applied) | 107158077 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077 | - |
+| tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs | Thirty Seconds to Mars | refresh (applied) | 107155347 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-manchester-co-op-live-29-4-2027/event/107155347 | - |
 | tm-thirty-seconds-to-mars-2027-dublin-1abzk36gkeuawhf | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hayley-williams-2026-ciudad-de-mexico-g5dvz_1q0q4bc | Hayley Williams | none | 107162730 | https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-26-11-2026/event/107162730 | - |
-| tm-hayley-williams-2027-ciudad-de-mexico-g5dvz_5u9jpc7 | Hayley Williams | none | 107259010 | https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-13-1-2027/event/107259010 | - |
+| tm-hayley-williams-2026-ciudad-de-mexico-g5dvz_1q0q4bc | Hayley Williams | refresh (applied) | 107162730 | https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-26-11-2026/event/107162730 | - |
+| tm-hayley-williams-2027-ciudad-de-mexico-g5dvz_5u9jpc7 | Hayley Williams | refresh (applied) | 107259010 | https://www.stubhub.ie/hayley-williams-tickets-mexico-city-auditorio-nacional-13-1-2027/event/107259010 | - |
 | tm-hayley-williams-2027-monterrey-17azv0g65m2hkin | Hayley Williams | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-hayley-williams-2027-zapopan-17azv0g65ulwtlf | Hayley Williams | none | 107259012 | https://www.stubhub.ie/hayley-williams-tickets-guadalajara-auditorio-telmex-17-1-2027/event/107259012 | - |
+| tm-hayley-williams-2027-zapopan-17azv0g65ulwtlf | Hayley Williams | refresh (applied) | 107259012 | https://www.stubhub.ie/hayley-williams-tickets-guadalajara-auditorio-telmex-17-1-2027/event/107259012 | - |
 | tm-hayley-williams-2027-forest-brussels-z698xzg2z1kopjxf_ | Hayley Williams | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-hayley-williams-2027-glasgow-1auzkf-gkd-5zto | Hayley Williams | none | 107666428 | https://www.stubhub.ie/hayley-williams-tickets-glasgow-ovo-hydro-arena-glasgow-23-6-2027/event/107666428 | - |
-| tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk | Hayley Williams | none | 107666788 | https://www.stubhub.ie/hayley-williams-tickets-cardiff-utilita-arena-cardiff-30-6-2027/event/107666788 | - |
+| tm-hayley-williams-2027-glasgow-1auzkf-gkd-5zto | Hayley Williams | refresh (applied) | 107666428 | https://www.stubhub.ie/hayley-williams-tickets-glasgow-ovo-hydro-arena-glasgow-23-6-2027/event/107666428 | - |
+| tm-hayley-williams-2027-cardiff-1adbz_ogkwuumuk | Hayley Williams | refresh (applied) | 107666788 | https://www.stubhub.ie/hayley-williams-tickets-cardiff-utilita-arena-cardiff-30-6-2027/event/107666788 | - |
 | tm-blink-182-2027-milano-zg9rmiynyzefk6 | blink-182 | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-janet-jackson-2026-sunrise-z7r9jz1aazz43 | Janet Jackson | none | 107665901 | https://www.stubhub.ie/janet-jackson-sunrise-tickets-12-12-2026/event/107665901 | - |
-| tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6 | Gorillaz | none | 107495134 | https://www.stubhub.ie/gorillaz-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-9-12-2026/event/107495134 | - |
+| tm-janet-jackson-2026-sunrise-z7r9jz1aazz43 | Janet Jackson | refresh (applied) | 107665901 | https://www.stubhub.ie/janet-jackson-sunrise-tickets-12-12-2026/event/107665901 | - |
+| tm-gorillaz-2026-zapopan-g5dvz_8mtgfu6 | Gorillaz | refresh (applied) | 107495134 | https://www.stubhub.ie/gorillaz-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-9-12-2026/event/107495134 | - |
 | tm-weezer-2027-dublin-17kzv0g62rlynaf | Weezer | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-weezer-2027-newcastle-upon-tyne-g5vhz_8kkspwo | Weezer | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-weezer-2027-manchester-1amzkf7gkderotz | Weezer | none | 107472139 | https://www.stubhub.ie/weezer-tickets-manchester-co-op-live-15-5-2027/event/107472139 | - |
+| tm-weezer-2027-manchester-1amzkf7gkderotz | Weezer | refresh (applied) | 107472139 | https://www.stubhub.ie/weezer-tickets-manchester-co-op-live-15-5-2027/event/107472139 | - |
 | tm-weezer-2027-leeds-g5vhz_8pmm7nv | Weezer | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-weezer-2027-glasgow-1auzkf7gkdxjsmu | Weezer | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-weezer-2027-birmingham-1anzkf7gkdaoymm | Weezer | none | 107472140 | https://www.stubhub.ie/weezer-tickets-birmingham-utilita-arena-birmingham-21-5-2027/event/107472140 | - |
-| tm-weezer-2027-london-g5vhz_83wtacz | Weezer | none | 107469448 | https://www.stubhub.ie/weezer-tickets-london-alexandra-palace-22-5-2027/event/107469448 | - |
-| tm-weezer-2027-cardiff-1auzkf7gkevbx3b | Weezer | none | 107472142 | https://www.stubhub.ie/weezer-tickets-cardiff-utilita-arena-cardiff-23-5-2027/event/107472142 | - |
-| tm-weezer-2027-oslo-z698xzb_z16vpd8jgb | Weezer | none | 107477080 | https://www.stubhub.ie/weezer-tickets-oslo-oslo-spektrum-29-5-2027/event/107477080 | - |
-| tm-weezer-2027-helsinki-z698xz8kz1ku3e4ea | Weezer | none | 107477081 | https://www.stubhub.ie/weezer-tickets-helsinki-veikkaus-arena-1-6-2027/event/107477081 | - |
+| tm-weezer-2027-birmingham-1anzkf7gkdaoymm | Weezer | refresh (applied) | 107472140 | https://www.stubhub.ie/weezer-tickets-birmingham-utilita-arena-birmingham-21-5-2027/event/107472140 | - |
+| tm-weezer-2027-london-g5vhz_83wtacz | Weezer | refresh (applied) | 107469448 | https://www.stubhub.ie/weezer-tickets-london-alexandra-palace-22-5-2027/event/107469448 | - |
+| tm-weezer-2027-cardiff-1auzkf7gkevbx3b | Weezer | refresh (applied) | 107472142 | https://www.stubhub.ie/weezer-tickets-cardiff-utilita-arena-cardiff-23-5-2027/event/107472142 | - |
+| tm-weezer-2027-oslo-z698xzb_z16vpd8jgb | Weezer | refresh (applied) | 107477080 | https://www.stubhub.ie/weezer-tickets-oslo-oslo-spektrum-29-5-2027/event/107477080 | - |
+| tm-weezer-2027-helsinki-z698xz8kz1ku3e4ea | Weezer | refresh (applied) | 107477081 | https://www.stubhub.ie/weezer-tickets-helsinki-veikkaus-arena-1-6-2027/event/107477081 | - |
 | tm-mana-2026-ciudad-de-mexico-17azv0g6glh8hre | MANA | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mana-2026-ciudad-de-mexico-17azv0g6gcz4ax4 | MANA | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jonas-brothers-2026-austin-g5diz_8vesk58 | Jonas Brothers | unverify (applied) | 107482390 | https://www.stubhub.ie/jonas-brothers-austin-tickets-11-13-2026/event/107482390 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-jonas-brothers-2026-san-antonio-g5diz_8uwwbjr | Jonas Brothers | none | 107482391 | https://www.stubhub.ie/jonas-brothers-san-antonio-tickets-11-14-2026/event/107482391 | - |
+| tm-jonas-brothers-2026-san-antonio-g5diz_8uwwbjr | Jonas Brothers | refresh (applied) | 107482391 | https://www.stubhub.ie/jonas-brothers-san-antonio-tickets-11-14-2026/event/107482391 | - |
 | tm-jonas-brothers-2026-palm-desert-vvg1iz_8yuodgq | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-jonas-brothers-2026-hollywood-vvg1iz_8duyuu5 | Jonas Brothers | none | 107482393 | https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-18-2026/event/107482393 | - |
-| tm-jonas-brothers-2026-hollywood-vvg1iz_o7yeh8v | Jonas Brothers | none | 107554508 | https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-19-2026/event/107554508 | - |
-| tm-jonas-brothers-2026-san-francisco-g5vyz_8sbxulz | Jonas Brothers | none | 107482394 | https://www.stubhub.ie/jonas-brothers-san-francisco-tickets-11-21-2026/event/107482394 | - |
-| tm-jonas-brothers-2026-sacramento-g5vyz_8sde9yz | Jonas Brothers | none | 107490079 | https://www.stubhub.ie/jonas-brothers-sacramento-tickets-11-22-2026/event/107490079 | - |
+| tm-jonas-brothers-2026-hollywood-vvg1iz_8duyuu5 | Jonas Brothers | refresh (applied) | 107482393 | https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-18-2026/event/107482393 | - |
+| tm-jonas-brothers-2026-hollywood-vvg1iz_o7yeh8v | Jonas Brothers | refresh (applied) | 107554508 | https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-19-2026/event/107554508 | - |
+| tm-jonas-brothers-2026-san-francisco-g5vyz_8sbxulz | Jonas Brothers | refresh (applied) | 107482394 | https://www.stubhub.ie/jonas-brothers-san-francisco-tickets-11-21-2026/event/107482394 | - |
+| tm-jonas-brothers-2026-sacramento-g5vyz_8sde9yz | Jonas Brothers | refresh (applied) | 107490079 | https://www.stubhub.ie/jonas-brothers-sacramento-tickets-11-22-2026/event/107490079 | - |
 | tm-jonas-brothers-2026-glendale-1av0z_8gkmoa_ep | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jonas-brothers-2026-las-vegas-z7r9jz1aazwb_ | Jonas Brothers | none | 107490080 | https://www.stubhub.ie/jonas-brothers-las-vegas-tickets-11-28-2026/event/107490080 | - |
+| tm-jonas-brothers-2026-las-vegas-z7r9jz1aazwb_ | Jonas Brothers | refresh (applied) | 107490080 | https://www.stubhub.ie/jonas-brothers-las-vegas-tickets-11-28-2026/event/107490080 | - |
 | tm-jonas-brothers-2026-san-diego-vvg1iz_8uk3mob | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-jonas-brothers-2026-anaheim-vv170z_8gkskkuxl | Jonas Brothers | none | 107482385 | https://www.stubhub.ie/jonas-brothers-anaheim-tickets-12-2-2026/event/107482385 | - |
-| tm-jonas-brothers-2026-seattle-vvg1hz_8uqqunb | Jonas Brothers | none | 107524089 | https://www.stubhub.ie/jonas-brothers-seattle-tickets-12-5-2026/event/107524089 | - |
+| tm-jonas-brothers-2026-anaheim-vv170z_8gkskkuxl | Jonas Brothers | refresh (applied) | 107482385 | https://www.stubhub.ie/jonas-brothers-anaheim-tickets-12-2-2026/event/107482385 | - |
+| tm-jonas-brothers-2026-seattle-vvg1hz_8uqqunb | Jonas Brothers | refresh (applied) | 107524089 | https://www.stubhub.ie/jonas-brothers-seattle-tickets-12-5-2026/event/107524089 | - |
 | tm-jonas-brothers-2026-salt-lake-city-z7r9jz1aazwb9 | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jonas-brothers-2026-denver-g5vzz_8u_uayk | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jonas-brothers-2026-lincoln-vv17bz_8gkmchsxu | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jonas-brothers-2026-sioux-falls-vv17bz_8gkdvaovc | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jonas-brothers-2026-grand-rapids-vv17oz_8gkbyzdvo | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jonas-brothers-2026-belmont-park-1adzz_8gku_lwnk | Jonas Brothers | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-jonas-brothers-2026-newark-vv17fz_8gkzo23wg | Jonas Brothers | none | 107482397 | https://www.stubhub.ie/jonas-brothers-newark-tickets-12-21-2026/event/107482397 | - |
-| tm-jonas-brothers-2026-newark-vv17fz_8gkzo8xsx | Jonas Brothers | none | 107625116 | https://www.stubhub.ie/jonas-brothers-newark-tickets-12-22-2026/event/107625116 | - |
-| tm-brent-faiyaz-2026-chicago-vv1a7zkfwgkda-klv | Brent Faiyaz | none | 107669129 | https://www.stubhub.ie/brent-faiyaz-chicago-tickets-11-30-2026/event/107669129 | - |
-| tm-brent-faiyaz-2026-brooklyn-1adzz_3gkxkyvwj | Brent Faiyaz | none | 107669131 | https://www.stubhub.ie/brent-faiyaz-brooklyn-tickets-12-3-2026/event/107669131 | - |
-| tm-brent-faiyaz-2026-los-angeles-z7r9jz1aae7ub | Brent Faiyaz | none | 107670403 | https://www.stubhub.ie/brent-faiyaz-los-angeles-tickets-12-11-2026/event/107670403 | - |
-| tm-zach-bryan-2027-indianapolis-vv17fz_fgkwtxpko | Zach Bryan | none | 107675676 | https://www.stubhub.ie/zach-bryan-indianapolis-tickets-5-1-2027/event/107675676 | - |
-| tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie | Zach Bryan | none | 107675677 | https://www.stubhub.ie/zach-bryan-green-bay-tickets-5-4-2027/event/107675677 | - |
-| tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp | Zach Bryan | none | 107674278 | https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-14-2027/event/107674278 | - |
-| tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd | Zach Bryan | none | 107674279 | https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-15-2027/event/107674279 | - |
-| tm-zach-bryan-2027-philadelphia-vv17fz_fgksiy1rz | Zach Bryan | none | 107674280 | https://www.stubhub.ie/zach-bryan-philadelphia-tickets-5-25-2027/event/107674280 | - |
-| tm-zach-bryan-2027-atlanta-vvg1zz_fwy55os | Zach Bryan | none | 107674281 | https://www.stubhub.ie/zach-bryan-atlanta-tickets-5-29-2027/event/107674281 | - |
-| tm-zach-bryan-2027-orchard-park-vv17gz_fgksis3fj | Zach Bryan | none | 107674282 | https://www.stubhub.ie/zach-bryan-orchard-park-tickets-6-2-2027/event/107674282 | - |
-| tm-zach-bryan-2027-las-vegas-1avjz_fgkwbrzg6 | Zach Bryan | none | 107674226 | https://www.stubhub.ie/zach-bryan-las-vegas-tickets-7-16-2027/event/107674226 | - |
-| tm-zach-bryan-2027-inglewood-vvg1iz_frht9v6 | Zach Bryan | none | 107674901 | https://www.stubhub.ie/zach-bryan-inglewood-tickets-7-20-2027/event/107674901 | - |
-| tm-zach-bryan-2027-seattle-vvg1hz_fytloed | Zach Bryan | none | 107674230 | https://www.stubhub.ie/zach-bryan-seattle-tickets-7-24-2027/event/107674230 | - |
-| tm-zach-bryan-2027-vancouver-1av7z_fgks885w5 | Zach Bryan | none | 107675680 | https://www.stubhub.ie/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027/event/107675680 | - |
+| tm-jonas-brothers-2026-newark-vv17fz_8gkzo23wg | Jonas Brothers | refresh (applied) | 107482397 | https://www.stubhub.ie/jonas-brothers-newark-tickets-12-21-2026/event/107482397 | - |
+| tm-jonas-brothers-2026-newark-vv17fz_8gkzo8xsx | Jonas Brothers | refresh (applied) | 107625116 | https://www.stubhub.ie/jonas-brothers-newark-tickets-12-22-2026/event/107625116 | - |
+| tm-brent-faiyaz-2026-chicago-vv1a7zkfwgkda-klv | Brent Faiyaz | refresh (applied) | 107669129 | https://www.stubhub.ie/brent-faiyaz-chicago-tickets-11-30-2026/event/107669129 | - |
+| tm-brent-faiyaz-2026-brooklyn-1adzz_3gkxkyvwj | Brent Faiyaz | refresh (applied) | 107669131 | https://www.stubhub.ie/brent-faiyaz-brooklyn-tickets-12-3-2026/event/107669131 | - |
+| tm-brent-faiyaz-2026-los-angeles-z7r9jz1aae7ub | Brent Faiyaz | refresh (applied) | 107670403 | https://www.stubhub.ie/brent-faiyaz-los-angeles-tickets-12-11-2026/event/107670403 | - |
+| tm-zach-bryan-2027-indianapolis-vv17fz_fgkwtxpko | Zach Bryan | refresh (applied) | 107675676 | https://www.stubhub.ie/zach-bryan-indianapolis-tickets-5-1-2027/event/107675676 | - |
+| tm-zach-bryan-2027-green-bay-vv17jz_fgkshdkie | Zach Bryan | refresh (applied) | 107675677 | https://www.stubhub.ie/zach-bryan-green-bay-tickets-5-4-2027/event/107675677 | - |
+| tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp | Zach Bryan | refresh (applied) | 107674278 | https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-14-2027/event/107674278 | - |
+| tm-zach-bryan-2027-east-rutherford-k7vgf_fs0cbhd | Zach Bryan | refresh (applied) | 107674279 | https://www.stubhub.ie/zach-bryan-east-rutherford-tickets-5-15-2027/event/107674279 | - |
+| tm-zach-bryan-2027-philadelphia-vv17fz_fgksiy1rz | Zach Bryan | refresh (applied) | 107674280 | https://www.stubhub.ie/zach-bryan-philadelphia-tickets-5-25-2027/event/107674280 | - |
+| tm-zach-bryan-2027-atlanta-vvg1zz_fwy55os | Zach Bryan | refresh (applied) | 107674281 | https://www.stubhub.ie/zach-bryan-atlanta-tickets-5-29-2027/event/107674281 | - |
+| tm-zach-bryan-2027-orchard-park-vv17gz_fgksis3fj | Zach Bryan | refresh (applied) | 107674282 | https://www.stubhub.ie/zach-bryan-orchard-park-tickets-6-2-2027/event/107674282 | - |
+| tm-zach-bryan-2027-las-vegas-1avjz_fgkwbrzg6 | Zach Bryan | refresh (applied) | 107674226 | https://www.stubhub.ie/zach-bryan-las-vegas-tickets-7-16-2027/event/107674226 | - |
+| tm-zach-bryan-2027-inglewood-vvg1iz_frht9v6 | Zach Bryan | refresh (applied) | 107674901 | https://www.stubhub.ie/zach-bryan-inglewood-tickets-7-20-2027/event/107674901 | - |
+| tm-zach-bryan-2027-seattle-vvg1hz_fytloed | Zach Bryan | refresh (applied) | 107674230 | https://www.stubhub.ie/zach-bryan-seattle-tickets-7-24-2027/event/107674230 | - |
+| tm-zach-bryan-2027-vancouver-1av7z_fgks885w5 | Zach Bryan | refresh (applied) | 107675680 | https://www.stubhub.ie/zach-bryan-tickets-vancouver-bc-place-stadium-7-28-2027/event/107675680 | - |
 | tm-zach-bryan-2027-edmonton-1av7z_fgkw2fvlh | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-zach-bryan-2027-boise-g5vzz_fsbnh4h | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-five-finger-death-punch-2027-helsinki-z698xz8kz16evk7gay | Five Finger Death Punch | none | 107162540 | https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540 | - |
+| tm-five-finger-death-punch-2027-helsinki-z698xz8kz16evk7gay | Five Finger Death Punch | refresh (applied) | 107162540 | https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540 | - |
 | tm-michelle-branch-2027-toronto-1a8zk4kgkdkp6j5 | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-toronto-1a8zk4kgkdkj6jq | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sylvan-esso-2027-dublin-1avoz_fgkugispy | Sylvan Esso | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2600,29 +2581,29 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-the-lemonheads-2027-portland-z7r9jz1aavv7i | The Lemonheads | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-haiden-henderson-2027-portland-z7r9jz1aaeekk | Haiden Henderson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fantasia-2027-houston-z7r9jz1aa74o6 | Fantasia | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-greta-van-fleet-2027-glasgow-1auzkfugkd_hipm | Greta Van Fleet | none | 107671668 | https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668 | - |
-| tm-fontaines-d-c-2026-manchester-g5vhz_okyh0m1 | Fontaines D.C. | none | 107554686 | https://www.stubhub.ie/fontaines-d-c-tickets-manchester-manchester-ao-arena-21-11-2026/event/107554686 | - |
-| tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw | Fontaines D.C. | none | 107636078 | https://www.stubhub.ie/fontaines-d-c-tickets-glasgow-ovo-hydro-arena-glasgow-22-11-2026/event/107636078 | - |
+| tm-greta-van-fleet-2027-glasgow-1auzkfugkd_hipm | Greta Van Fleet | refresh (applied) | 107671668 | https://www.stubhub.ie/greta-van-fleet-tickets-glasgow-ovo-hydro-arena-glasgow-2-6-2027/event/107671668 | - |
+| tm-fontaines-d-c-2026-manchester-g5vhz_okyh0m1 | Fontaines D.C. | refresh (applied) | 107554686 | https://www.stubhub.ie/fontaines-d-c-tickets-manchester-manchester-ao-arena-21-11-2026/event/107554686 | - |
+| tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw | Fontaines D.C. | refresh (applied) | 107636078 | https://www.stubhub.ie/fontaines-d-c-tickets-glasgow-ovo-hydro-arena-glasgow-22-11-2026/event/107636078 | - |
 | tm-fontaines-d-c-2027-nashville-z7r9jz1aa7vxe | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-oslo-z698xzb_z16v-jveop | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-minneapolis-z7r9jz1aa7eoa | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-salt-lake-city-z7r9jz1aa7eo3 | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-kansas-city-z7r9jz1aa7eof | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-def-leppard-2027-spokane-z7r9jz1aa7eoo | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-def-leppard-2027-houston-z7r9jz1aa7eob | Def Leppard | none | 107672242 | https://www.stubhub.ie/def-leppard-houston-tickets-6-1-2027/event/107672242 | - |
+| tm-def-leppard-2027-houston-z7r9jz1aa7eob | Def Leppard | refresh (applied) | 107672242 | https://www.stubhub.ie/def-leppard-houston-tickets-6-1-2027/event/107672242 | - |
 | tm-def-leppard-2027-cleveland-z7r9jz1aa7eo8 | Def Leppard | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nickelback-2027-cleveland-z7r9jz1aa774f | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-nickelback-2027-saint-paul-z7r9jz1aa774k | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-nickelback-2027-las-vegas-z7r9jz1aa7746 | Nickelback | none | 107672955 | https://www.stubhub.ie/nickelback-las-vegas-tickets-4-16-2027/event/107672955 | - |
-| tm-nickelback-2027-salt-lake-city-z7r9jz1aa774a | Nickelback | none | 107673390 | https://www.stubhub.ie/nickelback-salt-lake-city-tickets-4-22-2027/event/107673390 | - |
-| tm-nickelback-2027-houston-z7r9jz1aa774o | Nickelback | none | 107673010 | https://www.stubhub.ie/nickelback-houston-tickets-4-29-2027/event/107673010 | - |
-| tm-nickelback-2027-london-1agzk46gkddli7z | Nickelback | none | 107674274 | https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-24-5-2027/event/107674274 | - |
+| tm-nickelback-2027-las-vegas-z7r9jz1aa7746 | Nickelback | refresh (applied) | 107672955 | https://www.stubhub.ie/nickelback-las-vegas-tickets-4-16-2027/event/107672955 | - |
+| tm-nickelback-2027-salt-lake-city-z7r9jz1aa774a | Nickelback | refresh (applied) | 107673390 | https://www.stubhub.ie/nickelback-salt-lake-city-tickets-4-22-2027/event/107673390 | - |
+| tm-nickelback-2027-houston-z7r9jz1aa774o | Nickelback | refresh (applied) | 107673010 | https://www.stubhub.ie/nickelback-houston-tickets-4-29-2027/event/107673010 | - |
+| tm-nickelback-2027-london-1agzk46gkddli7z | Nickelback | refresh (applied) | 107674274 | https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-24-5-2027/event/107674274 | - |
 | tm-mico-2027-jacksonville-z7r9jz1aa7a4e | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-lawrence-z7r9jz1aa7a_g | Mico | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mei-semones-2027-los-angeles-z7r9jz1aa7e-9 | Mei Semones | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7zwf9 | John Mayer | none | 107674878 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-9-2027/event/107674878 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7yuf_ | John Mayer | none | 107674881 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-11-2027/event/107674881 | - |
-| tm-john-mayer-2027-las-vegas-16vjz_komg7yufh | John Mayer | none | 107674210 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-12-2027/event/107674210 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7zwf9 | John Mayer | refresh (applied) | 107674878 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-9-2027/event/107674878 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7yuf_ | John Mayer | refresh (applied) | 107674881 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-11-2027/event/107674881 | - |
+| tm-john-mayer-2027-las-vegas-16vjz_komg7yufh | John Mayer | refresh (applied) | 107674210 | https://www.stubhub.ie/john-mayer-las-vegas-tickets-6-12-2027/event/107674210 | - |
 | tm-backstreet-boys-2027-toronto-1a8zk4agkeehx1f | Backstreet Boys | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-saint-augustine-z7r9jz1aa7dqk | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-morrison-z7r9jz1aa7dvk | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2631,132 +2612,129 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-leon-bridges-2027-nashville-z7r9jz1aa7dqd | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-rod-stewart-2027-dublin-1kkzvpcfga1_k0w | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-rod-stewart-2027-belfast-1azzkfugkd15ooi | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob | Rod Stewart | none | 107670605 | https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-29-4-2027/event/107670605 | - |
-| tm-ye-2026-glendale-z7r9jz1aav08u | Ye | none | 107666750 | https://www.stubhub.ie/ye-glendale-tickets-11-21-2026/event/107666750 | - |
+| tm-rod-stewart-2027-glasgow-1auzkfmgkehwkob | Rod Stewart | refresh (applied) | 107670605 | https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-29-4-2027/event/107670605 | - |
+| tm-ye-2026-glendale-z7r9jz1aav08u | Ye | refresh (applied) | 107666750 | https://www.stubhub.ie/ye-glendale-tickets-11-21-2026/event/107666750 | - |
 | tm-brand-new-2026-phoenix-17k8v0g6gh6bhfj | Brand New | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kacey-musgraves-2027-glasgow-1adbz_agkdqknt2 | Kacey Musgraves | none | 107167077 | https://www.stubhub.ie/kacey-musgraves-tickets-glasgow-ovo-hydro-arena-glasgow-22-2-2027/event/107167077 | - |
-| tm-kacey-musgraves-2027-manchester-g5vhz_gkaityt | Kacey Musgraves | none | 107167078 | https://www.stubhub.ie/kacey-musgraves-tickets-manchester-manchester-ao-arena-24-2-2027/event/107167078 | - |
-| tm-kacey-musgraves-2027-london-1adjz_agkmwrf6s | Kacey Musgraves | none | 107162746 | https://www.stubhub.ie/kacey-musgraves-tickets-london-ovo-arena-wembley-26-2-2027/event/107162746 | - |
+| tm-kacey-musgraves-2027-glasgow-1adbz_agkdqknt2 | Kacey Musgraves | refresh (applied) | 107167077 | https://www.stubhub.ie/kacey-musgraves-tickets-glasgow-ovo-hydro-arena-glasgow-22-2-2027/event/107167077 | - |
+| tm-kacey-musgraves-2027-manchester-g5vhz_gkaityt | Kacey Musgraves | refresh (applied) | 107167078 | https://www.stubhub.ie/kacey-musgraves-tickets-manchester-manchester-ao-arena-24-2-2027/event/107167078 | - |
+| tm-kacey-musgraves-2027-london-1adjz_agkmwrf6s | Kacey Musgraves | refresh (applied) | 107162746 | https://www.stubhub.ie/kacey-musgraves-tickets-london-ovo-arena-wembley-26-2-2027/event/107162746 | - |
 | tm-chris-stapleton-2026-nashville-g5viz_kleeols | Chris Stapleton | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phoebe-bridgers-2026-dublin-17kzv0g65ra4cgv | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phoebe-bridgers-2026-dublin-17kzv0g65ra4mgk | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-phoebe-bridgers-2026-manchester-17uyv0g6gcqzprx | Phoebe Bridgers | none | 107258745 | https://www.stubhub.ie/phoebe-bridgers-tickets-manchester-co-op-live-26-11-2026/event/107258745 | - |
-| tm-phoebe-bridgers-2026-glasgow-17uov0g6gor33_x | Phoebe Bridgers | none | 107298078 | https://www.stubhub.ie/phoebe-bridgers-tickets-glasgow-ovo-hydro-arena-glasgow-27-11-2026/event/107298078 | - |
-| tm-phoebe-bridgers-2026-birmingham-17fyv0g6g2_ps5a | Phoebe Bridgers | none | 107298079 | https://www.stubhub.ie/phoebe-bridgers-tickets-birmingham-bp-pulse-live-28-11-2026/event/107298079 | - |
-| tm-phoebe-bridgers-2026-london-17u8v0g6gpqo1c- | Phoebe Bridgers | none | 107299077 | https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-1-12-2026/event/107299077 | - |
-| tm-phoebe-bridgers-2026-london-17u8v0g6gnyjt5y | Phoebe Bridgers | none | 107258759 | https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-2-12-2026/event/107258759 | - |
-| tm-phoebe-bridgers-2026-forest-brussels-z698xzg2z16ezpgzqe | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
+| tm-phoebe-bridgers-2026-manchester-17uyv0g6gcqzprx | Phoebe Bridgers | refresh (applied) | 107258745 | https://www.stubhub.ie/phoebe-bridgers-tickets-manchester-co-op-live-26-11-2026/event/107258745 | - |
+| tm-phoebe-bridgers-2026-glasgow-17uov0g6gor33_x | Phoebe Bridgers | refresh (applied) | 107298078 | https://www.stubhub.ie/phoebe-bridgers-tickets-glasgow-ovo-hydro-arena-glasgow-27-11-2026/event/107298078 | - |
+| tm-phoebe-bridgers-2026-birmingham-17fyv0g6g2_ps5a | Phoebe Bridgers | refresh (applied) | 107298079 | https://www.stubhub.ie/phoebe-bridgers-tickets-birmingham-bp-pulse-live-28-11-2026/event/107298079 | - |
+| tm-phoebe-bridgers-2026-london-17u8v0g6gpqo1c- | Phoebe Bridgers | refresh (applied) | 107299077 | https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-1-12-2026/event/107299077 | - |
+| tm-phoebe-bridgers-2026-london-17u8v0g6gnyjt5y | Phoebe Bridgers | refresh (applied) | 107258759 | https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-2-12-2026/event/107258759 | - |
 | tm-bryson-tiller-2026-zurich-z698xzu3z16v7d03_k | Bryson Tiller | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bryson-tiller-2026-amsterdam-z698xzbpz1kevfzpk | Bryson Tiller | none | 107258160 | https://www.stubhub.ie/bryson-tiller-tickets-amsterdam-ziggo-dome-24-11-2026/event/107258160 | - |
-| tm-bryson-tiller-2026-dusseldorf-z698xzc2z16vojuk_e | Bryson Tiller | none | 107271077 | https://www.stubhub.ie/bryson-tiller-tickets-dusseldorf-mitsubishi-electric-halle-26-11-2026/event/107271077 | - |
+| tm-bryson-tiller-2026-amsterdam-z698xzbpz1kevfzpk | Bryson Tiller | refresh (applied) | 107258160 | https://www.stubhub.ie/bryson-tiller-tickets-amsterdam-ziggo-dome-24-11-2026/event/107258160 | - |
+| tm-bryson-tiller-2026-dusseldorf-z698xzc2z16vojuk_e | Bryson Tiller | refresh (applied) | 107271077 | https://www.stubhub.ie/bryson-tiller-tickets-dusseldorf-mitsubishi-electric-halle-26-11-2026/event/107271077 | - |
 | tm-bryson-tiller-2026-forest-brussels-z698xzg2z1kq6a0r6 | Bryson Tiller | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-bryson-tiller-2026-dublin-17kzv0g659_puvu | Bryson Tiller | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bryson-tiller-2026-manchester-17uyv0g65whosmd | Bryson Tiller | none | 107258136 | https://www.stubhub.ie/bryson-tiller-tickets-manchester-co-op-live-3-12-2026/event/107258136 | - |
+| tm-bryson-tiller-2026-manchester-17uyv0g65whosmd | Bryson Tiller | refresh (applied) | 107258136 | https://www.stubhub.ie/bryson-tiller-tickets-manchester-co-op-live-3-12-2026/event/107258136 | - |
 | tm-bryson-tiller-2026-leeds-g5vhz_5siv57- | Bryson Tiller | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-bryson-tiller-2026-cardiff-17uov0g65m7upzx | Bryson Tiller | none | 107265079 | https://www.stubhub.ie/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-5-12-2026/event/107265079 | - |
-| tm-bryson-tiller-2026-london-17u8v0g6gkcb7og | Bryson Tiller | none | 107258138 | https://www.stubhub.ie/bryson-tiller-tickets-london-the-o2-arena-7-12-2026/event/107258138 | - |
-| tm-bryson-tiller-2026-birmingham-17fyv0g65u9_ewp | Bryson Tiller | none | 107265080 | https://www.stubhub.ie/bryson-tiller-tickets-birmingham-bp-pulse-live-9-12-2026/event/107265080 | - |
+| tm-bryson-tiller-2026-cardiff-17uov0g65m7upzx | Bryson Tiller | refresh (applied) | 107265079 | https://www.stubhub.ie/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-5-12-2026/event/107265079 | - |
+| tm-bryson-tiller-2026-london-17u8v0g6gkcb7og | Bryson Tiller | refresh (applied) | 107258138 | https://www.stubhub.ie/bryson-tiller-tickets-london-the-o2-arena-7-12-2026/event/107258138 | - |
+| tm-bryson-tiller-2026-birmingham-17fyv0g65u9_ewp | Bryson Tiller | refresh (applied) | 107265080 | https://www.stubhub.ie/bryson-tiller-tickets-birmingham-bp-pulse-live-9-12-2026/event/107265080 | - |
 | tm-bryson-tiller-2027-linlithgow-ave-177yv0g65m3hnkk | Bryson Tiller | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bryson-tiller-2027-auckland-17azv0g65qclfnt | Bryson Tiller | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-arcangel-2026-denver-g5vzz_1bwrqu_ | Arcangel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-arcangel-2026-salt-lake-city-g5vzz_5343iam | Arcangel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-arcangel-2026-inglewood-vvg1iz_1r3weok | Arcangel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-arcangel-2026-san-jose-g5vyz_1s5ejmh | Arcangel | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-garth-brooks-2026-seattle-vvg1hz_fstanbp | Garth Brooks | none | 107674823 | https://www.stubhub.ie/garth-brooks-seattle-tickets-11-13-2026/event/107674823 | - |
-| tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl | Garth Brooks | none | 107674140 | https://www.stubhub.ie/garth-brooks-seattle-tickets-11-14-2026/event/107674140 | - |
+| tm-garth-brooks-2026-seattle-vvg1hz_fstanbp | Garth Brooks | unverify (applied) | 107674823 | https://www.stubhub.ie/garth-brooks-seattle-tickets-11-13-2026/event/107674823 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-garth-brooks-2026-seattle-vvg1hz_fghqxgl | Garth Brooks | refresh (applied) | 107674140 | https://www.stubhub.ie/garth-brooks-seattle-tickets-11-14-2026/event/107674140 | - |
 | tm-saint-levant-2027-glasgow-1adbz_fgkb_vncq | Saint Levant | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-saint-levant-2027-manchester-g5dzz_fbnzksb | Saint Levant | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-saint-levant-2027-london-1auzk48gkdxoa9q | Saint Levant | none | 107677704 | https://www.stubhub.ie/saint-levant-tickets-london-eventim-apollo-21-1-2027/event/107677704 | - |
+| tm-saint-levant-2027-london-1auzk48gkdxoa9q | Saint Levant | refresh (applied) | 107677704 | https://www.stubhub.ie/saint-levant-tickets-london-eventim-apollo-21-1-2027/event/107677704 | - |
 | tm-saint-levant-2027-ciudad-de-mexico-g5dvz_o3qzslc | Saint Levant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-lemonheads-2027-seattle-z7r9jz1aa79u7 | The Lemonheads | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-haiden-henderson-2027-seattle-z7r9jz1aa79uf | Haiden Henderson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-yacht-rock-revue-2027-athens-z7r9jz1aa7oam | Yacht Rock Revue | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-backstreet-boys-2026-las-vegas-17ayv0g62thvzyn | Backstreet Boys | none | 107677322 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-29-2026/event/107677322 | - |
+| tm-backstreet-boys-2026-las-vegas-17ayv0g62thvzyn | Backstreet Boys | refresh (applied) | 107677322 | https://www.stubhub.ie/backstreet-boys-las-vegas-tickets-12-29-2026/event/107677322 | - |
 | tm-elevation-worship-2027-spokane-z7r9jz1aavwus | Elevation Worship | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-elevation-worship-2027-tacoma-vvg1hz_35ckwg5 | Elevation Worship | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-elevation-worship-2027-sacramento-g5vyz_38zvlqx | Elevation Worship | none | 107668142 | https://www.stubhub.ie/elevation-worship-sacramento-tickets-3-1-2027/event/107668142 | - |
+| tm-elevation-worship-2027-sacramento-g5vyz_38zvlqx | Elevation Worship | refresh (applied) | 107668142 | https://www.stubhub.ie/elevation-worship-sacramento-tickets-3-1-2027/event/107668142 | - |
 | tm-elevation-worship-2027-oakland-g5vyz_3npydie | Elevation Worship | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-elevation-worship-2027-anaheim-vv16azkfivpza5vug5 | Elevation Worship | none | 107668144 | https://www.stubhub.ie/elevation-worship-anaheim-tickets-3-3-2027/event/107668144 | - |
+| tm-elevation-worship-2027-anaheim-vv16azkfivpza5vug5 | Elevation Worship | refresh (applied) | 107668144 | https://www.stubhub.ie/elevation-worship-anaheim-tickets-3-3-2027/event/107668144 | - |
 | tm-elevation-worship-2027-san-diego-vvg1iz_37k-njg | Elevation Worship | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-elevation-worship-2027-phoenix-1a_zkf0gkdcjit6 | Elevation Worship | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-elevation-worship-2027-inglewood-vv1aazkfigkdewunn | Elevation Worship | none | 107668145 | https://www.stubhub.ie/elevation-worship-inglewood-tickets-3-7-2027/event/107668145 | - |
-| tm-stevie-wonder-2026-new-york-g5diz_gpossvv | Stevie Wonder | none | 107667142 | https://www.stubhub.ie/stevie-wonder-new-york-tickets-11-19-2026/event/107667142 | - |
-| tm-stevie-wonder-2026-chicago-vv1a7zkfngkd8ke_p | Stevie Wonder | none | 107665890 | https://www.stubhub.ie/stevie-wonder-chicago-tickets-11-21-2026/event/107665890 | - |
-| tm-stevie-wonder-2026-washington-1a4zkfxgkdptcca | Stevie Wonder | none | 107667143 | https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143 | - |
-| tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph | Stevie Wonder | none | 107667145 | https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145 | - |
-| tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna | Stevie Wonder | none | 107667146 | https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146 | - |
-| tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug | Stevie Wonder | none | 107667148 | https://www.stubhub.ie/stevie-wonder-inglewood-tickets-12-19-2026/event/107667148 | - |
+| tm-elevation-worship-2027-inglewood-vv1aazkfigkdewunn | Elevation Worship | refresh (applied) | 107668145 | https://www.stubhub.ie/elevation-worship-inglewood-tickets-3-7-2027/event/107668145 | - |
+| tm-stevie-wonder-2026-new-york-g5diz_gpossvv | Stevie Wonder | refresh (applied) | 107667142 | https://www.stubhub.ie/stevie-wonder-new-york-tickets-11-19-2026/event/107667142 | - |
+| tm-stevie-wonder-2026-chicago-vv1a7zkfngkd8ke_p | Stevie Wonder | refresh (applied) | 107665890 | https://www.stubhub.ie/stevie-wonder-chicago-tickets-11-21-2026/event/107665890 | - |
+| tm-stevie-wonder-2026-washington-1a4zkfxgkdptcca | Stevie Wonder | refresh (applied) | 107667143 | https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143 | - |
+| tm-stevie-wonder-2026-detroit-vv1kezvpa-gaukuph | Stevie Wonder | refresh (applied) | 107667145 | https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145 | - |
+| tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna | Stevie Wonder | refresh (applied) | 107667146 | https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146 | - |
+| tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug | Stevie Wonder | refresh (applied) | 107667148 | https://www.stubhub.ie/stevie-wonder-inglewood-tickets-12-19-2026/event/107667148 | - |
 | tm-lil-wayne-2026-lexington-1avbz_kgkyr04kw | Lil Wayne | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lil-wayne-2026-savannah-vvg1zz_3n_vz4w | Lil Wayne | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lil-wayne-2027-reading-vv17fz_kgkwwyiai | Lil Wayne | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkeinqmd | A Boogie Wit Da Hoodie | unverify (applied) | 107675674 | https://www.stubhub.ie/a-boogie-wit-da-hoodie-philadelphia-tickets-11-13-2026/event/107675674 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkecacwb | A Boogie Wit Da Hoodie | none | 107675673 | https://www.stubhub.ie/a-boogie-wit-da-hoodie-philadelphia-tickets-11-14-2026/event/107675673 | - |
+| tm-a-boogie-wit-da-hoodie-2026-philadelphia-vv1aezkfygkecacwb | A Boogie Wit Da Hoodie | refresh (applied) | 107675673 | https://www.stubhub.ie/a-boogie-wit-da-hoodie-philadelphia-tickets-11-14-2026/event/107675673 | - |
 | tm-a-boogie-wit-da-hoodie-2026-toronto-168zkfspyzauf8v5 | A Boogie Wit Da Hoodie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-boogie-wit-da-hoodie-2026-orlando-z7r9jz1aaef4e | A Boogie Wit Da Hoodie | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-a-boogie-wit-da-hoodie-2026-minneapolis-vv1akzkfygkd_ao6r | A Boogie Wit Da Hoodie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-a-boogie-wit-da-hoodie-2026-hartford-z7r9jz1aaea_k | A Boogie Wit Da Hoodie | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sienna-spiro-2027-austin-g5diz_47ytekn | Sienna Spiro | none | 107678123 | https://www.stubhub.ie/sienna-spiro-austin-tickets-8-5-2027/event/107678123 | - |
-| tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm | Sienna Spiro | none | 107678109 | https://www.stubhub.ie/sienna-spiro-washington-tickets-8-12-2027/event/107678109 | - |
+| tm-sienna-spiro-2027-austin-g5diz_47ytekn | Sienna Spiro | refresh (applied) | 107678123 | https://www.stubhub.ie/sienna-spiro-austin-tickets-8-5-2027/event/107678123 | - |
+| tm-sienna-spiro-2027-washington-1avfz_fgksa-bdm | Sienna Spiro | refresh (applied) | 107678109 | https://www.stubhub.ie/sienna-spiro-washington-tickets-8-12-2027/event/107678109 | - |
 | tm-sienna-spiro-2027-philadelphia-vv17fz_fgkuhzdr4 | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-sienna-spiro-2027-boston-vv177z_fgkd_e0km | Sienna Spiro | none | 107675899 | https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899 | - |
-| tm-sienna-spiro-2027-new-york-g5dyz_46da3nv | Sienna Spiro | none | 107678122 | https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-17-2027/event/107678122 | - |
-| tm-sienna-spiro-2027-detroit-vv1afzk48gkebo40x | Sienna Spiro | none | 107678127 | https://www.stubhub.ie/sienna-spiro-detroit-tickets-8-23-2027/event/107678127 | - |
-| tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j | Sienna Spiro | none | 107678120 | https://www.stubhub.ie/sienna-spiro-chicago-tickets-8-25-2027/event/107678120 | - |
-| tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o | Sienna Spiro | none | 107676040 | https://www.stubhub.ie/sienna-spiro-chicago-tickets-8-26-2027/event/107676040 | - |
-| tm-sienna-spiro-2027-minneapolis-vv17bz_fgktexhi7 | Sienna Spiro | none | 107678113 | https://www.stubhub.ie/sienna-spiro-minneapolis-tickets-8-28-2027/event/107678113 | - |
-| tm-sienna-spiro-2027-seattle-vvg1hz_4ediyof | Sienna Spiro | none | 107678118 | https://www.stubhub.ie/sienna-spiro-seattle-tickets-9-2-2027/event/107678118 | - |
+| tm-sienna-spiro-2027-boston-vv177z_fgkd_e0km | Sienna Spiro | refresh (applied) | 107675899 | https://www.stubhub.ie/sienna-spiro-boston-tickets-8-15-2027/event/107675899 | - |
+| tm-sienna-spiro-2027-new-york-g5dyz_46da3nv | Sienna Spiro | refresh (applied) | 107678122 | https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-17-2027/event/107678122 | - |
+| tm-sienna-spiro-2027-detroit-vv1afzk48gkebo40x | Sienna Spiro | refresh (applied) | 107678127 | https://www.stubhub.ie/sienna-spiro-detroit-tickets-8-23-2027/event/107678127 | - |
+| tm-sienna-spiro-2027-chicago-vv17jz_fgkxlgu6j | Sienna Spiro | refresh (applied) | 107678120 | https://www.stubhub.ie/sienna-spiro-chicago-tickets-8-25-2027/event/107678120 | - |
+| tm-sienna-spiro-2027-chicago-vv17jz_fgkxlcj6o | Sienna Spiro | refresh (applied) | 107676040 | https://www.stubhub.ie/sienna-spiro-chicago-tickets-8-26-2027/event/107676040 | - |
+| tm-sienna-spiro-2027-minneapolis-vv17bz_fgktexhi7 | Sienna Spiro | refresh (applied) | 107678113 | https://www.stubhub.ie/sienna-spiro-minneapolis-tickets-8-28-2027/event/107678113 | - |
+| tm-sienna-spiro-2027-seattle-vvg1hz_4ediyof | Sienna Spiro | refresh (applied) | 107678118 | https://www.stubhub.ie/sienna-spiro-seattle-tickets-9-2-2027/event/107678118 | - |
 | tm-sienna-spiro-2027-vancouver-1av7z_fgkxqzaez | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sienna-spiro-2027-berkeley-g5vyz_fbwbrn7 | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e | Sienna Spiro | none | 107675741 | https://www.stubhub.ie/sienna-spiro-tickets-mexico-city-pepsi-center-wtc-14-9-2027/event/107675741 | - |
+| tm-sienna-spiro-2027-mexico-1afzk4ogkeyuq9e | Sienna Spiro | refresh (applied) | 107675741 | https://www.stubhub.ie/sienna-spiro-tickets-mexico-city-pepsi-center-wtc-14-9-2027/event/107675741 | - |
 | tm-the-interrupters-2027-san-diego-vvg1iz_4zg9ez5 | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tommy-emmanuel-2027-grand-junction-g5vzz_fdgnqkn | Tommy Emmanuel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tommy-emmanuel-2027-virginia-beach-vv177z_fgkxnvih0 | Tommy Emmanuel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-haiden-henderson-2027-minneapolis-z7r9jz1aaeerb | Haiden Henderson | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-eagles-2027-las-vegas-1a9zk4egkdcmdns | Eagles | none | 107675877 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-8-2027/event/107675877 | - |
-| tm-eagles-2027-las-vegas-1a9zk4egkdmahp8 | Eagles | none | 107678064 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-9-2027/event/107678064 | - |
-| tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd | Sienna Spiro | none | 107675974 | https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-18-2027/event/107675974 | - |
+| tm-eagles-2027-las-vegas-1a9zk4egkdcmdns | Eagles | refresh (applied) | 107675877 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-8-2027/event/107675877 | - |
+| tm-eagles-2027-las-vegas-1a9zk4egkdmahp8 | Eagles | refresh (applied) | 107678064 | https://www.stubhub.ie/eagles-las-vegas-tickets-1-9-2027/event/107678064 | - |
+| tm-sienna-spiro-2027-new-york-g5dyz_46d6wnd | Sienna Spiro | refresh (applied) | 107675974 | https://www.stubhub.ie/sienna-spiro-new-york-tickets-8-18-2027/event/107675974 | - |
 | tm-yacht-rock-revue-2027-atlanta-z7r9jz1aa7oau | Yacht Rock Revue | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-earth-wind-fire-2027-saint-augustine-z7r9jz1aaeb-p | Earth, Wind & Fire | none | 107672614 | https://www.stubhub.ie/earth-wind-fire-saint-augustine-tickets-4-14-2027/event/107672614 | - |
-| tm-katseye-2026-las-vegas-z7r9jz1a70ouv | KATSEYE | none | 107170285 | https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285 | - |
-| tm-katseye-2026-seattle-vvg1hz_1e8gggs | KATSEYE | none | 107170286 | https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286 | - |
-| tm-katseye-2026-oakland-g5vyz_1m-ew1q | KATSEYE | none | 107170287 | https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287 | - |
-| tm-katseye-2026-los-angeles-g5eyz_1rkf-rx | KATSEYE | none | 107170288 | https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288 | - |
-| tm-katseye-2026-los-angeles-g5eyz_52cssfl | KATSEYE | none | 107188077 | https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077 | - |
-| tm-katseye-2026-phoenix-17k8v0g61m4tf9t | KATSEYE | none | 107170289 | https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289 | - |
-| tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj | KATSEYE | none | 107165672 | https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672 | - |
-| tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe | KATSEYE | none | 107187078 | https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078 | - |
-| tm-ty-myers-2026-austin-g5diz_kuopazl | Ty Myers | none | 107165656 | https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656 | - |
-| tm-ty-myers-2026-fort-worth-vvg1yz_61djqel | Ty Myers | none | 107167142 | https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142 | - |
-| tm-beabadoobee-2026-glasgow-17uov0g6uryba3u | beabadoobee | none | 107447517 | https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517 | - |
-| tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg | beabadoobee | none | 107447518 | https://www.stubhub.ie/beabadoobee-tickets-cardiff-utilita-arena-cardiff-16-11-2026/event/107447518 | - |
-| tm-beabadoobee-2026-manchester-g5vhz_u1guca1 | beabadoobee | none | 107417852 | https://www.stubhub.ie/beabadoobee-tickets-manchester-manchester-ao-arena-17-11-2026/event/107417852 | - |
+| tm-earth-wind-fire-2027-saint-augustine-z7r9jz1aaeb-p | Earth, Wind & Fire | refresh (applied) | 107672614 | https://www.stubhub.ie/earth-wind-fire-saint-augustine-tickets-4-14-2027/event/107672614 | - |
+| tm-katseye-2026-las-vegas-z7r9jz1a70ouv | KATSEYE | refresh (applied) | 107170285 | https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285 | - |
+| tm-katseye-2026-seattle-vvg1hz_1e8gggs | KATSEYE | refresh (applied) | 107170286 | https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286 | - |
+| tm-katseye-2026-oakland-g5vyz_1m-ew1q | KATSEYE | refresh (applied) | 107170287 | https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287 | - |
+| tm-katseye-2026-los-angeles-g5eyz_1rkf-rx | KATSEYE | refresh (applied) | 107170288 | https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288 | - |
+| tm-katseye-2026-los-angeles-g5eyz_52cssfl | KATSEYE | refresh (applied) | 107188077 | https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077 | - |
+| tm-katseye-2026-phoenix-17k8v0g61m4tf9t | KATSEYE | refresh (applied) | 107170289 | https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289 | - |
+| tm-katseye-2026-ciudad-de-mexico-17azv0g61mujevj | KATSEYE | refresh (applied) | 107165672 | https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672 | - |
+| tm-katseye-2026-ciudad-de-mexico-17azv0g61m2a3xe | KATSEYE | refresh (applied) | 107187078 | https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078 | - |
+| tm-ty-myers-2026-austin-g5diz_kuopazl | Ty Myers | refresh (applied) | 107165656 | https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656 | - |
+| tm-ty-myers-2026-fort-worth-vvg1yz_61djqel | Ty Myers | refresh (applied) | 107167142 | https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142 | - |
+| tm-beabadoobee-2026-glasgow-17uov0g6uryba3u | beabadoobee | unverify (applied) | 107447517 | https://www.stubhub.ie/beabadoobee-tickets-glasgow-ovo-hydro-arena-glasgow-14-11-2026/event/107447517 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-beabadoobee-2026-cardiff-17uov0g6uhod1tg | beabadoobee | refresh (applied) | 107447518 | https://www.stubhub.ie/beabadoobee-tickets-cardiff-utilita-arena-cardiff-16-11-2026/event/107447518 | - |
+| tm-beabadoobee-2026-manchester-g5vhz_u1guca1 | beabadoobee | refresh (applied) | 107417852 | https://www.stubhub.ie/beabadoobee-tickets-manchester-manchester-ao-arena-17-11-2026/event/107417852 | - |
 | tm-beabadoobee-2026-greenwich-z7r9jz1a7ps_a | beabadoobee | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-beabadoobee-2026-stockholm-z698xzq2z1kp0a-oa | beabadoobee | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-beabadoobee-2026-oslo-z698xzb_z16v38kfe3 | beabadoobee | none | 107417938 | https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938 | - |
+| tm-beabadoobee-2026-oslo-z698xzb_z16v38kfe3 | beabadoobee | refresh (applied) | 107417938 | https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938 | - |
 | tm-beabadoobee-2026-forest-brussels-z698xzg2z16vovadfj | beabadoobee | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-beabadoobee-2026-berlin-z698xzc2z16vpmfp_a | beabadoobee | none | 107417969 | https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969 | - |
-| tm-beabadoobee-2026-dusseldorf-z698xzc2z1k09qy83 | beabadoobee | none | 107417970 | https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970 | - |
-| tm-dave-matthews-band-2026-new-york-g5diz_2njdtfa | Dave Matthews Band | unverify (applied) | 107490083 | https://www.stubhub.ie/dave-matthews-band-new-york-tickets-11-13-2026/event/107490083 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm | Garth Brooks | none | 107678063 | https://www.stubhub.ie/garth-brooks-seattle-tickets-11-15-2026/event/107678063 | - |
-| tm-los-tigres-del-norte-2026-palm-desert-vvg1iz_axk_2p- | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
+| tm-beabadoobee-2026-berlin-z698xzc2z16vpmfp_a | beabadoobee | refresh (applied) | 107417969 | https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969 | - |
+| tm-beabadoobee-2026-dusseldorf-z698xzc2z1k09qy83 | beabadoobee | refresh (applied) | 107417970 | https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970 | - |
+| tm-garth-brooks-2026-seattle-vvg1hz_4dkzhpm | Garth Brooks | refresh (applied) | 107678063 | https://www.stubhub.ie/garth-brooks-seattle-tickets-11-15-2026/event/107678063 | - |
+| tm-los-tigres-del-norte-2026-palm-desert-vvg1iz_axk_2p- | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2026-san-diego-z7r9jz1a7-p4f | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-los-tigres-del-norte-2026-columbus-z7r9jz1a7ofo9 | Los Tigres del Norte | none | 107162973 | https://www.stubhub.ie/los-tigres-del-norte-columbus-tickets-11-20-2026/event/107162973 | - |
-| tm-los-tigres-del-norte-2026-detroit-vv1kezv0jiga2jpfm | Los Tigres del Norte | none | 107162966 | https://www.stubhub.ie/los-tigres-del-norte-detroit-tickets-11-21-2026/event/107162966 | - |
-| tm-los-tigres-del-norte-2026-baltimore-164zko9e6zackudg | Los Tigres del Norte | none | 107168094 | https://www.stubhub.ie/los-tigres-del-norte-baltimore-tickets-11-27-2026/event/107168094 | - |
+| tm-los-tigres-del-norte-2026-columbus-z7r9jz1a7ofo9 | Los Tigres del Norte | refresh (applied) | 107162973 | https://www.stubhub.ie/los-tigres-del-norte-columbus-tickets-11-20-2026/event/107162973 | - |
+| tm-los-tigres-del-norte-2026-detroit-vv1kezv0jiga2jpfm | Los Tigres del Norte | refresh (applied) | 107162966 | https://www.stubhub.ie/los-tigres-del-norte-detroit-tickets-11-21-2026/event/107162966 | - |
+| tm-los-tigres-del-norte-2026-baltimore-164zko9e6zackudg | Los Tigres del Norte | refresh (applied) | 107168094 | https://www.stubhub.ie/los-tigres-del-norte-baltimore-tickets-11-27-2026/event/107168094 | - |
 | tm-los-tigres-del-norte-2026-belmont-park-1kgzv0pfgagsn5l | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-los-tigres-del-norte-2026-nashville-g5viz_an5hweq | Los Tigres del Norte | none | 107168095 | https://www.stubhub.ie/los-tigres-del-norte-nashville-tickets-12-4-2026/event/107168095 | - |
-| tm-los-tigres-del-norte-2026-birmingham-1aozkobgkdkxmhh | Los Tigres del Norte | none | 107162968 | https://www.stubhub.ie/los-tigres-del-norte-birmingham-tickets-12-5-2026/event/107162968 | - |
-| tm-los-tigres-del-norte-2027-san-jose-g5vyz_k6cidvv | Los Tigres del Norte | none | 107670439 | https://www.stubhub.ie/los-tigres-del-norte-san-jose-tickets-2-20-2027/event/107670439 | - |
+| tm-los-tigres-del-norte-2026-nashville-g5viz_an5hweq | Los Tigres del Norte | refresh (applied) | 107168095 | https://www.stubhub.ie/los-tigres-del-norte-nashville-tickets-12-4-2026/event/107168095 | - |
+| tm-los-tigres-del-norte-2026-birmingham-1aozkobgkdkxmhh | Los Tigres del Norte | refresh (applied) | 107162968 | https://www.stubhub.ie/los-tigres-del-norte-birmingham-tickets-12-5-2026/event/107162968 | - |
+| tm-los-tigres-del-norte-2027-san-jose-g5vyz_k6cidvv | Los Tigres del Norte | refresh (applied) | 107670439 | https://www.stubhub.ie/los-tigres-del-norte-san-jose-tickets-2-20-2027/event/107670439 | - |
 | tm-los-tigres-del-norte-2027-temecula-vvg1iz_km0aey4 | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-zac-brown-band-2026-lincoln-vv16kzk8wakzacfeeu | Zac Brown Band | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-zac-brown-band-2026-des-moines-z7r9jz1a7osk3 | Zac Brown Band | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-zac-brown-band-2026-rosemont-vv1a7zk8sgkdldbon | Zac Brown Band | none | 107138123 | https://www.stubhub.ie/zac-brown-band-rosemont-tickets-11-21-2026/event/107138123 | - |
+| tm-zac-brown-band-2026-rosemont-vv1a7zk8sgkdldbon | Zac Brown Band | refresh (applied) | 107138123 | https://www.stubhub.ie/zac-brown-band-rosemont-tickets-11-21-2026/event/107138123 | - |
 | tm-zac-brown-band-2027-milwaukee-vv1a6zkf0gkdpf9tr | Zac Brown Band | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sleeping-with-sirens-2027-bristol-17u8v0g6gfkrxfj | Sleeping With Sirens | none | 107300077 | https://www.stubhub.ie/sleeping-with-sirens-tickets-bristol-the-prospect-building-2-3-2027/event/107300077 | - |
-| tm-sleeping-with-sirens-2027-glasgow-g5dzz_g5isp0f | Sleeping With Sirens | none | 107301077 | https://www.stubhub.ie/sleeping-with-sirens-tickets-glasgow-o2-academy-glasgow-3-3-2027/event/107301077 | - |
-| tm-sleeping-with-sirens-2027-manchester-g5vhz_gfgtq6v | Sleeping With Sirens | none | 107301078 | https://www.stubhub.ie/sleeping-with-sirens-tickets-manchester-manchester-academy-5-3-2027/event/107301078 | - |
-| tm-sleeping-with-sirens-2027-birmingham-g5dzz_5wuo0od | Sleeping With Sirens | none | 107302077 | https://www.stubhub.ie/sleeping-with-sirens-tickets-birmingham-o2-academy-birmingham-6-3-2027/event/107302077 | - |
-| tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i | Sleeping With Sirens | none | 107258746 | https://www.stubhub.ie/sleeping-with-sirens-tickets-london-o2-academy-brixton-7-3-2027/event/107258746 | - |
+| tm-sleeping-with-sirens-2027-bristol-17u8v0g6gfkrxfj | Sleeping With Sirens | refresh (applied) | 107300077 | https://www.stubhub.ie/sleeping-with-sirens-tickets-bristol-the-prospect-building-2-3-2027/event/107300077 | - |
+| tm-sleeping-with-sirens-2027-glasgow-g5dzz_g5isp0f | Sleeping With Sirens | refresh (applied) | 107301077 | https://www.stubhub.ie/sleeping-with-sirens-tickets-glasgow-o2-academy-glasgow-3-3-2027/event/107301077 | - |
+| tm-sleeping-with-sirens-2027-manchester-g5vhz_gfgtq6v | Sleeping With Sirens | refresh (applied) | 107301078 | https://www.stubhub.ie/sleeping-with-sirens-tickets-manchester-manchester-academy-5-3-2027/event/107301078 | - |
+| tm-sleeping-with-sirens-2027-birmingham-g5dzz_5wuo0od | Sleeping With Sirens | refresh (applied) | 107302077 | https://www.stubhub.ie/sleeping-with-sirens-tickets-birmingham-o2-academy-birmingham-6-3-2027/event/107302077 | - |
+| tm-sleeping-with-sirens-2027-london-g5dzz_g5cip1i | Sleeping With Sirens | refresh (applied) | 107258746 | https://www.stubhub.ie/sleeping-with-sirens-tickets-london-o2-academy-brixton-7-3-2027/event/107258746 | - |
 | tm-sleeping-with-sirens-2027-brisbane-1akzkfygkeprtzf | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sleeping-with-sirens-2027-west-melbourne-1avgz_kgkwtduwz | Sleeping With Sirens | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dinosaur-jr-2027-brisbane-1k7yvp4bgacdnzm | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2770,11 +2748,11 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-cece-winans-2026-los-angeles-z7r9jz1a7jfjs | CeCe Winans | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-cece-winans-2026-sacramento-g5vyz_cr1cmnb | CeCe Winans | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-cece-winans-2027-nashville-z7r9jz1aaebzs | CeCe Winans | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-role-model-2027-berlin-z698xzc2z16vjt07ba | Role Model | none | 107417498 | https://www.stubhub.ie/role-model-tickets-berlin-tempodrom-11-2-2027/event/107417498 | - |
+| tm-role-model-2027-berlin-z698xzc2z16vjt07ba | Role Model | refresh (applied) | 107417498 | https://www.stubhub.ie/role-model-tickets-berlin-tempodrom-11-2-2027/event/107417498 | - |
 | tm-role-model-2027-forest-brussels-z698xzg2z1k8kjzbp | Role Model | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-role-model-2027-dusseldorf-z698xzc2z1ka6aaoi | Role Model | none | 107417499 | https://www.stubhub.ie/role-model-tickets-dusseldorf-mitsubishi-electric-halle-17-2-2027/event/107417499 | - |
+| tm-role-model-2027-dusseldorf-z698xzc2z1ka6aaoi | Role Model | refresh (applied) | 107417499 | https://www.stubhub.ie/role-model-tickets-dusseldorf-mitsubishi-electric-halle-17-2-2027/event/107417499 | - |
 | tm-role-model-2027-dublin-17kzv0g6uvbpba3 | Role Model | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-role-model-2027-london-17uyv0g6ueic0m_ | Role Model | none | 107447294 | https://www.stubhub.ie/role-model-tickets-london-ovo-arena-wembley-24-2-2027/event/107447294 | - |
+| tm-role-model-2027-london-17uyv0g6ueic0m_ | Role Model | refresh (applied) | 107447294 | https://www.stubhub.ie/role-model-tickets-london-ovo-arena-wembley-24-2-2027/event/107447294 | - |
 | tm-karan-aujla-2026-sacramento-g5vyz_3m-gnbm | Karan Aujla | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-karan-aujla-2026-los-angeles-g5eyz_3lgqzvb | Karan Aujla | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at | Karan Aujla | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2787,16 +2765,15 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-jack-johnson-2026-auckland-1a0zkowgkdch7lq | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jack-johnson-2026-waipara-1kazv0jzgaua-ts | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jack-johnson-2027-forest-brussels-z698xzg2z1koeez-t | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-jack-johnson-2027-amsterdam-z698xzbpz16v8kg7fn | Jack Johnson | none | 107675651 | https://www.stubhub.ie/jack-johnson-tickets-amsterdam-ziggo-dome-27-6-2027/event/107675651 | - |
+| tm-jack-johnson-2027-amsterdam-z698xzbpz16v8kg7fn | Jack Johnson | refresh (applied) | 107675651 | https://www.stubhub.ie/jack-johnson-tickets-amsterdam-ziggo-dome-27-6-2027/event/107675651 | - |
 | tm-jack-johnson-2027-st-austell-g5vhz_4eimdn_ | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-jack-johnson-2027-st-austell-g5vhz_4d63ah_ | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-jack-johnson-2027-london-16dfz_4ebg7va-j | Jack Johnson | none | 107675350 | https://www.stubhub.ie/jack-johnson-tickets-london-the-o2-arena-4-7-2027/event/107675350 | - |
+| tm-jack-johnson-2027-london-16dfz_4ebg7va-j | Jack Johnson | refresh (applied) | 107675350 | https://www.stubhub.ie/jack-johnson-tickets-london-the-o2-arena-4-7-2027/event/107675350 | - |
 | tm-phil-wickham-2026-fontana-rz7hnez1afu7r7 | Phil Wickham | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phil-wickham-2026-fontana-rz7hnez1afu7o0 | Phil Wickham | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phil-wickham-2026-san-diego-rz7hnez1afu7ov | Phil Wickham | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phil-wickham-2026-san-diego-rz7hnez1afu7x7 | Phil Wickham | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phil-wickham-2026-downey-rz7hnez1afu7xf | Phil Wickham | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gavin-adcock-2026-detroit-z7r9jz1a7-yus | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gavin-adcock-2026-grand-rapids-z7r9jz1a7-yut | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gavin-adcock-2026-houston-g5diz_3mqabzl | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gavin-adcock-2026-las-vegas-z7r9jz1a7paas | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2814,18 +2791,17 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-gavin-adcock-2027-helotes-z7r9jz1aa76gz | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gavin-adcock-2027-helotes-z7r9jz1aa76gy | Gavin Adcock | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-zach-bryan-2027-minneapolis-z7r9jz1aa7kad | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-zach-bryan-2027-chicago-z7r9jz1aa7pvj | Zach Bryan | none | 107678316 | https://www.stubhub.ie/zach-bryan-chicago-tickets-5-7-2027/event/107678316 | - |
-| tm-zach-bryan-2027-chicago-z7r9jz1aa7ka- | Zach Bryan | none | 107678317 | https://www.stubhub.ie/zach-bryan-chicago-tickets-5-8-2027/event/107678317 | - |
+| tm-zach-bryan-2027-chicago-z7r9jz1aa7pvj | Zach Bryan | refresh (applied) | 107678316 | https://www.stubhub.ie/zach-bryan-chicago-tickets-5-7-2027/event/107678316 | - |
+| tm-zach-bryan-2027-chicago-z7r9jz1aa7ka- | Zach Bryan | refresh (applied) | 107678317 | https://www.stubhub.ie/zach-bryan-chicago-tickets-5-8-2027/event/107678317 | - |
 | tm-zach-bryan-2027-baltimore-z7r9jz1aa7kav | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-zach-bryan-2027-nashville-z7r9jz1aa7k17 | Zach Bryan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-columbus-vv1aazk4fgkd90ltp | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-charlottesville-vv1a8vp46ga2dsp3 | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tommy-emmanuel-2027-loveland-z7r9jz1aa791k | Tommy Emmanuel | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-garth-brooks-2026-seattle-vvg1hz_4dkkd9j | Garth Brooks | unverify (applied) | 107676173 | https://www.stubhub.ie/garth-brooks-seattle-tickets-11-12-2026/event/107676173 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-u2-2027-ciudad-de-mexico-1afzk4agkeysi-t | U2 | none | 107674938 | https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-23-2-2027/event/107674938 | - |
-| tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind | U2 | none | 107674939 | https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-26-2-2027/event/107674939 | - |
-| tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina | U2 | none | 107677953 | https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-28-2-2027/event/107677953 | - |
-| tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2 | U2 | none | 107678105 | https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-2-3-2027/event/107678105 | - |
+| tm-u2-2027-ciudad-de-mexico-1afzk4agkeysi-t | U2 | refresh (applied) | 107674938 | https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-23-2-2027/event/107674938 | - |
+| tm-u2-2027-ciudad-de-mexico-1afzk4agkebeind | U2 | refresh (applied) | 107674939 | https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-26-2-2027/event/107674939 | - |
+| tm-u2-2027-ciudad-de-mexico-1afzk4agkebeina | U2 | refresh (applied) | 107677953 | https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-28-2-2027/event/107677953 | - |
+| tm-u2-2027-ciudad-de-mexico-1afzk4agkebign2 | U2 | refresh (applied) | 107678105 | https://www.stubhub.ie/u2-tickets-mexico-city-estadio-gnp-seguros-2-3-2027/event/107678105 | - |
 | tm-dermot-kennedy-2026-west-perth-1avgz_agkmqzbyp | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dermot-kennedy-2026-brisbane-1avgz_agksulpj1 | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dermot-kennedy-2026-christchurch-1ae8z_agkm57djw | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2833,31 +2809,31 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dermot-kennedy-2026-auckland-1ae8z_agkranxjl | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5u0fg | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dermot-kennedy-2027-tramore-rd-cork-1kkzvpozga5mff_ | Dermot Kennedy | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dermot-kennedy-2027-belfast-1azzk4kgkeju-cx | Dermot Kennedy | none | 107673343 | https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343 | - |
-| tm-turnpike-troubadours-2026-las-vegas-17ayv0g62soqkki | Turnpike Troubadours | none | 107501081 | https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081 | - |
-| tm-sam-fender-2027-newcastle-upon-tyne-1agzk4fgkd88g8t | Sam Fender | none | 107678199 | https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-3-6-2027/event/107678199 | - |
-| tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj | Sam Fender | none | 107676048 | https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-5-6-2027/event/107676048 | - |
-| tm-sam-fender-2027-cardiff-16gzk4fpszage5ca | Sam Fender | none | 107678202 | https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-10-6-2027/event/107678202 | - |
-| tm-sam-fender-2027-london-16nzk4f00zauv12c | Sam Fender | none | 107678200 | https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-18-6-2027/event/107678200 | - |
-| tm-sam-fender-2027-london-1anzk4fgkdp88g6 | Sam Fender | none | 107676045 | https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-20-6-2027/event/107676045 | - |
+| tm-dermot-kennedy-2027-belfast-1azzk4kgkeju-cx | Dermot Kennedy | refresh (applied) | 107673343 | https://www.stubhub.ie/dermot-kennedy-tickets-belfast-ormeau-park-26-6-2027/event/107673343 | - |
+| tm-turnpike-troubadours-2026-las-vegas-17ayv0g62soqkki | Turnpike Troubadours | refresh (applied) | 107501081 | https://www.stubhub.ie/turnpike-troubadours-las-vegas-tickets-12-11-2026/event/107501081 | - |
+| tm-sam-fender-2027-newcastle-upon-tyne-1agzk4fgkd88g8t | Sam Fender | refresh (applied) | 107678199 | https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-3-6-2027/event/107678199 | - |
+| tm-sam-fender-2027-newcastle-upon-tyne-1adfz_fgktpp_oj | Sam Fender | refresh (applied) | 107676048 | https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-5-6-2027/event/107676048 | - |
+| tm-sam-fender-2027-cardiff-16gzk4fpszage5ca | Sam Fender | refresh (applied) | 107678202 | https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-10-6-2027/event/107678202 | - |
+| tm-sam-fender-2027-london-16nzk4f00zauv12c | Sam Fender | refresh (applied) | 107678200 | https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-18-6-2027/event/107678200 | - |
+| tm-sam-fender-2027-london-1anzk4fgkdp88g6 | Sam Fender | refresh (applied) | 107676045 | https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-20-6-2027/event/107676045 | - |
 | tm-sam-fender-2027-dublin-1avoz_fgkxvywdt | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sam-fender-2027-edinburgh-1auzk4fgkd4qebt | Sam Fender | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-sam-fender-2027-manchester-g5dzz_42lyjlw | Sam Fender | none | 107676046 | https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-15-7-2027/event/107676046 | - |
-| tm-sam-fender-2027-manchester-g5dzz_4k4turs | Sam Fender | none | 107676047 | https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-17-7-2027/event/107676047 | - |
-| tm-bon-jovi-2027-docklands-1aefz_fgkxe60v9 | Bon Jovi | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy | Bon Jovi | none | 107675286 | https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286 | - |
-| tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td | Bon Jovi | none | 107675287 | https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287 | - |
-| tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8 | Bon Jovi | none | 107675288 | https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288 | - |
+| tm-sam-fender-2027-manchester-g5dzz_42lyjlw | Sam Fender | refresh (applied) | 107676046 | https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-15-7-2027/event/107676046 | - |
+| tm-sam-fender-2027-manchester-g5dzz_4k4turs | Sam Fender | refresh (applied) | 107676047 | https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-17-7-2027/event/107676047 | - |
+| tm-bon-jovi-2027-docklands-1aefz_fgkxe60v9 | Bon Jovi | add (applied) | 107679179 | https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179 | - |
+| tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy | Bon Jovi | refresh (applied) | 107675286 | https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286 | - |
+| tm-bon-jovi-2027-chicago-vv178z_fgkh_n5td | Bon Jovi | refresh (applied) | 107675287 | https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287 | - |
+| tm-bon-jovi-2027-foxborough-vv1avzk48gke-15d8 | Bon Jovi | refresh (applied) | 107675288 | https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288 | - |
 | tm-bon-jovi-2027-toronto-1a8zk48je1zze8k | Bon Jovi | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-anuel-aa-2027-monterrey-g5dvz_6rcdk4r | Anuel AA | none | 107167139 | https://www.stubhub.ie/anuel-aa-tickets-monterrey-estadio-borregos-estadio-banorte-8-4-2027/event/107167139 | - |
-| tm-anuel-aa-2027-zapopan-g5dvz_6raf6md | Anuel AA | none | 107162864 | https://www.stubhub.ie/anuel-aa-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-15-4-2027/event/107162864 | - |
+| tm-anuel-aa-2027-monterrey-g5dvz_6rcdk4r | Anuel AA | refresh (applied) | 107167139 | https://www.stubhub.ie/anuel-aa-tickets-monterrey-estadio-borregos-estadio-banorte-8-4-2027/event/107167139 | - |
+| tm-anuel-aa-2027-zapopan-g5dvz_6raf6md | Anuel AA | refresh (applied) | 107162864 | https://www.stubhub.ie/anuel-aa-tickets-guadalajara-coliseo-gnp-seguros-estadio-3-de-marzo-15-4-2027/event/107162864 | - |
 | tm-luke-bryan-2026-mescalero-vvg1yz_gw6bfly | Luke Bryan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-luke-bryan-2026-las-vegas-1avjz_agkws6gfv | Luke Bryan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2026-new-orleans-g5viz_fhsj6zp | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-billy-strings-2026-new-orleans-g5viz_6n0bmge | Billy Strings | add (applied) | 107680953 | https://www.stubhub.ie/billy-strings-new-orleans-tickets-12-5-2026/event/107680953 | - |
-| tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj- | Billy Strings | none | 107155187 | https://www.stubhub.ie/billy-strings-sugar-land-tickets-12-9-2026/event/107155187 | - |
-| tm-billy-strings-2026-fort-worth-vvg1yz_6mc3yqf | Billy Strings | none | 107155188 | https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188 | - |
-| tm-billy-strings-2026-austin-g5diz_ub5bart | Billy Strings | none | 107452001 | https://www.stubhub.ie/billy-strings-austin-tickets-12-12-2026/event/107452001 | - |
+| tm-billy-strings-2026-new-orleans-g5viz_6n0bmge | Billy Strings | refresh (applied) | 107680953 | https://www.stubhub.ie/billy-strings-new-orleans-tickets-12-5-2026/event/107680953 | - |
+| tm-billy-strings-2026-sugar-land-z7r9jz1a7xvj- | Billy Strings | refresh (applied) | 107155187 | https://www.stubhub.ie/billy-strings-sugar-land-tickets-12-9-2026/event/107155187 | - |
+| tm-billy-strings-2026-fort-worth-vvg1yz_6mc3yqf | Billy Strings | refresh (applied) | 107155188 | https://www.stubhub.ie/billy-strings-fort-worth-tickets-12-11-2026/event/107155188 | - |
+| tm-billy-strings-2026-austin-g5diz_ub5bart | Billy Strings | refresh (applied) | 107452001 | https://www.stubhub.ie/billy-strings-austin-tickets-12-12-2026/event/107452001 | - |
 | tm-billy-strings-2027-asheville-g5evz_omwlg3b | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-asheville-g5evz_omwlh3- | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-asheville-g5evz_omwig3e | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2867,21 +2843,19 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-billy-strings-2027-duluth-vvg1zz_ointe8l | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-nashville-g5viz_on579po | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-nashville-g5viz_on5a9pr | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-thirty-seconds-to-mars-2027-nurnberg-z698xzc2z16vqofzv8 | Thirty Seconds to Mars | none | 107676064 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-nurnberg-psd-bank-nurnberg-arena-5-5-2027/event/107676064 | - |
+| tm-thirty-seconds-to-mars-2027-nurnberg-z698xzc2z16vqofzv8 | Thirty Seconds to Mars | refresh (applied) | 107676064 | https://www.stubhub.ie/thirty-seconds-to-mars-tickets-nurnberg-psd-bank-nurnberg-arena-5-5-2027/event/107676064 | - |
 | tm-thirty-seconds-to-mars-2027-casalecchio-di-reno-bologna-zg9rmiynyzffde | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-thirty-seconds-to-mars-2027-praha-9-z698xzu0z1k788y-z | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-thirty-seconds-to-mars-2027-helsinki-z698xz8kz16v7so3fa | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-cristian-castro-2026-san-diego-z7r9jz1a7-80a | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-cristian-castro-2026-los-angeles-z7r9jz1a7-f4v | Cristian Castro | none | 107138182 | https://www.stubhub.ie/cristian-castro-los-angeles-tickets-11-28-2026/event/107138182 | - |
+| tm-cristian-castro-2026-los-angeles-z7r9jz1a7-f4v | Cristian Castro | refresh (applied) | 107138182 | https://www.stubhub.ie/cristian-castro-los-angeles-tickets-11-28-2026/event/107138182 | - |
 | tm-cristian-castro-2027-denver-z7r9jz1a7-boz | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-cristian-castro-2027-west-valley-city-g5vzz_aklolqq | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-cristian-castro-2027-anaheim-vv1aazkofgkeidrym | Cristian Castro | none | 107417431 | https://www.stubhub.ie/cristian-castro-anaheim-tickets-2-12-2027/event/107417431 | - |
+| tm-cristian-castro-2027-anaheim-vv1aazkofgkeidrym | Cristian Castro | refresh (applied) | 107417431 | https://www.stubhub.ie/cristian-castro-anaheim-tickets-2-12-2027/event/107417431 | - |
 | tm-cristian-castro-2027-palm-desert-vvg1iz_1h-rylv | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-cristian-castro-2027-hidalgo-g5diz_a2dt_o4 | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-cristian-castro-2027-cedar-park-g5diz_ak4-aew | Cristian Castro | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-cristian-castro-2027-orlando-1kfov0fzgac5wgd | Cristian Castro | none | 107446233 | https://www.stubhub.ie/cristian-castro-orlando-tickets-3-12-2027/event/107446233 | - |
-| tm-cristian-castro-2027-miami-vvg1vz_aphhc62 | Cristian Castro | none | 107417433 | https://www.stubhub.ie/cristian-castro-miami-tickets-3-13-2027/event/107417433 | - |
-| tm-treaty-oak-revival-2026-the-woodlands-g5diz_1panpuq | Treaty Oak Revival | unverify (applied) | 107162862 | https://www.stubhub.ie/treaty-oak-revival-the-woodlands-tickets-11-13-2026/event/107162862 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-cristian-castro-2027-orlando-1kfov0fzgac5wgd | Cristian Castro | refresh (applied) | 107446233 | https://www.stubhub.ie/cristian-castro-orlando-tickets-3-12-2027/event/107446233 | - |
+| tm-cristian-castro-2027-miami-vvg1vz_aphhc62 | Cristian Castro | refresh (applied) | 107417433 | https://www.stubhub.ie/cristian-castro-miami-tickets-3-13-2027/event/107417433 | - |
 | tm-treaty-oak-revival-2026-tulsa-1aezz_3x88ozdgea | Treaty Oak Revival | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-boyz-ii-men-2026-waurn-ponds-177yv0g6cqczn9y | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-boyz-ii-men-2026-auckland-17azv0g6c2evn3t | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2889,16 +2863,16 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-boyz-ii-men-2026-mount-cotton-177yv0g6chtbuni | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-boyz-ii-men-2026-norman-z7r9jz1aaed_y | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-boyz-ii-men-2026-thackerville-z7r9jz1a70-f8 | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-boyz-ii-men-2027-boston-vv1avzk4egkdp6cdw | Boyz II Men | none | 107672946 | https://www.stubhub.ie/boyz-ii-men-boston-tickets-2-5-2027/event/107672946 | - |
+| tm-boyz-ii-men-2027-boston-vv1avzk4egkdp6cdw | Boyz II Men | refresh (applied) | 107672946 | https://www.stubhub.ie/boyz-ii-men-boston-tickets-2-5-2027/event/107672946 | - |
 | tm-boyz-ii-men-2027-atlantic-city-vv1kfz_fbxg7mvlj | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5lj2s | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5ij2m | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-boyz-ii-men-2027-national-harbor-1ka8vp3aga5cu2t | Boyz II Men | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgaglg6h | Boyz II Men | none | 107666791 | https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-12-2027/event/107666791 | - |
-| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag-4fc | Boyz II Men | none | 107666792 | https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-13-2027/event/107666792 | - |
-| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgagn4f9 | Boyz II Men | none | 107665818 | https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-19-2027/event/107665818 | - |
-| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag0pfj | Boyz II Men | none | 107666793 | https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-20-2027/event/107666793 | - |
-| tm-barry-manilow-2026-las-vegas-17ayvxg62dwbkui | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
+| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgaglg6h | Boyz II Men | refresh (applied) | 107666791 | https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-12-2027/event/107666791 | - |
+| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag-4fc | Boyz II Men | refresh (applied) | 107666792 | https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-13-2027/event/107666792 | - |
+| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgagn4f9 | Boyz II Men | refresh (applied) | 107665818 | https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-19-2027/event/107665818 | - |
+| tm-boyz-ii-men-2027-las-vegas-1kayvp7mgag0pfj | Boyz II Men | refresh (applied) | 107666793 | https://www.stubhub.ie/boyz-ii-men-las-vegas-tickets-3-20-2027/event/107666793 | - |
+| tm-barry-manilow-2026-las-vegas-17ayvxg62dwbkui | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-barry-manilow-2026-las-vegas-17ayvxg62dwbuur | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-barry-manilow-2026-las-vegas-17ayvxg62dw_pus | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-barry-manilow-2026-las-vegas-17ayvxg62dwqkuv | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
@@ -2909,17 +2883,17 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-barry-manilow-2026-las-vegas-17ayvxg62dwqpcc | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-barry-manilow-2026-las-vegas-17ayvxg62dwrkco | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-barry-manilow-2026-las-vegas-17ayvxg62dwlkck | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-barry-manilow-2027-sunrise-z7r9jz1a7ji0e | Barry Manilow | none | 107189127 | https://www.stubhub.ie/barry-manilow-sunrise-tickets-1-15-2027/event/107189127 | - |
+| tm-barry-manilow-2027-sunrise-z7r9jz1a7ji0e | Barry Manilow | refresh (applied) | 107189127 | https://www.stubhub.ie/barry-manilow-sunrise-tickets-1-15-2027/event/107189127 | - |
 | tm-barry-manilow-2027-estero-vvg1vzbwhe6k-q | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-barry-manilow-2027-estero-vvg1vzbwhe6n-j | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-barry-manilow-2027-tampa-vvg1vzbsept-t8 | Barry Manilow | none | 107185225 | https://www.stubhub.ie/barry-manilow-tampa-tickets-1-20-2027/event/107185225 | - |
-| tm-barry-manilow-2027-orlando-1aefzbwgksczswf | Barry Manilow | none | 107189128 | https://www.stubhub.ie/barry-manilow-orlando-tickets-1-21-2027/event/107189128 | - |
+| tm-barry-manilow-2027-tampa-vvg1vzbsept-t8 | Barry Manilow | refresh (applied) | 107185225 | https://www.stubhub.ie/barry-manilow-tampa-tickets-1-20-2027/event/107185225 | - |
+| tm-barry-manilow-2027-orlando-1aefzbwgksczswf | Barry Manilow | refresh (applied) | 107189128 | https://www.stubhub.ie/barry-manilow-orlando-tickets-1-21-2027/event/107189128 | - |
 | tm-barry-manilow-2027-las-vegas-17ayvxg62dw5kgq | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-barry-manilow-2027-las-vegas-17ayvxg62dw5ugn | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-barry-manilow-2027-las-vegas-17ayvxg62dwupgi | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-barry-manilow-2027-las-vegas-17ayvxg62dwuugv | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-barry-manilow-2027-las-vegas-17ayvxg62dwcjgy | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-barry-manilow-2027-las-vegas-17ayvxg62dw2kgd | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: provider URL names a different date, venue mismatch) |
+| tm-barry-manilow-2027-las-vegas-17ayvxg62dw2kgd | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-barry-manilow-2027-las-vegas-17ayvxg62dw2ugw | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-barry-manilow-2027-las-vegas-17ayvxg62dw8pgt | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-barry-manilow-2027-las-vegas-17ayvxg62dwokuv | Barry Manilow | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
@@ -2931,26 +2905,24 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-koe-wetzel-2026-round-rock-z7r9jz1aaeb-n | Koe Wetzel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7evf | Koe Wetzel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7vfe | Koe Wetzel | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-koe-wetzel-2026-las-vegas-1ayzkfkgkdtup_a | Koe Wetzel | none | 107469903 | https://www.stubhub.ie/koe-wetzel-las-vegas-tickets-12-11-2026/event/107469903 | - |
-| tm-victoria-monet-2026-boston-vv1avzkfpgkdybxe- | Victoria Monet | unverify (applied) | 107667742 | https://www.stubhub.ie/victoria-monet-boston-tickets-11-13-2026/event/107667742 | no qualifying listing (the complete catalog no longer lists the stored link) |
-| tm-victoria-monet-2026-detroit-vv1afzkfegkdcyvij | Victoria Monet | none | 107668356 | https://www.stubhub.ie/victoria-monet-detroit-tickets-11-15-2026/event/107668356 | - |
+| tm-koe-wetzel-2026-las-vegas-1ayzkfkgkdtup_a | Koe Wetzel | refresh (applied) | 107469903 | https://www.stubhub.ie/koe-wetzel-las-vegas-tickets-12-11-2026/event/107469903 | - |
+| tm-victoria-monet-2026-detroit-vv1afzkfegkdcyvij | Victoria Monet | refresh (applied) | 107668356 | https://www.stubhub.ie/victoria-monet-detroit-tickets-11-15-2026/event/107668356 | - |
 | tm-victoria-monet-2026-milwaukee-vv1kjz_3f4g7vnwv | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-victoria-monet-2026-chicago-vv1k8z_3bag7xjoo | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-victoria-monet-2026-toronto-1a8zkf-gkdrpzii | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-victoria-monet-2026-pittsburgh-1apzkftgkexngtr | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-victoria-monet-2026-new-york-g5diz_3c1vwav | Victoria Monet | none | 107667966 | https://www.stubhub.ie/victoria-monet-new-york-tickets-11-24-2026/event/107667966 | - |
-| tm-victoria-monet-2026-washington-1a4zkfigkeu6i0b | Victoria Monet | none | 107668328 | https://www.stubhub.ie/victoria-monet-washington-tickets-11-27-2026/event/107668328 | - |
+| tm-victoria-monet-2026-new-york-g5diz_3c1vwav | Victoria Monet | refresh (applied) | 107667966 | https://www.stubhub.ie/victoria-monet-new-york-tickets-11-24-2026/event/107667966 | - |
+| tm-victoria-monet-2026-washington-1a4zkfigkeu6i0b | Victoria Monet | refresh (applied) | 107668328 | https://www.stubhub.ie/victoria-monet-washington-tickets-11-27-2026/event/107668328 | - |
 | tm-victoria-monet-2026-nashville-g5viz_3rdnbd2 | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-victoria-monet-2026-austin-z7r9jz1aavpbs | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-victoria-monet-2026-phoenix-1fk8vpadufz7ccuc | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-victoria-monet-2026-san-diego-vvg1iz_32hzdgh | Victoria Monet | none | 107668352 | https://www.stubhub.ie/victoria-monet-san-diego-tickets-12-6-2026/event/107668352 | - |
-| tm-victoria-monet-2026-inglewood-vvg1iz_3xv_aba | Victoria Monet | none | 107667948 | https://www.stubhub.ie/victoria-monet-inglewood-tickets-12-8-2026/event/107667948 | - |
+| tm-victoria-monet-2026-san-diego-vvg1iz_32hzdgh | Victoria Monet | refresh (applied) | 107668352 | https://www.stubhub.ie/victoria-monet-san-diego-tickets-12-6-2026/event/107668352 | - |
+| tm-victoria-monet-2026-inglewood-vvg1iz_3xv_aba | Victoria Monet | refresh (applied) | 107667948 | https://www.stubhub.ie/victoria-monet-inglewood-tickets-12-8-2026/event/107667948 | - |
 | tm-victoria-monet-2026-las-vegas-1avjz_38nr4zdcac | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-victoria-monet-2026-vancouver-1aozkf0gkdm521c | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-victoria-monet-2026-seattle-vvg1hz_31fteps | Victoria Monet | none | 107667943 | https://www.stubhub.ie/victoria-monet-seattle-tickets-12-14-2026/event/107667943 | - |
+| tm-victoria-monet-2026-seattle-vvg1hz_31fteps | Victoria Monet | unverify (applied) | 107667943 | https://www.stubhub.ie/victoria-monet-seattle-tickets-12-14-2026/event/107667943 | no qualifying listing (the complete catalog no longer lists the stored link) |
 | tm-victoria-monet-2026-sacramento-g5vyz_3xulwgw | Victoria Monet | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-victoria-monet-2026-san-francisco-g5vyz_320sgvq | Victoria Monet | none | 107667972 | https://www.stubhub.ie/victoria-monet-san-francisco-tickets-12-17-2026/event/107667972 | - |
-| tm-jon-pardi-2026-peoria-vvg1jz_cjyd3ia | Jon Pardi | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-victoria-monet-2026-san-francisco-g5vyz_320sgvq | Victoria Monet | refresh (applied) | 107667972 | https://www.stubhub.ie/victoria-monet-san-francisco-tickets-12-17-2026/event/107667972 | - |
 | tm-jon-pardi-2026-independence-vvg1bz_cu03zzw | Jon Pardi | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jon-pardi-2026-saint-louis-16e7z_obyg7v9-3 | Jon Pardi | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jon-pardi-2027-durant-vvg1yz_ksrbiue | Jon Pardi | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2972,21 +2944,20 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-brandi-carlile-2027-seattle-vvg1hz_44gnb5t | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-brandi-carlile-2027-seattle-vvg1hz_44g0z5w | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-brandi-carlile-2027-dublin-1abzku4gkdpubm4 | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-brandi-carlile-2027-glasgow-16dbz_8p8g7is9u | Brandi Carlile | none | 107473168 | https://www.stubhub.ie/brandi-carlile-tickets-glasgow-sec-armadillo-6-4-2027/event/107473168 | - |
-| tm-brandi-carlile-2027-glasgow-1auzkfagkeeywvx | Brandi Carlile | none | 107473169 | https://www.stubhub.ie/brandi-carlile-tickets-glasgow-sec-armadillo-7-4-2027/event/107473169 | - |
-| tm-brandi-carlile-2027-manchester-16dbz_8qkg7xvln | Brandi Carlile | none | 107469495 | https://www.stubhub.ie/brandi-carlile-tickets-manchester-o2-apollo-manchester-9-4-2027/event/107469495 | - |
-| tm-brandi-carlile-2027-manchester-1auzkfkgkd0yvnl | Brandi Carlile | none | 107469496 | https://www.stubhub.ie/brandi-carlile-tickets-manchester-o2-apollo-manchester-10-4-2027/event/107469496 | - |
-| tm-brandi-carlile-2027-wolverhampton-g5vhz_8ni4sv1 | Brandi Carlile | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-brandi-carlile-2027-london-16dbz_8rdg7g-dj | Brandi Carlile | none | 107473172 | https://www.stubhub.ie/brandi-carlile-tickets-london-eventim-apollo-13-4-2027/event/107473172 | - |
-| tm-brandi-carlile-2027-london-16uzkf6-7za5ev8a | Brandi Carlile | none | 107473171 | https://www.stubhub.ie/brandi-carlile-tickets-london-eventim-apollo-14-4-2027/event/107473171 | - |
+| tm-brandi-carlile-2027-glasgow-16dbz_8p8g7is9u | Brandi Carlile | refresh (applied) | 107473168 | https://www.stubhub.ie/brandi-carlile-tickets-glasgow-sec-armadillo-6-4-2027/event/107473168 | - |
+| tm-brandi-carlile-2027-glasgow-1auzkfagkeeywvx | Brandi Carlile | refresh (applied) | 107473169 | https://www.stubhub.ie/brandi-carlile-tickets-glasgow-sec-armadillo-7-4-2027/event/107473169 | - |
+| tm-brandi-carlile-2027-manchester-16dbz_8qkg7xvln | Brandi Carlile | refresh (applied) | 107469495 | https://www.stubhub.ie/brandi-carlile-tickets-manchester-o2-apollo-manchester-9-4-2027/event/107469495 | - |
+| tm-brandi-carlile-2027-manchester-1auzkfkgkd0yvnl | Brandi Carlile | refresh (applied) | 107469496 | https://www.stubhub.ie/brandi-carlile-tickets-manchester-o2-apollo-manchester-10-4-2027/event/107469496 | - |
+| tm-brandi-carlile-2027-london-16dbz_8rdg7g-dj | Brandi Carlile | refresh (applied) | 107473172 | https://www.stubhub.ie/brandi-carlile-tickets-london-eventim-apollo-13-4-2027/event/107473172 | - |
+| tm-brandi-carlile-2027-london-16uzkf6-7za5ev8a | Brandi Carlile | refresh (applied) | 107473171 | https://www.stubhub.ie/brandi-carlile-tickets-london-eventim-apollo-14-4-2027/event/107473171 | - |
 | tm-andrea-bocelli-2027-praha-9-z698xzu0z1k3k74-f | Andrea Bocelli | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-blondshell-2027-columbus-z7r9jz1aaeogk | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sienna-spiro-2027-morrison-z7r9jz1aa7-1d | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-bend-vvg1hz_kwvcqcl | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-columbus-z7r9jz1aa7_pz | Mico | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-santana-2027-london-1agzk4pgkemmuru | Santana | none | 107678203 | https://www.stubhub.ie/santana-tickets-london-the-o2-arena-30-6-2027/event/107678203 | - |
+| tm-santana-2027-london-1agzk4pgkemmuru | Santana | refresh (applied) | 107678203 | https://www.stubhub.ie/santana-tickets-london-the-o2-arena-30-6-2027/event/107678203 | - |
 | tm-santana-2027-krakow-z698xzqpz16va4pvo4 | Santana | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-santana-2027-oslo-z698xzb_z16v43vmbv | Santana | none | 107678304 | https://www.stubhub.ie/santana-tickets-oslo-oslo-spektrum-28-7-2027/event/107678304 | - |
+| tm-santana-2027-oslo-z698xzb_z16v43vmbv | Santana | refresh (applied) | 107678304 | https://www.stubhub.ie/santana-tickets-oslo-oslo-spektrum-28-7-2027/event/107678304 | - |
 | tm-mana-2027-highland-z7r9jz1aa7ngx | MANA | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mana-2027-highland-z7r9jz1aa7x_k | MANA | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mana-2027-highland-z7r9jz1aa7x_7 | MANA | none | - | - | no qualifying listing (complete catalog checked) |
@@ -2995,17 +2966,16 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mana-2027-highland-z7r9jz1aa7x_a | MANA | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_ae | Turnpike Troubadours | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-turnpike-troubadours-2027-morrison-z7r9jz1aa7_av | Turnpike Troubadours | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-interpol-2026-cardiff-1auzkungkeif6z0 | Interpol | none | 107009230 | https://www.stubhub.ie/interpol-tickets-cardiff-utilita-arena-cardiff-21-11-2026/event/107009230 | - |
+| tm-interpol-2026-cardiff-1auzkungkeif6z0 | Interpol | refresh (applied) | 107009230 | https://www.stubhub.ie/interpol-tickets-cardiff-utilita-arena-cardiff-21-11-2026/event/107009230 | - |
 | tm-interpol-2026-manchester-1adfzbggkdjtldr | Interpol | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-interpol-2026-brighton-g5dzzbgwdgxyl | Interpol | none | 107009231 | https://www.stubhub.ie/interpol-tickets-brighton-brighton-centre-27-11-2026/event/107009231 | - |
+| tm-interpol-2026-brighton-g5dzzbgwdgxyl | Interpol | refresh (applied) | 107009231 | https://www.stubhub.ie/interpol-tickets-brighton-brighton-centre-27-11-2026/event/107009231 | - |
 | tm-interpol-2026-dublin-1abzkuogkdez9hd | Interpol | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-interpol-2026-san-diego-vvg1iz_4dkyacm | Interpol | none | 107675935 | https://www.stubhub.ie/interpol-san-diego-tickets-12-11-2026/event/107675935 | - |
-| tm-interpol-2027-hidalgo-g5diz_4kwcels | Interpol | none | 107675936 | https://www.stubhub.ie/interpol-hidalgo-tickets-3-19-2027/event/107675936 | - |
+| tm-interpol-2026-san-diego-vvg1iz_4dkyacm | Interpol | refresh (applied) | 107675935 | https://www.stubhub.ie/interpol-san-diego-tickets-12-11-2026/event/107675935 | - |
+| tm-interpol-2027-hidalgo-g5diz_4kwcels | Interpol | refresh (applied) | 107675936 | https://www.stubhub.ie/interpol-hidalgo-tickets-3-19-2027/event/107675936 | - |
 | tm-interpol-2027-memphis-g5viz_4agmgrr | Interpol | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-interpol-2027-asheville-g5evz_4oz4dpm | Interpol | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-interpol-2027-washington-1a4zk4kgkd5cf0g | Interpol | none | 107675937 | https://www.stubhub.ie/interpol-washington-tickets-3-24-2027/event/107675937 | - |
+| tm-interpol-2027-washington-1a4zk4kgkd5cf0g | Interpol | refresh (applied) | 107675937 | https://www.stubhub.ie/interpol-washington-tickets-3-24-2027/event/107675937 | - |
 | tm-interpol-2027-philadelphia-vv1aezk4fgkevbabi | Interpol | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-little-big-town-2026-columbus-vvg1fz_gptrce6 | Little Big Town | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-little-big-town-2026-indianapolis-vvg1fz_g5crrzm | Little Big Town | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-little-big-town-2026-chicago-vvg1jz_gohfssb | Little Big Town | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-little-big-town-2026-detroit-vvg1oz_g9neqkq | Little Big Town | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3018,19 +2988,19 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-carin-leon-2027-las-vegas-1a9zkfpgkdrskjz | Carin Leon | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-carin-leon-2027-las-vegas-1a9zkfpgkdrgsj0 | Carin Leon | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phish-2026-new-york-g5diz_kv3gvwh | Phish | correct (applied) | 107672199 | https://www.stubhub.ie/phish-new-york-tickets-12-30-2026/event/107672199 | - |
-| tm-phish-2027-new-york-g5diz_kv3mvxa | Phish | none | 107672200 | https://www.stubhub.ie/phish-new-york-tickets-12-31-2026/event/107672200 | - |
-| tm-phish-2027-new-york-g5diz_kv3yvxl | Phish | none | 107672780 | https://www.stubhub.ie/phish-new-york-tickets-1-1-2027/event/107672780 | - |
-| tm-phish-2027-new-york-g5diz_kv3dvxt | Phish | none | 107672781 | https://www.stubhub.ie/phish-new-york-tickets-1-2-2027/event/107672781 | - |
+| tm-phish-2027-new-york-g5diz_kv3mvxa | Phish | refresh (applied) | 107672200 | https://www.stubhub.ie/phish-new-york-tickets-12-31-2026/event/107672200 | - |
+| tm-phish-2027-new-york-g5diz_kv3yvxl | Phish | refresh (applied) | 107672780 | https://www.stubhub.ie/phish-new-york-tickets-1-1-2027/event/107672780 | - |
+| tm-phish-2027-new-york-g5diz_kv3dvxt | Phish | refresh (applied) | 107672781 | https://www.stubhub.ie/phish-new-york-tickets-1-2-2027/event/107672781 | - |
 | tm-imagine-dragons-2026-abu-dhabi-z698xz52z16vb3ooc_ | Imagine Dragons | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-rufus-du-sol-2027-san-francisco-z7r9jz1aae3qg | RUFUS DU SOL | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-calgary-z7r9jz1aa7k3a | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sienna-spiro-2027-nashville-z7r9jz1aa7bjy | Sienna Spiro | none | 107675966 | https://www.stubhub.ie/sienna-spiro-nashville-tickets-8-8-2027/event/107675966 | - |
+| tm-sienna-spiro-2027-nashville-z7r9jz1aa7bjy | Sienna Spiro | refresh (applied) | 107675966 | https://www.stubhub.ie/sienna-spiro-nashville-tickets-8-8-2027/event/107675966 | - |
 | tm-rod-stewart-2027-atlantic-city-vv1aezk49gkddvprj | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-rod-stewart-2027-lincoln-g5vyz_4ho4bgw | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-weezer-2027-auckland-1fazvp4sz3z7g15d | Weezer | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-illenium-2026-las-vegas-z7r9jz1aavupe | ILLENIUM | none | 107672455 | https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455 | - |
-| tm-illenium-2026-san-francisco-g5vyz_kj0ltb6 | ILLENIUM | none | 107672778 | https://www.stubhub.ie/illenium-san-francisco-tickets-12-30-2026/event/107672778 | - |
-| tm-illenium-2027-san-francisco-g5vyz_kjpaqe2 | ILLENIUM | none | 107672779 | https://www.stubhub.ie/illenium-san-francisco-tickets-12-31-2026/event/107672779 | - |
+| tm-illenium-2026-las-vegas-z7r9jz1aavupe | ILLENIUM | refresh (applied) | 107672455 | https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455 | - |
+| tm-illenium-2026-san-francisco-g5vyz_kj0ltb6 | ILLENIUM | refresh (applied) | 107672778 | https://www.stubhub.ie/illenium-san-francisco-tickets-12-30-2026/event/107672778 | - |
+| tm-illenium-2027-san-francisco-g5vyz_kjpaqe2 | ILLENIUM | refresh (applied) | 107672779 | https://www.stubhub.ie/illenium-san-francisco-tickets-12-31-2026/event/107672779 | - |
 | tm-illenium-2027-san-francisco-g5vyz_kuqzndv | ILLENIUM | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lola-young-2027-nashville-z7r9jz1aaebv0 | Lola Young | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lola-young-2027-atlanta-vvg1zz_f7qhai6 | Lola Young | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3048,23 +3018,23 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-lola-young-2027-salt-lake-city-g5vzz_fk8daho | Lola Young | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lola-young-2027-seattle-vvg1hz_falrsfg | Lola Young | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lola-young-2027-vancouver-16ozk4vpyzau66a6 | Lola Young | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lola-young-2027-san-francisco-g5vyz_f6gluub | Lola Young | none | 107672789 | https://www.stubhub.ie/lola-young-san-francisco-tickets-5-1-2027/event/107672789 | - |
-| tm-lola-young-2027-los-angeles-vv16azk4e0kza8aeaf | Lola Young | none | 107672791 | https://www.stubhub.ie/lola-young-los-angeles-tickets-5-4-2027/event/107672791 | - |
+| tm-lola-young-2027-san-francisco-g5vyz_f6gluub | Lola Young | refresh (applied) | 107672789 | https://www.stubhub.ie/lola-young-san-francisco-tickets-5-1-2027/event/107672789 | - |
+| tm-lola-young-2027-los-angeles-vv16azk4e0kza8aeaf | Lola Young | refresh (applied) | 107672791 | https://www.stubhub.ie/lola-young-los-angeles-tickets-5-4-2027/event/107672791 | - |
 | tm-lola-young-2027-dublin-1avoz_ogknk-ukb | Lola Young | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-james-blunt-2027-forest-brussels-z698xzg2z16vojf7u8 | James Blunt | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-james-blunt-2027-praha-9-z698xzu0z1ague3f | James Blunt | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-james-blunt-2027-oslo-z698xzb_z16vojuapy | James Blunt | none | 107665757 | https://www.stubhub.ie/james-blunt-tickets-oslo-oslo-spektrum-16-3-2027/event/107665757 | - |
+| tm-james-blunt-2027-oslo-z698xzb_z16vojuapy | James Blunt | refresh (applied) | 107665757 | https://www.stubhub.ie/james-blunt-tickets-oslo-oslo-spektrum-16-3-2027/event/107665757 | - |
 | tm-james-blunt-2027-leeds-g5vhz_8rglm2f | James Blunt | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-james-blunt-2027-birmingham-16nzkfo03zag7vec | James Blunt | none | 107665848 | https://www.stubhub.ie/james-blunt-tickets-birmingham-bp-pulse-live-27-3-2027/event/107665848 | - |
+| tm-james-blunt-2027-birmingham-16nzkfo03zag7vec | James Blunt | refresh (applied) | 107665848 | https://www.stubhub.ie/james-blunt-tickets-birmingham-bp-pulse-live-27-3-2027/event/107665848 | - |
 | tm-james-blunt-2027-newcastle-upon-tyne-g5vhz_8jzh5mu | James Blunt | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-james-blunt-2027-dublin-16bzkf7x3zaufauu | James Blunt | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-james-blunt-2027-belfast-16doz_oxog7v-fd | James Blunt | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-james-blunt-2027-glasgow-1auzkfkgkdju5kw | James Blunt | none | 107665851 | https://www.stubhub.ie/james-blunt-tickets-glasgow-ovo-hydro-arena-glasgow-2-4-2027/event/107665851 | - |
-| tm-james-blunt-2027-manchester-1amzkfkgkdv2srk | James Blunt | none | 107665852 | https://www.stubhub.ie/james-blunt-tickets-manchester-co-op-live-3-4-2027/event/107665852 | - |
-| tm-james-blunt-2027-london-1agzkf6gkdpobqq | James Blunt | none | 107665853 | https://www.stubhub.ie/james-blunt-tickets-london-the-o2-arena-4-4-2027/event/107665853 | - |
-| tm-james-blunt-2027-cardiff-16dbz_8pkg7i-jy | James Blunt | none | 107665854 | https://www.stubhub.ie/james-blunt-tickets-cardiff-utilita-arena-cardiff-6-4-2027/event/107665854 | - |
-| tm-james-blunt-2027-bournemouth-16uzkf6oaza5auua | James Blunt | none | 107665855 | https://www.stubhub.ie/james-blunt-tickets-bournemouth-bournemouth-international-centre-7-4-2027/event/107665855 | - |
-| tm-james-blunt-2027-brighton-g5dzz_8l-leuz | James Blunt | none | 107665856 | https://www.stubhub.ie/james-blunt-tickets-brighton-brighton-centre-8-4-2027/event/107665856 | - |
+| tm-james-blunt-2027-glasgow-1auzkfkgkdju5kw | James Blunt | refresh (applied) | 107665851 | https://www.stubhub.ie/james-blunt-tickets-glasgow-ovo-hydro-arena-glasgow-2-4-2027/event/107665851 | - |
+| tm-james-blunt-2027-manchester-1amzkfkgkdv2srk | James Blunt | refresh (applied) | 107665852 | https://www.stubhub.ie/james-blunt-tickets-manchester-co-op-live-3-4-2027/event/107665852 | - |
+| tm-james-blunt-2027-london-1agzkf6gkdpobqq | James Blunt | refresh (applied) | 107665853 | https://www.stubhub.ie/james-blunt-tickets-london-the-o2-arena-4-4-2027/event/107665853 | - |
+| tm-james-blunt-2027-cardiff-16dbz_8pkg7i-jy | James Blunt | refresh (applied) | 107665854 | https://www.stubhub.ie/james-blunt-tickets-cardiff-utilita-arena-cardiff-6-4-2027/event/107665854 | - |
+| tm-james-blunt-2027-bournemouth-16uzkf6oaza5auua | James Blunt | refresh (applied) | 107665855 | https://www.stubhub.ie/james-blunt-tickets-bournemouth-bournemouth-international-centre-7-4-2027/event/107665855 | - |
+| tm-james-blunt-2027-brighton-g5dzz_8l-leuz | James Blunt | refresh (applied) | 107665856 | https://www.stubhub.ie/james-blunt-tickets-brighton-brighton-centre-8-4-2027/event/107665856 | - |
 | tm-bryan-adams-2026-praha-9-z698xzu0z16vu4-e_a | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-bryan-adams-2027-brescia-zg9rmiynyzffda | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bryan-adams-2027-padova-zg9rmiynyzffdv | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
@@ -3072,10 +3042,10 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-bryan-adams-2027-christchurch-17azv0g6cuuuvxf | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bryan-adams-2027-wellington-central-1ae8z_fgkxwzsx6 | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bryan-adams-2027-malmo-z698xzq2z1k-ga_fv | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bryan-adams-2027-oslo-z698xzb_z16vq6qw4z | Bryan Adams | none | 107670969 | https://www.stubhub.ie/bryan-adams-tickets-oslo-oslo-spektrum-3-5-2027/event/107670969 | - |
-| tm-bryan-adams-2027-helsinki-z698xz8kz1kuaq6jf | Bryan Adams | none | 107671837 | https://www.stubhub.ie/bryan-adams-tickets-helsinki-veikkaus-arena-7-5-2027/event/107671837 | - |
+| tm-bryan-adams-2027-oslo-z698xzb_z16vq6qw4z | Bryan Adams | refresh (applied) | 107670969 | https://www.stubhub.ie/bryan-adams-tickets-oslo-oslo-spektrum-3-5-2027/event/107670969 | - |
+| tm-bryan-adams-2027-helsinki-z698xz8kz1kuaq6jf | Bryan Adams | refresh (applied) | 107671837 | https://www.stubhub.ie/bryan-adams-tickets-helsinki-veikkaus-arena-7-5-2027/event/107671837 | - |
 | tm-bryan-adams-2027-nurnberg-z698xzc2z16vv6jt_f | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-bryan-adams-2027-fulda-z698xzc2z1k86g-_z | Bryan Adams | none | 107671713 | https://www.stubhub.ie/bryan-adams-tickets-fulda-domplatz-fulda-29-6-2027/event/107671713 | - |
+| tm-bryan-adams-2027-fulda-z698xzc2z1k86g-_z | Bryan Adams | refresh (applied) | 107671713 | https://www.stubhub.ie/bryan-adams-tickets-fulda-domplatz-fulda-29-6-2027/event/107671713 | - |
 | tm-bryan-adams-2027-halle-westfalen-z698xzc2z16voo4puj | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bryan-adams-2027-hemer-z698xzc2z1k_buyvn | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bryan-adams-2027-bonn-z698xzc2z16v89qo0p | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3085,16 +3055,16 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-bryan-adams-2027-magdeburg-z698xzc2z16vb8r7pg | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bryan-adams-2027-deggendorf-z698xzc2z1kaap_ay | Bryan Adams | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-megadeth-2027-belfast-17czv0g62pvlvd8 | Megadeth | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-megadeth-2027-london-17uyv0g62ffnale | Megadeth | none | 107471083 | https://www.stubhub.ie/megadeth-tickets-london-ovo-arena-wembley-11-3-2027/event/107471083 | - |
-| tm-megadeth-2027-nottingham-17u8v0g62r_1dp- | Megadeth | none | 107471084 | https://www.stubhub.ie/megadeth-tickets-nottingham-motorpoint-arena-nottingham-12-3-2027/event/107471084 | - |
-| tm-megadeth-2027-manchester-17uyv0g62wxq-cs | Megadeth | none | 107469088 | https://www.stubhub.ie/megadeth-tickets-manchester-co-op-live-13-3-2027/event/107469088 | - |
-| tm-megadeth-2027-cardiff-17uov0g62hgl_w2 | Megadeth | none | 107469089 | https://www.stubhub.ie/megadeth-tickets-cardiff-utilita-arena-cardiff-15-3-2027/event/107469089 | - |
-| tm-megadeth-2027-glasgow-17uov0g62mgifrs | Megadeth | none | 107471085 | https://www.stubhub.ie/megadeth-tickets-glasgow-ovo-hydro-arena-glasgow-16-3-2027/event/107471085 | - |
-| tm-megadeth-2027-birmingham-17fyv0g62qpke7_ | Megadeth | none | 107471086 | https://www.stubhub.ie/megadeth-tickets-birmingham-bp-pulse-live-18-3-2027/event/107471086 | - |
+| tm-megadeth-2027-london-17uyv0g62ffnale | Megadeth | refresh (applied) | 107471083 | https://www.stubhub.ie/megadeth-tickets-london-ovo-arena-wembley-11-3-2027/event/107471083 | - |
+| tm-megadeth-2027-nottingham-17u8v0g62r_1dp- | Megadeth | refresh (applied) | 107471084 | https://www.stubhub.ie/megadeth-tickets-nottingham-motorpoint-arena-nottingham-12-3-2027/event/107471084 | - |
+| tm-megadeth-2027-manchester-17uyv0g62wxq-cs | Megadeth | refresh (applied) | 107469088 | https://www.stubhub.ie/megadeth-tickets-manchester-co-op-live-13-3-2027/event/107469088 | - |
+| tm-megadeth-2027-cardiff-17uov0g62hgl_w2 | Megadeth | refresh (applied) | 107469089 | https://www.stubhub.ie/megadeth-tickets-cardiff-utilita-arena-cardiff-15-3-2027/event/107469089 | - |
+| tm-megadeth-2027-glasgow-17uov0g62mgifrs | Megadeth | refresh (applied) | 107471085 | https://www.stubhub.ie/megadeth-tickets-glasgow-ovo-hydro-arena-glasgow-16-3-2027/event/107471085 | - |
+| tm-megadeth-2027-birmingham-17fyv0g62qpke7_ | Megadeth | refresh (applied) | 107471086 | https://www.stubhub.ie/megadeth-tickets-birmingham-bp-pulse-live-18-3-2027/event/107471086 | - |
 | tm-megadeth-2027-leeds-g5vhz_2hqzflr | Megadeth | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-megadeth-2027-forest-brussels-z698xzg2z1k1kjboj | Megadeth | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-megadeth-2027-dusseldorf-z698xzc2z1a-7kfe | Megadeth | none | 107469095 | https://www.stubhub.ie/megadeth-tickets-dusseldorf-mitsubishi-electric-halle-25-3-2027/event/107469095 | - |
-| tm-megadeth-2027-oslo-z698xzb_z16vo9vpvy | Megadeth | none | 107469086 | https://www.stubhub.ie/megadeth-tickets-oslo-oslo-spektrum-28-3-2027/event/107469086 | - |
+| tm-megadeth-2027-dusseldorf-z698xzc2z1a-7kfe | Megadeth | refresh (applied) | 107469095 | https://www.stubhub.ie/megadeth-tickets-dusseldorf-mitsubishi-electric-halle-25-3-2027/event/107469095 | - |
+| tm-megadeth-2027-oslo-z698xzb_z16vo9vpvy | Megadeth | refresh (applied) | 107469086 | https://www.stubhub.ie/megadeth-tickets-oslo-oslo-spektrum-28-3-2027/event/107469086 | - |
 | tm-simple-plan-2026-niagara-falls-1a8zk3bgkei8p8q | Simple Plan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-plan-2027-vancouver-16v7z_f1bg7wmex | Simple Plan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-plan-2027-victoria-z7r9jz1aae__3 | Simple Plan | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3112,39 +3082,39 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-simple-plan-2027-sydney-1aszk4agkex2k4f | Simple Plan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-plan-2027-halifax-1ad7z_kgkmojy7e | Simple Plan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simple-plan-2027-sesto-san-giovanni-zg9rmiynyzff6k | Simple Plan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-simply-red-2027-amsterdam-z698xzbpz16vajampp | Simply Red | none | 107668942 | https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-19-6-2027/event/107668942 | - |
-| tm-simply-red-2027-amsterdam-z698xzbpz16vceov_9 | Simply Red | none | 107668943 | https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-20-6-2027/event/107668943 | - |
+| tm-simply-red-2027-amsterdam-z698xzbpz16vajampp | Simply Red | refresh (applied) | 107668942 | https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-19-6-2027/event/107668942 | - |
+| tm-simply-red-2027-amsterdam-z698xzbpz16vceov_9 | Simply Red | refresh (applied) | 107668943 | https://www.stubhub.ie/simply-red-tickets-amsterdam-ziggo-dome-20-6-2027/event/107668943 | - |
 | tm-simply-red-2027-merksem-antwerpen-z698xzg2z1kbk_apn | Simply Red | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-simply-red-2027-nurnberg-z698xzc2z16v0aozkf | Simply Red | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-simply-red-2027-fulda-z698xzc2z16vq7paf0 | Simply Red | none | 107669559 | https://www.stubhub.ie/simply-red-tickets-fulda-domplatz-fulda-30-6-2027/event/107669559 | - |
-| tm-simply-red-2027-aurich-z698xzc2z16v4ab8-i | Simply Red | none | 107669549 | https://www.stubhub.ie/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-2-7-2027/event/107669549 | - |
+| tm-simply-red-2027-fulda-z698xzc2z16vq7paf0 | Simply Red | refresh (applied) | 107669559 | https://www.stubhub.ie/simply-red-tickets-fulda-domplatz-fulda-30-6-2027/event/107669559 | - |
+| tm-simply-red-2027-aurich-z698xzc2z16v4ab8-i | Simply Red | refresh (applied) | 107669549 | https://www.stubhub.ie/simply-red-tickets-aurich-mehrzweckgelande-tannenhausen-2-7-2027/event/107669549 | - |
 | tm-simply-red-2027-hemer-z698xzc2z16v_nfy_4 | Simply Red | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simply-red-2027-bonn-z698xzc2z1kpoq9-n | Simply Red | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simply-red-2027-halle-westfalen-z698xzc2z1kj7akbg | Simply Red | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-simply-red-2027-chester-1agzkfsgkduxpco | Simply Red | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-simply-red-2027-halifax-15dfz_3r_jv8z | Simply Red | none | 107668675 | https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-9-8-2027/event/107668675 | - |
-| tm-simply-red-2027-halifax-1adfz_3gkrvea3u | Simply Red | none | 107668964 | https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-10-8-2027/event/107668964 | - |
+| tm-simply-red-2027-halifax-15dfz_3r_jv8z | Simply Red | refresh (applied) | 107668675 | https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-9-8-2027/event/107668675 | - |
+| tm-simply-red-2027-halifax-1adfz_3gkrvea3u | Simply Red | refresh (applied) | 107668964 | https://www.stubhub.ie/simply-red-tickets-halifax-piece-hall-halifax-10-8-2027/event/107668964 | - |
 | tm-simply-red-2027-halifax-1agzkfigkey3exj | Simply Red | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-simply-red-2027-london-1adjz_3gkbyuns4 | Simply Red | none | 107669495 | https://www.stubhub.ie/simply-red-tickets-london-gunnersbury-park-13-8-2027/event/107669495 | - |
-| tm-simply-red-2027-margate-1agzkfegkemyogi | Simply Red | none | 107668676 | https://www.stubhub.ie/simply-red-tickets-margate-dreamland-margate-14-8-2027/event/107668676 | - |
-| tm-simply-red-2027-scarborough-1agzkf0gkdqpn-m | Simply Red | none | 107669496 | https://www.stubhub.ie/simply-red-tickets-scarborough-scarborough-open-air-theatre-17-8-2027/event/107669496 | - |
+| tm-simply-red-2027-london-1adjz_3gkbyuns4 | Simply Red | refresh (applied) | 107669495 | https://www.stubhub.ie/simply-red-tickets-london-gunnersbury-park-13-8-2027/event/107669495 | - |
+| tm-simply-red-2027-margate-1agzkfegkemyogi | Simply Red | refresh (applied) | 107668676 | https://www.stubhub.ie/simply-red-tickets-margate-dreamland-margate-14-8-2027/event/107668676 | - |
+| tm-simply-red-2027-scarborough-1agzkf0gkdqpn-m | Simply Red | refresh (applied) | 107669496 | https://www.stubhub.ie/simply-red-tickets-scarborough-scarborough-open-air-theatre-17-8-2027/event/107669496 | - |
 | tm-simply-red-2027-colchester-1adfz_3gkmn5keu | Simply Red | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simply-red-2027-swansea-g5vhz_3rbtf3u | Simply Red | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-simply-red-2027-newmarket-1amzkfygkdj2ef1 | Simply Red | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-red-clay-strays-2027-huntsville-z7r9jz1aa7svn | The Red Clay Strays | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-neighbourhood-2027-denver-g5vzz_4qmz4qp | The Neighbourhood | none | 107679039 | https://www.stubhub.ie/the-neighbourhood-denver-tickets-3-2-2027/event/107679039 | - |
+| tm-the-neighbourhood-2027-denver-g5vzz_4qmz4qp | The Neighbourhood | refresh (applied) | 107679039 | https://www.stubhub.ie/the-neighbourhood-denver-tickets-3-2-2027/event/107679039 | - |
 | tm-the-neighbourhood-2027-saint-louis-vv1kvovppfga13fre | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-neighbourhood-2027-dallas-vvg1yz_4no500h | The Neighbourhood | none | 107679599 | https://www.stubhub.ie/the-neighbourhood-dallas-tickets-3-7-2027/event/107679599 | - |
-| tm-the-neighbourhood-2027-philadelphia-1adzz_4gkl39a_b | The Neighbourhood | none | 107678914 | https://www.stubhub.ie/the-neighbourhood-philadelphia-tickets-4-23-2027/event/107678914 | - |
-| tm-the-neighbourhood-2027-boston-vv1avzk4_gkdekcqu | The Neighbourhood | none | 107678918 | https://www.stubhub.ie/the-neighbourhood-boston-tickets-4-24-2027/event/107678918 | - |
+| tm-the-neighbourhood-2027-dallas-vvg1yz_4no500h | The Neighbourhood | refresh (applied) | 107679599 | https://www.stubhub.ie/the-neighbourhood-dallas-tickets-3-7-2027/event/107679599 | - |
+| tm-the-neighbourhood-2027-philadelphia-1adzz_4gkl39a_b | The Neighbourhood | refresh (applied) | 107678914 | https://www.stubhub.ie/the-neighbourhood-philadelphia-tickets-4-23-2027/event/107678914 | - |
+| tm-the-neighbourhood-2027-boston-vv1avzk4_gkdekcqu | The Neighbourhood | refresh (applied) | 107678918 | https://www.stubhub.ie/the-neighbourhood-boston-tickets-4-24-2027/event/107678918 | - |
 | tm-the-neighbourhood-2027-montreal-1ad7z_4gknbo3lq | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-the-neighbourhood-2027-kanata-16szk49oizau7kga | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-neighbourhood-2027-columbus-vv17fz_4gkmetfbq | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-neighbourhood-2027-pittsburgh-16vbz_4jkg7tdr9 | The Neighbourhood | none | 107679041 | https://www.stubhub.ie/the-neighbourhood-pittsburgh-tickets-5-1-2027/event/107679041 | - |
+| tm-the-neighbourhood-2027-pittsburgh-16vbz_4jkg7tdr9 | The Neighbourhood | refresh (applied) | 107679041 | https://www.stubhub.ie/the-neighbourhood-pittsburgh-tickets-5-1-2027/event/107679041 | - |
 | tm-the-neighbourhood-2027-raleigh-g5evz_4l74bcy | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-neighbourhood-2027-indianapolis-vv1aazk49gkeyee1s | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-neighbourhood-2027-chicago-vv178z_4gknyh4c0 | The Neighbourhood | none | 107678938 | https://www.stubhub.ie/the-neighbourhood-chicago-tickets-5-8-2027/event/107678938 | - |
-| tm-the-neighbourhood-2027-winnipeg-1av7z_4gknbr6nb | The Neighbourhood | none | 107679042 | https://www.stubhub.ie/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027/event/107679042 | - |
+| tm-the-neighbourhood-2027-chicago-vv178z_4gknyh4c0 | The Neighbourhood | refresh (applied) | 107678938 | https://www.stubhub.ie/the-neighbourhood-chicago-tickets-5-8-2027/event/107678938 | - |
+| tm-the-neighbourhood-2027-winnipeg-1av7z_4gknbr6nb | The Neighbourhood | refresh (applied) | 107679042 | https://www.stubhub.ie/the-neighbourhood-tickets-winnipeg-canada-life-centre-5-11-2027/event/107679042 | - |
 | tm-the-neighbourhood-2027-calgary-1av7z_4gknld4le | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-neighbourhood-2027-edmonton-1av7z_4gkl6qbrx | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-neighbourhood-2027-firenze-zg9rmiynyzfavv | The Neighbourhood | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3176,13 +3146,13 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dropkick-murphys-2027-quebec-1aszkfzbgfozegk | Dropkick Murphys | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dropkick-murphys-2027-quebec-1aszkfzbgoozeg5 | Dropkick Murphys | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dropkick-murphys-2027-montreal-1aszkfugkdv84mc | Dropkick Murphys | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dropkick-murphys-2027-brooklyn-k7vgf_kictnjm | Dropkick Murphys | none | 107671545 | https://www.stubhub.ie/dropkick-murphys-brooklyn-tickets-3-7-2027/event/107671545 | - |
+| tm-dropkick-murphys-2027-brooklyn-k7vgf_kictnjm | Dropkick Murphys | refresh (applied) | 107671545 | https://www.stubhub.ie/dropkick-murphys-brooklyn-tickets-3-7-2027/event/107671545 | - |
 | tm-dropkick-murphys-2027-wilmington-vv1aezkfmgkexqysz | Dropkick Murphys | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dropkick-murphys-2027-portland-vv177z_kgksaw-ns | Dropkick Murphys | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-dropkick-murphys-2027-boston-vv1avzkfsgkdttsc_ | Dropkick Murphys | none | 107674838 | https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-12-2027/event/107674838 | - |
-| tm-dropkick-murphys-2027-boston-vv1avzkfsgkdtcsmb | Dropkick Murphys | none | 107674156 | https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-13-2027/event/107674156 | - |
-| tm-dropkick-murphys-2027-boston-vv1avzkfmgketdy2c | Dropkick Murphys | none | 107674157 | https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-14-2027/event/107674157 | - |
-| tm-dropkick-murphys-2027-boston-vv1avzkfygkdomyjz | Dropkick Murphys | none | 107674954 | https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-17-2027/event/107674954 | - |
+| tm-dropkick-murphys-2027-boston-vv1avzkfsgkdttsc_ | Dropkick Murphys | refresh (applied) | 107674838 | https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-12-2027/event/107674838 | - |
+| tm-dropkick-murphys-2027-boston-vv1avzkfsgkdtcsmb | Dropkick Murphys | refresh (applied) | 107674156 | https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-13-2027/event/107674156 | - |
+| tm-dropkick-murphys-2027-boston-vv1avzkfmgketdy2c | Dropkick Murphys | refresh (applied) | 107674157 | https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-14-2027/event/107674157 | - |
+| tm-dropkick-murphys-2027-boston-vv1avzkfygkdomyjz | Dropkick Murphys | refresh (applied) | 107674954 | https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-17-2027/event/107674954 | - |
 | tm-kaleo-2027-fremantle-1akzkffgkdlimm3 | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kaleo-2027-brisbane-1akzkffgkemx7vu | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kaleo-2027-auckland-1a0zkfkgkeyf3yh | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3190,7 +3160,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-kaleo-2027-oslo-z698xzb_z16v0wbofv | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kaleo-2027-brussels-z698xzg2z16vjkuafp | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kaleo-2027-brussels-z698xzg2z16v_0_u-k | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kaleo-2027-madrid-z698xz2qz1kuvp4rv | KALEO | none | 107447689 | https://www.stubhub.ie/kaleo-tickets-madrid-live-las-ventas-plaza-de-toros-de-las-ventas-14-3-2027/event/107447689 | - |
+| tm-kaleo-2027-madrid-z698xz2qz1kuvp4rv | KALEO | refresh (applied) | 107447689 | https://www.stubhub.ie/kaleo-tickets-madrid-live-las-ventas-plaza-de-toros-de-las-ventas-14-3-2027/event/107447689 | - |
 | tm-kaleo-2027-barcelona-z698xz2qz1koa3fud | KALEO | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-kaleo-2027-milano-zg9rmiynyzdeke | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kaleo-2027-warsaw-z698xzqpz1kbba-jk | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3198,22 +3168,22 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-kaleo-2027-zurich-z698xzu3z16vqkfsq4 | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kaleo-2027-vienna-z698xz5rz16vr81eow | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kaleo-2027-berlin-z698xzc2z1ku0c686 | KALEO | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kaleo-2027-amsterdam-z698xzbpz16v8--tpb | KALEO | none | 107418043 | https://www.stubhub.ie/kaleo-tickets-amsterdam-ziggo-dome-30-3-2027/event/107418043 | - |
-| tm-kaleo-2027-london-g5dzz_uxmo7c5 | KALEO | none | 107417949 | https://www.stubhub.ie/kaleo-tickets-london-o2-academy-brixton-3-4-2027/event/107417949 | - |
-| tm-kaleo-2027-manchester-17uov0g6ulnuuct | KALEO | none | 107417929 | https://www.stubhub.ie/kaleo-tickets-manchester-o2-apollo-manchester-6-4-2027/event/107417929 | - |
-| tm-kaleo-2027-glasgow-g5dzz_ujz8jhw | KALEO | none | 107447610 | https://www.stubhub.ie/kaleo-tickets-glasgow-o2-academy-glasgow-8-4-2027/event/107447610 | - |
-| tm-kaleo-2027-birmingham-g5dzz_u5ehmmb | KALEO | none | 107447611 | https://www.stubhub.ie/kaleo-tickets-birmingham-o2-academy-birmingham-9-4-2027/event/107447611 | - |
-| tm-alex-warren-2026-las-vegas-1ayzkftgkdvnpgb | Alex Warren | none | 107669462 | https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462 | - |
-| tm-alex-warren-2027-las-vegas-1ayzkftgkdvipgh | Alex Warren | none | 107668643 | https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643 | - |
+| tm-kaleo-2027-amsterdam-z698xzbpz16v8--tpb | KALEO | refresh (applied) | 107418043 | https://www.stubhub.ie/kaleo-tickets-amsterdam-ziggo-dome-30-3-2027/event/107418043 | - |
+| tm-kaleo-2027-london-g5dzz_uxmo7c5 | KALEO | refresh (applied) | 107417949 | https://www.stubhub.ie/kaleo-tickets-london-o2-academy-brixton-3-4-2027/event/107417949 | - |
+| tm-kaleo-2027-manchester-17uov0g6ulnuuct | KALEO | refresh (applied) | 107417929 | https://www.stubhub.ie/kaleo-tickets-manchester-o2-apollo-manchester-6-4-2027/event/107417929 | - |
+| tm-kaleo-2027-glasgow-g5dzz_ujz8jhw | KALEO | refresh (applied) | 107447610 | https://www.stubhub.ie/kaleo-tickets-glasgow-o2-academy-glasgow-8-4-2027/event/107447610 | - |
+| tm-kaleo-2027-birmingham-g5dzz_u5ehmmb | KALEO | refresh (applied) | 107447611 | https://www.stubhub.ie/kaleo-tickets-birmingham-o2-academy-birmingham-9-4-2027/event/107447611 | - |
+| tm-alex-warren-2026-las-vegas-1ayzkftgkdvnpgb | Alex Warren | refresh (applied) | 107669462 | https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462 | - |
+| tm-alex-warren-2027-las-vegas-1ayzkftgkdvipgh | Alex Warren | refresh (applied) | 107668643 | https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643 | - |
 | tm-alex-warren-2027-cardiff-g5vhz_3c3nozb | Alex Warren | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-alex-warren-2027-belfast-16doz_3cdg7z8me | Alex Warren | none | 107670720 | https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720 | - |
+| tm-alex-warren-2027-belfast-16doz_3cdg7z8me | Alex Warren | refresh (applied) | 107670720 | https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720 | - |
 | tm-alex-warren-2027-co-dublin-1abzkf-gkebtuoa | Alex Warren | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-alex-warren-2027-glasgow-1auzkf_gkemjhov | Alex Warren | none | 107671364 | https://www.stubhub.ie/alex-warren-tickets-glasgow-glasgow-green-25-6-2027/event/107671364 | - |
-| tm-alex-warren-2027-exeter-g5vhz_3je-wlb | Alex Warren | none | 107671365 | https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365 | - |
-| tm-alex-warren-2027-woodstock-16djz_4q3g7mfnf | Alex Warren | none | 107676110 | https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110 | - |
-| tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj | Alex Warren | none | 107670721 | https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721 | - |
-| tm-alex-warren-2027-manchester-g5dzz_fblbfue | Alex Warren | none | 107678237 | https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237 | - |
-| tm-alex-warren-2027-london-1amzkfngkdb5am5 | Alex Warren | none | 107671362 | https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362 | - |
+| tm-alex-warren-2027-glasgow-1auzkf_gkemjhov | Alex Warren | refresh (applied) | 107671364 | https://www.stubhub.ie/alex-warren-tickets-glasgow-glasgow-green-25-6-2027/event/107671364 | - |
+| tm-alex-warren-2027-exeter-g5vhz_3je-wlb | Alex Warren | refresh (applied) | 107671365 | https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365 | - |
+| tm-alex-warren-2027-woodstock-16djz_4q3g7mfnf | Alex Warren | refresh (applied) | 107676110 | https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110 | - |
+| tm-alex-warren-2027-scarborough-1agzkf0gkdh1nyj | Alex Warren | refresh (applied) | 107670721 | https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721 | - |
+| tm-alex-warren-2027-manchester-g5dzz_fblbfue | Alex Warren | refresh (applied) | 107678237 | https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237 | - |
+| tm-alex-warren-2027-london-1amzkfngkdb5am5 | Alex Warren | refresh (applied) | 107671362 | https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362 | - |
 | tm-marc-anthony-2026-las-vegas-1a9zk3vgkdfccwq | Marc Anthony | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-marc-anthony-2026-las-vegas-1a9zk3vgkdf2mwm | Marc Anthony | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-marc-anthony-2027-las-vegas-1avjz_3gkmcrlvv | Marc Anthony | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
@@ -3239,117 +3209,116 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-calvin-harris-2027-flemington-1apzkfugkdpmniz | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-calvin-harris-2027-flemington-1aefz_3gkxmmgx4 | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-calvin-harris-2027-flemington-16efz_kefg7nkeo | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-calvin-harris-2027-boston-vv117z_47a1fa9 | Calvin Harris | none | 107678077 | https://www.stubhub.ie/calvin-harris-boston-tickets-3-31-2027/event/107678077 | - |
-| tm-calvin-harris-2027-boston-vv1a8vp3aga2khl4 | Calvin Harris | none | 107673765 | https://www.stubhub.ie/calvin-harris-boston-tickets-4-1-2027/event/107673765 | - |
-| tm-calvin-harris-2027-baltimore-1ka8vp3_ga2r9p0 | Calvin Harris | none | 107674374 | https://www.stubhub.ie/calvin-harris-baltimore-tickets-4-2-2027/event/107674374 | - |
-| tm-calvin-harris-2027-boston-vv1a8vp49ga5l0kw | Calvin Harris | none | 107678078 | https://www.stubhub.ie/calvin-harris-boston-tickets-4-4-2027/event/107678078 | - |
-| tm-calvin-harris-2027-brooklyn-16yzk4k-yza5e8ka | Calvin Harris | none | 107678079 | https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-6-2027/event/107678079 | - |
-| tm-calvin-harris-2027-brooklyn-16dzz_4c6g7nsw_ | Calvin Harris | none | 107675887 | https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-7-2027/event/107675887 | - |
-| tm-calvin-harris-2027-philadelphia-1ayzk4agkew8jvi | Calvin Harris | none | 107674366 | https://www.stubhub.ie/calvin-harris-philadelphia-tickets-4-8-2027/event/107674366 | - |
-| tm-calvin-harris-2027-brooklyn-1ayzk4fgkeyujwu | Calvin Harris | none | 107674362 | https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-9-2027/event/107674362 | - |
-| tm-calvin-harris-2027-brooklyn-16yzk4ov9zau1f7g | Calvin Harris | none | 107677355 | https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-10-2027/event/107677355 | - |
+| tm-calvin-harris-2027-boston-vv117z_47a1fa9 | Calvin Harris | refresh (applied) | 107678077 | https://www.stubhub.ie/calvin-harris-boston-tickets-3-31-2027/event/107678077 | - |
+| tm-calvin-harris-2027-boston-vv1a8vp3aga2khl4 | Calvin Harris | refresh (applied) | 107673765 | https://www.stubhub.ie/calvin-harris-boston-tickets-4-1-2027/event/107673765 | - |
+| tm-calvin-harris-2027-baltimore-1ka8vp3_ga2r9p0 | Calvin Harris | refresh (applied) | 107674374 | https://www.stubhub.ie/calvin-harris-baltimore-tickets-4-2-2027/event/107674374 | - |
+| tm-calvin-harris-2027-boston-vv1a8vp49ga5l0kw | Calvin Harris | refresh (applied) | 107678078 | https://www.stubhub.ie/calvin-harris-boston-tickets-4-4-2027/event/107678078 | - |
+| tm-calvin-harris-2027-brooklyn-16yzk4k-yza5e8ka | Calvin Harris | refresh (applied) | 107678079 | https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-6-2027/event/107678079 | - |
+| tm-calvin-harris-2027-brooklyn-16dzz_4c6g7nsw_ | Calvin Harris | refresh (applied) | 107675887 | https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-7-2027/event/107675887 | - |
+| tm-calvin-harris-2027-philadelphia-1ayzk4agkew8jvi | Calvin Harris | refresh (applied) | 107674366 | https://www.stubhub.ie/calvin-harris-philadelphia-tickets-4-8-2027/event/107674366 | - |
+| tm-calvin-harris-2027-brooklyn-1ayzk4fgkeyujwu | Calvin Harris | refresh (applied) | 107674362 | https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-9-2027/event/107674362 | - |
+| tm-calvin-harris-2027-brooklyn-16yzk4ov9zau1f7g | Calvin Harris | refresh (applied) | 107677355 | https://www.stubhub.ie/calvin-harris-brooklyn-tickets-4-10-2027/event/107677355 | - |
 | tm-calvin-harris-2027-toronto-1a8zk4fgkevlxcb | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-calvin-harris-2027-montreal-1ad7z_fxfqwzdua5 | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-calvin-harris-2027-hamilton-1a8zk4agkd5cdnl | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-calvin-harris-2027-houston-z7r9jz1aa76pk | Calvin Harris | none | 107673769 | https://www.stubhub.ie/calvin-harris-houston-tickets-4-23-2027/event/107673769 | - |
-| tm-calvin-harris-2027-fort-worth-vvg1yz_flvwxhm | Calvin Harris | none | 107674373 | https://www.stubhub.ie/calvin-harris-fort-worth-tickets-4-24-2027/event/107674373 | - |
-| tm-calvin-harris-2027-austin-g5diz_fjhnaqg | Calvin Harris | none | 107673761 | https://www.stubhub.ie/calvin-harris-austin-tickets-4-25-2027/event/107673761 | - |
-| tm-calvin-harris-2027-saint-paul-z7r9jz1aa76pf | Calvin Harris | none | 107677510 | https://www.stubhub.ie/calvin-harris-saint-paul-tickets-4-29-2027/event/107677510 | - |
-| tm-calvin-harris-2027-chicago-vv1a7zk4fgkdzmu0d | Calvin Harris | none | 107673764 | https://www.stubhub.ie/calvin-harris-chicago-tickets-4-30-2027/event/107673764 | - |
-| tm-calvin-harris-2027-chicago-vv167zk4319zac1ud5 | Calvin Harris | none | 107675891 | https://www.stubhub.ie/calvin-harris-chicago-tickets-5-2-2027/event/107675891 | - |
-| tm-calvin-harris-2027-salt-lake-city-z7r9jz1aa76p8 | Calvin Harris | none | 107674370 | https://www.stubhub.ie/calvin-harris-salt-lake-city-tickets-5-5-2027/event/107674370 | - |
-| tm-calvin-harris-2027-oakland-g5vyz_fh6tm8u | Calvin Harris | none | 107673758 | https://www.stubhub.ie/calvin-harris-oakland-tickets-5-7-2027/event/107673758 | - |
+| tm-calvin-harris-2027-houston-z7r9jz1aa76pk | Calvin Harris | refresh (applied) | 107673769 | https://www.stubhub.ie/calvin-harris-houston-tickets-4-23-2027/event/107673769 | - |
+| tm-calvin-harris-2027-fort-worth-vvg1yz_flvwxhm | Calvin Harris | refresh (applied) | 107674373 | https://www.stubhub.ie/calvin-harris-fort-worth-tickets-4-24-2027/event/107674373 | - |
+| tm-calvin-harris-2027-austin-g5diz_fjhnaqg | Calvin Harris | refresh (applied) | 107673761 | https://www.stubhub.ie/calvin-harris-austin-tickets-4-25-2027/event/107673761 | - |
+| tm-calvin-harris-2027-saint-paul-z7r9jz1aa76pf | Calvin Harris | refresh (applied) | 107677510 | https://www.stubhub.ie/calvin-harris-saint-paul-tickets-4-29-2027/event/107677510 | - |
+| tm-calvin-harris-2027-chicago-vv1a7zk4fgkdzmu0d | Calvin Harris | refresh (applied) | 107673764 | https://www.stubhub.ie/calvin-harris-chicago-tickets-4-30-2027/event/107673764 | - |
+| tm-calvin-harris-2027-chicago-vv167zk4319zac1ud5 | Calvin Harris | refresh (applied) | 107675891 | https://www.stubhub.ie/calvin-harris-chicago-tickets-5-2-2027/event/107675891 | - |
+| tm-calvin-harris-2027-salt-lake-city-z7r9jz1aa76p8 | Calvin Harris | refresh (applied) | 107674370 | https://www.stubhub.ie/calvin-harris-salt-lake-city-tickets-5-5-2027/event/107674370 | - |
+| tm-calvin-harris-2027-oakland-g5vyz_fh6tm8u | Calvin Harris | refresh (applied) | 107673758 | https://www.stubhub.ie/calvin-harris-oakland-tickets-5-7-2027/event/107673758 | - |
 | tm-calvin-harris-2027-oakland-g5vyz_4drjlsj | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-calvin-harris-2027-oakland-g5vyz_4cwzdxp | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-calvin-harris-2027-seattle-vvg1hz_fjlgmb1 | Calvin Harris | none | 107673763 | https://www.stubhub.ie/calvin-harris-seattle-tickets-5-14-2027/event/107673763 | - |
-| tm-calvin-harris-2027-seattle-vvg1hz_48c3k9c | Calvin Harris | none | 107675892 | https://www.stubhub.ie/calvin-harris-seattle-tickets-5-15-2027/event/107675892 | - |
+| tm-calvin-harris-2027-seattle-vvg1hz_fjlgmb1 | Calvin Harris | refresh (applied) | 107673763 | https://www.stubhub.ie/calvin-harris-seattle-tickets-5-14-2027/event/107673763 | - |
+| tm-calvin-harris-2027-seattle-vvg1hz_48c3k9c | Calvin Harris | refresh (applied) | 107675892 | https://www.stubhub.ie/calvin-harris-seattle-tickets-5-15-2027/event/107675892 | - |
 | tm-calvin-harris-2027-vancouver-1aozk46gkdf4hov | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-calvin-harris-2027-vancouver-1k78vpfmgagddrz | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-calvin-harris-2027-anaheim-vv1aazk44gkdgr8bi | Calvin Harris | none | 107675893 | https://www.stubhub.ie/calvin-harris-anaheim-tickets-5-20-2027/event/107675893 | - |
+| tm-calvin-harris-2027-anaheim-vv1aazk44gkdgr8bi | Calvin Harris | refresh (applied) | 107675893 | https://www.stubhub.ie/calvin-harris-anaheim-tickets-5-20-2027/event/107675893 | - |
 | tm-calvin-harris-2027-san-diego-vvg1iz_fqlbaqn | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-calvin-harris-2027-san-diego-vvg1iz_4dbvmwb | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-calvin-harris-2027-san-diego-vvg1iz_45bbb-k | Calvin Harris | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-calvin-harris-2027-inglewood-vv1f0z_48vcazd8d1 | Calvin Harris | none | 107675896 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-26-2027/event/107675896 | - |
-| tm-calvin-harris-2027-inglewood-vv1aazk4fgkebghyq | Calvin Harris | none | 107673759 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-27-2027/event/107673759 | - |
-| tm-calvin-harris-2027-inglewood-vv1aazk48gkd68xic | Calvin Harris | none | 107677401 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-28-2027/event/107677401 | - |
-| tm-calvin-harris-2027-inglewood-vv1aazk48gkd6fcij | Calvin Harris | none | 107675897 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-29-2027/event/107675897 | - |
-| tm-calvin-harris-2027-inglewood-vv1aazk48gkd69rc1 | Calvin Harris | none | 107675898 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-30-2027/event/107675898 | - |
-| tm-aespa-2027-manchester-g5vhz_gm82p9j | aespa | none | 107162341 | https://www.stubhub.ie/aespa-tickets-manchester-manchester-ao-arena-14-1-2027/event/107162341 | - |
-| tm-aespa-2027-london-1agzk3pgkeok319 | aespa | none | 107162340 | https://www.stubhub.ie/aespa-tickets-london-the-o2-arena-16-1-2027/event/107162340 | - |
-| tm-aespa-2027-amsterdam-z698xzbpz16voeqaa6 | aespa | none | 107165089 | https://www.stubhub.ie/aespa-tickets-amsterdam-ziggo-dome-19-1-2027/event/107165089 | - |
-| tm-aespa-2027-berlin-z698xzc2z1k_y_voe | aespa | none | 107165116 | https://www.stubhub.ie/aespa-tickets-berlin-uber-arena-26-1-2027/event/107165116 | - |
+| tm-calvin-harris-2027-inglewood-vv1f0z_48vcazd8d1 | Calvin Harris | refresh (applied) | 107675896 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-26-2027/event/107675896 | - |
+| tm-calvin-harris-2027-inglewood-vv1aazk4fgkebghyq | Calvin Harris | refresh (applied) | 107673759 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-27-2027/event/107673759 | - |
+| tm-calvin-harris-2027-inglewood-vv1aazk48gkd68xic | Calvin Harris | refresh (applied) | 107677401 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-28-2027/event/107677401 | - |
+| tm-calvin-harris-2027-inglewood-vv1aazk48gkd6fcij | Calvin Harris | refresh (applied) | 107675897 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-29-2027/event/107675897 | - |
+| tm-calvin-harris-2027-inglewood-vv1aazk48gkd69rc1 | Calvin Harris | refresh (applied) | 107675898 | https://www.stubhub.ie/calvin-harris-inglewood-tickets-5-30-2027/event/107675898 | - |
+| tm-aespa-2027-manchester-g5vhz_gm82p9j | aespa | refresh (applied) | 107162341 | https://www.stubhub.ie/aespa-tickets-manchester-manchester-ao-arena-14-1-2027/event/107162341 | - |
+| tm-aespa-2027-london-1agzk3pgkeok319 | aespa | refresh (applied) | 107162340 | https://www.stubhub.ie/aespa-tickets-london-the-o2-arena-16-1-2027/event/107162340 | - |
+| tm-aespa-2027-amsterdam-z698xzbpz16voeqaa6 | aespa | refresh (applied) | 107165089 | https://www.stubhub.ie/aespa-tickets-amsterdam-ziggo-dome-19-1-2027/event/107165089 | - |
+| tm-aespa-2027-berlin-z698xzc2z1k_y_voe | aespa | refresh (applied) | 107165116 | https://www.stubhub.ie/aespa-tickets-berlin-uber-arena-26-1-2027/event/107165116 | - |
 | tm-aespa-2027-milano-zg9rmiynyzekk1 | aespa | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-aespa-2027-barcelona-z698xz2qz16v0vckob | aespa | none | 107162333 | https://www.stubhub.ie/aespa-tickets-barcelona-palau-sant-jordi-31-1-2027/event/107162333 | - |
+| tm-aespa-2027-barcelona-z698xz2qz16v0vckob | aespa | refresh (applied) | 107162333 | https://www.stubhub.ie/aespa-tickets-barcelona-palau-sant-jordi-31-1-2027/event/107162333 | - |
 | tm-cage-the-elephant-2027-krakow-z698xzqpz16vup4eqe | Cage The Elephant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-cage-the-elephant-2027-milano-zg9rmiynyzdfvd | Cage The Elephant | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-cage-the-elephant-2027-cardiff-16dbz_3rfg7rxe8 | Cage The Elephant | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-cage-the-elephant-2027-leeds-g5dzz_350zpr- | Cage The Elephant | none | 107667232 | https://www.stubhub.ie/cage-the-elephant-tickets-leeds-o2-academy-leeds-23-2-2027/event/107667232 | - |
-| tm-cage-the-elephant-2027-glasgow-g5dzz_3kn7sp1 | Cage The Elephant | none | 107667233 | https://www.stubhub.ie/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-25-2-2027/event/107667233 | - |
-| tm-cage-the-elephant-2027-birmingham-g5dzz_3k0lkkh | Cage The Elephant | none | 107667235 | https://www.stubhub.ie/cage-the-elephant-tickets-birmingham-o2-academy-birmingham-26-2-2027/event/107667235 | - |
+| tm-cage-the-elephant-2027-leeds-g5dzz_350zpr- | Cage The Elephant | refresh (applied) | 107667232 | https://www.stubhub.ie/cage-the-elephant-tickets-leeds-o2-academy-leeds-23-2-2027/event/107667232 | - |
+| tm-cage-the-elephant-2027-glasgow-g5dzz_3kn7sp1 | Cage The Elephant | refresh (applied) | 107667233 | https://www.stubhub.ie/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-25-2-2027/event/107667233 | - |
+| tm-cage-the-elephant-2027-birmingham-g5dzz_3k0lkkh | Cage The Elephant | refresh (applied) | 107667235 | https://www.stubhub.ie/cage-the-elephant-tickets-birmingham-o2-academy-birmingham-26-2-2027/event/107667235 | - |
 | tm-cage-the-elephant-2027-manchester-g5dzz_3374s3o | Cage The Elephant | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-cage-the-elephant-2027-london-g5vhz_3r6zval | Cage The Elephant | none | 107667230 | https://www.stubhub.ie/cage-the-elephant-tickets-london-alexandra-palace-1-3-2027/event/107667230 | - |
+| tm-cage-the-elephant-2027-london-g5vhz_3r6zval | Cage The Elephant | refresh (applied) | 107667230 | https://www.stubhub.ie/cage-the-elephant-tickets-london-alexandra-palace-1-3-2027/event/107667230 | - |
 | tm-two-door-cinema-club-2026-mt-claremont-1akzkosgkdk8pdq | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2026-brisbane-1avgz_kgkwwsauv | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2026-auckland-1a0zkoygkd-_sqy | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2027-dublin-17kzv0g6gmgxxtc | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2027-belfast-17czv0g659j0-z4 | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-two-door-cinema-club-2027-glasgow-17uov0g6ueealfd | Two Door Cinema Club | none | 107417982 | https://www.stubhub.ie/two-door-cinema-club-tickets-glasgow-ovo-hydro-arena-glasgow-26-1-2027/event/107417982 | - |
-| tm-two-door-cinema-club-2027-manchester-g5vhz_ujflqde | Two Door Cinema Club | none | 107447639 | https://www.stubhub.ie/two-door-cinema-club-tickets-manchester-manchester-ao-arena-27-1-2027/event/107447639 | - |
-| tm-two-door-cinema-club-2027-london-17u8v0g6ulnn4yb | Two Door Cinema Club | none | 107417983 | https://www.stubhub.ie/two-door-cinema-club-tickets-london-the-o2-arena-28-1-2027/event/107417983 | - |
+| tm-two-door-cinema-club-2027-glasgow-17uov0g6ueealfd | Two Door Cinema Club | refresh (applied) | 107417982 | https://www.stubhub.ie/two-door-cinema-club-tickets-glasgow-ovo-hydro-arena-glasgow-26-1-2027/event/107417982 | - |
+| tm-two-door-cinema-club-2027-manchester-g5vhz_ujflqde | Two Door Cinema Club | refresh (applied) | 107447639 | https://www.stubhub.ie/two-door-cinema-club-tickets-manchester-manchester-ao-arena-27-1-2027/event/107447639 | - |
+| tm-two-door-cinema-club-2027-london-17u8v0g6ulnn4yb | Two Door Cinema Club | refresh (applied) | 107417983 | https://www.stubhub.ie/two-door-cinema-club-tickets-london-the-o2-arena-28-1-2027/event/107417983 | - |
 | tm-two-door-cinema-club-2027-brussels-z698xzg2z16v4w_s4e | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2027-oslo-z698xzb_z1k8pbuqa | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2027-hamburg-z698xzc2z16v1k_wvn | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2027-milwaukee-vv1a6zk47gkemmn1x | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-two-door-cinema-club-2027-seattle-vvg1hz_4ppr1wj | Two Door Cinema Club | none | 107678424 | https://www.stubhub.ie/two-door-cinema-club-seattle-tickets-5-17-2027/event/107678424 | - |
-| tm-two-door-cinema-club-2027-sacramento-g5vyz_46svaa8 | Two Door Cinema Club | none | 107678423 | https://www.stubhub.ie/two-door-cinema-club-sacramento-tickets-5-19-2027/event/107678423 | - |
-| tm-two-door-cinema-club-2027-oakland-g5vyz_48x4wje | Two Door Cinema Club | none | 107678440 | https://www.stubhub.ie/two-door-cinema-club-oakland-tickets-5-20-2027/event/107678440 | - |
-| tm-two-door-cinema-club-2027-hollywood-vv16azk4k-kza5aa16 | Two Door Cinema Club | none | 107676263 | https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-22-2027/event/107676263 | - |
-| tm-two-door-cinema-club-2027-hollywood-vv170z_4gknbp_nx | Two Door Cinema Club | none | 107679141 | https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-23-2027/event/107679141 | - |
+| tm-two-door-cinema-club-2027-seattle-vvg1hz_4ppr1wj | Two Door Cinema Club | refresh (applied) | 107678424 | https://www.stubhub.ie/two-door-cinema-club-seattle-tickets-5-17-2027/event/107678424 | - |
+| tm-two-door-cinema-club-2027-sacramento-g5vyz_46svaa8 | Two Door Cinema Club | refresh (applied) | 107678423 | https://www.stubhub.ie/two-door-cinema-club-sacramento-tickets-5-19-2027/event/107678423 | - |
+| tm-two-door-cinema-club-2027-oakland-g5vyz_48x4wje | Two Door Cinema Club | refresh (applied) | 107678440 | https://www.stubhub.ie/two-door-cinema-club-oakland-tickets-5-20-2027/event/107678440 | - |
+| tm-two-door-cinema-club-2027-hollywood-vv16azk4k-kza5aa16 | Two Door Cinema Club | refresh (applied) | 107676263 | https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-22-2027/event/107676263 | - |
+| tm-two-door-cinema-club-2027-hollywood-vv170z_4gknbp_nx | Two Door Cinema Club | refresh (applied) | 107679141 | https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-23-2027/event/107679141 | - |
 | tm-two-door-cinema-club-2027-del-mar-rz7hnez1afc70v | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2027-houston-g5diz_42wndml | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-latto-2026-philadelphia-vv17fz_4gkux4p4m | Latto | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-noah-kahan-2027-birmingham-1aezz_4gkwloexg | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-noah-kahan-2027-tampa-vvg1vz_4rlk1ty | Noah Kahan | none | 107679485 | https://www.stubhub.ie/noah-kahan-tampa-tickets-4-29-2027/event/107679485 | - |
-| tm-noah-kahan-2027-charlotte-g5evz_4r3uqrt | Noah Kahan | none | 107679487 | https://www.stubhub.ie/noah-kahan-charlotte-tickets-5-6-2027/event/107679487 | - |
-| tm-noah-kahan-2027-houston-g5diz_4wkxf3f | Noah Kahan | none | 107679488 | https://www.stubhub.ie/noah-kahan-houston-tickets-5-12-2027/event/107679488 | - |
-| tm-noah-kahan-2027-santa-clara-g5vyz_4rfk6c7 | Noah Kahan | none | 107679489 | https://www.stubhub.ie/noah-kahan-santa-clara-tickets-5-19-2027/event/107679489 | - |
-| tm-noah-kahan-2027-las-vegas-1avjz_4gkrmeou0 | Noah Kahan | none | 107679490 | https://www.stubhub.ie/noah-kahan-las-vegas-tickets-5-21-2027/event/107679490 | - |
-| tm-noah-kahan-2027-columbus-vv17fz_4gkshkqmo | Noah Kahan | none | 107679494 | https://www.stubhub.ie/noah-kahan-columbus-tickets-6-5-2027/event/107679494 | - |
-| tm-noah-kahan-2027-detroit-vv1koz_kr3g7cdve | Noah Kahan | none | 107678749 | https://www.stubhub.ie/noah-kahan-detroit-tickets-6-10-2027/event/107678749 | - |
-| tm-noah-kahan-2027-orchard-park-vv17gz_4gksqg3zl | Noah Kahan | none | 107678750 | https://www.stubhub.ie/noah-kahan-orchard-park-tickets-6-12-2027/event/107678750 | - |
-| tm-noah-kahan-2027-montreal-1aszk4pgkdjhrvf | Noah Kahan | none | 107679153 | https://www.stubhub.ie/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027/event/107679153 | - |
-| tm-noah-kahan-2027-east-rutherford-k7vgf_4me3p-- | Noah Kahan | none | 107678751 | https://www.stubhub.ie/noah-kahan-east-rutherford-tickets-6-18-2027/event/107678751 | - |
-| tm-noah-kahan-2027-berlin-z698xzc2z16vgkoop- | Noah Kahan | none | 107678752 | https://www.stubhub.ie/noah-kahan-tickets-berlin-waldbuhne-2-7-2027/event/107678752 | - |
+| tm-noah-kahan-2027-tampa-vvg1vz_4rlk1ty | Noah Kahan | refresh (applied) | 107679485 | https://www.stubhub.ie/noah-kahan-tampa-tickets-4-29-2027/event/107679485 | - |
+| tm-noah-kahan-2027-charlotte-g5evz_4r3uqrt | Noah Kahan | refresh (applied) | 107679487 | https://www.stubhub.ie/noah-kahan-charlotte-tickets-5-6-2027/event/107679487 | - |
+| tm-noah-kahan-2027-houston-g5diz_4wkxf3f | Noah Kahan | refresh (applied) | 107679488 | https://www.stubhub.ie/noah-kahan-houston-tickets-5-12-2027/event/107679488 | - |
+| tm-noah-kahan-2027-santa-clara-g5vyz_4rfk6c7 | Noah Kahan | refresh (applied) | 107679489 | https://www.stubhub.ie/noah-kahan-santa-clara-tickets-5-19-2027/event/107679489 | - |
+| tm-noah-kahan-2027-las-vegas-1avjz_4gkrmeou0 | Noah Kahan | refresh (applied) | 107679490 | https://www.stubhub.ie/noah-kahan-las-vegas-tickets-5-21-2027/event/107679490 | - |
+| tm-noah-kahan-2027-columbus-vv17fz_4gkshkqmo | Noah Kahan | refresh (applied) | 107679494 | https://www.stubhub.ie/noah-kahan-columbus-tickets-6-5-2027/event/107679494 | - |
+| tm-noah-kahan-2027-detroit-vv1koz_kr3g7cdve | Noah Kahan | refresh (applied) | 107678749 | https://www.stubhub.ie/noah-kahan-detroit-tickets-6-10-2027/event/107678749 | - |
+| tm-noah-kahan-2027-orchard-park-vv17gz_4gksqg3zl | Noah Kahan | refresh (applied) | 107678750 | https://www.stubhub.ie/noah-kahan-orchard-park-tickets-6-12-2027/event/107678750 | - |
+| tm-noah-kahan-2027-montreal-1aszk4pgkdjhrvf | Noah Kahan | refresh (applied) | 107679153 | https://www.stubhub.ie/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027/event/107679153 | - |
+| tm-noah-kahan-2027-east-rutherford-k7vgf_4me3p-- | Noah Kahan | refresh (applied) | 107678751 | https://www.stubhub.ie/noah-kahan-east-rutherford-tickets-6-18-2027/event/107678751 | - |
+| tm-noah-kahan-2027-berlin-z698xzc2z16vgkoop- | Noah Kahan | refresh (applied) | 107678752 | https://www.stubhub.ie/noah-kahan-tickets-berlin-waldbuhne-2-7-2027/event/107678752 | - |
 | tm-noah-kahan-2027-milano-zg9rmiynyzfa6d | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-noah-kahan-2027-sevilla-z698xz2qz16v3duzrf | Noah Kahan | none | 107679578 | https://www.stubhub.ie/noah-kahan-tickets-sevilla-plaza-de-espana-de-sevilla-7-7-2027/event/107679578 | - |
-| tm-u2-2027-stockholm-z698xzq2z16v-3vzat | U2 | none | 107679468 | https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-26-4-2027/event/107679468 | - |
-| tm-u2-2027-stockholm-z698xzq2z16v_p7i1a | U2 | none | 107679469 | https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-28-4-2027/event/107679469 | - |
-| tm-u2-2027-amsterdam-z698xzbpz16v0jupoj | U2 | none | 107679471 | https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-5-6-2027/event/107679471 | - |
-| tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv | U2 | none | 107679472 | https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-6-6-2027/event/107679472 | - |
-| tm-sam-fender-2027-cardiff-1adfz_4gklat6o4 | Sam Fender | none | 107679562 | https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-12-6-2027/event/107679562 | - |
+| tm-noah-kahan-2027-sevilla-z698xz2qz16v3duzrf | Noah Kahan | refresh (applied) | 107679578 | https://www.stubhub.ie/noah-kahan-tickets-sevilla-plaza-de-espana-de-sevilla-7-7-2027/event/107679578 | - |
+| tm-u2-2027-stockholm-z698xzq2z16v-3vzat | U2 | refresh (applied) | 107679468 | https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-26-4-2027/event/107679468 | - |
+| tm-u2-2027-stockholm-z698xzq2z16v_p7i1a | U2 | refresh (applied) | 107679469 | https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-28-4-2027/event/107679469 | - |
+| tm-u2-2027-amsterdam-z698xzbpz16v0jupoj | U2 | refresh (applied) | 107679471 | https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-5-6-2027/event/107679471 | - |
+| tm-u2-2027-amsterdam-z698xzbpz16v7bpzfv | U2 | refresh (applied) | 107679472 | https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-6-6-2027/event/107679472 | - |
+| tm-sam-fender-2027-cardiff-1adfz_4gklat6o4 | Sam Fender | refresh (applied) | 107679562 | https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-12-6-2027/event/107679562 | - |
 | tm-sam-fender-2027-edinburgh-1adbz_4gkm8ikcj | Sam Fender | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-sam-fender-2027-london-1aegz_4gklv3o2e | Sam Fender | none | 107679564 | https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-2-9-2027/event/107679564 | - |
+| tm-sam-fender-2027-london-1aegz_4gklv3o2e | Sam Fender | refresh (applied) | 107679564 | https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-2-9-2027/event/107679564 | - |
 | tm-nickelback-2027-pokolbin-1avgz_4c70szdc8v | Nickelback | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bullet-for-my-valentine-2027-praha-9-z698xzu0z1kbijs_f | Bullet For My Valentine | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-bullet-for-my-valentine-2027-forest-brussels-z698xzg2z1ku8c37e | Bullet For My Valentine | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-bullet-for-my-valentine-2027-glasgow-1kuovpuoga5adth | Bullet For My Valentine | none | 107670042 | https://www.stubhub.ie/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-arena-glasgow-23-2-2027/event/107670042 | - |
-| tm-bullet-for-my-valentine-2027-birmingham-1anzkfggkel7zmz | Bullet For My Valentine | none | 107670043 | https://www.stubhub.ie/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-25-2-2027/event/107670043 | - |
-| tm-bullet-for-my-valentine-2027-london-16dfz_kqeg7loo3 | Bullet For My Valentine | none | 107669052 | https://www.stubhub.ie/bullet-for-my-valentine-tickets-london-the-o2-arena-26-2-2027/event/107669052 | - |
-| tm-bullet-for-my-valentine-2027-manchester-g5vhz_kd3nkoq | Bullet For My Valentine | none | 107669053 | https://www.stubhub.ie/bullet-for-my-valentine-tickets-manchester-manchester-ao-arena-27-2-2027/event/107669053 | - |
+| tm-bullet-for-my-valentine-2027-glasgow-1kuovpuoga5adth | Bullet For My Valentine | refresh (applied) | 107670042 | https://www.stubhub.ie/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-arena-glasgow-23-2-2027/event/107670042 | - |
+| tm-bullet-for-my-valentine-2027-birmingham-1anzkfggkel7zmz | Bullet For My Valentine | refresh (applied) | 107670043 | https://www.stubhub.ie/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-25-2-2027/event/107670043 | - |
+| tm-bullet-for-my-valentine-2027-london-16dfz_kqeg7loo3 | Bullet For My Valentine | refresh (applied) | 107669052 | https://www.stubhub.ie/bullet-for-my-valentine-tickets-london-the-o2-arena-26-2-2027/event/107669052 | - |
+| tm-bullet-for-my-valentine-2027-manchester-g5vhz_kd3nkoq | Bullet For My Valentine | refresh (applied) | 107669053 | https://www.stubhub.ie/bullet-for-my-valentine-tickets-manchester-manchester-ao-arena-27-2-2027/event/107669053 | - |
 | tm-jake-bugg-2027-manchester-g5vhz_owbzlwl | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-dublin-1kkzvpk9ga1efx9 | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-edinburgh-1auzkf-gkd9gf1d | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-glasgow-1auzkf-gkeivv0q | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-gateshead-11uyvpf_qopzvc | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jake-bugg-2027-sheffield-1adfz_ogkmhb1lb | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-liverpool-g5vhz_owwx56n | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-bristol-1adjz_ogkvkgljy | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-nottingham-g5vhz_ohmndtt | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-jake-bugg-2027-london-g5vhz_olkluto | Jake Bugg | none | 107674266 | https://www.stubhub.ie/jake-bugg-tickets-london-union-chapel-london-25-2-2027/event/107674266 | - |
-| tm-jake-bugg-2027-london-g5vhz_olvuind | Jake Bugg | none | 107674265 | https://www.stubhub.ie/jake-bugg-tickets-london-union-chapel-london-26-2-2027/event/107674265 | - |
+| tm-jake-bugg-2027-london-g5vhz_olkluto | Jake Bugg | refresh (applied) | 107674266 | https://www.stubhub.ie/jake-bugg-tickets-london-union-chapel-london-25-2-2027/event/107674266 | - |
+| tm-jake-bugg-2027-london-g5vhz_olvuind | Jake Bugg | refresh (applied) | 107674265 | https://www.stubhub.ie/jake-bugg-tickets-london-union-chapel-london-26-2-2027/event/107674265 | - |
 | tm-jake-bugg-2027-london-g5vhz_ol9xkmo | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-jake-bugg-2027-madrid-z698xz2qz1k_y8v-_ | Jake Bugg | none | 107665739 | https://www.stubhub.ie/jake-bugg-tickets-madrid-teatro-eslava-ochoymedio-club-6-4-2027/event/107665739 | - |
-| tm-jake-bugg-2027-barcelona-z698xz2qz16vps_0bf | Jake Bugg | none | 107665740 | https://www.stubhub.ie/jake-bugg-tickets-barcelona-sala-la-paloma-7-4-2027/event/107665740 | - |
+| tm-jake-bugg-2027-madrid-z698xz2qz1k_y8v-_ | Jake Bugg | refresh (applied) | 107665739 | https://www.stubhub.ie/jake-bugg-tickets-madrid-teatro-eslava-ochoymedio-club-6-4-2027/event/107665739 | - |
+| tm-jake-bugg-2027-barcelona-z698xz2qz16vps_0bf | Jake Bugg | refresh (applied) | 107665740 | https://www.stubhub.ie/jake-bugg-tickets-barcelona-sala-la-paloma-7-4-2027/event/107665740 | - |
 | tm-jake-bugg-2027-milano-zg9rmiynyzd6ke | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-amsterdam-z698xzbpz1k7936fe | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hollywood-undead-2027-praha-9-z698xzu0z16vcf4gue | Hollywood Undead | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3357,39 +3326,39 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-hollywood-undead-2027-johanneshov-z698xzq2z1kgnffx_ | Hollywood Undead | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hollywood-undead-2027-goteborg-z698xzq2z1k_fbiog | Hollywood Undead | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hollywood-undead-2027-k-benhavn-v-z698xzc4z1k_44ijf | Hollywood Undead | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-hollywood-undead-2027-birmingham-g5dzz_k9em7do | Hollywood Undead | none | 107673128 | https://www.stubhub.ie/hollywood-undead-tickets-birmingham-o2-academy-birmingham-23-2-2027/event/107673128 | - |
-| tm-hollywood-undead-2027-london-g5dzz_kxga-ng | Hollywood Undead | none | 107671979 | https://www.stubhub.ie/hollywood-undead-tickets-london-o2-forum-kentish-town-24-2-2027/event/107671979 | - |
-| tm-hollywood-undead-2027-manchester-g5vhz_kjdvnwu | Hollywood Undead | none | 107673130 | https://www.stubhub.ie/hollywood-undead-tickets-manchester-manchester-academy-26-2-2027/event/107673130 | - |
-| tm-hollywood-undead-2027-glasgow-g5dzz_kpssdt2 | Hollywood Undead | none | 107673154 | https://www.stubhub.ie/hollywood-undead-tickets-glasgow-o2-academy-glasgow-27-2-2027/event/107673154 | - |
-| tm-hollywood-undead-2027-leeds-g5dzz_krmlxyq | Hollywood Undead | none | 107673512 | https://www.stubhub.ie/hollywood-undead-tickets-leeds-o2-academy-leeds-28-2-2027/event/107673512 | - |
+| tm-hollywood-undead-2027-birmingham-g5dzz_k9em7do | Hollywood Undead | refresh (applied) | 107673128 | https://www.stubhub.ie/hollywood-undead-tickets-birmingham-o2-academy-birmingham-23-2-2027/event/107673128 | - |
+| tm-hollywood-undead-2027-london-g5dzz_kxga-ng | Hollywood Undead | refresh (applied) | 107671979 | https://www.stubhub.ie/hollywood-undead-tickets-london-o2-forum-kentish-town-24-2-2027/event/107671979 | - |
+| tm-hollywood-undead-2027-manchester-g5vhz_kjdvnwu | Hollywood Undead | refresh (applied) | 107673130 | https://www.stubhub.ie/hollywood-undead-tickets-manchester-manchester-academy-26-2-2027/event/107673130 | - |
+| tm-hollywood-undead-2027-glasgow-g5dzz_kpssdt2 | Hollywood Undead | refresh (applied) | 107673154 | https://www.stubhub.ie/hollywood-undead-tickets-glasgow-o2-academy-glasgow-27-2-2027/event/107673154 | - |
+| tm-hollywood-undead-2027-leeds-g5dzz_krmlxyq | Hollywood Undead | refresh (applied) | 107673512 | https://www.stubhub.ie/hollywood-undead-tickets-leeds-o2-academy-leeds-28-2-2027/event/107673512 | - |
 | tm-lord-huron-2026-nashville-z7r9jz1aazbfy | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lord-huron-2026-cincinnati-17aov0g62ysdsyk | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lord-huron-2026-detroit-z7r9jz1aazpf4 | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lord-huron-2026-grand-rapids-vvg1oz_2sbbhp3 | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lord-huron-2026-chicago-vvg1jz_2u-es7s | Lord Huron | none | 107469574 | https://www.stubhub.ie/lord-huron-chicago-tickets-12-8-2026/event/107469574 | - |
-| tm-lord-huron-2026-chicago-vvg1jz_2u-jk7l | Lord Huron | none | 107469575 | https://www.stubhub.ie/lord-huron-chicago-tickets-12-9-2026/event/107469575 | - |
+| tm-lord-huron-2026-chicago-vvg1jz_2u-es7s | Lord Huron | refresh (applied) | 107469574 | https://www.stubhub.ie/lord-huron-chicago-tickets-12-8-2026/event/107469574 | - |
+| tm-lord-huron-2026-chicago-vvg1jz_2u-jk7l | Lord Huron | refresh (applied) | 107469575 | https://www.stubhub.ie/lord-huron-chicago-tickets-12-9-2026/event/107469575 | - |
 | tm-lord-huron-2026-albany-k7vgf_2d6r7wd | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lord-huron-2026-philadelphia-vvg1fz_2mgblql | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lord-huron-2026-boston-vvg17z_2wsvfp- | Lord Huron | none | 107476114 | https://www.stubhub.ie/lord-huron-boston-tickets-12-13-2026/event/107476114 | - |
-| tm-lord-huron-2026-montreal-17g8v0g62wrdz3v | Lord Huron | none | 107469577 | https://www.stubhub.ie/lord-huron-tickets-montreal-mtelus-12-15-2026/event/107469577 | - |
-| tm-lord-huron-2026-montreal-17g8v0g62wr7i3a | Lord Huron | none | 107476116 | https://www.stubhub.ie/lord-huron-tickets-montreal-mtelus-12-16-2026/event/107476116 | - |
-| tm-lord-huron-2026-brooklyn-z7r9jz1aazpf3 | Lord Huron | none | 107476117 | https://www.stubhub.ie/lord-huron-brooklyn-tickets-12-18-2026/event/107476117 | - |
-| tm-lord-huron-2026-brooklyn-z7r9jz1aazbbi | Lord Huron | none | 107476118 | https://www.stubhub.ie/lord-huron-brooklyn-tickets-12-19-2026/event/107476118 | - |
-| tm-lord-huron-2027-sacramento-g5vyz_2wpd5xx | Lord Huron | none | 107476119 | https://www.stubhub.ie/lord-huron-sacramento-tickets-1-1-2027/event/107476119 | - |
+| tm-lord-huron-2026-boston-vvg17z_2wsvfp- | Lord Huron | refresh (applied) | 107476114 | https://www.stubhub.ie/lord-huron-boston-tickets-12-13-2026/event/107476114 | - |
+| tm-lord-huron-2026-montreal-17g8v0g62wrdz3v | Lord Huron | refresh (applied) | 107469577 | https://www.stubhub.ie/lord-huron-tickets-montreal-mtelus-12-15-2026/event/107469577 | - |
+| tm-lord-huron-2026-montreal-17g8v0g62wr7i3a | Lord Huron | refresh (applied) | 107476116 | https://www.stubhub.ie/lord-huron-tickets-montreal-mtelus-12-16-2026/event/107476116 | - |
+| tm-lord-huron-2026-brooklyn-z7r9jz1aazpf3 | Lord Huron | refresh (applied) | 107476117 | https://www.stubhub.ie/lord-huron-brooklyn-tickets-12-18-2026/event/107476117 | - |
+| tm-lord-huron-2026-brooklyn-z7r9jz1aazbbi | Lord Huron | refresh (applied) | 107476118 | https://www.stubhub.ie/lord-huron-brooklyn-tickets-12-19-2026/event/107476118 | - |
+| tm-lord-huron-2027-sacramento-g5vyz_2wpd5xx | Lord Huron | refresh (applied) | 107476119 | https://www.stubhub.ie/lord-huron-sacramento-tickets-1-1-2027/event/107476119 | - |
 | tm-lord-huron-2027-las-vegas-z7r9jz1aazbo8 | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lord-huron-2027-oakland-g5vyz_2mrsp3q | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lord-huron-2027-vancouver-1778v0g62bp9vz3 | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lord-huron-2027-vancouver-1778v0g62bpn7yz | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lord-huron-2027-seattle-vvg1hz_2t-gnc5 | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lord-huron-2027-seattle-vvg1hz_2t-uscj | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lord-huron-2027-los-angeles-vvg10z_2ug7bzu | Lord Huron | none | 107469578 | https://www.stubhub.ie/lord-huron-los-angeles-tickets-1-10-2027/event/107469578 | - |
-| tm-lord-huron-2027-los-angeles-vvg10z_2ugkfzf | Lord Huron | none | 107476120 | https://www.stubhub.ie/lord-huron-los-angeles-tickets-1-11-2027/event/107476120 | - |
+| tm-lord-huron-2027-los-angeles-vvg10z_2ug7bzu | Lord Huron | refresh (applied) | 107469578 | https://www.stubhub.ie/lord-huron-los-angeles-tickets-1-10-2027/event/107469578 | - |
+| tm-lord-huron-2027-los-angeles-vvg10z_2ugkfzf | Lord Huron | refresh (applied) | 107476120 | https://www.stubhub.ie/lord-huron-los-angeles-tickets-1-11-2027/event/107476120 | - |
 | tm-lord-huron-2027-los-angeles-vvg10z_2d_gilx | Lord Huron | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-washington-1a4zk46gketspla | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-philadelphia-vv1aovpotga2njys | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-new-york-g5dyz_fqhrymh | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-remi-wolf-2027-boston-vv1avzk4kgkdrztka | Remi Wolf | none | 107672948 | https://www.stubhub.ie/remi-wolf-boston-tickets-3-2-2027/event/107672948 | - |
-| tm-remi-wolf-2027-boston-vv1avzk4kgkdrwrfa | Remi Wolf | none | 107677326 | https://www.stubhub.ie/remi-wolf-boston-tickets-3-3-2027/event/107677326 | - |
+| tm-remi-wolf-2027-boston-vv1avzk4kgkdrztka | Remi Wolf | refresh (applied) | 107672948 | https://www.stubhub.ie/remi-wolf-boston-tickets-3-2-2027/event/107672948 | - |
+| tm-remi-wolf-2027-boston-vv1avzk4kgkdrwrfa | Remi Wolf | refresh (applied) | 107677326 | https://www.stubhub.ie/remi-wolf-boston-tickets-3-3-2027/event/107677326 | - |
 | tm-remi-wolf-2027-toronto-1a8zk46gkdlbbff | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-toronto-1a8zk46gkdlbzfe | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-detroit-z7r9jz1aa7k0m | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3402,7 +3371,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-remi-wolf-2027-nashville-g5viz_fni20_x | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-atlanta-vvg1zz_fj5-2nn | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-austin-g5diz_fncgjpo | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-remi-wolf-2027-houston-g5diz_f9ubux3 | Remi Wolf | none | 107672957 | https://www.stubhub.ie/remi-wolf-houston-tickets-5-7-2027/event/107672957 | - |
+| tm-remi-wolf-2027-houston-g5diz_f9ubux3 | Remi Wolf | refresh (applied) | 107672957 | https://www.stubhub.ie/remi-wolf-houston-tickets-5-7-2027/event/107672957 | - |
 | tm-remi-wolf-2027-irving-vvg1yz_frdgzb6 | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-tulsa-z7r9jz1aa7ar_ | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-kansas-city-z7r9jz1aa7kjk | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3411,7 +3380,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-remi-wolf-2027-bonner-g5vzz_flaijvz | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-vancouver-z7r9jz1aa7kaf | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-remi-wolf-2027-seattle-vvg1hz_fqhwypl | Remi Wolf | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-air-supply-2026-national-harbor-17a8v0g6gpn4b8s | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-air-supply-2026-westbury-k7vgf_fkzchcp | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-air-supply-2026-red-bank-g5vvz_1bj0ggl | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-air-supply-2026-orlando-z7r9jz1aazdae | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3421,7 +3389,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-air-supply-2027-fort-pierce-vvg1vz_8hv66ia | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-air-supply-2027-daytona-beach-z7r9jz1a7pozg | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-air-supply-2027-sarasota-z7r9jz1a7p_4p | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-air-supply-2027-hollywood-vvg1vz_3t_jrbe | Air Supply | none | 107670677 | https://www.stubhub.ie/air-supply-hollywood-tickets-1-29-2027/event/107670677 | - |
+| tm-air-supply-2027-hollywood-vvg1vz_3t_jrbe | Air Supply | refresh (applied) | 107670677 | https://www.stubhub.ie/air-supply-hollywood-tickets-1-29-2027/event/107670677 | - |
 | tm-air-supply-2027-immokalee-vvg1vz_2x6gs2d | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-air-supply-2027-rockford-17f8v0g62es30d4 | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-air-supply-2027-wisconsin-dells-z7r9jz1a7x_ez | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3449,8 +3417,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-foreigner-2027-las-vegas-1avjz_kgkurvnkq | Foreigner | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foreigner-2027-las-vegas-1avjz_kgkurgbki | Foreigner | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foreigner-2027-dublin-1kkzvpv9gacwy1_ | Foreigner | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-foreigner-2027-london-16djz_37gg7hhxi | Foreigner | none | 107666759 | https://www.stubhub.ie/foreigner-tickets-london-london-palladium-14-4-2027/event/107666759 | - |
-| tm-foreigner-2027-new-york-g5diz_oohwwkw | Foreigner | none | 107666197 | https://www.stubhub.ie/foreigner-new-york-tickets-4-27-2027/event/107666197 | - |
+| tm-foreigner-2027-london-16djz_37gg7hhxi | Foreigner | refresh (applied) | 107666759 | https://www.stubhub.ie/foreigner-tickets-london-london-palladium-14-4-2027/event/107666759 | - |
+| tm-foreigner-2027-new-york-g5diz_oohwwkw | Foreigner | refresh (applied) | 107666197 | https://www.stubhub.ie/foreigner-new-york-tickets-4-27-2027/event/107666197 | - |
 | tm-foreigner-2027-montclair-vv1aezkf_gkded4lx | Foreigner | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foreigner-2027-port-chester-g5vvz_ony3-go | Foreigner | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-foreigner-2027-westbury-k7vgf_ocs3r5v | Foreigner | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3459,7 +3427,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-death-cab-for-cutie-2027-morrison-z7r9jz1aa7sqe | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dinosaur-jr-2027-saint-petersburg-z7r9jz1aavk16 | Dinosaur Jr. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-too-many-zooz-2027-oklahoma-city-z7r9jz1aaee-e | Too Many Zooz | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-neighbourhood-2027-houston-z7r9jz1aa7ypb | The Neighbourhood | none | 107679040 | https://www.stubhub.ie/the-neighbourhood-houston-tickets-3-6-2027/event/107679040 | - |
+| tm-the-neighbourhood-2027-houston-z7r9jz1aa7ypb | The Neighbourhood | refresh (applied) | 107679040 | https://www.stubhub.ie/the-neighbourhood-houston-tickets-3-6-2027/event/107679040 | - |
 | tm-interpol-2027-san-antonio-z7r9jz1aa70ja | Interpol | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-interpol-2027-sayreville-z7r9jz1aa70_y | Interpol | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2027-chicago-z7r9jz1aa7p88 | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3468,24 +3436,24 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-two-door-cinema-club-2027-austin-z7r9jz1aa7p8f | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-two-door-cinema-club-2027-dallas-z7r9jz1aa7p84 | Two Door Cinema Club | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tash-sultana-2027-dublin-1abzkgkgkdrrzgx | Tash Sultana | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-tash-sultana-2027-london-1adjzbsgkmupg8h | Tash Sultana | none | 106928086 | https://www.stubhub.ie/tash-sultana-tickets-london-ovo-arena-wembley-13-3-2027/event/106928086 | - |
+| tm-tash-sultana-2027-london-1adjzbsgkmupg8h | Tash Sultana | refresh (applied) | 106928086 | https://www.stubhub.ie/tash-sultana-tickets-london-ovo-arena-wembley-13-3-2027/event/106928086 | - |
 | tm-tash-sultana-2027-merksem-antwerpen-z698xzg2z1kjpqofb | Tash Sultana | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-tash-sultana-2027-amsterdam-z698xzbpz16vawaob0 | Tash Sultana | none | 106927110 | https://www.stubhub.ie/tash-sultana-tickets-amsterdam-ziggo-dome-26-3-2027/event/106927110 | - |
+| tm-tash-sultana-2027-amsterdam-z698xzbpz16vawaob0 | Tash Sultana | refresh (applied) | 106927110 | https://www.stubhub.ie/tash-sultana-tickets-amsterdam-ziggo-dome-26-3-2027/event/106927110 | - |
 | tm-tash-sultana-2027-auckland-1a0zkfggkee4ejk | Tash Sultana | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tash-sultana-2027-auckland-1kazvpgigacnerq | Tash Sultana | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-tash-sultana-2027-thirroul-1akzkfggkdlsqdl | Tash Sultana | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-erasure-2027-cardiff-1auzkfzgkecfur5 | Erasure | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-erasure-2027-bournemouth-15dbz_kx7jxjo | Erasure | none | 107671328 | https://www.stubhub.ie/erasure-tickets-bournemouth-bournemouth-international-centre-26-4-2027/event/107671328 | - |
+| tm-erasure-2027-bournemouth-15dbz_kx7jxjo | Erasure | refresh (applied) | 107671328 | https://www.stubhub.ie/erasure-tickets-bournemouth-bournemouth-international-centre-26-4-2027/event/107671328 | - |
 | tm-erasure-2027-liverpool-1amzkfugkdiq68r | Erasure | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-erasure-2027-birmingham-1anzkfzgkdmiv17 | Erasure | none | 107670585 | https://www.stubhub.ie/erasure-tickets-birmingham-utilita-arena-birmingham-30-4-2027/event/107670585 | - |
+| tm-erasure-2027-birmingham-1anzkfzgkdmiv17 | Erasure | refresh (applied) | 107670585 | https://www.stubhub.ie/erasure-tickets-birmingham-utilita-arena-birmingham-30-4-2027/event/107670585 | - |
 | tm-erasure-2027-manchester-g5vhz_k6qxkzy | Erasure | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-erasure-2027-dublin-15voz_kqav4z0 | Erasure | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-erasure-2027-nottingham-1agzkfmgkd2kzuu | Erasure | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-erasure-2027-hull-1auzkfygkey3bob | Erasure | none | 107670586 | https://www.stubhub.ie/erasure-tickets-hull-connexin-live-6-5-2027/event/107670586 | - |
+| tm-erasure-2027-hull-1auzkfygkey3bob | Erasure | refresh (applied) | 107670586 | https://www.stubhub.ie/erasure-tickets-hull-connexin-live-6-5-2027/event/107670586 | - |
 | tm-erasure-2027-leeds-g5vhz_kldd9ue | Erasure | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-erasure-2027-glasgow-1auzkfzgkds5h6i | Erasure | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-erasure-2027-brighton-g5dzz_kwfhs5r | Erasure | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-erasure-2027-london-1agzkfmgkdxoix5 | Erasure | none | 107671326 | https://www.stubhub.ie/erasure-tickets-london-the-o2-arena-12-5-2027/event/107671326 | - |
+| tm-erasure-2027-london-1agzkfmgkdxoix5 | Erasure | refresh (applied) | 107671326 | https://www.stubhub.ie/erasure-tickets-london-the-o2-arena-12-5-2027/event/107671326 | - |
 | tm-theory-of-a-deadman-2027-nottingham-g5vhz_1u0tvak | Theory Of A Deadman | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-theory-of-a-deadman-2027-glasgow-17uov0g61uju3tk | Theory Of A Deadman | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-theory-of-a-deadman-2027-manchester-g5dzz_1mez0ds | Theory Of A Deadman | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3506,7 +3474,6 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-theory-of-a-deadman-2027-calgary-1av7z_ogkn_kbte | Theory Of A Deadman | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-theory-of-a-deadman-2027-dawson-creek-z7r9jz1aavxjp | Theory Of A Deadman | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-theory-of-a-deadman-2027-vancouver-1av7z_ogknc7mrb | Theory Of A Deadman | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-black-stone-cherry-2026-milwaukee-z7r9jz1aae8ot | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-black-stone-cherry-2026-omaha-z7r9jz1aae8_- | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-black-stone-cherry-2026-sauget-rz7hnez1afggzf | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-black-stone-cherry-2026-birmingham-rz7hnez1afuf1f | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3515,15 +3482,15 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-black-stone-cherry-2026-toronto-16tzkfzkozagevde | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-black-stone-cherry-2026-hartford-z7r9jz1aaea0z | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-black-stone-cherry-2026-columbus-z7r9jz1aae7be | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-black-stone-cherry-2027-bournemouth-g5dzz_g9ioeuq | Black Stone Cherry | none | 107356092 | https://www.stubhub.ie/black-stone-cherry-tickets-bournemouth-o2-academy-bournemouth-14-1-2027/event/107356092 | - |
-| tm-black-stone-cherry-2027-london-g5dzzbzpu7g4_ | Black Stone Cherry | none | 107037110 | https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-22-1-2027/event/107037110 | - |
-| tm-black-stone-cherry-2027-london-g5dzzbz9kujcl | Black Stone Cherry | none | 107037109 | https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-23-1-2027/event/107037109 | - |
+| tm-black-stone-cherry-2027-bournemouth-g5dzz_g9ioeuq | Black Stone Cherry | refresh (applied) | 107356092 | https://www.stubhub.ie/black-stone-cherry-tickets-bournemouth-o2-academy-bournemouth-14-1-2027/event/107356092 | - |
+| tm-black-stone-cherry-2027-london-g5dzzbzpu7g4_ | Black Stone Cherry | refresh (applied) | 107037110 | https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-22-1-2027/event/107037110 | - |
+| tm-black-stone-cherry-2027-london-g5dzzbz9kujcl | Black Stone Cherry | refresh (applied) | 107037109 | https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-23-1-2027/event/107037109 | - |
 | tm-black-stone-cherry-2027-margate-16dfzbzp7g7r7jo | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-black-stone-cherry-2027-nottingham-g5vhzbzpq5krb | Black Stone Cherry | none | 107036094 | https://www.stubhub.ie/black-stone-cherry-tickets-nottingham-rock-city-26-1-2027/event/107036094 | - |
-| tm-black-stone-cherry-2027-manchester-g5vhzbzkgpts1 | Black Stone Cherry | none | 107029485 | https://www.stubhub.ie/black-stone-cherry-tickets-manchester-manchester-academy-2-2-2027/event/107029485 | - |
-| tm-black-stone-cherry-2027-norwich-g5vhzbzpkx4ut | Black Stone Cherry | none | 107037107 | https://www.stubhub.ie/black-stone-cherry-tickets-norwich-the-nick-rayns-lcr-uea-3-2-2027/event/107037107 | - |
-| tm-black-stone-cherry-2027-edinburgh-g5dzzbzk-605z | Black Stone Cherry | none | 107029486 | https://www.stubhub.ie/black-stone-cherry-tickets-edinburgh-edinburgh-corn-exchange-6-2-2027/event/107029486 | - |
-| tm-black-stone-cherry-2027-aberdeen-1auzkcagkdnsiac | Black Stone Cherry | none | 107029487 | https://www.stubhub.ie/black-stone-cherry-tickets-aberdeen-aberdeen-music-hall-8-2-2027/event/107029487 | - |
+| tm-black-stone-cherry-2027-nottingham-g5vhzbzpq5krb | Black Stone Cherry | refresh (applied) | 107036094 | https://www.stubhub.ie/black-stone-cherry-tickets-nottingham-rock-city-26-1-2027/event/107036094 | - |
+| tm-black-stone-cherry-2027-manchester-g5vhzbzkgpts1 | Black Stone Cherry | refresh (applied) | 107029485 | https://www.stubhub.ie/black-stone-cherry-tickets-manchester-manchester-academy-2-2-2027/event/107029485 | - |
+| tm-black-stone-cherry-2027-norwich-g5vhzbzpkx4ut | Black Stone Cherry | refresh (applied) | 107037107 | https://www.stubhub.ie/black-stone-cherry-tickets-norwich-the-nick-rayns-lcr-uea-3-2-2027/event/107037107 | - |
+| tm-black-stone-cherry-2027-edinburgh-g5dzzbzk-605z | Black Stone Cherry | refresh (applied) | 107029486 | https://www.stubhub.ie/black-stone-cherry-tickets-edinburgh-edinburgh-corn-exchange-6-2-2027/event/107029486 | - |
+| tm-black-stone-cherry-2027-aberdeen-1auzkcagkdnsiac | Black Stone Cherry | refresh (applied) | 107029487 | https://www.stubhub.ie/black-stone-cherry-tickets-aberdeen-aberdeen-music-hall-8-2-2027/event/107029487 | - |
 | tm-black-stone-cherry-2027-newcastle-upon-tyne-g5dzz_g10kk11 | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-black-stone-cherry-2027-belfast-1kczvno9gacmss6 | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-black-stone-cherry-2027-dublin-1avozbmgkwn1n87 | Black Stone Cherry | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3532,111 +3499,110 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-kings-of-leon-2027-auckland-1kazvpfagago3z7 | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kings-of-leon-2027-bowen-hills-1avgz_fgkxy2l3h | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kings-of-leon-2027-flemington-1aefz_fgkxtcmb- | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kings-of-leon-2027-hamburg-z698xzc2z1kjifpz9 | Kings Of Leon | none | 107679573 | https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573 | - |
+| tm-kings-of-leon-2027-hamburg-z698xzc2z1kjifpz9 | Kings Of Leon | refresh (applied) | 107679573 | https://www.stubhub.ie/kings-of-leon-tickets-hamburg-barclays-arena-hamburg-18-6-2027/event/107679573 | - |
 | tm-kings-of-leon-2027-dublin-1avoz_fgktpkxi7 | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kings-of-leon-2027-scarborough-1agzk4fgke0iell | Kings Of Leon | none | 107676167 | https://www.stubhub.ie/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-27-6-2027/event/107676167 | - |
-| tm-kings-of-leon-2027-london-1agzk4egkesvn16 | Kings Of Leon | none | 107671680 | https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-2-7-2027/event/107671680 | - |
-| tm-kings-of-leon-2027-london-1agzk4egkdt5lpe | Kings Of Leon | none | 107672737 | https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-3-7-2027/event/107672737 | - |
+| tm-kings-of-leon-2027-scarborough-1agzk4fgke0iell | Kings Of Leon | refresh (applied) | 107676167 | https://www.stubhub.ie/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-27-6-2027/event/107676167 | - |
+| tm-kings-of-leon-2027-london-1agzk4egkesvn16 | Kings Of Leon | refresh (applied) | 107671680 | https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-2-7-2027/event/107671680 | - |
+| tm-kings-of-leon-2027-london-1agzk4egkdt5lpe | Kings Of Leon | refresh (applied) | 107672737 | https://www.stubhub.ie/kings-of-leon-tickets-london-the-o2-arena-3-7-2027/event/107672737 | - |
 | tm-lady-a-2026-northfield-vvg1fz_gkaw2vw | Lady A | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lady-a-2026-gary-vvg1fz_5la2nke | Lady A | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lady-a-2026-shipshewana-z7r9jz1a7pkv6 | Lady A | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-lady-a-2026-new-york-g5diz_g2zkgbb | Lady A | none | 107666091 | https://www.stubhub.ie/lady-a-new-york-tickets-12-17-2026/event/107666091 | - |
+| tm-lady-a-2026-new-york-g5diz_g2zkgbb | Lady A | refresh (applied) | 107666091 | https://www.stubhub.ie/lady-a-new-york-tickets-12-17-2026/event/107666091 | - |
 | tm-lady-a-2026-bensalem-z7r9jz1a7p380 | Lady A | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lady-a-2026-greensboro-g5evz_g5lge4i | Lady A | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lady-a-2026-nashville-z7r9jz1a7p0p9 | Lady A | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jason-aldean-2027-hollywood-vvg1vz_4r1id24 | Jason Aldean | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-mariah-carey-2026-birmingham-1anzkfsgkdvieos | Mariah Carey | none | 107669566 | https://www.stubhub.ie/mariah-carey-tickets-birmingham-utilita-arena-birmingham-27-11-2026/event/107669566 | - |
-| tm-mariah-carey-2026-london-1agzkfsgkdzymm6 | Mariah Carey | none | 107669567 | https://www.stubhub.ie/mariah-carey-tickets-london-the-o2-arena-30-11-2026/event/107669567 | - |
-| tm-mariah-carey-2026-manchester-1amzkfsgkejdwkf | Mariah Carey | none | 107669568 | https://www.stubhub.ie/mariah-carey-tickets-manchester-co-op-live-2-12-2026/event/107669568 | - |
-| tm-sting-2026-brooklyn-k7v17_a0ag7icyq | Sting | none | 107140084 | https://www.stubhub.ie/sting-brooklyn-tickets-11-14-2026/event/107140084 | - |
-| tm-sting-2026-brooklyn-k7v17_a0ag7twrb | Sting | none | 107140083 | https://www.stubhub.ie/sting-brooklyn-tickets-11-15-2026/event/107140083 | - |
-| tm-sting-2026-brooklyn-k7v17_a0ag7tury | Sting | none | 107140082 | https://www.stubhub.ie/sting-brooklyn-tickets-11-17-2026/event/107140082 | - |
-| tm-sting-2026-brooklyn-k7v17_a0ag7iure | Sting | none | 107140081 | https://www.stubhub.ie/sting-brooklyn-tickets-11-18-2026/event/107140081 | - |
-| tm-sting-2026-brooklyn-k7v1ako_v_zaccg27 | Sting | none | 107670634 | https://www.stubhub.ie/sting-brooklyn-tickets-11-20-2026/event/107670634 | - |
-| tm-sting-2026-brooklyn-k7v1ako_v_za5cgcc | Sting | none | 107670637 | https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637 | - |
-| tm-sting-2026-orlando-1aefz_fgklnyeh_ | Sting | none | 107469502 | https://www.stubhub.ie/sting-orlando-tickets-11-24-2026/event/107469502 | - |
+| tm-mariah-carey-2026-birmingham-1anzkfsgkdvieos | Mariah Carey | refresh (applied) | 107669566 | https://www.stubhub.ie/mariah-carey-tickets-birmingham-utilita-arena-birmingham-27-11-2026/event/107669566 | - |
+| tm-mariah-carey-2026-london-1agzkfsgkdzymm6 | Mariah Carey | refresh (applied) | 107669567 | https://www.stubhub.ie/mariah-carey-tickets-london-the-o2-arena-30-11-2026/event/107669567 | - |
+| tm-mariah-carey-2026-manchester-1amzkfsgkejdwkf | Mariah Carey | refresh (applied) | 107669568 | https://www.stubhub.ie/mariah-carey-tickets-manchester-co-op-live-2-12-2026/event/107669568 | - |
+| tm-sting-2026-brooklyn-k7v17_a0ag7icyq | Sting | unverify (applied) | 107140084 | https://www.stubhub.ie/sting-brooklyn-tickets-11-14-2026/event/107140084 | no qualifying listing (the complete catalog no longer lists the stored link) |
+| tm-sting-2026-brooklyn-k7v17_a0ag7twrb | Sting | refresh (applied) | 107140083 | https://www.stubhub.ie/sting-brooklyn-tickets-11-15-2026/event/107140083 | - |
+| tm-sting-2026-brooklyn-k7v17_a0ag7tury | Sting | refresh (applied) | 107140082 | https://www.stubhub.ie/sting-brooklyn-tickets-11-17-2026/event/107140082 | - |
+| tm-sting-2026-brooklyn-k7v17_a0ag7iure | Sting | refresh (applied) | 107140081 | https://www.stubhub.ie/sting-brooklyn-tickets-11-18-2026/event/107140081 | - |
+| tm-sting-2026-brooklyn-k7v1ako_v_zaccg27 | Sting | refresh (applied) | 107670634 | https://www.stubhub.ie/sting-brooklyn-tickets-11-20-2026/event/107670634 | - |
+| tm-sting-2026-brooklyn-k7v1ako_v_za5cgcc | Sting | refresh (applied) | 107670637 | https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637 | - |
+| tm-sting-2026-orlando-1aefz_fgklnyeh_ | Sting | refresh (applied) | 107469502 | https://www.stubhub.ie/sting-orlando-tickets-11-24-2026/event/107469502 | - |
 | tm-sting-2026-tampa-vvg1vzbpivbfyz | Sting | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-sting-2026-hollywood-vvg1vz_8wi3ad6 | Sting | none | 107524081 | https://www.stubhub.ie/sting-hollywood-tickets-11-25-2026/event/107524081 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkecv9ix | Sting | none | 107674835 | https://www.stubhub.ie/sting-las-vegas-tickets-3-4-2027/event/107674835 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkecemih | Sting | none | 107674836 | https://www.stubhub.ie/sting-las-vegas-tickets-3-6-2027/event/107674836 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkec79cl | Sting | none | 107674154 | https://www.stubhub.ie/sting-las-vegas-tickets-3-7-2027/event/107674154 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkecamcg | Sting | none | 107674837 | https://www.stubhub.ie/sting-las-vegas-tickets-3-10-2027/event/107674837 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkec6msw | Sting | none | 107674155 | https://www.stubhub.ie/sting-las-vegas-tickets-3-12-2027/event/107674155 | - |
+| tm-sting-2026-hollywood-vvg1vz_8wi3ad6 | Sting | refresh (applied) | 107524081 | https://www.stubhub.ie/sting-hollywood-tickets-11-25-2026/event/107524081 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkecv9ix | Sting | refresh (applied) | 107674835 | https://www.stubhub.ie/sting-las-vegas-tickets-3-4-2027/event/107674835 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkecemih | Sting | refresh (applied) | 107674836 | https://www.stubhub.ie/sting-las-vegas-tickets-3-6-2027/event/107674836 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkec79cl | Sting | refresh (applied) | 107674154 | https://www.stubhub.ie/sting-las-vegas-tickets-3-7-2027/event/107674154 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkecamcg | Sting | refresh (applied) | 107674837 | https://www.stubhub.ie/sting-las-vegas-tickets-3-10-2027/event/107674837 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkec6msw | Sting | refresh (applied) | 107674155 | https://www.stubhub.ie/sting-las-vegas-tickets-3-12-2027/event/107674155 | - |
 | tm-sting-2027-gliwice-z698xzqpz1kckp0pa | Sting | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-sting-2027-gdansk-sopot-z698xzqpz16vv6c7f6 | Sting | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-sting-2027-krakow-z698xzqpz16evtf6jd | Sting | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-sting-2027-odz-z698xzqpz1k06xapf | Sting | none | 107675353 | https://www.stubhub.ie/sting-tickets-lodz-atlas-arena-10-6-2027/event/107675353 | - |
+| tm-sting-2027-odz-z698xzqpz1k06xapf | Sting | refresh (applied) | 107675353 | https://www.stubhub.ie/sting-tickets-lodz-atlas-arena-10-6-2027/event/107675353 | - |
 | tm-sting-2027-magdeburg-z698xzc2z16vzxvefv | Sting | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sting-2027-rastatt-z698xzc2z1ke30sgb | Sting | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-sting-2027-hemer-z698xzc2z16vagofpv | Sting | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-sting-2027-fulda-z698xzc2z16v1vjxok | Sting | none | 107675401 | https://www.stubhub.ie/sting-tickets-fulda-domplatz-fulda-26-6-2027/event/107675401 | - |
+| tm-sting-2027-fulda-z698xzc2z16v1vjxok | Sting | refresh (applied) | 107675401 | https://www.stubhub.ie/sting-tickets-fulda-domplatz-fulda-26-6-2027/event/107675401 | - |
 | tm-sting-2027-konstanz-z698xzc2z1kjfov_n | Sting | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sting-2027-klagenfurt-z698xz5rz1kgyvv34 | Sting | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-sting-2027-verona-zg9rmiynyzf61a | Sting | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
-| tm-sting-2027-las-vegas-1ayzk4agkeca9wi | Sting | none | 107674256 | https://www.stubhub.ie/sting-las-vegas-tickets-10-14-2027/event/107674256 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkec1mvn | Sting | none | 107674257 | https://www.stubhub.ie/sting-las-vegas-tickets-10-16-2027/event/107674257 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkecg6m7 | Sting | none | 107674934 | https://www.stubhub.ie/sting-las-vegas-tickets-10-17-2027/event/107674934 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkecumyj | Sting | none | 107674935 | https://www.stubhub.ie/sting-las-vegas-tickets-10-20-2027/event/107674935 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkec2mbz | Sting | none | 107674936 | https://www.stubhub.ie/sting-las-vegas-tickets-10-22-2027/event/107674936 | - |
-| tm-sting-2027-las-vegas-1ayzk4agkecoebs | Sting | none | 107674258 | https://www.stubhub.ie/sting-las-vegas-tickets-10-23-2027/event/107674258 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkeca9wi | Sting | refresh (applied) | 107674256 | https://www.stubhub.ie/sting-las-vegas-tickets-10-14-2027/event/107674256 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkec1mvn | Sting | refresh (applied) | 107674257 | https://www.stubhub.ie/sting-las-vegas-tickets-10-16-2027/event/107674257 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkecg6m7 | Sting | refresh (applied) | 107674934 | https://www.stubhub.ie/sting-las-vegas-tickets-10-17-2027/event/107674934 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkecumyj | Sting | refresh (applied) | 107674935 | https://www.stubhub.ie/sting-las-vegas-tickets-10-20-2027/event/107674935 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkec2mbz | Sting | refresh (applied) | 107674936 | https://www.stubhub.ie/sting-las-vegas-tickets-10-22-2027/event/107674936 | - |
+| tm-sting-2027-las-vegas-1ayzk4agkecoebs | Sting | refresh (applied) | 107674258 | https://www.stubhub.ie/sting-las-vegas-tickets-10-23-2027/event/107674258 | - |
 | tm-queens-of-the-stone-age-2026-adelaide-17a8v0g6cj0fp2t | Queens Of The Stone Age | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-queens-of-the-stone-age-2026-glenorchy-177yv0g6cla9khl | Queens Of The Stone Age | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-queens-of-the-stone-age-2026-auckland-17azv0g6cjw0kgn | Queens Of The Stone Age | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-queens-of-the-stone-age-2027-san-diego-vvg1iz_4c-ppva | Queens Of The Stone Age | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-queens-of-the-stone-age-2027-inglewood-vv1k0z_48eg7ij9v | Queens Of The Stone Age | none | 107678044 | https://www.stubhub.ie/queens-of-the-stone-age-inglewood-tickets-5-2-2027/event/107678044 | - |
-| tm-queens-of-the-stone-age-2027-oakland-g5vyz_4k7itnp | Queens Of The Stone Age | none | 107675863 | https://www.stubhub.ie/queens-of-the-stone-age-oakland-tickets-5-4-2027/event/107675863 | - |
-| tm-queens-of-the-stone-age-2027-sacramento-g5vyz_4paibie | Queens Of The Stone Age | none | 107675861 | https://www.stubhub.ie/queens-of-the-stone-age-sacramento-tickets-5-5-2027/event/107675861 | - |
-| tm-queens-of-the-stone-age-2027-seattle-vvg1hz_43n59ay | Queens Of The Stone Age | none | 107678042 | https://www.stubhub.ie/queens-of-the-stone-age-seattle-tickets-5-7-2027/event/107678042 | - |
-| tm-queens-of-the-stone-age-2027-portland-vvg1hz_42zzik2 | Queens Of The Stone Age | none | 107675846 | https://www.stubhub.ie/queens-of-the-stone-age-portland-tickets-5-9-2027/event/107675846 | - |
-| tm-queens-of-the-stone-age-2027-salt-lake-city-z7r9jz1aa7-1z | Queens Of The Stone Age | none | 107678046 | https://www.stubhub.ie/queens-of-the-stone-age-salt-lake-city-tickets-5-11-2027/event/107678046 | - |
-| tm-queens-of-the-stone-age-2027-morrison-z7r9jz1aa7nqm | Queens Of The Stone Age | none | 107678050 | https://www.stubhub.ie/queens-of-the-stone-age-morrison-tickets-5-12-2027/event/107678050 | - |
+| tm-queens-of-the-stone-age-2027-inglewood-vv1k0z_48eg7ij9v | Queens Of The Stone Age | refresh (applied) | 107678044 | https://www.stubhub.ie/queens-of-the-stone-age-inglewood-tickets-5-2-2027/event/107678044 | - |
+| tm-queens-of-the-stone-age-2027-oakland-g5vyz_4k7itnp | Queens Of The Stone Age | refresh (applied) | 107675863 | https://www.stubhub.ie/queens-of-the-stone-age-oakland-tickets-5-4-2027/event/107675863 | - |
+| tm-queens-of-the-stone-age-2027-sacramento-g5vyz_4paibie | Queens Of The Stone Age | refresh (applied) | 107675861 | https://www.stubhub.ie/queens-of-the-stone-age-sacramento-tickets-5-5-2027/event/107675861 | - |
+| tm-queens-of-the-stone-age-2027-seattle-vvg1hz_43n59ay | Queens Of The Stone Age | refresh (applied) | 107678042 | https://www.stubhub.ie/queens-of-the-stone-age-seattle-tickets-5-7-2027/event/107678042 | - |
+| tm-queens-of-the-stone-age-2027-portland-vvg1hz_42zzik2 | Queens Of The Stone Age | refresh (applied) | 107675846 | https://www.stubhub.ie/queens-of-the-stone-age-portland-tickets-5-9-2027/event/107675846 | - |
+| tm-queens-of-the-stone-age-2027-salt-lake-city-z7r9jz1aa7-1z | Queens Of The Stone Age | refresh (applied) | 107678046 | https://www.stubhub.ie/queens-of-the-stone-age-salt-lake-city-tickets-5-11-2027/event/107678046 | - |
+| tm-queens-of-the-stone-age-2027-morrison-z7r9jz1aa7nqm | Queens Of The Stone Age | refresh (applied) | 107678050 | https://www.stubhub.ie/queens-of-the-stone-age-morrison-tickets-5-12-2027/event/107678050 | - |
 | tm-queens-of-the-stone-age-2027-saint-paul-z7r9jz1aa7-1v | Queens Of The Stone Age | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-queens-of-the-stone-age-2027-milwaukee-vv1a6zk4kgkdc_par | Queens Of The Stone Age | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-queens-of-the-stone-age-2027-rosemont-vv1kvzvpfygacy0ah | Queens Of The Stone Age | none | 107675852 | https://www.stubhub.ie/queens-of-the-stone-age-rosemont-tickets-5-16-2027/event/107675852 | - |
-| tm-queens-of-the-stone-age-2027-indianapolis-vv1aazk4fgkd2j1lw | Queens Of The Stone Age | none | 107675866 | https://www.stubhub.ie/queens-of-the-stone-age-indianapolis-tickets-5-18-2027/event/107675866 | - |
-| tm-queens-of-the-stone-age-2027-columbus-vv1kv8vp4agacm7ii | Queens Of The Stone Age | none | 107678060 | https://www.stubhub.ie/queens-of-the-stone-age-columbus-tickets-5-19-2027/event/107678060 | - |
+| tm-queens-of-the-stone-age-2027-rosemont-vv1kvzvpfygacy0ah | Queens Of The Stone Age | refresh (applied) | 107675852 | https://www.stubhub.ie/queens-of-the-stone-age-rosemont-tickets-5-16-2027/event/107675852 | - |
+| tm-queens-of-the-stone-age-2027-indianapolis-vv1aazk4fgkd2j1lw | Queens Of The Stone Age | refresh (applied) | 107675866 | https://www.stubhub.ie/queens-of-the-stone-age-indianapolis-tickets-5-18-2027/event/107675866 | - |
+| tm-queens-of-the-stone-age-2027-columbus-vv1kv8vp4agacm7ii | Queens Of The Stone Age | refresh (applied) | 107678060 | https://www.stubhub.ie/queens-of-the-stone-age-columbus-tickets-5-19-2027/event/107678060 | - |
 | tm-queens-of-the-stone-age-2027-pittsburgh-1apzk44gkedibkp | Queens Of The Stone Age | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-queens-of-the-stone-age-2027-detroit-vv1kezvp4_gagidyd | Queens Of The Stone Age | none | 107675865 | https://www.stubhub.ie/queens-of-the-stone-age-detroit-tickets-5-22-2027/event/107675865 | - |
-| tm-queens-of-the-stone-age-2027-boston-vv1avzk43gkdss-xl | Queens Of The Stone Age | none | 107678061 | https://www.stubhub.ie/queens-of-the-stone-age-boston-tickets-5-24-2027/event/107678061 | - |
+| tm-queens-of-the-stone-age-2027-detroit-vv1kezvp4_gagidyd | Queens Of The Stone Age | refresh (applied) | 107675865 | https://www.stubhub.ie/queens-of-the-stone-age-detroit-tickets-5-22-2027/event/107675865 | - |
+| tm-queens-of-the-stone-age-2027-boston-vv1avzk43gkdss-xl | Queens Of The Stone Age | refresh (applied) | 107678061 | https://www.stubhub.ie/queens-of-the-stone-age-boston-tickets-5-24-2027/event/107678061 | - |
 | tm-three-days-grace-2026-nampa-z7r9jz1a7qz3z | Three Days Grace | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-three-days-grace-2026-spokane-z7r9jz1a7qz3e | Three Days Grace | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-three-days-grace-2026-sacramento-g5vyzbu2whwe8 | Three Days Grace | none | 107016094 | https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094 | - |
-| tm-three-days-grace-2026-san-jose-g5vyzbu3r_nwh | Three Days Grace | none | 107017185 | https://www.stubhub.ie/three-days-grace-san-jose-tickets-11-18-2026/event/107017185 | - |
+| tm-three-days-grace-2026-sacramento-g5vyzbu2whwe8 | Three Days Grace | refresh (applied) | 107016094 | https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094 | - |
+| tm-three-days-grace-2026-san-jose-g5vyzbu3r_nwh | Three Days Grace | refresh (applied) | 107017185 | https://www.stubhub.ie/three-days-grace-san-jose-tickets-11-18-2026/event/107017185 | - |
 | tm-three-days-grace-2026-san-diego-vvg1izbuciwp5c | Three Days Grace | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-three-days-grace-2026-phoenix-1a_zku0gkemfp-f | Three Days Grace | none | 107017186 | https://www.stubhub.ie/three-days-grace-phoenix-tickets-11-21-2026/event/107017186 | - |
-| tm-three-days-grace-2026-inglewood-vv1aazkupgkerzcmz | Three Days Grace | none | 107017187 | https://www.stubhub.ie/three-days-grace-inglewood-tickets-11-22-2026/event/107017187 | - |
-| tm-cody-johnson-2027-austin-g5diz_43sxhzn | Cody Johnson | none | 107678068 | https://www.stubhub.ie/cody-johnson-austin-tickets-2-19-2027/event/107678068 | - |
-| tm-cody-johnson-2027-austin-g5diz_46xjfxh | Cody Johnson | none | 107677325 | https://www.stubhub.ie/cody-johnson-austin-tickets-2-20-2027/event/107677325 | - |
-| tm-u2-2027-london-1adfz_4qdzvzd55v | U2 | none | 107678744 | https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-18-6-2027/event/107678744 | - |
-| tm-u2-2027-london-1adfz_4gkszafjm | U2 | none | 107679467 | https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-19-6-2027/event/107679467 | - |
-| tm-rod-stewart-2027-london-1agzkfzgkdu5qoy | Rod Stewart | none | 107679045 | https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-15-5-2027/event/107679045 | - |
-| tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa | Rod Stewart | none | 107679046 | https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-18-5-2027/event/107679046 | - |
-| tm-role-model-2027-manchester-g5vhz_u1kkyot | Role Model | none | 107679710 | https://www.stubhub.ie/role-model-tickets-manchester-manchester-ao-arena-28-2-2027/event/107679710 | - |
-| tm-queens-of-the-stone-age-2027-valencia-z698xz2qz16vfzvzrf | Queens Of The Stone Age | none | 107679055 | https://www.stubhub.ie/queens-of-the-stone-age-tickets-valencia-roig-arena-21-6-2027/event/107679055 | - |
+| tm-three-days-grace-2026-phoenix-1a_zku0gkemfp-f | Three Days Grace | refresh (applied) | 107017186 | https://www.stubhub.ie/three-days-grace-phoenix-tickets-11-21-2026/event/107017186 | - |
+| tm-three-days-grace-2026-inglewood-vv1aazkupgkerzcmz | Three Days Grace | refresh (applied) | 107017187 | https://www.stubhub.ie/three-days-grace-inglewood-tickets-11-22-2026/event/107017187 | - |
+| tm-cody-johnson-2027-austin-g5diz_43sxhzn | Cody Johnson | refresh (applied) | 107678068 | https://www.stubhub.ie/cody-johnson-austin-tickets-2-19-2027/event/107678068 | - |
+| tm-cody-johnson-2027-austin-g5diz_46xjfxh | Cody Johnson | refresh (applied) | 107677325 | https://www.stubhub.ie/cody-johnson-austin-tickets-2-20-2027/event/107677325 | - |
+| tm-u2-2027-london-1adfz_4qdzvzd55v | U2 | refresh (applied) | 107678744 | https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-18-6-2027/event/107678744 | - |
+| tm-u2-2027-london-1adfz_4gkszafjm | U2 | refresh (applied) | 107679467 | https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-19-6-2027/event/107679467 | - |
+| tm-rod-stewart-2027-london-1agzkfzgkdu5qoy | Rod Stewart | refresh (applied) | 107679045 | https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-15-5-2027/event/107679045 | - |
+| tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa | Rod Stewart | refresh (applied) | 107679046 | https://www.stubhub.ie/rod-stewart-tickets-glasgow-ovo-hydro-arena-glasgow-18-5-2027/event/107679046 | - |
+| tm-role-model-2027-manchester-g5vhz_u1kkyot | Role Model | refresh (applied) | 107679710 | https://www.stubhub.ie/role-model-tickets-manchester-manchester-ao-arena-28-2-2027/event/107679710 | - |
+| tm-queens-of-the-stone-age-2027-valencia-z698xz2qz16vfzvzrf | Queens Of The Stone Age | refresh (applied) | 107679055 | https://www.stubhub.ie/queens-of-the-stone-age-tickets-valencia-roig-arena-21-6-2027/event/107679055 | - |
 | tm-queens-of-the-stone-age-2027-pordenone-zg9rmiynyzfa6e | Queens Of The Stone Age | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-shania-twain-2027-scarborough-1agzkfugkdob_wu | Shania Twain | none | 107679678 | https://www.stubhub.ie/shania-twain-tickets-scarborough-scarborough-open-air-theatre-16-6-2027/event/107679678 | - |
+| tm-shania-twain-2027-scarborough-1agzkfugkdob_wu | Shania Twain | refresh (applied) | 107679678 | https://www.stubhub.ie/shania-twain-tickets-scarborough-scarborough-open-air-theatre-16-6-2027/event/107679678 | - |
 | tm-shania-twain-2027-glasgow-1adbz_fgkuptsoi | Shania Twain | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-shania-twain-2027-cardiff-g5vhz_kljqj-d | Shania Twain | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-shania-twain-2027-exeter-g5vhz_kjtg0ag | Shania Twain | none | 107679687 | https://www.stubhub.ie/shania-twain-tickets-exeter-powderham-castle-24-6-2027/event/107679687 | - |
+| tm-shania-twain-2027-exeter-g5vhz_kjtg0ag | Shania Twain | refresh (applied) | 107679687 | https://www.stubhub.ie/shania-twain-tickets-exeter-powderham-castle-24-6-2027/event/107679687 | - |
 | tm-shania-twain-2027-dublin-1abzk4pgkenqubp | Shania Twain | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-shania-twain-2027-belfast-1adoz_4gksdrodo | Shania Twain | none | 107679686 | https://www.stubhub.ie/shania-twain-tickets-belfast-ormeau-park-27-6-2027/event/107679686 | - |
-| tm-shania-twain-2027-woodstock-1amzk4agkdk2pnt | Shania Twain | none | 107679154 | https://www.stubhub.ie/shania-twain-tickets-woodstock-blenheim-palace-29-6-2027/event/107679154 | - |
+| tm-shania-twain-2027-belfast-1adoz_4gksdrodo | Shania Twain | refresh (applied) | 107679686 | https://www.stubhub.ie/shania-twain-tickets-belfast-ormeau-park-27-6-2027/event/107679686 | - |
+| tm-shania-twain-2027-woodstock-1amzk4agkdk2pnt | Shania Twain | refresh (applied) | 107679154 | https://www.stubhub.ie/shania-twain-tickets-woodstock-blenheim-palace-29-6-2027/event/107679154 | - |
 | tm-dom-dolla-2026-las-vegas-z7r9jz1a7p3c3 | Dom Dolla | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-motionless-in-white-2026-milwaukee-vvg1jz_5myjgaa | Motionless in White | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-motionless-in-white-2026-albany-k7vgf_5wspmvj | Motionless in White | none | 107258877 | https://www.stubhub.ie/motionless-in-white-albany-tickets-11-15-2026/event/107258877 | - |
+| tm-motionless-in-white-2026-albany-k7vgf_5wspmvj | Motionless in White | refresh (applied) | 107258877 | https://www.stubhub.ie/motionless-in-white-albany-tickets-11-15-2026/event/107258877 | - |
 | tm-motionless-in-white-2026-portland-vvg17z_5r6traw | Motionless in White | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-motionless-in-white-2026-newark-vvg1fz_5s7fn3l | Motionless in White | none | 107258878 | https://www.stubhub.ie/motionless-in-white-newark-tickets-11-19-2026/event/107258878 | - |
-| tm-motionless-in-white-2026-pittsburgh-17aov0g65mh-tzb | Motionless in White | none | 107258879 | https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879 | - |
+| tm-motionless-in-white-2026-newark-vvg1fz_5s7fn3l | Motionless in White | refresh (applied) | 107258878 | https://www.stubhub.ie/motionless-in-white-newark-tickets-11-19-2026/event/107258878 | - |
+| tm-motionless-in-white-2026-pittsburgh-17aov0g65mh-tzb | Motionless in White | refresh (applied) | 107258879 | https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879 | - |
 | tm-motionless-in-white-2027-dubendorf-z698xzu3z16ezmoj16 | Motionless in White | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-yg-2026-oakland-g5vyz_u2lcdvy | YG | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-rawayana-2026-inglewood-vv170z_kgkuw4lc4 | Rawayana | none | 107140387 | https://www.stubhub.ie/rawayana-inglewood-tickets-11-15-2026/event/107140387 | - |
-| tm-rawayana-2026-houston-g5diz_kwowtst | Rawayana | none | 107140388 | https://www.stubhub.ie/rawayana-houston-tickets-11-18-2026/event/107140388 | - |
-| tm-rawayana-2026-houston-g5diz_ad2y7sg | Rawayana | none | 107447958 | https://www.stubhub.ie/rawayana-houston-tickets-11-19-2026/event/107447958 | - |
-| tm-rawayana-2026-irving-vvg1yz_kyui28o | Rawayana | none | 107482970 | https://www.stubhub.ie/rawayana-irving-tickets-11-21-2026/event/107482970 | - |
-| tm-rawayana-2026-orlando-1aefz_kgkuqmj8a | Rawayana | none | 107141314 | https://www.stubhub.ie/rawayana-orlando-tickets-12-3-2026/event/107141314 | - |
-| tm-rawayana-2026-miami-vvg1vz_fh4bcfd | Rawayana | none | 107672941 | https://www.stubhub.ie/rawayana-miami-tickets-12-4-2026/event/107672941 | - |
-| tm-rawayana-2026-miami-vvg1vz_kwnj_rj | Rawayana | none | 107140392 | https://www.stubhub.ie/rawayana-miami-tickets-12-5-2026/event/107140392 | - |
-| tm-rawayana-2026-miami-vvg1vz_6kilnkl | Rawayana | none | 107141315 | https://www.stubhub.ie/rawayana-miami-tickets-12-6-2026/event/107141315 | - |
+| tm-rawayana-2026-inglewood-vv170z_kgkuw4lc4 | Rawayana | refresh (applied) | 107140387 | https://www.stubhub.ie/rawayana-inglewood-tickets-11-15-2026/event/107140387 | - |
+| tm-rawayana-2026-houston-g5diz_kwowtst | Rawayana | refresh (applied) | 107140388 | https://www.stubhub.ie/rawayana-houston-tickets-11-18-2026/event/107140388 | - |
+| tm-rawayana-2026-houston-g5diz_ad2y7sg | Rawayana | refresh (applied) | 107447958 | https://www.stubhub.ie/rawayana-houston-tickets-11-19-2026/event/107447958 | - |
+| tm-rawayana-2026-irving-vvg1yz_kyui28o | Rawayana | refresh (applied) | 107482970 | https://www.stubhub.ie/rawayana-irving-tickets-11-21-2026/event/107482970 | - |
+| tm-rawayana-2026-orlando-1aefz_kgkuqmj8a | Rawayana | refresh (applied) | 107141314 | https://www.stubhub.ie/rawayana-orlando-tickets-12-3-2026/event/107141314 | - |
+| tm-rawayana-2026-miami-vvg1vz_fh4bcfd | Rawayana | refresh (applied) | 107672941 | https://www.stubhub.ie/rawayana-miami-tickets-12-4-2026/event/107672941 | - |
+| tm-rawayana-2026-miami-vvg1vz_kwnj_rj | Rawayana | refresh (applied) | 107140392 | https://www.stubhub.ie/rawayana-miami-tickets-12-5-2026/event/107140392 | - |
+| tm-rawayana-2026-miami-vvg1vz_6kilnkl | Rawayana | refresh (applied) | 107141315 | https://www.stubhub.ie/rawayana-miami-tickets-12-6-2026/event/107141315 | - |
 | tm-jodeci-2026-cleveland-z7r9jz1aaed_7 | Jodeci | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jodeci-2026-bristol-g5viz_25fd7l0 | Jodeci | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jodeci-2026-jersey-city-vvg1fz_2hzjb2j | Jodeci | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3665,9 +3631,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-jodeci-2027-el-cajon-vvg1iz_2r2vxq6 | Jodeci | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jodeci-2027-phoenix-17k8v0g62lhiblw | Jodeci | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jodeci-2027-ontario-vvg10z_2n6tniq | Jodeci | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-mercyme-2026-louisville-17aov0g6193qcjg | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-mercyme-2026-kansas-city-z7r9jz1a70nek | MercyMe | none | 107677659 | https://www.stubhub.ie/mercyme-kansas-city-tickets-11-14-2026/event/107677659 | - |
-| tm-mercyme-2026-minneapolis-z7r9jz1a70nz6 | MercyMe | none | 107677667 | https://www.stubhub.ie/mercyme-minneapolis-tickets-11-15-2026/event/107677667 | - |
+| tm-mercyme-2026-kansas-city-z7r9jz1a70nek | MercyMe | refresh (applied) | 107677659 | https://www.stubhub.ie/mercyme-kansas-city-tickets-11-14-2026/event/107677659 | - |
+| tm-mercyme-2026-minneapolis-z7r9jz1a70nz6 | MercyMe | refresh (applied) | 107677667 | https://www.stubhub.ie/mercyme-minneapolis-tickets-11-15-2026/event/107677667 | - |
 | tm-mercyme-2027-roanoke-vv1avzk4agkdxzmi2 | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mercyme-2027-huntington-1avbz_fgkbqrak8 | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mercyme-2027-highland-heights-1avbz_fgkwx5pep | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3692,7 +3657,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mercyme-2027-springfield-vv1a6zk4agkeirfgx | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mercyme-2027-canton-vv17fz_fgkw2un6n | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mercyme-2027-evansville-vv17fz_fgkwdo5qw | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gracie-abrams-2027-austin-g5diz_4uo-e6z | Gracie Abrams | none | 107679094 | https://www.stubhub.ie/gracie-abrams-austin-tickets-2-6-2027/event/107679094 | - |
+| tm-gracie-abrams-2027-austin-g5diz_4uo-e6z | Gracie Abrams | refresh (applied) | 107679094 | https://www.stubhub.ie/gracie-abrams-austin-tickets-2-6-2027/event/107679094 | - |
 | tm-blondshell-2027-cleveland-vv1aazk4pgkduzdwy | Blondshell | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-milwaukee-vv17jz_4gkdidvax | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chelsea-cutler-2027-austin-z7r9jz1aa7ug0 | Chelsea Cutler | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3702,7 +3667,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-riley-green-2027-cincinnati-1kaovp4ygacu9xm | Riley Green | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-flans-2027-las-vegas-z7r9jz1aaeaov | Flans | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2027-oklahoma-city-vvg1yz_f5olqqc | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-los-tigres-del-norte-2027-fort-worth-vvg1yz_4bmn9we | Los Tigres del Norte | none | 107679104 | https://www.stubhub.ie/los-tigres-del-norte-fort-worth-tickets-2-13-2027/event/107679104 | - |
+| tm-los-tigres-del-norte-2027-fort-worth-vvg1yz_4bmn9we | Los Tigres del Norte | refresh (applied) | 107679104 | https://www.stubhub.ie/los-tigres-del-norte-fort-worth-tickets-2-13-2027/event/107679104 | - |
 | tm-los-tigres-del-norte-2027-rosemont-vv1a7zk4kgkdecl8m | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2027-miami-vvg1vz_fxmchil | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2027-atlantic-city-vv17fz_4gkmu5cz_ | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3714,15 +3679,14 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-jack-johnson-2027-las-vegas-1avjz_fgkthyfka | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-jack-johnson-2027-las-vegas-1avjz_fgkthbfkc | Jack Johnson | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-koe-wetzel-2027-durant-vvg1yz_4wsdj6f | Koe Wetzel | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-interpol-2026-london-1amzk4xgkd2vp1g | Interpol | none | 107679708 | https://www.stubhub.ie/interpol-tickets-london-british-airways-arc-4-12-2026/event/107679708 | - |
-| tm-the-interrupters-2027-london-g5vhz_4d3nbns | The Interrupters | none | 107679853 | https://www.stubhub.ie/the-interrupters-tickets-london-the-roundhouse-1-6-2027/event/107679853 | - |
+| tm-interpol-2026-london-1amzk4xgkd2vp1g | Interpol | refresh (applied) | 107679708 | https://www.stubhub.ie/interpol-tickets-london-british-airways-arc-4-12-2026/event/107679708 | - |
+| tm-the-interrupters-2027-london-g5vhz_4d3nbns | The Interrupters | refresh (applied) | 107679853 | https://www.stubhub.ie/the-interrupters-tickets-london-the-roundhouse-1-6-2027/event/107679853 | - |
 | tm-the-interrupters-2027-k-benhavn-v-z698xzc4z1k8bb3pe | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-ayr-1auzk4xgkerybal | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-jake-bugg-2027-stirling-1auzk4xgkd61qqs | Jake Bugg | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gary-allan-2026-dodge-city-vvg1bz_gx9hm-8 | Gary Allan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gary-allan-2026-lake-charles-z7r9jz1aazdcb | Gary Allan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gary-allan-2026-biloxi-g5viz_889usjk | Gary Allan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gary-allan-2026-las-vegas-z7r9jz1aavf1f | Gary Allan | none | 107678761 | https://www.stubhub.ie/gary-allan-las-vegas-tickets-12-4-2026/event/107678761 | - |
+| tm-gary-allan-2026-las-vegas-z7r9jz1aavf1f | Gary Allan | refresh (applied) | 107678761 | https://www.stubhub.ie/gary-allan-las-vegas-tickets-12-4-2026/event/107678761 | - |
 | tm-gary-allan-2026-napa-g5vyz_3dfyx0l | Gary Allan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gary-allan-2026-bakersfield-z7r9jz1aae3j4 | Gary Allan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gary-allan-2027-tysons-17a8v0g65hn_upy | Gary Allan | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3731,13 +3695,13 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-gary-allan-2027-peoria-vvg1jz_ub8qzyr | Gary Allan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mon-laferte-2026-monterrey-17azv0g6cxrk0bt | Mon Laferte | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-mon-laferte-2026-monterrey-17azv0g61m-mqwh | Mon Laferte | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-mon-laferte-2027-madrid-z698xz2qz16vquuz7t | Mon Laferte | none | 107447688 | https://www.stubhub.ie/mon-laferte-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-1-2027/event/107447688 | - |
+| tm-mon-laferte-2027-madrid-z698xz2qz16vquuz7t | Mon Laferte | refresh (applied) | 107447688 | https://www.stubhub.ie/mon-laferte-tickets-madrid-movistar-arena-palacio-de-los-deportes-13-1-2027/event/107447688 | - |
 | tm-mon-laferte-2027-brussels-z698xzg2z1kbx0fgb | Mon Laferte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-meshuggah-2027-toronto-1a8zk4fgkepjpte | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-meshuggah-2027-laval-1aszk4fgkdtnr8- | Meshuggah | none | 107678613 | https://www.stubhub.ie/meshuggah-laval-tickets-2-13-2027/event/107678613 | - |
+| tm-meshuggah-2027-laval-1aszk4fgkdtnr8- | Meshuggah | refresh (applied) | 107678613 | https://www.stubhub.ie/meshuggah-laval-tickets-2-13-2027/event/107678613 | - |
 | tm-meshuggah-2027-detroit-z7r9jz1aa7t8- | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-meshuggah-2027-chicago-vv1a7zk49gkdpmbhc | Meshuggah | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-meshuggah-2027-minneapolis-vv1akzk44gkdfvhxa | Meshuggah | none | 107678622 | https://www.stubhub.ie/meshuggah-minneapolis-tickets-2-19-2027/event/107678622 | - |
+| tm-meshuggah-2027-minneapolis-vv1akzk44gkdfvhxa | Meshuggah | refresh (applied) | 107678622 | https://www.stubhub.ie/meshuggah-minneapolis-tickets-2-19-2027/event/107678622 | - |
 | tm-meshuggah-2027-kansas-city-z7r9jz1aa7t8x | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-meshuggah-2027-omaha-1aozk4fgkd-wmvg | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-meshuggah-2027-saint-louis-1a-zk44gkdts0ox | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3746,28 +3710,28 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-meshuggah-2027-baltimore-1a4zk4fgkdwfxtt | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-meshuggah-2027-pittsburgh-1kaovp4oga2k8sn | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-meshuggah-2027-philadelphia-vv1aezk44gkd2msbd | Meshuggah | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-meshuggah-2027-brooklyn-k7vgf_4lfqrel | Meshuggah | none | 107678642 | https://www.stubhub.ie/meshuggah-brooklyn-tickets-3-3-2027/event/107678642 | - |
-| tm-meshuggah-2027-boston-vv1a8vp4aga5ukxb | Meshuggah | none | 107678606 | https://www.stubhub.ie/meshuggah-boston-tickets-3-6-2027/event/107678606 | - |
-| tm-meshuggah-2027-vancouver-z7r9jz1aa7tay | Meshuggah | none | 107678617 | https://www.stubhub.ie/meshuggah-vancouver-tickets-4-15-2027/event/107678617 | - |
-| tm-meshuggah-2027-portland-vvg1hz_4pdt01r | Meshuggah | none | 107678604 | https://www.stubhub.ie/meshuggah-portland-tickets-4-16-2027/event/107678604 | - |
-| tm-meshuggah-2027-seattle-vvg1hz_4kkbgac | Meshuggah | none | 107678600 | https://www.stubhub.ie/meshuggah-seattle-tickets-4-17-2027/event/107678600 | - |
+| tm-meshuggah-2027-brooklyn-k7vgf_4lfqrel | Meshuggah | refresh (applied) | 107678642 | https://www.stubhub.ie/meshuggah-brooklyn-tickets-3-3-2027/event/107678642 | - |
+| tm-meshuggah-2027-boston-vv1a8vp4aga5ukxb | Meshuggah | refresh (applied) | 107678606 | https://www.stubhub.ie/meshuggah-boston-tickets-3-6-2027/event/107678606 | - |
+| tm-meshuggah-2027-vancouver-z7r9jz1aa7tay | Meshuggah | refresh (applied) | 107678617 | https://www.stubhub.ie/meshuggah-vancouver-tickets-4-15-2027/event/107678617 | - |
+| tm-meshuggah-2027-portland-vvg1hz_4pdt01r | Meshuggah | refresh (applied) | 107678604 | https://www.stubhub.ie/meshuggah-portland-tickets-4-16-2027/event/107678604 | - |
+| tm-meshuggah-2027-seattle-vvg1hz_4kkbgac | Meshuggah | refresh (applied) | 107678600 | https://www.stubhub.ie/meshuggah-seattle-tickets-4-17-2027/event/107678600 | - |
 | tm-meshuggah-2027-salt-lake-city-g5vzz_4r3jsmh | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-meshuggah-2027-morrison-z7r9jz1aa7e-0 | Meshuggah | none | 107678638 | https://www.stubhub.ie/meshuggah-morrison-tickets-4-21-2027/event/107678638 | - |
-| tm-meshuggah-2027-oakland-g5vyz_4hq7g_c | Meshuggah | none | 107678644 | https://www.stubhub.ie/meshuggah-oakland-tickets-4-24-2027/event/107678644 | - |
-| tm-meshuggah-2027-inglewood-vvg1iz_4feeal9 | Meshuggah | none | 107678605 | https://www.stubhub.ie/meshuggah-inglewood-tickets-4-25-2027/event/107678605 | - |
-| tm-meshuggah-2027-phoenix-16_zk4bafza5uakd | Meshuggah | none | 107678646 | https://www.stubhub.ie/meshuggah-phoenix-tickets-4-27-2027/event/107678646 | - |
-| tm-meshuggah-2027-houston-g5diz_48jqg5z | Meshuggah | none | 107678603 | https://www.stubhub.ie/meshuggah-houston-tickets-4-30-2027/event/107678603 | - |
-| tm-meshuggah-2027-san-antonio-z7r9jz1aa7e0a | Meshuggah | none | 107678624 | https://www.stubhub.ie/meshuggah-san-antonio-tickets-5-1-2027/event/107678624 | - |
+| tm-meshuggah-2027-morrison-z7r9jz1aa7e-0 | Meshuggah | refresh (applied) | 107678638 | https://www.stubhub.ie/meshuggah-morrison-tickets-4-21-2027/event/107678638 | - |
+| tm-meshuggah-2027-oakland-g5vyz_4hq7g_c | Meshuggah | refresh (applied) | 107678644 | https://www.stubhub.ie/meshuggah-oakland-tickets-4-24-2027/event/107678644 | - |
+| tm-meshuggah-2027-inglewood-vvg1iz_4feeal9 | Meshuggah | refresh (applied) | 107678605 | https://www.stubhub.ie/meshuggah-inglewood-tickets-4-25-2027/event/107678605 | - |
+| tm-meshuggah-2027-phoenix-16_zk4bafza5uakd | Meshuggah | refresh (applied) | 107678646 | https://www.stubhub.ie/meshuggah-phoenix-tickets-4-27-2027/event/107678646 | - |
+| tm-meshuggah-2027-houston-g5diz_48jqg5z | Meshuggah | refresh (applied) | 107678603 | https://www.stubhub.ie/meshuggah-houston-tickets-4-30-2027/event/107678603 | - |
+| tm-meshuggah-2027-san-antonio-z7r9jz1aa7e0a | Meshuggah | refresh (applied) | 107678624 | https://www.stubhub.ie/meshuggah-san-antonio-tickets-5-1-2027/event/107678624 | - |
 | tm-meshuggah-2027-oklahoma-city-z7r9jz1aa7izs | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-meshuggah-2027-irving-vvg1yz_4faiuks | Meshuggah | none | 107678631 | https://www.stubhub.ie/meshuggah-irving-tickets-5-4-2027/event/107678631 | - |
+| tm-meshuggah-2027-irving-vvg1yz_4faiuks | Meshuggah | refresh (applied) | 107678631 | https://www.stubhub.ie/meshuggah-irving-tickets-5-4-2027/event/107678631 | - |
 | tm-meshuggah-2027-new-orleans-g5viz_49c3t4b | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-meshuggah-2027-atlanta-vvg1zz_4ptwc-- | Meshuggah | none | 107678609 | https://www.stubhub.ie/meshuggah-atlanta-tickets-5-7-2027/event/107678609 | - |
-| tm-meshuggah-2027-fort-lauderdale-z7r9jz1aa7iax | Meshuggah | none | 107678630 | https://www.stubhub.ie/meshuggah-fort-lauderdale-tickets-5-9-2027/event/107678630 | - |
+| tm-meshuggah-2027-atlanta-vvg1zz_4ptwc-- | Meshuggah | refresh (applied) | 107678609 | https://www.stubhub.ie/meshuggah-atlanta-tickets-5-7-2027/event/107678609 | - |
+| tm-meshuggah-2027-fort-lauderdale-z7r9jz1aa7iax | Meshuggah | refresh (applied) | 107678630 | https://www.stubhub.ie/meshuggah-fort-lauderdale-tickets-5-9-2027/event/107678630 | - |
 | tm-meshuggah-2027-greensboro-g5evz_4knt1ei | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-meshuggah-2027-warsaw-z698xzqpz1kgpab4t | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-meshuggah-2027-dublin-1avoz_4gkwrafdq | Meshuggah | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-meshuggah-2027-manchester-1adfz_4gkvdqmcy | Meshuggah | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-meshuggah-2027-london-1adjz_4gkbbdf9c | Meshuggah | none | 107679704 | https://www.stubhub.ie/meshuggah-tickets-london-ovo-arena-wembley-30-10-2027/event/107679704 | - |
+| tm-meshuggah-2027-london-1adjz_4gkbbdf9c | Meshuggah | refresh (applied) | 107679704 | https://www.stubhub.ie/meshuggah-tickets-london-ovo-arena-wembley-30-10-2027/event/107679704 | - |
 | tm-pink-martini-2027-pittsburgh-z7r9jz1aavjpj | Pink Martini | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-hazlett-2027-salt-lake-city-z7r9jz1aa7ec3 | Hazlett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mico-2027-carrboro-z7r9jz1aa73ap | Mico | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3780,14 +3744,14 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-mercyme-2027-chattanooga-z7r9jz1aa7_af | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-raye-2027-dublin-1abzk4agkdp88vj | RAYE | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-death-cab-for-cutie-2027-austin-z7r9jz1aa7sc6 | Death Cab for Cutie | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-leon-bridges-2027-mexico-1kazvppagacnsha | Leon Bridges | none | 107680645 | https://www.stubhub.ie/leon-bridges-tickets-ciudad-de-mexico-teatro-metropolitan-24-3-2027/event/107680645 | - |
+| tm-leon-bridges-2027-mexico-1kazvppagacnsha | Leon Bridges | refresh (applied) | 107680645 | https://www.stubhub.ie/leon-bridges-tickets-ciudad-de-mexico-teatro-metropolitan-24-3-2027/event/107680645 | - |
 | tm-earth-wind-fire-2027-pompano-beach-z7r9jz1aaazue | Earth, Wind & Fire | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-thirty-seconds-to-mars-2027-tallinn-z698xz8kz16vpf_d-9 | Thirty Seconds to Mars | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2027-denver-z7r9jz1aaaz8e | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tigres-del-norte-2027-montreal-z7r9jz1aa7zf8 | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-los-tigres-del-norte-2027-los-angeles-z7r9jz1aa7mao | Los Tigres del Norte | none | 107679135 | https://www.stubhub.ie/los-tigres-del-norte-los-angeles-tickets-4-10-2027/event/107679135 | - |
+| tm-los-tigres-del-norte-2027-los-angeles-z7r9jz1aa7mao | Los Tigres del Norte | refresh (applied) | 107679135 | https://www.stubhub.ie/los-tigres-del-norte-los-angeles-tickets-4-10-2027/event/107679135 | - |
 | tm-los-tigres-del-norte-2027-hartford-z7r9jz1aaaz18 | Los Tigres del Norte | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-u2-2027-london-1adfz_4gkb4kzby | U2 | none | 107679891 | https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-22-6-2027/event/107679891 | - |
+| tm-u2-2027-london-1adfz_4gkb4kzby | U2 | refresh (applied) | 107679891 | https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-22-6-2027/event/107679891 | - |
 | tm-koe-wetzel-2027-rohnert-park-z7r9jz1aa7zjf | Koe Wetzel | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-michelle-branch-2027-tulsa-z7r9jz1aa7vv3 | Michelle Branch | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-garth-brooks-2027-belfast-16doz_p8zg7ggqn | Garth Brooks | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3800,7 +3764,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-garth-brooks-2027-limerick-city-1kkzvp_dgauzdjl | Garth Brooks | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-garth-brooks-2027-cork-16voz_pozg7t0-b | Garth Brooks | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-garth-brooks-2027-cork-16voz_pozg7nfxm | Garth Brooks | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-u2-2027-amsterdam-z698xzbpz1kb9z4vi | U2 | none | 107679895 | https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-9-6-2027/event/107679895 | - |
+| tm-u2-2027-amsterdam-z698xzbpz1kb9z4vi | U2 | refresh (applied) | 107679895 | https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-9-6-2027/event/107679895 | - |
 | tm-mercyme-2027-salisbury-z7r9jz1aa7_aj | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lenny-pearce-2026-atlanta-z7r9jz1a7pnza | Lenny Pearce | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-lenny-pearce-2026-nashville-z7r9jz1a7p0bp | Lenny Pearce | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3819,7 +3783,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-los-tucanes-de-tijuana-2026-thackerville-z7r9jz1aaz9fb | Los Tucanes de Tijuana | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tucanes-de-tijuana-2026-catoosa-z7r9jz1aaef8- | Los Tucanes de Tijuana | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-los-tucanes-de-tijuana-2027-glendale-17k8v0g62nuo9-m | Los Tucanes de Tijuana | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-los-tucanes-de-tijuana-2027-inglewood-vvg10z_udzwaf3 | Los Tucanes de Tijuana | none | 107452007 | https://www.stubhub.ie/los-tucanes-de-tijuana-inglewood-tickets-2-13-2027/event/107452007 | - |
+| tm-los-tucanes-de-tijuana-2027-inglewood-vvg10z_udzwaf3 | Los Tucanes de Tijuana | refresh (applied) | 107452007 | https://www.stubhub.ie/los-tucanes-de-tijuana-inglewood-tickets-2-13-2027/event/107452007 | - |
 | tm-los-tucanes-de-tijuana-2027-rosemont-vv1a7zkffgkdqp4jc | Los Tucanes de Tijuana | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mat-kearney-2027-kalispell-z7r9jz1aazpfi | Mat Kearney | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mat-kearney-2027-durham-z7r9jz1aa7tga | Mat Kearney | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3851,53 +3815,53 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-u2-2027-barcelona-z698xz2qz16vasca3z | U2 | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-u2-2027-barcelona-z698xz2qz1kkzqe8t | U2 | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-u2-2027-sevilla-z698xz2qz1k0efyqs | U2 | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-u2-2027-london-1adfz_4gkbq3_od | U2 | none | 107680492 | https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-25-6-2027/event/107680492 | - |
+| tm-u2-2027-london-1adfz_4gkbq3_od | U2 | refresh (applied) | 107680492 | https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-25-6-2027/event/107680492 | - |
 | tm-bon-jovi-2027-toronto-1avzz_4gki76ms5 | Bon Jovi | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-bon-jovi-2027-south-bend-vv1kv8vp_zga5o3gv | Bon Jovi | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dom-dolla-2027-miami-z7r9jz1aaavbz | Dom Dolla | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-rod-stewart-2027-hamburg-z698xzc2z16vxb1oag | Rod Stewart | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-katseye-2027-auckland-1ae8z_4gkwr-wk2 | KATSEYE | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-u2-2027-amsterdam-z698xzbpz1k7zpzb4 | U2 | none | 107679903 | https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-11-6-2027/event/107679903 | - |
+| tm-u2-2027-amsterdam-z698xzbpz1k7zpzb4 | U2 | refresh (applied) | 107679903 | https://www.stubhub.ie/u2-tickets-amsterdam-johan-cruijff-arena-11-6-2027/event/107679903 | - |
 | tm-garth-brooks-2026-hamilton-1avzz_4gkr8gcov | Garth Brooks | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-interrupters-2027-glasgow-1adbz_4gkd6f167 | The Interrupters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-too-many-zooz-2027-frisco-z7r9jz1aaeep4 | Too Many Zooz | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fontaines-d-c-2027-asheville-z7r9jz1aae84b | Fontaines D.C. | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-warren-zeiders-2027-charlotte-z7r9jz1aaeb7u | Warren Zeiders | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-gorillaz-2026-ciudad-de-mexico-1av8z_4gkm7aqri | Gorillaz | none | 107680207 | https://www.stubhub.ie/gorillaz-tickets-mexico-city-palacio-de-los-deportes-11-12-2026/event/107680207 | - |
+| tm-gorillaz-2026-ciudad-de-mexico-1av8z_4gkm7aqri | Gorillaz | refresh (applied) | 107680207 | https://www.stubhub.ie/gorillaz-tickets-mexico-city-palacio-de-los-deportes-11-12-2026/event/107680207 | - |
 | tm-zach-top-2027-thackerville-z7r9jz1aaaeap | Zach Top | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-u2-2027-stockholm-z698xzq2z16vvejtvk | U2 | none | 107680651 | https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-30-4-2027/event/107680651 | - |
-| tm-kings-of-leon-2027-bristow-1ka8vp__gaurfu5 | Kings Of Leon | add (applied) | 107680957 | https://www.stubhub.ie/kings-of-leon-bristow-tickets-5-8-2027/event/107680957 | - |
+| tm-u2-2027-stockholm-z698xzq2z16vvejtvk | U2 | refresh (applied) | 107680651 | https://www.stubhub.ie/u2-tickets-stockholm-strawberry-arena-30-4-2027/event/107680651 | - |
+| tm-kings-of-leon-2027-bristow-1ka8vp__gaurfu5 | Kings Of Leon | refresh (applied) | 107680957 | https://www.stubhub.ie/kings-of-leon-bristow-tickets-5-8-2027/event/107680957 | - |
 | tm-kings-of-leon-2027-philadelphia-vv1aezk4xgkdfbii2 | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-kings-of-leon-2027-cuyahoga-falls-vv16azk4nouzac7agu | Kings Of Leon | add (applied) | 107680913 | https://www.stubhub.ie/kings-of-leon-cuyahoga-falls-tickets-5-14-2027/event/107680913 | - |
+| tm-kings-of-leon-2027-cuyahoga-falls-vv16azk4nouzac7agu | Kings Of Leon | refresh (applied) | 107680913 | https://www.stubhub.ie/kings-of-leon-cuyahoga-falls-tickets-5-14-2027/event/107680913 | - |
 | tm-kings-of-leon-2027-noblesville-vv1aazk4ngkdiu1bn | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kings-of-leon-2027-grand-rapids-vv1afzk4xgkdurf5s | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kings-of-leon-2027-clarkston-vv1afzk4pgkdf_fbn | Kings Of Leon | add (applied) | 107680926 | https://www.stubhub.ie/kings-of-leon-clarkston-tickets-5-23-2027/event/107680926 | - |
-| tm-kings-of-leon-2027-bridgeport-g5vvz_pclhssb | Kings Of Leon | add (applied) | 107680920 | https://www.stubhub.ie/kings-of-leon-bridgeport-tickets-5-25-2027/event/107680920 | - |
+| tm-kings-of-leon-2027-clarkston-vv1afzk4pgkdf_fbn | Kings Of Leon | refresh (applied) | 107680926 | https://www.stubhub.ie/kings-of-leon-clarkston-tickets-5-23-2027/event/107680926 | - |
+| tm-kings-of-leon-2027-bridgeport-g5vvz_pclhssb | Kings Of Leon | refresh (applied) | 107680920 | https://www.stubhub.ie/kings-of-leon-bridgeport-tickets-5-25-2027/event/107680920 | - |
 | tm-kings-of-leon-2027-saratoga-springs-k7vgf_p52u5pn | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kings-of-leon-2027-bangor-vv1a8vpbygagbkh_ | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kings-of-leon-2027-bethel-k7vgf_pkjzmnn | Kings Of Leon | add (applied) | 107680956 | https://www.stubhub.ie/kings-of-leon-bethel-tickets-5-30-2027/event/107680956 | - |
+| tm-kings-of-leon-2027-bethel-k7vgf_pkjzmnn | Kings Of Leon | refresh (applied) | 107680956 | https://www.stubhub.ie/kings-of-leon-bethel-tickets-5-30-2027/event/107680956 | - |
 | tm-kings-of-leon-2027-toronto-16vzz_poyg7venm | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kings-of-leon-2027-shakopee-16-zk40-tza2vg27 | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kings-of-leon-2027-tinley-park-vv1kvzvpbygacp7l6 | Kings Of Leon | add (applied) | 107680937 | https://www.stubhub.ie/kings-of-leon-tinley-park-tickets-6-6-2027/event/107680937 | - |
+| tm-kings-of-leon-2027-tinley-park-vv1kvzvpbygacp7l6 | Kings Of Leon | refresh (applied) | 107680937 | https://www.stubhub.ie/kings-of-leon-tinley-park-tickets-6-6-2027/event/107680937 | - |
 | tm-kings-of-leon-2027-west-valley-city-g5vzz_p2iqpnf | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kings-of-leon-2027-vancouver-16v7z_ppfg7nnqo | Kings Of Leon | add (applied) | 107680916 | https://www.stubhub.ie/kings-of-leon-tickets-vancouver-rogers-arena-9-14-2027/event/107680916 | - |
-| tm-kings-of-leon-2027-seattle-vvg1hz_p57x6w0 | Kings Of Leon | none | 107680303 | https://www.stubhub.ie/kings-of-leon-seattle-tickets-9-15-2027/event/107680303 | - |
-| tm-kings-of-leon-2027-mountain-view-g5vyz_p1j_6oc | Kings Of Leon | add (applied) | 107680923 | https://www.stubhub.ie/kings-of-leon-mountain-view-tickets-9-17-2027/event/107680923 | - |
-| tm-kings-of-leon-2027-inglewood-vv1aazk4ngkdyvvz_ | Kings Of Leon | none | 107680304 | https://www.stubhub.ie/kings-of-leon-inglewood-tickets-9-18-2027/event/107680304 | - |
-| tm-kings-of-leon-2027-phoenix-1a_zk4xgkewyfnx | Kings Of Leon | add (applied) | 107680938 | https://www.stubhub.ie/kings-of-leon-phoenix-tickets-9-24-2027/event/107680938 | - |
-| tm-kings-of-leon-2027-austin-g5diz_pk2f12g | Kings Of Leon | none | 107680305 | https://www.stubhub.ie/kings-of-leon-austin-tickets-9-26-2027/event/107680305 | - |
-| tm-kings-of-leon-2027-fort-worth-vvg1yz_4lzyuso | Kings Of Leon | none | 107680747 | https://www.stubhub.ie/kings-of-leon-fort-worth-tickets-9-28-2027/event/107680747 | - |
-| tm-kings-of-leon-2027-alpharetta-vvg1zz_pch0zpt | Kings Of Leon | add (applied) | 107680947 | https://www.stubhub.ie/kings-of-leon-alpharetta-tickets-9-30-2027/event/107680947 | - |
-| tm-kings-of-leon-2027-orlando-1axzk40gkdkpvf2 | Kings Of Leon | none | 107680749 | https://www.stubhub.ie/kings-of-leon-orlando-tickets-10-1-2027/event/107680749 | - |
-| tm-kings-of-leon-2027-raleigh-g5evz_p3nejt5 | Kings Of Leon | add (applied) | 107680951 | https://www.stubhub.ie/kings-of-leon-raleigh-tickets-10-3-2027/event/107680951 | - |
-| tm-kings-of-leon-2027-charlotte-g5evz_p5ab5ro | Kings Of Leon | add (applied) | 107680925 | https://www.stubhub.ie/kings-of-leon-charlotte-tickets-10-6-2027/event/107680925 | - |
-| tm-kings-of-leon-2027-franklin-g5viz_p28lhsa | Kings Of Leon | add (applied) | 107680934 | https://www.stubhub.ie/kings-of-leon-franklin-tickets-10-8-2027/event/107680934 | - |
+| tm-kings-of-leon-2027-vancouver-16v7z_ppfg7nnqo | Kings Of Leon | refresh (applied) | 107680916 | https://www.stubhub.ie/kings-of-leon-tickets-vancouver-rogers-arena-9-14-2027/event/107680916 | - |
+| tm-kings-of-leon-2027-seattle-vvg1hz_p57x6w0 | Kings Of Leon | refresh (applied) | 107680303 | https://www.stubhub.ie/kings-of-leon-seattle-tickets-9-15-2027/event/107680303 | - |
+| tm-kings-of-leon-2027-mountain-view-g5vyz_p1j_6oc | Kings Of Leon | refresh (applied) | 107680923 | https://www.stubhub.ie/kings-of-leon-mountain-view-tickets-9-17-2027/event/107680923 | - |
+| tm-kings-of-leon-2027-inglewood-vv1aazk4ngkdyvvz_ | Kings Of Leon | refresh (applied) | 107680304 | https://www.stubhub.ie/kings-of-leon-inglewood-tickets-9-18-2027/event/107680304 | - |
+| tm-kings-of-leon-2027-phoenix-1a_zk4xgkewyfnx | Kings Of Leon | refresh (applied) | 107680938 | https://www.stubhub.ie/kings-of-leon-phoenix-tickets-9-24-2027/event/107680938 | - |
+| tm-kings-of-leon-2027-austin-g5diz_pk2f12g | Kings Of Leon | refresh (applied) | 107680305 | https://www.stubhub.ie/kings-of-leon-austin-tickets-9-26-2027/event/107680305 | - |
+| tm-kings-of-leon-2027-fort-worth-vvg1yz_4lzyuso | Kings Of Leon | refresh (applied) | 107680747 | https://www.stubhub.ie/kings-of-leon-fort-worth-tickets-9-28-2027/event/107680747 | - |
+| tm-kings-of-leon-2027-alpharetta-vvg1zz_pch0zpt | Kings Of Leon | refresh (applied) | 107680947 | https://www.stubhub.ie/kings-of-leon-alpharetta-tickets-9-30-2027/event/107680947 | - |
+| tm-kings-of-leon-2027-orlando-1axzk40gkdkpvf2 | Kings Of Leon | refresh (applied) | 107680749 | https://www.stubhub.ie/kings-of-leon-orlando-tickets-10-1-2027/event/107680749 | - |
+| tm-kings-of-leon-2027-raleigh-g5evz_p3nejt5 | Kings Of Leon | refresh (applied) | 107680951 | https://www.stubhub.ie/kings-of-leon-raleigh-tickets-10-3-2027/event/107680951 | - |
+| tm-kings-of-leon-2027-charlotte-g5evz_p5ab5ro | Kings Of Leon | refresh (applied) | 107680925 | https://www.stubhub.ie/kings-of-leon-charlotte-tickets-10-6-2027/event/107680925 | - |
+| tm-kings-of-leon-2027-franklin-g5viz_p28lhsa | Kings Of Leon | refresh (applied) | 107680934 | https://www.stubhub.ie/kings-of-leon-franklin-tickets-10-8-2027/event/107680934 | - |
 | tm-kings-of-leon-2027-cincinnati-1apzk4ngkdmfbs- | Kings Of Leon | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-kings-of-leon-2027-mansfield-vv1avzk40gkelbik2 | Kings Of Leon | add (applied) | 107680927 | https://www.stubhub.ie/kings-of-leon-mansfield-tickets-10-14-2027/event/107680927 | - |
-| tm-kings-of-leon-2027-new-york-g5diz_4_hy-cs | Kings Of Leon | none | 107680753 | https://www.stubhub.ie/kings-of-leon-new-york-tickets-10-15-2027/event/107680753 | - |
+| tm-kings-of-leon-2027-mansfield-vv1avzk40gkelbik2 | Kings Of Leon | refresh (applied) | 107680927 | https://www.stubhub.ie/kings-of-leon-mansfield-tickets-10-14-2027/event/107680927 | - |
+| tm-kings-of-leon-2027-new-york-g5diz_4_hy-cs | Kings Of Leon | refresh (applied) | 107680753 | https://www.stubhub.ie/kings-of-leon-new-york-tickets-10-15-2027/event/107680753 | - |
 | tm-mercyme-2027-johnson-city-z7r9jz1aa7mot | MercyMe | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-gary-allan-2027-thackerville-z7r9jz1aaaz4v | Gary Allan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-meshuggah-2027-new-haven-z7r9jz1aa7t0i | Meshuggah | none | 107678637 | https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637 | - |
+| tm-meshuggah-2027-new-haven-z7r9jz1aa7t0i | Meshuggah | refresh (applied) | 107678637 | https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637 | - |
 | tm-breaking-benjamin-2027-cedar-rapids-vv1akzk49gkd1-vah | Breaking Benjamin | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-breaking-benjamin-2027-kalamazoo-z7r9jz1aa7mr3 | Breaking Benjamin | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-breaking-benjamin-2027-fort-wayne-vv1aazk4pgkde48xz | Breaking Benjamin | none | - | - | no qualifying listing (complete catalog checked) |
@@ -3914,71 +3878,70 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-breaking-benjamin-2027-greenville-g5evz_4bqa6if | Breaking Benjamin | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-breaking-benjamin-2027-savannah-vvg1zz_4hoixed | Breaking Benjamin | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-breaking-benjamin-2027-atlantic-city-vv1aezk49gkdmxvx- | Breaking Benjamin | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-feid-2027-orlando-1axzk4xgkdpcfe6 | FEID | none | 107680710 | https://www.stubhub.ie/feid-orlando-tickets-2-5-2027/event/107680710 | - |
-| tm-feid-2027-tampa-vvg1vz_p2nz_05 | FEID | none | 107681460 | https://www.stubhub.ie/feid-tampa-tickets-2-6-2027/event/107681460 | - |
-| tm-feid-2027-miami-vvg1vz_p5_ebxl | FEID | none | 107680293 | https://www.stubhub.ie/feid-miami-tickets-2-11-2027/event/107680293 | - |
+| tm-feid-2027-orlando-1axzk4xgkdpcfe6 | FEID | refresh (applied) | 107680710 | https://www.stubhub.ie/feid-orlando-tickets-2-5-2027/event/107680710 | - |
+| tm-feid-2027-tampa-vvg1vz_p2nz_05 | FEID | refresh (applied) | 107681460 | https://www.stubhub.ie/feid-tampa-tickets-2-6-2027/event/107681460 | - |
+| tm-feid-2027-miami-vvg1vz_p5_ebxl | FEID | refresh (applied) | 107680293 | https://www.stubhub.ie/feid-miami-tickets-2-11-2027/event/107680293 | - |
 | tm-feid-2027-duluth-vvg1zz_p1ly9za | FEID | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-feid-2027-charlotte-g5evz_p1wkize | FEID | none | 107681453 | https://www.stubhub.ie/feid-charlotte-tickets-2-20-2027/event/107681453 | - |
-| tm-feid-2027-boston-vv1a8vpbygagvprx | FEID | none | 107680712 | https://www.stubhub.ie/feid-boston-tickets-2-23-2027/event/107680712 | - |
-| tm-feid-2027-washington-15vfz_ffz04-_ | FEID | none | 107680295 | https://www.stubhub.ie/feid-washington-tickets-2-25-2027/event/107680295 | - |
-| tm-feid-2027-philadelphia-1ayzk4pgkel60vj | FEID | add (applied) | 107680296 | https://www.stubhub.ie/feid-philadelphia-tickets-2-26-2027/event/107680296 | - |
-| tm-feid-2027-brooklyn-16dzz_p3og7m3pl | FEID | none | 107680713 | https://www.stubhub.ie/feid-brooklyn-tickets-3-3-2027/event/107680713 | - |
+| tm-feid-2027-charlotte-g5evz_p1wkize | FEID | refresh (applied) | 107681453 | https://www.stubhub.ie/feid-charlotte-tickets-2-20-2027/event/107681453 | - |
+| tm-feid-2027-boston-vv1a8vpbygagvprx | FEID | refresh (applied) | 107680712 | https://www.stubhub.ie/feid-boston-tickets-2-23-2027/event/107680712 | - |
+| tm-feid-2027-washington-15vfz_ffz04-_ | FEID | refresh (applied) | 107680295 | https://www.stubhub.ie/feid-washington-tickets-2-25-2027/event/107680295 | - |
+| tm-feid-2027-philadelphia-1ayzk4pgkel60vj | FEID | refresh (applied) | 107680296 | https://www.stubhub.ie/feid-philadelphia-tickets-2-26-2027/event/107680296 | - |
+| tm-feid-2027-brooklyn-16dzz_p3og7m3pl | FEID | refresh (applied) | 107680713 | https://www.stubhub.ie/feid-brooklyn-tickets-3-3-2027/event/107680713 | - |
 | tm-feid-2027-toronto-1a8zk4xgkenbgje | FEID | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-feid-2027-montreal-1ad7z_4gkd0zh9f | FEID | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-feid-2027-chicago-vv1a7zk4xgkdhjeow | FEID | none | 107680719 | https://www.stubhub.ie/feid-chicago-tickets-3-18-2027/event/107680719 | - |
-| tm-feid-2027-dallas-vvg1yz_pkmsn11 | FEID | none | 107681458 | https://www.stubhub.ie/feid-dallas-tickets-3-24-2027/event/107681458 | - |
-| tm-feid-2027-austin-g5diz_pkrkhdd | FEID | add (applied) | 107680721 | https://www.stubhub.ie/feid-austin-tickets-3-26-2027/event/107680721 | - |
-| tm-feid-2027-denver-g5vzz_pkrlpf6 | FEID | none | 107681444 | https://www.stubhub.ie/feid-denver-tickets-3-31-2027/event/107681444 | - |
-| tm-feid-2027-seattle-vvg1hz_pkvb_3- | FEID | add (applied) | 107680297 | https://www.stubhub.ie/feid-seattle-tickets-4-4-2027/event/107680297 | - |
-| tm-feid-2027-portland-vvg1hz_pckgfmh | FEID | none | 107681488 | https://www.stubhub.ie/feid-portland-tickets-4-6-2027/event/107681488 | - |
-| tm-feid-2027-sacramento-g5vyz_p5pdckj | FEID | add (applied) | 107680723 | https://www.stubhub.ie/feid-sacramento-tickets-4-8-2027/event/107680723 | - |
-| tm-feid-2027-san-francisco-g5vyz_p1g3qkq | FEID | add (applied) | 107680726 | https://www.stubhub.ie/feid-san-francisco-tickets-4-10-2027/event/107680726 | - |
-| tm-feid-2027-san-jose-g5vyz_p5keuz1 | FEID | add (applied) | 107680727 | https://www.stubhub.ie/feid-san-jose-tickets-4-11-2027/event/107680727 | - |
-| tm-feid-2027-fresno-g5vyz_pcewaox | FEID | none | 107681487 | https://www.stubhub.ie/feid-fresno-tickets-4-13-2027/event/107681487 | - |
-| tm-feid-2027-phoenix-1a_zk4ngkd1yaxd | FEID | none | 107681464 | https://www.stubhub.ie/feid-phoenix-tickets-4-15-2027/event/107681464 | - |
+| tm-feid-2027-chicago-vv1a7zk4xgkdhjeow | FEID | refresh (applied) | 107680719 | https://www.stubhub.ie/feid-chicago-tickets-3-18-2027/event/107680719 | - |
+| tm-feid-2027-dallas-vvg1yz_pkmsn11 | FEID | refresh (applied) | 107681458 | https://www.stubhub.ie/feid-dallas-tickets-3-24-2027/event/107681458 | - |
+| tm-feid-2027-austin-g5diz_pkrkhdd | FEID | refresh (applied) | 107680721 | https://www.stubhub.ie/feid-austin-tickets-3-26-2027/event/107680721 | - |
+| tm-feid-2027-denver-g5vzz_pkrlpf6 | FEID | refresh (applied) | 107681444 | https://www.stubhub.ie/feid-denver-tickets-3-31-2027/event/107681444 | - |
+| tm-feid-2027-seattle-vvg1hz_pkvb_3- | FEID | refresh (applied) | 107680297 | https://www.stubhub.ie/feid-seattle-tickets-4-4-2027/event/107680297 | - |
+| tm-feid-2027-portland-vvg1hz_pckgfmh | FEID | refresh (applied) | 107681488 | https://www.stubhub.ie/feid-portland-tickets-4-6-2027/event/107681488 | - |
+| tm-feid-2027-sacramento-g5vyz_p5pdckj | FEID | refresh (applied) | 107680723 | https://www.stubhub.ie/feid-sacramento-tickets-4-8-2027/event/107680723 | - |
+| tm-feid-2027-san-francisco-g5vyz_p1g3qkq | FEID | refresh (applied) | 107680726 | https://www.stubhub.ie/feid-san-francisco-tickets-4-10-2027/event/107680726 | - |
+| tm-feid-2027-san-jose-g5vyz_p5keuz1 | FEID | refresh (applied) | 107680727 | https://www.stubhub.ie/feid-san-jose-tickets-4-11-2027/event/107680727 | - |
+| tm-feid-2027-fresno-g5vyz_pcewaox | FEID | refresh (applied) | 107681487 | https://www.stubhub.ie/feid-fresno-tickets-4-13-2027/event/107681487 | - |
+| tm-feid-2027-phoenix-1a_zk4ngkd1yaxd | FEID | refresh (applied) | 107681464 | https://www.stubhub.ie/feid-phoenix-tickets-4-15-2027/event/107681464 | - |
 | tm-feid-2027-san-diego-vvg1iz_p2x3bok | FEID | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-feid-2027-anaheim-vv1aazk4ngkd1rclp | FEID | none | 107680299 | https://www.stubhub.ie/feid-anaheim-tickets-4-25-2027/event/107680299 | - |
-| tm-feid-2027-inglewood-vv1aazk4ngkdggctr | FEID | none | 107680733 | https://www.stubhub.ie/feid-inglewood-tickets-4-29-2027/event/107680733 | - |
+| tm-feid-2027-anaheim-vv1aazk4ngkd1rclp | FEID | refresh (applied) | 107680299 | https://www.stubhub.ie/feid-anaheim-tickets-4-25-2027/event/107680299 | - |
+| tm-feid-2027-inglewood-vv1aazk4ngkdggctr | FEID | refresh (applied) | 107680733 | https://www.stubhub.ie/feid-inglewood-tickets-4-29-2027/event/107680733 | - |
 | tm-feid-2027-tlajomulco-de-zuniga-g5dvz_p310vkr | FEID | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0z0z | FEID | none | 107681349 | https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-21-5-2027/event/107681349 | - |
+| tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0z0z | FEID | refresh (applied) | 107681349 | https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-21-5-2027/event/107681349 | - |
 | tm-raye-2027-bergen-z698xzb_z16vgzpeao | RAYE | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-a-boogie-wit-da-hoodie-2027-london-1agzk4ngkdo79wi | A Boogie Wit Da Hoodie | none | 107680811 | https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-the-o2-arena-27-1-2027/event/107680811 | - |
-| tm-a-boogie-wit-da-hoodie-2027-manchester-1amzk40gkdjyurt | A Boogie Wit Da Hoodie | none | 107680659 | https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-29-1-2027/event/107680659 | - |
-| tm-mariah-carey-2027-exeter-g5vhz_f0acb90 | Mariah Carey | none | 107680288 | https://www.stubhub.ie/mariah-carey-tickets-exeter-powderham-castle-27-6-2027/event/107680288 | - |
-| tm-mariah-carey-2027-cardiff-g5vhz_feidjq8 | Mariah Carey | none | 107680285 | https://www.stubhub.ie/mariah-carey-tickets-cardiff-cardiff-castle-29-6-2027/event/107680285 | - |
-| tm-mariah-carey-2027-woodstock-1amzk4pgkevlzix | Mariah Carey | add (applied) | 107680273 | https://www.stubhub.ie/mariah-carey-tickets-woodstock-blenheim-palace-1-7-2027/event/107680273 | - |
-| tm-mariah-carey-2027-scarborough-1agzk49gkd3hqbt | Mariah Carey | none | 107680279 | https://www.stubhub.ie/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-3-7-2027/event/107680279 | - |
+| tm-a-boogie-wit-da-hoodie-2027-london-1agzk4ngkdo79wi | A Boogie Wit Da Hoodie | refresh (applied) | 107680811 | https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-the-o2-arena-27-1-2027/event/107680811 | - |
+| tm-a-boogie-wit-da-hoodie-2027-manchester-1amzk40gkdjyurt | A Boogie Wit Da Hoodie | refresh (applied) | 107680659 | https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-29-1-2027/event/107680659 | - |
+| tm-mariah-carey-2027-exeter-g5vhz_f0acb90 | Mariah Carey | refresh (applied) | 107680288 | https://www.stubhub.ie/mariah-carey-tickets-exeter-powderham-castle-27-6-2027/event/107680288 | - |
+| tm-mariah-carey-2027-cardiff-g5vhz_feidjq8 | Mariah Carey | refresh (applied) | 107680285 | https://www.stubhub.ie/mariah-carey-tickets-cardiff-cardiff-castle-29-6-2027/event/107680285 | - |
+| tm-mariah-carey-2027-scarborough-1agzk49gkd3hqbt | Mariah Carey | refresh (applied) | 107680279 | https://www.stubhub.ie/mariah-carey-tickets-scarborough-scarborough-open-air-theatre-3-7-2027/event/107680279 | - |
 | tm-fall-out-boy-2027-praha-9-z698xzu0z16eepqfuf | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
 | tm-fall-out-boy-2027-assago-zg9rmiynyzf1fa | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fall-out-boy-2027-madrid-z698xz2qz1k83o_fe | Fall Out Boy | none | 107680313 | https://www.stubhub.ie/fall-out-boy-tickets-madrid-movistar-arena-palacio-de-los-deportes-23-5-2027/event/107680313 | - |
-| tm-fall-out-boy-2027-brussels-z698xzg2z16vfjc3ef | Fall Out Boy | none | 107681327 | https://www.stubhub.ie/fall-out-boy-tickets-brussels-ing-arena-27-5-2027/event/107681327 | - |
-| tm-fall-out-boy-2027-glasgow-1kuovp_ega1oorm | Fall Out Boy | none | 107680316 | https://www.stubhub.ie/fall-out-boy-tickets-glasgow-ovo-hydro-arena-glasgow-30-5-2027/event/107680316 | - |
+| tm-fall-out-boy-2027-madrid-z698xz2qz1k83o_fe | Fall Out Boy | refresh (applied) | 107680313 | https://www.stubhub.ie/fall-out-boy-tickets-madrid-movistar-arena-palacio-de-los-deportes-23-5-2027/event/107680313 | - |
+| tm-fall-out-boy-2027-brussels-z698xzg2z16vfjc3ef | Fall Out Boy | refresh (applied) | 107681327 | https://www.stubhub.ie/fall-out-boy-tickets-brussels-ing-arena-27-5-2027/event/107681327 | - |
+| tm-fall-out-boy-2027-glasgow-1kuovp_ega1oorm | Fall Out Boy | refresh (applied) | 107680316 | https://www.stubhub.ie/fall-out-boy-tickets-glasgow-ovo-hydro-arena-glasgow-30-5-2027/event/107680316 | - |
 | tm-fall-out-boy-2027-dublin-1abzk4xgkdbhdty | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fall-out-boy-2027-manchester-1amzk4pgkdukzs6 | Fall Out Boy | none | 107681319 | https://www.stubhub.ie/fall-out-boy-tickets-manchester-co-op-live-3-6-2027/event/107681319 | - |
-| tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa | Fall Out Boy | none | 107680315 | https://www.stubhub.ie/fall-out-boy-tickets-london-tottenham-hotspur-stadium-5-6-2027/event/107680315 | - |
-| tm-fall-out-boy-2027-amsterdam-z698xzbpz16vv-vwva | Fall Out Boy | none | 107681325 | https://www.stubhub.ie/fall-out-boy-tickets-amsterdam-ziggo-dome-8-6-2027/event/107681325 | - |
-| tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj | Fall Out Boy | none | 107680762 | https://www.stubhub.ie/fall-out-boy-tickets-lodz-atlas-arena-13-6-2027/event/107680762 | - |
-| tm-fall-out-boy-2027-arlington-vvg1yz_potb4m0 | Fall Out Boy | add (applied) | 107680873 | https://www.stubhub.ie/fall-out-boy-arlington-tickets-7-13-2027/event/107680873 | - |
-| tm-fall-out-boy-2027-atlanta-vvg1zz_pkn5gmk | Fall Out Boy | add (applied) | 107680883 | https://www.stubhub.ie/fall-out-boy-atlanta-tickets-7-16-2027/event/107680883 | - |
-| tm-fall-out-boy-2027-washington-1avfz_4gkhvu21c | Fall Out Boy | add (applied) | 107680890 | https://www.stubhub.ie/fall-out-boy-washington-tickets-7-18-2027/event/107680890 | - |
+| tm-fall-out-boy-2027-manchester-1amzk4pgkdukzs6 | Fall Out Boy | refresh (applied) | 107681319 | https://www.stubhub.ie/fall-out-boy-tickets-manchester-co-op-live-3-6-2027/event/107681319 | - |
+| tm-fall-out-boy-2027-london-1adfz_4gkxmx9xa | Fall Out Boy | refresh (applied) | 107680315 | https://www.stubhub.ie/fall-out-boy-tickets-london-tottenham-hotspur-stadium-5-6-2027/event/107680315 | - |
+| tm-fall-out-boy-2027-amsterdam-z698xzbpz16vv-vwva | Fall Out Boy | refresh (applied) | 107681325 | https://www.stubhub.ie/fall-out-boy-tickets-amsterdam-ziggo-dome-8-6-2027/event/107681325 | - |
+| tm-fall-out-boy-2027-odz-z698xzqpz16evyz9fj | Fall Out Boy | refresh (applied) | 107680762 | https://www.stubhub.ie/fall-out-boy-tickets-lodz-atlas-arena-13-6-2027/event/107680762 | - |
+| tm-fall-out-boy-2027-arlington-vvg1yz_potb4m0 | Fall Out Boy | refresh (applied) | 107680873 | https://www.stubhub.ie/fall-out-boy-arlington-tickets-7-13-2027/event/107680873 | - |
+| tm-fall-out-boy-2027-atlanta-vvg1zz_pkn5gmk | Fall Out Boy | refresh (applied) | 107680883 | https://www.stubhub.ie/fall-out-boy-atlanta-tickets-7-16-2027/event/107680883 | - |
+| tm-fall-out-boy-2027-washington-1avfz_4gkhvu21c | Fall Out Boy | refresh (applied) | 107680890 | https://www.stubhub.ie/fall-out-boy-washington-tickets-7-18-2027/event/107680890 | - |
 | tm-fall-out-boy-2027-detroit-vv1afzk4jgkdvw4eb | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fall-out-boy-2027-toronto-1a8zk40gkdutc4w | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fall-out-boy-2027-chicago-vv118z_pqp44qd | Fall Out Boy | add (applied) | 107680891 | https://www.stubhub.ie/fall-out-boy-chicago-tickets-7-24-2027/event/107680891 | - |
-| tm-fall-out-boy-2027-boston-vv1avzk4ngkenvma1 | Fall Out Boy | add (applied) | 107680899 | https://www.stubhub.ie/fall-out-boy-boston-tickets-7-30-2027/event/107680899 | - |
+| tm-fall-out-boy-2027-chicago-vv118z_pqp44qd | Fall Out Boy | refresh (applied) | 107680891 | https://www.stubhub.ie/fall-out-boy-chicago-tickets-7-24-2027/event/107680891 | - |
+| tm-fall-out-boy-2027-boston-vv1avzk4ngkenvma1 | Fall Out Boy | refresh (applied) | 107680899 | https://www.stubhub.ie/fall-out-boy-boston-tickets-7-30-2027/event/107680899 | - |
 | tm-fall-out-boy-2027-queens-g5vvz_pkqtkyp | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch) |
-| tm-fall-out-boy-2027-atlantic-city-vv1aezk4pgkdw5r4k | Fall Out Boy | add (applied) | 107680909 | https://www.stubhub.ie/fall-out-boy-atlantic-city-tickets-8-3-2027/event/107680909 | - |
+| tm-fall-out-boy-2027-atlantic-city-vv1aezk4pgkdw5r4k | Fall Out Boy | refresh (applied) | 107680909 | https://www.stubhub.ie/fall-out-boy-atlantic-city-tickets-8-3-2027/event/107680909 | - |
 | tm-fall-out-boy-2027-hershey-vv1aezk40gkd_hdkn | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fall-out-boy-2027-kansas-city-1a-zk40gkd1psok | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fall-out-boy-2027-commerce-city-g5vzz_p3slsmj | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-fall-out-boy-2027-san-francisco-g5vyz_p3s9d3l | Fall Out Boy | add (applied) | 107680887 | https://www.stubhub.ie/fall-out-boy-san-francisco-tickets-8-15-2027/event/107680887 | - |
-| tm-fall-out-boy-2027-san-diego-vvg1iz_pc9ifhq | Fall Out Boy | add (applied) | 107680897 | https://www.stubhub.ie/fall-out-boy-san-diego-tickets-8-17-2027/event/107680897 | - |
-| tm-fall-out-boy-2027-phoenix-1a_zk4xgkdxdu-e | Fall Out Boy | add (applied) | 107680884 | https://www.stubhub.ie/fall-out-boy-phoenix-tickets-8-19-2027/event/107680884 | - |
-| tm-fall-out-boy-2027-los-angeles-vvg1iz_p4zt_kr | Fall Out Boy | add (applied) | 107680861 | https://www.stubhub.ie/fall-out-boy-los-angeles-tickets-8-21-2027/event/107680861 | - |
+| tm-fall-out-boy-2027-san-francisco-g5vyz_p3s9d3l | Fall Out Boy | refresh (applied) | 107680887 | https://www.stubhub.ie/fall-out-boy-san-francisco-tickets-8-15-2027/event/107680887 | - |
+| tm-fall-out-boy-2027-san-diego-vvg1iz_pc9ifhq | Fall Out Boy | refresh (applied) | 107680897 | https://www.stubhub.ie/fall-out-boy-san-diego-tickets-8-17-2027/event/107680897 | - |
+| tm-fall-out-boy-2027-phoenix-1a_zk4xgkdxdu-e | Fall Out Boy | refresh (applied) | 107680884 | https://www.stubhub.ie/fall-out-boy-phoenix-tickets-8-19-2027/event/107680884 | - |
+| tm-fall-out-boy-2027-los-angeles-vvg1iz_p4zt_kr | Fall Out Boy | refresh (applied) | 107680861 | https://www.stubhub.ie/fall-out-boy-los-angeles-tickets-8-21-2027/event/107680861 | - |
 | tm-fall-out-boy-2027-portland-z7r9jz1aaaa0k | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-dead-south-2027-london-g5dzz_gjibvci | The Dead South | none | 107441078 | https://www.stubhub.ie/the-dead-south-tickets-london-o2-academy-brixton-5-3-2027/event/107441078 | - |
+| tm-the-dead-south-2027-london-g5dzz_gjibvci | The Dead South | refresh (applied) | 107441078 | https://www.stubhub.ie/the-dead-south-tickets-london-o2-academy-brixton-5-3-2027/event/107441078 | - |
 | tm-the-dead-south-2027-manchester-17u8v0g6gm8i6t0 | The Dead South | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-the-dead-south-2027-wolverhampton-g5vhz_2b_qppl | The Dead South | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-the-dead-south-2027-cardiff-17uov0g6gpgz4uf | The Dead South | none | 107442079 | https://www.stubhub.ie/the-dead-south-tickets-cardiff-utilita-arena-cardiff-12-3-2027/event/107442079 | - |
+| tm-the-dead-south-2027-cardiff-17uov0g6gpgz4uf | The Dead South | refresh (applied) | 107442079 | https://www.stubhub.ie/the-dead-south-tickets-cardiff-utilita-arena-cardiff-12-3-2027/event/107442079 | - |
 | tm-the-dead-south-2027-dublin-17kzv0g6gpgt8iq | The Dead South | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-dead-south-2027-dublin-17kzv0g6gpgtyir | The Dead South | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-dead-south-2027-silver-spring-1avfz_4gktp2lu0 | The Dead South | none | - | - | no qualifying listing (complete catalog checked) |
@@ -4001,18 +3964,18 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-alan-walker-2027-orlando-1axzk4vgkeuzkdw | Alan Walker | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2027-nottingham-g5vhz_ph339p8 | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-dylan-gossett-2027-bournemouth-g5dzz_pjb4swt | Dylan Gossett | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-stray-kids-2027-seattle-vvg1hz_pf4iifz | Stray Kids | none | 107680736 | https://www.stubhub.ie/stray-kids-seattle-tickets-5-16-2027/event/107680736 | - |
-| tm-stray-kids-2027-vancouver-1aozk4pgkepqkay | Stray Kids | none | 107680740 | https://www.stubhub.ie/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/event/107680740 | - |
-| tm-stray-kids-2027-santa-clara-g5vyz_p1srtgv | Stray Kids | none | 107680741 | https://www.stubhub.ie/stray-kids-santa-clara-tickets-5-22-2027/event/107680741 | - |
-| tm-stray-kids-2027-san-diego-vvg1iz_plbqdhe | Stray Kids | none | 107681345 | https://www.stubhub.ie/stray-kids-san-diego-tickets-5-25-2027/event/107681345 | - |
-| tm-stray-kids-2027-inglewood-vvg1iz_4slsivl | Stray Kids | none | 107680300 | https://www.stubhub.ie/stray-kids-inglewood-tickets-5-29-2027/event/107680300 | - |
-| tm-stray-kids-2027-houston-g5diz_p4wwnf8 | Stray Kids | none | 107681340 | https://www.stubhub.ie/stray-kids-houston-tickets-6-5-2027/event/107681340 | - |
-| tm-stray-kids-2027-atlanta-vvg1zz_phzq3g7 | Stray Kids | none | 107680301 | https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301 | - |
-| tm-stray-kids-2027-miami-vvg1vz_ppnraxv | Stray Kids | none | 107680302 | https://www.stubhub.ie/stray-kids-miami-gardens-tickets-6-11-2027/event/107680302 | - |
-| tm-stray-kids-2027-orlando-1axzk40gkdehatj | Stray Kids | none | 107680790 | https://www.stubhub.ie/stray-kids-orlando-tickets-6-14-2027/event/107680790 | - |
-| tm-stray-kids-2027-chicago-vv1a7zk4ngkdhgi8m | Stray Kids | none | 107680744 | https://www.stubhub.ie/stray-kids-chicago-tickets-6-18-2027/event/107680744 | - |
+| tm-stray-kids-2027-seattle-vvg1hz_pf4iifz | Stray Kids | refresh (applied) | 107680736 | https://www.stubhub.ie/stray-kids-seattle-tickets-5-16-2027/event/107680736 | - |
+| tm-stray-kids-2027-vancouver-1aozk4pgkepqkay | Stray Kids | refresh (applied) | 107680740 | https://www.stubhub.ie/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/event/107680740 | - |
+| tm-stray-kids-2027-santa-clara-g5vyz_p1srtgv | Stray Kids | refresh (applied) | 107680741 | https://www.stubhub.ie/stray-kids-santa-clara-tickets-5-22-2027/event/107680741 | - |
+| tm-stray-kids-2027-san-diego-vvg1iz_plbqdhe | Stray Kids | refresh (applied) | 107681345 | https://www.stubhub.ie/stray-kids-san-diego-tickets-5-25-2027/event/107681345 | - |
+| tm-stray-kids-2027-inglewood-vvg1iz_4slsivl | Stray Kids | refresh (applied) | 107680300 | https://www.stubhub.ie/stray-kids-inglewood-tickets-5-29-2027/event/107680300 | - |
+| tm-stray-kids-2027-houston-g5diz_p4wwnf8 | Stray Kids | refresh (applied) | 107681340 | https://www.stubhub.ie/stray-kids-houston-tickets-6-5-2027/event/107681340 | - |
+| tm-stray-kids-2027-atlanta-vvg1zz_phzq3g7 | Stray Kids | refresh (applied) | 107680301 | https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301 | - |
+| tm-stray-kids-2027-miami-vvg1vz_ppnraxv | Stray Kids | refresh (applied) | 107680302 | https://www.stubhub.ie/stray-kids-miami-gardens-tickets-6-11-2027/event/107680302 | - |
+| tm-stray-kids-2027-orlando-1axzk40gkdehatj | Stray Kids | refresh (applied) | 107680790 | https://www.stubhub.ie/stray-kids-orlando-tickets-6-14-2027/event/107680790 | - |
+| tm-stray-kids-2027-chicago-vv1a7zk4ngkdhgi8m | Stray Kids | refresh (applied) | 107680744 | https://www.stubhub.ie/stray-kids-chicago-tickets-6-18-2027/event/107680744 | - |
 | tm-stray-kids-2027-toronto-1avzz_4gkdmari8 | Stray Kids | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-stray-kids-2027-east-rutherford-k7vgf_pcnx6a9 | Stray Kids | none | 107680746 | https://www.stubhub.ie/stray-kids-east-rutherford-tickets-6-29-2027/event/107680746 | - |
+| tm-stray-kids-2027-east-rutherford-k7vgf_pcnx6a9 | Stray Kids | refresh (applied) | 107680746 | https://www.stubhub.ie/stray-kids-east-rutherford-tickets-6-29-2027/event/107680746 | - |
 | tm-stray-kids-2027-munich-z698xzc2z1kazaygz | Stray Kids | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stray-kids-2027-vienna-z698xz5rz16vofpore | Stray Kids | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-stray-kids-2027-barcelona-z698xz2qz16vod48ea | Stray Kids | none | - | - | no qualifying listing (complete catalog checked) |
@@ -4025,16 +3988,16 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-dropkick-murphys-2027-lexington-1apzk48gkdukuzi | Dropkick Murphys | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-marc-anthony-2027-toronto-1avzz_fgkd8tkbf | Marc Anthony | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-marc-anthony-2027-montreal-1aszk4vgkd9di_a | Marc Anthony | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
-| tm-marc-anthony-2027-brooklyn-1kgzvponga5jat7 | Marc Anthony | none | 107680298 | https://www.stubhub.ie/marc-anthony-brooklyn-tickets-4-8-2027/event/107680298 | - |
+| tm-marc-anthony-2027-brooklyn-1kgzvponga5jat7 | Marc Anthony | refresh (applied) | 107680298 | https://www.stubhub.ie/marc-anthony-brooklyn-tickets-4-8-2027/event/107680298 | - |
 | tm-marc-anthony-2027-reading-vv17fz_fgkxhnllx | Marc Anthony | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-marc-anthony-2027-newark-vv1aezk44gkdq27w- | Marc Anthony | none | 107680728 | https://www.stubhub.ie/marc-anthony-newark-tickets-4-15-2027/event/107680728 | - |
-| tm-marc-anthony-2027-chicago-vv1a7zk48gkervqur | Marc Anthony | none | 107680731 | https://www.stubhub.ie/marc-anthony-chicago-tickets-4-17-2027/event/107680731 | - |
-| tm-marc-anthony-2027-charlotte-g5evz_flstq5b | Marc Anthony | none | 107680309 | https://www.stubhub.ie/marc-anthony-charlotte-tickets-4-23-2027/event/107680309 | - |
-| tm-marc-anthony-2027-tampa-vvg1vz_fqozpda | Marc Anthony | none | 107680757 | https://www.stubhub.ie/marc-anthony-tampa-tickets-4-25-2027/event/107680757 | - |
-| tm-marc-anthony-2027-san-antonio-g5diz_fdkjtum | Marc Anthony | none | 107680732 | https://www.stubhub.ie/marc-anthony-san-antonio-tickets-4-29-2027/event/107680732 | - |
-| tm-marc-anthony-2027-anaheim-vv170z_fgkmcohlk | Marc Anthony | none | 107680735 | https://www.stubhub.ie/marc-anthony-anaheim-tickets-5-9-2027/event/107680735 | - |
-| tm-marc-anthony-2027-denver-g5vzz_fdioiid | Marc Anthony | none | 107680310 | https://www.stubhub.ie/marc-anthony-denver-tickets-5-13-2027/event/107680310 | - |
-| tm-marc-anthony-2027-san-francisco-g5vyz_4uwqlns | Marc Anthony | none | 107680738 | https://www.stubhub.ie/marc-anthony-san-francisco-tickets-5-16-2027/event/107680738 | - |
+| tm-marc-anthony-2027-newark-vv1aezk44gkdq27w- | Marc Anthony | refresh (applied) | 107680728 | https://www.stubhub.ie/marc-anthony-newark-tickets-4-15-2027/event/107680728 | - |
+| tm-marc-anthony-2027-chicago-vv1a7zk48gkervqur | Marc Anthony | refresh (applied) | 107680731 | https://www.stubhub.ie/marc-anthony-chicago-tickets-4-17-2027/event/107680731 | - |
+| tm-marc-anthony-2027-charlotte-g5evz_flstq5b | Marc Anthony | refresh (applied) | 107680309 | https://www.stubhub.ie/marc-anthony-charlotte-tickets-4-23-2027/event/107680309 | - |
+| tm-marc-anthony-2027-tampa-vvg1vz_fqozpda | Marc Anthony | refresh (applied) | 107680757 | https://www.stubhub.ie/marc-anthony-tampa-tickets-4-25-2027/event/107680757 | - |
+| tm-marc-anthony-2027-san-antonio-g5diz_fdkjtum | Marc Anthony | refresh (applied) | 107680732 | https://www.stubhub.ie/marc-anthony-san-antonio-tickets-4-29-2027/event/107680732 | - |
+| tm-marc-anthony-2027-anaheim-vv170z_fgkmcohlk | Marc Anthony | refresh (applied) | 107680735 | https://www.stubhub.ie/marc-anthony-anaheim-tickets-5-9-2027/event/107680735 | - |
+| tm-marc-anthony-2027-denver-g5vzz_fdioiid | Marc Anthony | refresh (applied) | 107680310 | https://www.stubhub.ie/marc-anthony-denver-tickets-5-13-2027/event/107680310 | - |
+| tm-marc-anthony-2027-san-francisco-g5vyz_4uwqlns | Marc Anthony | refresh (applied) | 107680738 | https://www.stubhub.ie/marc-anthony-san-francisco-tickets-5-16-2027/event/107680738 | - |
 | tm-air-supply-2027-wallingford-g5vvz_4snzvtx | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-air-supply-2027-valley-center-vvg1iz_p3nhurb | Air Supply | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-the-avett-brothers-2027-orlando-1axzk4egkex8si1 | The Avett Brothers | none | - | - | no qualifying listing (complete catalog checked) |
@@ -4043,7 +4006,7 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sienna-spiro-2027-dublin-1avoz_4gkuvegeh | Sienna Spiro | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-daughtry-2027-columbus-vv1ffz_pq6pszd2kv | Daughtry | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-noah-kahan-2027-detroit-vv1koz_pjag7zyra | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-noah-kahan-2027-east-rutherford-k7vgf_pevlzwu | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-noah-kahan-2027-east-rutherford-k7vgf_pevlzwu | Noah Kahan | add (applied) | 107681952 | https://www.stubhub.ie/noah-kahan-east-rutherford-tickets-6-19-2027/event/107681952 | - |
 | tm-journey-2027-stateline-1kayvp_vgacrke8 | Journey | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-journey-2027-stateline-1kayvp_vgacljep | Journey | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-leon-bridges-2027-honolulu-vvg1iz_4bdasgg | Leon Bridges | none | - | - | no qualifying listing (complete catalog checked) |
@@ -4058,8 +4021,8 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-billy-strings-2027-birmingham-1aozk4tgkd5x7_7 | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-saint-louis-vv1kvovpq_ga29ugj | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-billy-strings-2027-saint-louis-vv1akzk4tgkdq3l2w | Billy Strings | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0zp7 | FEID | none | 107681619 | https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-22-5-2027/event/107681619 | - |
-| tm-fall-out-boy-2027-seattle-vvg1hz_p5fubur | Fall Out Boy | add (applied) | 107680954 | https://www.stubhub.ie/fall-out-boy-seattle-tickets-8-24-2027/event/107680954 | - |
+| tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0zp7 | FEID | refresh (applied) | 107681619 | https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-22-5-2027/event/107681619 | - |
+| tm-fall-out-boy-2027-seattle-vvg1hz_p5fubur | Fall Out Boy | refresh (applied) | 107680954 | https://www.stubhub.ie/fall-out-boy-seattle-tickets-8-24-2027/event/107680954 | - |
 | tm-garth-brooks-2026-minneapolis-z7r9jz1aaaagg | Garth Brooks | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-chris-stassy-2027-west-footscray-1apzk4fgket404h | Chris Stassy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-mumford-sons-2027-st-john-s-z7r9jz1aaakg4 | Mumford & Sons | none | - | - | no qualifying listing (complete catalog checked) |
@@ -4089,10 +4052,10 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-noah-kahan-2027-norman-z7r9jz1aa7wuw | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-noah-kahan-2027-austin-z7r9jz1aa7wob | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch) |
 | tm-noah-kahan-2027-madison-z7r9jz1aa7w8x | Noah Kahan | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-noah-kahan-2027-boston-z7r9jz1aa7wo7 | Noah Kahan | none | 107679491 | https://www.stubhub.ie/noah-kahan-boston-tickets-5-29-2027/event/107679491 | - |
-| tm-noah-kahan-2027-boston-z7r9jz1aa7wof | Noah Kahan | none | 107679492 | https://www.stubhub.ie/noah-kahan-boston-tickets-5-30-2027/event/107679492 | - |
-| tm-noah-kahan-2027-boston-z7r9jz1aa7wo4 | Noah Kahan | none | 107679493 | https://www.stubhub.ie/noah-kahan-boston-tickets-6-1-2027/event/107679493 | - |
-| tm-noah-kahan-2027-boston-z7r9jz1aa7wo9 | Noah Kahan | none | 107678748 | https://www.stubhub.ie/noah-kahan-boston-tickets-6-2-2027/event/107678748 | - |
+| tm-noah-kahan-2027-boston-z7r9jz1aa7wo7 | Noah Kahan | refresh (applied) | 107679491 | https://www.stubhub.ie/noah-kahan-boston-tickets-5-29-2027/event/107679491 | - |
+| tm-noah-kahan-2027-boston-z7r9jz1aa7wof | Noah Kahan | refresh (applied) | 107679492 | https://www.stubhub.ie/noah-kahan-boston-tickets-5-30-2027/event/107679492 | - |
+| tm-noah-kahan-2027-boston-z7r9jz1aa7wo4 | Noah Kahan | refresh (applied) | 107679493 | https://www.stubhub.ie/noah-kahan-boston-tickets-6-1-2027/event/107679493 | - |
+| tm-noah-kahan-2027-boston-z7r9jz1aa7wo9 | Noah Kahan | refresh (applied) | 107678748 | https://www.stubhub.ie/noah-kahan-boston-tickets-6-2-2027/event/107678748 | - |
 | tm-phoebe-bridgers-2027-portland-vvg1hz_pjbo4da | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phoebe-bridgers-2027-spokane-z7r9jz1aaa8z4 | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-phoebe-bridgers-2027-edmonton-1aozk4jgkd7ky7- | Phoebe Bridgers | none | - | - | no qualifying listing (complete catalog checked) |
@@ -4126,14 +4089,14 @@ unambiguous listing whose artist, venue, city and venue-local date all agree.
 | tm-sam-fender-2027-seattle-vvg1hz_pmbc1yg | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-sam-fender-2027-vancouver-16ozk4ekdza2k2ve | Sam Fender | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-feid-2027-hartford-z7r9jz1aaad3z | FEID | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-feid-2027-houston-z7r9jz1aaad3v | FEID | none | 107681450 | https://www.stubhub.ie/feid-houston-tickets-3-25-2027/event/107681450 | - |
-| tm-feid-2027-salt-lake-city-z7r9jz1aaad3e | FEID | none | 107681466 | https://www.stubhub.ie/feid-salt-lake-city-tickets-4-2-2027/event/107681466 | - |
-| tm-feid-2027-las-vegas-z7r9jz1aaad3d | FEID | none | 107680729 | https://www.stubhub.ie/feid-las-vegas-tickets-4-17-2027/event/107680729 | - |
+| tm-feid-2027-houston-z7r9jz1aaad3v | FEID | refresh (applied) | 107681450 | https://www.stubhub.ie/feid-houston-tickets-3-25-2027/event/107681450 | - |
+| tm-feid-2027-salt-lake-city-z7r9jz1aaad3e | FEID | refresh (applied) | 107681466 | https://www.stubhub.ie/feid-salt-lake-city-tickets-4-2-2027/event/107681466 | - |
+| tm-feid-2027-las-vegas-z7r9jz1aaad3d | FEID | refresh (applied) | 107680729 | https://www.stubhub.ie/feid-las-vegas-tickets-4-17-2027/event/107680729 | - |
 | tm-fall-out-boy-2027-manchester-1adjz_pgkrptysy | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fall-out-boy-2027-nashville-z7r9jz1aaaa0d | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-fall-out-boy-2027-saint-charles-z7r9jz1aaakz9 | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked; closest same-date listing: city mismatch, venue mismatch) |
 | tm-fall-out-boy-2027-sandy-z7r9jz1aaaa0a | Fall Out Boy | none | - | - | no qualifying listing (complete catalog checked) |
-| tm-feid-2027-ciudad-de-mexico-1av8z_4gktipbpa | FEID | none | - | - | no qualifying listing (complete catalog checked) |
+| tm-feid-2027-ciudad-de-mexico-1av8z_4gktipbpa | FEID | add (applied) | 107681732 | https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-23-5-2027/event/107681732 | - |
 | tm-kpop-demon-hunters-2027-baltimore-1a4zk40gkdlc1yp | KPop Demon Hunters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kpop-demon-hunters-2027-newark-vv1aezk4pgkd6oqqp | KPop Demon Hunters | none | - | - | no qualifying listing (complete catalog checked) |
 | tm-kpop-demon-hunters-2027-columbus-vv1aazk4pgkdbhbjx | KPop Demon Hunters | none | - | - | no qualifying listing (complete catalog checked) |

@@ -48,17 +48,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107679179",
+        "url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_fGkXe60v9",
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179",
     "ticket_limit": 8,
     "genre": "Rock"
   },
@@ -128,7 +128,7 @@
         "event_id": "107675286",
         "url": "https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -221,7 +221,7 @@
         "event_id": "107675287",
         "url": "https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -315,7 +315,7 @@
         "event_id": "107675288",
         "url": "https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288",
         "verified": true,
-        "last_verified_at": "2026-10-26",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },

@@ -445,17 +445,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107155379",
-        "url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-14-11-2026/event/107155379",
-        "verified": true,
-        "last_verified_at": "2026-10-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ku8v0x_GAG57Yq",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-tickets-london-the-o2-arena-14-11-2026/event/107155379",
+    "stubhub_international_url": "",
     "organizer_names": [
       "COMMUNION ONE LTD",
       "UNIVERSAL MUSIC ON BEHALF OF NOAH KAHAN"
@@ -744,7 +744,7 @@
         "event_id": "107156345",
         "url": "https://www.stubhub.ie/noah-kahan-tickets-munich-olympiahalle-munich-4-12-2026/event/107156345",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1001,7 +1001,7 @@
         "event_id": "107499079",
         "url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-23-7-2027/event/107499079",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1084,7 +1084,7 @@
         "event_id": "107482950",
         "url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-24-7-2027/event/107482950",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1167,7 +1167,7 @@
         "event_id": "107666382",
         "url": "https://www.stubhub.ie/noah-kahan-tickets-london-wembley-stadium-25-7-2027/event/107666382",
         "verified": true,
-        "last_verified_at": "2026-10-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1343,7 +1343,7 @@
         "event_id": "107679485",
         "url": "https://www.stubhub.ie/noah-kahan-tampa-tickets-4-29-2027/event/107679485",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1436,7 +1436,7 @@
         "event_id": "107679487",
         "url": "https://www.stubhub.ie/noah-kahan-charlotte-tickets-5-6-2027/event/107679487",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1530,7 +1530,7 @@
         "event_id": "107679488",
         "url": "https://www.stubhub.ie/noah-kahan-houston-tickets-5-12-2027/event/107679488",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1623,7 +1623,7 @@
         "event_id": "107679489",
         "url": "https://www.stubhub.ie/noah-kahan-santa-clara-tickets-5-19-2027/event/107679489",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1717,7 +1717,7 @@
         "event_id": "107679490",
         "url": "https://www.stubhub.ie/noah-kahan-las-vegas-tickets-5-21-2027/event/107679490",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1806,7 +1806,7 @@
         "event_id": "107679494",
         "url": "https://www.stubhub.ie/noah-kahan-columbus-tickets-6-5-2027/event/107679494",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1900,7 +1900,7 @@
         "event_id": "107678749",
         "url": "https://www.stubhub.ie/noah-kahan-detroit-tickets-6-10-2027/event/107678749",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1993,7 +1993,7 @@
         "event_id": "107678750",
         "url": "https://www.stubhub.ie/noah-kahan-orchard-park-tickets-6-12-2027/event/107678750",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2087,7 +2087,7 @@
         "event_id": "107679153",
         "url": "https://www.stubhub.ie/noah-kahan-tickets-montreal-parc-jean-drapeau-6-15-2027/event/107679153",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2182,7 +2182,7 @@
         "event_id": "107678751",
         "url": "https://www.stubhub.ie/noah-kahan-east-rutherford-tickets-6-18-2027/event/107678751",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2261,7 +2261,7 @@
         "event_id": "107678752",
         "url": "https://www.stubhub.ie/noah-kahan-tickets-berlin-waldbuhne-2-7-2027/event/107678752",
         "verified": true,
-        "last_verified_at": "2026-11-11",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2380,7 +2380,7 @@
         "event_id": "107679578",
         "url": "https://www.stubhub.ie/noah-kahan-tickets-sevilla-plaza-de-espana-de-sevilla-7-7-2027/event/107679578",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2539,6 +2539,13 @@
         "verified": true,
         "last_verified_at": "2026-11-13",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681952",
+        "url": "https://www.stubhub.ie/noah-kahan-east-rutherford-tickets-6-19-2027/event/107681952",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pEvLzwU",
@@ -2561,7 +2568,8 @@
         "end": "2027-06-13T21:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364184"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364184",
+    "stubhub_international_url": "https://www.stubhub.ie/noah-kahan-east-rutherford-tickets-6-19-2027/event/107681952"
   },
   {
     "id": "tm-noah-kahan-2027-athens-z7r9jz1aa7wgt",
@@ -2942,7 +2950,7 @@
         "event_id": "107679491",
         "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-29-2027/event/107679491",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -3019,7 +3027,7 @@
         "event_id": "107679492",
         "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-5-30-2027/event/107679492",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -3096,7 +3104,7 @@
         "event_id": "107679493",
         "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-1-2027/event/107679493",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -3173,7 +3181,7 @@
         "event_id": "107678748",
         "url": "https://www.stubhub.ie/noah-kahan-boston-tickets-6-2-2027/event/107678748",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },

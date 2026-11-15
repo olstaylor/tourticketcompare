@@ -670,7 +670,7 @@
         "event_id": "107668356",
         "url": "https://www.stubhub.ie/victoria-monet-detroit-tickets-11-15-2026/event/107668356",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1073,7 +1073,7 @@
         "event_id": "107667966",
         "url": "https://www.stubhub.ie/victoria-monet-new-york-tickets-11-24-2026/event/107667966",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1166,7 +1166,7 @@
         "event_id": "107668328",
         "url": "https://www.stubhub.ie/victoria-monet-washington-tickets-11-27-2026/event/107668328",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1486,7 +1486,7 @@
         "event_id": "107668352",
         "url": "https://www.stubhub.ie/victoria-monet-san-diego-tickets-12-6-2026/event/107668352",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1575,7 +1575,7 @@
         "event_id": "107667948",
         "url": "https://www.stubhub.ie/victoria-monet-inglewood-tickets-12-8-2026/event/107667948",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1836,11 +1836,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107667943",
-        "url": "https://www.stubhub.ie/victoria-monet-seattle-tickets-12-14-2026/event/107667943",
-        "verified": true,
-        "last_verified_at": "2026-10-27",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_31fTEps",
@@ -1848,7 +1848,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258120",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-seattle-tickets-12-14-2026/event/107667943",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2029,7 +2029,7 @@
         "event_id": "107667972",
         "url": "https://www.stubhub.ie/victoria-monet-san-francisco-tickets-12-17-2026/event/107667972",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },

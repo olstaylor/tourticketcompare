@@ -1693,7 +1693,7 @@
         "event_id": "107161134",
         "url": "https://www.stubhub.ie/karol-g-tickets-london-tottenham-hotspur-stadium-6-7-2027/event/107161134",
         "verified": true,
-        "last_verified_at": "2026-08-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1774,7 +1774,7 @@
         "event_id": "107162215",
         "url": "https://www.stubhub.ie/karol-g-tickets-amsterdam-johan-cruijff-arena-10-7-2027/event/107162215",
         "verified": true,
-        "last_verified_at": "2026-08-22",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2066,11 +2066,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107161135",
-        "url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-13-11-2026/event/107161135",
-        "verified": true,
-        "last_verified_at": "2026-10-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_kGknv53IF",
@@ -2085,7 +2085,7 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896537",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-13-11-2026/event/107161135",
+    "stubhub_international_url": "",
     "organizer_names": [
       "OCESA"
     ],
@@ -2157,7 +2157,7 @@
         "event_id": "107162454",
         "url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-14-11-2026/event/107162454",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -2245,7 +2245,7 @@
         "event_id": "107165371",
         "url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-15-11-2026/event/107165371",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },

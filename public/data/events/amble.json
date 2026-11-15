@@ -1210,18 +1210,18 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7938209",
-        "url": "https://www.ticketliquidator.com/tickets/7938209/Amble-tickets-Fri-Nov-13-2026-Terminal-West-At-King-Plow-Arts-Center",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70p_N",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7938209",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7938209/Amble-tickets-Fri-Nov-13-2026-Terminal-West-At-King-Plow-Arts-Center",
+    "ticketliquidator_url": "",
     "genre": "Folk"
   },
   {
@@ -1283,7 +1283,7 @@
         "event_id": "8055458",
         "url": "https://www.ticketliquidator.com/tickets/8055458/Amble-tickets-Sat-Nov-14-2026-Brooklyn-Bowl-Nashville",
         "verified": true,
-        "last_verified_at": "2026-09-28",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1357,7 +1357,7 @@
         "event_id": "7930663",
         "url": "https://www.ticketliquidator.com/tickets/7930663/Amble-tickets-Mon-Nov-16-2026-House-Of-Blues-New-Orleans",
         "verified": true,
-        "last_verified_at": "2026-09-28",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -1488,7 +1488,7 @@
         "event_id": "7930667",
         "url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-09-28",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },

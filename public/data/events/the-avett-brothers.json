@@ -58,7 +58,7 @@
         "event_id": "8270729",
         "url": "https://www.ticketliquidator.com/tickets/8270729/The-Avett-Brothers-tickets-Thu-Dec-31-2026-ExploreAshevillecom-Arena-at-Harrahs-Cherokee-Center",
         "verified": true,
-        "last_verified_at": "2026-11-08",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },
@@ -126,6 +126,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367474",
+        "url": "https://www.ticketliquidator.com/tickets/8367474/The-Avett-Brothers-tickets-Fri-Mar-19-2027-House-Of-Blues-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4EGkeX8Si1",
@@ -136,7 +143,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Folk"
+    "genre": "Folk",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367474/The-Avett-Brothers-tickets-Fri-Mar-19-2027-House-Of-Blues-Orlando"
   },
   {
     "id": "tm-the-avett-brothers-2027-orlando-1axzk4egkexosiu",
@@ -197,7 +205,7 @@
         "event_id": "8367246",
         "url": "https://www.ticketliquidator.com/tickets/8367246/The-Avett-Brothers-tickets-Sat-Mar-20-2027-House-Of-Blues-Orlando",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       }
     },

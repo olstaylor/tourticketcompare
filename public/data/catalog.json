@@ -8092,6 +8092,84 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "cody-jinks",
+      "name": "Cody Jinks",
+      "short_description": "Country act listed on Ticketmaster.",
+      "image_alt": "Cody Jinks artist ticket information",
+      "factual_summary": "Cody Jinks is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Cody Jinks page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Cody Jinks Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Cody Jinks tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Cody Jinks tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "melissa-etheridge",
+      "name": "Melissa Etheridge",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Melissa Etheridge artist ticket information",
+      "factual_summary": "Melissa Etheridge is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Melissa Etheridge page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Melissa Etheridge Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Melissa Etheridge tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Melissa Etheridge tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "two-friends",
+      "name": "Two Friends",
+      "short_description": "Dance/Electronic act listed on Ticketmaster.",
+      "image_alt": "Two Friends artist ticket information",
+      "factual_summary": "Two Friends is listed by Ticketmaster under Dance/Electronic. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Two Friends page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Two Friends Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Two Friends tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Two Friends tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -16018,6 +16096,90 @@
       "last_checked_at": "2026-11-13",
       "disclosure_required": true,
       "url": "https://seatgeek.com/the-rankin-family-tickets"
+    },
+    {
+      "link_id": "tm-artist-cody-jinks",
+      "artist_slug": "cody-jinks",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-15",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/cody-jinks-tickets/artist/2099200"
+    },
+    {
+      "link_id": "sg-artist-cody-jinks",
+      "artist_slug": "cody-jinks",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-15",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/cody-jinks-tickets"
+    },
+    {
+      "link_id": "tm-artist-melissa-etheridge",
+      "artist_slug": "melissa-etheridge",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-15",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/melissa-etheridge-tickets/artist/735024"
+    },
+    {
+      "link_id": "sg-artist-melissa-etheridge",
+      "artist_slug": "melissa-etheridge",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-15",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/melissa-etheridge-tickets"
+    },
+    {
+      "link_id": "tm-artist-two-friends",
+      "artist_slug": "two-friends",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-15",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/two-friends-tickets/artist/2224106"
+    },
+    {
+      "link_id": "sg-artist-two-friends",
+      "artist_slug": "two-friends",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-15",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/two-friends-tickets"
     }
   ],
   "safety_rules": [

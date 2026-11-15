@@ -3678,5 +3678,47 @@
     "last_verified_at": "2026-11-13",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-13"
+  },
+  {
+    "slug": "cody-jinks",
+    "name": "Cody Jinks",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-15"
+  },
+  {
+    "slug": "melissa-etheridge",
+    "name": "Melissa Etheridge",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-15"
+  },
+  {
+    "slug": "two-friends",
+    "name": "Two Friends",
+    "short_description": "Dance/Electronic act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-15",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-15"
   }
 ]

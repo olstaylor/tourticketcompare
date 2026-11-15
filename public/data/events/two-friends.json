@@ -1,0 +1,1592 @@
+[
+  {
+    "id": "tm-two-friends-2026-atlantic-city-1atzk4fgkd6j8cf",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Ocean Resort Casino, HQ2 Nightclub and HQ2 Dayclub/Beachclub",
+    "datetime_iso": "2026-11-22T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14369754",
+    "ticketmaster_url": "https://www.ticketweb.com/event/two-friends-ocean-casino-resort-tickets/14369754?REFERRAL_ID=tmfeed",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/atlantic-city-new-jersey-ocean-resort-casino-hq2-beachclub-2026-11-21-11-pm/concert/18664299",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/two-friends-ocean-casino-resort-tickets/14369754?REFERRAL_ID=tmfeed",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14369754",
+        "discovery_event_id": "1AtZk4FGkd6j8cF",
+        "url": "https://www.ticketweb.com/event/two-friends-ocean-casino-resort-tickets/14369754?REFERRAL_ID=tmfeed",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AtZk4FGkd6j8cF",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2026-nashville-g5viz_kmfvexe",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends Presents 'Big Boots Land'",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-12-06T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00646DD4067882",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-presents-big-boots-land-nashville-tennessee-12-05-2026/event/1B00646DD4067882",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/nashville-tennessee-the-truth-nashville-2026-12-05-8-pm/concert/18126049",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-presents-big-boots-land-nashville-tennessee-12-05-2026/event/1B00646DD4067882",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00646DD4067882",
+        "discovery_event_id": "G5viZ_kMfvExe",
+        "url": "https://www.ticketmaster.com/two-friends-presents-big-boots-land-nashville-tennessee-12-05-2026/event/1B00646DD4067882",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_kMfvExe",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2026-seattle-vvg1hz_krkthyp",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "White Rabbit Group Presents More The Merrier ft. Two Friends (18+)",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "WAMU Theater",
+    "datetime_iso": "2026-12-13T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00653BD3A7CE56",
+    "ticketmaster_url": "https://www.ticketmaster.com/white-rabbit-group-presents-more-the-seattle-washington-12-12-2026/event/0F00653BD3A7CE56",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/seattle-washington-wamu-theater-2026-12-12-7-pm/concert/18633839",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/white-rabbit-group-presents-more-the-seattle-washington-12-12-2026/event/0F00653BD3A7CE56",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00653BD3A7CE56",
+        "discovery_event_id": "vvG1HZ_KRKtHyp",
+        "url": "https://www.ticketmaster.com/white-rabbit-group-presents-more-the-seattle-washington-12-12-2026/event/0F00653BD3A7CE56",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_KRKtHyp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-tampa-vvg1vz_fhrt2gz",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "2027 NYE Celebration featuring Two Friends",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Seminole Hard Rock Tampa Event Center",
+    "datetime_iso": "2027-01-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006546DEFCF300",
+    "ticketmaster_url": "https://www.ticketmaster.com/2027-nye-celebration-featuring-two-friends-tampa-florida-12-31-2026/event/0D006546DEFCF300",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/tampa-florida-seminole-hard-rock-tampa-2026-12-31-9-pm/concert/18739111",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/2027-nye-celebration-featuring-two-friends-tampa-florida-12-31-2026/event/0D006546DEFCF300",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006546DEFCF300",
+        "discovery_event_id": "vvG1VZ_fhrT2GZ",
+        "url": "https://www.ticketmaster.com/2027-nye-celebration-featuring-two-friends-tampa-florida-12-31-2026/event/0D006546DEFCF300",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_fhrT2GZ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-morrison-z7r9jz1aa76-a",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends Present: Big Bootie World",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA76-A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76-A",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/morrison-colorado-red-rocks-amphitheatre-2027-04-30-7-pm/concert/18683907",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76-A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA76-A",
+        "discovery_event_id": "Z7r9jZ1AA76-A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76-A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA76-A",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-saint-louis-1a-zk4pgkdsvsmy",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Factory",
+    "datetime_iso": "2027-05-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006565F3071BB9",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-saint-louis-missouri-05-05-2027/event/21006565F3071BB9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-saint-louis-missouri-05-05-2027/event/21006565F3071BB9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006565F3071BB9",
+        "discovery_event_id": "1A-Zk4PGkdSvsmy",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-saint-louis-missouri-05-05-2027/event/21006565F3071BB9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-Zk4PGkdSvsmy",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-indianapolis-vv1aazk40gkd83bu9",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Everwise Amphitheater at White River State Park",
+    "datetime_iso": "2027-05-06T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006564D04BAD97",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-indianapolis-indiana-05-06-2027/event/05006564D04BAD97",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/indianapolis-indiana-everwise-amphitheater-at-white-river-state-park-2027-05-06-7-pm/concert/18756186",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-indianapolis-indiana-05-06-2027/event/05006564D04BAD97",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006564D04BAD97",
+        "discovery_event_id": "vv1AAZk40Gkd83BU9",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-indianapolis-indiana-05-06-2027/event/05006564D04BAD97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk40Gkd83BU9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-milwaukee-vv1a6zk4n0kbize5e",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Landmark Credit Union Live",
+    "datetime_iso": "2027-05-08T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "07006563913628A1",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-milwaukee-wisconsin-05-07-2027/event/07006563913628A1",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-05-07-8-pm/concert/18757860",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-milwaukee-wisconsin-05-07-2027/event/07006563913628A1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "07006563913628A1",
+        "discovery_event_id": "vv1a6Zk4N0KbIZe5e",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-milwaukee-wisconsin-05-07-2027/event/07006563913628A1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1a6Zk4N0KbIZe5e",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-minneapolis-vv1akzk4jgkehfygr",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Armory",
+    "datetime_iso": "2027-05-09T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006566BC230D5E",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-minneapolis-minnesota-05-08-2027/event/06006566BC230D5E",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-05-08-9-pm/concert/18757536",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-minneapolis-minnesota-05-08-2027/event/06006566BC230D5E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006566BC230D5E",
+        "discovery_event_id": "vv1AkZk4JGkeHFYgr",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-minneapolis-minnesota-05-08-2027/event/06006566BC230D5E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4JGkeHFYgr",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-chicago-vv1a7zkfwgkdmtcgf",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends Present: Big Bootie Land 2027",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Northerly Island",
+    "datetime_iso": "2027-05-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006532EEA6D308",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-present-big-bootie-land-chicago-illinois-05-15-2027/event/04006532EEA6D308",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/chicago-illinois-huntington-bank-pavilion-at-northerly-island-2027-05-15-6-30-pm/concert/18612569",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-present-big-bootie-land-chicago-illinois-05-15-2027/event/04006532EEA6D308",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006532EEA6D308",
+        "discovery_event_id": "vv1A7ZkfwGkdmtcGF",
+        "url": "https://www.ticketmaster.com/two-friends-present-big-bootie-land-chicago-illinois-05-15-2027/event/04006532EEA6D308",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7ZkfwGkdmtcGF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-detroit-z7r9jz1aaa6pk",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends - 16+",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Masonic Temple - Detroit",
+    "datetime_iso": "2027-05-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6pk",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pk",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pk",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6pk",
+        "discovery_event_id": "Z7r9jZ1AAA6pk",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pk",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pk",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-ottawa-1aszk4xgkdbc6bg",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2027-05-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "31006562FAB47EB5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-22-2027/event/31006562FAB47EB5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-22-2027/event/31006562FAB47EB5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "31006562FAB47EB5",
+        "discovery_event_id": "1AsZk4xGkdBc6Bg",
+        "url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-22-2027/event/31006562FAB47EB5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AsZk4xGkdBc6Bg",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-ottawa-1ad7z_pgkgxjwbt",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Ottawa",
+    "country": "Canada",
+    "venue": "History Ottawa",
+    "datetime_iso": "2027-05-23T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100656D7E73263F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-23-2027/event/3100656D7E73263F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-23-2027/event/3100656D7E73263F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100656D7E73263F",
+        "discovery_event_id": "1Ad7Z_pGkgXjwbT",
+        "url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-23-2027/event/3100656D7E73263F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_pGkgXjwbT",
+    "timezone": "America/Toronto",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-washington-1a4zk4t-ngzze8d",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Echostage",
+    "datetime_iso": "2027-05-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006569863338F2",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006569863338F2",
+        "discovery_event_id": "1a4Zk4t-NGzZe8d",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1a4Zk4t-NGzZe8d",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-boston-vv1avzk4xgkddw012",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-05-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006562FBF6428F",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006562FBF6428F",
+        "discovery_event_id": "vv1AvZk4xGkdDW012",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4xGkdDW012",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-philadelphia-vv1aovp_fga1qsqx",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Skyline Stage at Highmark Mann",
+    "datetime_iso": "2027-06-04T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "020065648A7736A2",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-philadelphia-pennsylvania-06-04-2027/event/020065648A7736A2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-philadelphia-pennsylvania-06-04-2027/event/020065648A7736A2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "020065648A7736A2",
+        "discovery_event_id": "vv1AOvP_FGA1qSQx",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-philadelphia-pennsylvania-06-04-2027/event/020065648A7736A2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AOvP_FGA1qSQx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-brooklyn-z7r9jz1aaa6pa",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Under the 'K' Bridge Park",
+    "datetime_iso": "2027-06-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6pA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6pA",
+        "discovery_event_id": "Z7r9jZ1AAA6pA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pA",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-columbus-z7r9jz1aaa6ux",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "KEMBA Live!",
+    "datetime_iso": "2027-06-09T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6ux",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6ux",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6ux",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6ux",
+        "discovery_event_id": "Z7r9jZ1AAA6ux",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6ux",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6ux",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-pittsburgh-z7r9jz1aaa6p7",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Stage AE",
+    "datetime_iso": "2027-06-10T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6p7",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6p7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6p7",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6p7",
+        "discovery_event_id": "Z7r9jZ1AAA6p7",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6p7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6p7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-newport-z7r9jz1aaa8fi",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Newport",
+    "country": "United States Of America",
+    "venue": "MegaCorp Pavilion",
+    "datetime_iso": "2027-06-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8FI",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8FI",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8FI",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8FI",
+        "discovery_event_id": "Z7r9jZ1AAA8FI",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8FI",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8FI",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-cleveland-z7r9jz1aaa6c3",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Cleveland",
+    "country": "United States Of America",
+    "venue": "Jacobs Pavilion at Nautica",
+    "datetime_iso": "2027-06-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6C3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6C3",
+        "discovery_event_id": "Z7r9jZ1AAA6C3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6C3",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-raleigh-g5evz_p5qexa6",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "The Ritz",
+    "datetime_iso": "2027-06-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006562DA9FE147",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006562DA9FE147",
+        "discovery_event_id": "G5eVZ_p5QEXA6",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_p5QEXA6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-north-charleston-g5evz_p3scbo8",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "North Charleston",
+    "country": "United States Of America",
+    "venue": "Firefly Distillery",
+    "datetime_iso": "2027-06-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006564B3398810",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006564B3398810",
+        "discovery_event_id": "G5eVZ_p3SCbO8",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_p3SCbO8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-charlotte-g5evz_pnwhvow",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Skyla Credit Union Amphitheatre",
+    "datetime_iso": "2027-06-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00656ABDF34472",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656ABDF34472",
+        "discovery_event_id": "G5eVZ_pnWHVow",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pnWHVow",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-atlanta-vvg1zz_phfqf4s",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Roxy",
+    "datetime_iso": "2027-06-20T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006566C8694573",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006566C8694573",
+        "discovery_event_id": "vvG1zZ_phFQf4S",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_phFQf4S",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-houston-z7r9jz1aaa6pd",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends - 18+",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "DUCTWORK - Houston",
+    "datetime_iso": "2027-06-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6pd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6pd",
+        "discovery_event_id": "Z7r9jZ1AAA6pd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6pd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pd",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-austin-g5diz_pmgcpjv",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2027-06-26T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00656B8C3969B4",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00656B8C3969B4",
+        "discovery_event_id": "G5dIZ_pmGCpJV",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pmGCpJV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-irving-vvg1yz_phht2we",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-06-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006566FCA4FC82",
+    "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006566FCA4FC82",
+        "discovery_event_id": "vvG1YZ_phHt2we",
+        "url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_phHt2we",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-toronto-1a8zk49gkesrne-",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends Present: Big Bootie World",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "RBC Amphitheatre",
+    "datetime_iso": "2027-06-30T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "10006557B1BEA9E1",
+    "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-present-big-bootie-world-toronto-ontario-06-30-2027/event/10006557B1BEA9E1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/two-friends-present-big-bootie-world-toronto-ontario-06-30-2027/event/10006557B1BEA9E1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006557B1BEA9E1",
+        "discovery_event_id": "1A8Zk49GkesRnE-",
+        "url": "https://www.ticketmaster.ca/two-friends-present-big-bootie-world-toronto-ontario-06-30-2027/event/10006557B1BEA9E1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk49GkesRnE-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-friends-2027-bala-1avzz_4gkztkppc",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends: Big Bootie World",
+    "city": "Bala",
+    "country": "Canada",
+    "venue": "The KEE to Bala",
+    "datetime_iso": "2027-07-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000655E2919658E",
+    "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-bala-ontario-07-01-2027/event/1000655E2919658E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-bala-ontario-07-01-2027/event/1000655E2919658E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000655E2919658E",
+        "discovery_event_id": "1AvZZ_4GkztkppC",
+        "url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-bala-ontario-07-01-2027/event/1000655E2919658E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_4GkztkppC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

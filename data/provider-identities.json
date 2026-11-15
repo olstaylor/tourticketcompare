@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13",
+  "updated_at": "2026-11-15",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -2955,6 +2955,39 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-11-13 (sanctioned path D): SeatGeek performer 2002535 and Ticketmaster attraction K8vZ9175T_f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "cody-jinks",
+      "ticketmaster_attraction_id": "K8vZ917KogV",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/cody-jinks-tickets/artist/2099200",
+      "seatgeek_performer_id": 87766,
+      "seatgeek_artist_url": "https://seatgeek.com/cody-jinks-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-15 (sanctioned path D): SeatGeek performer 87766 and Ticketmaster attraction K8vZ917KogV captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "melissa-etheridge",
+      "ticketmaster_attraction_id": "K8vZ91712f0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/melissa-etheridge-tickets/artist/735024",
+      "seatgeek_performer_id": 1226,
+      "seatgeek_artist_url": "https://seatgeek.com/melissa-etheridge-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-15 (sanctioned path D): SeatGeek performer 1226 and Ticketmaster attraction K8vZ91712f0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "two-friends",
+      "ticketmaster_attraction_id": "K8vZ9174RP7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/two-friends-tickets/artist/2224106",
+      "seatgeek_performer_id": 297608,
+      "seatgeek_artist_url": "https://seatgeek.com/two-friends-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-15 (sanctioned path D): SeatGeek performer 297608 and Ticketmaster attraction K8vZ9174RP7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

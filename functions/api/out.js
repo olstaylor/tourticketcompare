@@ -3884,6 +3884,48 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-the-rankin-family",
     redirectUrl: "https://seatgeek.com/the-rankin-family-tickets",
     verified: true
+  },
+  "cody-jinks:ticketmaster": {
+    artistSlug: "cody-jinks",
+    provider: "ticketmaster",
+    linkId: "tm-artist-cody-jinks",
+    redirectUrl: "https://www.ticketmaster.com/cody-jinks-tickets/artist/2099200",
+    verified: true
+  },
+  "cody-jinks:seatgeek": {
+    artistSlug: "cody-jinks",
+    provider: "seatgeek",
+    linkId: "sg-artist-cody-jinks",
+    redirectUrl: "https://seatgeek.com/cody-jinks-tickets",
+    verified: true
+  },
+  "melissa-etheridge:ticketmaster": {
+    artistSlug: "melissa-etheridge",
+    provider: "ticketmaster",
+    linkId: "tm-artist-melissa-etheridge",
+    redirectUrl: "https://www.ticketmaster.com/melissa-etheridge-tickets/artist/735024",
+    verified: true
+  },
+  "melissa-etheridge:seatgeek": {
+    artistSlug: "melissa-etheridge",
+    provider: "seatgeek",
+    linkId: "sg-artist-melissa-etheridge",
+    redirectUrl: "https://seatgeek.com/melissa-etheridge-tickets",
+    verified: true
+  },
+  "two-friends:ticketmaster": {
+    artistSlug: "two-friends",
+    provider: "ticketmaster",
+    linkId: "tm-artist-two-friends",
+    redirectUrl: "https://www.ticketmaster.com/two-friends-tickets/artist/2224106",
+    verified: true
+  },
+  "two-friends:seatgeek": {
+    artistSlug: "two-friends",
+    provider: "seatgeek",
+    linkId: "sg-artist-two-friends",
+    redirectUrl: "https://seatgeek.com/two-friends-tickets",
+    verified: true
   }
 };
 

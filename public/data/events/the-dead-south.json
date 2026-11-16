@@ -37,7 +37,7 @@
         "event_id": 7214045,
         "url": "https://www.vividseats.com/the-dead-south-tickets-london-o2-academy-brixton-3-5-2027/production/7214045",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -177,7 +177,7 @@
         "event_id": 7520869,
         "url": "https://www.vividseats.com/the-dead-south-tickets-wolverhampton-wolverhampton-civic-hall-3-10-2027/production/7520869",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -611,7 +611,7 @@
         "event_id": 7794133,
         "url": "https://www.vividseats.com/the-dead-south-tickets-lexington-the-rail-4-30-2027/production/7794133",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1032,7 +1032,7 @@
         "event_id": 7834163,
         "url": "https://www.vividseats.com/the-dead-south-tickets-toronto-massey-hall---allied-music-centre-9-30-2027/production/7834163",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1166,7 +1166,7 @@
         "event_id": 7833497,
         "url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-2-2027/production/7833497",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1466,7 +1466,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA67e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67e",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/cleveland-ohio-agora-theatre-2027-04-17-8-pm/concert/18760425",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-cleveland-agora-theatre-4-17-2027--concerts-country-and-folk/production/7834005",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67e",
     "last_verified_at": null,
@@ -1488,11 +1488,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834005,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-cleveland-agora-theatre-4-17-2027--concerts-country-and-folk/production/7834005",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1519,7 +1519,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAkfY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfY",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/pittsburgh-pennsylvania-stage-ae-2027-04-18-6-pm/concert/18760427",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-pittsburgh-stage-ae-4-18-2027/production/7834955",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfY",
     "last_verified_at": null,
@@ -1541,11 +1541,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834955,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-pittsburgh-stage-ae-4-18-2027/production/7834955",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1572,7 +1572,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk4A",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk4A",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/new-york-new-york-webster-hall-2027-04-22-8-pm/concert/18760431",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-new-york-webster-hall-4-22-2027/production/7834957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk4A",
     "last_verified_at": null,
@@ -1594,11 +1594,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834957,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-new-york-webster-hall-4-22-2027/production/7834957",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1625,7 +1625,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA67A",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67A",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/new-haven-connecticut-college-street-music-hall-2027-04-23-8-pm/concert/18760433",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-new-haven-college-street-music-hall-4-23-2027/production/7834961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67A",
     "last_verified_at": null,
@@ -1647,11 +1647,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834961,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-new-haven-college-street-music-hall-4-23-2027/production/7834961",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1731,7 +1731,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA67t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67t",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/columbus-ohio-kemba-live-2027-04-26-7-pm/concert/18760437",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-columbus-kemba-live-4-26-2027/production/7834676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67t",
     "last_verified_at": null,
@@ -1753,11 +1753,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834676,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-columbus-kemba-live-4-26-2027/production/7834676",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1784,7 +1784,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA6Ao",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ao",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/asheville-north-carolina-asheville-yards-2027-05-02-7-pm/concert/18760441",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-asheville-asheville-yards-amphitheater-5-2-2027/production/7836604",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ao",
     "last_verified_at": null,
@@ -1806,11 +1806,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7836604,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-asheville-asheville-yards-amphitheater-5-2-2027/production/7836604",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1837,7 +1837,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA6AZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6AZ",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-03-8-pm/concert/18760503",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-atlanta-the-eastern-5-3-2027/production/7834951",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6AZ",
     "last_verified_at": null,
@@ -1859,11 +1859,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834951,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-atlanta-the-eastern-5-3-2027/production/7834951",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1890,7 +1890,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA6vM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6vM",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/denver-colorado-levitt-pavilion-denver-2027-07-17-6-30-pm/concert/18760505",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-denver-levitt-pavilion-denver-7-17-2027/production/7836614",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6vM",
     "last_verified_at": null,
@@ -1912,11 +1912,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7836614,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-denver-levitt-pavilion-denver-7-17-2027/production/7836614",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

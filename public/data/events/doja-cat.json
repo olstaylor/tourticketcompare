@@ -1532,7 +1532,7 @@
     "ticketmaster_event_id": "2200633AE37E3BA9",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-orlando-florida-11-14-2026/event/2200633AE37E3BA9",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-orlando-kia-center-11-14-2026--concerts-rap-hip-hop/production/6091570",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-orlando-florida-11-14-2026/event/2200633AE37E3BA9",
     "last_verified_at": "2026-11-11",
@@ -1554,11 +1554,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 6091570,
-        "url": "https://www.vividseats.com/doja-cat-tickets-orlando-kia-center-11-14-2026--concerts-rap-hip-hop/production/6091570",
-        "verified": true,
-        "last_verified_at": "2026-11-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1638,7 +1638,7 @@
         "event_id": 6091572,
         "url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1719,7 +1719,7 @@
         "event_id": 6091576,
         "url": "https://www.vividseats.com/doja-cat-tickets-charlotte-spectrum-center-11-18-2026--concerts-rap-hip-hop/production/6091576",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1800,7 +1800,7 @@
         "event_id": 6091577,
         "url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1880,7 +1880,7 @@
         "event_id": 6091579,
         "url": "https://www.vividseats.com/doja-cat-tickets-washington-capital-one-arena-11-21-2026--concerts-rap-hip-hop/production/6091579",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1969,7 +1969,7 @@
         "event_id": 6091580,
         "url": "https://www.vividseats.com/doja-cat-tickets-boston-td-garden-11-23-2026--concerts-rap-hip-hop/production/6091580",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2057,7 +2057,7 @@
         "event_id": 6091757,
         "url": "https://www.vividseats.com/doja-cat-tickets-toronto-scotiabank-arena-11-25-2026--concerts-rap-hip-hop/production/6091757",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2218,7 +2218,7 @@
         "event_id": 6091581,
         "url": "https://www.vividseats.com/doja-cat-tickets-philadelphia-xfinity-mobile-arena-11-29-2026--concerts-rap-hip-hop/production/6091581",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2307,7 +2307,7 @@
         "event_id": 6091583,
         "url": "https://www.vividseats.com/doja-cat-tickets-new-york-madison-square-garden-12-1-2026--concerts-rap-hip-hop/production/6091583",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {

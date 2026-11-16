@@ -785,7 +785,7 @@
     "ticketmaster_event_id": "190064CF07E9B226",
     "ticketmaster_url": "https://www.ticketmaster.com/brand-new-phoenix-arizona-11-14-2026/event/190064CF07E9B226",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/brand-new-tickets-phoenix-arizona-financial-theatre-11-14-2026/production/7183306",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brand-new-phoenix-arizona-11-14-2026/event/190064CF07E9B226",
     "last_verified_at": "2026-11-07",
@@ -807,11 +807,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7183306,
-        "url": "https://www.vividseats.com/brand-new-tickets-phoenix-arizona-financial-theatre-11-14-2026/production/7183306",
-        "verified": true,
-        "last_verified_at": "2026-11-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

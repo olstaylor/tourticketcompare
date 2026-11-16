@@ -1253,7 +1253,7 @@
         "event_id": "7896500",
         "url": "https://www.ticketliquidator.com/tickets/7896500/Karol-G-tickets-Fri-Jun-11-2027-Estadio-La-Cartuja",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1326,7 +1326,7 @@
         "event_id": "7912285",
         "url": "https://www.ticketliquidator.com/tickets/7912285/Karol-G-tickets-Sat-Jun-12-2027-Estadio-La-Cartuja",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1399,7 +1399,7 @@
         "event_id": "7921229",
         "url": "https://www.ticketliquidator.com/tickets/7921229/Karol-G-tickets-Sun-Jun-13-2027-Estadio-La-Cartuja",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1767,7 +1767,7 @@
         "event_id": "7896506",
         "url": "https://www.ticketliquidator.com/tickets/7896506/Karol-G-tickets-Sat-Jul-10-2027-Johan-Cruijff-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2147,11 +2147,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921349",
-        "url": "https://www.ticketliquidator.com/tickets/7921349/Karol-G-tickets-Sat-Nov-14-2026-Estadio-GNP-Seguros-Mexico-City",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107162454",
@@ -2172,7 +2172,7 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921349",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921349/Karol-G-tickets-Sat-Nov-14-2026-Estadio-GNP-Seguros-Mexico-City",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/karol-g-tickets-mexico-city-estadio-gnp-seguros-14-11-2026/event/107162454",
     "organizer_names": [
       "OCESA"
@@ -2238,7 +2238,7 @@
         "event_id": "7925374",
         "url": "https://www.ticketliquidator.com/tickets/7925374/Karol-G-tickets-Sun-Nov-15-2026-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub-international": {

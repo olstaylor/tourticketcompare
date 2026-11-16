@@ -359,7 +359,7 @@
         "event_id": "8337510",
         "url": "https://www.ticketliquidator.com/tickets/8337510/Cody-Johnson-tickets-Fri-Feb-19-2027-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -448,7 +448,7 @@
         "event_id": "8329600",
         "url": "https://www.ticketliquidator.com/tickets/8329600/Cody-Johnson-tickets-Sat-Feb-20-2027-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -518,6 +518,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369880",
+        "url": "https://www.ticketliquidator.com/tickets/8369880/Cody-Johnson-tickets-Sat-Mar-13-2027-MVP-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_4nHl9NN",
@@ -542,7 +549,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369880/Cody-Johnson-tickets-Sat-Mar-13-2027-MVP-Arena"
   },
   {
     "id": "tm-cody-johnson-2027-fargo-vv1akzk4fgkejxfzw",
@@ -591,6 +599,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369881",
+        "url": "https://www.ticketliquidator.com/tickets/8369881/Cody-Johnson-tickets-Sat-Mar-20-2027-Fargodome",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4fGkeJXFzw",
@@ -618,7 +633,8 @@
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369881/Cody-Johnson-tickets-Sat-Mar-20-2027-Fargodome"
   },
   {
     "id": "tm-cody-johnson-2027-charlottesville-vv1avzk4ngkde3rwt",
@@ -667,6 +683,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369882",
+        "url": "https://www.ticketliquidator.com/tickets/8369882/Cody-Johnson-tickets-Sat-Apr-3-2027-John-Paul-Jones-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4NGkdE3rwt",
@@ -698,6 +721,7 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369882/Cody-Johnson-tickets-Sat-Apr-3-2027-John-Paul-Jones-Arena"
   }
 ]

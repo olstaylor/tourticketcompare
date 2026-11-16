@@ -362,11 +362,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8321627",
-        "url": "https://www.ticketliquidator.com/tickets/8321627/Garth-Brooks-tickets-Sat-Nov-14-2026-Climate-Pledge-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107674140",
@@ -386,7 +386,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_fgHQxgl",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8321627/Garth-Brooks-tickets-Sat-Nov-14-2026-Climate-Pledge-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-14-2026/event/107674140",
     "organizer_names": [
       "AEG LIVE"
@@ -447,7 +447,7 @@
         "event_id": "8335342",
         "url": "https://www.ticketliquidator.com/tickets/8335342/Garth-Brooks-tickets-Sun-Nov-15-2026-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1430,7 +1430,7 @@
         "event_id": "8359855",
         "url": "https://www.ticketliquidator.com/tickets/8359855/Garth-Brooks-tickets-Sat-Dec-12-2026-Target-Center",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1500,7 +1500,7 @@
         "event_id": "8366616",
         "url": "https://www.ticketliquidator.com/tickets/8366616/Garth-Brooks-tickets-Fri-Feb-5-2027-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1575,7 +1575,7 @@
         "event_id": "8366617",
         "url": "https://www.ticketliquidator.com/tickets/8366617/Garth-Brooks-tickets-Sat-Feb-6-2027-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },

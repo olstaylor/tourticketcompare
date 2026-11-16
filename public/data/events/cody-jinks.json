@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363060",
+        "url": "https://www.ticketliquidator.com/tickets/8363060/Cody-Jinks-tickets-Wed-Feb-3-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p3xFVOe",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363060/Cody-Jinks-tickets-Wed-Feb-3-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
   },
   {
     "id": "tm-cody-jinks-2027-cocoa-z7r9jz1aaakjb",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363632",
+        "url": "https://www.ticketliquidator.com/tickets/8363632/Cody-Jinks-tickets-Fri-Feb-5-2027-Riverfront-Park-Cocoa-Village",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkJb",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363632/Cody-Jinks-tickets-Fri-Feb-5-2027-Riverfront-Park-Cocoa-Village"
   },
   {
     "id": "tm-cody-jinks-2027-apopka-z7r9jz1aaakjo",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363633",
+        "url": "https://www.ticketliquidator.com/tickets/8363633/Cody-Jinks-tickets-Sat-Feb-6-2027-Apopka-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkJo",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363633/Cody-Jinks-tickets-Sat-Feb-6-2027-Apopka-Amphitheater"
   },
   {
     "id": "tm-cody-jinks-2027-macon-vvg1zz_pcm9nti",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363061",
+        "url": "https://www.ticketliquidator.com/tickets/8363061/Cody-Jinks-tickets-Sun-Feb-7-2027-Macon-City-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pCm9ntI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363061/Cody-Jinks-tickets-Sun-Feb-7-2027-Macon-City-Auditorium"
   },
   {
     "id": "tm-cody-jinks-2027-fort-worth-z7r9jz1aaakr8",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363062",
+        "url": "https://www.ticketliquidator.com/tickets/8363062/Cody-Jinks-tickets-Sun-Apr-25-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk40GkdisRRp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363062/Cody-Jinks-tickets-Sun-Apr-25-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
   },
   {
     "id": "tm-cody-jinks-2027-modesto-g5vyz_4lc0uvr",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363063",
+        "url": "https://www.ticketliquidator.com/tickets/8363063/Cody-Jinks-tickets-Fri-Jun-11-2027-The-Fruit-Yard-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4lC0UvR",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363063/Cody-Jinks-tickets-Fri-Jun-11-2027-The-Fruit-Yard-Amphitheater"
   },
   {
     "id": "tm-cody-jinks-2027-lake-tahoe-1a9zk4ngkdmvw-8",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363064",
+        "url": "https://www.ticketliquidator.com/tickets/8363064/Cody-Jinks-tickets-Sat-Jun-12-2027-Lake-Tahoe-Amphitheatre-at-Caesars-Republic",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4NGkdmVW-8",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363064/Cody-Jinks-tickets-Sat-Jun-12-2027-Lake-Tahoe-Amphitheatre-at-Caesars-Republic"
   },
   {
     "id": "tm-cody-jinks-2027-central-point-vvg1hz_pkp9lkp",
@@ -523,11 +579,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363065",
+        "url": "https://www.ticketliquidator.com/tickets/8363065/Cody-Jinks-tickets-Tue-Jun-15-2027-Bi-Mart-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pKP9lkP",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363065/Cody-Jinks-tickets-Tue-Jun-15-2027-Bi-Mart-Amphitheater"
   },
   {
     "id": "tm-cody-jinks-2027-eugene-z7r9jz1aaa837",
@@ -576,11 +640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362827",
+        "url": "https://www.ticketliquidator.com/tickets/8362827/Cody-Jinks-tickets-Thu-Jun-17-2027-Cuthbert-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA837",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362827/Cody-Jinks-tickets-Thu-Jun-17-2027-Cuthbert-Amphitheater"
   },
   {
     "id": "tm-cody-jinks-2027-spokane-vvg1hz_pqqx4vc",
@@ -629,11 +701,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363066",
+        "url": "https://www.ticketliquidator.com/tickets/8363066/Cody-Jinks-tickets-Fri-Jun-18-2027-Gesa-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pQqx4vc",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363066/Cody-Jinks-tickets-Fri-Jun-18-2027-Gesa-Pavilion"
   },
   {
     "id": "tm-cody-jinks-2027-boise-g5vzz_pk4ma4q",
@@ -682,11 +762,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363067",
+        "url": "https://www.ticketliquidator.com/tickets/8363067/Cody-Jinks-tickets-Sat-Jun-19-2027-Outlaw-Field-at-The-Idaho-Botanical-Garden",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pK4MA4q",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363067/Cody-Jinks-tickets-Sat-Jun-19-2027-Outlaw-Field-at-The-Idaho-Botanical-Garden"
   },
   {
     "id": "tm-cody-jinks-2027-billings-z7r9jz1aaa6e_",

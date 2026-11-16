@@ -7,8 +7,11 @@ pages_build_output_dir = "public"
 # 2026-09-25: warm renders <= 50ms, the heaviest cold request ~300ms, so this
 # leaves ~7x headroom. A request over the cap answers 1102, so raise it before
 # a legitimate route gets near it. `limits` requires the Paid plan.
+# Raised to 10s on 2026-11-16: with 5,000+ events the cold /sitemap.xml,
+# /sitemap-index.xml and /llms.txt builds exceed 2s, so they answered 1102/503
+# and the edge cache could not refresh /sitemap.xml (served 18h stale).
 [limits]
-cpu_ms = 2000
+cpu_ms = 10000
 
 [vars]
 MOCK_MODE = "false"

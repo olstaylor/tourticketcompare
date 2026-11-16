@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
+import { readFileSync } from 'node:fs';
 
 const ROLLING_ISSUE_LABEL = 'automation:daily-audit';
 const ROLLING_ISSUE_TITLE = 'Daily data audit — open findings';
@@ -76,21 +77,33 @@ function pendingNightlyRecord(item) {
   return diffs.length > 0 && diffs.every((d) => d?.field === 'status' && NIGHTLY_RECORDED_STATUSES.has(String(d.remote || '').toLowerCase()));
 }
 
+// Events the owner has decided to keep although TM returns 404/410
+// (data/audit-accepted-missing.json). They are listed, not gated on.
+let acceptedMissingIds = new Set();
+try {
+  const accepted = JSON.parse(readFileSync(new URL('../data/audit-accepted-missing.json', import.meta.url), 'utf8'));
+  acceptedMissingIds = new Set((accepted.accepted || []).map((entry) => entry.id).filter(Boolean));
+} catch {
+  // No list, or unreadable: nothing is accepted and every missing event is a finding.
+}
+
 function tmFindings(tm) {
   const current = { missing: [], changed: [], errors: [] };
   const historical = { missing: [], changed: [], errors: [] };
   const pending = [];
+  const accepted = [];
   for (const artist of Array.isArray(tm?.artists) ? tm.artists : []) {
     for (const kind of Object.keys(current)) {
       for (const item of Array.isArray(artist?.[kind]) ? artist[kind] : []) {
         const entry = { ...item, artistSlug: artist.slug };
         if (!isActionable(item)) historical[kind].push(entry);
+        else if (kind === 'missing' && acceptedMissingIds.has(item.id)) accepted.push(entry);
         else if (kind === 'changed' && pendingNightlyRecord(item)) pending.push(entry);
         else current[kind].push(entry);
       }
     }
   }
-  return { current, historical, pending };
+  return { current, historical, pending, accepted };
 }
 
 function renderLinks(links) {
@@ -178,9 +191,10 @@ function renderTm(tm) {
   out += `- ⚠️ Current changed (date/venue/status): **${currentTotals.changed}**\n`;
   out += `- 🔁 Current transient errors: **${currentTotals.errors}**\n`;
   out += `- 🌙 Lifecycle changes the nightly sync records itself (not a finding): **${findings.pending.length}**\n`;
+  out += `- ✅ Missing on TM but kept live on the owner's decision (not a finding): **${findings.accepted.length}**\n`;
   out += `- ⏭️ Unresolvable id (website/international code — not checked, **not** a failure): **${totals.unresolvable || 0}**\n\n`;
   for (const artist of artists) {
-    const missing = (artist.missing || []).filter(isActionable);
+    const missing = (artist.missing || []).filter((item) => isActionable(item) && !acceptedMissingIds.has(item.id));
     const changed = (artist.changed || []).filter((item) => isActionable(item) && !pendingNightlyRecord(item));
     const errors = (artist.errors || []).filter(isActionable);
     if (!missing.length && !changed.length && !errors.length) continue;
@@ -209,6 +223,13 @@ function renderTm(tm) {
     out += `The nightly Ticketmaster sync records these codes (links and prices for a cancelled or postponed date are withheld once recorded). A row it cannot record appears in the \`automation:data-sync\` issue.\n\n`;
     for (const c of findings.pending.slice(0, 50)) {
       out += `- \`${c.id}\` — ${c.diffs.map((d) => `\`${d.field}\`: \`${d.local}\` → \`${d.remote}\``).join('; ')}\n`;
+    }
+    out += '\n';
+  }
+  if (findings.accepted.length > 0) {
+    out += `### Kept live by owner decision\n\n`;
+    for (const m of findings.accepted) {
+      out += `- \`${m.id}\` (${m.city || '—'}, ${m.datetime_iso || '—'}) — TM returns 404/410; kept live (see \`data/audit-accepted-missing.json\`)\n`;
     }
     out += '\n';
   }
@@ -353,6 +374,15 @@ function runSelfTest() {
   assert.equal(buildBody(links, lifecycle([{ field: 'status', local: 'on-sale', remote: 'postponed' }, { field: 'venue', local: 'A', remote: 'B' }])).hasFindings, true, 'a venue move still gates');
   assert.equal(buildBody(links, lifecycle([{ field: 'datetime_iso', local: '2026-12-01', remote: '2026-12-02' }])).hasFindings, true);
   assert.equal(buildBody(links, lifecycle([])).hasFindings, true, 'a change with no diffs is not silently pending');
+
+  // An owner-accepted missing event is listed, not gated on; any other still is.
+  acceptedMissingIds = new Set(['kept']);
+  const keptTm = (ids) => ({ checked: ids.length, artists: [{ slug: 'a', changed: [], errors: [], missing: ids.map((id) => ({ id, ticketmaster_event_id: `${id}-tm`, datetime_iso: '2027-01-01', actionable: true })) }] });
+  const keptOnly = buildBody(links, keptTm(['kept']));
+  assert.equal(keptOnly.hasFindings, false, 'an accepted missing event does not keep the audit red');
+  assert.match(keptOnly.body, /Kept live by owner decision/);
+  assert.equal(buildBody(links, keptTm(['kept', 'other'])).hasFindings, true, 'a missing event that is not accepted still gates');
+  acceptedMissingIds = new Set();
 
   console.log('daily-audit-report self-test passed');
 }

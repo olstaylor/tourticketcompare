@@ -1,0 +1,17 @@
+{
+  "_note": "Ticketmaster events the owner has decided to keep live although Discovery returns 404/410. The daily audit lists them as accepted instead of a current finding. Add an entry only on an explicit owner decision; remove it to put the event back under review.",
+  "accepted": [
+    {
+      "id": "tm-tame-impala-2027-tlajomulco-de-zuniga-g5dvz_pmifp7m",
+      "decided_by": "Ollie",
+      "decided_on": "2026-11-16",
+      "reason": "Keep live with its resale links"
+    },
+    {
+      "id": "tm-hollywood-undead-2027-london-g5dzz_kxga-ng",
+      "decided_by": "Ollie",
+      "decided_on": "2026-11-16",
+      "reason": "Keep live with its resale links"
+    }
+  ]
+}

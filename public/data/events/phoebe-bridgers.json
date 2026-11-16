@@ -3171,8 +3171,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-tickets/1326054190",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-16",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1326054190",
@@ -3207,6 +3207,10 @@
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vGJvfk8",
     "timezone": "Europe/Brussels",
     "status": "announced",
-    "public_onsale_at": "2026-11-18T09:00:00Z"
+    "public_onsale_at": "2026-11-18T09:00:00Z",
+    "organizer_names": [
+      "Live Nation"
+    ],
+    "genre": "Rock"
   }
 ]

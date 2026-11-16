@@ -858,7 +858,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-hamilton-td-coliseum-11-22-2026/production/7394146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/pentatonix-christmas-in-the-city-tour-hamilton-ontario-11-22-2026/event/10006504F44F4108",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -894,18 +894,6 @@
     "ticketmaster_discovery_event_id": "1A8Zkf7GkdVKV7F",
     "timezone": "America/Toronto",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Amex Reserved Tickets",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-16T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-16T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",

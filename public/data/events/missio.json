@@ -489,7 +489,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/missio-18-boston-massachusetts-11-22-2026/event/0100650AF0979959",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -525,13 +525,6 @@
     "ticketmaster_discovery_event_id": "vv177Z_8GklYPyP_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-08-14T13:00:00Z",
-        "end": "2026-11-16T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

@@ -934,7 +934,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-madison-the-sylvee-11-22-2026--concerts-rock/production/7325334",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-madison-wisconsin-11-22-2026/event/070064EE89E21E1C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -986,18 +986,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151250",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151250/Trivium-tickets-Sun-Nov-22-2026-The-Sylvee-WI",
-    "presales": [
-      {
-        "name": "In Flames VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-16T05:55:00Z"
-      },
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-16T05:55:00Z"
-      }
-    ],
     "organizer_names": [
       "FRANK PRODUCTIONS",
       "LIVE NATION MUSIC"

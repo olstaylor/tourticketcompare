@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkuy",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkuy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363032/Melissa-Etheridge-tickets-Sat-Mar-20-2027-White-Hall-At-Vashon-Center-For-The-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363032/Melissa-Etheridge-tickets-Sat-Mar-20-2027-White-Hall-At-Vashon-Center-For-The-Arts",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-vashon-z7r9jz1aaakcz",
@@ -76,7 +77,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCZ",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +120,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363033/Melissa-Etheridge-tickets-Sun-Mar-21-2027-White-Hall-At-Vashon-Center-For-The-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363033/Melissa-Etheridge-tickets-Sun-Mar-21-2027-White-Hall-At-Vashon-Center-For-The-Arts",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-richmond-1aozk4jgkdae_qq",
@@ -137,7 +139,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-richmond-british-columbia-03-23-2027/event/11006566C909969A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -180,7 +182,24 @@
     "ticketmaster_discovery_event_id": "1AoZk4JGkdae_QQ",
     "timezone": "America/Vancouver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362406/Melissa-Etheridge-tickets-Tue-Mar-23-2027-River-Rock-Casino-Resort"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362406/Melissa-Etheridge-tickets-Tue-Mar-23-2027-River-Rock-Casino-Resort",
+    "organizer_names": [
+      "PLEASE & THANK YOU LLC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Fan Club VIP Package Presale",
+        "start": "2026-11-10T17:00:00Z",
+        "end": "2027-03-11T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-03-17T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-calgary-1aozk40gkdyyany",
@@ -198,7 +217,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-calgary-alberta-03-25-2027/event/11006564F9C09AB9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -233,7 +252,16 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk40GkdyYany",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-03-19T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-enoch-1aozk4pgkdrvn3r",
@@ -251,7 +279,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-enoch-river-cree-casino-3-26-2027/production/7834630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-enoch-alberta-03-26-2027/event/11006565DE06A49E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -286,7 +314,22 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk4PGkdrvn3r",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Pre Sale to Show Date",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2027-03-27T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-03-20T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-saskatoon-z7r9jz1aaakcv",
@@ -304,7 +347,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCv",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -347,7 +390,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCv",
     "timezone": "America/Regina",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363034/Melissa-Etheridge-tickets-Sat-Mar-27-2027-TCU-Place"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363034/Melissa-Etheridge-tickets-Sat-Mar-27-2027-TCU-Place",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-regina-z7r9jz1aaakce",
@@ -365,7 +409,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAAkCe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -400,7 +444,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCe",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-winnipeg-1aozk4jgkenj9vg",
@@ -418,7 +463,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-winnipeg-burton-cummings-theatre-3-30-2027/production/7834836",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-winnipeg-manitoba-03-30-2027/event/11006566AA717075",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -461,7 +506,16 @@
     "ticketmaster_discovery_event_id": "1AoZk4JGkenj9vg",
     "timezone": "America/Winnipeg",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362410/Melissa-Etheridge-tickets-Tue-Mar-30-2027-Burton-Cummings-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362410/Melissa-Etheridge-tickets-Tue-Mar-30-2027-Burton-Cummings-Theatre",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-03-24T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-des-moines-vv1akzk4ngkd0rml4",
@@ -479,7 +533,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-des-moines-hoyt-sherman-place-4-1-2027/production/7835105",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-des-moines-iowa-04-01-2027/event/06006563E47AE7D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -522,7 +576,19 @@
     "ticketmaster_discovery_event_id": "vv1AkZk4NGkd0rmL4",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362412/Melissa-Etheridge-tickets-Thu-Apr-1-2027-Hoyt-Sherman-Place-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362412/Melissa-Etheridge-tickets-Thu-Apr-1-2027-Hoyt-Sherman-Place-Theater",
+    "organizer_names": [
+      "MAMMOTH INC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-03-26T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-nashville-vv1aazk4xgkdnma5h",
@@ -540,7 +606,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-nashville-brown-county-music-center-4-2-2027/production/7835097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-nashville-indiana-04-02-2027/event/05006562E3DC92FC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -583,7 +649,18 @@
     "ticketmaster_discovery_event_id": "vv1AAZk4xGkdNMa5H",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362417/Melissa-Etheridge-tickets-Fri-Apr-2-2027-Brown-County-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362417/Melissa-Etheridge-tickets-Fri-Apr-2-2027-Brown-County-Music-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-03-27T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-madison-vv1a6zk4ngkd9d6lz",
@@ -601,7 +678,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-madison-wisconsin-04-03-2027/event/07006563D70C77C0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -636,7 +713,19 @@
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk4NGkd9d6LZ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-03-28T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-milwaukee-z7r9jz1aaakcd",
@@ -654,7 +743,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-milwaukee-pabst-theater-4-5-2027/production/7836449",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCd",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -697,7 +786,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364068/Melissa-Etheridge-tickets-Mon-Apr-5-2027-Pabst-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364068/Melissa-Etheridge-tickets-Mon-Apr-5-2027-Pabst-Theater",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-shipshewana-z7r9jz1aaakap",
@@ -715,7 +805,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-shipshewana-blue-gate-performing-arts-center-4-6-2027/production/7832723",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAP",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -758,7 +848,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkAP",
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369726/Melissa-Etheridge-tickets-Tue-Apr-6-2027-Blue-Gate-Performing-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369726/Melissa-Etheridge-tickets-Tue-Apr-6-2027-Blue-Gate-Performing-Arts-Center",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-knoxville-g5viz_p14c6_a",
@@ -776,7 +867,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-knoxville-tennessee-theatre-4-7-2027/production/7834812",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -819,7 +910,19 @@
     "ticketmaster_discovery_event_id": "G5viZ_p14C6_a",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362424/Melissa-Etheridge-tickets-Wed-Apr-7-2027-Tennessee-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362424/Melissa-Etheridge-tickets-Wed-Apr-7-2027-Tennessee-Theatre",
+    "organizer_names": [
+      "PLEASE & THANK YOU LLC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-04-01T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-danville-vv1avzk4pgkdw6bmt",
@@ -837,7 +940,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-danville-the-pantheon-at-caesars-virginia-4-9-2027/production/7834830",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -880,7 +983,21 @@
     "ticketmaster_discovery_event_id": "vv1AvZk4PGkdW6BmT",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362425/Melissa-Etheridge-tickets-Fri-Apr-9-2027-The-Pantheon-at-Caesars-Virginia"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362425/Melissa-Etheridge-tickets-Fri-Apr-9-2027-The-Pantheon-at-Caesars-Virginia",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-04-03T02:00:00Z"
+      },
+      {
+        "name": "TM HOLIDAY 30% OFF",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-columbus-z7r9jz1aaakc7",
@@ -898,7 +1015,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -941,7 +1058,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkC7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363037/Melissa-Etheridge-tickets-Sat-Apr-10-2027-Bill-Heard-Theatre-at-RiverCenter-for-the-Performing-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363037/Melissa-Etheridge-tickets-Sat-Apr-10-2027-Bill-Heard-Theatre-at-RiverCenter-for-the-Performing-Arts",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-charleston-g5evz_pcyahcw",
@@ -959,7 +1077,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-charleston-charleston-music-hall-4-11-2027/production/7834858",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1002,7 +1120,19 @@
     "ticketmaster_discovery_event_id": "G5eVZ_pCYAhcW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362426/Melissa-Etheridge-tickets-Sun-Apr-11-2027-Charleston-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362426/Melissa-Etheridge-tickets-Sun-Apr-11-2027-Charleston-Music-Hall",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-04-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-charlotte-z7r9jz1aaakzi",
@@ -1020,7 +1150,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkZI",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1055,7 +1185,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkZI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-york-z7r9jz1aaakca",
@@ -1073,7 +1204,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-york-appell-center-for-the-performing-arts---strand-theatre-4-15-2027/production/7840707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1116,7 +1247,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363038/Melissa-Etheridge-tickets-Thu-Apr-15-2027-Strand-Theatre-at-Appell-Center-for-the-Performing-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363038/Melissa-Etheridge-tickets-Thu-Apr-15-2027-Strand-Theatre-at-Appell-Center-for-the-Performing-Arts",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-portsmouth-z7r9jz1aaakck",
@@ -1134,7 +1266,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-portsmouth-rivers-casino-portsmouth-4-16-2027--concerts-pop/production/7836048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCk",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1177,7 +1309,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363039/Melissa-Etheridge-tickets-Fri-Apr-16-2027-Rivers-Casino-Portsmouth-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363039/Melissa-Etheridge-tickets-Fri-Apr-16-2027-Rivers-Casino-Portsmouth-Event-Center",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-north-myrtle-beach-z7r9jz1aaakc6",
@@ -1195,7 +1328,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkC6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1230,7 +1363,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkC6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-springfield-z7r9jz1aaakfo",
@@ -1248,7 +1382,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-springfield-gillioz-theatre-4-20-2027/production/7834856",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfO",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1291,7 +1425,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfO",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363041/Melissa-Etheridge-tickets-Tue-Apr-20-2027-Gillioz-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363041/Melissa-Etheridge-tickets-Tue-Apr-20-2027-Gillioz-Theatre",
+    "genre": "Pop"
   },
   {
     "id": "tm-melissa-etheridge-2027-wichita-vv1kbz_pfvg7sw9z",
@@ -1309,7 +1444,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-wichita-orpheum-theatre---wichita-4-21-2027/production/7835083",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-wichita-kansas-04-21-2027/event/0600656534CF25F8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1344,7 +1479,19 @@
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_pfVG7Sw9z",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PLEASE & THANK YOU LLC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-04-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-chandler-1a_zk4ngkdm2bwk",
@@ -1362,7 +1509,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1397,7 +1544,16 @@
     },
     "ticketmaster_discovery_event_id": "1A_Zk4NGkdm2BWK",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-04-17T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-melissa-etheridge-2027-tucson-z7r9jz1aaakca",
@@ -1415,7 +1571,7 @@
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-tucson-fox-theatre-tucson-4-24-2027/production/7836136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCa",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1458,6 +1614,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCa",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363043/Melissa-Etheridge-tickets-Sat-Apr-24-2027-Fox-Tucson-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363043/Melissa-Etheridge-tickets-Sat-Apr-24-2027-Fox-Tucson-Theatre",
+    "genre": "Pop"
   }
 ]

@@ -2283,7 +2283,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-17-11-2026/event/14006481A9AD6673",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2318,6 +2318,7 @@
     },
     "ticketmaster_discovery_event_id": "1AfZk3vGketlp_S",
     "timezone": "America/Mexico_City",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Latin"
   }
 ]

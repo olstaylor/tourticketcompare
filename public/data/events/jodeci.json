@@ -846,7 +846,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-louisville-louisville-palace-11-22-2026/production/7353398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-louisville-kentucky-11-22-2026/event/160064F5DEAEB0E0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,13 +898,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-16T04:55:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167874",
     "ticket_limit": 8,

@@ -984,7 +984,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-chicago-aragon-ballroom-11-22-2026--concerts-pop/production/7347441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-chicago-illinois-11-22-2026/event/040064F44411D736",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1044,13 +1044,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164826",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164826/Tyla-tickets-Sun-Nov-22-2026-Byline-Bank-Aragon-Ballroom",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-chicago-tickets-11-22-2026/event/107460124",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T15:00:00Z",
-        "end": "2026-11-16T04:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-3-2027/production/7835362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-hollywood-florida-02-03-2027/event/0D006564A2234802",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363060/Cody-Jinks-tickets-Wed-Feb-3-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
-    "stubhub_international_url": "https://www.stubhub.ie/cody-jinks-hollywood-tickets-2-3-2027/event/107680709"
+    "stubhub_international_url": "https://www.stubhub.ie/cody-jinks-hollywood-tickets-2-3-2027/event/107680709",
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-cocoa-z7r9jz1aaakjb",
@@ -84,7 +85,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-cocoa-cocoa-riverfront-park-2-5-2027/production/7836606",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkJb",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -127,7 +128,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkJb",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363632/Cody-Jinks-tickets-Fri-Feb-5-2027-Riverfront-Park-Cocoa-Village"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363632/Cody-Jinks-tickets-Fri-Feb-5-2027-Riverfront-Park-Cocoa-Village",
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-apopka-z7r9jz1aaakjo",
@@ -145,7 +147,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-apopka-apopka-amphitheater-2-6-2027/production/7836610",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkJo",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -188,7 +190,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkJo",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363633/Cody-Jinks-tickets-Sat-Feb-6-2027-Apopka-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363633/Cody-Jinks-tickets-Sat-Feb-6-2027-Apopka-Amphitheater",
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-macon-vvg1zz_pcm9nti",
@@ -206,7 +209,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-macon-macon-city-auditorium-2-7-2027/production/7835456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-jinks-the-working-man-tour-macon-georgia-02-07-2027/event/0E006563AE5EAA68",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -249,7 +252,11 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_pCm9ntI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363061/Cody-Jinks-tickets-Sun-Feb-7-2027-Macon-City-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363061/Cody-Jinks-tickets-Sun-Feb-7-2027-Macon-City-Auditorium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-fort-worth-z7r9jz1aaakr8",
@@ -267,7 +274,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkr8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -302,7 +309,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkr8",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-fort-worth-z7r9jz1aaakrz",
@@ -320,7 +328,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkrZ",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -355,7 +363,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkrZ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-las-vegas-1a9zk40gkdisrrp",
@@ -373,7 +382,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-las-vegas-fontainebleau-las-vegas-4-25-2027/production/7835532",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-las-vegas-nevada-04-25-2027/event/17006564ECC6FBD6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416,7 +425,12 @@
     "ticketmaster_discovery_event_id": "1A9Zk40GkdisRRp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363062/Cody-Jinks-tickets-Sun-Apr-25-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363062/Cody-Jinks-tickets-Sun-Apr-25-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-modesto-g5vyz_4lc0uvr",
@@ -434,7 +448,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-modesto-the-fruit-yard-6-11-2027/production/7835502",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-modesto-california-06-11-2027/event/1C00655ACE93606F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -477,7 +491,19 @@
     "ticketmaster_discovery_event_id": "G5vYZ_4lC0UvR",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363063/Cody-Jinks-tickets-Fri-Jun-11-2027-The-Fruit-Yard-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363063/Cody-Jinks-tickets-Fri-Jun-11-2027-The-Fruit-Yard-Amphitheater",
+    "organizer_names": [
+      "RICHTER ENTERTAINMENT"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "THE WORKING MAN 4 PACK",
+        "start": "2026-11-10T18:00:00Z",
+        "end": "2027-06-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-cody-jinks-2027-lake-tahoe-1a9zk4ngkdmvw-8",
@@ -495,7 +521,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-stateline-lake-tahoe-amphitheatre-at-caesars-republic-6-12-2027/production/7835524",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-lake-tahoe-nevada-06-12-2027/event/17006563EED3D850",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -538,7 +564,12 @@
     "ticketmaster_discovery_event_id": "1A9Zk4NGkdmVW-8",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363064/Cody-Jinks-tickets-Sat-Jun-12-2027-Lake-Tahoe-Amphitheatre-at-Caesars-Republic"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363064/Cody-Jinks-tickets-Sat-Jun-12-2027-Lake-Tahoe-Amphitheatre-at-Caesars-Republic",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-central-point-vvg1hz_pkp9lkp",
@@ -556,7 +587,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-central-point-bi-mart-ampitheater-6-15-2027/production/7833547",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-central-point-oregon-06-15-2027/event/0F006564E55EB1A5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -599,7 +630,18 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_pKP9lkP",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363065/Cody-Jinks-tickets-Tue-Jun-15-2027-Bi-Mart-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363065/Cody-Jinks-tickets-Tue-Jun-15-2027-Bi-Mart-Amphitheater",
+    "organizer_names": [
+      "RICHTER ENTERTAINMENT"
+    ],
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "THE WORKING MAN FOUR PACK",
+        "start": "2026-11-10T18:00:00Z",
+        "end": "2027-06-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-cody-jinks-2027-eugene-z7r9jz1aaa837",
@@ -617,7 +659,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-eugene-cuthbert-amphitheater-6-17-2027/production/7836636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA837",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -660,7 +702,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA837",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362827/Cody-Jinks-tickets-Thu-Jun-17-2027-Cuthbert-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362827/Cody-Jinks-tickets-Thu-Jun-17-2027-Cuthbert-Amphitheater",
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-spokane-vvg1hz_pqqx4vc",
@@ -678,7 +721,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-spokane-gesa-credit-union-pavilion-6-18-2027/production/7835534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-jinks-the-tonedeaf-hippies-the-spokane-washington-06-18-2027/event/0F0065669D89506D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -721,7 +764,12 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_pQqx4vc",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363066/Cody-Jinks-tickets-Fri-Jun-18-2027-Gesa-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363066/Cody-Jinks-tickets-Fri-Jun-18-2027-Gesa-Pavilion",
+    "organizer_names": [
+      "MAMMOTH INC",
+      "KNITTING FACTORY SPOKANE"
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-boise-g5vzz_pk4ma4q",
@@ -739,7 +787,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-boise-outlaw-field-at-the-idaho-botanical-garden-6-19-2027/production/7835520",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-jinks-garden-suite-boise-idaho-06-19-2027/event/1E006564D5DC555D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -782,7 +830,8 @@
     "ticketmaster_discovery_event_id": "G5vzZ_pK4MA4q",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363067/Cody-Jinks-tickets-Sat-Jun-19-2027-Outlaw-Field-at-The-Idaho-Botanical-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363067/Cody-Jinks-tickets-Sat-Jun-19-2027-Outlaw-Field-at-The-Idaho-Botanical-Garden",
+    "genre": "Country"
   },
   {
     "id": "tm-cody-jinks-2027-billings-z7r9jz1aaa6e_",
@@ -800,7 +849,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-jinks-tickets-billings-billings-downtown-skatepark-6-22-2027/production/7837054",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6e_",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -835,6 +884,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6e_",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   }
 ]

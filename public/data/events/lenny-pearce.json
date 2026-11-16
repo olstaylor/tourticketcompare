@@ -948,7 +948,7 @@
     "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-new-york-manhattan-center-hammerstein-ballroom-11-22-2026/production/7155396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-new-york-new-york-11-22-2026/event/000064CBB6BBF0F5",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -986,13 +986,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-19T14:00:00Z",
-        "end": "2026-11-16T03:00:00Z"
-      }
     ],
     "ticket_limit": 6,
     "genre": "Dance/Electronic"

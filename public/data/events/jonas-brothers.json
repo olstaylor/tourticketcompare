@@ -1479,7 +1479,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1542,13 +1542,6 @@
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-28T17:00:00Z",
-        "end": "2026-11-15T20:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -2498,7 +2491,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-grand-rapids-van-andel-arena-12-15-2026--concerts-pop/production/7446350",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-grand-rapids-michigan-12-15-2026/event/0800650EB9E3B051",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2554,11 +2547,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T14:00:00Z",
-        "end": "2026-11-16T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T14:00:00Z",

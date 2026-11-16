@@ -56,7 +56,7 @@ const expectedTitle = new Map([
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
   ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Which Is Better?"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
-  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices by Show, Site and Date | TourTicketCompare"],
+  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices by Show | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
   ["/currency-converter", "Currency Converter for Concert Tickets | TourTicketCompare"],
   ["/about", "About TourTicketCompare"],
@@ -569,8 +569,8 @@ assert(
 const expectedClientMetadata = [
   "Compare Concert Ticket Prices | TourTicketCompare",
   homepageDescription,
-  "Compare Concert Ticket Prices by Show, Site and Date | TourTicketCompare",
-  "Pick an artist and date to compare each ticket site's listed price for the same show, with when it was checked. Then confirm seats, fees and the final total before you buy.",
+  "Compare Concert Ticket Prices by Show | TourTicketCompare",
+  "Pick an artist and date to compare each site's listed price for the same show, with when it was checked. Then check seats, fees and the final total.",
   "How to Compare Concert Ticket Prices | TourTicketCompare"
   // Guide title/h1/description parity is asserted field-by-field against
   // GUIDE_ROUTES further down — see "guide client metadata parity".

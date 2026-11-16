@@ -300,9 +300,9 @@ export const TRUST_ROUTES = {
     lastmod: "2026-11-16"
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices by Show, Site and Date | TourTicketCompare",
+    title: "Compare Concert Ticket Prices by Show | TourTicketCompare",
     description:
-      "Pick an artist and date to compare each ticket site's listed price for the same show, with when it was checked. Then confirm seats, fees and the final total before you buy.",
+      "Pick an artist and date to compare each site's listed price for the same show, with when it was checked. Then check seats, fees and the final total.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }],
     lastmod: "2026-11-16"

@@ -1,7 +1,7 @@
 ---
 title: 'Vivid Seats vs SeatGeek: Fees, Guarantees, Delivery'
 h1: 'Vivid Seats vs SeatGeek: What Is the Difference?'
-description: Vivid Seats vs SeatGeek compared on who sets prices, all-in fees, buyer protection, cancelled and postponed events, delivery and rewards.
+description: 'Is Vivid Seats cheaper than SeatGeek? Not for every show. Both are resale marketplaces: compare all-in fees, buyer protection, delivery and cancelled events.'
 status: published
 date_published: 2026-09-25
 comparison_providers:

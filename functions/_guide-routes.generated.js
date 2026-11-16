@@ -25,29 +25,29 @@ export const GUIDE_ROUTES = {
   "/guides/vivid-seats-vs-ticketmaster": {
     title: "Vivid Seats vs Ticketmaster: Which Is Better?",
     h1: "Vivid Seats vs Ticketmaster: Which Is Better?",
-    description: "No, Vivid Seats isn't owned by Ticketmaster. Ticketmaster often sells primary tickets; Vivid Seats is resale. Seats, fees, delivery and protection compared.",
+    description: "Is Vivid Seats cheaper than Ticketmaster? Not for every show: Ticketmaster mostly sells face-value tickets, Vivid Seats resale. Fees, delivery and protection.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",
-    lastmod: "2026-11-09"
+    lastmod: "2026-11-16"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Ticketmaster vs SeatGeek vs Vivid Seats: The Difference",
     h1: "Ticketmaster vs SeatGeek vs Vivid Seats: What's the Difference?",
-    description: "Ticketmaster often sells primary tickets; SeatGeek and Vivid Seats are mainly resale. How they differ on who sets the price, fees, delivery and protection.",
+    description: "Which is cheaper: Ticketmaster, SeatGeek or Vivid Seats? Not always the same one. Who sets the price, fees, delivery and protection compared.",
     fullContent: true,
     comparisonProviders: ["seatgeek","vivid-seats"],
     datePublished: "2026-06-11",
-    lastmod: "2026-11-02"
+    lastmod: "2026-11-16"
   },
   "/guides/seatgeek-vs-ticketmaster": {
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
-    description: "No, SeatGeek isn't owned by Ticketmaster. Ticketmaster often sells primary tickets; SeatGeek is a resale marketplace. Fees, delivery and protection compared.",
+    description: "Is SeatGeek cheaper than Ticketmaster? Not for every show: Ticketmaster mostly sells face-value tickets, SeatGeek resale. Fees, delivery, protection compared.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-07-13",
-    lastmod: "2026-11-09"
+    lastmod: "2026-11-16"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",
@@ -166,27 +166,27 @@ export const GUIDE_ROUTES = {
   "/guides/seatgeek-vs-stubhub": {
     title: "SeatGeek vs StubHub: Which Is Better? Fees and Protection",
     h1: "SeatGeek vs StubHub: How Do They Compare?",
-    description: "SeatGeek vs StubHub compared on who sells the ticket, all-in fees, buyer protection, cancelled and postponed shows, and delivery timing.",
+    description: "Is SeatGeek cheaper than StubHub? Not for every show. Both are resale marketplaces: compare all-in fees, buyer protection, delivery and cancelled events.",
     fullContent: true,
     datePublished: "2026-09-25",
-    lastmod: "2026-11-02"
+    lastmod: "2026-11-16"
   },
   "/guides/vivid-seats-vs-seatgeek": {
     title: "Vivid Seats vs SeatGeek: Fees, Guarantees, Delivery",
     h1: "Vivid Seats vs SeatGeek: What Is the Difference?",
-    description: "Vivid Seats vs SeatGeek compared on who sets prices, all-in fees, buyer protection, cancelled and postponed events, delivery and rewards.",
+    description: "Is Vivid Seats cheaper than SeatGeek? Not for every show. Both are resale marketplaces: compare all-in fees, buyer protection, delivery and cancelled events.",
     fullContent: true,
     comparisonProviders: ["vivid-seats","seatgeek"],
     datePublished: "2026-09-25",
-    lastmod: "2026-10-27"
+    lastmod: "2026-11-16"
   },
   "/guides/vivid-seats-vs-stubhub": {
     title: "Vivid Seats vs StubHub: Which Is Better? Fees and Guarantees",
     h1: "Vivid Seats vs StubHub: How Do They Compare?",
-    description: "Both are resale marketplaces where sellers set the price. Vivid Seats vs StubHub on fees, buyer protection, cancelled shows and delivery, and what to compare.",
+    description: "Is Vivid Seats cheaper than StubHub? Not for every show. Both are resale marketplaces where sellers set prices: compare fees, protection and delivery.",
     fullContent: true,
     datePublished: "2026-09-25",
-    lastmod: "2026-11-02"
+    lastmod: "2026-11-16"
   },
   "/guides/is-vivid-seats-legit": {
     title: "Is Vivid Seats Legit? What the Guarantee Covers",

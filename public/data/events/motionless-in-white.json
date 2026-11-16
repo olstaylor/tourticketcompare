@@ -661,11 +661,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107258877",
-        "url": "https://www.stubhub.ie/motionless-in-white-albany-tickets-11-15-2026/event/107258877",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_5wspmVJ",
@@ -673,7 +673,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018454",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018454/Motionless-In-White-tickets-Sun-Nov-15-2026-MVP-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-albany-tickets-11-15-2026/event/107258877",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -828,7 +828,7 @@
         "event_id": "107258878",
         "url": "https://www.stubhub.ie/motionless-in-white-newark-tickets-11-19-2026/event/107258878",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -917,7 +917,7 @@
         "event_id": "107258879",
         "url": "https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },

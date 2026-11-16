@@ -631,5 +631,59 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
+  },
+  {
+    "id": "tm-knocked-loose-2027-brisbane-1avgz_3gkbtawtj",
+    "artist_slug": "knocked-loose",
+    "artist_name": "Knocked Loose",
+    "event_name": "Knocked Loose Australian tour 2027",
+    "city": "Brisbane",
+    "country": "Australia",
+    "venue": "The Fortitude Music Hall",
+    "datetime_iso": "2027-01-22T08:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300652EA9172A66",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/knocked-loose-australian-tour-2027-brisbane-22-01-2027/event/1300652EA9172A66",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/knocked-loose-australian-tour-2027-brisbane-22-01-2027/event/1300652EA9172A66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300652EA9172A66",
+        "discovery_event_id": "1AvGZ_3GkBtAwtJ",
+        "url": "https://www.ticketmaster.com.au/knocked-loose-australian-tour-2027-brisbane-22-01-2027/event/1300652EA9172A66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_3GkBtAwtJ",
+    "timezone": "Australia/Brisbane",
+    "status": "announced",
+    "public_onsale_at": "2026-11-18T02:00:00Z"
   }
 ]

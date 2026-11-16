@@ -1433,5 +1433,59 @@
     ],
     "ticket_limit": 2,
     "genre": "Rock"
+  },
+  {
+    "id": "tm-sleeping-with-sirens-2027-warsaw-z698xzqpz1kkkaoxd",
+    "artist_slug": "sleeping-with-sirens",
+    "artist_name": "Sleeping With Sirens",
+    "event_name": "SLEEPING WITH SIRENS",
+    "city": "Warsaw",
+    "country": "Poland",
+    "venue": "Progresja",
+    "datetime_iso": "2027-06-02T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "193160883",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/sleeping-with-sirens-tickets/193160883?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/sleeping-with-sirens-tickets/193160883?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "193160883",
+        "discovery_event_id": "Z698xZQpZ1kkKAOxd",
+        "url": "https://www.ticketmaster.pl/event/sleeping-with-sirens-tickets/193160883?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1kkKAOxd",
+    "timezone": "Europe/Warsaw",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
   }
 ]

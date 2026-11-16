@@ -412,5 +412,383 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": ""
+  },
+  {
+    "id": "tm-foo-fighters-2027-helsinki-z698xz8kz1kp9zozn",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "Foo Fighters - TAKE COVER TOUR 2027",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Helsinki Olympic Stadium",
+    "datetime_iso": "2027-06-12T14:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "957011023",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/foo-fighters-take-cover-tour-2027-tickets/957011023?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/foo-fighters-take-cover-tour-2027-tickets/957011023?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "957011023",
+        "discovery_event_id": "Z698xZ8KZ1kP9ZoZN",
+        "url": "https://www.ticketmaster.fi/event/foo-fighters-take-cover-tour-2027-tickets/957011023?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ1kP9ZoZN",
+    "timezone": "Europe/Helsinki",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T08:00:00Z"
+  },
+  {
+    "id": "tm-foo-fighters-2027-k-benhavn-sv-z698xzc4z16vbe4w_s",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "Foo Fighters - TAKE COVER TOUR 2027",
+    "city": "København SV",
+    "country": "Denmark",
+    "venue": "Valbyparken",
+    "datetime_iso": "2027-06-15T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1602572671",
+    "ticketmaster_url": "https://www.ticketmaster.dk/event/foo-fighters-take-cover-tour-2027-tickets/1602572671?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.dk/event/foo-fighters-take-cover-tour-2027-tickets/1602572671?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1602572671",
+        "discovery_event_id": "Z698xZC4Z16vbe4w_s",
+        "url": "https://www.ticketmaster.dk/event/foo-fighters-take-cover-tour-2027-tickets/1602572671?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC4Z16vbe4w_s",
+    "timezone": "Europe/Copenhagen",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T09:00:00Z"
+  },
+  {
+    "id": "tm-foo-fighters-2027-london-1aegz_pgknyaowd",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "FOO FIGHTERS - TAKE COVER TOUR 2027",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-09-09T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300656AB0260F7B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300656AB0260F7B",
+        "discovery_event_id": "1AeGZ_pGknYaOWD",
+        "url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_pGknYaOWD",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-foo-fighters-2027-london-1aegz_pgky5a3fo",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "FOO FIGHTERS - TAKE COVER TOUR 2027",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Wembley Stadium",
+    "datetime_iso": "2027-09-11T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2300656C0B252511",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2300656C0B252511",
+        "discovery_event_id": "1AeGZ_pGkY5a3fo",
+        "url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeGZ_pGkY5a3fo",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-foo-fighters-2027-darlington-1adjz_pgknom0ij",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "FOO FIGHTERS - TAKE COVER TOUR 2027",
+    "city": "Darlington",
+    "country": "Great Britain",
+    "venue": "Darlington Arena",
+    "datetime_iso": "2027-09-14T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700656AA0DE4A1C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700656AA0DE4A1C",
+        "discovery_event_id": "1AdjZ_pGknOM0Ij",
+        "url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_pGknOM0Ij",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-foo-fighters-2027-edinburgh-1auzkfegkecn0w6",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "FOO FIGHTERS - TAKE COVER TOUR 2027",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Scottish Gas Murrayfield",
+    "datetime_iso": "2027-09-16T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006527AD8E4F47",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-edinburgh-16-09-2027/event/36006527AD8E4F47",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-edinburgh-16-09-2027/event/36006527AD8E4F47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006527AD8E4F47",
+        "discovery_event_id": "1AUZkfEGkecN0W6",
+        "url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-edinburgh-16-09-2027/event/36006527AD8E4F47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZkfEGkecN0W6",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-foo-fighters-2027-dublin-1avoz_3gktbqeds",
+    "artist_slug": "foo-fighters",
+    "artist_name": "Foo Fighters",
+    "event_name": "FOO FIGHTERS - TAKE COVER TOUR 2027",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Croke Park",
+    "datetime_iso": "2027-09-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800652FD8682EF1",
+    "ticketmaster_url": "https://www.ticketmaster.ie/foo-fighters-take-cover-tour-2027-dublin-18-09-2027/event/1800652FD8682EF1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/foo-fighters-take-cover-tour-2027-dublin-18-09-2027/event/1800652FD8682EF1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800652FD8682EF1",
+        "discovery_event_id": "1AvOZ_3GkTbQeDs",
+        "url": "https://www.ticketmaster.ie/foo-fighters-take-cover-tour-2027-dublin-18-09-2027/event/1800652FD8682EF1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_3GkTbQeDs",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
   }
 ]

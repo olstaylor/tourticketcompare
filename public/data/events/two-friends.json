@@ -99,11 +99,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7808859",
+        "url": "https://www.ticketliquidator.com/tickets/7808859/Two-Friends-tickets-Sat-Dec-5-2026-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_kMfvExe",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808859/Two-Friends-tickets-Sat-Dec-5-2026-The-Truth"
   },
   {
     "id": "tm-two-friends-2026-seattle-vvg1hz_krkthyp",
@@ -152,11 +160,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8332446",
+        "url": "https://www.ticketliquidator.com/tickets/8332446/Two-Friends-tickets-Sat-Dec-12-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_KRKtHyp",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332446/Two-Friends-tickets-Sat-Dec-12-2026-Wamu-Theater-At-Lumen-Field-Event-Center"
   },
   {
     "id": "tm-two-friends-2027-tampa-vvg1vz_fhrt2gz",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8353529",
+        "url": "https://www.ticketliquidator.com/tickets/8353529/Two-Friends-tickets-Thu-Dec-31-2026-Seminole-Hard-Rock-Tampa-Event-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_fhrT2GZ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353529/Two-Friends-tickets-Thu-Dec-31-2026-Seminole-Hard-Rock-Tampa-Event-Center"
   },
   {
     "id": "tm-two-friends-2027-morrison-z7r9jz1aa76-a",
@@ -258,11 +282,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8319843",
+        "url": "https://www.ticketliquidator.com/tickets/8319843/Two-Friends-tickets-Fri-Apr-30-2027-Red-Rocks-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76-A",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319843/Two-Friends-tickets-Fri-Apr-30-2027-Red-Rocks-Amphitheatre"
   },
   {
     "id": "tm-two-friends-2027-saint-louis-1a-zk4pgkdsvsmy",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363838",
+        "url": "https://www.ticketliquidator.com/tickets/8363838/Two-Friends-tickets-Thu-May-6-2027-Everwise-Amphitheater-at-White-River-State-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk40Gkd83BU9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363838/Two-Friends-tickets-Thu-May-6-2027-Everwise-Amphitheater-at-White-River-State-Park"
   },
   {
     "id": "tm-two-friends-2027-milwaukee-vv1a6zk4n0kbize5e",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363840",
+        "url": "https://www.ticketliquidator.com/tickets/8363840/Two-Friends-tickets-Fri-May-7-2027-Landmark-Credit-Union-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1a6Zk4N0KbIZe5e",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363840/Two-Friends-tickets-Fri-May-7-2027-Landmark-Credit-Union-Live"
   },
   {
     "id": "tm-two-friends-2027-minneapolis-vv1akzk4jgkehfygr",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363843",
+        "url": "https://www.ticketliquidator.com/tickets/8363843/Two-Friends-tickets-Sat-May-8-2027-The-Armory-Minneapolis",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4JGkeHFYgr",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363843/Two-Friends-tickets-Sat-May-8-2027-The-Armory-Minneapolis"
   },
   {
     "id": "tm-two-friends-2027-chicago-vv1a7zkfwgkdmtcgf",
@@ -523,11 +579,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284663",
+        "url": "https://www.ticketliquidator.com/tickets/8284663/Two-Friends-tickets-Sat-May-15-2027-The-Pavilion-at-Northerly-Island",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfwGkdmtcGF",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284663/Two-Friends-tickets-Sat-May-15-2027-The-Pavilion-at-Northerly-Island"
   },
   {
     "id": "tm-two-friends-2027-detroit-z7r9jz1aaa6pk",
@@ -576,11 +640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366135",
+        "url": "https://www.ticketliquidator.com/tickets/8366135/Two-Friends-tickets-Fri-May-21-2027-Masonic-Temple-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pk",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366135/Two-Friends-tickets-Fri-May-21-2027-Masonic-Temple-Theatre"
   },
   {
     "id": "tm-two-friends-2027-ottawa-1aszk4xgkdbc6bg",
@@ -735,11 +807,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363846",
+        "url": "https://www.ticketliquidator.com/tickets/8363846/Two-Friends-tickets-Fri-May-28-2027-Echostage",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1a4Zk4t-NGzZe8d",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363846/Two-Friends-tickets-Fri-May-28-2027-Echostage"
   },
   {
     "id": "tm-two-friends-2027-boston-vv1avzk4xgkddw012",
@@ -788,11 +868,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363848",
+        "url": "https://www.ticketliquidator.com/tickets/8363848/Two-Friends-tickets-Sat-May-29-2027-MGM-Music-Hall-at-Fenway-Park",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4xGkdDW012",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363848/Two-Friends-tickets-Sat-May-29-2027-MGM-Music-Hall-at-Fenway-Park"
   },
   {
     "id": "tm-two-friends-2027-philadelphia-vv1aovp_fga1qsqx",
@@ -947,11 +1035,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366138",
+        "url": "https://www.ticketliquidator.com/tickets/8366138/Two-Friends-tickets-Wed-Jun-9-2027-KEMBA-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6ux",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366138/Two-Friends-tickets-Wed-Jun-9-2027-KEMBA-Live"
   },
   {
     "id": "tm-two-friends-2027-pittsburgh-z7r9jz1aaa6p7",
@@ -1000,11 +1096,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366143",
+        "url": "https://www.ticketliquidator.com/tickets/8366143/Two-Friends-tickets-Thu-Jun-10-2027-Stage-AE",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6p7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366143/Two-Friends-tickets-Thu-Jun-10-2027-Stage-AE"
   },
   {
     "id": "tm-two-friends-2027-newport-z7r9jz1aaa8fi",
@@ -1053,11 +1157,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366148",
+        "url": "https://www.ticketliquidator.com/tickets/8366148/Two-Friends-tickets-Fri-Jun-11-2027-MegaCorp-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8FI",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366148/Two-Friends-tickets-Fri-Jun-11-2027-MegaCorp-Pavilion"
   },
   {
     "id": "tm-two-friends-2027-cleveland-z7r9jz1aaa6c3",
@@ -1159,11 +1271,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363854",
+        "url": "https://www.ticketliquidator.com/tickets/8363854/Two-Friends-tickets-Wed-Jun-16-2027-The-Ritz-Raleigh",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p5QEXA6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363854/Two-Friends-tickets-Wed-Jun-16-2027-The-Ritz-Raleigh"
   },
   {
     "id": "tm-two-friends-2027-north-charleston-g5evz_p3scbo8",
@@ -1212,11 +1332,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363856",
+        "url": "https://www.ticketliquidator.com/tickets/8363856/Two-Friends-tickets-Thu-Jun-17-2027-Firefly-Distillery",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p3SCbO8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363856/Two-Friends-tickets-Thu-Jun-17-2027-Firefly-Distillery"
   },
   {
     "id": "tm-two-friends-2027-charlotte-g5evz_pnwhvow",
@@ -1265,11 +1393,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363858",
+        "url": "https://www.ticketliquidator.com/tickets/8363858/Two-Friends-tickets-Fri-Jun-18-2027-Skyla-Credit-Union-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pnWHVow",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363858/Two-Friends-tickets-Fri-Jun-18-2027-Skyla-Credit-Union-Amphitheatre"
   },
   {
     "id": "tm-two-friends-2027-atlanta-vvg1zz_phfqf4s",
@@ -1318,11 +1454,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363862",
+        "url": "https://www.ticketliquidator.com/tickets/8363862/Two-Friends-tickets-Sat-Jun-19-2027-Coca-Cola-Roxy",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_phFQf4S",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363862/Two-Friends-tickets-Sat-Jun-19-2027-Coca-Cola-Roxy"
   },
   {
     "id": "tm-two-friends-2027-houston-z7r9jz1aaa6pd",
@@ -1371,11 +1515,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369508",
+        "url": "https://www.ticketliquidator.com/tickets/8369508/Two-Friends-tickets-Thu-Jun-24-2027-Ductwork-Houston",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pd",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369508/Two-Friends-tickets-Thu-Jun-24-2027-Ductwork-Houston"
   },
   {
     "id": "tm-two-friends-2027-austin-g5diz_pmgcpjv",
@@ -1424,11 +1576,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363865",
+        "url": "https://www.ticketliquidator.com/tickets/8363865/Two-Friends-tickets-Fri-Jun-25-2027-Moody-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pmGCpJV",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363865/Two-Friends-tickets-Fri-Jun-25-2027-Moody-Amphitheater"
   },
   {
     "id": "tm-two-friends-2027-irving-vvg1yz_phht2we",
@@ -1477,11 +1637,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363866",
+        "url": "https://www.ticketliquidator.com/tickets/8363866/Two-Friends-tickets-Sat-Jun-26-2027-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_phHt2we",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363866/Two-Friends-tickets-Sat-Jun-26-2027-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-two-friends-2027-toronto-1a8zk49gkesrne-",

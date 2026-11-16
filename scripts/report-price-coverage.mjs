@@ -165,6 +165,11 @@ export function analysePriority(shows, watched, now = Date.now()) {
     const date = String(show?.dateTimeISO || entry?.date || "").slice(0, 10);
     const when = Date.parse(String(show?.dateTimeISO || (entry?.date ? `${entry.date}T23:59:59Z` : "")));
     if (Number.isFinite(when) && when <= now) continue;
+    // The live payload drops a show once its own date arrives, so a watched
+    // event dated today or earlier that is absent has played or is playing, not
+    // been removed. Only later-dated absences are real "missing" problems
+    // (15 Nov 2026: five same-day shows failed the run for exactly this).
+    if (!show && date && date <= new Date(now).toISOString().slice(0, 10)) continue;
     result.watched += 1;
     const row = { id, artist: show?.artist_slug || entry?.artist || "", date, city: show?.city || entry?.city || "" };
     if (!show) { result.missing.push(row); continue; }
@@ -512,13 +517,13 @@ function selfTest() {
       { ...base, id: "w-past", dateTimeISO: "2026-09-01T00:00:00Z", prices: [] }
     ];
     const watch = ["w-ok", "w-thin", "w-none", "w-held", "w-pre", "w-past"].map((id) => ({ id }))
-      .concat([{ id: "w-gone", date: "2026-12-01" }, { id: "w-gone-past", date: "2026-09-01" }]);
+      .concat([{ id: "w-gone", date: "2026-12-01" }, { id: "w-gone-past", date: "2026-09-01" }, { id: "w-gone-today", date: new Date(now).toISOString().slice(0, 10) }]);
     const p = analysePriority(watchShows, watch, now);
     assert.equal(p.watched, 6, "past dates leave the watch, whether in the payload or not");
     assert.equal(p.healthy, 1);
     assert.deepEqual(p.thin.map((row) => row.id), ["w-thin"], "a stale second seller does not count");
     assert.deepEqual(p.unpriced.map((row) => row.id), ["w-none"], "only stale prices means unpriced");
-    assert.deepEqual(p.missing.map((row) => row.id), ["w-gone"]);
+    assert.deepEqual(p.missing.map((row) => row.id), ["w-gone"], "an absent show dated today has played, not been removed");
     assert.deepEqual(p.held.map((row) => row.id), ["w-held"]);
     assert.equal(p.pre_onsale, 1);
     const watched = analyse(watchShows, { now, priority: watch });

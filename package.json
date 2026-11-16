@@ -16,6 +16,7 @@
     "test:artist-presentation": "node scripts/artist-presentation.test.mjs",
     "test:artist-cities": "node scripts/artist-cities.test.mjs",
     "test:price-notes": "node scripts/price-notes.test.mjs",
+    "test:price-disclosure-fields": "node scripts/price-disclosure-fields.test.mjs",
     "test:price-wording": "node scripts/price-wording.test.mjs",
     "test:upcoming-shows": "node scripts/upcoming-shows.test.mjs",
     "test:selling-soon": "node scripts/selling-soon.test.mjs",

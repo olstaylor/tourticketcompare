@@ -255,6 +255,10 @@ which is indistinguishable from a healthy run with nothing to do:
 
 ---
 
+## Optional Price-Disclosure Fields (EU readiness)
+
+The EU Digital Fairness Act proposal (11 Nov 2026, not yet law) may require ticket sellers to disclose original total price, category/row/seat, the number of tickets at the advertised price and the maximum possible price. TTC's own obligations are unsettled. `scripts/lib/price-disclosure-fields.mjs` defines the optional shape: `original_total_price`, `displayed_total_price`, `fees_included`, `ticket_category`, `section`, `row`, `seat`, `price_ceiling`, `inventory_at_price`, `jurisdiction`, `price_checked_at`. Unknown is `null`: nothing is estimated, defaulted or inferred, and invalid input is nulled, not coerced. Today only `price_checked_at` is derivable (from `verified_at`); `low_price` is not a verified total and `inventory_count` is not tied to a price. Persisting the fields needs an additive D1 migration (owner-gated); no frontend or display change is implied. Reassess after Parliament and Council act.
+
 ## Placeholder URL Rejection
 
 The following URL patterns are rejected by `/api/out` and `/api/shows`:

@@ -381,7 +381,7 @@
     "ticketmaster_event_id": "070064F5C7DE504C",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-milwaukee-fiserv-forum-11-14-2026/production/7393456",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
     "last_verified_at": "2026-11-08",
@@ -403,11 +403,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7393456,
-        "url": "https://www.vividseats.com/pentatonix-tickets-milwaukee-fiserv-forum-11-14-2026/production/7393456",
-        "verified": true,
-        "last_verified_at": "2026-11-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -464,7 +464,7 @@
     "ticketmaster_event_id": "080064FF0AF3208F",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-grand-rapids-michigan-11-15-2026/event/080064FF0AF3208F",
     "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/grand-rapids-michigan-van-andel-arena-2026-11-15-6-pm/concert/18427197",
-    "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-grand-rapids-van-andel-arena-11-15-2026/production/7393509",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-grand-rapids-michigan-11-15-2026/event/080064FF0AF3208F",
     "last_verified_at": "2026-11-09",
@@ -486,11 +486,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7393509,
-        "url": "https://www.vividseats.com/pentatonix-tickets-grand-rapids-van-andel-arena-11-15-2026/production/7393509",
-        "verified": true,
-        "last_verified_at": "2026-11-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -563,7 +563,7 @@
         "event_id": 7393515,
         "url": "https://www.vividseats.com/pentatonix-tickets-louisville-kfc-yum-center-11-16-2026/production/7393515",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -644,7 +644,7 @@
         "event_id": 7393780,
         "url": "https://www.vividseats.com/pentatonix-tickets-buffalo-keybank-center-11-18-2026/production/7393780",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -726,7 +726,7 @@
         "event_id": 7393838,
         "url": "https://www.vividseats.com/pentatonix-tickets-cleveland-rocket-arena-11-19-2026/production/7393838",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -798,7 +798,7 @@
         "event_id": 7393834,
         "url": "https://www.vividseats.com/pentatonix-tickets-pittsburgh-ppg-paints-arena-11-21-2026/production/7393834",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -880,7 +880,7 @@
         "event_id": 7394146,
         "url": "https://www.vividseats.com/pentatonix-tickets-hamilton-td-coliseum-11-22-2026/production/7394146",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -953,7 +953,7 @@
         "event_id": 7394185,
         "url": "https://www.vividseats.com/pentatonix-tickets-charlottesville-john-paul-jones-arena-11-28-2026/production/7394185",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1034,7 +1034,7 @@
         "event_id": 7393828,
         "url": "https://www.vividseats.com/pentatonix-tickets-albany-mvp-arena-11-29-2026/production/7393828",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1123,7 +1123,7 @@
         "event_id": 7394001,
         "url": "https://www.vividseats.com/pentatonix-tickets-baltimore-cfg-bank-arena-12-3-2026/production/7394001",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1212,7 +1212,7 @@
         "event_id": 7394005,
         "url": "https://www.vividseats.com/pentatonix-tickets-columbia-colonial-life-arena-12-5-2026/production/7394005",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1292,7 +1292,7 @@
         "event_id": 7393915,
         "url": "https://www.vividseats.com/pentatonix-tickets-greenville-bon-secours-wellness-arena-12-6-2026/production/7393915",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1373,7 +1373,7 @@
         "event_id": 7394057,
         "url": "https://www.vividseats.com/pentatonix-tickets-raleigh-lenovo-center-12-7-2026/production/7394057",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1459,7 +1459,7 @@
         "event_id": 7394203,
         "url": "https://www.vividseats.com/pentatonix-tickets-nashville-bridgestone-arena-12-9-2026--concerts-pop/production/7394203",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1547,7 +1547,7 @@
         "event_id": 7393911,
         "url": "https://www.vividseats.com/pentatonix-tickets-atlanta-state-farm-arena-12-10-2026/production/7393911",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1636,7 +1636,7 @@
         "event_id": 7394110,
         "url": "https://www.vividseats.com/pentatonix-tickets-north-little-rock-simmons-bank-arena-12-12-2026/production/7394110",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1717,7 +1717,7 @@
         "event_id": 7394179,
         "url": "https://www.vividseats.com/pentatonix-tickets-bossier-city-brookshire-grocery-arena-12-13-2026/production/7394179",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1804,7 +1804,7 @@
         "event_id": 7393901,
         "url": "https://www.vividseats.com/pentatonix-tickets-austin-moody-center-atx-12-15-2026/production/7393901",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1992,7 +1992,7 @@
         "event_id": 7394207,
         "url": "https://www.vividseats.com/pentatonix-tickets-lubbock-united-supermarkets-arena-12-17-2026/production/7394207",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2061,7 +2061,7 @@
         "event_id": 7394209,
         "url": "https://www.vividseats.com/pentatonix-tickets-glendale-desert-diamond-arena-12-19-2026--concerts-pop/production/7394209",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2236,7 +2236,7 @@
         "event_id": 7394183,
         "url": "https://www.vividseats.com/pentatonix-tickets-inglewood-kia-forum-12-22-2026/production/7394183",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {

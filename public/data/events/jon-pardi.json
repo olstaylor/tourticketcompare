@@ -513,7 +513,7 @@
     "ticketmaster_event_id": "060064EDA44B8E3D",
     "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-independence-missouri-11-14-2026/event/060064EDA44B8E3D",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-independence-cable-dahmer-arena-11-14-2026--concerts-country-and-folk/production/7320599",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-independence-missouri-11-14-2026/event/060064EDA44B8E3D",
     "last_verified_at": "2026-11-07",
@@ -535,11 +535,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7320599,
-        "url": "https://www.vividseats.com/jon-pardi-tickets-independence-cable-dahmer-arena-11-14-2026--concerts-country-and-folk/production/7320599",
-        "verified": true,
-        "last_verified_at": "2026-11-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -662,7 +662,7 @@
         "event_id": 7653948,
         "url": "https://www.vividseats.com/jon-pardi-tickets-durant-choctaw-grand-theater-3-20-2027/production/7653948",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {

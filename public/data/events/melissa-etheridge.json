@@ -224,7 +224,7 @@
     "ticketmaster_event_id": "11006565DE06A49E",
     "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-enoch-alberta-03-26-2027/event/11006565DE06A49E",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/enoch-canada-river-cree-resort-casino-2027-03-26-9-pm/concert/18754353",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-enoch-river-cree-casino-3-26-2027/production/7834630",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-enoch-alberta-03-26-2027/event/11006565DE06A49E",
     "last_verified_at": null,
@@ -246,11 +246,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834630,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-enoch-river-cree-casino-3-26-2027/production/7834630",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -383,7 +383,7 @@
     "ticketmaster_event_id": "11006566AA717075",
     "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-winnipeg-manitoba-03-30-2027/event/11006566AA717075",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-30-8-pm/concert/18754333",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-winnipeg-burton-cummings-theatre-3-30-2027/production/7834836",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-winnipeg-manitoba-03-30-2027/event/11006566AA717075",
     "last_verified_at": null,
@@ -405,11 +405,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834836,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-winnipeg-burton-cummings-theatre-3-30-2027/production/7834836",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "06006563E47AE7D5",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-des-moines-iowa-04-01-2027/event/06006563E47AE7D5",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/des-moines-iowa-hoyt-sherman-place-2027-04-01-7-30-pm/concert/18754305",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-des-moines-hoyt-sherman-place-4-1-2027/production/7835105",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-des-moines-iowa-04-01-2027/event/06006563E47AE7D5",
     "last_verified_at": null,
@@ -458,11 +458,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835105,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-des-moines-hoyt-sherman-place-4-1-2027/production/7835105",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -489,7 +489,7 @@
     "ticketmaster_event_id": "05006562E3DC92FC",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-nashville-indiana-04-02-2027/event/05006562E3DC92FC",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/nashville-indiana-brown-county-music-center-2027-04-02-8-pm/concert/18754809",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-nashville-brown-county-music-center-4-2-2027/production/7835097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-nashville-indiana-04-02-2027/event/05006562E3DC92FC",
     "last_verified_at": null,
@@ -511,11 +511,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835097,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-nashville-brown-county-music-center-4-2-2027/production/7835097",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -595,7 +595,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAkCd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCd",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/milwaukee-wisconsin-pabst-theater-2027-04-05-8-pm/concert/18758752",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-milwaukee-pabst-theater-4-5-2027/production/7836449",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCd",
     "last_verified_at": null,
@@ -617,11 +617,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7836449,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-milwaukee-pabst-theater-4-5-2027/production/7836449",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -648,7 +648,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAkAP",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAP",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/shipshewana-indiana-blue-gate-performing-arts-center-2027-04-06-7-30-pm/concert/18758753",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-shipshewana-blue-gate-performing-arts-center-4-6-2027/production/7832723",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkAP",
     "last_verified_at": null,
@@ -670,11 +670,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7832723,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-shipshewana-blue-gate-performing-arts-center-4-6-2027/production/7832723",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -701,7 +701,7 @@
     "ticketmaster_event_id": "1B00656295387649",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-knoxville-tennessee-theatre-4-7-2027/production/7834812",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
     "last_verified_at": null,
@@ -723,11 +723,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834812,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-knoxville-tennessee-theatre-4-7-2027/production/7834812",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -754,7 +754,7 @@
     "ticketmaster_event_id": "01006565FD1FABBF",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-danville-the-pantheon-at-caesars-virginia-4-9-2027/production/7834830",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
     "last_verified_at": null,
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834830,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-danville-the-pantheon-at-caesars-virginia-4-9-2027/production/7834830",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -860,7 +860,7 @@
     "ticketmaster_event_id": "2D006563B015BB7D",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-charleston-charleston-music-hall-4-11-2027/production/7834858",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
     "last_verified_at": null,
@@ -882,11 +882,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834858,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-charleston-charleston-music-hall-4-11-2027/production/7834858",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -966,7 +966,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAkCA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCA",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/york-pennsylvania-appell-center-for-the-performing-arts-strand-theatre-2027-04-15-7-30-pm/concert/18758760",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-york-appell-center-for-the-performing-arts---strand-theatre-4-15-2027/production/7840707",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCA",
     "last_verified_at": null,
@@ -988,11 +988,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7840707,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-york-appell-center-for-the-performing-arts---strand-theatre-4-15-2027/production/7840707",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1019,7 +1019,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAkCk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCk",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/portsmouth-virginia-rivers-casino-portsmouth-event-center-2027-04-16-8-pm/concert/18758764",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-portsmouth-rivers-casino-portsmouth-4-16-2027--concerts-pop/production/7836048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCk",
     "last_verified_at": null,
@@ -1041,11 +1041,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7836048,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-portsmouth-rivers-casino-portsmouth-4-16-2027--concerts-pop/production/7836048",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1125,7 +1125,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAkfO",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfO",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/springfield-missouri-gillioz-theatre-springfield-2027-04-20-8-pm/concert/18758767",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-springfield-gillioz-theatre-4-20-2027/production/7834856",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkfO",
     "last_verified_at": null,
@@ -1147,11 +1147,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834856,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-springfield-gillioz-theatre-4-20-2027/production/7834856",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1178,7 +1178,7 @@
     "ticketmaster_event_id": "0600656534CF25F8",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-wichita-kansas-04-21-2027/event/0600656534CF25F8",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-wichita-orpheum-theatre---wichita-4-21-2027/production/7835083",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-wichita-kansas-04-21-2027/event/0600656534CF25F8",
     "last_verified_at": null,
@@ -1200,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7835083,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-wichita-orpheum-theatre---wichita-4-21-2027/production/7835083",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1284,7 +1284,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAkCa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCa",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/tucson-arizona-fox-tucson-theatre-2027-04-24-7-30-pm/concert/18758766",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-tucson-fox-theatre-tucson-4-24-2027/production/7836136",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAkCa",
     "last_verified_at": null,
@@ -1306,11 +1306,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7836136,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-tucson-fox-theatre-tucson-4-24-2027/production/7836136",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

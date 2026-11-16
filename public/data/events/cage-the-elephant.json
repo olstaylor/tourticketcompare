@@ -206,7 +206,7 @@
         "event_id": 7536887,
         "url": "https://www.vividseats.com/cage-the-elephant-tickets-leeds-o2-academy---leeds-2-23-2027/production/7536887",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -273,7 +273,7 @@
         "event_id": 7536881,
         "url": "https://www.vividseats.com/cage-the-elephant-tickets-glasgow-o2-academy-glasgow-2-25-2027/production/7536881",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -422,7 +422,7 @@
         "event_id": 7536889,
         "url": "https://www.vividseats.com/cage-the-elephant-tickets-manchester-o2-victoria-warehouse-2-28-2027/production/7536889",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -472,7 +472,7 @@
     "ticketmaster_event_id": "1F00652787E0116B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/cage-the-elephant-tickets-london-alexandra-palace-3-1-2027/production/7537065",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/cage-the-elephant-london-01-03-2027/event/1F00652787E0116B",
     "last_verified_at": "2026-11-07",
@@ -494,11 +494,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7537065,
-        "url": "https://www.vividseats.com/cage-the-elephant-tickets-london-alexandra-palace-3-1-2027/production/7537065",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

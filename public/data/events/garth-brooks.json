@@ -369,11 +369,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107674140",
-        "url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-14-2026/event/107674140",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "8321627",
@@ -387,7 +387,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-14-2026/event/107674140",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -458,11 +458,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107678063",
-        "url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-15-2026/event/107678063",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_4dKZhpM",
@@ -473,7 +473,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8335342/Garth-Brooks-tickets-Sun-Nov-15-2026-Climate-Pledge-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8335342",
-    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-seattle-tickets-11-15-2026/event/107678063",
+    "stubhub_international_url": "",
     "ticket_limit": 8,
     "genre": "Country"
   },
@@ -780,6 +780,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681021",
+        "url": "https://www.stubhub.ie/garth-brooks-tickets-belfast-boucher-playing-fields-21-5-2027/event/107681021",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dOZ_p8zG7ggQN",
@@ -789,7 +796,8 @@
       "AIKEN PROMOTIONS"
     ],
     "ticket_limit": 9,
-    "genre": "Country"
+    "genre": "Country",
+    "stubhub_international_url": "https://www.stubhub.ie/garth-brooks-tickets-belfast-boucher-playing-fields-21-5-2027/event/107681021"
   },
   {
     "id": "tm-garth-brooks-2027-belfast-16doz_p8zg7uaqj",

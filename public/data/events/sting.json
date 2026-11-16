@@ -695,11 +695,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107140083",
-        "url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-15-2026/event/107140083",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v17_A0AG7tWRB",
@@ -707,7 +707,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7772530",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7772530/Sting-tickets-Sun-Nov-15-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-15-2026/event/107140083",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -779,7 +779,7 @@
         "event_id": "107140082",
         "url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-17-2026/event/107140082",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -860,7 +860,7 @@
         "event_id": "107140081",
         "url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-18-2026/event/107140081",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -941,7 +941,7 @@
         "event_id": "107670634",
         "url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-20-2026/event/107670634",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1029,7 +1029,7 @@
         "event_id": "107670637",
         "url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1117,7 +1117,7 @@
         "event_id": "107469502",
         "url": "https://www.stubhub.ie/sting-orlando-tickets-11-24-2026/event/107469502",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1274,7 +1274,7 @@
         "event_id": "107524081",
         "url": "https://www.stubhub.ie/sting-hollywood-tickets-11-25-2026/event/107524081",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1353,7 +1353,7 @@
         "event_id": "107674835",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-4-2027/event/107674835",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1439,7 +1439,7 @@
         "event_id": "107674836",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-6-2027/event/107674836",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1525,7 +1525,7 @@
         "event_id": "107674154",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-7-2027/event/107674154",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1611,7 +1611,7 @@
         "event_id": "107674837",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-10-2027/event/107674837",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1697,7 +1697,7 @@
         "event_id": "107674155",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-12-2027/event/107674155",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1940,7 +1940,7 @@
         "event_id": "107675353",
         "url": "https://www.stubhub.ie/sting-tickets-lodz-atlas-arena-10-6-2027/event/107675353",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -2176,7 +2176,7 @@
         "event_id": "107675401",
         "url": "https://www.stubhub.ie/sting-tickets-fulda-domplatz-fulda-26-6-2027/event/107675401",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -2423,7 +2423,7 @@
         "event_id": "107674256",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-14-2027/event/107674256",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -2509,7 +2509,7 @@
         "event_id": "107674257",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-16-2027/event/107674257",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -2595,7 +2595,7 @@
         "event_id": "107674934",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-17-2027/event/107674934",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -2681,7 +2681,7 @@
         "event_id": "107674935",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-20-2027/event/107674935",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -2767,7 +2767,7 @@
         "event_id": "107674936",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-22-2027/event/107674936",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -2853,7 +2853,7 @@
         "event_id": "107674258",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-23-2027/event/107674258",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },

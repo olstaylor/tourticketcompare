@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-11-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680709",
+        "url": "https://www.stubhub.ie/cody-jinks-hollywood-tickets-2-3-2027/event/107680709",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p3xFVOe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363060/Cody-Jinks-tickets-Wed-Feb-3-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363060/Cody-Jinks-tickets-Wed-Feb-3-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
+    "stubhub_international_url": "https://www.stubhub.ie/cody-jinks-hollywood-tickets-2-3-2027/event/107680709"
   },
   {
     "id": "tm-cody-jinks-2027-cocoa-z7r9jz1aaakjb",

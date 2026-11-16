@@ -866,11 +866,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107170285",
-        "url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7961834",
@@ -884,7 +884,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/katseye-las-vegas-tickets-11-14-2026/event/107170285",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -950,7 +950,7 @@
         "event_id": "107170286",
         "url": "https://www.stubhub.ie/katseye-seattle-tickets-11-17-2026/event/107170286",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1032,7 +1032,7 @@
         "event_id": "107170287",
         "url": "https://www.stubhub.ie/katseye-oakland-tickets-11-19-2026/event/107170287",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1114,7 +1114,7 @@
         "event_id": "107170288",
         "url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-21-2026/event/107170288",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1196,7 +1196,7 @@
         "event_id": "107188077",
         "url": "https://www.stubhub.ie/katseye-los-angeles-tickets-11-22-2026/event/107188077",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1278,7 +1278,7 @@
         "event_id": "107170289",
         "url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1360,7 +1360,7 @@
         "event_id": "107165672",
         "url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-27-11-2026/event/107165672",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1441,7 +1441,7 @@
         "event_id": "107187078",
         "url": "https://www.stubhub.ie/katseye-tickets-mexico-city-palacio-de-los-deportes-28-11-2026/event/107187078",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {

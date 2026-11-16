@@ -889,7 +889,7 @@
         "event_id": "107258745",
         "url": "https://www.stubhub.ie/phoebe-bridgers-tickets-manchester-co-op-live-26-11-2026/event/107258745",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -972,7 +972,7 @@
         "event_id": "107298078",
         "url": "https://www.stubhub.ie/phoebe-bridgers-tickets-glasgow-ovo-hydro-arena-glasgow-27-11-2026/event/107298078",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1055,7 +1055,7 @@
         "event_id": "107298079",
         "url": "https://www.stubhub.ie/phoebe-bridgers-tickets-birmingham-bp-pulse-live-28-11-2026/event/107298079",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1131,7 +1131,7 @@
         "event_id": "107299077",
         "url": "https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-1-12-2026/event/107299077",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -1198,7 +1198,7 @@
         "event_id": "107258759",
         "url": "https://www.stubhub.ie/phoebe-bridgers-tickets-london-the-o2-arena-2-12-2026/event/107258759",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-16",
         "availability_status": "listed"
       }
     },
@@ -2310,6 +2310,13 @@
         "verified": true,
         "last_verified_at": "2026-11-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681742",
+        "url": "https://www.stubhub.ie/phoebe-bridgers-newark-tickets-3-16-2027/event/107681742",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_pGkRZLRgR",
@@ -2334,7 +2341,8 @@
     ],
     "organizer_names": [
       "AEG LIVE"
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-newark-tickets-3-16-2027/event/107681742"
   },
   {
     "id": "tm-phoebe-bridgers-2027-university-park-vv1aovp_uga2cx87",
@@ -2800,6 +2808,13 @@
         "verified": true,
         "last_verified_at": "2026-11-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681815",
+        "url": "https://www.stubhub.ie/phoebe-bridgers-miami-tickets-4-24-2027/event/107681815",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_phKzG-0",
@@ -2824,7 +2839,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-miami-tickets-4-24-2027/event/107681815"
   },
   {
     "id": "tm-phoebe-bridgers-2027-orlando-1axzk4jgkenbxsj",
@@ -2887,6 +2903,13 @@
         "verified": true,
         "last_verified_at": "2026-11-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681824",
+        "url": "https://www.stubhub.ie/phoebe-bridgers-orlando-tickets-4-27-2027/event/107681824",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4JGkenBxSJ",
@@ -2911,7 +2934,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-orlando-tickets-4-27-2027/event/107681824"
   },
   {
     "id": "tm-phoebe-bridgers-2027-san-antonio-g5diz_peugmcn",
@@ -2974,6 +2998,13 @@
         "verified": true,
         "last_verified_at": "2026-11-16",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681843",
+        "url": "https://www.stubhub.ie/phoebe-bridgers-san-antonio-tickets-5-4-2027/event/107681843",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pEUGmcN",
@@ -2999,7 +3030,8 @@
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-san-antonio-tickets-5-4-2027/event/107681843"
   },
   {
     "id": "tm-phoebe-bridgers-2027-ciudad-de-mexico-1afzk4egkey1bcx",

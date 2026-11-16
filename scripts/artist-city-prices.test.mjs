@@ -765,7 +765,14 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     assert(Boolean(html), "the date still renders");
     const providers = [...html.matchAll(/data-cta-provider="([^\"]+)"/g)].map((m) => m[1]);
     assert(providers.join(",") === "ticketmaster,seatgeek,stubhub-international,ticket-liquidator,ticketnetwork,vivid-seats", "primary first, then marketplaces alphabetically");
-    assert(!/provider-cta-lowest|data-cta-lowest|provider-cta-badge/.test(html), "different listings cannot earn a lowest-price badge");
+    // Owner decision 2026-11-16: a card may name its lowest listed price as one
+    // plain line (provider and amount), never a ranking badge or a savings claim.
+    assert(!/data-cta-lowest|provider-cta-badge/.test(html), "no ranking badge markup on a card");
+    const lowLine = html.match(/<p class="provider-cta-lowest">([\s\S]*?)<\/p>/);
+    if (lowLine) {
+      assert(/^<strong>Lowest listed: USD\s[\d.,]+<\/strong> on [A-Za-z ]+$/.test(lowLine[1]), "the lowest-listed line names an amount and a provider only");
+      assert(!/best|deal|save|cheapest/i.test(lowLine[1]), "the lowest-listed line makes no savings or best-deal claim");
+    }
     assert(html.includes("Primary seller · may include resale") && html.includes("Resale marketplace"), "seller roles are explicit");
     assert(html.includes("From USD") && html.includes('data-cta-price-snapshot="present"'), "starting prices retain their currency and analytics");
   }

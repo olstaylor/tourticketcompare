@@ -6847,9 +6847,23 @@ function ctaCountLabel(count, priced = 0) {
   return lowestPriceLabel(priced);
 }
 
+// Names the lowest of two or more fresh listed prices on a card, so a buyer
+// does not have to scan the buttons (owner-approved 2026-11-16). It reads the
+// same figures the buttons print, compares one currency only, and does not
+// reorder anything: button order stays as it is, never by commission.
+// Keep in sync with lowestListedSpec in public/app.js.
+function lowestListedSpec(ctaSpecs) {
+  const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf && Number.isFinite(spec.lane?.price) && spec.lane.price > 0);
+  if (priced.length < 2) return null;
+  if (new Set(priced.map((spec) => String(spec.lane.currency || "").toUpperCase())).size !== 1) return null;
+  return priced.reduce((low, spec) => (spec.lane.price < low.lane.price ? spec : low));
+}
+
 const ctaCountLineHtml = (ctaSpecs) => {
   const label = ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs));
-  return label ? `<p class="provider-cta-count muted">${escapeHtml(label)}</p>` : "";
+  const low = lowestListedSpec(ctaSpecs);
+  const lowHtml = low ? `<p class="provider-cta-lowest"><strong>Lowest listed: ${escapeHtml(low.priceAmount)}</strong> on ${escapeHtml(low.name)}</p>` : "";
+  return label ? `<p class="provider-cta-count muted">${escapeHtml(label)}</p>${lowHtml}` : "";
 };
 
 const pricedCount = (ctaSpecs) => ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf).length;

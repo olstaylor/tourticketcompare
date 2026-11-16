@@ -2353,6 +2353,12 @@ const serverPricedMorgan = await routeResponse("/artists/morgan-wallen", envWith
   IMPACT_VIVIDSEATS_BASE_TRACKING_URL: "https://example.test/vivid?u="
 }));
 assert(serverPricedMorgan.text.includes("provider-cta-price") && serverPricedMorgan.text.includes('<p class="disclosure-note">Checked <time') && /Checked <time datetime="[^"]+" title="[^"]+">[^<]+<\/time>/.test(serverPricedMorgan.text) && /(?:Provider starting price|Separate provider starting prices)</.test(serverPricedMorgan.text), "server-rendered artist cards should show eligible provider snapshots with one unified note before client hydration");
+for (const card of serverPricedMorgan.text.split('<article class="info-card show-card').slice(1)) {
+  if (card.includes("provider-cta-lowest")) {
+    assert((card.match(/provider-cta-value provider-cta-price/g) || []).length >= 2, "a 'Lowest listed' line needs at least two priced buttons on the card");
+  }
+}
+assert(appJs.includes("provider-cta-lowest") && pathSource.includes("provider-cta-lowest") && appJs.includes("function lowestListedSpec") && pathSource.includes("function lowestListedSpec"), "server and client cards both name the lowest listed price");
 assert((serverPricedMorgan.text.match(/<a\b[^>]*data-cta-provider="seatgeek"[^>]*>[\s\S]*?<\/a>/g) || []).some((cta) => /USD\s+123\.45/.test(cta) && cta.includes("provider=seatgeek")), "a fresh approved SeatGeek snapshot should appear on its attributed CTA");
 // Ticketmaster never carries a price, so a card mixing it with a priced lane
 // must never claim a price "on each" button.

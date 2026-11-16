@@ -2363,6 +2363,16 @@ function renderPriceHistoryContent(panel, wrap, data) {
 // button shows a price, saying what that number is. No site count: the buttons
 // are the count. Keep in sync with ctaCountLabel in functions/[[path]].js.
 // `priced` is how many of the buttons show a price.
+// Names the lowest of two or more fresh listed prices on a card (owner-approved
+// 2026-11-16). One currency only; no reordering. Keep in sync with
+// lowestListedSpec in functions/[[path]].js.
+function lowestListedSpec(ctaSpecs) {
+  const priced = ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf && Number.isFinite(spec.lane?.price) && spec.lane.price > 0);
+  if (priced.length < 2) return null;
+  if (new Set(priced.map((spec) => String(spec.lane.currency || "").toUpperCase())).size !== 1) return null;
+  return priced.reduce((low, spec) => (spec.lane.price < low.lane.price ? spec : low));
+}
+
 function showCtaCountLabel(count, priced = 0) {
   if (count < 1 || !priced) return "";
   return priced === 1 ? "Provider starting price" : "Separate provider starting prices";
@@ -2522,6 +2532,15 @@ function renderShowCard(show, options = {}) {
       // Keep in sync with ctaCountLabel in functions/[[path]].js.
       const countLabel = showCtaCountLabel(ctaSpecs.length, ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf).length);
       if (countLabel) text(body, "p", countLabel, "provider-cta-count muted");
+      const lowest = lowestListedSpec(ctaSpecs);
+      if (countLabel && lowest) {
+        const lowLine = document.createElement("p");
+        lowLine.className = "provider-cta-lowest";
+        const lowStrong = document.createElement("strong");
+        lowStrong.textContent = `Lowest listed: ${lowest.priceAmount}`;
+        lowLine.append(lowStrong, ` on ${lowest.name}`);
+        body.append(lowLine);
+      }
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
       ctaSpecs.sort((a, b) => providerDisplayRank(a.provider) - providerDisplayRank(b.provider));

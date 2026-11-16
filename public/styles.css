@@ -2451,6 +2451,14 @@ summary {
   margin: 0;
 }
 
+/* The lowest of two or more fresh listed prices on a card (names it; never
+   reorders the buttons). */
+.show-card .provider-cta-lowest {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.35;
+}
+
 .show-card .provider-cta-group {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));

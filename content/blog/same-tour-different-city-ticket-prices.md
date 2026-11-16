@@ -5,7 +5,7 @@ description: "For 10 big tours, one resale site's lowest listed price for the ne
 summary: "Lowest listed resale prices for the same tour in different cities, one site per tour, each figure with the time it was captured. Snapshots up to 18 October 2026."
 date: 2026-10-18
 status: published
-updated: 2026-11-13
+updated: 2026-11-16
 tags:
   - tour-data
 related_guides:
@@ -39,8 +39,8 @@ On Vivid Seats, the lowest listed price for the next date in each of 47 cities i
 |---|---|---|---|---|---|
 | Irving | 27 November 2026 | The Pavilion at Toyota Music Factory | $37 | Vivid Seats | 18 October, 06:38 UTC |
 | Corpus Christi | 17 December 2026 | Selena Auditorium | $39 | Vivid Seats | 18 October, 06:38 UTC |
-| Detroit | 30 October 2026 | The Fillmore Detroit | $42 | Vivid Seats | 18 October, 06:38 UTC |
-| Philadelphia | 15 November 2026 | The Fillmore Philadelphia | $110 | Vivid Seats | 18 October, 06:38 UTC |
+| Detroit | 30 October 2026 (has passed) | The Fillmore Detroit | $42 | Vivid Seats | 18 October, 06:38 UTC |
+| Philadelphia | 15 November 2026 (has passed) | The Fillmore Philadelphia | $110 | Vivid Seats | 18 October, 06:38 UTC |
 | Sacramento | 19 February 2027 | Channel 24 | $110 | Vivid Seats | 18 October, 06:38 UTC |
 | Cleveland | 7 November 2026 (has passed) | Agora Theatre | $123 | Vivid Seats | 18 October, 06:38 UTC |
 

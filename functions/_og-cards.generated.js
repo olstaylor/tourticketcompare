@@ -868,6 +868,7 @@ export const OG_CARDS = {
   "/blog/same-tour-different-city-ticket-prices": {"url":"/og/blog-same-tour-different-city-ticket-prices.png","alt":"Blog: Same tour, different city: how listed ticket prices vary"},
   "/blog/shania-twain-tour-guide": {"url":"/og/blog-shania-twain-tour-guide.png","alt":"Blog: Shania Twain 2027 dates: listed prices by city"},
   "/blog/sombr-tour-ticket-prices-by-city": {"url":"/og/blog-sombr-tour-ticket-prices-by-city.png","alt":"Blog: Sombr tour tickets: listed prices city by city"},
+  "/blog/sting-tour-guide": {"url":"/og/blog-sting-tour-guide.png","alt":"Blog: Sting tour: dates, cities and how to choose"},
   "/blog/trans-siberian-orchestra-2026-matinee-or-evening": {"url":"/og/blog-trans-siberian-orchestra-2026-matinee-or-evening.png","alt":"Blog: Trans-Siberian Orchestra 2026: matinee or evening tickets?"},
   "/blog/trivium-tour-ticket-prices-by-city": {"url":"/og/blog-trivium-tour-ticket-prices-by-city.png","alt":"Blog: Trivium tour tickets: listed prices city by city"},
   "/blog/u2-tour-guide": {"url":"/og/blog-u2-tour-guide.png","alt":"Blog: U2 tour: dates, cities and how to choose"},

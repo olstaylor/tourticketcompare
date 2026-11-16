@@ -4,7 +4,8 @@ seo_title: "Sting tour dates and cities"
 description: "Where each ticket site lists its lowest Sting prices by city, which Las Vegas listing to check first, and how to compare your own date."
 summary: "Lowest listed Sting prices by city and site, with one unusually low Las Vegas listing to check before relying on it."
 date: 2026-11-16
-status: draft
+status: published
+review: automated
 tags: [tour-buying]
 related_artists: [sting]
 related_guides: [how-to-read-a-ticket-listing, primary-vs-resale-concert-tickets, ticket-delivery-and-transfer-timing]

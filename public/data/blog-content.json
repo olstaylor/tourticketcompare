@@ -11,7 +11,7 @@
       "summary": "Lowest listed Sting prices by city and site, with one unusually low Las Vegas listing to check before relying on it.",
       "datePublished": "2026-11-16",
       "dateModified": "2026-11-16",
-      "status": "draft",
+      "status": "published",
       "author": "TourTicketCompare",
       "tags": [
         "tour-buying"
@@ -46,6 +46,7 @@
           "content": "Settle on the city and date that work for you first, then go to the [Sting artist board](/artists/sting) and compare the listings for that exact date before paying. If a listing's wording is unclear, the guide on [how to read a ticket listing](/guides/how-to-read-a-ticket-listing) covers it. The difference between buying from the original seller and a resale site is set out in [primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets). For a 2027 show this far ahead, [ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) explains why your tickets may not appear straight away."
         }
       ],
+      "review": "automated",
       "sources": [
         {
           "label": "Ticketmaster: Sting, Las Vegas, 2027-03-04",
@@ -4359,7 +4360,7 @@
     {
       "slug": "tour-buying",
       "label": "Tour Buying",
-      "postCount": 34
+      "postCount": 35
     },
     {
       "slug": "tour-data",

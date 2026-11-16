@@ -248,9 +248,9 @@ const routeMeta = {
       "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total."
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices by Site | TourTicketCompare",
+    title: "Compare Concert Ticket Prices by Show | TourTicketCompare",
     description:
-      "Compare ticket prices for the same concert across ticket sites, then check the fees and final total before you buy."
+      "Pick an artist and date to compare each site's listed price for the same show, with when it was checked. Then check seats, fees and the final total."
   },
   "/artists": {
     title: "Artists | TourTicketCompare",

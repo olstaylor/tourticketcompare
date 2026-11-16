@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/two-friends-ocean-casino-resort-tickets/14369754?REFERRAL_ID=tmfeed",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-16",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14369754",
@@ -50,7 +50,8 @@
     },
     "ticketmaster_discovery_event_id": "1AtZk4FGkd6j8cF",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-two-friends-2026-nashville-g5viz_kmfvexe",
@@ -68,7 +69,7 @@
     "vividseats_url": "https://www.vividseats.com/big-bootie-land-tickets-nashville-the-truth-12-5-2026/production/6789724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-presents-big-boots-land-nashville-tennessee-12-05-2026/event/1B00646DD4067882",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -111,7 +112,19 @@
     "ticketmaster_discovery_event_id": "G5viZ_kMfvExe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808859/Two-Friends-tickets-Sat-Dec-5-2026-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7808859/Two-Friends-tickets-Sat-Dec-5-2026-The-Truth",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-03-20T15:00:00Z",
+        "end": "2026-12-01T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2026-seattle-vvg1hz_krkthyp",
@@ -129,7 +142,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-seattle-wamu-theater---seattle-12-12-2026/production/7631201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/white-rabbit-group-presents-more-the-seattle-washington-12-12-2026/event/0F00653BD3A7CE56",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +185,17 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_KRKtHyp",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332446/Two-Friends-tickets-Sat-Dec-12-2026-Wamu-Theater-At-Lumen-Field-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8332446/Two-Friends-tickets-Sat-Dec-12-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
+    "ticket_limit": 6,
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP (21+ w/ Valid ID) Package Onsale",
+        "start": "2026-10-07T17:00:00Z",
+        "end": "2026-12-12T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-tampa-vvg1vz_fhrt2gz",
@@ -190,7 +213,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-tampa-seminole-hard-rock-hotel-and-casino---tampa-12-31-2026/production/7799912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/2027-nye-celebration-featuring-two-friends-tampa-florida-12-31-2026/event/0D006546DEFCF300",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -233,7 +256,9 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_fhrT2GZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353529/Two-Friends-tickets-Thu-Dec-31-2026-Seminole-Hard-Rock-Tampa-Event-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353529/Two-Friends-tickets-Thu-Dec-31-2026-Seminole-Hard-Rock-Tampa-Event-Center",
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-two-friends-2027-morrison-z7r9jz1aa76-a",
@@ -251,7 +276,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-morrison-red-rocks-amphitheatre-4-30-2027--concerts-dance-electronica/production/7697394",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA76-A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -294,7 +319,10 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76-A",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319843/Two-Friends-tickets-Fri-Apr-30-2027-Red-Rocks-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319843/Two-Friends-tickets-Fri-Apr-30-2027-Red-Rocks-Amphitheatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-two-friends-2027-saint-louis-1a-zk4pgkdsvsmy",
@@ -312,7 +340,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-saint-louis-missouri-05-05-2027/event/21006565F3071BB9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -347,7 +375,18 @@
     },
     "ticketmaster_discovery_event_id": "1A-Zk4PGkdSvsmy",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-05-01T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-indianapolis-vv1aazk40gkd83bu9",
@@ -365,7 +404,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-indianapolis-everwise-amphitheater-at-white-river-state-park-5-6-2027--concerts-dance-electronica/production/7841649",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-indianapolis-indiana-05-06-2027/event/05006564D04BAD97",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -408,7 +447,29 @@
     "ticketmaster_discovery_event_id": "vv1AAZk40Gkd83BU9",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363838/Two-Friends-tickets-Thu-May-6-2027-Everwise-Amphitheater-at-White-River-State-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363838/Two-Friends-tickets-Thu-May-6-2027-Everwise-Amphitheater-at-White-River-State-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-04-09T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-02T16:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-04T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-milwaukee-vv1a6zk4n0kbize5e",
@@ -426,7 +487,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-milwaukee-landmark-credit-union-live-5-7-2027--concerts-dance-electronica/production/7841653",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-milwaukee-wisconsin-05-07-2027/event/07006563913628A1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -469,7 +530,19 @@
     "ticketmaster_discovery_event_id": "vv1a6Zk4N0KbIZe5e",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363840/Two-Friends-tickets-Fri-May-7-2027-Landmark-Credit-Union-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363840/Two-Friends-tickets-Fri-May-7-2027-Landmark-Credit-Union-Live",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-05-03T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-minneapolis-vv1akzk4jgkehfygr",
@@ -487,7 +560,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-minneapolis-armory---minneapolis-5-8-2027--concerts-dance-electronica/production/7841655",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-minneapolis-minnesota-05-08-2027/event/06006566BC230D5E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -530,7 +603,17 @@
     "ticketmaster_discovery_event_id": "vv1AkZk4JGkeHFYgr",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363843/Two-Friends-tickets-Sat-May-8-2027-The-Armory-Minneapolis"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363843/Two-Friends-tickets-Sat-May-8-2027-The-Armory-Minneapolis",
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-05-04T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-chicago-vv1a7zkfwgkdmtcgf",
@@ -548,7 +631,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-chicago-huntington-bank-pavilion-at-northerly-island-5-15-2027--concerts-dance-electronica/production/7591482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-present-big-bootie-land-chicago-illinois-05-15-2027/event/04006532EEA6D308",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -591,7 +674,19 @@
     "ticketmaster_discovery_event_id": "vv1A7ZkfwGkdmtcGF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284663/Two-Friends-tickets-Sat-May-15-2027-The-Pavilion-at-Northerly-Island"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284663/Two-Friends-tickets-Sat-May-15-2027-The-Pavilion-at-Northerly-Island",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-05-11T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-detroit-z7r9jz1aaa6pk",
@@ -670,7 +765,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-22-2027/event/31006562FAB47EB5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -705,7 +800,23 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4xGkdBc6Bg",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-18T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-ottawa-1ad7z_pgkgxjwbt",
@@ -723,7 +834,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-23-2027/event/3100656D7E73263F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -758,7 +869,23 @@
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_pGkgXjwbT",
     "timezone": "America/Toronto",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-19T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-washington-1a4zk4t-ngzze8d",
@@ -776,7 +903,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-washington-dc-echostage-5-28-2027--concerts-dance-electronica/production/7841659",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -819,7 +946,19 @@
     "ticketmaster_discovery_event_id": "1a4Zk4t-NGzZe8d",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363846/Two-Friends-tickets-Fri-May-28-2027-Echostage"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363846/Two-Friends-tickets-Fri-May-28-2027-Echostage",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-24T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-boston-vv1avzk4xgkddw012",
@@ -837,7 +976,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-boston-mgm-music-hall-at-fenway-5-29-2027--concerts-dance-electronica/production/7841661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -880,7 +1019,19 @@
     "ticketmaster_discovery_event_id": "vv1AvZk4xGkdDW012",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363848/Two-Friends-tickets-Sat-May-29-2027-MGM-Music-Hall-at-Fenway-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363848/Two-Friends-tickets-Sat-May-29-2027-MGM-Music-Hall-at-Fenway-Park",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-25T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-philadelphia-vv1aovp_fga1qsqx",
@@ -898,7 +1049,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-philadelphia-skyline-stage-at-the-mann-6-4-2027--concerts-dance-electronica/production/7841663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-philadelphia-pennsylvania-06-04-2027/event/020065648A7736A2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -933,7 +1084,19 @@
     },
     "ticketmaster_discovery_event_id": "vv1AOvP_FGA1qSQx",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-05-31T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-brooklyn-z7r9jz1aaa6pa",
@@ -1240,7 +1403,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-raleigh-the-ritz---raleigh-6-16-2027--concerts-dance-electronica/production/7841665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1283,7 +1446,19 @@
     "ticketmaster_discovery_event_id": "G5eVZ_p5QEXA6",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363854/Two-Friends-tickets-Wed-Jun-16-2027-The-Ritz-Raleigh"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363854/Two-Friends-tickets-Wed-Jun-16-2027-The-Ritz-Raleigh",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-06-12T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-north-charleston-g5evz_p3scbo8",
@@ -1301,7 +1476,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-north-charleston-firefly-distillery-6-17-2027--concerts-dance-electronica/production/7841667",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1344,7 +1519,19 @@
     "ticketmaster_discovery_event_id": "G5eVZ_p3SCbO8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363856/Two-Friends-tickets-Thu-Jun-17-2027-Firefly-Distillery"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363856/Two-Friends-tickets-Thu-Jun-17-2027-Firefly-Distillery",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-06-13T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-charlotte-g5evz_pnwhvow",
@@ -1362,7 +1549,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-charlotte-skyla-credit-union-amphitheatre-6-18-2027/production/7842525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1405,7 +1592,19 @@
     "ticketmaster_discovery_event_id": "G5eVZ_pnWHVow",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363858/Two-Friends-tickets-Fri-Jun-18-2027-Skyla-Credit-Union-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363858/Two-Friends-tickets-Fri-Jun-18-2027-Skyla-Credit-Union-Amphitheatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-06-14T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-atlanta-vvg1zz_phfqf4s",
@@ -1423,7 +1622,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-atlanta-coca-cola-roxy-theatre-6-19-2027--concerts-dance-electronica/production/7841673",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1466,7 +1665,19 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_phFQf4S",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363862/Two-Friends-tickets-Sat-Jun-19-2027-Coca-Cola-Roxy"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363862/Two-Friends-tickets-Sat-Jun-19-2027-Coca-Cola-Roxy",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-06-15T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-houston-z7r9jz1aaa6pd",
@@ -1545,7 +1756,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-austin-moody-amphitheater-6-25-2027--concerts-dance-electronica/production/7841677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1588,7 +1799,18 @@
     "ticketmaster_discovery_event_id": "G5dIZ_pmGCpJV",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363865/Two-Friends-tickets-Fri-Jun-25-2027-Moody-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363865/Two-Friends-tickets-Fri-Jun-25-2027-Moody-Amphitheater",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-06-21T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-irving-vvg1yz_phht2we",
@@ -1606,7 +1828,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-irving-pavilion-at-toyota-music-factory-6-26-2027--concerts-dance-electronica/production/7841641",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1649,7 +1871,19 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_phHt2we",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363866/Two-Friends-tickets-Sat-Jun-26-2027-The-Pavilion-at-Toyota-Music-Factory"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363866/Two-Friends-tickets-Sat-Jun-26-2027-The-Pavilion-at-Toyota-Music-Factory",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-06-22T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-toronto-1a8zk49gkesrne-",
@@ -1667,7 +1901,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-toronto-rbc-amphitheatre-6-30-2027/production/7763784",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/two-friends-present-big-bootie-world-toronto-ontario-06-30-2027/event/10006557B1BEA9E1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1702,7 +1936,22 @@
     },
     "ticketmaster_discovery_event_id": "1A8Zk49GkesRnE-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-10-30T14:00:00Z",
+        "end": "2027-06-26T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-two-friends-2027-bala-1avzz_4gkztkppc",
@@ -1720,7 +1969,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-bala-ontario-07-01-2027/event/1000655E2919658E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1755,6 +2004,22 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_4GkztkppC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-06-27T16:00:00Z"
+      }
+    ]
   }
 ]

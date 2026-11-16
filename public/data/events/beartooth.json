@@ -1523,7 +1523,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-salt-lake-city-the-union-event-center---salt-lake-city-12-13-2026--concerts-hard-rock/production/7052886",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-salt-lake-city-utah-12-13-2026/event/1E0064AC8748616E",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1575,13 +1575,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980237",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980237/Beartooth-tickets-Sun-Dec-13-2026-The-Union-Event-Center",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T16:00:00Z",
-        "end": "2026-11-16T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1967,7 +1960,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/beartooth-pure-ecstasy-world-tour-australia-west-melbourne-28-01-2027/event/130064AFDDC6A94C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2004,7 +1997,8 @@
     "timezone": "Australia/Melbourne",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-beartooth-2027-brisbane-177yv0g61drwqfa",

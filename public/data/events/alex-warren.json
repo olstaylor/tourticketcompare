@@ -2857,7 +2857,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-noblesville-ruoff-music-center-5-14-2027--concerts-pop/production/7871089",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-noblesville-indiana-05-14-2027/event/0500656BB607AF8F",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2904,7 +2904,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticket_limit": 6,
     "genre": "Pop",
     "presales": [
       {

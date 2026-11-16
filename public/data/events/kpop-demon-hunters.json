@@ -1354,7 +1354,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-20-2027/production/7870467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-20-2027/event/0C006566AE847156",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1423,6 +1423,16 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
+        "name": "Radio Presale",
+        "start": "2026-11-19T08:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T08:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
         "name": "FOR THE FANS Presale",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -1430,6 +1440,11 @@
       {
         "name": "VIP Package Presale",
         "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "AAC Insider Presale",
+        "start": "2026-11-19T20:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       },
       {
@@ -1466,7 +1481,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-21-2027/production/7870455",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-21-2027/event/0C006566AEEC72EC",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1542,6 +1557,26 @@
       {
         "name": "VIP Package Presale",
         "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "AAC Insider Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T20:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       },
       {
@@ -2036,7 +2071,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/kpop-demon-hunters-tickets/356840491",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2079,17 +2114,17 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "ING Presale",
-        "start": "2026-11-18T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      },
-      {
         "name": "Mastercard® Presale",
         "start": "2026-11-18T09:00:00Z",
         "end": "2026-11-20T08:00:00Z"
       },
       {
         "name": "For The Fans-presale",
+        "start": "2026-11-19T09:00:00Z",
+        "end": "2026-11-20T08:00:00Z"
+      },
+      {
+        "name": "ING Presale",
         "start": "2026-11-19T09:00:00Z",
         "end": "2026-11-20T08:00:00Z"
       },

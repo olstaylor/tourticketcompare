@@ -1625,7 +1625,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-minneapolis-minnesota-11-22-2026/event/06006329CFD13F06",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1676,13 +1676,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-05T15:00:00Z",
-        "end": "2026-11-16T04:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410015",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410015/Sabaton-tickets-Sun-Nov-22-2026-The-Armory-Minneapolis",
     "organizer_names": [

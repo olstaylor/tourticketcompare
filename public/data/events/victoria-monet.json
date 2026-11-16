@@ -937,7 +937,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-pittsburgh-citizens-live-at-the-wylie-11-22-2026--concerts-pop/production/7540319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-pittsburgh-pennsylvania-11-22-2026/event/16006529A28F5FEF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -991,13 +991,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258111/Victoria-Monet-tickets-Sun-Nov-22-2026-Citizens-Live-at-The-Wylie",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-09-16T14:00:00Z",
-        "end": "2026-11-16T03:00:00Z"
-      }
     ],
     "ticket_limit": 4,
     "genre": "Pop"

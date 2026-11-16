@@ -605,7 +605,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-atlanta-mercedes-benz-stadium-6-8-2027/production/7832811",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-atlanta-georgia-06-08-2027/event/0E006566C0752D44",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -677,6 +677,16 @@
         "name": "Artist Presale",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Package",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2027-06-04T16:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361516/Stray-Kids-tickets-Tue-Jun-8-2027-Mercedes-Benz-Stadium",
@@ -1111,7 +1121,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-east-rutherford-metlife-stadium-6-29-2027/production/7832843",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-east-rutherford-new-jersey-06-29-2027/event/00006563A3F87257",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-16",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1180,9 +1190,24 @@
         "end": "2026-11-18T19:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Package",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:00:00Z"
+      },
+      {
         "name": "Artist Presale",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Package",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-19T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2027-06-25T16:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361522/Stray-Kids-tickets-Tue-Jun-29-2027-MetLife-Stadium",

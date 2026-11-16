@@ -17,17 +17,32 @@
 //   - at least one approved lane has a fresh listed-price snapshot, through
 //     the same gate the show card uses (attachApprovedMarketplacePrices).
 //
-// The output is plain internal links to the show on its artist page. No price,
-// provider or availability claim is made, no CTA or affiliate logic is
-// involved, and no page is added. Every failure degrades to an empty list.
+// The output is plain internal links to the show on its artist page, each with
+// the lowest listed price among the fresh approved snapshots for that show
+// (provider named, snapshot time, count of sites priced). That figure is the
+// same one the show card already prints, from the same gate, and is labelled
+// "not the final total" where it is shown. No availability claim is made, no
+// CTA or affiliate logic is involved, and no page is added. Every failure
+// degrades to an empty list.
 
 import { showStartMs } from "./_upcoming.js";
 import { eventLifecycleHeld, eventPublishable } from "./_route-indexability.js";
 import { artistPageIndexable } from "./_artist-indexability.js";
 import { attachApprovedMarketplacePrices } from "./api/shows.js";
+import { relativeShowDay } from "./_relative-day.js";
+
+const PROVIDER_NAMES = {
+  "stubhub-international": "StubHub International",
+  ticketnetwork: "TicketNetwork",
+  "vivid-seats": "Vivid Seats",
+  "ticket-liquidator": "Ticket Liquidator",
+  seatgeek: "SeatGeek"
+};
 
 export const SELLING_SOON_LIMIT = 8;
-export const SELLING_SOON_MIN_HOURS = 24;
+// Every sale traced to a Sub ID so far was a click on a show a day or less away,
+// so tomorrow's and tonight's shows stay in until a few hours before the start.
+export const SELLING_SOON_MIN_HOURS = 3;
 export const SELLING_SOON_MAX_DAYS = 14;
 const PRIORITY_READ_TOP = 60;
 const PRIORITY_MAX_AGE_HOURS = 72;
@@ -82,21 +97,47 @@ export function sellingSoonCandidates({ rows, eventsById, artistsBySlug, eventsB
   return candidates;
 }
 
-/** Up to `limit` links, one per artist, from candidates with a current price. */
-export function sellingSoonLinks(candidates, pricedIds, limit = SELLING_SOON_LIMIT) {
+/**
+ * The lowest fresh listed price for a show, or null. Only same-currency figures
+ * are compared; with mixed currencies no price is claimed.
+ * @param {{provider?: string, price?: number, currency?: string, status?: string, fetchedAt?: string}[]} prices
+ */
+export function lowestListedPrice(prices) {
+  const ok = (prices || []).filter((entry) => entry?.status === "ok" && Number.isFinite(entry?.price) && entry.price > 0 && entry.currency);
+  if (!ok.length) return null;
+  const currencies = new Set(ok.map((entry) => String(entry.currency).toUpperCase()));
+  if (currencies.size !== 1) return null;
+  const best = ok.reduce((low, entry) => (entry.price < low.price ? entry : low));
+  const fetched = Date.parse(String(best.fetchedAt || ""));
+  if (!Number.isFinite(fetched)) return null;
+  return {
+    amount: best.price,
+    currency: [...currencies][0],
+    provider: PROVIDER_NAMES[best.provider] || String(best.provider || "").trim(),
+    sites_priced: ok.length,
+    checked_at: new Date(fetched).toISOString()
+  };
+}
+
+/** Up to `limit` links, one per artist, from candidates with a current price.
+ *  `pricedIds` is a Set of ids, or a Map of id to lowest listed price. */
+export function sellingSoonLinks(candidates, pricedIds, limit = SELLING_SOON_LIMIT, now = Date.now()) {
   const seen = new Set();
   const links = [];
   for (const { event, artist } of candidates) {
     const slug = slugify(event.artist_slug);
     if (seen.has(slug) || !pricedIds.has(String(event.id))) continue;
     seen.add(slug);
+    const lowest = typeof pricedIds.get === "function" ? pricedIds.get(String(event.id)) : null;
     links.push({
       artist_slug: slug,
       artist_name: String(artist.name || event.artist_name || slug).trim(),
       date: dateLabel(event),
+      ...(relativeShowDay(event.datetime_iso, event.timezone, now) ? { when: relativeShowDay(event.datetime_iso, event.timezone, now) } : {}),
       venue: String(event.venue || "").trim(),
       city: String(event.city || "").trim(),
-      href: `/artists/${slug}#show-${slugify(event.id)}`
+      href: `/artists/${slug}#show-${slugify(event.id)}`,
+      ...(lowest ? { lowest } : {})
     });
     if (links.length === limit) break;
   }
@@ -148,12 +189,13 @@ export async function loadSellingSoon(env, now = Date.now()) {
     const candidates = sellingSoonCandidates({ rows, eventsById, artistsBySlug, eventsByArtist, now });
     if (!candidates.length) return [];
     const priced = await attachApprovedMarketplacePrices(candidates.map(({ event }) => event), env);
-    const pricedIds = new Set(
-      priced
-        .filter((show) => !show.priceQueryFailed && (show.prices || []).some((price) => price?.status === "ok" && Number.isFinite(price?.price)))
-        .map((show) => String(show.id))
-    );
-    return sellingSoonLinks(candidates, pricedIds);
+    const pricedIds = new Map();
+    for (const show of priced) {
+      if (show.priceQueryFailed) continue;
+      if (!(show.prices || []).some((price) => price?.status === "ok" && Number.isFinite(price?.price))) continue;
+      pricedIds.set(String(show.id), lowestListedPrice(show.prices));
+    }
+    return sellingSoonLinks(candidates, pricedIds, SELLING_SOON_LIMIT, now);
   } catch {
     return [];
   }

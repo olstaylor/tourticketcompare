@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
-import { sellingSoonCandidates, sellingSoonLinks, loadSellingSoon } from "../functions/_selling-soon.js";
+import { sellingSoonCandidates, sellingSoonLinks, loadSellingSoon, lowestListedPrice } from "../functions/_selling-soon.js";
 
 // "Selling soon" picks priority-list shows 1 to 14 days out, publishable, on an
 // indexable, non-demoted artist page, with a current price; one per artist.
@@ -33,12 +33,34 @@ const eventsByArtist = new Map([...artistsBySlug.keys()].map((slug) => [slug, ev
 const rows = ["g1", "b-tonight", "b-far", "c1", "d1", "e1", "f1", "a2", "a1", "missing"].map((event_id, index) => ({ event_id, rank: index + 1 }));
 
 const candidates = sellingSoonCandidates({ rows, eventsById, artistsBySlug, eventsByArtist, now });
-assert.deepEqual(candidates.map(({ event }) => event.id), ["g1", "a2", "a1"], "window, lifecycle, publishability, demotion and indexability gates");
+assert.deepEqual(candidates.map(({ event }) => event.id), ["g1", "b-tonight", "a2", "a1"], "window (tonight in, past 3h out), lifecycle, publishability, demotion and indexability gates");
 
-const links = sellingSoonLinks(candidates, new Set(["a2", "a1"]));
+const links = sellingSoonLinks(candidates, new Set(["a2", "a1"]), undefined, now);
 assert.equal(links.length, 1, "unpriced shows are skipped; one link per artist");
 assert.deepEqual(links[0], { artist_slug: "artist-a", artist_name: "Artist A", date: "Mon, Oct 19", venue: "Hall", city: "Boston", href: "/artists/artist-a#show-a2" });
-assert.deepEqual(sellingSoonLinks(candidates, new Set(["g1", "a1", "a2"]), 1).map((item) => item.artist_slug), ["artist-g"], "limit");
+assert.deepEqual(sellingSoonLinks(candidates, new Set(["g1", "a1", "a2"]), 1, now).map((item) => item.artist_slug), ["artist-g"], "limit");
+
+// Tomorrow's and tonight's shows stay in until 3 hours before the start.
+const lateNow = Date.parse("2026-10-18T12:00:00-04:00");
+const late = sellingSoonCandidates({ rows, eventsById, artistsBySlug, eventsByArtist, now: lateNow });
+assert.ok(late.some(({ event }) => event.id === "a2"), "a show tomorrow evening is still offered");
+assert.ok(!sellingSoonCandidates({ rows, eventsById, artistsBySlug, eventsByArtist, now: Date.parse("2026-10-19T17:00:00-04:00") }).some(({ event }) => event.id === "a2"), "a show starting in under 3 hours is dropped");
+const tomorrowLinks = sellingSoonLinks(late, new Set(["a2"]), 8, lateNow);
+assert.equal(tomorrowLinks[0].when, "Tomorrow");
+
+// The lowest listed price: fresh approved figures only, one currency, provider named.
+const fetchedAt = "2026-10-16T10:00:00Z";
+assert.deepEqual(
+  lowestListedPrice([
+    { provider: "ticketnetwork", price: 169.05, currency: "USD", status: "ok", fetchedAt },
+    { provider: "stubhub-international", price: 177.15, currency: "USD", status: "ok", fetchedAt },
+    { provider: "seatgeek", status: "unavailable" }
+  ]),
+  { amount: 169.05, currency: "USD", provider: "TicketNetwork", sites_priced: 2, checked_at: "2026-10-16T10:00:00.000Z" }
+);
+assert.equal(lowestListedPrice([{ provider: "ticketnetwork", price: 100, currency: "USD", status: "ok", fetchedAt }, { provider: "vivid-seats", price: 90, currency: "GBP", status: "ok", fetchedAt }]), null, "mixed currencies claim no price");
+assert.equal(lowestListedPrice([{ provider: "ticketnetwork", price: 100, currency: "USD", status: "ok" }]), null, "no snapshot time, no price");
+assert.deepEqual(sellingSoonLinks(candidates, new Map([["a2", lowestListedPrice([{ provider: "vivid-seats", price: 306, currency: "USD", status: "ok", fetchedAt }])]]), 8, now)[0].lowest.provider, "Vivid Seats");
 
 // Fail-open: no database, a failing database or an empty list gives [].
 assert.deepEqual(await loadSellingSoon({}, now), []);

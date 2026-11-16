@@ -277,8 +277,10 @@
   // 3-month Pages export, 2026-10-11), pointing at the top shows of the daily
   // priority list that start in the next two weeks. /api/selling-soon applies
   // every gate (functions/_selling-soon.js); this only places the links.
-  // Plain internal links: no price, provider or availability claim. The paths
-  // are a fixed cohort so the change can be measured before and after.
+  // Plain internal links. Each carries the show's lowest fresh listed price
+  // when the API has one (provider named, snapshot age, "not the final total"),
+  // never an availability claim. The paths are a fixed cohort so the change
+  // can be measured before and after.
   var SELLING_SOON_PATHS = [
     "/artists/lizzy-mcalpine",
     "/guides/seatgeek-vs-ticketmaster",
@@ -292,6 +294,7 @@
     "/blog/hilary-duff-lucky-me-tour-2027-on-sale"
   ];
   var SELLING_SOON_VISIBLE = 4;
+  var SELLING_SOON_VISIBLE_HOME = 6;
   var sellingSoonPath = window.location.pathname.replace(/\/+$/, "") || "/";
   // Artist page: after its own dates. Homepage: under the hero. Guides, blog
   // posts and the compare hub: after the first panel (short answer, ticket
@@ -313,7 +316,7 @@
       .then(function (data) {
         var shows = (data && Array.isArray(data.shows) ? data.shows : []).filter(function (show) {
           return show && typeof show.href === "string" && show.href.indexOf("/artists/") === 0 && pageArtists.indexOf(show.artist_slug) === -1;
-        }).slice(0, SELLING_SOON_VISIBLE);
+        }).slice(0, sellingSoonPath === "/" ? SELLING_SOON_VISIBLE_HOME : SELLING_SOON_VISIBLE);
         if (!shows.length) return;
         var section = document.createElement("section");
         section.className = "nested-panel selling-soon";
@@ -332,10 +335,24 @@
           link.className = "text-link";
           link.href = show.href;
           link.setAttribute("data-selling-soon-position", String(index + 1));
-          link.textContent = show.artist_name + " tickets, " + show.date;
+          link.textContent = show.artist_name + " tickets, " + (show.when ? show.when + " · " : "") + show.date;
           item.appendChild(link);
           var where = [show.venue, show.city].filter(Boolean).join(", ");
           if (where) item.appendChild(document.createTextNode(" · " + where));
+          var low = show.lowest;
+          var checked = low && Date.parse(low.checked_at);
+          if (low && typeof low.amount === "number" && low.currency && low.provider && isFinite(checked)) {
+            var minutes = Math.max(0, Math.round((Date.now() - checked) / 60000));
+            var age = minutes < 60 ? "under an hour ago" : (minutes < 2880 ? Math.round(minutes / 60) + " hours ago" : Math.round(minutes / 1440) + " days ago");
+            var amount = low.currency + " " + (low.amount % 1 === 0 ? String(low.amount) : low.amount.toFixed(2));
+            var note = document.createElement("span");
+            note.className = "muted";
+            note.style.display = "block";
+            note.textContent = "Lowest listed: " + amount + " on " + low.provider +
+              (low.sites_priced > 1 ? " (of " + low.sites_priced + " sites priced)" : "") +
+              " · checked " + age + " · not the final total";
+            item.appendChild(note);
+          }
           list.appendChild(item);
         });
         section.appendChild(heading);

@@ -499,7 +499,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170064E18A4B8125",
     "ticketmaster_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-14-2026/event/170064E18A4B8125",
-    "seatgeek_url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2026-11-14-7-pm/concert/18355777",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/santana-tickets-las-vegas-house-of-blues-las-vegas-11-14-2026/production/7256792",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/siriusxm-presents-an-intimate-evening-with-las-vegas-nevada-11-14-2026/event/170064E18A4B8125",
@@ -515,11 +515,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18355777,
-        "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2026-11-14-7-pm/concert/18355777",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7256792,
@@ -600,7 +600,7 @@
         "event_id": 18355780,
         "url": "https://seatgeek.com/santana-tickets/las-vegas-nevada-house-of-blues-las-vegas-2026-11-15-7-pm/concert/18355780",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

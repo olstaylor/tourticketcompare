@@ -1049,7 +1049,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006564CDFED572",
     "ticketmaster_url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/toronto-canada-rogers-stadium-toronto-2027-07-22-5-30-pm/concert/18753404",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-toronto-rogers-stadium---toronto-7-22-2027--concerts-rock/production/7835302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/fall-out-boy-twilight-of-the-toronto-ontario-07-22-2027/event/10006564CDFED572",
@@ -1065,11 +1065,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753404,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/toronto-canada-rogers-stadium-toronto-2027-07-22-5-30-pm/concert/18753404",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835302,

@@ -380,7 +380,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "070064F5C7DE504C",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
-    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-14-7-pm/concert/18427195",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-milwaukee-fiserv-forum-11-14-2026/production/7393456",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-milwaukee-wisconsin-11-14-2026/event/070064F5C7DE504C",
@@ -396,11 +396,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18427195,
-        "url": "https://seatgeek.com/pentatonix-tickets/milwaukee-wisconsin-fiserv-forum-2026-11-14-7-pm/concert/18427195",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7393456,
@@ -482,7 +482,7 @@
         "event_id": 18427197,
         "url": "https://seatgeek.com/pentatonix-tickets/grand-rapids-michigan-van-andel-arena-2026-11-15-6-pm/concert/18427197",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -556,7 +556,7 @@
         "event_id": 18427196,
         "url": "https://seatgeek.com/pentatonix-tickets/louisville-kentucky-kfc-yum-center-2026-11-16-7-pm/concert/18427196",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -637,7 +637,7 @@
         "event_id": 18427203,
         "url": "https://seatgeek.com/pentatonix-tickets/buffalo-new-york-keybank-center-2026-11-18-7-pm/concert/18427203",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -791,7 +791,7 @@
         "event_id": 18427204,
         "url": "https://seatgeek.com/pentatonix-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-21-7-pm/concert/18427204",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -873,7 +873,7 @@
         "event_id": 18427238,
         "url": "https://seatgeek.com/pentatonix-tickets/hamilton-canada-td-coliseum-2026-11-22-6-pm/concert/18427238",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -946,7 +946,7 @@
         "event_id": 18427205,
         "url": "https://seatgeek.com/pentatonix-tickets/charlottesville-virginia-john-paul-jones-arena-2026-11-28-7-pm/concert/18427205",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1027,7 +1027,7 @@
         "event_id": 18427206,
         "url": "https://seatgeek.com/pentatonix-tickets/albany-new-york-mvp-arena-2026-11-29-7-pm/concert/18427206",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1116,7 +1116,7 @@
         "event_id": 18427209,
         "url": "https://seatgeek.com/pentatonix-tickets/baltimore-maryland-cfg-bank-arena-2026-12-03-7-pm/concert/18427209",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1205,7 +1205,7 @@
         "event_id": 18427214,
         "url": "https://seatgeek.com/pentatonix-tickets/columbia-south-carolina-colonial-life-arena-2026-12-05-7-pm/concert/18427214",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1285,7 +1285,7 @@
         "event_id": 18427215,
         "url": "https://seatgeek.com/pentatonix-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-12-06-6-pm/concert/18427215",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1366,7 +1366,7 @@
         "event_id": 18427217,
         "url": "https://seatgeek.com/pentatonix-tickets/raleigh-north-carolina-lenovo-center-2026-12-07-7-pm/concert/18427217",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1452,7 +1452,7 @@
         "event_id": 18427219,
         "url": "https://seatgeek.com/pentatonix-tickets/nashville-tennessee-bridgestone-arena-2026-12-09-7-pm/concert/18427219",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1540,7 +1540,7 @@
         "event_id": 18427220,
         "url": "https://seatgeek.com/pentatonix-tickets/atlanta-georgia-state-farm-arena-1-2026-12-10-7-pm/concert/18427220",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1629,7 +1629,7 @@
         "event_id": 18427222,
         "url": "https://seatgeek.com/pentatonix-tickets/north-little-rock-arkansas-simmons-bank-arena-2026-12-12-7-pm/concert/18427222",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1710,7 +1710,7 @@
         "event_id": 18427226,
         "url": "https://seatgeek.com/pentatonix-tickets/bossier-city-louisiana-brookshire-grocery-arena-2026-12-13-6-pm/concert/18427226",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1797,7 +1797,7 @@
         "event_id": 18427227,
         "url": "https://seatgeek.com/pentatonix-tickets/austin-texas-moody-center-atx-2026-12-15-7-pm/concert/18427227",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1985,7 +1985,7 @@
         "event_id": 18427242,
         "url": "https://seatgeek.com/pentatonix-tickets/lubbock-texas-united-supermarkets-arena-2026-12-17-7-pm/concert/18427242",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

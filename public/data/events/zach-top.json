@@ -309,7 +309,7 @@
         "event_id": 18592206,
         "url": "https://seatgeek.com/zach-top-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2027-03-13-8-pm/concert/18592206",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -344,7 +344,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F00656499C96EEA",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-top-the-red-clay-strays-george-washington-07-02-2027/event/0F00656499C96EEA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-top-tickets/george-washington-gorge-amphitheatre-2027-07-02-6-pm/concert/18753255",
     "vividseats_url": "https://www.vividseats.com/zach-top-tickets-george-gorge-amphitheatre-7-2-2027--concerts-country-and-folk/production/7834141",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-top-the-red-clay-strays-george-washington-07-02-2027/event/0F00656499C96EEA",
@@ -360,11 +360,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753255,
+        "url": "https://seatgeek.com/zach-top-tickets/george-washington-gorge-amphitheatre-2027-07-02-6-pm/concert/18753255",
+        "verified": true,
+        "last_verified_at": "2026-11-15",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834141,

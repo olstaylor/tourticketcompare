@@ -727,7 +727,7 @@
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "1E006451AC27A6F8",
     "ticketmaster_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-spokane-washington-11-14-2026/event/1E006451AC27A6F8",
-    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/spokane-washington-knitting-factory-spokane-2026-11-14-7-pm/concert/18084166",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foy-vance-world-tour-2026-2027-spokane-washington-11-14-2026/event/1E006451AC27A6F8",
@@ -743,11 +743,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18084166,
-        "url": "https://seatgeek.com/foy-vance-tickets/spokane-washington-knitting-factory-spokane-2026-11-14-7-pm/concert/18084166",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -817,7 +817,7 @@
         "event_id": 18084164,
         "url": "https://seatgeek.com/foy-vance-tickets/boise-idaho-knitting-factory-concert-house-boise-2026-11-16-7-pm/concert/18084164",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -155,7 +155,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "170064F4CBE5D99B",
     "ticketmaster_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
-    "seatgeek_url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-14-8-pm/concert/18405683",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/lionel-richie-tickets-las-vegas-encore-theater-at-wynn-las-vegas-11-14-2026/production/7349335",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lionel-richie-king-of-hearts-las-vegas-nevada-11-14-2026/event/170064F4CBE5D99B",
@@ -171,11 +171,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18405683,
-        "url": "https://seatgeek.com/lionel-richie-tickets/las-vegas-nevada-encore-at-wynn-las-vegas-2026-11-14-8-pm/concert/18405683",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7349335,
@@ -378,7 +378,7 @@
         "event_id": 18424874,
         "url": "https://seatgeek.com/lionel-richie-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2027-01-30-8-pm/concert/18424874",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

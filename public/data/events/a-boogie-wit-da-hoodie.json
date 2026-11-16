@@ -363,7 +363,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006530AD26DF7A",
     "ticketmaster_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-14-2026/event/02006530AD26DF7A",
-    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-14-8-pm/concert/18629507",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-boogie-wit-da-hoodie-10-philadelphia-pennsylvania-11-14-2026/event/02006530AD26DF7A",
@@ -379,11 +379,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18629507,
-        "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/philadelphia-pennsylvania-liacouras-center-2026-11-14-8-pm/concert/18629507",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -460,7 +460,7 @@
         "event_id": 18629264,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/toronto-canada-scotiabank-arena-2026-11-28-8-pm/concert/18629264",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -597,7 +597,7 @@
         "event_id": 18631720,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-12-12-8-pm/concert/18631720",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -671,7 +671,7 @@
         "event_id": 18639406,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/hartford-connecticut-peoplesbank-arena-2026-12-19-8-pm/concert/18639406",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

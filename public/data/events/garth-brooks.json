@@ -325,7 +325,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F00654D7C6A2D6B",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-14-2026/event/0F00654D7C6A2D6B",
-    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-14-8-pm/concert/18686083",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-seattle-climate-pledge-arena-11-14-2026--concerts-country-and-folk/production/7704179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-seattle-washington-11-14-2026/event/0F00654D7C6A2D6B",
@@ -341,11 +341,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18686083,
-        "url": "https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-14-8-pm/concert/18686083",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7704179,
@@ -426,7 +426,7 @@
         "event_id": 18706524,
         "url": "https://seatgeek.com/garth-brooks-tickets/seattle-washington-climate-pledge-arena-2026-11-15-2-pm/concert/18706524",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -590,7 +590,7 @@
         "event_id": 18726838,
         "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-04-8-pm/concert/18726838",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -648,7 +648,7 @@
         "event_id": 18726837,
         "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-05-8-pm/concert/18726837",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -706,7 +706,7 @@
         "event_id": 18739726,
         "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-06-2-pm/concert/18739726",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-15",
         "availability_status": "listed"
       },
       "vivid-seats": {

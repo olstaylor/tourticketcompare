@@ -401876,7 +401876,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006564DFB4AC25",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-baltimore-maryland-06-05-2027/event/15006564DFB4AC25",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/baltimore-maryland-cfg-bank-arena-2027-06-05-2-pm/concert/18772669",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-baltimore-maryland-06-05-2027/event/15006564DFB4AC25",
@@ -401892,11 +401892,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772669,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/baltimore-maryland-cfg-bank-arena-2027-06-05-2-pm/concert/18772669",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -401992,7 +401992,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006565C781A756",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-12-2027/event/02006565C781A756",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/newark-new-jersey-prudential-center-2027-06-12-2-pm/concert/18772667",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-12-2027/event/02006565C781A756",
@@ -402008,11 +402008,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772667,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/newark-new-jersey-prudential-center-2027-06-12-2-pm/concert/18772667",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -402222,7 +402222,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0400656612CD2D30",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-19-2027/event/0400656612CD2D30",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/chicago-illinois-united-center-2027-06-19-2-pm/concert/18772670",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-19-2027/event/0400656612CD2D30",
@@ -402238,11 +402238,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772670,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/chicago-illinois-united-center-2027-06-19-2-pm/concert/18772670",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -402447,7 +402447,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000656AAAC78903",
     "ticketmaster_url": "https://www.ticketmaster.ca/kpop-demon-hunters-golden-world-tour-hamilton-ontario-06-26-2027/event/1000656AAAC78903",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/hamilton-canada-td-coliseum-2027-06-26-2-pm/concert/18772680",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kpop-demon-hunters-golden-world-tour-hamilton-ontario-06-26-2027/event/1000656AAAC78903",
@@ -402463,11 +402463,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772680,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/hamilton-canada-td-coliseum-2027-06-26-2-pm/concert/18772680",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -402553,7 +402553,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300065633C0ADFCE",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-29-2027/event/300065633C0ADFCE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/elmont-new-york-ubs-arena-2027-06-29-7-30-pm/concert/18772683",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-29-2027/production/7870441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-29-2027/event/300065633C0ADFCE",
@@ -402569,11 +402569,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772683,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/elmont-new-york-ubs-arena-2027-06-29-7-30-pm/concert/18772683",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870441,
@@ -402654,7 +402654,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "300065633C11DFD5",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-30-2027/event/300065633C11DFD5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/elmont-new-york-ubs-arena-2027-06-30-7-30-pm/concert/18772726",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-30-2027/production/7870471",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-30-2027/event/300065633C11DFD5",
@@ -402670,11 +402670,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772726,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/elmont-new-york-ubs-arena-2027-06-30-7-30-pm/concert/18772726",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870471,
@@ -402755,7 +402755,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "16006565BB0383F1",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2027-07-03-2-pm/concert/18772685",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
@@ -402771,11 +402771,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772685,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2027-07-03-2-pm/concert/18772685",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -402988,7 +402988,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E006565CE724E36",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-atlanta-georgia-07-10-2027/event/0E006565CE724E36",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/atlanta-georgia-state-farm-arena-1-2027-07-10-2-pm/concert/18772692",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-atlanta-georgia-07-10-2027/event/0E006565CE724E36",
@@ -403004,11 +403004,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772692,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/atlanta-georgia-state-farm-arena-1-2027-07-10-2-pm/concert/18772692",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -403104,7 +403104,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "22006566DC554FD5",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-orlando-florida-07-17-2027/event/22006566DC554FD5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/orlando-florida-kia-center-2027-07-17-1-pm/concert/18772696",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-orlando-florida-07-17-2027/event/22006566DC554FD5",
@@ -403120,11 +403120,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772696,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/orlando-florida-kia-center-2027-07-17-1-pm/concert/18772696",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -403474,7 +403474,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1900656997AF3352",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-phoenix-arizona-07-24-2027/event/1900656997AF3352",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/phoenix-arizona-mortgage-matchup-center-2027-07-24-2-pm/concert/18772699",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-phoenix-arizona-07-24-2027/event/1900656997AF3352",
@@ -403490,11 +403490,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772699,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/phoenix-arizona-mortgage-matchup-center-2027-07-24-2-pm/concert/18772699",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -403585,7 +403585,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006565CE4DCA3C",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-tacoma-washington-08-14-2027/event/0F006565CE4DCA3C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/tacoma-washington-tacoma-dome-2027-08-14-2-pm/concert/18772720",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-tacoma-washington-08-14-2027/event/0F006565CE4DCA3C",
@@ -403601,11 +403601,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772720,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/tacoma-washington-tacoma-dome-2027-08-14-2-pm/concert/18772720",
+        "verified": true,
+        "last_verified_at": "2026-11-16",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

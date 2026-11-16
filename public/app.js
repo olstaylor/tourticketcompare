@@ -90,14 +90,14 @@ const guidePages = [
   {
     slug: "ticketmaster-vs-seatgeek-vs-vivid-seats",
     title: "Ticketmaster vs SeatGeek vs Vivid Seats: The Difference",
-    description: "Ticketmaster often sells primary tickets; SeatGeek and Vivid Seats are mainly resale. How they differ on who sets the price, fees, delivery and protection.",
+    description: "Which is cheaper: Ticketmaster, SeatGeek or Vivid Seats? Not always the same one. Who sets the price, fees, delivery and protection compared.",
     h1: "Ticketmaster vs SeatGeek vs Vivid Seats: What's the Difference?",
     serverRendered: true
   },
   {
     slug: "seatgeek-vs-ticketmaster",
     title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
-    description: "No, SeatGeek isn't owned by Ticketmaster. Ticketmaster often sells primary tickets; SeatGeek is a resale marketplace. Fees, delivery and protection compared.",
+    description: "Is SeatGeek cheaper than Ticketmaster? Not for every show: Ticketmaster mostly sells face-value tickets, SeatGeek resale. Fees, delivery, protection compared.",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     serverRendered: true
   },

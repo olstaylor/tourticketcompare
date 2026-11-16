@@ -214,6 +214,58 @@ export function classifyShow(show, now = Date.now()) {
 const increment = (map, key) => map.set(key, (map.get(key) || 0) + 1);
 const sortedCounts = (map) => [...map.entries()].sort((a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0])));
 
+// Vivid Seats provider-risk watch (added 2026-11-16; Vivid reported thin cash
+// and a pending recapitalisation in its Q3 results). Monitor only: Vivid is not
+// demoted or removed, and every page already renders from whichever lanes have
+// a fresh price. This measures what a visitor would lose if Vivid data dried up:
+//   link_validity  verified, safe Vivid link / upcoming dates carrying a Vivid URL
+//   fetch_success  Vivid price fresh (<= PRICE_STALE_AFTER_HOURS) / dates verified on Vivid
+//   sole_price     dates where Vivid is the ONLY fresh price (the pages that go
+//                  dark if Vivid does)
+// Warnings only (never fail the run): a Vivid wobble is a flag to read, not an
+// outage. Below VIVID_MIN_SAMPLE dates the shares are too noisy to warn on.
+export const VIVID_MIN_SAMPLE = 50;
+export const VIVID_MIN_FETCH_SUCCESS = 0.8;
+export const VIVID_MIN_LINK_VALIDITY = 0.8;
+const VIVID_LANE = PRICE_LANES.find((lane) => lane.slug === "vivid-seats");
+
+export function vividHealth(shows, now = Date.now()) {
+  const upcoming = shows.filter((show) => Date.parse(String(show?.dateTimeISO || "")) > now && !eventLifecycleHeld(show) && !publicOnsalePending(show, now));
+  let withUrl = 0;
+  let verified = 0;
+  let fresh = 0;
+  let sole = 0;
+  for (const show of upcoming) {
+    if (String(show?.vividseats_url || "").trim()) withUrl += 1;
+    if (!(show?.provider_links?.["vivid-seats"]?.verified === true && safeLaneUrl(show, laneBySlug("vivid-seats")))) continue;
+    verified += 1;
+    const freshLanes = freshPricedLanes(show, now);
+    if (freshLanes.some((lane) => lane.provider === VIVID_LANE.name)) {
+      fresh += 1;
+      if (freshLanes.every((lane) => lane.provider === VIVID_LANE.name)) sole += 1;
+    }
+  }
+  const linkValidity = withUrl ? verified / withUrl : null;
+  const fetchSuccess = verified ? fresh / verified : null;
+  const warnings = [];
+  if (withUrl >= VIVID_MIN_SAMPLE && linkValidity < VIVID_MIN_LINK_VALIDITY) {
+    warnings.push(`only ${pct(linkValidity)} of upcoming dates with a Vivid Seats URL have a verified link (flag below ${pct(VIVID_MIN_LINK_VALIDITY)})`);
+  }
+  if (verified >= VIVID_MIN_SAMPLE && fetchSuccess < VIVID_MIN_FETCH_SUCCESS) {
+    warnings.push(`only ${pct(fetchSuccess)} of Vivid-verified dates show a fresh Vivid price (flag below ${pct(VIVID_MIN_FETCH_SUCCESS)}) — check vividseats-price-snapshots and Vivid's API`);
+  }
+  return {
+    upcoming_on_sale: upcoming.length,
+    with_url: withUrl,
+    verified,
+    fresh_priced: fresh,
+    sole_fresh_price: sole,
+    link_validity: linkValidity == null ? null : Number(linkValidity.toFixed(4)),
+    fetch_success: fetchSuccess == null ? null : Number(fetchSuccess.toFixed(4)),
+    warnings
+  };
+}
+
 export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE, maxStaleShare = DEFAULT_MAX_STALE_SHARE, priority = null, nearDays = 0 } = {}) {
   const upcoming = shows.filter((show) => Date.parse(String(show?.dateTimeISO || "")) > now);
   const counts = { priced: 0, pre_onsale: 0, mapped: 0, seatgeek_only: 0, unmapped: 0, held: 0 };
@@ -281,6 +333,7 @@ export function analyse(shows, { now = Date.now(), minShare = DEFAULT_MIN_SHARE,
     generated_at: new Date(now).toISOString(),
     priority: priorityReport,
     near_term: nearReport,
+    vivid: vividHealth(shows, now),
     upcoming: upcoming.length,
     counts,
     pre_onsale_priced: preOnsalePriced,
@@ -335,6 +388,19 @@ export function renderMarkdown(report, baseUrl = "") {
     ...report.lanes.map((lane) => `| ${lane.provider} | ${lane.mapped} | ${lane.priced} |`),
     ""
   );
+  const v = report.vivid;
+  if (v) {
+    const share = (value) => (value == null ? "n/a" : pct(value));
+    lines.push(
+      "### Vivid Seats health (monitor only)",
+      "",
+      ...(v.warnings.length ? v.warnings.map((warning) => `- ⚠️ ${warning}`) : ["- No warning: Vivid links and prices look normal."]),
+      `- **Link validity:** ${share(v.link_validity)} (${v.verified} verified of ${v.with_url} upcoming on-sale dates with a Vivid URL).`,
+      `- **Fresh price rate:** ${share(v.fetch_success)} (${v.fresh_priced} of ${v.verified} Vivid-verified dates have a Vivid price ≤ ${PRICE_STALE_AFTER_HOURS}h old).`,
+      `- **Exposure:** ${v.sole_fresh_price} dates show Vivid as their only fresh price; those would lose their price figure if Vivid data dropped (links and the other sellers stay). Vivid is not demoted or removed; warnings never fail this run.`,
+      ""
+    );
+  }
   const table = (title, rows, head) => {
     if (!rows.length) return;
     lines.push(`### ${title}`, "", `| ${head} | Dates |`, "|---|---:|", ...rows.slice(0, 25).map(([key, n]) => `| ${key} | ${n} |`));
@@ -464,6 +530,23 @@ function selfTest() {
   assert.equal(classifyShow(shows[4], now), "seatgeek_only");
   assert.equal(classifyShow(shows[7], now), "unmapped");
   assert.equal(classifyShow(shows[8], now), "priced");
+  // Vivid health: p1 fresh (sole), p2 stale, m1 unavailable, u2 unverified URL; o1/o2 pre-on-sale excluded.
+  const vh = vividHealth(shows, now);
+  assert.deepEqual({ withUrl: vh.with_url, verified: vh.verified, fresh: vh.fresh_priced, sole: vh.sole_fresh_price }, { withUrl: 4, verified: 3, fresh: 1, sole: 1 });
+  assert.equal(vh.link_validity, 0.75);
+  assert.equal(vh.warnings.length, 0, "below the minimum sample nothing warns");
+  const many = (n, make) => Array.from({ length: n }, (_, i) => make(i));
+  const healthyVivid = many(60, (i) => ({ ...base, ...vivid, id: `h${i}`, prices: [okLane("2026-09-24T10:00:00Z")] }));
+  assert.equal(vividHealth(healthyVivid, now).warnings.length, 0);
+  const dryVivid = many(60, (i) => ({ ...base, ...vivid, id: `d${i}`, prices: [{ provider: "TicketNetwork", status: "ok", price: 90, fetchedAt: "2026-09-24T10:00:00Z" }] }));
+  const dry = vividHealth(dryVivid, now);
+  assert.equal(dry.fetch_success, 0);
+  assert.equal(dry.warnings.length, 1, "Vivid prices drying up warns");
+  assert.equal(analyse(dryVivid, { now }).counts.priced, 60, "dates stay priced from the other sellers when Vivid prices are missing");
+  assert.equal(analyse(dryVivid, { now }).ok, true, "a Vivid warning never fails the gate");
+  const badLinks = many(60, (i) => ({ ...base, id: `b${i}`, vividseats_url: vivid.vividseats_url, provider_links: { "vivid-seats": { verified: false } }, prices: [] }));
+  assert.equal(vividHealth(badLinks, now).warnings.length, 1, "unverified Vivid links warn");
+  assert.match(renderMarkdown(analyse(dryVivid, { now })), /Vivid Seats health[\s\S]*⚠️/);
   const report = analyse(shows, { now });
   assert.deepEqual(report.lanes.find((lane) => lane.provider === "SeatGeek"), { provider: "SeatGeek", mapped: 1, priced: 1 }, "a priced SeatGeek date is mapped; a link-only date stays outside the price gate");
   assert.equal(report.upcoming, 9, "past dates are excluded");

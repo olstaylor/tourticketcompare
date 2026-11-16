@@ -3154,5 +3154,59 @@
       "Live Nation"
     ],
     "genre": "Rock"
+  },
+  {
+    "id": "tm-phoebe-bridgers-2026-merksem-antwerpen-z698xzg2z16vgjvfk8",
+    "artist_slug": "phoebe-bridgers",
+    "artist_name": "Phoebe Bridgers",
+    "event_name": "Phoebe Bridgers: The Lost Tour",
+    "city": "Merksem (Antwerpen)",
+    "country": "Belgium",
+    "venue": "AFAS Dome",
+    "datetime_iso": "2026-12-06T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1326054190",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-tickets/1326054190",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-tickets/1326054190",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1326054190",
+        "discovery_event_id": "Z698xZG2Z16vGJvfk8",
+        "url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-tickets/1326054190",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16vGJvfk8",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-11-18T09:00:00Z"
   }
 ]

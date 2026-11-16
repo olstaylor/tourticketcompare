@@ -2266,5 +2266,58 @@
       "OCESA"
     ],
     "genre": "Latin"
+  },
+  {
+    "id": "tm-karol-g-2026-ciudad-de-mexico-1afzk3vgketlp_s",
+    "artist_slug": "karol-g",
+    "artist_name": "Karol G",
+    "event_name": "Karol G, Viajando por el mundo, Zona de Discapacidad Auditiva",
+    "city": "Ciudad de México",
+    "country": "Mexico",
+    "venue": "Estadio GNP Seguros",
+    "datetime_iso": "2026-11-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "14006481A9AD6673",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-17-11-2026/event/14006481A9AD6673",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-17-11-2026/event/14006481A9AD6673",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "14006481A9AD6673",
+        "discovery_event_id": "1AfZk3vGketlp_S",
+        "url": "https://www.ticketmaster.com.mx/karol-g-viajando-por-el-mundo-ciudad-de-mexico-17-11-2026/event/14006481A9AD6673",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AfZk3vGketlp_S",
+    "timezone": "America/Mexico_City",
+    "status": "on-sale"
   }
 ]

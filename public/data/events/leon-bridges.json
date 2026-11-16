@@ -2472,5 +2472,437 @@
     "ticket_limit": 8,
     "genre": "R&B",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372143/Leon-Bridges-tickets-Sat-Feb-20-2027-Neal-S-Blaisdell-Center-Tom-Moffatt-Waikiki-Shell"
+  },
+  {
+    "id": "tm-leon-bridges-2027-warsaw-z698xzqpz1kfy4b8p",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges Presents: The Happiness Anytime Tour",
+    "city": "Warsaw",
+    "country": "Poland",
+    "venue": "Klub Progresja",
+    "datetime_iso": "2027-05-31T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "230558425",
+    "ticketmaster_url": "https://www.ticketmaster.pl/event/leon-bridges-presents-the-happiness-anytime-tour-tickets/230558425?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.pl/event/leon-bridges-presents-the-happiness-anytime-tour-tickets/230558425?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "230558425",
+        "discovery_event_id": "Z698xZQpZ1kFY4b8P",
+        "url": "https://www.ticketmaster.pl/event/leon-bridges-presents-the-happiness-anytime-tour-tickets/230558425?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZQpZ1kFY4b8P",
+    "timezone": "Europe/Warsaw",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-leon-bridges-2027-forest-brussels-z698xzg2z16vb_jsqs",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges Presents: The Happiness Anytime Tour",
+    "city": "Forest (Brussels)",
+    "country": "Belgium",
+    "venue": "Vorst Nationaal/Forest National",
+    "datetime_iso": "2027-06-09T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1619733773",
+    "ticketmaster_url": "https://www.ticketmaster.be/event/leon-bridges-presents-the-happiness-anytime-tour-tickets/1619733773",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.be/event/leon-bridges-presents-the-happiness-anytime-tour-tickets/1619733773",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1619733773",
+        "discovery_event_id": "Z698xZG2Z16vb_jSqS",
+        "url": "https://www.ticketmaster.be/event/leon-bridges-presents-the-happiness-anytime-tour-tickets/1619733773",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZG2Z16vb_jSqS",
+    "timezone": "Europe/Brussels",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-leon-bridges-2027-manchester-1adbz_pgkmxxe4x",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Apollo Manchester",
+    "datetime_iso": "2027-06-11T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600656BBEFA7562",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/leon-bridges-manchester-11-06-2027/event/3600656BBEFA7562",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/leon-bridges-manchester-11-06-2027/event/3600656BBEFA7562",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600656BBEFA7562",
+        "discovery_event_id": "1AdbZ_pGkmXXE4x",
+        "url": "https://www.ticketmaster.co.uk/leon-bridges-manchester-11-06-2027/event/3600656BBEFA7562",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_pGkmXXE4x",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-leon-bridges-2027-bristol-1adfz_pgkidfay7",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges",
+    "city": "Bristol",
+    "country": "Great Britain",
+    "venue": "The Prospect Building",
+    "datetime_iso": "2027-06-15T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500656B3B509C04",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/leon-bridges-bristol-15-06-2027/event/3500656B3B509C04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/leon-bridges-bristol-15-06-2027/event/3500656B3B509C04",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500656B3B509C04",
+        "discovery_event_id": "1AdfZ_pGkiDfaY7",
+        "url": "https://www.ticketmaster.co.uk/leon-bridges-bristol-15-06-2027/event/3500656B3B509C04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_pGkiDfaY7",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-leon-bridges-2027-london-1adbz_pgkgzqvyv",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Eventim Apollo",
+    "datetime_iso": "2027-06-17T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600656D78681C34",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/leon-bridges-london-17-06-2027/event/3600656D78681C34",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/leon-bridges-london-17-06-2027/event/3600656D78681C34",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600656D78681C34",
+        "discovery_event_id": "1AdbZ_pGkgzQvYV",
+        "url": "https://www.ticketmaster.co.uk/leon-bridges-london-17-06-2027/event/3600656D78681C34",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_pGkgzQvYV",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-leon-bridges-2027-london-1adbz_pgkgzqsyx",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Eventim Apollo",
+    "datetime_iso": "2027-06-18T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600656D786B1C3E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/leon-bridges-london-18-06-2027/event/3600656D786B1C3E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/leon-bridges-london-18-06-2027/event/3600656D786B1C3E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600656D786B1C3E",
+        "discovery_event_id": "1AdbZ_pGkgzQsYX",
+        "url": "https://www.ticketmaster.co.uk/leon-bridges-london-18-06-2027/event/3600656D786B1C3E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_pGkgzQsYX",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-leon-bridges-2027-birmingham-g5dzz_peyxywx",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Academy Birmingham",
+    "datetime_iso": "2027-06-22T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006569F0FB9F7E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/leon-bridges-birmingham-22-06-2027/event/3E006569F0FB9F7E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/leon-bridges-birmingham-22-06-2027/event/3E006569F0FB9F7E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006569F0FB9F7E",
+        "discovery_event_id": "G5dzZ_pEYXyWX",
+        "url": "https://www.ticketmaster.co.uk/leon-bridges-birmingham-22-06-2027/event/3E006569F0FB9F7E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_pEYXyWX",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-leon-bridges-2027-glasgow-1adbz_pgkmjk5az",
+    "artist_slug": "leon-bridges",
+    "artist_name": "Leon Bridges",
+    "event_name": "Leon Bridges Presents: The Happiness Anytime Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Galvanizers Yard SWG3",
+    "datetime_iso": "2027-06-23T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600656DDC4CB240",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/leon-bridges-presents-the-happiness-anytime-glasgow-23-06-2027/event/3600656DDC4CB240",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/leon-bridges-presents-the-happiness-anytime-glasgow-23-06-2027/event/3600656DDC4CB240",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600656DDC4CB240",
+        "discovery_event_id": "1AdbZ_pGkMjK5aZ",
+        "url": "https://www.ticketmaster.co.uk/leon-bridges-presents-the-happiness-anytime-glasgow-23-06-2027/event/3600656DDC4CB240",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdbZ_pGkMjK5aZ",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
   }
 ]

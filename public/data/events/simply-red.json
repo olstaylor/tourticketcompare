@@ -1195,5 +1195,59 @@
     ],
     "ticket_limit": 10,
     "genre": "Rock"
+  },
+  {
+    "id": "tm-simply-red-2027-dublin-1avoz_pgkcw_dua",
+    "artist_slug": "simply-red",
+    "artist_name": "Simply Red",
+    "event_name": "Simply Red",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "IMMA",
+    "datetime_iso": "2027-08-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800656B7D643349",
+    "ticketmaster_url": "https://www.ticketmaster.ie/simply-red-dublin-24-08-2027/event/1800656B7D643349",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/simply-red-dublin-24-08-2027/event/1800656B7D643349",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800656B7D643349",
+        "discovery_event_id": "1AvOZ_pGkcW_dua",
+        "url": "https://www.ticketmaster.ie/simply-red-dublin-24-08-2027/event/1800656B7D643349",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_pGkcW_dua",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
   }
 ]

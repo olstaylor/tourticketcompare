@@ -3926,6 +3926,20 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-two-friends",
     redirectUrl: "https://seatgeek.com/two-friends-tickets",
     verified: true
+  },
+  "intocable:ticketmaster": {
+    artistSlug: "intocable",
+    provider: "ticketmaster",
+    linkId: "tm-artist-intocable",
+    redirectUrl: "https://www.ticketmaster.com/intocable-tickets/artist/774393",
+    verified: true
+  },
+  "intocable:seatgeek": {
+    artistSlug: "intocable",
+    provider: "seatgeek",
+    linkId: "sg-artist-intocable",
+    redirectUrl: "https://seatgeek.com/intocable-tickets",
+    verified: true
   }
 };
 

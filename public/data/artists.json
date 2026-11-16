@@ -3720,5 +3720,19 @@
     "last_verified_at": "2026-11-15",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-15"
+  },
+  {
+    "slug": "intocable",
+    "name": "Intocable",
+    "short_description": "World act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-16",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-16"
   }
 ]

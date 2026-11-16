@@ -97,7 +97,7 @@ export function deriveToursHub(events, catalog, year = TOURS_HUB_YEAR, now = Dat
  * @param {number} [now]
  * @param {number} [limit]
  */
-export function deriveToursHubCityRuns(events, indexableArtistSlugs, year = TOURS_HUB_YEAR, now = Date.now(), limit = 12) {
+export function deriveToursHubCityRuns(events, indexableArtistSlugs, year = TOURS_HUB_YEAR, now = Date.now(), limit = 24) {
   const inYear = (Array.isArray(events) ? events : []).filter((event) => {
     if (eventLifecycleHeld(event) || !isUpcomingShow(event, now)) return false;
     return eventLocalDateParts(event)?.year === year;
@@ -106,4 +106,37 @@ export function deriveToursHubCityRuns(events, indexableArtistSlugs, year = TOUR
     .sort((a, b) => b.showCount - a.showCount || a.path.localeCompare(b.path))
     .slice(0, limit)
     .map((run) => ({ artistSlug: run.artistSlug, path: run.path, city: run.city, country: run.country, showCount: run.showCount, venueCount: run.venueCount }));
+}
+
+/**
+ * Homepage "city pages" strip: the biggest upcoming city runs across all
+ * years, one per artist so a single tour cannot fill the strip. Only indexable
+ * artist-city pages (already in the sitemap), and only runs where a date in the
+ * city carries two listed-price lanes (comparableCount), so the link text can
+ * honestly say prices. Ranked by dates in the city; no commission ordering and
+ * no price figures are composed here.
+ *
+ * @param {any[]} events Raw events.json records.
+ * @param {Iterable<string>} indexableArtistSlugs Artists whose page is indexable.
+ * @param {number} [now]
+ * @param {number} [limit]
+ */
+export function deriveHomeCityRuns(events, indexableArtistSlugs, now = Date.now(), limit = 8) {
+  const upcoming = (Array.isArray(events) ? events : []).filter(
+    (event) => !eventLifecycleHeld(event) && isUpcomingShow(event, now)
+  );
+  const seen = new Set();
+  const perCity = new Map();
+  const runs = [];
+  for (const run of deriveIndexableArtistCities(upcoming, indexableArtistSlugs, { now })
+    .filter((entry) => entry.comparableCount > 0)
+    .sort((a, b) => b.showCount - a.showCount || a.path.localeCompare(b.path))) {
+    // One per artist and at most two per city, so a residency town cannot fill the strip.
+    if (seen.has(run.artistSlug) || (perCity.get(run.path.split("/").pop()) || 0) >= 2) continue;
+    seen.add(run.artistSlug);
+    perCity.set(run.path.split("/").pop(), (perCity.get(run.path.split("/").pop()) || 0) + 1);
+    runs.push({ artistSlug: run.artistSlug, path: run.path, city: run.label, country: run.country, showCount: run.showCount, venueCount: run.venueCount });
+    if (runs.length >= limit) break;
+  }
+  return runs;
 }

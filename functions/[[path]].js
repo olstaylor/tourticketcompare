@@ -35,7 +35,7 @@ import { relatedArtistsBySharedCity } from "./_related-artists.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, COMPARISON_MIN_PRICE_PROVIDERS, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveThisWeek, renderThisWeekHtml, THIS_WEEK_GUIDE_PATHS } from "./_this-week.js";
-import { deriveToursHub, deriveToursHubCityRuns, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
+import { deriveToursHub, deriveToursHubCityRuns, deriveHomeCityRuns, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import {
   WORTH_WAITING_PATH,
@@ -2695,6 +2695,24 @@ function renderHomepageArtistLinks(catalog, events = [], now = Date.now()) {
       } with no dates listed yet</summary><ul class="home-artist-list">${tiles(secondary)}</ul></details>`
     : "";
   return `${primaryHtml}${secondaryHtml}`;
+}
+
+// Homepage strip (2026-11-15): links the artist-city pages that earn the
+// search clicks ("<artist> <city> tickets") from the homepage. Names, counts
+// and countries only; the price lives on the destination page with its own
+// provider and capture time.
+function renderHomepageCityRuns(runs, catalog) {
+  const names = new Map((catalog?.artists || []).map((artist) => [artist.slug, artist.name]));
+  const items = (runs || []).filter((run) => names.has(run.artistSlug));
+  if (!items.length) return "";
+  return `<section class="section-grid home-section" aria-labelledby="homeCityRunsTitle"><div class="home-section__head"><h2 id="homeCityRunsTitle">Compare prices by city</h2></div><p class="muted">Several dates in one city, with listed prices from more than one checked ticket site.</p><ul class="guide-link-list">${items
+    .map(
+      (run) =>
+        `<li>${anchor(`${names.get(run.artistSlug)} tickets in ${run.city}`, run.path)} <span class="muted">(${escapeHtml(
+          `${run.showCount} dates · ${run.country}`
+        )})</span></li>`
+    )
+    .join("")}</ul></section>`;
 }
 
 function cityShowCountLabel(count) {
@@ -8784,7 +8802,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "All artists",
     HOME_PRIMARY_CTA_HREF,
     "text-link"
-  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageOnsaleStrip(events)}${route.thisWeekHtml || ""}<p class="home-browse">Planning around a place? ${anchor(
+  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageCityRuns(route.homeCityRuns, catalog)}${renderHomepageOnsaleStrip(events)}${route.thisWeekHtml || ""}<p class="home-browse">Planning around a place? ${anchor(
     "Browse cities",
     "/cities",
     "text-link"
@@ -9436,6 +9454,7 @@ async function renderRequest(context) {
   let eventPriceRange = new Map();
   let renderEvents = events;
   let homePickSlugs = null;
+  let homeCityRuns = null;
   let onsalePicks = null;
   if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/" || route.type === "onsale-calendar") && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
@@ -9488,6 +9507,11 @@ async function renderRequest(context) {
       priceCandidates = onsalePickShows(onsalePicks, events).map(({ show }) => show);
     } else if (route.path === "/") {
       homePickSlugs = await homepagePickSlugs(catalog, events, env);
+      const homeMeta = await loadArtistsMeta(env);
+      homeCityRuns = deriveHomeCityRuns(
+        events,
+        homeMeta.filter((artist) => artist && artistPageIndexable(artist, events, slugify(artist.slug))).map((artist) => slugify(artist.slug))
+      );
       priceCandidates = homePickSlugs.map((slug) => futureShowsForArtist(events, slug, 1)[0]).filter(Boolean);
     } else {
       priceCandidates = publishableFutureShows(events, 6);
@@ -9551,6 +9575,7 @@ async function renderRequest(context) {
     blogIndexIndexable(deriveBlogPosts(await loadBlogContent(env)));
   let renderRoute = promotesBlog ? { ...route, blogPromotable: true } : route;
   if (homePickSlugs) renderRoute = { ...renderRoute, homePickSlugs };
+  if (homeCityRuns?.length) renderRoute = { ...renderRoute, homeCityRuns };
   if (onsalePicks?.length) {
     const onsalePriceHtml = renderOnsalePriceAnswers(onsalePicks, catalog, renderEvents, env);
     if (onsalePriceHtml) renderRoute = { ...renderRoute, onsalePriceHtml };

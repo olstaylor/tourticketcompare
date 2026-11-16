@@ -22,7 +22,7 @@ const NOW_MS = Date.parse("2026-10-09T12:00:00Z");
 Date.now = () => NOW_MS;
 
 const load = (relativePath) => import(pathToFileURL(path.join(root, relativePath)));
-const { deriveToursHub, deriveToursHubCityRuns, TOURS_HUB_INDEXABLE, TOURS_HUB_PATH } = await load("functions/_tours-hub.js");
+const { deriveToursHub, deriveToursHubCityRuns, deriveHomeCityRuns, TOURS_HUB_INDEXABLE, TOURS_HUB_PATH } = await load("functions/_tours-hub.js");
 const { renderToursHubBody } = await load("functions/[[path]].js");
 
 const catalog = {
@@ -96,6 +96,11 @@ assert(deriveToursHubCityRuns(runEvents, [], 2027, NOW_MS).length === 0, "artist
 assert(deriveToursHubCityRuns(runEvents, ["artist-a"], 2028, NOW_MS).length === 0, "runs outside the year are not counted");
 const runBody = renderToursHubBody({ path: TOURS_HUB_PATH, hub: { ...hub, cityRuns: [{ artistSlug: "artist-a", path: "/artists/artist-a/tickets/springfield-united-states", city: "Springfield", country: "United States", showCount: 2, venueCount: 1 }] }, breadcrumb: [] });
 assert(runBody.includes("Longest 2027 city runs") && runBody.includes('href="/artists/artist-a/tickets/springfield-united-states"'), "the page links each city run");
+
+// Homepage city strip: only runs with two listed-price lanes on a date, so
+// fixtures without price snapshots yield none, and noindex artists never appear.
+assert(deriveHomeCityRuns(runEvents, ["artist-a", "artist-b"], NOW_MS).length === 0, "the homepage strip needs a priced run");
+assert(deriveHomeCityRuns(runEvents, [], NOW_MS).length === 0, "the homepage strip skips noindex artists");
 
 const empty = renderToursHubBody({ path: TOURS_HUB_PATH, hub: deriveToursHub([], catalog, 2027, NOW_MS), breadcrumb: [] });
 assert(empty.includes("No tracked artist has upcoming dates in 2027 yet"), "an empty hub says so");

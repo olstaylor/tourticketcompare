@@ -1,0 +1,592 @@
+[
+  {
+    "id": "tm-intocable-2026-sugar-land-z7r9jz1a7x9gp",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable",
+    "city": "Sugar Land",
+    "country": "United States Of America",
+    "venue": "Smart Financial Centre at Sugar Land",
+    "datetime_iso": "2026-11-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1A7x9Gp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9Gp",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9Gp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7x9Gp",
+        "discovery_event_id": "Z7r9jZ1A7x9Gp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9Gp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7x9Gp",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-intocable-2026-san-antonio-g5diz_6xnmhis",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable: Cultura Tour 2026",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Freeman Coliseum",
+    "datetime_iso": "2026-11-26T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00647FA3B9BA33",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-san-antonio-texas-11-25-2026/event/3A00647FA3B9BA33",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-san-antonio-texas-11-25-2026/event/3A00647FA3B9BA33",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00647FA3B9BA33",
+        "discovery_event_id": "G5dIZ_6XNmhIS",
+        "url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-san-antonio-texas-11-25-2026/event/3A00647FA3B9BA33",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_6XNmhIS",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-intocable-2026-fort-worth-vvg1yz_7cpuxpt",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable: Cultura Tour 2026",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Ariat Arena",
+    "datetime_iso": "2026-11-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00644B65DA25BF",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-fort-worth-texas-11-27-2026/event/0C00644B65DA25BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-fort-worth-texas-11-27-2026/event/0C00644B65DA25BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00644B65DA25BF",
+        "discovery_event_id": "vvG1YZ_7cPUxpT",
+        "url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-fort-worth-texas-11-27-2026/event/0C00644B65DA25BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_7cPUxpT",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-intocable-2026-hidalgo-g5diz_fw-zu9f",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable - Cultura Tour 2026",
+    "city": "Hidalgo",
+    "country": "United States Of America",
+    "venue": "Payne Arena",
+    "datetime_iso": "2026-11-29T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00648CA1E365C8",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-hidalgo-texas-11-28-2026/event/3A00648CA1E365C8",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/hidalgo-texas-payne-arena-2026-11-28-8-pm/concert/18176203",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-hidalgo-texas-11-28-2026/event/3A00648CA1E365C8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00648CA1E365C8",
+        "discovery_event_id": "G5dIZ_Fw-zU9F",
+        "url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-hidalgo-texas-11-28-2026/event/3A00648CA1E365C8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_Fw-zU9F",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-intocable-2027-chicago-vv178z_pgkrpyrnn",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable:Texicano Tour 2027",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Credit Union 1 Arena at UIC",
+    "datetime_iso": "2027-02-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400656BE5E5EAAA",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocabletexicano-tour-2027-chicago-illinois-02-20-2027/event/0400656BE5E5EAAA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocabletexicano-tour-2027-chicago-illinois-02-20-2027/event/0400656BE5E5EAAA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400656BE5E5EAAA",
+        "discovery_event_id": "vv178Z_pGkRPyrnn",
+        "url": "https://www.ticketmaster.com/intocabletexicano-tour-2027-chicago-illinois-02-20-2027/event/0400656BE5E5EAAA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_pGkRPyrnn",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-intocable-2027-duluth-vvg1zz_pwe5ag0",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable: Texicano Tour 2027",
+    "city": "Duluth",
+    "country": "United States Of America",
+    "venue": "Gas South Arena",
+    "datetime_iso": "2027-03-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00656CA72C9324",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-duluth-georgia-02-28-2027/event/0E00656CA72C9324",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-duluth-georgia-02-28-2027/event/0E00656CA72C9324",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00656CA72C9324",
+        "discovery_event_id": "vvG1zZ_pwE5aG0",
+        "url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-duluth-georgia-02-28-2027/event/0E00656CA72C9324",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_pwE5aG0",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-intocable-2027-fresno-g5vyz_pmjs49u",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable: Texicano Tour 2027",
+    "city": "Fresno",
+    "country": "United States Of America",
+    "venue": "Save Mart Center",
+    "datetime_iso": "2027-03-06T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656DDCC555F6",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-fresno-california-03-05-2027/event/1C00656DDCC555F6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-fresno-california-03-05-2027/event/1C00656DDCC555F6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656DDCC555F6",
+        "discovery_event_id": "G5vYZ_pMjs49U",
+        "url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-fresno-california-03-05-2027/event/1C00656DDCC555F6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pMjs49U",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-intocable-2027-inglewood-vv170z_pgkrollqf",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable: Texicano Tour 2027",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Intuit Dome",
+    "datetime_iso": "2027-03-07T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900656BD17DF748",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-inglewood-california-03-06-2027/event/0900656BD17DF748",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-inglewood-california-03-06-2027/event/0900656BD17DF748",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900656BD17DF748",
+        "discovery_event_id": "vv170Z_pGkRoLLqF",
+        "url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-inglewood-california-03-06-2027/event/0900656BD17DF748",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_pGkRoLLqF",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-intocable-2027-san-jose-g5vyz_pi39fpd",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable: Texicano Tour 2027",
+    "city": "San Jose",
+    "country": "United States Of America",
+    "venue": "SAP Center at San Jose",
+    "datetime_iso": "2027-03-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656B125D497B",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-san-jose-california-03-19-2027/event/1C00656B125D497B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-san-jose-california-03-19-2027/event/1C00656B125D497B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656B125D497B",
+        "discovery_event_id": "G5vYZ_pi39fPD",
+        "url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-san-jose-california-03-19-2027/event/1C00656B125D497B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pi39fPD",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-intocable-2027-miami-vvg1vz_pmzxge8",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable: Texicano Tour 2027",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "James L Knight Center",
+    "datetime_iso": "2027-06-12T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D00656BB8F8C9D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-miami-florida-06-11-2027/event/0D00656BB8F8C9D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-miami-florida-06-11-2027/event/0D00656BB8F8C9D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00656BB8F8C9D0",
+        "discovery_event_id": "vvG1VZ_pmzXGE8",
+        "url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-miami-florida-06-11-2027/event/0D00656BB8F8C9D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pmzXGE8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-intocable-2027-sacramento-g5vyz_pulkwxh",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable: Texicano Tour 2027",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-08-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656DAB1BD8BC",
+    "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656DAB1BD8BC",
+        "discovery_event_id": "G5vYZ_pUlkWxH",
+        "url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pUlkWxH",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  }
+]

@@ -334,6 +334,7 @@ export const OG_CARDS = {
   "/artists/interpol": {"url":"/og/artists-interpol.png","alt":"Tickets & tour dates: Interpol"},
   "/artists/interpol/presale": {"url":"/og/artists-interpol-presale.png","alt":"Presale: Interpol"},
   "/artists/interpol/ticket-prices": {"url":"/og/artists-interpol-ticket-prices.png","alt":"Ticket prices: Interpol"},
+  "/artists/intocable": {"url":"/og/artists-intocable.png","alt":"Tickets & tour dates: Intocable"},
   "/artists/jack-johnson": {"url":"/og/artists-jack-johnson.png","alt":"Tickets & tour dates: Jack Johnson"},
   "/artists/jack-johnson/ticket-prices": {"url":"/og/artists-jack-johnson-ticket-prices.png","alt":"Ticket prices: Jack Johnson"},
   "/artists/jack-johnson/tickets/las-vegas-united-states": {"url":"/og/artists-jack-johnson-tickets-las-vegas-united-states.png","alt":"Tickets: Jack Johnson in Las Vegas"},

@@ -37,7 +37,7 @@
         "event_id": 7832789,
         "url": "https://www.vividseats.com/stray-kids-tickets-seattle-lumen-field-5-16-2027/production/7832789",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -328,7 +328,7 @@
         "event_id": 7832915,
         "url": "https://www.vividseats.com/stray-kids-tickets-san-diego-petco-park-5-25-2027/production/7832915",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -423,7 +423,7 @@
         "event_id": 7832799,
         "url": "https://www.vividseats.com/stray-kids-tickets-inglewood-sofi-stadium-5-29-2027/production/7832799",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -533,7 +533,7 @@
         "event_id": 7832807,
         "url": "https://www.vividseats.com/stray-kids-tickets-houston-reliant-stadium-6-5-2027/production/7832807",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -627,7 +627,7 @@
         "event_id": 7832811,
         "url": "https://www.vividseats.com/stray-kids-tickets-atlanta-mercedes-benz-stadium-6-8-2027/production/7832811",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -731,7 +731,7 @@
         "event_id": 7832833,
         "url": "https://www.vividseats.com/stray-kids-tickets-miami-gardens-hard-rock-stadium-6-11-2027/production/7832833",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -836,7 +836,7 @@
         "event_id": 7832837,
         "url": "https://www.vividseats.com/stray-kids-tickets-orlando-camping-world-stadium-6-14-2027/production/7832837",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -946,7 +946,7 @@
         "event_id": 7832839,
         "url": "https://www.vividseats.com/stray-kids-tickets-chicago-soldier-field-6-18-2027/production/7832839",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1143,7 +1143,7 @@
         "event_id": 7832843,
         "url": "https://www.vividseats.com/stray-kids-tickets-east-rutherford-metlife-stadium-6-29-2027/production/7832843",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1227,7 +1227,7 @@
     "ticketmaster_event_id": "240279338",
     "ticketmaster_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/240279338?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-munich-allianz-arena-7-17-2027--concerts-k-pop/production/7833169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/240279338?language=en-us",
     "last_verified_at": "2026-11-10",
@@ -1249,11 +1249,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833169,
+        "url": "https://www.vividseats.com/stray-kids-tickets-munich-allianz-arena-7-17-2027--concerts-k-pop/production/7833169",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

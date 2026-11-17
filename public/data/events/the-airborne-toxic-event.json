@@ -792,7 +792,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-las-vegas-nevada-06-03-2027/event/170064A274718CB8",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -857,7 +857,14 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Holiday offer",
+        "start": "2026-11-27T18:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-san-diego-vvg1iz_a0ap_1u",

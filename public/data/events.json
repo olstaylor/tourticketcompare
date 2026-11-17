@@ -37678,7 +37678,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-washington-capital-one-arena-11-21-2026--concerts-rap-hip-hop/production/6091579",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-washington-district-of-columbia-11-21-2026/event/15006339E5D65BD6",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -37738,13 +37738,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457653",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457653/Doja-Cat-tickets-Sat-Nov-21-2026-Capital-One-Arena",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-10-10T14:00:00Z",
-        "end": "2026-11-17T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -40687,7 +40680,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-newark-prudential-center-11-21-2026--concerts-alternative/production/6898048",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-newark-new-jersey-11-21-2026/event/02006488DB7EED88",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -40747,13 +40740,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874886",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874886/sombr-tickets-Sat-Nov-21-2026-Prudential-Center",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-04-17T14:00:00Z",
-        "end": "2026-11-17T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -81397,6 +81383,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T16:00:00Z",
         "end": "2027-02-22T00:00:00Z"
+      },
+      {
+        "name": "Black Friday Special Offer",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-12-01T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -81485,6 +81476,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T15:00:00Z",
         "end": "2027-02-26T23:00:00Z"
+      },
+      {
+        "name": "Black Friday Special Offer",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
       }
     ],
     "genre": "Pop"
@@ -81822,7 +81818,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-orlando-kia-center-3-18-2027/production/7047153",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-orlando-florida-03-18-2027/event/220064AF8C665BDB",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -81887,6 +81883,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-05-28T14:00:00Z",
         "end": "2027-03-11T22:00:00Z"
+      },
+      {
+        "name": "Black Friday Special Offer",
+        "start": "2026-11-27T12:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -96160,7 +96161,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-estero-hertz-arena-2-7-2027/production/7491829",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -96223,7 +96224,14 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Religious"
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "$25 All In Offer",
+        "start": "2026-11-24T05:01:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-pensacola-g5viz_o9zokbz",
@@ -97213,7 +97221,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-austin-moody-center-atx-3-11-2027/production/7491794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -97278,6 +97286,11 @@
         "name": "Group Offer",
         "start": "2026-09-21T05:01:00Z",
         "end": "2027-03-12T01:00:00Z"
+      },
+      {
+        "name": "$25 ALL IN Offer",
+        "start": "2026-11-24T06:01:00Z",
+        "end": "2026-12-01T05:59:00Z"
       }
     ],
     "organizer_names": [
@@ -221816,7 +221829,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-las-vegas-nevada-06-03-2027/event/170064A274718CB8",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -221881,7 +221894,14 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/the-airborne-toxic-event-las-vegas-tickets-6-3-2027/event/107676279",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Holiday offer",
+        "start": "2026-11-27T18:00:00Z",
+        "end": "2027-01-01T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-san-diego-vvg1iz_a0ap_1u",
@@ -254863,7 +254883,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-savannah-georgia-04-24-2027/event/0E006523AB2DBC1D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -254923,6 +254943,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-10-09T04:00:00Z",
         "end": "2027-04-17T02:00:00Z"
+      },
+      {
+        "name": "Ticket Deal Offer",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
       }
     ],
     "ticket_limit": 6,
@@ -254944,7 +254969,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-columbia-township-auditorium-4-27-2027/production/7653384",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-columbia-south-carolina-04-27-2027/event/2D006537CF4042FE",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -255012,6 +255037,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-04-21T02:00:00Z"
+      },
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-17T17:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
       }
     ],
     "genre": "R&B"
@@ -264375,7 +264405,7 @@
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hollywood Bowl",
-    "datetime_iso": "2026-11-19T03:30:00Z",
+    "datetime_iso": "2026-11-19T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0B00650ECDC0DD8B",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
@@ -264383,7 +264413,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-18-2026--concerts-pop/production/7446302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -264458,7 +264488,7 @@
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hollywood Bowl",
-    "datetime_iso": "2026-11-20T03:30:00Z",
+    "datetime_iso": "2026-11-20T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0B006511309DB401",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
@@ -264466,7 +264496,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -264549,7 +264579,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-san-francisco-chase-center-11-21-2026--concerts-pop/production/7446310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-francisco-california-11-21-2026/event/1C00650CD888DAC0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -264611,13 +264641,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-san-francisco-tickets-11-21-2026/event/107482394",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-17T20:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -276626,7 +276649,7 @@
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-san-jose-san-jose-civic-11-21-2026--concerts-rap-hip-hop/production/7079523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-san-jose-california-11-21-2026/event/1C0064ACCB0A6B9B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -276679,13 +276702,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997057/Arcangel-tickets-Sat-Nov-21-2026-San-Jose-Civic",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP PACKAGES ONSALE",
-        "start": "2026-05-28T17:00:00Z",
-        "end": "2026-11-17T20:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997057",
     "ticket_limit": 6,
@@ -280870,7 +280886,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-toronto-scotiabank-arena-11-28-2026/production/7620477",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-boogie-wit-da-hoodie-10-toronto-ontario-11-28-2026/event/10006531970C7F0A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -280917,6 +280933,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-10-02T14:00:00Z",
         "end": "2026-11-22T03:00:00Z"
+      },
+      {
+        "name": "Gondola Offer",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-29T02:00:00Z"
       }
     ],
     "ticket_limit": 6,
@@ -314031,7 +314052,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-toronto-massey-hall---allied-music-centre-11-22-2026--concerts-country-and-folk/production/7132573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/little-big-town-for-the-art-toronto-ontario-11-22-2026/event/100064C3D9B86796",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -314083,6 +314104,11 @@
         "name": "Preferred Seating Onsale",
         "start": "2026-06-12T14:00:00Z",
         "end": "2026-11-23T02:00:00Z"
+      },
+      {
+        "name": "2for1offer",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-23T01:00:00Z"
       }
     ],
     "genre": "Country"
@@ -354053,7 +354079,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-21-2026/production/7620569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-21-2026/event/00006459059ADBDD",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -354115,13 +354141,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-10-02T14:00:00Z",
-        "end": "2026-11-17T17:00:00Z"
-      }
     ],
     "genre": "Rock"
   },
@@ -361493,7 +361512,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-irving-pavilion-at-toyota-music-factory-11-21-2026/production/6790753",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-irving-texas-11-21-2026/event/0C00646C0DA0F420",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -361557,11 +361576,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-19T15:00:00Z",
-        "end": "2026-11-17T18:00:00Z"
-      },
       {
         "name": "2-PACK OFFER",
         "start": "2026-07-01T17:00:00Z",
@@ -376436,7 +376450,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-elizabeth-ritz-theatre---nj-11-28-2026/production/7063215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-tapy-quintero-elizabeth-new-jersey-11-28-2026/event/000064AC0DD26DD0",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -376488,7 +376502,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8109393",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8109393/Los-Tucanes-De-Tijuana-tickets-Sat-Nov-28-2026-Ritz-Theatre-NJ",
-    "genre": "Latin"
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "BLACK FRIDAY OFFER",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav",
@@ -390946,7 +390967,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-seattle-lumen-field-5-16-2027/production/7832789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-seattle-washington-05-16-2027/event/0F00656215B2C500",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391016,9 +391037,24 @@
         "end": "2026-11-18T22:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Packages",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-18T22:00:00Z"
+      },
+      {
         "name": "Artist Presale",
         "start": "2026-11-18T23:00:00Z",
         "end": "2026-11-19T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-18T23:00:00Z",
+        "end": "2026-11-19T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-19T23:00:00Z",
+        "end": "2027-05-12T19:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361510/Stray-Kids-tickets-Sun-May-16-2027-Lumen-Field",
@@ -391110,11 +391146,6 @@
         "name": "STAY Membership Presale VIP Package",
         "start": "2026-11-18T18:00:00Z",
         "end": "2026-11-18T21:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T22:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
       },
       {
         "name": "Artist Presale VIP Package",
@@ -391591,7 +391622,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-atlanta-mercedes-benz-stadium-6-8-2027/production/7832811",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-atlanta-georgia-06-08-2027/event/0E006566C0752D44",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391677,7 +391708,8 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361516/Stray-Kids-tickets-Tue-Jun-8-2027-Mercedes-Benz-Stadium",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361516",
-    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301"
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301",
+    "ticket_limit": 4
   },
   {
     "id": "tm-stray-kids-2027-miami-vvg1vz_ppnraxv",
@@ -401901,7 +401933,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-baltimore-maryland-06-05-2027/event/15006564DFB4AC25",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401942,7 +401974,7 @@
       "AEG - TICKETING"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -401985,12 +402017,12 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-09T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-09T02:00:00Z"
       },
@@ -402017,7 +402049,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-12-2027/event/02006565C781A756",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402058,7 +402090,7 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -402086,6 +402118,11 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
         "name": "Ticketmaster Presale",
         "start": "2026-11-19T19:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -402096,12 +402133,12 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-16T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-16T02:00:00Z"
       },
@@ -402128,7 +402165,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-columbus-value-city-arena-at-schottenstein-center-6-16-2027/production/7870459",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-16-2027/event/05006565D8F3A722",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402177,7 +402214,7 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -402205,22 +402242,22 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
         "name": "Ticketmaster Presale",
         "start": "2026-11-19T19:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Venue Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-20T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-20T02:00:00Z"
       },
@@ -402247,7 +402284,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-19-2027/event/0400656612CD2D30",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402288,7 +402325,7 @@
       "AEG - TICKETING"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -402321,19 +402358,19 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-05-23T03:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-05-23T03:00:00Z"
       },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T16:00:00Z",
-        "end": "2027-06-10T03:00:00Z"
+        "end": "2027-06-09T22:00:00Z"
       }
     ]
   },
@@ -402353,7 +402390,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-indianapolis-gainbridge-fieldhouse-6-23-2027--theater-family/production/7870485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-indianapolis-indiana-06-23-2027/event/05006564B16771D2",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402402,7 +402439,7 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -402440,7 +402477,7 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-27T02:00:00Z"
       },
@@ -402546,12 +402583,12 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-30T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-30T02:00:00Z"
       },
@@ -402647,7 +402684,7 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-02T02:00:00Z"
       },
@@ -402748,7 +402785,7 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-02T02:00:00Z"
       },
@@ -402780,7 +402817,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402820,7 +402857,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -402895,7 +402932,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-charlotte-spectrum-center-7-7-2027/production/7870457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-charlotte-north-carolina-07-07-2027/event/2D00656497E860E1",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402976,6 +403013,11 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
+        "name": "Spotify Presale",
+        "start": "2026-11-19T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
         "name": "Ticketmaster Presale",
         "start": "2026-11-19T19:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -403013,7 +403055,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-atlanta-georgia-07-10-2027/event/0E006565CE724E36",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403054,7 +403096,7 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -403097,7 +403139,7 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-13T02:00:00Z"
       },
@@ -403129,7 +403171,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-orlando-florida-07-17-2027/event/22006566DC554FD5",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403170,7 +403212,7 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -403240,7 +403282,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-20-2027/production/7870467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-20-2027/event/0C006566AE847156",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403296,7 +403338,7 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -403334,7 +403376,7 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Tickets",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-23T03:00:00Z"
       },
@@ -403367,7 +403409,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-21-2027/production/7870455",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-21-2027/event/0C006566AEEC72EC",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403423,7 +403465,7 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -403466,7 +403508,7 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Tickets",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-24T03:00:00Z"
       },
@@ -403499,7 +403541,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-phoenix-arizona-07-24-2027/event/1900656997AF3352",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403540,7 +403582,7 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -403578,7 +403620,7 @@
         "end": "2026-11-20T05:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Tickets",
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-06-27T05:00:00Z"
       },
@@ -403610,7 +403652,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-tacoma-washington-08-14-2027/event/0F006565CE4DCA3C",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403651,7 +403693,7 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -403684,7 +403726,7 @@
         "end": "2026-11-20T06:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Tickets",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-07-18T05:00:00Z"
       },
@@ -404209,7 +404251,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-birmingham-16-10-2027/event/2300656DC49610E0",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -404246,7 +404288,10 @@
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-11-20T10:00:00Z",
-    "genre": "Children's Music"
+    "genre": "Pop",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ]
   },
   {
     "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkm7wjw0",
@@ -404264,7 +404309,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-22-10-2027/event/3500656DC4F66CA4",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -404301,7 +404346,11 @@
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-11-20T10:00:00Z",
-    "genre": "Children's Music"
+    "genre": "Pop",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 8
   },
   {
     "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkmklpyh",
@@ -404319,7 +404368,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-23-10-2027/event/3500656DC67D6E5B",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -404356,7 +404405,11 @@
     "timezone": "Europe/London",
     "status": "announced",
     "public_onsale_at": "2026-11-20T10:00:00Z",
-    "genre": "Children's Music"
+    "genre": "Pop",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 8
   },
   {
     "id": "tm-the-rankin-family-2027-edmonton-1k78vpbmga2hetj",
@@ -405587,7 +405640,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-tampa-benchmark-international-arena-4-12-2027--concerts-pop/production/7870965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-tampa-florida-04-12-2027/event/0D00656BCE45F6B0",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -405661,11 +405714,6 @@
         "name": "VIP Package Onsale",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-04-05T21:00:00Z"
-      },
-      {
-        "name": "Public Onsale",
-        "start": "2026-11-20T15:00:00Z",
-        "end": "2027-04-12T23:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369848/Alex-Warren-tickets-Mon-Apr-12-2027-Benchmark-International-Arena"
@@ -405686,7 +405734,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-jacksonville-vystar-veterans-memorial-arena-4-13-2027--concerts-pop/production/7870967",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-jacksonville-florida-04-13-2027/event/2200656CBEED42D7",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -405733,7 +405781,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticket_limit": 6,
     "genre": "Pop",
     "presales": [
       {
@@ -406346,7 +406393,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-columbus-nationwide-arena-4-28-2027--concerts-pop/production/7870997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-columbus-ohio-04-28-2027/event/0500656BF716315E",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -406402,6 +406449,11 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
         "name": "CBJ STH Presale",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -406415,6 +406467,11 @@
         "name": "Venue Presale",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-21T21:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369861/Alex-Warren-tickets-Wed-Apr-28-2027-Nationwide-Arena"
@@ -413324,8 +413381,7 @@
     "status": "announced",
     "public_onsale_at": "2026-11-20T10:00:00Z",
     "organizer_names": [
-      "SJM LIMITED (NEW)",
-      "TM SOUVENIR TICKET INCOME"
+      "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
     "genre": "Rock",
@@ -413655,7 +413711,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-manchester-11-06-2027/event/3600656BBEFA7562",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -413696,7 +413752,7 @@
       "S.J.M. LTD",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
     ],
-    "ticket_limit": 8,
+    "ticket_limit": 6,
     "genre": "R&B",
     "presales": [
       {
@@ -413911,7 +413967,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-birmingham-22-06-2027/event/3E006569F0FB9F7E",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -413952,7 +414008,7 @@
       "S.J.M. LTD",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
     ],
-    "ticket_limit": 8,
+    "ticket_limit": 6,
     "genre": "R&B",
     "presales": [
       {
@@ -414981,6 +415037,16 @@
         "name": "Fan Club Presale",
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-28T06:00:00Z"
       }
     ]
   },
@@ -415260,7 +415326,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-saint-louis-missouri-03-10-2027/event/0600656BBBB5AAC8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415296,7 +415362,54 @@
     "ticketmaster_discovery_event_id": "vv17bZ_pGkmDcQlF",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-11T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-06T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-minneapolis-vv17bz_pgkm4rom4",
@@ -415314,7 +415427,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415350,7 +415463,58 @@
     "ticketmaster_discovery_event_id": "vv17bZ_pGkM4RoM4",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-13T05:59:00Z"
+      },
+      {
+        "name": "Global Poverty Project",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-05T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-08T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-milwaukee-vv17jz_pgkuxx_4x",
@@ -415368,7 +415532,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415404,7 +415568,55 @@
     "ticketmaster_discovery_event_id": "vv17jZ_pGkUXX_4X",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Local/Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-09T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-kansas-city-vv17bz_pgkmduzpp",
@@ -415422,7 +415634,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415458,7 +415670,38 @@
     "ticketmaster_discovery_event_id": "vv17bZ_pGkMDUzPp",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-11T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-columbus-vv17fz_pgkmwl1_h",
@@ -415476,7 +415719,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415512,7 +415755,59 @@
     "ticketmaster_discovery_event_id": "vv17fZ_pGkMWl1_H",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "CBJ STH Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-02-19T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-14T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-buffalo-k7vgf_pm2cxpu",
@@ -415530,7 +415825,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415566,7 +415861,54 @@
     "ticketmaster_discovery_event_id": "k7vGF_pM2CxPu",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "KeyBank Center Insider Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-02-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-15T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-chicago-vv178z_pgkm4m_1r",
@@ -415584,7 +415926,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415620,7 +415962,54 @@
     "ticketmaster_discovery_event_id": "vv178Z_pGkM4M_1r",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-22T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-17T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-detroit-vv17oz_pgkwjgvk2",
@@ -415638,7 +416027,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415674,7 +416063,54 @@
     "ticketmaster_discovery_event_id": "vv17OZ_pGkwJgVK2",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-02-23T04:59:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-18T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-toronto-1avzz_pgkm8-pwg",
@@ -415692,7 +416128,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415728,7 +416164,52 @@
     "ticketmaster_discovery_event_id": "1AvZZ_pGkm8-PwG",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Amex Presale Tickets VIP Packages",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Live INSIDER Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-20T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-brooklyn-1adzz_pgkwqo0e1",
@@ -415746,7 +416227,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415782,7 +416263,54 @@
     "ticketmaster_discovery_event_id": "1AdZZ_pGkwQo0E1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Barclays Center Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2026-11-27T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-22T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-boston-vv177z_pgkm0b_wn",
@@ -415800,7 +416328,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415836,7 +416364,54 @@
     "ticketmaster_discovery_event_id": "vv177Z_pGkm0B_WN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T19:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-23T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-pittsburgh-1avbz_pgkuj2euk",
@@ -415854,7 +416429,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415890,7 +416465,53 @@
     "ticketmaster_discovery_event_id": "1AvbZ_pGkUj2Euk",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-02T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-25T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-washington-1avfz_pgkirkqcv",
@@ -415908,7 +416529,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-washington-district-of-columbia-04-01-2027/event/1500656A1E19AB74",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415944,7 +416565,49 @@
     "ticketmaster_discovery_event_id": "1AvfZ_pGkIrkQcV",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue/Local Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-05T04:59:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-28T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-newark-vv17fz_pgksjk0ub",
@@ -415962,7 +416625,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415998,7 +416661,59 @@
     "ticketmaster_discovery_event_id": "vv17FZ_pGkSJk0Ub",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-06T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-29T16:00:00Z"
+      },
+      {
+        "name": "Global Poverty Project",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-02T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-philadelphia-1adzz_pgkmceakj",
@@ -416016,7 +416731,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416052,7 +416767,53 @@
     "ticketmaster_discovery_event_id": "1AdZZ_pGkMCeaKj",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-19T14:45:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Xfinity Mobile Arena Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-07T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-30T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-columbia-g5evz_py95t01",
@@ -416070,7 +416831,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416106,7 +416867,54 @@
     "ticketmaster_discovery_event_id": "G5eVZ_pY95T01",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T04:59:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Local Venue/Radio Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-09T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-01T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-charlotte-g5evz_pdpjkpz",
@@ -416124,7 +416932,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416160,7 +416968,53 @@
     "ticketmaster_discovery_event_id": "G5eVZ_pDPJkpZ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Spectrum Center Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-11T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-03T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-raleigh-g5evz_9engbxl",
@@ -416178,7 +417032,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416214,7 +417068,54 @@
     "ticketmaster_discovery_event_id": "G5eVZ_9enGbXl",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Local/Venue/Radio Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-12T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-04T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-atlanta-vvg1zz_puzair5",
@@ -416232,7 +417133,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416268,7 +417169,54 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_pUzaiR5",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Local/Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-14T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-06T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-orlando-1kfovpjagau4wx9",
@@ -416286,7 +417234,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416322,7 +417270,54 @@
     "ticketmaster_discovery_event_id": "1kFOvPjaGAu4wX9",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-18T18:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-16T03:59:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-08T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-memphis-g5viz_pwsyuuc",
@@ -416340,7 +417335,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416376,7 +417371,54 @@
     "ticketmaster_discovery_event_id": "G5viZ_pwSyuUc",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-19T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue / Local Presales",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-20T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-12T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-new-orleans-g5viz_pu7vuyk",
@@ -416394,7 +417436,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416430,7 +417472,54 @@
     "ticketmaster_discovery_event_id": "G5viZ_pU7VUyk",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-21T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-13T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-fort-worth-vvg1yz_pgce3dm",
@@ -416448,7 +417537,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416484,7 +417573,54 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_pgcE3dm",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Ariat Arena Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-24T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-16T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-austin-g5diz_pvhlinm",
@@ -416502,7 +417638,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416538,7 +417674,59 @@
     "ticketmaster_discovery_event_id": "G5dIZ_pVhLiNM",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-18T19:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Partner Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-26T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-18T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-denver-g5vzz_pu930ac",
@@ -416556,7 +417744,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416592,7 +417780,54 @@
     "ticketmaster_discovery_event_id": "G5vzZ_pU930ac",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-18T20:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Ball Arena / Radio Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-03-31T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-23T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-phoenix-1av0z_pgkmb6tzk",
@@ -416610,7 +417845,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416646,7 +417881,54 @@
     "ticketmaster_discovery_event_id": "1Av0Z_pGkMb6tzk",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-18T20:45:00Z"
+      },
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-18T20:45:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-02T06:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-25T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-anaheim-vv170z_pgks682ex",
@@ -416664,7 +417946,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416700,7 +417982,54 @@
     "ticketmaster_discovery_event_id": "vv170Z_pGkS682eX",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-18T21:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Global Citizen",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2027-04-25T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VENUE PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-04T06:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-27T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-san-francisco-g5vyz_plmqsld",
@@ -416718,7 +418047,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416754,7 +418083,59 @@
     "ticketmaster_discovery_event_id": "G5vYZ_plMqSLd",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-18T21:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Venue/GSW Dub Club/Insider Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Chase Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-08T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-10T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-03T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-sacramento-g5vyz_psayvgp",
@@ -416772,7 +418153,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416808,7 +418189,54 @@
     "ticketmaster_discovery_event_id": "G5vYZ_pSAyvGP",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-18T21:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Presale Offer",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-12T06:59:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-05T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-portland-vvg1hz_pr1sldf",
@@ -416826,7 +418254,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416862,7 +418290,43 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_pR1SlDf",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-18T21:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-15T06:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-08T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-seattle-vvg1hz_pm77anw",
@@ -416880,7 +418344,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416916,7 +418380,44 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_pM77anw",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-18T21:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-09T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-vancouver-1av7z_pgkwqspc7",
@@ -416934,7 +418435,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416970,7 +418471,52 @@
     "ticketmaster_discovery_event_id": "1Av7Z_pGkwqSPc7",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Amex Presale Tickets VIP Packages",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-18T20:45:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-11T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-west-valley-city-g5vzz_ps36muq",
@@ -416988,7 +418534,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-west-valley-city-utah-05-19-2027/event/1E00656CD21F7D9D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417024,7 +418570,53 @@
     "ticketmaster_discovery_event_id": "G5vzZ_pS36MUq",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-18T20:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-19T16:45:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-22T05:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-15T18:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jhene-aiko-2027-los-angeles-g5eyz_pusyoov",
@@ -417042,7 +418634,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-21-2027/event/2C00656DB3C11474",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417078,6 +418670,58 @@
     "ticketmaster_discovery_event_id": "G5eYZ_pUSYooV",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Global Citizen",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2027-05-14T16:00:00Z"
+      },
+      {
+        "name": "Verizon Shine VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-18T21:45:00Z"
+      },
+      {
+        "name": "Verizon Shine Presale Tickets",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-24T06:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-17T19:00:00Z"
+      }
+    ]
   }
 ]

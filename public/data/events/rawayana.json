@@ -423,7 +423,7 @@
     "vividseats_url": "https://www.vividseats.com/rawayana-tickets-irving-pavilion-at-toyota-music-factory-11-21-2026/production/6790753",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rawayana-donde-es-el-after-world-irving-texas-11-21-2026/event/0C00646C0DA0F420",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -487,11 +487,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-03-19T15:00:00Z",
-        "end": "2026-11-17T18:00:00Z"
-      },
       {
         "name": "2-PACK OFFER",
         "start": "2026-07-01T17:00:00Z",

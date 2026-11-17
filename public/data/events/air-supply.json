@@ -2253,5 +2253,59 @@
         "end": "2027-02-06T06:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-air-supply-2027-indianapolis-vv17fz_pgkskhuw1",
+    "artist_slug": "air-supply",
+    "artist_name": "Air Supply",
+    "event_name": "Air Supply - A Matter of Time Tour",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2027-04-03T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500656CC66CDF4A",
+    "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-indianapolis-indiana-04-03-2027/event/0500656CC66CDF4A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-indianapolis-indiana-04-03-2027/event/0500656CC66CDF4A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656CC66CDF4A",
+        "discovery_event_id": "vv17fZ_pGkSkhuW1",
+        "url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-indianapolis-indiana-04-03-2027/event/0500656CC66CDF4A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_pGkSkhuW1",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
   }
 ]

@@ -415243,5 +415243,1841 @@
         "end": "2026-11-20T06:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-jhene-aiko-2027-saint-louis-vv17bz_pgkmdcqlf",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2027-03-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656BBBB5AAC8",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-saint-louis-missouri-03-10-2027/event/0600656BBBB5AAC8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-saint-louis-missouri-03-10-2027/event/0600656BBBB5AAC8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656BBBB5AAC8",
+        "discovery_event_id": "vv17bZ_pGkmDcQlF",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-saint-louis-missouri-03-10-2027/event/0600656BBBB5AAC8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkmDcQlF",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-minneapolis-vv17bz_pgkm4rom4",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2027-03-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656DD5BD1DD5",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656DD5BD1DD5",
+        "discovery_event_id": "vv17bZ_pGkM4RoM4",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkM4RoM4",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-milwaukee-vv17jz_pgkuxx_4x",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2027-03-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700656DBEF9957E",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700656DBEF9957E",
+        "discovery_event_id": "vv17jZ_pGkUXX_4X",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_pGkUXX_4X",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-kansas-city-vv17bz_pgkmduzpp",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-03-16T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656DFBDB8956",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656DFBDB8956",
+        "discovery_event_id": "vv17bZ_pGkMDUzPp",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkMDUzPp",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-columbus-vv17fz_pgkmwl1_h",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2027-03-18T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500656DFDACA67C",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656DFDACA67C",
+        "discovery_event_id": "vv17fZ_pGkMWl1_H",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_pGkMWl1_H",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-buffalo-k7vgf_pm2cxpu",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2027-03-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000656DCF3A294D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000656DCF3A294D",
+        "discovery_event_id": "k7vGF_pM2CxPu",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pM2CxPu",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-chicago-vv178z_pgkm4m_1r",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-03-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400656DD5DD929E",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400656DD5DD929E",
+        "discovery_event_id": "vv178Z_pGkM4M_1r",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_pGkM4M_1r",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-detroit-vv17oz_pgkwjgvk2",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2027-03-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800656CA6D744CF",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656CA6D744CF",
+        "discovery_event_id": "vv17OZ_pGkwJgVK2",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_pGkwJgVK2",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-toronto-1avzz_pgkm8-pwg",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-03-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000656B90865C8C",
+    "ticketmaster_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656B90865C8C",
+        "discovery_event_id": "1AvZZ_pGkm8-PwG",
+        "url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_pGkm8-PwG",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-brooklyn-1adzz_pgkwqo0e1",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-03-26T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000656C9A4649CA",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000656C9A4649CA",
+        "discovery_event_id": "1AdZZ_pGkwQo0E1",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_pGkwQo0E1",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-boston-vv177z_pgkm0b_wn",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-03-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100656BA4E99F63",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656BA4E99F63",
+        "discovery_event_id": "vv177Z_pGkm0B_WN",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkm0B_WN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-pittsburgh-1avbz_pgkuj2euk",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2027-03-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600656D9C3E7346",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656D9C3E7346",
+        "discovery_event_id": "1AvbZ_pGkUj2Euk",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_pGkUj2Euk",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-washington-1avfz_pgkirkqcv",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2027-04-01T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500656A1E19AB74",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-washington-district-of-columbia-04-01-2027/event/1500656A1E19AB74",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-washington-district-of-columbia-04-01-2027/event/1500656A1E19AB74",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500656A1E19AB74",
+        "discovery_event_id": "1AvfZ_pGkIrkQcV",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-washington-district-of-columbia-04-01-2027/event/1500656A1E19AB74",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_pGkIrkQcV",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-newark-vv17fz_pgksjk0ub",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-04-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200656CE61A4D98",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200656CE61A4D98",
+        "discovery_event_id": "vv17FZ_pGkSJk0Ub",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_pGkSJk0Ub",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-philadelphia-1adzz_pgkmceakj",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2027-04-03T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000656DCE0894DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000656DCE0894DC",
+        "discovery_event_id": "1AdZZ_pGkMCeaKj",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_pGkMCeaKj",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-columbia-g5evz_py95t01",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Columbia",
+    "country": "United States Of America",
+    "venue": "Colonial Life Arena",
+    "datetime_iso": "2027-04-05T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00656C172FF90A",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656C172FF90A",
+        "discovery_event_id": "G5eVZ_pY95T01",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pY95T01",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-charlotte-g5evz_pdpjkpz",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-04-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00656EE5986580",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656EE5986580",
+        "discovery_event_id": "G5eVZ_pDPJkpZ",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pDPJkpZ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-raleigh-g5evz_9engbxl",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Lenovo Center",
+    "datetime_iso": "2027-04-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006570AA318FAB",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006570AA318FAB",
+        "discovery_event_id": "G5eVZ_9enGbXl",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_9enGbXl",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-atlanta-vvg1zz_puzair5",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-04-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00656DB826CBCB",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00656DB826CBCB",
+        "discovery_event_id": "vvG1zZ_pUzaiR5",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_pUzaiR5",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-orlando-1kfovpjagau4wx9",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-04-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220065709D572F97",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220065709D572F97",
+        "discovery_event_id": "1kFOvPjaGAu4wX9",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kFOvPjaGAu4wX9",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-memphis-g5viz_pwsyuuc",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "FedExForum",
+    "datetime_iso": "2027-04-17T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656CB3E4DDAD",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/memphis-tennessee-fedexforum-2027-04-16-7-30-pm/concert/18783894",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656CB3E4DDAD",
+        "discovery_event_id": "G5viZ_pwSyuUc",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pwSyuUc",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-new-orleans-g5viz_pu7vuyk",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Smoothie King Center",
+    "datetime_iso": "2027-04-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656D84D36E46",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/new-orleans-louisiana-smoothie-king-center-2027-04-17-7-30-pm/concert/18783895",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656D84D36E46",
+        "discovery_event_id": "G5viZ_pU7VUyk",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pU7VUyk",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-fort-worth-vvg1yz_pgce3dm",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Ariat Arena",
+    "datetime_iso": "2027-04-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00656D6D9D20EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/fort-worth-texas-ariat-arena-2027-04-20-7-30-pm/concert/18783899",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00656D6D9D20EE",
+        "discovery_event_id": "vvG1YZ_pgcE3dm",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_pgcE3dm",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-austin-g5diz_pvhlinm",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2027-04-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00656D1B7EC8F7",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/austin-texas-moody-center-atx-2027-04-22-7-30-pm/concert/18783901",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00656D1B7EC8F7",
+        "discovery_event_id": "G5dIZ_pVhLiNM",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pVhLiNM",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-denver-g5vzz_pu930ac",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-04-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00656D974A426D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/denver-colorado-ball-arena-2027-04-27-7-30-pm/concert/18783903",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00656D974A426D",
+        "discovery_event_id": "G5vzZ_pU930ac",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pU930ac",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T17:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-phoenix-1av0z_pgkmb6tzk",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-04-30T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900656DD81E9E06",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-29-7-30-pm/concert/18783904",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656DD81E9E06",
+        "discovery_event_id": "1Av0Z_pGkMb6tzk",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkMb6tzk",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T17:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-anaheim-vv170z_pgks682ex",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-05-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900656CC740F0BE",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/anaheim-california-honda-center-2027-05-01-7-30-pm/concert/18783907",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900656CC740F0BE",
+        "discovery_event_id": "vv170Z_pGkS682eX",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_pGkS682eX",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-san-francisco-g5vyz_plmqsld",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Chase Center",
+    "datetime_iso": "2027-05-08T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656AF77737C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/san-francisco-california-chase-center-2027-05-07-7-30-pm/concert/18783908",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656AF77737C3",
+        "discovery_event_id": "G5vYZ_plMqSLd",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_plMqSLd",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-sacramento-g5vyz_psayvgp",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-05-10T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656CC5E41325",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/sacramento-california-golden-1-center-2027-05-09-7-30-pm/concert/18783909",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656CC5E41325",
+        "discovery_event_id": "G5vYZ_pSAyvGP",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pSAyvGP",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-portland-vvg1hz_pr1sldf",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-05-13T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00656BCACEBED4",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/portland-oregon-moda-center-2027-05-12-7-30-pm/concert/18783913",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00656BCACEBED4",
+        "discovery_event_id": "vvG1HZ_pR1SlDf",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_pR1SlDf",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-seattle-vvg1hz_pm77anw",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-05-14T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00656DC4109AB2",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00656DC4109AB2",
+        "discovery_event_id": "vvG1HZ_pM77anw",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_pM77anw",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-vancouver-1av7z_pgkwqspc7",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-05-16T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100656C9DCE5B44",
+    "ticketmaster_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100656C9DCE5B44",
+        "discovery_event_id": "1Av7Z_pGkwqSPc7",
+        "url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_pGkwqSPc7",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T17:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-west-valley-city-g5vzz_ps36muq",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "West Valley City",
+    "country": "United States Of America",
+    "venue": "Canyon View Credit Union Stage at Maverik Center",
+    "datetime_iso": "2027-05-20T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00656CD21F7D9D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-west-valley-city-utah-05-19-2027/event/1E00656CD21F7D9D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-west-valley-city-utah-05-19-2027/event/1E00656CD21F7D9D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00656CD21F7D9D",
+        "discovery_event_id": "G5vzZ_pS36MUq",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-west-valley-city-utah-05-19-2027/event/1E00656CD21F7D9D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pS36MUq",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T17:00:00Z"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-los-angeles-g5eyz_pusyoov",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-05-22T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2C00656DB3C11474",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-21-2027/event/2C00656DB3C11474",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-21-2027/event/2C00656DB3C11474",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C00656DB3C11474",
+        "discovery_event_id": "G5eYZ_pUSYooV",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-21-2027/event/2C00656DB3C11474",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eYZ_pUSYooV",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
   }
 ]

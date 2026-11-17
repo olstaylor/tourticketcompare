@@ -3734,5 +3734,19 @@
     "last_verified_at": "2026-11-16",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-16"
+  },
+  {
+    "slug": "jhene-aiko",
+    "name": "Jhene Aiko",
+    "short_description": "R&B act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-17",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-17"
   }
 ]

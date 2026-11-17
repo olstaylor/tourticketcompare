@@ -16730,7 +16730,7 @@
     "country": "United States Of America",
     "city": "Saint Louis",
     "venue": "The Factory",
-    "datetime_iso": "2026-12-19T01:30:00Z",
+    "datetime_iso": "2026-12-19T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
@@ -29485,7 +29485,7 @@
     "artist_name": "Fontaines D.C.",
     "country": "United States Of America",
     "city": "Atlanta",
-    "venue": "Synovus Bank Amphitheater at Chastain Park",
+    "venue": "Pinnacle Amphitheater at Chastain Park",
     "datetime_iso": "2027-10-09T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
@@ -41425,7 +41425,7 @@
     "artist_name": "Earth, Wind & Fire",
     "country": "United States Of America",
     "city": "Atlanta",
-    "venue": "Synovus Bank Amphitheater at Chastain Park",
+    "venue": "Pinnacle Amphitheater at Chastain Park",
     "datetime_iso": "2027-04-24T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
@@ -50114,7 +50114,7 @@
     "country": "United States Of America",
     "city": "Chicago",
     "venue": "Aragon Ballroom",
-    "datetime_iso": "2026-11-19T02:00:00Z",
+    "datetime_iso": "2026-11-19T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
@@ -50234,7 +50234,7 @@
     "country": "United States Of America",
     "city": "Las Vegas",
     "venue": "Fontainebleau Las Vegas",
-    "datetime_iso": "2026-12-10T05:00:00Z",
+    "datetime_iso": "2026-12-10T04:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -50258,7 +50258,7 @@
     "country": "United States Of America",
     "city": "Seattle",
     "venue": "Paramount Theatre",
-    "datetime_iso": "2026-12-15T04:00:00Z",
+    "datetime_iso": "2026-12-15T05:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -57482,7 +57482,7 @@
     "country": "Great Britain",
     "city": "Norwich",
     "venue": "The Nick Rayns LCR, UEA",
-    "datetime_iso": "2027-02-03T19:30:00Z",
+    "datetime_iso": "2027-02-03T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "on-sale"
@@ -60362,7 +60362,7 @@
     "country": "Great Britain",
     "city": "Stirling",
     "venue": "Stirling Albert Halls",
-    "datetime_iso": "2027-02-13T19:00:00Z",
+    "datetime_iso": "2027-02-15T19:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "on-sale"
@@ -64661,7 +64661,7 @@
     "datetime_iso": "2027-02-27T06:00:00Z",
     "timezone": "Australia/Melbourne",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mumford-sons-2027-st-john-s-z7r9jz1aaakg4",
@@ -64913,7 +64913,7 @@
     "datetime_iso": "2027-07-03T19:00:00Z",
     "timezone": "Europe/Rome",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-andrea-bocelli-2027-pollenzo-cuneo-zg9rmiynyzf17f",
@@ -64925,7 +64925,7 @@
     "datetime_iso": "2027-09-25T19:00:00Z",
     "timezone": "Europe/Rome",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-noah-kahan-2027-athens-z7r9jz1aa7wgt",
@@ -65966,7 +65966,7 @@
     "country": "United States Of America",
     "city": "Richmond",
     "venue": "Altria Theater",
-    "datetime_iso": "2026-12-18T01:00:00Z",
+    "datetime_iso": "2027-01-18T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -66230,7 +66230,7 @@
     "country": "United States Of America",
     "city": "Raleigh",
     "venue": "Coastal Credit Union Music Park at Walnut Creek",
-    "datetime_iso": "2027-05-11T23:40:00Z",
+    "datetime_iso": "2027-05-11T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "announced"
@@ -67454,7 +67454,7 @@
     "country": "Great Britain",
     "city": "Glasgow",
     "venue": "Galvanizers Yard SWG3",
-    "datetime_iso": "2027-06-23T18:00:00Z",
+    "datetime_iso": "2027-06-23T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
     "status": "announced"

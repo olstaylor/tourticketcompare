@@ -2942,7 +2942,7 @@
     "city": "Glasgow",
     "country": "Great Britain",
     "venue": "Galvanizers Yard SWG3",
-    "datetime_iso": "2027-06-23T18:00:00Z",
+    "datetime_iso": "2027-06-23T17:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "3600656DDC4CB240",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/leon-bridges-presents-the-happiness-anytime-glasgow-23-06-2027/event/3600656DDC4CB240",
@@ -2950,7 +2950,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-presents-the-happiness-anytime-glasgow-23-06-2027/event/3600656DDC4CB240",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

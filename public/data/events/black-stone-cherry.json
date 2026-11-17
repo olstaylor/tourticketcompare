@@ -946,7 +946,7 @@
     "city": "Norwich",
     "country": "Great Britain",
     "venue": "The Nick Rayns LCR, UEA",
-    "datetime_iso": "2027-02-03T19:30:00Z",
+    "datetime_iso": "2027-02-03T18:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1F00638593F95DA9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-norwich-03-02-2027/event/1F00638593F95DA9",
@@ -954,7 +954,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-norwich-03-02-2027/event/1F00638593F95DA9",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1003,7 +1003,9 @@
       "LIVE NATION MUSIC UK LTD"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "previous_start_date": "2027-02-03T19:30:00Z",
+    "previous_start_timezone": "Europe/London"
   },
   {
     "id": "tm-black-stone-cherry-2027-edinburgh-g5dzzbzk-605z",

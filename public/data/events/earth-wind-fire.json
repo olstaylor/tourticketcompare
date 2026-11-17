@@ -1101,7 +1101,7 @@
     "event_name": "Earth, Wind & Fire",
     "city": "Atlanta",
     "country": "United States Of America",
-    "venue": "Synovus Bank Amphitheater at Chastain Park",
+    "venue": "Pinnacle Amphitheater at Chastain Park",
     "datetime_iso": "2027-04-24T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0E006524BE32CE59",
@@ -1110,7 +1110,7 @@
     "vividseats_url": "https://www.vividseats.com/earth-wind-and-fire-tickets-atlanta-synovus-bank-amphitheater-at-chastain-park-4-23-2027/production/7653609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/earth-wind-fire-atlanta-georgia-04-23-2027/event/0E006524BE32CE59",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

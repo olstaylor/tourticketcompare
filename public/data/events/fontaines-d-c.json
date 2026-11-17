@@ -253,7 +253,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-liverpool-20-11-2026/event/3700650D190E9616",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -289,7 +289,6 @@
     "ticketmaster_discovery_event_id": "1AdjZ_8GkV_dtbp",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticket_limit": 4,
     "genre": "Pop"
   },
   {
@@ -308,7 +307,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-leeds-24-11-2026/event/1F00650E8BCD43AD",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -344,7 +343,6 @@
     "ticketmaster_discovery_event_id": "G5vHZ_8B5SfCc",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticket_limit": 4,
     "genre": "Pop"
   },
   {
@@ -363,7 +361,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-birmingham-25-11-2026/event/2300650EFEF9F38F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423,7 +421,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243928",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243928/Fontaines-DC-tickets-Wed-Nov-25-2026-Utilita-Arena-Birmingham",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-birmingham-utilita-arena-birmingham-25-11-2026/event/107554687",
-    "ticket_limit": 4,
     "genre": "Pop"
   },
   {
@@ -442,7 +439,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-london-27-11-2026/event/35006511A3FA225C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -486,7 +483,6 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-london-the-o2-arena-27-11-2026/event/107636077",
-    "ticket_limit": 4,
     "genre": "Pop"
   },
   {
@@ -1975,7 +1971,7 @@
     "event_name": "Fontaines D.C.",
     "city": "Atlanta",
     "country": "United States Of America",
-    "venue": "Synovus Bank Amphitheater at Chastain Park",
+    "venue": "Pinnacle Amphitheater at Chastain Park",
     "datetime_iso": "2027-10-09T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0E006539E8604B09",
@@ -1984,7 +1980,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fontaines-dc-atlanta-georgia-10-08-2027/event/0E006539E8604B09",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2938,7 +2934,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-21-11-2026/event/1F006511B96E4B8A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3001,7 +2997,6 @@
     "organizer_names": [
       "ASM T-A AO ARENA"
     ],
-    "ticket_limit": 4,
     "genre": "Pop"
   },
   {

@@ -910,7 +910,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-8-2026--concerts-adult-contemporary/production/7530317",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-08-2026/event/080065261D18D5BC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -974,7 +974,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252658",
     "ticket_limit": 6,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna",
@@ -992,7 +993,7 @@
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-9-2026--concerts-adult-contemporary/production/7530319",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-09-2026/event/0800652622C5DA85",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1056,7 +1057,8 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252659",
     "ticket_limit": 6,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug",

@@ -589,7 +589,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -648,11 +648,6 @@
         "name": "Artist Presale",
         "start": "2026-11-18T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Past Bookers Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372601/Foo-Fighters-tickets-Thu-Sep-9-2027-Wembley-Stadium"
@@ -673,7 +668,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -732,11 +727,6 @@
         "name": "Artist Presale",
         "start": "2026-11-18T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Past Bookers Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372602/Foo-Fighters-tickets-Sat-Sep-11-2027-Wembley-Stadium"
@@ -757,7 +747,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -802,7 +792,8 @@
     "status": "announced",
     "public_onsale_at": "2026-11-20T10:00:00Z",
     "organizer_names": [
-      "SJM LIMITED (NEW)"
+      "SJM LIMITED (NEW)",
+      "TM SOUVENIR TICKET INCOME"
     ],
     "ticket_limit": 6,
     "genre": "Rock",
@@ -815,11 +806,6 @@
       {
         "name": "Artist Presale",
         "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Past Bookers Presale",
-        "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
     ],
@@ -841,7 +827,7 @@
     "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-edinburgh-scottish-gas-murrayfield-stadium-9-16-2027--concerts-rock/production/7879775",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-edinburgh-16-09-2027/event/36006527AD8E4F47",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,11 +884,6 @@
       },
       {
         "name": "Gigs in Scotland Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Past Bookers Presale",
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       },

@@ -1792,7 +1792,7 @@
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-11-30-2026--concerts-rb/production/7423426",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/steve-lacy-oh-yeah-tour-vancouver-british-columbia-11-30-2026/event/11006504A5E37FA2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1851,13 +1851,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199816",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199816/Steve-Lacy-tickets-Mon-Nov-30-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
-    "presales": [
-      {
-        "name": "Amex Reserved Tickets",
-        "start": "2026-08-14T17:00:00Z",
-        "end": "2026-11-17T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",

@@ -1133,7 +1133,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-tallahassee-florida-03-26-2027/event/220064A4A5EB391A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1186,7 +1186,14 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7965199",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7965199/MercyMe-tickets-Fri-Mar-26-2027-Donald-L-Tucker-Civic-Center",
     "ticketmaster_status_code": "rescheduled",
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T15:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mercyme-2027-fayetteville-g5evz_frs44wl",
@@ -2145,7 +2152,7 @@
     "vividseats_url": "https://www.vividseats.com/mercyme-tickets-canton-canton-civic-center-5-1-2027/production/7714478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mercyme-ben-fuller-peter-burton-canton-ohio-05-01-2027/event/0500654C8F3631EA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2185,7 +2192,14 @@
       "SMG",
       "AWAKENING EVENTS"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "$25 All-in Ticket Offer",
+        "start": "2026-11-23T04:59:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mercyme-2027-evansville-vv17fz_fgkwdo5qw",

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-sugar-land-smart-financial-centre-11-21-2026/production/6884025",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9Gp",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -58,7 +58,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x9Gp",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7878419/Intocable-tickets-Sat-Nov-21-2026-Smart-Financial-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7878419/Intocable-tickets-Sat-Nov-21-2026-Smart-Financial-Centre",
+    "genre": "World"
   },
   {
     "id": "tm-intocable-2026-san-antonio-g5diz_6xnmhis",
@@ -76,7 +77,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-san-antonio-freeman-coliseum-11-25-2026/production/6900840",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-san-antonio-texas-11-25-2026/event/3A00647FA3B9BA33",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +120,11 @@
     "ticketmaster_discovery_event_id": "G5dIZ_6XNmhIS",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7875906/Intocable-tickets-Wed-Nov-25-2026-Freeman-Coliseum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7875906/Intocable-tickets-Wed-Nov-25-2026-Freeman-Coliseum",
+    "organizer_names": [
+      "AMPLIFY ENTERTAINMENT"
+    ],
+    "genre": "Latin"
   },
   {
     "id": "tm-intocable-2026-fort-worth-vvg1yz_7cpuxpt",
@@ -137,7 +142,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-fort-worth-texas-11-27-2026/event/0C00644B65DA25BF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -180,7 +185,12 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_7cPUxpT",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7875908/Intocable-tickets-Fri-Nov-27-2026-Ariat-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7875908/Intocable-tickets-Fri-Nov-27-2026-Ariat-Arena",
+    "organizer_names": [
+      "AMPLIFY ENTERTAINMENT"
+    ],
+    "ticket_limit": 8,
+    "genre": "Latin"
   },
   {
     "id": "tm-intocable-2026-hidalgo-g5diz_fw-zu9f",
@@ -198,7 +208,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-hidalgo-payne-arena-11-28-2026/production/6900584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-hidalgo-texas-11-28-2026/event/3A00648CA1E365C8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +251,8 @@
     "ticketmaster_discovery_event_id": "G5dIZ_Fw-zU9F",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7876470/Intocable-tickets-Sat-Nov-28-2026-Payne-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7876470/Intocable-tickets-Sat-Nov-28-2026-Payne-Arena",
+    "genre": "Latin"
   },
   {
     "id": "tm-intocable-2027-chicago-vv178z_pgkrpyrnn",
@@ -259,7 +270,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-chicago-credit-union-1-arena-at-uic-2-20-2027/production/7880682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocabletexicano-tour-2027-chicago-illinois-02-20-2027/event/0400656BE5E5EAAA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -303,7 +314,16 @@
     "timezone": "America/Chicago",
     "status": "announced",
     "public_onsale_at": "2026-11-20T16:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373879/Intocable-tickets-Sat-Feb-20-2027-Credit-Union-1-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373879/Intocable-tickets-Sat-Feb-20-2027-Credit-Union-1-Arena",
+    "ticket_limit": 12,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Presale Offer",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-intocable-2027-duluth-vvg1zz_pwe5ag0",
@@ -321,7 +341,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-duluth-gas-south-arena-2-28-2027/production/7880302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-duluth-georgia-02-28-2027/event/0E00656CA72C9324",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -365,7 +385,30 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373880/Intocable-tickets-Sun-Feb-28-2027-Gas-South-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373880/Intocable-tickets-Sun-Feb-28-2027-Gas-South-Arena",
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-02-22T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-intocable-2027-fresno-g5vyz_pmjs49u",
@@ -383,7 +426,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-fresno-save-mart-center-3-5-2027/production/7881251",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-fresno-california-03-05-2027/event/1C00656DDCC555F6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427,7 +470,19 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-20T18:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373881/Intocable-tickets-Fri-Mar-5-2027-Save-Mart-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373881/Intocable-tickets-Fri-Mar-5-2027-Save-Mart-Center",
+    "organizer_names": [
+      "AMPLIFY ENTERTAINMENT"
+    ],
+    "ticket_limit": 8,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-intocable-2027-inglewood-vv170z_pgkrollqf",
@@ -445,7 +500,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-inglewood-intuit-dome-3-6-2027/production/7881253",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-inglewood-california-03-06-2027/event/0900656BD17DF748",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -489,7 +544,20 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-20T18:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373882/Intocable-tickets-Sat-Mar-6-2027-Intuit-Dome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373882/Intocable-tickets-Sat-Mar-6-2027-Intuit-Dome",
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-intocable-2027-san-jose-g5vyz_pi39fpd",
@@ -507,7 +575,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-san-jose-california-03-19-2027/event/1C00656B125D497B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -551,7 +619,31 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-20T18:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373883/Intocable-tickets-Fri-Mar-19-2027-SAP-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373883/Intocable-tickets-Fri-Mar-19-2027-SAP-Center",
+    "ticket_limit": 12,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "SAP Center Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Sharks365 Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-intocable-2027-miami-vvg1vz_pmzxge8",
@@ -569,7 +661,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-miami-james-knight-center-6-11-2027--concerts-latin-music/production/7880708",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-miami-florida-06-11-2027/event/0D00656BB8F8C9D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -613,7 +705,40 @@
     "timezone": "America/New_York",
     "status": "announced",
     "public_onsale_at": "2026-11-20T15:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373885/Intocable-tickets-Fri-Jun-11-2027-James-L-Knight-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373885/Intocable-tickets-Fri-Jun-11-2027-James-L-Knight-Center",
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "James L. Knight Center Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Mobile App",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-intocable-2027-sacramento-g5vyz_pulkwxh",
@@ -631,7 +756,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-sacramento-golden-1-center-8-28-2027/production/7881269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -675,6 +800,23 @@
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-20T18:00:00Z",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373887/Intocable-tickets-Sat-Aug-28-2027-Golden-1-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373887/Intocable-tickets-Sat-Aug-28-2027-Golden-1-Center",
+    "organizer_names": [
+      "AMPLIFY ENTERTAINMENT"
+    ],
+    "ticket_limit": 8,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      }
+    ]
   }
 ]

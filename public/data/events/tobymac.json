@@ -570,7 +570,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-lafayette-louisiana-01-31-2027/event/1B0064FE94017915",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -609,7 +609,14 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Religious"
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T06:01:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-tampa-vvg1vz_oe_5n5h",
@@ -627,7 +634,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-tampa-benchmark-international-arena-2-4-2027/production/7491804",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-tampa-florida-02-04-2027/event/0D006519D92EA2FC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -690,7 +697,14 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Religious"
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "$25 ALL IN Offer",
+        "start": "2026-11-24T05:01:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-sunrise-z7r9jz1aav8xe",
@@ -1169,7 +1183,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-columbus-nationwide-arena-2-18-2027/production/7491821",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-columbus-ohio-02-18-2027/event/05006518DC7A1551",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1224,7 +1238,14 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Religious"
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "$25 ALL IN",
+        "start": "2026-11-24T05:01:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-norfolk-z7r9jz1aav8r3",

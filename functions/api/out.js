@@ -3940,6 +3940,20 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-intocable",
     redirectUrl: "https://seatgeek.com/intocable-tickets",
     verified: true
+  },
+  "jhene-aiko:ticketmaster": {
+    artistSlug: "jhene-aiko",
+    provider: "ticketmaster",
+    linkId: "tm-artist-jhene-aiko",
+    redirectUrl: "https://www.ticketmaster.com/jhene-aiko-tickets/artist/1790091",
+    verified: true
+  },
+  "jhene-aiko:seatgeek": {
+    artistSlug: "jhene-aiko",
+    provider: "seatgeek",
+    linkId: "sg-artist-jhene-aiko",
+    redirectUrl: "https://seatgeek.com/jhene-aiko-tickets",
+    verified: true
   }
 };
 

@@ -1559,7 +1559,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A7Pf46",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf46",
     "seatgeek_url": "https://seatgeek.com/sylvan-esso-tickets/denver-colorado-ogden-theatre-2027-03-05-9-pm/concert/18299177",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-5-2027--concerts-dance-electronica/production/7144191",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pf46",
     "last_verified_at": "2026-11-07",
@@ -1581,11 +1581,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7144191,
+        "url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-5-2027--concerts-dance-electronica/production/7144191",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2033,7 +2033,7 @@
         "event_id": 7144187,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-salt-lake-city-the-complex---rockwell-3-4-2027--concerts-dance-electronica/production/7144187",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "stubhub": {

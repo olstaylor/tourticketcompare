@@ -2032,7 +2032,7 @@
     "ticketmaster_event_id": "1000656A0D6544BA",
     "ticketmaster_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-hamilton-ontario-04-30-2027/event/1000656A0D6544BA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-hamilton-td-coliseum-4-30-2027--concerts-pop/production/7871099",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-hamilton-ontario-04-30-2027/event/1000656A0D6544BA",
     "last_verified_at": "2026-11-15",
@@ -2054,11 +2054,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7871099,
+        "url": "https://www.vividseats.com/alex-warren-tickets-hamilton-td-coliseum-4-30-2027--concerts-pop/production/7871099",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

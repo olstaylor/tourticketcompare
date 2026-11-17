@@ -972,7 +972,7 @@
     "vividseats_url": "https://www.vividseats.com/sting---gordon-matthew-sumner-tickets-brooklyn-brooklyn-paramount-11-21-2026/production/7620569",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-brooklyn-new-york-11-21-2026/event/00006459059ADBDD",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1034,13 +1034,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-10-02T14:00:00Z",
-        "end": "2026-11-17T17:00:00Z"
-      }
     ],
     "genre": "Rock"
   },

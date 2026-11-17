@@ -815,7 +815,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-toronto-massey-hall---allied-music-centre-11-22-2026--concerts-country-and-folk/production/7132573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/little-big-town-for-the-art-toronto-ontario-11-22-2026/event/100064C3D9B86796",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -867,6 +867,11 @@
         "name": "Preferred Seating Onsale",
         "start": "2026-06-12T14:00:00Z",
         "end": "2026-11-23T02:00:00Z"
+      },
+      {
+        "name": "2for1offer",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-23T01:00:00Z"
       }
     ],
     "genre": "Country"

@@ -1388,7 +1388,7 @@
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hollywood Bowl",
-    "datetime_iso": "2026-11-19T03:30:00Z",
+    "datetime_iso": "2026-11-19T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0B00650ECDC0DD8B",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
@@ -1396,7 +1396,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-18-2026--concerts-pop/production/7446302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1471,7 +1471,7 @@
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hollywood Bowl",
-    "datetime_iso": "2026-11-20T03:30:00Z",
+    "datetime_iso": "2026-11-20T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0B006511309DB401",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
@@ -1479,7 +1479,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1562,7 +1562,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-san-francisco-chase-center-11-21-2026--concerts-pop/production/7446310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-francisco-california-11-21-2026/event/1C00650CD888DAC0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1624,13 +1624,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-san-francisco-tickets-11-21-2026/event/107482394",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-17T20:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"

@@ -1204,7 +1204,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-tampa-benchmark-international-arena-4-12-2027--concerts-pop/production/7870965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-tampa-florida-04-12-2027/event/0D00656BCE45F6B0",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1278,11 +1278,6 @@
         "name": "VIP Package Onsale",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-04-05T21:00:00Z"
-      },
-      {
-        "name": "Public Onsale",
-        "start": "2026-11-20T15:00:00Z",
-        "end": "2027-04-12T23:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369848/Alex-Warren-tickets-Mon-Apr-12-2027-Benchmark-International-Arena"
@@ -1303,7 +1298,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-jacksonville-vystar-veterans-memorial-arena-4-13-2027--concerts-pop/production/7870967",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-jacksonville-florida-04-13-2027/event/2200656CBEED42D7",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1350,7 +1345,6 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticket_limit": 6,
     "genre": "Pop",
     "presales": [
       {
@@ -1963,7 +1957,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-columbus-nationwide-arena-4-28-2027--concerts-pop/production/7870997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-columbus-ohio-04-28-2027/event/0500656BF716315E",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2019,6 +2013,11 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
         "name": "CBJ STH Presale",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -2032,6 +2031,11 @@
         "name": "Venue Presale",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-21T21:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369861/Alex-Warren-tickets-Wed-Apr-28-2027-Nationwide-Arena"

@@ -155,7 +155,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-elizabeth-ritz-theatre---nj-11-28-2026/production/7063215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-tapy-quintero-elizabeth-new-jersey-11-28-2026/event/000064AC0DD26DD0",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -207,7 +207,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8109393",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8109393/Los-Tucanes-De-Tijuana-tickets-Sat-Nov-28-2026-Ritz-Theatre-NJ",
-    "genre": "Latin"
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "BLACK FRIDAY OFFER",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-23T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav",

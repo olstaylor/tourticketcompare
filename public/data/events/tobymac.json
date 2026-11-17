@@ -881,7 +881,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-estero-hertz-arena-2-7-2027/production/7491829",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-estero-florida-02-07-2027/event/0D006518CDC6A6D0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -944,7 +944,14 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Religious"
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "$25 All In Offer",
+        "start": "2026-11-24T05:01:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tobymac-2027-pensacola-g5viz_o9zokbz",
@@ -1934,7 +1941,7 @@
     "vividseats_url": "https://www.vividseats.com/tobymac-tickets-austin-moody-center-atx-3-11-2027/production/7491794",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tobymac-with-jeremy-camp-seph-schlueter-austin-texas-03-11-2027/event/3A006519DF89EF83",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1999,6 +2006,11 @@
         "name": "Group Offer",
         "start": "2026-09-21T05:01:00Z",
         "end": "2027-03-12T01:00:00Z"
+      },
+      {
+        "name": "$25 ALL IN Offer",
+        "start": "2026-11-24T06:01:00Z",
+        "end": "2026-12-01T05:59:00Z"
       }
     ],
     "organizer_names": [

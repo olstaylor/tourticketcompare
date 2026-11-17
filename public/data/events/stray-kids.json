@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-seattle-lumen-field-5-16-2027/production/7832789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-seattle-washington-05-16-2027/event/0F00656215B2C500",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -85,9 +85,24 @@
         "end": "2026-11-18T22:00:00Z"
       },
       {
+        "name": "STAY Membership Presale VIP Packages",
+        "start": "2026-11-18T19:00:00Z",
+        "end": "2026-11-18T22:00:00Z"
+      },
+      {
         "name": "Artist Presale",
         "start": "2026-11-18T23:00:00Z",
         "end": "2026-11-19T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale VIP Packages",
+        "start": "2026-11-18T23:00:00Z",
+        "end": "2026-11-19T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-19T23:00:00Z",
+        "end": "2027-05-12T19:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361510/Stray-Kids-tickets-Sun-May-16-2027-Lumen-Field",
@@ -179,11 +194,6 @@
         "name": "STAY Membership Presale VIP Package",
         "start": "2026-11-18T18:00:00Z",
         "end": "2026-11-18T21:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T22:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
       },
       {
         "name": "Artist Presale VIP Package",
@@ -660,7 +670,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-atlanta-mercedes-benz-stadium-6-8-2027/production/7832811",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-atlanta-georgia-06-08-2027/event/0E006566C0752D44",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -746,7 +756,8 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361516/Stray-Kids-tickets-Tue-Jun-8-2027-Mercedes-Benz-Stadium",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361516",
-    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301"
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301",
+    "ticket_limit": 4
   },
   {
     "id": "tm-stray-kids-2027-miami-vvg1vz_ppnraxv",

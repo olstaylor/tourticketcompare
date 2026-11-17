@@ -796,7 +796,7 @@
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-san-jose-san-jose-civic-11-21-2026--concerts-rap-hip-hop/production/7079523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-san-jose-california-11-21-2026/event/1C0064ACCB0A6B9B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -849,13 +849,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997057/Arcangel-tickets-Sat-Nov-21-2026-San-Jose-Civic",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP PACKAGES ONSALE",
-        "start": "2026-05-28T17:00:00Z",
-        "end": "2026-11-17T20:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997057",
     "ticket_limit": 6,

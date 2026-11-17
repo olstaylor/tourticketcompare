@@ -1865,7 +1865,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "0C0064EA95AC5937",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-fort-worth-texas-12-16-2026/event/0C0064EA95AC5937",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/fort-worth-texas-ariat-arena-2026-12-16-7-pm/concert/18427230",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-fort-worth-texas-12-16-2026/event/0C0064EA95AC5937",
@@ -1881,11 +1881,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427230,
+        "url": "https://seatgeek.com/pentatonix-tickets/fort-worth-texas-ariat-arena-2026-12-16-7-pm/concert/18427230",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2042,7 +2042,7 @@
         "event_id": 18427231,
         "url": "https://seatgeek.com/pentatonix-tickets/glendale-arizona-desert-diamond-arena-2026-12-19-7-pm/concert/18427231",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2131,7 +2131,7 @@
         "event_id": 18427232,
         "url": "https://seatgeek.com/pentatonix-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-20-6-pm/concert/18427232",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {

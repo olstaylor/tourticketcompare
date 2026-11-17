@@ -698,7 +698,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0700652515D2AF74",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-16-7-30-pm/concert/18579773",
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-milwaukee-landmark-credit-union-live-11-16-2026--concerts-pop/production/7540285",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-milwaukee-wisconsin-11-16-2026/event/0700652515D2AF74",
@@ -714,11 +714,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579773,
+        "url": "https://seatgeek.com/victoria-monet-tickets/milwaukee-wisconsin-landmark-credit-union-live-2026-11-16-7-30-pm/concert/18579773",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540285,
@@ -1598,7 +1598,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1700652423795D4D",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-12-09-8-pm/concert/18579792",
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-las-vegas-fontainebleau-las-vegas-12-9-2026/production/7540359",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
@@ -1614,11 +1614,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579792,
+        "url": "https://seatgeek.com/victoria-monet-tickets/las-vegas-nevada-fontainebleau-at-liv-las-vegas-2026-12-09-8-pm/concert/18579792",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540359,
@@ -1679,7 +1679,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006524EE2CF2AD",
     "ticketmaster_url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-vancouver-british-columbia-12-12-2026/event/11006524EE2CF2AD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-12-12-8-pm/concert/18579802",
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-vancouver-doug-mitchell-thunderbird-sports-centre-12-12-2026/production/7540317",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/victoria-monet-frequency-of-love-tour-vancouver-british-columbia-12-12-2026/event/11006524EE2CF2AD",
@@ -1695,11 +1695,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579802,
+        "url": "https://seatgeek.com/victoria-monet-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-12-12-8-pm/concert/18579802",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540317,

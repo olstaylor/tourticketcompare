@@ -739,7 +739,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "110065638EDD3D60",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-vancouver-british-columbia-09-23-2027/event/110065638EDD3D60",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/vancouver-canada-malkin-bowl-2027-09-23-6-pm/concert/18754369",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-vancouver-british-columbia-09-23-2027/event/110065638EDD3D60",
@@ -755,11 +755,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754369,
+        "url": "https://seatgeek.com/the-dead-south-tickets/vancouver-canada-malkin-bowl-2027-09-23-6-pm/concert/18754369",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -835,7 +835,7 @@
         "event_id": 18754318,
         "url": "https://seatgeek.com/the-dead-south-tickets/kelowna-canada-prospera-place-2027-09-24-8-pm/concert/18754318",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7x9Gp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9Gp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/sugar-land-texas-smart-financial-centre-2026-11-21-8-pm/concert/18191936",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7x9Gp",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18191936,
+        "url": "https://seatgeek.com/intocable-tickets/sugar-land-texas-smart-financial-centre-2026-11-21-8-pm/concert/18191936",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -186,11 +186,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18176203,
+        "url": "https://seatgeek.com/intocable-tickets/hidalgo-texas-payne-arena-2026-11-28-8-pm/concert/18176203",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -1670,7 +1670,7 @@
         "event_id": 18674913,
         "url": "https://seatgeek.com/calvin-harris-tickets/toronto-canada-scotiabank-arena-2027-04-12-8-pm/concert/18674913",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1890,7 +1890,7 @@
         "event_id": 18674838,
         "url": "https://seatgeek.com/calvin-harris-tickets/houston-texas-toyota-center-2027-04-23-8-pm/concert/18674838",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2149,7 +2149,7 @@
         "event_id": 18665651,
         "url": "https://seatgeek.com/calvin-harris-tickets/saint-paul-minnesota-grand-casino-arena-2027-04-29-8-pm/concert/18665651",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2408,7 +2408,7 @@
         "event_id": 18659029,
         "url": "https://seatgeek.com/calvin-harris-tickets/salt-lake-city-utah-delta-center-1-2027-05-05-8-pm/concert/18659029",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3156,7 +3156,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A0065469F60976A",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-21-2027/event/0A0065469F60976A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-05-21-7-pm/concert/18674853",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-21-2027/event/0A0065469F60976A",
@@ -3172,11 +3172,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674853,
+        "url": "https://seatgeek.com/calvin-harris-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-05-21-7-pm/concert/18674853",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3237,7 +3237,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A006550FA06EF7A",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-22-2027/event/0A006550FA06EF7A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-05-22-7-pm/concert/18702242",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-22-2027/event/0A006550FA06EF7A",
@@ -3253,11 +3253,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702242,
+        "url": "https://seatgeek.com/calvin-harris-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-05-22-7-pm/concert/18702242",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3318,7 +3318,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A006552D8618846",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-23-2027/event/0A006552D8618846",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-05-23-7-pm/concert/18702292",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-san-diego-california-05-23-2027/event/0A006552D8618846",
@@ -3334,11 +3334,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702292,
+        "url": "https://seatgeek.com/calvin-harris-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-05-23-7-pm/concert/18702292",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

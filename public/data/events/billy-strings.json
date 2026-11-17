@@ -160,7 +160,7 @@
         "event_id": 18167418,
         "url": "https://seatgeek.com/billy-strings-tickets/new-orleans-louisiana-saenger-theatre-new-orleans-2026-12-04-7-30-pm/concert/18167418",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -370,7 +370,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00647BAD4B9754",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/fort-worth-texas-ariat-arena-2026-12-11-7-30-pm/concert/18155652",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-fort-worth-texas-12-11-2026/event/0C00647BAD4B9754",
@@ -386,11 +386,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18155652,
+        "url": "https://seatgeek.com/billy-strings-tickets/fort-worth-texas-ariat-arena-2026-12-11-7-30-pm/concert/18155652",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1610,7 +1610,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006569B9E59501",
     "ticketmaster_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/greensboro-north-carolina-first-horizon-coliseum-2027-04-24-7-30-pm/concert/18755196",
     "vividseats_url": "https://www.vividseats.com/billy-strings-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-4-24-2027--concerts-country-and-folk/production/7841929",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/billy-strings-greensboro-north-carolina-04-24-2027/event/2D006569B9E59501",
@@ -1626,11 +1626,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755196,
+        "url": "https://seatgeek.com/billy-strings-tickets/greensboro-north-carolina-first-horizon-coliseum-2027-04-24-7-30-pm/concert/18755196",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841929,

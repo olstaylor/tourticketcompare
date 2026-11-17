@@ -100,7 +100,7 @@
         "event_id": 18421955,
         "url": "https://seatgeek.com/lord-huron-tickets/cincinnati-ohio-andrew-j-brady-music-center-2026-12-02-8-pm/concert/18421955",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -220,7 +220,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "080064FCD861B592",
     "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-grand-rapids-michigan-12-06-2026/event/080064FCD861B592",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/lord-huron-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2026-12-06-8-pm/concert/18421960",
     "vividseats_url": "https://www.vividseats.com/lord-huron-tickets-grand-rapids-glc-live-at-20-monroe-12-6-2026--concerts-country-and-folk/production/7382340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-lord-huron-grand-rapids-michigan-12-06-2026/event/080064FCD861B592",
@@ -236,11 +236,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421960,
+        "url": "https://seatgeek.com/lord-huron-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2026-12-06-8-pm/concert/18421960",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382340,
@@ -319,7 +319,7 @@
         "event_id": 18421958,
         "url": "https://seatgeek.com/lord-huron-tickets/chicago-illinois-the-chicago-theatre-2026-12-08-8-pm/concert/18421958",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -412,7 +412,7 @@
         "event_id": 18421967,
         "url": "https://seatgeek.com/lord-huron-tickets/chicago-illinois-the-chicago-theatre-2026-12-09-8-pm/concert/18421967",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-17",
         "availability_status": "listed"
       },
       "vivid-seats": {

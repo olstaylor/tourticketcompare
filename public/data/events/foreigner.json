@@ -1351,5 +1351,221 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock"
+  },
+  {
+    "id": "tm-foreigner-2027-uncasville-g5vvz_pubgaoy",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner: Celebrating Fifty Years",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2027-05-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D00656DBAD45470",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-uncasville-connecticut-05-01-2027/event/1D00656DBAD45470",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-uncasville-connecticut-05-01-2027/event/1D00656DBAD45470",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D00656DBAD45470",
+        "discovery_event_id": "G5vVZ_pUBgAoY",
+        "url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-uncasville-connecticut-05-01-2027/event/1D00656DBAD45470",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_pUBgAoY",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-foreigner-2027-bangor-vv177z_pgkzwgr47",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "FOREIGNER - Classic Rock meets Yacht Rock with Yachtley Crew",
+    "city": "Bangor",
+    "country": "United States Of America",
+    "venue": "Maine Savings Amphitheater",
+    "datetime_iso": "2027-07-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100656E32D5E544",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bangor-maine-07-16-2027/event/0100656E32D5E544",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bangor-maine-07-16-2027/event/0100656E32D5E544",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656E32D5E544",
+        "discovery_event_id": "vv177Z_pGkzwgr47",
+        "url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bangor-maine-07-16-2027/event/0100656E32D5E544",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkzwgr47",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-foreigner-2027-gilford-vv177z_pgkichxsp",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "FOREIGNER - Classic Rock meets Yacht Rock with Yachtley Crew",
+    "city": "Gilford",
+    "country": "United States Of America",
+    "venue": "BankNH Pavilion",
+    "datetime_iso": "2027-07-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100656B2DF3EC65",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-gilford-new-hampshire-07-17-2027/event/0100656B2DF3EC65",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-gilford-new-hampshire-07-17-2027/event/0100656B2DF3EC65",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656B2DF3EC65",
+        "discovery_event_id": "vv177Z_pGkicHXsP",
+        "url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-gilford-new-hampshire-07-17-2027/event/0100656B2DF3EC65",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkicHXsP",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-foreigner-2027-bethel-k7vgf_ps6zwby",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "FOREIGNER - Classic Rock meets Yacht Rock with Yachtley Crew",
+    "city": "Bethel",
+    "country": "United States Of America",
+    "venue": "Bethel Woods Center for the Arts",
+    "datetime_iso": "2027-07-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000656CC7032639",
+    "ticketmaster_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bethel-new-york-07-18-2027/event/0000656CC7032639",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bethel-new-york-07-18-2027/event/0000656CC7032639",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000656CC7032639",
+        "discovery_event_id": "k7vGF_pS6Zwby",
+        "url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bethel-new-york-07-18-2027/event/0000656CC7032639",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pS6Zwby",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
   }
 ]

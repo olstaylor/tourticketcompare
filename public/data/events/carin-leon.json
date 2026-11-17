@@ -319,5 +319,59 @@
     ],
     "ticket_limit": 8,
     "genre": "Latin"
+  },
+  {
+    "id": "tm-carin-leon-2027-sparks-1avjz_pgkrt9h7o",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carín León",
+    "city": "Sparks",
+    "country": "United States Of America",
+    "venue": "Nugget Event Center",
+    "datetime_iso": "2027-04-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700656BE95DB111",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-sparks-nevada-04-24-2027/event/1700656BE95DB111",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-sparks-nevada-04-24-2027/event/1700656BE95DB111",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700656BE95DB111",
+        "discovery_event_id": "1AvjZ_pGkRt9h7o",
+        "url": "https://www.ticketmaster.com/carin-leon-sparks-nevada-04-24-2027/event/1700656BE95DB111",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_pGkRt9h7o",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
   }
 ]

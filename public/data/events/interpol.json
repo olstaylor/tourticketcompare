@@ -1039,5 +1039,59 @@
     "stubhub_international_url": "https://www.stubhub.ie/interpol-tickets-london-british-airways-arc-4-12-2026/event/107679708",
     "ticket_limit": 6,
     "genre": "Rock"
+  },
+  {
+    "id": "tm-interpol-2027-los-angeles-vvg1iz_pmocxuu",
+    "artist_slug": "interpol",
+    "artist_name": "Interpol",
+    "event_name": "Interpol - North America Tour 2027",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "BMO Stadium",
+    "datetime_iso": "2027-05-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A00656DD13BEDB6",
+    "ticketmaster_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-los-angeles-california-05-14-2027/event/0A00656DD13BEDB6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-los-angeles-california-05-14-2027/event/0A00656DD13BEDB6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00656DD13BEDB6",
+        "discovery_event_id": "vvG1IZ_pMoCXUU",
+        "url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-los-angeles-california-05-14-2027/event/0A00656DD13BEDB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_pMoCXUU",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
   }
 ]

@@ -768,5 +768,1949 @@
       "Oslo Spektrum AS (ATLNO)"
     ],
     "genre": "Alternative"
+  },
+  {
+    "id": "tm-megadeth-2027-albuquerque-g5vzz_pwxigv1",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "First Financial Credit Union Amphitheater",
+    "datetime_iso": "2027-05-15T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00656CA2B3504A",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-albuquerque-new-mexico-05-14-2027/event/1E00656CA2B3504A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-albuquerque-new-mexico-05-14-2027/event/1E00656CA2B3504A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00656CA2B3504A",
+        "discovery_event_id": "G5vzZ_pwxigv1",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-albuquerque-new-mexico-05-14-2027/event/1E00656CA2B3504A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pwxigv1",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T17:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-phoenix-1av0z_pgknttpbb",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Talking Stick Resort Amphitheatre",
+    "datetime_iso": "2027-05-16T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900656AA9FD663A",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-phoenix-arizona-05-15-2027/event/1900656AA9FD663A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-phoenix-arizona-05-15-2027/event/1900656AA9FD663A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656AA9FD663A",
+        "discovery_event_id": "1Av0Z_pGkntTpbB",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-phoenix-arizona-05-15-2027/event/1900656AA9FD663A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkntTpbB",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T17:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-chula-vista-vvg1iz_pjb5pwc",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Chula Vista",
+    "country": "United States Of America",
+    "venue": "North Island Credit Union Amphitheatre",
+    "datetime_iso": "2027-05-19T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A006569BA2D6CAD",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-chula-vista-california-05-18-2027/event/0A006569BA2D6CAD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-chula-vista-california-05-18-2027/event/0A006569BA2D6CAD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006569BA2D6CAD",
+        "discovery_event_id": "vvG1IZ_pJB5pwc",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-chula-vista-california-05-18-2027/event/0A006569BA2D6CAD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_pJB5pwc",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-inglewood-vv16azk4ev7zauakk1",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Kia Forum",
+    "datetime_iso": "2027-05-20T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "09006567044C4559",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-inglewood-california-05-19-2027/event/09006567044C4559",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-inglewood-california-05-19-2027/event/09006567044C4559",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "09006567044C4559",
+        "discovery_event_id": "vv16aZk4Ev7ZAuAkk1",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-inglewood-california-05-19-2027/event/09006567044C4559",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv16aZk4Ev7ZAuAkk1",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-ridgefield-vvg1hz_pj4m0zq",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Ridgefield",
+    "country": "United States Of America",
+    "venue": "Cascades Amphitheater",
+    "datetime_iso": "2027-05-22T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00656995BA4E1D",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-ridgefield-washington-05-21-2027/event/0F00656995BA4E1D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-ridgefield-washington-05-21-2027/event/0F00656995BA4E1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00656995BA4E1D",
+        "discovery_event_id": "vvG1HZ_pJ4m0zq",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-ridgefield-washington-05-21-2027/event/0F00656995BA4E1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_pJ4m0zq",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-auburn-vvg1hz_ph-ktdl",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Auburn",
+    "country": "United States Of America",
+    "venue": "White River Amphitheatre",
+    "datetime_iso": "2027-05-23T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006566E14E9EDF",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-auburn-washington-05-22-2027/event/0F006566E14E9EDF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-auburn-washington-05-22-2027/event/0F006566E14E9EDF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006566E14E9EDF",
+        "discovery_event_id": "vvG1HZ_ph-KtDL",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-auburn-washington-05-22-2027/event/0F006566E14E9EDF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_ph-KtDL",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-west-valley-city-g5vzz_pjgpffk",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "West Valley City",
+    "country": "United States Of America",
+    "venue": "Utah First Credit Union Amphitheatre",
+    "datetime_iso": "2027-05-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006569B5954513",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-west-valley-city-utah-05-24-2027/event/1E006569B5954513",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-west-valley-city-utah-05-24-2027/event/1E006569B5954513",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006569B5954513",
+        "discovery_event_id": "G5vzZ_pJgPffK",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-west-valley-city-utah-05-24-2027/event/1E006569B5954513",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pJgPffK",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T17:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-tinley-park-vv1a7zk4tgkdt6btl",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Tinley Park",
+    "country": "United States Of America",
+    "venue": "Credit Union 1 Amphitheatre",
+    "datetime_iso": "2027-05-29T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006569E91D8A6B",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-tinley-park-illinois-05-28-2027/event/04006569E91D8A6B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-tinley-park-illinois-05-28-2027/event/04006569E91D8A6B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006569E91D8A6B",
+        "discovery_event_id": "vv1A7Zk4tGkdt6btl",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-tinley-park-illinois-05-28-2027/event/04006569E91D8A6B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zk4tGkdt6btl",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-shakopee-1ae7z_pgkcukysu",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Shakopee",
+    "country": "United States Of America",
+    "venue": "Mystic Lake Amphitheater",
+    "datetime_iso": "2027-05-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100656B761B0CF6",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-shakopee-minnesota-05-29-2027/event/2100656B761B0CF6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-shakopee-minnesota-05-29-2027/event/2100656B761B0CF6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100656B761B0CF6",
+        "discovery_event_id": "1Ae7Z_pGkcUkYSU",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-shakopee-minnesota-05-29-2027/event/2100656B761B0CF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_pGkcUkYSU",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-kansas-city-1ae7z_pgki7igc3",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Morton Amphitheater",
+    "datetime_iso": "2027-06-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2100656B04A35B52",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-kansas-city-missouri-05-31-2027/event/2100656B04A35B52",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-kansas-city-missouri-05-31-2027/event/2100656B04A35B52",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2100656B04A35B52",
+        "discovery_event_id": "1Ae7Z_pGki7Igc3",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-kansas-city-missouri-05-31-2027/event/2100656B04A35B52",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ae7Z_pGki7Igc3",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-grand-rapids-vv17oz_pgkmgtnqb",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Acrisure Amphitheater",
+    "datetime_iso": "2027-06-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800656B8CA63758",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-grand-rapids-michigan-06-02-2027/event/0800656B8CA63758",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-grand-rapids-michigan-06-02-2027/event/0800656B8CA63758",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656B8CA63758",
+        "discovery_event_id": "vv17OZ_pGkmGtNqb",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-grand-rapids-michigan-06-02-2027/event/0800656B8CA63758",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_pGkmGtNqb",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-clarkston-vv17oz_pgks8s9m3",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Clarkston",
+    "country": "United States Of America",
+    "venue": "Pine Knob Music Theatre",
+    "datetime_iso": "2027-06-04T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800656CD0CD7B92",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-clarkston-michigan-06-04-2027/event/0800656CD0CD7B92",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-clarkston-michigan-06-04-2027/event/0800656CD0CD7B92",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656CD0CD7B92",
+        "discovery_event_id": "vv17OZ_pGkS8S9m3",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-clarkston-michigan-06-04-2027/event/0800656CD0CD7B92",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_pGkS8S9m3",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-cincinnati-1avbz_pgkn_24l6",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Riverbend Music Center",
+    "datetime_iso": "2027-06-05T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600656A993D57C7",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-cincinnati-ohio-06-05-2027/event/1600656A993D57C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-cincinnati-ohio-06-05-2027/event/1600656A993D57C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656A993D57C7",
+        "discovery_event_id": "1AvbZ_pGkn_24L6",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-cincinnati-ohio-06-05-2027/event/1600656A993D57C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_pGkn_24L6",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-burgettstown-1avbz_pgkwkmpmi",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Burgettstown",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Star Lake",
+    "datetime_iso": "2027-06-07T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600656C93DD6BA8",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-burgettstown-pennsylvania-06-07-2027/event/1600656C93DD6BA8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-burgettstown-pennsylvania-06-07-2027/event/1600656C93DD6BA8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656C93DD6BA8",
+        "discovery_event_id": "1AvbZ_pGkwKMpmI",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-burgettstown-pennsylvania-06-07-2027/event/1600656C93DD6BA8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_pGkwKMpmI",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-bristow-1avfz_pgknmlaeb",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Bristow",
+    "country": "United States Of America",
+    "venue": "Jiffy Lube Live",
+    "datetime_iso": "2027-06-08T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500656AAEAC9098",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-bristow-virginia-06-08-2027/event/1500656AAEAC9098",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-bristow-virginia-06-08-2027/event/1500656AAEAC9098",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500656AAEAC9098",
+        "discovery_event_id": "1AvfZ_pGknmlaeb",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-bristow-virginia-06-08-2027/event/1500656AAEAC9098",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_pGknmlaeb",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-toronto-1avzz_pgksfsdba",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "RBC Amphitheatre",
+    "datetime_iso": "2027-06-10T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000656CC8C7BE89",
+    "ticketmaster_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-toronto-ontario-06-10-2027/event/1000656CC8C7BE89",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-toronto-ontario-06-10-2027/event/1000656CC8C7BE89",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656CC8C7BE89",
+        "discovery_event_id": "1AvZZ_pGkSFsDBa",
+        "url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-toronto-ontario-06-10-2027/event/1000656CC8C7BE89",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_pGkSFsDBa",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-mansfield-vv177z_pgkmjh1ou",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Mansfield",
+    "country": "United States Of America",
+    "venue": "Xfinity Center",
+    "datetime_iso": "2027-06-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100656BA6F0A44D",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-mansfield-massachusetts-06-12-2027/event/0100656BA6F0A44D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-mansfield-massachusetts-06-12-2027/event/0100656BA6F0A44D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656BA6F0A44D",
+        "discovery_event_id": "vv177Z_pGkmJH1ou",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-mansfield-massachusetts-06-12-2027/event/0100656BA6F0A44D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkmJH1ou",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-camden-vv17fz_pgkmjnhj7",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Camden",
+    "country": "United States Of America",
+    "venue": "Freedom Mortgage Pavilion",
+    "datetime_iso": "2027-06-13T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200656BA6ABC704",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-camden-new-jersey-06-13-2027/event/0200656BA6ABC704",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-camden-new-jersey-06-13-2027/event/0200656BA6ABC704",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200656BA6ABC704",
+        "discovery_event_id": "vv17FZ_pGkmJnHj7",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-camden-new-jersey-06-13-2027/event/0200656BA6ABC704",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_pGkmJnHj7",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-new-york-g5diz_prtfsjt",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Madison Square Garden",
+    "datetime_iso": "2027-06-15T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3B006567BF23373F",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-new-york-new-york-06-15-2027/event/3B006567BF23373F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-new-york-new-york-06-15-2027/event/3B006567BF23373F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3B006567BF23373F",
+        "discovery_event_id": "G5diZ_prTFSjT",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-new-york-new-york-06-15-2027/event/3B006567BF23373F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5diZ_prTFSjT",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-charlotte-g5evz_pjm1iz7",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Truliant Amphitheater",
+    "datetime_iso": "2027-06-17T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006569AE2A8004",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-charlotte-north-carolina-06-17-2027/event/2D006569AE2A8004",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-charlotte-north-carolina-06-17-2027/event/2D006569AE2A8004",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006569AE2A8004",
+        "discovery_event_id": "G5eVZ_pJm1IZ7",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-charlotte-north-carolina-06-17-2027/event/2D006569AE2A8004",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pJm1IZ7",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-alpharetta-vvg1zz_pnf8blb",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Alpharetta",
+    "country": "United States Of America",
+    "venue": "Ameris Bank Amphitheatre",
+    "datetime_iso": "2027-06-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00656A9443AAD8",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-alpharetta-georgia-06-18-2027/event/0E00656A9443AAD8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-alpharetta-georgia-06-18-2027/event/0E00656A9443AAD8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00656A9443AAD8",
+        "discovery_event_id": "vvG1zZ_pnf8Blb",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-alpharetta-georgia-06-18-2027/event/0E00656A9443AAD8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_pnf8Blb",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-the-woodlands-g5diz_penjw6e",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "The Woodlands",
+    "country": "United States Of America",
+    "venue": "The Cynthia Woods Mitchell Pavilion sponsored by Huntsman",
+    "datetime_iso": "2027-06-21T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006569E373D1C2",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-the-woodlands-texas-06-20-2027/event/3A006569E373D1C2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-the-woodlands-texas-06-20-2027/event/3A006569E373D1C2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006569E373D1C2",
+        "discovery_event_id": "G5dIZ_pENjW6e",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-the-woodlands-texas-06-20-2027/event/3A006569E373D1C2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pENjW6e",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-irving-vvg1yz_psnfnkd",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-06-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00656CE352A4C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-irving-texas-06-22-2027/event/0C00656CE352A4C3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-irving-texas-06-22-2027/event/0C00656CE352A4C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00656CE352A4C3",
+        "discovery_event_id": "vvG1YZ_pSNfnKd",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-irving-texas-06-22-2027/event/0C00656CE352A4C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_pSNfnKd",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-austin-g5diz_pevm_m_",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Germania Insurance Amphitheater",
+    "datetime_iso": "2027-06-23T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006569C1DD9B99",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-austin-texas-06-23-2027/event/3A006569C1DD9B99",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-austin-texas-06-23-2027/event/3A006569C1DD9B99",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006569C1DD9B99",
+        "discovery_event_id": "G5dIZ_pEvM_m_",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-austin-texas-06-23-2027/event/3A006569C1DD9B99",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pEvM_m_",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-north-little-rock-g5viz_pnjetpo",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "North Little Rock",
+    "country": "United States Of America",
+    "venue": "Simmons Bank Arena",
+    "datetime_iso": "2027-09-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656A9C0A95A0",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-north-little-rock-arkansas-09-06-2027/event/1B00656A9C0A95A0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-north-little-rock-arkansas-09-06-2027/event/1B00656A9C0A95A0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656A9C0A95A0",
+        "discovery_event_id": "G5viZ_pnjetpO",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-north-little-rock-arkansas-09-06-2027/event/1B00656A9C0A95A0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pnjetpO",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-biloxi-g5viz_plz_cl1",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Biloxi",
+    "country": "United States Of America",
+    "venue": "Mississippi Coast Coliseum",
+    "datetime_iso": "2027-09-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656AC066DACA",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-biloxi-mississippi-09-07-2027/event/1B00656AC066DACA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-biloxi-mississippi-09-07-2027/event/1B00656AC066DACA",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656AC066DACA",
+        "discovery_event_id": "G5viZ_plZ_cl1",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-biloxi-mississippi-09-07-2027/event/1B00656AC066DACA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_plZ_cl1",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-virginia-beach-vv177z_pgkl4llwn",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Virginia Beach",
+    "country": "United States Of America",
+    "venue": "Veterans United Home Loans Amphitheater at Virginia Beach",
+    "datetime_iso": "2027-09-11T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100656AD57DFCA3",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-virginia-beach-virginia-09-11-2027/event/0100656AD57DFCA3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-virginia-beach-virginia-09-11-2027/event/0100656AD57DFCA3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656AD57DFCA3",
+        "discovery_event_id": "vv177Z_pGkl4LLwN",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-virginia-beach-virginia-09-11-2027/event/0100656AD57DFCA3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkl4LLwN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-allentown-1adzz_pgkmxuggq",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Allentown",
+    "country": "United States Of America",
+    "venue": "PPL Center",
+    "datetime_iso": "2027-09-12T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000656BA2DB5D5D",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-allentown-pennsylvania-09-12-2027/event/3000656BA2DB5D5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-allentown-pennsylvania-09-12-2027/event/3000656BA2DB5D5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000656BA2DB5D5D",
+        "discovery_event_id": "1AdZZ_pGkmxUggq",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-allentown-pennsylvania-09-12-2027/event/3000656BA2DB5D5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_pGkmxUggq",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-laval-1ad7z_pgkmil4lx",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Laval",
+    "country": "Canada",
+    "venue": "Place Bell",
+    "datetime_iso": "2027-09-14T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3100656BACAD57FE",
+    "ticketmaster_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-laval-quebec-09-14-2027/event/3100656BACAD57FE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-laval-quebec-09-14-2027/event/3100656BACAD57FE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3100656BACAD57FE",
+        "discovery_event_id": "1Ad7Z_pGkmil4LX",
+        "url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-laval-quebec-09-14-2027/event/3100656BACAD57FE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Ad7Z_pGkmil4LX",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-buffalo-k7vgf_pr36-mz",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2027-09-16T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000656BD21E1BB8",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-buffalo-new-york-09-16-2027/event/0000656BD21E1BB8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-buffalo-new-york-09-16-2027/event/0000656BD21E1BB8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000656BD21E1BB8",
+        "discovery_event_id": "k7vGF_pR36-mz",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-buffalo-new-york-09-16-2027/event/0000656BD21E1BB8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pR36-mz",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-toledo-vv1afzk4tgkdzzv33",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Toledo",
+    "country": "United States Of America",
+    "venue": "Huntington Center",
+    "datetime_iso": "2027-09-18T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006569C0034492",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-toledo-ohio-09-18-2027/event/08006569C0034492",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-toledo-ohio-09-18-2027/event/08006569C0034492",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006569C0034492",
+        "discovery_event_id": "vv1AFZk4tGkdZZV33",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-toledo-ohio-09-18-2027/event/08006569C0034492",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk4tGkdZZV33",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-columbus-vv17fz_pgksfzclm",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2027-09-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500656CC800E7EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-columbus-ohio-09-19-2027/event/0500656CC800E7EE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-columbus-ohio-09-19-2027/event/0500656CC800E7EE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656CC800E7EE",
+        "discovery_event_id": "vv17fZ_pGkSFZCLm",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-columbus-ohio-09-19-2027/event/0500656CC800E7EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_pGkSFZCLm",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-milwaukee-vv17jz_pgkrcmzyk",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "BMO Pavilion",
+    "datetime_iso": "2027-09-21T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700656BCEBB8E46",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-milwaukee-wisconsin-09-21-2027/event/0700656BCEBB8E46",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-milwaukee-wisconsin-09-21-2027/event/0700656BCEBB8E46",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700656BCEBB8E46",
+        "discovery_event_id": "vv17jZ_pGkRCmzyk",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-milwaukee-wisconsin-09-21-2027/event/0700656BCEBB8E46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_pGkRCmzyk",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-fargo-vv1kvovpq_ga53kds",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Fargo",
+    "country": "United States Of America",
+    "venue": "Fargodome",
+    "datetime_iso": "2027-09-23T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "060065699B4860F3",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-fargo-north-dakota-09-22-2027/event/060065699B4860F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-fargo-north-dakota-09-22-2027/event/060065699B4860F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065699B4860F3",
+        "discovery_event_id": "vv1kvOvPQ_GA53kdS",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-fargo-north-dakota-09-22-2027/event/060065699B4860F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvPQ_GA53kdS",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-lincoln-vv17bz_pgkmwzqwq",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "Pinnacle Bank Arena",
+    "datetime_iso": "2027-09-25T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656BBD01AC9A",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-lincoln-nebraska-09-24-2027/event/0600656BBD01AC9A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-lincoln-nebraska-09-24-2027/event/0600656BBD01AC9A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656BBD01AC9A",
+        "discovery_event_id": "vv17bZ_pGkmWZQwQ",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-lincoln-nebraska-09-24-2027/event/0600656BBD01AC9A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkmWZQwQ",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-megadeth-2027-wichita-vv17bz_pgkr9vwea",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Wichita",
+    "country": "United States Of America",
+    "venue": "INTRUST Bank Arena",
+    "datetime_iso": "2027-09-26T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656BD7D3D9C5",
+    "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-wichita-kansas-09-25-2027/event/0600656BD7D3D9C5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-wichita-kansas-09-25-2027/event/0600656BD7D3D9C5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656BD7D3D9C5",
+        "discovery_event_id": "vv17bZ_pGkR9VWEA",
+        "url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-wichita-kansas-09-25-2027/event/0600656BD7D3D9C5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkR9VWEA",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
   }
 ]

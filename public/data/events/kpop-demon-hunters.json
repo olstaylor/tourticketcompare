@@ -2471,5 +2471,59 @@
     "status": "announced",
     "public_onsale_at": "2026-11-20T10:00:00Z",
     "genre": "Children's Music"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-manchester-g5vhz_prka4i0",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2027-10-19T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00656BD3155B24",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-manchester-19-10-2027/event/1F00656BD3155B24",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-manchester-19-10-2027/event/1F00656BD3155B24",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00656BD3155B24",
+        "discovery_event_id": "G5vHZ_pRKA4i0",
+        "url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-manchester-19-10-2027/event/1F00656BD3155B24",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_pRKA4i0",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
   }
 ]

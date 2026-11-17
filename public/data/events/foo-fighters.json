@@ -620,6 +620,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8372601",
+        "url": "https://www.ticketliquidator.com/tickets/8372601/Foo-Fighters-tickets-Thu-Sep-9-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_pGknYaOWD",
@@ -647,7 +654,8 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372601/Foo-Fighters-tickets-Thu-Sep-9-2027-Wembley-Stadium"
   },
   {
     "id": "tm-foo-fighters-2027-london-1aegz_pgky5a3fo",
@@ -696,6 +704,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8372602",
+        "url": "https://www.ticketliquidator.com/tickets/8372602/Foo-Fighters-tickets-Sat-Sep-11-2027-Wembley-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_pGkY5a3fo",
@@ -723,7 +738,8 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372602/Foo-Fighters-tickets-Sat-Sep-11-2027-Wembley-Stadium"
   },
   {
     "id": "tm-foo-fighters-2027-darlington-1adjz_pgknom0ij",
@@ -772,6 +788,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8372603",
+        "url": "https://www.ticketliquidator.com/tickets/8372603/Foo-Fighters-tickets-Tue-Sep-14-2027-Darlington-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_pGknOM0Ij",
@@ -799,7 +822,8 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372603/Foo-Fighters-tickets-Tue-Sep-14-2027-Darlington-Arena"
   },
   {
     "id": "tm-foo-fighters-2027-edinburgh-1auzkfegkecn0w6",

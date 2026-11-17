@@ -3157,5 +3157,58 @@
       "LIVE NATION MUSIC"
     ],
     "genre": "Rock"
+  },
+  {
+    "id": "tm-polyphia-2026-utrecht-z698xzbpz16v1314-i",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "venue": "TivoliVredenburg",
+    "datetime_iso": "2026-12-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1292295868",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/polyphia-be-not-afraid-world-tour-tickets/1292295868?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/polyphia-be-not-afraid-world-tour-tickets/1292295868?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1292295868",
+        "discovery_event_id": "Z698xZbpZ16v1314-I",
+        "url": "https://www.ticketmaster.nl/event/polyphia-be-not-afraid-world-tour-tickets/1292295868?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v1314-I",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
   }
 ]

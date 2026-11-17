@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7878419",
+        "url": "https://www.ticketliquidator.com/tickets/7878419/Intocable-tickets-Sat-Nov-21-2026-Smart-Financial-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x9Gp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7878419/Intocable-tickets-Sat-Nov-21-2026-Smart-Financial-Centre"
   },
   {
     "id": "tm-intocable-2026-san-antonio-g5diz_6xnmhis",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7875906",
+        "url": "https://www.ticketliquidator.com/tickets/7875906/Intocable-tickets-Wed-Nov-25-2026-Freeman-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_6XNmhIS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7875906/Intocable-tickets-Wed-Nov-25-2026-Freeman-Coliseum"
   },
   {
     "id": "tm-intocable-2026-fort-worth-vvg1yz_7cpuxpt",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7875908",
+        "url": "https://www.ticketliquidator.com/tickets/7875908/Intocable-tickets-Fri-Nov-27-2026-Ariat-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_7cPUxpT",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7875908/Intocable-tickets-Fri-Nov-27-2026-Ariat-Arena"
   },
   {
     "id": "tm-intocable-2026-hidalgo-g5diz_fw-zu9f",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7876470",
+        "url": "https://www.ticketliquidator.com/tickets/7876470/Intocable-tickets-Sat-Nov-28-2026-Payne-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Fw-zU9F",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7876470/Intocable-tickets-Sat-Nov-28-2026-Payne-Arena"
   },
   {
     "id": "tm-intocable-2027-chicago-vv178z_pgkrpyrnn",
@@ -258,12 +290,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373879",
+        "url": "https://www.ticketliquidator.com/tickets/8373879/Intocable-tickets-Sat-Feb-20-2027-Credit-Union-1-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_pGkRPyrnn",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373879/Intocable-tickets-Sat-Feb-20-2027-Credit-Union-1-Arena"
   },
   {
     "id": "tm-intocable-2027-duluth-vvg1zz_pwe5ag0",
@@ -312,12 +352,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373880",
+        "url": "https://www.ticketliquidator.com/tickets/8373880/Intocable-tickets-Sun-Feb-28-2027-Gas-South-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pwE5aG0",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373880/Intocable-tickets-Sun-Feb-28-2027-Gas-South-Arena"
   },
   {
     "id": "tm-intocable-2027-fresno-g5vyz_pmjs49u",
@@ -366,12 +414,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373881",
+        "url": "https://www.ticketliquidator.com/tickets/8373881/Intocable-tickets-Fri-Mar-5-2027-Save-Mart-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pMjs49U",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373881/Intocable-tickets-Fri-Mar-5-2027-Save-Mart-Center"
   },
   {
     "id": "tm-intocable-2027-inglewood-vv170z_pgkrollqf",
@@ -420,12 +476,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373882",
+        "url": "https://www.ticketliquidator.com/tickets/8373882/Intocable-tickets-Sat-Mar-6-2027-Intuit-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGkRoLLqF",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373882/Intocable-tickets-Sat-Mar-6-2027-Intuit-Dome"
   },
   {
     "id": "tm-intocable-2027-san-jose-g5vyz_pi39fpd",
@@ -474,12 +538,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373883",
+        "url": "https://www.ticketliquidator.com/tickets/8373883/Intocable-tickets-Fri-Mar-19-2027-SAP-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pi39fPD",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373883/Intocable-tickets-Fri-Mar-19-2027-SAP-Center"
   },
   {
     "id": "tm-intocable-2027-miami-vvg1vz_pmzxge8",
@@ -528,12 +600,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373885",
+        "url": "https://www.ticketliquidator.com/tickets/8373885/Intocable-tickets-Fri-Jun-11-2027-James-L-Knight-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pmzXGE8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373885/Intocable-tickets-Fri-Jun-11-2027-James-L-Knight-Center"
   },
   {
     "id": "tm-intocable-2027-sacramento-g5vyz_pulkwxh",
@@ -582,11 +662,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373887",
+        "url": "https://www.ticketliquidator.com/tickets/8373887/Intocable-tickets-Sat-Aug-28-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pUlkWxH",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373887/Intocable-tickets-Sat-Aug-28-2027-Golden-1-Center"
   }
 ]

@@ -899,7 +899,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006569863338F2",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/washington-district-of-columbia-echostage-2027-05-28-10-pm/concert/18757168",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-washington-dc-echostage-5-28-2027--concerts-dance-electronica/production/7841659",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
@@ -915,11 +915,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757168,
+        "url": "https://seatgeek.com/two-friends-tickets/washington-district-of-columbia-echostage-2027-05-28-10-pm/concert/18757168",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841659,
@@ -972,7 +972,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006562FBF6428F",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-05-29-8-pm/concert/18757722",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-boston-mgm-music-hall-at-fenway-5-29-2027--concerts-dance-electronica/production/7841661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
@@ -988,11 +988,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757722,
+        "url": "https://seatgeek.com/two-friends-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-05-29-8-pm/concert/18757722",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841661,
@@ -1399,7 +1399,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006562DA9FE147",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-06-16-7-pm/concert/18756563",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-raleigh-the-ritz---raleigh-6-16-2027--concerts-dance-electronica/production/7841665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
@@ -1415,11 +1415,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18756563,
+        "url": "https://seatgeek.com/two-friends-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-06-16-7-pm/concert/18756563",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841665,
@@ -1472,7 +1472,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006564B3398810",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/north-charleston-south-carolina-firefly-distillery-2027-06-17-7-pm/concert/18757437",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-north-charleston-firefly-distillery-6-17-2027--concerts-dance-electronica/production/7841667",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
@@ -1488,11 +1488,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757437,
+        "url": "https://seatgeek.com/two-friends-tickets/north-charleston-south-carolina-firefly-distillery-2027-06-17-7-pm/concert/18757437",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841667,
@@ -1545,7 +1545,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D00656ABDF34472",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/charlotte-north-carolina-skyla-credit-union-amphitheatre-2027-06-18-8-pm/concert/18756441",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-charlotte-skyla-credit-union-amphitheatre-6-18-2027/production/7842525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
@@ -1561,11 +1561,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18756441,
+        "url": "https://seatgeek.com/two-friends-tickets/charlotte-north-carolina-skyla-credit-union-amphitheatre-2027-06-18-8-pm/concert/18756441",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7842525,
@@ -1618,7 +1618,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E006566C8694573",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-06-19-8-pm/concert/18757120",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-atlanta-coca-cola-roxy-theatre-6-19-2027--concerts-dance-electronica/production/7841673",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
@@ -1634,11 +1634,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757120,
+        "url": "https://seatgeek.com/two-friends-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-06-19-8-pm/concert/18757120",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841673,
@@ -1752,7 +1752,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A00656B8C3969B4",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/austin-texas-moody-amphitheater-2027-06-25-8-pm/concert/18757699",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-austin-moody-amphitheater-6-25-2027--concerts-dance-electronica/production/7841677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
@@ -1768,11 +1768,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757699,
+        "url": "https://seatgeek.com/two-friends-tickets/austin-texas-moody-amphitheater-2027-06-25-8-pm/concert/18757699",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841677,
@@ -1824,7 +1824,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C006566FCA4FC82",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-06-26-7-pm/concert/18757520",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-irving-pavilion-at-toyota-music-factory-6-26-2027--concerts-dance-electronica/production/7841641",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
@@ -1840,11 +1840,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757520,
+        "url": "https://seatgeek.com/two-friends-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-06-26-7-pm/concert/18757520",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841641,

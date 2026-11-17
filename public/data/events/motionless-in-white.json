@@ -699,7 +699,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010064BBC7FDE27D",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/motionless-in-white-tickets/portland-maine-cross-insurance-arena-2026-11-18-6-30-pm/concert/18281910",
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-portland-cross-insurance-arena-11-18-2026/production/7108788",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
@@ -715,11 +715,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18281910,
+        "url": "https://seatgeek.com/motionless-in-white-tickets/portland-maine-cross-insurance-arena-2026-11-18-6-30-pm/concert/18281910",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7108788,

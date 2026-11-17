@@ -1290,7 +1290,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "07006549CBF276C7",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-milwaukee-wisconsin-07-02-2027/event/07006549CBF276C7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/milwaukee-wisconsin-bmo-pavilion-2027-07-02-8-pm/concert/18673558",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-milwaukee-wisconsin-07-02-2027/event/07006549CBF276C7",
@@ -1306,11 +1306,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18673558,
+        "url": "https://seatgeek.com/foreigner-tickets/milwaukee-wisconsin-bmo-pavilion-2027-07-02-8-pm/concert/18673558",
+        "verified": true,
+        "last_verified_at": "2026-11-17",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

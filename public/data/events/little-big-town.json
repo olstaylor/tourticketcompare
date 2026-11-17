@@ -741,7 +741,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-detroit-fox-theatre-detroit-11-20-2026--concerts-country-and-folk/production/7132557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/little-big-town-for-the-art-detroit-michigan-11-20-2026/event/080064C5EA9DD19D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -795,13 +795,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034511/Little-Big-Town-tickets-Fri-Nov-20-2026-Fox-Theatre-Detroit",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-06-12T14:00:00Z",
-        "end": "2026-11-17T03:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Country"

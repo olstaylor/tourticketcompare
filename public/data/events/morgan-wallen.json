@@ -1065,7 +1065,7 @@
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-11-2027--concerts-country-and-folk/production/7860894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1128,7 +1128,6 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticket_limit": 6,
     "genre": "Country",
     "presales": [
       {
@@ -1180,7 +1179,7 @@
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-12-2027--concerts-country-and-folk/production/7860898",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1243,7 +1242,6 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticket_limit": 6,
     "genre": "Country",
     "presales": [
       {
@@ -1755,7 +1753,7 @@
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-6-2027--concerts-country-and-folk/production/7860912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1827,6 +1825,11 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
+        "name": "Travel VIP Packages Presale",
+        "start": "2026-11-17T13:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
         "name": "VIP Packages Presale",
         "start": "2026-11-17T13:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -1834,11 +1837,6 @@
       {
         "name": "Artist Presale",
         "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-17T23:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       },
       {

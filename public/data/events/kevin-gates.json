@@ -79,7 +79,7 @@
     "city": "Richmond",
     "country": "United States Of America",
     "venue": "Altria Theater",
-    "datetime_iso": "2026-12-18T01:00:00Z",
+    "datetime_iso": "2027-01-18T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAo8V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
@@ -87,7 +87,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

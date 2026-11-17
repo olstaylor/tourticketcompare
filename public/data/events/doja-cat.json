@@ -1778,7 +1778,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-baltimore-maryland-11-20-2026/event/1500633A88BC22BE",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1830,13 +1830,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457652",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457652/Doja-Cat-tickets-Fri-Nov-20-2026-CFG-Bank-Arena",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-10-10T14:00:00Z",
-        "end": "2026-11-16T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

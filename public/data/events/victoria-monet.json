@@ -775,7 +775,7 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "Aragon Ballroom",
-    "datetime_iso": "2026-11-19T02:00:00Z",
+    "datetime_iso": "2026-11-19T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0400652605FA6451",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
@@ -783,7 +783,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-chicago-aragon-ballroom-11-18-2026/production/7540297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-chicago-illinois-11-18-2026/event/0400652605FA6451",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1594,7 +1594,7 @@
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "Fontainebleau Las Vegas",
-    "datetime_iso": "2026-12-10T05:00:00Z",
+    "datetime_iso": "2026-12-10T04:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1700652423795D4D",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
@@ -1602,7 +1602,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-las-vegas-fontainebleau-las-vegas-12-9-2026/production/7540359",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-las-vegas-nevada-12-09-2026/event/1700652423795D4D",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1769,7 +1769,7 @@
     "city": "Seattle",
     "country": "United States Of America",
     "venue": "Paramount Theatre",
-    "datetime_iso": "2026-12-15T04:00:00Z",
+    "datetime_iso": "2026-12-15T05:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0F00652294FE75B1",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
@@ -1777,7 +1777,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1841,16 +1841,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-17T06:00:00Z"
-      },
-      {
-        "name": "Verizon Shine Select Seats",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-17T06:00:00Z"
-      },
       {
         "name": "VIP Packages Public Onsale",
         "start": "2026-09-16T17:00:00Z",

@@ -1397,7 +1397,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-knoxville-thompson-boling-arena-at-food-city-center-4-15-2027--concerts-pop/production/7870969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-knoxville-tennessee-04-15-2027/event/1B00656B6EEC3580",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1452,6 +1452,11 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
         "name": "LIVE NATION PRESALE",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -1475,6 +1480,11 @@
         "name": "Venue Presale",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-08T21:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369850/Alex-Warren-tickets-Thu-Apr-15-2027-Thompson-Boling-Arena-at-Food-City-Center"
@@ -1588,7 +1598,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-saint-louis-missouri-04-18-2027/event/0600656B925D5AE6",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1637,11 +1647,6 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
-        "name": "Official Platinum Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
         "name": "VIP Package Presale",
         "start": "2026-11-18T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -1660,11 +1665,6 @@
         "name": "VIP Packages",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-04-11T22:00:00Z"
-      },
-      {
-        "name": "Official Platinum",
-        "start": "2026-11-20T16:00:00Z",
-        "end": "2027-04-19T02:00:00Z"
       }
     ]
   },
@@ -1773,7 +1773,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-winnipeg-canada-life-centre-4-23-2027--concerts-pop/production/7871097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-winnipeg-manitoba-04-23-2027/event/1100656C9D745ACF",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1819,10 +1819,22 @@
     "public_onsale_at": "2026-11-20T15:00:00Z",
     "organizer_names": [
       "LIVE NATION MUSIC",
-      "LIVE NATION CANADA (LN)"
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
     ],
     "genre": "Pop",
     "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
       {
         "name": "All Access Presale",
         "start": "2026-11-19T15:00:00Z",
@@ -1832,6 +1844,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-20T22:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369857/Alex-Warren-tickets-Fri-Apr-23-2027-Canada-Life-Centre"
@@ -2210,7 +2227,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-quebec-city-videotron-centre-5-2-2027--concerts-pop/production/7871107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-quebec-quebec-05-02-2027/event/3100656BA98C5513",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2267,6 +2284,11 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
+        "name": "Prévente des formules VIP",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
         "name": "PRÉVENTE LIVE NATION",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -2285,6 +2307,11 @@
         "name": "Prévente Remparts",
         "start": "2026-11-19T17:00:00Z",
         "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mise en vente des formules VIP",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-25T21:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369867/Alex-Warren-tickets-Sun-May-2-2027-Centre-Videotron"
@@ -2662,7 +2689,7 @@
     "city": "Raleigh",
     "country": "United States Of America",
     "venue": "Coastal Credit Union Music Park at Walnut Creek",
-    "datetime_iso": "2027-05-11T23:40:00Z",
+    "datetime_iso": "2027-05-11T23:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "2D00656BAF87D35B",
     "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-raleigh-north-carolina-05-11-2027/event/2D00656BAF87D35B",
@@ -2670,7 +2697,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-5-11-2027--concerts-pop/production/7871075",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-raleigh-north-carolina-05-11-2027/event/2D00656BAF87D35B",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2950,7 +2977,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-birmingham-coca-cola-amphitheater-5-16-2027--concerts-pop/production/7871093",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-birmingham-alabama-05-16-2027/event/2000656BBA0C4E96",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3006,6 +3033,11 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
         "name": "CCU Presale",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -3014,6 +3046,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-09T22:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369875/Alex-Warren-tickets-Sun-May-16-2027-Coca-Cola-Amphitheater-at-the-BJCC"

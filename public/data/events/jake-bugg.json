@@ -943,7 +943,7 @@
     "city": "Stirling",
     "country": "Great Britain",
     "venue": "Stirling Albert Halls",
-    "datetime_iso": "2027-02-13T19:00:00Z",
+    "datetime_iso": "2027-02-15T19:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "36006562C729A6B3",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/jake-bugg-stirling-13-02-2027/event/36006562C729A6B3",
@@ -951,7 +951,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/jake-bugg-stirling-13-02-2027/event/36006562C729A6B3",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -992,6 +992,9 @@
       "GIGS IN SCOTLAND"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2027-02-13T19:00:00Z",
+    "previous_start_timezone": "Europe/London"
   }
 ]

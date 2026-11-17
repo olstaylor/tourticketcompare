@@ -100,7 +100,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -167,7 +167,14 @@
     "previous_start_date": "2026-11-10T04:00:00Z",
     "previous_start_timezone": "America/Los_Angeles",
     "ticket_limit": 10,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "presales": [
+      {
+        "name": "Venue Cyber Offer",
+        "start": "2026-11-20T08:01:00Z",
+        "end": "2026-12-03T07:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-karan-aujla-2026-dallas-vvg1yz_3r_e2at",
@@ -465,7 +472,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -526,13 +533,6 @@
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-16T17:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267878",
     "ticketmaster_status_code": "rescheduled",

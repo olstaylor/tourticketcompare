@@ -2270,7 +2270,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-indianapolis-indiana-04-03-2027/event/0500656CC66CDF4A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2306,6 +2306,38 @@
     "ticketmaster_discovery_event_id": "vv17fZ_pGkSkhuW1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Old National Bank Sponsor Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-28T02:00:00Z"
+      }
+    ]
   }
 ]

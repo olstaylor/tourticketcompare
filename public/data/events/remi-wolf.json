@@ -1939,7 +1939,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-24-2027/event/15006549AE7A8A08",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1975,7 +1975,21 @@
     "ticketmaster_discovery_event_id": "1A4Zk4aGkemrIIF",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "I.M.P. Email Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-remi-wolf-2027-berkeley-g5vyz_pmrwpif",
@@ -1993,7 +2007,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-berkeley-california-04-30-2027/event/1C00656DDECA5A14",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2029,7 +2043,24 @@
     "ticketmaster_discovery_event_id": "G5vYZ_pMrwPIf",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "APE Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-remi-wolf-2027-phoenix-1av0z_pgkubtvhv",
@@ -2047,7 +2078,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-03-2027/event/1900656D98A746C1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2083,6 +2114,33 @@
     "ticketmaster_discovery_event_id": "1Av0Z_pGkUbtVhv",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-01T05:00:00Z"
+      }
+    ]
   }
 ]

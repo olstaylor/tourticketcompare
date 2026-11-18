@@ -339,7 +339,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-kansas-city-t-mobile-center-3-15-2027--concerts-rb/production/7886355",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -407,6 +407,21 @@
         "name": "VIP Packages Presale",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue/Radio Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-16T05:59:00Z"
       },
       {
         "name": "VIP Packages Onsale",
@@ -1516,7 +1531,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-philadelphia-xfinity-mobile-arena-4-3-2027--concerts-rb/production/7886393",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1573,7 +1588,7 @@
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
+        "end": "2026-11-20T03:00:00Z"
       },
       {
         "name": "Artist Presale",
@@ -2168,7 +2183,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-memphis-fedexforum-4-16-2027--concerts-rb/production/7886415",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2226,7 +2241,7 @@
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
+        "end": "2026-11-20T04:00:00Z"
       },
       {
         "name": "Artist Presale",
@@ -2718,7 +2733,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-phoenix-mortgage-matchup-center-4-29-2027--concerts-rb/production/7886453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2769,14 +2784,14 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine Presale Tickets",
+        "name": "Verizon Shine VIP Packages Presale",
         "start": "2026-11-18T17:00:00Z",
         "end": "2026-11-18T20:45:00Z"
       },
       {
-        "name": "Verizon Shine VIP Packages Presale",
+        "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:45:00Z"
+        "end": "2026-11-20T05:00:00Z"
       },
       {
         "name": "Artist Presale",
@@ -2827,7 +2842,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-anaheim-honda-center-5-1-2027--concerts-rb/production/7886467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2900,6 +2915,11 @@
       {
         "name": "VIP Packages Presale",
         "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       },
       {
@@ -3159,7 +3179,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-portland-moda-center-5-12-2027--concerts-rb/production/7886475",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3229,6 +3249,16 @@
         "end": "2026-11-20T06:00:00Z"
       },
       {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-04-15T06:59:00Z"
@@ -3257,7 +3287,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-seattle-climate-pledge-arena-5-13-2027--concerts-rb/production/7886479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3331,6 +3361,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-15T05:00:00Z"
       },
       {
         "name": "VIP Packages Onsale",

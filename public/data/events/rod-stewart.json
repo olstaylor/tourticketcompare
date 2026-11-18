@@ -2319,7 +2319,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-lexington-kentucky-03-21-2027/event/1600656C8B3C5240",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2355,6 +2355,20 @@
     "ticketmaster_discovery_event_id": "1AvbZ_pGkw52AaZ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Rod Stewart Fan Club Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      }
+    ]
   }
 ]

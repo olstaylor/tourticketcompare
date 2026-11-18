@@ -1191,7 +1191,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-tempe-mullett-arena-5-1-2027--concerts-alternative/production/7863252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-tempe-arizona-05-01-2027/event/1900656BC0228316",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1262,11 +1262,6 @@
       },
       {
         "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
         "start": "2026-11-18T17:00:00Z",
         "end": "2026-11-19T05:00:00Z"
       }

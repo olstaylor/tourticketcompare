@@ -920,7 +920,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-memphis-orpheum-theatre---memphis-11-24-2026/production/7353380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-memphis-tennessee-11-24-2026/event/1B0064F6CB7FE2EA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -972,13 +972,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-31T15:00:00Z",
-        "end": "2026-11-18T05:55:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167876",
     "ticket_limit": 8,

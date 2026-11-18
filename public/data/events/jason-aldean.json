@@ -86,7 +86,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jason-aldean-durant-oklahoma-03-06-2027/event/0C00655CA922565D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -122,6 +122,18 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_4wtFP_q",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Artist Pre-Sale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      }
+    ]
   }
 ]

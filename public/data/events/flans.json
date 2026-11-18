@@ -575,7 +575,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-los-angeles-orpheum-theatre---los-angeles-3-14-2027--concerts-world-music/production/7593618",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -627,7 +627,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289136",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289136/Flans-tickets-Sun-Mar-14-2027-Orpheum-Theatre-Los-Angeles",
-    "genre": "Ballads/Romantic"
+    "genre": "Ballads/Romantic",
+    "presales": [
+      {
+        "name": "Thanksgiving / Cyber Monday Sale",
+        "start": "2026-11-26T18:00:00Z",
+        "end": "2026-12-01T07:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-flans-2027-houston-g5diz_k6-kevr",

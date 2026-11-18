@@ -1056,7 +1056,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-los-angeles-california-05-14-2027/event/0A00656DD13BEDB6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1092,6 +1092,43 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_pMoCXUU",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Interpol Artist Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Goldenvoice Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Molchat Doma Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      }
+    ]
   }
 ]

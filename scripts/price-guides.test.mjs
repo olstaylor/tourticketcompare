@@ -378,6 +378,14 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   assert(text(page.main).replace(/\s/g, " ").includes("Cheapest listed price of 2 priced dates: GBP 182 on Vivid Seats"), "the title's figure is the one the Cheapest panel prints");
   assert(page.html.includes(`<meta property="og:title" content="${page.title}"`) && page.html.includes(`<meta name="twitter:title" content="${page.title}"`), "social titles carry the same title");
   assert(!/"name":"Oasis Ticket Prices 2026: Cheapest/.test(page.html), "JSON-LD keeps the price-free route title");
+  // Focus pages (functions/_page-seo-focus.js) lead with the searched question;
+  // the figure, site and check date stay the page's own.
+  const focus = await load("functions/_page-seo-focus.js");
+  focus.PRICE_GUIDE_FOCUS_PATHS.add(GUIDE_PATH);
+  const focused = await render(GUIDE_PATH);
+  focus.PRICE_GUIDE_FOCUS_PATHS.delete(GUIDE_PATH);
+  assert(focused.title === "How Much Are Oasis Tickets? Cheapest GBP 182, Checked Aug 9", `a focus guide's title leads with the question (got ${focused.title})`);
+  assert(focused.description.startsWith("How much are Oasis tickets? Soonest priced date:") && /checked .* UTC\. Check fees\./.test(focused.description), `a focus guide's snippet leads with the question and keeps attribution (got ${focused.description})`);
   // A check date more than two days old is never quoted in a title.
   Date.now = () => NOW_MS + 3 * 86400000;
   const staleTitle = (await render(GUIDE_PATH)).title;

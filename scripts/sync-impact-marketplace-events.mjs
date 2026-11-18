@@ -283,7 +283,7 @@ function evaluateCandidate(event, artistName, candidate, { matchStartTime = true
   }
   if (!cityMatches(text, event?.city)) reasons.push("city mismatch");
   if (!venueMatches(text, event?.venue, event?.city)) reasons.push("venue mismatch");
-  return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", externalId: candidate?.externalId || "" };
+  return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", externalId: candidate?.externalId || "", name: candidate?.name || "" };
 }
 
 function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, catalogComplete, preserveAbsentStored = false }) {
@@ -314,7 +314,10 @@ export function closestMiss(evaluations) {
   const sameDate = (evaluations || []).filter((row) => !row.ok && !row.reasons.includes("artist name mismatch") && !row.reasons.includes("venue-local date mismatch"));
   if (!sameDate.length) return "";
   const best = sameDate.reduce((a, b) => (b.reasons.length < a.reasons.length ? b : a));
-  return best.reasons.join(", ");
+  // Name the listing too (diagnostic only), so a venue or city spelled
+  // differently on the seller's side can be read straight from the log.
+  const name = clean(best.name, 90).replace(/[;|"]/g, " ").replace(/\s+/g, " ").trim();
+  return name ? `${best.reasons.join(", ")}; listing: ${name}` : best.reasons.join(", ");
 }
 
 function outcomeNote(action, { ambiguousListing = false, storedListed = false, catalogComplete = false, stopReason = "", nearMiss = "" } = {}) {
@@ -862,6 +865,7 @@ async function selfTest() {
   assert.equal(outcomeNote("none", { catalogComplete: true, nearMiss: "venue mismatch" }), "no qualifying listing (complete catalog checked; closest same-date listing: venue mismatch)");
   assert.equal(closestMiss([{ ok: false, reasons: ["artist name mismatch"] }, { ok: false, reasons: ["venue-local date mismatch"] }]), "", "other acts and other nights are not near-misses");
   assert.equal(closestMiss([{ ok: false, reasons: ["city mismatch", "venue mismatch"] }, { ok: false, reasons: ["venue mismatch"] }]), "venue mismatch");
+  assert.equal(closestMiss([{ ok: false, reasons: ["venue mismatch"], name: "RAYE | O2 Arena; London" }]), "venue mismatch; listing: RAYE O2 Arena London", "the closest listing is named, with table-breaking characters removed");
 
   // Venue tails Ticketmaster adds and resale catalogs drop.
   assert.ok(venueMatches("Blue October The Tabernacle Atlanta GA 11/22/2026", "Tabernacle Presented by iTHINK Financial", "Atlanta"));

@@ -2014,12 +2014,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367175",
+        "url": "https://www.ticketnetwork.com/en/p/8367175",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Aa",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367175"
   },
   {
     "id": "tm-morgan-wallen-2027-arlington-z7r9jz1aaa8a8",
@@ -2068,12 +2076,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367176",
+        "url": "https://www.ticketnetwork.com/en/p/8367176",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8A8",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367176"
   },
   {
     "id": "tm-morgan-wallen-2027-nashville-z7r9jz1aaa8ak",
@@ -2122,12 +2138,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367178",
+        "url": "https://www.ticketnetwork.com/en/p/8367178",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8AK",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367178"
   },
   {
     "id": "tm-morgan-wallen-2027-nashville-z7r9jz1aaa8a4",
@@ -2176,11 +2200,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367179",
+        "url": "https://www.ticketnetwork.com/en/p/8367179",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8A4",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367179"
   }
 ]

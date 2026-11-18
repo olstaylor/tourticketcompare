@@ -37476,11 +37476,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457487",
-        "url": "https://www.ticketnetwork.com/en/p/7457487",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107202114",
@@ -37500,7 +37500,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZbSle3UGD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457487",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457487/Doja-Cat-tickets-Tue-Nov-17-2026-State-Farm-Arena-GA",
     "organizer_names": [
@@ -57892,11 +57892,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7827971",
-        "url": "https://www.ticketnetwork.com/en/p/7827971",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7827971",
@@ -57916,7 +57916,7 @@
     "ticketmaster_discovery_event_id": "G5eVZ_knG4bET",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827971",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827971/Blue-October-tickets-Tue-Nov-17-2026-The-Fillmore-Charlotte",
     "stubhub_international_url": "https://www.stubhub.ie/blue-october-charlotte-tickets-11-17-2026/event/107151194",
     "organizer_names": [
@@ -64302,11 +64302,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8164824",
-        "url": "https://www.ticketnetwork.com/en/p/8164824",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8164824",
@@ -64326,7 +64326,7 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_2qGZ489",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164824",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164824/Tyla-tickets-Tue-Nov-17-2026-Paramount-Theatre-Seattle",
     "stubhub_international_url": "",
     "organizer_names": [
@@ -76446,18 +76446,18 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7976872",
-        "url": "https://www.ticketnetwork.com/en/p/7976872",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EOZ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976872/Stella-Lefty-tickets-Tue-Nov-17-2026-Royale-Boston",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976872",
+    "ticketnetwork_url": "",
     "genre": "Pop"
   },
   {
@@ -216760,11 +216760,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7410010",
-        "url": "https://www.ticketnetwork.com/en/p/7410010",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7410010",
@@ -216778,7 +216778,7 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410010",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410010/Sabaton-tickets-Tue-Nov-17-2026-The-Union-Event-Center",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -235715,11 +235715,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8199809",
-        "url": "https://www.ticketnetwork.com/en/p/8199809",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8199809",
@@ -235732,7 +235732,7 @@
     "ticketmaster_discovery_event_id": "16_Zkf6FZZA2G752",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199809",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199809/Steve-Lacy-tickets-Tue-Nov-17-2026-Arizona-Financial-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -258223,6 +258223,13 @@
         "verified": true,
         "last_verified_at": "2026-11-16",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8378217",
+        "url": "https://www.ticketnetwork.com/en/p/8378217",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeGZ_31KA4ZdG5d",
@@ -258233,7 +258240,8 @@
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8378217"
   },
   {
     "id": "tm-simple-minds-2027-nottingham-1adfz_31k14zduv5",
@@ -284184,11 +284192,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7961840",
-        "url": "https://www.ticketnetwork.com/en/p/7961840",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1E8GGGS",
@@ -284199,7 +284207,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961840",
+    "ticketnetwork_url": "",
     "ticket_limit": 4,
     "genre": "Pop"
   },
@@ -310057,11 +310065,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8293183",
-        "url": "https://www.ticketnetwork.com/en/p/8293183",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8293183",
@@ -310074,7 +310082,7 @@
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdNqPGX",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293183",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293183/Brandi-Carlile-tickets-Tue-Nov-17-2026-State-Theatre-MN",
     "organizer_names": [
       "HENNEPIN THEATRE TRUST"
@@ -358141,11 +358149,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7551670",
-        "url": "https://www.ticketnetwork.com/en/p/7551670",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7551670",
@@ -358165,7 +358173,7 @@
     "ticketmaster_discovery_event_id": "G5vYZbU2whWE8",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551670",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551670/Three-Days-Grace-tickets-Tue-Nov-17-2026-Golden-1-Center",
     "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094",
     "organizer_names": [
@@ -420097,12 +420105,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367175",
+        "url": "https://www.ticketnetwork.com/en/p/8367175",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Aa",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367175"
   },
   {
     "id": "tm-morgan-wallen-2027-arlington-z7r9jz1aaa8a8",
@@ -420151,12 +420167,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367176",
+        "url": "https://www.ticketnetwork.com/en/p/8367176",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8A8",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367176"
   },
   {
     "id": "tm-morgan-wallen-2027-nashville-z7r9jz1aaa8ak",
@@ -420205,12 +420229,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367178",
+        "url": "https://www.ticketnetwork.com/en/p/8367178",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8AK",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367178"
   },
   {
     "id": "tm-morgan-wallen-2027-nashville-z7r9jz1aaa8a4",
@@ -420259,12 +420291,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367179",
+        "url": "https://www.ticketnetwork.com/en/p/8367179",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8A4",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367179"
   },
   {
     "id": "tm-polyphia-2026-utrecht-z698xzbpz16v1314-i",
@@ -420370,6 +420410,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8377743",
+        "url": "https://www.ticketnetwork.com/en/p/8377743",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkUcnyJ0",
@@ -420422,7 +420469,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-13T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8377743"
   },
   {
     "id": "tm-rod-stewart-2027-lexington-1avbz_pgkw52aaz",
@@ -420471,6 +420519,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373810",
+        "url": "https://www.ticketnetwork.com/en/p/8373810",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkw52AaZ",
@@ -420490,7 +420545,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373810"
   },
   {
     "id": "tm-santana-2027-san-francisco-g5vyz_puhzl3h",
@@ -420539,6 +420595,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375829",
+        "url": "https://www.ticketnetwork.com/en/p/8375829",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pUhZl3H",
@@ -420580,7 +420643,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-02-21T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375829"
   },
   {
     "id": "tm-santana-2027-san-francisco-g5vyz_puqth3t",
@@ -420629,6 +420693,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375831",
+        "url": "https://www.ticketnetwork.com/en/p/8375831",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pUQTh3t",
@@ -420670,7 +420741,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-02-23T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375831"
   },
   {
     "id": "tm-santana-2027-san-francisco-g5vyz_puqx53g",
@@ -420719,6 +420791,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375832",
+        "url": "https://www.ticketnetwork.com/en/p/8375832",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pUQX53G",
@@ -420760,7 +420839,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-02-24T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375832"
   },
   {
     "id": "tm-santana-2027-bethlehem-vv17fz_pgkmh0npz",
@@ -420809,6 +420889,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375849",
+        "url": "https://www.ticketnetwork.com/en/p/8375849",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_pGkmh0nPZ",
@@ -420860,7 +420947,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-03-23T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375849"
   },
   {
     "id": "tm-santana-2027-pittsburgh-1avbz_pgkmfvkd9",
@@ -420909,6 +420997,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375850",
+        "url": "https://www.ticketnetwork.com/en/p/8375850",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkmfvkd9",
@@ -420946,7 +421041,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-03-25T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375850"
   },
   {
     "id": "tm-santana-2027-windsor-1avzz_pgkyz-kdw",
@@ -421169,6 +421265,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375853",
+        "url": "https://www.ticketnetwork.com/en/p/8375853",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4tGkeO56Zw",
@@ -421206,7 +421309,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-03-30T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375853"
   },
   {
     "id": "tm-santana-2027-uncasville-g5vvz_9dli7ln",
@@ -421255,6 +421359,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375858",
+        "url": "https://www.ticketnetwork.com/en/p/8375858",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_9dlI7LN",
@@ -421294,7 +421405,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-04-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375858"
   },
   {
     "id": "tm-santana-2027-new-york-g5dyz_prxuxs3",
@@ -421343,6 +421455,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375861",
+        "url": "https://www.ticketnetwork.com/en/p/8375861",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dYZ_prxUxs3",
@@ -421394,7 +421513,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-04-07T01:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375861"
   },
   {
     "id": "tm-santana-2027-verona-k7vgf_psngfze",
@@ -421443,6 +421563,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375862",
+        "url": "https://www.ticketnetwork.com/en/p/8375862",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pSnGFze",
@@ -421472,7 +421599,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-04-05T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375862"
   },
   {
     "id": "tm-santana-2027-atlantic-city-vv17fz_pgkwmc5tp",
@@ -421521,6 +421649,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375863",
+        "url": "https://www.ticketnetwork.com/en/p/8375863",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_pGkwmc5TP",
@@ -421558,7 +421693,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-04-06T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375863"
   },
   {
     "id": "tm-phoebe-bridgers-2027-edmonton-1av7z_pgkm691wt",
@@ -421607,6 +421743,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375944",
+        "url": "https://www.ticketnetwork.com/en/p/8375944",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_pGkM691Wt",
@@ -421630,7 +421773,8 @@
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375944"
   },
   {
     "id": "tm-phoebe-bridgers-2027-newark-vv1kfz_9vyg7cw_y",
@@ -421679,6 +421823,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376281",
+        "url": "https://www.ticketnetwork.com/en/p/8376281",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kFZ_9vyG7cw_Y",
@@ -421701,7 +421852,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376281"
   },
   {
     "id": "tm-tom-jones-2027-york-1agzk4jgkd-uxfr",
@@ -422580,6 +422732,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374089",
+        "url": "https://www.ticketnetwork.com/en/p/8374089",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pMoCXUU",
@@ -422622,7 +422781,8 @@
         "start": "2026-11-19T20:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374089"
   },
   {
     "id": "tm-carin-leon-2027-sparks-1avjz_pgkrt9h7o",
@@ -422671,6 +422831,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374914",
+        "url": "https://www.ticketnetwork.com/en/p/8374914",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_pGkRt9h7o",
@@ -422690,7 +422857,8 @@
         "start": "2026-11-17T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374914"
   },
   {
     "id": "tm-james-blunt-2027-idstein-z698xzc2z16vuazef3",
@@ -423390,6 +423558,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373267",
+        "url": "https://www.ticketnetwork.com/en/p/8373267",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pwxigv1",
@@ -423447,7 +423622,8 @@
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-05-01T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373267"
   },
   {
     "id": "tm-megadeth-2027-phoenix-1av0z_pgknttpbb",
@@ -423496,6 +423672,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373268",
+        "url": "https://www.ticketnetwork.com/en/p/8373268",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkntTpbB",
@@ -423558,7 +423741,8 @@
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-05-02T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373268"
   },
   {
     "id": "tm-megadeth-2027-chula-vista-vvg1iz_pjb5pwc",
@@ -423607,6 +423791,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373269",
+        "url": "https://www.ticketnetwork.com/en/p/8373269",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pJB5pwc",
@@ -423669,7 +423860,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-05-05T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373269"
   },
   {
     "id": "tm-megadeth-2027-inglewood-vv16azk4ev7zauakk1",
@@ -423718,6 +423910,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373270",
+        "url": "https://www.ticketnetwork.com/en/p/8373270",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZk4Ev7ZAuAkk1",
@@ -423780,7 +423979,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-05-06T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373270"
   },
   {
     "id": "tm-megadeth-2027-ridgefield-vvg1hz_pj4m0zq",
@@ -423829,6 +424029,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373271",
+        "url": "https://www.ticketnetwork.com/en/p/8373271",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pJ4m0zq",
@@ -423876,7 +424083,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-05-08T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373271"
   },
   {
     "id": "tm-megadeth-2027-auburn-vvg1hz_ph-ktdl",
@@ -423925,6 +424133,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373272",
+        "url": "https://www.ticketnetwork.com/en/p/8373272",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_ph-KtDL",
@@ -423977,7 +424192,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-05-09T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373272"
   },
   {
     "id": "tm-megadeth-2027-west-valley-city-g5vzz_pjgpffk",
@@ -424142,6 +424358,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373276",
+        "url": "https://www.ticketnetwork.com/en/p/8373276",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4tGkdt6btl",
@@ -424204,7 +424427,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-05-15T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373276"
   },
   {
     "id": "tm-megadeth-2027-shakopee-1ae7z_pgkcukysu",
@@ -424475,6 +424699,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373279",
+        "url": "https://www.ticketnetwork.com/en/p/8373279",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkmGtNqb",
@@ -424527,7 +424758,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-20T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373279"
   },
   {
     "id": "tm-megadeth-2027-clarkston-vv17oz_pgks8s9m3",
@@ -424576,6 +424808,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373280",
+        "url": "https://www.ticketnetwork.com/en/p/8373280",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkS8S9m3",
@@ -424622,7 +424861,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-22T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373280"
   },
   {
     "id": "tm-megadeth-2027-cincinnati-1avbz_pgkn_24l6",
@@ -424671,6 +424911,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373281",
+        "url": "https://www.ticketnetwork.com/en/p/8373281",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkn_24L6",
@@ -424723,7 +424970,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-23T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373281"
   },
   {
     "id": "tm-megadeth-2027-burgettstown-1avbz_pgkwkmpmi",
@@ -424772,6 +425020,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373283",
+        "url": "https://www.ticketnetwork.com/en/p/8373283",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkwKMpmI",
@@ -424829,7 +425084,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-25T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373283"
   },
   {
     "id": "tm-megadeth-2027-bristow-1avfz_pgknmlaeb",
@@ -424878,6 +425134,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373284",
+        "url": "https://www.ticketnetwork.com/en/p/8373284",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_pGknmlaeb",
@@ -424935,7 +425198,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-26T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373284"
   },
   {
     "id": "tm-megadeth-2027-toronto-1avzz_pgksfsdba",
@@ -425093,6 +425357,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373285",
+        "url": "https://www.ticketnetwork.com/en/p/8373285",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkmJH1ou",
@@ -425155,7 +425426,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-30T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373285"
   },
   {
     "id": "tm-megadeth-2027-camden-vv17fz_pgkmjnhj7",
@@ -425204,6 +425476,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373287",
+        "url": "https://www.ticketnetwork.com/en/p/8373287",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_pGkmJnHj7",
@@ -425266,7 +425545,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-31T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373287"
   },
   {
     "id": "tm-megadeth-2027-new-york-g5diz_prtfsjt",
@@ -425315,6 +425595,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373289",
+        "url": "https://www.ticketnetwork.com/en/p/8373289",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_prTFSjT",
@@ -425386,7 +425673,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-16T00:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373289"
   },
   {
     "id": "tm-megadeth-2027-charlotte-g5evz_pjm1iz7",
@@ -425435,6 +425723,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373290",
+        "url": "https://www.ticketnetwork.com/en/p/8373290",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pJm1IZ7",
@@ -425492,7 +425787,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-04T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373290"
   },
   {
     "id": "tm-megadeth-2027-alpharetta-vvg1zz_pnf8blb",
@@ -425541,6 +425837,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373291",
+        "url": "https://www.ticketnetwork.com/en/p/8373291",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pnf8Blb",
@@ -425603,7 +425906,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373291"
   },
   {
     "id": "tm-megadeth-2027-the-woodlands-g5diz_penjw6e",
@@ -425773,6 +426077,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373293",
+        "url": "https://www.ticketnetwork.com/en/p/8373293",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pSNfnKd",
@@ -425830,7 +426141,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-09T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373293"
   },
   {
     "id": "tm-megadeth-2027-austin-g5diz_pevm_m_",
@@ -425879,6 +426191,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373294",
+        "url": "https://www.ticketnetwork.com/en/p/8373294",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pEvM_m_",
@@ -425941,7 +426260,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-10T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373294"
   },
   {
     "id": "tm-megadeth-2027-north-little-rock-g5viz_pnjetpo",
@@ -425990,6 +426310,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373298",
+        "url": "https://www.ticketnetwork.com/en/p/8373298",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_pnjetpO",
@@ -426047,7 +426374,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-08-24T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373298"
   },
   {
     "id": "tm-megadeth-2027-biloxi-g5viz_plz_cl1",
@@ -426096,6 +426424,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373299",
+        "url": "https://www.ticketnetwork.com/en/p/8373299",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_plZ_cl1",
@@ -426158,7 +426493,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-08-25T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373299"
   },
   {
     "id": "tm-megadeth-2027-nashville-g5viz_pmzogzi",
@@ -426207,6 +426543,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373301",
+        "url": "https://www.ticketnetwork.com/en/p/8373301",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_pmZOgZI",
@@ -426263,7 +426606,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-08-27T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373301"
   },
   {
     "id": "tm-megadeth-2027-virginia-beach-vv177z_pgkl4llwn",
@@ -426312,6 +426656,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373304",
+        "url": "https://www.ticketnetwork.com/en/p/8373304",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkl4LLwN",
@@ -426369,7 +426720,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-08-29T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373304"
   },
   {
     "id": "tm-megadeth-2027-allentown-1adzz_pgkmxuggq",
@@ -426418,6 +426770,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373305",
+        "url": "https://www.ticketnetwork.com/en/p/8373305",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_pGkmxUggq",
@@ -426484,7 +426843,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-08-30T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373305"
   },
   {
     "id": "tm-megadeth-2027-laval-1ad7z_pgkmil4lx",
@@ -426533,6 +426893,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373324",
+        "url": "https://www.ticketnetwork.com/en/p/8373324",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_pGkmil4LX",
@@ -426588,7 +426955,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-09-01T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373324"
   },
   {
     "id": "tm-megadeth-2027-buffalo-k7vgf_pr36-mz",
@@ -426637,6 +427005,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373306",
+        "url": "https://www.ticketnetwork.com/en/p/8373306",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pR36-mz",
@@ -426699,7 +427074,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-09-03T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373306"
   },
   {
     "id": "tm-megadeth-2027-toledo-vv1afzk4tgkdzzv33",
@@ -426748,6 +427124,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373307",
+        "url": "https://www.ticketnetwork.com/en/p/8373307",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4tGkdZZV33",
@@ -426800,7 +427183,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-09-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373307"
   },
   {
     "id": "tm-megadeth-2027-columbus-vv17fz_pgksfzclm",
@@ -426849,6 +427233,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373312",
+        "url": "https://www.ticketnetwork.com/en/p/8373312",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkSFZCLm",
@@ -426906,7 +427297,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-09-06T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373312"
   },
   {
     "id": "tm-megadeth-2027-milwaukee-vv17jz_pgkrcmzyk",
@@ -426955,6 +427347,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373315",
+        "url": "https://www.ticketnetwork.com/en/p/8373315",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_pGkRCmzyk",
@@ -427013,7 +427412,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-09-08T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373315"
   },
   {
     "id": "tm-megadeth-2027-fargo-vv1kvovpq_ga53kds",
@@ -427062,6 +427462,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373316",
+        "url": "https://www.ticketnetwork.com/en/p/8373316",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPQ_GA53kdS",
@@ -427119,7 +427526,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-09-09T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373316"
   },
   {
     "id": "tm-megadeth-2027-lincoln-vv17bz_pgkmwzqwq",
@@ -427168,6 +427576,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373317",
+        "url": "https://www.ticketnetwork.com/en/p/8373317",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkmWZQwQ",
@@ -427229,7 +427644,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-09-11T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373317"
   },
   {
     "id": "tm-megadeth-2027-wichita-vv17bz_pgkr9vwea",
@@ -427278,6 +427694,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373318",
+        "url": "https://www.ticketnetwork.com/en/p/8373318",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkR9VWEA",
@@ -427345,7 +427768,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-09-12T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373318"
   },
   {
     "id": "tm-remi-wolf-2027-washington-1a4zk4agkemriif",
@@ -427394,6 +427818,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376396",
+        "url": "https://www.ticketnetwork.com/en/p/8376396",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4aGkemrIIF",
@@ -427413,7 +427844,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376396"
   },
   {
     "id": "tm-remi-wolf-2027-berkeley-g5vyz_pmrwpif",
@@ -427462,6 +427894,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376395",
+        "url": "https://www.ticketnetwork.com/en/p/8376395",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pMrwPIf",
@@ -427484,7 +427923,8 @@
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376395"
   },
   {
     "id": "tm-remi-wolf-2027-phoenix-1av0z_pgkubtvhv",
@@ -427533,6 +427973,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376394",
+        "url": "https://www.ticketnetwork.com/en/p/8376394",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkUbtVhv",
@@ -427565,7 +428012,8 @@
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-05-01T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376394"
   },
   {
     "id": "tm-air-supply-2027-indianapolis-vv17fz_pgkskhuw1",
@@ -427614,6 +428062,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373812",
+        "url": "https://www.ticketnetwork.com/en/p/8373812",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkSkhuW1",
@@ -427651,7 +428106,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-03-28T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373812"
   },
   {
     "id": "tm-foreigner-2027-uncasville-g5vvz_pubgaoy",
@@ -427700,6 +428156,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373802",
+        "url": "https://www.ticketnetwork.com/en/p/8373802",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_pUBgAoY",
@@ -427729,7 +428192,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-04-27T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373802"
   },
   {
     "id": "tm-foreigner-2027-bangor-vv177z_pgkzwgr47",
@@ -427778,6 +428242,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373799",
+        "url": "https://www.ticketnetwork.com/en/p/8373799",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkzwgr47",
@@ -427841,7 +428312,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-07-15T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373799"
   },
   {
     "id": "tm-foreigner-2027-gilford-vv177z_pgkichxsp",
@@ -427996,6 +428468,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373801",
+        "url": "https://www.ticketnetwork.com/en/p/8373801",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pS6Zwby",
@@ -428043,7 +428522,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-07-18T23:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373801"
   },
   {
     "id": "tm-jason-aldean-2027-durant-vvg1yz_4wtfp_q",
@@ -428158,6 +428638,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369884",
+        "url": "https://www.ticketnetwork.com/en/p/8369884",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4NGkd4MaC1",
@@ -428180,7 +428667,8 @@
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369884"
   },
   {
     "id": "tm-cody-johnson-2027-gilford-vv177z_pgksxdnvq",
@@ -428320,12 +428808,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8332037",
+        "url": "https://www.ticketnetwork.com/en/p/8332037",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4oS",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332037"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-manchester-g5vhz_prka4i0",
@@ -428374,6 +428870,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369646",
+        "url": "https://www.ticketnetwork.com/en/p/8369646",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_pRKA4i0",
@@ -428402,7 +428905,8 @@
         "start": "2026-11-19T14:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369646"
   },
   {
     "id": "tm-travis-tritt-2027-nashville-z7r9jz1a7jf0f",
@@ -428451,11 +428955,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8117232",
+        "url": "https://www.ticketnetwork.com/en/p/8117232",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JF0F",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8117232"
   },
   {
     "id": "tm-travis-tritt-2027-oxford-z7r9jz1a7jao6",
@@ -428504,11 +429016,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8190801",
+        "url": "https://www.ticketnetwork.com/en/p/8190801",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JAO6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8190801"
   },
   {
     "id": "tm-travis-tritt-2027-macon-vvg1zz_k1bu6z9",
@@ -428557,11 +429077,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7775649",
+        "url": "https://www.ticketnetwork.com/en/p/7775649",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_k1bU6Z9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775649"
   },
   {
     "id": "tm-travis-tritt-2027-northfield-vv1kfz_pfzg7zdfa",
@@ -428610,11 +429138,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364346",
+        "url": "https://www.ticketnetwork.com/en/p/8364346",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kfZ_pFZG7zDFa",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364346"
   },
   {
     "id": "tm-travis-tritt-2027-waterloo-k7vgf_29lrc4r",
@@ -428716,11 +429252,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364348",
+        "url": "https://www.ticketnetwork.com/en/p/8364348",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4NGkdpZFkY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364348"
   },
   {
     "id": "tm-travis-tritt-2027-durham-g5evz_p2pdn7v",
@@ -428822,11 +429366,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364340",
+        "url": "https://www.ticketnetwork.com/en/p/8364340",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAaF3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364340"
   },
   {
     "id": "tm-travis-tritt-2027-bossier-city-g5viz_p2n3lzw",
@@ -428875,11 +429427,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364350",
+        "url": "https://www.ticketnetwork.com/en/p/8364350",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_p2n3LZw",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364350"
   },
   {
     "id": "tm-travis-tritt-2027-bristol-g5viz_4sc3z7i",
@@ -428981,11 +429541,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364353",
+        "url": "https://www.ticketnetwork.com/en/p/8364353",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOvPQ_GA2h4m9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364353"
   },
   {
     "id": "tm-travis-tritt-2027-gary-vv1aazk4tgkewapoq",
@@ -429034,11 +429602,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364355",
+        "url": "https://www.ticketnetwork.com/en/p/8364355",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4tGkewaPoq",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364355"
   },
   {
     "id": "tm-travis-tritt-2027-saint-louis-1a-zk4igkdyooqa",
@@ -429140,11 +429716,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364359",
+        "url": "https://www.ticketnetwork.com/en/p/8364359",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4JGkdb4gal",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364359"
   },
   {
     "id": "tm-travis-tritt-2027-nashville-vv1aazk4jgke0bm2-",
@@ -429193,11 +429777,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364361",
+        "url": "https://www.ticketnetwork.com/en/p/8364361",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4JGke0BM2-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364361"
   },
   {
     "id": "tm-travis-tritt-2027-mount-pleasant-z7r9jz1aaaark",
@@ -429246,11 +429838,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364862",
+        "url": "https://www.ticketnetwork.com/en/p/8364862",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAarK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364862"
   },
   {
     "id": "tm-travis-tritt-2027-lake-charles-z7r9jz1aaaajp",
@@ -429299,10 +429899,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366592",
+        "url": "https://www.ticketnetwork.com/en/p/8366592",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAaJp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366592"
   }
 ]

@@ -1438,7 +1438,7 @@
     "ticketmaster_event_id": "1803550089",
     "ticketmaster_url": "https://www.ticketmaster.es/event/stray-kids-world-tour-run-it-barcelona-tickets/1803550089?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-barcelona-estadi-olimpic-lluis-companys-7-24-2027--concerts-k-pop/production/7882337",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/stray-kids-world-tour-run-it-barcelona-tickets/1803550089?language=en-us",
     "last_verified_at": "2026-11-10",
@@ -1460,11 +1460,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7882337,
+        "url": "https://www.vividseats.com/stray-kids-tickets-barcelona-estadi-olimpic-lluis-companys-7-24-2027--concerts-k-pop/production/7882337",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

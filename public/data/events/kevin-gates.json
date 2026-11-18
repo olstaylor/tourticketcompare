@@ -84,7 +84,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAo8V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
     "seatgeek_url": "https://seatgeek.com/kevin-gates-tickets/richmond-virginia-altria-theater-2027-01-17-8-pm/concert/18746991",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kevin-gates-tickets-richmond-altria-theater-1-17-2027/production/7771670",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAo8V",
     "last_verified_at": "2026-11-17",
@@ -106,11 +106,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7771670,
+        "url": "https://www.vividseats.com/kevin-gates-tickets-richmond-altria-theater-1-17-2027/production/7771670",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

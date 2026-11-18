@@ -2388,7 +2388,7 @@
     "ticketmaster_event_id": "3500656DC4F66CA4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-22-10-2027/event/3500656DC4F66CA4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-london-the-o2---london-10-22-2027--theater-family/production/7870503",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-22-10-2027/event/3500656DC4F66CA4",
     "last_verified_at": "2026-11-17",
@@ -2410,11 +2410,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7870503,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-london-the-o2---london-10-22-2027--theater-family/production/7870503",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

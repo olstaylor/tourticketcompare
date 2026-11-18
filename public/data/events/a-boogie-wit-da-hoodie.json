@@ -727,7 +727,7 @@
     "ticketmaster_event_id": "00006562C25D9320",
     "ticketmaster_url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/power-1051-power-sessions-tickets-new-york-manhattan-center-hammerstein-ballroom-12-13-2026/production/7801883",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
     "last_verified_at": "2026-11-07",
@@ -749,11 +749,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7801883,
+        "url": "https://www.vividseats.com/power-1051-power-sessions-tickets-new-york-manhattan-center-hammerstein-ballroom-12-13-2026/production/7801883",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

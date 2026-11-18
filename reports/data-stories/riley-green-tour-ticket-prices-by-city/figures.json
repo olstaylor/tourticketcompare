@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-18",
   "artistSlug": "riley-green",
   "artist": "Riley Green",
   "artistPageIndexable": true,
@@ -11,8 +11,8 @@
   "siteLabel": "Vivid Seats",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-17T14:57:32.775Z",
-  "capturedTo": "2026-11-17T14:57:32.776Z",
+  "capturedFrom": "2026-11-18T13:31:57.254Z",
+  "capturedTo": "2026-11-18T13:31:57.254Z",
   "tourDates": 33,
   "coverage": {
     "marketCities": 25,
@@ -32,14 +32,14 @@
     ]
   },
   "low": {
-    "city": "Syracuse",
+    "city": "Tulsa",
     "country": "United States",
-    "venue": "Empower Federal Credit Union Amphitheater at Lakeview",
-    "eventId": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
-    "localDate": "2027-07-15",
-    "price": 63,
+    "venue": "BOK Center",
+    "eventId": "tm-riley-green-2027-tulsa-1aozkfsgkexhv7n",
+    "localDate": "2027-05-20",
+    "price": 66,
     "currency": "USD",
-    "capturedAt": "2026-11-17T14:57:32.776Z"
+    "capturedAt": "2026-11-18T13:31:57.254Z"
   },
   "high": {
     "city": "Brandon",
@@ -47,33 +47,22 @@
     "venue": "Brandon Amphitheater",
     "eventId": "tm-riley-green-2027-brandon-g5viz_3t3qkqr",
     "localDate": "2027-06-03",
-    "price": 165,
+    "price": 161,
     "currency": "USD",
-    "capturedAt": "2026-11-17T14:57:32.775Z"
+    "capturedAt": "2026-11-18T13:31:57.254Z"
   },
-  "median": 89,
-  "ratio": 2.6,
+  "median": 85.5,
+  "ratio": 2.4,
   "cities": [
-    {
-      "city": "Syracuse",
-      "country": "United States",
-      "venue": "Empower Federal Credit Union Amphitheater at Lakeview",
-      "eventId": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
-      "localDate": "2027-07-15",
-      "price": 63,
-      "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.776Z",
-      "path": "/artists/riley-green/tickets/syracuse-united-states"
-    },
     {
       "city": "Tulsa",
       "country": "United States",
       "venue": "BOK Center",
       "eventId": "tm-riley-green-2027-tulsa-1aozkfsgkexhv7n",
       "localDate": "2027-05-20",
-      "price": 67,
+      "price": 66,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/tulsa-united-states"
     },
     {
@@ -84,7 +73,7 @@
       "localDate": "2027-06-25",
       "price": 69,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.776Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/clarkston-united-states"
     },
     {
@@ -93,9 +82,9 @@
       "venue": "Dos Equis Pavilion",
       "eventId": "tm-riley-green-2027-dallas-vvg1yz_k1h0ipi",
       "localDate": "2027-05-21",
-      "price": 75,
+      "price": 73,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/dallas-united-states"
     },
     {
@@ -104,10 +93,32 @@
       "venue": "American Family Insurance Amphitheater - Summerfest Grounds",
       "eventId": "tm-riley-green-2027-milwaukee-vv1a6zkfwgkdjdyhh",
       "localDate": "2027-07-31",
-      "price": 75,
+      "price": 74,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.776Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/milwaukee-united-states"
+    },
+    {
+      "city": "Syracuse",
+      "country": "United States",
+      "venue": "Empower Federal Credit Union Amphitheater at Lakeview",
+      "eventId": "tm-riley-green-2027-syracuse-k7vgf_k1rwxjy",
+      "localDate": "2027-07-15",
+      "price": 77,
+      "currency": "USD",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
+      "path": "/artists/riley-green/tickets/syracuse-united-states"
+    },
+    {
+      "city": "Knoxville",
+      "country": "United States",
+      "venue": "Food City Center",
+      "eventId": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
+      "localDate": "2027-04-30",
+      "price": 78,
+      "currency": "USD",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
+      "path": "/artists/riley-green/tickets/knoxville-united-states"
     },
     {
       "city": "Evansville",
@@ -115,9 +126,9 @@
       "venue": "Ford Center",
       "eventId": "tm-riley-green-2027-evansville-vv16azkfwxpza8acgv",
       "localDate": "2027-07-29",
-      "price": 81,
+      "price": 79,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.776Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/evansville-united-states"
     },
     {
@@ -126,9 +137,9 @@
       "venue": "INTRUST Bank Arena",
       "eventId": "tm-riley-green-2027-wichita-vv1akzkfwgkdilqfv",
       "localDate": "2027-05-07",
-      "price": 82,
+      "price": 80,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/wichita-united-states"
     },
     {
@@ -137,9 +148,9 @@
       "venue": "Bethel Woods Center for the Arts",
       "eventId": "tm-riley-green-2027-bethel-k7vgf_kkxvsto",
       "localDate": "2027-07-23",
-      "price": 83,
+      "price": 81,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.776Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/bethel-united-states"
     },
     {
@@ -148,32 +159,10 @@
       "venue": "Xfinity Center",
       "eventId": "tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm",
       "localDate": "2027-07-24",
-      "price": 83,
+      "price": 81,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.776Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/mansfield-united-states"
-    },
-    {
-      "city": "Knoxville",
-      "country": "United States",
-      "venue": "Food City Center",
-      "eventId": "tm-riley-green-2027-knoxville-g5viz_3wie3-p",
-      "localDate": "2027-04-30",
-      "price": 87,
-      "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
-      "path": "/artists/riley-green/tickets/knoxville-united-states"
-    },
-    {
-      "city": "Columbia",
-      "country": "United States",
-      "venue": "Merriweather Post Pavilion",
-      "eventId": "tm-riley-green-2027-columbia-1a4zkfwgkdajcik",
-      "localDate": "2027-07-22",
-      "price": 89,
-      "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.776Z",
-      "path": "/artists/riley-green/tickets/columbia-united-states"
     },
     {
       "city": "Spokane",
@@ -181,10 +170,32 @@
       "venue": "Numerica Veterans Arena",
       "eventId": "tm-riley-green-2027-spokane-z7r9jz1aaezrp",
       "localDate": "2027-04-01",
-      "price": 89,
+      "price": 83,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/spokane-united-states"
+    },
+    {
+      "city": "Columbia",
+      "country": "United States",
+      "venue": "Merriweather Post Pavilion",
+      "eventId": "tm-riley-green-2027-columbia-1a4zkfwgkdajcik",
+      "localDate": "2027-07-22",
+      "price": 88,
+      "currency": "USD",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
+      "path": "/artists/riley-green/tickets/columbia-united-states"
+    },
+    {
+      "city": "Raleigh",
+      "country": "United States",
+      "venue": "Coastal Credit Union Music Park at Walnut Creek",
+      "eventId": "tm-riley-green-2027-raleigh-g5evz_ke-2cfw",
+      "localDate": "2027-04-29",
+      "price": 92,
+      "currency": "USD",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
+      "path": "/artists/riley-green/tickets/raleigh-united-states"
     },
     {
       "city": "Rogers",
@@ -194,19 +205,19 @@
       "localDate": "2027-05-08",
       "price": 94,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/rogers-united-states"
     },
     {
-      "city": "Raleigh",
+      "city": "Gilford",
       "country": "United States",
-      "venue": "Coastal Credit Union Music Park at Walnut Creek",
-      "eventId": "tm-riley-green-2027-raleigh-g5evz_ke-2cfw",
-      "localDate": "2027-04-29",
+      "venue": "BankNH Pavilion",
+      "eventId": "tm-riley-green-2027-gilford-vv1avzkfsgke-elvi",
+      "localDate": "2027-06-18",
       "price": 95,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
-      "path": "/artists/riley-green/tickets/raleigh-united-states"
+      "capturedAt": "2026-11-18T13:31:57.254Z",
+      "path": "/artists/riley-green/tickets/gilford-united-states"
     },
     {
       "city": "Seattle",
@@ -216,19 +227,8 @@
       "localDate": "2027-04-02",
       "price": 96,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/seattle-united-states"
-    },
-    {
-      "city": "Gilford",
-      "country": "United States",
-      "venue": "BankNH Pavilion",
-      "eventId": "tm-riley-green-2027-gilford-vv1avzkfsgke-elvi",
-      "localDate": "2027-06-18",
-      "price": 97,
-      "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
-      "path": "/artists/riley-green/tickets/gilford-united-states"
     },
     {
       "city": "Allentown",
@@ -236,9 +236,9 @@
       "venue": "PPL Center",
       "eventId": "tm-riley-green-2027-allentown-1adzz_3gkdwsja0",
       "localDate": "2027-07-16",
-      "price": 108,
+      "price": 105,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.776Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/allentown-united-states"
     },
     {
@@ -247,9 +247,9 @@
       "venue": "The Wharf Amphitheater",
       "eventId": "tm-riley-green-2027-orange-beach-g5viz_kvcnsvm",
       "localDate": "2027-06-04",
-      "price": 110,
+      "price": 107,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/orange-beach-united-states"
     },
     {
@@ -258,9 +258,9 @@
       "venue": "Soaring Eagle Casino & Resort",
       "eventId": "tm-riley-green-2027-mount-pleasant-z7r9jz1aaef_z",
       "localDate": "2027-06-10",
-      "price": 119,
+      "price": 116,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/mount-pleasant-united-states"
     },
     {
@@ -269,9 +269,9 @@
       "venue": "Matthew Knight Arena",
       "eventId": "tm-riley-green-2027-eugene-vvg1hz_3divdk0",
       "localDate": "2027-04-03",
-      "price": 129,
+      "price": 126,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/eugene-united-states"
     },
     {
@@ -282,7 +282,7 @@
       "localDate": "2027-05-01",
       "price": 133,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/greenville-united-states"
     },
     {
@@ -291,9 +291,9 @@
       "venue": "Brandon Amphitheater",
       "eventId": "tm-riley-green-2027-brandon-g5viz_3t3qkqr",
       "localDate": "2027-06-03",
-      "price": 165,
+      "price": 161,
       "currency": "USD",
-      "capturedAt": "2026-11-17T14:57:32.775Z",
+      "capturedAt": "2026-11-18T13:31:57.254Z",
       "path": "/artists/riley-green/tickets/brandon-united-states"
     }
   ],
@@ -307,9 +307,9 @@
         "venue": "Numerica Veterans Arena",
         "eventId": "tm-riley-green-2027-spokane-z7r9jz1aaezrp",
         "localDate": "2027-04-01",
-        "price": 109.25,
+        "price": 101.2,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:48.768Z",
+        "capturedAt": "2026-11-18T04:24:24.899Z",
         "path": "/artists/riley-green/tickets/spokane-united-states"
       },
       {
@@ -320,7 +320,7 @@
         "localDate": "2027-04-02",
         "price": 81.65,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:48.936Z",
+        "capturedAt": "2026-11-18T04:24:25.140Z",
         "path": "/artists/riley-green/tickets/seattle-united-states"
       },
       {
@@ -331,7 +331,7 @@
         "localDate": "2027-04-03",
         "price": 110.4,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:49.133Z",
+        "capturedAt": "2026-11-18T04:24:25.396Z",
         "path": "/artists/riley-green/tickets/eugene-united-states"
       },
       {
@@ -342,7 +342,7 @@
         "localDate": "2027-04-29",
         "price": 81.65,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:49.983Z",
+        "capturedAt": "2026-11-18T04:24:26.345Z",
         "path": "/artists/riley-green/tickets/raleigh-united-states"
       },
       {
@@ -353,7 +353,7 @@
         "localDate": "2027-04-30",
         "price": 86.25,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:50.230Z",
+        "capturedAt": "2026-11-18T04:24:26.612Z",
         "path": "/artists/riley-green/tickets/knoxville-united-states"
       },
       {
@@ -364,7 +364,7 @@
         "localDate": "2027-05-01",
         "price": 127.65,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:50.385Z",
+        "capturedAt": "2026-11-18T04:24:26.869Z",
         "path": "/artists/riley-green/tickets/greenville-united-states"
       },
       {
@@ -375,7 +375,7 @@
         "localDate": "2027-05-07",
         "price": 81.65,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:50.766Z",
+        "capturedAt": "2026-11-18T04:24:27.351Z",
         "path": "/artists/riley-green/tickets/wichita-united-states"
       },
       {
@@ -386,7 +386,7 @@
         "localDate": "2027-05-08",
         "price": 80.5,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:50.913Z",
+        "capturedAt": "2026-11-18T04:24:27.657Z",
         "path": "/artists/riley-green/tickets/rogers-united-states"
       },
       {
@@ -397,7 +397,7 @@
         "localDate": "2027-05-20",
         "price": 79.35,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:51.075Z",
+        "capturedAt": "2026-11-18T04:24:27.898Z",
         "path": "/artists/riley-green/tickets/tulsa-united-states"
       },
       {
@@ -408,7 +408,7 @@
         "localDate": "2027-05-21",
         "price": 62.1,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:51.336Z",
+        "capturedAt": "2026-11-18T04:24:28.125Z",
         "path": "/artists/riley-green/tickets/dallas-united-states"
       },
       {
@@ -419,7 +419,7 @@
         "localDate": "2027-06-03",
         "price": 174.8,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:51.486Z",
+        "capturedAt": "2026-11-18T04:24:28.364Z",
         "path": "/artists/riley-green/tickets/brandon-united-states"
       },
       {
@@ -428,9 +428,9 @@
         "venue": "Soaring Eagle Casino & Resort",
         "eventId": "tm-riley-green-2027-mount-pleasant-z7r9jz1aaef_z",
         "localDate": "2027-06-10",
-        "price": 94.3,
+        "price": 92,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:51.637Z",
+        "capturedAt": "2026-11-18T04:24:28.616Z",
         "path": "/artists/riley-green/tickets/mount-pleasant-united-states"
       },
       {
@@ -441,7 +441,7 @@
         "localDate": "2027-06-25",
         "price": 59.8,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:51.794Z",
+        "capturedAt": "2026-11-18T04:24:28.843Z",
         "path": "/artists/riley-green/tickets/clarkston-united-states"
       },
       {
@@ -452,7 +452,7 @@
         "localDate": "2027-07-15",
         "price": 97.75,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:52.328Z",
+        "capturedAt": "2026-11-18T04:24:29.426Z",
         "path": "/artists/riley-green/tickets/syracuse-united-states"
       },
       {
@@ -463,7 +463,7 @@
         "localDate": "2027-07-16",
         "price": 93.15,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:52.517Z",
+        "capturedAt": "2026-11-18T04:24:29.869Z",
         "path": "/artists/riley-green/tickets/allentown-united-states"
       },
       {
@@ -474,7 +474,7 @@
         "localDate": "2027-07-22",
         "price": 105.8,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:52.682Z",
+        "capturedAt": "2026-11-18T04:24:30.093Z",
         "path": "/artists/riley-green/tickets/columbia-united-states"
       },
       {
@@ -485,7 +485,7 @@
         "localDate": "2027-07-23",
         "price": 77.05,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:52.868Z",
+        "capturedAt": "2026-11-18T04:24:30.427Z",
         "path": "/artists/riley-green/tickets/bethel-united-states"
       },
       {
@@ -494,9 +494,9 @@
         "venue": "Xfinity Center",
         "eventId": "tm-riley-green-2027-mansfield-vv1avzkfwgke0hynm",
         "localDate": "2027-07-24",
-        "price": 79.35,
+        "price": 78.2,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:53.030Z",
+        "capturedAt": "2026-11-18T04:24:30.680Z",
         "path": "/artists/riley-green/tickets/mansfield-united-states"
       },
       {
@@ -505,9 +505,9 @@
         "venue": "Ford Center",
         "eventId": "tm-riley-green-2027-evansville-vv16azkfwxpza8acgv",
         "localDate": "2027-07-29",
-        "price": 71.3,
+        "price": 70.15,
         "currency": "USD",
-        "capturedAt": "2026-11-17T14:27:53.261Z",
+        "capturedAt": "2026-11-18T04:24:30.900Z",
         "path": "/artists/riley-green/tickets/evansville-united-states"
       }
     ]

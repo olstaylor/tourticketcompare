@@ -821,7 +821,7 @@
         "event_id": "107680811",
         "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-the-o2-arena-27-1-2027/event/107680811",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -898,7 +898,7 @@
         "event_id": "107680659",
         "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-29-1-2027/event/107680659",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -961,6 +961,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683569",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-31-1-2027/event/107683569",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_pGkwcXzVj",
@@ -970,7 +977,8 @@
       "LIVE NATION MUSIC UK LTD"
     ],
     "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-31-1-2027/event/107683569"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-london-1amzk4ygkd4ogxu",
@@ -1019,6 +1027,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682615",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-ovo-arena-wembley-2-2-2027/event/107682615",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4YGkd4ogXU",
@@ -1043,6 +1058,7 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-ovo-arena-wembley-2-2-2027/event/107682615"
   }
 ]

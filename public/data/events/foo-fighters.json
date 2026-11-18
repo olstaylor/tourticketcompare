@@ -460,6 +460,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681044",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-helsinki-olympic-stadium-12-6-2027/event/107681044",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ1kP9ZoZN",
@@ -491,7 +498,8 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T07:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-helsinki-olympic-stadium-12-6-2027/event/107681044"
   },
   {
     "id": "tm-foo-fighters-2027-k-benhavn-sv-z698xzc4z16vbe4w_s",
@@ -634,6 +642,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681039",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-9-9-2027/event/107681039",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_pGknYaOWD",
@@ -663,7 +678,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372601/Foo-Fighters-tickets-Thu-Sep-9-2027-Wembley-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372601"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372601",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-9-9-2027/event/107681039"
   },
   {
     "id": "tm-foo-fighters-2027-london-1aegz_pgky5a3fo",
@@ -726,6 +742,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681040",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-11-9-2027/event/107681040",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_pGkY5a3fo",
@@ -755,7 +778,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372602/Foo-Fighters-tickets-Sat-Sep-11-2027-Wembley-Stadium",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372602"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372602",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-11-9-2027/event/107681040"
   },
   {
     "id": "tm-foo-fighters-2027-darlington-1adjz_pgknom0ij",

@@ -1656,11 +1656,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107202114",
-        "url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -1674,7 +1674,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
+    "stubhub_international_url": "",
     "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1740,7 +1740,7 @@
         "event_id": "107202115",
         "url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1894,7 +1894,7 @@
         "event_id": "106969162",
         "url": "https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1976,7 +1976,7 @@
         "event_id": "106969161",
         "url": "https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2225,7 +2225,7 @@
         "event_id": "106972096",
         "url": "https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2314,7 +2314,7 @@
         "event_id": "106969160",
         "url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

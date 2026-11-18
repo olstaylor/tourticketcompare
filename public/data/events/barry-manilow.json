@@ -1819,7 +1819,7 @@
     "ticketmaster_event_id": "1700652BD1B07571",
     "ticketmaster_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-01-2027/event/1700652BD1B07571",
     "seatgeek_url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-01-7-pm/concert/18590289",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/barry-manilow-tickets-las-vegas-westgate-las-vegas-casino-and-resort-4-1-2027/production/7555638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/barry-manilow-las-vegas-nevada-04-01-2027/event/1700652BD1B07571",
     "last_verified_at": "2026-11-07",
@@ -1841,11 +1841,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7555638,
+        "url": "https://www.vividseats.com/barry-manilow-tickets-las-vegas-westgate-las-vegas-casino-and-resort-4-1-2027/production/7555638",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

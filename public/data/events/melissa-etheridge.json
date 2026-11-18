@@ -136,7 +136,7 @@
     "ticketmaster_event_id": "11006566C909969A",
     "ticketmaster_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-richmond-british-columbia-03-23-2027/event/11006566C909969A",
     "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/richmond-canada-river-rock-casino-2027-03-23-8-pm/concert/18754737",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-richmond-river-rock-casino-3-23-2027/production/7834842",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/melissa-etheridge-rise-again-2027-richmond-british-columbia-03-23-2027/event/11006566C909969A",
     "last_verified_at": "2026-11-17",
@@ -158,11 +158,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834842,
+        "url": "https://www.vividseats.com/melissa-etheridge-tickets-richmond-river-rock-casino-3-23-2027/production/7834842",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

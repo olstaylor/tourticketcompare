@@ -1484,7 +1484,7 @@
     "ticketmaster_event_id": "11006567183E5E01",
     "ticketmaster_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-vancouver-british-columbia-05-09-2027/event/11006567183E5E01",
     "seatgeek_url": "https://seatgeek.com/sam-fender-tickets/vancouver-canada-rogers-arena-2027-05-09-8-pm/concert/18760797",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-vancouver-rogers-arena-5-9-2027--concerts-alternative/production/7863258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-vancouver-british-columbia-05-09-2027/event/11006567183E5E01",
     "last_verified_at": "2026-11-14",
@@ -1506,11 +1506,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7863258,
+        "url": "https://www.vividseats.com/sam-fender-tickets-vancouver-rogers-arena-5-9-2027--concerts-alternative/production/7863258",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

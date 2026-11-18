@@ -113,7 +113,7 @@
     "ticketmaster_event_id": "0600656DD5BD1DD5",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-minneapolis-target-center-3-12-2027--concerts-rb/production/7886345",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
     "last_verified_at": "2026-11-17",
@@ -135,11 +135,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886345,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-minneapolis-target-center-3-12-2027--concerts-rb/production/7886345",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -218,7 +218,7 @@
     "ticketmaster_event_id": "0700656DBEF9957E",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-milwaukee-fiserv-forum-3-13-2027--concerts-rb/production/7886351",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
     "last_verified_at": "2026-11-17",
@@ -240,11 +240,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886351,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-milwaukee-fiserv-forum-3-13-2027--concerts-rb/production/7886351",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -320,7 +320,7 @@
     "ticketmaster_event_id": "0600656DFBDB8956",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-kansas-city-t-mobile-center-3-15-2027--concerts-rb/production/7886355",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
     "last_verified_at": "2026-11-17",
@@ -342,11 +342,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886355,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-kansas-city-t-mobile-center-3-15-2027--concerts-rb/production/7886355",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -405,7 +405,7 @@
     "ticketmaster_event_id": "0500656DFDACA67C",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-columbus-nationwide-arena-3-18-2027--concerts-rb/production/7886363",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
     "last_verified_at": "2026-11-17",
@@ -427,11 +427,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886363,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-columbus-nationwide-arena-3-18-2027--concerts-rb/production/7886363",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -511,7 +511,7 @@
     "ticketmaster_event_id": "0000656DCF3A294D",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-buffalo-keybank-center-3-19-2027--concerts-rb/production/7886365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
     "last_verified_at": "2026-11-17",
@@ -533,11 +533,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886365,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-buffalo-keybank-center-3-19-2027--concerts-rb/production/7886365",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -612,7 +612,7 @@
     "ticketmaster_event_id": "0400656DD5DD929E",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-chicago-united-center-3-21-2027--concerts-rb/production/7886369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
     "last_verified_at": "2026-11-17",
@@ -634,11 +634,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886369,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-chicago-united-center-3-21-2027--concerts-rb/production/7886369",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -713,7 +713,7 @@
     "ticketmaster_event_id": "0800656CA6D744CF",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-detroit-little-caesars-arena-3-22-2027--concerts-rb/production/7886377",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
     "last_verified_at": "2026-11-17",
@@ -735,11 +735,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886377,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-detroit-little-caesars-arena-3-22-2027--concerts-rb/production/7886377",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -814,7 +814,7 @@
     "ticketmaster_event_id": "1000656B90865C8C",
     "ticketmaster_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-toronto-scotiabank-arena-3-24-2027--concerts-rb/production/7886519",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
     "last_verified_at": "2026-11-17",
@@ -836,11 +836,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886519,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-toronto-scotiabank-arena-3-24-2027--concerts-rb/production/7886519",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -913,7 +913,7 @@
     "ticketmaster_event_id": "3000656C9A4649CA",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-brooklyn-barclays-center-3-26-2027--concerts-rb/production/7886379",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
     "last_verified_at": "2026-11-17",
@@ -935,11 +935,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886379,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-brooklyn-barclays-center-3-26-2027--concerts-rb/production/7886379",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1014,7 +1014,7 @@
     "ticketmaster_event_id": "0100656BA4E99F63",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-boston-td-garden-3-27-2027--concerts-rb/production/7886381",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
     "last_verified_at": "2026-11-17",
@@ -1036,11 +1036,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886381,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-boston-td-garden-3-27-2027--concerts-rb/production/7886381",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1115,7 +1115,7 @@
     "ticketmaster_event_id": "1600656D9C3E7346",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-pittsburgh-ppg-paints-arena-3-29-2027--concerts-rb/production/7886383",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
     "last_verified_at": "2026-11-17",
@@ -1137,11 +1137,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886383,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-pittsburgh-ppg-paints-arena-3-29-2027--concerts-rb/production/7886383",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1215,7 +1215,7 @@
     "ticketmaster_event_id": "1500656A1E19AB74",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-washington-district-of-columbia-04-01-2027/event/1500656A1E19AB74",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-washington-capital-one-arena-4-1-2027--concerts-rb/production/7886387",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-washington-district-of-columbia-04-01-2027/event/1500656A1E19AB74",
     "last_verified_at": "2026-11-17",
@@ -1237,11 +1237,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886387,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-washington-capital-one-arena-4-1-2027--concerts-rb/production/7886387",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1311,7 +1311,7 @@
     "ticketmaster_event_id": "0200656CE61A4D98",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-newark-prudential-center-4-2-2027--concerts-rb/production/7886391",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
     "last_verified_at": "2026-11-17",
@@ -1333,11 +1333,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886391,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-newark-prudential-center-4-2-2027--concerts-rb/production/7886391",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1417,7 +1417,7 @@
     "ticketmaster_event_id": "3000656DCE0894DC",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-philadelphia-xfinity-mobile-arena-4-3-2027--concerts-rb/production/7886393",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
     "last_verified_at": "2026-11-17",
@@ -1439,11 +1439,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886393,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-philadelphia-xfinity-mobile-arena-4-3-2027--concerts-rb/production/7886393",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1517,7 +1517,7 @@
     "ticketmaster_event_id": "2D00656C172FF90A",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-columbia-colonial-life-arena-4-5-2027--concerts-rb/production/7886395",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
     "last_verified_at": "2026-11-17",
@@ -1539,11 +1539,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886395,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-columbia-colonial-life-arena-4-5-2027--concerts-rb/production/7886395",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1618,7 +1618,7 @@
     "ticketmaster_event_id": "2D00656EE5986580",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-charlotte-spectrum-center-4-7-2027--concerts-rb/production/7886397",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
     "last_verified_at": "2026-11-17",
@@ -1640,11 +1640,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886397,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-charlotte-spectrum-center-4-7-2027--concerts-rb/production/7886397",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1718,7 +1718,7 @@
     "ticketmaster_event_id": "2D006570AA318FAB",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-raleigh-lenovo-center-4-8-2027--concerts-rb/production/7886405",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
     "last_verified_at": "2026-11-17",
@@ -1740,11 +1740,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886405,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-raleigh-lenovo-center-4-8-2027--concerts-rb/production/7886405",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1819,7 +1819,7 @@
     "ticketmaster_event_id": "0E00656DB826CBCB",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-atlanta-state-farm-arena-4-10-2027--concerts-rb/production/7886407",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
     "last_verified_at": "2026-11-17",
@@ -1841,11 +1841,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886407,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-atlanta-state-farm-arena-4-10-2027--concerts-rb/production/7886407",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1920,7 +1920,7 @@
     "ticketmaster_event_id": "220065709D572F97",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-orlando-kia-center-4-12-2027--concerts-rb/production/7886411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
     "last_verified_at": "2026-11-17",
@@ -1942,11 +1942,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886411,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-orlando-kia-center-4-12-2027--concerts-rb/production/7886411",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2021,7 +2021,7 @@
     "ticketmaster_event_id": "1B00656CB3E4DDAD",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/memphis-tennessee-fedexforum-2027-04-16-7-30-pm/concert/18783894",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-memphis-fedexforum-4-16-2027--concerts-rb/production/7886415",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
     "last_verified_at": "2026-11-17",
@@ -2043,11 +2043,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886415,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-memphis-fedexforum-4-16-2027--concerts-rb/production/7886415",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2122,7 +2122,7 @@
     "ticketmaster_event_id": "1B00656D84D36E46",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/new-orleans-louisiana-smoothie-king-center-2027-04-17-7-30-pm/concert/18783895",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-new-orleans-smoothie-king-center-4-17-2027--concerts-rb/production/7886419",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
     "last_verified_at": "2026-11-17",
@@ -2144,11 +2144,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886419,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-new-orleans-smoothie-king-center-4-17-2027--concerts-rb/production/7886419",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2223,7 +2223,7 @@
     "ticketmaster_event_id": "0C00656D6D9D20EE",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/fort-worth-texas-ariat-arena-2027-04-20-7-30-pm/concert/18783899",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-fort-worth-ariat-arena-4-20-2027--concerts-rb/production/7886333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
     "last_verified_at": "2026-11-17",
@@ -2245,11 +2245,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886333,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-fort-worth-ariat-arena-4-20-2027--concerts-rb/production/7886333",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2324,7 +2324,7 @@
     "ticketmaster_event_id": "3A00656D1B7EC8F7",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/austin-texas-moody-center-atx-2027-04-22-7-30-pm/concert/18783901",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-austin-moody-center-atx-4-22-2027--concerts-rb/production/7886425",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
     "last_verified_at": "2026-11-17",
@@ -2346,11 +2346,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886425,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-austin-moody-center-atx-4-22-2027--concerts-rb/production/7886425",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2430,7 +2430,7 @@
     "ticketmaster_event_id": "1E00656D974A426D",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/denver-colorado-ball-arena-2027-04-27-7-30-pm/concert/18783903",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-denver-ball-arena-4-27-2027--concerts-rb/production/7886437",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
     "last_verified_at": "2026-11-17",
@@ -2452,11 +2452,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886437,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-denver-ball-arena-4-27-2027--concerts-rb/production/7886437",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2531,7 +2531,7 @@
     "ticketmaster_event_id": "1900656DD81E9E06",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-29-7-30-pm/concert/18783904",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-phoenix-mortgage-matchup-center-4-29-2027--concerts-rb/production/7886453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
     "last_verified_at": "2026-11-17",
@@ -2553,11 +2553,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886453,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-phoenix-mortgage-matchup-center-4-29-2027--concerts-rb/production/7886453",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2632,7 +2632,7 @@
     "ticketmaster_event_id": "0900656CC740F0BE",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/anaheim-california-honda-center-2027-05-01-7-30-pm/concert/18783907",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-anaheim-honda-center-5-1-2027--concerts-rb/production/7886467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
     "last_verified_at": "2026-11-17",
@@ -2654,11 +2654,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886467,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-anaheim-honda-center-5-1-2027--concerts-rb/production/7886467",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2733,7 +2733,7 @@
     "ticketmaster_event_id": "1C00656AF77737C3",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/san-francisco-california-chase-center-2027-05-07-7-30-pm/concert/18783908",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-san-francisco-chase-center-5-7-2027--concerts-rb/production/7886469",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
     "last_verified_at": "2026-11-17",
@@ -2755,11 +2755,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886469,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-san-francisco-chase-center-5-7-2027--concerts-rb/production/7886469",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2839,7 +2839,7 @@
     "ticketmaster_event_id": "1C00656CC5E41325",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/sacramento-california-golden-1-center-2027-05-09-7-30-pm/concert/18783909",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-sacramento-golden-1-center-5-9-2027--concerts-rb/production/7886473",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
     "last_verified_at": "2026-11-17",
@@ -2861,11 +2861,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886473,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-sacramento-golden-1-center-5-9-2027--concerts-rb/production/7886473",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2940,7 +2940,7 @@
     "ticketmaster_event_id": "0F00656BCACEBED4",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
     "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/portland-oregon-moda-center-2027-05-12-7-30-pm/concert/18783913",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-portland-moda-center-5-12-2027--concerts-rb/production/7886475",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
     "last_verified_at": "2026-11-17",
@@ -2962,11 +2962,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886475,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-portland-moda-center-5-12-2027--concerts-rb/production/7886475",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -3030,7 +3030,7 @@
     "ticketmaster_event_id": "0F00656DC4109AB2",
     "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-seattle-climate-pledge-arena-5-13-2027--concerts-rb/production/7886479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
     "last_verified_at": "2026-11-17",
@@ -3052,11 +3052,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886479,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-seattle-climate-pledge-arena-5-13-2027--concerts-rb/production/7886479",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

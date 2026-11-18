@@ -586,7 +586,7 @@
     "ticketmaster_event_id": "2300656AB0260F7B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-9-2027--concerts-rock/production/7879721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
     "last_verified_at": "2026-11-17",
@@ -608,11 +608,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7879721,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-9-2027--concerts-rock/production/7879721",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -665,7 +665,7 @@
     "ticketmaster_event_id": "2300656C0B252511",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-11-2027--concerts-rock/production/7879767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
     "last_verified_at": "2026-11-17",
@@ -687,11 +687,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7879767,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-11-2027--concerts-rock/production/7879767",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

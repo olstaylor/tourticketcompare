@@ -781,7 +781,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E00656CA2B3504A",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-albuquerque-new-mexico-05-14-2027/event/1E00656CA2B3504A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2027-05-14-7-pm/concert/18778362",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-albuquerque-new-mexico-05-14-2027/event/1E00656CA2B3504A",
@@ -797,11 +797,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778362,
+        "url": "https://seatgeek.com/megadeth-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2027-05-14-7-pm/concert/18778362",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -998,7 +998,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A006569BA2D6CAD",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-chula-vista-california-05-18-2027/event/0A006569BA2D6CAD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/chula-vista-california-north-island-credit-union-amphitheatre-2027-05-18-7-pm/concert/18778358",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-chula-vista-california-05-18-2027/event/0A006569BA2D6CAD",
@@ -1014,11 +1014,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778358,
+        "url": "https://seatgeek.com/megadeth-tickets/chula-vista-california-north-island-credit-union-amphitheatre-2027-05-18-7-pm/concert/18778358",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1316,7 +1316,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006566E14E9EDF",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-auburn-washington-05-22-2027/event/0F006566E14E9EDF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/auburn-washington-white-river-amphitheatre-2027-05-22-7-pm/concert/18778359",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-auburn-washington-05-22-2027/event/0F006566E14E9EDF",
@@ -1332,11 +1332,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778359,
+        "url": "https://seatgeek.com/megadeth-tickets/auburn-washington-white-river-amphitheatre-2027-05-22-7-pm/concert/18778359",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1967,7 +1967,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0800656CD0CD7B92",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-clarkston-michigan-06-04-2027/event/0800656CD0CD7B92",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/clarkston-michigan-pine-knob-music-theatre-2027-06-04-7-pm/concert/18778380",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-clarkston-michigan-06-04-2027/event/0800656CD0CD7B92",
@@ -1983,11 +1983,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778380,
+        "url": "https://seatgeek.com/megadeth-tickets/clarkston-michigan-pine-knob-music-theatre-2027-06-04-7-pm/concert/18778380",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2163,7 +2163,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1600656C93DD6BA8",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-burgettstown-pennsylvania-06-07-2027/event/1600656C93DD6BA8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/burgettstown-pennsylvania-the-pavilion-at-star-lake-2027-06-07-7-pm/concert/18778386",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-burgettstown-pennsylvania-06-07-2027/event/1600656C93DD6BA8",
@@ -2179,11 +2179,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778386,
+        "url": "https://seatgeek.com/megadeth-tickets/burgettstown-pennsylvania-the-pavilion-at-star-lake-2027-06-07-7-pm/concert/18778386",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2269,7 +2269,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500656AAEAC9098",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-bristow-virginia-06-08-2027/event/1500656AAEAC9098",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/bristow-virginia-jiffy-lube-live-2027-06-08-7-pm/concert/18778388",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-bristow-virginia-06-08-2027/event/1500656AAEAC9098",
@@ -2285,11 +2285,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778388,
+        "url": "https://seatgeek.com/megadeth-tickets/bristow-virginia-jiffy-lube-live-2027-06-08-7-pm/concert/18778388",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2595,7 +2595,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200656BA6ABC704",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-camden-new-jersey-06-13-2027/event/0200656BA6ABC704",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/camden-new-jersey-freedom-mortgage-pavilion-2027-06-13-7-pm/concert/18778391",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-camden-new-jersey-06-13-2027/event/0200656BA6ABC704",
@@ -2611,11 +2611,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778391,
+        "url": "https://seatgeek.com/megadeth-tickets/camden-new-jersey-freedom-mortgage-pavilion-2027-06-13-7-pm/concert/18778391",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2826,7 +2826,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006569AE2A8004",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-charlotte-north-carolina-06-17-2027/event/2D006569AE2A8004",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/charlotte-north-carolina-truliant-amphitheater-2027-06-17-7-pm/concert/18778393",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-charlotte-north-carolina-06-17-2027/event/2D006569AE2A8004",
@@ -2842,11 +2842,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778393,
+        "url": "https://seatgeek.com/megadeth-tickets/charlotte-north-carolina-truliant-amphitheater-2027-06-17-7-pm/concert/18778393",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2932,7 +2932,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E00656A9443AAD8",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-alpharetta-georgia-06-18-2027/event/0E00656A9443AAD8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2027-06-18-7-pm/concert/18778394",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-alpharetta-georgia-06-18-2027/event/0E00656A9443AAD8",
@@ -2948,11 +2948,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778394,
+        "url": "https://seatgeek.com/megadeth-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2027-06-18-7-pm/concert/18778394",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3270,7 +3270,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006569C1DD9B99",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-austin-texas-06-23-2027/event/3A006569C1DD9B99",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/austin-texas-germania-insurance-amphitheater-2027-06-23-6-pm/concert/18778404",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-austin-texas-06-23-2027/event/3A006569C1DD9B99",
@@ -3286,11 +3286,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778404,
+        "url": "https://seatgeek.com/megadeth-tickets/austin-texas-germania-insurance-amphitheater-2027-06-23-6-pm/concert/18778404",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3487,7 +3487,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B00656AC066DACA",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-biloxi-mississippi-09-07-2027/event/1B00656AC066DACA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/biloxi-mississippi-mississippi-coast-coliseum-2027-09-07-7-pm/concert/18778407",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-biloxi-mississippi-09-07-2027/event/1B00656AC066DACA",
@@ -3503,11 +3503,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778407,
+        "url": "https://seatgeek.com/megadeth-tickets/biloxi-mississippi-mississippi-coast-coliseum-2027-09-07-7-pm/concert/18778407",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3809,7 +3809,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3000656BA2DB5D5D",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-allentown-pennsylvania-09-12-2027/event/3000656BA2DB5D5D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/allentown-pennsylvania-ppl-center-2027-09-12-7-pm/concert/18778410",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-allentown-pennsylvania-09-12-2027/event/3000656BA2DB5D5D",
@@ -3825,11 +3825,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778410,
+        "url": "https://seatgeek.com/megadeth-tickets/allentown-pennsylvania-ppl-center-2027-09-12-7-pm/concert/18778410",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -4028,7 +4028,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000656BD21E1BB8",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-buffalo-new-york-09-16-2027/event/0000656BD21E1BB8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/buffalo-new-york-keybank-center-2027-09-16-7-pm/concert/18778416",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-buffalo-new-york-09-16-2027/event/0000656BD21E1BB8",
@@ -4044,11 +4044,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778416,
+        "url": "https://seatgeek.com/megadeth-tickets/buffalo-new-york-keybank-center-2027-09-16-7-pm/concert/18778416",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -4240,7 +4240,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0500656CC800E7EE",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-columbus-ohio-09-19-2027/event/0500656CC800E7EE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-09-19-7-pm/concert/18778420",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-columbus-ohio-09-19-2027/event/0500656CC800E7EE",
@@ -4256,11 +4256,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778420,
+        "url": "https://seatgeek.com/megadeth-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-09-19-7-pm/concert/18778420",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -4453,7 +4453,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "060065699B4860F3",
     "ticketmaster_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-fargo-north-dakota-09-22-2027/event/060065699B4860F3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/fargo-north-dakota-fargodome-2027-09-22-7-pm/concert/18778421",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-fargo-north-dakota-09-22-2027/event/060065699B4860F3",
@@ -4469,11 +4469,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778421,
+        "url": "https://seatgeek.com/megadeth-tickets/fargo-north-dakota-fargodome-2027-09-22-7-pm/concert/18778421",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-11-16",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363060",
+        "url": "https://www.ticketnetwork.com/en/p/8363060",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p3xFVOe",
@@ -67,7 +74,8 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363060/Cody-Jinks-tickets-Wed-Feb-3-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
     "stubhub_international_url": "https://www.stubhub.ie/cody-jinks-hollywood-tickets-2-3-2027/event/107680709",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363060"
   },
   {
     "id": "tm-cody-jinks-2027-cocoa-z7r9jz1aaakjb",
@@ -123,13 +131,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363632",
+        "url": "https://www.ticketnetwork.com/en/p/8363632",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkJb",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363632/Cody-Jinks-tickets-Fri-Feb-5-2027-Riverfront-Park-Cocoa-Village",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363632"
   },
   {
     "id": "tm-cody-jinks-2027-apopka-z7r9jz1aaakjo",
@@ -185,13 +201,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363633",
+        "url": "https://www.ticketnetwork.com/en/p/8363633",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkJo",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363633/Cody-Jinks-tickets-Sat-Feb-6-2027-Apopka-Amphitheater",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363633"
   },
   {
     "id": "tm-cody-jinks-2027-macon-vvg1zz_pcm9nti",
@@ -247,6 +271,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363061",
+        "url": "https://www.ticketnetwork.com/en/p/8363061",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pCm9ntI",
@@ -256,7 +287,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363061"
   },
   {
     "id": "tm-cody-jinks-2027-fort-worth-z7r9jz1aaakr8",
@@ -420,6 +452,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363062",
+        "url": "https://www.ticketnetwork.com/en/p/8363062",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk40GkdisRRp",
@@ -430,7 +469,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363062"
   },
   {
     "id": "tm-cody-jinks-2027-modesto-g5vyz_4lc0uvr",
@@ -486,6 +526,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363063",
+        "url": "https://www.ticketnetwork.com/en/p/8363063",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_4lC0UvR",
@@ -503,7 +550,8 @@
         "start": "2026-11-10T18:00:00Z",
         "end": "2027-06-11T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363063"
   },
   {
     "id": "tm-cody-jinks-2027-lake-tahoe-1a9zk4ngkdmvw-8",
@@ -559,6 +607,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363064",
+        "url": "https://www.ticketnetwork.com/en/p/8363064",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4NGkdmVW-8",
@@ -569,7 +624,8 @@
       "ANOTHER PLANET"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363064"
   },
   {
     "id": "tm-cody-jinks-2027-central-point-vvg1hz_pkp9lkp",
@@ -625,6 +681,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363065",
+        "url": "https://www.ticketnetwork.com/en/p/8363065",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pKP9lkP",
@@ -641,7 +704,8 @@
         "start": "2026-11-10T18:00:00Z",
         "end": "2027-06-15T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363065"
   },
   {
     "id": "tm-cody-jinks-2027-eugene-z7r9jz1aaa837",
@@ -697,13 +761,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8362827",
+        "url": "https://www.ticketnetwork.com/en/p/8362827",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA837",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362827/Cody-Jinks-tickets-Thu-Jun-17-2027-Cuthbert-Amphitheater",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362827"
   },
   {
     "id": "tm-cody-jinks-2027-spokane-vvg1hz_pqqx4vc",
@@ -759,6 +831,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363066",
+        "url": "https://www.ticketnetwork.com/en/p/8363066",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pQqx4vc",
@@ -769,7 +848,8 @@
       "MAMMOTH INC",
       "KNITTING FACTORY SPOKANE"
     ],
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363066"
   },
   {
     "id": "tm-cody-jinks-2027-boise-g5vzz_pk4ma4q",
@@ -825,13 +905,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363067",
+        "url": "https://www.ticketnetwork.com/en/p/8363067",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pK4MA4q",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363067/Cody-Jinks-tickets-Sat-Jun-19-2027-Outlaw-Field-at-The-Idaho-Botanical-Garden",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363067"
   },
   {
     "id": "tm-cody-jinks-2027-billings-z7r9jz1aaa6e_",

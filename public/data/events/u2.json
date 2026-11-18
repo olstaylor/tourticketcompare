@@ -51,7 +51,7 @@
         "event_id": "8329176",
         "url": "https://www.ticketnetwork.com/en/p/8329176",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -139,7 +139,7 @@
         "event_id": "8329177",
         "url": "https://www.ticketnetwork.com/en/p/8329177",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -227,7 +227,7 @@
         "event_id": "8337104",
         "url": "https://www.ticketnetwork.com/en/p/8337104",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -322,7 +322,7 @@
         "event_id": "8344350",
         "url": "https://www.ticketnetwork.com/en/p/8344350",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -403,7 +403,7 @@
         "event_id": "8347795",
         "url": "https://www.ticketnetwork.com/en/p/8347795",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -484,7 +484,7 @@
         "event_id": "8347796",
         "url": "https://www.ticketnetwork.com/en/p/8347796",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -579,7 +579,7 @@
         "event_id": "8347800",
         "url": "https://www.ticketnetwork.com/en/p/8347800",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -660,7 +660,7 @@
         "event_id": "8347801",
         "url": "https://www.ticketnetwork.com/en/p/8347801",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -925,7 +925,7 @@
         "event_id": "8357120",
         "url": "https://www.ticketnetwork.com/en/p/8357120",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1121,7 +1121,7 @@
         "event_id": "8357092",
         "url": "https://www.ticketnetwork.com/en/p/8357092",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1268,7 +1268,7 @@
         "event_id": "8359472",
         "url": "https://www.ticketnetwork.com/en/p/8359472",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1349,7 +1349,7 @@
         "event_id": "8359466",
         "url": "https://www.ticketnetwork.com/en/p/8359466",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1425,6 +1425,13 @@
         "verified": true,
         "last_verified_at": "2026-11-16",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369572",
+        "url": "https://www.ticketnetwork.com/en/p/8369572",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vfKj0Zb",
@@ -1434,7 +1441,8 @@
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
     ],
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369572/U2-tickets-Mon-May-24-2027-Estadio-La-Cartuja"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369572/U2-tickets-Mon-May-24-2027-Estadio-La-Cartuja",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369572"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz16ezagpe7",

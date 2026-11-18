@@ -116,7 +116,7 @@
         "event_id": "8361979",
         "url": "https://www.ticketnetwork.com/en/p/8361979",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -186,12 +186,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372803",
+        "url": "https://www.ticketnetwork.com/en/p/8372803",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkG4",
     "timezone": "America/New_York",
     "status": "on-sale",
     "genre": "Alternative",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372803/Churchill-Park-Music-Festival-tickets-Sat-Jul-17-2027-Churchill-Park"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372803/Churchill-Park-Music-Festival-tickets-Sat-Jul-17-2027-Churchill-Park",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372803"
   }
 ]

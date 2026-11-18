@@ -53,13 +53,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7878419",
+        "url": "https://www.ticketnetwork.com/en/p/7878419",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x9Gp",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7878419/Intocable-tickets-Sat-Nov-21-2026-Smart-Financial-Centre",
-    "genre": "World"
+    "genre": "World",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7878419"
   },
   {
     "id": "tm-intocable-2026-san-antonio-g5diz_6xnmhis",
@@ -115,6 +123,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7875906",
+        "url": "https://www.ticketnetwork.com/en/p/7875906",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_6XNmhIS",
@@ -124,7 +139,8 @@
     "organizer_names": [
       "AMPLIFY ENTERTAINMENT"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7875906"
   },
   {
     "id": "tm-intocable-2026-fort-worth-vvg1yz_7cpuxpt",
@@ -180,6 +196,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7875908",
+        "url": "https://www.ticketnetwork.com/en/p/7875908",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_7cPUxpT",
@@ -190,7 +213,8 @@
       "AMPLIFY ENTERTAINMENT"
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7875908"
   },
   {
     "id": "tm-intocable-2026-hidalgo-g5diz_fw-zu9f",
@@ -246,13 +270,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7876470",
+        "url": "https://www.ticketnetwork.com/en/p/7876470",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_Fw-zU9F",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7876470/Intocable-tickets-Sat-Nov-28-2026-Payne-Arena",
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7876470"
   },
   {
     "id": "tm-intocable-2027-chicago-vv178z_pgkrpyrnn",
@@ -308,6 +340,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373879",
+        "url": "https://www.ticketnetwork.com/en/p/8373879",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_pGkRPyrnn",
@@ -323,7 +362,8 @@
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373879"
   },
   {
     "id": "tm-intocable-2027-duluth-vvg1zz_pwe5ag0",
@@ -379,6 +419,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373880",
+        "url": "https://www.ticketnetwork.com/en/p/8373880",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pwE5aG0",
@@ -408,7 +455,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-02-22T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373880"
   },
   {
     "id": "tm-intocable-2027-fresno-g5vyz_pmjs49u",
@@ -464,6 +512,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373881",
+        "url": "https://www.ticketnetwork.com/en/p/8373881",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pMjs49U",
@@ -482,7 +537,8 @@
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373881"
   },
   {
     "id": "tm-intocable-2027-inglewood-vv170z_pgkrollqf",
@@ -538,6 +594,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373882",
+        "url": "https://www.ticketnetwork.com/en/p/8373882",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGkRoLLqF",
@@ -567,7 +630,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-02-28T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373882"
   },
   {
     "id": "tm-intocable-2027-san-jose-g5vyz_pi39fpd",
@@ -623,6 +687,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373883",
+        "url": "https://www.ticketnetwork.com/en/p/8373883",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pi39fPD",
@@ -653,7 +724,8 @@
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373883"
   },
   {
     "id": "tm-intocable-2027-miami-vvg1vz_pmzxge8",
@@ -709,6 +781,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373885",
+        "url": "https://www.ticketnetwork.com/en/p/8373885",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pmzXGE8",
@@ -748,7 +827,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373885"
   },
   {
     "id": "tm-intocable-2027-sacramento-g5vyz_pulkwxh",
@@ -804,6 +884,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373887",
+        "url": "https://www.ticketnetwork.com/en/p/8373887",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pUlkWxH",
@@ -827,6 +914,7 @@
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373887"
   }
 ]

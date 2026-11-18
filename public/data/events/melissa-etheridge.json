@@ -53,13 +53,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363032",
+        "url": "https://www.ticketnetwork.com/en/p/8363032",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkuy",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363032/Melissa-Etheridge-tickets-Sat-Mar-20-2027-White-Hall-At-Vashon-Center-For-The-Arts",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363032"
   },
   {
     "id": "tm-melissa-etheridge-2027-vashon-z7r9jz1aaakcz",
@@ -115,13 +123,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363033",
+        "url": "https://www.ticketnetwork.com/en/p/8363033",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363033/Melissa-Etheridge-tickets-Sun-Mar-21-2027-White-Hall-At-Vashon-Center-For-The-Arts",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363033"
   },
   {
     "id": "tm-melissa-etheridge-2027-richmond-1aozk4jgkdae_qq",
@@ -177,6 +193,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8362406",
+        "url": "https://www.ticketnetwork.com/en/p/8362406",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4JGkdae_QQ",
@@ -194,7 +217,8 @@
         "start": "2026-11-13T17:00:00Z",
         "end": "2027-03-17T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362406"
   },
   {
     "id": "tm-melissa-etheridge-2027-calgary-1aozk40gkdyyany",
@@ -380,13 +404,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363034",
+        "url": "https://www.ticketnetwork.com/en/p/8363034",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCv",
     "timezone": "America/Regina",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363034/Melissa-Etheridge-tickets-Sat-Mar-27-2027-TCU-Place",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363034"
   },
   {
     "id": "tm-melissa-etheridge-2027-regina-z7r9jz1aaakce",
@@ -496,6 +528,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8362410",
+        "url": "https://www.ticketnetwork.com/en/p/8362410",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4JGkenj9vg",
@@ -510,7 +549,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-03-24T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362410"
   },
   {
     "id": "tm-melissa-etheridge-2027-des-moines-vv1akzk4ngkd0rml4",
@@ -566,6 +606,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8362412",
+        "url": "https://www.ticketnetwork.com/en/p/8362412",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4NGkd0rmL4",
@@ -583,7 +630,8 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-03-26T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362412"
   },
   {
     "id": "tm-melissa-etheridge-2027-nashville-vv1aazk4xgkdnma5h",
@@ -639,6 +687,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8362417",
+        "url": "https://www.ticketnetwork.com/en/p/8362417",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4xGkdNMa5H",
@@ -655,7 +710,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-03-27T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362417"
   },
   {
     "id": "tm-melissa-etheridge-2027-madison-vv1a6zk4ngkd9d6lz",
@@ -776,13 +832,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8364068",
+        "url": "https://www.ticketnetwork.com/en/p/8364068",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCd",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364068/Melissa-Etheridge-tickets-Mon-Apr-5-2027-Pabst-Theater",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364068"
   },
   {
     "id": "tm-melissa-etheridge-2027-shipshewana-z7r9jz1aaakap",
@@ -838,13 +902,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369726",
+        "url": "https://www.ticketnetwork.com/en/p/8369726",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkAP",
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369726/Melissa-Etheridge-tickets-Tue-Apr-6-2027-Blue-Gate-Performing-Arts-Center",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369726"
   },
   {
     "id": "tm-melissa-etheridge-2027-knoxville-g5viz_p14c6_a",
@@ -900,6 +972,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8362424",
+        "url": "https://www.ticketnetwork.com/en/p/8362424",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_p14C6_a",
@@ -917,7 +996,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-04-01T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362424"
   },
   {
     "id": "tm-melissa-etheridge-2027-danville-vv1avzk4pgkdw6bmt",
@@ -973,6 +1053,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8362425",
+        "url": "https://www.ticketnetwork.com/en/p/8362425",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4PGkdW6BmT",
@@ -992,7 +1079,8 @@
         "start": "2026-11-27T15:00:00Z",
         "end": "2027-01-01T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362425"
   },
   {
     "id": "tm-melissa-etheridge-2027-columbus-z7r9jz1aaakc7",
@@ -1048,13 +1136,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363037",
+        "url": "https://www.ticketnetwork.com/en/p/8363037",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkC7",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363037/Melissa-Etheridge-tickets-Sat-Apr-10-2027-Bill-Heard-Theatre-at-RiverCenter-for-the-Performing-Arts",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363037"
   },
   {
     "id": "tm-melissa-etheridge-2027-charleston-g5evz_pcyahcw",
@@ -1110,6 +1206,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8362426",
+        "url": "https://www.ticketnetwork.com/en/p/8362426",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pCYAhcW",
@@ -1127,7 +1230,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-04-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362426"
   },
   {
     "id": "tm-melissa-etheridge-2027-charlotte-z7r9jz1aaakzi",
@@ -1237,13 +1341,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363038",
+        "url": "https://www.ticketnetwork.com/en/p/8363038",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCA",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363038/Melissa-Etheridge-tickets-Thu-Apr-15-2027-Strand-Theatre-at-Appell-Center-for-the-Performing-Arts",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363038"
   },
   {
     "id": "tm-melissa-etheridge-2027-portsmouth-z7r9jz1aaakck",
@@ -1299,13 +1411,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363039",
+        "url": "https://www.ticketnetwork.com/en/p/8363039",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCk",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363039/Melissa-Etheridge-tickets-Fri-Apr-16-2027-Rivers-Casino-Portsmouth-Event-Center",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363039"
   },
   {
     "id": "tm-melissa-etheridge-2027-north-myrtle-beach-z7r9jz1aaakc6",
@@ -1415,13 +1535,21 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363041",
+        "url": "https://www.ticketnetwork.com/en/p/8363041",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfO",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363041/Melissa-Etheridge-tickets-Tue-Apr-20-2027-Gillioz-Theatre",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363041"
   },
   {
     "id": "tm-melissa-etheridge-2027-wichita-vv1kbz_pfvg7sw9z",
@@ -1604,12 +1732,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363043",
+        "url": "https://www.ticketnetwork.com/en/p/8363043",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCa",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363043/Melissa-Etheridge-tickets-Sat-Apr-24-2027-Fox-Tucson-Theatre",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363043"
   }
 ]

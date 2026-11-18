@@ -12,6 +12,12 @@
       "decided_by": "Ollie",
       "decided_on": "2026-11-16",
       "reason": "Keep live with its resale links"
+    },
+    {
+      "id": "tm-beartooth-2026-new-orleans-g5viz_1lu2gm0",
+      "decided_by": "Claude, under Ollie's 2026-11-17 delegation while away",
+      "decided_on": "2026-11-18",
+      "reason": "TM returns 404 but the Vivid Seats and TicketNetwork pages for this date still resolve in the audit (SeatGeek is WAF-blocked, so inconclusive); keep live with resale links until a provider link fails or TM confirms a cancellation. Revisit if the audit flags a dead provider URL."
     }
   ]
 }

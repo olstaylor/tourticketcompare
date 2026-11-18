@@ -1922,5 +1922,167 @@
     ],
     "ticket_limit": 4,
     "genre": "Pop"
+  },
+  {
+    "id": "tm-remi-wolf-2027-washington-1a4zk4agkemriif",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-02-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006549AE7A8A08",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-24-2027/event/15006549AE7A8A08",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-24-2027/event/15006549AE7A8A08",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006549AE7A8A08",
+        "discovery_event_id": "1A4Zk4aGkemrIIF",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-24-2027/event/15006549AE7A8A08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk4aGkemrIIF",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-remi-wolf-2027-berkeley-g5vyz_pmrwpif",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Berkeley",
+    "country": "United States Of America",
+    "venue": "Greek Theatre-U.C. Berkeley",
+    "datetime_iso": "2027-05-01T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656DDECA5A14",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-berkeley-california-04-30-2027/event/1C00656DDECA5A14",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-berkeley-california-04-30-2027/event/1C00656DDECA5A14",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656DDECA5A14",
+        "discovery_event_id": "G5vYZ_pMrwPIf",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-berkeley-california-04-30-2027/event/1C00656DDECA5A14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pMrwPIf",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-remi-wolf-2027-phoenix-1av0z_pgkubtvhv",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf - The Mud Tour With Special Guest Annabelle Dinda",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-05-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900656D98A746C1",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-03-2027/event/1900656D98A746C1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-03-2027/event/1900656D98A746C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656D98A746C1",
+        "discovery_event_id": "1Av0Z_pGkUbtVhv",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-03-2027/event/1900656D98A746C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkUbtVhv",
+    "timezone": "America/Phoenix",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T17:00:00Z"
   }
 ]

@@ -963,5 +963,437 @@
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369893/James-Blunt-tickets-Thu-Apr-8-2027-Brighton-Centre",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369893"
+  },
+  {
+    "id": "tm-james-blunt-2027-idstein-z698xzc2z16vuazef3",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt - Airplane Mode",
+    "city": "Idstein",
+    "country": "Germany",
+    "venue": "Hessentagsarena (Sportanlage)",
+    "datetime_iso": "2027-06-13T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1345002212",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/james-blunt-airplane-mode-tickets/1345002212?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/james-blunt-airplane-mode-tickets/1345002212?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1345002212",
+        "discovery_event_id": "Z698xZC2Z16vuAZeF3",
+        "url": "https://www.ticketmaster.de/event/james-blunt-airplane-mode-tickets/1345002212?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vuAZeF3",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T09:00:00Z"
+  },
+  {
+    "id": "tm-james-blunt-2027-lincoln-g5vhz_on_qxm9",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Lincoln",
+    "country": "Great Britain",
+    "venue": "Lincoln Castle",
+    "datetime_iso": "2027-06-16T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00651A99762DD7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-lincoln-16-06-2027/event/1F00651A99762DD7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-lincoln-16-06-2027/event/1F00651A99762DD7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00651A99762DD7",
+        "discovery_event_id": "G5vHZ_on_qxM9",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-lincoln-16-06-2027/event/1F00651A99762DD7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_on_qxM9",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-james-blunt-2027-thetford-1adjz_pgkw4p4i3",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt - Thetford High Lodge",
+    "city": "Thetford",
+    "country": "Great Britain",
+    "venue": "High Lodge, Thetford Forest",
+    "datetime_iso": "2027-06-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700656C95955A12",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-thetford-high-lodge-thetford-18-06-2027/event/3700656C95955A12",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-thetford-high-lodge-thetford-18-06-2027/event/3700656C95955A12",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700656C95955A12",
+        "discovery_event_id": "1AdjZ_pGkw4P4I3",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-thetford-high-lodge-thetford-18-06-2027/event/3700656C95955A12",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_pGkw4P4I3",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-james-blunt-2027-scarborough-1ku8vp1_ga1cs0u",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-06-20T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065299AB71936",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-scarborough-20-06-2027/event/350065299AB71936",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-scarborough-20-06-2027/event/350065299AB71936",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065299AB71936",
+        "discovery_event_id": "1ku8vP1_GA1cs0U",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-scarborough-20-06-2027/event/350065299AB71936",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8vP1_GA1cs0U",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-james-blunt-2027-gloucestershire-16mzk4yjeza8ddu2",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt - Westonbirt Arboretum - Bus",
+    "city": "Gloucestershire",
+    "country": "Great Britain",
+    "venue": "Westonbirt Arboretum",
+    "datetime_iso": "2027-06-23T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006570982F22CE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-westonbirt-arboretum-bus-gloucestershire-23-06-2027/event/37006570982F22CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-westonbirt-arboretum-bus-gloucestershire-23-06-2027/event/37006570982F22CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006570982F22CE",
+        "discovery_event_id": "16MZk4YJeZA8ddu2",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-westonbirt-arboretum-bus-gloucestershire-23-06-2027/event/37006570982F22CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16MZk4YJeZA8ddu2",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-james-blunt-2027-llangollen-g5vhz_3nxrxc-",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Llangollen",
+    "country": "Great Britain",
+    "venue": "Live at Llangollen, Llangollen Pavilion",
+    "datetime_iso": "2027-06-24T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00652AA27A2B61",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-llangollen-24-06-2027/event/1F00652AA27A2B61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-llangollen-24-06-2027/event/1F00652AA27A2B61",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00652AA27A2B61",
+        "discovery_event_id": "G5vHZ_3nxrxc-",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-llangollen-24-06-2027/event/1F00652AA27A2B61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3nxrxc-",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-james-blunt-2027-margate-1agzkfegkdf5svi",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Margate",
+    "country": "Great Britain",
+    "venue": "Dreamland",
+    "datetime_iso": "2027-08-27T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006527C82F306C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-margate-27-08-2027/event/35006527C82F306C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-margate-27-08-2027/event/35006527C82F306C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006527C82F306C",
+        "discovery_event_id": "1AgZkfEGkdF5Svi",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-margate-27-08-2027/event/35006527C82F306C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfEGkdF5Svi",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
+  },
+  {
+    "id": "tm-james-blunt-2027-colchester-1agzk4fgkdt9fe6",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt\r\nWith Special Guests Starsailor + Noonzy",
+    "city": "Colchester",
+    "country": "Great Britain",
+    "venue": "Colchester Castle Park",
+    "datetime_iso": "2027-08-28T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006548E95C89C7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-bluntwith-special-guests-starsailor-noonzy-colchester-28-08-2027/event/35006548E95C89C7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-bluntwith-special-guests-starsailor-noonzy-colchester-28-08-2027/event/35006548E95C89C7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006548E95C89C7",
+        "discovery_event_id": "1AgZk4FGkdt9FE6",
+        "url": "https://www.ticketmaster.co.uk/james-bluntwith-special-guests-starsailor-noonzy-colchester-28-08-2027/event/35006548E95C89C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4FGkdt9FE6",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T10:00:00Z"
   }
 ]

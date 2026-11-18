@@ -30,7 +30,7 @@
         "event_id": 18580244,
         "url": "https://seatgeek.com/the-avett-brothers-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2026-12-31-8-pm/concert/18580244",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -158,7 +158,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "22006567BE473B0D",
     "ticketmaster_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-avett-brothers-tickets/orlando-florida-house-of-blues-orlando-2027-03-20-6-30-pm/concert/18754597",
     "vividseats_url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-20-2027/production/7833523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-avett-brothers-orlando-florida-03-20-2027/event/22006567BE473B0D",
@@ -174,11 +174,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754597,
+        "url": "https://seatgeek.com/the-avett-brothers-tickets/orlando-florida-house-of-blues-orlando-2027-03-20-6-30-pm/concert/18754597",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833523,

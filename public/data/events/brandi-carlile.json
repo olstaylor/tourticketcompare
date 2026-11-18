@@ -1191,7 +1191,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0065554C8D82E9",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-seattle-washington-01-09-2027/event/0F0065554C8D82E9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/seattle-washington-paramount-theatre-wa-2027-01-09-8-pm/concert/18723859",
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-9-2027--concerts-rock/production/7757239",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-seattle-washington-01-09-2027/event/0F0065554C8D82E9",
@@ -1207,11 +1207,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18723859,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/seattle-washington-paramount-theatre-wa-2027-01-09-8-pm/concert/18723859",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7757239,
@@ -1261,7 +1261,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0065554C9382F2",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-seattle-washington-01-10-2027/event/0F0065554C9382F2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/seattle-washington-paramount-theatre-wa-2027-01-10-8-pm/concert/18723860",
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-seattle-paramount-theatre-seattle-1-10-2027--concerts-rock/production/7757243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-seattle-washington-01-10-2027/event/0F0065554C9382F2",
@@ -1277,11 +1277,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18723860,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/seattle-washington-paramount-theatre-wa-2027-01-10-8-pm/concert/18723860",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7757243,

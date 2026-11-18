@@ -1640,7 +1640,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-O8k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O8k",
-    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-11-16-8-pm/concert/18310993",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-O8k",
@@ -1656,11 +1656,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18310993,
-        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/san-luis-obispo-california-fremont-theater-san-luis-obispo-2026-11-16-8-pm/concert/18310993",
-        "verified": true,
-        "last_verified_at": "2026-11-14",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1730,7 +1730,7 @@
         "event_id": 18092700,
         "url": "https://seatgeek.com/the-psychedelic-furs-tickets/phoenix-arizona-celebrity-theatre-phoenix-2026-11-19-7-30-pm/concert/18092700",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1782,7 +1782,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7-N8K",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-N8K",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-psychedelic-furs-tickets/rancho-mirage-california-agua-caliente-casino-rancho-mirage-2027-03-19-7-30-pm/concert/18781133",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-N8K",
@@ -1798,11 +1798,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18781133,
+        "url": "https://seatgeek.com/the-psychedelic-furs-tickets/rancho-mirage-california-agua-caliente-casino-rancho-mirage-2027-03-19-7-30-pm/concert/18781133",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -7556,7 +7556,7 @@ function startingPriceMetaDescription(route, events, env) {
   const startingPrice = ["Starting from", money].join(" ");
   const tail = `${startingPrice} listed at ${lane.name}; checked ${checked}. Check fees.`;
   const candidates = route.type === "artist"
-    ? ARTIST_FOCUS_PATHS.has(route.path)
+    ? ARTIST_FOCUS_PATHS.has(route.path) && artistComparisonLive(route, events, env)
       ? [
           `Compare ${route.artist.name} ticket prices: ${isNextDate ? "next" : "soonest priced"} date ${date} in ${city}. ${tail}`,
           `Compare ${route.artist.name} ticket prices · ${city}, ${date}. ${tail}`

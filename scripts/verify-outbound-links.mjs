@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
+import { eventLifecycleHeld } from '../functions/_route-indexability.js';
 
 const EVENTS_PATH = new URL('../public/data/events.json', import.meta.url);
 
@@ -224,7 +225,12 @@ export function partitionByReviewScope(links, eventIndex, { now = Date.now(), in
   const skipped = [];
   for (const item of links) {
     const eventIds = [...new Set(item.refs.map((ref) => ref.split(':')[0]))];
-    (reviewScopeForEventIds(eventIds, eventIndex, now) === 'expired' ? skipped : checked).push(item);
+    // A cancelled or postponed date withholds every ticket link on every
+    // surface (eventLifecycleHeld), so its stored URLs are not live outbound
+    // links and a dead one is expected. Skip a URL only when every referencing
+    // event is known and held; one unknown or live event keeps it in.
+    const heldOnly = eventIds.every((id) => eventIndex.has(id) && eventLifecycleHeld(eventIndex.get(id)));
+    (heldOnly || reviewScopeForEventIds(eventIds, eventIndex, now) === 'expired' ? skipped : checked).push(item);
   }
   return { checked, skipped };
 }
@@ -486,6 +492,25 @@ if (args.has('--self-test')) {
     ]
   );
 
+  // Links of a cancelled/postponed date are withheld on the site, so they are
+  // not checked; a URL shared with a live event still is.
+  const heldEvents = new Map([
+    ['held-a', { datetime_iso: '2026-08-10T12:00:00Z', ticketmaster_status_code: 'cancelled' }],
+    ['held-b', { datetime_iso: '2026-08-11T12:00:00Z', ticketmaster_status_code: 'postponed' }],
+    ['live', { datetime_iso: '2026-08-12T12:00:00Z' }]
+  ]);
+  const heldScope = partitionByReviewScope(
+    [
+      link('https://example.invalid/held-only', ['held-a', 'held-b']),
+      link('https://example.invalid/held-and-live', ['held-a', 'live']),
+      link('https://example.invalid/held-and-missing', ['held-a', 'missing'])
+    ],
+    heldEvents,
+    { now }
+  );
+  assert.deepEqual(heldScope.skipped.map((item) => item.url), ['https://example.invalid/held-only']);
+  assert.deepEqual(heldScope.checked.map((item) => item.url), ['https://example.invalid/held-and-live', 'https://example.invalid/held-and-missing']);
+
   // The opt-out is what makes an archive sweep still possible, so it must skip
   // nothing at all rather than merely widen the window.
   const fullSweep = partitionByReviewScope(
@@ -683,7 +708,7 @@ const { checked: links, skipped: skippedExpired } = partitionByReviewScope(colle
 });
 if (skippedExpired.length) {
   console.log(
-    `Skipping ${skippedExpired.length} of ${collected.length} URLs referenced only by past events ` +
+    `Skipping ${skippedExpired.length} of ${collected.length} URLs referenced only by past or cancelled/postponed events ` +
       `(set LINK_CHECK_INCLUDE_EXPIRED=1 to sweep the archive too).`
   );
 }

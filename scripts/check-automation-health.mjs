@@ -118,6 +118,8 @@ export const WATCHED_LANES = [
   // Daily read-only probe of partial price regressions (a lane that stops
   // pricing, aging prices). It never runs test:mvp, so a red main cannot stop it.
   { file: "price-coverage-report.yml", name: "Price coverage report", cadence: "daily 09:15", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
+  // Read-only daily price-drop drafts (no test:mvp, writes nothing but an issue comment).
+  { file: "price-drop-drafts.yml", name: "Price-drop drafts", cadence: "daily 18:15", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 2, sharesMainGate: false },
   // Daily production crawl and roll-up (check-site-health.mjs). Read-only; no test:mvp.
   { file: "site-health.yml", name: "Site health", cadence: "daily 09:40", maxAgeHours: 30, eventDriven: false, failuresBeforeIncident: 1, sharesMainGate: false },
   // The three sensors, this one included. Watching them was missing when this
@@ -742,7 +744,7 @@ if (SELF_TEST) {
   );
   assert.deepEqual(
     WATCHED_LANES.filter((lane) => !lane.sharesMainGate).map((lane) => lane.file).sort(),
-    ["artist-city-reports.yml", "automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "funnel-daily.yml", "generated-freshness.yml", "label-passed-dates.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-guide-candidates.yml", "pricing-history-repair.yml", "show-priority.yml", "site-health.yml"],
+    ["artist-city-reports.yml", "automation-health.yml", "autopublish-digest.yml", "blog-ideas.yml", "funnel-daily.yml", "generated-freshness.yml", "label-passed-dates.yml", "plan-scoreboard.yml", "pr-validation-head-guard.yml", "price-coverage-report.yml", "price-drop-drafts.yml", "price-guide-candidates.yml", "pricing-history-repair.yml", "show-priority.yml", "site-health.yml"],
     "the sensors, digest, editorial screen, coverage report, site health, scoreboard, funnel check, show-priority ranking and price-history repair are excluded from writer correlation"
   );
   // GitHub accepts either extension for a workflow file, so the coverage scan

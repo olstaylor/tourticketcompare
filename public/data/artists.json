@@ -3748,5 +3748,19 @@
     "last_verified_at": "2026-11-17",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-17"
+  },
+  {
+    "slug": "travis-tritt",
+    "name": "Travis Tritt",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-18",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-18"
   }
 ]

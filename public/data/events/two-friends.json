@@ -1101,6 +1101,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681904",
+        "url": "https://www.stubhub.ie/two-friends-boston-tickets-5-29-2027/event/107681904",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4xGkdDW012",
@@ -1119,7 +1126,8 @@
         "end": "2027-05-25T16:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363848"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363848",
+    "stubhub_international_url": "https://www.stubhub.ie/two-friends-boston-tickets-5-29-2027/event/107681904"
   },
   {
     "id": "tm-two-friends-2027-philadelphia-vv1aovp_fga1qsqx",

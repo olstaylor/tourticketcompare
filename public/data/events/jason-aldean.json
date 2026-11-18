@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107676194",
+        "url": "https://www.stubhub.ie/jason-aldean-hollywood-tickets-2-27-2027/event/107676194",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_4r1id24",
@@ -68,7 +75,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8341789",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8341789/Jason-Aldean-tickets-Sat-Feb-27-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "stubhub_international_url": "https://www.stubhub.ie/jason-aldean-hollywood-tickets-2-27-2027/event/107676194"
   },
   {
     "id": "tm-jason-aldean-2027-durant-vvg1yz_4wtfp_q",

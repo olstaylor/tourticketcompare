@@ -717,11 +717,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107016094",
-        "url": "https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbU2whWE8",
@@ -729,7 +729,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -802,7 +802,7 @@
         "event_id": "107017185",
         "url": "https://www.stubhub.ie/three-days-grace-san-jose-tickets-11-18-2026/event/107017185",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -957,7 +957,7 @@
         "event_id": "107017186",
         "url": "https://www.stubhub.ie/three-days-grace-phoenix-tickets-11-21-2026/event/107017186",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -1039,7 +1039,7 @@
         "event_id": "107017187",
         "url": "https://www.stubhub.ie/three-days-grace-inglewood-tickets-11-22-2026/event/107017187",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },

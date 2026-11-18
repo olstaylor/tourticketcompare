@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668400",
+        "url": "https://www.stubhub.ie/intocable-sugar-land-tickets-11-21-2026/event/107668400",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x9Gp",
@@ -67,7 +74,8 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7878419/Intocable-tickets-Sat-Nov-21-2026-Smart-Financial-Centre",
     "genre": "World",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7878419"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7878419",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-sugar-land-tickets-11-21-2026/event/107668400"
   },
   {
     "id": "tm-intocable-2026-san-antonio-g5diz_6xnmhis",
@@ -203,6 +211,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478117",
+        "url": "https://www.stubhub.ie/intocable-fort-worth-tickets-11-27-2026/event/107478117",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_7cPUxpT",
@@ -214,7 +229,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Latin",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7875908"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7875908",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-fort-worth-tickets-11-27-2026/event/107478117"
   },
   {
     "id": "tm-intocable-2026-hidalgo-g5diz_fw-zu9f",
@@ -601,6 +617,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682290",
+        "url": "https://www.stubhub.ie/intocable-inglewood-tickets-3-6-2027/event/107682290",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGkRoLLqF",
@@ -631,7 +654,8 @@
         "end": "2027-02-28T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373882"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373882",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-inglewood-tickets-3-6-2027/event/107682290"
   },
   {
     "id": "tm-intocable-2027-san-jose-g5vyz_pi39fpd",
@@ -694,6 +718,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681246",
+        "url": "https://www.stubhub.ie/intocable-san-jose-tickets-3-19-2027/event/107681246",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pi39fPD",
@@ -725,7 +756,8 @@
         "end": "2026-11-20T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373883"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373883",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-san-jose-tickets-3-19-2027/event/107681246"
   },
   {
     "id": "tm-intocable-2027-miami-vvg1vz_pmzxge8",
@@ -891,6 +923,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683516",
+        "url": "https://www.stubhub.ie/intocable-sacramento-tickets-8-28-2027/event/107683516",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pUlkWxH",
@@ -925,6 +964,7 @@
         "end": "2027-08-22T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373887"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373887",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-sacramento-tickets-8-28-2027/event/107683516"
   }
 ]

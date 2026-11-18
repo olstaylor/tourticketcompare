@@ -301,6 +301,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682634",
+        "url": "https://www.stubhub.ie/leon-bridges-fort-worth-tickets-4-23-2027/event/107682634",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_f9mdnDC",
@@ -312,7 +319,8 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "R&B"
+    "genre": "R&B",
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-fort-worth-tickets-4-23-2027/event/107682634"
   },
   {
     "id": "tm-leon-bridges-2027-toronto-1a8zk46gkesn6zx",
@@ -436,6 +444,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683577",
+        "url": "https://www.stubhub.ie/leon-bridges-new-york-tickets-5-1-2027/event/107683577",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_fQI50fg",
@@ -453,7 +468,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "R&B"
+    "genre": "R&B",
+    "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-new-york-tickets-5-1-2027/event/107683577"
   },
   {
     "id": "tm-leon-bridges-2027-charlotte-g5evz_ks2c2jb",
@@ -837,7 +853,7 @@
         "event_id": "107672226",
         "url": "https://www.stubhub.ie/leon-bridges-boston-tickets-7-24-2027/event/107672226",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1064,7 +1080,7 @@
         "event_id": "107672227",
         "url": "https://www.stubhub.ie/leon-bridges-seattle-tickets-8-13-2027/event/107672227",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1836,7 +1852,7 @@
         "event_id": "107672228",
         "url": "https://www.stubhub.ie/leon-bridges-austin-tickets-9-24-2027/event/107672228",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1918,7 +1934,7 @@
         "event_id": "107672229",
         "url": "https://www.stubhub.ie/leon-bridges-houston-tickets-9-25-2027/event/107672229",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2397,7 +2413,7 @@
         "event_id": "107680645",
         "url": "https://www.stubhub.ie/leon-bridges-tickets-ciudad-de-mexico-teatro-metropolitan-24-3-2027/event/107680645",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },

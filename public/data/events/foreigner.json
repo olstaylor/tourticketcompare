@@ -234,7 +234,7 @@
         "event_id": "8237209",
         "url": "https://www.ticketliquidator.com/tickets/8237209/Foreigner-tickets-Fri-Feb-19-2027-Pompano-Beach-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -943,7 +943,7 @@
         "event_id": "8324848",
         "url": "https://www.ticketliquidator.com/tickets/8324848/Foreigner-tickets-Wed-Apr-14-2027-London-Palladium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1025,7 +1025,7 @@
         "event_id": "8243091",
         "url": "https://www.ticketliquidator.com/tickets/8243091/Foreigner-tickets-Tue-Apr-27-2027-Beacon-Theatre-NY",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1180,7 +1180,7 @@
         "event_id": "8243093",
         "url": "https://www.ticketliquidator.com/tickets/8243093/Foreigner-tickets-Fri-Apr-30-2027-Capitol-Theatre-Port-Chester",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -1337,7 +1337,7 @@
         "event_id": "8318453",
         "url": "https://www.ticketliquidator.com/tickets/8318453/Foreigner-tickets-Fri-Jul-2-2027-BMO-Pavilion",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -1406,6 +1406,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373802",
+        "url": "https://www.ticketliquidator.com/tickets/8373802/Foreigner-tickets-Sat-May-1-2027-Mohegan-Sun-Arena-CT",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_pUBgAoY",
@@ -1436,7 +1443,8 @@
         "end": "2027-04-27T16:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373802"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373802",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373802/Foreigner-tickets-Sat-May-1-2027-Mohegan-Sun-Arena-CT"
   },
   {
     "id": "tm-foreigner-2027-bangor-vv177z_pgkzwgr47",
@@ -1489,6 +1497,13 @@
       "ticketnetwork": {
         "event_id": "8373799",
         "url": "https://www.ticketnetwork.com/en/p/8373799",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373799",
+        "url": "https://www.ticketliquidator.com/tickets/8373799/Foreigner-tickets-Fri-Jul-16-2027-Maine-Savings-Amphitheater",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -1556,7 +1571,8 @@
         "end": "2027-07-15T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373799"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373799",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373799/Foreigner-tickets-Fri-Jul-16-2027-Maine-Savings-Amphitheater"
   },
   {
     "id": "tm-foreigner-2027-gilford-vv177z_pgkichxsp",
@@ -1718,6 +1734,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373801",
+        "url": "https://www.ticketliquidator.com/tickets/8373801/Foreigner-tickets-Sun-Jul-18-2027-Bethel-Woods-Center-For-The-Arts",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pS6Zwby",
@@ -1766,6 +1789,7 @@
         "end": "2027-07-18T23:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373801"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373801",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373801/Foreigner-tickets-Sun-Jul-18-2027-Bethel-Woods-Center-For-The-Arts"
   }
 ]

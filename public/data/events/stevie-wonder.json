@@ -694,7 +694,7 @@
         "event_id": "8252655",
         "url": "https://www.ticketliquidator.com/tickets/8252655/Stevie-Wonder-tickets-Thu-Nov-19-2026-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -782,7 +782,7 @@
         "event_id": "8252656",
         "url": "https://www.ticketliquidator.com/tickets/8252656/Stevie-Wonder-tickets-Sat-Nov-21-2026-United-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -864,7 +864,7 @@
         "event_id": "8252657",
         "url": "https://www.ticketliquidator.com/tickets/8252657/Stevie-Wonder-tickets-Mon-Nov-23-2026-Capital-One-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -943,11 +943,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8252658",
-        "url": "https://www.ticketliquidator.com/tickets/8252658/Stevie-Wonder-tickets-Tue-Dec-8-2026-Fox-Theatre-Detroit",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107667145",
@@ -967,7 +967,7 @@
     "ticketmaster_discovery_event_id": "vv1keZvPa-GAukupH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252658/Stevie-Wonder-tickets-Tue-Dec-8-2026-Fox-Theatre-Detroit",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1026,11 +1026,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8252659",
-        "url": "https://www.ticketliquidator.com/tickets/8252659/Stevie-Wonder-tickets-Wed-Dec-9-2026-Fox-Theatre-Detroit",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107667146",
@@ -1050,7 +1050,7 @@
     "ticketmaster_discovery_event_id": "vv1kOZ_3bxG7sqnA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252659/Stevie-Wonder-tickets-Wed-Dec-9-2026-Fox-Theatre-Detroit",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1112,7 +1112,7 @@
         "event_id": "8252660",
         "url": "https://www.ticketliquidator.com/tickets/8252660/Stevie-Wonder-tickets-Sat-Dec-19-2026-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {

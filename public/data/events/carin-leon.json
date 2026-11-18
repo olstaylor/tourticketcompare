@@ -58,7 +58,7 @@
         "event_id": "7496384",
         "url": "https://www.ticketliquidator.com/tickets/7496384/Carin-Leon-tickets-Wed-Sep-15-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -130,7 +130,7 @@
         "event_id": "8258206",
         "url": "https://www.ticketliquidator.com/tickets/8258206/Carin-Leon-tickets-Thu-Sep-16-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -213,7 +213,7 @@
         "event_id": "8258208",
         "url": "https://www.ticketliquidator.com/tickets/8258208/Carin-Leon-tickets-Fri-Sep-17-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -296,7 +296,7 @@
         "event_id": "8258209",
         "url": "https://www.ticketliquidator.com/tickets/8258209/Carin-Leon-tickets-Sat-Sep-18-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -374,6 +374,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374914",
+        "url": "https://www.ticketliquidator.com/tickets/8374914/Carin-Leon-tickets-Sat-Apr-24-2027-Nugget-Event-Center-At-Nugget-Casino-Resort",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_pGkRt9h7o",
@@ -394,6 +401,7 @@
         "end": "2026-11-20T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374914"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374914",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374914/Carin-Leon-tickets-Sat-Apr-24-2027-Nugget-Event-Center-At-Nugget-Casino-Resort"
   }
 ]

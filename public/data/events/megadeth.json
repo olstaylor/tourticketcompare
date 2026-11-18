@@ -58,7 +58,7 @@
         "event_id": "8326042",
         "url": "https://www.ticketliquidator.com/tickets/8326042/Megadeth-tickets-Tue-Mar-9-2027-The-O2-Belfast",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -133,7 +133,7 @@
         "event_id": "8179322",
         "url": "https://www.ticketliquidator.com/tickets/8179322/Megadeth-tickets-Thu-Mar-11-2027-OVO-Arena-Wembley",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -212,7 +212,7 @@
         "event_id": "8179324",
         "url": "https://www.ticketliquidator.com/tickets/8179324/Megadeth-tickets-Fri-Mar-12-2027-Motorpoint-Arena-Nottingham",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -291,7 +291,7 @@
         "event_id": "8179325",
         "url": "https://www.ticketliquidator.com/tickets/8179325/Megadeth-tickets-Sat-Mar-13-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -754,7 +754,7 @@
         "event_id": "8326648",
         "url": "https://www.ticketliquidator.com/tickets/8326648/Megadeth-tickets-Sun-Mar-28-2027-Oslo-Spektrum",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -823,6 +823,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373267",
+        "url": "https://www.ticketliquidator.com/tickets/8373267/Megadeth-tickets-Fri-May-14-2027-First-Financial-Credit-Union-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pwxigv1",
@@ -881,7 +888,8 @@
         "end": "2027-05-01T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373267"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373267",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373267/Megadeth-tickets-Fri-May-14-2027-First-Financial-Credit-Union-Amphitheater"
   },
   {
     "id": "tm-megadeth-2027-phoenix-1av0z_pgknttpbb",
@@ -934,6 +942,13 @@
       "ticketnetwork": {
         "event_id": "8373268",
         "url": "https://www.ticketnetwork.com/en/p/8373268",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373268",
+        "url": "https://www.ticketliquidator.com/tickets/8373268/Megadeth-tickets-Sat-May-15-2027-Talking-Stick-Resort-Amphitheatre",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -1000,7 +1015,8 @@
         "end": "2027-05-02T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373268"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373268",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373268/Megadeth-tickets-Sat-May-15-2027-Talking-Stick-Resort-Amphitheatre"
   },
   {
     "id": "tm-megadeth-2027-chula-vista-vvg1iz_pjb5pwc",
@@ -1053,6 +1069,13 @@
       "ticketnetwork": {
         "event_id": "8373269",
         "url": "https://www.ticketnetwork.com/en/p/8373269",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373269",
+        "url": "https://www.ticketliquidator.com/tickets/8373269/Megadeth-tickets-Tue-May-18-2027-North-Island-Credit-Union-Amphitheatre",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -1119,7 +1142,8 @@
         "end": "2027-05-05T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373269"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373269",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373269/Megadeth-tickets-Tue-May-18-2027-North-Island-Credit-Union-Amphitheatre"
   },
   {
     "id": "tm-megadeth-2027-inglewood-vv16azk4ev7zauakk1",
@@ -1172,6 +1196,13 @@
       "ticketnetwork": {
         "event_id": "8373270",
         "url": "https://www.ticketnetwork.com/en/p/8373270",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373270",
+        "url": "https://www.ticketliquidator.com/tickets/8373270/Megadeth-tickets-Wed-May-19-2027-The-Kia-Forum",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -1238,7 +1269,8 @@
         "end": "2027-05-06T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373270"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373270",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373270/Megadeth-tickets-Wed-May-19-2027-The-Kia-Forum"
   },
   {
     "id": "tm-megadeth-2027-ridgefield-vvg1hz_pj4m0zq",
@@ -1294,6 +1326,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373271",
+        "url": "https://www.ticketliquidator.com/tickets/8373271/Megadeth-tickets-Fri-May-21-2027-Cascades-Amphitheater-WA",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pJ4m0zq",
@@ -1342,7 +1381,8 @@
         "end": "2027-05-08T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373271"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373271",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373271/Megadeth-tickets-Fri-May-21-2027-Cascades-Amphitheater-WA"
   },
   {
     "id": "tm-megadeth-2027-auburn-vvg1hz_ph-ktdl",
@@ -1395,6 +1435,13 @@
       "ticketnetwork": {
         "event_id": "8373272",
         "url": "https://www.ticketnetwork.com/en/p/8373272",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373272",
+        "url": "https://www.ticketliquidator.com/tickets/8373272/Megadeth-tickets-Sat-May-22-2027-White-River-Amphitheatre",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -1451,7 +1498,8 @@
         "end": "2027-05-09T05:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373272"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373272",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373272/Megadeth-tickets-Sat-May-22-2027-White-River-Amphitheatre"
   },
   {
     "id": "tm-megadeth-2027-west-valley-city-g5vzz_pjgpffk",
@@ -1623,6 +1671,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373276",
+        "url": "https://www.ticketliquidator.com/tickets/8373276/Megadeth-tickets-Fri-May-28-2027-Credit-Union-1-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4tGkdt6btl",
@@ -1686,7 +1741,8 @@
         "end": "2027-05-15T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373276"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373276",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373276/Megadeth-tickets-Fri-May-28-2027-Credit-Union-1-Amphitheatre"
   },
   {
     "id": "tm-megadeth-2027-shakopee-1ae7z_pgkcukysu",
@@ -1964,6 +2020,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373279",
+        "url": "https://www.ticketliquidator.com/tickets/8373279/Megadeth-tickets-Wed-Jun-2-2027-Acrisure-Amphitheater",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkmGtNqb",
@@ -2017,7 +2080,8 @@
         "end": "2027-05-20T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373279"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373279",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373279/Megadeth-tickets-Wed-Jun-2-2027-Acrisure-Amphitheater"
   },
   {
     "id": "tm-megadeth-2027-clarkston-vv17oz_pgks8s9m3",
@@ -2073,6 +2137,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373280",
+        "url": "https://www.ticketliquidator.com/tickets/8373280/Megadeth-tickets-Fri-Jun-4-2027-Pine-Knob-Music-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkS8S9m3",
@@ -2120,7 +2191,8 @@
         "end": "2027-05-22T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373280"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373280",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373280/Megadeth-tickets-Fri-Jun-4-2027-Pine-Knob-Music-Theatre"
   },
   {
     "id": "tm-megadeth-2027-cincinnati-1avbz_pgkn_24l6",
@@ -2173,6 +2245,13 @@
       "ticketnetwork": {
         "event_id": "8373281",
         "url": "https://www.ticketnetwork.com/en/p/8373281",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373281",
+        "url": "https://www.ticketliquidator.com/tickets/8373281/Megadeth-tickets-Sat-Jun-5-2027-Riverbend-Music-Center",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -2229,7 +2308,8 @@
         "end": "2027-05-23T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373281"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373281",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373281/Megadeth-tickets-Sat-Jun-5-2027-Riverbend-Music-Center"
   },
   {
     "id": "tm-megadeth-2027-burgettstown-1avbz_pgkwkmpmi",
@@ -2282,6 +2362,13 @@
       "ticketnetwork": {
         "event_id": "8373283",
         "url": "https://www.ticketnetwork.com/en/p/8373283",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373283",
+        "url": "https://www.ticketliquidator.com/tickets/8373283/Megadeth-tickets-Mon-Jun-7-2027-The-Pavilion-At-Star-Lake",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -2343,7 +2430,8 @@
         "end": "2027-05-25T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373283"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373283",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373283/Megadeth-tickets-Mon-Jun-7-2027-The-Pavilion-At-Star-Lake"
   },
   {
     "id": "tm-megadeth-2027-bristow-1avfz_pgknmlaeb",
@@ -2396,6 +2484,13 @@
       "ticketnetwork": {
         "event_id": "8373284",
         "url": "https://www.ticketnetwork.com/en/p/8373284",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373284",
+        "url": "https://www.ticketliquidator.com/tickets/8373284/Megadeth-tickets-Tue-Jun-8-2027-Jiffy-Lube-Live",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -2457,7 +2552,8 @@
         "end": "2027-05-26T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373284"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373284",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373284/Megadeth-tickets-Tue-Jun-8-2027-Jiffy-Lube-Live"
   },
   {
     "id": "tm-megadeth-2027-toronto-1avzz_pgksfsdba",
@@ -2622,6 +2718,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373285",
+        "url": "https://www.ticketliquidator.com/tickets/8373285/Megadeth-tickets-Sat-Jun-12-2027-Xfinity-Center-MA",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkmJH1ou",
@@ -2685,7 +2788,8 @@
         "end": "2027-05-30T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373285"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373285",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373285/Megadeth-tickets-Sat-Jun-12-2027-Xfinity-Center-MA"
   },
   {
     "id": "tm-megadeth-2027-camden-vv17fz_pgkmjnhj7",
@@ -2738,6 +2842,13 @@
       "ticketnetwork": {
         "event_id": "8373287",
         "url": "https://www.ticketnetwork.com/en/p/8373287",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373287",
+        "url": "https://www.ticketliquidator.com/tickets/8373287/Megadeth-tickets-Sun-Jun-13-2027-Freedom-Mortgage-Pavilion",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -2804,7 +2915,8 @@
         "end": "2027-05-31T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373287"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373287",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373287/Megadeth-tickets-Sun-Jun-13-2027-Freedom-Mortgage-Pavilion"
   },
   {
     "id": "tm-megadeth-2027-new-york-g5diz_prtfsjt",
@@ -2857,6 +2969,13 @@
       "ticketnetwork": {
         "event_id": "8373289",
         "url": "https://www.ticketnetwork.com/en/p/8373289",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373289",
+        "url": "https://www.ticketliquidator.com/tickets/8373289/Megadeth-tickets-Tue-Jun-15-2027-Madison-Square-Garden",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -2932,7 +3051,8 @@
         "end": "2027-06-16T00:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373289"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373289",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373289/Megadeth-tickets-Tue-Jun-15-2027-Madison-Square-Garden"
   },
   {
     "id": "tm-megadeth-2027-charlotte-g5evz_pjm1iz7",
@@ -2985,6 +3105,13 @@
       "ticketnetwork": {
         "event_id": "8373290",
         "url": "https://www.ticketnetwork.com/en/p/8373290",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373290",
+        "url": "https://www.ticketliquidator.com/tickets/8373290/Megadeth-tickets-Thu-Jun-17-2027-Truliant-Amphitheater",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -3046,7 +3173,8 @@
         "end": "2027-06-04T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373290"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373290",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373290/Megadeth-tickets-Thu-Jun-17-2027-Truliant-Amphitheater"
   },
   {
     "id": "tm-megadeth-2027-alpharetta-vvg1zz_pnf8blb",
@@ -3099,6 +3227,13 @@
       "ticketnetwork": {
         "event_id": "8373291",
         "url": "https://www.ticketnetwork.com/en/p/8373291",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373291",
+        "url": "https://www.ticketliquidator.com/tickets/8373291/Megadeth-tickets-Fri-Jun-18-2027-Ameris-Bank-Amphitheatre",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -3165,7 +3300,8 @@
         "end": "2027-06-05T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373291"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373291",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373291/Megadeth-tickets-Fri-Jun-18-2027-Ameris-Bank-Amphitheatre"
   },
   {
     "id": "tm-megadeth-2027-the-woodlands-g5diz_penjw6e",
@@ -3342,6 +3478,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373293",
+        "url": "https://www.ticketliquidator.com/tickets/8373293/Megadeth-tickets-Tue-Jun-22-2027-The-Pavilion-at-Toyota-Music-Factory",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pSNfnKd",
@@ -3400,7 +3543,8 @@
         "end": "2027-06-09T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373293"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373293",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373293/Megadeth-tickets-Tue-Jun-22-2027-The-Pavilion-at-Toyota-Music-Factory"
   },
   {
     "id": "tm-megadeth-2027-austin-g5diz_pevm_m_",
@@ -3453,6 +3597,13 @@
       "ticketnetwork": {
         "event_id": "8373294",
         "url": "https://www.ticketnetwork.com/en/p/8373294",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373294",
+        "url": "https://www.ticketliquidator.com/tickets/8373294/Megadeth-tickets-Wed-Jun-23-2027-Germania-Insurance-Amphitheater",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -3519,7 +3670,8 @@
         "end": "2027-06-10T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373294"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373294",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373294/Megadeth-tickets-Wed-Jun-23-2027-Germania-Insurance-Amphitheater"
   },
   {
     "id": "tm-megadeth-2027-north-little-rock-g5viz_pnjetpo",
@@ -3572,6 +3724,13 @@
       "ticketnetwork": {
         "event_id": "8373298",
         "url": "https://www.ticketnetwork.com/en/p/8373298",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373298",
+        "url": "https://www.ticketliquidator.com/tickets/8373298/Megadeth-tickets-Mon-Sep-6-2027-Simmons-Bank-Arena",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -3633,7 +3792,8 @@
         "end": "2027-08-24T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373298"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373298",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373298/Megadeth-tickets-Mon-Sep-6-2027-Simmons-Bank-Arena"
   },
   {
     "id": "tm-megadeth-2027-biloxi-g5viz_plz_cl1",
@@ -3686,6 +3846,13 @@
       "ticketnetwork": {
         "event_id": "8373299",
         "url": "https://www.ticketnetwork.com/en/p/8373299",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373299",
+        "url": "https://www.ticketliquidator.com/tickets/8373299/Megadeth-tickets-Tue-Sep-7-2027-Mississippi-Coast-Coliseum",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -3752,7 +3919,8 @@
         "end": "2027-08-25T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373299"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373299",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373299/Megadeth-tickets-Tue-Sep-7-2027-Mississippi-Coast-Coliseum"
   },
   {
     "id": "tm-megadeth-2027-nashville-g5viz_pmzogzi",
@@ -3805,6 +3973,13 @@
       "ticketnetwork": {
         "event_id": "8373301",
         "url": "https://www.ticketnetwork.com/en/p/8373301",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373301",
+        "url": "https://www.ticketliquidator.com/tickets/8373301/Megadeth-tickets-Thu-Sep-9-2027-Bridgestone-Arena",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -3865,7 +4040,8 @@
         "end": "2027-08-27T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373301"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373301",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373301/Megadeth-tickets-Thu-Sep-9-2027-Bridgestone-Arena"
   },
   {
     "id": "tm-megadeth-2027-virginia-beach-vv177z_pgkl4llwn",
@@ -3918,6 +4094,13 @@
       "ticketnetwork": {
         "event_id": "8373304",
         "url": "https://www.ticketnetwork.com/en/p/8373304",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373304",
+        "url": "https://www.ticketliquidator.com/tickets/8373304/Megadeth-tickets-Sat-Sep-11-2027-Veterans-United-Home-Loans-Amphitheater",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -3979,7 +4162,8 @@
         "end": "2027-08-29T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373304"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373304",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373304/Megadeth-tickets-Sat-Sep-11-2027-Veterans-United-Home-Loans-Amphitheater"
   },
   {
     "id": "tm-megadeth-2027-allentown-1adzz_pgkmxuggq",
@@ -4032,6 +4216,13 @@
       "ticketnetwork": {
         "event_id": "8373305",
         "url": "https://www.ticketnetwork.com/en/p/8373305",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373305",
+        "url": "https://www.ticketliquidator.com/tickets/8373305/Megadeth-tickets-Sun-Sep-12-2027-PPL-Center",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -4102,7 +4293,8 @@
         "end": "2027-08-30T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373305"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373305",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373305/Megadeth-tickets-Sun-Sep-12-2027-PPL-Center"
   },
   {
     "id": "tm-megadeth-2027-laval-1ad7z_pgkmil4lx",
@@ -4155,6 +4347,13 @@
       "ticketnetwork": {
         "event_id": "8373324",
         "url": "https://www.ticketnetwork.com/en/p/8373324",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373324",
+        "url": "https://www.ticketliquidator.com/tickets/8373324/Megadeth-tickets-Tue-Sep-14-2027-Place-Bell",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -4214,7 +4413,8 @@
         "end": "2027-09-01T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373324"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373324",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373324/Megadeth-tickets-Tue-Sep-14-2027-Place-Bell"
   },
   {
     "id": "tm-megadeth-2027-buffalo-k7vgf_pr36-mz",
@@ -4267,6 +4467,13 @@
       "ticketnetwork": {
         "event_id": "8373306",
         "url": "https://www.ticketnetwork.com/en/p/8373306",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373306",
+        "url": "https://www.ticketliquidator.com/tickets/8373306/Megadeth-tickets-Thu-Sep-16-2027-KeyBank-Center",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -4333,7 +4540,8 @@
         "end": "2027-09-03T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373306"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373306",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373306/Megadeth-tickets-Thu-Sep-16-2027-KeyBank-Center"
   },
   {
     "id": "tm-megadeth-2027-toledo-vv1afzk4tgkdzzv33",
@@ -4386,6 +4594,13 @@
       "ticketnetwork": {
         "event_id": "8373307",
         "url": "https://www.ticketnetwork.com/en/p/8373307",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373307",
+        "url": "https://www.ticketliquidator.com/tickets/8373307/Megadeth-tickets-Sat-Sep-18-2027-Huntington-Center",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -4442,7 +4657,8 @@
         "end": "2027-09-05T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373307"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373307",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373307/Megadeth-tickets-Sat-Sep-18-2027-Huntington-Center"
   },
   {
     "id": "tm-megadeth-2027-columbus-vv17fz_pgksfzclm",
@@ -4495,6 +4711,13 @@
       "ticketnetwork": {
         "event_id": "8373312",
         "url": "https://www.ticketnetwork.com/en/p/8373312",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373312",
+        "url": "https://www.ticketliquidator.com/tickets/8373312/Megadeth-tickets-Sun-Sep-19-2027-Value-City-Arena-at-The-Schottenstein-Center",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -4556,7 +4779,8 @@
         "end": "2027-09-06T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373312"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373312",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373312/Megadeth-tickets-Sun-Sep-19-2027-Value-City-Arena-at-The-Schottenstein-Center"
   },
   {
     "id": "tm-megadeth-2027-milwaukee-vv17jz_pgkrcmzyk",
@@ -4609,6 +4833,13 @@
       "ticketnetwork": {
         "event_id": "8373315",
         "url": "https://www.ticketnetwork.com/en/p/8373315",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373315",
+        "url": "https://www.ticketliquidator.com/tickets/8373315/Megadeth-tickets-Tue-Sep-21-2027-BMO-Pavilion",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -4671,7 +4902,8 @@
         "end": "2027-09-08T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373315"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373315",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373315/Megadeth-tickets-Tue-Sep-21-2027-BMO-Pavilion"
   },
   {
     "id": "tm-megadeth-2027-fargo-vv1kvovpq_ga53kds",
@@ -4724,6 +4956,13 @@
       "ticketnetwork": {
         "event_id": "8373316",
         "url": "https://www.ticketnetwork.com/en/p/8373316",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373316",
+        "url": "https://www.ticketliquidator.com/tickets/8373316/Megadeth-tickets-Wed-Sep-22-2027-Fargodome",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -4785,7 +5024,8 @@
         "end": "2027-09-09T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373316"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373316",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373316/Megadeth-tickets-Wed-Sep-22-2027-Fargodome"
   },
   {
     "id": "tm-megadeth-2027-lincoln-vv17bz_pgkmwzqwq",
@@ -4838,6 +5078,13 @@
       "ticketnetwork": {
         "event_id": "8373317",
         "url": "https://www.ticketnetwork.com/en/p/8373317",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373317",
+        "url": "https://www.ticketliquidator.com/tickets/8373317/Megadeth-tickets-Fri-Sep-24-2027-Pinnacle-Bank-Arena",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -4903,7 +5150,8 @@
         "end": "2027-09-11T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373317"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373317",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373317/Megadeth-tickets-Fri-Sep-24-2027-Pinnacle-Bank-Arena"
   },
   {
     "id": "tm-megadeth-2027-wichita-vv17bz_pgkr9vwea",
@@ -4956,6 +5204,13 @@
       "ticketnetwork": {
         "event_id": "8373318",
         "url": "https://www.ticketnetwork.com/en/p/8373318",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373318",
+        "url": "https://www.ticketliquidator.com/tickets/8373318/Megadeth-tickets-Sat-Sep-25-2027-INTRUST-Bank-Arena",
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
@@ -5027,6 +5282,7 @@
         "end": "2027-09-12T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373318"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373318",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373318/Megadeth-tickets-Sat-Sep-25-2027-INTRUST-Bank-Arena"
   }
 ]

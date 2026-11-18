@@ -1649,11 +1649,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457487",
-        "url": "https://www.ticketnetwork.com/en/p/7457487",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107202114",
@@ -1673,7 +1673,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZbSle3UGD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457487",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457487/Doja-Cat-tickets-Tue-Nov-17-2026-State-Farm-Arena-GA",
     "organizer_names": [

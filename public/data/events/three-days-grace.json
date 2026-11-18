@@ -703,11 +703,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7551670",
-        "url": "https://www.ticketnetwork.com/en/p/7551670",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7551670",
@@ -727,7 +727,7 @@
     "ticketmaster_discovery_event_id": "G5vYZbU2whWE8",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551670",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551670/Three-Days-Grace-tickets-Tue-Nov-17-2026-Golden-1-Center",
     "stubhub_international_url": "https://www.stubhub.ie/three-days-grace-sacramento-tickets-11-17-2026/event/107016094",
     "organizer_names": [

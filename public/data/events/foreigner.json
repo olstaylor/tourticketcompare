@@ -1399,6 +1399,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373802",
+        "url": "https://www.ticketnetwork.com/en/p/8373802",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vVZ_pUBgAoY",
@@ -1428,7 +1435,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-04-27T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373802"
   },
   {
     "id": "tm-foreigner-2027-bangor-vv177z_pgkzwgr47",
@@ -1477,6 +1485,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373799",
+        "url": "https://www.ticketnetwork.com/en/p/8373799",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkzwgr47",
@@ -1540,7 +1555,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-07-15T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373799"
   },
   {
     "id": "tm-foreigner-2027-gilford-vv177z_pgkichxsp",
@@ -1695,6 +1711,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373801",
+        "url": "https://www.ticketnetwork.com/en/p/8373801",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pS6Zwby",
@@ -1742,6 +1765,7 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-07-18T23:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373801"
   }
 ]

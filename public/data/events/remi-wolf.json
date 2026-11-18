@@ -1970,6 +1970,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376396",
+        "url": "https://www.ticketnetwork.com/en/p/8376396",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4aGkemrIIF",
@@ -1989,7 +1996,8 @@
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376396"
   },
   {
     "id": "tm-remi-wolf-2027-berkeley-g5vyz_pmrwpif",
@@ -2038,6 +2046,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376395",
+        "url": "https://www.ticketnetwork.com/en/p/8376395",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pMrwPIf",
@@ -2060,7 +2075,8 @@
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376395"
   },
   {
     "id": "tm-remi-wolf-2027-phoenix-1av0z_pgkubtvhv",
@@ -2109,6 +2125,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376394",
+        "url": "https://www.ticketnetwork.com/en/p/8376394",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkUbtVhv",
@@ -2141,6 +2164,7 @@
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-05-01T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376394"
   }
 ]

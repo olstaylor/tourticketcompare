@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8117232",
+        "url": "https://www.ticketnetwork.com/en/p/8117232",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JF0F",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8117232"
   },
   {
     "id": "tm-travis-tritt-2027-oxford-z7r9jz1a7jao6",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8190801",
+        "url": "https://www.ticketnetwork.com/en/p/8190801",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JAO6",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8190801"
   },
   {
     "id": "tm-travis-tritt-2027-macon-vvg1zz_k1bu6z9",
@@ -152,11 +168,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7775649",
+        "url": "https://www.ticketnetwork.com/en/p/7775649",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_k1bU6Z9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775649"
   },
   {
     "id": "tm-travis-tritt-2027-northfield-vv1kfz_pfzg7zdfa",
@@ -205,11 +229,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364346",
+        "url": "https://www.ticketnetwork.com/en/p/8364346",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kfZ_pFZG7zDFa",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364346"
   },
   {
     "id": "tm-travis-tritt-2027-waterloo-k7vgf_29lrc4r",
@@ -311,11 +343,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364348",
+        "url": "https://www.ticketnetwork.com/en/p/8364348",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk4NGkdpZFkY",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364348"
   },
   {
     "id": "tm-travis-tritt-2027-durham-g5evz_p2pdn7v",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364340",
+        "url": "https://www.ticketnetwork.com/en/p/8364340",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAaF3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364340"
   },
   {
     "id": "tm-travis-tritt-2027-bossier-city-g5viz_p2n3lzw",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364350",
+        "url": "https://www.ticketnetwork.com/en/p/8364350",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_p2n3LZw",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364350"
   },
   {
     "id": "tm-travis-tritt-2027-bristol-g5viz_4sc3z7i",
@@ -576,11 +632,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364353",
+        "url": "https://www.ticketnetwork.com/en/p/8364353",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOvPQ_GA2h4m9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364353"
   },
   {
     "id": "tm-travis-tritt-2027-gary-vv1aazk4tgkewapoq",
@@ -629,11 +693,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364355",
+        "url": "https://www.ticketnetwork.com/en/p/8364355",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4tGkewaPoq",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364355"
   },
   {
     "id": "tm-travis-tritt-2027-saint-louis-1a-zk4igkdyooqa",
@@ -735,11 +807,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364359",
+        "url": "https://www.ticketnetwork.com/en/p/8364359",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4JGkdb4gal",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364359"
   },
   {
     "id": "tm-travis-tritt-2027-nashville-vv1aazk4jgke0bm2-",
@@ -788,11 +868,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364361",
+        "url": "https://www.ticketnetwork.com/en/p/8364361",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4JGke0BM2-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364361"
   },
   {
     "id": "tm-travis-tritt-2027-mount-pleasant-z7r9jz1aaaark",
@@ -841,11 +929,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8364862",
+        "url": "https://www.ticketnetwork.com/en/p/8364862",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAarK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364862"
   },
   {
     "id": "tm-travis-tritt-2027-lake-charles-z7r9jz1aaaajp",
@@ -894,10 +990,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366592",
+        "url": "https://www.ticketnetwork.com/en/p/8366592",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAaJp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366592"
   }
 ]

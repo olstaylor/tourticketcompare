@@ -472,11 +472,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8293183",
-        "url": "https://www.ticketnetwork.com/en/p/8293183",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8293183",
@@ -489,7 +489,7 @@
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdNqPGX",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293183",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293183/Brandi-Carlile-tickets-Tue-Nov-17-2026-State-Theatre-MN",
     "organizer_names": [
       "HENNEPIN THEATRE TRUST"

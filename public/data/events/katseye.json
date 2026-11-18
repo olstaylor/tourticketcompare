@@ -954,11 +954,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7961840",
-        "url": "https://www.ticketnetwork.com/en/p/7961840",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_1E8GGGS",
@@ -969,7 +969,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961840",
+    "ticketnetwork_url": "",
     "ticket_limit": 4,
     "genre": "Pop"
   },

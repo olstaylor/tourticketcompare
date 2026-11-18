@@ -816,6 +816,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373267",
+        "url": "https://www.ticketnetwork.com/en/p/8373267",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pwxigv1",
@@ -873,7 +880,8 @@
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-05-01T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373267"
   },
   {
     "id": "tm-megadeth-2027-phoenix-1av0z_pgknttpbb",
@@ -922,6 +930,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373268",
+        "url": "https://www.ticketnetwork.com/en/p/8373268",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkntTpbB",
@@ -984,7 +999,8 @@
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-05-02T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373268"
   },
   {
     "id": "tm-megadeth-2027-chula-vista-vvg1iz_pjb5pwc",
@@ -1033,6 +1049,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373269",
+        "url": "https://www.ticketnetwork.com/en/p/8373269",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pJB5pwc",
@@ -1095,7 +1118,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-05-05T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373269"
   },
   {
     "id": "tm-megadeth-2027-inglewood-vv16azk4ev7zauakk1",
@@ -1144,6 +1168,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373270",
+        "url": "https://www.ticketnetwork.com/en/p/8373270",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZk4Ev7ZAuAkk1",
@@ -1206,7 +1237,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-05-06T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373270"
   },
   {
     "id": "tm-megadeth-2027-ridgefield-vvg1hz_pj4m0zq",
@@ -1255,6 +1287,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373271",
+        "url": "https://www.ticketnetwork.com/en/p/8373271",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pJ4m0zq",
@@ -1302,7 +1341,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-05-08T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373271"
   },
   {
     "id": "tm-megadeth-2027-auburn-vvg1hz_ph-ktdl",
@@ -1351,6 +1391,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373272",
+        "url": "https://www.ticketnetwork.com/en/p/8373272",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_ph-KtDL",
@@ -1403,7 +1450,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-05-09T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373272"
   },
   {
     "id": "tm-megadeth-2027-west-valley-city-g5vzz_pjgpffk",
@@ -1568,6 +1616,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373276",
+        "url": "https://www.ticketnetwork.com/en/p/8373276",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4tGkdt6btl",
@@ -1630,7 +1685,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-05-15T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373276"
   },
   {
     "id": "tm-megadeth-2027-shakopee-1ae7z_pgkcukysu",
@@ -1901,6 +1957,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373279",
+        "url": "https://www.ticketnetwork.com/en/p/8373279",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkmGtNqb",
@@ -1953,7 +2016,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-20T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373279"
   },
   {
     "id": "tm-megadeth-2027-clarkston-vv17oz_pgks8s9m3",
@@ -2002,6 +2066,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373280",
+        "url": "https://www.ticketnetwork.com/en/p/8373280",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkS8S9m3",
@@ -2048,7 +2119,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-22T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373280"
   },
   {
     "id": "tm-megadeth-2027-cincinnati-1avbz_pgkn_24l6",
@@ -2097,6 +2169,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373281",
+        "url": "https://www.ticketnetwork.com/en/p/8373281",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkn_24L6",
@@ -2149,7 +2228,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-23T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373281"
   },
   {
     "id": "tm-megadeth-2027-burgettstown-1avbz_pgkwkmpmi",
@@ -2198,6 +2278,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373283",
+        "url": "https://www.ticketnetwork.com/en/p/8373283",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkwKMpmI",
@@ -2255,7 +2342,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-25T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373283"
   },
   {
     "id": "tm-megadeth-2027-bristow-1avfz_pgknmlaeb",
@@ -2304,6 +2392,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373284",
+        "url": "https://www.ticketnetwork.com/en/p/8373284",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_pGknmlaeb",
@@ -2361,7 +2456,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-26T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373284"
   },
   {
     "id": "tm-megadeth-2027-toronto-1avzz_pgksfsdba",
@@ -2519,6 +2615,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373285",
+        "url": "https://www.ticketnetwork.com/en/p/8373285",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkmJH1ou",
@@ -2581,7 +2684,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-30T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373285"
   },
   {
     "id": "tm-megadeth-2027-camden-vv17fz_pgkmjnhj7",
@@ -2630,6 +2734,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373287",
+        "url": "https://www.ticketnetwork.com/en/p/8373287",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_pGkmJnHj7",
@@ -2692,7 +2803,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-31T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373287"
   },
   {
     "id": "tm-megadeth-2027-new-york-g5diz_prtfsjt",
@@ -2741,6 +2853,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373289",
+        "url": "https://www.ticketnetwork.com/en/p/8373289",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_prTFSjT",
@@ -2812,7 +2931,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-16T00:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373289"
   },
   {
     "id": "tm-megadeth-2027-charlotte-g5evz_pjm1iz7",
@@ -2861,6 +2981,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373290",
+        "url": "https://www.ticketnetwork.com/en/p/8373290",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pJm1IZ7",
@@ -2918,7 +3045,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-04T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373290"
   },
   {
     "id": "tm-megadeth-2027-alpharetta-vvg1zz_pnf8blb",
@@ -2967,6 +3095,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373291",
+        "url": "https://www.ticketnetwork.com/en/p/8373291",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pnf8Blb",
@@ -3029,7 +3164,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373291"
   },
   {
     "id": "tm-megadeth-2027-the-woodlands-g5diz_penjw6e",
@@ -3199,6 +3335,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373293",
+        "url": "https://www.ticketnetwork.com/en/p/8373293",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pSNfnKd",
@@ -3256,7 +3399,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-09T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373293"
   },
   {
     "id": "tm-megadeth-2027-austin-g5diz_pevm_m_",
@@ -3305,6 +3449,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373294",
+        "url": "https://www.ticketnetwork.com/en/p/8373294",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pEvM_m_",
@@ -3367,7 +3518,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-10T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373294"
   },
   {
     "id": "tm-megadeth-2027-north-little-rock-g5viz_pnjetpo",
@@ -3416,6 +3568,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373298",
+        "url": "https://www.ticketnetwork.com/en/p/8373298",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_pnjetpO",
@@ -3473,7 +3632,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-08-24T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373298"
   },
   {
     "id": "tm-megadeth-2027-biloxi-g5viz_plz_cl1",
@@ -3522,6 +3682,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373299",
+        "url": "https://www.ticketnetwork.com/en/p/8373299",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_plZ_cl1",
@@ -3584,7 +3751,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-08-25T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373299"
   },
   {
     "id": "tm-megadeth-2027-nashville-g5viz_pmzogzi",
@@ -3633,6 +3801,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373301",
+        "url": "https://www.ticketnetwork.com/en/p/8373301",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_pmZOgZI",
@@ -3689,7 +3864,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-08-27T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373301"
   },
   {
     "id": "tm-megadeth-2027-virginia-beach-vv177z_pgkl4llwn",
@@ -3738,6 +3914,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373304",
+        "url": "https://www.ticketnetwork.com/en/p/8373304",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkl4LLwN",
@@ -3795,7 +3978,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-08-29T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373304"
   },
   {
     "id": "tm-megadeth-2027-allentown-1adzz_pgkmxuggq",
@@ -3844,6 +4028,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373305",
+        "url": "https://www.ticketnetwork.com/en/p/8373305",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_pGkmxUggq",
@@ -3910,7 +4101,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-08-30T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373305"
   },
   {
     "id": "tm-megadeth-2027-laval-1ad7z_pgkmil4lx",
@@ -3959,6 +4151,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373324",
+        "url": "https://www.ticketnetwork.com/en/p/8373324",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_pGkmil4LX",
@@ -4014,7 +4213,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-09-01T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373324"
   },
   {
     "id": "tm-megadeth-2027-buffalo-k7vgf_pr36-mz",
@@ -4063,6 +4263,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373306",
+        "url": "https://www.ticketnetwork.com/en/p/8373306",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pR36-mz",
@@ -4125,7 +4332,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-09-03T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373306"
   },
   {
     "id": "tm-megadeth-2027-toledo-vv1afzk4tgkdzzv33",
@@ -4174,6 +4382,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373307",
+        "url": "https://www.ticketnetwork.com/en/p/8373307",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZk4tGkdZZV33",
@@ -4226,7 +4441,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-09-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373307"
   },
   {
     "id": "tm-megadeth-2027-columbus-vv17fz_pgksfzclm",
@@ -4275,6 +4491,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373312",
+        "url": "https://www.ticketnetwork.com/en/p/8373312",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkSFZCLm",
@@ -4332,7 +4555,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-09-06T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373312"
   },
   {
     "id": "tm-megadeth-2027-milwaukee-vv17jz_pgkrcmzyk",
@@ -4381,6 +4605,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373315",
+        "url": "https://www.ticketnetwork.com/en/p/8373315",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_pGkRCmzyk",
@@ -4439,7 +4670,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-09-08T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373315"
   },
   {
     "id": "tm-megadeth-2027-fargo-vv1kvovpq_ga53kds",
@@ -4488,6 +4720,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373316",
+        "url": "https://www.ticketnetwork.com/en/p/8373316",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPQ_GA53kdS",
@@ -4545,7 +4784,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-09-09T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373316"
   },
   {
     "id": "tm-megadeth-2027-lincoln-vv17bz_pgkmwzqwq",
@@ -4594,6 +4834,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373317",
+        "url": "https://www.ticketnetwork.com/en/p/8373317",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkmWZQwQ",
@@ -4655,7 +4902,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-09-11T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373317"
   },
   {
     "id": "tm-megadeth-2027-wichita-vv17bz_pgkr9vwea",
@@ -4704,6 +4952,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373318",
+        "url": "https://www.ticketnetwork.com/en/p/8373318",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkR9VWEA",
@@ -4771,6 +5026,7 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-09-12T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373318"
   }
 ]

@@ -3954,6 +3954,20 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-jhene-aiko",
     redirectUrl: "https://seatgeek.com/jhene-aiko-tickets",
     verified: true
+  },
+  "travis-tritt:ticketmaster": {
+    artistSlug: "travis-tritt",
+    provider: "ticketmaster",
+    linkId: "tm-artist-travis-tritt",
+    redirectUrl: "https://www.ticketmaster.com/travis-tritt-tickets/artist/732965",
+    verified: true
+  },
+  "travis-tritt:seatgeek": {
+    artistSlug: "travis-tritt",
+    provider: "seatgeek",
+    linkId: "sg-artist-travis-tritt",
+    redirectUrl: "https://seatgeek.com/travis-tritt-tickets",
+    verified: true
   }
 };
 

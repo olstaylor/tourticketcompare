@@ -8222,6 +8222,32 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "travis-tritt",
+      "name": "Travis Tritt",
+      "short_description": "Country act listed on Ticketmaster.",
+      "image_alt": "Travis Tritt artist ticket information",
+      "factual_summary": "Travis Tritt is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Travis Tritt page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Travis Tritt Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Travis Tritt tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Travis Tritt tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -16288,6 +16314,34 @@
       "last_checked_at": "2026-11-17",
       "disclosure_required": true,
       "url": "https://seatgeek.com/jhene-aiko-tickets"
+    },
+    {
+      "link_id": "tm-artist-travis-tritt",
+      "artist_slug": "travis-tritt",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-18",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/travis-tritt-tickets/artist/732965"
+    },
+    {
+      "link_id": "sg-artist-travis-tritt",
+      "artist_slug": "travis-tritt",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-18",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/travis-tritt-tickets"
     }
   ],
   "safety_rules": [

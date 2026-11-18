@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import { test } from 'node:test';
 import { readFileSync } from 'node:fs';
 import { DatabaseSync } from 'node:sqlite';
-import { describeNavigation, isLikelyBot, isSelfReferredRedirect } from '../functions/_bot-detection.js';
+import { describeNavigation, isLikelyBot, isSuspectedLinuxDesktopBot, isSelfReferredRedirect } from '../functions/_bot-detection.js';
 import { onRequestGet } from '../functions/api/out.js';
 import { onRequest as middleware } from '../functions/_middleware.js';
 import { humanRedirectSql, pageBackedSql } from './lib/human-clicks.mjs';
@@ -215,4 +215,11 @@ test('isSelfReferredRedirect matches only /api/out referers on our host', () => 
   assert.equal(isSelfReferredRedirect(r('https://tourticketcompare.com/api/outage')), false);
   assert.equal(isSelfReferredRedirect(r('https://example.com/api/out')), false);
   assert.equal(isSelfReferredRedirect(r(null)), false);
+});
+
+test('analytics drops the Linux desktop Chrome bot but not Android, Windows or Mac', () => {
+  assert.equal(isSuspectedLinuxDesktopBot('Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36'), true);
+  assert.equal(isSuspectedLinuxDesktopBot('Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 Chrome/157.0.0.0 Mobile Safari/537.36'), false);
+  assert.equal(isSuspectedLinuxDesktopBot(CHROME), false);
+  assert.equal(isSuspectedLinuxDesktopBot(''), false);
 });

@@ -49,6 +49,16 @@ export function isLikelyBot(userAgent) {
   return BOT_TOKENS.some((token) => ua.includes(token));
 }
 
+// Since 13 Nov 2026 a bot loads our pages in desktop Chrome on Linux
+// ("X11; Linux x86_64", fake google.com referrer, ~570 distinct pages) and
+// fires page analytics: 300-430 page_views a day against ~20 from genuine Linux
+// desktops before. Used only by /api/analytics, never by /api/out, so the
+// cost of a false positive is a lost analytics row, not a lost click.
+export function isSuspectedLinuxDesktopBot(userAgent) {
+  const ua = String(userAgent || "");
+  return /X11; Linux x86_64/.test(ua) && /Chrome\//.test(ua) && !/Android/i.test(ua);
+}
+
 // Navigation evidence for a request to /api/out, recorded on the redirect
 // receipt so reports and Cloudflare rules can tell a click on one of our pages
 // from a direct hit on the redirect URL.

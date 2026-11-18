@@ -156,7 +156,7 @@
         "event_id": 18612862,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/englewood-new-jersey-bergen-performing-arts-center-2027-01-07-8-pm/concert/18612862",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -778,7 +778,7 @@
         "event_id": 18612640,
         "url": "https://seatgeek.com/yacht-rock-revue-tickets/atlantic-city-new-jersey-hard-rock-live-at-etess-arena-2027-03-05-8-pm/concert/18612640",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -833,7 +833,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0200652EAB6EBBDC",
     "ticketmaster_url": "https://www.ticketmaster.com/yacht-rock-revue-primetime-bethlehem-pennsylvania-03-06-2027/event/0200652EAB6EBBDC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/yacht-rock-revue-tickets/bethlehem-pennsylvania-wind-creek-event-center-2027-03-06-8-pm/concert/18612951",
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-bethlehem-wind-creek-event-center-3-6-2027/production/7593550",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yacht-rock-revue-primetime-bethlehem-pennsylvania-03-06-2027/event/0200652EAB6EBBDC",
@@ -849,11 +849,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18612951,
+        "url": "https://seatgeek.com/yacht-rock-revue-tickets/bethlehem-pennsylvania-wind-creek-event-center-2027-03-06-8-pm/concert/18612951",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593550,

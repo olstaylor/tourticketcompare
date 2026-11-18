@@ -392,7 +392,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500655FE53EBDA4",
     "ticketmaster_url": "https://www.ticketmaster.com/the-dead-south-silence-please-tour-silver-spring-maryland-04-19-2027/event/1500655FE53EBDA4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-19-8-pm/concert/18754695",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-silver-spring-the-fillmore-silver-spring-4-19-2027/production/7835102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-silence-please-tour-silver-spring-maryland-04-19-2027/event/1500655FE53EBDA4",
@@ -408,11 +408,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754695,
+        "url": "https://seatgeek.com/the-dead-south-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-19-8-pm/concert/18754695",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835102,
@@ -585,7 +585,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1600655D8FE64A7E",
     "ticketmaster_url": "https://www.ticketmaster.com/the-dead-south-w-amigo-the-lexington-kentucky-04-30-2027/event/1600655D8FE64A7E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/lexington-kentucky-the-rail-3-2027-04-30-8-pm/concert/18738211",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-lexington-the-rail-4-30-2027/production/7794133",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-w-amigo-the-lexington-kentucky-04-30-2027/event/1600655D8FE64A7E",
@@ -601,11 +601,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738211,
+        "url": "https://seatgeek.com/the-dead-south-tickets/lexington-kentucky-the-rail-3-2027-04-30-8-pm/concert/18738211",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794133,
@@ -1431,7 +1431,7 @@
         "event_id": 18760507,
         "url": "https://seatgeek.com/the-dead-south-tickets/regina-canada-conexus-arts-centre-2027-10-09-8-pm/concert/18760507",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {

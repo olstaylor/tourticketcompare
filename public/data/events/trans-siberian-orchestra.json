@@ -604,7 +604,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -641,11 +641,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "$10 Off Limited Time Offer",
-        "start": "2026-09-17T16:00:00Z",
-        "end": "2026-11-18T05:00:00Z"
-      },
       {
         "name": "Aisle Seat Upgrade",
         "start": "2026-09-17T16:00:00Z",

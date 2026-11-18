@@ -1742,7 +1742,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-sioux-falls-denny-sanford-premier-center-4-21-2027--concerts-pop/production/7870989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-sioux-falls-south-dakota-04-21-2027/event/0600656AB40EA15B",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1815,6 +1815,11 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-04-14T22:00:00Z"
@@ -1839,7 +1844,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-winnipeg-canada-life-centre-4-23-2027--concerts-pop/production/7871097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-winnipeg-manitoba-04-23-2027/event/1100656C9D745ACF",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1921,7 +1926,7 @@
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T15:00:00Z",
-        "end": "2027-03-20T22:00:00Z"
+        "end": "2027-04-16T22:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369857/Alex-Warren-tickets-Fri-Apr-23-2027-Canada-Life-Centre",

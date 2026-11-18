@@ -1700,7 +1700,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1738,11 +1738,6 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-11-18T04:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2025-09-19T15:00:00Z",

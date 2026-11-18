@@ -62943,7 +62943,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-austin-moody-center-atx-12-15-2026/production/7393901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-austin-texas-12-15-2026/event/3A006504EE731AE5",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -63004,11 +63004,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184790/Pentatonix-tickets-Tue-Dec-15-2026-Moody-Center-ATX",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-austin-tickets-12-15-2026/event/107476107",
     "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-08-14T15:00:00Z",
-        "end": "2026-11-18T04:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-08-14T15:00:00Z",
@@ -102887,7 +102882,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-boise-idaho-11-27-2026/event/1E006507D287756D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -102924,11 +102919,6 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "$10 Off Limited Time Offer",
-        "start": "2026-09-17T16:00:00Z",
-        "end": "2026-11-18T05:00:00Z"
-      },
       {
         "name": "Aisle Seat Upgrade",
         "start": "2026-09-17T16:00:00Z",
@@ -193294,7 +193284,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-los-angeles-orpheum-theatre---los-angeles-3-14-2027--concerts-world-music/production/7593618",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-los-angeles-california-03-14-2027/event/09006533ECB3F002",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -193346,7 +193336,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289136",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289136/Flans-tickets-Sun-Mar-14-2027-Orpheum-Theatre-Los-Angeles",
-    "genre": "Ballads/Romantic"
+    "genre": "Ballads/Romantic",
+    "presales": [
+      {
+        "name": "Thanksgiving / Cyber Monday Sale",
+        "start": "2026-11-26T18:00:00Z",
+        "end": "2026-12-01T07:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-flans-2027-houston-g5diz_k6-kevr",
@@ -217044,7 +217041,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -217082,11 +217079,6 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-11-18T04:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2025-09-19T15:00:00Z",
@@ -232324,7 +232316,7 @@
     "id": "tm-mico-2027-praha-1-z698xzu0z16vxkonfi",
     "artist_slug": "mico",
     "artist_name": "Mico",
-    "event_name": "MICO - IN:BETWEEN TOUR",
+    "event_name": "MICO - IN:BETWEEN TOUR, support: Stevie Bill",
     "city": "Praha 1",
     "country": "Czech Republic",
     "venue": "Roxy",
@@ -232336,7 +232328,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/mico-inbetween-tour-tickets/1886823228?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -242995,7 +242987,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-at-the-venetian-resort-11-27-2026--concerts-adult-contemporary/production/6981873",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-27-2026/event/17006484FEDB1E41",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243052,13 +243044,6 @@
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXUsyv",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "On The List VIP Package Onsale",
-        "start": "2026-05-15T17:00:00Z",
-        "end": "2026-11-18T06:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930157/The-Eagles-tickets-Fri-Nov-27-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-27-2026/event/107162529",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930157",
@@ -268353,7 +268338,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-manchester-21-11-2026/event/1F006511B96E4B8A",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -268416,7 +268401,8 @@
     "organizer_names": [
       "ASM T-A AO ARENA"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticket_limit": 4
   },
   {
     "id": "tm-fontaines-d-c-2026-glasgow-1adbz_8gkucuwyw",
@@ -307728,7 +307714,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-new-york-infosys-theater-at-madison-square-garden-11-24-2026--concerts-pop/production/7540333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-new-york-new-york-11-24-2026/event/3B0065238AD32241",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -307792,11 +307778,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Packages",
-        "start": "2026-09-16T14:00:00Z",
-        "end": "2026-11-18T03:00:00Z"
-      },
       {
         "name": "Chase Cardholder Preferred Tickets",
         "start": "2026-09-16T14:00:00Z",
@@ -310413,7 +310394,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-port-chester-new-york-12-15-2026/event/1D006538A1CD389B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310465,13 +310446,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-10-02T14:00:00Z",
-        "end": "2026-11-18T01:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293187",
     "ticket_limit": 4,
@@ -335365,7 +335339,7 @@
     "city": "Hamburg",
     "country": "Germany",
     "venue": "Inselpark Arena",
-    "datetime_iso": "2027-02-07T18:00:00Z",
+    "datetime_iso": "2027-02-07T19:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1286672063",
     "ticketmaster_url": "https://www.ticketmaster.de/event/two-door-cinema-club-15th-anniversary-tour-tickets/1286672063?language=en-us",
@@ -335373,7 +335347,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/two-door-cinema-club-15th-anniversary-tour-tickets/1286672063?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -362908,7 +362882,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-memphis-orpheum-theatre---memphis-11-24-2026/production/7353380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-memphis-tennessee-11-24-2026/event/1B0064F6CB7FE2EA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -362960,13 +362934,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-31T15:00:00Z",
-        "end": "2026-11-18T05:55:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167876",
     "ticket_limit": 8,
@@ -391125,7 +391092,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391196,12 +391163,12 @@
         "end": "2026-11-18T21:00:00Z"
       },
       {
-        "name": "Artist Presale VIP Package",
+        "name": "Artist Presale",
         "start": "2026-11-18T22:00:00Z",
         "end": "2026-11-19T05:00:00Z"
       },
       {
-        "name": "Artist Sign Up Presale",
+        "name": "Artist Presale VIP Package",
         "start": "2026-11-18T22:00:00Z",
         "end": "2026-11-19T05:00:00Z"
       },
@@ -392301,7 +392268,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-munich-allianz-arena-7-17-2027--concerts-k-pop/production/7833169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/240279338?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392344,11 +392311,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-18T14:00:00Z",
         "end": "2026-11-18T21:00:00Z"
@@ -392371,7 +392333,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/stray-kids-world-tour-run-it-vienna-tickets/1808951782?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392414,11 +392376,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-18T14:00:00Z",
         "end": "2026-11-18T21:00:00Z"
@@ -392441,7 +392398,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-barcelona-estadi-olimpic-lluis-companys-7-24-2027--concerts-k-pop/production/7882337",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/stray-kids-world-tour-run-it-barcelona-tickets/1803550089?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392484,11 +392441,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-18T14:00:00Z",
         "end": "2026-11-18T21:00:00Z"
@@ -392511,7 +392463,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/553392923?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392553,11 +392505,6 @@
     ],
     "genre": "Rock",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
       {
         "name": "Artist Presale",
         "start": "2026-11-18T14:00:00Z",
@@ -397516,7 +397463,7 @@
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-7-2027--concerts-country-and-folk/production/7860914",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -397588,6 +397535,11 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
+        "name": "Travel VIP Packages Presale",
+        "start": "2026-11-18T13:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
         "name": "VIP Packages Presale",
         "start": "2026-11-18T13:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -397595,11 +397547,6 @@
       {
         "name": "Artist Presale",
         "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-18T23:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       },
       {
@@ -399209,7 +399156,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-milwaukee-fiserv-forum-3-4-2027/production/7861289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-milwaukee-wisconsin-03-04-2027/event/0700656996C12A6E",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -399277,11 +399224,6 @@
         "name": "Official Artist Presale - Day 2",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Side & Obstructed View Onsale",
-        "start": "2026-11-20T16:00:00Z",
-        "end": "2027-03-05T03:30:00Z"
       }
     ]
   },
@@ -400959,7 +400901,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-tempe-mullett-arena-5-1-2027--concerts-alternative/production/7863252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-tempe-arizona-05-01-2027/event/1900656BC0228316",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401030,11 +400972,6 @@
       },
       {
         "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
         "start": "2026-11-18T17:00:00Z",
         "end": "2026-11-19T05:00:00Z"
       }
@@ -402396,7 +402333,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-19-2027/event/0400656612CD2D30",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402467,12 +402404,17 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
-        "name": "Local Presale",
+        "name": "Radio / Venue Presale",
         "start": "2026-11-19T20:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       },
       {
         "name": "Spotify Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
         "start": "2026-11-19T20:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       },
@@ -402637,7 +402579,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-hamilton-td-coliseum-6-26-2027/production/7870445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kpop-demon-hunters-golden-world-tour-hamilton-ontario-06-26-2027/event/1000656AAAC78903",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402681,14 +402623,14 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard Presale Tickets",
+        "name": "Mastercard VIP Package Presale",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-19T14:45:00Z"
       },
       {
-        "name": "Mastercard VIP Package Presale",
+        "name": "Mastercard Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
+        "end": "2026-11-20T03:00:00Z"
       },
       {
         "name": "FOR THE FANS Presale",
@@ -402743,7 +402685,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-29-2027/production/7870441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-29-2027/event/300065633C0ADFCE",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402812,12 +402754,12 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-02T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-02T02:00:00Z"
       },
@@ -402844,7 +402786,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-30-2027/production/7870471",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-30-2027/event/300065633C11DFD5",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -402913,7 +402855,7 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Tickets",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-02T02:00:00Z"
       },
@@ -402945,7 +402887,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403035,12 +402977,12 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-06T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-06T02:00:00Z"
       },
@@ -403068,7 +403010,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-charlotte-spectrum-center-7-7-2027/production/7870457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-charlotte-north-carolina-07-07-2027/event/2D00656497E860E1",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403123,7 +403065,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
         "name": "Mastercard VIP Package Presale",
@@ -403166,12 +403108,12 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-10T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-10T02:00:00Z"
       },
@@ -403199,7 +403141,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-atlanta-georgia-07-10-2027/event/0E006565CE724E36",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403290,12 +403232,12 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-13T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-13T02:00:00Z"
       },
@@ -403323,7 +403265,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-orlando-florida-07-17-2027/event/22006566DC554FD5",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403409,12 +403351,12 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-20T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-20T02:00:00Z"
       },
@@ -403442,7 +403384,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-20-2027/production/7870467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-20-2027/event/0C006566AE847156",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403543,12 +403485,12 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-23T03:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-23T03:00:00Z"
       },
@@ -403577,7 +403519,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-21-2027/production/7870455",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-21-2027/event/0C006566AEEC72EC",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403683,12 +403625,12 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-24T03:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-24T03:00:00Z"
       },
@@ -403717,7 +403659,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-phoenix-arizona-07-24-2027/event/1900656997AF3352",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403803,12 +403745,12 @@
         "end": "2026-11-20T05:00:00Z"
       },
       {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-06-27T05:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-06-27T05:00:00Z"
       },
@@ -403836,7 +403778,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-tacoma-washington-08-14-2027/event/0F006565CE4DCA3C",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403912,17 +403854,22 @@
         "end": "2026-11-20T06:00:00Z"
       },
       {
-        "name": "Venue/Ticketmaster/Radio Presales",
+        "name": "Ticketmaster Presale",
         "start": "2026-11-19T22:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       },
       {
-        "name": "Mastercard Collection Tickets",
+        "name": "Venue/Radio Presales",
+        "start": "2026-11-19T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Mastercard World Legend",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-07-18T05:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-07-18T05:00:00Z"
       },
@@ -406490,7 +406437,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-sioux-falls-denny-sanford-premier-center-4-21-2027--concerts-pop/production/7870989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-sioux-falls-south-dakota-04-21-2027/event/0600656AB40EA15B",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -406563,6 +406510,11 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-04-14T22:00:00Z"
@@ -406587,7 +406539,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-winnipeg-canada-life-centre-4-23-2027--concerts-pop/production/7871097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-winnipeg-manitoba-04-23-2027/event/1100656C9D745ACF",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -406669,7 +406621,7 @@
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T15:00:00Z",
-        "end": "2027-03-20T22:00:00Z"
+        "end": "2027-04-16T22:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369857/Alex-Warren-tickets-Fri-Apr-23-2027-Canada-Life-Centre",
@@ -414146,7 +414098,7 @@
     "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-9-2027--concerts-rock/production/7879721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414212,6 +414164,11 @@
         "name": "Artist Presale",
         "start": "2026-11-18T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Past Bookers Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372601/Foo-Fighters-tickets-Thu-Sep-9-2027-Wembley-Stadium",
@@ -414233,7 +414190,7 @@
     "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-11-2027--concerts-rock/production/7879767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414299,6 +414256,11 @@
         "name": "Artist Presale",
         "start": "2026-11-18T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Past Bookers Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372602/Foo-Fighters-tickets-Sat-Sep-11-2027-Wembley-Stadium",
@@ -414320,7 +414282,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414385,6 +414347,11 @@
       {
         "name": "Artist Presale",
         "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Past Bookers Presale",
+        "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
     ],
@@ -415226,7 +415193,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/knocked-loose-australian-tour-2027-brisbane-22-01-2027/event/1300652EA9172A66",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415261,25 +415228,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_3GkBtAwtJ",
     "timezone": "Australia/Brisbane",
-    "status": "announced",
-    "public_onsale_at": "2026-11-18T02:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "DESTROY ALL LINES"
     ],
     "ticket_limit": 10,
-    "genre": "Metal",
-    "presales": [
-      {
-        "name": "Destroy All Lines Presale",
-        "start": "2026-11-17T01:00:00Z",
-        "end": "2026-11-18T00:00:00Z"
-      },
-      {
-        "name": "Fortitude Music Hall Presale",
-        "start": "2026-11-17T01:00:00Z",
-        "end": "2026-11-18T00:00:00Z"
-      }
-    ]
+    "genre": "Metal"
   },
   {
     "id": "tm-phoebe-bridgers-2026-merksem-antwerpen-z698xzg2z16vgjvfk8",
@@ -415297,7 +415251,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-tickets/1326054190",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415332,8 +415286,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vGJvfk8",
     "timezone": "Europe/Brussels",
-    "status": "announced",
-    "public_onsale_at": "2026-11-18T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation"
     ],
@@ -416319,7 +416272,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-sacramento-golden-1-center-8-28-2027/production/7881269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416386,6 +416339,16 @@
         "name": "Fan Club Presale",
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-08-22T05:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373887"
@@ -416730,7 +416693,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-kansas-city-t-mobile-center-3-15-2027--concerts-rb/production/7886355",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416798,6 +416761,21 @@
         "name": "VIP Packages Presale",
         "start": "2026-11-18T20:00:00Z",
         "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue/Radio Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-16T05:59:00Z"
       },
       {
         "name": "VIP Packages Onsale",
@@ -417907,7 +417885,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-philadelphia-xfinity-mobile-arena-4-3-2027--concerts-rb/production/7886393",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417964,7 +417942,7 @@
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
+        "end": "2026-11-20T03:00:00Z"
       },
       {
         "name": "Artist Presale",
@@ -418559,7 +418537,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-memphis-fedexforum-4-16-2027--concerts-rb/production/7886415",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -418617,7 +418595,7 @@
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
+        "end": "2026-11-20T04:00:00Z"
       },
       {
         "name": "Artist Presale",
@@ -419109,7 +419087,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-phoenix-mortgage-matchup-center-4-29-2027--concerts-rb/production/7886453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419160,14 +419138,14 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine Presale Tickets",
+        "name": "Verizon Shine VIP Packages Presale",
         "start": "2026-11-18T17:00:00Z",
         "end": "2026-11-18T20:45:00Z"
       },
       {
-        "name": "Verizon Shine VIP Packages Presale",
+        "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:45:00Z"
+        "end": "2026-11-20T05:00:00Z"
       },
       {
         "name": "Artist Presale",
@@ -419218,7 +419196,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-anaheim-honda-center-5-1-2027--concerts-rb/production/7886467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419291,6 +419269,11 @@
       {
         "name": "VIP Packages Presale",
         "start": "2026-11-18T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
       },
       {
@@ -419550,7 +419533,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-portland-moda-center-5-12-2027--concerts-rb/production/7886475",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419620,6 +419603,16 @@
         "end": "2026-11-20T06:00:00Z"
       },
       {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-04-15T06:59:00Z"
@@ -419648,7 +419641,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-seattle-climate-pledge-arena-5-13-2027--concerts-rb/production/7886479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419722,6 +419715,11 @@
         "name": "LIVE NATION PRESALE",
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-15T05:00:00Z"
       },
       {
         "name": "VIP Packages Onsale",
@@ -420284,8 +420282,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/polyphia-be-not-afraid-world-tour-tickets/1292295868?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-18",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1292295868",
@@ -420319,7 +420317,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v1314-I",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Stichting TivoliVredenburg"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-a-perfect-circle-2027-elizabethtown-1avbz_pgkucnyj0",
@@ -420337,7 +420339,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-with-special-guest-elizabethtown-kentucky-05-19-2027/event/1600656DADAB99A4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420373,7 +420375,54 @@
     "ticketmaster_discovery_event_id": "1AvbZ_pGkUcnyJ0",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "THE TOURING CO"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "APC Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "The Cult Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "DWP Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "SGA Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "WGHL Radio",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "WQMF Radio",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-13T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rod-stewart-2027-lexington-1avbz_pgkw52aaz",
@@ -420391,7 +420440,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-lexington-kentucky-03-21-2027/event/1600656C8B3C5240",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420427,7 +420476,21 @@
     "ticketmaster_discovery_event_id": "1AvbZ_pGkw52AaZ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Rod Stewart Fan Club Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-san-francisco-g5vyz_puhzl3h",
@@ -420445,7 +420508,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-25-2027/event/1C00656D9B02B4BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420481,7 +420544,43 @@
     "ticketmaster_discovery_event_id": "G5vYZ_pUhZl3H",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-12T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-21T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-san-francisco-g5vyz_puqth3t",
@@ -420499,7 +420598,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-27-2027/event/1C00656D9AFDB4A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420535,7 +420634,43 @@
     "ticketmaster_discovery_event_id": "G5vYZ_pUQTh3t",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-12T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-23T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-san-francisco-g5vyz_puqx53g",
@@ -420553,7 +420688,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-28-2027/event/1C00656D9AF8B48C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420589,7 +420724,43 @@
     "ticketmaster_discovery_event_id": "G5vYZ_pUQX53G",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-12T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-24T20:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-bethlehem-vv17fz_pgkmh0npz",
@@ -420607,7 +420778,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-bethlehem-pennsylvania-03-27-2027/event/0200656B9B92A940",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420643,7 +420814,53 @@
     "ticketmaster_discovery_event_id": "vv17FZ_pGkmh0nPZ",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "First Access Membership Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "St. Luke's University HN Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Wind Creek Event Center Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-23T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-pittsburgh-1avbz_pgkmfvkd9",
@@ -420661,7 +420878,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-pittsburgh-pennsylvania-03-29-2027/event/1600656B940460D7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420697,7 +420914,39 @@
     "ticketmaster_discovery_event_id": "1AvbZ_pGkmfvkd9",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Fan Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citizens Bank Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-25T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-windsor-1avzz_pgkyz-kdw",
@@ -420715,7 +420964,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-windsor-ontario-03-31-2027/event/1000656C008530FD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420751,7 +421000,44 @@
     "ticketmaster_discovery_event_id": "1AvZZ_pGkYZ-KdW",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Fan Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Caesars Rewards Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Social Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-27T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-niagara-falls-1avzz_pgkm2345j",
@@ -420769,7 +421055,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-niagara-falls-ontario-04-01-2027/event/1000656B8F4952E6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420805,7 +421091,36 @@
     "ticketmaster_discovery_event_id": "1AvZZ_pGkm2345J",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Fan Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-28T16:00:00Z"
+      },
+      {
+        "name": "Official platinum onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-02T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-boston-vv1avzk4tgkeo56zw",
@@ -420823,7 +421138,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-boston-massachusetts-04-03-2027/event/01006569A02C7032",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420859,7 +421174,39 @@
     "ticketmaster_discovery_event_id": "vv1AvZk4tGkeO56Zw",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citizens Bank Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-30T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-uncasville-g5vvz_9dli7ln",
@@ -420877,7 +421224,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-uncasville-connecticut-04-04-2027/event/1D006570EBA047E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420913,7 +421260,41 @@
     "ticketmaster_discovery_event_id": "G5vVZ_9dlI7LN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Fan Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mohegan Sun Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-31T16:00:00Z"
+      },
+      {
+        "name": "Aisle Seating",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-new-york-g5dyz_prxuxs3",
@@ -420931,7 +421312,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-new-york-new-york-04-06-2027/event/3C006567A2DA2C52",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420967,7 +421348,53 @@
     "ticketmaster_discovery_event_id": "G5dYZ_prxUxs3",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Fan Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Seating",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2026-12-21T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-02T16:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Seating",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-07T01:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-verona-k7vgf_psngfze",
@@ -420985,7 +421412,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-verona-new-york-04-09-2027/event/0000656CEA308E02",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421021,7 +421448,31 @@
     "ticketmaster_discovery_event_id": "k7vGF_pSnGFze",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticket_limit": 10,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Santana Fan Club Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T14:00:00Z"
+      },
+      {
+        "name": "TS Rewards Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T14:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-05T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-santana-2027-atlantic-city-vv17fz_pgkwmc5tp",
@@ -421039,7 +421490,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-atlantic-city-new-jersey-04-10-2027/event/0200656CAEB4BFE5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421075,7 +421526,39 @@
     "ticketmaster_discovery_event_id": "vv17FZ_pGkwmc5TP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Fan Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Hard Rock Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-06T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2027-edmonton-1av7z_pgkm691wt",
@@ -421093,7 +421576,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-edmonton-alberta-02-21-2027/event/1100656DC75CAF69",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421129,7 +421612,25 @@
     "ticketmaster_discovery_event_id": "1Av7Z_pGkM691Wt",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)",
+      "AEG LIVE (CANADA)"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Official Artist Presale - Day 1",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Official Artist Presale - Day 2",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2027-newark-vv1kfz_9vyg7cw_y",
@@ -421147,7 +421648,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-newark-new-jersey-03-17-2027/event/0200657079B72670",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421183,7 +421684,24 @@
     "ticketmaster_discovery_event_id": "vv1kFZ_9vyG7cw_Y",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Official Artist Presale - Day 1",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Official Artist Presale - Day 2",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-york-1agzk4jgkd-uxfr",
@@ -421201,7 +421719,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-jones-york-28-05-2027/event/35006566E1DBE52F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421237,7 +421755,39 @@
     "ticketmaster_discovery_event_id": "1AgZk4JGkd-UXfR",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-cardiff-g5vhz_4wcs0vc",
@@ -421255,7 +421805,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-joneswith-special-guests-heather-small-cardiff-30-05-2027/event/1F00655CADC6404E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421291,7 +421841,40 @@
     "ticketmaster_discovery_event_id": "G5vHZ_4wcs0vC",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "DEPOT MARKETING LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Depot Live Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-london-g5vhz_4bny4uy",
@@ -421309,7 +421892,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-18-06-2027/event/1F00655EA3E55379",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421345,7 +421928,20 @@
     "ticketmaster_discovery_event_id": "G5vHZ_4BNy4uy",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "PWR EVENTS",
+      "HISTORIC ROYAL PALACES LTD"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-liverpool-g5vhz_pqm3anq",
@@ -421363,7 +421959,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/on-the-waterfront-presents-tom-jones-liverpool-20-06-2027/event/1F006566B7485A9D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421399,7 +421995,34 @@
     "ticketmaster_discovery_event_id": "G5vHZ_pQM3Anq",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CREAM GLOBAL LIMITED"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "On The Waterfront Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-lincoln-g5vhz_4w3ae65",
@@ -421417,7 +422040,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-lincoln-23-06-2027/event/1F00655C921421CB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421453,7 +422076,44 @@
     "ticketmaster_discovery_event_id": "G5vHZ_4w3Ae65",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Lincoln Concerts Live Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Lincoln Groups Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-rugeley-1amzk4tgkejv7jb",
@@ -421471,7 +422131,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-heather-rugeley-25-06-2027/event/37006569A6D04998",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421507,7 +422167,35 @@
     "ticketmaster_discovery_event_id": "1AMZk4tGkeJV7Jb",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "FORESTRY ENGLAND"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "PayPal Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-llangollen-g5vhz_pwfve8t",
@@ -421525,7 +422213,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-llangollen-28-06-2027/event/1F00656C94D0243F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421561,7 +422249,39 @@
     "ticketmaster_discovery_event_id": "G5vHZ_pwfVe8T",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-woodstock-1amzk4tgketwvu7",
@@ -421579,7 +422299,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-very-special-guests-woodstock-30-06-2027/event/37006569A9F74D84",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421615,7 +422335,50 @@
     "ticketmaster_discovery_event_id": "1AMZk4tGketWVU7",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "MARI",
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Blenheim Members Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Blenheim Sign Ups Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Mari presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-newcastle-g5vhz_pjbj04_",
@@ -421633,7 +422396,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/in-the-park-newcastle-presents-tom-newcastle-11-07-2027/event/1F006569BA724559",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421669,7 +422432,33 @@
     "ticketmaster_discovery_event_id": "G5vHZ_pJBj04_",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "LOST MINDS LTD"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "In The Park Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-london-1amzk4ygkd4ogxu",
@@ -421687,7 +422476,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-10-london-02-02-2027/event/37006570D5475FB6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421723,7 +422512,26 @@
     "ticketmaster_discovery_event_id": "1AMZk4YGkd4ogXU",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "ticket_limit": 6,
+    "genre": "Hip-Hop/Rap",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-interpol-2027-los-angeles-vvg1iz_pmocxuu",
@@ -421741,7 +422549,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-los-angeles-california-05-14-2027/event/0A00656DD13BEDB6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421777,7 +422585,44 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_pMoCXUU",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Interpol Artist Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "AEG Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Goldenvoice Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Molchat Doma Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T20:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-carin-leon-2027-sparks-1avjz_pgkrt9h7o",
@@ -421795,7 +422640,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carin-leon-sparks-nevada-04-24-2027/event/1700656BE95DB111",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421831,7 +422676,21 @@
     "ticketmaster_discovery_event_id": "1AvjZ_pGkRt9h7o",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "ticket_limit": 8,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-james-blunt-2027-idstein-z698xzc2z16vuazef3",
@@ -421849,8 +422708,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/james-blunt-airplane-mode-tickets/1345002212?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-18",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1345002212",
@@ -421885,7 +422744,11 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vuAZeF3",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z"
+    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "organizer_names": [
+      "HockeyPark Betriebs GmbH & Co. KG"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-lincoln-g5vhz_on_qxm9",
@@ -421903,7 +422766,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-lincoln-16-06-2027/event/1F00651A99762DD7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421939,7 +422802,49 @@
     "ticketmaster_discovery_event_id": "G5vHZ_on_qxM9",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Lincoln Concerts Live Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Lincoln Groups Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-james-blunt-2027-thetford-1adjz_pgkw4p4i3",
@@ -421957,7 +422862,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-thetford-high-lodge-thetford-18-06-2027/event/3700656C95955A12",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421993,7 +422898,40 @@
     "ticketmaster_discovery_event_id": "1AdjZ_pGkw4P4I3",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "FORESTRY ENGLAND"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "PayPal Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-james-blunt-2027-scarborough-1ku8vp1_ga1cs0u",
@@ -422011,7 +422949,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-scarborough-20-06-2027/event/350065299AB71936",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422047,7 +422985,39 @@
     "ticketmaster_discovery_event_id": "1ku8vP1_GA1cs0U",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-james-blunt-2027-gloucestershire-16mzk4yjeza8ddu2",
@@ -422065,7 +423035,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-westonbirt-arboretum-bus-gloucestershire-23-06-2027/event/37006570982F22CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422101,7 +423071,13 @@
     "ticketmaster_discovery_event_id": "16MZk4YJeZA8ddu2",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "FORESTRY ENGLAND"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-llangollen-g5vhz_3nxrxc-",
@@ -422119,7 +423095,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-llangollen-24-06-2027/event/1F00652AA27A2B61",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422155,7 +423131,40 @@
     "ticketmaster_discovery_event_id": "G5vHZ_3nxrxc-",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "LLANGOLLEN INTERNATIONAL MUSICAL EISTEDDFOD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-james-blunt-2027-margate-1agzkfegkdf5svi",
@@ -422173,7 +423182,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-margate-27-08-2027/event/35006527C82F306C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422209,7 +423218,39 @@
     "ticketmaster_discovery_event_id": "1AgZkfEGkdF5Svi",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-james-blunt-2027-colchester-1agzk4fgkdt9fe6",
@@ -422227,7 +423268,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-bluntwith-special-guests-starsailor-noonzy-colchester-28-08-2027/event/35006548E95C89C7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422263,7 +423304,44 @@
     "ticketmaster_discovery_event_id": "1AgZk4FGkdt9FE6",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Cuffe & Taylor Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Supermodified Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-albuquerque-g5vzz_pwxigv1",
@@ -422281,7 +423359,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-albuquerque-new-mexico-05-14-2027/event/1E00656CA2B3504A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422317,7 +423395,59 @@
     "ticketmaster_discovery_event_id": "G5vzZ_pwxigv1",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T17:00:00Z",
+        "end": "2026-11-18T16:45:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-17T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-01T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-phoenix-1av0z_pgknttpbb",
@@ -422335,7 +423465,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-phoenix-arizona-05-15-2027/event/1900656AA9FD663A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422371,7 +423501,64 @@
     "ticketmaster_discovery_event_id": "1Av0Z_pGkntTpbB",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T17:00:00Z",
+        "end": "2026-11-18T16:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Talking Stick Resort Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-18T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-02T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-chula-vista-vvg1iz_pjb5pwc",
@@ -422389,7 +423576,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-chula-vista-california-05-18-2027/event/0A006569BA2D6CAD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422425,7 +423612,64 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_pJB5pwc",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-18T17:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "North Island Credit Union Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-21T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-05T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-inglewood-vv16azk4ev7zauakk1",
@@ -422443,7 +423687,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-inglewood-california-05-19-2027/event/09006567044C4559",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422479,7 +423723,64 @@
     "ticketmaster_discovery_event_id": "vv16aZk4Ev7ZAuAkk1",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-18T17:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-29T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-06T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-ridgefield-vvg1hz_pj4m0zq",
@@ -422497,7 +423798,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-ridgefield-washington-05-21-2027/event/0F00656995BA4E1D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422533,7 +423834,49 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_pJ4m0zq",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-18T17:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-24T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-08T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-auburn-vvg1hz_ph-ktdl",
@@ -422551,7 +423894,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-auburn-washington-05-22-2027/event/0F006566E14E9EDF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422587,7 +423930,54 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_ph-KtDL",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-18T17:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T22:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-25T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-west-valley-city-g5vzz_pjgpffk",
@@ -422605,7 +423995,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-west-valley-city-utah-05-24-2027/event/1E006569B5954513",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422641,7 +424031,69 @@
     "ticketmaster_discovery_event_id": "G5vzZ_pJgPffK",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T17:00:00Z",
+        "end": "2026-11-18T16:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T21:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Utah First Credit Union Presale",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-27T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-11T04:00:00Z"
+      },
+      {
+        "name": "T-Mobile® Concert Perks + Fast Lane",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-22T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-tinley-park-vv1a7zk4tgkdt6btl",
@@ -422659,7 +424111,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-tinley-park-illinois-05-28-2027/event/04006569E91D8A6B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422695,7 +424147,64 @@
     "ticketmaster_discovery_event_id": "vv1A7Zk4tGkdt6btl",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Credit Union 1 Local Sponsor Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-01T17:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-shakopee-1ae7z_pgkcukysu",
@@ -422713,7 +424222,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-shakopee-minnesota-05-29-2027/event/2100656B761B0CF6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422749,7 +424258,69 @@
     "ticketmaster_discovery_event_id": "1Ae7Z_pGkcUkYSU",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "93X Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Mystic Lake Amp Sponsor Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-30T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-16T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-kansas-city-1ae7z_pgki7igc3",
@@ -422767,7 +424338,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-kansas-city-missouri-05-31-2027/event/2100656B04A35B52",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422803,7 +424374,59 @@
     "ticketmaster_discovery_event_id": "1Ae7Z_pGki7Igc3",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Radio Presales",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Mastercard Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-18T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-grand-rapids-vv17oz_pgkmgtnqb",
@@ -422821,7 +424444,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-grand-rapids-michigan-06-02-2027/event/0800656B8CA63758",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422857,7 +424480,54 @@
     "ticketmaster_discovery_event_id": "vv17OZ_pGkmGtNqb",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-06T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-20T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-clarkston-vv17oz_pgks8s9m3",
@@ -422875,7 +424545,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-clarkston-michigan-06-04-2027/event/0800656CD0CD7B92",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422911,7 +424581,48 @@
     "ticketmaster_discovery_event_id": "vv17OZ_pGkS8S9m3",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-08T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-22T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-cincinnati-1avbz_pgkn_24l6",
@@ -422929,7 +424640,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-cincinnati-ohio-06-05-2027/event/1600656A993D57C7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -422965,7 +424676,54 @@
     "ticketmaster_discovery_event_id": "1AvbZ_pGkn_24L6",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue and Radio Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-23T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-burgettstown-1avbz_pgkwkmpmi",
@@ -422983,7 +424741,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-burgettstown-pennsylvania-06-07-2027/event/1600656C93DD6BA8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423019,7 +424777,59 @@
     "ticketmaster_discovery_event_id": "1AvbZ_pGkwKMpmI",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-11T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-25T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-bristow-1avfz_pgknmlaeb",
@@ -423037,7 +424847,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-bristow-virginia-06-08-2027/event/1500656AAEAC9098",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423073,7 +424883,59 @@
     "ticketmaster_discovery_event_id": "1AvfZ_pGknmlaeb",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-12T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-26T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-toronto-1avzz_pgksfsdba",
@@ -423091,7 +424953,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-toronto-ontario-06-10-2027/event/1000656CC8C7BE89",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423127,7 +424989,62 @@
     "ticketmaster_discovery_event_id": "1AvZZ_pGkSFsDBa",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Front Of The Line Amex Presale Tickets",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Live INSIDER Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-mansfield-vv177z_pgkmjh1ou",
@@ -423145,7 +425062,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-mansfield-massachusetts-06-12-2027/event/0100656BA6F0A44D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423181,7 +425098,64 @@
     "ticketmaster_discovery_event_id": "vv177Z_pGkmJH1ou",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Xfinity Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-camden-vv17fz_pgkmjnhj7",
@@ -423199,7 +425173,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-camden-new-jersey-06-13-2027/event/0200656BA6ABC704",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423235,7 +425209,64 @@
     "ticketmaster_discovery_event_id": "vv17FZ_pGkmJnHj7",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Freedom Mortgage Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-17T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-31T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-new-york-g5diz_prtfsjt",
@@ -423253,7 +425284,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-new-york-new-york-06-15-2027/event/3B006567BF23373F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423289,7 +425320,73 @@
     "ticketmaster_discovery_event_id": "G5diZ_prTFSjT",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2026-12-05T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-19T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-02T02:00:00Z"
+      },
+      {
+        "name": "Chase Cardholder Preferred Seating",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-16T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-charlotte-g5evz_pjm1iz7",
@@ -423307,7 +425404,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-charlotte-north-carolina-06-17-2027/event/2D006569AE2A8004",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423343,7 +425440,59 @@
     "ticketmaster_discovery_event_id": "G5eVZ_pJm1IZ7",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-12T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-04T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-alpharetta-vvg1zz_pnf8blb",
@@ -423361,7 +425510,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-alpharetta-georgia-06-18-2027/event/0E00656A9443AAD8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423397,7 +425546,64 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_pnf8Blb",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Ameris Bank Sponsor Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-22T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-the-woodlands-g5diz_penjw6e",
@@ -423415,7 +425621,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-the-woodlands-texas-06-20-2027/event/3A006569E373D1C2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423451,7 +425657,74 @@
     "ticketmaster_discovery_event_id": "G5dIZ_pENjW6e",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Huntsman Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Woodforest Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-24T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-06-07T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-irving-vvg1yz_psnfnkd",
@@ -423469,7 +425742,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-irving-texas-06-22-2027/event/0C00656CE352A4C3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423505,7 +425778,59 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_pSNfnKd",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-26T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-06-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-austin-g5diz_pevm_m_",
@@ -423523,7 +425848,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-austin-texas-06-23-2027/event/3A006569C1DD9B99",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423559,7 +425884,64 @@
     "ticketmaster_discovery_event_id": "G5dIZ_pEvM_m_",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-27T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-06-10T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-north-little-rock-g5viz_pnjetpo",
@@ -423577,7 +425959,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-north-little-rock-arkansas-09-06-2027/event/1B00656A9C0A95A0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423613,7 +425995,59 @@
     "ticketmaster_discovery_event_id": "G5viZ_pnjetpO",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Local Presales",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-10T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-24T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-biloxi-g5viz_plz_cl1",
@@ -423631,7 +426065,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-biloxi-mississippi-09-07-2027/event/1B00656AC066DACA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423667,7 +426101,64 @@
     "ticketmaster_discovery_event_id": "G5viZ_plZ_cl1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-11T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-25T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-nashville-g5viz_pmzogzi",
@@ -423685,7 +426176,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-nashville-tennessee-09-09-2027/event/1B00656B80835028",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423721,7 +426212,58 @@
     "ticketmaster_discovery_event_id": "G5viZ_pmZOgZI",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-13T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-27T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-virginia-beach-vv177z_pgkl4llwn",
@@ -423739,7 +426281,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-virginia-beach-virginia-09-11-2027/event/0100656AD57DFCA3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423775,7 +426317,59 @@
     "ticketmaster_discovery_event_id": "vv177Z_pGkl4LLwN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-08-15T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-08-29T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-allentown-1adzz_pgkmxuggq",
@@ -423793,7 +426387,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-allentown-pennsylvania-09-12-2027/event/3000656BA2DB5D5D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423829,7 +426423,68 @@
     "ticketmaster_discovery_event_id": "1AdZZ_pGkmxUggq",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Amex Presale Tickets",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-08-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-08-30T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-laval-1ad7z_pgkmil4lx",
@@ -423847,7 +426502,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-laval-quebec-09-14-2027/event/3100656BACAD57FE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423883,7 +426538,57 @@
     "ticketmaster_discovery_event_id": "1Ad7Z_pGkmil4LX",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "EVENKO CO-PRO WITH LIVE NATION",
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Prévente FOTL American Express Presale",
+        "start": "2026-11-17T07:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Prévente Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Prévente Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Prévente forfaits VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "PRÉVENTE LIVE NATION",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Prévente Première Partie Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Forfaits VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-09-01T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-buffalo-k7vgf_pr36-mz",
@@ -423901,7 +426606,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-buffalo-new-york-09-16-2027/event/0000656BD21E1BB8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423937,7 +426642,64 @@
     "ticketmaster_discovery_event_id": "k7vGF_pR36-mz",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "KeyBank Center Insider Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-08-20T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-09-03T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-toledo-vv1afzk4tgkdzzv33",
@@ -423955,7 +426717,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-toledo-ohio-09-18-2027/event/08006569C0034492",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -423991,7 +426753,54 @@
     "ticketmaster_discovery_event_id": "vv1AFZk4tGkdZZV33",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Huntington Center Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-08-17T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-09-05T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-columbus-vv17fz_pgksfzclm",
@@ -424009,7 +426818,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-columbus-ohio-09-19-2027/event/0500656CC800E7EE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424045,7 +426854,59 @@
     "ticketmaster_discovery_event_id": "vv17fZ_pGkSFZCLm",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-18T14:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T19:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-08-23T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-09-06T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-milwaukee-vv17jz_pgkrcmzyk",
@@ -424063,7 +426924,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-milwaukee-wisconsin-09-21-2027/event/0700656BCEBB8E46",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424099,7 +426960,60 @@
     "ticketmaster_discovery_event_id": "vv17jZ_pGkRCmzyk",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Local Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-25T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-09-08T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-fargo-vv1kvovpq_ga53kds",
@@ -424117,7 +427031,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-fargo-north-dakota-09-22-2027/event/060065699B4860F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424153,7 +427067,59 @@
     "ticketmaster_discovery_event_id": "vv1kvOvPQ_GA53kdS",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "RADIO Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-26T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-09-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-lincoln-vv17bz_pgkmwzqwq",
@@ -424171,7 +427137,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-lincoln-nebraska-09-24-2027/event/0600656BBD01AC9A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424207,7 +427173,63 @@
     "ticketmaster_discovery_event_id": "vv17bZ_pGkmWZQwQ",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue/Radio Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-28T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-28T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-09-11T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-megadeth-2027-wichita-vv17bz_pgkr9vwea",
@@ -424225,7 +427247,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-wichita-kansas-09-25-2027/event/0600656BD7D3D9C5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424261,7 +427283,69 @@
     "ticketmaster_discovery_event_id": "vv17bZ_pGkR9VWEA",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Metal",
+    "presales": [
+      {
+        "name": "Cyber Army VIP Packages Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-18T15:45:00Z"
+      },
+      {
+        "name": "Cyber Army Presale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-17T20:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Packges Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Support Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-26T03:00:00Z"
+      },
+      {
+        "name": "Citi® Strata Elite Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-08-29T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-09-12T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-remi-wolf-2027-washington-1a4zk4agkemriif",
@@ -424279,7 +427363,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-24-2027/event/15006549AE7A8A08",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424315,7 +427399,21 @@
     "ticketmaster_discovery_event_id": "1A4Zk4aGkemrIIF",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "I.M.P. Email Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-remi-wolf-2027-berkeley-g5vyz_pmrwpif",
@@ -424333,7 +427431,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-berkeley-california-04-30-2027/event/1C00656DDECA5A14",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424369,7 +427467,24 @@
     "ticketmaster_discovery_event_id": "G5vYZ_pMrwPIf",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z"
+    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "APE Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-remi-wolf-2027-phoenix-1av0z_pgkubtvhv",
@@ -424387,7 +427502,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-03-2027/event/1900656D98A746C1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424423,7 +427538,34 @@
     "ticketmaster_discovery_event_id": "1Av0Z_pGkUbtVhv",
     "timezone": "America/Phoenix",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z"
+    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-18T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T17:00:00Z",
+        "end": "2026-11-20T05:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-01T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-indianapolis-vv17fz_pgkskhuw1",
@@ -424441,7 +427583,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-indianapolis-indiana-04-03-2027/event/0500656CC66CDF4A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424477,7 +427619,39 @@
     "ticketmaster_discovery_event_id": "vv17fZ_pGkSkhuW1",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Old National Bank Sponsor Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-28T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-uncasville-g5vvz_pubgaoy",
@@ -424495,7 +427669,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-uncasville-connecticut-05-01-2027/event/1D00656DBAD45470",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424531,7 +427705,31 @@
     "ticketmaster_discovery_event_id": "G5vVZ_pUBgAoY",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Mohegan Sun Presales",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-27T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-bangor-vv177z_pgkzwgr47",
@@ -424549,7 +427747,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bangor-maine-07-16-2027/event/0100656E32D5E544",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424585,7 +427783,65 @@
     "ticketmaster_discovery_event_id": "vv177Z_pGkzwgr47",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "WATERFRONT CONCERTS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Maine Savings Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Radio Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "WFC Social Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-19T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-12T16:00:00Z"
+      },
+      {
+        "name": "Premium Seat Club Access",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-gilford-vv177z_pgkichxsp",
@@ -424603,7 +427859,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-gilford-new-hampshire-07-17-2027/event/0100656B2DF3EC65",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424639,7 +427895,59 @@
     "ticketmaster_discovery_event_id": "vv177Z_pGkicHXsP",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Bank of NH Cardholder Presale",
+        "start": "2026-11-19T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "BNHP SMS Subscriber Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Eastern Propane Ticket Offer",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-13T16:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-20T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-foreigner-2027-bethel-k7vgf_ps6zwby",
@@ -424657,7 +427965,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bethel-new-york-07-18-2027/event/0000656CC7032639",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424693,7 +428001,49 @@
     "ticketmaster_discovery_event_id": "k7vGF_pS6Zwby",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-17T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Bethel Woods Center for the Arts Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-14T16:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-07-18T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-jason-aldean-2027-durant-vvg1yz_4wtfp_q",
@@ -424711,7 +428061,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jason-aldean-durant-oklahoma-03-06-2027/event/0C00655CA922565D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424747,7 +428097,19 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_4wtFP_q",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Artist Pre-Sale",
+        "start": "2026-11-17T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-cody-johnson-2027-evansville-vv1aazk4ngkd4mac1",
@@ -424765,7 +428127,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-05-01-2027/event/05006563D5DC938A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424801,7 +428163,24 @@
     "ticketmaster_discovery_event_id": "vv1AAZk4NGkd4MaC1",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "POLICE PRODUCTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "COJO Fan Club Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Venue & Radio Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-cody-johnson-2027-gilford-vv177z_pgksxdnvq",
@@ -424819,7 +428198,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-friends-gilford-new-hampshire-05-29-2027/event/0100656CE2EE305D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424855,7 +428234,44 @@
     "ticketmaster_discovery_event_id": "vv177Z_pGkSxDNvq",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "COJO Fan Club Presale",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Bank of NH Cardholder Presale",
+        "start": "2026-11-19T14:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "BNHP SMS Subscriber Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Randy Houser Presale",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Eastern Propane Ticket Offer",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-12-20T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-mercyme-2027-norfolk-z7r9jz1aaa4os",
@@ -424873,7 +428289,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4oS",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -424908,7 +428324,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4oS",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-manchester-g5vhz_prka4i0",
@@ -424926,7 +428343,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-manchester-19-10-2027/event/1F00656BD3155B24",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424962,6 +428379,29 @@
     "ticketmaster_discovery_event_id": "G5vHZ_pRKA4i0",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z"
+    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "ASM T-A AO ARENA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-18T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Fan Club Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-19T14:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      }
+    ]
   }
 ]

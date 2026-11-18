@@ -1771,7 +1771,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-milwaukee-fiserv-forum-3-4-2027/production/7861289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-milwaukee-wisconsin-03-04-2027/event/0700656996C12A6E",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1839,11 +1839,6 @@
         "name": "Official Artist Presale - Day 2",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Side & Obstructed View Onsale",
-        "start": "2026-11-20T16:00:00Z",
-        "end": "2027-03-05T03:30:00Z"
       }
     ]
   },
@@ -3171,7 +3166,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/phoebe-bridgers-the-lost-tour-tickets/1326054190",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3206,8 +3201,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vGJvfk8",
     "timezone": "Europe/Brussels",
-    "status": "announced",
-    "public_onsale_at": "2026-11-18T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation"
     ],
@@ -3229,7 +3223,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-edmonton-alberta-02-21-2027/event/1100656DC75CAF69",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3265,7 +3259,25 @@
     "ticketmaster_discovery_event_id": "1Av7Z_pGkM691Wt",
     "timezone": "America/Edmonton",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z"
+    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "organizer_names": [
+      "THE MESSINA GROUP (TMG)",
+      "AEG LIVE (CANADA)"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Official Artist Presale - Day 1",
+        "start": "2026-11-18T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "Official Artist Presale - Day 2",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-phoebe-bridgers-2027-newark-vv1kfz_9vyg7cw_y",
@@ -3283,7 +3295,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-newark-new-jersey-03-17-2027/event/0200657079B72670",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3319,6 +3331,23 @@
     "ticketmaster_discovery_event_id": "vv1kFZ_9vyG7cw_Y",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z"
+    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Official Artist Presale - Day 1",
+        "start": "2026-11-18T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      },
+      {
+        "name": "Official Artist Presale - Day 2",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-11-20T03:00:00Z"
+      }
+    ]
   }
 ]

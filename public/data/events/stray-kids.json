@@ -125,7 +125,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -196,12 +196,12 @@
         "end": "2026-11-18T21:00:00Z"
       },
       {
-        "name": "Artist Presale VIP Package",
+        "name": "Artist Presale",
         "start": "2026-11-18T22:00:00Z",
         "end": "2026-11-19T05:00:00Z"
       },
       {
-        "name": "Artist Sign Up Presale",
+        "name": "Artist Presale VIP Package",
         "start": "2026-11-18T22:00:00Z",
         "end": "2026-11-19T05:00:00Z"
       },
@@ -1301,7 +1301,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-munich-allianz-arena-7-17-2027--concerts-k-pop/production/7833169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/240279338?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1344,11 +1344,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-18T14:00:00Z",
         "end": "2026-11-18T21:00:00Z"
@@ -1371,7 +1366,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/stray-kids-world-tour-run-it-vienna-tickets/1808951782?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1414,11 +1409,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-18T14:00:00Z",
         "end": "2026-11-18T21:00:00Z"
@@ -1441,7 +1431,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-barcelona-estadi-olimpic-lluis-companys-7-24-2027--concerts-k-pop/production/7882337",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/stray-kids-world-tour-run-it-barcelona-tickets/1803550089?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1484,11 +1474,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
         "name": "Artist Presale",
         "start": "2026-11-18T14:00:00Z",
         "end": "2026-11-18T21:00:00Z"
@@ -1511,7 +1496,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/553392923?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1553,11 +1538,6 @@
     ],
     "genre": "Rock",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
       {
         "name": "Artist Presale",
         "start": "2026-11-18T14:00:00Z",

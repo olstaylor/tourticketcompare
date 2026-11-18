@@ -1770,7 +1770,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-austin-moody-center-atx-12-15-2026/production/7393901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-austin-texas-12-15-2026/event/3A006504EE731AE5",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1831,11 +1831,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184790/Pentatonix-tickets-Tue-Dec-15-2026-Moody-Center-ATX",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-austin-tickets-12-15-2026/event/107476107",
     "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-08-14T15:00:00Z",
-        "end": "2026-11-18T04:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-08-14T15:00:00Z",

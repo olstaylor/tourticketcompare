@@ -29,6 +29,7 @@ import { canonicalLocationPath, deriveVenues, findVenue, venueSlug } from "./_ve
 import { citySlug, deriveCities, findCity, metroSlugRedirect, normalizeCountry, rawCitySlug } from "./_cities.js";
 import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { cheapestAcrossDates, deriveCityDatePrices } from "./_artist-city-prices.js";
+import { ARTIST_FOCUS_PATHS, PRESALE_FOCUS_PATHS, PRICE_GUIDE_FOCUS_PATHS } from "./_page-seo-focus.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { relatedArtistsBySharedCity } from "./_related-artists.js";
@@ -5798,6 +5799,9 @@ function presalePageDescription(artist, presales) {
   const next = presales.nextWindow;
   const nextLine = next ? ` Next: ${next.name}, ${presaleTimeLabel(next.startMs, presaleWindowZone(next))}.` : " A presale is open now.";
   return fitMetaDescription(
+    ...(PRESALE_FOCUS_PATHS.has(`/artists/${artist.slug}/presale`) && next
+      ? [`${artist.name} presale times. ${nextLine.trim()} ${presalePlural(presales.windowCount, "presale", "presales")} listed by Ticketmaster for every upcoming date, plus the public on-sale.`]
+      : []),
     `${presalePlural(presales.windowCount, "presale", "presales")} listed by Ticketmaster for ${artist.name}'s upcoming dates.${nextLine} Times for every date, plus the public on-sale.`,
     `${artist.name} presale times from Ticketmaster for every upcoming date, plus the public on-sale.`
   );
@@ -7434,7 +7438,11 @@ function priceGuideSnippet(route, events, env) {
   const date = formatShortDateServer(row.datetimeISO, row.timezone);
   const price = formatServerPrice(lane.price, lane.currency);
   const checked = captured.toISOString().slice(0, 16).replace("T", " ");
-  const head = `${route.artist.name}${year} ticket prices: soonest ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`;
+  // Focus pages (functions/_page-seo-focus.js) lead with the question searchers
+  // type; the same one date, site and check time follow.
+  const head = PRICE_GUIDE_FOCUS_PATHS.has(route.path)
+    ? `How much are ${route.artist.name} tickets? Soonest priced date: ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`
+    : `${route.artist.name}${year} ticket prices: soonest ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`;
   // Policy: if the full attribution (provider, currency, capture time, fee
   // caveat) cannot fit, omit the price and keep the price-free description.
   const candidates = [
@@ -7470,6 +7478,12 @@ function priceGuideCheapestTitle(route, events, env) {
   // The year and "Ticket Prices" stay where they fit: they are the phrasing the
   // page already ranks on (Search Console, 2026-10).
   return [
+    ...(PRICE_GUIDE_FOCUS_PATHS.has(route.path)
+      ? [
+          `How Much Are ${name} Tickets? Cheapest ${price}, Checked ${checked}`,
+          `How Much Are ${name} Tickets${year}? Cheapest ${price}`
+        ]
+      : []),
     `${name} Ticket Prices${year}: Cheapest ${price}, Checked ${checked}`,
     `${name} Ticket Prices: Cheapest Found ${price} (Checked ${checked})`,
     `${name} Ticket Prices${year}: Cheapest ${price}`,
@@ -7542,7 +7556,12 @@ function startingPriceMetaDescription(route, events, env) {
   const startingPrice = ["Starting from", money].join(" ");
   const tail = `${startingPrice} listed at ${lane.name}; checked ${checked}. Check fees.`;
   const candidates = route.type === "artist"
-    ? isNextDate
+    ? ARTIST_FOCUS_PATHS.has(route.path) && artistComparisonLive(route, events, env)
+      ? [
+          `Compare ${route.artist.name} ticket prices: ${isNextDate ? "next" : "soonest priced"} date ${date} in ${city}. ${tail}`,
+          `Compare ${route.artist.name} ticket prices · ${city}, ${date}. ${tail}`
+        ]
+      : isNextDate
       ? [
           `${route.artist.name} tickets: next date ${date} in ${city}. ${tail}`,
           `${route.artist.name} tickets · next ${city}, ${date}. ${tail}`

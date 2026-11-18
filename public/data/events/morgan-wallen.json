@@ -1966,5 +1966,221 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-columbus-tickets-8-7-2027/event/107682212"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-arlington-z7r9jz1aaa8aa",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Hardy",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-08-13T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8Aa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Aa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Aa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8Aa",
+        "discovery_event_id": "Z7r9jZ1AAA8Aa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Aa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Aa",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-arlington-z7r9jz1aaa8a8",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Brooks and Dunn",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-08-14T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8A8",
+        "discovery_event_id": "Z7r9jZ1AAA8A8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8A8",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-nashville-z7r9jz1aaa8ak",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Hardy",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "New Nissan Stadium",
+    "datetime_iso": "2027-08-27T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8AK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8AK",
+        "discovery_event_id": "Z7r9jZ1AAA8AK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8AK",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-nashville-z7r9jz1aaa8a4",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Brooks and Dunn",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "New Nissan Stadium",
+    "datetime_iso": "2027-08-28T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8A4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A4",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8A4",
+        "discovery_event_id": "Z7r9jZ1AAA8A4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8A4",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
   }
 ]

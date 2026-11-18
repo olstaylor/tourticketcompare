@@ -747,5 +747,113 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369882/Cody-Johnson-tickets-Sat-Apr-3-2027-John-Paul-Jones-Arena",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369882"
+  },
+  {
+    "id": "tm-cody-johnson-2027-evansville-vv1aazk4ngkd4mac1",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Evansville",
+    "country": "United States Of America",
+    "venue": "Ford Center",
+    "datetime_iso": "2027-05-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006563D5DC938A",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-05-01-2027/event/05006563D5DC938A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-05-01-2027/event/05006563D5DC938A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006563D5DC938A",
+        "discovery_event_id": "vv1AAZk4NGkd4MaC1",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-05-01-2027/event/05006563D5DC938A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4NGkd4MaC1",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-cody-johnson-2027-gilford-vv177z_pgksxdnvq",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson & Friends",
+    "city": "Gilford",
+    "country": "United States Of America",
+    "venue": "BankNH Pavilion",
+    "datetime_iso": "2027-05-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100656CE2EE305D",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-friends-gilford-new-hampshire-05-29-2027/event/0100656CE2EE305D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-friends-gilford-new-hampshire-05-29-2027/event/0100656CE2EE305D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656CE2EE305D",
+        "discovery_event_id": "vv177Z_pGkSxDNvq",
+        "url": "https://www.ticketmaster.com/cody-johnson-friends-gilford-new-hampshire-05-29-2027/event/0100656CE2EE305D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkSxDNvq",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
   }
 ]

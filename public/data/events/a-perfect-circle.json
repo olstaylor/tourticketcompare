@@ -2687,5 +2687,59 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock"
+  },
+  {
+    "id": "tm-a-perfect-circle-2027-elizabethtown-1avbz_pgkucnyj0",
+    "artist_slug": "a-perfect-circle",
+    "artist_name": "A Perfect Circle",
+    "event_name": "A Perfect Circle with special guest The Cult",
+    "city": "Elizabethtown",
+    "country": "United States Of America",
+    "venue": "Steelgrove Amphitheater",
+    "datetime_iso": "2027-05-19T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600656DADAB99A4",
+    "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-with-special-guest-elizabethtown-kentucky-05-19-2027/event/1600656DADAB99A4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/a-perfect-circle-with-special-guest-elizabethtown-kentucky-05-19-2027/event/1600656DADAB99A4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656DADAB99A4",
+        "discovery_event_id": "1AvbZ_pGkUcnyJ0",
+        "url": "https://www.ticketmaster.com/a-perfect-circle-with-special-guest-elizabethtown-kentucky-05-19-2027/event/1600656DADAB99A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_pGkUcnyJ0",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
   }
 ]

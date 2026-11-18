@@ -3212,5 +3212,113 @@
       "Live Nation"
     ],
     "genre": "Rock"
+  },
+  {
+    "id": "tm-phoebe-bridgers-2027-edmonton-1av7z_pgkm691wt",
+    "artist_slug": "phoebe-bridgers",
+    "artist_name": "Phoebe Bridgers",
+    "event_name": "Phoebe Bridgers: The Lost Tour",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2027-02-22T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100656DC75CAF69",
+    "ticketmaster_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-edmonton-alberta-02-21-2027/event/1100656DC75CAF69",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-edmonton-alberta-02-21-2027/event/1100656DC75CAF69",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100656DC75CAF69",
+        "discovery_event_id": "1Av7Z_pGkM691Wt",
+        "url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-edmonton-alberta-02-21-2027/event/1100656DC75CAF69",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_pGkM691Wt",
+    "timezone": "America/Edmonton",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-phoebe-bridgers-2027-newark-vv1kfz_9vyg7cw_y",
+    "artist_slug": "phoebe-bridgers",
+    "artist_name": "Phoebe Bridgers",
+    "event_name": "Phoebe Bridgers: The Lost Tour",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-03-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200657079B72670",
+    "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-newark-new-jersey-03-17-2027/event/0200657079B72670",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-newark-new-jersey-03-17-2027/event/0200657079B72670",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200657079B72670",
+        "discovery_event_id": "vv1kFZ_9vyG7cw_Y",
+        "url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-newark-new-jersey-03-17-2027/event/0200657079B72670",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kFZ_9vyG7cw_Y",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
   }
 ]

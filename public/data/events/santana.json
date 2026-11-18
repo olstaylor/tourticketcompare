@@ -2262,5 +2262,653 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/santana-tickets-oslo-oslo-spektrum-28-7-2027/event/107678304",
     "genre": "Rock"
+  },
+  {
+    "id": "tm-santana-2027-san-francisco-g5vyz_puhzl3h",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Fillmore",
+    "datetime_iso": "2027-02-26T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656D9B02B4BC",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-25-2027/event/1C00656D9B02B4BC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-25-2027/event/1C00656D9B02B4BC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656D9B02B4BC",
+        "discovery_event_id": "G5vYZ_pUhZl3H",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-25-2027/event/1C00656D9B02B4BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pUhZl3H",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-san-francisco-g5vyz_puqth3t",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Fillmore",
+    "datetime_iso": "2027-02-28T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656D9AFDB4A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-27-2027/event/1C00656D9AFDB4A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-27-2027/event/1C00656D9AFDB4A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656D9AFDB4A9",
+        "discovery_event_id": "G5vYZ_pUQTh3t",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-27-2027/event/1C00656D9AFDB4A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pUQTh3t",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-san-francisco-g5vyz_puqx53g",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "The Fillmore",
+    "datetime_iso": "2027-03-01T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656D9AF8B48C",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-28-2027/event/1C00656D9AF8B48C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-28-2027/event/1C00656D9AF8B48C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656D9AF8B48C",
+        "discovery_event_id": "G5vYZ_pUQX53G",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-san-francisco-california-02-28-2027/event/1C00656D9AF8B48C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pUQX53G",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-bethlehem-vv17fz_pgkmh0npz",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "Bethlehem",
+    "country": "United States Of America",
+    "venue": "The Wind Creek Event Center",
+    "datetime_iso": "2027-03-28T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200656B9B92A940",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-bethlehem-pennsylvania-03-27-2027/event/0200656B9B92A940",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-bethlehem-pennsylvania-03-27-2027/event/0200656B9B92A940",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200656B9B92A940",
+        "discovery_event_id": "vv17FZ_pGkmh0nPZ",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-bethlehem-pennsylvania-03-27-2027/event/0200656B9B92A940",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_pGkmh0nPZ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-pittsburgh-1avbz_pgkmfvkd9",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "Citizens Live at The Wylie",
+    "datetime_iso": "2027-03-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600656B940460D7",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-pittsburgh-pennsylvania-03-29-2027/event/1600656B940460D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-pittsburgh-pennsylvania-03-29-2027/event/1600656B940460D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656B940460D7",
+        "discovery_event_id": "1AvbZ_pGkmfvkd9",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-pittsburgh-pennsylvania-03-29-2027/event/1600656B940460D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_pGkmfvkd9",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-windsor-1avzz_pgkyz-kdw",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana  - Planet Of Free Will Global Tour 2027",
+    "city": "Windsor",
+    "country": "Canada",
+    "venue": "The Colosseum at Caesars Windsor",
+    "datetime_iso": "2027-04-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000656C008530FD",
+    "ticketmaster_url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-windsor-ontario-03-31-2027/event/1000656C008530FD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-windsor-ontario-03-31-2027/event/1000656C008530FD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656C008530FD",
+        "discovery_event_id": "1AvZZ_pGkYZ-KdW",
+        "url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-windsor-ontario-03-31-2027/event/1000656C008530FD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_pGkYZ-KdW",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-niagara-falls-1avzz_pgkm2345j",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "Niagara Falls",
+    "country": "Canada",
+    "venue": "OLG Stage at Fallsview Casino",
+    "datetime_iso": "2027-04-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000656B8F4952E6",
+    "ticketmaster_url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-niagara-falls-ontario-04-01-2027/event/1000656B8F4952E6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-niagara-falls-ontario-04-01-2027/event/1000656B8F4952E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656B8F4952E6",
+        "discovery_event_id": "1AvZZ_pGkm2345J",
+        "url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-niagara-falls-ontario-04-01-2027/event/1000656B8F4952E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_pGkm2345J",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-boston-vv1avzk4tgkeo56zw",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "MGM Music Hall at Fenway",
+    "datetime_iso": "2027-04-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006569A02C7032",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-boston-massachusetts-04-03-2027/event/01006569A02C7032",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-boston-massachusetts-04-03-2027/event/01006569A02C7032",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006569A02C7032",
+        "discovery_event_id": "vv1AvZk4tGkeO56Zw",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-boston-massachusetts-04-03-2027/event/01006569A02C7032",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4tGkeO56Zw",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-uncasville-g5vvz_9dli7ln",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "Uncasville",
+    "country": "United States Of America",
+    "venue": "Mohegan Sun Arena",
+    "datetime_iso": "2027-04-04T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006570EBA047E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-uncasville-connecticut-04-04-2027/event/1D006570EBA047E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-uncasville-connecticut-04-04-2027/event/1D006570EBA047E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006570EBA047E3",
+        "discovery_event_id": "G5vVZ_9dlI7LN",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-uncasville-connecticut-04-04-2027/event/1D006570EBA047E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_9dlI7LN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-new-york-g5dyz_prxuxs3",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "New York",
+    "country": "United States Of America",
+    "venue": "Radio City Music Hall",
+    "datetime_iso": "2027-04-07T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3C006567A2DA2C52",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-new-york-new-york-04-06-2027/event/3C006567A2DA2C52",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-new-york-new-york-04-06-2027/event/3C006567A2DA2C52",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3C006567A2DA2C52",
+        "discovery_event_id": "G5dYZ_prxUxs3",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-new-york-new-york-04-06-2027/event/3C006567A2DA2C52",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dYZ_prxUxs3",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-verona-k7vgf_psngfze",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana:  Planet Of Free Will Global Tour 2027",
+    "city": "Verona",
+    "country": "United States Of America",
+    "venue": "The Event Center at Turning Stone Resort Casino",
+    "datetime_iso": "2027-04-10T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000656CEA308E02",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-verona-new-york-04-09-2027/event/0000656CEA308E02",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-verona-new-york-04-09-2027/event/0000656CEA308E02",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000656CEA308E02",
+        "discovery_event_id": "k7vGF_pSnGFze",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-verona-new-york-04-09-2027/event/0000656CEA308E02",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pSnGFze",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-santana-2027-atlantic-city-vv17fz_pgkwmc5tp",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - Planet of Free Will Global Tour 2027",
+    "city": "Atlantic City",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live at Etess Arena",
+    "datetime_iso": "2027-04-11T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200656CAEB4BFE5",
+    "ticketmaster_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-atlantic-city-new-jersey-04-10-2027/event/0200656CAEB4BFE5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-atlantic-city-new-jersey-04-10-2027/event/0200656CAEB4BFE5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200656CAEB4BFE5",
+        "discovery_event_id": "vv17FZ_pGkwmc5TP",
+        "url": "https://www.ticketmaster.com/santana-planet-of-free-will-global-atlantic-city-new-jersey-04-10-2027/event/0200656CAEB4BFE5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_pGkwmc5TP",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
   }
 ]

@@ -588,11 +588,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8090671",
-        "url": "https://www.ticketnetwork.com/en/p/8090671",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_u1gUca1",
@@ -605,7 +605,7 @@
       "ASM T-A AO ARENA",
       "S.J.M. LTD"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090671",
+    "ticketnetwork_url": "",
     "ticket_limit": 8,
     "genre": "Rock"
   },
@@ -785,7 +785,7 @@
         "event_id": "8094857",
         "url": "https://www.ticketnetwork.com/en/p/8094857",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -923,7 +923,7 @@
         "event_id": "8094855",
         "url": "https://www.ticketnetwork.com/en/p/8094855",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -1004,7 +1004,7 @@
         "event_id": "8094856",
         "url": "https://www.ticketnetwork.com/en/p/8094856",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },

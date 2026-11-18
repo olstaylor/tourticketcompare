@@ -295,7 +295,7 @@
         "event_id": "8356240",
         "url": "https://www.ticketnetwork.com/en/p/8356240",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -365,6 +365,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373749",
+        "url": "https://www.ticketnetwork.com/en/p/8373749",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_8jzh5MU",
@@ -374,7 +381,8 @@
       "DAYBROOK HOUSE LIMITED"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373749"
   },
   {
     "id": "tm-james-blunt-2027-dublin-16bzkf7x3zaufauu",
@@ -487,7 +495,7 @@
         "event_id": "8326044",
         "url": "https://www.ticketnetwork.com/en/p/8326044",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -562,7 +570,7 @@
         "event_id": "8272590",
         "url": "https://www.ticketnetwork.com/en/p/8272590",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -645,7 +653,7 @@
         "event_id": "8247670",
         "url": "https://www.ticketnetwork.com/en/p/8247670",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -934,6 +942,13 @@
         "verified": true,
         "last_verified_at": "2026-11-16",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369893",
+        "url": "https://www.ticketnetwork.com/en/p/8369893",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_8L-leuz",
@@ -946,6 +961,7 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369893/James-Blunt-tickets-Thu-Apr-8-2027-Brighton-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369893/James-Blunt-tickets-Thu-Apr-8-2027-Brighton-Centre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369893"
   }
 ]

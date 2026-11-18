@@ -51,7 +51,7 @@
         "event_id": "8324861",
         "url": "https://www.ticketnetwork.com/en/p/8324861",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -432,7 +432,7 @@
         "event_id": "8361963",
         "url": "https://www.ticketnetwork.com/en/p/8361963",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -625,7 +625,7 @@
         "event_id": "8352785",
         "url": "https://www.ticketnetwork.com/en/p/8352785",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -699,7 +699,7 @@
         "event_id": "8361931",
         "url": "https://www.ticketnetwork.com/en/p/8361931",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -779,7 +779,7 @@
         "event_id": "8361932",
         "url": "https://www.ticketnetwork.com/en/p/8361932",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -856,7 +856,7 @@
         "event_id": "8361934",
         "url": "https://www.ticketnetwork.com/en/p/8361934",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1106,7 +1106,7 @@
         "event_id": "8361941",
         "url": "https://www.ticketnetwork.com/en/p/8361941",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1180,7 +1180,7 @@
         "event_id": "8361942",
         "url": "https://www.ticketnetwork.com/en/p/8361942",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1368,7 +1368,7 @@
         "event_id": "8361946",
         "url": "https://www.ticketnetwork.com/en/p/8361946",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1507,12 +1507,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361948",
+        "url": "https://www.ticketnetwork.com/en/p/8361948",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67e",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361948/The-Dead-South-tickets-Sat-Apr-17-2027-Agora-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361948/The-Dead-South-tickets-Sat-Apr-17-2027-Agora-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361948"
   },
   {
     "id": "tm-the-dead-south-2027-pittsburgh-z7r9jz1aaakfy",
@@ -1568,12 +1576,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361949",
+        "url": "https://www.ticketnetwork.com/en/p/8361949",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361949/The-Dead-South-tickets-Sun-Apr-18-2027-Stage-AE"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361949/The-Dead-South-tickets-Sun-Apr-18-2027-Stage-AE",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361949"
   },
   {
     "id": "tm-the-dead-south-2027-new-york-z7r9jz1aaak4a",
@@ -1629,12 +1645,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361953",
+        "url": "https://www.ticketnetwork.com/en/p/8361953",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAk4A",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361953/The-Dead-South-tickets-Thu-Apr-22-2027-Webster-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361953/The-Dead-South-tickets-Thu-Apr-22-2027-Webster-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361953"
   },
   {
     "id": "tm-the-dead-south-2027-new-haven-z7r9jz1aaa67a",
@@ -1690,12 +1714,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361964",
+        "url": "https://www.ticketnetwork.com/en/p/8361964",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67A",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361964/The-Dead-South-tickets-Fri-Apr-23-2027-College-Street-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361964/The-Dead-South-tickets-Fri-Apr-23-2027-College-Street-Music-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361964"
   },
   {
     "id": "tm-the-dead-south-2027-boston-z7r9jz1aaa67f",
@@ -1804,12 +1836,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361957",
+        "url": "https://www.ticketnetwork.com/en/p/8361957",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67t",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361957/The-Dead-South-tickets-Mon-Apr-26-2027-KEMBA-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361957/The-Dead-South-tickets-Mon-Apr-26-2027-KEMBA-Live",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361957"
   },
   {
     "id": "tm-the-dead-south-2027-asheville-z7r9jz1aaa6ao",
@@ -1865,12 +1905,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361967",
+        "url": "https://www.ticketnetwork.com/en/p/8361967",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6Ao",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361967/The-Dead-South-tickets-Sun-May-2-2027-Asheville-Yards-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361967/The-Dead-South-tickets-Sun-May-2-2027-Asheville-Yards-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361967"
   },
   {
     "id": "tm-the-dead-south-2027-atlanta-z7r9jz1aaa6az",
@@ -1926,12 +1974,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361958",
+        "url": "https://www.ticketnetwork.com/en/p/8361958",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6AZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361958/The-Dead-South-tickets-Mon-May-3-2027-The-Eastern-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361958/The-Dead-South-tickets-Mon-May-3-2027-The-Eastern-GA",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361958"
   },
   {
     "id": "tm-the-dead-south-2027-denver-z7r9jz1aaa6vm",
@@ -1987,11 +2043,19 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361961",
+        "url": "https://www.ticketnetwork.com/en/p/8361961",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6vM",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361961/The-Dead-South-tickets-Sat-Jul-17-2027-Levitt-Pavilion-Denver"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361961/The-Dead-South-tickets-Sat-Jul-17-2027-Levitt-Pavilion-Denver",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361961"
   }
 ]

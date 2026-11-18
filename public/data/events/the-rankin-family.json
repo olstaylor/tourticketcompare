@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8370370",
+        "url": "https://www.ticketnetwork.com/en/p/8370370",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPbMGA2HetJ",
@@ -66,7 +73,8 @@
       "LIVE NATION CANADA-RBC"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370370"
   },
   {
     "id": "tm-the-rankin-family-2027-calgary-1k78vpbmgac53nm",
@@ -122,6 +130,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8370534",
+        "url": "https://www.ticketnetwork.com/en/p/8370534",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPbMGAC53Nm",
@@ -135,7 +150,8 @@
     ],
     "ticket_limit": 6,
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370534/The-Rankin-Family-tickets-Sat-Mar-13-2027-Southern-Alberta-Jubilee-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370534/The-Rankin-Family-tickets-Sat-Mar-13-2027-Southern-Alberta-Jubilee-Auditorium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370534"
   },
   {
     "id": "tm-the-rankin-family-2027-winnipeg-1aozk4ngkerkp1s",
@@ -191,6 +207,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372058",
+        "url": "https://www.ticketnetwork.com/en/p/8372058",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4NGkeRKp1S",
@@ -211,7 +234,8 @@
         "end": "2027-03-02T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372058/The-Rankin-Family-tickets-Mon-Mar-15-2027-Burton-Cummings-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372058/The-Rankin-Family-tickets-Mon-Mar-15-2027-Burton-Cummings-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372058"
   },
   {
     "id": "tm-the-rankin-family-2027-thunder-bay-1a8zk40gkd5kq6z",
@@ -444,6 +468,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8370341",
+        "url": "https://www.ticketnetwork.com/en/p/8370341",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk40GkdkMkAr",
@@ -456,7 +487,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370341"
   },
   {
     "id": "tm-the-rankin-family-2027-moncton-1aszk4pgkeuypli",
@@ -512,6 +544,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372070",
+        "url": "https://www.ticketnetwork.com/en/p/8372070",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4PGkeUyPLi",
@@ -523,7 +562,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372070/The-Rankin-Family-tickets-Tue-Mar-30-2027-Molson-Canadian-Centre-at-Casino-New-Brunswick"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372070/The-Rankin-Family-tickets-Tue-Mar-30-2027-Molson-Canadian-Centre-at-Casino-New-Brunswick",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372070"
   },
   {
     "id": "tm-the-rankin-family-2027-halifax-16szk4poezacdevv",
@@ -579,6 +619,13 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8370417",
+        "url": "https://www.ticketnetwork.com/en/p/8370417",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16sZk4POEZACdevv",
@@ -590,7 +637,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370417/The-Rankin-Family-tickets-Thu-Apr-1-2027-Scotiabank-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370417/The-Rankin-Family-tickets-Thu-Apr-1-2027-Scotiabank-Centre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370417"
   },
   {
     "id": "tm-the-rankin-family-2027-sydney-1aszk4pgkd5nkwf",
@@ -646,12 +694,20 @@
         "verified": true,
         "last_verified_at": "2026-11-17",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372071",
+        "url": "https://www.ticketnetwork.com/en/p/8372071",
+        "verified": true,
+        "last_verified_at": "2026-11-18",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZk4PGkd5Nkwf",
     "timezone": "America/Halifax",
     "status": "on-sale",
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372071/The-Rankin-Family-tickets-Sat-Apr-3-2027-Centre-200"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372071/The-Rankin-Family-tickets-Sat-Apr-3-2027-Centre-200",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372071"
   }
 ]

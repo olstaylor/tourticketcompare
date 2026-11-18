@@ -708,7 +708,7 @@
         "event_id": "8252655",
         "url": "https://www.ticketnetwork.com/en/p/8252655",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -796,7 +796,7 @@
         "event_id": "8252656",
         "url": "https://www.ticketnetwork.com/en/p/8252656",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -878,7 +878,7 @@
         "event_id": "8252657",
         "url": "https://www.ticketnetwork.com/en/p/8252657",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },
@@ -957,11 +957,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8252658",
-        "url": "https://www.ticketnetwork.com/en/p/8252658",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvPa-GAukupH",
@@ -972,7 +972,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252658",
+    "ticketnetwork_url": "",
     "ticket_limit": 6,
     "genre": "R&B",
     "ticketmaster_status_code": "cancelled"
@@ -1040,11 +1040,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8252659",
-        "url": "https://www.ticketnetwork.com/en/p/8252659",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kOZ_3bxG7sqnA",
@@ -1055,7 +1055,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252659",
+    "ticketnetwork_url": "",
     "ticket_limit": 6,
     "genre": "R&B",
     "ticketmaster_status_code": "cancelled"
@@ -1126,7 +1126,7 @@
         "event_id": "8252660",
         "url": "https://www.ticketnetwork.com/en/p/8252660",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       }
     },

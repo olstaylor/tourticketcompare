@@ -697,11 +697,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8048656",
-        "url": "https://www.ticketnetwork.com/en/p/8048656",
-        "verified": true,
-        "last_verified_at": "2026-11-06",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8048656",
@@ -714,7 +714,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ptxe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8048656",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8048656/Lenny-Pearce-tickets-Tue-Nov-17-2026-The-Norva",
     "genre": "Dance/Electronic"
   },
@@ -770,7 +770,7 @@
         "event_id": "8048843",
         "url": "https://www.ticketnetwork.com/en/p/8048843",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -840,7 +840,7 @@
         "event_id": "8048659",
         "url": "https://www.ticketnetwork.com/en/p/8048659",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -910,7 +910,7 @@
         "event_id": "8048528",
         "url": "https://www.ticketnetwork.com/en/p/8048528",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

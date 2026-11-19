@@ -1876,7 +1876,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-winnipeg-canada-life-centre-4-23-2027--concerts-pop/production/7871097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-winnipeg-manitoba-04-23-2027/event/1100656C9D745ACF",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1962,7 +1962,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369857/Alex-Warren-tickets-Fri-Apr-23-2027-Canada-Life-Centre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369857"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369857",
+    "ticket_limit": 6
   },
   {
     "id": "tm-alex-warren-2027-grand-rapids-vv17oz_pgkrvt515",

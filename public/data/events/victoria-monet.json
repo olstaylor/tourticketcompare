@@ -1338,7 +1338,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-phoenix-arizona-financial-theatre-12-5-2026--concerts-pop/production/7540357",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1398,6 +1398,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-09-16T17:00:00Z",
         "end": "2026-11-29T05:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-06T02:00:00Z"
       }
     ],
     "ticket_limit": 4,
@@ -1861,7 +1866,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-sacramento-sacramento-memorial-auditorium-12-16-2026--concerts-pop/production/7540381",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-sacramento-california-12-16-2026/event/1C006528B6AFDD72",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1917,16 +1922,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Verizon Shine Select Seats",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
       {
         "name": "VIP Packages Public Onsale",
         "start": "2026-09-16T17:00:00Z",

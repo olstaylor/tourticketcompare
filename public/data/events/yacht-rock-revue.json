@@ -983,7 +983,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-nashville-the-truth-3-13-2027/production/7593554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-nashville-tennessee-03-13-2027/event/1B006533C7012158",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1040,6 +1040,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-02-14T04:00:00Z"
+      },
+      {
+        "name": "2026 Holiday Promotion",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
       }
     ],
     "organizer_names": [

@@ -1772,7 +1772,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-phoenix-arizona-financial-theatre-4-27-2027--concerts-hard-rock/production/7761453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-phoenix-arizona-04-27-2027/event/19006558148AC452",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1840,6 +1840,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-03-31T05:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "ticket_limit": 8,

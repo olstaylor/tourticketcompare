@@ -2974,7 +2974,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-presents-the-happiness-anytime-glasgow-23-06-2027/event/3600656DDC4CB240",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3012,8 +3012,8 @@
     "status": "announced",
     "public_onsale_at": "2026-11-20T10:00:00Z",
     "organizer_names": [
-      "SWG3 LTD",
-      "SONY MUSIC ON BEHALF OF PALOMA FAITH"
+      "DF CONCERTS LIMITED",
+      "SWG3 LTD"
     ],
     "ticket_limit": 8,
     "genre": "R&B"

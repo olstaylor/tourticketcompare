@@ -2211,7 +2211,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-duluth-decc-symphony-hall-2-16-2027/production/7623810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-duluth-minnesota-02-16-2027/event/06006537EDEA7432",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2252,6 +2252,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-02-10T04:00:00Z"
+      },
+      {
+        "name": "$40 All-In Black Friday Exclusive",
+        "start": "2026-11-23T16:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
       }
     ],
     "organizer_names": [

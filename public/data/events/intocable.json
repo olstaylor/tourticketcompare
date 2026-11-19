@@ -318,7 +318,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-chicago-credit-union-1-arena-at-uic-2-20-2027/production/7880682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocabletexicano-tour-2027-chicago-illinois-02-20-2027/event/0400656BE5E5EAAA",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -377,6 +377,16 @@
         "name": "Presale Offer",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373879"
@@ -490,7 +500,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-fresno-save-mart-center-3-5-2027/production/7881251",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-fresno-california-03-05-2027/event/1C00656DDCC555F6",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -552,6 +562,16 @@
         "name": "Presale",
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-27T06:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373881"
@@ -673,7 +693,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-san-jose-california-03-19-2027/event/1C00656B125D497B",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -754,6 +774,16 @@
         "name": "Sharks365 Presale",
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-03-13T06:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373883",

@@ -649,7 +649,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-phoenix-arizona-financial-theatre-5-1-2027--concerts-pop/production/7636635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -718,6 +718,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-27T19:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       },
       {
         "name": "2026 Holiday Promotion",

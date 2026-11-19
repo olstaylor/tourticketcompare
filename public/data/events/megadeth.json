@@ -785,7 +785,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-albuquerque-first-financial-credit-union-amphitheater-5-14-2027--concerts-hard-rock/production/7880165",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-albuquerque-new-mexico-05-14-2027/event/1E00656CA2B3504A",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -842,11 +842,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-18T16:45:00Z"
-      },
       {
         "name": "Citi® Cardmember Presale",
         "start": "2026-11-17T21:00:00Z",
@@ -907,7 +902,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-phoenix-talking-stick-resort-amphitheatre-5-15-2027--concerts-hard-rock/production/7880167",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-phoenix-arizona-05-15-2027/event/1900656AA9FD663A",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -964,11 +959,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-18T16:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T17:00:00Z",
@@ -1034,7 +1024,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-chula-vista-north-island-credit-union-amphitheatre-5-18-2027--concerts-hard-rock/production/7880169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-chula-vista-california-05-18-2027/event/0A006569BA2D6CAD",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1091,11 +1081,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-18T17:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T18:00:00Z",
@@ -1161,7 +1146,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-inglewood-kia-forum-5-19-2027/production/7880049",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-inglewood-california-05-19-2027/event/09006567044C4559",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1218,11 +1203,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-18T17:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T18:00:00Z",
@@ -1288,7 +1268,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-ridgefield-cascades-amphitheater-5-21-2027/production/7879931",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-ridgefield-washington-05-21-2027/event/0F00656995BA4E1D",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1346,11 +1326,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-18T17:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
@@ -1400,7 +1375,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-auburn-white-river-amphitheatre-5-22-2027/production/7879963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-auburn-washington-05-22-2027/event/0F006566E14E9EDF",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1458,11 +1433,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-18T17:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
@@ -1517,7 +1487,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-west-valley-city-utah-05-24-2027/event/1E006569B5954513",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1560,11 +1530,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-18T16:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T17:00:00Z",
@@ -1633,7 +1598,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-tinley-park-credit-union-1-amphitheatre-5-28-2027--concerts-hard-rock/production/7880171",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-tinley-park-illinois-05-28-2027/event/04006569E91D8A6B",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1690,11 +1655,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -1760,7 +1720,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-shakopee-mystic-lake-amphitheater---shakopee-5-29-2027--concerts-hard-rock/production/7880173",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-shakopee-minnesota-05-29-2027/event/2100656B761B0CF6",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1803,11 +1763,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -1876,7 +1831,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-kansas-city-morton-amphitheater-5-31-2027--concerts-hard-rock/production/7880175",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-kansas-city-missouri-05-31-2027/event/2100656B04A35B52",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1919,11 +1874,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -1982,7 +1932,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-grand-rapids-acrisure-amphitheater-6-2-2027--concerts-hard-rock/production/7880177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-grand-rapids-michigan-06-02-2027/event/0800656B8CA63758",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2040,11 +1990,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -2099,7 +2044,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-clarkston-pine-knob-music-theatre-6-4-2027--concerts-hard-rock/production/7880179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-clarkston-michigan-06-04-2027/event/0800656CD0CD7B92",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2156,11 +2101,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -2210,7 +2150,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-cincinnati-riverbend-music-center-6-5-2027--concerts-hard-rock/production/7880181",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-cincinnati-ohio-06-05-2027/event/1600656A993D57C7",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2268,11 +2208,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -2327,7 +2262,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-burgettstown-the-pavilion-at-star-lake-6-7-2027--concerts-hard-rock/production/7880183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-burgettstown-pennsylvania-06-07-2027/event/1600656C93DD6BA8",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2384,11 +2319,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -2449,7 +2379,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-bristow-jiffy-lube-live-6-8-2027/production/7879949",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-bristow-virginia-06-08-2027/event/1500656AAEAC9098",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2506,11 +2436,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -2571,7 +2496,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-toronto-rbc-amphitheatre-6-10-2027/production/7880035",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-toronto-ontario-06-10-2027/event/1000656CC8C7BE89",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2617,11 +2542,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -2680,7 +2600,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-mansfield-xfinity-center---ma-6-12-2027/production/7880163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-mansfield-massachusetts-06-12-2027/event/0100656BA6F0A44D",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2737,11 +2657,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -2807,7 +2722,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-camden-freedom-mortgage-pavilion-6-13-2027/production/7880159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-camden-new-jersey-06-13-2027/event/0200656BA6ABC704",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2864,11 +2779,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -2934,7 +2844,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-new-york-madison-square-garden-6-15-2027/production/7880091",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-new-york-new-york-06-15-2027/event/3B006567BF23373F",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2990,11 +2900,6 @@
     ],
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -3070,7 +2975,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-charlotte-truliant-amphitheater-6-17-2027/production/7880139",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-charlotte-north-carolina-06-17-2027/event/2D006569AE2A8004",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3127,11 +3032,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -3192,7 +3092,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-alpharetta-ameris-bank-amphitheatre-6-18-2027/production/7880137",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-alpharetta-georgia-06-18-2027/event/0E00656A9443AAD8",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3249,11 +3149,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -3319,7 +3214,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-6-20-2027/production/7880135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-the-woodlands-texas-06-20-2027/event/3A006569E373D1C2",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3362,11 +3257,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -3440,7 +3330,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-irving-pavilion-at-toyota-music-factory-6-22-2027/production/7880133",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-irving-texas-06-22-2027/event/0C00656CE352A4C3",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3497,11 +3387,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -3562,7 +3447,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-austin-germania-insurance-amphitheater-6-23-2027/production/7880125",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-austin-texas-06-23-2027/event/3A006569C1DD9B99",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3619,11 +3504,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -3689,7 +3569,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-north-little-rock-simmons-bank-arena-9-6-2027/production/7880053",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-north-little-rock-arkansas-09-06-2027/event/1B00656A9C0A95A0",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3746,11 +3626,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -3811,7 +3686,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-biloxi-mississippi-coast-coliseum-9-7-2027/production/7880063",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-biloxi-mississippi-09-07-2027/event/1B00656AC066DACA",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3868,11 +3743,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -3938,7 +3808,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-nashville-bridgestone-arena-9-9-2027/production/7880079",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-nashville-tennessee-09-09-2027/event/1B00656B80835028",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3994,11 +3864,6 @@
     ],
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -4059,7 +3924,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-9-11-2027/production/7879975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-virginia-beach-virginia-09-11-2027/event/0100656AD57DFCA3",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4116,11 +3981,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -4181,7 +4041,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-allentown-ppl-center-9-12-2027--concerts-hard-rock/production/7880185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-allentown-pennsylvania-09-12-2027/event/3000656BA2DB5D5D",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4237,11 +4097,6 @@
     ],
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -4312,7 +4167,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-laval-place-bell-9-14-2027/production/7879936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-laval-quebec-09-14-2027/event/3100656BACAD57FE",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4378,11 +4233,6 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Prévente Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Prévente Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -4432,7 +4282,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-buffalo-keybank-center-9-16-2027/production/7880077",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-buffalo-new-york-09-16-2027/event/0000656BD21E1BB8",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4489,11 +4339,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -4559,7 +4404,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-toledo-huntington-center-9-18-2027/production/7880097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-toledo-ohio-09-18-2027/event/08006569C0034492",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4617,11 +4462,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -4676,7 +4516,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-columbus-value-city-arena-at-schottenstein-center-9-19-2027/production/7880101",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-columbus-ohio-09-19-2027/event/0500656CC800E7EE",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4733,11 +4573,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -4921,7 +4756,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-fargo-fargodome-9-22-2027/production/7880109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-fargo-north-dakota-09-22-2027/event/060065699B4860F3",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4978,11 +4813,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -5043,7 +4873,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-lincoln-pinnacle-bank-arena-9-24-2027/production/7880107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-lincoln-nebraska-09-24-2027/event/0600656BBD01AC9A",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5099,11 +4929,6 @@
     ],
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -5169,7 +4994,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-wichita-intrust-bank-arena-9-25-2027--concerts-hard-rock/production/7880187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-wichita-kansas-09-25-2027/event/0600656BD7D3D9C5",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -5227,11 +5052,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -5262,7 +5082,7 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
-        "name": "Venue Presale",
+        "name": "Venue/Radio Presale",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       },

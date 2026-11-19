@@ -666,7 +666,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-phoenix-arizona-02-05-2027/event/19006519814B337C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -728,6 +728,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-28T13:00:00Z",
         "end": "2027-01-30T05:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "organizer_names": [

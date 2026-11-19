@@ -663,7 +663,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-nashville-tennessee-05-01-2027/event/1B006564A01B9322",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -724,6 +724,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-04-02T03:00:00Z"
+      },
+      {
+        "name": "2026 Holiday Promotion",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
       }
     ]
   },

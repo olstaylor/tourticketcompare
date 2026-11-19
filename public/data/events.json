@@ -64510,7 +64510,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-boston-mgm-music-hall-at-fenway-11-25-2026--concerts-pop/production/7347443",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-boston-massachusetts-11-25-2026/event/010064F598ACEA3D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -64570,13 +64570,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164827",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164827/Tyla-tickets-Wed-Nov-25-2026-MGM-Music-Hall-at-Fenway-Park",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-boston-tickets-11-25-2026/event/107460125",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -65372,7 +65365,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-phoenix-arizona-financial-theatre-12-14-2026--concerts-pop/production/7347462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -65437,6 +65430,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-07-31T17:00:00Z",
         "end": "2026-12-08T05:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -68789,7 +68787,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-saint-louis-missouri-11-25-2026/event/210064EE501D2E87",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -68825,18 +68823,6 @@
     "ticketmaster_discovery_event_id": "17F8v0G6Cy863B6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "In Flames VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-19T05:55:00Z"
-      },
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-19T05:55:00Z"
-      }
-    ],
     "ticket_limit": 8,
     "genre": "Rock"
   },
@@ -69037,7 +69023,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-phoenix-arizona-financial-theatre-12-2-2026--concerts-rock/production/7325306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -69099,6 +69085,11 @@
         "name": "Trivium VIP Packages Onsale",
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-11-26T06:55:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-02T23:30:00Z"
       }
     ],
     "organizer_names": [
@@ -72729,7 +72720,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72781,13 +72772,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -74835,7 +74819,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-phoenix-arizona-02-05-2027/event/19006519814B337C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74897,6 +74881,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-28T13:00:00Z",
         "end": "2027-01-30T05:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -81224,7 +81213,7 @@
     "vividseats_url": "https://www.vividseats.com/morat-tickets-inglewood-intuit-dome-2-26-2027/production/7047204",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morat-yem-world-tour-2027-inglewood-california-02-26-2027/event/090064AFF1A0DF67",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -81289,6 +81278,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-05-28T17:00:00Z",
         "end": "2027-02-20T01:00:00Z"
+      },
+      {
+        "name": "Black Friday Special Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-12-01T06:00:00Z"
       }
     ],
     "organizer_names": [
@@ -103244,7 +103238,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-sacramento-california-12-02-2026/event/1C006506ECD3CC5A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103294,13 +103288,6 @@
     "ticketmaster_discovery_event_id": "G5vYZ_8hiVHsQ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "T-Mobile Concert Perks",
-        "start": "2026-09-18T17:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -104726,7 +104713,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charlottesville-john-paul-jones-arena-12-16-2026--concerts-world-music/production/7536731",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charlottesville-virginia-12-16-2026/event/0100651CDD7E5A42",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -104778,11 +104765,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255100",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
       {
         "name": "T-Mobile Concert Perks Offer",
         "start": "2026-09-18T14:00:00Z",
@@ -123003,7 +122985,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-phoenix-arizona-05-08-2027/event/19006532CEA9AB70",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -123068,6 +123050,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-04-18T06:59:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -143971,7 +143958,7 @@
     "vividseats_url": "https://www.vividseats.com/needtobreathe-tickets-duluth-decc-symphony-hall-2-21-2027/production/7611482",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/needtobreathe-duluth-minnesota-02-21-2027/event/0600653093BD6B51",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -144012,6 +143999,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-02-15T05:55:00Z"
+      },
+      {
+        "name": "$40 All-In Black Friday Exclusive",
+        "start": "2026-11-23T16:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -155610,7 +155602,7 @@
     "vividseats_url": "https://www.vividseats.com/the-yacht-rock-revue-tickets-nashville-the-truth-3-13-2027/production/7593554",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cann-presents-yacht-rock-revue-primetime-nashville-tennessee-03-13-2027/event/1B006533C7012158",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -155667,6 +155659,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-02-14T04:00:00Z"
+      },
+      {
+        "name": "2026 Holiday Promotion",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -169624,7 +169621,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-duluth-decc-symphony-hall-2-16-2027/production/7623810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-duluth-minnesota-02-16-2027/event/06006537EDEA7432",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -169665,6 +169662,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-02-10T04:00:00Z"
+      },
+      {
+        "name": "$40 All-In Black Friday Exclusive",
+        "start": "2026-11-23T16:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -174120,7 +174122,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-savannah-enmarket-arena-2-3-2027/production/7642178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-savannah-georgia-02-03-2027/event/0E00653EC5E93533",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -174177,6 +174179,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-01-27T04:55:00Z"
+      },
+      {
+        "name": "2 For 1 Offer",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
       }
     ],
     "organizer_names": [
@@ -175316,7 +175323,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-philadelphia-xfinity-mobile-arena-3-10-2027/production/7642134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-philadelphia-pennsylvania-03-10-2027/event/3000653D190391F0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -175380,6 +175387,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-03-03T04:55:00Z"
+      },
+      {
+        "name": "Black Friday/ Cyber Monday",
+        "start": "2026-11-26T05:01:00Z",
+        "end": "2026-12-01T04:59:00Z"
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-philadelphia-tickets-3-10-2027/event/107671869",
@@ -178512,7 +178524,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-liverpool-20-11-2026/event/3700650D190E9616",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178548,7 +178560,8 @@
     "ticketmaster_discovery_event_id": "1AdjZ_8GkV_dtbp",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticket_limit": 4
   },
   {
     "id": "tm-fontaines-d-c-2026-leeds-g5vhz_8b5sfcc",
@@ -178566,7 +178579,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-leeds-24-11-2026/event/1F00650E8BCD43AD",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178602,7 +178615,8 @@
     "ticketmaster_discovery_event_id": "G5vHZ_8B5SfCc",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticket_limit": 4
   },
   {
     "id": "tm-fontaines-d-c-2026-birmingham-1aegz_8gkdxxlc2",
@@ -178620,7 +178634,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-birmingham-25-11-2026/event/2300650EFEF9F38F",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178680,7 +178694,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243928",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243928/Fontaines-DC-tickets-Wed-Nov-25-2026-Utilita-Arena-Birmingham",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-birmingham-utilita-arena-birmingham-25-11-2026/event/107554687",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticket_limit": 4
   },
   {
     "id": "tm-fontaines-d-c-2026-london-1agzkfogkenxxaj",
@@ -178698,7 +178713,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/fontaines-dc-london-27-11-2026/event/35006511A3FA225C",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178742,7 +178757,8 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/fontaines-d-c-tickets-london-the-o2-arena-27-11-2026/event/107636077",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticket_limit": 4
   },
   {
     "id": "tm-fontaines-d-c-2027-boston-vv1avzkfggkedosqi",
@@ -184182,7 +184198,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-phoenix-arizona-financial-theatre-5-1-2027--concerts-pop/production/7636635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -184251,6 +184267,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-10-08T17:00:00Z",
         "end": "2027-04-27T19:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       },
       {
         "name": "2026 Holiday Promotion",
@@ -217137,7 +217158,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-waukee-iowa-11-25-2026/event/21006329DC0F0C3D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -217188,13 +217209,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410014",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410014/Sabaton-tickets-Wed-Nov-25-2026-Vibrant-Music-Hall",
     "organizer_names": [
@@ -243093,7 +243107,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-at-the-venetian-resort-11-28-2026--concerts-adult-contemporary/production/6981879",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-11-28-2026/event/17006484FEE01E4B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -243150,13 +243164,6 @@
     "ticketmaster_discovery_event_id": "1A9Zk37GkdXzvy5",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "On The List VIP Package Onsale",
-        "start": "2026-05-15T17:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930158/The-Eagles-tickets-Sat-Nov-28-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-11-28-2026/event/107162530",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930158",
@@ -264726,7 +264733,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-sacramento-golden-1-center-11-22-2026--concerts-pop/production/7446314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sacramento-california-11-22-2026/event/1C00650CFB097E40",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -264788,13 +264795,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-sacramento-tickets-11-22-2026/event/107490079",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -289759,7 +289759,7 @@
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -289812,13 +289812,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703262/Zac-Brown-Band-tickets-Thu-Nov-19-2026-Pinnacle-Bank-Arena",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ],
-    "presales": [
-      {
-        "name": "MVAS Cruise Offer",
-        "start": "2026-07-20T15:00:00Z",
-        "end": "2026-11-19T01:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703262",
     "genre": "Country"
@@ -305501,7 +305494,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/manilow-the-last-orlando-concert-orlando-florida-01-21-2027/event/2200632CCE031F54",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -305566,7 +305559,14 @@
       "OUTBACK CONCERTS"
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-24T04:59:00Z",
+        "end": "2026-12-03T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5kgq",
@@ -308105,7 +308105,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-phoenix-arizona-financial-theatre-12-5-2026--concerts-pop/production/7540357",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
-    "last_verified_at": "2026-11-08",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -308165,6 +308165,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-09-16T17:00:00Z",
         "end": "2026-11-29T05:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-06T02:00:00Z"
       }
     ],
     "ticket_limit": 4,
@@ -308628,7 +308633,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-sacramento-sacramento-memorial-auditorium-12-16-2026--concerts-pop/production/7540381",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-sacramento-california-12-16-2026/event/1C006528B6AFDD72",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -308684,16 +308689,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Verizon Shine Select Seats",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
       {
         "name": "VIP Packages Public Onsale",
         "start": "2026-09-16T17:00:00Z",
@@ -309302,7 +309297,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-jon-pardi-2026-independence-vvg1bz_cu03zzw",
@@ -310533,7 +310529,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-port-chester-new-york-12-16-2026/event/1D006538A1D2389F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -310585,13 +310581,6 @@
     "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-10-02T14:00:00Z",
-        "end": "2026-11-19T01:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293188",
     "ticket_limit": 4,
@@ -314114,7 +314103,7 @@
     "vividseats_url": "https://www.vividseats.com/little-big-town-tickets-toronto-massey-hall---allied-music-centre-11-22-2026--concerts-country-and-folk/production/7132573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/little-big-town-for-the-art-toronto-ontario-11-22-2026/event/100064C3D9B86796",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -314157,11 +314146,6 @@
       "LIVE NATION CANADA-ROGERS"
     ],
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-06-12T14:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
       {
         "name": "Preferred Seating Onsale",
         "start": "2026-06-12T14:00:00Z",
@@ -363629,7 +363613,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-savannah-savannah-civic-center---johnny-mercer-theatre-12-8-2026/production/7353314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-savannah-georgia-12-08-2026/event/0E0064F6ADE5B208",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363673,6 +363657,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-07-31T14:00:00Z",
         "end": "2026-12-02T04:55:00Z"
+      },
+      {
+        "name": "Jodeci Holiday Offer",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-12-09T00:00:00Z"
       }
     ],
     "ticket_limit": 8,
@@ -363694,7 +363683,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-nashville-the-truth-12-10-2026/production/7353386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-nashville-tennessee-12-10-2026/event/1B0064F7A66CBD33",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363754,6 +363743,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-07-31T15:00:00Z",
         "end": "2026-12-04T05:55:00Z"
+      },
+      {
+        "name": "2026 Holiday Promotion",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2026-12-10T04:00:00Z"
       }
     ],
     "ticket_limit": 8,
@@ -364495,7 +364489,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-phoenix-arizona-01-15-2027/event/190064F7DBB187F2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -364556,6 +364550,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-07-31T17:00:00Z",
         "end": "2027-01-09T06:55:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "ticket_limit": 8,
@@ -372095,7 +372094,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-phoenix-arizona-financial-theatre-4-27-2027--concerts-hard-rock/production/7761453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-phoenix-arizona-04-27-2027/event/19006558148AC452",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -372163,6 +372162,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-10-30T17:00:00Z",
         "end": "2027-03-31T05:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "ticket_limit": 8,
@@ -386737,7 +386741,7 @@
     "id": "tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0z0z",
     "artist_slug": "feid",
     "artist_name": "FEID",
-    "event_name": "Ferxxo The Green Star Tour 2027",
+    "event_name": "FEID-FERXXO-THE GREEN STAR Tour 2027",
     "city": "Ciudad de México",
     "country": "Mexico",
     "venue": "Palacio de los Deportes",
@@ -386749,7 +386753,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-21-05-2027/event/1400655FE8938938",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389972,7 +389976,7 @@
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-nashville-tennessee-05-01-2027/event/1B006564A01B9322",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -390033,6 +390037,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-04-02T03:00:00Z"
+      },
+      {
+        "name": "2026 Holiday Promotion",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
       }
     ]
   },
@@ -391070,7 +391079,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-seattle-lumen-field-5-16-2027/production/7832789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-seattle-washington-05-16-2027/event/0F00656215B2C500",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391135,26 +391144,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Packages",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-11-19T23:00:00Z",
         "end": "2027-05-12T19:00:00Z"
@@ -391180,7 +391169,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/production/7832841",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391241,26 +391230,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T22:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T22:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T22:00:00Z",
         "end": "2027-05-15T19:00:00Z"
@@ -391291,7 +391260,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-santa-clara-california-05-22-2027/event/1C006562B1BE9D74",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391356,21 +391325,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T23:00:00Z",
         "end": "2027-05-18T19:00:00Z"
@@ -391396,7 +391350,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-san-diego-petco-park-5-25-2027/production/7832915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-san-diego-california-05-25-2027/event/0A006567FA6836E7",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391460,26 +391414,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T23:00:00Z",
         "end": "2027-05-21T19:00:00Z"
@@ -391506,7 +391440,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-inglewood-sofi-stadium-5-29-2027/production/7832799",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-inglewood-california-05-29-2027/event/0A00655CEBC68D2B",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391571,26 +391505,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Packages",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-11-19T23:00:00Z",
         "end": "2027-05-25T19:00:00Z"
@@ -391616,7 +391530,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-houston-reliant-stadium-6-5-2027/production/7832807",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-houston-texas-06-05-2027/event/3A0065657DF6A510",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391680,26 +391594,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T21:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T21:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T21:00:00Z",
         "end": "2027-06-01T17:00:00Z"
@@ -391725,7 +391619,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-atlanta-mercedes-benz-stadium-6-8-2027/production/7832811",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-atlanta-georgia-06-08-2027/event/0E006566C0752D44",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391789,21 +391683,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
         "end": "2027-06-04T16:00:00Z"
@@ -391830,7 +391709,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-miami-gardens-hard-rock-stadium-6-11-2027/production/7832833",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-miami-florida-06-11-2027/event/0D006565A3BC5881",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -391895,26 +391774,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Packages",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
         "end": "2027-06-07T16:00:00Z"
@@ -391940,7 +391799,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-orlando-camping-world-stadium-6-14-2027/production/7832837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-orlando-florida-06-14-2027/event/22006564E7F05FE6",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392005,26 +391864,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Packages",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
         "end": "2027-06-10T16:00:00Z"
@@ -392050,7 +391889,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-chicago-soldier-field-6-18-2027/production/7832839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-18-2027/event/04006563DBD6842E",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392115,26 +391954,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T21:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T21:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T21:00:00Z",
         "end": "2027-06-14T17:00:00Z"
@@ -392160,7 +391979,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-toronto-rogers-stadium---toronto-6-25-2027--concerts-k-pop/production/7833165",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-toronto-ontario-06-25-2027/event/1000655EF725EB10",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392205,26 +392024,6 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
         "end": "2027-06-21T16:00:00Z"
@@ -392247,7 +392046,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-east-rutherford-metlife-stadium-6-29-2027/production/7832843",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-east-rutherford-new-jersey-06-29-2027/event/00006563A3F87257",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -392310,26 +392109,6 @@
     ],
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
@@ -392974,7 +392753,7 @@
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-lexington-the-rail-2-23-2027/production/7836216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-lexington-kentucky-02-23-2027/event/16006550CD4CD028",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -393030,7 +392809,14 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363728/Dropkick-Murphys-tickets-Tue-Feb-23-2027-The-Rail-KY",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363728"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363728",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2027-02-17T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-marc-anthony-2027-toronto-1avzz_fgkd8tkbf",
@@ -395912,7 +395698,7 @@
     "id": "tm-feid-2027-ciudad-de-mexico-1av8z_4gkti0zp7",
     "artist_slug": "feid",
     "artist_name": "FEID",
-    "event_name": "Ferxxo The Green Star Tour 2027",
+    "event_name": "FEID-FERXXO-THE GREEN STAR Tour 2027",
     "city": "Ciudad de México",
     "country": "Mexico",
     "venue": "Palacio de los Deportes",
@@ -395924,7 +395710,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-22-05-2027/event/1400655FE8938944",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400637,7 +400423,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/phoebe-bridgers-ciudad-de-mexico-13-05-2027/event/14006567B9298B7E",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400685,13 +400471,6 @@
       "OCESA"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-19T05:59:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-tickets-mexico-city-palacio-de-los-deportes-13-5-2027/event/107682205"
   },
   {
@@ -400833,7 +400612,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-boston-mgm-music-hall-at-fenway-4-20-2027--concerts-alternative/production/7863244",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-boston-massachusetts-04-20-2027/event/0100656601C51D70",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400898,23 +400677,6 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-boston-tickets-4-20-2027/event/107681803"
   },
   {
@@ -400933,7 +400695,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-new-york-radio-city-music-hall-4-22-2027--concerts-alternative/production/7863246",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-new-york-new-york-04-22-2027/event/3C00656ABE8B30D1",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -400999,31 +400761,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Chase Cardholder Preferred Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
         "name": "Verizon Shine Featured Venues",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-12-21T15:00:00Z"
@@ -401052,7 +400789,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-toronto-scotiabank-arena-4-24-2027--concerts-alternative/production/7863248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-toronto-ontario-04-24-2027/event/1000656ACA76BE29",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401096,34 +400833,7 @@
       "LIVE NATION CANADA-ROGERS"
     ],
     "ticket_limit": 6,
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Live INSIDER Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-tempe-1av0z_pgkrzfigp",
@@ -401141,7 +400851,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-tempe-mullett-arena-5-1-2027--concerts-alternative/production/7863252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-tempe-arizona-05-01-2027/event/1900656BC0228316",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401198,24 +400908,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T19:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-los-angeles-vv170z_pgklllved",
@@ -401233,7 +400926,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-los-angeles-greek-theatre---los-angeles-5-3-2027--concerts-alternative/production/7863254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-los-angeles-california-05-03-2027/event/0900656AEBAC19FB",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401298,33 +400991,6 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T20:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Nederlander Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-los-angeles-tickets-5-3-2027/event/107681050"
   },
   {
@@ -401343,7 +401009,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-seattle-wamu-theater---seattle-5-7-2027--concerts-alternative/production/7863256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-seattle-washington-05-07-2027/event/0F00656BBA38AC0C",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401408,28 +401074,6 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T20:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "AEG Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-seattle-tickets-5-7-2027/event/107681051"
   },
   {
@@ -401448,7 +401092,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-vancouver-rogers-arena-5-9-2027--concerts-alternative/production/7863258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-vancouver-british-columbia-05-09-2027/event/11006567183E5E01",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -401517,26 +401161,6 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T19:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-11-17T19:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
       {
         "name": "Amex Reserved Tickets",
         "start": "2026-11-19T17:00:00Z",
@@ -402138,7 +401762,7 @@
     "id": "tm-feid-2027-ciudad-de-mexico-1av8z_4gktipbpa",
     "artist_slug": "feid",
     "artist_name": "FEID",
-    "event_name": "Ferxxo The Green Star Tour 2027",
+    "event_name": "FEID-FERXXO-THE GREEN STAR Tour 2027",
     "city": "Ciudad de México",
     "country": "Mexico",
     "venue": "Palacio de los Deportes",
@@ -402150,7 +401774,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/ferxxo-the-green-star-tour-2027-ciudad-de-mexico-23-05-2027/event/1400655FE8958949",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403191,7 +402815,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -403293,7 +402917,7 @@
         "end": "2027-06-06T02:00:00Z"
       },
       {
-        "name": "The Mastercard Collection",
+        "name": "The Mastercard Collection Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-06T02:00:00Z"
       },
@@ -404830,7 +404454,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-birmingham-16-10-2027/event/2300656DC49610E0",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -404870,7 +404494,8 @@
     "genre": "Pop",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticket_limit": 8
   },
   {
     "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkm7wjw0",
@@ -406979,7 +406604,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-winnipeg-canada-life-centre-4-23-2027--concerts-pop/production/7871097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-winnipeg-manitoba-04-23-2027/event/1100656C9D745ACF",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -407065,7 +406690,8 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369857/Alex-Warren-tickets-Fri-Apr-23-2027-Canada-Life-Centre",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369857"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369857",
+    "ticket_limit": 6
   },
   {
     "id": "tm-alex-warren-2027-grand-rapids-vv17oz_pgkrvt515",
@@ -414554,7 +414180,7 @@
     "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-9-2027--concerts-rock/production/7879721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414629,6 +414255,16 @@
         "end": "2026-11-20T09:00:00Z"
       },
       {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Metropolis Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
         "name": "Past Bookers Presale",
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
@@ -414654,7 +414290,7 @@
     "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-11-2027--concerts-rock/production/7879767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414729,6 +414365,16 @@
         "end": "2026-11-20T09:00:00Z"
       },
       {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Metropolis Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
         "name": "Past Bookers Presale",
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
@@ -414754,7 +414400,7 @@
     "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-darlington-darlington-arena-9-14-2027--concerts-rock/production/7879771",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414822,6 +414468,16 @@
         "end": "2026-11-20T09:00:00Z"
       },
       {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Metropolis",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
         "name": "Past Bookers Presale",
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
@@ -414846,7 +414502,7 @@
     "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-edinburgh-scottish-gas-murrayfield-stadium-9-16-2027--concerts-rock/production/7879775",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-edinburgh-16-09-2027/event/36006527AD8E4F47",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -414903,6 +414559,21 @@
       },
       {
         "name": "Gigs in Scotland Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Metropolis Presale",
+        "start": "2026-11-19T10:00:00Z",
+        "end": "2026-11-20T09:00:00Z"
+      },
+      {
+        "name": "Past Bookers Presale",
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       },
@@ -415470,7 +415141,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-presents-the-happiness-anytime-glasgow-23-06-2027/event/3600656DDC4CB240",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -415508,8 +415179,8 @@
     "status": "announced",
     "public_onsale_at": "2026-11-20T10:00:00Z",
     "organizer_names": [
-      "SWG3 LTD",
-      "SONY MUSIC ON BEHALF OF PALOMA FAITH"
+      "DF CONCERTS LIMITED",
+      "SWG3 LTD"
     ],
     "ticket_limit": 8,
     "genre": "R&B"
@@ -415588,7 +415259,7 @@
     "id": "tm-kacey-musgraves-2027-belfast-1adoz_pgkwxv3eu",
     "artist_slug": "kacey-musgraves",
     "artist_name": "Kacey Musgraves",
-    "event_name": "Kacey Musgraves - the Outlier Tour",
+    "event_name": "Kacey Musgraves",
     "city": "Belfast",
     "country": "Great Britain",
     "venue": "Custom House Square Belfast",
@@ -415600,7 +415271,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/kacey-musgraves-the-outlier-tour-belfast-25-06-2027/event/3800656CA2D120B6",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416216,7 +415887,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-chicago-credit-union-1-arena-at-uic-2-20-2027/production/7880682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocabletexicano-tour-2027-chicago-illinois-02-20-2027/event/0400656BE5E5EAAA",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416275,6 +415946,16 @@
         "name": "Presale Offer",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-11-20T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373879"
@@ -416388,7 +416069,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-fresno-save-mart-center-3-5-2027/production/7881251",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-fresno-california-03-05-2027/event/1C00656DDCC555F6",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416450,6 +416131,16 @@
         "name": "Presale",
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-27T06:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373881"
@@ -416571,7 +416262,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-san-jose-california-03-19-2027/event/1C00656B125D497B",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416652,6 +416343,16 @@
         "name": "Sharks365 Presale",
         "start": "2026-11-19T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-11-19T18:00:00Z",
+        "end": "2026-11-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-03-13T06:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373883",
@@ -416881,7 +416582,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-saint-louis-missouri-03-10-2027/event/0600656BBBB5AAC8",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -416924,11 +416625,6 @@
     "ticket_limit": 4,
     "genre": "R&B",
     "presales": [
-      {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:45:00Z"
-      },
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
@@ -416982,7 +416678,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-minneapolis-target-center-3-12-2027--concerts-rb/production/7886345",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417038,11 +416734,6 @@
     ],
     "genre": "R&B",
     "presales": [
-      {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:45:00Z"
-      },
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
@@ -417103,7 +416794,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-milwaukee-fiserv-forum-3-13-2027--concerts-rb/production/7886351",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417162,11 +416853,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -417221,7 +416907,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-kansas-city-t-mobile-center-3-15-2027--concerts-rb/production/7886355",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417278,11 +416964,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -417337,7 +417018,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-columbus-nationwide-arena-3-18-2027--concerts-rb/production/7886363",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417394,11 +417075,6 @@
     "ticket_limit": 4,
     "genre": "R&B",
     "presales": [
-      {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
@@ -417459,7 +417135,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-buffalo-keybank-center-3-19-2027--concerts-rb/production/7886365",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417517,11 +417193,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -417576,7 +417247,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-chicago-united-center-3-21-2027--concerts-rb/production/7886369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417634,11 +417305,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -417693,7 +417359,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-detroit-little-caesars-arena-3-22-2027--concerts-rb/production/7886377",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417751,11 +417417,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -417810,7 +417471,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-toronto-scotiabank-arena-3-24-2027--concerts-rb/production/7886519",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417856,11 +417517,6 @@
     "ticket_limit": 4,
     "genre": "R&B",
     "presales": [
-      {
-        "name": "Amex Presale Tickets VIP Packages",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
       {
         "name": "Front Of The Line Amex Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
@@ -417909,7 +417565,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-brooklyn-barclays-center-3-26-2027--concerts-rb/production/7886379",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417967,11 +417623,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -418026,7 +417677,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-boston-td-garden-3-27-2027--concerts-rb/production/7886381",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -418084,14 +417735,9 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
+        "end": "2026-11-20T03:00:00Z"
       },
       {
         "name": "Artist Presale",
@@ -418143,7 +417789,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-pittsburgh-ppg-paints-arena-3-29-2027--concerts-rb/production/7886383",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -418200,22 +417846,17 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
+        "name": "Artist Presale",
+        "start": "2026-11-18T19:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Artist Presale",
+        "name": "VIP Packages Presale",
         "start": "2026-11-18T19:00:00Z",
         "end": "2026-11-20T03:00:00Z"
       },
@@ -418371,7 +418012,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-newark-prudential-center-4-2-2027--concerts-rb/production/7886391",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -418428,11 +418069,6 @@
     "ticket_limit": 4,
     "genre": "R&B",
     "presales": [
-      {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
       {
         "name": "Artist Presale",
         "start": "2026-11-18T15:00:00Z",
@@ -418493,7 +418129,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-philadelphia-xfinity-mobile-arena-4-3-2027--concerts-rb/production/7886393",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -418550,11 +418186,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -418609,7 +418240,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-columbia-colonial-life-arena-4-5-2027--concerts-rb/production/7886395",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -418667,11 +418298,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -418726,7 +418352,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-charlotte-spectrum-center-4-7-2027--concerts-rb/production/7886397",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -418783,11 +418409,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -418842,7 +418463,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-raleigh-lenovo-center-4-8-2027--concerts-rb/production/7886405",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -418900,11 +418521,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -418959,7 +418575,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-atlanta-state-farm-arena-4-10-2027--concerts-rb/production/7886407",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419017,11 +418633,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -419076,7 +418687,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-orlando-kia-center-4-12-2027--concerts-rb/production/7886411",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419134,11 +418745,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-18T18:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -419193,7 +418799,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-memphis-fedexforum-4-16-2027--concerts-rb/production/7886415",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419251,11 +418857,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -419310,7 +418911,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-new-orleans-smoothie-king-center-4-17-2027--concerts-rb/production/7886419",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419368,11 +418969,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -419427,7 +419023,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-fort-worth-ariat-arena-4-20-2027--concerts-rb/production/7886333",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419485,11 +419081,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -419544,7 +419135,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-austin-moody-center-atx-4-22-2027--concerts-rb/production/7886425",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419601,11 +419192,6 @@
     "ticket_limit": 4,
     "genre": "R&B",
     "presales": [
-      {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:45:00Z"
-      },
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T16:00:00Z",
@@ -419666,7 +419252,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-denver-ball-arena-4-27-2027--concerts-rb/production/7886437",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419724,11 +419310,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T17:00:00Z",
         "end": "2026-11-20T05:00:00Z"
@@ -419783,7 +419364,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-phoenix-mortgage-matchup-center-4-29-2027--concerts-rb/production/7886453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419841,11 +419422,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T17:00:00Z",
         "end": "2026-11-20T05:00:00Z"
@@ -419900,7 +419476,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-anaheim-honda-center-5-1-2027--concerts-rb/production/7886467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -419957,11 +419533,6 @@
     "ticket_limit": 4,
     "genre": "R&B",
     "presales": [
-      {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:45:00Z"
-      },
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T18:00:00Z",
@@ -420022,7 +419593,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-san-francisco-chase-center-5-7-2027--concerts-rb/production/7886469",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420079,11 +419650,6 @@
     "ticket_limit": 4,
     "genre": "R&B",
     "presales": [
-      {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:45:00Z"
-      },
       {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T18:00:00Z",
@@ -420144,7 +419710,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-sacramento-golden-1-center-5-9-2027--concerts-rb/production/7886473",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420202,11 +419768,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
@@ -420261,7 +419822,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-portland-moda-center-5-12-2027--concerts-rb/production/7886475",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420318,11 +419879,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
@@ -420377,7 +419933,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-seattle-climate-pledge-arena-5-13-2027--concerts-rb/production/7886479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420435,11 +419991,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
@@ -420489,7 +420040,7 @@
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-vancouver-rogers-arena-5-15-2027--concerts-rb/production/7886535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420550,11 +420101,6 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Amex Presale Tickets VIP Packages",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:45:00Z"
-      },
-      {
         "name": "Front Of The Line Amex Presale Tickets",
         "start": "2026-11-18T17:00:00Z",
         "end": "2026-11-20T05:00:00Z"
@@ -420604,7 +420150,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-west-valley-city-utah-05-19-2027/event/1E00656CD21F7D9D",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420647,14 +420193,9 @@
     "genre": "R&B",
     "presales": [
       {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:45:00Z"
-      },
-      {
         "name": "Verizon Shine Presale Tickets",
         "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-19T16:45:00Z"
+        "end": "2026-11-20T05:00:00Z"
       },
       {
         "name": "Artist Presale",
@@ -420704,7 +420245,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-21-2027/event/2C00656DB3C11474",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -420765,11 +420306,6 @@
         "name": "Global Citizen",
         "start": "2026-11-17T18:00:00Z",
         "end": "2027-05-14T16:00:00Z"
-      },
-      {
-        "name": "Verizon Shine VIP Packages Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:45:00Z"
       },
       {
         "name": "Verizon Shine Presale Tickets",
@@ -424463,7 +423999,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-albuquerque-first-financial-credit-union-amphitheater-5-14-2027--concerts-hard-rock/production/7880165",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-albuquerque-new-mexico-05-14-2027/event/1E00656CA2B3504A",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424520,11 +424056,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-18T16:45:00Z"
-      },
       {
         "name": "Citi® Cardmember Presale",
         "start": "2026-11-17T21:00:00Z",
@@ -424585,7 +424116,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-phoenix-talking-stick-resort-amphitheatre-5-15-2027--concerts-hard-rock/production/7880167",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-phoenix-arizona-05-15-2027/event/1900656AA9FD663A",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424642,11 +424173,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-18T16:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T17:00:00Z",
@@ -424712,7 +424238,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-chula-vista-north-island-credit-union-amphitheatre-5-18-2027--concerts-hard-rock/production/7880169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-chula-vista-california-05-18-2027/event/0A006569BA2D6CAD",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424769,11 +424295,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-18T17:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T18:00:00Z",
@@ -424839,7 +424360,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-inglewood-kia-forum-5-19-2027/production/7880049",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-inglewood-california-05-19-2027/event/09006567044C4559",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -424896,11 +424417,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-18T17:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T18:00:00Z",
@@ -424966,7 +424482,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-ridgefield-cascades-amphitheater-5-21-2027/production/7879931",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-ridgefield-washington-05-21-2027/event/0F00656995BA4E1D",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425024,11 +424540,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-18T17:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
@@ -425078,7 +424589,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-auburn-white-river-amphitheatre-5-22-2027/production/7879963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-auburn-washington-05-22-2027/event/0F006566E14E9EDF",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425136,11 +424647,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-18T17:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T18:00:00Z",
         "end": "2026-11-20T06:00:00Z"
@@ -425195,7 +424701,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-west-valley-city-utah-05-24-2027/event/1E006569B5954513",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425238,11 +424744,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-18T16:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T17:00:00Z",
@@ -425311,7 +424812,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-tinley-park-credit-union-1-amphitheatre-5-28-2027--concerts-hard-rock/production/7880171",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-tinley-park-illinois-05-28-2027/event/04006569E91D8A6B",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425368,11 +424869,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -425438,7 +424934,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-shakopee-mystic-lake-amphitheater---shakopee-5-29-2027--concerts-hard-rock/production/7880173",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-shakopee-minnesota-05-29-2027/event/2100656B761B0CF6",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425481,11 +424977,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -425554,7 +425045,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-kansas-city-morton-amphitheater-5-31-2027--concerts-hard-rock/production/7880175",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-kansas-city-missouri-05-31-2027/event/2100656B04A35B52",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425597,11 +425088,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -425660,7 +425146,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-grand-rapids-acrisure-amphitheater-6-2-2027--concerts-hard-rock/production/7880177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-grand-rapids-michigan-06-02-2027/event/0800656B8CA63758",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425718,11 +425204,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -425777,7 +425258,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-clarkston-pine-knob-music-theatre-6-4-2027--concerts-hard-rock/production/7880179",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-clarkston-michigan-06-04-2027/event/0800656CD0CD7B92",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425834,11 +425315,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -425888,7 +425364,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-cincinnati-riverbend-music-center-6-5-2027--concerts-hard-rock/production/7880181",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-cincinnati-ohio-06-05-2027/event/1600656A993D57C7",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -425946,11 +425422,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -426005,7 +425476,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-burgettstown-the-pavilion-at-star-lake-6-7-2027--concerts-hard-rock/production/7880183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-burgettstown-pennsylvania-06-07-2027/event/1600656C93DD6BA8",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426062,11 +425533,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -426127,7 +425593,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-bristow-jiffy-lube-live-6-8-2027/production/7879949",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-bristow-virginia-06-08-2027/event/1500656AAEAC9098",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426184,11 +425650,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -426249,7 +425710,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-toronto-rbc-amphitheatre-6-10-2027/production/7880035",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-toronto-ontario-06-10-2027/event/1000656CC8C7BE89",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426295,11 +425756,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -426358,7 +425814,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-mansfield-xfinity-center---ma-6-12-2027/production/7880163",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-mansfield-massachusetts-06-12-2027/event/0100656BA6F0A44D",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426415,11 +425871,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -426485,7 +425936,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-camden-freedom-mortgage-pavilion-6-13-2027/production/7880159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-camden-new-jersey-06-13-2027/event/0200656BA6ABC704",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426542,11 +425993,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -426612,7 +426058,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-new-york-madison-square-garden-6-15-2027/production/7880091",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-new-york-new-york-06-15-2027/event/3B006567BF23373F",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426668,11 +426114,6 @@
     ],
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -426748,7 +426189,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-charlotte-truliant-amphitheater-6-17-2027/production/7880139",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-charlotte-north-carolina-06-17-2027/event/2D006569AE2A8004",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426805,11 +426246,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -426870,7 +426306,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-alpharetta-ameris-bank-amphitheatre-6-18-2027/production/7880137",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-alpharetta-georgia-06-18-2027/event/0E00656A9443AAD8",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -426927,11 +426363,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -426997,7 +426428,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-the-woodlands-cynthia-woods-mitchell-pavilion-6-20-2027/production/7880135",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-the-woodlands-texas-06-20-2027/event/3A006569E373D1C2",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427040,11 +426471,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -427118,7 +426544,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-irving-pavilion-at-toyota-music-factory-6-22-2027/production/7880133",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-irving-texas-06-22-2027/event/0C00656CE352A4C3",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427175,11 +426601,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -427240,7 +426661,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-austin-germania-insurance-amphitheater-6-23-2027/production/7880125",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-austin-texas-06-23-2027/event/3A006569C1DD9B99",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427297,11 +426718,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -427367,7 +426783,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-north-little-rock-simmons-bank-arena-9-6-2027/production/7880053",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-north-little-rock-arkansas-09-06-2027/event/1B00656A9C0A95A0",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427424,11 +426840,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -427489,7 +426900,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-biloxi-mississippi-coast-coliseum-9-7-2027/production/7880063",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-biloxi-mississippi-09-07-2027/event/1B00656AC066DACA",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427546,11 +426957,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -427616,7 +427022,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-nashville-bridgestone-arena-9-9-2027/production/7880079",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-nashville-tennessee-09-09-2027/event/1B00656B80835028",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427672,11 +427078,6 @@
     ],
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -427737,7 +427138,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-virginia-beach-veterans-united-home-loans-amphitheater-at-virginia-beach-9-11-2027/production/7879975",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-virginia-beach-virginia-09-11-2027/event/0100656AD57DFCA3",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427794,11 +427195,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -427859,7 +427255,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-allentown-ppl-center-9-12-2027--concerts-hard-rock/production/7880185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-allentown-pennsylvania-09-12-2027/event/3000656BA2DB5D5D",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -427915,11 +427311,6 @@
     ],
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -427990,7 +427381,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-laval-place-bell-9-14-2027/production/7879936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/megadeth-vaccination-of-the-nations-tour-laval-quebec-09-14-2027/event/3100656BACAD57FE",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -428056,11 +427447,6 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Prévente Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Prévente Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -428110,7 +427496,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-buffalo-keybank-center-9-16-2027/production/7880077",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-buffalo-new-york-09-16-2027/event/0000656BD21E1BB8",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -428167,11 +427553,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -428237,7 +427618,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-toledo-huntington-center-9-18-2027/production/7880097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-toledo-ohio-09-18-2027/event/08006569C0034492",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -428295,11 +427676,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
         "end": "2026-11-20T03:00:00Z"
@@ -428354,7 +427730,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-columbus-value-city-arena-at-schottenstein-center-9-19-2027/production/7880101",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-columbus-ohio-09-19-2027/event/0500656CC800E7EE",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -428411,11 +427787,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-18T14:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T15:00:00Z",
@@ -428599,7 +427970,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-fargo-fargodome-9-22-2027/production/7880109",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-fargo-north-dakota-09-22-2027/event/060065699B4860F3",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -428656,11 +428027,6 @@
     "ticket_limit": 8,
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -428721,7 +428087,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-lincoln-pinnacle-bank-arena-9-24-2027/production/7880107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-lincoln-nebraska-09-24-2027/event/0600656BBD01AC9A",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -428777,11 +428143,6 @@
     ],
     "genre": "Metal",
     "presales": [
-      {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
       {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
@@ -428847,7 +428208,7 @@
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-wichita-intrust-bank-arena-9-25-2027--concerts-hard-rock/production/7880187",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/megadeth-vaccination-of-the-nations-tour-wichita-kansas-09-25-2027/event/0600656BD7D3D9C5",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -428905,11 +428266,6 @@
     "genre": "Metal",
     "presales": [
       {
-        "name": "Cyber Army VIP Packages Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-18T15:45:00Z"
-      },
-      {
         "name": "Cyber Army Presale",
         "start": "2026-11-17T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
@@ -428940,7 +428296,7 @@
         "end": "2026-11-20T04:00:00Z"
       },
       {
-        "name": "Venue Presale",
+        "name": "Venue/Radio Presale",
         "start": "2026-11-19T16:00:00Z",
         "end": "2026-11-20T04:00:00Z"
       },
@@ -429443,7 +428799,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-bangor-maine-savings-amphitheater-7-16-2027/production/7880265",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bangor-maine-07-16-2027/event/0100656E32D5E544",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -429537,7 +428893,7 @@
         "end": "2026-11-20T03:00:00Z"
       },
       {
-        "name": "Citi® Cardmember Preferred Tickets",
+        "name": "Citi® Strata Elite Preferred Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-19T02:00:00Z"
       },
@@ -430196,7 +429552,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-nashville-ryman-auditorium-3-12-2027/production/7261290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JF0F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -430247,7 +429603,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8117232",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8117232/Travis-Tritt-tickets-Fri-Mar-12-2027-Ryman-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8117232/Travis-Tritt-tickets-Fri-Mar-12-2027-Ryman-Auditorium",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-oxford-z7r9jz1a7jao6",
@@ -430265,7 +429622,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-oxford-oxford-performing-arts-center-4-16-2027--concerts-country-and-folk/production/7270361",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAO6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -430316,7 +429673,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8190801",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8190801/Travis-Tritt-tickets-Fri-Apr-16-2027-Oxford-Performing-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8190801/Travis-Tritt-tickets-Fri-Apr-16-2027-Oxford-Performing-Arts-Center",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-macon-vvg1zz_k1bu6z9",
@@ -430334,7 +429692,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-macon-georgia-04-22-2027/event/0E00646298D87017",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430385,7 +429743,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775649",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775649/Travis-Tritt-tickets-Thu-Apr-22-2027-Macon-City-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775649/Travis-Tritt-tickets-Thu-Apr-22-2027-Macon-City-Auditorium",
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-northfield-vv1kfz_pfzg7zdfa",
@@ -430403,7 +429763,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-northfield-northfield-park-racino---center-stage-5-14-2027/production/7843655",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-northfield-ohio-05-14-2027/event/0500656200E3B209",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430454,7 +429814,13 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364346",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364346/Travis-Tritt-tickets-Fri-May-14-2027-Northfield-Park-Racino-Center-Stage"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364346/Travis-Tritt-tickets-Fri-May-14-2027-Northfield-Park-Racino-Center-Stage",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-waterloo-k7vgf_29lrc4r",
@@ -430472,7 +429838,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-waterloo-the-vine-at-del-lago-resort-and-casino-5-21-2027/production/7863660",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-ages-21-over-waterloo-new-york-05-21-2027/event/000064F5EB78E56F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430507,7 +429873,9 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_29lrC4R",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "legal_age_enforced": true,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-charles-town-1a4zk4ngkdpzfky",
@@ -430525,7 +429893,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-charles-town-hollywood-casino-at-charles-town-races-5-22-2027/production/7843618",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-charles-town-west-virginia-05-22-2027/event/15006563D60081B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430576,7 +429944,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364348",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364348/Travis-Tritt-tickets-Sat-May-22-2027-Hollywood-Casino-at-Charles-Town-Races"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364348/Travis-Tritt-tickets-Sat-May-22-2027-Hollywood-Casino-at-Charles-Town-Races",
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-durham-g5evz_p2pdn7v",
@@ -430594,7 +429965,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-durham-north-carolina-06-18-2027/event/2D006563D6EE3134",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430629,7 +430000,9 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p2pDN7V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-kettering-z7r9jz1aaaaf3",
@@ -430647,7 +430020,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-kettering-fraze-pavilion-6-26-2027--concerts-country-and-folk/production/7844075",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaF3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -430698,7 +430071,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364340",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364340/Travis-Tritt-tickets-Sat-Jun-26-2027-Fraze-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364340/Travis-Tritt-tickets-Sat-Jun-26-2027-Fraze-Pavilion",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-bossier-city-g5viz_p2n3lzw",
@@ -430716,7 +430090,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-bossier-city-riverdome-at-horseshoe-casino-7-16-2027/production/7843540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-bossier-city-louisiana-07-16-2027/event/1B006563EA49F032",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430767,7 +430141,9 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364350",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364350/Travis-Tritt-tickets-Fri-Jul-16-2027-Riverdome-At-Horseshoe-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364350/Travis-Tritt-tickets-Fri-Jul-16-2027-Riverdome-At-Horseshoe-Casino",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-bristol-g5viz_4sc3z7i",
@@ -430785,7 +430161,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-bristol-hard-rock-hotel-and-casino-bristol-7-30-2027/production/7843608",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-bristol-virginia-07-30-2027/event/1B00655CCE4B812C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430820,7 +430196,10 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_4SC3z7i",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-new-haven-1kaovpq_ga2h4m9",
@@ -430838,7 +430217,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-new-haven-the-amp-at-log-still-7-31-2027/production/7843542",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-new-haven-kentucky-07-31-2027/event/160065699F6D5B97",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430889,7 +430268,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364353",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364353/Travis-Tritt-tickets-Sat-Jul-31-2027-The-Amp-at-Log-Still"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364353/Travis-Tritt-tickets-Sat-Jul-31-2027-The-Amp-at-Log-Still",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-gary-vv1aazk4tgkewapoq",
@@ -430907,7 +430287,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-gary-hard-rock-casino-northern-indiana-8-14-2027/production/7843548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-gary-indiana-08-14-2027/event/05006569B226545D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -430958,7 +430338,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364355",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364355/Travis-Tritt-tickets-Sat-Aug-14-2027-Hard-Rock-Live-Northern-Indiana"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364355/Travis-Tritt-tickets-Sat-Aug-14-2027-Hard-Rock-Live-Northern-Indiana",
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Aisle Seating / 21+ ONLY",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2027-08-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-travis-tritt-2027-saint-louis-1a-zk4igkdyooqa",
@@ -430976,7 +430366,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-saint-louis-missouri-09-10-2027/event/21006568F0451685",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -431011,7 +430401,8 @@
     },
     "ticketmaster_discovery_event_id": "1A-Zk4IGkdYooQA",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-kansas-city-vv1akzk4jgkdb4gal",
@@ -431029,7 +430420,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-kansas-city-ameristar-casino-hotel-kansas-city-9-11-2027/production/7843497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-kansas-city-missouri-09-11-2027/event/06006566D857526B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -431080,7 +430471,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364359",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364359/Travis-Tritt-tickets-Sat-Sep-11-2027-Star-Pavilion-at-Ameristar-Casino-and-Hotel-Kansas-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364359/Travis-Tritt-tickets-Sat-Sep-11-2027-Star-Pavilion-at-Ameristar-Casino-and-Hotel-Kansas-City",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-nashville-vv1aazk4jgke0bm2-",
@@ -431098,7 +430490,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-nashville-brown-county-music-center-9-30-2027/production/7843585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-nashville-indiana-09-30-2027/event/05006566A4EB73E1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -431149,7 +430541,11 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364361",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364361/Travis-Tritt-tickets-Thu-Sep-30-2027-Brown-County-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364361/Travis-Tritt-tickets-Thu-Sep-30-2027-Brown-County-Music-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-mount-pleasant-z7r9jz1aaaark",
@@ -431167,7 +430563,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-mount-pleasant-soaring-eagle-casino-and-resort-10-1-2027/production/7846702",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAarK",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -431218,7 +430614,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364862",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364862/Travis-Tritt-tickets-Fri-Oct-1-2027-Entertainment-Hall-At-Soaring-Eagle-Casino-Resort"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364862/Travis-Tritt-tickets-Fri-Oct-1-2027-Entertainment-Hall-At-Soaring-Eagle-Casino-Resort",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-lake-charles-z7r9jz1aaaajp",
@@ -431236,7 +430633,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-lake-charles-grand-event-center---golden-nugget-lake-charles-10-9-2027--concerts-country-and-folk/production/7847165",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaJp",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -431287,6 +430684,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366592",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366592/Travis-Tritt-tickets-Sat-Oct-9-2027-Grand-Event-Center-at-Golden-Nugget-Lake-Charles"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366592/Travis-Tritt-tickets-Sat-Oct-9-2027-Grand-Event-Center-at-Golden-Nugget-Lake-Charles",
+    "genre": "Country"
   }
 ]

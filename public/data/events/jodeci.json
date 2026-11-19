@@ -1587,7 +1587,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-savannah-savannah-civic-center---johnny-mercer-theatre-12-8-2026/production/7353314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-savannah-georgia-12-08-2026/event/0E0064F6ADE5B208",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1631,6 +1631,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-07-31T14:00:00Z",
         "end": "2026-12-02T04:55:00Z"
+      },
+      {
+        "name": "Jodeci Holiday Offer",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-12-09T00:00:00Z"
       }
     ],
     "ticket_limit": 8,
@@ -1652,7 +1657,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-nashville-the-truth-12-10-2026/production/7353386",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-nashville-tennessee-12-10-2026/event/1B0064F7A66CBD33",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1712,6 +1717,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-07-31T15:00:00Z",
         "end": "2026-12-04T05:55:00Z"
+      },
+      {
+        "name": "2026 Holiday Promotion",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2026-12-10T04:00:00Z"
       }
     ],
     "ticket_limit": 8,
@@ -2453,7 +2463,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-phoenix-arizona-01-15-2027/event/190064F7DBB187F2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2514,6 +2524,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-07-31T17:00:00Z",
         "end": "2027-01-09T06:55:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "ticket_limit": 8,

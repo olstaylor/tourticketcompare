@@ -1079,7 +1079,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-saint-louis-missouri-11-25-2026/event/210064EE501D2E87",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1115,18 +1115,6 @@
     "ticketmaster_discovery_event_id": "17F8v0G6Cy863B6",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "In Flames VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-19T05:55:00Z"
-      },
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-19T05:55:00Z"
-      }
-    ],
     "ticket_limit": 8,
     "genre": "Rock"
   },
@@ -1327,7 +1315,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-phoenix-arizona-financial-theatre-12-2-2026--concerts-rock/production/7325306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1389,6 +1377,11 @@
         "name": "Trivium VIP Packages Onsale",
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-11-26T06:55:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-02T23:30:00Z"
       }
     ],
     "organizer_names": [

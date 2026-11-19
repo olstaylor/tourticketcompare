@@ -69366,5 +69366,65 @@
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
+  },
+  {
+    "id": "tm-stray-kids-2027-chicago-vv167zk4yjazaue56a",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "country": "United States Of America",
+    "city": "Chicago",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-06-20T00:30:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-stray-kids-2027-munich-z698xzc2z1kb0z0om",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "country": "Germany",
+    "city": "Munich",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-18T17:30:00Z",
+    "timezone": "Europe/Berlin",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-stray-kids-2027-arnhem-z698xzbpz16vp04wpo",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "country": "Netherlands",
+    "city": "Arnhem",
+    "venue": "Gelredome",
+    "datetime_iso": "2027-07-28T17:30:00Z",
+    "timezone": "Europe/Amsterdam",
+    "tour_name": "",
+    "status": "announced"
+  },
+  {
+    "id": "tm-garth-brooks-2026-minneapolis-z7r9jz1aaaff6",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "country": "United States Of America",
+    "city": "Minneapolis",
+    "venue": "Target Center",
+    "datetime_iso": "2026-12-12T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jon-pardi-2026-nashville-g5viz_p4pjkae",
+    "artist_slug": "jon-pardi",
+    "artist_name": "Jon Pardi",
+    "country": "United States Of America",
+    "city": "Nashville",
+    "venue": "The Truth",
+    "datetime_iso": "2026-12-18T02:00:00Z",
+    "timezone": "America/Chicago",
+    "tour_name": "",
+    "status": "announced"
   }
 ]

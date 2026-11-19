@@ -1061,7 +1061,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00656914023091",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/tampa-florida-raymond-james-stadium-2027-06-11-5-30-pm/concert/18760513",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-11-2027--concerts-country-and-folk/production/7860894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
@@ -1077,11 +1077,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760513,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/tampa-florida-raymond-james-stadium-2027-06-11-5-30-pm/concert/18760513",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860894,
@@ -1175,7 +1175,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00656AD703433C",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/tampa-florida-raymond-james-stadium-2027-06-12-5-30-pm/concert/18760511",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-12-2027--concerts-country-and-folk/production/7860898",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
@@ -1191,11 +1191,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760511,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/tampa-florida-raymond-james-stadium-2027-06-12-5-30-pm/concert/18760511",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860898,
@@ -1289,7 +1289,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100655FDB331C8E",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-25-2027/event/0100655FDB331C8E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/foxborough-massachusetts-gillette-stadium-2027-06-25-7-pm/concert/18760514",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-25-2027--concerts-country-and-folk/production/7860902",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-25-2027/event/0100655FDB331C8E",
@@ -1305,11 +1305,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760514,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/foxborough-massachusetts-gillette-stadium-2027-06-25-7-pm/concert/18760514",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860902,
@@ -1404,7 +1404,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100656A1708D141",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-26-2027/event/0100656A1708D141",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/foxborough-massachusetts-gillette-stadium-2027-06-26-7-pm/concert/18760512",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-26-2027--concerts-country-and-folk/production/7860904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-26-2027/event/0100656A1708D141",
@@ -1420,11 +1420,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760512,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/foxborough-massachusetts-gillette-stadium-2027-06-26-7-pm/concert/18760512",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860904,
@@ -1519,7 +1519,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0300656989390C6E",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/orchard-park-new-york-highmark-stadium-ny-2027-07-23-5-30-pm/concert/18760523",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-23-2027--concerts-country-and-folk/production/7860906",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
@@ -1535,11 +1535,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760523,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/orchard-park-new-york-highmark-stadium-ny-2027-07-23-5-30-pm/concert/18760523",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860906,
@@ -1634,7 +1634,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "03006569893E0C70",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/orchard-park-new-york-highmark-stadium-ny-2027-07-24-5-30-pm/concert/18760525",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-24-2027--concerts-country-and-folk/production/7860908",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
@@ -1650,11 +1650,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760525,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/orchard-park-new-york-highmark-stadium-ny-2027-07-24-5-30-pm/concert/18760525",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860908,
@@ -1749,7 +1749,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "05006569C16D69D0",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/columbus-ohio-ohio-stadium-2027-08-06-4-30-pm/concert/18760528",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-6-2027--concerts-country-and-folk/production/7860912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
@@ -1765,11 +1765,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760528,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/columbus-ohio-ohio-stadium-2027-08-06-4-30-pm/concert/18760528",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860912,
@@ -1864,7 +1864,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0500656A82E72921",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/columbus-ohio-ohio-stadium-2027-08-07-4-30-pm/concert/18760527",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-7-2027--concerts-country-and-folk/production/7860914",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
@@ -1880,11 +1880,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760527,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/columbus-ohio-ohio-stadium-2027-08-07-4-30-pm/concert/18760527",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860914,
@@ -1979,7 +1979,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8Aa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Aa",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/arlington-texas-at-t-stadium-2027-08-13-5-30-pm/concert/18537611",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Aa",
@@ -1995,11 +1995,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18537611,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/arlington-texas-at-t-stadium-2027-08-13-5-30-pm/concert/18537611",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2057,7 +2057,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8A8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/arlington-texas-at-t-stadium-2027-08-14-5-30-pm/concert/18758293",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A8",
@@ -2073,11 +2073,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758293,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/arlington-texas-at-t-stadium-2027-08-14-5-30-pm/concert/18758293",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2135,7 +2135,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8AK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/nashville-tennessee-nissan-stadium-2027-08-27-5-30-pm/concert/18729276",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AK",
@@ -2151,11 +2151,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18729276,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/nashville-tennessee-nissan-stadium-2027-08-27-5-30-pm/concert/18729276",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2205,7 +2205,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8A4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/nashville-tennessee-nissan-stadium-2027-08-28-5-30-pm/concert/18755669",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A4",
@@ -2221,11 +2221,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755669,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/nashville-tennessee-nissan-stadium-2027-08-28-5-30-pm/concert/18755669",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

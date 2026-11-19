@@ -1454,7 +1454,7 @@
         "event_id": 18724672,
         "url": "https://seatgeek.com/meshuggah-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-19-6-30-pm/concert/18724672",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2192,7 +2192,7 @@
         "event_id": 18724691,
         "url": "https://seatgeek.com/meshuggah-tickets/new-orleans-louisiana-fillmore-new-orleans-2027-05-06-6-pm/concert/18724691",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2449,7 +2449,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7761479,

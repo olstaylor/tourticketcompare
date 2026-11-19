@@ -760,7 +760,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "05006563E8D8A623",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-noblesville-indiana-05-15-2027/event/05006563E8D8A623",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/noblesville-indiana-ruoff-music-center-2027-05-15-7-30-pm/concert/18746644",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-noblesville-ruoff-music-center-5-15-2027/production/7824350",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-noblesville-indiana-05-15-2027/event/05006563E8D8A623",
@@ -776,11 +776,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746644,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/noblesville-indiana-ruoff-music-center-2027-05-15-7-30-pm/concert/18746644",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824350,
@@ -841,7 +841,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006562F67882F1",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-grand-rapids-michigan-05-18-2027/event/08006562F67882F1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/grand-rapids-acrisure-amphitheater-2027-05-18-7-30-pm/concert/18746646",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-grand-rapids-acrisure-amphitheater-5-18-2027/production/7824346",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-grand-rapids-michigan-05-18-2027/event/08006562F67882F1",
@@ -857,11 +857,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746646,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/grand-rapids-acrisure-amphitheater-2027-05-18-7-30-pm/concert/18746646",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824346,
@@ -1104,7 +1104,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006562CFD8B5A3",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-saratoga-springs-new-york-05-27-2027/event/00006562CFD8B5A3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/saratoga-springs-new-york-albany-med-health-system-at-spac-2027-05-27-7-30-pm/concert/18746652",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-saratoga-springs-albany-med-health-system-at-saratoga-performing-arts-center-5-27-2027/production/7824374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-saratoga-springs-new-york-05-27-2027/event/00006562CFD8B5A3",
@@ -1120,11 +1120,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746652,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/saratoga-springs-new-york-albany-med-health-system-at-spac-2027-05-27-7-30-pm/concert/18746652",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824374,
@@ -1185,7 +1185,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010065639C6066D9",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-bangor-maine-05-29-2027/event/010065639C6066D9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/bangor-maine-maine-savings-amphitheater-2027-05-29-7-pm/concert/18746654",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-bangor-maine-savings-amphitheater-5-29-2027/production/7824344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-bangor-maine-05-29-2027/event/010065639C6066D9",
@@ -1201,11 +1201,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746654,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/bangor-maine-maine-savings-amphitheater-2027-05-29-7-pm/concert/18746654",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824344,
@@ -2722,7 +2722,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "16006563EE23AC61",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-cincinnati-ohio-10-12-2027/event/16006563EE23AC61",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/cincinnati-ohio-the-farmer-music-center-2027-10-12-7-30-pm/concert/18746687",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-cincinnati-the-farmer-music-center-10-12-2027/production/7824430",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-cincinnati-ohio-10-12-2027/event/16006563EE23AC61",
@@ -2738,11 +2738,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746687,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/cincinnati-ohio-the-farmer-music-center-2027-10-12-7-30-pm/concert/18746687",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824430,

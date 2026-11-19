@@ -930,7 +930,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B00656295387649",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/knoxville-tennessee-tennessee-theatre-2027-04-07-7-30-pm/concert/18754448",
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-knoxville-tennessee-theatre-4-7-2027/production/7834812",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-knoxville-tennessee-04-07-2027/event/1B00656295387649",
@@ -946,11 +946,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754448,
+        "url": "https://seatgeek.com/melissa-etheridge-tickets/knoxville-tennessee-tennessee-theatre-2027-04-07-7-30-pm/concert/18754448",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834812,
@@ -1011,7 +1011,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006565FD1FABBF",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/danville-virginia-the-pantheon-at-caesars-virginia-2027-04-09-9-pm/concert/18754920",
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-danville-the-pantheon-at-caesars-virginia-4-9-2027/production/7834830",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-danville-virginia-04-09-2027/event/01006565FD1FABBF",
@@ -1027,11 +1027,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754920,
+        "url": "https://seatgeek.com/melissa-etheridge-tickets/danville-virginia-the-pantheon-at-caesars-virginia-2027-04-09-9-pm/concert/18754920",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834830,
@@ -1164,7 +1164,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006563B015BB7D",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/charleston-south-carolina-charleston-music-hall-2027-04-11-8-pm/concert/18754417",
     "vividseats_url": "https://www.vividseats.com/melissa-etheridge-tickets-charleston-charleston-music-hall-4-11-2027/production/7834858",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-charleston-south-carolina-04-11-2027/event/2D006563B015BB7D",
@@ -1180,11 +1180,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754417,
+        "url": "https://seatgeek.com/melissa-etheridge-tickets/charleston-south-carolina-charleston-music-hall-2027-04-11-8-pm/concert/18754417",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834858,

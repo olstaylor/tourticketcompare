@@ -435,7 +435,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "06006537E376533E",
     "ticketmaster_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-minneapolis-minnesota-11-17-2026/event/06006537E376533E",
-    "seatgeek_url": "https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-17-8-pm/concert/18626663",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/brandi-carlile-tickets-minneapolis-state-theatre-minneapolis-11-17-2026/production/7618208",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/brandi-carlile-burn-the-setlist-the-minneapolis-minnesota-11-17-2026/event/06006537E376533E",
@@ -451,11 +451,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18626663,
-        "url": "https://seatgeek.com/brandi-carlile-tickets/minneapolis-minnesota-state-theatre-minneapolis-2026-11-17-8-pm/concert/18626663",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7618208,

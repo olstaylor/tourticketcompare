@@ -969,7 +969,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "08006566C1F559FA",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-detroit-michigan-07-20-2027/event/08006566C1F559FA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/detroit-michigan-comerica-park-2027-07-20-5-30-pm/concert/18753403",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-detroit-fifth-third-park---mi-7-20-2027--concerts-rock/production/7835300",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-detroit-michigan-07-20-2027/event/08006566C1F559FA",
@@ -985,11 +985,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753403,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/detroit-michigan-comerica-park-2027-07-20-5-30-pm/concert/18753403",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835300,
@@ -1442,7 +1442,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006564D9F3B4EA",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-hershey-pennsylvania-08-04-2027/event/02006564D9F3B4EA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/hershey-pennsylvania-hersheypark-stadium-2027-08-04-5-30-pm/concert/18753420",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-hershey-hersheypark-stadium-8-4-2027--concerts-rock/production/7835314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-hershey-pennsylvania-08-04-2027/event/02006564D9F3B4EA",
@@ -1458,11 +1458,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753420,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/hershey-pennsylvania-hersheypark-stadium-2027-08-04-5-30-pm/concert/18753420",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835314,
@@ -1593,7 +1593,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E006564B1AF3DE6",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-commerce-city-colorado-08-10-2027/event/1E006564B1AF3DE6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/commerce-city-colorado-dick-s-sporting-goods-park-2027-08-10-5-30-pm/concert/18753426",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-commerce-city-dicks-sporting-goods-park-8-10-2027--concerts-rock/production/7835320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-commerce-city-colorado-08-10-2027/event/1E006564B1AF3DE6",
@@ -1609,11 +1609,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753426,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/commerce-city-colorado-dick-s-sporting-goods-park-2027-08-10-5-30-pm/concert/18753426",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835320,

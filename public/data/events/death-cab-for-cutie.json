@@ -391,7 +391,7 @@
         "event_id": 18604169,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/nashville-tennessee-the-truth-nashville-2027-03-11-8-pm/concert/18604169",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -472,7 +472,7 @@
         "event_id": 18603808,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/knoxville-tennessee-tennessee-theatre-2027-03-12-8-pm/concert/18603808",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -551,7 +551,7 @@
         "event_id": 18603788,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-03-18-8-pm/concert/18603788",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -633,7 +633,7 @@
         "event_id": 18603759,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/orlando-florida-hard-rock-live-orlando-2027-03-20-8-pm/concert/18603759",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -712,7 +712,7 @@
         "event_id": 18604033,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/houston-texas-713-music-hall-2027-03-22-8-pm/concert/18604033",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -794,7 +794,7 @@
         "event_id": 18604164,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-03-30-8-pm/concert/18604164",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1457,7 +1457,7 @@
         "event_id": 18603768,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2027-04-16-8-pm/concert/18603768",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2004,7 +2004,7 @@
         "event_id": 18715562,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/columbus-ohio-wexner-center-mershon-auditorium-2027-03-29-7-30-pm/concert/18715562",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2416,7 +2416,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006569EE79EB01",
     "ticketmaster_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-harrisburg-pennsylvania-08-06-2027/event/02006569EE79EB01",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/death-cab-for-cutie-tickets/harrisburg-pennsylvania-riverfront-park-pa-2027-08-06-7-pm/concert/18755654",
     "vividseats_url": "https://www.vividseats.com/death-cab-for-cutie-tickets-harrisburg-riverfront-park---harrisburg-8-6-2027/production/7849169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/death-cab-for-cutie-i-built-harrisburg-pennsylvania-08-06-2027/event/02006569EE79EB01",
@@ -2432,11 +2432,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755654,
+        "url": "https://seatgeek.com/death-cab-for-cutie-tickets/harrisburg-pennsylvania-riverfront-park-pa-2027-08-06-7-pm/concert/18755654",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7849169,

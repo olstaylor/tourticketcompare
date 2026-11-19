@@ -874,7 +874,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C00656DAB1BD8BC",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/sacramento-california-golden-1-center-2027-08-28-8-pm/concert/18782555",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-sacramento-golden-1-center-8-28-2027/production/7881269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
@@ -890,11 +890,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18782555,
+        "url": "https://seatgeek.com/intocable-tickets/sacramento-california-golden-1-center-2027-08-28-8-pm/concert/18782555",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7881269,

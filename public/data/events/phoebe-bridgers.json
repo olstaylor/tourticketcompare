@@ -1409,7 +1409,7 @@
         "event_id": 18760618,
         "url": "https://seatgeek.com/phoebe-bridgers-tickets/edmonton-canada-rogers-place-2027-02-20-7-30-pm/concert/18760618",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2731,7 +2731,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00656A91BF4933",
     "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-tampa-florida-04-22-2027/event/0D00656A91BF4933",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/tampa-florida-benchmark-international-arena-2027-04-22-7-30-pm/concert/18760643",
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-tampa-benchmark-international-arena-4-22-2027--concerts-rock/production/7861537",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-tampa-florida-04-22-2027/event/0D00656A91BF4933",
@@ -2747,11 +2747,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760643,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/tampa-florida-benchmark-international-arena-2027-04-22-7-30-pm/concert/18760643",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861537,
@@ -3016,7 +3016,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006569F632EB63",
     "ticketmaster_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-san-antonio-texas-05-04-2027/event/3A006569F632EB63",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/phoebe-bridgers-tickets/san-antonio-texas-frost-bank-center-2027-05-04-7-30-pm/concert/18760649",
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-antonio-frost-bank-center-5-4-2027--concerts-rock/production/7861543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-san-antonio-texas-05-04-2027/event/3A006569F632EB63",
@@ -3032,11 +3032,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760649,
+        "url": "https://seatgeek.com/phoebe-bridgers-tickets/san-antonio-texas-frost-bank-center-2027-05-04-7-30-pm/concert/18760649",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861543,

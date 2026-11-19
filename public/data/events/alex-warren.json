@@ -1021,7 +1021,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00656C9413655D",
     "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-hollywood-florida-04-09-2027/event/0D00656C9413655D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/hollywood-florida-hard-rock-live-hollywood-2027-04-09-7-30-pm/concert/18773520",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-4-9-2027--concerts-pop/production/7870959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-hollywood-florida-04-09-2027/event/0D00656C9413655D",
@@ -1037,11 +1037,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773520,
+        "url": "https://seatgeek.com/alex-warren-tickets/hollywood-florida-hard-rock-live-hollywood-2027-04-09-7-30-pm/concert/18773520",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870959,
@@ -1138,7 +1138,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2200656B95186A41",
     "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-orlando-florida-04-10-2027/event/2200656B95186A41",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/orlando-florida-kia-center-2027-04-10-7-30-pm/concert/18773516",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-orlando-kia-center-4-10-2027--concerts-pop/production/7870963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-orlando-florida-04-10-2027/event/2200656B95186A41",
@@ -1154,11 +1154,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773516,
+        "url": "https://seatgeek.com/alex-warren-tickets/orlando-florida-kia-center-2027-04-10-7-30-pm/concert/18773516",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870963,
@@ -1248,7 +1248,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00656BCE45F6B0",
     "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-tampa-florida-04-12-2027/event/0D00656BCE45F6B0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/tampa-florida-benchmark-international-arena-2027-04-12-7-30-pm/concert/18773518",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-tampa-benchmark-international-arena-4-12-2027--concerts-pop/production/7870965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-tampa-florida-04-12-2027/event/0D00656BCE45F6B0",
@@ -1264,11 +1264,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773518,
+        "url": "https://seatgeek.com/alex-warren-tickets/tampa-florida-benchmark-international-arena-2027-04-12-7-30-pm/concert/18773518",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870965,
@@ -1358,7 +1358,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2200656CBEED42D7",
     "ticketmaster_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-jacksonville-florida-04-13-2027/event/2200656CBEED42D7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-04-13-7-30-pm/concert/18773515",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-jacksonville-vystar-veterans-memorial-arena-4-13-2027--concerts-pop/production/7870967",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-jacksonville-florida-04-13-2027/event/2200656CBEED42D7",
@@ -1374,11 +1374,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773515,
+        "url": "https://seatgeek.com/alex-warren-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-04-13-7-30-pm/concert/18773515",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870967,

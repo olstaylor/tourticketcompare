@@ -1822,7 +1822,7 @@
         "event_id": 18674914,
         "url": "https://seatgeek.com/calvin-harris-tickets/hamilton-canada-td-coliseum-2027-04-17-8-pm/concert/18674914",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1971,7 +1971,7 @@
         "event_id": 18674837,
         "url": "https://seatgeek.com/calvin-harris-tickets/fort-worth-texas-ariat-arena-2027-04-24-8-pm/concert/18674837",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2559,7 +2559,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006550EF72BC66",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-08-2027/event/1C006550EF72BC66",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/oakland-california-oakland-arena-2027-05-08-7-30-pm/concert/18702240",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-8-2027/production/7728777",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-08-2027/event/1C006550EF72BC66",
@@ -2575,11 +2575,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702240,
+        "url": "https://seatgeek.com/calvin-harris-tickets/oakland-california-oakland-arena-2027-05-08-7-30-pm/concert/18702240",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7728777,
@@ -2640,7 +2640,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006553BDE03896",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-09-2027/event/1C006553BDE03896",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/oakland-california-oakland-arena-2027-05-09-7-30-pm/concert/18702286",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-oakland-oakland-arena-5-9-2027/production/7728807",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-oakland-california-05-09-2027/event/1C006553BDE03896",
@@ -2656,11 +2656,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18702286,
+        "url": "https://seatgeek.com/calvin-harris-tickets/oakland-california-oakland-arena-2027-05-09-7-30-pm/concert/18702286",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7728807,
@@ -2899,7 +2899,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006547C855B801",
     "ticketmaster_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-16-2027/event/11006547C855B801",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/vancouver-canada-rogers-arena-2027-05-16-8-pm/concert/18674912",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-vancouver-rogers-arena-5-16-2027--concerts-dance-electronica/production/7697417",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-16-2027/event/11006547C855B801",
@@ -2915,11 +2915,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674912,
+        "url": "https://seatgeek.com/calvin-harris-tickets/vancouver-canada-rogers-arena-2027-05-16-8-pm/concert/18674912",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697417,
@@ -2983,7 +2983,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "110065537CEC3BC0",
     "ticketmaster_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-17-2027/event/110065537CEC3BC0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/vancouver-canada-rogers-arena-2027-05-17-8-pm/concert/18708086",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-vancouver-rogers-arena-5-17-2027/production/7743249",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/calvin-harris-north-america-tour-vancouver-british-columbia-05-17-2027/event/110065537CEC3BC0",
@@ -2999,11 +2999,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18708086,
+        "url": "https://seatgeek.com/calvin-harris-tickets/vancouver-canada-rogers-arena-2027-05-17-8-pm/concert/18708086",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7743249,
@@ -3774,7 +3774,7 @@
         "event_id": 18702246,
         "url": "https://seatgeek.com/calvin-harris-tickets/inglewood-california-kia-forum-2027-05-30-8-pm/concert/18702246",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {

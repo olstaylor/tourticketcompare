@@ -595,7 +595,7 @@
         "event_id": 17726761,
         "url": "https://seatgeek.com/sabaton-tickets/fort-lauderdale-florida-ftl-war-memorial-auditorium-2026-12-12-7-pm/concert/17726761",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1382,7 +1382,7 @@
     "tour_name": "Legends On Tour",
     "ticketmaster_event_id": "1E006328C1141760",
     "ticketmaster_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-salt-lake-city-utah-11-17-2026/event/1E006328C1141760",
-    "seatgeek_url": "https://seatgeek.com/sabaton-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-17-7-pm/concert/17732681",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-salt-lake-city-utah-11-17-2026/event/1E006328C1141760",
@@ -1398,11 +1398,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17732681,
-        "url": "https://seatgeek.com/sabaton-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-17-7-pm/concert/17732681",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

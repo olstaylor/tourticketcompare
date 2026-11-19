@@ -1065,7 +1065,7 @@
         "event_id": 18686628,
         "url": "https://seatgeek.com/zach-bryan-tickets/indianapolis-indiana-lucas-oil-stadium-2027-05-01-7-pm/concert/18686628",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1147,7 +1147,7 @@
         "event_id": 18686626,
         "url": "https://seatgeek.com/zach-bryan-tickets/green-bay-wisconsin-lambeau-field-2027-05-04-7-pm/concert/18686626",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1229,7 +1229,7 @@
         "event_id": 18686627,
         "url": "https://seatgeek.com/zach-bryan-tickets/east-rutherford-new-jersey-metlife-stadium-2027-05-14-7-pm/concert/18686627",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1310,7 +1310,7 @@
         "event_id": 18686631,
         "url": "https://seatgeek.com/zach-bryan-tickets/east-rutherford-new-jersey-metlife-stadium-2027-05-15-7-pm/concert/18686631",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1637,7 +1637,7 @@
         "event_id": 18686640,
         "url": "https://seatgeek.com/zach-bryan-tickets/las-vegas-nevada-allegiant-stadium-2027-07-16-7-pm/concert/18686640",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2010,7 +2010,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E00654CFAA9B55B",
     "ticketmaster_url": "https://www.ticketmaster.com/zach-bryan-boise-idaho-08-06-2027/event/1E00654CFAA9B55B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/zach-bryan-tickets/boise-idaho-albertsons-stadium-2027-08-06-7-pm/concert/18686648",
     "vividseats_url": "https://www.vividseats.com/zach-bryan-tickets-boise-albertsons-stadium-8-6-2027--concerts-country-and-folk/production/7706959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zach-bryan-boise-idaho-08-06-2027/event/1E00654CFAA9B55B",
@@ -2026,11 +2026,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18686648,
+        "url": "https://seatgeek.com/zach-bryan-tickets/boise-idaho-albertsons-stadium-2027-08-06-7-pm/concert/18686648",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7706959,

@@ -895,7 +895,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100656601C51D70",
     "ticketmaster_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-boston-massachusetts-04-20-2027/event/0100656601C51D70",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sam-fender-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-20-8-pm/concert/18760793",
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-boston-mgm-music-hall-at-fenway-4-20-2027--concerts-alternative/production/7863244",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-boston-massachusetts-04-20-2027/event/0100656601C51D70",
@@ -911,11 +911,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760793,
+        "url": "https://seatgeek.com/sam-fender-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-04-20-8-pm/concert/18760793",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7863244,
@@ -995,7 +995,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3C00656ABE8B30D1",
     "ticketmaster_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-new-york-new-york-04-22-2027/event/3C00656ABE8B30D1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sam-fender-tickets/new-york-new-york-radio-city-music-hall-2027-04-22-8-pm/concert/18760794",
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-new-york-radio-city-music-hall-4-22-2027--concerts-alternative/production/7863246",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-new-york-new-york-04-22-2027/event/3C00656ABE8B30D1",
@@ -1011,11 +1011,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760794,
+        "url": "https://seatgeek.com/sam-fender-tickets/new-york-new-york-radio-city-music-hall-2027-04-22-8-pm/concert/18760794",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7863246,

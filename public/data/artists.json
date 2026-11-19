@@ -3762,5 +3762,33 @@
     "last_verified_at": "2026-11-18",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-18"
+  },
+  {
+    "slug": "grace-potter",
+    "name": "Grace Potter",
+    "short_description": "Rock act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-19"
+  },
+  {
+    "slug": "hannah-harper",
+    "name": "Hannah Harper",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-19",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-19"
   }
 ]

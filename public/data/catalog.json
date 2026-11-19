@@ -8248,6 +8248,58 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "grace-potter",
+      "name": "Grace Potter",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Grace Potter artist ticket information",
+      "factual_summary": "Grace Potter is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Grace Potter page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Grace Potter Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Grace Potter tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Grace Potter tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "hannah-harper",
+      "name": "Hannah Harper",
+      "short_description": "Country act listed on Ticketmaster.",
+      "image_alt": "Hannah Harper artist ticket information",
+      "factual_summary": "Hannah Harper is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked daily.",
+      "ticket_buying_notes": "These links go to the Hannah Harper page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Hannah Harper Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Hannah Harper tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Hannah Harper tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -16342,6 +16394,62 @@
       "last_checked_at": "2026-11-18",
       "disclosure_required": true,
       "url": "https://seatgeek.com/travis-tritt-tickets"
+    },
+    {
+      "link_id": "tm-artist-grace-potter",
+      "artist_slug": "grace-potter",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-19",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/grace-potter-tickets/artist/1127233"
+    },
+    {
+      "link_id": "sg-artist-grace-potter",
+      "artist_slug": "grace-potter",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-19",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets"
+    },
+    {
+      "link_id": "tm-artist-hannah-harper",
+      "artist_slug": "hannah-harper",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-19",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/hannah-harper-tickets/artist/4322479"
+    },
+    {
+      "link_id": "sg-artist-hannah-harper",
+      "artist_slug": "hannah-harper",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-19",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/hannah-harper-tickets"
     }
   ],
   "safety_rules": [

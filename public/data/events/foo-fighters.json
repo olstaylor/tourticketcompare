@@ -794,7 +794,7 @@
     "ticketmaster_event_id": "3700656AA0DE4A1C",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-darlington-darlington-arena-9-14-2027--concerts-rock/production/7879771",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
     "last_verified_at": "2026-11-18",
@@ -816,11 +816,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7879771,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-darlington-darlington-arena-9-14-2027--concerts-rock/production/7879771",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

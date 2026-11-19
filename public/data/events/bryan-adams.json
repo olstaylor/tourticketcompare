@@ -947,7 +947,7 @@
         "event_id": 7664696,
         "url": "https://www.vividseats.com/bryan-adams-tickets-fulda-domplatz-fulda-6-29-2027/production/7664696",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1069,7 +1069,7 @@
         "event_id": 7661320,
         "url": "https://www.vividseats.com/bryan-adams-tickets-hemer-sauerlandpark-hemer-7-4-2027/production/7661320",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1329,7 +1329,7 @@
     "ticketmaster_event_id": "1610784975",
     "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-magdeburg-domplatz-magdeburg-8-13-2027/production/7661286",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
     "last_verified_at": "2026-11-07",
@@ -1351,11 +1351,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7661286,
-        "url": "https://www.vividseats.com/bryan-adams-tickets-magdeburg-domplatz-magdeburg-8-13-2027/production/7661286",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

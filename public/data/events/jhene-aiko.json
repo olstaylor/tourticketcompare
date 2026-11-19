@@ -3620,7 +3620,7 @@
     "ticketmaster_event_id": "1100656C9DCE5B44",
     "ticketmaster_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-vancouver-rogers-arena-5-15-2027--concerts-rb/production/7886535",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
     "last_verified_at": "2026-11-17",
@@ -3642,11 +3642,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886535,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-vancouver-rogers-arena-5-15-2027--concerts-rb/production/7886535",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

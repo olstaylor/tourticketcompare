@@ -338,7 +338,7 @@
         "event_id": 7745720,
         "url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-19-2027--concerts-country-and-folk/production/7745720",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -427,7 +427,7 @@
         "event_id": 7721395,
         "url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-20-2027--concerts-country-and-folk/production/7721395",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -509,7 +509,7 @@
         "event_id": 7871091,
         "url": "https://www.vividseats.com/cody-johnson-tickets-albany-mvp-arena-3-13-2027/production/7871091",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -598,7 +598,7 @@
         "event_id": 7871140,
         "url": "https://www.vividseats.com/cody-johnson-tickets-fargo-fargodome-3-20-2027--concerts-country-and-folk/production/7871140",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -690,7 +690,7 @@
         "event_id": 7871146,
         "url": "https://www.vividseats.com/cody-johnson-tickets-charlottesville-john-paul-jones-arena-4-3-2027--concerts-country-and-folk/production/7871146",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -761,7 +761,7 @@
     "ticketmaster_event_id": "05006563D5DC938A",
     "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-05-01-2027/event/05006563D5DC938A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-evansville-ford-center-evansville-5-1-2027/production/7871127",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-05-01-2027/event/05006563D5DC938A",
     "last_verified_at": "2026-11-18",
@@ -783,11 +783,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7871127,
+        "url": "https://www.vividseats.com/cody-johnson-tickets-evansville-ford-center-evansville-5-1-2027/production/7871127",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -848,7 +848,7 @@
     "ticketmaster_event_id": "0100656CE2EE305D",
     "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-friends-gilford-new-hampshire-05-29-2027/event/0100656CE2EE305D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-gilford-banknh-pavilion-5-29-2027--concerts-country-and-folk/production/7887473",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-friends-gilford-new-hampshire-05-29-2027/event/0100656CE2EE305D",
     "last_verified_at": "2026-11-18",
@@ -870,11 +870,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7887473,
+        "url": "https://www.vividseats.com/cody-johnson-tickets-gilford-banknh-pavilion-5-29-2027--concerts-country-and-folk/production/7887473",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

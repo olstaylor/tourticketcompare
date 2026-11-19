@@ -467,7 +467,7 @@
         "event_id": 7620477,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-toronto-scotiabank-arena-11-28-2026/production/7620477",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -540,7 +540,7 @@
         "event_id": 7623178,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-orlando-orlando-amphitheater-at-central-florida-fairgrounds-12-5-2026/production/7623178",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -609,7 +609,7 @@
         "event_id": 7619726,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-minneapolis-armory---minneapolis-12-12-2026/production/7619726",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -683,7 +683,7 @@
         "event_id": 7620829,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-hartford-peoplesbank-arena-12-19-2026/production/7620829",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -993,7 +993,7 @@
     "ticketmaster_event_id": "37006570D5475FB6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-10-london-02-02-2027/event/37006570D5475FB6",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-london-ovo-arena-wembley-2-2-2027/production/7884810",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-10-london-02-02-2027/event/37006570D5475FB6",
     "last_verified_at": "2026-11-18",
@@ -1015,11 +1015,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7884810,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-london-ovo-arena-wembley-2-2-2027/production/7884810",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

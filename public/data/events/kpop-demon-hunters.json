@@ -2522,7 +2522,7 @@
     "ticketmaster_event_id": "3600656BF0E9AD0C",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-glasgow-12-10-2027/event/3600656BF0E9AD0C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-glasgow-ovo-hydro-10-12-2027/production/7871143",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-glasgow-12-10-2027/event/3600656BF0E9AD0C",
     "last_verified_at": "2026-11-17",
@@ -2544,11 +2544,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7871143,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-glasgow-ovo-hydro-10-12-2027/production/7871143",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

@@ -213,7 +213,7 @@
         "event_id": 7483597,
         "url": "https://www.vividseats.com/foreigner-tickets-pompano-beach-pompano-beach-amphitheatre-2-19-2027--concerts-rock/production/7483597",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -445,7 +445,7 @@
         "event_id": 7755456,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-10-2027/production/7755456",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -515,7 +515,7 @@
         "event_id": 7755502,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-12-2027/production/7755502",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -585,7 +585,7 @@
         "event_id": 7755492,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-13-2027/production/7755492",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -655,7 +655,7 @@
         "event_id": 7755482,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-17-2027/production/7755482",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -725,7 +725,7 @@
         "event_id": 7755454,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-19-2027/production/7755454",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -795,7 +795,7 @@
         "event_id": 7755538,
         "url": "https://www.vividseats.com/foreigner-tickets-las-vegas-venetian-theatre-at-the-venetian-las-vegas-3-20-2027/production/7755538",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -922,7 +922,7 @@
         "event_id": 7527201,
         "url": "https://www.vividseats.com/foreigner-tickets-london-london-palladium-4-14-2027/production/7527201",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1004,7 +1004,7 @@
         "event_id": 7500863,
         "url": "https://www.vividseats.com/foreigner-tickets-new-york-beacon-theatre-4-27-2027/production/7500863",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1097,7 +1097,7 @@
         "event_id": 7501184,
         "url": "https://www.vividseats.com/foreigner-tickets-montclair-wellmont-theater-4-28-2027/production/7501184",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1246,7 +1246,7 @@
         "event_id": 7501061,
         "url": "https://www.vividseats.com/foreigner-tickets-westbury-flagstar-at-westbury-music-fair-5-2-2027/production/7501061",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1365,7 +1365,7 @@
     "ticketmaster_event_id": "1D00656DBAD45470",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-uncasville-connecticut-05-01-2027/event/1D00656DBAD45470",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-uncasville-mohegan-sun-arena-ct-5-1-2027/production/7880161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-uncasville-connecticut-05-01-2027/event/1D00656DBAD45470",
     "last_verified_at": "2026-11-18",
@@ -1387,11 +1387,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7880161,
+        "url": "https://www.vividseats.com/foreigner-tickets-uncasville-mohegan-sun-arena-ct-5-1-2027/production/7880161",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1459,7 +1459,7 @@
     "ticketmaster_event_id": "0100656E32D5E544",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bangor-maine-07-16-2027/event/0100656E32D5E544",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-bangor-maine-savings-amphitheater-7-16-2027/production/7880265",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bangor-maine-07-16-2027/event/0100656E32D5E544",
     "last_verified_at": "2026-11-18",
@@ -1481,11 +1481,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7880265,
+        "url": "https://www.vividseats.com/foreigner-tickets-bangor-maine-savings-amphitheater-7-16-2027/production/7880265",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1587,7 +1587,7 @@
     "ticketmaster_event_id": "0100656B2DF3EC65",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-gilford-new-hampshire-07-17-2027/event/0100656B2DF3EC65",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-gilford-banknh-pavilion-7-17-2027/production/7880304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-gilford-new-hampshire-07-17-2027/event/0100656B2DF3EC65",
     "last_verified_at": "2026-11-18",
@@ -1609,11 +1609,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7880304,
+        "url": "https://www.vividseats.com/foreigner-tickets-gilford-banknh-pavilion-7-17-2027/production/7880304",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1693,7 +1693,7 @@
     "ticketmaster_event_id": "0000656CC7032639",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bethel-new-york-07-18-2027/event/0000656CC7032639",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foreigner-tickets-bethel-bethel-woods-center-for-the-arts-7-18-2027/production/7880390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bethel-new-york-07-18-2027/event/0000656CC7032639",
     "last_verified_at": "2026-11-18",
@@ -1715,11 +1715,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7880390,
+        "url": "https://www.vividseats.com/foreigner-tickets-bethel-bethel-woods-center-for-the-arts-7-18-2027/production/7880390",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

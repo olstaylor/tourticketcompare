@@ -37,7 +37,7 @@
         "event_id": 7755570,
         "url": "https://www.vividseats.com/jason-aldean-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-27-2027/production/7755570",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -91,7 +91,7 @@
     "ticketmaster_event_id": "0C00655CA922565D",
     "ticketmaster_url": "https://www.ticketmaster.com/jason-aldean-durant-oklahoma-03-06-2027/event/0C00655CA922565D",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/jason-aldean-tickets-durant-choctaw-grand-theater-3-6-2027/production/7880857",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jason-aldean-durant-oklahoma-03-06-2027/event/0C00655CA922565D",
     "last_verified_at": "2026-11-18",
@@ -113,11 +113,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7880857,
+        "url": "https://www.vividseats.com/jason-aldean-tickets-durant-choctaw-grand-theater-3-6-2027/production/7880857",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

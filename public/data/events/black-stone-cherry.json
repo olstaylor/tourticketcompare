@@ -101,11 +101,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8294993",
-        "url": "https://www.ticketnetwork.com/en/p/8294993",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8294993",
@@ -118,7 +118,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8_-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294993",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294993/Black-Stone-Cherry-tickets-Wed-Nov-18-2026-The-Waiting-Room-Lounge-NE"
   },
   {
@@ -334,7 +334,7 @@
         "event_id": "8294989",
         "url": "https://www.ticketnetwork.com/en/p/8294989",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -458,7 +458,7 @@
         "event_id": "8294999",
         "url": "https://www.ticketnetwork.com/en/p/8294999",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -527,7 +527,7 @@
         "event_id": "8295002",
         "url": "https://www.ticketnetwork.com/en/p/8295002",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1127,7 +1127,7 @@
         "event_id": "7779272",
         "url": "https://www.ticketnetwork.com/en/p/7779272",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

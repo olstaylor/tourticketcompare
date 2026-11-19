@@ -546,11 +546,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8293184",
-        "url": "https://www.ticketnetwork.com/en/p/8293184",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8293184",
@@ -563,7 +563,7 @@
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdNrguF",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293184",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293184/Brandi-Carlile-tickets-Wed-Nov-18-2026-State-Theatre-MN",
     "organizer_names": [
       "HENNEPIN THEATRE TRUST"
@@ -623,7 +623,7 @@
         "event_id": "8293185",
         "url": "https://www.ticketnetwork.com/en/p/8293185",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -697,7 +697,7 @@
         "event_id": "8293186",
         "url": "https://www.ticketnetwork.com/en/p/8293186",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -771,7 +771,7 @@
         "event_id": "8293193",
         "url": "https://www.ticketnetwork.com/en/p/8293193",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -845,7 +845,7 @@
         "event_id": "8293187",
         "url": "https://www.ticketnetwork.com/en/p/8293187",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -920,7 +920,7 @@
         "event_id": "8293188",
         "url": "https://www.ticketnetwork.com/en/p/8293188",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -995,7 +995,7 @@
         "event_id": "8293189",
         "url": "https://www.ticketnetwork.com/en/p/8293189",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1077,7 +1077,7 @@
         "event_id": "8343664",
         "url": "https://www.ticketnetwork.com/en/p/8343664",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1147,7 +1147,7 @@
         "event_id": "8343665",
         "url": "https://www.ticketnetwork.com/en/p/8343665",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1217,7 +1217,7 @@
         "event_id": "8343666",
         "url": "https://www.ticketnetwork.com/en/p/8343666",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1287,7 +1287,7 @@
         "event_id": "8343667",
         "url": "https://www.ticketnetwork.com/en/p/8343667",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1357,7 +1357,7 @@
         "event_id": "8248298",
         "url": "https://www.ticketnetwork.com/en/p/8248298",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

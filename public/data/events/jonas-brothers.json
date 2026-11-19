@@ -1429,11 +1429,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8214360",
-        "url": "https://www.ticketnetwork.com/en/p/8214360",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8214360",
@@ -1453,7 +1453,7 @@
     "ticketmaster_discovery_event_id": "vvG1iZ_8DuYuU5",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214360",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214360/Jonas-Brothers-tickets-Wed-Nov-18-2026-Hollywood-Bowl",
     "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-18-2026/event/107482393",
     "organizer_names": [
@@ -1515,7 +1515,7 @@
         "event_id": "8235986",
         "url": "https://www.ticketnetwork.com/en/p/8235986",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1598,7 +1598,7 @@
         "event_id": "8214362",
         "url": "https://www.ticketnetwork.com/en/p/8214362",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1680,7 +1680,7 @@
         "event_id": "8214363",
         "url": "https://www.ticketnetwork.com/en/p/8214363",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1762,7 +1762,7 @@
         "event_id": "8214364",
         "url": "https://www.ticketnetwork.com/en/p/8214364",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1843,7 +1843,7 @@
         "event_id": "8214365",
         "url": "https://www.ticketnetwork.com/en/p/8214365",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1924,7 +1924,7 @@
         "event_id": "8214367",
         "url": "https://www.ticketnetwork.com/en/p/8214367",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2005,7 +2005,7 @@
         "event_id": "8214371",
         "url": "https://www.ticketnetwork.com/en/p/8214371",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2094,7 +2094,7 @@
         "event_id": "8214373",
         "url": "https://www.ticketnetwork.com/en/p/8214373",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2183,7 +2183,7 @@
         "event_id": "8214374",
         "url": "https://www.ticketnetwork.com/en/p/8214374",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2256,7 +2256,7 @@
         "event_id": "8214376",
         "url": "https://www.ticketnetwork.com/en/p/8214376",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2337,7 +2337,7 @@
         "event_id": "8214378",
         "url": "https://www.ticketnetwork.com/en/p/8214378",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2432,7 +2432,7 @@
         "event_id": "8214380",
         "url": "https://www.ticketnetwork.com/en/p/8214380",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2513,7 +2513,7 @@
         "event_id": "8214382",
         "url": "https://www.ticketnetwork.com/en/p/8214382",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2664,7 +2664,7 @@
         "event_id": "8214386",
         "url": "https://www.ticketnetwork.com/en/p/8214386",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2758,7 +2758,7 @@
         "event_id": "8235385",
         "url": "https://www.ticketnetwork.com/en/p/8235385",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

@@ -688,11 +688,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7980350",
-        "url": "https://www.ticketnetwork.com/en/p/7980350",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7980350",
@@ -705,7 +705,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70t36",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980350",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980350/Beartooth-tickets-Wed-Nov-18-2026-Stage-AE",
     "genre": "Rock"
   },
@@ -761,7 +761,7 @@
         "event_id": "7980215",
         "url": "https://www.ticketnetwork.com/en/p/7980215",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -897,7 +897,7 @@
         "event_id": "7980217",
         "url": "https://www.ticketnetwork.com/en/p/7980217",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -971,7 +971,7 @@
         "event_id": "7980219",
         "url": "https://www.ticketnetwork.com/en/p/7980219",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1045,7 +1045,7 @@
         "event_id": "7980221",
         "url": "https://www.ticketnetwork.com/en/p/7980221",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1119,7 +1119,7 @@
         "event_id": "7980223",
         "url": "https://www.ticketnetwork.com/en/p/7980223",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1257,7 +1257,7 @@
         "event_id": "7980227",
         "url": "https://www.ticketnetwork.com/en/p/7980227",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1330,7 +1330,7 @@
         "event_id": "7980229",
         "url": "https://www.ticketnetwork.com/en/p/7980229",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1404,7 +1404,7 @@
         "event_id": "7980234",
         "url": "https://www.ticketnetwork.com/en/p/7980234",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1485,7 +1485,7 @@
         "event_id": "7980235",
         "url": "https://www.ticketnetwork.com/en/p/7980235",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1559,7 +1559,7 @@
         "event_id": "7980237",
         "url": "https://www.ticketnetwork.com/en/p/7980237",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1630,11 +1630,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7980239",
+        "url": "https://www.ticketnetwork.com/en/p/7980239",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": null,
@@ -1647,7 +1647,7 @@
     "ticketmaster_discovery_event_id": "17k8v0G61i5GITx",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980239",
     "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1707,7 +1707,7 @@
         "event_id": "7980240",
         "url": "https://www.ticketnetwork.com/en/p/7980240",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1796,7 +1796,7 @@
         "event_id": "7980241",
         "url": "https://www.ticketnetwork.com/en/p/7980241",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2169,7 +2169,7 @@
         "event_id": "7980238",
         "url": "https://www.ticketnetwork.com/en/p/7980238",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2242,7 +2242,7 @@
         "event_id": "7980224",
         "url": "https://www.ticketnetwork.com/en/p/7980224",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-savannah-enmarket-arena-2-3-2027/production/7642178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-savannah-georgia-02-03-2027/event/0E00653EC5E93533",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72,6 +72,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-01-27T04:55:00Z"
+      },
+      {
+        "name": "2 For 1 Offer",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
       }
     ],
     "organizer_names": [
@@ -1211,7 +1216,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-philadelphia-xfinity-mobile-arena-3-10-2027/production/7642134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-philadelphia-pennsylvania-03-10-2027/event/3000653D190391F0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1275,6 +1280,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-03-03T04:55:00Z"
+      },
+      {
+        "name": "Black Friday/ Cyber Monday",
+        "start": "2026-11-26T05:01:00Z",
+        "end": "2026-12-01T04:59:00Z"
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/greta-van-fleet-philadelphia-tickets-3-10-2027/event/107671869",

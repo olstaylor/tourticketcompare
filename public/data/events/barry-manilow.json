@@ -1235,7 +1235,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/manilow-the-last-orlando-concert-orlando-florida-01-21-2027/event/2200632CCE031F54",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1300,7 +1300,14 @@
       "OUTBACK CONCERTS"
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-24T04:59:00Z",
+        "end": "2026-12-03T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5kgq",

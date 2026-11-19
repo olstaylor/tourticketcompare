@@ -498,7 +498,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketmaster_status_code": "postponed"
   },
   {
     "id": "tm-jon-pardi-2026-independence-vvg1bz_cu03zzw",

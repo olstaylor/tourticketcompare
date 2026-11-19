@@ -899,7 +899,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-boston-mgm-music-hall-at-fenway-4-20-2027--concerts-alternative/production/7863244",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-boston-massachusetts-04-20-2027/event/0100656601C51D70",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -964,23 +964,6 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-boston-tickets-4-20-2027/event/107681803"
   },
   {
@@ -999,7 +982,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-new-york-radio-city-music-hall-4-22-2027--concerts-alternative/production/7863246",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-new-york-new-york-04-22-2027/event/3C00656ABE8B30D1",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1065,31 +1048,6 @@
     "genre": "Rock",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Chase Cardholder Preferred Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
         "name": "Verizon Shine Featured Venues",
         "start": "2026-11-19T15:00:00Z",
         "end": "2026-12-21T15:00:00Z"
@@ -1118,7 +1076,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-toronto-scotiabank-arena-4-24-2027--concerts-alternative/production/7863248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-toronto-ontario-04-24-2027/event/1000656ACA76BE29",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1162,34 +1120,7 @@
       "LIVE NATION CANADA-ROGERS"
     ],
     "ticket_limit": 6,
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Live INSIDER Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-tempe-1av0z_pgkrzfigp",
@@ -1207,7 +1138,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-tempe-mullett-arena-5-1-2027--concerts-alternative/production/7863252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-tempe-arizona-05-01-2027/event/1900656BC0228316",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1264,24 +1195,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T19:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-sam-fender-2027-los-angeles-vv170z_pgklllved",
@@ -1299,7 +1213,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-los-angeles-greek-theatre---los-angeles-5-3-2027--concerts-alternative/production/7863254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-los-angeles-california-05-03-2027/event/0900656AEBAC19FB",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1364,33 +1278,6 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T20:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Nederlander Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-los-angeles-tickets-5-3-2027/event/107681050"
   },
   {
@@ -1409,7 +1296,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-seattle-wamu-theater---seattle-5-7-2027--concerts-alternative/production/7863256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-seattle-washington-05-07-2027/event/0F00656BBA38AC0C",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1474,28 +1361,6 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T20:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "AEG Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-seattle-tickets-5-7-2027/event/107681051"
   },
   {
@@ -1514,7 +1379,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-vancouver-rogers-arena-5-9-2027--concerts-alternative/production/7863258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-vancouver-british-columbia-05-09-2027/event/11006567183E5E01",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1583,26 +1448,6 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Discord Presale",
-        "start": "2026-11-17T19:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Front Of The Line Amex Presale Tickets",
-        "start": "2026-11-17T19:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
       {
         "name": "Amex Reserved Tickets",
         "start": "2026-11-19T17:00:00Z",

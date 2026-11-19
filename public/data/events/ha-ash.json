@@ -605,7 +605,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-phoenix-arizona-05-08-2027/event/19006532CEA9AB70",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -670,6 +670,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-04-18T06:59:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "organizer_names": [

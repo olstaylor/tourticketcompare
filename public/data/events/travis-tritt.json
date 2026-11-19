@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-nashville-ryman-auditorium-3-12-2027/production/7261290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JF0F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8117232",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8117232/Travis-Tritt-tickets-Fri-Mar-12-2027-Ryman-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8117232/Travis-Tritt-tickets-Fri-Mar-12-2027-Ryman-Auditorium",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-oxford-z7r9jz1a7jao6",
@@ -84,7 +85,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-oxford-oxford-performing-arts-center-4-16-2027--concerts-country-and-folk/production/7270361",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7JAO6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +136,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8190801",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8190801/Travis-Tritt-tickets-Fri-Apr-16-2027-Oxford-Performing-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8190801/Travis-Tritt-tickets-Fri-Apr-16-2027-Oxford-Performing-Arts-Center",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-macon-vvg1zz_k1bu6z9",
@@ -153,7 +155,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-macon-georgia-04-22-2027/event/0E00646298D87017",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +206,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775649",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775649/Travis-Tritt-tickets-Thu-Apr-22-2027-Macon-City-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775649/Travis-Tritt-tickets-Thu-Apr-22-2027-Macon-City-Auditorium",
+    "ticketmaster_status_code": "rescheduled",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-northfield-vv1kfz_pfzg7zdfa",
@@ -222,7 +226,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-northfield-northfield-park-racino---center-stage-5-14-2027/production/7843655",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-northfield-ohio-05-14-2027/event/0500656200E3B209",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +277,13 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364346",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364346/Travis-Tritt-tickets-Fri-May-14-2027-Northfield-Park-Racino-Center-Stage"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364346/Travis-Tritt-tickets-Fri-May-14-2027-Northfield-Park-Racino-Center-Stage",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-waterloo-k7vgf_29lrc4r",
@@ -291,7 +301,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-waterloo-the-vine-at-del-lago-resort-and-casino-5-21-2027/production/7863660",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-ages-21-over-waterloo-new-york-05-21-2027/event/000064F5EB78E56F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -326,7 +336,9 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_29lrC4R",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "legal_age_enforced": true,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-charles-town-1a4zk4ngkdpzfky",
@@ -344,7 +356,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-charles-town-hollywood-casino-at-charles-town-races-5-22-2027/production/7843618",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-charles-town-west-virginia-05-22-2027/event/15006563D60081B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +407,10 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364348",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364348/Travis-Tritt-tickets-Sat-May-22-2027-Hollywood-Casino-at-Charles-Town-Races"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364348/Travis-Tritt-tickets-Sat-May-22-2027-Hollywood-Casino-at-Charles-Town-Races",
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-durham-g5evz_p2pdn7v",
@@ -413,7 +428,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-durham-north-carolina-06-18-2027/event/2D006563D6EE3134",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +463,9 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p2pDN7V",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-kettering-z7r9jz1aaaaf3",
@@ -466,7 +483,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-kettering-fraze-pavilion-6-26-2027--concerts-country-and-folk/production/7844075",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaF3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -517,7 +534,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364340",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364340/Travis-Tritt-tickets-Sat-Jun-26-2027-Fraze-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364340/Travis-Tritt-tickets-Sat-Jun-26-2027-Fraze-Pavilion",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-bossier-city-g5viz_p2n3lzw",
@@ -535,7 +553,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-bossier-city-riverdome-at-horseshoe-casino-7-16-2027/production/7843540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-bossier-city-louisiana-07-16-2027/event/1B006563EA49F032",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -586,7 +604,9 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364350",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364350/Travis-Tritt-tickets-Fri-Jul-16-2027-Riverdome-At-Horseshoe-Casino"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364350/Travis-Tritt-tickets-Fri-Jul-16-2027-Riverdome-At-Horseshoe-Casino",
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-bristol-g5viz_4sc3z7i",
@@ -604,7 +624,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-bristol-hard-rock-hotel-and-casino-bristol-7-30-2027/production/7843608",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-bristol-virginia-07-30-2027/event/1B00655CCE4B812C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -639,7 +659,10 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_4SC3z7i",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-new-haven-1kaovpq_ga2h4m9",
@@ -657,7 +680,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-new-haven-the-amp-at-log-still-7-31-2027/production/7843542",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-new-haven-kentucky-07-31-2027/event/160065699F6D5B97",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -708,7 +731,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364353",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364353/Travis-Tritt-tickets-Sat-Jul-31-2027-The-Amp-at-Log-Still"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364353/Travis-Tritt-tickets-Sat-Jul-31-2027-The-Amp-at-Log-Still",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-gary-vv1aazk4tgkewapoq",
@@ -726,7 +750,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-gary-hard-rock-casino-northern-indiana-8-14-2027/production/7843548",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-gary-indiana-08-14-2027/event/05006569B226545D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -777,7 +801,17 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364355",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364355/Travis-Tritt-tickets-Sat-Aug-14-2027-Hard-Rock-Live-Northern-Indiana"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364355/Travis-Tritt-tickets-Sat-Aug-14-2027-Hard-Rock-Live-Northern-Indiana",
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Aisle Seating / 21+ ONLY",
+        "start": "2026-11-11T16:00:00Z",
+        "end": "2027-08-15T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-travis-tritt-2027-saint-louis-1a-zk4igkdyooqa",
@@ -795,7 +829,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-saint-louis-missouri-09-10-2027/event/21006568F0451685",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -830,7 +864,8 @@
     },
     "ticketmaster_discovery_event_id": "1A-Zk4IGkdYooQA",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-kansas-city-vv1akzk4jgkdb4gal",
@@ -848,7 +883,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-kansas-city-ameristar-casino-hotel-kansas-city-9-11-2027/production/7843497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-kansas-city-missouri-09-11-2027/event/06006566D857526B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -899,7 +934,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364359",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364359/Travis-Tritt-tickets-Sat-Sep-11-2027-Star-Pavilion-at-Ameristar-Casino-and-Hotel-Kansas-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364359/Travis-Tritt-tickets-Sat-Sep-11-2027-Star-Pavilion-at-Ameristar-Casino-and-Hotel-Kansas-City",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-nashville-vv1aazk4jgke0bm2-",
@@ -917,7 +953,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-nashville-brown-county-music-center-9-30-2027/production/7843585",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-nashville-indiana-09-30-2027/event/05006566A4EB73E1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -968,7 +1004,11 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364361",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364361/Travis-Tritt-tickets-Thu-Sep-30-2027-Brown-County-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364361/Travis-Tritt-tickets-Thu-Sep-30-2027-Brown-County-Music-Center",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-mount-pleasant-z7r9jz1aaaark",
@@ -986,7 +1026,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-mount-pleasant-soaring-eagle-casino-and-resort-10-1-2027/production/7846702",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAarK",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1037,7 +1077,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364862",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364862/Travis-Tritt-tickets-Fri-Oct-1-2027-Entertainment-Hall-At-Soaring-Eagle-Casino-Resort"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364862/Travis-Tritt-tickets-Fri-Oct-1-2027-Entertainment-Hall-At-Soaring-Eagle-Casino-Resort",
+    "genre": "Country"
   },
   {
     "id": "tm-travis-tritt-2027-lake-charles-z7r9jz1aaaajp",
@@ -1055,7 +1096,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-lake-charles-grand-event-center---golden-nugget-lake-charles-10-9-2027--concerts-country-and-folk/production/7847165",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaJp",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-19",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1106,6 +1147,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366592",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366592/Travis-Tritt-tickets-Sat-Oct-9-2027-Grand-Event-Center-at-Golden-Nugget-Lake-Charles"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366592/Travis-Tritt-tickets-Sat-Oct-9-2027-Grand-Event-Center-at-Golden-Nugget-Lake-Charles",
+    "genre": "Country"
   }
 ]

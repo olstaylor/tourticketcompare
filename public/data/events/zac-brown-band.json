@@ -306,7 +306,7 @@
     "vividseats_url": "https://www.vividseats.com/zac-brown-band-tickets-lincoln-pinnacle-bank-arena-11-19-2026--concerts-country-and-folk/production/6579008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-love-fear-tour-lincoln-nebraska-11-19-2026/event/06006432246D711C",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -359,13 +359,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703262/Zac-Brown-Band-tickets-Thu-Nov-19-2026-Pinnacle-Bank-Arena",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
-    ],
-    "presales": [
-      {
-        "name": "MVAS Cruise Offer",
-        "start": "2026-07-20T15:00:00Z",
-        "end": "2026-11-19T01:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703262",
     "genre": "Country"

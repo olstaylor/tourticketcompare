@@ -1730,11 +1730,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457650",
-        "url": "https://www.ticketnetwork.com/en/p/7457650",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107202115",
@@ -1754,7 +1754,7 @@
     "ticketmaster_discovery_event_id": "G5eVZbSEmDaLV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457650",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457650/Doja-Cat-tickets-Wed-Nov-18-2026-Spectrum-Center",
     "organizer_names": [
@@ -1814,7 +1814,7 @@
         "event_id": "7457652",
         "url": "https://www.ticketnetwork.com/en/p/7457652",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1887,7 +1887,7 @@
         "event_id": "7457653",
         "url": "https://www.ticketnetwork.com/en/p/7457653",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1969,7 +1969,7 @@
         "event_id": "7457655",
         "url": "https://www.ticketnetwork.com/en/p/7457655",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2125,7 +2125,7 @@
         "event_id": "7457664",
         "url": "https://www.ticketnetwork.com/en/p/7457664",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2218,7 +2218,7 @@
         "event_id": "7457657",
         "url": "https://www.ticketnetwork.com/en/p/7457657",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2307,7 +2307,7 @@
         "event_id": "7457486",
         "url": "https://www.ticketnetwork.com/en/p/7457486",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {

@@ -785,11 +785,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7551671",
-        "url": "https://www.ticketnetwork.com/en/p/7551671",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7551671",
@@ -819,7 +819,7 @@
         "end": "2026-11-19T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7551671",
+    "ticketnetwork_url": "",
     "ticket_limit": 8,
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7551671/Three-Days-Grace-tickets-Wed-Nov-18-2026-SAP-Center",
@@ -877,7 +877,7 @@
         "event_id": "7551672",
         "url": "https://www.ticketnetwork.com/en/p/7551672",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -943,7 +943,7 @@
         "event_id": "7551673",
         "url": "https://www.ticketnetwork.com/en/p/7551673",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1025,7 +1025,7 @@
         "event_id": "7551674",
         "url": "https://www.ticketnetwork.com/en/p/7551674",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

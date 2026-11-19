@@ -274,6 +274,7 @@ export const OG_CARDS = {
   "/artists/goo-goo-dolls": {"url":"/og/artists-goo-goo-dolls.png","alt":"Tickets & tour dates: Goo Goo Dolls"},
   "/artists/gorillaz": {"url":"/og/artists-gorillaz.png","alt":"Tickets & tour dates: Gorillaz"},
   "/artists/grace-potter": {"url":"/og/artists-grace-potter.png","alt":"Tickets & tour dates: Grace Potter"},
+  "/artists/grace-potter/tickets/portland-united-states": {"url":"/og/artists-grace-potter-tickets-portland-united-states.png","alt":"Tickets: Grace Potter in Portland"},
   "/artists/gracie-abrams": {"url":"/og/artists-gracie-abrams.png","alt":"Tickets & tour dates: Gracie Abrams"},
   "/artists/gracie-abrams/presale": {"url":"/og/artists-gracie-abrams-presale.png","alt":"Presale: Gracie Abrams"},
   "/artists/gracie-abrams/ticket-prices": {"url":"/og/artists-gracie-abrams-ticket-prices.png","alt":"Ticket prices: Gracie Abrams"},

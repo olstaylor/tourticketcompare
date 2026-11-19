@@ -58,7 +58,7 @@
         "event_id": "8361510",
         "url": "https://www.ticketnetwork.com/en/p/8361510",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -148,7 +148,7 @@
         "event_id": "8361523",
         "url": "https://www.ticketnetwork.com/en/p/8361523",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -239,7 +239,7 @@
         "event_id": "8361511",
         "url": "https://www.ticketnetwork.com/en/p/8361511",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -329,7 +329,7 @@
         "event_id": "8361512",
         "url": "https://www.ticketnetwork.com/en/p/8361512",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -419,7 +419,7 @@
         "event_id": "8361513",
         "url": "https://www.ticketnetwork.com/en/p/8361513",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -509,7 +509,7 @@
         "event_id": "8361515",
         "url": "https://www.ticketnetwork.com/en/p/8361515",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -598,7 +598,7 @@
         "event_id": "8361516",
         "url": "https://www.ticketnetwork.com/en/p/8361516",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -688,7 +688,7 @@
         "event_id": "8361517",
         "url": "https://www.ticketnetwork.com/en/p/8361517",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -778,7 +778,7 @@
         "event_id": "8361518",
         "url": "https://www.ticketnetwork.com/en/p/8361518",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -868,7 +868,7 @@
         "event_id": "8361519",
         "url": "https://www.ticketnetwork.com/en/p/8361519",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1025,7 +1025,7 @@
         "event_id": "8361522",
         "url": "https://www.ticketnetwork.com/en/p/8361522",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1312,6 +1312,13 @@
         "verified": true,
         "last_verified_at": "2026-11-18",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8381438",
+        "url": "https://www.ticketnetwork.com/en/p/8381438",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k4KC30N",
@@ -1329,6 +1336,7 @@
         "end": "2026-11-18T21:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-arnhem-gelredome-27-7-2027/event/107680798"
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-arnhem-gelredome-27-7-2027/event/107680798",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381438"
   }
 ]

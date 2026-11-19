@@ -2475,11 +2475,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7883127",
-        "url": "https://www.ticketnetwork.com/en/p/7883127",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7883127",
@@ -2499,7 +2499,7 @@
     "ticketmaster_discovery_event_id": "vv170Z_FGkMxW1Os",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7883127",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7883127/Teddy-Swims-tickets-Wed-Nov-18-2026-The-Kia-Forum",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-inglewood-tickets-11-18-2026/event/107158281",
     "presales": [
@@ -2566,7 +2566,7 @@
         "event_id": "8167509",
         "url": "https://www.ticketnetwork.com/en/p/8167509",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2647,7 +2647,7 @@
         "event_id": "8166020",
         "url": "https://www.ticketnetwork.com/en/p/8166020",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2728,7 +2728,7 @@
         "event_id": "8168696",
         "url": "https://www.ticketnetwork.com/en/p/8168696",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2988,7 +2988,7 @@
         "event_id": "8163374",
         "url": "https://www.ticketnetwork.com/en/p/8163374",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3071,7 +3071,7 @@
         "event_id": "8163375",
         "url": "https://www.ticketnetwork.com/en/p/8163375",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3160,7 +3160,7 @@
         "event_id": "8230821",
         "url": "https://www.ticketnetwork.com/en/p/8230821",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3424,7 +3424,7 @@
         "event_id": "8230822",
         "url": "https://www.ticketnetwork.com/en/p/8230822",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3612,7 +3612,7 @@
         "event_id": "8167532",
         "url": "https://www.ticketnetwork.com/en/p/8167532",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3687,7 +3687,7 @@
         "event_id": "8314998",
         "url": "https://www.ticketnetwork.com/en/p/8314998",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3825,7 +3825,7 @@
         "event_id": "8167507",
         "url": "https://www.ticketnetwork.com/en/p/8167507",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3906,7 +3906,7 @@
         "event_id": "8167502",
         "url": "https://www.ticketnetwork.com/en/p/8167502",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

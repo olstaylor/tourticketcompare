@@ -1448,11 +1448,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7956854",
-        "url": "https://www.ticketnetwork.com/en/p/7956854",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107169148",
@@ -1466,7 +1466,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956854/Journey-tickets-Wed-Nov-18-2026-Toyota-Center-TX",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956854",
+    "ticketnetwork_url": "",
     "genre": "Rock",
     "stubhub_international_url": "https://www.stubhub.ie/journey-houston-tickets-11-18-2026/event/107169148"
   },
@@ -1536,7 +1536,7 @@
         "event_id": "7956784",
         "url": "https://www.ticketnetwork.com/en/p/7956784",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1610,7 +1610,7 @@
         "event_id": "7956785",
         "url": "https://www.ticketnetwork.com/en/p/7956785",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1698,7 +1698,7 @@
         "event_id": "7956786",
         "url": "https://www.ticketnetwork.com/en/p/7956786",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1792,7 +1792,7 @@
         "event_id": "7956855",
         "url": "https://www.ticketnetwork.com/en/p/7956855",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1870,7 +1870,7 @@
         "event_id": "7956787",
         "url": "https://www.ticketnetwork.com/en/p/7956787",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1937,7 +1937,7 @@
         "event_id": "8365092",
         "url": "https://www.ticketnetwork.com/en/p/8365092",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2011,7 +2011,7 @@
         "event_id": "8365093",
         "url": "https://www.ticketnetwork.com/en/p/8365093",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

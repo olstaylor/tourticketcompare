@@ -431288,5 +431288,274 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366592",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366592/Travis-Tritt-tickets-Sat-Oct-9-2027-Grand-Event-Center-at-Golden-Nugget-Lake-Charles"
+  },
+  {
+    "id": "tm-stray-kids-2027-chicago-vv167zk4yjazaue56a",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT CHICAGO]",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-06-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006570705C1A68",
+    "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-19-2027/event/04006570705C1A68",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-19-2027/event/04006570705C1A68",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006570705C1A68",
+        "discovery_event_id": "vv167Zk4YjAZAue56a",
+        "url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-19-2027/event/04006570705C1A68",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv167Zk4YjAZAue56a",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-19T21:00:00Z"
+  },
+  {
+    "id": "tm-stray-kids-2027-munich-z698xzc2z1kb0z0om",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT MUNICH]",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-18T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "624024837",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/624024837?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/624024837?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "624024837",
+        "discovery_event_id": "Z698xZC2Z1kb0Z0OM",
+        "url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/624024837?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kb0Z0OM",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-11-19T14:00:00Z"
+  },
+  {
+    "id": "tm-stray-kids-2027-arnhem-z698xzbpz16vp04wpo",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT ARNHEM]",
+    "city": "Arnhem",
+    "country": "Netherlands",
+    "venue": "Gelredome",
+    "datetime_iso": "2027-07-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1964572591",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/1964572591?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/1964572591?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1964572591",
+        "discovery_event_id": "Z698xZbpZ16vP04wpo",
+        "url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/1964572591?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vP04wpo",
+    "timezone": "Europe/Amsterdam",
+    "status": "announced",
+    "public_onsale_at": "2026-11-19T14:00:00Z"
+  },
+  {
+    "id": "tm-garth-brooks-2026-minneapolis-z7r9jz1aaaff6",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2026-12-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAFF6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAFF6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAFF6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAFF6",
+        "discovery_event_id": "Z7r9jZ1AAAFF6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAFF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAFF6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jon-pardi-2026-nashville-g5viz_p4pjkae",
+    "artist_slug": "jon-pardi",
+    "artist_name": "Jon Pardi",
+    "event_name": "JON PARDI - THE CHRISTMAS SHOW - ONE NIGHT ONLY",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-12-18T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656565993242",
+    "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656565993242",
+        "discovery_event_id": "G5viZ_p4PJKae",
+        "url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_p4PJKae",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-19T16:00:00Z"
   }
 ]

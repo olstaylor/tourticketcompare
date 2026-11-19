@@ -512,11 +512,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7885145",
-        "url": "https://www.ticketliquidator.com/tickets/7885145/Noah-Kahan-tickets-Thu-Nov-19-2026-3Arena-Dublin",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7885145",
@@ -529,7 +529,7 @@
     "ticketmaster_discovery_event_id": "1AvOZ_FGkn52BxO",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7885145/Noah-Kahan-tickets-Thu-Nov-19-2026-3Arena-Dublin",
+    "ticketliquidator_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7885145",
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
@@ -589,7 +589,7 @@
         "event_id": "7879571",
         "url": "https://www.ticketliquidator.com/tickets/7879571/Noah-Kahan-tickets-Sat-Nov-21-2026-3Arena-Dublin",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -663,7 +663,7 @@
         "event_id": "7885279",
         "url": "https://www.ticketliquidator.com/tickets/7885279/Noah-Kahan-tickets-Sun-Nov-22-2026-3Arena-Dublin",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -737,7 +737,7 @@
         "event_id": "7877198",
         "url": "https://www.ticketliquidator.com/tickets/7877198/Noah-Kahan-tickets-Fri-Dec-4-2026-Kleine-Olympiahalle-Munich",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -994,7 +994,7 @@
         "event_id": "8224894",
         "url": "https://www.ticketliquidator.com/tickets/8224894/Noah-Kahan-tickets-Fri-Jul-23-2027-Wembley-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1077,7 +1077,7 @@
         "event_id": "8233856",
         "url": "https://www.ticketliquidator.com/tickets/8233856/Noah-Kahan-tickets-Sat-Jul-24-2027-Wembley-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1160,7 +1160,7 @@
         "event_id": "8244107",
         "url": "https://www.ticketliquidator.com/tickets/8244107/Noah-Kahan-tickets-Sun-Jul-25-2027-Wembley-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1250,7 +1250,7 @@
         "event_id": "8347742",
         "url": "https://www.ticketliquidator.com/tickets/8347742/Noah-Kahan-tickets-Tue-Apr-27-2027-Protective-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1336,7 +1336,7 @@
         "event_id": "8347743",
         "url": "https://www.ticketliquidator.com/tickets/8347743/Noah-Kahan-tickets-Thu-Apr-29-2027-Raymond-James-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1429,7 +1429,7 @@
         "event_id": "8347745",
         "url": "https://www.ticketliquidator.com/tickets/8347745/Noah-Kahan-tickets-Thu-May-6-2027-Bank-Of-America-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1523,7 +1523,7 @@
         "event_id": "8347747",
         "url": "https://www.ticketliquidator.com/tickets/8347747/Noah-Kahan-tickets-Wed-May-12-2027-Reliant-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1616,7 +1616,7 @@
         "event_id": "8347749",
         "url": "https://www.ticketliquidator.com/tickets/8347749/Noah-Kahan-tickets-Wed-May-19-2027-Levis-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1710,7 +1710,7 @@
         "event_id": "8347750",
         "url": "https://www.ticketliquidator.com/tickets/8347750/Noah-Kahan-tickets-Fri-May-21-2027-Allegiant-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1799,7 +1799,7 @@
         "event_id": "8347756",
         "url": "https://www.ticketliquidator.com/tickets/8347756/Noah-Kahan-tickets-Sat-Jun-5-2027-Ohio-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1893,7 +1893,7 @@
         "event_id": "8347757",
         "url": "https://www.ticketliquidator.com/tickets/8347757/Noah-Kahan-tickets-Thu-Jun-10-2027-Ford-Field",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1986,7 +1986,7 @@
         "event_id": "8347758",
         "url": "https://www.ticketliquidator.com/tickets/8347758/Noah-Kahan-tickets-Sat-Jun-12-2027-New-Highmark-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2080,7 +2080,7 @@
         "event_id": "8347760",
         "url": "https://www.ticketliquidator.com/tickets/8347760/Noah-Kahan-tickets-Tue-Jun-15-2027-Parc-Jean-Drapeau",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2175,7 +2175,7 @@
         "event_id": "8347759",
         "url": "https://www.ticketliquidator.com/tickets/8347759/Noah-Kahan-tickets-Fri-Jun-18-2027-MetLife-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2445,7 +2445,7 @@
         "event_id": "8364611",
         "url": "https://www.ticketliquidator.com/tickets/8364611/Noah-Kahan-tickets-Wed-Jun-9-2027-Ford-Field",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2530,7 +2530,7 @@
         "event_id": "8364184",
         "url": "https://www.ticketliquidator.com/tickets/8364184/Noah-Kahan-tickets-Sat-Jun-19-2027-MetLife-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2630,7 +2630,7 @@
         "event_id": "8347741",
         "url": "https://www.ticketliquidator.com/tickets/8347741/Noah-Kahan-tickets-Sat-Apr-24-2027-Sanford-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -2699,7 +2699,7 @@
         "event_id": "8347744",
         "url": "https://www.ticketliquidator.com/tickets/8347744/Noah-Kahan-tickets-Tue-May-4-2027-New-Nissan-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -2874,7 +2874,7 @@
         "event_id": "8347751",
         "url": "https://www.ticketliquidator.com/tickets/8347751/Noah-Kahan-tickets-Wed-May-26-2027-Camp-Randall-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -2943,7 +2943,7 @@
         "event_id": "8347752",
         "url": "https://www.ticketliquidator.com/tickets/8347752/Noah-Kahan-tickets-Sat-May-29-2027-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3020,7 +3020,7 @@
         "event_id": "8347753",
         "url": "https://www.ticketliquidator.com/tickets/8347753/Noah-Kahan-tickets-Sun-May-30-2027-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3097,7 +3097,7 @@
         "event_id": "8347754",
         "url": "https://www.ticketliquidator.com/tickets/8347754/Noah-Kahan-tickets-Tue-Jun-1-2027-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3174,7 +3174,7 @@
         "event_id": "8347755",
         "url": "https://www.ticketliquidator.com/tickets/8347755/Noah-Kahan-tickets-Wed-Jun-2-2027-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub-international": {

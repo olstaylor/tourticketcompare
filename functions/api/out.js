@@ -3968,6 +3968,34 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-travis-tritt",
     redirectUrl: "https://seatgeek.com/travis-tritt-tickets",
     verified: true
+  },
+  "grace-potter:ticketmaster": {
+    artistSlug: "grace-potter",
+    provider: "ticketmaster",
+    linkId: "tm-artist-grace-potter",
+    redirectUrl: "https://www.ticketmaster.com/grace-potter-tickets/artist/1127233",
+    verified: true
+  },
+  "grace-potter:seatgeek": {
+    artistSlug: "grace-potter",
+    provider: "seatgeek",
+    linkId: "sg-artist-grace-potter",
+    redirectUrl: "https://seatgeek.com/grace-potter-the-nocturnals-tickets",
+    verified: true
+  },
+  "hannah-harper:ticketmaster": {
+    artistSlug: "hannah-harper",
+    provider: "ticketmaster",
+    linkId: "tm-artist-hannah-harper",
+    redirectUrl: "https://www.ticketmaster.com/hannah-harper-tickets/artist/4322479",
+    verified: true
+  },
+  "hannah-harper:seatgeek": {
+    artistSlug: "hannah-harper",
+    provider: "seatgeek",
+    linkId: "sg-artist-hannah-harper",
+    redirectUrl: "https://seatgeek.com/hannah-harper-tickets",
+    verified: true
   }
 };
 

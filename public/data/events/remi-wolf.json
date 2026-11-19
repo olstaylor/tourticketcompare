@@ -702,7 +702,7 @@
         "event_id": 18692433,
         "url": "https://seatgeek.com/remi-wolf-tickets/chicago-illinois-the-salt-shed-indoors-2027-03-10-8-pm/concert/18692433",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -761,7 +761,7 @@
         "event_id": 18664767,
         "url": "https://seatgeek.com/remi-wolf-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-03-12-7-30-pm/concert/18664767",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -842,7 +842,7 @@
         "event_id": 18664770,
         "url": "https://seatgeek.com/remi-wolf-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-03-13-8-pm/concert/18664770",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1053,7 +1053,7 @@
         "event_id": 18664774,
         "url": "https://seatgeek.com/remi-wolf-tickets/nashville-tennessee-the-truth-nashville-2027-03-19-8-pm/concert/18664774",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1139,7 +1139,7 @@
         "event_id": 18664775,
         "url": "https://seatgeek.com/remi-wolf-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-03-20-8-pm/concert/18664775",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1219,7 +1219,7 @@
         "event_id": 18664777,
         "url": "https://seatgeek.com/remi-wolf-tickets/austin-texas-moody-amphitheater-2027-05-06-7-pm/concert/18664777",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1363,7 +1363,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C006547BBD78E87",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-05-08-8-pm/concert/18664783",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-irving-pavilion-at-toyota-music-factory-5-8-2027--concerts-pop/production/7679344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
@@ -1379,11 +1379,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664783,
+        "url": "https://seatgeek.com/remi-wolf-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-05-08-8-pm/concert/18664783",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679344,

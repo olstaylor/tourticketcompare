@@ -659,7 +659,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B006564A01B9322",
     "ticketmaster_url": "https://www.ticketmaster.com/the-dead-south-nashville-tennessee-05-01-2027/event/1B006564A01B9322",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/nashville-tennessee-the-truth-nashville-2027-05-01-8-pm/concert/18754930",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-nashville-tennessee-05-01-2027/event/1B006564A01B9322",
@@ -675,11 +675,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754930,
+        "url": "https://seatgeek.com/the-dead-south-tickets/nashville-tennessee-the-truth-nashville-2027-05-01-8-pm/concert/18754930",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834201,
@@ -904,7 +904,7 @@
         "event_id": 18754775,
         "url": "https://seatgeek.com/the-dead-south-tickets/calgary-canada-grey-eagle-event-centre-2027-09-25-8-pm/concert/18754775",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -965,7 +965,7 @@
         "event_id": 18754433,
         "url": "https://seatgeek.com/the-dead-south-tickets/edmonton-canada-edmonton-expo-centre-2027-09-26-8-pm/concert/18754433",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1066,7 +1066,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "310065628D70235B",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-01-2027/event/310065628D70235B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/montreal-canada-mtelus-2027-10-01-8-pm/concert/18754459",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-1-2027/production/7833561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-01-2027/event/310065628D70235B",
@@ -1082,11 +1082,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754459,
+        "url": "https://seatgeek.com/the-dead-south-tickets/montreal-canada-mtelus-2027-10-01-8-pm/concert/18754459",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833561,
@@ -1140,7 +1140,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "310065628D73235F",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-02-2027/event/310065628D73235F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/montreal-canada-mtelus-2027-10-02-8-pm/concert/18754460",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-2-2027/production/7833497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-02-2027/event/310065628D73235F",
@@ -1156,11 +1156,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754460,
+        "url": "https://seatgeek.com/the-dead-south-tickets/montreal-canada-mtelus-2027-10-02-8-pm/concert/18754460",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833497,
@@ -1233,7 +1233,7 @@
         "event_id": 18754933,
         "url": "https://seatgeek.com/the-dead-south-tickets/ottawa-canada-history-ottawa-2027-10-03-7-pm/concert/18754933",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1328,7 +1328,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "11006563833A2DAA",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-winnipeg-manitoba-10-07-2027/event/11006563833A2DAA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/winnipeg-canada-burton-cummings-theatre-2027-10-07-8-pm/concert/18754332",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-winnipeg-burton-cummings-theatre-10-7-2027/production/7833549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-winnipeg-manitoba-10-07-2027/event/11006563833A2DAA",
@@ -1344,11 +1344,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754332,
+        "url": "https://seatgeek.com/the-dead-south-tickets/winnipeg-canada-burton-cummings-theatre-2027-10-07-8-pm/concert/18754332",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833549,

@@ -1383,7 +1383,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006496EF8487E5",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
-    "seatgeek_url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
@@ -1399,11 +1399,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18222798,
-        "url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

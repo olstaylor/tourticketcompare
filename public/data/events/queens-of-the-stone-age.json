@@ -236,7 +236,7 @@
         "event_id": 18709210,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-05-01-6-30-pm/concert/18709210",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -302,7 +302,7 @@
         "event_id": 18709211,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/inglewood-california-kia-forum-2027-05-02-6-30-pm/concert/18709211",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -384,7 +384,7 @@
         "event_id": 18709212,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/oakland-california-oakland-arena-2027-05-04-6-30-pm/concert/18709212",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -466,7 +466,7 @@
         "event_id": 18709213,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/sacramento-california-golden-1-center-2027-05-05-6-30-pm/concert/18709213",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -548,7 +548,7 @@
         "event_id": 18709214,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/seattle-washington-climate-pledge-arena-2027-05-07-6-30-pm/concert/18709214",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -630,7 +630,7 @@
         "event_id": 18709215,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/portland-oregon-moda-center-2027-05-09-6-30-pm/concert/18709215",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -944,7 +944,7 @@
         "event_id": 18709222,
         "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2027-05-15-6-30-pm/concert/18709222",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1230,7 +1230,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "16006555BBB184E5",
     "ticketmaster_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-pittsburgh-pennsylvania-05-21-2027/event/16006555BBB184E5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/queens-of-the-stone-age-tickets/pittsburgh-pennsylvania-petersen-events-center-2027-05-21-6-30-pm/concert/18709228",
     "vividseats_url": "https://www.vividseats.com/queens-of-the-stone-age-tickets-pittsburgh-petersen-events-center-5-21-2027--concerts-rock/production/7744728",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/queens-of-the-stone-age-perfecth-pittsburgh-pennsylvania-05-21-2027/event/16006555BBB184E5",
@@ -1246,11 +1246,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18709228,
+        "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/pittsburgh-pennsylvania-petersen-events-center-2027-05-21-6-30-pm/concert/18709228",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744728,

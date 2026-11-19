@@ -903,7 +903,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F0064A9D030C333",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-seattle-washington-11-17-2026/event/0F0064A9D030C333",
-    "seatgeek_url": "https://seatgeek.com/katseye-tickets/seattle-washington-climate-pledge-arena-2026-11-17-8-pm/concert/18240158",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-seattle-climate-pledge-arena-11-17-2026--concerts-pop/production/7027965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-seattle-washington-11-17-2026/event/0F0064A9D030C333",
@@ -919,11 +919,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18240158,
-        "url": "https://seatgeek.com/katseye-tickets/seattle-washington-climate-pledge-arena-2026-11-17-8-pm/concert/18240158",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7027965,

@@ -1308,7 +1308,7 @@
         "event_id": 18728707,
         "url": "https://seatgeek.com/noah-kahan-tickets/tampa-florida-raymond-james-stadium-2027-04-29-6-30-pm/concert/18728707",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1401,7 +1401,7 @@
         "event_id": 18728703,
         "url": "https://seatgeek.com/noah-kahan-tickets/charlotte-north-carolina-bank-of-america-stadium-2027-05-06-6-30-pm/concert/18728703",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1569,7 +1569,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C00655BC8187B44",
     "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-santa-clara-california-05-19-2027/event/1C00655BC8187B44",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/santa-clara-california-levi-s-stadium-2027-05-19-6-30-pm/concert/18728716",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-santa-clara-california-05-19-2027/event/1C00655BC8187B44",
@@ -1585,11 +1585,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18728716,
+        "url": "https://seatgeek.com/noah-kahan-tickets/santa-clara-california-levi-s-stadium-2027-05-19-6-30-pm/concert/18728716",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2405,7 +2405,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0800656709E39BC5",
     "ticketmaster_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/noah-kahan-tickets/detroit-michigan-ford-field-2027-06-09-6-30-pm/concert/18755363",
     "vividseats_url": "https://www.vividseats.com/noah-kahan-tickets-detroit-ford-field-6-9-2027--concerts-pop/production/7843387",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/noah-kahan-the-last-of-the-detroit-michigan-06-09-2027/event/0800656709E39BC5",
@@ -2421,11 +2421,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755363,
+        "url": "https://seatgeek.com/noah-kahan-tickets/detroit-michigan-ford-field-2027-06-09-6-30-pm/concert/18755363",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7843387,

@@ -666,7 +666,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006363F26FD9D0",
     "ticketmaster_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-sacramento-california-11-17-2026/event/1C006363F26FD9D0",
-    "seatgeek_url": "https://seatgeek.com/three-days-grace-tickets/sacramento-california-golden-1-center-2026-11-17-7-pm/concert/17895172",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/three-days-grace-tickets-sacramento-golden-1-center-11-17-2026--concerts-hard-rock/production/6276738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/three-days-grace-alienation-tour-sacramento-california-11-17-2026/event/1C006363F26FD9D0",
@@ -682,11 +682,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17895172,
-        "url": "https://seatgeek.com/three-days-grace-tickets/sacramento-california-golden-1-center-2026-11-17-7-pm/concert/17895172",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6276738,

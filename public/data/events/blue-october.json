@@ -1312,7 +1312,7 @@
     "tour_name": "The Foiled 20th Anniversary World Tour",
     "ticketmaster_event_id": "2D00646A8C5589FF",
     "ticketmaster_url": "https://www.ticketmaster.com/blue-october-charlotte-north-carolina-11-17-2026/event/2D00646A8C5589FF",
-    "seatgeek_url": "https://seatgeek.com/blue-october-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-11-17-8-pm/concert/18141165",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-charlotte-the-fillmore-charlotte-11-17-2026--concerts-rock/production/6823216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-charlotte-north-carolina-11-17-2026/event/2D00646A8C5589FF",
@@ -1328,11 +1328,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18141165,
-        "url": "https://seatgeek.com/blue-october-tickets/charlotte-north-carolina-the-fillmore-charlotte-2026-11-17-8-pm/concert/18141165",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6823216,
@@ -1942,7 +1942,7 @@
         "event_id": 18147878,
         "url": "https://seatgeek.com/blue-october-tickets/kansas-city-missouri-the-midland-theatre-mo-2026-12-03-7-pm/concert/18147878",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2268,7 +2268,7 @@
         "event_id": 18147885,
         "url": "https://seatgeek.com/blue-october-tickets/austin-texas-bass-concert-hall-2026-12-11-7-pm/concert/18147885",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4517,7 +4517,7 @@
         "event_id": 18238362,
         "url": "https://seatgeek.com/blue-october-tickets/des-moines-iowa-hoyt-sherman-place-2027-03-12-8-pm/concert/18238362",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4588,7 +4588,7 @@
         "event_id": 18239397,
         "url": "https://seatgeek.com/blue-october-tickets/rockford-illinois-hard-rock-live-rockford-2027-03-14-6-pm/concert/18239397",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -4717,7 +4717,7 @@
         "event_id": 18142024,
         "url": "https://seatgeek.com/blue-october-tickets/san-antonio-texas-boeing-center-at-tech-port-2026-12-12-8-pm/concert/18142024",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {

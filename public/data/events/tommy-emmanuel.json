@@ -511,7 +511,7 @@
         "event_id": 18225197,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/durham-north-carolina-carolina-theatre-durham-2026-12-06-8-pm/concert/18225197",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -584,7 +584,7 @@
         "event_id": 18225325,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/charlotte-north-carolina-knight-theater-at-levine-center-for-the-arts-2026-12-07-7-30-pm/concert/18225325",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -638,7 +638,7 @@
         "event_id": 18237606,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/atlanta-georgia-variety-playhouse-2026-12-09-8-pm/concert/18237606",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -708,7 +708,7 @@
         "event_id": 18237612,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/ponte-vedra-beach-florida-ponte-vedra-concert-hall-2026-12-10-7-pm/concert/18237612",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -778,7 +778,7 @@
         "event_id": 18237614,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/orlando-florida-the-plaza-live-2026-12-11-8-pm/concert/18237614",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -848,7 +848,7 @@
         "event_id": 18237615,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/clearwater-florida-bilheimer-capitol-theatre-2026-12-12-7-pm/concert/18237615",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1876,7 +1876,7 @@
         "event_id": 18633861,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-03-12-8-pm/concert/18633861",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1938,7 +1938,7 @@
         "event_id": 18634114,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/calgary-canada-southern-alberta-jubilee-auditorium-2027-03-14-8-pm/concert/18634114",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2016,7 +2016,7 @@
         "event_id": 18633853,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-17-8-pm/concert/18633853",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2094,7 +2094,7 @@
         "event_id": 18633859,
         "url": "https://seatgeek.com/tommy-emmanuel-tickets/ottawa-canada-national-arts-centre-2027-03-20-8-pm/concert/18633859",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2140,7 +2140,7 @@
     "tour_name": "Living In The Light Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeox3",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeox3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/toronto-canada-massey-hall-2027-03-21-8-pm/concert/18785601",
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-toronto-massey-hall---allied-music-centre-3-21-2027/production/7628828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AAeox3",
@@ -2156,11 +2156,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18785601,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/toronto-canada-massey-hall-2027-03-21-8-pm/concert/18785601",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7628828,

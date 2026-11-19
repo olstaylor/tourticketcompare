@@ -1294,7 +1294,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "19006507200EB3AE",
     "ticketmaster_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-phoenix-arizona-11-17-2026/event/19006507200EB3AE",
-    "seatgeek_url": "https://seatgeek.com/steve-lacy-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-17-8-pm/concert/18485948",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/steve-lacy-tickets-phoenix-arizona-financial-theatre-11-17-2026--concerts-rb/production/7423380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/steve-lacy-oh-yeah-tour-phoenix-arizona-11-17-2026/event/19006507200EB3AE",
@@ -1310,11 +1310,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18485948,
-        "url": "https://seatgeek.com/steve-lacy-tickets/phoenix-arizona-arizona-financial-theatre-2026-11-17-8-pm/concert/18485948",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7423380,

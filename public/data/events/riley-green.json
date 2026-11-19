@@ -136,7 +136,7 @@
         "event_id": 18282384,
         "url": "https://seatgeek.com/riley-green-tickets/las-vegas-nevada-resorts-world-theatre-2026-12-06-8-30-pm/concert/18282384",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -213,7 +213,7 @@
         "event_id": 18282386,
         "url": "https://seatgeek.com/riley-green-tickets/las-vegas-nevada-resorts-world-theatre-2026-12-10-8-30-pm/concert/18282386",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -362,7 +362,7 @@
         "event_id": 18626514,
         "url": "https://seatgeek.com/riley-green-tickets/seattle-washington-climate-pledge-arena-2027-04-02-7-pm/concert/18626514",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -804,7 +804,7 @@
         "event_id": 18626510,
         "url": "https://seatgeek.com/riley-green-tickets/raleigh-north-carolina-coastal-credit-union-music-park-at-walnut-creek-2027-04-29-7-pm/concert/18626510",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -898,7 +898,7 @@
         "event_id": 18626513,
         "url": "https://seatgeek.com/riley-green-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2027-04-30-7-pm/concert/18626513",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -993,7 +993,7 @@
         "event_id": 18626515,
         "url": "https://seatgeek.com/riley-green-tickets/greenville-south-carolina-bon-secours-wellness-arena-2027-05-01-7-pm/concert/18626515",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1079,7 +1079,7 @@
         "event_id": 18626522,
         "url": "https://seatgeek.com/riley-green-tickets/fort-worth-texas-dickies-arena-2027-05-06-7-pm/concert/18626522",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1172,7 +1172,7 @@
         "event_id": 18626523,
         "url": "https://seatgeek.com/riley-green-tickets/wichita-kansas-intrust-bank-arena-2027-05-07-7-pm/concert/18626523",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1258,7 +1258,7 @@
         "event_id": 18626524,
         "url": "https://seatgeek.com/riley-green-tickets/rogers-arkansas-walmart-amp-2027-05-08-7-pm/concert/18626524",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3089,7 +3089,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "160065579ED978B7",
     "ticketmaster_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-cincinnati-ohio-06-24-2027/event/160065579ED978B7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/riley-green-tickets/cincinnati-ohio-the-farmer-music-center-2027-06-24-7-pm/concert/18738069",
     "vividseats_url": "https://www.vividseats.com/riley-green-tickets-cincinnati-the-farmer-music-center-6-24-2027--concerts-country-and-folk/production/7794897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/riley-green-thats-just-me-tour-cincinnati-ohio-06-24-2027/event/160065579ED978B7",
@@ -3105,11 +3105,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738069,
+        "url": "https://seatgeek.com/riley-green-tickets/cincinnati-ohio-the-farmer-music-center-2027-06-24-7-pm/concert/18738069",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794897,

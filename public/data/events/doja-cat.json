@@ -1612,7 +1612,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "0E00633AC24B633B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
-    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/atlanta-georgia-state-farm-arena-1-2026-11-17-7-30-pm/concert/17769342",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
@@ -1628,11 +1628,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17769342,
-        "url": "https://seatgeek.com/doja-cat-tickets/atlanta-georgia-state-farm-arena-1-2026-11-17-7-30-pm/concert/17769342",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6091572,

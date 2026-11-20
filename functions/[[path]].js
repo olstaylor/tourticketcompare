@@ -5285,6 +5285,30 @@ function providerDisplayRank(providerSlug) {
   return rank === -1 ? PROVIDER_DISPLAY_ORDER.length : rank;
 }
 
+// Seller-order test (owner approved 2026-11-20; readout 2026-12-04 for the
+// 2-week window, see docs/PROVIDER_DATA_POLICY.md). Half of all dates, chosen by
+// a hash of the event id so every viewer, the server render and the browser
+// hydration agree, show the marketplaces in reverse alphabetical order. The
+// primary ticket site still leads. Neither order is chosen by commission, and
+// each button reports its arm and 1-based position so click share can be read
+// by seller and position. Keep in sync with providerOrderArm in public/app.js
+// (scripts/provider-order-test.test.mjs fails if they drift).
+function providerOrderArm(showId) {
+  let h = 2166136261;
+  const text = String(showId || "");
+  for (let i = 0; i < text.length; i += 1) h = Math.imul(h ^ text.charCodeAt(i), 16777619);
+  h ^= h >>> 15;
+  h = Math.imul(h, 739982445);
+  h ^= h >>> 12;
+  return (h & 1) === 0 ? "alphabetical" : "reverse";
+}
+
+function providerDisplayRankForArm(providerSlug, arm) {
+  const rank = providerDisplayRank(providerSlug);
+  if (arm !== "reverse" || providerSlug === "ticketmaster" || rank >= PROVIDER_DISPLAY_ORDER.length) return rank;
+  return PROVIDER_DISPLAY_ORDER.length - rank;
+}
+
 // SeatGeek / Vivid Seats artist cards render only when the provider's
 // Impact config is present server-side, so an unconfigured provider never
 // shows a dead button. Plain Ticketmaster links have no config requirement.
@@ -6655,7 +6679,7 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const valueClass = amount ? "provider-cta-value provider-cta-price" : "provider-cta-value provider-cta-check";
   const ctaLocation = analytics.ctaLocation || "event_card";
   const trackedHref = withCtaLocation(href, ctaLocation);
-  const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"`;
+  const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"${analytics.orderArm && analytics.position ? ` data-cta-order-arm="${escapeAttr(analytics.orderArm)}" data-cta-position="${escapeAttr(analytics.position)}"` : ""}`;
   const primary = analytics.provider === "ticketmaster";
   // A button that opens the artist's page or a site search, not this date, says
   // so on the button itself: on a phone the note under the card is off screen.
@@ -6865,7 +6889,8 @@ function serverShowCtaSpecs(show, { seatGeekAvailable = false, vividSeatsAvailab
       spec.lane = null;
     }
   }
-  return specs.sort((a, b) => providerDisplayRank(a.provider) - providerDisplayRank(b.provider));
+  const orderArm = providerOrderArm(show.id);
+  return specs.sort((a, b) => providerDisplayRankForArm(a.provider, orderArm) - providerDisplayRankForArm(b.provider, orderArm));
 }
 
 // The provider lanes whose button renders for one raw events.json record, as
@@ -6969,10 +6994,12 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     if (ctaSpecs.length) {
       const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
       const buttonsHtml = ctaSpecs
-        .map((spec) =>
+        .map((spec, index) =>
           renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
             ...analyticsBase,
-            provider: spec.provider
+            provider: spec.provider,
+            orderArm: providerOrderArm(show.id),
+            position: index + 1
           })
         )
         .join("");
@@ -7001,10 +7028,12 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       // splitting the card into separate priced and unpriced sections.
       const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
       const buttonsHtml = ctaSpecs
-        .map((spec) =>
+        .map((spec, index) =>
           renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
             ...analyticsBase,
-            provider: spec.provider
+            provider: spec.provider,
+            orderArm: providerOrderArm(show.id),
+            position: index + 1
           })
         )
         .join("");

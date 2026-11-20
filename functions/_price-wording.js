@@ -34,7 +34,7 @@ export const CARD_PRICE_TAIL = "not the final total";
 
 /** How this site makes money, stated the same way wherever ticket buttons show. */
 export const MONEY_DISCLOSURE =
-  "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical order. Commission does not determine the order.";
+  "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical or reverse-alphabetical order, which varies by date. Commission does not determine the order.";
 
 /** A card or row whose price lanes were checked and none had a price. */
 export const NO_PRICE_NOTE = "No listed price yet.";

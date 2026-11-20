@@ -764,7 +764,11 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     const html = card(id);
     assert(Boolean(html), "the date still renders");
     const providers = [...html.matchAll(/data-cta-provider="([^\"]+)"/g)].map((m) => m[1]);
-    assert(providers.join(",") === "ticketmaster,seatgeek,stubhub-international,ticket-liquidator,ticketnetwork,vivid-seats", "primary first, then marketplaces alphabetically");
+    // Seller-order test (2026-11-20): the primary site leads; marketplaces are alphabetical or reverse-alphabetical by the date's hash arm.
+    const arm = /data-cta-order-arm="([^"]+)"/.exec(html)?.[1];
+    const alphabetical = ["ticketmaster", "seatgeek", "stubhub-international", "ticket-liquidator", "ticketnetwork", "vivid-seats"];
+    const expected = arm === "reverse" ? [alphabetical[0], ...alphabetical.slice(1).reverse()] : alphabetical;
+    assert(providers.join(",") === expected.join(","), "primary first, then marketplaces in the date's arm order");
     // Owner decision 2026-11-16: a card may name its lowest listed price as one
     // plain line (provider and amount), never a ranking badge or a savings claim.
     assert(!/data-cta-lowest|provider-cta-badge/.test(html), "no ranking badge markup on a card");

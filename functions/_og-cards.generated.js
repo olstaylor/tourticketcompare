@@ -910,6 +910,7 @@ export const OG_CARDS = {
   "/blog/u2-tour-guide": {"url":"/og/blog-u2-tour-guide.png","alt":"Blog: U2 tour: dates, cities and how to choose"},
   "/blog/what-a-price-snapshot-actually-is": {"url":"/og/blog-what-a-price-snapshot-actually-is.png","alt":"Blog: What a price on this site actually means"},
   "/blog/where-the-big-concert-tours-are-playing-in-2027": {"url":"/og/blog-where-the-big-concert-tours-are-playing-in-2027.png","alt":"Blog: Where the big concert tours are playing in 2027"},
+  "/blog/which-tours-got-cheaper-on-resale-december-2026": {"url":"/og/blog-which-tours-got-cheaper-on-resale-december-2026.png","alt":"Blog: Which US tours got cheaper on resale this month? December 2026"},
   "/blog/which-tours-got-cheaper-on-resale-november-2026": {"url":"/og/blog-which-tours-got-cheaper-on-resale-november-2026.png","alt":"Blog: Which US tours got cheaper on resale this month? November 2026"},
   "/blog/which-us-tours-have-the-highest-ticket-prices": {"url":"/og/blog-which-us-tours-have-the-highest-ticket-prices.png","alt":"Blog: Which US tours have the highest and lowest ticket prices right now?"},
   "/blog/why-a-price-here-disappears": {"url":"/og/blog-why-a-price-here-disappears.png","alt":"Blog: Why a price on this site disappears"},

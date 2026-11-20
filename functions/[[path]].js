@@ -7276,18 +7276,25 @@ function guideProviderPairHref(event, provider, guideSlug, position) {
   return `${base}&guideSlug=${encodeURIComponent(guideSlug)}&position=${position}`;
 }
 
-// One date per artist, soonest first, so a residency cannot fill every card.
+// One date per artist so a residency cannot fill every card. Artists with the
+// most matched upcoming dates lead (a long tour is the likelier search), each
+// with its soonest date that is still at least two days away, so a show starting
+// today is not the example a reader opens. Falls back to the soonest date.
+const GUIDE_PAIR_MIN_LEAD_MS = 2 * 24 * 3600000;
+
 function guideProviderPairDisplayed(eligible, limit = 8) {
-  const seen = new Set();
-  const displayed = [];
+  const byArtist = new Map();
   for (const event of eligible) {
     const key = slugify(event.artist_slug) || String(event.id);
-    if (seen.has(key)) continue;
-    seen.add(key);
-    displayed.push(event);
-    if (displayed.length === limit) break;
+    if (!byArtist.has(key)) byArtist.set(key, []);
+    byArtist.get(key).push(event);
   }
-  return displayed;
+  const floor = Date.now() + GUIDE_PAIR_MIN_LEAD_MS;
+  return [...byArtist.values()]
+    .map((dates) => ({ count: dates.length, event: dates.find((event) => showStartMs(event) >= floor) || dates[0] }))
+    .sort((a, b) => b.count - a.count || showStartMs(a.event) - showStartMs(b.event))
+    .slice(0, limit)
+    .map((entry) => entry.event);
 }
 
 export function renderGuideProviderPair(route, events, env = {}) {

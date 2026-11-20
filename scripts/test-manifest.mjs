@@ -14,7 +14,10 @@
 // Steps run in listed order and stop at the first failure, matching the `&&`
 // chains this replaced. Steps sharing a `parallel` tag are the exception: these
 // read-only site crawls run side by side at the position of the first one, and
-// the lane waits for all of them before moving on. Run one step on its own with:
+// the lane waits for all of them before moving on. A step with `needs` starts
+// when that step in the same group has finished (the three audits that read the
+// route render cache wait for crawl:prewarm; schema:validate renders on its own
+// and runs alongside it). Run one step on its own with:
 //   npm run test:units -- --only blog
 
 export const STEPS = [
@@ -75,12 +78,13 @@ export const STEPS = [
   { id: "validate:artist-providers",              lane: "quick",  run: "npm run validate:artist-providers" },
   { id: "validate:cta-provider-state",            lane: "quick",  run: "npm run validate:cta-provider-state" },
   { id: "validate:provider-allowlists",           lane: "quick",  run: "npm run validate:provider-allowlists" },
-  { id: "validate:internal-links",                lane: "quick",  run: "npm run validate:internal-links", parallel: "crawl" },
+  { id: "crawl:prewarm",                          lane: "quick",  run: "node scripts/prewarm-route-cache.mjs", parallel: "crawl" },
+  { id: "validate:internal-links",                lane: "quick",  run: "npm run validate:internal-links", parallel: "crawl", needs: "crawl:prewarm" },
   { id: "audit:indexable-surface:self-test",      lane: "units",  run: "npm run audit:indexable-surface:self-test" },
-  { id: "audit:indexable-surface:check",          lane: "quick",  run: "npm run audit:indexable-surface:check", parallel: "crawl" },
+  { id: "audit:indexable-surface:check",          lane: "quick",  run: "npm run audit:indexable-surface:check", parallel: "crawl", needs: "crawl:prewarm" },
   // Units, not quick: a full render of every indexable and event page (~100s)
   // would more than double the pre-commit lane. test:mvp and CI still run it.
-  { id: "audit:metadata-accuracy:check",          lane: "units",  run: "npm run audit:metadata-accuracy:check", parallel: "crawl" },
+  { id: "audit:metadata-accuracy:check",          lane: "units",  run: "npm run audit:metadata-accuracy:check", parallel: "crawl", needs: "crawl:prewarm" },
   { id: "test:artist-content",                    lane: "quick",  run: "npm run test:artist-content" },
   { id: "test:artist-presentation",               lane: "quick",  run: "npm run test:artist-presentation" },
   { id: "test:artist-cities",                     lane: "quick",  run: "npm run test:artist-cities" },

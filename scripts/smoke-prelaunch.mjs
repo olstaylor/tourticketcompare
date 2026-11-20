@@ -54,7 +54,7 @@ const expectedTitle = new Map([
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/on-sale", "Concert Tickets On Sale This Week | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
-  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Which Is Better?"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster 2026: Fees and Which Is Better"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices by Show | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
@@ -1383,7 +1383,7 @@ const pairwiseGuide = await routeResponse("/guides/seatgeek-vs-ticketmaster");
 assert(pairwiseGuide.response.status === 200, "focused SeatGeek vs Ticketmaster guide should return 200");
 assert(extractCanonical(pairwiseGuide.text) === "https://tourticketcompare.com/guides/seatgeek-vs-ticketmaster", "focused guide should expose its own canonical");
 assert(
-  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
+  extractTitle(pairwiseGuide.text) === "SeatGeek vs Ticketmaster 2026: Fees and Prices Compared",
   "focused guide should expose exact pairwise decision title metadata"
 );
 assert(extractH1(pairwiseGuide.text) === "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?", "focused guide should expose the pairwise decision H1");

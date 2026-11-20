@@ -96,7 +96,7 @@ const guidePages = [
   },
   {
     slug: "seatgeek-vs-ticketmaster",
-    title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
+    title: "SeatGeek vs Ticketmaster 2026: Fees and Prices Compared",
     description: "Is SeatGeek cheaper than Ticketmaster? Not for every show: Ticketmaster mostly sells face-value tickets, SeatGeek resale. Fees, delivery, protection compared.",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     serverRendered: true

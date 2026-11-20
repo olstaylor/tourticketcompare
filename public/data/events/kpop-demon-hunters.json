@@ -249,7 +249,7 @@
         "event_id": "107682240",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-columbus-tickets-6-16-2027/event/107682240",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -441,7 +441,7 @@
         "event_id": "107681023",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-indianapolis-tickets-6-23-2027/event/107681023",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -860,7 +860,7 @@
         "event_id": "107681027",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-charlotte-tickets-7-7-2027/event/107681027",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1136,7 +1136,7 @@
         "event_id": "107681010",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-dallas-tickets-7-20-2027/event/107681010",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1236,7 +1236,7 @@
         "event_id": "107682216",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-dallas-tickets-7-21-2027/event/107682216",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1527,7 +1527,7 @@
         "event_id": "107682223",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-amsterdam-ziggo-dome-8-9-2027/event/107682223",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1608,7 +1608,7 @@
         "event_id": "107682224",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-amsterdam-ziggo-dome-9-9-2027/event/107682224",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1910,7 +1910,7 @@
         "event_id": "107683580",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-glasgow-ovo-hydro-arena-glasgow-12-10-2027/event/107683580",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -2037,7 +2037,7 @@
         "event_id": "107682215",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-london-the-o2-arena-22-10-2027/event/107682215",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -2175,7 +2175,7 @@
         "event_id": "107681001",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-manchester-manchester-ao-arena-19-10-2027/event/107681001",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -2512,6 +2512,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682218",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-ontario-tickets-8-4-2027/event/107682218",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_ZM",
@@ -2520,6 +2527,7 @@
     "public_onsale_at": "2026-11-20T18:00:00Z",
     "genre": "Pop",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369633",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369633/KPOP-Demon-Hunters-tickets-Wed-Aug-4-2027-Toyota-Arena-Ontario"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369633/KPOP-Demon-Hunters-tickets-Wed-Aug-4-2027-Toyota-Arena-Ontario",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-ontario-tickets-8-4-2027/event/107682218"
   }
 ]

@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682942",
+        "url": "https://www.stubhub.ie/jhene-aiko-saint-louis-tickets-3-10-2027/event/107682942",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkmDcQlF",
@@ -68,7 +75,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-03-06T18:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-saint-louis-tickets-3-10-2027/event/107682942"
   },
   {
     "id": "tm-jhene-aiko-2027-minneapolis-vv17bz_pgkm4rom4",
@@ -131,6 +139,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682943",
+        "url": "https://www.stubhub.ie/jhene-aiko-minneapolis-tickets-3-12-2027/event/107682943",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkM4RoM4",
@@ -159,7 +174,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375589",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375589/Jhene-Aiko-tickets-Fri-Mar-12-2027-Target-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375589/Jhene-Aiko-tickets-Fri-Mar-12-2027-Target-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-minneapolis-tickets-3-12-2027/event/107682943"
   },
   {
     "id": "tm-jhene-aiko-2027-milwaukee-vv17jz_pgkuxx_4x",
@@ -222,6 +238,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682964",
+        "url": "https://www.stubhub.ie/jhene-aiko-milwaukee-tickets-3-13-2027/event/107682964",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_pGkUXX_4X",
@@ -247,7 +270,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375591",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375591/Jhene-Aiko-tickets-Sat-Mar-13-2027-Fiserv-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375591/Jhene-Aiko-tickets-Sat-Mar-13-2027-Fiserv-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-milwaukee-tickets-3-13-2027/event/107682964"
   },
   {
     "id": "tm-jhene-aiko-2027-kansas-city-vv17bz_pgkmduzpp",
@@ -310,6 +334,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682933",
+        "url": "https://www.stubhub.ie/jhene-aiko-kansas-city-tickets-3-15-2027/event/107682933",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkMDUzPp",
@@ -333,7 +364,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375592",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375592/Jhene-Aiko-tickets-Mon-Mar-15-2027-T-Mobile-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375592/Jhene-Aiko-tickets-Mon-Mar-15-2027-T-Mobile-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-kansas-city-tickets-3-15-2027/event/107682933"
   },
   {
     "id": "tm-jhene-aiko-2027-columbus-vv17fz_pgkmwl1_h",
@@ -396,6 +428,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682966",
+        "url": "https://www.stubhub.ie/jhene-aiko-columbus-tickets-3-18-2027/event/107682966",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkMWl1_H",
@@ -420,7 +459,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375595",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375595/Jhene-Aiko-tickets-Thu-Mar-18-2027-Nationwide-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375595/Jhene-Aiko-tickets-Thu-Mar-18-2027-Nationwide-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-columbus-tickets-3-18-2027/event/107682966"
   },
   {
     "id": "tm-jhene-aiko-2027-buffalo-k7vgf_pm2cxpu",
@@ -483,6 +523,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682925",
+        "url": "https://www.stubhub.ie/jhene-aiko-buffalo-tickets-3-19-2027/event/107682925",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pM2CxPu",
@@ -507,7 +554,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375597",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375597/Jhene-Aiko-tickets-Fri-Mar-19-2027-KeyBank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375597/Jhene-Aiko-tickets-Fri-Mar-19-2027-KeyBank-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-buffalo-tickets-3-19-2027/event/107682925"
   },
   {
     "id": "tm-jhene-aiko-2027-chicago-vv178z_pgkm4m_1r",
@@ -570,6 +618,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682928",
+        "url": "https://www.stubhub.ie/jhene-aiko-chicago-tickets-3-21-2027/event/107682928",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_pGkM4M_1r",
@@ -594,7 +649,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375598",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375598/Jhene-Aiko-tickets-Sun-Mar-21-2027-United-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375598/Jhene-Aiko-tickets-Sun-Mar-21-2027-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-chicago-tickets-3-21-2027/event/107682928"
   },
   {
     "id": "tm-jhene-aiko-2027-detroit-vv17oz_pgkwjgvk2",
@@ -657,6 +713,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682945",
+        "url": "https://www.stubhub.ie/jhene-aiko-detroit-tickets-3-22-2027/event/107682945",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkwJgVK2",
@@ -681,7 +744,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375599",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375599/Jhene-Aiko-tickets-Mon-Mar-22-2027-Little-Caesars-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375599/Jhene-Aiko-tickets-Mon-Mar-22-2027-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-detroit-tickets-3-22-2027/event/107682945"
   },
   {
     "id": "tm-jhene-aiko-2027-toronto-1avzz_pgkm8-pwg",
@@ -813,6 +877,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682937",
+        "url": "https://www.stubhub.ie/jhene-aiko-brooklyn-tickets-3-26-2027/event/107682937",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_pGkwQo0E1",
@@ -837,7 +908,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375601",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375601/Jhene-Aiko-tickets-Fri-Mar-26-2027-Barclays-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375601/Jhene-Aiko-tickets-Fri-Mar-26-2027-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-brooklyn-tickets-3-26-2027/event/107682937"
   },
   {
     "id": "tm-jhene-aiko-2027-boston-vv177z_pgkm0b_wn",
@@ -900,6 +972,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682931",
+        "url": "https://www.stubhub.ie/jhene-aiko-boston-tickets-3-27-2027/event/107682931",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkm0B_WN",
@@ -924,7 +1003,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375602",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375602/Jhene-Aiko-tickets-Sat-Mar-27-2027-TD-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375602/Jhene-Aiko-tickets-Sat-Mar-27-2027-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-boston-tickets-3-27-2027/event/107682931"
   },
   {
     "id": "tm-jhene-aiko-2027-pittsburgh-1avbz_pgkuj2euk",
@@ -987,6 +1067,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682958",
+        "url": "https://www.stubhub.ie/jhene-aiko-pittsburgh-tickets-3-29-2027/event/107682958",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkUj2Euk",
@@ -1010,7 +1097,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375603",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375603/Jhene-Aiko-tickets-Mon-Mar-29-2027-PPG-Paints-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375603/Jhene-Aiko-tickets-Mon-Mar-29-2027-PPG-Paints-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-pittsburgh-tickets-3-29-2027/event/107682958"
   },
   {
     "id": "tm-jhene-aiko-2027-washington-1avfz_pgkirkqcv",
@@ -1073,6 +1161,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682936",
+        "url": "https://www.stubhub.ie/jhene-aiko-washington-tickets-4-1-2027/event/107682936",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_pGkIrkQcV",
@@ -1097,7 +1192,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375604",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375604/Jhene-Aiko-tickets-Thu-Apr-1-2027-Capital-One-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375604/Jhene-Aiko-tickets-Thu-Apr-1-2027-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-washington-tickets-4-1-2027/event/107682936"
   },
   {
     "id": "tm-jhene-aiko-2027-newark-vv17fz_pgksjk0ub",
@@ -1160,6 +1256,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682941",
+        "url": "https://www.stubhub.ie/jhene-aiko-newark-tickets-4-2-2027/event/107682941",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_pGkSJk0Ub",
@@ -1189,7 +1292,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375606",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375606/Jhene-Aiko-tickets-Fri-Apr-2-2027-Prudential-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375606/Jhene-Aiko-tickets-Fri-Apr-2-2027-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-newark-tickets-4-2-2027/event/107682941"
   },
   {
     "id": "tm-jhene-aiko-2027-philadelphia-1adzz_pgkmceakj",
@@ -1252,6 +1356,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682926",
+        "url": "https://www.stubhub.ie/jhene-aiko-philadelphia-tickets-4-3-2027/event/107682926",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_pGkMCeaKj",
@@ -1275,7 +1386,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375607",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375607/Jhene-Aiko-tickets-Sat-Apr-3-2027-Xfinity-Mobile-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375607/Jhene-Aiko-tickets-Sat-Apr-3-2027-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-philadelphia-tickets-4-3-2027/event/107682926"
   },
   {
     "id": "tm-jhene-aiko-2027-columbia-g5evz_py95t01",
@@ -1338,6 +1450,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682935",
+        "url": "https://www.stubhub.ie/jhene-aiko-columbia-tickets-4-5-2027/event/107682935",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pY95T01",
@@ -1362,7 +1481,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375608",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375608/Jhene-Aiko-tickets-Mon-Apr-5-2027-Colonial-Life-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375608/Jhene-Aiko-tickets-Mon-Apr-5-2027-Colonial-Life-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-columbia-tickets-4-5-2027/event/107682935"
   },
   {
     "id": "tm-jhene-aiko-2027-charlotte-g5evz_pdpjkpz",
@@ -1425,6 +1545,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682960",
+        "url": "https://www.stubhub.ie/jhene-aiko-charlotte-tickets-4-7-2027/event/107682960",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pDPJkpZ",
@@ -1448,7 +1575,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375609",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375609/Jhene-Aiko-tickets-Wed-Apr-7-2027-Spectrum-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375609/Jhene-Aiko-tickets-Wed-Apr-7-2027-Spectrum-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-charlotte-tickets-4-7-2027/event/107682960"
   },
   {
     "id": "tm-jhene-aiko-2027-raleigh-g5evz_9engbxl",
@@ -1511,6 +1639,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682939",
+        "url": "https://www.stubhub.ie/jhene-aiko-raleigh-tickets-4-8-2027/event/107682939",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_9enGbXl",
@@ -1535,7 +1670,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375610",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375610/Jhene-Aiko-tickets-Thu-Apr-8-2027-Lenovo-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375610/Jhene-Aiko-tickets-Thu-Apr-8-2027-Lenovo-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-raleigh-tickets-4-8-2027/event/107682939"
   },
   {
     "id": "tm-jhene-aiko-2027-atlanta-vvg1zz_puzair5",
@@ -1598,6 +1734,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682955",
+        "url": "https://www.stubhub.ie/jhene-aiko-atlanta-tickets-4-10-2027/event/107682955",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pUzaiR5",
@@ -1622,7 +1765,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375612",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375612/Jhene-Aiko-tickets-Sat-Apr-10-2027-State-Farm-Arena-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375612/Jhene-Aiko-tickets-Sat-Apr-10-2027-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-atlanta-tickets-4-10-2027/event/107682955"
   },
   {
     "id": "tm-jhene-aiko-2027-orlando-1kfovpjagau4wx9",
@@ -1685,6 +1829,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682944",
+        "url": "https://www.stubhub.ie/jhene-aiko-orlando-tickets-4-12-2027/event/107682944",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFOvPjaGAu4wX9",
@@ -1709,7 +1860,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375613",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375613/Jhene-Aiko-tickets-Mon-Apr-12-2027-Kia-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375613/Jhene-Aiko-tickets-Mon-Apr-12-2027-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-orlando-tickets-4-12-2027/event/107682944"
   },
   {
     "id": "tm-jhene-aiko-2027-memphis-g5viz_pwsyuuc",
@@ -1772,6 +1924,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682952",
+        "url": "https://www.stubhub.ie/jhene-aiko-memphis-tickets-4-16-2027/event/107682952",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_pwSyuUc",
@@ -1796,7 +1955,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375614",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375614/Jhene-Aiko-tickets-Fri-Apr-16-2027-FedExForum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375614/Jhene-Aiko-tickets-Fri-Apr-16-2027-FedExForum",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-memphis-tickets-4-16-2027/event/107682952"
   },
   {
     "id": "tm-jhene-aiko-2027-new-orleans-g5viz_pu7vuyk",
@@ -1859,6 +2019,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682927",
+        "url": "https://www.stubhub.ie/jhene-aiko-new-orleans-tickets-4-17-2027/event/107682927",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_pU7VUyk",
@@ -1883,7 +2050,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375615",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375615/Jhene-Aiko-tickets-Sat-Apr-17-2027-Smoothie-King-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375615/Jhene-Aiko-tickets-Sat-Apr-17-2027-Smoothie-King-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-new-orleans-tickets-4-17-2027/event/107682927"
   },
   {
     "id": "tm-jhene-aiko-2027-fort-worth-vvg1yz_pgce3dm",
@@ -1946,6 +2114,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682947",
+        "url": "https://www.stubhub.ie/jhene-aiko-fort-worth-tickets-4-20-2027/event/107682947",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pgcE3dm",
@@ -1970,7 +2145,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375616",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375616/Jhene-Aiko-tickets-Tue-Apr-20-2027-Ariat-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375616/Jhene-Aiko-tickets-Tue-Apr-20-2027-Ariat-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-fort-worth-tickets-4-20-2027/event/107682947"
   },
   {
     "id": "tm-jhene-aiko-2027-austin-g5diz_pvhlinm",
@@ -2033,6 +2209,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682956",
+        "url": "https://www.stubhub.ie/jhene-aiko-austin-tickets-4-22-2027/event/107682956",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pVhLiNM",
@@ -2057,7 +2240,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375585",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375585/Jhene-Aiko-tickets-Thu-Apr-22-2027-Moody-Center-ATX"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375585/Jhene-Aiko-tickets-Thu-Apr-22-2027-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-austin-tickets-4-22-2027/event/107682956"
   },
   {
     "id": "tm-jhene-aiko-2027-denver-g5vzz_pu930ac",
@@ -2120,6 +2304,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682940",
+        "url": "https://www.stubhub.ie/jhene-aiko-denver-tickets-4-27-2027/event/107682940",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pU930ac",
@@ -2144,7 +2335,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375617",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375617/Jhene-Aiko-tickets-Tue-Apr-27-2027-Ball-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375617/Jhene-Aiko-tickets-Tue-Apr-27-2027-Ball-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-denver-tickets-4-27-2027/event/107682940"
   },
   {
     "id": "tm-jhene-aiko-2027-phoenix-1av0z_pgkmb6tzk",
@@ -2207,6 +2399,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682948",
+        "url": "https://www.stubhub.ie/jhene-aiko-phoenix-tickets-4-29-2027/event/107682948",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkMb6tzk",
@@ -2231,7 +2430,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375619",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375619/Jhene-Aiko-tickets-Thu-Apr-29-2027-Mortgage-Matchup-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375619/Jhene-Aiko-tickets-Thu-Apr-29-2027-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-phoenix-tickets-4-29-2027/event/107682948"
   },
   {
     "id": "tm-jhene-aiko-2027-anaheim-vv170z_pgks682ex",
@@ -2294,6 +2494,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682949",
+        "url": "https://www.stubhub.ie/jhene-aiko-anaheim-tickets-5-1-2027/event/107682949",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGkS682eX",
@@ -2323,7 +2530,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375620",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375620/Jhene-Aiko-tickets-Sat-May-1-2027-Honda-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375620/Jhene-Aiko-tickets-Sat-May-1-2027-Honda-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-anaheim-tickets-5-1-2027/event/107682949"
   },
   {
     "id": "tm-jhene-aiko-2027-san-francisco-g5vyz_plmqsld",
@@ -2386,6 +2594,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682932",
+        "url": "https://www.stubhub.ie/jhene-aiko-san-francisco-tickets-5-7-2027/event/107682932",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_plMqSLd",
@@ -2415,7 +2630,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375622",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375622/Jhene-Aiko-tickets-Fri-May-7-2027-Chase-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375622/Jhene-Aiko-tickets-Fri-May-7-2027-Chase-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-san-francisco-tickets-5-7-2027/event/107682932"
   },
   {
     "id": "tm-jhene-aiko-2027-sacramento-g5vyz_psayvgp",
@@ -2478,6 +2694,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682929",
+        "url": "https://www.stubhub.ie/jhene-aiko-sacramento-tickets-5-9-2027/event/107682929",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pSAyvGP",
@@ -2502,7 +2725,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375623",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375623/Jhene-Aiko-tickets-Sun-May-9-2027-Golden-1-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375623/Jhene-Aiko-tickets-Sun-May-9-2027-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-sacramento-tickets-5-9-2027/event/107682929"
   },
   {
     "id": "tm-jhene-aiko-2027-portland-vvg1hz_pr1sldf",
@@ -2565,6 +2789,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682954",
+        "url": "https://www.stubhub.ie/jhene-aiko-portland-tickets-5-12-2027/event/107682954",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pR1SlDf",
@@ -2588,7 +2819,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375624",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375624/Jhene-Aiko-tickets-Wed-May-12-2027-Moda-Center-at-the-Rose-Quarter"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375624/Jhene-Aiko-tickets-Wed-May-12-2027-Moda-Center-at-the-Rose-Quarter",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-portland-tickets-5-12-2027/event/107682954"
   },
   {
     "id": "tm-jhene-aiko-2027-seattle-vvg1hz_pm77anw",
@@ -2651,6 +2883,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682951",
+        "url": "https://www.stubhub.ie/jhene-aiko-seattle-tickets-5-13-2027/event/107682951",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pM77anw",
@@ -2675,7 +2914,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375626",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375626/Jhene-Aiko-tickets-Thu-May-13-2027-Climate-Pledge-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375626/Jhene-Aiko-tickets-Thu-May-13-2027-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-seattle-tickets-5-13-2027/event/107682951"
   },
   {
     "id": "tm-jhene-aiko-2027-vancouver-1av7z_pgkwqspc7",
@@ -2738,6 +2978,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682930",
+        "url": "https://www.stubhub.ie/jhene-aiko-tickets-vancouver-rogers-arena-5-15-2027/event/107682930",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_pGkwqSPc7",
@@ -2765,7 +3012,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375630",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375630/Jhene-Aiko-tickets-Sat-May-15-2027-Rogers-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375630/Jhene-Aiko-tickets-Sat-May-15-2027-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-tickets-vancouver-rogers-arena-5-15-2027/event/107682930"
   },
   {
     "id": "tm-jhene-aiko-2027-west-valley-city-g5vzz_ps36muq",
@@ -2898,6 +3146,13 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682962",
+        "url": "https://www.stubhub.ie/jhene-aiko-los-angeles-tickets-5-21-2027/event/107682962",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eYZ_pUSYooV",
@@ -2927,7 +3182,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375628",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375628/Jhene-Aiko-tickets-Fri-May-21-2027-Cryptocom-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375628/Jhene-Aiko-tickets-Fri-May-21-2027-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-los-angeles-tickets-5-21-2027/event/107682962"
   },
   {
     "id": "tm-jhene-aiko-2027-los-angeles-g5eyz_9ditouk",

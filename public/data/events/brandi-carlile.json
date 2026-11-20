@@ -1433,7 +1433,7 @@
         "event_id": "107473168",
         "url": "https://www.stubhub.ie/brandi-carlile-tickets-glasgow-sec-armadillo-6-4-2027/event/107473168",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1505,17 +1505,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107473169",
-        "url": "https://www.stubhub.ie/brandi-carlile-tickets-glasgow-sec-armadillo-7-4-2027/event/107473169",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfAGkeEYwvX",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/brandi-carlile-tickets-glasgow-sec-armadillo-7-4-2027/event/107473169",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG PRESENTS",
       "SCOTTISH EVENT CAMPUS LIMITED"
@@ -1575,7 +1575,7 @@
         "event_id": "107469495",
         "url": "https://www.stubhub.ie/brandi-carlile-tickets-manchester-o2-apollo-manchester-9-4-2027/event/107469495",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1642,7 +1642,7 @@
         "event_id": "107469496",
         "url": "https://www.stubhub.ie/brandi-carlile-tickets-manchester-o2-apollo-manchester-10-4-2027/event/107469496",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1709,7 +1709,7 @@
         "event_id": "107473172",
         "url": "https://www.stubhub.ie/brandi-carlile-tickets-london-eventim-apollo-13-4-2027/event/107473172",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1775,7 +1775,7 @@
         "event_id": "107473171",
         "url": "https://www.stubhub.ie/brandi-carlile-tickets-london-eventim-apollo-14-4-2027/event/107473171",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },

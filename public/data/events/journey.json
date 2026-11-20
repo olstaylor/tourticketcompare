@@ -1455,11 +1455,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107169148",
-        "url": "https://www.stubhub.ie/journey-houston-tickets-11-18-2026/event/107169148",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70_fz",
@@ -1468,7 +1468,7 @@
     "ticketliquidator_url": "",
     "ticketnetwork_url": "",
     "genre": "Rock",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-houston-tickets-11-18-2026/event/107169148"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-journey-2026-dallas-vvg1yz_14w7vrn",
@@ -1529,7 +1529,7 @@
         "event_id": "107170294",
         "url": "https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1691,7 +1691,7 @@
         "event_id": "107625088",
         "url": "https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1785,7 +1785,7 @@
         "event_id": "107170293",
         "url": "https://www.stubhub.ie/journey-las-vegas-tickets-11-27-2026/event/107170293",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1863,7 +1863,7 @@
         "event_id": "107169142",
         "url": "https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticketnetwork": {

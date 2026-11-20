@@ -703,6 +703,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682852",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-cardiff-cardiff-castle-30-5-2027/event/107682852",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_4wcs0vC",
@@ -741,7 +748,8 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-cardiff-cardiff-castle-30-5-2027/event/107682852"
   },
   {
     "id": "tm-tom-jones-2027-london-g5vhz_4bny4uy",
@@ -857,6 +865,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683868",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-liverpool-pier-head-liverpool-20-6-2027/event/107683868",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_pQM3Anq",
@@ -889,7 +904,8 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-liverpool-pier-head-liverpool-20-6-2027/event/107683868"
   },
   {
     "id": "tm-tom-jones-2027-lincoln-g5vhz_4w3ae65",
@@ -938,6 +954,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683866",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-lincoln-lincoln-castle-23-6-2027/event/107683866",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_4w3Ae65",
@@ -980,7 +1003,8 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-lincoln-lincoln-castle-23-6-2027/event/107683866"
   },
   {
     "id": "tm-tom-jones-2027-rugeley-1amzk4tgkejv7jb",
@@ -1029,6 +1053,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683850",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-rugeley-cannock-chase-forest-25-6-2027/event/107683850",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4tGkeJV7Jb",
@@ -1062,7 +1093,8 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-rugeley-cannock-chase-forest-25-6-2027/event/107683850"
   },
   {
     "id": "tm-tom-jones-2027-llangollen-g5vhz_pwfve8t",
@@ -1197,6 +1229,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682871",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-woodstock-blenheim-palace-30-6-2027/event/107682871",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4tGketWVU7",
@@ -1245,7 +1284,8 @@
         "start": "2026-11-19T10:00:00Z",
         "end": "2026-11-20T09:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-woodstock-blenheim-palace-30-6-2027/event/107682871"
   },
   {
     "id": "tm-tom-jones-2027-newcastle-g5vhz_pjbj04_",

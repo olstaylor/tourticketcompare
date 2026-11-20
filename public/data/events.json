@@ -435098,5 +435098,1286 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362334",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362334/Hannah-Harper-tickets-Fri-Jul-30-2027-Effingham-Performance-Center"
+  },
+  {
+    "id": "tm-tame-impala-2027-tulsa-1aezz_pgkmxe71m",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-02-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000656BA29C42B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000656BA29C42B7",
+        "discovery_event_id": "1AeZZ_pGkmxE71M",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_pGkmxE71M",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-25T18:00:00Z"
+  },
+  {
+    "id": "tm-stray-kids-2027-chicago-vv167zk4yjazaue56a",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT CHICAGO]",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-06-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006570705C1A68",
+    "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-19-2027/event/04006570705C1A68",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-19-2027/event/04006570705C1A68",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006570705C1A68",
+        "discovery_event_id": "vv167Zk4YjAZAue56a",
+        "url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-19-2027/event/04006570705C1A68",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv167Zk4YjAZAue56a",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stray-kids-2027-munich-z698xzc2z1kb0z0om",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT MUNICH]",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-18T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "624024837",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/624024837?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/624024837?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "624024837",
+        "discovery_event_id": "Z698xZC2Z1kb0Z0OM",
+        "url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/624024837?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kb0Z0OM",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stray-kids-2027-arnhem-z698xzbpz16vp04wpo",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT ARNHEM]",
+    "city": "Arnhem",
+    "country": "Netherlands",
+    "venue": "Gelredome",
+    "datetime_iso": "2027-07-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1964572591",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/1964572591?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/1964572591?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1964572591",
+        "discovery_event_id": "Z698xZbpZ16vP04wpo",
+        "url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/1964572591?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vP04wpo",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-garth-brooks-2026-minneapolis-z7r9jz1aaaff6",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2026-12-12T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAFF6",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAFF6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAFF6",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAFF6",
+        "discovery_event_id": "Z7r9jZ1AAAFF6",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAFF6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAFF6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sam-fender-2027-milwaukee-z7r9jz1aaaozy",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "The Rave-Eagles Club",
+    "datetime_iso": "2027-04-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAoZy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoZy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoZy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAoZy",
+        "discovery_event_id": "Z7r9jZ1AAAoZy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoZy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoZy",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sam-fender-2027-morrison-z7r9jz1aaaaoe",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender: North America Tour '27",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-04-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAaOe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaOe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaOe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAaOe",
+        "discovery_event_id": "Z7r9jZ1AAAaOe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaOe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAaOe",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaa6ce",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-08T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6Ce",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6Ce",
+        "discovery_event_id": "Z7r9jZ1AAA6Ce",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6Ce",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaa6cv",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-09T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6Cv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6Cv",
+        "discovery_event_id": "Z7r9jZ1AAA6Cv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6Cv",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaa40k",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-10T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA40k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA40k",
+        "discovery_event_id": "Z7r9jZ1AAA40k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA40k",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaa6cd",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-12T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6Cd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6Cd",
+        "discovery_event_id": "Z7r9jZ1AAA6Cd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6Cd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaab04",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-13T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAb04",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAb04",
+        "discovery_event_id": "Z7r9jZ1AAAb04",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAb04",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jon-pardi-2026-nashville-g5viz_p4pjkae",
+    "artist_slug": "jon-pardi",
+    "artist_name": "Jon Pardi",
+    "event_name": "JON PARDI - THE CHRISTMAS SHOW - ONE NIGHT ONLY",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-12-18T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656565993242",
+    "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656565993242",
+        "discovery_event_id": "G5viZ_p4PJKae",
+        "url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_p4PJKae",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-scarborough-1agzk4pgkd-8j_w",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club \r\nWith Guests Friendly Fires + Danny Griffiths",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-08-06T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006565E141C67D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-guests-scarborough-06-08-2027/event/35006565E141C67D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-guests-scarborough-06-08-2027/event/35006565E141C67D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006565E141C67D",
+        "discovery_event_id": "1AgZk4PGkd-8j_W",
+        "url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-guests-scarborough-06-08-2027/event/35006565E141C67D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4PGkd-8j_W",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-26T10:00:00Z"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-halifax-1ku8vp3fga2fekm",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club With Special Guests Arkayla + Danny Griffiths",
+    "city": "Halifax",
+    "country": "Great Britain",
+    "venue": "The Piece Hall",
+    "datetime_iso": "2027-08-07T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065488F5024F7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-special-halifax-07-08-2027/event/350065488F5024F7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-special-halifax-07-08-2027/event/350065488F5024F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065488F5024F7",
+        "discovery_event_id": "1ku8vP3FGA2feKM",
+        "url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-special-halifax-07-08-2027/event/350065488F5024F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8vP3FGA2feKM",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-26T10:00:00Z"
+  },
+  {
+    "id": "tm-foreigner-2027-irvine-z7r9jz1aaa6uy",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner",
+    "city": "Irvine",
+    "country": "United States Of America",
+    "venue": "Great Park Live",
+    "datetime_iso": "2027-03-28T00:15:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6uy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6uy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6uy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6uy",
+        "discovery_event_id": "Z7r9jZ1AAA6uy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6uy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6uy",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-mat-kearney-2027-carmel-z7r9jz1aaa_49",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Carmel",
+    "country": "United States Of America",
+    "venue": "Allied Solutions Center for the Performing Arts",
+    "datetime_iso": "2027-11-15T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_49",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_49",
+        "discovery_event_id": "Z7r9jZ1AAA_49",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_49",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-newark-vv1aezk4pgkd6hbhj",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-06-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006565C76FA6E6",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-13-2027/event/02006565C76FA6E6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-13-2027/event/02006565C76FA6E6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006565C76FA6E6",
+        "discovery_event_id": "vv1AeZk4PGkd6hBhJ",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-13-2027/event/02006565C76FA6E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4PGkd6hBhJ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-columbus-vv1aazk4pgkdbznja",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2027-06-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006565D8E2A709",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-15-2027/event/05006565D8E2A709",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-15-2027/event/05006565D8E2A709",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006565D8E2A709",
+        "discovery_event_id": "vv1AAZk4PGkdbznja",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-15-2027/event/05006565D8E2A709",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4PGkdbznja",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T15:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-chicago-vv178z_pgkra4jvj",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-06-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400656BC955CD1C",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-20-2027/event/0400656BC955CD1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-20-2027/event/0400656BC955CD1C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400656BC955CD1C",
+        "discovery_event_id": "vv178Z_pGkRa4jVj",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-20-2027/event/0400656BC955CD1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_pGkRa4jVj",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T16:00:00Z"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-ontario-z7r9jz1aaa_zm",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Ontario",
+    "country": "United States Of America",
+    "venue": "Toyota Arena-CA",
+    "datetime_iso": "2027-08-05T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_ZM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_ZM",
+        "discovery_event_id": "Z7r9jZ1AAA_ZM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_ZM",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-two-friends-2027-miami-beach-rz7hnez1a4vo7k",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "LIV Nightclub Miami",
+    "datetime_iso": "2027-01-17T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15060113",
+    "ticketmaster_url": "https://www.ticketweb.com/event/two-friends-liv-nightclub-miami-tickets/15060113",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/two-friends-liv-nightclub-miami-tickets/15060113",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15060113",
+        "discovery_event_id": "rZ7HnEZ1A4vO7K",
+        "url": "https://www.ticketweb.com/event/two-friends-liv-nightclub-miami-tickets/15060113",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1A4vO7K",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-los-angeles-g5eyz_9ditouk",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-05-23T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2C006570ECFD1353",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-22-2027/event/2C006570ECFD1353",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-22-2027/event/2C006570ECFD1353",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C006570ECFD1353",
+        "discovery_event_id": "G5eYZ_9diTouK",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-22-2027/event/2C006570ECFD1353",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eYZ_9diTouK",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-20T18:00:00Z"
+  },
+  {
+    "id": "tm-hannah-harper-2027-richmond-z7r9jz1aaa_qa",
+    "artist_slug": "hannah-harper",
+    "artist_name": "Hannah Harper",
+    "event_name": "Hannah Harper",
+    "city": "Richmond",
+    "country": "United States Of America",
+    "venue": "Carpenter Theatre at Dominion Energy Center",
+    "datetime_iso": "2027-03-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_Qa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_Qa",
+        "discovery_event_id": "Z7r9jZ1AAA_Qa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_Qa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

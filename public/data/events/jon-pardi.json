@@ -844,5 +844,58 @@
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
     "genre": "Country"
+  },
+  {
+    "id": "tm-jon-pardi-2026-nashville-g5viz_p4pjkae",
+    "artist_slug": "jon-pardi",
+    "artist_name": "Jon Pardi",
+    "event_name": "JON PARDI - THE CHRISTMAS SHOW - ONE NIGHT ONLY",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-12-18T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656565993242",
+    "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656565993242",
+        "discovery_event_id": "G5viZ_p4PJKae",
+        "url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_p4PJKae",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

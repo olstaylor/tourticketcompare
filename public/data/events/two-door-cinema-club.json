@@ -1751,5 +1751,113 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8338949",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8338949/Two-Door-Cinema-Club-tickets-Sat-May-29-2027-The-Bomb-Factory",
     "genre": "Alternative"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-scarborough-1agzk4pgkd-8j_w",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club \r\nWith Guests Friendly Fires + Danny Griffiths",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-08-06T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006565E141C67D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-guests-scarborough-06-08-2027/event/35006565E141C67D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-guests-scarborough-06-08-2027/event/35006565E141C67D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006565E141C67D",
+        "discovery_event_id": "1AgZk4PGkd-8j_W",
+        "url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-guests-scarborough-06-08-2027/event/35006565E141C67D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4PGkd-8j_W",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-26T10:00:00Z"
+  },
+  {
+    "id": "tm-two-door-cinema-club-2027-halifax-1ku8vp3fga2fekm",
+    "artist_slug": "two-door-cinema-club",
+    "artist_name": "Two Door Cinema Club",
+    "event_name": "Two Door Cinema Club With Special Guests Arkayla + Danny Griffiths",
+    "city": "Halifax",
+    "country": "Great Britain",
+    "venue": "The Piece Hall",
+    "datetime_iso": "2027-08-07T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065488F5024F7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-special-halifax-07-08-2027/event/350065488F5024F7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-special-halifax-07-08-2027/event/350065488F5024F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065488F5024F7",
+        "discovery_event_id": "1ku8vP3FGA2feKM",
+        "url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-special-halifax-07-08-2027/event/350065488F5024F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8vP3FGA2feKM",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-26T10:00:00Z"
   }
 ]

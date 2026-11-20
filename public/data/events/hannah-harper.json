@@ -725,5 +725,58 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362334",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362334/Hannah-Harper-tickets-Fri-Jul-30-2027-Effingham-Performance-Center"
+  },
+  {
+    "id": "tm-hannah-harper-2027-richmond-z7r9jz1aaa_qa",
+    "artist_slug": "hannah-harper",
+    "artist_name": "Hannah Harper",
+    "event_name": "Hannah Harper",
+    "city": "Richmond",
+    "country": "United States Of America",
+    "venue": "Carpenter Theatre at Dominion Energy Center",
+    "datetime_iso": "2027-03-08T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_Qa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_Qa",
+        "discovery_event_id": "Z7r9jZ1AAA_Qa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_Qa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

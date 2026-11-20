@@ -1455,5 +1455,111 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-vancouver-rogers-arena-5-9-2027/event/107681052"
+  },
+  {
+    "id": "tm-sam-fender-2027-milwaukee-z7r9jz1aaaozy",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "The Rave-Eagles Club",
+    "datetime_iso": "2027-04-28T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAoZy",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoZy",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoZy",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAoZy",
+        "discovery_event_id": "Z7r9jZ1AAAoZy",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoZy",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoZy",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-sam-fender-2027-morrison-z7r9jz1aaaaoe",
+    "artist_slug": "sam-fender",
+    "artist_name": "Sam Fender",
+    "event_name": "Sam Fender: North America Tour '27",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-04-30T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAaOe",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaOe",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaOe",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAaOe",
+        "discovery_event_id": "Z7r9jZ1AAAaOe",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaOe",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAaOe",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

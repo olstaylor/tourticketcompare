@@ -2197,5 +2197,58 @@
         "end": "2027-06-27T16:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-two-friends-2027-miami-beach-rz7hnez1a4vo7k",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "LIV Nightclub Miami",
+    "datetime_iso": "2027-01-17T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15060113",
+    "ticketmaster_url": "https://www.ticketweb.com/event/two-friends-liv-nightclub-miami-tickets/15060113",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/two-friends-liv-nightclub-miami-tickets/15060113",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15060113",
+        "discovery_event_id": "rZ7HnEZ1A4vO7K",
+        "url": "https://www.ticketweb.com/event/two-friends-liv-nightclub-miami-tickets/15060113",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1A4vO7K",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

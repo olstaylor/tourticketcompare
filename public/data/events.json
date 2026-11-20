@@ -66125,7 +66125,7 @@
     "ticketmaster_event_id": "360064B6A5CCB2E0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-the-stray-dogs-cardiff-08-02-2027/event/360064B6A5CCB2E0",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-cardiff-utilita-arena-cardiff-2-8-2027/production/7096152",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/nothing-but-thieves-the-stray-dogs-cardiff-08-02-2027/event/360064B6A5CCB2E0",
     "last_verified_at": "2026-11-07",
@@ -66147,11 +66147,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7096152,
-        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-cardiff-utilita-arena-cardiff-2-8-2027/production/7096152",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -84309,7 +84309,7 @@
         "event_id": 7235039,
         "url": "https://www.vividseats.com/vnv-nation-tickets-salt-lake-city-the-complex---the-grand-3-26-2027--concerts-rock/production/7235039",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -89640,7 +89640,7 @@
         "event_id": 7144191,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-denver-ogden-theatre-3-5-2027--concerts-dance-electronica/production/7144191",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -99346,7 +99346,7 @@
         "event_id": 7106466,
         "url": "https://www.vividseats.com/fkj-tickets-salt-lake-city-the-complex---rockwell-4-28-2027--concerts-pop/production/7106466",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -99415,7 +99415,7 @@
         "event_id": 7144187,
         "url": "https://www.vividseats.com/sylvan-esso-tickets-salt-lake-city-the-complex---rockwell-3-4-2027--concerts-dance-electronica/production/7144187",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -108368,7 +108368,7 @@
         "event_id": 7557732,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-25-2027/production/7557732",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -117732,7 +117732,7 @@
         "event_id": 7855378,
         "url": "https://www.vividseats.com/psychedelic-furs-tickets-birmingham-o2-academy---birmingham-1-26-2027/production/7855378",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -135513,7 +135513,7 @@
         "event_id": 7592484,
         "url": "https://www.vividseats.com/the-interrupters-tickets-toronto-history-toronto-4-10-2027--concerts-rock/production/7592484",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -137985,7 +137985,7 @@
         "event_id": 7492662,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-minneapolis-first-avenue-3-4-2027--concerts-rock/production/7492662",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -138109,7 +138109,7 @@
         "event_id": 7492671,
         "url": "https://www.vividseats.com/dinosaur-jr-tickets-toronto-the-danforth-music-hall-3-7-2027--concerts-rock/production/7492671",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -152456,7 +152456,7 @@
         "event_id": 7579426,
         "url": "https://www.vividseats.com/valley-the-band-tickets-london-london-music-hall---ontario-2-10-2027--concerts-rock/production/7579426",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -195360,7 +195360,7 @@
         "event_id": 7593326,
         "url": "https://www.vividseats.com/haiden-henderson-tickets-salt-lake-city-the-complex---the-grand-5-6-2027--concerts-pop/production/7593326",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -195768,7 +195768,7 @@
         "event_id": 7559449,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-omaha-the-waiting-room---ne-3-16-2027/production/7559449",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -196410,7 +196410,7 @@
         "event_id": 7636625,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-salt-lake-city-the-complex---rockwell-4-27-2027--concerts-pop/production/7636625",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -212322,7 +212322,7 @@
         "event_id": 7637904,
         "url": "https://www.vividseats.com/chelsea-cutler-tickets-salt-lake-city-the-complex---rockwell-3-9-2027--concerts-alternative/production/7637904",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -228910,7 +228910,7 @@
         "event_id": 7595234,
         "url": "https://www.vividseats.com/the-lemonheads-tickets-columbus-rumba-cafe-3-27-2027/production/7595234",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -239048,7 +239048,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAebpZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebpZ",
     "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/cambridge-massachusetts-the-sinclair-cambridge-2027-02-24-8-pm/concert/18702716",
-    "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-cambridge-the-sinclair-2-24-2027/production/7629617",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAebpZ",
     "last_verified_at": "2026-11-07",
@@ -239070,11 +239070,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7629617,
-        "url": "https://www.vividseats.com/mei-semones-tickets-cambridge-the-sinclair-2-24-2027/production/7629617",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -259903,7 +259903,7 @@
     "ticketmaster_event_id": "3600651C8DDB7D86",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/hayley-williams-tickets-cardiff-utilita-arena-cardiff-6-30-2027/production/7558330",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
     "last_verified_at": "2026-11-07",
@@ -259925,11 +259925,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7558330,
-        "url": "https://www.vividseats.com/hayley-williams-tickets-cardiff-utilita-arena-cardiff-6-30-2027/production/7558330",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -276572,7 +276572,7 @@
     "ticketmaster_event_id": "1E0064B4954A8177",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
     "last_verified_at": "2026-11-15",
@@ -276594,11 +276594,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7079517,
-        "url": "https://www.vividseats.com/arcangel-tickets-salt-lake-city-the-union-event-center---salt-lake-city-11-18-2026--concerts-rap-hip-hop/production/7079517",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -291317,7 +291317,7 @@
         "event_id": 7131884,
         "url": "https://www.vividseats.com/sleeping-with-sirens-tickets-london-o2-academy-brixton-3-7-2027/production/7131884",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -319662,7 +319662,7 @@
     "ticketmaster_event_id": "1610784975",
     "ticketmaster_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/bryan-adams-tickets-magdeburg-domplatz-magdeburg-8-13-2027/production/7661286",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/bryan-adams-roll-with-the-punches-tickets/1610784975?language=en-us",
     "last_verified_at": "2026-11-07",
@@ -319684,11 +319684,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7661286,
+        "url": "https://www.vividseats.com/bryan-adams-tickets-magdeburg-domplatz-magdeburg-8-13-2027/production/7661286",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -321979,7 +321979,7 @@
     "ticketmaster_event_id": "1684589224",
     "ticketmaster_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/simply-red-summer-funk27-tickets/1684589224?language=en-us",
     "last_verified_at": "2026-11-07",
@@ -322001,11 +322001,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7590767,
-        "url": "https://www.vividseats.com/simply-red-tickets-fulda-domplatz-fulda-6-30-2027/production/7590767",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -324315,7 +324315,7 @@
         "event_id": 7767692,
         "url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-4-2026--concerts-country-and-folk/production/7767692",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -325955,7 +325955,7 @@
     "ticketmaster_event_id": "10006539CD99E80F",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
     "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/toronto-canada-rebel-4-2027-03-01-7-pm/concert/18633557",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-toronto-rebel---on-3-1-2027/production/7624318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
     "last_verified_at": "2026-11-07",
@@ -325977,11 +325977,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7624318,
+        "url": "https://www.vividseats.com/dropkick-murphys-tickets-toronto-rebel---on-3-1-2027/production/7624318",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -337374,7 +337374,7 @@
         "event_id": 7773209,
         "url": "https://www.vividseats.com/noah-kahan-tickets-sevilla-plaza-de-espana-7-7-2027--concerts-pop/production/7773209",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -339659,7 +339659,7 @@
         "event_id": 7743420,
         "url": "https://www.vividseats.com/hollywood-undead-tickets-london-o2-forum-kentish-town-2-24-2027/production/7743420",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -343560,7 +343560,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7kAf",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/vancouver-canada-pne-forum-vancouver-2027-05-21-8-pm/concert/18664793",
-    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-vancouver-pne-forum-5-21-2027--concerts-pop/production/7679383",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
     "last_verified_at": null,
@@ -343582,11 +343582,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7679383,
-        "url": "https://www.vividseats.com/remi-wolf-tickets-vancouver-pne-forum-5-21-2027--concerts-pop/production/7679383",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -344257,7 +344257,7 @@
         "event_id": 7047661,
         "url": "https://www.vividseats.com/air-supply-tickets-jacksonville-florida-theatre-jacksonville-11-22-2026/production/7047661",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -349660,7 +349660,7 @@
     "ticketmaster_event_id": "31006523BBD99024",
     "ticketmaster_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-ottawa-ontario-03-11-2027/event/31006523BBD99024",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/theory-of-a-deadman-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-11-2027/production/7532230",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/theory-of-a-deadman-the-northern-ottawa-ontario-03-11-2027/event/31006523BBD99024",
     "last_verified_at": "2026-11-12",
@@ -349682,11 +349682,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7532230,
+        "url": "https://www.vividseats.com/theory-of-a-deadman-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-11-2027/production/7532230",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -350668,7 +350668,7 @@
     "ticketmaster_event_id": "1600653AEDC6D8AB",
     "ticketmaster_url": "https://www.ticketmaster.com/black-stone-cherry-lexington-kentucky-11-27-2026/event/1600653AEDC6D8AB",
     "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/lexington-kentucky-manchester-music-hall-2026-11-27-8-pm/concert/18630042",
-    "vividseats_url": "https://www.vividseats.com/black-stone-cherry-tickets-lexington-manchester-music-hall-11-27-2026/production/7620989",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/black-stone-cherry-lexington-kentucky-11-27-2026/event/1600653AEDC6D8AB",
     "last_verified_at": "2026-11-07",
@@ -350690,11 +350690,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7620989,
-        "url": "https://www.vividseats.com/black-stone-cherry-tickets-lexington-manchester-music-hall-11-27-2026/production/7620989",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -352158,7 +352158,7 @@
     "ticketmaster_event_id": "35006554A4B027DF",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-6-27-2027/production/7755406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kings-of-leon-scarborough-27-06-2027/event/35006554A4B027DF",
     "last_verified_at": "2026-11-07",
@@ -352180,11 +352180,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7755406,
+        "url": "https://www.vividseats.com/kings-of-leon-tickets-scarborough-scarborough-open-air-theatre-6-27-2027/production/7755406",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -359278,7 +359278,7 @@
         "event_id": 7799440,
         "url": "https://www.vividseats.com/rod-stewart-tickets-glasgow-ovo-hydro-5-18-2027/production/7799440",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -359971,7 +359971,7 @@
         "event_id": 7871152,
         "url": "https://www.vividseats.com/dom-dolla-tickets-las-vegas-liv-nightclub-las-vegas-11-21-2026--concerts-dance-electronica/production/7871152",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -367148,7 +367148,7 @@
         "event_id": 7799914,
         "url": "https://www.vividseats.com/blondshell-tickets-cleveland-the-odeon-concert-club-5-18-2027/production/7799914",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -373436,7 +373436,7 @@
         "event_id": 7559511,
         "url": "https://www.vividseats.com/air-supply-tickets-penticton-south-okanagan-events-centre-2-19-2027/production/7559511",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -373576,7 +373576,7 @@
         "event_id": 7565859,
         "url": "https://www.vividseats.com/pink-martini-tickets-portland-revolution-hall-portland-11-29-2026/production/7565859",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -373646,7 +373646,7 @@
         "event_id": 7726794,
         "url": "https://www.vividseats.com/sienna-spiro-tickets-atlanta-fox-theatre---atlanta-8-10-2027--concerts-pop/production/7726794",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -373843,7 +373843,7 @@
         "event_id": 7768721,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-central-east-austin-united-heritage-hall-3-23-2027/production/7768721",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -374105,7 +374105,7 @@
         "event_id": 7795251,
         "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-denver-bellco-theatre-at-colorado-convention-center-2-27-2027--concerts-latin-music/production/7795251",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -374315,7 +374315,7 @@
         "event_id": 7799310,
         "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-hartford-peoplesbank-arena-4-17-2027/production/7799310",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -374451,7 +374451,7 @@
         "event_id": 7763777,
         "url": "https://www.vividseats.com/koe-wetzel-tickets-rohnert-park-the-event-at-graton-resort-and-casino-1-8-2027--concerts-country-and-folk/production/7763777",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -381172,7 +381172,7 @@
         "event_id": 7824372,
         "url": "https://www.vividseats.com/kings-of-leon-tickets-toronto-rbc-amphitheatre-6-2-2027/production/7824372",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -386920,7 +386920,7 @@
         "event_id": 7833211,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-london-the-o2---london-1-27-2027--concerts-rap-hip-hop/production/7833211",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -386983,7 +386983,7 @@
         "event_id": 7832747,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-1-29-2027/production/7832747",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -387521,7 +387521,7 @@
         "event_id": 7835278,
         "url": "https://www.vividseats.com/fall-out-boy-tickets-glasgow-ovo-hydro-5-30-2027--concerts-rock/production/7835278",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -387680,7 +387680,7 @@
         "event_id": 7835282,
         "url": "https://www.vividseats.com/fall-out-boy-tickets-manchester-co-op-live-6-3-2027--concerts-rock/production/7835282",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -387762,7 +387762,7 @@
         "event_id": 7835284,
         "url": "https://www.vividseats.com/fall-out-boy-tickets-london-tottenham-hotspur-stadium-6-5-2027--concerts-rock/production/7835284",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -389747,7 +389747,7 @@
         "event_id": 7835102,
         "url": "https://www.vividseats.com/the-dead-south-tickets-silver-spring-the-fillmore-silver-spring-4-19-2027/production/7835102",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -389882,7 +389882,7 @@
         "event_id": 7833445,
         "url": "https://www.vividseats.com/the-dead-south-tickets-kansas-city-crossroads-kc-at-grinders-4-28-2027/production/7833445",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -390014,7 +390014,7 @@
         "event_id": 7834201,
         "url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -390306,7 +390306,7 @@
         "event_id": 7834195,
         "url": "https://www.vividseats.com/the-dead-south-tickets-edmonton-edmonton-expo-centre-9-26-2027/production/7834195",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -390426,7 +390426,7 @@
         "event_id": 7833561,
         "url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-1-2027/production/7833561",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -390574,7 +390574,7 @@
         "event_id": 7834159,
         "url": "https://www.vividseats.com/the-dead-south-tickets-ottawa-history-ottawa-10-3-2027/production/7834159",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -390688,7 +390688,7 @@
         "event_id": 7833549,
         "url": "https://www.vividseats.com/the-dead-south-tickets-winnipeg-burton-cummings-theatre-10-7-2027/production/7833549",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -390772,7 +390772,7 @@
         "event_id": 7843441,
         "url": "https://www.vividseats.com/alan-walker-tickets-atlanta-coca-cola-roxy-theatre-1-29-2027--concerts-dance-electronica/production/7843441",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -390918,7 +390918,7 @@
         "event_id": 7835470,
         "url": "https://www.vividseats.com/alan-walker-tickets-lake-buena-vista-house-of-blues-orlando-2-4-2027/production/7835470",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391117,7 +391117,7 @@
         "event_id": 7832789,
         "url": "https://www.vividseats.com/stray-kids-tickets-seattle-lumen-field-5-16-2027/production/7832789",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391388,7 +391388,7 @@
         "event_id": 7832915,
         "url": "https://www.vividseats.com/stray-kids-tickets-san-diego-petco-park-5-25-2027/production/7832915",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391478,7 +391478,7 @@
         "event_id": 7832799,
         "url": "https://www.vividseats.com/stray-kids-tickets-inglewood-sofi-stadium-5-29-2027/production/7832799",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391568,7 +391568,7 @@
         "event_id": 7832807,
         "url": "https://www.vividseats.com/stray-kids-tickets-houston-reliant-stadium-6-5-2027/production/7832807",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391657,7 +391657,7 @@
         "event_id": 7832811,
         "url": "https://www.vividseats.com/stray-kids-tickets-atlanta-mercedes-benz-stadium-6-8-2027/production/7832811",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391747,7 +391747,7 @@
         "event_id": 7832833,
         "url": "https://www.vividseats.com/stray-kids-tickets-miami-gardens-hard-rock-stadium-6-11-2027/production/7832833",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391837,7 +391837,7 @@
         "event_id": 7832837,
         "url": "https://www.vividseats.com/stray-kids-tickets-orlando-camping-world-stadium-6-14-2027/production/7832837",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -391927,7 +391927,7 @@
         "event_id": 7832839,
         "url": "https://www.vividseats.com/stray-kids-tickets-chicago-soldier-field-6-18-2027/production/7832839",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -392084,7 +392084,7 @@
         "event_id": 7832843,
         "url": "https://www.vividseats.com/stray-kids-tickets-east-rutherford-metlife-stadium-6-29-2027/production/7832843",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -392173,7 +392173,7 @@
         "event_id": 7833169,
         "url": "https://www.vividseats.com/stray-kids-tickets-munich-allianz-arena-7-17-2027--concerts-k-pop/production/7833169",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -392598,7 +392598,7 @@
         "event_id": 7834141,
         "url": "https://www.vividseats.com/zach-top-tickets-george-gorge-amphitheatre-7-2-2027--concerts-country-and-folk/production/7834141",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -392656,7 +392656,7 @@
         "event_id": 7833531,
         "url": "https://www.vividseats.com/karan-aujla-tickets-chicago-united-center-2-13-2027/production/7833531",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -392745,7 +392745,7 @@
         "event_id": 7836262,
         "url": "https://www.vividseats.com/bryan-adams-tickets-niagara-falls-olg-stage-at-fallsview-casino-5-22-2027/production/7836262",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -392807,7 +392807,7 @@
         "event_id": 7836216,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-lexington-the-rail-2-23-2027/production/7836216",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -392888,7 +392888,7 @@
         "event_id": 7833319,
         "url": "https://www.vividseats.com/marc-anthony-tickets-toronto-scotiabank-arena-4-1-2027/production/7833319",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -392953,7 +392953,7 @@
         "event_id": 7833537,
         "url": "https://www.vividseats.com/marc-anthony-tickets-montreal-bell-centre-4-4-2027/production/7833537",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393034,7 +393034,7 @@
         "event_id": 7833135,
         "url": "https://www.vividseats.com/marc-anthony-tickets-brooklyn-barclays-center-4-8-2027/production/7833135",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393204,7 +393204,7 @@
         "event_id": 7833191,
         "url": "https://www.vividseats.com/marc-anthony-tickets-newark-prudential-center-4-15-2027/production/7833191",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393293,7 +393293,7 @@
         "event_id": 7833243,
         "url": "https://www.vividseats.com/marc-anthony-tickets-chicago-united-center-4-17-2027/production/7833243",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393381,7 +393381,7 @@
         "event_id": 7833245,
         "url": "https://www.vividseats.com/marc-anthony-tickets-charlotte-spectrum-center-4-23-2027/production/7833245",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393469,7 +393469,7 @@
         "event_id": 7833247,
         "url": "https://www.vividseats.com/marc-anthony-tickets-tampa-benchmark-international-arena-4-25-2027/production/7833247",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393646,7 +393646,7 @@
         "event_id": 7833255,
         "url": "https://www.vividseats.com/marc-anthony-tickets-anaheim-honda-center-5-9-2027/production/7833255",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393735,7 +393735,7 @@
         "event_id": 7833291,
         "url": "https://www.vividseats.com/marc-anthony-tickets-denver-ball-arena-5-13-2027/production/7833291",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393824,7 +393824,7 @@
         "event_id": 7833293,
         "url": "https://www.vividseats.com/marc-anthony-tickets-san-francisco-chase-center-5-16-2027/production/7833293",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -393915,7 +393915,7 @@
         "event_id": 7833895,
         "url": "https://www.vividseats.com/air-supply-tickets-wallingford-toyota-oakdale-theatre-1-31-2027/production/7833895",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -394001,7 +394001,7 @@
         "event_id": 7835522,
         "url": "https://www.vividseats.com/air-supply-tickets-valley-center-events-center-at-harrahs-resort-socal-2-12-2027/production/7835522",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -394064,7 +394064,7 @@
         "event_id": 7833565,
         "url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-19-2027/production/7833565",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -394139,7 +394139,7 @@
         "event_id": 7833523,
         "url": "https://www.vividseats.com/the-avett-brothers-tickets-lake-buena-vista-house-of-blues-orlando-3-20-2027/production/7833523",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -394357,7 +394357,7 @@
         "event_id": 7841789,
         "url": "https://www.vividseats.com/daughtry-tickets-columbus-wexner-center-for-the-arts---mershon-auditorium-2-24-2027/production/7841789",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -394438,7 +394438,7 @@
         "event_id": 7843387,
         "url": "https://www.vividseats.com/noah-kahan-tickets-detroit-ford-field-6-9-2027--concerts-pop/production/7843387",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -394523,7 +394523,7 @@
         "event_id": 7842649,
         "url": "https://www.vividseats.com/noah-kahan-tickets-east-rutherford-metlife-stadium-6-19-2027--concerts-pop/production/7842649",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -394835,7 +394835,7 @@
         "event_id": 7845546,
         "url": "https://www.vividseats.com/los-tigres-del-norte-tickets-lincoln-the-venue-at-thunder-valley-casino-resort-2-19-2027/production/7845546",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -394906,7 +394906,7 @@
         "event_id": 7841901,
         "url": "https://www.vividseats.com/billy-strings-tickets-tampa-benchmark-international-arena-4-6-2027--concerts-country-and-folk/production/7841901",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -394995,7 +394995,7 @@
         "event_id": 7841907,
         "url": "https://www.vividseats.com/billy-strings-tickets-north-charleston-north-charleston-coliseum-4-16-2027--concerts-country-and-folk/production/7841907",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -395084,7 +395084,7 @@
         "event_id": 7841915,
         "url": "https://www.vividseats.com/billy-strings-tickets-north-charleston-north-charleston-coliseum-4-17-2027--concerts-country-and-folk/production/7841915",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -395173,7 +395173,7 @@
         "event_id": 7841919,
         "url": "https://www.vividseats.com/billy-strings-tickets-greenville-bon-secours-wellness-arena-4-21-2027--concerts-country-and-folk/production/7841919",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -395262,7 +395262,7 @@
         "event_id": 7841925,
         "url": "https://www.vividseats.com/billy-strings-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-4-23-2027--concerts-country-and-folk/production/7841925",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -395351,7 +395351,7 @@
         "event_id": 7841929,
         "url": "https://www.vividseats.com/billy-strings-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-4-24-2027--concerts-country-and-folk/production/7841929",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -395440,7 +395440,7 @@
         "event_id": 7842025,
         "url": "https://www.vividseats.com/billy-strings-tickets-birmingham-legacy-arena-at-the-bjcc-6-4-2027--concerts-country-and-folk/production/7842025",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -395529,7 +395529,7 @@
         "event_id": 7842027,
         "url": "https://www.vividseats.com/billy-strings-tickets-birmingham-legacy-arena-at-the-bjcc-6-5-2027--concerts-country-and-folk/production/7842027",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -395836,7 +395836,7 @@
         "event_id": 7835332,
         "url": "https://www.vividseats.com/fall-out-boy-tickets-seattle-t-mobile-park-8-24-2027--concerts-rock/production/7835332",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -399867,7 +399867,7 @@
         "event_id": 7861661,
         "url": "https://www.vividseats.com/phoebe-bridgers-tickets-hamilton-td-coliseum-3-21-2027--concerts-rock/production/7861661",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -400543,7 +400543,7 @@
         "event_id": 7866017,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-1-31-2027/production/7866017",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -400843,7 +400843,7 @@
         "event_id": 7863248,
         "url": "https://www.vividseats.com/sam-fender-tickets-toronto-scotiabank-arena-4-24-2027--concerts-alternative/production/7863248",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -402164,7 +402164,7 @@
         "event_id": 7870459,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-columbus-value-city-arena-at-schottenstein-center-6-16-2027/production/7870459",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -402426,7 +402426,7 @@
         "event_id": 7870485,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-indianapolis-gainbridge-fieldhouse-6-23-2027--theater-family/production/7870485",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -402561,7 +402561,7 @@
         "event_id": 7870445,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-hamilton-td-coliseum-6-26-2027/production/7870445",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -402667,7 +402667,7 @@
         "event_id": 7870441,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-29-2027/production/7870441",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -402768,7 +402768,7 @@
         "event_id": 7870471,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-30-2027/production/7870471",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -403000,7 +403000,7 @@
         "event_id": 7870457,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-charlotte-spectrum-center-7-7-2027/production/7870457",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -403398,7 +403398,7 @@
         "event_id": 7870467,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-20-2027/production/7870467",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -403533,7 +403533,7 @@
         "event_id": 7870455,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-21-2027/production/7870455",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -404701,7 +404701,7 @@
         "event_id": 7834202,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-edmonton-northern-alberta-jubilee-auditorium-3-12-2027/production/7834202",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -404778,7 +404778,7 @@
         "event_id": 7834199,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-calgary-southern-alberta-jubilee-auditorium-3-13-2027/production/7834199",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -404855,7 +404855,7 @@
         "event_id": 7833467,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-winnipeg-burton-cummings-theatre-3-15-2027/production/7833467",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -405000,7 +405000,7 @@
         "event_id": 7859943,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-ottawa-southam-hall-at-national-arts-centre-3-24-2027/production/7859943",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -405061,7 +405061,7 @@
         "event_id": 7834161,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-niagara-falls-olg-stage-at-fallsview-casino-3-27-2027/production/7834161",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -405116,7 +405116,7 @@
         "event_id": 7848838,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-montreal-beanfield-theatre-3-29-2027/production/7848838",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -405192,7 +405192,7 @@
         "event_id": 7833229,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-moncton-molson-canadian-centre-at-casino-new-brunswick-3-30-2027/production/7833229",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -405267,7 +405267,7 @@
         "event_id": 7833203,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-halifax-scotiabank-centre-4-1-2027/production/7833203",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -405342,7 +405342,7 @@
         "event_id": 7833217,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-sydney-centre-200-4-3-2027/production/7833217",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -406980,7 +406980,7 @@
         "event_id": 7871099,
         "url": "https://www.vividseats.com/alex-warren-tickets-hamilton-td-coliseum-4-30-2027--concerts-pop/production/7871099",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -414564,7 +414564,7 @@
         "event_id": 7879775,
         "url": "https://www.vividseats.com/foo-fighters-tickets-edinburgh-scottish-gas-murrayfield-stadium-9-16-2027--concerts-rock/production/7879775",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -415670,7 +415670,7 @@
         "event_id": 6884025,
         "url": "https://www.vividseats.com/intocable-tickets-sugar-land-smart-financial-centre-11-21-2026/production/6884025",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -415748,7 +415748,7 @@
         "event_id": 6900840,
         "url": "https://www.vividseats.com/intocable-tickets-san-antonio-freeman-coliseum-11-25-2026/production/6900840",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -415903,7 +415903,7 @@
         "event_id": 6900584,
         "url": "https://www.vividseats.com/intocable-tickets-hidalgo-payne-arena-11-28-2026/production/6900584",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -415973,7 +415973,7 @@
         "event_id": 7880682,
         "url": "https://www.vividseats.com/intocable-tickets-chicago-credit-union-1-arena-at-uic-2-20-2027/production/7880682",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -416070,7 +416070,7 @@
         "event_id": 7880302,
         "url": "https://www.vividseats.com/intocable-tickets-duluth-gas-south-arena-2-28-2027/production/7880302",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -416163,7 +416163,7 @@
         "event_id": 7881251,
         "url": "https://www.vividseats.com/intocable-tickets-fresno-save-mart-center-3-5-2027/production/7881251",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -416263,7 +416263,7 @@
         "event_id": 7881253,
         "url": "https://www.vividseats.com/intocable-tickets-inglewood-intuit-dome-3-6-2027/production/7881253",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -416476,7 +416476,7 @@
         "event_id": 7880708,
         "url": "https://www.vividseats.com/intocable-tickets-miami-james-knight-center-6-11-2027--concerts-latin-music/production/7880708",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -416587,7 +416587,7 @@
         "event_id": 7881269,
         "url": "https://www.vividseats.com/intocable-tickets-sacramento-golden-1-center-8-28-2027/production/7881269",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -421569,7 +421569,7 @@
     "ticketmaster_event_id": "1000656C008530FD",
     "ticketmaster_url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-windsor-ontario-03-31-2027/event/1000656C008530FD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/santana-tickets-windsor-the-colosseum-at-caesars-windsor-3-31-2027/production/7887317",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/santana-planet-of-free-will-global-windsor-ontario-03-31-2027/event/1000656C008530FD",
     "last_verified_at": "2026-11-18",
@@ -421591,11 +421591,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7887317,
+        "url": "https://www.vividseats.com/santana-tickets-windsor-the-colosseum-at-caesars-windsor-3-31-2027/production/7887317",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -422554,7 +422554,7 @@
     "ticketmaster_event_id": "1F00655CADC6404E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-joneswith-special-guests-heather-small-cardiff-30-05-2027/event/1F00655CADC6404E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-cardiff-cardiff-castle-5-30-2027/production/7883808",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-joneswith-special-guests-heather-small-cardiff-30-05-2027/event/1F00655CADC6404E",
     "last_verified_at": "2026-11-18",
@@ -422576,11 +422576,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7883808,
+        "url": "https://www.vividseats.com/tom-jones-tickets-cardiff-cardiff-castle-5-30-2027/production/7883808",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -423080,7 +423080,7 @@
     "ticketmaster_event_id": "37006569A9F74D84",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-jones-with-very-special-guests-woodstock-30-06-2027/event/37006569A9F74D84",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-woodstock-blenheim-palace-6-30-2027--concerts-pop/production/7888562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-very-special-guests-woodstock-30-06-2027/event/37006569A9F74D84",
     "last_verified_at": "2026-11-18",
@@ -423102,11 +423102,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7888562,
+        "url": "https://www.vividseats.com/tom-jones-tickets-woodstock-blenheim-palace-6-30-2027--concerts-pop/production/7888562",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -429800,7 +429800,7 @@
     "ticketmaster_event_id": "1F00656BD3155B24",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-manchester-19-10-2027/event/1F00656BD3155B24",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-manchester-ao-arena-10-19-2027/production/7871142",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-manchester-19-10-2027/event/1F00656BD3155B24",
     "last_verified_at": "2026-11-18",
@@ -429822,11 +429822,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7871142,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-manchester-ao-arena-10-19-2027/production/7871142",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431052,7 +431052,7 @@
     "ticketmaster_event_id": "0000655B8BDB34AF",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-solo-poughkeepsie-new-york-12-03-2026/event/0000655B8BDB34AF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-poughkeepsie-bardavon-opera-house-12-3-2026/production/7768092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-solo-poughkeepsie-new-york-12-03-2026/event/0000655B8BDB34AF",
     "last_verified_at": null,
@@ -431074,11 +431074,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7768092,
+        "url": "https://www.vividseats.com/grace-potter-tickets-poughkeepsie-bardavon-opera-house-12-3-2026/production/7768092",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431174,7 +431174,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk__",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk__",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/rutland-vermont-paramount-theatre-vt-2027-01-14-7-30-pm/concert/18755494",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-rutland-paramount-theatre-rutland-1-14-2027/production/7849358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk__",
     "last_verified_at": null,
@@ -431196,11 +431196,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7849358,
+        "url": "https://www.vividseats.com/grace-potter-tickets-rutland-paramount-theatre-rutland-1-14-2027/production/7849358",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431227,7 +431227,7 @@
     "ticketmaster_event_id": "01006566BA23EEBE",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-portland-maine-01-15-2027/event/01006566BA23EEBE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-portland-state-theatre-portland-1-15-2027/production/7846640",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-portland-maine-01-15-2027/event/01006566BA23EEBE",
     "last_verified_at": null,
@@ -431249,11 +431249,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7846640,
+        "url": "https://www.vividseats.com/grace-potter-tickets-portland-state-theatre-portland-1-15-2027/production/7846640",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431296,7 +431296,7 @@
     "ticketmaster_event_id": "01006565E4755E9B",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-boston-massachusetts-01-16-2027/event/01006565E4755E9B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-boston-citizens-house-of-blues-boston-1-16-2027/production/7845690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-boston-massachusetts-01-16-2027/event/01006565E4755E9B",
     "last_verified_at": null,
@@ -431318,11 +431318,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845690,
+        "url": "https://www.vividseats.com/grace-potter-tickets-boston-citizens-house-of-blues-boston-1-16-2027/production/7845690",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431373,7 +431373,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_O",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/new-haven-connecticut-college-street-music-hall-2027-01-17-7-pm/concert/18755495",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-new-haven-college-street-music-hall-1-17-2027/production/7848893",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_O",
     "last_verified_at": null,
@@ -431395,11 +431395,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7848893,
+        "url": "https://www.vividseats.com/grace-potter-tickets-new-haven-college-street-music-hall-1-17-2027/production/7848893",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431511,7 +431511,7 @@
     "ticketmaster_event_id": "00006569E773EA89",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-rochester-new-york-01-21-2027/event/00006569E773EA89",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-rochester-kodak-center-1-21-2027/production/7845682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-rochester-new-york-01-21-2027/event/00006569E773EA89",
     "last_verified_at": null,
@@ -431533,11 +431533,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845682,
+        "url": "https://www.vividseats.com/grace-potter-tickets-rochester-kodak-center-1-21-2027/production/7845682",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431588,7 +431588,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_-",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/rome-new-york-rome-capitol-theatre-2027-01-22-7-30-pm/concert/18755506",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-rome-the-capitol-theatre-at-capitol-arts-complex-1-22-2027/production/7849177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_-",
     "last_verified_at": null,
@@ -431610,11 +431610,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7849177,
+        "url": "https://www.vividseats.com/grace-potter-tickets-rome-the-capitol-theatre-at-capitol-arts-complex-1-22-2027/production/7849177",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431657,7 +431657,7 @@
     "ticketmaster_event_id": "3B006566961130FB",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-new-york-new-york-01-23-2027/event/3B006566961130FB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-new-york-beacon-theatre-1-23-2027/production/7845773",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-new-york-new-york-01-23-2027/event/3B006566961130FB",
     "last_verified_at": null,
@@ -431679,11 +431679,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845773,
+        "url": "https://www.vividseats.com/grace-potter-tickets-new-york-beacon-theatre-1-23-2027/production/7845773",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431734,7 +431734,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_x",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_x",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-patchogue-patchogue-theater-1-24-2027/production/7848961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_x",
     "last_verified_at": null,
@@ -431756,11 +431756,11 @@
         "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7848961,
+        "url": "https://www.vividseats.com/grace-potter-tickets-patchogue-patchogue-theater-1-24-2027/production/7848961",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431803,7 +431803,7 @@
     "ticketmaster_event_id": "02006566DBE3F51B",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-hershey-pennsylvania-01-27-2027/event/02006566DBE3F51B",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/hershey-pennsylvania-hershey-theatre-hershey-2027-01-27-7-30-pm/concert/18755509",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-hershey-hershey-theatre-1-27-2027/production/7845843",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-hershey-pennsylvania-01-27-2027/event/02006566DBE3F51B",
     "last_verified_at": null,
@@ -431825,11 +431825,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845843,
+        "url": "https://www.vividseats.com/grace-potter-tickets-hershey-hershey-theatre-1-27-2027/production/7845843",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431872,7 +431872,7 @@
     "ticketmaster_event_id": "0200656895CD447D",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-wilkes-barre-pennsylvania-01-28-2027/event/0200656895CD447D",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/wilkes-barre-pennsylvania-f-m-kirby-center-2027-01-28-7-30-pm/concert/18755510",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-wilkes-barre-kirby-center-1-28-2027/production/7845915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-wilkes-barre-pennsylvania-01-28-2027/event/0200656895CD447D",
     "last_verified_at": null,
@@ -431894,11 +431894,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845915,
+        "url": "https://www.vividseats.com/grace-potter-tickets-wilkes-barre-kirby-center-1-28-2027/production/7845915",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431925,7 +431925,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_N",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_N",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/bensalem-pennsylvania-xcite-center-at-parx-casino-2027-01-29-7-30-pm/concert/18755511",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-bensalem-xcite-center---parx-casino-and-racing-1-29-2027/production/7847557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_N",
     "last_verified_at": null,
@@ -431947,11 +431947,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847557,
+        "url": "https://www.vividseats.com/grace-potter-tickets-bensalem-xcite-center---parx-casino-and-racing-1-29-2027/production/7847557",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -431994,7 +431994,7 @@
     "ticketmaster_event_id": "15006566B96668B5",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-washington-district-of-columbia-01-30-2027/event/15006566B96668B5",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/washington-district-of-columbia-the-anthem-dc-2027-01-30-7-30-pm/concert/18755517",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-washington-dc-the-anthem-1-30-2027/production/7845538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-washington-district-of-columbia-01-30-2027/event/15006566B96668B5",
     "last_verified_at": null,
@@ -432016,11 +432016,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845538,
+        "url": "https://www.vividseats.com/grace-potter-tickets-washington-dc-the-anthem-1-30-2027/production/7845538",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432071,7 +432071,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_0",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/cleveland-ohio-globe-iron-2027-01-31-7-30-pm/concert/18755519",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-cleveland-globe-iron-1-31-2027/production/7847575",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_0",
     "last_verified_at": null,
@@ -432093,11 +432093,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847575,
+        "url": "https://www.vividseats.com/grace-potter-tickets-cleveland-globe-iron-1-31-2027/production/7847575",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432140,7 +432140,7 @@
     "ticketmaster_event_id": "16006569E1B9D279",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-lexington-kentucky-02-03-2027/event/16006569E1B9D279",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/lexington-kentucky-the-rail-3-2027-02-03-8-pm/concert/18755520",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-lexington-the-rail-2-3-2027/production/7845540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-lexington-kentucky-02-03-2027/event/16006569E1B9D279",
     "last_verified_at": null,
@@ -432162,11 +432162,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845540,
+        "url": "https://www.vividseats.com/grace-potter-tickets-lexington-the-rail-2-3-2027/production/7845540",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432270,7 +432270,7 @@
     "ticketmaster_event_id": "05006566AC2A7F37",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-the-trespasser-indianapolis-indiana-02-05-2027/event/05006566AC2A7F37",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-02-05-8-pm/concert/18755524",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-5-2027/production/7846646",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-the-trespasser-indianapolis-indiana-02-05-2027/event/05006566AC2A7F37",
     "last_verified_at": null,
@@ -432292,11 +432292,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7846646,
+        "url": "https://www.vividseats.com/grace-potter-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-5-2027/production/7846646",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432339,7 +432339,7 @@
     "ticketmaster_event_id": "16006568D4797262",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-cincinnati-ohio-02-06-2027/event/16006568D4797262",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/cincinnati-ohio-taft-theatre-2027-02-06-8-pm/concert/18755525",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-cincinnati-taft-theatre-2-6-2027/production/7845925",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-cincinnati-ohio-02-06-2027/event/16006568D4797262",
     "last_verified_at": null,
@@ -432361,11 +432361,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845925,
+        "url": "https://www.vividseats.com/grace-potter-tickets-cincinnati-taft-theatre-2-6-2027/production/7845925",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432416,7 +432416,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA64J",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64J",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/grand-rapids-michigan-the-intersection-2027-02-09-7-30-pm/concert/18755527",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-grand-rapids-the-intersection-2-9-2027/production/7847577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64J",
     "last_verified_at": null,
@@ -432438,11 +432438,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847577,
+        "url": "https://www.vividseats.com/grace-potter-tickets-grand-rapids-the-intersection-2-9-2027/production/7847577",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432554,7 +432554,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_J",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_J",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-milwaukee-pabst-theater-2-11-2027/production/7847573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_J",
     "last_verified_at": null,
@@ -432576,11 +432576,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847573,
+        "url": "https://www.vividseats.com/grace-potter-tickets-milwaukee-pabst-theater-2-11-2027/production/7847573",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432692,7 +432692,7 @@
     "ticketmaster_event_id": "06006566E1246DA5",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-des-moines-iowa-02-13-2027/event/06006566E1246DA5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-des-moines-hoyt-sherman-place-2-13-2027/production/7845835",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-des-moines-iowa-02-13-2027/event/06006566E1246DA5",
     "last_verified_at": null,
@@ -432714,11 +432714,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845835,
+        "url": "https://www.vividseats.com/grace-potter-tickets-des-moines-hoyt-sherman-place-2-13-2027/production/7845835",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432769,7 +432769,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_I",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/kansas-city-missouri-the-truman-2027-02-25-8-pm/concert/18755537",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-kansas-city-the-truman-2-25-2027/production/7847563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_I",
     "last_verified_at": null,
@@ -432791,11 +432791,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847563,
+        "url": "https://www.vividseats.com/grace-potter-tickets-kansas-city-the-truman-2-25-2027/production/7847563",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432838,7 +432838,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_t",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/omaha-nebraska-slowdown-2027-02-26-7-30-pm/concert/18755538",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-omaha-slowdown-2-26-2027/production/7848887",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_t",
     "last_verified_at": null,
@@ -432860,11 +432860,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7848887,
+        "url": "https://www.vividseats.com/grace-potter-tickets-omaha-slowdown-2-26-2027/production/7848887",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -432907,7 +432907,7 @@
     "ticketmaster_event_id": "1E006566DFDC762C",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-denver-colorado-02-27-2027/event/1E006566DFDC762C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-denver-fillmore-auditorium-denver-2-27-2027/production/7845969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-denver-colorado-02-27-2027/event/1E006566DFDC762C",
     "last_verified_at": null,
@@ -432929,11 +432929,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845969,
+        "url": "https://www.vividseats.com/grace-potter-tickets-denver-fillmore-auditorium-denver-2-27-2027/production/7845969",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433053,7 +433053,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_s",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_s",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/santa-fe-new-mexico-lensic-performing-arts-center-2027-03-02-7-30-pm/concert/18755547",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-santa-fe-lensic-performing-arts-center-3-2-2027/production/7848945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_s",
     "last_verified_at": null,
@@ -433075,11 +433075,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7848945,
+        "url": "https://www.vividseats.com/grace-potter-tickets-santa-fe-lensic-performing-arts-center-3-2-2027/production/7848945",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433114,7 +433114,7 @@
     "ticketmaster_event_id": "19006566DC4A8635",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-the-trespassers-tucson-arizona-03-04-2027/event/19006566DC4A8635",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-tucson-rialto-theatre-tucson-3-4-2027/production/7845833",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-the-trespassers-tucson-arizona-03-04-2027/event/19006566DC4A8635",
     "last_verified_at": null,
@@ -433136,11 +433136,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845833,
+        "url": "https://www.vividseats.com/grace-potter-tickets-tucson-rialto-theatre-tucson-3-4-2027/production/7845833",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433183,7 +433183,7 @@
     "ticketmaster_event_id": "14429464",
     "ticketmaster_url": "https://www.ticketweb.com/event/grace-potter-the-trespassers-the-sound-tickets/14429464",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/del-mar-california-the-sound-del-mar-2027-03-05-8-pm/concert/18755549",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-del-mar-the-sound---del-mar-3-5-2027/production/7846638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/grace-potter-the-trespassers-the-sound-tickets/14429464",
     "last_verified_at": null,
@@ -433205,11 +433205,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7846638,
+        "url": "https://www.vividseats.com/grace-potter-tickets-del-mar-the-sound---del-mar-3-5-2027/production/7846638",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433321,7 +433321,7 @@
     "ticketmaster_event_id": "19006566D3E37EDE",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-phoenix-arizona-03-07-2027/event/19006566D3E37EDE",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-phoenix-the-van-buren-3-7-2027/production/7845692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-phoenix-arizona-03-07-2027/event/19006566D3E37EDE",
     "last_verified_at": null,
@@ -433343,11 +433343,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845692,
+        "url": "https://www.vividseats.com/grace-potter-tickets-phoenix-the-van-buren-3-7-2027/production/7845692",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433398,7 +433398,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_w",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_w",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/claremont-california-bridges-auditorium-2027-03-09-7-pm/concert/18755558",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-claremont-bridges-auditorium---pomona-college-3-9-2027/production/7847583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_w",
     "last_verified_at": null,
@@ -433420,11 +433420,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847583,
+        "url": "https://www.vividseats.com/grace-potter-tickets-claremont-bridges-auditorium---pomona-college-3-9-2027/production/7847583",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433451,7 +433451,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA64E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64E",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/monterey-california-golden-state-theatre-2027-03-10-7-30-pm/concert/18755559",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-monterey-golden-state-theatre-3-10-2027/production/7843341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64E",
     "last_verified_at": null,
@@ -433473,11 +433473,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7843341,
+        "url": "https://www.vividseats.com/grace-potter-tickets-monterey-golden-state-theatre-3-10-2027/production/7843341",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433597,7 +433597,7 @@
     "ticketmaster_event_id": "1C0065695AC72243",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-support-napa-california-03-13-2027/event/1C0065695AC72243",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-napa-uptown-theatre-napa-3-13-2027/production/7845527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-support-napa-california-03-13-2027/event/1C0065695AC72243",
     "last_verified_at": null,
@@ -433619,11 +433619,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845527,
+        "url": "https://www.vividseats.com/grace-potter-tickets-napa-uptown-theatre-napa-3-13-2027/production/7845527",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433727,7 +433727,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_S",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/boise-idaho-treefort-music-hall-2027-03-16-7-30-pm/concert/18755570",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-boise-treefort-music-hall-3-16-2027/production/7848957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_S",
     "last_verified_at": null,
@@ -433749,11 +433749,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7848957,
+        "url": "https://www.vividseats.com/grace-potter-tickets-boise-treefort-music-hall-3-16-2027/production/7848957",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433833,7 +433833,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_g",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_g",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-19-7-30-pm/concert/18755572",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-salt-lake-city-the-complex---rockwell-3-19-2027/production/7847565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_g",
     "last_verified_at": null,
@@ -433855,11 +433855,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847565,
+        "url": "https://www.vividseats.com/grace-potter-tickets-salt-lake-city-the-complex---rockwell-3-19-2027/production/7847565",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -433902,7 +433902,7 @@
     "ticketmaster_event_id": "1E006565AFF941E4",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-bozeman-montana-03-20-2027/event/1E006565AFF941E4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-bozeman-the-elm---mt-3-20-2027/production/7845542",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-bozeman-montana-03-20-2027/event/1E006565AFF941E4",
     "last_verified_at": null,
@@ -433924,11 +433924,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845542,
+        "url": "https://www.vividseats.com/grace-potter-tickets-bozeman-the-elm---mt-3-20-2027/production/7845542",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434040,7 +434040,7 @@
     "ticketmaster_event_id": "1E006569EA336B1A",
     "ticketmaster_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-langhorne-spokane-washington-03-22-2027/event/1E006569EA336B1A",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-spokane-knitting-factory-concert-house-spokane-3-22-2027/production/7845686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-langhorne-spokane-washington-03-22-2027/event/1E006569EA336B1A",
     "last_verified_at": null,
@@ -434062,11 +434062,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7845686,
+        "url": "https://www.vividseats.com/grace-potter-tickets-spokane-knitting-factory-concert-house-spokane-3-22-2027/production/7845686",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434109,7 +434109,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA64t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64t",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/medford-oregon-holly-theatre-2027-03-24-7-30-pm/concert/18755582",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-medford-holly-theatre---or-3-24-2027/production/7849369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64t",
     "last_verified_at": null,
@@ -434131,11 +434131,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7849369,
+        "url": "https://www.vividseats.com/grace-potter-tickets-medford-holly-theatre---or-3-24-2027/production/7849369",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434178,7 +434178,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA64Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64Y",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/eugene-oregon-mcdonald-theatre-2027-03-25-7-30-pm/concert/18755583",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-eugene-mcdonald-theatre-3-25-2027/production/7857892",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64Y",
     "last_verified_at": null,
@@ -434200,11 +434200,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7857892,
+        "url": "https://www.vividseats.com/grace-potter-tickets-eugene-mcdonald-theatre-3-25-2027/production/7857892",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434247,7 +434247,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA64s",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64s",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-03-26-7-30-pm/concert/18755584",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-portland-mcmenamins-crystal-ballroom-3-26-2027/production/7847567",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64s",
     "last_verified_at": null,
@@ -434269,11 +434269,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7847567,
+        "url": "https://www.vividseats.com/grace-potter-tickets-portland-mcmenamins-crystal-ballroom-3-26-2027/production/7847567",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434316,7 +434316,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAAk_U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_U",
     "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/seattle-washington-the-showbox-2027-03-27-8-pm/concert/18755585",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-seattle-showbox-at-the-market-3-27-2027/production/7848863",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_U",
     "last_verified_at": null,
@@ -434338,11 +434338,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7848863,
+        "url": "https://www.vividseats.com/grace-potter-tickets-seattle-showbox-at-the-market-3-27-2027/production/7848863",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434385,7 +434385,7 @@
     "ticketmaster_event_id": "070065668C7C2E2C",
     "ticketmaster_url": "https://www.ticketmaster.com/hannah-harper-bloomington-illinois-02-05-2027/event/070065668C7C2E2C",
     "seatgeek_url": "https://seatgeek.com/hannah-harper-tickets/bloomington-illinois-bloomington-center-for-the-performing-arts-2027-02-05-7-pm/concert/18754636",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-bloomington-bloomington-center-for-the-performing-arts-2-5-2027--concerts-country-and-folk/production/7834582",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-bloomington-illinois-02-05-2027/event/070065668C7C2E2C",
     "last_verified_at": null,
@@ -434407,11 +434407,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834582,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-bloomington-bloomington-center-for-the-performing-arts-2-5-2027--concerts-country-and-folk/production/7834582",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434454,7 +434454,7 @@
     "ticketmaster_event_id": "0500656B6FF322B7",
     "ticketmaster_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-anderson-indiana-03-04-2027/event/0500656B6FF322B7",
     "seatgeek_url": "https://seatgeek.com/hannah-harper-tickets/anderson-indiana-paramount-theatre-anderson-2027-03-04-7-pm/concert/18759208",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-anderson-paramount-theatre-anderson-3-4-2027/production/7837219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-anderson-indiana-03-04-2027/event/0500656B6FF322B7",
     "last_verified_at": null,
@@ -434476,11 +434476,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7837219,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-anderson-paramount-theatre-anderson-3-4-2027/production/7837219",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434523,7 +434523,7 @@
     "ticketmaster_event_id": "010065691FD5A47C",
     "ticketmaster_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-danville-virginia-03-06-2027/event/010065691FD5A47C",
     "seatgeek_url": "https://seatgeek.com/hannah-harper-tickets/danville-virginia-the-pantheon-at-caesars-virginia-2027-03-06-8-pm/concert/18757846",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-danville-the-pantheon-at-caesars-virginia-3-6-2027/production/7840666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-danville-virginia-03-06-2027/event/010065691FD5A47C",
     "last_verified_at": null,
@@ -434545,11 +434545,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7840666,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-danville-the-pantheon-at-caesars-virginia-3-6-2027/production/7840666",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434592,7 +434592,7 @@
     "ticketmaster_event_id": "1B00655690B6CCC4",
     "ticketmaster_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-philadelphia-mississippi-04-02-2027/event/1B00655690B6CCC4",
     "seatgeek_url": "https://seatgeek.com/hannah-harper-tickets/philadelphia-mississippi-ellis-theater-1-2027-04-02-7-30-pm/concert/18750207",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-philadelphia-ellis-theater-4-2-2027/production/7826182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-philadelphia-mississippi-04-02-2027/event/1B00655690B6CCC4",
     "last_verified_at": null,
@@ -434614,11 +434614,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7826182,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-philadelphia-ellis-theater-4-2-2027/production/7826182",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434714,7 +434714,7 @@
     "ticketmaster_event_id": "2D00655D8FFE5AD8",
     "ticketmaster_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-greensboro-north-carolina-04-30-2027/event/2D00655D8FFE5AD8",
     "seatgeek_url": "https://seatgeek.com/hannah-harper-tickets/greensboro-north-carolina-piedmont-hall-1-2027-04-30-7-30-pm/concert/18754873",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-greensboro-piedmont-hall-at-greensboro-complex-4-30-2027/production/7833941",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-greensboro-north-carolina-04-30-2027/event/2D00655D8FFE5AD8",
     "last_verified_at": null,
@@ -434736,11 +434736,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833941,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-greensboro-piedmont-hall-at-greensboro-complex-4-30-2027/production/7833941",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434783,7 +434783,7 @@
     "ticketmaster_event_id": "2D00655EB062AE84",
     "ticketmaster_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-charlotte-north-carolina-05-02-2027/event/2D00655EB062AE84",
     "seatgeek_url": "https://seatgeek.com/hannah-harper-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-05-02-7-30-pm/concert/18754499",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-charlotte-the-fillmore-charlotte-5-2-2027/production/7833505",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-charlotte-north-carolina-05-02-2027/event/2D00655EB062AE84",
     "last_verified_at": null,
@@ -434805,11 +434805,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833505,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-charlotte-the-fillmore-charlotte-5-2-2027/production/7833505",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434905,7 +434905,7 @@
     "ticketmaster_event_id": "0700654A2C26D89C",
     "ticketmaster_url": "https://www.ticketmaster.com/hometown-jams-hannah-harper-valparaiso-indiana-05-15-2027/event/0700654A2C26D89C",
     "seatgeek_url": "https://seatgeek.com/hannah-harper-tickets/valparaiso-indiana-northwest-health-amphitheater-at-central-park-plaza-2027-05-15-7-pm/concert/18754773",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-valparaiso-1st-source-bank-amphitheater-at-central-park-plaza-5-15-2027--concerts-country-and-folk/production/7834586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hometown-jams-hannah-harper-valparaiso-indiana-05-15-2027/event/0700654A2C26D89C",
     "last_verified_at": null,
@@ -434927,11 +434927,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834586,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-valparaiso-1st-source-bank-amphitheater-at-central-park-plaza-5-15-2027--concerts-country-and-folk/production/7834586",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -434974,7 +434974,7 @@
     "ticketmaster_event_id": "0E0065668AA2888D",
     "ticketmaster_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-augusta-georgia-05-20-2027/event/0E0065668AA2888D",
     "seatgeek_url": "https://seatgeek.com/hannah-harper-tickets/augusta-georgia-bell-auditorium-2027-05-20-8-pm/concert/18754463",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-augusta-bell-auditorium-5-20-2027/production/7833929",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-augusta-georgia-05-20-2027/event/0E0065668AA2888D",
     "last_verified_at": null,
@@ -434996,11 +434996,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833929,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-augusta-bell-auditorium-5-20-2027/production/7833929",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -435043,7 +435043,7 @@
     "ticketmaster_event_id": "0700656482EF1918",
     "ticketmaster_url": "https://www.ticketmaster.com/hannah-harper-effingham-illinois-07-30-2027/event/0700656482EF1918",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-effingham-effingham-performance-center-7-30-2027--concerts-country-and-folk/production/7834588",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-effingham-illinois-07-30-2027/event/0700656482EF1918",
     "last_verified_at": null,
@@ -435065,11 +435065,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7834588,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-effingham-effingham-performance-center-7-30-2027--concerts-country-and-folk/production/7834588",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

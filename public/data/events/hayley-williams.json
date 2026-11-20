@@ -436,7 +436,7 @@
     "ticketmaster_event_id": "3600651C8DDB7D86",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/hayley-williams-tickets-cardiff-utilita-arena-cardiff-6-30-2027/production/7558330",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-hayley-williams-show-cardiff-30-06-2027/event/3600651C8DDB7D86",
     "last_verified_at": "2026-11-07",
@@ -458,11 +458,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7558330,
-        "url": "https://www.vividseats.com/hayley-williams-tickets-cardiff-utilita-arena-cardiff-6-30-2027/production/7558330",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,

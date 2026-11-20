@@ -669,7 +669,7 @@
     "ticketmaster_event_id": "1F00655CADC6404E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-joneswith-special-guests-heather-small-cardiff-30-05-2027/event/1F00655CADC6404E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-cardiff-cardiff-castle-5-30-2027/production/7883808",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-joneswith-special-guests-heather-small-cardiff-30-05-2027/event/1F00655CADC6404E",
     "last_verified_at": "2026-11-18",
@@ -691,11 +691,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7883808,
+        "url": "https://www.vividseats.com/tom-jones-tickets-cardiff-cardiff-castle-5-30-2027/production/7883808",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1195,7 +1195,7 @@
     "ticketmaster_event_id": "37006569A9F74D84",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-jones-with-very-special-guests-woodstock-30-06-2027/event/37006569A9F74D84",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-woodstock-blenheim-palace-6-30-2027--concerts-pop/production/7888562",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-very-special-guests-woodstock-30-06-2027/event/37006569A9F74D84",
     "last_verified_at": "2026-11-18",
@@ -1217,11 +1217,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7888562,
+        "url": "https://www.vividseats.com/tom-jones-tickets-woodstock-blenheim-palace-6-30-2027--concerts-pop/production/7888562",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

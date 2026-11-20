@@ -54,7 +54,7 @@ const expectedTitle = new Map([
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/on-sale", "Concert Tickets On Sale This Week | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
-  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster: Which Is Better?"],
+  ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster 2026: Fees and Which Is Better"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
   ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices by Show | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],

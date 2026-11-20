@@ -82,8 +82,26 @@ export function keepNonSpikeSql(price, prev, next) {
 // stays. Real gaps between sites are well inside this ratio.
 export const CROSS_SITE_LOW_RATIO = 0.25;
 
+// Second, narrower rule for StubHub International on North American shows
+// (audit 2026-11-20). The median rule above cannot see these because it needs
+// two other prices and a 4x gap, yet StubHub's own event page reads 2-5x higher
+// than the figure we showed on 13 of 14 randomly sampled flagged dates: the same
+// USD 20, 21, 26, 46 or 50.59 recurs across unrelated artists at the same venue
+// (Allstate Arena, State Farm Arena, MetLife, Mercedes-Benz Stadium, Red Rocks),
+// so it is a feed placeholder, not a market. Production 2026-11-20: 44 of 1,009
+// US/Canada StubHub-priced dates matched, each headlined as "Lowest listed".
+// Scoped to North America because Vivid Seats and TicketNetwork quote USD there
+// on the same basis; for EU and Mexico dates those two sites quote a different
+// basis (a StubHub USD 128 against a TicketNetwork USD 1,010), so a gap proves
+// nothing. One other price is enough here, and it is the LOWEST other price that
+// must be at least double the figure, so a real undercut of a few dollars is
+// never touched. Like the rule above it only hides the price: the button stays.
+export const STRICT_LOW_RATIO = 0.5;
+
 /**
- * @param {Array<{price: number|null, currency?: string}>} entries
+ * Each entry may set `strict: true` to be judged by the narrower rule too.
+ *
+ * @param {Array<{price: number|null, currency?: string, strict?: boolean}>} entries
  * @returns {boolean[]} true where the entry's price should be hidden
  */
 export function implausiblyLowAmongSites(entries) {
@@ -96,6 +114,7 @@ export function implausiblyLowAmongSites(entries) {
       .map((other) => Number(other?.price))
       .filter((value) => Number.isFinite(value) && value > 0)
       .sort((a, b) => a - b);
+    if (entry?.strict === true && others.length >= 1 && price < STRICT_LOW_RATIO * others[0]) return true;
     if (others.length < 2) return false;
     const mid = others.length % 2 ? others[(others.length - 1) / 2] : (others[others.length / 2 - 1] + others[others.length / 2]) / 2;
     return price < CROSS_SITE_LOW_RATIO * mid;

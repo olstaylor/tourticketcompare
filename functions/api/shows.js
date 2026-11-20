@@ -1228,7 +1228,9 @@ export async function attachApprovedMarketplacePrices(shows, env) {
       const decorated = decorateProviderResult(result || unavailableProviderPrice(lane.provider, show), show, lane.provider, env);
       return lastSeen && decorated.status !== "ok" ? { ...decorated, lastSeen } : decorated;
     });
-    const hide = implausiblyLowAmongSites(prices.map((entry) => ({ price: entry.status === "ok" ? entry.price : null, currency: entry.currency })));
+    const strictLane = northAmericanShow(show);
+    const isStrict = (entry) => strictLane && entry.provider === STRICT_GUARD_PROVIDER;
+    const hide = implausiblyLowAmongSites(prices.map((entry) => ({ price: entry.status === "ok" ? entry.price : null, currency: entry.currency, strict: isStrict(entry) })));
     prices.forEach((entry, index) => {
       if (hide[index]) prices[index] = decorateProviderResult(unavailableProviderPrice(entry.provider, show), show, entry.provider, env);
     });
@@ -1236,8 +1238,8 @@ export async function attachApprovedMarketplacePrices(shows, env) {
     // last-seen amount is checked against every other figure for this show
     // (fresh or last seen) the same way, and dropped if implausibly low.
     const hideSeen = implausiblyLowAmongSites(prices.map((entry) => (
-      entry.status === "ok" ? { price: entry.price, currency: entry.currency }
-        : entry.lastSeen ? { price: entry.lastSeen.price, currency: entry.lastSeen.currency }
+      entry.status === "ok" ? { price: entry.price, currency: entry.currency, strict: isStrict(entry) }
+        : entry.lastSeen ? { price: entry.lastSeen.price, currency: entry.lastSeen.currency, strict: isStrict(entry) }
           : { price: null, currency: entry.currency }
     )));
     prices.forEach((entry, index) => {
@@ -1249,6 +1251,14 @@ export async function attachApprovedMarketplacePrices(shows, env) {
     const priceChecks = checksByEvent.get(showId);
     return priceChecks ? { ...show, prices, priceChecks } : { ...show, prices };
   });
+}
+
+// Provider and region the narrower cross-site price guard applies to; see
+// STRICT_LOW_RATIO in _price-outliers.js for the evidence behind both.
+const STRICT_GUARD_PROVIDER = "StubHub International";
+const NORTH_AMERICA_COUNTRIES = new Set(["united states", "united states of america", "usa", "us", "canada"]);
+function northAmericanShow(show) {
+  return NORTH_AMERICA_COUNTRIES.has(String(show?.country || "").trim().toLowerCase());
 }
 
 function buildProviderUrl(show, provider) {

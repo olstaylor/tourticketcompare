@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "22006562D6B54087",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-orlando-florida-02-05-2027/event/22006562D6B54087",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/orlando-florida-kia-center-2027-02-05-8-pm/concert/18746718",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-orlando-kia-center-2-5-2027/production/7824670",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-orlando-florida-02-05-2027/event/22006562D6B54087",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746718,
+        "url": "https://seatgeek.com/feid-tickets/orlando-florida-kia-center-2027-02-05-8-pm/concert/18746718",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824670,
@@ -105,7 +105,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006563E3E1990B",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-tampa-florida-02-06-2027/event/0D006563E3E1990B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/tampa-florida-benchmark-international-arena-2027-02-06-8-pm/concert/18746719",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-tampa-benchmark-international-arena-2-6-2027/production/7824724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-tampa-florida-02-06-2027/event/0D006563E3E1990B",
@@ -121,11 +121,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746719,
+        "url": "https://seatgeek.com/feid-tickets/tampa-florida-benchmark-international-arena-2027-02-06-8-pm/concert/18746719",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824724,
@@ -198,7 +198,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006562D90BAFAB",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-miami-florida-02-11-2027/event/0D006562D90BAFAB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/miami-florida-kaseya-center-2027-02-11-8-pm/concert/18746721",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-miami-kaseya-center-2-11-2027/production/7824740",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-miami-florida-02-11-2027/event/0D006562D90BAFAB",
@@ -214,11 +214,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746721,
+        "url": "https://seatgeek.com/feid-tickets/miami-florida-kaseya-center-2027-02-11-8-pm/concert/18746721",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824740,
@@ -377,7 +377,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006562B21A8E27",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-charlotte-north-carolina-02-20-2027/event/2D006562B21A8E27",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-02-20-8-pm/concert/18746722",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-charlotte-spectrum-center-2-20-2027/production/7824738",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-charlotte-north-carolina-02-20-2027/event/2D006562B21A8E27",
@@ -393,11 +393,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746722,
+        "url": "https://seatgeek.com/feid-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-02-20-8-pm/concert/18746722",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824738,
@@ -470,7 +470,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010065639CD167A2",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-boston-massachusetts-02-23-2027/event/010065639CD167A2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/boston-massachusetts-td-garden-2027-02-23-8-pm/concert/18746720",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-boston-td-garden-2-23-2027/production/7824764",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-boston-massachusetts-02-23-2027/event/010065639CD167A2",
@@ -486,11 +486,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746720,
+        "url": "https://seatgeek.com/feid-tickets/boston-massachusetts-td-garden-2027-02-23-8-pm/concert/18746720",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824764,
@@ -564,7 +564,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500654538915859",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-washington-district-of-columbia-02-25-2027/event/1500654538915859",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/washington-district-of-columbia-capital-one-arena-2027-02-25-8-pm/concert/18746730",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-washington-capital-one-arena-2-25-2027/production/7824742",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-washington-district-of-columbia-02-25-2027/event/1500654538915859",
@@ -580,11 +580,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746730,
+        "url": "https://seatgeek.com/feid-tickets/washington-district-of-columbia-capital-one-arena-2027-02-25-8-pm/concert/18746730",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824742,
@@ -658,7 +658,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "30006565AB1E4D1C",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-philadelphia-pennsylvania-02-26-2027/event/30006565AB1E4D1C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-02-26-8-pm/concert/18746729",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-philadelphia-xfinity-mobile-arena-2-26-2027/production/7824744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-philadelphia-pennsylvania-02-26-2027/event/30006565AB1E4D1C",
@@ -674,11 +674,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746729,
+        "url": "https://seatgeek.com/feid-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-02-26-8-pm/concert/18746729",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824744,
@@ -751,7 +751,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3000656491B9295F",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-03-2027/event/3000656491B9295F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/brooklyn-new-york-barclays-center-2027-03-03-8-pm/concert/18746735",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-brooklyn-barclays-center-3-3-2027/production/7824704",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-brooklyn-new-york-03-03-2027/event/3000656491B9295F",
@@ -767,11 +767,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746735,
+        "url": "https://seatgeek.com/feid-tickets/brooklyn-new-york-barclays-center-2027-03-03-8-pm/concert/18746735",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824704,
@@ -864,7 +864,7 @@
         "event_id": 18746767,
         "url": "https://seatgeek.com/feid-tickets/toronto-canada-scotiabank-arena-2027-03-11-8-pm/concert/18746767",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1863,7 +1863,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006563A7F4983E",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-fresno-california-04-13-2027/event/1C006563A7F4983E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/fresno-california-save-mart-center-2027-04-13-8-pm/concert/18746757",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-fresno-save-mart-center-4-13-2027/production/7824652",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-fresno-california-04-13-2027/event/1C006563A7F4983E",
@@ -1879,11 +1879,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746757,
+        "url": "https://seatgeek.com/feid-tickets/fresno-california-save-mart-center-2027-04-13-8-pm/concert/18746757",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824652,
@@ -1957,7 +1957,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "19006563CAE45F83",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-phoenix-arizona-04-15-2027/event/19006563CAE45F83",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-15-8-pm/concert/18746758",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-phoenix-mortgage-matchup-center-4-15-2027/production/7824768",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-phoenix-arizona-04-15-2027/event/19006563CAE45F83",
@@ -1973,11 +1973,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746758,
+        "url": "https://seatgeek.com/feid-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-15-8-pm/concert/18746758",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824768,
@@ -2141,7 +2141,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "09006563CA7AD7D6",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-anaheim-california-04-25-2027/event/09006563CA7AD7D6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/anaheim-california-honda-center-2027-04-25-8-pm/concert/18749073",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-anaheim-honda-center-4-25-2027/production/7824654",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-anaheim-california-04-25-2027/event/09006563CA7AD7D6",
@@ -2157,11 +2157,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18749073,
+        "url": "https://seatgeek.com/feid-tickets/anaheim-california-honda-center-2027-04-25-8-pm/concert/18749073",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824654,
@@ -2235,7 +2235,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "09006563CCD6DA6F",
     "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-29-2027/event/09006563CCD6DA6F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/feid-tickets/inglewood-california-intuit-dome-2027-04-29-8-pm/concert/18746765",
     "vividseats_url": "https://www.vividseats.com/feid-tickets-inglewood-intuit-dome-4-29-2027/production/7824619",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-29-2027/event/09006563CCD6DA6F",
@@ -2251,11 +2251,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746765,
+        "url": "https://seatgeek.com/feid-tickets/inglewood-california-intuit-dome-2027-04-29-8-pm/concert/18746765",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824619,

@@ -907,7 +907,7 @@
     "tour_name": "Everything's Falling World Tour",
     "ticketmaster_event_id": "3A006529119E8C6E",
     "ticketmaster_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-houston-texas-05-02-2027/event/3A006529119E8C6E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-warning-tickets/houston-texas-bayou-music-center-2027-05-02-8-pm/concert/18590299",
     "vividseats_url": "https://www.vividseats.com/the-warning-tickets-houston-bayou-music-center-5-2-2027/production/7553247",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-warning-everythings-falling-world-tour-houston-texas-05-02-2027/event/3A006529119E8C6E",
@@ -923,11 +923,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18590299,
+        "url": "https://seatgeek.com/the-warning-tickets/houston-texas-bayou-music-center-2027-05-02-8-pm/concert/18590299",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7553247,

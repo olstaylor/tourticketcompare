@@ -255,7 +255,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006546DEE3F4C9",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-02-8-pm/concert/18664755",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-2-2027--concerts-pop/production/7679291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
@@ -271,11 +271,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664755,
+        "url": "https://seatgeek.com/remi-wolf-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-02-8-pm/concert/18664755",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679291,
@@ -344,7 +344,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006546DEF6F505",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-03-8-pm/concert/18693829",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-3-2027--concerts-pop/production/7713782",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
@@ -360,11 +360,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18693829,
+        "url": "https://seatgeek.com/remi-wolf-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-03-8-pm/concert/18693829",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7713782,
@@ -567,7 +567,7 @@
         "event_id": 18664757,
         "url": "https://seatgeek.com/remi-wolf-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-03-07-7-pm/concert/18664757",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

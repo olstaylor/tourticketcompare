@@ -170,7 +170,7 @@
         "event_id": 18701921,
         "url": "https://seatgeek.com/calvin-harris-tickets/las-vegas-nevada-xs-nightclub-at-encore-5-2026-12-31-10-30-pm/concert/18701921",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -851,7 +851,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100655109288157",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-03-31-2027/event/0100655109288157",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/boston-massachusetts-td-garden-2027-03-31-8-pm/concert/18701776",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-3-31-2027--concerts-dance-electronica/production/7727463",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-03-31-2027/event/0100655109288157",
@@ -867,11 +867,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18701776,
+        "url": "https://seatgeek.com/calvin-harris-tickets/boston-massachusetts-td-garden-2027-03-31-8-pm/concert/18701776",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7727463,
@@ -940,7 +940,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010065489F19B7D5",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-01-2027/event/010065489F19B7D5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/boston-massachusetts-td-garden-2027-04-01-8-pm/concert/18674833",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-4-1-2027--concerts-dance-electronica/production/7697402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-01-2027/event/010065489F19B7D5",
@@ -956,11 +956,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674833,
+        "url": "https://seatgeek.com/calvin-harris-tickets/boston-massachusetts-td-garden-2027-04-01-8-pm/concert/18674833",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697402,
@@ -1029,7 +1029,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "150065499F7975A4",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-baltimore-maryland-04-02-2027/event/150065499F7975A4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/baltimore-maryland-cfg-bank-arena-2027-04-02-8-pm/concert/18674835",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-baltimore-cfg-bank-arena-4-2-2027--concerts-dance-electronica/production/7697391",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-baltimore-maryland-04-02-2027/event/150065499F7975A4",
@@ -1045,11 +1045,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674835,
+        "url": "https://seatgeek.com/calvin-harris-tickets/baltimore-maryland-cfg-bank-arena-2027-04-02-8-pm/concert/18674835",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697391,
@@ -1118,7 +1118,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "010065557B7E41BD",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-04-2027/event/010065557B7E41BD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/boston-massachusetts-td-garden-2027-04-04-8-pm/concert/18708084",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-boston-td-garden-4-4-2027/production/7742575",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-boston-massachusetts-04-04-2027/event/010065557B7E41BD",
@@ -1134,11 +1134,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18708084,
+        "url": "https://seatgeek.com/calvin-harris-tickets/boston-massachusetts-td-garden-2027-04-04-8-pm/concert/18708084",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7742575,
@@ -1207,7 +1207,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "30006553879A1F54",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-06-2027/event/30006553879A1F54",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/brooklyn-new-york-barclays-center-2027-04-06-8-pm/concert/18701775",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-6-2027/production/7727404",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-06-2027/event/30006553879A1F54",
@@ -1223,11 +1223,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18701775,
+        "url": "https://seatgeek.com/calvin-harris-tickets/brooklyn-new-york-barclays-center-2027-04-06-8-pm/concert/18701775",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7727404,
@@ -1296,7 +1296,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3000655387AB1F59",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-07-2027/event/3000655387AB1F59",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/brooklyn-new-york-barclays-center-2027-04-07-8-pm/concert/18701777",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-7-2027--concerts-dance-electronica/production/7727467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-07-2027/event/3000655387AB1F59",
@@ -1312,11 +1312,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18701777,
+        "url": "https://seatgeek.com/calvin-harris-tickets/brooklyn-new-york-barclays-center-2027-04-07-8-pm/concert/18701777",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7727467,
@@ -1385,7 +1385,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "30006549BD426068",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-philadelphia-pennsylvania-04-08-2027/event/30006549BD426068",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-04-08-8-pm/concert/18674834",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-philadelphia-xfinity-mobile-arena-4-8-2027--concerts-dance-electronica/production/7697396",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-philadelphia-pennsylvania-04-08-2027/event/30006549BD426068",
@@ -1401,11 +1401,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674834,
+        "url": "https://seatgeek.com/calvin-harris-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-04-08-8-pm/concert/18674834",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697396,
@@ -1473,7 +1473,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "30006548B9DA6C8D",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-09-2027/event/30006548B9DA6C8D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/brooklyn-new-york-barclays-center-2027-04-09-8-pm/concert/18674836",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-9-2027--concerts-dance-electronica/production/7697398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-09-2027/event/30006548B9DA6C8D",
@@ -1489,11 +1489,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674836,
+        "url": "https://seatgeek.com/calvin-harris-tickets/brooklyn-new-york-barclays-center-2027-04-09-8-pm/concert/18674836",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697398,
@@ -1562,7 +1562,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "30006551057C973B",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-10-2027/event/30006551057C973B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/brooklyn-new-york-barclays-center-2027-04-10-8-pm/concert/18699752",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-brooklyn-barclays-center-4-10-2027/production/7722849",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-brooklyn-new-york-04-10-2027/event/30006551057C973B",
@@ -1578,11 +1578,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18699752,
+        "url": "https://seatgeek.com/calvin-harris-tickets/brooklyn-new-york-barclays-center-2027-04-10-8-pm/concert/18699752",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7722849,
@@ -2041,7 +2041,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006549BC8C568C",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-austin-texas-04-25-2027/event/3A006549BC8C568C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/austin-texas-moody-center-atx-2027-04-25-8-pm/concert/18674845",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-austin-moody-center-atx-4-25-2027--concerts-dance-electronica/production/7697360",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-austin-texas-04-25-2027/event/3A006549BC8C568C",
@@ -2057,11 +2057,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674845,
+        "url": "https://seatgeek.com/calvin-harris-tickets/austin-texas-moody-center-atx-2027-04-25-8-pm/concert/18674845",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697360,
@@ -2211,7 +2211,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006548C0DCD93B",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-04-30-2027/event/04006548C0DCD93B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/chicago-illinois-united-center-2027-04-30-8-pm/concert/18674846",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-chicago-united-center-4-30-2027--concerts-dance-electronica/production/7697375",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-04-30-2027/event/04006548C0DCD93B",
@@ -2227,11 +2227,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18674846,
+        "url": "https://seatgeek.com/calvin-harris-tickets/chicago-illinois-united-center-2027-04-30-8-pm/concert/18674846",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697375,
@@ -2300,7 +2300,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006552297D9C2A",
     "ticketmaster_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-05-02-2027/event/04006552297D9C2A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/calvin-harris-tickets/chicago-illinois-united-center-2027-05-02-7-30-pm/concert/18701999",
     "vividseats_url": "https://www.vividseats.com/calvin-harris-tickets-chicago-united-center-5-2-2027--concerts-dance-electronica/production/7727680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/calvin-harris-north-america-tour-chicago-illinois-05-02-2027/event/04006552297D9C2A",
@@ -2316,11 +2316,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18701999,
+        "url": "https://seatgeek.com/calvin-harris-tickets/chicago-illinois-united-center-2027-05-02-7-30-pm/concert/18701999",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7727680,

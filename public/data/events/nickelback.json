@@ -2266,7 +2266,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006542F75B398E",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-seattle-washington-04-10-2027/event/0F006542F75B398E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/seattle-washington-climate-pledge-arena-2027-04-10-6-30-pm/concert/18664605",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-seattle-climate-pledge-arena-4-10-2027/production/7678899",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-seattle-washington-04-10-2027/event/0F006542F75B398E",
@@ -2282,11 +2282,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664605,
+        "url": "https://seatgeek.com/nickelback-tickets/seattle-washington-climate-pledge-arena-2027-04-10-6-30-pm/concert/18664605",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678899,
@@ -2360,7 +2360,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006545C385788C",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-sacramento-california-04-13-2027/event/1C006545C385788C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/sacramento-california-golden-1-center-2027-04-13-6-30-pm/concert/18664610",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-sacramento-golden-1-center-4-13-2027--concerts-rock/production/7678990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-sacramento-california-04-13-2027/event/1C006545C385788C",
@@ -2376,11 +2376,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664610,
+        "url": "https://seatgeek.com/nickelback-tickets/sacramento-california-golden-1-center-2027-04-13-6-30-pm/concert/18664610",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678990,
@@ -2454,7 +2454,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "09006546BC85E784",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-anaheim-california-04-18-2027/event/09006546BC85E784",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/anaheim-california-honda-center-2027-04-18-6-30-pm/concert/18664614",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-anaheim-honda-center-4-18-2027--concerts-rock/production/7678996",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-anaheim-california-04-18-2027/event/09006546BC85E784",
@@ -2470,11 +2470,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664614,
+        "url": "https://seatgeek.com/nickelback-tickets/anaheim-california-honda-center-2027-04-18-6-30-pm/concert/18664614",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678996,
@@ -2548,7 +2548,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "19006546C468A612",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-phoenix-arizona-04-20-2027/event/19006546C468A612",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-20-6-30-pm/concert/18664616",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-phoenix-mortgage-matchup-center-4-20-2027--concerts-rock/production/7678998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-phoenix-arizona-04-20-2027/event/19006546C468A612",
@@ -2564,11 +2564,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664616,
+        "url": "https://seatgeek.com/nickelback-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-20-6-30-pm/concert/18664616",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678998,
@@ -2642,7 +2642,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E006545B5059DB7",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-denver-colorado-04-24-2027/event/1E006545B5059DB7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/denver-colorado-ball-arena-2027-04-24-6-30-pm/concert/18664617",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-denver-ball-arena-4-24-2027--concerts-rock/production/7679000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-denver-colorado-04-24-2027/event/1E006545B5059DB7",
@@ -2658,11 +2658,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664617,
+        "url": "https://seatgeek.com/nickelback-tickets/denver-colorado-ball-arena-2027-04-24-6-30-pm/concert/18664617",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679000,
@@ -4294,7 +4294,7 @@
         "event_id": 18604483,
         "url": "https://seatgeek.com/nickelback-tickets/cleveland-ohio-rocket-arena-2027-02-12-6-30-pm/concert/18604483",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

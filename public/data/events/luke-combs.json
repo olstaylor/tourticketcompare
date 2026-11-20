@@ -169,7 +169,7 @@
     "tour_name": "My Kinda Saturday Night Tour",
     "ticketmaster_event_id": "0200650AD64CFAEB",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-philadelphia-pennsylvania-04-24-2027/event/0200650AD64CFAEB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/luke-combs-tickets/philadelphia-pennsylvania-lincoln-financial-field-2027-04-24-5-20-pm/concert/18493399",
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-philadelphia-lincoln-financial-field-4-24-2027--concerts-country-and-folk/production/7429037",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-philadelphia-pennsylvania-04-24-2027/event/0200650AD64CFAEB",
@@ -185,11 +185,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18493399,
+        "url": "https://seatgeek.com/luke-combs-tickets/philadelphia-pennsylvania-lincoln-financial-field-2027-04-24-5-20-pm/concert/18493399",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7429037,
@@ -250,7 +250,7 @@
     "tour_name": "My Kinda Saturday Night Tour",
     "ticketmaster_event_id": "0100650A23A974B2",
     "ticketmaster_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-foxborough-massachusetts-05-01-2027/event/0100650A23A974B2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/luke-combs-tickets/foxborough-massachusetts-gillette-stadium-2027-05-01-5-45-pm/concert/18493402",
     "vividseats_url": "https://www.vividseats.com/luke-combs-tickets-foxborough-gillette-stadium-5-1-2027--concerts-country-and-folk/production/7429039",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/luke-combs-my-kinda-saturday-night-foxborough-massachusetts-05-01-2027/event/0100650A23A974B2",
@@ -266,11 +266,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18493402,
+        "url": "https://seatgeek.com/luke-combs-tickets/foxborough-massachusetts-gillette-stadium-2027-05-01-5-45-pm/concert/18493402",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7429039,

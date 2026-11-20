@@ -352,7 +352,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAef8-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef8-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/catoosa-oklahoma-hard-rock-live-tulsa-2026-12-05-9-pm/concert/18799114",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef8-",
@@ -368,11 +368,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18799114,
+        "url": "https://seatgeek.com/los-tucanes-de-tijuana-tickets/catoosa-oklahoma-hard-rock-live-tulsa-2026-12-05-9-pm/concert/18799114",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

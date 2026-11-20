@@ -797,7 +797,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7s_b",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s_b",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/dallas-texas-majestic-theatre-dallas-2027-08-14-8-pm/concert/18794192",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-dallas-majestic-theatre-dallas-8-14-2027/production/7763422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s_b",
@@ -813,11 +813,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18794192,
+        "url": "https://seatgeek.com/mat-kearney-tickets/dallas-texas-majestic-theatre-dallas-2027-08-14-8-pm/concert/18794192",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7763422,
@@ -1311,7 +1311,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7Yr7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Yr7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/boise-idaho-treefort-music-hall-2027-09-01-8-pm/concert/18830979",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Yr7",
@@ -1327,11 +1327,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18830979,
+        "url": "https://seatgeek.com/mat-kearney-tickets/boise-idaho-treefort-music-hall-2027-09-01-8-pm/concert/18830979",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

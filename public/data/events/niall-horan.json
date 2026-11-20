@@ -1067,7 +1067,7 @@
         "event_id": 18235523,
         "url": "https://seatgeek.com/niall-horan-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-17-7-30-pm/concert/18235523",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2155,7 +2155,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "0E0064A6D18B6EFF",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-atlanta-georgia-04-28-2027/event/0E0064A6D18B6EFF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/atlanta-georgia-state-farm-arena-1-2027-04-28-7-30-pm/concert/18235542",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-atlanta-state-farm-arena-4-28-2027/production/7017229",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-atlanta-georgia-04-28-2027/event/0E0064A6D18B6EFF",
@@ -2171,11 +2171,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18235542,
+        "url": "https://seatgeek.com/niall-horan-tickets/atlanta-georgia-state-farm-arena-1-2027-04-28-7-30-pm/concert/18235542",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017229,
@@ -2249,7 +2249,7 @@
     "tour_name": "Dinner Party Live On Tour",
     "ticketmaster_event_id": "1B0064A893B6A823",
     "ticketmaster_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-new-orleans-louisiana-04-29-2027/event/1B0064A893B6A823",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/niall-horan-tickets/new-orleans-louisiana-smoothie-king-center-2027-04-29-7-30-pm/concert/18235543",
     "vividseats_url": "https://www.vividseats.com/niall-horan-tickets-new-orleans-smoothie-king-center-4-29-2027/production/7017193",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/niall-horan-dinner-party-live-on-new-orleans-louisiana-04-29-2027/event/1B0064A893B6A823",
@@ -2265,11 +2265,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18235543,
+        "url": "https://seatgeek.com/niall-horan-tickets/new-orleans-louisiana-smoothie-king-center-2027-04-29-7-30-pm/concert/18235543",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7017193,

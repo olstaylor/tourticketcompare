@@ -2438,7 +2438,7 @@
     "tour_name": "The Ugly Tour",
     "ticketmaster_event_id": "0900648DE2F4A831",
     "ticketmaster_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-inglewood-california-11-18-2026/event/0900648DE2F4A831",
-    "seatgeek_url": "https://seatgeek.com/teddy-swims-tickets/inglewood-california-kia-forum-2026-11-18-7-pm/concert/18185184",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/teddy-swims-tickets-inglewood-kia-forum-11-18-2026--concerts-rb/production/6912024",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/teddy-swims-the-ugly-tour-inglewood-california-11-18-2026/event/0900648DE2F4A831",
@@ -2454,11 +2454,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18185184,
-        "url": "https://seatgeek.com/teddy-swims-tickets/inglewood-california-kia-forum-2026-11-18-7-pm/concert/18185184",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6912024,

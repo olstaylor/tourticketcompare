@@ -988,7 +988,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006538AD53DE3B",
     "ticketmaster_url": "https://www.ticketmaster.com/a-perfect-circle-newark-new-jersey-05-01-2027/event/02006538AD53DE3B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-perfect-circle-tickets/newark-new-jersey-prudential-center-2027-05-01-8-pm/concert/18632523",
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-newark-prudential-center-5-1-2027/production/7623553",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-newark-new-jersey-05-01-2027/event/02006538AD53DE3B",
@@ -1004,11 +1004,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18632523,
+        "url": "https://seatgeek.com/a-perfect-circle-tickets/newark-new-jersey-prudential-center-2027-05-01-8-pm/concert/18632523",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623553,

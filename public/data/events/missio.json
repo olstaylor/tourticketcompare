@@ -443,7 +443,7 @@
         "event_id": 18492369,
         "url": "https://seatgeek.com/missio-tickets/toronto-canada-the-garrison-toronto-2026-11-20-6-30-pm/concert/18492369",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -504,7 +504,7 @@
         "event_id": 18492289,
         "url": "https://seatgeek.com/missio-tickets/boston-massachusetts-brighton-music-hall-2026-11-22-7-pm/concert/18492289",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -699,7 +699,7 @@
         "event_id": 18646946,
         "url": "https://seatgeek.com/missio-tickets/vancouver-canada-the-pearl-bc-2026-12-12-6-pm/concert/18646946",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -818,7 +818,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvf",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvf",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/boise-idaho-knitting-factory-concert-house-boise-2026-12-15-7-pm/concert/18794564",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-boise-knitting-factory-concert-house-boise-12-15-2026--concerts-dance-electronica/production/7425939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvf",
@@ -834,11 +834,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18794564,
+        "url": "https://seatgeek.com/missio-tickets/boise-idaho-knitting-factory-concert-house-boise-2026-12-15-7-pm/concert/18794564",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425939,
@@ -956,7 +956,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIv_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/cudahy-wisconsin-x-ray-arcade-2027-01-14-7-30-pm/concert/18827506",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv_",
@@ -972,11 +972,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18827506,
+        "url": "https://seatgeek.com/missio-tickets/cudahy-wisconsin-x-ray-arcade-2027-01-14-7-30-pm/concert/18827506",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1673,7 +1673,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvE",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/dallas-texas-puzzles-deep-ellum-2027-04-08-6-pm/concert/18835278",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-dallas-puzzles-deep-ellum-4-8-2027/production/7425236",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvE",
@@ -1689,11 +1689,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18835278,
+        "url": "https://seatgeek.com/missio-tickets/dallas-texas-puzzles-deep-ellum-2027-04-08-6-pm/concert/18835278",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425236,
@@ -1811,7 +1811,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvt",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvt",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/austin-texas-come-and-take-it-live-2027-04-10-6-pm/concert/18823420",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-austin-come-and-take-it-live-4-10-2027/production/7425234",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvt",
@@ -1827,11 +1827,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18823420,
+        "url": "https://seatgeek.com/missio-tickets/austin-texas-come-and-take-it-live-2027-04-10-6-pm/concert/18823420",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425234,

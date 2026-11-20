@@ -2201,7 +2201,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-charlotte-the-fillmore-charlotte-12-19-2026--concerts-rock/production/7325402",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-charlotte-north-carolina-12-19-2026/event/2D0064ED94BA89EF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2254,11 +2254,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151270",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151270/Trivium-tickets-Sat-Dec-19-2026-The-Fillmore-Charlotte",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-07-24T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "In Flames VIP Packages Onsale",
         "start": "2026-07-24T14:00:00Z",

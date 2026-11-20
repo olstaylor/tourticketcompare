@@ -1011,7 +1011,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-des-moines-hoyt-sherman-place-1-23-2027/production/7562573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-des-moines-iowa-01-23-2027/event/0600652981F44312",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1068,6 +1068,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-09-18T15:00:00Z",
         "end": "2027-01-17T04:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-12-02T16:00:00Z",
+        "end": "2026-12-10T04:00:00Z"
       }
     ],
     "ticket_limit": 8,

@@ -861,7 +861,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -896,6 +896,18 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_p4PJKae",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-12-13T18:00:00Z"
+      }
+    ]
   }
 ]

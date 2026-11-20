@@ -77,7 +77,7 @@
     "city": "Las Vegas",
     "country": "United States Of America",
     "venue": "XS Nightclub at Wynn Las Vegas",
-    "datetime_iso": "2026-11-22T06:30:00Z",
+    "datetime_iso": "2026-11-22T05:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAv9uM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uM",
@@ -85,7 +85,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv9uM",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {

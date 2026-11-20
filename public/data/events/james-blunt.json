@@ -988,7 +988,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/james-blunt-airplane-mode-tickets/1345002212?language=en-us",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1023,8 +1023,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vuAZeF3",
     "timezone": "Europe/Berlin",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "HockeyPark Betriebs GmbH & Co. KG"
     ],
@@ -1046,7 +1045,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-lincoln-16-06-2027/event/1F00651A99762DD7",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1088,50 +1087,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_on_qxM9",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Cuffe & Taylor Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Lincoln Concerts Live Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Lincoln Groups Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-lincoln-lincoln-castle-16-6-2027/event/107683872"
   },
   {
@@ -1150,7 +1111,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-thetford-high-lodge-thetford-18-06-2027/event/3700656C95955A12",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1185,41 +1146,13 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_pGkw4P4I3",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)",
       "FORESTRY ENGLAND"
     ],
     "ticket_limit": 6,
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "PayPal Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Cuffe & Taylor Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-scarborough-1ku8vp1_ga1cs0u",
@@ -1237,7 +1170,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-scarborough-20-06-2027/event/350065299AB71936",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1279,40 +1212,12 @@
     },
     "ticketmaster_discovery_event_id": "1ku8vP1_GA1cs0U",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Cuffe & Taylor Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-scarborough-scarborough-open-air-theatre-20-6-2027/event/107683869"
   },
   {
@@ -1331,7 +1236,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-westonbirt-arboretum-bus-gloucestershire-23-06-2027/event/37006570982F22CE",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1373,8 +1278,7 @@
     },
     "ticketmaster_discovery_event_id": "16MZk4YJeZA8ddu2",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)",
       "FORESTRY ENGLAND"
@@ -1399,7 +1303,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-llangollen-24-06-2027/event/1F00652AA27A2B61",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1434,41 +1338,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_3nxrxc-",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)",
       "LLANGOLLEN INTERNATIONAL MUSICAL EISTEDDFOD"
     ],
     "ticket_limit": 6,
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Cuffe & Taylor Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-james-blunt-2027-margate-1agzkfegkdf5svi",
@@ -1486,7 +1362,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-blunt-margate-27-08-2027/event/35006527C82F306C",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1528,40 +1404,12 @@
     },
     "ticketmaster_discovery_event_id": "1AgZkfEGkdF5Svi",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Cuffe & Taylor Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-margate-dreamland-margate-27-8-2027/event/107683856"
   },
   {
@@ -1580,7 +1428,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/james-bluntwith-special-guests-starsailor-noonzy-colchester-28-08-2027/event/35006548E95C89C7",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1615,44 +1463,11 @@
     },
     "ticketmaster_discovery_event_id": "1AgZk4FGkdt9FE6",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "CUFFE & TAYLOR (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Cuffe & Taylor Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Supermodified Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   }
 ]

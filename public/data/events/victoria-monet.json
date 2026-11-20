@@ -1947,7 +1947,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-san-francisco-bill-graham-civic-auditorium-12-17-2026--concerts-pop/production/7540497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-francisco-california-12-17-2026/event/1C006523E4C75D1A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2012,16 +2012,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Verizon Shine Select Seats",
-        "start": "2026-09-16T17:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-09-16T17:00:00Z",

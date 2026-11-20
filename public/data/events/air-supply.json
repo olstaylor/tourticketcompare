@@ -2270,7 +2270,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-indianapolis-murat-theatre-at-old-national-centre-4-3-2027/production/7880526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-indianapolis-indiana-04-03-2027/event/0500656CC66CDF4A",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2327,26 +2327,6 @@
     "ticket_limit": 8,
     "genre": "Pop",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Old National Bank Sponsor Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T15:00:00Z",

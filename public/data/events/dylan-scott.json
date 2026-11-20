@@ -366,7 +366,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-waukee-vibrant-music-hall-1-23-2027/production/7564243",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-waukee-iowa-01-23-2027/event/2100652ACF9E5751",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -433,6 +433,11 @@
         "name": "T-Mobile Offer + Fast Lane",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-01-21T04:00:00Z"
+      },
+      {
+        "name": "Black Friday/Cyber Monday 30% Off",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
       }
     ],
     "organizer_names": [
@@ -1098,7 +1103,7 @@
     "vividseats_url": "https://www.vividseats.com/dylan-scott-tickets-park-city-heartland-credit-union-arena-2-20-2027/production/7565013",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-park-city-kansas-02-20-2027/event/0600652BAAEAA01F",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1141,6 +1146,11 @@
         "end": "2027-02-14T04:00:00Z"
       },
       {
+        "name": "Black Friday Deal",
+        "start": "2026-11-23T16:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
+      },
+      {
         "name": "Black Friday Special Deal",
         "start": "2026-11-27T16:00:00Z",
         "end": "2027-01-01T04:00:00Z"
@@ -1167,7 +1177,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1208,6 +1218,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-02-19T05:00:00Z"
+      },
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-23T07:01:00Z",
+        "end": "2026-12-08T06:59:00Z"
       },
       {
         "name": "TMNTXO",

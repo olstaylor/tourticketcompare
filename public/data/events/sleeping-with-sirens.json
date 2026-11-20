@@ -1450,7 +1450,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/sleeping-with-sirens-tickets/193160883?language=en-us",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1485,8 +1485,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kkKAOxd",
     "timezone": "Europe/Warsaw",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Winiary Bookings"
     ],

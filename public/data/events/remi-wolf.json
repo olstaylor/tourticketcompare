@@ -1939,7 +1939,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-washington-dc-the-anthem-2-24-2027/production/7888944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-24-2027/event/15006549AE7A8A08",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1992,18 +1992,6 @@
     "public_onsale_at": "2026-11-20T15:00:00Z",
     "ticket_limit": 4,
     "genre": "Pop",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "I.M.P. Email Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376396",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376396/Remi-Wolf-tickets-Wed-Feb-24-2027-The-Anthem-DC"
   },
@@ -2023,7 +2011,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-berkeley-california-04-30-2027/event/1C00656DDECA5A14",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2079,18 +2067,6 @@
     ],
     "ticket_limit": 4,
     "genre": "Pop",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "APE Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376395",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376395/Remi-Wolf-tickets-Fri-Apr-30-2027-Greek-Theatre-UC-Berkeley"
   },
@@ -2110,7 +2086,7 @@
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-phoenix-the-van-buren-5-3-2027/production/7889380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-03-2027/event/1900656D98A746C1",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2167,21 +2143,6 @@
     "ticket_limit": 4,
     "genre": "Pop",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-20T05:00:00Z"
-      },
-      {
-        "name": "Citi® Cardmember Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-20T05:00:00Z"
-      },
-      {
-        "name": "LIVE NATION PRESALE",
-        "start": "2026-11-19T17:00:00Z",
-        "end": "2026-11-20T05:00:00Z"
-      },
       {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-20T17:00:00Z",

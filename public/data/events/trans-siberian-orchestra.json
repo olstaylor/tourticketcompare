@@ -1135,7 +1135,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-charleston-charleston-coliseum-and-convention-center-12-3-2026/production/7536609",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-charleston-west-virginia-12-03-2026/event/1600650CA03760B5",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1188,11 +1188,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255063",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255063/Trans-Siberian-Orchestra-tickets-Thu-Dec-3-2026-Charleston-Coliseum-Convention-Center-Charleston",
     "presales": [
-      {
-        "name": "T-Mobile Offer",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "Lowe's Discount Ticket Offer",
         "start": "2026-10-15T20:00:00Z",
@@ -2604,7 +2599,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-jacksonville-vystar-veterans-memorial-arena-12-17-2026/production/7536615",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-jacksonville-florida-12-17-2026/event/2200651CB8B35463",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2657,11 +2652,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255102",
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-04T03:00:00Z"
@@ -2690,7 +2680,7 @@
     "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-albany-mvp-arena-12-17-2026--concerts-world-music/production/7536715",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-albany-new-york-12-17-2026/event/0000650D9ACEC58C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2742,11 +2732,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255103",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-20T04:59:00Z"
-      },
       {
         "name": "T-Mobile® Concert Perks",
         "start": "2026-09-18T14:00:00Z",

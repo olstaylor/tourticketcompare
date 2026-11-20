@@ -149,7 +149,7 @@
     "vividseats_url": "https://www.vividseats.com/flans-tickets-atlanta-cobb-energy-performing-arts-centre-2-25-2027--concerts-world-music/production/7593526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/flans-40-sin-control-tour-atlanta-georgia-02-25-2027/event/0E006532C09AE346",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -201,7 +201,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8289131",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8289131/Flans-tickets-Thu-Feb-25-2027-Cobb-Energy-Performing-Arts-Centre",
-    "genre": "Ballads/Romantic"
+    "genre": "Ballads/Romantic",
+    "presales": [
+      {
+        "name": "40 Años",
+        "start": "2026-11-26T15:00:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-flans-2027-charlotte-g5evz_3xf-_ej",

@@ -53894,7 +53894,7 @@
     "country": "United States Of America",
     "city": "Las Vegas",
     "venue": "XS Nightclub at Wynn Las Vegas",
-    "datetime_iso": "2026-11-22T06:30:00Z",
+    "datetime_iso": "2026-11-22T05:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
     "status": "on-sale"
@@ -63941,7 +63941,7 @@
     "datetime_iso": "2027-05-17T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-vancouver-1aozk4pgkepqkay",
@@ -63953,7 +63953,7 @@
     "datetime_iso": "2027-05-20T02:30:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-santa-clara-g5vyz_p1srtgv",
@@ -63965,7 +63965,7 @@
     "datetime_iso": "2027-05-23T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-san-diego-vvg1iz_plbqdhe",
@@ -63977,7 +63977,7 @@
     "datetime_iso": "2027-05-26T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-inglewood-vvg1iz_4slsivl",
@@ -63989,7 +63989,7 @@
     "datetime_iso": "2027-05-30T02:30:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-houston-g5diz_p4wwnf8",
@@ -64001,7 +64001,7 @@
     "datetime_iso": "2027-06-06T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-atlanta-vvg1zz_phzq3g7",
@@ -64013,7 +64013,7 @@
     "datetime_iso": "2027-06-08T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-miami-vvg1vz_ppnraxv",
@@ -64025,7 +64025,7 @@
     "datetime_iso": "2027-06-11T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-orlando-1axzk40gkdehatj",
@@ -64037,7 +64037,7 @@
     "datetime_iso": "2027-06-14T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-chicago-vv1a7zk4ngkdhgi8m",
@@ -64049,7 +64049,7 @@
     "datetime_iso": "2027-06-19T00:30:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-toronto-1avzz_4gkdmari8",
@@ -64061,7 +64061,7 @@
     "datetime_iso": "2027-06-25T23:30:00Z",
     "timezone": "America/Toronto",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-east-rutherford-k7vgf_pcnx6a9",
@@ -64073,7 +64073,7 @@
     "datetime_iso": "2027-06-29T23:30:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-munich-z698xzc2z1kazaygz",
@@ -64085,7 +64085,7 @@
     "datetime_iso": "2027-07-17T17:30:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-vienna-z698xz5rz16vofpore",
@@ -64097,7 +64097,7 @@
     "datetime_iso": "2027-07-21T17:30:00Z",
     "timezone": "Europe/Vienna",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-barcelona-z698xz2qz16vod48ea",
@@ -64109,7 +64109,7 @@
     "datetime_iso": "2027-07-24T17:30:00Z",
     "timezone": "Europe/Madrid",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-stray-kids-2027-arnhem-z698xzbpz1k4kc30n",
@@ -64121,7 +64121,7 @@
     "datetime_iso": "2027-07-27T17:30:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-mumford-sons-2027-milwaukee-vv1a6zk40gkdo7krz",
@@ -65309,7 +65309,7 @@
     "datetime_iso": "2027-05-14T02:00:00Z",
     "timezone": "America/Mexico_City",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-manchester-1adjz_pgkwcxzvj",
@@ -65345,7 +65345,7 @@
     "datetime_iso": "2027-04-21T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-new-york-g5dyz_pnxxsdo",
@@ -65357,7 +65357,7 @@
     "datetime_iso": "2027-04-23T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-toronto-1avzz_pgkl1qlzt",
@@ -65369,7 +65369,7 @@
     "datetime_iso": "2027-04-25T00:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-tempe-1av0z_pgkrzfigp",
@@ -65381,7 +65381,7 @@
     "datetime_iso": "2027-05-02T03:00:00Z",
     "timezone": "America/Phoenix",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-los-angeles-vv170z_pgklllved",
@@ -65393,7 +65393,7 @@
     "datetime_iso": "2027-05-04T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-seattle-vvg1hz_pmbc1yg",
@@ -65405,7 +65405,7 @@
     "datetime_iso": "2027-05-08T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-sam-fender-2027-vancouver-16ozk4ekdza2k2ve",
@@ -65417,7 +65417,7 @@
     "datetime_iso": "2027-05-10T03:00:00Z",
     "timezone": "America/Vancouver",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-hartford-z7r9jz1aaad3z",
@@ -65729,7 +65729,7 @@
     "datetime_iso": "2027-09-08T17:30:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-amsterdam-z698xzbpz1krbj60f",
@@ -65741,7 +65741,7 @@
     "datetime_iso": "2027-09-09T17:30:00Z",
     "timezone": "Europe/Amsterdam",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-fornebu-z698xzb_z1k-p0apk",
@@ -65753,7 +65753,7 @@
     "datetime_iso": "2027-09-25T09:30:00Z",
     "timezone": "Europe/Oslo",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-brussels-z698xzg2z1kup-z3o",
@@ -65765,7 +65765,7 @@
     "datetime_iso": "2027-10-02T12:00:00Z",
     "timezone": "Europe/Brussels",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-dublin-1avoz_pgksg3dqw",
@@ -65777,7 +65777,7 @@
     "datetime_iso": "2027-10-09T13:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-glasgow-1adbz_pgkrybqvg",
@@ -65789,7 +65789,7 @@
     "datetime_iso": "2027-10-12T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-birmingham-1aegz_pgkm7p-do",
@@ -65801,7 +65801,7 @@
     "datetime_iso": "2027-10-16T11:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkm7wjw0",
@@ -65813,7 +65813,7 @@
     "datetime_iso": "2027-10-22T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkmklpyh",
@@ -65825,7 +65825,7 @@
     "datetime_iso": "2027-10-23T11:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-the-rankin-family-2027-edmonton-1k78vpbmga2hetj",
@@ -67289,7 +67289,7 @@
     "datetime_iso": "2027-06-12T14:00:00Z",
     "timezone": "Europe/Helsinki",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-foo-fighters-2027-k-benhavn-sv-z698xzc4z16vbe4w_s",
@@ -67301,7 +67301,7 @@
     "datetime_iso": "2027-06-15T18:00:00Z",
     "timezone": "Europe/Copenhagen",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-foo-fighters-2027-london-1aegz_pgknyaowd",
@@ -67313,7 +67313,7 @@
     "datetime_iso": "2027-09-09T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-foo-fighters-2027-london-1aegz_pgky5a3fo",
@@ -67325,7 +67325,7 @@
     "datetime_iso": "2027-09-11T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-foo-fighters-2027-darlington-1adjz_pgknom0ij",
@@ -67337,7 +67337,7 @@
     "datetime_iso": "2027-09-14T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-foo-fighters-2027-edinburgh-1auzkfegkecn0w6",
@@ -67349,7 +67349,7 @@
     "datetime_iso": "2027-09-16T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-foo-fighters-2027-dublin-1avoz_3gktbqeds",
@@ -67361,7 +67361,7 @@
     "datetime_iso": "2027-09-18T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-leon-bridges-2027-warsaw-z698xzqpz1kfy4b8p",
@@ -67373,7 +67373,7 @@
     "datetime_iso": "2027-05-31T16:00:00Z",
     "timezone": "Europe/Warsaw",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-leon-bridges-2027-forest-brussels-z698xzg2z16vb_jsqs",
@@ -67385,7 +67385,7 @@
     "datetime_iso": "2027-06-09T16:30:00Z",
     "timezone": "Europe/Brussels",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-leon-bridges-2027-manchester-1adbz_pgkmxxe4x",
@@ -67397,7 +67397,7 @@
     "datetime_iso": "2027-06-11T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-leon-bridges-2027-bristol-1adfz_pgkidfay7",
@@ -67409,7 +67409,7 @@
     "datetime_iso": "2027-06-15T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-leon-bridges-2027-london-1adbz_pgkgzqvyv",
@@ -67421,7 +67421,7 @@
     "datetime_iso": "2027-06-17T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-leon-bridges-2027-london-1adbz_pgkgzqsyx",
@@ -67433,7 +67433,7 @@
     "datetime_iso": "2027-06-18T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-leon-bridges-2027-birmingham-g5dzz_peyxywx",
@@ -67445,7 +67445,7 @@
     "datetime_iso": "2027-06-22T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-leon-bridges-2027-glasgow-1adbz_pgkmjk5az",
@@ -67457,7 +67457,7 @@
     "datetime_iso": "2027-06-23T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kacey-musgraves-2027-dublin-1avoz_pgkmocyq-",
@@ -67469,7 +67469,7 @@
     "datetime_iso": "2027-06-24T18:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-kacey-musgraves-2027-belfast-1adoz_pgkwxv3eu",
@@ -67481,7 +67481,7 @@
     "datetime_iso": "2027-06-25T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-knocked-loose-2027-brisbane-1avgz_3gkbtawtj",
@@ -67517,7 +67517,7 @@
     "datetime_iso": "2027-06-02T18:00:00Z",
     "timezone": "Europe/Warsaw",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-simply-red-2027-dublin-1avoz_pgkcw_dua",
@@ -67529,7 +67529,7 @@
     "datetime_iso": "2027-08-24T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-intocable-2026-sugar-land-z7r9jz1a7x9gp",
@@ -68333,7 +68333,7 @@
     "datetime_iso": "2027-05-28T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tom-jones-2027-cardiff-g5vhz_4wcs0vc",
@@ -68345,7 +68345,7 @@
     "datetime_iso": "2027-05-30T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tom-jones-2027-london-g5vhz_4bny4uy",
@@ -68357,7 +68357,7 @@
     "datetime_iso": "2027-06-18T16:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tom-jones-2027-liverpool-g5vhz_pqm3anq",
@@ -68369,7 +68369,7 @@
     "datetime_iso": "2027-06-20T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tom-jones-2027-lincoln-g5vhz_4w3ae65",
@@ -68381,7 +68381,7 @@
     "datetime_iso": "2027-06-23T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tom-jones-2027-rugeley-1amzk4tgkejv7jb",
@@ -68393,7 +68393,7 @@
     "datetime_iso": "2027-06-25T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tom-jones-2027-llangollen-g5vhz_pwfve8t",
@@ -68405,7 +68405,7 @@
     "datetime_iso": "2027-06-28T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tom-jones-2027-woodstock-1amzk4tgketwvu7",
@@ -68417,7 +68417,7 @@
     "datetime_iso": "2027-06-30T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-tom-jones-2027-newcastle-g5vhz_pjbj04_",
@@ -68429,7 +68429,7 @@
     "datetime_iso": "2027-07-11T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-a-boogie-wit-da-hoodie-2027-london-1amzk4ygkd4ogxu",
@@ -68441,7 +68441,7 @@
     "datetime_iso": "2027-02-02T18:30:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-interpol-2027-los-angeles-vvg1iz_pmocxuu",
@@ -68477,7 +68477,7 @@
     "datetime_iso": "2027-06-13T17:00:00Z",
     "timezone": "Europe/Berlin",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-james-blunt-2027-lincoln-g5vhz_on_qxm9",
@@ -68489,7 +68489,7 @@
     "datetime_iso": "2027-06-16T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-james-blunt-2027-thetford-1adjz_pgkw4p4i3",
@@ -68501,7 +68501,7 @@
     "datetime_iso": "2027-06-18T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-james-blunt-2027-scarborough-1ku8vp1_ga1cs0u",
@@ -68513,7 +68513,7 @@
     "datetime_iso": "2027-06-20T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-james-blunt-2027-gloucestershire-16mzk4yjeza8ddu2",
@@ -68525,7 +68525,7 @@
     "datetime_iso": "2027-06-23T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-james-blunt-2027-llangollen-g5vhz_3nxrxc-",
@@ -68537,7 +68537,7 @@
     "datetime_iso": "2027-06-24T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-james-blunt-2027-margate-1agzkfegkdf5svi",
@@ -68549,7 +68549,7 @@
     "datetime_iso": "2027-08-27T16:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-james-blunt-2027-colchester-1agzk4fgkdt9fe6",
@@ -68561,7 +68561,7 @@
     "datetime_iso": "2027-08-28T15:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-megadeth-2027-albuquerque-g5vzz_pwxigv1",
@@ -69161,7 +69161,7 @@
     "datetime_iso": "2027-10-19T17:00:00Z",
     "timezone": "Europe/London",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-travis-tritt-2027-nashville-z7r9jz1a7jf0f",

@@ -1148,7 +1148,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-toronto-coca-cola-coliseum-11-26-2026--concerts-pop/production/7347498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tyla-the-apop-world-tour-toronto-ontario-11-26-2026/event/100064F5D5533790",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1184,13 +1184,6 @@
     "ticketmaster_discovery_event_id": "177Zv0G6294fSr8",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",

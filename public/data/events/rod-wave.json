@@ -1431,11 +1431,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8172951",
-        "url": "https://www.ticketnetwork.com/en/p/8172951",
-        "verified": true,
-        "last_verified_at": "2026-11-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8172951",
@@ -1455,7 +1455,7 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_uQsZFce",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8172951",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8172951/Rod-Wave-tickets-Thu-Nov-19-2026-State-Farm-Arena-GA",
     "stubhub_international_url": "https://www.stubhub.ie/rod-wave-atlanta-tickets-11-19-2026/event/107554706",
     "organizer_names": [

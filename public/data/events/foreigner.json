@@ -227,7 +227,7 @@
         "event_id": "8237209",
         "url": "https://www.ticketnetwork.com/en/p/8237209",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -936,7 +936,7 @@
         "event_id": "8324848",
         "url": "https://www.ticketnetwork.com/en/p/8324848",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1018,7 +1018,7 @@
         "event_id": "8243091",
         "url": "https://www.ticketnetwork.com/en/p/8243091",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1173,7 +1173,7 @@
         "event_id": "8243093",
         "url": "https://www.ticketnetwork.com/en/p/8243093",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1330,7 +1330,7 @@
         "event_id": "8318453",
         "url": "https://www.ticketnetwork.com/en/p/8318453",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1404,7 +1404,7 @@
         "event_id": "8373802",
         "url": "https://www.ticketnetwork.com/en/p/8373802",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1483,7 +1483,7 @@
         "event_id": "8373799",
         "url": "https://www.ticketnetwork.com/en/p/8373799",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1647,7 +1647,7 @@
         "event_id": "8373801",
         "url": "https://www.ticketnetwork.com/en/p/8373801",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1729,12 +1729,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362541",
+        "url": "https://www.ticketnetwork.com/en/p/8362541",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6uy",
     "timezone": "America/Los_Angeles",
     "status": "announced",
     "public_onsale_at": "2026-11-20T18:00:00Z",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362541"
   }
 ]

@@ -177,7 +177,7 @@ const onBase = (loc, baseUrl) => {
   return `${baseUrl}${url.pathname}${url.search}`;
 };
 
-export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch) {
+async function collectSitemapUrlsOnce(baseUrl, fetchImpl) {
   const problems = [];
   let full = [];
   try {
@@ -212,6 +212,19 @@ export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch) 
     if (segmented.length !== b.size) problems.push(`${segmented.length - b.size} URL(s) are listed in more than one segment`);
   }
   return { urls: full.map((loc) => onBase(loc, baseUrl)), canonicalUrls: full, problems };
+}
+
+// /sitemap.xml and each segment are edge-cached separately, so right after a
+// data merge they can disagree for a few minutes until both refresh. A
+// mismatch alone is retried once after a pause; anything else (unreachable,
+// empty, duplicated) is reported straight away.
+const isMismatch = (problem) => /in no segment|are not in \/sitemap\.xml/.test(problem);
+
+export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch, { mismatchRetryMs = 90000 } = {}) {
+  const first = await collectSitemapUrlsOnce(baseUrl, fetchImpl);
+  if (!first.problems.some(isMismatch) || !first.problems.every(isMismatch)) return first;
+  await new Promise((resolve) => setTimeout(resolve, mismatchRetryMs));
+  return collectSitemapUrlsOnce(baseUrl, fetchImpl);
 }
 
 async function openSensorFindings(token, repo) {
@@ -298,7 +311,7 @@ export function renderReport(report) {
 const pct = (value) => `${(Number(value) * 100).toFixed(1)}%`;
 
 export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, token = "", repo = "", now = Date.now(), retryDelayMs = RETRY_DELAY_MS, contentRoot = REPO_ROOT }) {
-  const { urls, canonicalUrls, problems: sitemapProblems } = await collectSitemapUrls(baseUrl, fetchImpl);
+  const { urls, canonicalUrls, problems: sitemapProblems } = await collectSitemapUrls(baseUrl, fetchImpl, { mismatchRetryMs: retryDelayMs * 45 });
   const transient = [];
   const networkRetries = [];
   const results = await pool(urls, async (url, index) => {
@@ -444,6 +457,19 @@ async function selfTest() {
   assert.deepEqual(report.pages.failures.map((f) => f.path), ["/gone"]);
   assert.equal(report.pages.duplicate_titles[0].paths.length, 2);
   assert.ok(report.sitemap_problems.some((p) => /in no segment/.test(p)), "a URL missing from every segment is reported");
+  {
+    // A mismatch that clears on the retry is not reported; one that persists is.
+    let calls = 0;
+    const settling = async (url) => {
+      const path = new URL(url).pathname;
+      if (path === "/sitemap.xml") return new Response("<urlset><url><loc>https://x.test/a</loc></url><url><loc>https://x.test/b</loc></url></urlset>", { status: 200 });
+      if (path === "/sitemap-index.xml") return new Response("<sitemapindex><sitemap><loc>https://x.test/sitemaps/pages.xml</loc></sitemap></sitemapindex>", { status: 200 });
+      if (path === "/sitemaps/pages.xml") return new Response(++calls === 1 ? "<urlset><url><loc>https://x.test/a</loc></url></urlset>" : "<urlset><url><loc>https://x.test/a</loc></url><url><loc>https://x.test/b</loc></url></urlset>", { status: 200 });
+      return new Response("nope", { status: 404 });
+    };
+    assert.deepEqual((await collectSitemapUrls("https://x.test", settling, { mismatchRetryMs: 0 })).problems, [], "a mismatch that clears on retry is not reported");
+    assert.ok((await collectSitemapUrls("https://x.test", fakeFetch, { mismatchRetryMs: 0 })).problems.some((p) => /in no segment/.test(p)), "a persistent mismatch is still reported");
+  }
   assert.equal(report.api_health.ok, true);
   assert.equal(report.prices.ok, true);
   assert.equal(report.sensors.available, false);

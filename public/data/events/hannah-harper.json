@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-bloomington-bloomington-center-for-the-performing-arts-2-5-2027--concerts-country-and-folk/production/7834582",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-bloomington-illinois-02-05-2027/event/070065668C7C2E2C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362329",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362329/Hannah-Harper-tickets-Fri-Feb-5-2027-Bloomington-Center-For-The-Performing-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362329/Hannah-Harper-tickets-Fri-Feb-5-2027-Bloomington-Center-For-The-Performing-Arts",
+    "genre": "Country"
   },
   {
     "id": "tm-hannah-harper-2027-anderson-vv17fz_pgkcrhw1m",
@@ -84,7 +85,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-anderson-paramount-theatre-anderson-3-4-2027/production/7837219",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-anderson-indiana-03-04-2027/event/0500656B6FF322B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -135,7 +136,20 @@
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362340",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362340/Hannah-Harper-tickets-Thu-Mar-4-2027-Paramount-Theatre-Anderson"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362340/Hannah-Harper-tickets-Thu-Mar-4-2027-Paramount-Theatre-Anderson",
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "MCC Executive Level Members",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2027-03-04T23:30:00Z"
+      },
+      {
+        "name": "Paramount Season Partner & Partners",
+        "start": "2026-11-11T15:00:00Z",
+        "end": "2027-03-04T23:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hannah-harper-2027-danville-vv1a8vpqoga2gqoh",
@@ -153,7 +167,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-danville-the-pantheon-at-caesars-virginia-3-6-2027/production/7840666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-danville-virginia-03-06-2027/event/010065691FD5A47C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -204,7 +218,21 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364097",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364097/Hannah-Harper-tickets-Sat-Mar-6-2027-The-Pantheon-at-Caesars-Virginia"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364097/Hannah-Harper-tickets-Sat-Mar-6-2027-The-Pantheon-at-Caesars-Virginia",
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-02-28T03:00:00Z"
+      },
+      {
+        "name": "Ticket Deals Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2027-01-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hannah-harper-2027-philadelphia-g5viz_4q8cis7",
@@ -222,7 +250,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-philadelphia-ellis-theater-4-2-2027/production/7826182",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-philadelphia-mississippi-04-02-2027/event/1B00655690B6CCC4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -273,7 +301,11 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361751",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361751/Hannah-Harper-tickets-Fri-Apr-2-2027-Ellis-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361751/Hannah-Harper-tickets-Fri-Apr-2-2027-Ellis-Theater",
+    "organizer_names": [
+      "ARDENLAND"
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-hannah-harper-2027-huntsville-1aozk4jgkdjcgyp",
@@ -291,7 +323,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-huntsville-alabama-04-03-2027/event/20006566DCB75C16",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -326,7 +358,11 @@
     },
     "ticketmaster_discovery_event_id": "1AOZk4JGkdjcgYp",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-hannah-harper-2027-greensboro-g5evz_4u2tplb",
@@ -344,7 +380,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-greensboro-piedmont-hall-at-greensboro-complex-4-30-2027/production/7833941",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-greensboro-north-carolina-04-30-2027/event/2D00655D8FFE5AD8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -395,7 +431,12 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361752",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361752/Hannah-Harper-tickets-Fri-Apr-30-2027-Piedmont-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361752/Hannah-Harper-tickets-Fri-Apr-30-2027-Piedmont-Hall",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Country"
   },
   {
     "id": "tm-hannah-harper-2027-charlotte-g5evz_4bybnb7",
@@ -413,7 +454,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-charlotte-the-fillmore-charlotte-5-2-2027/production/7833505",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-charlotte-north-carolina-05-02-2027/event/2D00655EB062AE84",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -464,7 +505,12 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361753",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361753/Hannah-Harper-tickets-Sun-May-2-2027-The-Fillmore-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361753/Hannah-Harper-tickets-Sun-May-2-2027-The-Fillmore-Charlotte",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country"
   },
   {
     "id": "tm-hannah-harper-2027-jim-thorpe-vv1aezk4jgkdldw-w",
@@ -482,7 +528,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-tour-jim-thorpe-pennsylvania-05-08-2027/event/02006566EBEF287D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -517,7 +563,8 @@
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4JGkdlDw-W",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-hannah-harper-2027-valparaiso-vv17jz_fgkiiacxj",
@@ -535,7 +582,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-valparaiso-1st-source-bank-amphitheater-at-central-park-plaza-5-15-2027--concerts-country-and-folk/production/7834586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hometown-jams-hannah-harper-valparaiso-indiana-05-15-2027/event/0700654A2C26D89C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -586,7 +633,12 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362333",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362333/Hannah-Harper-tickets-Sat-May-15-2027-1st-Source-Bank-Amphitheater-at-Central-Park-Plaza"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362333/Hannah-Harper-tickets-Sat-May-15-2027-1st-Source-Bank-Amphitheater-at-Central-Park-Plaza",
+    "organizer_names": [
+      "FLIGHT LEVELZ ENTERTAINMENT LLC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-hannah-harper-2027-augusta-vvg1zz_pq1iixu",
@@ -604,7 +656,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-augusta-bell-auditorium-5-20-2027/production/7833929",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-behind-this-guitar-augusta-georgia-05-20-2027/event/0E0065668AA2888D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -655,7 +707,11 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361755",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361755/Hannah-Harper-tickets-Thu-May-20-2027-Bell-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361755/Hannah-Harper-tickets-Thu-May-20-2027-Bell-Auditorium",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-hannah-harper-2027-effingham-vv1kjz_p3eg7ds0b",
@@ -673,7 +729,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-effingham-effingham-performance-center-7-30-2027--concerts-country-and-folk/production/7834588",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hannah-harper-effingham-illinois-07-30-2027/event/0700656482EF1918",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -724,7 +780,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362334",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362334/Hannah-Harper-tickets-Fri-Jul-30-2027-Effingham-Performance-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362334/Hannah-Harper-tickets-Fri-Jul-30-2027-Effingham-Performance-Center",
+    "genre": "Country"
   },
   {
     "id": "tm-hannah-harper-2027-richmond-z7r9jz1aaa_qa",
@@ -742,7 +799,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -777,6 +834,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_Qa",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   }
 ]

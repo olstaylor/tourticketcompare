@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-poughkeepsie-bardavon-opera-house-12-3-2026/production/7768092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-solo-poughkeepsie-new-york-12-03-2026/event/0000655B8BDB34AF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66,7 +66,15 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350236",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350236/Grace-Potter-tickets-Thu-Dec-3-2026-The-Bardavon-1869-Opera-House"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350236/Grace-Potter-tickets-Thu-Dec-3-2026-The-Bardavon-1869-Opera-House",
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Member Sale",
+        "start": "2026-10-29T14:00:00Z",
+        "end": "2026-12-04T00:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2026-easton-z7r9jz1aaae7_",
@@ -84,7 +92,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAe7_",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -119,7 +127,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAe7_",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-rutland-z7r9jz1aaak__",
@@ -137,7 +146,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-rutland-paramount-theatre-rutland-1-14-2027/production/7849358",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk__",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -172,7 +181,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAk__",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-portland-vv1avzk4jgkebfxbx",
@@ -190,7 +200,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-portland-state-theatre-portland-1-15-2027/production/7846640",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-portland-maine-01-15-2027/event/01006566BA23EEBE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -241,7 +251,15 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364352",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364352/Grace-Potter-tickets-Fri-Jan-15-2027-State-Theatre-ME"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364352/Grace-Potter-tickets-Fri-Jan-15-2027-State-Theatre-ME",
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-09T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-boston-vv1avzk4pgkd0q4bh",
@@ -259,7 +277,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-boston-citizens-house-of-blues-boston-1-16-2027/production/7845690",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-boston-massachusetts-01-16-2027/event/01006565E4755E9B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318,7 +336,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364354",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364354/Grace-Potter-tickets-Sat-Jan-16-2027-Citizens-House-Of-Blues-Boston",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-boston-tickets-1-16-2027/event/107681669"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-boston-tickets-1-16-2027/event/107681669",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-10T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-new-haven-z7r9jz1aaak_o",
@@ -336,7 +366,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-new-haven-college-street-music-hall-1-17-2027/production/7848893",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_O",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -387,7 +417,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362099",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362099/Grace-Potter-tickets-Sun-Jan-17-2027-College-Street-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362099/Grace-Potter-tickets-Sun-Jan-17-2027-College-Street-Music-Hall",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-mckees-rocks-1apzk4jgkdpsghe",
@@ -405,7 +436,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-mckees-rocks-pennsylvania-01-20-2027/event/16006566D6C4C6C2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456,7 +487,18 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364356",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364356/Grace-Potter-tickets-Wed-Jan-20-2027-Roxian-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364356/Grace-Potter-tickets-Wed-Jan-20-2027-Roxian-Theatre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-14T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-rochester-k7vgf_peejxna",
@@ -474,7 +516,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-rochester-kodak-center-1-21-2027/production/7845682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-rochester-new-york-01-21-2027/event/00006569E773EA89",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,7 +575,15 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364358",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364358/Grace-Potter-tickets-Thu-Jan-21-2027-Kodak-Center-Theater",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-rochester-tickets-1-21-2027/event/107681686"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-rochester-tickets-1-21-2027/event/107681686",
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-15T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-rome-z7r9jz1aaak_-",
@@ -551,7 +601,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-rome-the-capitol-theatre-at-capitol-arts-complex-1-22-2027/production/7849177",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_-",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +652,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370363",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370363/Grace-Potter-tickets-Fri-Jan-22-2027-Capitol-Theatre-At-Capitol-Arts-Complex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370363/Grace-Potter-tickets-Fri-Jan-22-2027-Capitol-Theatre-At-Capitol-Arts-Complex",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-new-york-g5diz_pqp7kdd",
@@ -620,7 +671,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-new-york-beacon-theatre-1-23-2027/production/7845773",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-new-york-new-york-01-23-2027/event/3B006566961130FB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -679,7 +730,23 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364360",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364360/Grace-Potter-tickets-Sat-Jan-23-2027-Beacon-Theatre-NY",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-new-york-tickets-1-23-2027/event/107681729"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-new-york-tickets-1-23-2027/event/107681729",
+    "organizer_names": [
+      "BOWERY PRESENTS"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2026-12-13T15:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-17T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-patchogue-z7r9jz1aaak_x",
@@ -697,7 +764,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-patchogue-patchogue-theater-1-24-2027/production/7848961",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_x",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -748,7 +815,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365698",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365698/Grace-Potter-tickets-Sun-Jan-24-2027-Patchogue-Theater-For-The-Performing-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365698/Grace-Potter-tickets-Sun-Jan-24-2027-Patchogue-Theater-For-The-Performing-Arts",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-hershey-vv1aezk4jgkdhztfh",
@@ -766,7 +834,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-hershey-hershey-theatre-1-27-2027/production/7845843",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-hershey-pennsylvania-01-27-2027/event/02006566DBE3F51B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -817,7 +885,18 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364362",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364362/Grace-Potter-tickets-Wed-Jan-27-2027-Hershey-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364362/Grace-Potter-tickets-Wed-Jan-27-2027-Hershey-Theatre",
+    "organizer_names": [
+      "STAN LEVINSTONE PRESENTS"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-21T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-wilkes-barre-vv1kfz_px4g7sfow",
@@ -835,7 +914,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-wilkes-barre-kirby-center-1-28-2027/production/7845915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-wilkes-barre-pennsylvania-01-28-2027/event/0200656895CD447D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -870,7 +949,18 @@
     },
     "ticketmaster_discovery_event_id": "vv1kFZ_px4G7SfoW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PLEASE & THANK YOU LLC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-22T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-bensalem-z7r9jz1aaak_n",
@@ -888,7 +978,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-bensalem-xcite-center---parx-casino-and-racing-1-29-2027/production/7847557",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_N",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -939,7 +1029,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365891",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365891/Grace-Potter-tickets-Fri-Jan-29-2027-Xcite-Center-At-Parx-Casino-and-Racing"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365891/Grace-Potter-tickets-Fri-Jan-29-2027-Xcite-Center-At-Parx-Casino-and-Racing",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-washington-1a4zk4jgkey_jxg",
@@ -957,7 +1048,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-washington-dc-the-anthem-1-30-2027/production/7845538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-washington-district-of-columbia-01-30-2027/event/15006566B96668B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1016,7 +1107,16 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364364",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364364/Grace-Potter-tickets-Sat-Jan-30-2027-The-Anthem-DC",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-washington-tickets-1-30-2027/event/107681695"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-washington-tickets-1-30-2027/event/107681695",
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-24T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-cleveland-z7r9jz1aaak_0",
@@ -1034,7 +1134,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-cleveland-globe-iron-1-31-2027/production/7847575",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1085,7 +1185,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369702",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369702/Grace-Potter-tickets-Sun-Jan-31-2027-Globe-Iron"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369702/Grace-Potter-tickets-Sun-Jan-31-2027-Globe-Iron",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-lexington-1apzk4tgkd-mqay",
@@ -1103,7 +1204,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-lexington-the-rail-2-3-2027/production/7845540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-lexington-kentucky-02-03-2027/event/16006569E1B9D279",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1154,7 +1255,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364365",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364365/Grace-Potter-tickets-Wed-Feb-3-2027-The-Rail-KY"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364365/Grace-Potter-tickets-Wed-Feb-3-2027-The-Rail-KY",
+    "organizer_names": [
+      "PEACHTREE ENTERTAINMENT"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-28T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-saint-louis-vv1kbz_pq9g7dnzn",
@@ -1172,7 +1285,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-saint-louis-missouri-02-04-2027/event/0600656697EEA023",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1215,7 +1328,19 @@
     "ticketmaster_discovery_event_id": "vv1kbZ_pQ9G7DnZN",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-saint-louis-tickets-2-4-2027/event/107681673"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-saint-louis-tickets-2-4-2027/event/107681673",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-01-29T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-indianapolis-vv1aazk4jgkei1ehm",
@@ -1233,7 +1358,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-5-2027/production/7846646",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-the-trespasser-indianapolis-indiana-02-05-2027/event/05006566AC2A7F37",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1284,7 +1409,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364369",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364369/Grace-Potter-tickets-Fri-Feb-5-2027-Egyptian-Room-At-Old-National-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364369/Grace-Potter-tickets-Fri-Feb-5-2027-Egyptian-Room-At-Old-National-Centre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-30T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-cincinnati-1apzk4igkdfr9ax",
@@ -1302,7 +1439,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-cincinnati-taft-theatre-2-6-2027/production/7845925",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-cincinnati-ohio-02-06-2027/event/16006568D4797262",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1361,7 +1498,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364371",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364371/Grace-Potter-tickets-Sat-Feb-6-2027-Taft-Theatre",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-cincinnati-tickets-2-6-2027/event/107681678"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-cincinnati-tickets-2-6-2027/event/107681678",
+    "organizer_names": [
+      "PLEASE & THANK YOU LLC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T15:00:00Z",
+        "end": "2027-01-31T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-grand-rapids-z7r9jz1aaa64j",
@@ -1379,7 +1528,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-grand-rapids-the-intersection-2-9-2027/production/7847577",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64J",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1430,7 +1579,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364952",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364952/Grace-Potter-tickets-Tue-Feb-9-2027-Intersection"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364952/Grace-Potter-tickets-Tue-Feb-9-2027-Intersection",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-davenport-z7r9jz1aaak_p",
@@ -1448,7 +1598,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_P",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1499,7 +1649,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8368923",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8368923/Grace-Potter-tickets-Wed-Feb-10-2027-Capitol-Theatre-Iowa"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8368923/Grace-Potter-tickets-Wed-Feb-10-2027-Capitol-Theatre-Iowa",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-milwaukee-z7r9jz1aaak_j",
@@ -1517,7 +1668,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-milwaukee-pabst-theater-2-11-2027/production/7847573",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_J",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1568,7 +1719,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369025",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369025/Grace-Potter-tickets-Thu-Feb-11-2027-Pabst-Theater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369025/Grace-Potter-tickets-Thu-Feb-11-2027-Pabst-Theater",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-st-paul-z7r9jz1aaak_e",
@@ -1586,7 +1738,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1637,7 +1789,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366153",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366153/Grace-Potter-tickets-Fri-Feb-12-2027-The-Palace-Theatre-St-Paul"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366153/Grace-Potter-tickets-Fri-Feb-12-2027-The-Palace-Theatre-St-Paul",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-des-moines-vv1akzk4jgkd-akup",
@@ -1655,7 +1808,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-des-moines-hoyt-sherman-place-2-13-2027/production/7845835",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-pokey-des-moines-iowa-02-13-2027/event/06006566E1246DA5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1714,7 +1867,16 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364372",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364372/Grace-Potter-tickets-Sat-Feb-13-2027-Hoyt-Sherman-Place-Theater",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-des-moines-tickets-2-13-2027/event/107681712"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-des-moines-tickets-2-13-2027/event/107681712",
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T16:00:00Z",
+        "end": "2027-02-07T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-kansas-city-z7r9jz1aaak_i",
@@ -1732,7 +1894,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-kansas-city-the-truman-2-25-2027/production/7847563",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_I",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1783,7 +1945,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366185",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366185/Grace-Potter-tickets-Thu-Feb-25-2027-The-Truman-Kansas-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366185/Grace-Potter-tickets-Thu-Feb-25-2027-The-Truman-Kansas-City",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-omaha-z7r9jz1aaak_t",
@@ -1801,7 +1964,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-omaha-slowdown-2-26-2027/production/7848887",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_t",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1852,7 +2015,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366368",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366368/Grace-Potter-tickets-Fri-Feb-26-2027-The-Slowdown"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366368/Grace-Potter-tickets-Fri-Feb-26-2027-The-Slowdown",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-denver-g5vzz_phlm6bi",
@@ -1870,7 +2034,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-denver-fillmore-auditorium-denver-2-27-2027/production/7845969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-denver-colorado-02-27-2027/event/1E006566DFDC762C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1929,7 +2093,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364374",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364374/Grace-Potter-tickets-Sat-Feb-27-2027-Fillmore-Auditorium-Colorado",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-denver-tickets-2-27-2027/event/107681710"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-denver-tickets-2-27-2027/event/107681710",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-02-14T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-02-21T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-aspen-z7r9jz1aaak_y",
@@ -1947,7 +2128,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_Y",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1998,7 +2179,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370342",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370342/Grace-Potter-tickets-Mon-Mar-1-2027-Belly-Up-Aspen"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370342/Grace-Potter-tickets-Mon-Mar-1-2027-Belly-Up-Aspen",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-santa-fe-z7r9jz1aaak_s",
@@ -2016,7 +2198,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-santa-fe-lensic-performing-arts-center-3-2-2027/production/7848945",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_s",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2059,7 +2241,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAk_s",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8380607/Grace-Potter-tickets-Tue-Mar-2-2027-The-Lensic-Performing-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8380607/Grace-Potter-tickets-Tue-Mar-2-2027-The-Lensic-Performing-Arts-Center",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-tucson-1a_zk4jgkdj3ibg",
@@ -2077,7 +2260,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-tucson-rialto-theatre-tucson-3-4-2027/production/7845833",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-the-trespassers-tucson-arizona-03-04-2027/event/19006566DC4A8635",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2128,7 +2311,16 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364375",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364375/Grace-Potter-tickets-Thu-Mar-4-2027-Rialto-Theatre-Tucson"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364375/Grace-Potter-tickets-Thu-Mar-4-2027-Rialto-Theatre-Tucson",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-02-26T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-del-mar-rz7hnez1af8to0",
@@ -2146,8 +2338,8 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-del-mar-the-sound---del-mar-3-5-2027/production/7846638",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/grace-potter-the-trespassers-the-sound-tickets/14429464",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "14429464",
@@ -2197,7 +2389,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364377",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364377/Grace-Potter-tickets-Fri-Mar-5-2027-The-Sound-At-The-Del-Mar-Fairgrounds"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364377/Grace-Potter-tickets-Fri-Mar-5-2027-The-Sound-At-The-Del-Mar-Fairgrounds",
+    "genre": "Rock"
   },
   {
     "id": "tm-grace-potter-2027-las-vegas-1a9zk4jgken85tq",
@@ -2215,7 +2408,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-las-vegas-nevada-03-06-2027/event/17006566A340BFDA",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2266,7 +2459,9 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364379",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364379/Grace-Potter-tickets-Sat-Mar-6-2027-The-Stage-at-Zouk-at-Resorts-World-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364379/Grace-Potter-tickets-Sat-Mar-6-2027-The-Stage-at-Zouk-at-Resorts-World-Las-Vegas",
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-grace-potter-2027-phoenix-1a_zk4jgkdkzmdr",
@@ -2284,7 +2479,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-phoenix-the-van-buren-3-7-2027/production/7845692",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-phoenix-arizona-03-07-2027/event/19006566D3E37EDE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2343,7 +2538,23 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364381",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364381/Grace-Potter-tickets-Sun-Mar-7-2027-The-Van-Buren",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-phoenix-tickets-3-7-2027/event/107681702"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-phoenix-tickets-3-7-2027/event/107681702",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-02-12T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-03-01T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-claremont-z7r9jz1aaak_w",
@@ -2361,7 +2572,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-claremont-bridges-auditorium---pomona-college-3-9-2027/production/7847583",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_w",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2396,7 +2607,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAk_w",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-monterey-z7r9jz1aaa64e",
@@ -2414,7 +2626,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-monterey-golden-state-theatre-3-10-2027/production/7843341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2465,7 +2677,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365992",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365992/Grace-Potter-tickets-Wed-Mar-10-2027-Golden-State-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365992/Grace-Potter-tickets-Wed-Mar-10-2027-Golden-State-Theatre",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-san-francisco-g5vyz_php4sdr",
@@ -2483,7 +2696,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-w-langhorne-san-francisco-california-03-11-2027/event/1C006566D65710DE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2542,7 +2755,23 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364383",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364383/Grace-Potter-tickets-Thu-Mar-11-2027-The-Fillmore-San-Francisco",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-san-francisco-tickets-3-11-2027/event/107681684"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-san-francisco-tickets-3-11-2027/event/107681684",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-02-26T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-03-05T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-napa-g5vyz_ppqswad",
@@ -2560,7 +2789,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-napa-uptown-theatre-napa-3-13-2027/production/7845527",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-support-napa-california-03-13-2027/event/1C0065695AC72243",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2619,7 +2848,16 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364386",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364386/Grace-Potter-tickets-Sat-Mar-13-2027-Uptown-Theatre-Napa",
-    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-napa-tickets-3-13-2027/event/107681687"
+    "stubhub_international_url": "https://www.stubhub.ie/grace-potter-napa-tickets-3-13-2027/event/107681687",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-03-07T06:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-redding-z7r9jz1aaa64i",
@@ -2637,7 +2875,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64I",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2672,7 +2910,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA64I",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-boise-z7r9jz1aaak_s",
@@ -2690,7 +2929,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-boise-treefort-music-hall-3-16-2027/production/7848957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_S",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2725,7 +2964,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAk_S",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-jackson-z7r9jz1aaak_v",
@@ -2743,7 +2983,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_V",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2778,7 +3018,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAk_V",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-salt-lake-city-z7r9jz1aaak_g",
@@ -2796,7 +3037,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-salt-lake-city-the-complex---rockwell-3-19-2027/production/7847565",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_g",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2847,7 +3088,8 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366186",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366186/Grace-Potter-tickets-Fri-Mar-19-2027-Rockwell-At-The-Complex"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366186/Grace-Potter-tickets-Fri-Mar-19-2027-Rockwell-At-The-Complex",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-bozeman-g5vzz_pprxf60",
@@ -2865,7 +3107,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-bozeman-the-elm---mt-3-20-2027/production/7845542",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-bozeman-montana-03-20-2027/event/1E006565AFF941E4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2916,7 +3158,16 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364387",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364387/Grace-Potter-tickets-Sat-Mar-20-2027-The-Elm-Bozeman"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364387/Grace-Potter-tickets-Sat-Mar-20-2027-The-Elm-Bozeman",
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-03-14T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-missoula-g5vzz_pf4jtaa",
@@ -2934,7 +3185,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-missoula-montana-03-21-2027/event/1E006565159A9249",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2985,7 +3236,19 @@
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364388",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364388/Grace-Potter-tickets-Sun-Mar-21-2027-The-Wilma-Theatre-MT"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364388/Grace-Potter-tickets-Sun-Mar-21-2027-The-Wilma-Theatre-MT",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T17:00:00Z",
+        "end": "2027-03-15T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-spokane-g5vzz_penguiq",
@@ -3003,7 +3266,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-spokane-knitting-factory-concert-house-spokane-3-22-2027/production/7845686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/grace-potter-the-trespassers-with-langhorne-spokane-washington-03-22-2027/event/1E006569EA336B1A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3054,7 +3317,15 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364389",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364389/Grace-Potter-tickets-Mon-Mar-22-2027-Knitting-Factory-Spokane"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364389/Grace-Potter-tickets-Mon-Mar-22-2027-Knitting-Factory-Spokane",
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-03-16T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-grace-potter-2027-medford-z7r9jz1aaa64t",
@@ -3072,7 +3343,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-medford-holly-theatre---or-3-24-2027/production/7849369",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64t",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3123,7 +3394,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370569",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370569/Grace-Potter-tickets-Wed-Mar-24-2027-Holly-Theatre-OR"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370569/Grace-Potter-tickets-Wed-Mar-24-2027-Holly-Theatre-OR",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-eugene-z7r9jz1aaa64y",
@@ -3141,7 +3413,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-eugene-mcdonald-theatre-3-25-2027/production/7857892",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64Y",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3192,7 +3464,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365313",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365313/Grace-Potter-tickets-Thu-Mar-25-2027-McDonald-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8365313/Grace-Potter-tickets-Thu-Mar-25-2027-McDonald-Theatre",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-portland-z7r9jz1aaa64s",
@@ -3210,7 +3483,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-portland-mcmenamins-crystal-ballroom-3-26-2027/production/7847567",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64s",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3261,7 +3534,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364773",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364773/Grace-Potter-tickets-Fri-Mar-26-2027-McMenamins-Crystal-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364773/Grace-Potter-tickets-Fri-Mar-26-2027-McMenamins-Crystal-Ballroom",
+    "genre": "Pop"
   },
   {
     "id": "tm-grace-potter-2027-seattle-z7r9jz1aaak_u",
@@ -3279,7 +3553,7 @@
     "vividseats_url": "https://www.vividseats.com/grace-potter-tickets-seattle-showbox-at-the-market-3-27-2027/production/7848863",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_U",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -3330,6 +3604,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366328",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366328/Grace-Potter-tickets-Sat-Mar-27-2027-The-Showbox"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366328/Grace-Potter-tickets-Sat-Mar-27-2027-The-Showbox",
+    "genre": "Pop"
   }
 ]

@@ -318,7 +318,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-chicago-credit-union-1-arena-at-uic-2-20-2027/production/7880682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocabletexicano-tour-2027-chicago-illinois-02-20-2027/event/0400656BE5E5EAAA",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381,16 +381,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Presale Offer",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-02-14T04:00:00Z"
@@ -415,7 +405,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-duluth-gas-south-arena-2-28-2027/production/7880302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-duluth-georgia-02-28-2027/event/0E00656CA72C9324",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -470,21 +460,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-02-22T03:00:00Z"
@@ -508,7 +483,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-fresno-save-mart-center-3-5-2027/production/7881251",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-fresno-california-03-05-2027/event/1C00656DDCC555F6",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -574,16 +549,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-02-27T06:00:00Z"
@@ -608,7 +573,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-inglewood-intuit-dome-3-6-2027/production/7881253",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-inglewood-california-03-06-2027/event/0900656BD17DF748",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -670,21 +635,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-02-28T06:00:00Z"
@@ -709,7 +659,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-san-jose-california-03-19-2027/event/1C00656B125D497B",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -772,31 +722,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "SAP Center Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Sharks365 Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-03-13T06:00:00Z"
@@ -821,7 +746,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-miami-james-knight-center-6-11-2027--concerts-latin-music/production/7880708",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-miami-florida-06-11-2027/event/0D00656BB8F8C9D0",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -883,31 +808,6 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "James L. Knight Center Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Mobile App",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-05T02:00:00Z"
@@ -932,7 +832,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-sacramento-golden-1-center-8-28-2027/production/7881269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -997,21 +897,6 @@
     "ticket_limit": 8,
     "genre": "Latin",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T18:00:00Z",

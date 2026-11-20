@@ -2513,7 +2513,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.pl/event/leon-bridges-presents-the-happiness-anytime-tour-tickets/230558425?language=en-us",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2548,29 +2548,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kFY4b8P",
     "timezone": "Europe/Warsaw",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation sp. z o.o."
     ],
-    "genre": "Hip-Hop/Rap",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T10:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T10:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T10:00:00Z"
-      }
-    ]
+    "genre": "Hip-Hop/Rap"
   },
   {
     "id": "tm-leon-bridges-2027-forest-brussels-z698xzg2z16vb_jsqs",
@@ -2588,7 +2570,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/leon-bridges-presents-the-happiness-anytime-tour-tickets/1619733773",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2623,8 +2605,7 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vb_jSqS",
     "timezone": "Europe/Brussels",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation"
     ],
@@ -2646,7 +2627,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-manchester-11-06-2027/event/3600656BBEFA7562",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2688,26 +2669,13 @@
     },
     "ticketmaster_discovery_event_id": "1AdbZ_pGkmXXE4x",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "S.J.M. LTD",
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
     ],
     "ticket_limit": 6,
     "genre": "R&B",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Priority from O2",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-tickets-manchester-o2-apollo-manchester-11-6-2027/event/107683829"
   },
   {
@@ -2726,7 +2694,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-bristol-15-06-2027/event/3500656B3B509C04",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2768,20 +2736,13 @@
     },
     "ticketmaster_discovery_event_id": "1AdfZ_pGkiDfaY7",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
-      "SJM LIMITED (NEW)"
+      "SJM LIMITED (NEW)",
+      "CEREMONY OF ROSES UK LTD ON BEHALF OF LEON BRIDGES"
     ],
     "ticket_limit": 6,
     "genre": "R&B",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/leon-bridges-tickets-bristol-the-prospect-building-15-6-2027/event/107683828"
   },
   {
@@ -2800,7 +2761,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-london-17-06-2027/event/3600656D78681C34",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2842,10 +2803,10 @@
     },
     "ticketmaster_discovery_event_id": "1AdbZ_pGkgzQvYV",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
-      "SJM LIMITED (NEW)"
+      "SJM LIMITED (NEW)",
+      "CEREMONY OF ROSES UK LTD ON BEHALF OF LEON BRIDGES"
     ],
     "ticket_limit": 6,
     "genre": "R&B",
@@ -2867,7 +2828,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-london-18-06-2027/event/3600656D786B1C3E",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2902,10 +2863,10 @@
     },
     "ticketmaster_discovery_event_id": "1AdbZ_pGkgzQsYX",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
-      "SJM LIMITED (NEW)"
+      "SJM LIMITED (NEW)",
+      "CEREMONY OF ROSES UK LTD ON BEHALF OF LEON BRIDGES"
     ],
     "ticket_limit": 6,
     "genre": "R&B"
@@ -2926,7 +2887,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-birmingham-22-06-2027/event/3E006569F0FB9F7E",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2961,26 +2922,13 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_pEYXyWX",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "S.J.M. LTD",
       "ACADEMY MUSIC GROUP (O2 ACADEMY BIRMINGHAM)"
     ],
     "ticket_limit": 6,
-    "genre": "R&B",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Priority from O2",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ]
+    "genre": "R&B"
   },
   {
     "id": "tm-leon-bridges-2027-glasgow-1adbz_pgkmjk5az",
@@ -2998,7 +2946,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/leon-bridges-presents-the-happiness-anytime-glasgow-23-06-2027/event/3600656DDC4CB240",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3033,8 +2981,7 @@
     },
     "ticketmaster_discovery_event_id": "1AdbZ_pGkMjK5aZ",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "DF CONCERTS LIMITED",
       "SWG3 LTD"

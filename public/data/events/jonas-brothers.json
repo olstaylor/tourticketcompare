@@ -2558,7 +2558,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-elmont-ubs-arena-12-19-2026--concerts-pop/production/7446354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-belmont-park-new-york-12-19-2026/event/3000650D997F2A93",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2598,11 +2598,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T14:00:00Z",

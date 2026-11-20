@@ -2319,7 +2319,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-lexington-rupp-arena-3-21-2027/production/7880267",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-lexington-kentucky-03-21-2027/event/1600656C8B3C5240",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2372,18 +2372,6 @@
     "public_onsale_at": "2026-11-20T15:00:00Z",
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Rod Stewart Fan Club Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373810",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373810/Rod-Stewart-tickets-Sun-Mar-21-2027-Rupp-Arena-At-Central-Bank-Center"
   }

@@ -1056,7 +1056,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-los-angeles-bmo-stadium-5-14-2027/production/7880209",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-los-angeles-california-05-14-2027/event/0A00656DD13BEDB6",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1119,38 +1119,6 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Interpol Artist Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "AEG Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Goldenvoice Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Molchat Doma Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374089",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374089/Interpol-tickets-Fri-May-14-2027-BMO-Stadium",
     "stubhub_international_url": "https://www.stubhub.ie/interpol-los-angeles-tickets-5-14-2027/event/107683333"

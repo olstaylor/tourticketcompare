@@ -899,7 +899,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-boston-mgm-music-hall-at-fenway-4-20-2027--concerts-alternative/production/7863244",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-boston-massachusetts-04-20-2027/event/0100656601C51D70",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -955,8 +955,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1k7Z_pbvG7sogY",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367764",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367764/Sam-Fender-tickets-Tue-Apr-20-2027-MGM-Music-Hall-at-Fenway-Park",
     "organizer_names": [
@@ -982,7 +981,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-new-york-radio-city-music-hall-4-22-2027--concerts-alternative/production/7863246",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-new-york-new-york-04-22-2027/event/3C00656ABE8B30D1",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1038,8 +1037,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dYZ_pnXxSdo",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367765",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367765/Sam-Fender-tickets-Thu-Apr-22-2027-Radio-City-Music-Hall",
     "organizer_names": [
@@ -1076,7 +1074,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-toronto-scotiabank-arena-4-24-2027--concerts-alternative/production/7863248",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-toronto-ontario-04-24-2027/event/1000656ACA76BE29",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1111,8 +1109,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_pGkl1qlzt",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -1138,7 +1135,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-tempe-mullett-arena-5-1-2027--concerts-alternative/production/7863252",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-tempe-arizona-05-01-2027/event/1900656BC0228316",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1187,8 +1184,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkRZFIGp",
     "timezone": "America/Phoenix",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367767",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367767/Sam-Fender-tickets-Sat-May-1-2027-Mullett-Arena",
     "organizer_names": [
@@ -1213,7 +1209,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-los-angeles-greek-theatre---los-angeles-5-3-2027--concerts-alternative/production/7863254",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-los-angeles-california-05-03-2027/event/0900656AEBAC19FB",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1269,8 +1265,7 @@
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGklllvED",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367768",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367768/Sam-Fender-tickets-Mon-May-3-2027-Greek-Theatre-Los-Angeles-CA",
     "organizer_names": [
@@ -1296,7 +1291,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-seattle-wamu-theater---seattle-5-7-2027--concerts-alternative/production/7863256",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sam-fender-north-america-tour-27-seattle-washington-05-07-2027/event/0F00656BBA38AC0C",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1352,8 +1347,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pmBC1YG",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367769",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367769/Sam-Fender-tickets-Fri-May-7-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
     "organizer_names": [
@@ -1379,7 +1373,7 @@
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-vancouver-rogers-arena-5-9-2027--concerts-alternative/production/7863258",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/sam-fender-north-america-tour-27-vancouver-british-columbia-05-09-2027/event/11006567183E5E01",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1435,8 +1429,7 @@
     },
     "ticketmaster_discovery_event_id": "16oZk4EkdZA2k2ve",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367771",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367771/Sam-Fender-tickets-Sun-May-9-2027-Rogers-Arena",
     "organizer_names": [
@@ -1525,7 +1518,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaOe",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1560,6 +1553,9 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAaOe",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

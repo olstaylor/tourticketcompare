@@ -2016,7 +2016,7 @@
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-10-2027--concerts-rock/production/7861779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-10-2027/event/20006566BE954886",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2075,31 +2075,6 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Early Entry GA Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "AEG Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
       {
         "name": "Early Entry GA",
         "start": "2026-11-20T18:00:00Z",
@@ -2193,7 +2168,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-28-02-2027/event/1400656ABB4AF342",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2241,13 +2216,6 @@
       "OCESA"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-11-19T17:00:00Z",
-        "end": "2026-11-20T05:59:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-mexico-city-palacio-de-los-deportes-28-2-2027/event/107682204"
   },
   {
@@ -2266,7 +2234,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-01-03-2027/event/1400656AC19817A9",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2314,13 +2282,6 @@
       "OCESA"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-11-19T17:00:00Z",
-        "end": "2026-11-20T05:59:00Z"
-      }
-    ],
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-mexico-city-palacio-de-los-deportes-1-3-2027/event/107680992"
   },
   {
@@ -2339,7 +2300,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2375,6 +2336,28 @@
     "ticketmaster_discovery_event_id": "1AeZZ_pGkmxE71M",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-25T18:00:00Z"
+    "public_onsale_at": "2026-11-25T18:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2026-11-25T04:00:00Z"
+      },
+      {
+        "name": "Early Entry GA Presale",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2026-11-25T04:00:00Z"
+      },
+      {
+        "name": "Early Entry GA",
+        "start": "2026-11-25T18:00:00Z",
+        "end": "2027-02-11T20:00:00Z"
+      }
+    ]
   }
 ]

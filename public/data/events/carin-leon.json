@@ -336,7 +336,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carin-leon-sparks-nevada-04-24-2027/event/1700656BE95DB111",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -389,18 +389,6 @@
     "public_onsale_at": "2026-11-20T18:00:00Z",
     "ticket_limit": 8,
     "genre": "Latin",
-    "presales": [
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374914",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374914/Carin-Leon-tickets-Sat-Apr-24-2027-Nugget-Event-Center-At-Nugget-Casino-Resort"
   }

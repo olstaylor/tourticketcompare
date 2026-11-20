@@ -3269,8 +3269,8 @@ code {
 .show-card .provider-cta-general .provider-cta-role { font-weight: 650; }
 
 /* Phone: on an artist-city page, show the dates with their seller buttons
-   straight after the page title, ahead of the long price summary, and drop the
-   search/filter bar (a one-city page has nothing to filter by city). Only the
+   straight after the page title, ahead of the long price summary, and tighten
+   the spacing above it. The search/filter bar stays. Only the
    visual order and spacing change; the HTML, links and seller order are untouched. */
 @media (max-width: 700px) {
   .artist-city-page { display: flex; flex-direction: column; }
@@ -3283,6 +3283,4 @@ code {
   .artist-city-page .show-board .jump-nav, .artist-city-page .show-board [class*="jump"] { margin: 0; }
   .artist-city-page .show-board .section-intro { gap: 4px; }
   .artist-city-page .show-board .section-intro h2 { margin-bottom: 0; }
-  .artist-city-page .show-filter-bar,
-  .artist-city-page .show-filter-count { display: none; }
 }

@@ -4,7 +4,7 @@ seo_title: "Pentatonix tour ticket prices by city"
 description: "Pentatonix tour: the next date in 19 cities, $37.95 in Cleveland at the low end, $123.05 in Lubbock at the high end."
 summary: "TicketNetwork's lowest listed price for the next Pentatonix date in each of 19 cities, each figure with the time it was captured. Snapshots 17 November 2026."
 date: 2026-10-24
-updated: 2026-11-18
+updated: 2026-11-20
 status: published
 tags:
   - tour-data
@@ -20,7 +20,7 @@ Pentatonix's Christmas in the City Tour has 20 dates that TourTicketCompare trac
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Cleveland](/artists/pentatonix/tickets/cleveland-united-states) | 19 November 2026 | Rocket Arena | $37.95 | TicketNetwork | 17 November, 04:30 UTC |
+| [Cleveland](/artists/pentatonix/tickets/cleveland-united-states) | 19 November 2026 (has passed) | Rocket Arena | $37.95 | TicketNetwork | 17 November, 04:30 UTC |
 | [North Little Rock](/artists/pentatonix/tickets/north-little-rock-united-states) | 12 December 2026 | Simmons Bank Arena | $44.85 | TicketNetwork | 17 November, 04:30 UTC |
 | [Albany](/artists/pentatonix/tickets/albany-united-states) | 29 November 2026 | MVP Arena | $48.30 | TicketNetwork | 17 November, 04:30 UTC |
 | [Glendale](/artists/pentatonix/tickets/glendale-united-states) | 19 December 2026 | Desert Diamond Arena | $48.30 | TicketNetwork | 17 November, 04:30 UTC |
@@ -49,7 +49,7 @@ Vivid Seats also had a recent listed price for the next date in 17 of these citi
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
 | [Buffalo](/artists/pentatonix/tickets/buffalo-united-states) | 18 November 2026 (has passed) | KeyBank Center | $78 | Vivid Seats | 17 November, 14:56 UTC |
-| [Cleveland](/artists/pentatonix/tickets/cleveland-united-states) | 19 November 2026 | Rocket Arena | $32 | Vivid Seats | 17 November, 14:56 UTC |
+| [Cleveland](/artists/pentatonix/tickets/cleveland-united-states) | 19 November 2026 (has passed) | Rocket Arena | $32 | Vivid Seats | 17 November, 14:56 UTC |
 | [Pittsburgh](/artists/pentatonix/tickets/pittsburgh-united-states) | 21 November 2026 | PPG Paints Arena | $56 | Vivid Seats | 17 November, 14:56 UTC |
 | [Charlottesville](/artists/pentatonix/tickets/charlottesville-united-states) | 28 November 2026 | John Paul Jones Arena | $72 | Vivid Seats | 17 November, 14:56 UTC |
 | [Albany](/artists/pentatonix/tickets/albany-united-states) | 29 November 2026 | MVP Arena | $51 | Vivid Seats | 17 November, 14:56 UTC |

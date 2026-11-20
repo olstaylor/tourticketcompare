@@ -693,11 +693,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034509",
-        "url": "https://www.ticketnetwork.com/en/p/8034509",
-        "verified": true,
-        "last_verified_at": "2026-11-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034509",
@@ -710,7 +710,7 @@
     "ticketmaster_discovery_event_id": "vvG1jZ_GoHfsSB",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034509",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034509/Little-Big-Town-tickets-Thu-Nov-19-2026-The-Chicago-Theatre",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -777,7 +777,7 @@
         "event_id": "8034511",
         "url": "https://www.ticketnetwork.com/en/p/8034511",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -923,7 +923,7 @@
         "event_id": "8130730",
         "url": "https://www.ticketnetwork.com/en/p/8130730",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -993,7 +993,7 @@
         "event_id": "8130732",
         "url": "https://www.ticketnetwork.com/en/p/8130732",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1063,7 +1063,7 @@
         "event_id": "8130733",
         "url": "https://www.ticketnetwork.com/en/p/8130733",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

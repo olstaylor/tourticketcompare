@@ -1036,11 +1036,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7961842",
-        "url": "https://www.ticketnetwork.com/en/p/7961842",
-        "verified": true,
-        "last_verified_at": "2026-11-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1m-eW1q",
@@ -1051,7 +1051,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961842",
+    "ticketnetwork_url": "",
     "ticket_limit": 4,
     "genre": "Pop"
   },
@@ -1121,7 +1121,7 @@
         "event_id": "7961846",
         "url": "https://www.ticketnetwork.com/en/p/7961846",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1203,7 +1203,7 @@
         "event_id": "7984757",
         "url": "https://www.ticketnetwork.com/en/p/7984757",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1285,7 +1285,7 @@
         "event_id": "7961848",
         "url": "https://www.ticketnetwork.com/en/p/7961848",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1367,7 +1367,7 @@
         "event_id": "7983201",
         "url": "https://www.ticketnetwork.com/en/p/7983201",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1448,7 +1448,7 @@
         "event_id": "7990930",
         "url": "https://www.ticketnetwork.com/en/p/7990930",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },

@@ -623,7 +623,7 @@
         "event_id": "8293185",
         "url": "https://www.ticketnetwork.com/en/p/8293185",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -697,7 +697,7 @@
         "event_id": "8293186",
         "url": "https://www.ticketnetwork.com/en/p/8293186",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -771,7 +771,7 @@
         "event_id": "8293193",
         "url": "https://www.ticketnetwork.com/en/p/8293193",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -845,7 +845,7 @@
         "event_id": "8293187",
         "url": "https://www.ticketnetwork.com/en/p/8293187",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -920,7 +920,7 @@
         "event_id": "8293188",
         "url": "https://www.ticketnetwork.com/en/p/8293188",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -995,7 +995,7 @@
         "event_id": "8293189",
         "url": "https://www.ticketnetwork.com/en/p/8293189",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1070,7 +1070,7 @@
         "event_id": "8343664",
         "url": "https://www.ticketnetwork.com/en/p/8343664",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1140,7 +1140,7 @@
         "event_id": "8343665",
         "url": "https://www.ticketnetwork.com/en/p/8343665",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1210,7 +1210,7 @@
         "event_id": "8343666",
         "url": "https://www.ticketnetwork.com/en/p/8343666",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1280,7 +1280,7 @@
         "event_id": "8343667",
         "url": "https://www.ticketnetwork.com/en/p/8343667",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1350,7 +1350,7 @@
         "event_id": "8248298",
         "url": "https://www.ticketnetwork.com/en/p/8248298",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1435,6 +1435,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8381782",
+        "url": "https://www.ticketnetwork.com/en/p/8381782",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dbZ_8p8G7is9u",
@@ -1447,7 +1454,8 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381782/Brandi-Carlile-tickets-Tue-Apr-6-2027-SEC-Armadillo"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381782/Brandi-Carlile-tickets-Tue-Apr-6-2027-SEC-Armadillo",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381782"
   },
   {
     "id": "tm-brandi-carlile-2027-glasgow-1auzkfagkeeywvx",
@@ -1637,6 +1645,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8383029",
+        "url": "https://www.ticketnetwork.com/en/p/8383029",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfkGkd0yVnl",
@@ -1648,7 +1663,8 @@
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8383029"
   },
   {
     "id": "tm-brandi-carlile-2027-london-16dbz_8rdg7g-dj",

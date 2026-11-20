@@ -5,7 +5,7 @@ import { DatabaseSync } from 'node:sqlite';
 import { describeNavigation, isLikelyBot, isSuspectedLinuxDesktopBot, isSelfReferredRedirect } from '../functions/_bot-detection.js';
 import { onRequestGet } from '../functions/api/out.js';
 import { onRequest as middleware } from '../functions/_middleware.js';
-import { humanRedirectSql, pageBackedSql } from './lib/human-clicks.mjs';
+import { humanRedirectSql, pageBackedSql, suspectedBotRedirectSql } from './lib/human-clicks.mjs';
 
 const event = {
   id: 'tm-test-artist-2026-berlin-abc123', artist_slug: 'test-artist',
@@ -81,6 +81,7 @@ test('reports count a redirect only when its visitor sent a page event that day'
   const db = new DatabaseSync(':memory:');
   try {
     db.exec(readFileSync(new URL('../migrations/0001_demand.sql', import.meta.url), 'utf8'));
+    db.exec(readFileSync(new URL('../migrations/0008_analytics_commercial_funnel.sql', import.meta.url), 'utf8'));
     const insert = db.prepare('INSERT INTO analytics_events (created_at, event_name, request_key) VALUES (?, ?, ?)');
     insert.run('2026-10-08T10:00:00Z', 'page_view', 'person');
     insert.run('2026-10-08T10:01:00Z', 'outbound_click', 'person');
@@ -222,4 +223,37 @@ test('analytics drops the Linux desktop Chrome bot but not Android, Windows or M
   assert.equal(isSuspectedLinuxDesktopBot('Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 Chrome/157.0.0.0 Mobile Safari/537.36'), false);
   assert.equal(isSuspectedLinuxDesktopBot(CHROME), false);
   assert.equal(isSuspectedLinuxDesktopBot(''), false);
+});
+
+test('reports drop fake-home redirects even with page evidence', () => {
+  const db = new DatabaseSync(':memory:');
+  try {
+    db.exec(readFileSync(new URL('../migrations/0001_demand.sql', import.meta.url), 'utf8'));
+    db.exec(readFileSync(new URL('../migrations/0008_analytics_commercial_funnel.sql', import.meta.url), 'utf8'));
+    const insert = db.prepare('INSERT INTO analytics_events (created_at, event_name, request_key, user_agent, source_path, cta_location) VALUES (?, ?, ?, ?, ?, ?)');
+    const iphone = 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)';
+    const linux = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36';
+    const android = 'Mozilla/5.0 (Linux; Android 14; Pixel 8) Chrome/130';
+    for (const [key, ua, path, cta] of [['a', iphone, '/artists/x', 'event_card'], ['b', android, '/artists/x', 'event_card'], ['c', iphone, '/', 'home_answer'], ['d', linux, '/artists/x', 'event_card'], ['e', iphone, '/', 'event_card']]) {
+      insert.run('2026-11-19T10:00:00Z', 'page_view', key, ua, path, null);
+      insert.run('2026-11-19T10:01:00Z', 'outbound_click', key, ua, path, cta);
+    }
+    assert.equal(db.prepare(`SELECT COUNT(*) AS n FROM analytics_events WHERE ${humanRedirectSql()}`).get().n, 4);
+    assert.equal(db.prepare(`SELECT COUNT(*) AS n FROM analytics_events c WHERE c.event_name = 'outbound_click' AND ${suspectedBotRedirectSql('c')}`).get().n, 1);
+  } finally { db.close(); }
+});
+
+test('/api/out refuses a home-page source with a CTA the home page does not render', async () => {
+  const headers = { 'sec-fetch-user': '?1', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'navigate', referer: 'https://tourticketcompare.com/' };
+  const { db, env } = fixture();
+  try {
+    const forged = await onRequestGet({ request: out(headers), env });
+    assert.equal(forged.status, 403);
+    assert.equal((await forged.json()).status, 'blocked_forged_source');
+    assert.equal(db.prepare('SELECT COUNT(*) AS n FROM analytics_events').get().n, 0);
+    const home = new Request(`https://tourticketcompare.com/api/out?showId=${event.id}&provider=seatgeek&ctaLocation=home_answer`, { headers: { 'user-agent': CHROME, ...headers } });
+    assert.equal((await onRequestGet({ request: home, env })).status, 302);
+    const page = await onRequestGet({ request: out({ ...headers, referer: 'https://tourticketcompare.com/artists/test-artist' }), env });
+    assert.equal(page.status, 302);
+  } finally { db.close(); }
 });

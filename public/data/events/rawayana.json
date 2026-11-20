@@ -388,11 +388,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107447958",
-        "url": "https://www.stubhub.ie/rawayana-houston-tickets-11-19-2026/event/107447958",
-        "verified": true,
-        "last_verified_at": "2026-11-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_aD2y7SG",
@@ -400,7 +400,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930292",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930292/Rawayana-tickets-Thu-Nov-19-2026-713-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/rawayana-houston-tickets-11-19-2026/event/107447958",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -473,7 +473,7 @@
         "event_id": "107482970",
         "url": "https://www.stubhub.ie/rawayana-irving-tickets-11-21-2026/event/107482970",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -561,7 +561,7 @@
         "event_id": "107141314",
         "url": "https://www.stubhub.ie/rawayana-orlando-tickets-12-3-2026/event/107141314",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -650,7 +650,7 @@
         "event_id": "107672941",
         "url": "https://www.stubhub.ie/rawayana-miami-tickets-12-4-2026/event/107672941",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -738,7 +738,7 @@
         "event_id": "107140392",
         "url": "https://www.stubhub.ie/rawayana-miami-tickets-12-5-2026/event/107140392",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -827,7 +827,7 @@
         "event_id": "107141315",
         "url": "https://www.stubhub.ie/rawayana-miami-tickets-12-6-2026/event/107141315",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },

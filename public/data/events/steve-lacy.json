@@ -1419,11 +1419,11 @@
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": "107482318",
-        "url": "https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318",
-        "verified": true,
-        "last_verified_at": "2026-11-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_8pRdDbi",
@@ -1431,7 +1431,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199810",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199810/Steve-Lacy-tickets-Thu-Nov-19-2026-Gallagher-Square-at-Petco-Park",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1504,7 +1504,7 @@
         "event_id": "107484106",
         "url": "https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1587,7 +1587,7 @@
         "event_id": "107482319",
         "url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1670,7 +1670,7 @@
         "event_id": "107672773",
         "url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1760,7 +1760,7 @@
         "event_id": "107482320",
         "url": "https://www.stubhub.ie/steve-lacy-seattle-tickets-11-28-2026/event/107482320",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1842,7 +1842,7 @@
         "event_id": "107482321",
         "url": "https://www.stubhub.ie/steve-lacy-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-11-30-2026/event/107482321",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },

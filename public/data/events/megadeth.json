@@ -140,7 +140,7 @@
         "event_id": "107471083",
         "url": "https://www.stubhub.ie/megadeth-tickets-london-ovo-arena-wembley-11-3-2027/event/107471083",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -219,7 +219,7 @@
         "event_id": "107471084",
         "url": "https://www.stubhub.ie/megadeth-tickets-nottingham-motorpoint-arena-nottingham-12-3-2027/event/107471084",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -298,7 +298,7 @@
         "event_id": "107469088",
         "url": "https://www.stubhub.ie/megadeth-tickets-manchester-co-op-live-13-3-2027/event/107469088",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -366,7 +366,7 @@
         "event_id": "107469089",
         "url": "https://www.stubhub.ie/megadeth-tickets-cardiff-utilita-arena-cardiff-15-3-2027/event/107469089",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -433,7 +433,7 @@
         "event_id": "107471085",
         "url": "https://www.stubhub.ie/megadeth-tickets-glasgow-ovo-hydro-arena-glasgow-16-3-2027/event/107471085",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -500,7 +500,7 @@
         "event_id": "107471086",
         "url": "https://www.stubhub.ie/megadeth-tickets-birmingham-bp-pulse-live-18-3-2027/event/107471086",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -675,7 +675,7 @@
         "event_id": "107469095",
         "url": "https://www.stubhub.ie/megadeth-tickets-dusseldorf-mitsubishi-electric-halle-25-3-2027/event/107469095",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -747,7 +747,7 @@
         "event_id": "107469086",
         "url": "https://www.stubhub.ie/megadeth-tickets-oslo-oslo-spektrum-28-3-2027/event/107469086",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -947,6 +947,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683743",
+        "url": "https://www.stubhub.ie/megadeth-phoenix-tickets-5-15-2027/event/107683743",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkntTpbB",
@@ -1006,7 +1013,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373268",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373268/Megadeth-tickets-Sat-May-15-2027-Talking-Stick-Resort-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373268/Megadeth-tickets-Sat-May-15-2027-Talking-Stick-Resort-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-phoenix-tickets-5-15-2027/event/107683743"
   },
   {
     "id": "tm-megadeth-2027-chula-vista-vvg1iz_pjb5pwc",
@@ -1069,6 +1077,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682746",
+        "url": "https://www.stubhub.ie/megadeth-chula-vista-tickets-5-18-2027/event/107682746",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pJB5pwc",
@@ -1128,7 +1143,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373269",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373269/Megadeth-tickets-Tue-May-18-2027-North-Island-Credit-Union-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373269/Megadeth-tickets-Tue-May-18-2027-North-Island-Credit-Union-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-chula-vista-tickets-5-18-2027/event/107682746"
   },
   {
     "id": "tm-megadeth-2027-inglewood-vv16azk4ev7zauakk1",
@@ -1191,6 +1207,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682733",
+        "url": "https://www.stubhub.ie/megadeth-inglewood-tickets-5-19-2027/event/107682733",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16aZk4Ev7ZAuAkk1",
@@ -1250,7 +1273,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373270",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373270/Megadeth-tickets-Wed-May-19-2027-The-Kia-Forum"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373270/Megadeth-tickets-Wed-May-19-2027-The-Kia-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-inglewood-tickets-5-19-2027/event/107682733"
   },
   {
     "id": "tm-megadeth-2027-ridgefield-vvg1hz_pj4m0zq",
@@ -2089,6 +2113,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683734",
+        "url": "https://www.stubhub.ie/megadeth-clarkston-tickets-6-4-2027/event/107683734",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkS8S9m3",
@@ -2132,7 +2163,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373280",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373280/Megadeth-tickets-Fri-Jun-4-2027-Pine-Knob-Music-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373280/Megadeth-tickets-Fri-Jun-4-2027-Pine-Knob-Music-Theatre",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-clarkston-tickets-6-4-2027/event/107683734"
   },
   {
     "id": "tm-megadeth-2027-cincinnati-1avbz_pgkn_24l6",
@@ -2195,6 +2227,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683751",
+        "url": "https://www.stubhub.ie/megadeth-cincinnati-tickets-6-5-2027/event/107683751",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkn_24L6",
@@ -2244,7 +2283,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373281",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373281/Megadeth-tickets-Sat-Jun-5-2027-Riverbend-Music-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373281/Megadeth-tickets-Sat-Jun-5-2027-Riverbend-Music-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-cincinnati-tickets-6-5-2027/event/107683751"
   },
   {
     "id": "tm-megadeth-2027-burgettstown-1avbz_pgkwkmpmi",
@@ -2307,6 +2347,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683748",
+        "url": "https://www.stubhub.ie/megadeth-burgettstown-tickets-6-7-2027/event/107683748",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkwKMpmI",
@@ -2361,7 +2408,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373283",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373283/Megadeth-tickets-Mon-Jun-7-2027-The-Pavilion-At-Star-Lake"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373283/Megadeth-tickets-Mon-Jun-7-2027-The-Pavilion-At-Star-Lake",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-burgettstown-tickets-6-7-2027/event/107683748"
   },
   {
     "id": "tm-megadeth-2027-bristow-1avfz_pgknmlaeb",
@@ -2424,6 +2472,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683760",
+        "url": "https://www.stubhub.ie/megadeth-bristow-tickets-6-8-2027/event/107683760",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_pGknmlaeb",
@@ -2478,7 +2533,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373284",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373284/Megadeth-tickets-Tue-Jun-8-2027-Jiffy-Lube-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373284/Megadeth-tickets-Tue-Jun-8-2027-Jiffy-Lube-Live",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-bristow-tickets-6-8-2027/event/107683760"
   },
   {
     "id": "tm-megadeth-2027-toronto-1avzz_pgksfsdba",
@@ -2645,6 +2701,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683757",
+        "url": "https://www.stubhub.ie/megadeth-mansfield-tickets-6-12-2027/event/107683757",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkmJH1ou",
@@ -2704,7 +2767,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373285",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373285/Megadeth-tickets-Sat-Jun-12-2027-Xfinity-Center-MA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373285/Megadeth-tickets-Sat-Jun-12-2027-Xfinity-Center-MA",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-mansfield-tickets-6-12-2027/event/107683757"
   },
   {
     "id": "tm-megadeth-2027-camden-vv17fz_pgkmjnhj7",
@@ -2767,6 +2831,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683747",
+        "url": "https://www.stubhub.ie/megadeth-camden-tickets-6-13-2027/event/107683747",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17FZ_pGkmJnHj7",
@@ -2826,7 +2897,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373287",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373287/Megadeth-tickets-Sun-Jun-13-2027-Freedom-Mortgage-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373287/Megadeth-tickets-Sun-Jun-13-2027-Freedom-Mortgage-Pavilion",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-camden-tickets-6-13-2027/event/107683747"
   },
   {
     "id": "tm-megadeth-2027-new-york-g5diz_prtfsjt",
@@ -2886,6 +2958,13 @@
       "ticket-liquidator": {
         "event_id": "8373289",
         "url": "https://www.ticketliquidator.com/tickets/8373289/Megadeth-tickets-Tue-Jun-15-2027-Madison-Square-Garden",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682758",
+        "url": "https://www.stubhub.ie/megadeth-new-york-tickets-6-15-2027/event/107682758",
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
@@ -2957,7 +3036,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373289",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373289/Megadeth-tickets-Tue-Jun-15-2027-Madison-Square-Garden"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373289/Megadeth-tickets-Tue-Jun-15-2027-Madison-Square-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-new-york-tickets-6-15-2027/event/107682758"
   },
   {
     "id": "tm-megadeth-2027-charlotte-g5evz_pjm1iz7",
@@ -3137,6 +3217,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683756",
+        "url": "https://www.stubhub.ie/megadeth-alpharetta-tickets-6-18-2027/event/107683756",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pnf8Blb",
@@ -3196,7 +3283,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373291",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373291/Megadeth-tickets-Fri-Jun-18-2027-Ameris-Bank-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373291/Megadeth-tickets-Fri-Jun-18-2027-Ameris-Bank-Amphitheatre",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-alpharetta-tickets-6-18-2027/event/107683756"
   },
   {
     "id": "tm-megadeth-2027-the-woodlands-g5diz_penjw6e",
@@ -3245,6 +3333,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682756",
+        "url": "https://www.stubhub.ie/megadeth-the-woodlands-tickets-6-20-2027/event/107682756",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pENjW6e",
@@ -3312,7 +3407,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-07T03:00:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-the-woodlands-tickets-6-20-2027/event/107682756"
   },
   {
     "id": "tm-megadeth-2027-irving-vvg1yz_psnfnkd",
@@ -3375,6 +3471,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683752",
+        "url": "https://www.stubhub.ie/megadeth-irving-tickets-6-22-2027/event/107683752",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pSNfnKd",
@@ -3429,7 +3532,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373293",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373293/Megadeth-tickets-Tue-Jun-22-2027-The-Pavilion-at-Toyota-Music-Factory"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373293/Megadeth-tickets-Tue-Jun-22-2027-The-Pavilion-at-Toyota-Music-Factory",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-irving-tickets-6-22-2027/event/107683752"
   },
   {
     "id": "tm-megadeth-2027-austin-g5diz_pevm_m_",
@@ -4327,6 +4431,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683749",
+        "url": "https://www.stubhub.ie/megadeth-buffalo-tickets-9-16-2027/event/107683749",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pR36-mz",
@@ -4386,7 +4497,8 @@
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373306",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373306/Megadeth-tickets-Thu-Sep-16-2027-KeyBank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373306/Megadeth-tickets-Thu-Sep-16-2027-KeyBank-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-buffalo-tickets-9-16-2027/event/107683749"
   },
   {
     "id": "tm-megadeth-2027-toledo-vv1afzk4tgkdzzv33",

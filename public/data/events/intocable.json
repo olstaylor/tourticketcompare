@@ -65,7 +65,7 @@
         "event_id": "107668400",
         "url": "https://www.stubhub.ie/intocable-sugar-land-tickets-11-21-2026/event/107668400",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -216,7 +216,7 @@
         "event_id": "107478117",
         "url": "https://www.stubhub.ie/intocable-fort-worth-tickets-11-27-2026/event/107478117",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -363,6 +363,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682785",
+        "url": "https://www.stubhub.ie/intocable-chicago-tickets-2-20-2027/event/107682785",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_pGkRPyrnn",
@@ -389,7 +396,8 @@
         "end": "2027-02-14T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373879"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373879",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-chicago-tickets-2-20-2027/event/107682785"
   },
   {
     "id": "tm-intocable-2027-duluth-vvg1zz_pwe5ag0",
@@ -545,6 +553,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682782",
+        "url": "https://www.stubhub.ie/intocable-fresno-tickets-3-5-2027/event/107682782",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pMjs49U",
@@ -574,7 +589,8 @@
         "end": "2027-02-27T06:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373881"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373881",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-fresno-tickets-3-5-2027/event/107682782"
   },
   {
     "id": "tm-intocable-2027-inglewood-vv170z_pgkrollqf",
@@ -642,7 +658,7 @@
         "event_id": "107682290",
         "url": "https://www.stubhub.ie/intocable-inglewood-tickets-3-6-2027/event/107682290",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -743,7 +759,7 @@
         "event_id": "107681246",
         "url": "https://www.stubhub.ie/intocable-san-jose-tickets-3-19-2027/event/107681246",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -850,6 +866,13 @@
         "verified": true,
         "last_verified_at": "2026-11-19",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683784",
+        "url": "https://www.stubhub.ie/intocable-miami-tickets-6-11-2027/event/107683784",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pmzXGE8",
@@ -890,7 +913,8 @@
         "end": "2027-06-05T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373885"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373885",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-miami-tickets-6-11-2027/event/107683784"
   },
   {
     "id": "tm-intocable-2027-sacramento-g5vyz_pulkwxh",
@@ -958,7 +982,7 @@
         "event_id": "107683516",
         "url": "https://www.stubhub.ie/intocable-sacramento-tickets-8-28-2027/event/107683516",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },

@@ -1443,11 +1443,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107482393",
-        "url": "https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-18-2026/event/107482393",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_8DuYuU5",
@@ -1455,7 +1455,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-18-2026/event/107482393",
+    "stubhub_international_url": "",
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",
       "LIVE NATION MUSIC"
@@ -1529,7 +1529,7 @@
         "event_id": "107554508",
         "url": "https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-19-2026/event/107554508",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1612,7 +1612,7 @@
         "event_id": "107482394",
         "url": "https://www.stubhub.ie/jonas-brothers-san-francisco-tickets-11-21-2026/event/107482394",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1694,7 +1694,7 @@
         "event_id": "107490079",
         "url": "https://www.stubhub.ie/jonas-brothers-sacramento-tickets-11-22-2026/event/107490079",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -1857,7 +1857,7 @@
         "event_id": "107490080",
         "url": "https://www.stubhub.ie/jonas-brothers-las-vegas-tickets-11-28-2026/event/107490080",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -2019,7 +2019,7 @@
         "event_id": "107482385",
         "url": "https://www.stubhub.ie/jonas-brothers-anaheim-tickets-12-2-2026/event/107482385",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -2108,7 +2108,7 @@
         "event_id": "107524089",
         "url": "https://www.stubhub.ie/jonas-brothers-seattle-tickets-12-5-2026/event/107524089",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -2678,7 +2678,7 @@
         "event_id": "107482397",
         "url": "https://www.stubhub.ie/jonas-brothers-newark-tickets-12-21-2026/event/107482397",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },
@@ -2772,7 +2772,7 @@
         "event_id": "107625116",
         "url": "https://www.stubhub.ie/jonas-brothers-newark-tickets-12-22-2026/event/107625116",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },

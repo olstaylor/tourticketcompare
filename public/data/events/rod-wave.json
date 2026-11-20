@@ -1363,11 +1363,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107554705",
-        "url": "https://www.stubhub.ie/rod-wave-atlanta-tickets-11-18-2026/event/107554705",
-        "verified": true,
-        "last_verified_at": "2026-11-18",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_uZryHLw",
@@ -1375,7 +1375,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/rod-wave-atlanta-tickets-11-18-2026/event/107554705",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1448,7 +1448,7 @@
         "event_id": "107554706",
         "url": "https://www.stubhub.ie/rod-wave-atlanta-tickets-11-19-2026/event/107554706",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       }
     },

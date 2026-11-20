@@ -2584,6 +2584,54 @@ function homepagePricePicks(catalog, events, isIndexable, now = Date.now()) {
   return picks;
 }
 
+// Per-page buy path on the three highest-impression comparison guides
+// (2026-11-20: ~27k impressions, 9 guide-page seller clicks in 30 days). Each
+// shows up to three upcoming dates where two or more sellers list a fresh
+// approved price, as the artist page's next-dates table for that one date, so
+// the figures and buttons are the existing cached snapshots. Only these paths:
+// no template-wide change. Artists follow the featured order the homepage
+// uses; sellers are never reordered.
+export const GUIDE_BUY_PATHS = new Set([
+  "/guides/seatgeek-vs-ticketmaster",
+  "/guides/vivid-seats-vs-ticketmaster",
+  "/guides/is-seatgeek-legit"
+]);
+const GUIDE_BUY_PANELS = 3;
+const GUIDE_BUY_CANDIDATES = 12;
+
+function guideBuyCandidates(catalog, events, isIndexable, now = Date.now()) {
+  const { primary } = splitArtistsByUpcoming(catalog?.artists, events, now);
+  const picks = [];
+  for (const artist of primary) {
+    if (!isIndexable(artist)) continue;
+    const show = futureShowsForArtist(events, artist.slug, 1)[0];
+    if (show) picks.push({ artist, show });
+    if (picks.length === GUIDE_BUY_CANDIDATES) break;
+  }
+  return picks;
+}
+
+export function renderGuideBuyPath(route, picks, availability) {
+  if (!GUIDE_BUY_PATHS.has(route?.path)) return "";
+  const panels = [];
+  for (const { artist, show } of picks || []) {
+    const pricedSellers = serverShowCtaSpecs(show, availability).filter((spec) => spec.priceAmount && spec.priceAsOf);
+    // Two sellers in one currency, or the line above would not be a comparison.
+    if (pricedSellers.length < 2 || new Set(pricedSellers.map((spec) => spec.lane.currency)).size !== 1) continue;
+    const panel = renderArtistNextDatesPriceAnswer(artist, [show], availability, {
+      heading: `${artist.name}: next date`,
+      caption: `Ticket options for the next ${artist.name} date`,
+      titleId: `guideBuy${panels.length}`,
+      ctaLocation: "guide_answer",
+      cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
+    });
+    if (panel) panels.push(panel);
+    if (panels.length === GUIDE_BUY_PANELS) break;
+  }
+  if (!panels.length) return "";
+  return `<section class="section-grid guide-buy-path" aria-labelledby="guideBuyTitle"><div class="section-intro"><h2 id="guideBuyTitle">Compare prices for a real show</h2><p>Upcoming dates where two or more sellers list a price right now. Open each seller and check the final total before you pay. ${anchor("See more shows in the compare hub", "/compare-concert-ticket-prices", "text-link")}.</p></div>${panels.join("")}${renderMoneyDisclosureHtml()}</section>`;
+}
+
 // The artists picked for this request, from the artists file's indexing status
 // (the catalog does not carry it), by the same rule the artist page uses.
 async function homepagePickSlugs(catalog, events, env) {
@@ -8454,7 +8502,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${renderGuideProvenance(route)}${route.thisWeekHtml || ""}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideBlogLinks(route, contentHtml)}${renderGuideSources(
+    )}</p>${renderGuideProvenance(route)}${route.thisWeekHtml || ""}${route.guideBuyHtml || ""}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideBlogLinks(route, contentHtml)}${renderGuideSources(
       guideContent[route.path]?.sources
     )}<div class="action-row">${
       route.path === "/guides/how-to-compare-concert-ticket-prices"
@@ -9484,7 +9532,7 @@ async function renderRequest(context) {
   const demotedSlugs = listsOnly ? await loadDemotedArtistSlugs(env) : new Set();
   const catalog = withoutDemotedArtists(route.catalog || await loadCatalog(env), demotedSlugs);
   const needsGuideEvents = route.type === "guide" && ((Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2) || GUIDE_UPCOMING_ARTIST_PATHS.has(route.path));
-  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || THIS_WEEK_GUIDE_PATHS.has(route.path) || route.path === "/artists" || route.path === "/" || route.type === "onsale-calendar";
+  const needsEvents = GUIDE_BUY_PATHS.has(route.path) || route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || THIS_WEEK_GUIDE_PATHS.has(route.path) || route.path === "/artists" || route.path === "/" || route.type === "onsale-calendar";
   const events = withoutDemotedEvents(route.events || (needsEvents ? await loadEvents(env) : []), demotedSlugs);
   timer.mark("data");
   let priceLowSeries = new Map();
@@ -9496,7 +9544,8 @@ async function renderRequest(context) {
   let homePickSlugs = null;
   let homeCityRuns = null;
   let onsalePicks = null;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/" || route.type === "onsale-calendar") && events.length) {
+  let guideBuyPicks = null;
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/" || route.type === "onsale-calendar" || GUIDE_BUY_PATHS.has(route.path)) && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -9545,6 +9594,10 @@ async function renderRequest(context) {
     } else if (route.type === "onsale-calendar") {
       onsalePicks = await onsalePickList(route, events, env);
       priceCandidates = onsalePickShows(onsalePicks, events).map(({ show }) => show);
+    } else if (GUIDE_BUY_PATHS.has(route.path)) {
+      const guideMeta = new Map((await loadArtistsMeta(env)).filter(Boolean).map((artist) => [slugify(artist.slug), artist]));
+      guideBuyPicks = guideBuyCandidates(catalog, events, (artist) => artistPageIndexable(guideMeta.get(slugify(artist.slug)), events, artist.slug));
+      priceCandidates = guideBuyPicks.map(({ show }) => show);
     } else if (route.path === "/") {
       homePickSlugs = await homepagePickSlugs(catalog, events, env);
       const homeMeta = await loadArtistsMeta(env);
@@ -9616,6 +9669,15 @@ async function renderRequest(context) {
   let renderRoute = promotesBlog ? { ...route, blogPromotable: true } : route;
   if (homePickSlugs) renderRoute = { ...renderRoute, homePickSlugs };
   if (homeCityRuns?.length) renderRoute = { ...renderRoute, homeCityRuns };
+  if (guideBuyPicks?.length) {
+    const pricedGuidePicks = guideBuyPicks.map(({ artist, show }) => ({ artist, show: renderEvents.find((event) => String(event?.id || "") === String(show.id || "")) || show }));
+    const guideBuyHtml = renderGuideBuyPath(route, pricedGuidePicks, {
+      seatGeekAvailable: isSeatGeekConfigured(env),
+      vividSeatsAvailable: isVividSeatsConfigured(env),
+      marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]))
+    });
+    if (guideBuyHtml) renderRoute = { ...renderRoute, guideBuyHtml };
+  }
   if (onsalePicks?.length) {
     const onsalePriceHtml = renderOnsalePriceAnswers(onsalePicks, catalog, renderEvents, env);
     if (onsalePriceHtml) renderRoute = { ...renderRoute, onsalePriceHtml };

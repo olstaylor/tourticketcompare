@@ -2322,5 +2322,59 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-mexico-city-palacio-de-los-deportes-1-3-2027/event/107680992"
+  },
+  {
+    "id": "tm-tame-impala-2027-tulsa-1aezz_pgkmxe71m",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-02-12T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000656BA29C42B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000656BA29C42B7",
+        "discovery_event_id": "1AeZZ_pGkmxE71M",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_pGkmxE71M",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-25T18:00:00Z"
   }
 ]

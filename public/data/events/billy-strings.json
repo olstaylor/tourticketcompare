@@ -2010,5 +2010,270 @@
         "end": "2026-11-20T04:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaa6ce",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-08T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6Ce",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6Ce",
+        "discovery_event_id": "Z7r9jZ1AAA6Ce",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6Ce",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaa6cv",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-09T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6Cv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6Cv",
+        "discovery_event_id": "Z7r9jZ1AAA6Cv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6Cv",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaa40k",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-10T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA40k",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA40k",
+        "discovery_event_id": "Z7r9jZ1AAA40k",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA40k",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaa6cd",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-12T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA6Cd",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA6Cd",
+        "discovery_event_id": "Z7r9jZ1AAA6Cd",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6Cd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-billy-strings-2027-saint-augustine-z7r9jz1aaab04",
+    "artist_slug": "billy-strings",
+    "artist_name": "Billy Strings",
+    "event_name": "Billy Strings",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-04-13T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAb04",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAb04",
+        "discovery_event_id": "Z7r9jZ1AAAb04",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAb04",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

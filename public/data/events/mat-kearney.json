@@ -1895,5 +1895,58 @@
     "ticket_limit": 8,
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344254/Mat-Kearney-tickets-Fri-Nov-19-2027-The-Tabernacle-GA"
+  },
+  {
+    "id": "tm-mat-kearney-2027-carmel-z7r9jz1aaa_49",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Carmel",
+    "country": "United States Of America",
+    "venue": "Allied Solutions Center for the Performing Arts",
+    "datetime_iso": "2027-11-15T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_49",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_49",
+        "discovery_event_id": "Z7r9jZ1AAA_49",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_49",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
   }
 ]

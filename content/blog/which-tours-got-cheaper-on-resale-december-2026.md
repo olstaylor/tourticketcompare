@@ -62,7 +62,7 @@ Gracie Abrams dates, which run from December 2026 to March 2027, fell for a seco
 | [Luke Combs](/artists/luke-combs) | 10 | 2 | 18 | +8.0% |
 | [Olivia Rodrigo](/artists/olivia-rodrigo) | 28 | 22 | 50 | +5.8% |
 
-Olivia Rodrigo's 28 US dates, from December 2026 to March 2027, rose on Vivid Seats (a typical 8.1%) and StubHub International (5.8%) and was about level on TicketNetwork (0.6%). Across all sites the median lowest listed price went from $366 to $394. Last month her tour had no clear direction.
+Olivia Rodrigo's 28 US dates, from December 2026 to March 2027, rose on Vivid Seats (a typical 8.1%) and StubHub International (5.8%) and was about level on TicketNetwork (0.6%). Across all sites the median lowest listed price was $366 in mid-October and $394 in mid-November. Last month her tour had no clear direction.
 
 ## Tours that did not make the list
 

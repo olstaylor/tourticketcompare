@@ -72,11 +72,13 @@ jobs:
           # A refresh PR auto-merges within about an hour. One still open after
           # 24 hours has gone stale (for example merge conflicts after main moved)
           # and would block every later run, so close it; this run rebuilds it.
+          # The branch is left in place: the workflow token cannot delete refs (HTTP 403),
+          # and a failed delete under set -e used to fail the gate and skip the build.
           cutoff=$(date -u -d '24 hours ago' +%Y-%m-%dT%H:%M:%SZ)
           for stale in $(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 100 \
             --json number,headRefName,createdAt \
             --jq ".[] | select((.headRefName | startswith(\"automation/artist-city-reports-\")) and .createdAt < \"$cutoff\") | .number"); do
-            gh pr close "$stale" --repo "$GITHUB_REPOSITORY" --delete-branch \
+            gh pr close "$stale" --repo "$GITHUB_REPOSITORY" \
               --comment "Closed: this refresh PR was still open after 24 hours (stale), so the next run rebuilds the reports from current snapshots."
             echo "Closed stale city report refresh PR #$stale." >> "$GITHUB_STEP_SUMMARY"
           done

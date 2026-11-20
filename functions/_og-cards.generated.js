@@ -711,7 +711,6 @@ export const OG_CARDS = {
   "/artists/stray-kids/tickets/munich-germany": {"url":"/og/artists-stray-kids-tickets-munich-germany.png","alt":"Tickets: Stray Kids in Munich"},
   "/artists/summer-walker": {"url":"/og/artists-summer-walker.png","alt":"Tickets & tour dates: Summer Walker"},
   "/artists/sylvan-esso": {"url":"/og/artists-sylvan-esso.png","alt":"Tickets & tour dates: Sylvan Esso"},
-  "/artists/sylvan-esso/presale": {"url":"/og/artists-sylvan-esso-presale.png","alt":"Presale: Sylvan Esso"},
   "/artists/sylvan-esso/ticket-prices": {"url":"/og/artists-sylvan-esso-ticket-prices.png","alt":"Ticket prices: Sylvan Esso"},
   "/artists/sylvan-esso/tickets/denver-united-states": {"url":"/og/artists-sylvan-esso-tickets-denver-united-states.png","alt":"Tickets: Sylvan Esso in Denver"},
   "/artists/sylvan-esso/tickets/portland-united-states": {"url":"/og/artists-sylvan-esso-tickets-portland-united-states.png","alt":"Tickets: Sylvan Esso in Portland"},

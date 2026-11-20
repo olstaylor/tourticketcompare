@@ -45,7 +45,7 @@ howto:
 
 Pin down the show first: artist, local date and venue. Then compare each ticket site's listed price for that date, open the ones worth a look, and decide on the total at each site's order screen. Two prices for "the same show" often turn out to be a different night, a different section, or resale against primary.
 
-Where a ticket site supplies one, TourTicketCompare shows its listed price for a date, with when it was checked. Go to an [artist page](/artists) and pick a date to start.
+Where a ticket site supplies one, TourTicketCompare shows its listed price for a date, with when it was checked. To see it on a real show, open the [event comparison hub](/compare-concert-ticket-prices), or go to an [artist page](/artists) and pick a date.
 
 ## Where can you compare prices for different concert venues?
 

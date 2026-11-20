@@ -18,6 +18,7 @@
     "test:price-notes": "node scripts/price-notes.test.mjs",
     "test:price-disclosure-fields": "node scripts/price-disclosure-fields.test.mjs",
     "test:price-wording": "node scripts/price-wording.test.mjs",
+    "test:provider-order": "node scripts/provider-order-test.test.mjs",
     "test:upcoming-shows": "node scripts/upcoming-shows.test.mjs",
     "test:selling-soon": "node scripts/selling-soon.test.mjs",
     "test:embed": "node scripts/embed.test.mjs",

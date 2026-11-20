@@ -97,7 +97,9 @@ const SAFE_METADATA_KEYS = new Set([
   "control", "hasQuery", "city", "country", "sort", "visibleCount", "totalCount", "panel",
   // provider_click on a date showing the "Lowest listed" badge: "lowest" when
   // the badged lane was clicked, "other" for another lane on that date.
-  "lowestListed"
+  "lowestListed",
+  // Seller-order test (2026-11-20): which order the date's buttons used.
+  "orderArm"
 ]);
 
 export function sanitizeMetadata(value) {

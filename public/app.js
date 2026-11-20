@@ -883,6 +883,30 @@ function providerDisplayRank(providerSlug) {
   return rank === -1 ? PROVIDER_DISPLAY_ORDER.length : rank;
 }
 
+// Seller-order test (owner approved 2026-11-20; readout 2026-12-04 for the
+// 2-week window, see docs/PROVIDER_DATA_POLICY.md). Half of all dates, chosen by
+// a hash of the event id so every viewer, the server render and the browser
+// hydration agree, show the marketplaces in reverse alphabetical order. The
+// primary ticket site still leads. Neither order is chosen by commission, and
+// each button reports its arm and 1-based position so click share can be read
+// by seller and position. Keep in sync with providerOrderArm in functions/[[path]].js
+// (scripts/provider-order-test.test.mjs fails if they drift).
+function providerOrderArm(showId) {
+  let h = 2166136261;
+  const text = String(showId || "");
+  for (let i = 0; i < text.length; i += 1) h = Math.imul(h ^ text.charCodeAt(i), 16777619);
+  h ^= h >>> 15;
+  h = Math.imul(h, 739982445);
+  h ^= h >>> 12;
+  return (h & 1) === 0 ? "alphabetical" : "reverse";
+}
+
+function providerDisplayRankForArm(providerSlug, arm) {
+  const rank = providerDisplayRank(providerSlug);
+  if (arm !== "reverse" || providerSlug === "ticketmaster" || rank >= PROVIDER_DISPLAY_ORDER.length) return rank;
+  return PROVIDER_DISPLAY_ORDER.length - rank;
+}
+
 function artistProviderHref(artist, item, surface) {
   const provider = slugify(item?.provider);
   // Ticketmaster stays a plain /api/out redirect; monetized artist links route
@@ -2039,6 +2063,10 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
   cta.dataset.ctaShowId = analytics.showId || "";
   cta.dataset.ctaPriceSnapshot = amount ? "present" : "absent";
   cta.dataset.ctaLocation = ctaLocation;
+  if (analytics.orderArm && analytics.position) {
+    cta.dataset.ctaOrderArm = analytics.orderArm;
+    cta.dataset.ctaPosition = String(analytics.position);
+  }
   text(cta, "span", name, "provider-cta-name");
   text(cta, "span", general ? `${analytics.checkKind === "page" ? "Artist page" : "Site search"} · not this date` : analytics.provider === "ticketmaster" ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace", "provider-cta-role");
   text(cta, "span", (amount ? ["From", amount].join(" ") : "") || (analytics.provider === "ticketmaster" ? "See tickets" : "Check prices"), `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
@@ -2188,7 +2216,7 @@ function relativeCheckAge(fetchedAt, now = Date.now()) {
 // Keep in sync with MONEY_DISCLOSURE_TEXT / renderMoneyDisclosureHtml in
 // functions/[[path]].js.
 const MONEY_DISCLOSURE_TEXT =
-  "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical order. Commission does not determine the order.";
+  "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical or reverse-alphabetical order, which varies by date. Commission does not determine the order.";
 function renderMoneyDisclosure({ prices = true } = {}) {
   const wrap = document.createElement("div");
   if (prices) text(wrap, "p", PRICE_SUMMARY, "disclosure-note price-disclosure");
@@ -2543,10 +2571,11 @@ function renderShowCard(show, options = {}) {
       }
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
-      ctaSpecs.sort((a, b) => providerDisplayRank(a.provider) - providerDisplayRank(b.provider));
-      for (const spec of ctaSpecs) {
-        ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }));
-      }
+      const orderArm = providerOrderArm(show.id);
+      ctaSpecs.sort((a, b) => providerDisplayRankForArm(a.provider, orderArm) - providerDisplayRankForArm(b.provider, orderArm));
+      ctaSpecs.forEach((spec, index) => {
+        ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider, orderArm, position: index + 1 }));
+      });
       // A date with no matched link on a resale site still offers that site's
       // artist page or search as a generic "Check prices" button. Keep in sync
       // with checkButtonHtml in renderShowCardServerHtml (functions/[[path]].js).
@@ -4683,6 +4712,7 @@ document.addEventListener("click", (event) => {
     eventId: showId,
     priceSnapshot: cta.dataset.ctaPriceSnapshot === "present" ? "present" : "absent",
     ctaLocation,
+    ...(cta.dataset.ctaOrderArm && Number(cta.dataset.ctaPosition) > 0 ? { orderArm: cta.dataset.ctaOrderArm, position: Number(cta.dataset.ctaPosition) } : {}),
     isAffiliate: AFFILIATE_CTA_PROVIDERS.indexOf(provider) !== -1,
     linkId: showId ? `${showId}:${provider}` : String(cta.dataset.ctaLinkId || "").trim()
   });

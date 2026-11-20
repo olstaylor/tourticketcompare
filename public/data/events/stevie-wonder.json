@@ -705,11 +705,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8252655",
-        "url": "https://www.ticketnetwork.com/en/p/8252655",
-        "verified": true,
-        "last_verified_at": "2026-11-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_GpOSSVv",
@@ -727,7 +727,7 @@
         "end": "2026-11-20T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252655",
+    "ticketnetwork_url": "",
     "genre": "R&B"
   },
   {
@@ -796,7 +796,7 @@
         "event_id": "8252656",
         "url": "https://www.ticketnetwork.com/en/p/8252656",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -878,7 +878,7 @@
         "event_id": "8252657",
         "url": "https://www.ticketnetwork.com/en/p/8252657",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1126,7 +1126,7 @@
         "event_id": "8252660",
         "url": "https://www.ticketnetwork.com/en/p/8252660",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },

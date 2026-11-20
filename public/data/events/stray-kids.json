@@ -58,7 +58,7 @@
         "event_id": "8361510",
         "url": "https://www.ticketnetwork.com/en/p/8361510",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -147,7 +147,7 @@
         "event_id": "8361523",
         "url": "https://www.ticketnetwork.com/en/p/8361523",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -237,7 +237,7 @@
         "event_id": "8361511",
         "url": "https://www.ticketnetwork.com/en/p/8361511",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -326,7 +326,7 @@
         "event_id": "8361512",
         "url": "https://www.ticketnetwork.com/en/p/8361512",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -415,7 +415,7 @@
         "event_id": "8361513",
         "url": "https://www.ticketnetwork.com/en/p/8361513",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -504,7 +504,7 @@
         "event_id": "8361515",
         "url": "https://www.ticketnetwork.com/en/p/8361515",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -592,7 +592,7 @@
         "event_id": "8361516",
         "url": "https://www.ticketnetwork.com/en/p/8361516",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -681,7 +681,7 @@
         "event_id": "8361517",
         "url": "https://www.ticketnetwork.com/en/p/8361517",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -770,7 +770,7 @@
         "event_id": "8361518",
         "url": "https://www.ticketnetwork.com/en/p/8361518",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -859,7 +859,7 @@
         "event_id": "8361519",
         "url": "https://www.ticketnetwork.com/en/p/8361519",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1014,7 +1014,7 @@
         "event_id": "8361522",
         "url": "https://www.ticketnetwork.com/en/p/8361522",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1281,7 +1281,7 @@
         "event_id": "8381438",
         "url": "https://www.ticketnetwork.com/en/p/8381438",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1350,6 +1350,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381019",
+        "url": "https://www.ticketnetwork.com/en/p/8381019",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv167Zk4YjAZAue56a",
@@ -1366,7 +1373,8 @@
         "start": "2026-11-19T21:00:00Z",
         "end": "2027-06-15T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381019"
   },
   {
     "id": "tm-stray-kids-2027-munich-z698xzc2z1kb0z0om",
@@ -1472,6 +1480,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381439",
+        "url": "https://www.ticketnetwork.com/en/p/8381439",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16vP04wpo",
@@ -1480,6 +1495,7 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381439"
   }
 ]

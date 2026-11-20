@@ -1503,7 +1503,7 @@
         "event_id": "8231212",
         "url": "https://www.ticketnetwork.com/en/p/8231212",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1585,7 +1585,7 @@
         "event_id": "8237407",
         "url": "https://www.ticketnetwork.com/en/p/8237407",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2052,7 +2052,7 @@
         "event_id": "8367606",
         "url": "https://www.ticketnetwork.com/en/p/8367606",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2331,6 +2331,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381732",
+        "url": "https://www.ticketnetwork.com/en/p/8381732",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_pGkmxE71M",
@@ -2358,6 +2365,7 @@
         "start": "2026-11-25T18:00:00Z",
         "end": "2027-02-11T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381732"
   }
 ]

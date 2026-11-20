@@ -1405,11 +1405,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8199810",
-        "url": "https://www.ticketnetwork.com/en/p/8199810",
-        "verified": true,
-        "last_verified_at": "2026-11-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8199810",
@@ -1429,7 +1429,7 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_8pRdDbi",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199810",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199810/Steve-Lacy-tickets-Thu-Nov-19-2026-Gallagher-Square-at-Petco-Park",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-san-diego-tickets-11-19-2026/event/107482318",
     "organizer_names": [
@@ -1490,7 +1490,7 @@
         "event_id": "8199811",
         "url": "https://www.ticketnetwork.com/en/p/8199811",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1573,7 +1573,7 @@
         "event_id": "8199812",
         "url": "https://www.ticketnetwork.com/en/p/8199812",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1656,7 +1656,7 @@
         "event_id": "8286236",
         "url": "https://www.ticketnetwork.com/en/p/8286236",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1746,7 +1746,7 @@
         "event_id": "8199813",
         "url": "https://www.ticketnetwork.com/en/p/8199813",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1828,7 +1828,7 @@
         "event_id": "8199816",
         "url": "https://www.ticketnetwork.com/en/p/8199816",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

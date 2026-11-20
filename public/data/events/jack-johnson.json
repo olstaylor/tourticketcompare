@@ -604,11 +604,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8127248",
-        "url": "https://www.ticketliquidator.com/tickets/8127248/Jack-Johnson-tickets-Fri-Nov-20-2026-Spark-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-19",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -621,7 +621,7 @@
     "ticketmaster_discovery_event_id": "1A0ZkowGkdCh7lQ",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8127248/Jack-Johnson-tickets-Fri-Nov-20-2026-Spark-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
@@ -810,7 +810,7 @@
         "event_id": "8353391",
         "url": "https://www.ticketliquidator.com/tickets/8353391/Jack-Johnson-tickets-Sun-Jun-27-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },

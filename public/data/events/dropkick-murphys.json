@@ -1310,7 +1310,7 @@
     "ticketmaster_event_id": "10006539CD99E80F",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
     "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/toronto-canada-rebel-4-2027-03-01-7-pm/concert/18633557",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-toronto-rebel---on-3-1-2027/production/7624318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
     "last_verified_at": "2026-11-07",
@@ -1332,11 +1332,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7624318,
+        "url": "https://www.vividseats.com/dropkick-murphys-tickets-toronto-rebel---on-3-1-2027/production/7624318",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2279,7 +2279,7 @@
         "event_id": 7836216,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-lexington-the-rail-2-23-2027/production/7836216",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {

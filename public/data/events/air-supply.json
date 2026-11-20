@@ -807,7 +807,7 @@
         "event_id": 18355670,
         "url": "https://seatgeek.com/air-supply-tickets/sarasota-florida-van-wezel-performing-arts-hall-2027-01-24-7-pm/concert/18355670",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -858,7 +858,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D00652FD999E602",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-hollywood-florida-01-29-2027/event/0D00652FD999E602",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/hollywood-florida-hard-rock-live-hollywood-2027-01-29-8-pm/concert/18631706",
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-1-29-2027/production/7619872",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-hollywood-florida-01-29-2027/event/0D00652FD999E602",
@@ -874,11 +874,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18631706,
+        "url": "https://seatgeek.com/air-supply-tickets/hollywood-florida-hard-rock-live-hollywood-2027-01-29-8-pm/concert/18631706",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619872,
@@ -1108,7 +1108,7 @@
         "event_id": 18200030,
         "url": "https://seatgeek.com/air-supply-tickets/wisconsin-dells-wisconsin-crystal-grand-music-theatre-2027-02-06-8-pm/concert/18200030",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1400,7 +1400,7 @@
         "event_id": 18646928,
         "url": "https://seatgeek.com/air-supply-tickets/dawson-creek-canada-ovintiv-events-centre-2027-02-22-7-30-pm/concert/18646928",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1508,7 +1508,7 @@
         "event_id": 18753734,
         "url": "https://seatgeek.com/air-supply-tickets/moose-jaw-canada-temple-gardens-centre-2027-02-26-7-pm/concert/18753734",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1996,7 +1996,7 @@
         "event_id": 18646927,
         "url": "https://seatgeek.com/air-supply-tickets/penticton-canada-south-okanagan-events-centre-2027-02-19-6-30-pm/concert/18646927",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2066,7 +2066,7 @@
         "event_id": 18736469,
         "url": "https://seatgeek.com/air-supply-tickets/prince-george-canada-cn-centre-2027-02-21-6-30-pm/concert/18736469",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2222,7 +2222,7 @@
         "event_id": 18753735,
         "url": "https://seatgeek.com/air-supply-tickets/valley-center-california-harrah-s-resort-socal-the-events-center-2027-02-12-8-pm/concert/18753735",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

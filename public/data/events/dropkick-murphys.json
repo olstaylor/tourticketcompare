@@ -30,7 +30,7 @@
         "event_id": 18633525,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/albuquerque-new-mexico-revel-entertainment-center-2027-02-05-7-pm/concert/18633525",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -423,7 +423,7 @@
         "event_id": 18633528,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/vancouver-canada-pne-forum-vancouver-2027-02-12-7-pm/concert/18633528",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -493,7 +493,7 @@
         "event_id": 18633535,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/penticton-canada-penticton-trade-convention-centre-2027-02-13-7-pm/concert/18633535",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -951,7 +951,7 @@
         "event_id": 18633547,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/green-bay-wisconsin-epic-event-center-green-bay-2027-02-21-7-pm/concert/18633547",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1021,7 +1021,7 @@
         "event_id": 18633548,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/fort-wayne-indiana-the-clyde-theatre-fort-wayne-in-2027-02-22-7-pm/concert/18633548",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1667,7 +1667,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000653B0EA63737",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-brooklyn-new-york-03-07-2027/event/0000653B0EA63737",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-07-7-pm/concert/18633567",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-brooklyn-brooklyn-paramount-3-7-2027/production/7624104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-brooklyn-new-york-03-07-2027/event/0000653B0EA63737",
@@ -1683,11 +1683,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633567,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-07-7-pm/concert/18633567",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624104,
@@ -1915,7 +1915,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006533FFA73B59",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-12-2027/event/01006533FFA73B59",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-12-7-pm/concert/18685643",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-mgm-music-hall-at-fenway-3-12-2027--concerts-alternative/production/7696175",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-12-2027/event/01006533FFA73B59",
@@ -1931,11 +1931,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18685643,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-12-7-pm/concert/18685643",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696175,
@@ -2077,7 +2077,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006537BF0F93CE",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-14-2027/event/01006537BF0F93CE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-14-4-pm/concert/18685644",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-mgm-music-hall-at-fenway-3-14-2027--concerts-alternative/production/7696181",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-14-2027/event/01006537BF0F93CE",
@@ -2093,11 +2093,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18685644,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-14-4-pm/concert/18685644",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696181,
@@ -2165,7 +2165,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006539E0BB9980",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-17-2027/event/01006539E0BB9980",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-17-5-pm/concert/18683920",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-citizens-house-of-blues-boston-3-17-2027--concerts-alternative/production/7696183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-17-2027/event/01006539E0BB9980",
@@ -2181,11 +2181,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18683920,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-17-5-pm/concert/18683920",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696183,

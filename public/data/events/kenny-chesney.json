@@ -11,7 +11,7 @@
     "tour_name": "The Original Vibe Room Tour",
     "ticketmaster_event_id": "0D0065289B0D5C6F",
     "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-tampa-florida-04-24-2027/event/0D0065289B0D5C6F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kenny-chesney-tickets/tampa-florida-raymond-james-stadium-2027-04-24-4-30-pm/concert/18591990",
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-tampa-raymond-james-stadium-4-24-2027--concerts-country-and-folk/production/7557268",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-tampa-florida-04-24-2027/event/0D0065289B0D5C6F",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591990,
+        "url": "https://seatgeek.com/kenny-chesney-tickets/tampa-florida-raymond-james-stadium-2027-04-24-4-30-pm/concert/18591990",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557268,

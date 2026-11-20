@@ -874,7 +874,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "190065274189B911",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/josiah-queen-tickets/glendale-arizona-desert-diamond-arena-2027-05-01-7-pm/concert/18574526",
     "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-glendale-desert-diamond-arena-5-1-2027/production/7536958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
@@ -890,11 +890,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18574526,
+        "url": "https://seatgeek.com/josiah-queen-tickets/glendale-arizona-desert-diamond-arena-2027-05-01-7-pm/concert/18574526",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536958,

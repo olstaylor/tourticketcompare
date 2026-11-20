@@ -328,7 +328,7 @@
         "event_id": 18103535,
         "url": "https://seatgeek.com/cristian-castro-tickets/denver-colorado-bellco-theatre-2027-01-29-8-pm/concert/18103535",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -714,7 +714,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "220064538E2F2D7B",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-orlando-florida-03-12-2027/event/220064538E2F2D7B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/orlando-florida-addition-financial-arena-2027-03-12-8-pm/concert/18091250",
     "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-orlando-addition-financial-arena-3-12-2027/production/6708112",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-orlando-florida-03-12-2027/event/220064538E2F2D7B",
@@ -730,11 +730,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18091250,
+        "url": "https://seatgeek.com/cristian-castro-tickets/orlando-florida-addition-financial-arena-2027-03-12-8-pm/concert/18091250",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6708112,
@@ -792,7 +792,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D006455BC6ED1CF",
     "ticketmaster_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-miami-florida-03-13-2027/event/0D006455BC6ED1CF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/cristian-castro-tickets/miami-florida-james-l-knight-center-2027-03-13-8-pm/concert/18091292",
     "vividseats_url": "https://www.vividseats.com/cristian-castro-tickets-miami-james-knight-center-3-13-2027--concerts-latin-music/production/6707164",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cristian-castro-nada-solo-exitos-tour-miami-florida-03-13-2027/event/0D006455BC6ED1CF",
@@ -808,11 +808,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18091292,
+        "url": "https://seatgeek.com/cristian-castro-tickets/miami-florida-james-l-knight-center-2027-03-13-8-pm/concert/18091292",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6707164,

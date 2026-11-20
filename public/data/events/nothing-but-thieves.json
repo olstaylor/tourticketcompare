@@ -1792,7 +1792,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "010064B6AFBE085C",
     "ticketmaster_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-boston-massachusetts-04-19-2027/event/010064B6AFBE085C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-04-19-8-pm/concert/18266365",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-boston-citizens-house-of-blues-boston-4-19-2027/production/7078828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nothing-but-thieves-the-stray-dogs-boston-massachusetts-04-19-2027/event/010064B6AFBE085C",
@@ -1808,11 +1808,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266365,
+        "url": "https://seatgeek.com/nothing-but-thieves-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-04-19-8-pm/concert/18266365",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7078828,
@@ -1873,7 +1873,7 @@
     "tour_name": "The Stray Dogs World Tour",
     "ticketmaster_event_id": "310064B6991A5982",
     "ticketmaster_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-montreal-quebec-04-20-2027/event/310064B6991A5982",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/montreal-canada-mtelus-2027-04-20-8-pm/concert/18266366",
     "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-montreal-mtelus-4-20-2027/production/7078855",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-montreal-quebec-04-20-2027/event/310064B6991A5982",
@@ -1889,11 +1889,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18266366,
+        "url": "https://seatgeek.com/nothing-but-thieves-tickets/montreal-canada-mtelus-2027-04-20-8-pm/concert/18266366",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7078855,

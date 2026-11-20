@@ -1080,7 +1080,7 @@
     "tour_name": "The dumblond Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeeA6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeA6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/haiden-henderson-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-05-01-8-pm/concert/18788933",
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-milwaukee-the-rave-eagles-club-5-1-2027--concerts-pop/production/7593288",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeA6",
@@ -1096,11 +1096,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18788933,
+        "url": "https://seatgeek.com/haiden-henderson-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-05-01-8-pm/concert/18788933",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593288,
@@ -1204,7 +1204,7 @@
     "tour_name": "The dumblond Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAeeFa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeFa",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/haiden-henderson-tickets/salt-lake-city-utah-the-grand-at-the-complex-2027-05-06-8-pm/concert/18814370",
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-salt-lake-city-the-complex---the-grand-5-6-2027--concerts-pop/production/7593326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeFa",
@@ -1220,11 +1220,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18814370,
+        "url": "https://seatgeek.com/haiden-henderson-tickets/salt-lake-city-utah-the-grand-at-the-complex-2027-05-06-8-pm/concert/18814370",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593326,
@@ -1757,7 +1757,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAevq0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/haiden-henderson-tickets/orlando-florida-the-beacham-2027-04-16-7-pm/concert/18759346",
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-orlando-the-beacham-4-16-2027--concerts-pop/production/7593292",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAevq0",
@@ -1773,11 +1773,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18759346,
+        "url": "https://seatgeek.com/haiden-henderson-tickets/orlando-florida-the-beacham-2027-04-16-7-pm/concert/18759346",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593292,

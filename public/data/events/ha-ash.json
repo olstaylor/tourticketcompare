@@ -157,7 +157,7 @@
     "tour_name": "No Me Hablen de Amor Tour",
     "ticketmaster_event_id": "040065319815C1C0",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-rosemont-illinois-04-23-2027/event/040065319815C1C0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ha-ash-tickets/rosemont-illinois-rosemont-theatre-2027-04-23-8-pm/concert/18608866",
     "vividseats_url": "https://www.vividseats.com/haash-tickets-rosemont-rosemont-theatre-4-23-2027/production/7587686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-rosemont-illinois-04-23-2027/event/040065319815C1C0",
@@ -173,11 +173,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608866,
+        "url": "https://seatgeek.com/ha-ash-tickets/rosemont-illinois-rosemont-theatre-2027-04-23-8-pm/concert/18608866",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587686,
@@ -245,7 +245,7 @@
     "tour_name": "No Me Hablen de Amor Tour",
     "ticketmaster_event_id": "1E006532A949D25D",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-denver-colorado-04-25-2027/event/1E006532A949D25D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ha-ash-tickets/denver-colorado-paramount-theatre-co-2027-04-25-8-pm/concert/18608841",
     "vividseats_url": "https://www.vividseats.com/haash-tickets-denver-paramount-theatre-denver-4-25-2027/production/7587495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-denver-colorado-04-25-2027/event/1E006532A949D25D",
@@ -261,11 +261,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608841,
+        "url": "https://seatgeek.com/ha-ash-tickets/denver-colorado-paramount-theatre-co-2027-04-25-8-pm/concert/18608841",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587495,
@@ -334,7 +334,7 @@
     "tour_name": "No Me Hablen de Amor Tour",
     "ticketmaster_event_id": "0F006532BC99C2A6",
     "ticketmaster_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-seattle-washington-04-28-2027/event/0F006532BC99C2A6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/ha-ash-tickets/seattle-washington-paramount-theatre-wa-2027-04-28-8-pm/concert/18608843",
     "vividseats_url": "https://www.vividseats.com/haash-tickets-seattle-paramount-theatre-seattle-4-28-2027/production/7587501",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/haash-no-me-hablen-de-amor-seattle-washington-04-28-2027/event/0F006532BC99C2A6",
@@ -350,11 +350,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18608843,
+        "url": "https://seatgeek.com/ha-ash-tickets/seattle-washington-paramount-theatre-wa-2027-04-28-8-pm/concert/18608843",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587501,

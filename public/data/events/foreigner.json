@@ -206,7 +206,7 @@
         "event_id": 18570609,
         "url": "https://seatgeek.com/foreigner-tickets/pompano-beach-florida-pompano-beach-amphitheater-2027-02-19-8-pm/concert/18570609",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -978,7 +978,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3B0065147CCB21BD",
     "ticketmaster_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-new-york-new-york-04-27-2027/event/3B0065147CCB21BD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/new-york-new-york-beacon-theatre-2027-04-27-8-pm/concert/18550110",
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-new-york-beacon-theatre-4-27-2027/production/7500863",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-new-york-new-york-04-27-2027/event/3B0065147CCB21BD",
@@ -994,11 +994,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18550110,
+        "url": "https://seatgeek.com/foreigner-tickets/new-york-new-york-beacon-theatre-2027-04-27-8-pm/concert/18550110",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7500863,

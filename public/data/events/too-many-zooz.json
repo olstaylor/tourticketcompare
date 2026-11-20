@@ -516,7 +516,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeerF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeerF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/too-many-zooz-tickets/portland-oregon-revolution-hall-portland-2027-05-13-8-pm/concert/18819896",
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-portland-revolution-hall-portland-5-13-2027--concerts-alternative/production/7595300",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeerF",
@@ -532,11 +532,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18819896,
+        "url": "https://seatgeek.com/too-many-zooz-tickets/portland-oregon-revolution-hall-portland-2027-05-13-8-pm/concert/18819896",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7595300,
@@ -976,7 +976,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAee-e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAee-e",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/too-many-zooz-tickets/oklahoma-city-oklahoma-beer-city-music-hall-2027-05-03-8-pm/concert/18830060",
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-oklahoma-city-beer-city-music-hall-5-3-2027--concerts-alternative/production/7596666",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAee-e",
@@ -992,11 +992,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18830060,
+        "url": "https://seatgeek.com/too-many-zooz-tickets/oklahoma-city-oklahoma-beer-city-music-hall-2027-05-03-8-pm/concert/18830060",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7596666,
@@ -1045,7 +1045,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeeP4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeP4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/too-many-zooz-tickets/frisco-colorado-10-mile-music-hall-2027-03-18-8-30-pm/concert/18826503",
     "vividseats_url": "https://www.vividseats.com/too-many-zooz-tickets-frisco-10-mile-music-hall-3-18-2027--concerts-alternative/production/7595556",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeP4",
@@ -1061,11 +1061,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18826503,
+        "url": "https://seatgeek.com/too-many-zooz-tickets/frisco-colorado-10-mile-music-hall-2027-03-18-8-30-pm/concert/18826503",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7595556,

@@ -3097,7 +3097,7 @@
     "tour_name": "Together, Together",
     "ticketmaster_event_id": "0B006528E5B15ED4",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-23-2027/event/0B006528E5B15ED4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/harry-styles-tickets/pasadena-california-rose-bowl-stadium-2027-04-23-7-45-pm/concert/18579675",
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-23-2027--concerts-pop/production/7539880",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-23-2027/event/0B006528E5B15ED4",
@@ -3113,11 +3113,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579675,
+        "url": "https://seatgeek.com/harry-styles-tickets/pasadena-california-rose-bowl-stadium-2027-04-23-7-45-pm/concert/18579675",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539880,
@@ -3179,7 +3179,7 @@
     "tour_name": "Together, Together",
     "ticketmaster_event_id": "0B006528E9AB6118",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-24-2027/event/0B006528E9AB6118",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/harry-styles-tickets/pasadena-california-rose-bowl-stadium-2027-04-24-7-45-pm/concert/18579674",
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-24-2027--concerts-pop/production/7539882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-24-2027/event/0B006528E9AB6118",
@@ -3195,11 +3195,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579674,
+        "url": "https://seatgeek.com/harry-styles-tickets/pasadena-california-rose-bowl-stadium-2027-04-24-7-45-pm/concert/18579674",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7539882,
@@ -4464,7 +4464,7 @@
     "tour_name": "Together, Together",
     "ticketmaster_event_id": "0B00652EB5754AEC",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-30-2027/event/0B00652EB5754AEC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/harry-styles-tickets/pasadena-california-rose-bowl-stadium-2027-04-30-7-30-pm/concert/18592702",
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-4-30-2027/production/7559045",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-04-30-2027/event/0B00652EB5754AEC",
@@ -4480,11 +4480,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592702,
+        "url": "https://seatgeek.com/harry-styles-tickets/pasadena-california-rose-bowl-stadium-2027-04-30-7-30-pm/concert/18592702",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559045,
@@ -4546,7 +4546,7 @@
     "tour_name": "Together, Together",
     "ticketmaster_event_id": "0B00652EB5864AF8",
     "ticketmaster_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-05-01-2027/event/0B00652EB5864AF8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/harry-styles-tickets/pasadena-california-rose-bowl-stadium-2027-05-01-7-30-pm/concert/18592701",
     "vividseats_url": "https://www.vividseats.com/harry-styles-tickets-pasadena-rose-bowl-stadium-5-1-2027/production/7559041",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/harry-styles-together-together-pasadena-california-05-01-2027/event/0B00652EB5864AF8",
@@ -4562,11 +4562,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18592701,
+        "url": "https://seatgeek.com/harry-styles-tickets/pasadena-california-rose-bowl-stadium-2027-05-01-7-30-pm/concert/18592701",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7559041,

@@ -774,7 +774,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "020064BCC422349F",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
-    "seatgeek_url": "https://seatgeek.com/motionless-in-white-tickets/newark-new-jersey-prudential-center-2026-11-19-6-30-pm/concert/18281913",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-newark-prudential-center-11-19-2026/production/7108780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
@@ -790,11 +790,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18281913,
-        "url": "https://seatgeek.com/motionless-in-white-tickets/newark-new-jersey-prudential-center-2026-11-19-6-30-pm/concert/18281913",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7108780,
@@ -882,7 +882,7 @@
         "event_id": 18281916,
         "url": "https://seatgeek.com/motionless-in-white-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-20-6-30-pm/concert/18281916",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {

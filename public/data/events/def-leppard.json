@@ -1179,7 +1179,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A00654299C4A3DB",
     "ticketmaster_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-austin-texas-04-13-2027/event/3A00654299C4A3DB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/def-leppard-tickets/austin-texas-moody-center-atx-2027-04-13-7-pm/concert/18662399",
     "vividseats_url": "https://www.vividseats.com/def-leppard-tickets-austin-moody-center-atx-4-13-2027--concerts-rock/production/7671942",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/def-leppard-and-goo-goo-dolls-austin-texas-04-13-2027/event/3A00654299C4A3DB",
@@ -1195,11 +1195,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18662399,
+        "url": "https://seatgeek.com/def-leppard-tickets/austin-texas-moody-center-atx-2027-04-13-7-pm/concert/18662399",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7671942,

@@ -80,7 +80,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAe7_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAe7_",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/easton-maryland-avalon-theatre-2026-12-04-8-pm/concert/18762366",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAe7_",
@@ -96,11 +96,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18762366,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/easton-maryland-avalon-theatre-2026-12-04-8-pm/concert/18762366",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -133,7 +133,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk__",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk__",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/rutland-vermont-paramount-theatre-vt-2027-01-14-7-30-pm/concert/18755494",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk__",
@@ -149,11 +149,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755494,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/rutland-vermont-paramount-theatre-vt-2027-01-14-7-30-pm/concert/18755494",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -332,7 +332,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_O",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/new-haven-connecticut-college-street-music-hall-2027-01-17-7-pm/concert/18755495",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_O",
@@ -348,11 +348,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755495,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/new-haven-connecticut-college-street-music-hall-2027-01-17-7-pm/concert/18755495",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -547,7 +547,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/rome-new-york-rome-capitol-theatre-2027-01-22-7-30-pm/concert/18755506",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_-",
@@ -563,11 +563,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755506,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/rome-new-york-rome-capitol-theatre-2027-01-22-7-30-pm/concert/18755506",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -693,7 +693,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_x",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_x",
-    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/patchogue-new-york-patchogue-theatre-for-the-performing-arts-2027-01-24-7-pm/concert/18755508",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_x",
@@ -713,7 +713,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -778,11 +778,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755509,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/hershey-pennsylvania-hershey-theatre-hershey-2027-01-27-7-30-pm/concert/18755509",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -847,11 +847,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755510,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/wilkes-barre-pennsylvania-f-m-kirby-center-2027-01-28-7-30-pm/concert/18755510",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -900,11 +900,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755511,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/bensalem-pennsylvania-xcite-center-at-parx-casino-2027-01-29-7-30-pm/concert/18755511",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -969,11 +969,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755517,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/washington-district-of-columbia-the-anthem-dc-2027-01-30-7-30-pm/concert/18755517",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1046,11 +1046,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755519,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/cleveland-ohio-globe-iron-2027-01-31-7-30-pm/concert/18755519",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1115,11 +1115,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755520,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/lexington-kentucky-the-rail-3-2027-02-03-8-pm/concert/18755520",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1245,11 +1245,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755524,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-02-05-8-pm/concert/18755524",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1314,11 +1314,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755525,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/cincinnati-ohio-taft-theatre-2027-02-06-8-pm/concert/18755525",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1375,7 +1375,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA64J",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64J",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/grand-rapids-michigan-the-intersection-2027-02-09-7-30-pm/concert/18755527",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64J",
@@ -1391,11 +1391,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755527,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/grand-rapids-michigan-the-intersection-2027-02-09-7-30-pm/concert/18755527",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1444,7 +1444,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_P",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_P",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/davenport-iowa-capitol-theatre-davenport-2027-02-10-7-30-pm/concert/18755529",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_P",
@@ -1460,11 +1460,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755529,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/davenport-iowa-capitol-theatre-davenport-2027-02-10-7-30-pm/concert/18755529",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1513,7 +1513,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_J",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_J",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_J",
@@ -1529,11 +1529,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755534,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/milwaukee-wisconsin-pabst-theater-2027-02-11-7-30-pm/concert/18755534",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1728,7 +1728,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_I",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_I",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/kansas-city-missouri-the-truman-2027-02-25-8-pm/concert/18755537",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_I",
@@ -1744,11 +1744,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755537,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/kansas-city-missouri-the-truman-2027-02-25-8-pm/concert/18755537",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1797,7 +1797,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_t",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/omaha-nebraska-slowdown-2027-02-26-7-30-pm/concert/18755538",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_t",
@@ -1813,11 +1813,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755538,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/omaha-nebraska-slowdown-2027-02-26-7-30-pm/concert/18755538",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1943,7 +1943,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_Y",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/aspen-colorado-belly-up-aspen-2027-03-01-7-30-pm/concert/18755545",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_Y",
@@ -1959,11 +1959,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755545,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/aspen-colorado-belly-up-aspen-2027-03-01-7-30-pm/concert/18755545",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2012,7 +2012,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_s",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_s",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/santa-fe-new-mexico-lensic-performing-arts-center-2027-03-02-7-30-pm/concert/18755547",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_s",
@@ -2028,11 +2028,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755547,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/santa-fe-new-mexico-lensic-performing-arts-center-2027-03-02-7-30-pm/concert/18755547",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2142,7 +2142,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14429464",
     "ticketmaster_url": "https://www.ticketweb.com/event/grace-potter-the-trespassers-the-sound-tickets/14429464",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/del-mar-california-the-sound-del-mar-2027-03-05-8-pm/concert/18755549",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/grace-potter-the-trespassers-the-sound-tickets/14429464",
@@ -2158,11 +2158,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755549,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/del-mar-california-the-sound-del-mar-2027-03-05-8-pm/concert/18755549",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2357,7 +2357,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_w",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_w",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/claremont-california-bridges-auditorium-2027-03-09-7-pm/concert/18755558",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_w",
@@ -2373,11 +2373,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755558,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/claremont-california-bridges-auditorium-2027-03-09-7-pm/concert/18755558",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2410,7 +2410,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA64E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/monterey-california-golden-state-theatre-2027-03-10-7-30-pm/concert/18755559",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64E",
@@ -2426,11 +2426,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755559,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/monterey-california-golden-state-theatre-2027-03-10-7-30-pm/concert/18755559",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2686,7 +2686,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_S",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/boise-idaho-treefort-music-hall-2027-03-16-7-30-pm/concert/18755570",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_S",
@@ -2702,11 +2702,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755570,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/boise-idaho-treefort-music-hall-2027-03-16-7-30-pm/concert/18755570",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2739,7 +2739,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_V",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/jackson-wyoming-jackson-hole-center-for-the-arts-2-2027-03-17-7-30-pm/concert/18755571",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_V",
@@ -2755,11 +2755,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755571,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/jackson-wyoming-jackson-hole-center-for-the-arts-2-2027-03-17-7-30-pm/concert/18755571",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2792,7 +2792,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_g",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_g",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-19-7-30-pm/concert/18755572",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_g",
@@ -2808,11 +2808,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755572,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-19-7-30-pm/concert/18755572",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3068,7 +3068,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA64t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64t",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/medford-oregon-holly-theatre-2027-03-24-7-30-pm/concert/18755582",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64t",
@@ -3084,11 +3084,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755582,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/medford-oregon-holly-theatre-2027-03-24-7-30-pm/concert/18755582",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3137,7 +3137,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA64Y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64Y",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/eugene-oregon-mcdonald-theatre-2027-03-25-7-30-pm/concert/18755583",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64Y",
@@ -3153,11 +3153,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755583,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/eugene-oregon-mcdonald-theatre-2027-03-25-7-30-pm/concert/18755583",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3206,7 +3206,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA64s",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64s",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-03-26-7-30-pm/concert/18755584",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA64s",
@@ -3222,11 +3222,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755584,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-03-26-7-30-pm/concert/18755584",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -3275,7 +3275,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAk_U",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_U",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/seattle-washington-the-showbox-2027-03-27-8-pm/concert/18755585",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAk_U",
@@ -3291,11 +3291,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755585,
+        "url": "https://seatgeek.com/grace-potter-the-nocturnals-tickets/seattle-washington-the-showbox-2027-03-27-8-pm/concert/18755585",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

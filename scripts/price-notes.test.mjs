@@ -299,8 +299,13 @@ for (const pathname of [`/cities/${CITY_SLUG}`, `/venues/${VENUE_SLUG}`, `/artis
   assert(text(html).includes("Public on-sale Aug 20, 2026"), `${pathname}: it still states the on-sale time`);
 
   const lastSeen = card(html, LAST_SEEN.id);
+  // The note lists figures in button order, which follows the date's seller-order arm (2026-11-20 test).
+  const lastSeenArm = /data-cta-order-arm="([^"]+)"/.exec(lastSeen)?.[1];
+  const lastSeenExpected = lastSeenArm === "reverse"
+    ? "Last seen USD 62 at Vivid Seats on 6 Aug and USD 58 at TicketNetwork on 5 Aug."
+    : "Last seen USD 58 at TicketNetwork on 5 Aug and USD 62 at Vivid Seats on 6 Aug.";
   assert(
-    text(lastSeen).includes("Last seen USD 58 at TicketNetwork on 5 Aug and USD 62 at Vivid Seats on 6 Aug. Not checked since, so it may have changed."),
+    text(lastSeen).includes(`${lastSeenExpected} Not checked since, so it may have changed.`),
     `${pathname}: an expired snapshot under 7 days old is shown dated, per site, in button order — got: ${text(lastSeen).slice(-260)}`
   );
   assert(!/provider-cta-priced/.test(lastSeen) && !/From USD/.test(text(lastSeen)), `${pathname}: a last-seen figure is never a button price`);

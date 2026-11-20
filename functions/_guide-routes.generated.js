@@ -23,13 +23,13 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-10-26"
   },
   "/guides/vivid-seats-vs-ticketmaster": {
-    title: "Vivid Seats vs Ticketmaster: Which Is Better?",
+    title: "Vivid Seats vs Ticketmaster 2026: Fees and Which Is Better",
     h1: "Vivid Seats vs Ticketmaster: Which Is Better?",
     description: "Is Vivid Seats cheaper than Ticketmaster? Not for every show: Ticketmaster mostly sells face-value tickets, Vivid Seats resale. Fees, delivery and protection.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","vivid-seats"],
     datePublished: "2026-08-20",
-    lastmod: "2026-11-16"
+    lastmod: "2026-11-20"
   },
   "/guides/ticketmaster-vs-seatgeek-vs-vivid-seats": {
     title: "Ticketmaster vs SeatGeek vs Vivid Seats: The Difference",
@@ -41,13 +41,13 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-11-16"
   },
   "/guides/seatgeek-vs-ticketmaster": {
-    title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
+    title: "SeatGeek vs Ticketmaster 2026: Fees and Prices Compared",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     description: "Is SeatGeek cheaper than Ticketmaster? Not for every show: Ticketmaster mostly sells face-value tickets, SeatGeek resale. Fees, delivery, protection compared.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-07-13",
-    lastmod: "2026-11-16"
+    lastmod: "2026-11-20"
   },
   "/guides/ticketnetwork-vs-ticketmaster": {
     title: "TicketNetwork vs Ticketmaster: Which Should You Use?",
@@ -198,13 +198,13 @@ export const GUIDE_ROUTES = {
     lastmod: "2026-10-26"
   },
   "/guides/is-seatgeek-legit": {
-    title: "Is SeatGeek Legit? Yes, and What Its Buyer Protection Covers",
+    title: "Is SeatGeek Legit? Buyer Protection Explained (2026)",
     h1: "Is SeatGeek legit, and are its tickets real?",
     description: "Yes, SeatGeek is a legitimate ticketing company: primary seller for some venues, resale marketplace for the rest. What its buyer protection covers and excludes.",
     fullContent: true,
     comparisonProviders: ["ticketmaster","seatgeek"],
     datePublished: "2026-09-25",
-    lastmod: "2026-11-02"
+    lastmod: "2026-11-20"
   },
   "/guides/is-ticket-liquidator-legit": {
     title: "Is Ticket Liquidator Legit? Guarantee and Refunds",

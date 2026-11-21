@@ -1671,7 +1671,7 @@
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-los-angeles-hollywood-palladium-12-18-2026--concerts-hard-rock/production/7052895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-hollywood-california-12-18-2026/event/090064AB1333BE7A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1731,13 +1731,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980240",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980240/Beartooth-tickets-Fri-Dec-18-2026-Hollywood-Palladium",
     "stubhub_international_url": "https://www.stubhub.ie/beartooth-hollywood-tickets-12-18-2026/event/107417486",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-11-21T06:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

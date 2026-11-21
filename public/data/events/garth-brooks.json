@@ -1465,7 +1465,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-north-little-rock-simmons-bank-arena-2-5-2027--concerts-country-and-folk/production/7851801",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-05-2027/event/1B00656AD1B1F783",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1514,8 +1514,7 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_ploiLrd",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -1540,7 +1539,7 @@
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-north-little-rock-simmons-bank-arena-2-6-2027--concerts-country-and-folk/production/7851803",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-north-little-rock-arkansas-02-06-2027/event/1B00656AD3F7FA4B",
-    "last_verified_at": "2026-11-12",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1589,8 +1588,7 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_plKWTt5",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],

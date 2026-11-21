@@ -1554,7 +1554,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1589,7 +1589,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAAPU",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-stray-kids-2027-baltimore-z7r9jz1aaaapm",
@@ -1607,7 +1610,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1642,6 +1645,9 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAAPM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   }
 ]

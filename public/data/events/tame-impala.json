@@ -2016,7 +2016,7 @@
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-10-2027--concerts-rock/production/7861779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-10-2027/event/20006566BE954886",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2065,8 +2065,7 @@
     },
     "ticketmaster_discovery_event_id": "1AOZk4JGkeXPfxk",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367606",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367606/Tame-Impala-tickets-Wed-Feb-10-2027-BOK-Center",
     "organizer_names": [
@@ -2168,7 +2167,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-28-02-2027/event/1400656ABB4AF342",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2210,8 +2209,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av8Z_pGknD3Rue",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],
@@ -2234,7 +2232,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-01-03-2027/event/1400656AC19817A9",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2276,8 +2274,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av8Z_pGklvJvrt",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],

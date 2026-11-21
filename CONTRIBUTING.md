@@ -138,7 +138,7 @@ entry for the old path. Authoring reference: [docs/BLOG.md](docs/BLOG.md).
 
 Match the lane to what you changed rather than reaching for the full suite.
 The short timings below are historical estimates, not budgets: full-site render
-audits grow with the dataset, and a full run can take 20+ minutes. CI runs
+audits grow with the dataset and a full run is slow locally. The three site-crawl audits (internal links, indexable surface, metadata accuracy) share one per-run render cache (`ROUTE_RENDER_CACHE_DIR`, filled by `scripts/prewarm-route-cache.mjs`, created and removed by `run-test-lane.mjs`), so each route is rendered once per run; a cache miss just renders live. The prewarm records one clock (`_clock` in the cache directory) and the audits pin `Date.now` to it, so cached pages and the audits agree on which shows have started. CI runs
 `test:mvp` on every PR anyway, so a local run exists to catch a failure early,
 not to duplicate CI. Follow the proportional-validation rules in
 [CLAUDE.md](CLAUDE.md#validation).
@@ -150,7 +150,7 @@ not to duplicate CI. Follow the proportional-validation rules in
 | `npm run test:routes` | ~20s | touched routing, route metadata or internal links |
 | `npm run test:quick` | ~60s | touched several areas, or unsure |
 | `npm run test:units` | ~20s | changed a script that has a `*:self-test` |
-| `npm run test:mvp` | variable; 20+ minutes possible | optional locally; CI runs it on every PR and `main` requires it before merge |
+| `npm run test:mvp` | variable; slow locally | optional locally; CI runs it on every PR and `main` requires it before merge |
 
 For verified event/provider data only, run production event validation,
 partition validation, `test:providers`, and a field/file scope guard, then rely

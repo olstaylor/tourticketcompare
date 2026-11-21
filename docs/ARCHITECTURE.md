@@ -42,7 +42,7 @@ functions/
   _artist-cities.js          Artist-city aggregation for /artists/<artist>/tickets/<city>
   _price-guides.js           Artist price-guide registry, derivation and launch detection (/artists/<artist>/ticket-prices)
   _event-price-moves.js      Latest recorded per-date, per-provider price move; 7-day change for dates ≤ 14 days out
-  _price-outliers.js         Isolated-spike rule shared by every recorded-price claim
+  _price-outliers.js         Isolated-spike rule shared by every recorded-price claim, plus the StubHub International US/Canada placeholder-price rule
   _route-indexability.js     Shared route-usefulness thresholds, publishability test, reasons
   _event-local-date.js       Strict venue-local date/instant resolver (runtime + provider matchers)
   _event-pages.js            Event identity, stable keys, /events/* routing and event-page schema decision

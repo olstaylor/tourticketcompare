@@ -3122,7 +3122,7 @@ function renderArtistTourSummariesHtml(tours, artist) {
     .join("");
   return `<section class="nested-panel"><h2>${escapeHtml(
     artist.name
-  )} tours and dates</h2><p>Ticket links are on each date above.</p><div class="card-grid">${cards}</div></section>`;
+  )} tours and dates</h2><div class="card-grid">${cards}</div></section>`;
 }
 
 // The artist page's board + derived content, computed once per request. The
@@ -3746,7 +3746,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   const summary = ticketOptions && rows.length === 1
     ? (showPrices ? "Prices are as of the time shown. Compare seats, fees and delivery on each ticket site before you pay." : "")
     : ticketOptions
-    ? `Pick a date to see its checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}. ${showPrices ? 'Prices are as of the times shown, and "sites priced" is how many sites had a price for that date. ' : ""}Compare seats, fees and delivery on each ticket site before you pay.`
+    ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ' Prices are as of the time shown, and "sites priced" counts the sites with a price for that date.' : ""}`
     : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Seats, quantities and fees can differ between sites. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
@@ -4841,13 +4841,24 @@ function renderComparisonHubCityLinks(events = []) {
 }
 
 export function renderComparisonHubEventCards(events = [], env = {}, now = null) {
-  const shows = publishableFutureShows(events, 6, now);
-  if (!shows.length) return "";
   const seatGeekAvailable = isSeatGeekConfigured(env);
   const vividSeatsAvailable = isVividSeatsConfigured(env);
   const marketplaceAvailability = Object.fromEntries(
     IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
   );
+  // Lead with dates where two or more sellers list a fresh approved price in
+  // one currency (a real comparison), then fill with the soonest other dates.
+  // Date order is kept inside each group; sellers are never reordered.
+  const pool = publishableFutureShows(events, 60, now);
+  const isComparable = (show) => {
+    const priced = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }).filter(
+      (spec) => spec.priceAmount && spec.priceAsOf
+    );
+    return priced.length >= 2 && new Set(priced.map((spec) => spec.lane.currency)).size === 1;
+  };
+  const comparable = pool.filter(isComparable);
+  const shows = [...comparable, ...pool.filter((show) => !comparable.includes(show))].slice(0, 6);
+  if (!shows.length) return "";
   // The same date card as artist, city and venue boards (2026-09-24): this
   // section's older card had no date badge, so the shared two-column card grid
   // squeezed its title into the badge column. CTA clicks keep their
@@ -8359,17 +8370,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       : isIndexableArtist
         ? splitHtml(aboutDiv, true)
         : "";
-    const usefulLinksHtml = shows.length
-      ? `<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
-          "Compare concert ticket prices",
-          "/compare-concert-ticket-prices",
-          "mini-link"
-        )}${anchor("All artists", "/artists", "mini-link")}${anchor("Ticket buying guides", "/guides", "mini-link")}${anchor(
-          "How it works",
-          "/how-it-works",
-          "mini-link"
-        )}${anchor("Affiliate disclosure", "/affiliate-disclosure", "mini-link")}</div></section>`
-      : "";
+    const usefulLinksHtml = "";
     const faqHtml = shows.length
       ? `<section class="nested-panel faq-panel" data-artist-faq><h2>${escapeHtml(
           artist.name

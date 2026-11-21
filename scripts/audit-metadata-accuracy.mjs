@@ -27,6 +27,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { loadSiteFixture, crawlRoutes } from "./lib/route-crawl.mjs";
+import { sharedClock } from "./lib/render-cache.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const args = new Set(process.argv.slice(2));
@@ -37,7 +38,7 @@ const JSON_OUT = args.has("--json");
 // Keep the renderer and every expected record on the same clock: a show that
 // starts during the crawl must not disappear from the rendered counts alone
 // (Impact provider sync #307 failed across the 01:00 UTC show starts).
-const now = Date.now();
+const now = sharedClock();
 Date.now = () => now;
 
 const fixture = await loadSiteFixture(ROOT);

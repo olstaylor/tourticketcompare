@@ -905,5 +905,111 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373887",
     "stubhub_international_url": "https://www.stubhub.ie/intocable-sacramento-tickets-8-28-2027/event/107683516"
+  },
+  {
+    "id": "tm-intocable-2027-nashville-z7r9jz1aaak0d",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2027-02-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAK0d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAK0d",
+        "discovery_event_id": "Z7r9jZ1AAAK0d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAK0d",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-intocable-2027-indio-z7r9jz1aaak07",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable (Minors (ages 5-17) must be accompanied with an adult)",
+    "city": "Indio",
+    "country": "United States Of America",
+    "venue": "Fantasy Springs Resort Casino",
+    "datetime_iso": "2027-03-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAK07",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAK07",
+        "discovery_event_id": "Z7r9jZ1AAAK07",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAK07",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

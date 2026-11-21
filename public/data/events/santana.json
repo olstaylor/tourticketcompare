@@ -3304,5 +3304,164 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375863",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375863/Santana-tickets-Sat-Apr-10-2027-Hard-Rock-Live-At-Etess-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/santana-atlantic-city-tickets-4-10-2027/event/107682881"
+  },
+  {
+    "id": "tm-santana-2027-highland-z7r9jz1aaa4kf",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-02-24T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4kF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4kF",
+        "discovery_event_id": "Z7r9jZ1AAA4kF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4kF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-hanover-z7r9jz1aaa4k8",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana (21+ Event)",
+    "city": "Hanover",
+    "country": "United States Of America",
+    "venue": "The Hall at Live!",
+    "datetime_iso": "2027-03-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4k8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4k8",
+        "discovery_event_id": "Z7r9jZ1AAA4k8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4k8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-lancaster-z7r9jz1aaa4ak",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana",
+    "city": "Lancaster",
+    "country": "United States Of America",
+    "venue": "American Music Theatre",
+    "datetime_iso": "2027-04-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4aK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4aK",
+        "discovery_event_id": "Z7r9jZ1AAA4aK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4aK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

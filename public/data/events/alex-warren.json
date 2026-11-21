@@ -2738,5 +2738,164 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369875/Alex-Warren-tickets-Sun-May-16-2027-Coca-Cola-Amphitheater-at-the-BJCC",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369875"
+  },
+  {
+    "id": "tm-alex-warren-2027-des-moines-z7r9jz1aaaoat",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Casey's Center",
+    "datetime_iso": "2027-04-21T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAoat",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAoat",
+        "discovery_event_id": "Z7r9jZ1AAAoat",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoat",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-madison-z7r9jz1aaaoaw",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Kohl Center",
+    "datetime_iso": "2027-04-26T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAoaw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAoaw",
+        "discovery_event_id": "Z7r9jZ1AAAoaw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoaw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-rho-zg9rmiynyzae7k",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "ALEX WARREN",
+    "city": "Rho",
+    "country": "Italy",
+    "venue": "Fiera Milano Live",
+    "datetime_iso": "2027-07-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1vakzvg8pe0m",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/alex-warren-rho-11-07-2027/event/1vakzvg8pe0m",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/alex-warren-rho-11-07-2027/event/1vakzvg8pe0m",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1vakzvg8pe0m",
+        "discovery_event_id": "ZG9rmIYnyZae7k",
+        "url": "https://www.ticketmaster.it/biglietti/alex-warren-rho-11-07-2027/event/1vakzvg8pe0m",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZae7k",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
   }
 ]

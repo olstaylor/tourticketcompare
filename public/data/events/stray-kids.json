@@ -1537,5 +1537,111 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381439",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381439/Stray-Kids-tickets-Wed-Jul-28-2027-Gelredome",
     "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-arnhem-gelredome-28-7-2027/event/107682916"
+  },
+  {
+    "id": "tm-stray-kids-2027-arlington-z7r9jz1aaaapu",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT ARLINGTON]",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-06-04T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAAPU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAAPU",
+        "discovery_event_id": "Z7r9jZ1AAAAPU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAAPU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stray-kids-2027-baltimore-z7r9jz1aaaapm",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT BALTIMORE]",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "M&T Bank Stadium",
+    "datetime_iso": "2027-06-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAAPM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAAPM",
+        "discovery_event_id": "Z7r9jZ1AAAAPM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAAPM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

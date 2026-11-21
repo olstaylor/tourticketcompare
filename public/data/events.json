@@ -432101,5 +432101,1648 @@
     "genre": "Country",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362343",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362343/Hannah-Harper-tickets-Sun-Mar-7-2027-Carpenter-Theatre-At-Dominion-Energy-Center"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-athens-z7r9jz1aaa8ay",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Hardy",
+    "city": "Athens",
+    "country": "United States Of America",
+    "venue": "Sanford Stadium",
+    "datetime_iso": "2027-07-16T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8AY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8AY",
+        "discovery_event_id": "Z7r9jZ1AAA8AY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8AY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-athens-z7r9jz1aaa8ke",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Brooks and Dunn",
+    "city": "Athens",
+    "country": "United States Of America",
+    "venue": "Sanford Stadium",
+    "datetime_iso": "2027-07-17T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8ke",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8ke",
+        "discovery_event_id": "Z7r9jZ1AAA8ke",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8ke",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-highland-z7r9jz1aaa4kf",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana - 21+",
+    "city": "Highland",
+    "country": "United States Of America",
+    "venue": "Yaamava Theater",
+    "datetime_iso": "2027-02-24T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4kF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4kF",
+        "discovery_event_id": "Z7r9jZ1AAA4kF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4kF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-hanover-z7r9jz1aaa4k8",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana (21+ Event)",
+    "city": "Hanover",
+    "country": "United States Of America",
+    "venue": "The Hall at Live!",
+    "datetime_iso": "2027-03-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4k8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4k8",
+        "discovery_event_id": "Z7r9jZ1AAA4k8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4k8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-santana-2027-lancaster-z7r9jz1aaa4ak",
+    "artist_slug": "santana",
+    "artist_name": "Santana",
+    "event_name": "Santana",
+    "city": "Lancaster",
+    "country": "United States Of America",
+    "venue": "American Music Theatre",
+    "datetime_iso": "2027-04-08T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4aK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4aK",
+        "discovery_event_id": "Z7r9jZ1AAA4aK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4aK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stray-kids-2027-arlington-z7r9jz1aaaapu",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT ARLINGTON]",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-06-04T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAAPU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAAPU",
+        "discovery_event_id": "Z7r9jZ1AAAAPU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAAPU",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-stray-kids-2027-baltimore-z7r9jz1aaaapm",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT BALTIMORE]",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "M&T Bank Stadium",
+    "datetime_iso": "2027-06-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAAPM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAAPM",
+        "discovery_event_id": "Z7r9jZ1AAAAPM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAAPM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-morrison-z7r9jz1aaa3_o",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-27T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA3_O",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_O",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_O",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA3_O",
+        "discovery_event_id": "Z7r9jZ1AAA3_O",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_O",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA3_O",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-nampa-z7r9jz1aaa3_-",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Nampa",
+    "country": "United States Of America",
+    "venue": "Ford Idaho Center Arena",
+    "datetime_iso": "2027-09-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA3_-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA3_-",
+        "discovery_event_id": "Z7r9jZ1AAA3_-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA3_-",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-missoula-z7r9jz1aaa3_n",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Missoula",
+    "country": "United States Of America",
+    "venue": "Adams Event Center",
+    "datetime_iso": "2027-09-30T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA3_N",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_N",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_N",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA3_N",
+        "discovery_event_id": "Z7r9jZ1AAA3_N",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_N",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA3_N",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-megadeth-2027-spokane-z7r9jz1aaa3_0",
+    "artist_slug": "megadeth",
+    "artist_name": "Megadeth",
+    "event_name": "Megadeth: Vaccination Of The Nations Tour",
+    "city": "Spokane",
+    "country": "United States Of America",
+    "venue": "Numerica Veterans Arena",
+    "datetime_iso": "2027-10-01T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA3_0",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_0",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA3_0",
+        "discovery_event_id": "Z7r9jZ1AAA3_0",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA3_0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-des-moines-z7r9jz1aaaoat",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Des Moines",
+    "country": "United States Of America",
+    "venue": "Casey's Center",
+    "datetime_iso": "2027-04-21T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAoat",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAoat",
+        "discovery_event_id": "Z7r9jZ1AAAoat",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoat",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-madison-z7r9jz1aaaoaw",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "Alex Warren - Finding (More) Family On The Road",
+    "city": "Madison",
+    "country": "United States Of America",
+    "venue": "Kohl Center",
+    "datetime_iso": "2027-04-26T00:45:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAoaw",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAoaw",
+        "discovery_event_id": "Z7r9jZ1AAAoaw",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoaw",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-alex-warren-2027-rho-zg9rmiynyzae7k",
+    "artist_slug": "alex-warren",
+    "artist_name": "Alex Warren",
+    "event_name": "ALEX WARREN",
+    "city": "Rho",
+    "country": "Italy",
+    "venue": "Fiera Milano Live",
+    "datetime_iso": "2027-07-11T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1vakzvg8pe0m",
+    "ticketmaster_url": "https://www.ticketmaster.it/biglietti/alex-warren-rho-11-07-2027/event/1vakzvg8pe0m",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.it/biglietti/alex-warren-rho-11-07-2027/event/1vakzvg8pe0m",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1vakzvg8pe0m",
+        "discovery_event_id": "ZG9rmIYnyZae7k",
+        "url": "https://www.ticketmaster.it/biglietti/alex-warren-rho-11-07-2027/event/1vakzvg8pe0m",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "ZG9rmIYnyZae7k",
+    "timezone": "Europe/Rome",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-remi-wolf-2027-phoenix-1av0z_pgkubifhc",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf - The Mud Tour With Special Guest Annabelle Dinda",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-05-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900656D98B146CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-04-2027/event/1900656D98B146CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-04-2027/event/1900656D98B146CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656D98B146CE",
+        "discovery_event_id": "1Av0Z_pGkUbifhC",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-04-2027/event/1900656D98B146CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkUbifhC",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-foreigner-2027-clearwater-z7r9jz1aaez8o",
+    "artist_slug": "foreigner",
+    "artist_name": "Foreigner",
+    "event_name": "Foreigner",
+    "city": "Clearwater",
+    "country": "United States Of America",
+    "venue": "Ruth Eckerd Hall",
+    "datetime_iso": "2027-02-17T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAeZ8O",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8O",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8O",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAeZ8O",
+        "discovery_event_id": "Z7r9jZ1AAeZ8O",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8O",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ8O",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-johnson-2027-albany-k7vgf_p30ueon",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "MVP Arena",
+    "datetime_iso": "2027-03-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006564A4DA782A",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-12-2027/event/00006564A4DA782A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-12-2027/event/00006564A4DA782A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006564A4DA782A",
+        "discovery_event_id": "k7vGF_p30UEOn",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-12-2027/event/00006564A4DA782A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_p30UEOn",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-johnson-2027-kansas-city-z7r9jz1aaaf8f",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-04-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAf8f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAf8f",
+        "discovery_event_id": "Z7r9jZ1AAAf8f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf8f",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-charlottesville-z7r9jz1aaa-pv",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney???Hanging By A Heartstring Tour",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Paramount Theater - VA",
+    "datetime_iso": "2027-04-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA-pv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-pv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-pv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA-pv",
+        "discovery_event_id": "Z7r9jZ1AAA-pv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-pv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA-pv",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-pelham-z7r9jz1aaa_at",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Pelham",
+    "country": "United States Of America",
+    "venue": "The Caverns",
+    "datetime_iso": "2027-11-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_at",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_at",
+        "discovery_event_id": "Z7r9jZ1AAA_at",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_at",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-sunrise-z7r9jz1aaa4-e",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2027-07-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4-e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4-e",
+        "discovery_event_id": "Z7r9jZ1AAA4-e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4-e",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-los-angeles-z7r9jz1aaaf4w",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-07-31T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAf4w",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAf4w",
+        "discovery_event_id": "Z7r9jZ1AAAf4w",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf4w",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-los-angeles-z7r9jz1aaaf4v",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-07-31T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAf4V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAf4V",
+        "discovery_event_id": "Z7r9jZ1AAAf4V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf4V",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-las-vegas-z7r9jz1aaa_kp",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2027-08-07T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_kp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_kp",
+        "discovery_event_id": "Z7r9jZ1AAA_kp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_kp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-oakland-z7r9jz1aaa_ff",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-08-11T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_FF",
+        "discovery_event_id": "Z7r9jZ1AAA_FF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_FF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-oakland-z7r9jz1aaa_fa",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-08-12T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_Fa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_Fa",
+        "discovery_event_id": "Z7r9jZ1AAA_Fa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_Fa",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-intocable-2027-nashville-z7r9jz1aaak0d",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2027-02-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAK0d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAK0d",
+        "discovery_event_id": "Z7r9jZ1AAAK0d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAK0d",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-intocable-2027-indio-z7r9jz1aaak07",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable (Minors (ages 5-17) must be accompanied with an adult)",
+    "city": "Indio",
+    "country": "United States Of America",
+    "venue": "Fantasy Springs Resort Casino",
+    "datetime_iso": "2027-03-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAK07",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAK07",
+        "discovery_event_id": "Z7r9jZ1AAAK07",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAK07",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-sunrise-z7r9jz1aaa4az",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhene Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2027-04-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4az",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4az",
+        "discovery_event_id": "Z7r9jZ1AAA4az",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4az",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-houston-z7r9jz1aaa4ay",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhene Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-04-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4ay",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4ay",
+        "discovery_event_id": "Z7r9jZ1AAA4ay",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4ay",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-las-vegas-z7r9jz1aaa41z",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhene Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2027-05-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA41Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA41Z",
+        "discovery_event_id": "Z7r9jZ1AAA41Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA41Z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

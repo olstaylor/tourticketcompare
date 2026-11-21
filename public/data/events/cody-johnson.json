@@ -839,5 +839,111 @@
         "end": "2026-12-20T03:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-cody-johnson-2027-albany-k7vgf_p30ueon",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "MVP Arena",
+    "datetime_iso": "2027-03-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006564A4DA782A",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-12-2027/event/00006564A4DA782A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-12-2027/event/00006564A4DA782A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006564A4DA782A",
+        "discovery_event_id": "k7vGF_p30UEOn",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-12-2027/event/00006564A4DA782A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_p30UEOn",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-johnson-2027-kansas-city-z7r9jz1aaaf8f",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-04-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAf8f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAf8f",
+        "discovery_event_id": "Z7r9jZ1AAAf8f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf8f",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
   }
 ]

@@ -483,7 +483,9 @@ test('mock issue #1538 compiles as hidden draft; human publication regenerates i
     };
     assert.equal((await render(articlePath)).status, 404);
     assert(!(await (await render('/sitemaps/blog.xml')).text()).includes(articlePath));
-    await fs.writeFile(path.join(temporary, `content/blog/${selected.slug}.md`), result.article.markdown.replace('status: draft', 'status: published'));
+    await fs.writeFile(path.join(temporary, `content/blog/${selected.slug}.md`), result.article.markdown.replace('status: draft', 'status: published').replace(/^date: .*$/m, 'date: 2099-01-01'));
+    // The RSS feed keeps only the newest 50 posts, so the fixture article is dated newest: its 2026-10-12 date
+    // fell out of the feed once 50 newer real posts existed. The publication contract is unchanged.
     // Human decision simulated ONLY in this disposable fixture.
     await prepareContent(temporary, selected.slug);
     execute('build-blog-content.mjs');

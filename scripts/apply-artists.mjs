@@ -308,7 +308,10 @@ function buildEvent(row, verificationStatus = "needs_recheck") {
     datetime_iso: clean(row.datetime_iso),
     // timezone and status are inserted below only when present: an empty
     // string is rejected by validate-events.py, but an absent key is fine.
-    tour_name: "",
+    // Carried only when the row's tour_name is a verbatim part of its listing
+    // title (new-show discovery's strict "Artist: X Tour" rule, owner-approved
+    // 2026-11-21); any other value is discarded and left for a human.
+    tour_name: clean(row.tour_name) && clean(row.event_name).includes(clean(row.tour_name)) ? clean(row.tour_name) : "",
     ticketmaster_event_id: tmEventId,
     ticketmaster_url: tmUrl,
     seatgeek_url: clean(row.seatgeek_url),
@@ -561,8 +564,12 @@ function runSelfTest() {
   );
   assert("built event never invents tour_name", event.tour_name === "");
   assert(
-    "built event never carries a row tour_name (human-gated, #172)",
+    "built event drops a row tour_name that is not part of the listing title",
     buildEvent({ ...goodRow, tour_name: "Should Not Pass Through" }).tour_name === ""
+  );
+  assert(
+    "built event keeps a row tour_name taken from the listing title",
+    buildEvent({ ...goodRow, event_name: "RAYE: Some Tour", tour_name: "Some Tour" }).tour_name === "Some Tour"
   );
   assert("built event keeps last_verified_at null", event.last_verified_at === null);
   assert(

@@ -24,6 +24,7 @@ export const STEPS = [
   { id: "test:reading-layout", lane: "quick", run: "node scripts/reading-layout.test.mjs" },
   { id: "test:event-metadata", lane: "units", run: "node scripts/event-metadata.test.mjs" },
   { id: "automation:identity:self-test", lane: "units", run: "node scripts/configure-automation-identity.mjs --self-test" },
+  { id: "render-cache:self-test", lane: "units", run: "node scripts/render-cache.test.mjs" },
   { id: "docs:check",                             lane: "quick",  run: "npm run docs:check" },
   { id: "schema:properties:self-test",            lane: "units",  run: "node scripts/schema-properties.test.mjs" },
   { id: "test:price-timing",                       lane: "units",  run: "npm run test:price-timing" },

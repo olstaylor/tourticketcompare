@@ -14,6 +14,7 @@
 // example `node scripts/audit-internal-links.mjs` on its own) nothing is cached.
 
 import crypto from "node:crypto";
+import fsSync from "node:fs";
 import fs from "node:fs/promises";
 import path from "node:path";
 
@@ -43,4 +44,39 @@ export async function cachedRender(key, render) {
     // The cache is an optimisation; never fail a run over it.
   }
   return rendered;
+}
+
+/**
+ * The one clock a cached run renders and audits against.
+ *
+ * Cached pages are only valid for the instant they were rendered at: a show that
+ * starts between the prewarm and an audit changes what the router serves, so an
+ * audit checking old pages against a newer "now" reports links to pages that
+ * (by then) 301 (SeatGeek and Vivid CTA syncs, 21 Nov 2026 00:40 and 01:02 UTC).
+ * The prewarm coordinator records its start time once (`create: true`); the
+ * prewarm workers and every audit pin Date.now to that value. Without a cache
+ * directory, or before it holds a clock, this is just the live time.
+ *
+ * @param {{create?: boolean}} [options]
+ * @returns {number}
+ */
+export function sharedClock({ create = false } = {}) {
+  const dir = process.env[RENDER_CACHE_ENV];
+  if (!dir) return Date.now();
+  const file = path.join(dir, "_clock");
+  try {
+    const value = Number(fsSync.readFileSync(file, "utf8"));
+    if (Number.isFinite(value) && value > 0) return value;
+  } catch {
+    // Not written yet.
+  }
+  const now = Date.now();
+  if (create) {
+    try {
+      fsSync.writeFileSync(file, String(now), { flag: "wx" });
+    } catch {
+      return sharedClock();
+    }
+  }
+  return now;
 }

@@ -12,7 +12,7 @@ import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadSiteFixture } from "./lib/route-crawl.mjs";
-import { RENDER_CACHE_ENV } from "./lib/render-cache.mjs";
+import { RENDER_CACHE_ENV, sharedClock } from "./lib/render-cache.mjs";
 import { eventAuditRenderer } from "./lib/event-indexability-audit.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -27,6 +27,9 @@ const shardArg = process.argv.find((arg) => arg.startsWith("--shard="));
 
 if (shardArg) {
   const [index, total] = shardArg.slice("--shard=".length).split("/").map(Number);
+  // Same instant as the audits that will read these pages (see sharedClock).
+  const pinned = sharedClock();
+  Date.now = () => pinned;
   const site = await loadSiteFixture(root);
   const paths = [...new Set([...site.paths.allPaths, ...site.paths.eventPaths])];
   // Event pages are also rendered by the event-indexing audit under its own env.
@@ -46,6 +49,8 @@ if (shardArg) {
   process.exit(0);
 }
 
+// Record the run's clock before any worker starts.
+sharedClock({ create: true });
 const workers = Math.max(1, Math.min(8, os.availableParallelism?.() ?? os.cpus().length));
 const started = Date.now();
 await Promise.all(

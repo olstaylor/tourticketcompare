@@ -25,6 +25,9 @@ import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
 import { humanRedirectSql, suspectedBotRedirectSql } from "./lib/human-clicks.mjs";
+import { eventLifecycleHeld } from "../functions/_route-indexability.js";
+import { fetchAllActions, impactCredentials, resolveCampaignProviderMap } from "./report-affiliate-performance.mjs";
+import { summarizeImpact } from "./report-funnel-daily.mjs";
 import { assertNoPersonalColumns, assertReadOnlySql, parseWranglerJson } from "./report-commercial-funnel.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -33,6 +36,58 @@ const DATABASE = "tourticketcompare-demand";
 const LABEL = "automation:plan-scoreboard";
 const DAY_MS = 24 * 60 * 60 * 1000;
 const IMPACT_PROVIDERS = ["stubhub-international", "vivid-seats", "seatgeek", "ticketnetwork", "ticket-liquidator"];
+
+// Scheduled workflows tied to links, prices, provider syncs and audits. A
+// failed run of one of these can change what a visitor sees or what we earn.
+export const COMMERCIAL_WORKFLOWS = [
+  "seatgeek-cta-sync.yml", "vividseats-cta-sync.yml", "seatgeek-price-snapshots.yml", "vividseats-price-snapshots.yml",
+  "impact-marketplace-price-snapshots.yml", "impact-marketplace-provider-sync.yml", "price-freshness-check.yml",
+  "nightly-data-sync.yml", "daily-audit.yml", "tm-new-shows-pr.yml", "funnel-daily.yml"
+];
+
+// Sellers the repo has a verified URL for, per upcoming show (Ticketmaster is
+// an unmonetised link source and is not counted as a seller).
+export function nearTermCoverage(events, now = new Date(), days = 14) {
+  const from = now.toISOString().slice(0, 10);
+  const to = new Date(now.getTime() + days * DAY_MS).toISOString().slice(0, 10);
+  let shows = 0, none = 0, one = 0;
+  for (const e of events || []) {
+    const day = (e.datetime_iso || "").slice(0, 10);
+    // Cancelled and postponed shows keep their lifecycle in ticketmaster_status_code; their links are withheld everywhere.
+    if (!day || day < from || day > to || eventLifecycleHeld(e)) continue;
+    const sellers = Object.entries(e.provider_links || {}).filter(([k, v]) => k !== "ticketmaster" && v && v.verified && v.url).length;
+    shows += 1;
+    if (sellers === 0) none += 1;
+    else if (sellers === 1) one += 1;
+  }
+  return { shows, none, one };
+}
+
+// Failed scheduled runs per commercial workflow over the lookback.
+export function summarizeFailures(runs, workflows = COMMERCIAL_WORKFLOWS) {
+  const byFlow = new Map();
+  for (const r of runs || []) {
+    const file = String(r.path || "").split("/").pop();
+    if (!workflows.includes(file) || r.conclusion !== "failure") continue;
+    const cur = byFlow.get(file) || { workflow: file, failures: 0, last: "" };
+    cur.failures += 1;
+    if (String(r.created_at) > cur.last) cur.last = String(r.created_at);
+    byFlow.set(file, cur);
+  }
+  return [...byFlow.values()].sort((a, b) => b.failures - a.failures || a.workflow.localeCompare(b.workflow));
+}
+
+// Opportunities come from fixed rules, not generated prose. Each states its evidence.
+export function buildOpportunities({ coverage, today }) {
+  const list = [];
+  if (coverage && coverage.shows) {
+    const weak = coverage.none + coverage.one;
+    list.push({ title: `Add verified sellers to ${weak} of ${coverage.shows} shows in the next 14 days (${coverage.none} with none, ${coverage.one} with one)`, impact: "High", confidence: "Medium", effort: "Low to medium", note: "Orders cluster close to the show date; uses existing sync lanes only." });
+  }
+  if (today < "2026-12-04") list.push({ title: "Seller-order test readout on 4 Dec", impact: "Medium", confidence: "Medium", effort: "Small", note: "Tests whether seller position changes clicks; no revenue verdict before then." });
+  if (today < "2026-12-02") list.push({ title: "One Search Console pages-by-date pull after 1 Dec", impact: "High", confidence: "High that it is needed", effort: "Small", note: "Shows what drove the mid-November search change and whether it holds; pulls resume 1 Dec." });
+  return list;
+}
 
 // From the plan doc. Change these only when the owner resets the targets
 // (first reset is due at the 31 Oct checkpoint, once the Impact CSV is in).
@@ -155,7 +210,7 @@ export function buildBatches(artists, events, traffic, now = new Date(), limit =
   const upcoming = new Map();
   for (const e of events || []) {
     if (!e.artist_slug || !e.datetime_iso || e.datetime_iso.slice(0, 10) < today) continue;
-    if (/cancel|postpone/i.test(e.status || "")) continue;
+    if (eventLifecycleHeld(e)) continue;
     upcoming.set(e.artist_slug, (upcoming.get(e.artist_slug) || 0) + 1);
   }
   const bySlug = new Map((traffic || []).map((r) => [r.slug, r]));
@@ -176,7 +231,7 @@ export function buildBatches(artists, events, traffic, now = new Date(), limit =
   return [...groups.values()].sort((a, b) => b.week.localeCompare(a.week)).slice(0, limit);
 }
 
-export function buildScoreboard(results, { starts }, now = new Date(), catalog = null) {
+export function buildScoreboard(results, { starts }, now = new Date(), catalog = null, extras = {}) {
   const byWeek = (rows) => new Map((rows || []).map((r) => [r.week, Number(r.n) || 0]));
   const search = byWeek(results.search);
   const clicks = byWeek(results.clicks);
@@ -206,7 +261,10 @@ export function buildScoreboard(results, { starts }, now = new Date(), catalog =
   }).sort((a, b) => b.last - a.last || b.previous - a.previous);
   const landing = (results.landing || []).map((r) => ({ path: r.path, visits: num(r.n) }));
   const batches = catalog ? buildBatches(catalog.artists, catalog.events, mergeArtistTraffic(results.artistVisitors, results.artistClicks), now) : [];
-  return { generatedAt: today, weeks, latest: weeks.at(-1) || null, previous: weeks.length > 1 ? weeks.at(-2) : null, next, funnel, providerWeeks, landing, batches };
+  const coverage = catalog ? nearTermCoverage(catalog.events, now) : null;
+  const opportunities = catalog ? buildOpportunities({ coverage, today }) : [];
+  return { generatedAt: today, weeks, latest: weeks.at(-1) || null, previous: weeks.length > 1 ? weeks.at(-2) : null, next, funnel, providerWeeks, landing, batches,
+    impact: extras.impact || null, failures: extras.failures === undefined ? null : extras.failures, opportunities };
 }
 
 function band(value, key) {
@@ -305,6 +363,34 @@ export function renderScoreboard(board) {
       "Upcoming shows are on the site now, not necessarily indexed. Traffic counts the artists' own pages (`/artists/<slug>` and its ticket, price and presale pages) for one week, so older batches have had longer to earn it. Indexed pages, Google clicks and attributed orders by batch are not available yet (Search Console pulls resume 1 Dec; Impact orders join by Sub ID in the nightly funnel check)."
     );
   }
+  const impact = board.impact;
+  if (impact) {
+    lines.push("", "## Impact actions, last 45 days (by action date)", "");
+    if (!impact.available) {
+      lines.push(`Unknown: ${impact.reason}. Sales are not read this week; check Impact directly.`);
+    } else {
+      const money = (n) => `${impact.currency || ""} ${Number(n).toFixed(2)}`.trim();
+      lines.push(
+        "| State | Actions | Action earnings |",
+        "|---|---:|---:|",
+        ...["APPROVED", "PENDING", "REVERSED"].map((k) => `| ${k.toLowerCase()} | ${fmt(impact.states[k].count)} | ${money(impact.states[k].payout)} |`),
+        "",
+        `Last action date: ${impact.lastDay ? impact.lastDay.slice(0, 10) : "none in window"}.${impact.preSubId ? ` ${impact.preSubId} actions are dated before Sub IDs started on their seller and cannot be tied to a page.` : ""} "Approved" is Impact's lock state, not money paid.`
+      );
+    }
+    lines.push("", "Paid and invoiced amounts: not available in this report (this script reads Impact actions only). Read Invoices in Impact.");
+  }
+  if (board.failures !== null && board.failures !== undefined) {
+    lines.push("", "## Failed scheduled runs, last 7 days (link, price, sync and audit workflows; schedule-triggered only)", "");
+    if (board.failures === "unavailable") lines.push("Unknown: the run list could not be read.");
+    else if (!board.failures.length) lines.push("None.");
+    else lines.push("| Workflow | Failed runs | Latest failure (UTC) |", "|---|---:|---|", ...board.failures.map((f) => `| ${f.workflow} | ${fmt(f.failures)} | ${f.last.slice(0, 16).replace("T", " ")} |`));
+  }
+  const opps = board.opportunities || [];
+  if (opps.length) {
+    lines.push("", "## Opportunities (fixed rules, with evidence)", "", "| # | Opportunity | Impact | Confidence | Effort |", "|---:|---|---|---|---|",
+      ...opps.map((o, i) => `| ${i + 1} | ${o.title}. ${o.note} | ${o.impact} | ${o.confidence} | ${o.effort} |`));
+  }
   lines.push(
     "",
     "**Not available in this report:** Search Console impressions, Google clicks and queries (the export is paused and the connector is read on request), and any per-order date or lock status from Impact."
@@ -351,6 +437,42 @@ async function gh(method, apiPath, body) {
   return res.json();
 }
 
+const ACTION_LOOKBACK_DAYS = 45; // Impact's per-request span limit.
+
+// Impact actions by state. Read-only; never estimated. Any failure reads as unknown.
+async function readImpact(range) {
+  const credentials = impactCredentials({
+    ...process.env,
+    IMPACT_SEATGEEK_ACCOUNT_SID: process.env.IMPACT_SEATGEEK_ACCOUNT_SID || process.env.IMPACT_ACCOUNT_SID,
+    IMPACT_SEATGEEK_AUTH_TOKEN: process.env.IMPACT_SEATGEEK_AUTH_TOKEN || process.env.IMPACT_AUTH_TOKEN,
+  });
+  if (!credentials.configured) return summarizeImpact([], [], { configured: false });
+  try {
+    const since = new Date(Date.parse(range.until) - ACTION_LOOKBACK_DAYS * DAY_MS).toISOString();
+    const actions = await fetchAllActions(credentials, { since, until: range.until });
+    return summarizeImpact(actions, [], { attributionError: true, campaignToProvider: resolveCampaignProviderMap() });
+  } catch (err) {
+    return summarizeImpact([], [], { error: err.message });
+  }
+}
+
+async function readFailures() {
+  try {
+    const since = new Date(Date.now() - 7 * DAY_MS).toISOString().slice(0, 10);
+    // Scheduled runs only (manual and preview runs are not production failures),
+    // following pagination so a busy first page cannot hide commercial failures.
+    const runs = [];
+    for (let page = 1; page <= 10; page += 1) {
+      const data = await gh("GET", `/actions/runs?status=failure&event=schedule&per_page=100&page=${page}&created=%3E%3D${since}`);
+      runs.push(...data.workflow_runs);
+      if (data.workflow_runs.length < 100) return summarizeFailures(runs);
+    }
+    return "unavailable"; // more than 1,000 failures: incomplete, so say so rather than print partial counts
+  } catch {
+    return "unavailable";
+  }
+}
+
 async function main(argv) {
   const arg = (name, fallback) => {
     const i = argv.indexOf(name);
@@ -365,7 +487,8 @@ async function main(argv) {
   const artistsFile = readJson("artists.json");
   const eventsFile = readJson("events.json");
   const catalog = { artists: Array.isArray(artistsFile) ? artistsFile : artistsFile.artists, events: Array.isArray(eventsFile) ? eventsFile : eventsFile.events };
-  const body = renderScoreboard(buildScoreboard(parseWranglerJson(stdout, statements), range, new Date(), catalog));
+  const extras = { impact: await readImpact(range), failures: await readFailures() };
+  const body = renderScoreboard(buildScoreboard(parseWranglerJson(stdout, statements), range, new Date(), catalog, extras));
   const markdownPath = arg("--markdown", "");
   if (markdownPath) writeFileSync(markdownPath, `${body}\n`);
   console.log(body);
@@ -447,7 +570,7 @@ function selfTest() {
     ],
     events: [
       { artist_slug: "a", datetime_iso: "2026-11-01T20:00:00Z", status: "scheduled" },
-      { artist_slug: "a", datetime_iso: "2026-11-02T20:00:00Z", status: "cancelled" },
+      { artist_slug: "a", datetime_iso: "2026-11-02T20:00:00Z", status: "on-sale", ticketmaster_status_code: "cancelled" },
       { artist_slug: "a", datetime_iso: "2026-09-01T20:00:00Z", status: "scheduled" },
       { artist_slug: "d", datetime_iso: "2026-11-01T20:00:00Z", status: "scheduled" }
     ]
@@ -462,6 +585,31 @@ function selfTest() {
   assert.ok(batchMd.includes("Google clicks and attributed orders by batch are not available yet"), "unavailable batch metrics are stated");
   assert.ok(!renderScoreboard(board).includes("New tours by batch"), "no batch section without a catalog");
   assert.ok(sqlOf("artistClicks").includes("created_at >= '2026-10-05T00:00:00.000Z'"), "batch traffic covers the last full week");
+  // Impact, failed runs and opportunities.
+  const impactBoard = buildScoreboard({}, range, new Date("2026-11-21T12:00:00Z"), { artists: [], events: [
+    { datetime_iso: "2026-11-25T20:00:00Z", status: "scheduled", provider_links: { ticketmaster: { verified: true, url: "u" } } },
+    { datetime_iso: "2026-11-26T20:00:00Z", status: "scheduled", provider_links: { seatgeek: { verified: true, url: "u" } } },
+    { datetime_iso: "2026-11-27T20:00:00Z", status: "scheduled", provider_links: { seatgeek: { verified: true, url: "u" }, "vivid-seats": { verified: true, url: "u" } } },
+    { datetime_iso: "2026-11-28T20:00:00Z", status: "on-sale", ticketmaster_status_code: "cancelled", provider_links: {} },
+    { datetime_iso: "2026-12-30T20:00:00Z", status: "scheduled", provider_links: {} }
+  ] }, {
+    impact: summarizeImpact([{ state: "APPROVED", payout: 10, currency: "GBP", day: "2026-11-18" }, { state: "PENDING", payout: 5, currency: "GBP", day: "2026-11-19" }], [], { attributionError: true }),
+    failures: summarizeFailures([
+      { path: ".github/workflows/seatgeek-cta-sync.yml", conclusion: "failure", created_at: "2026-11-21T06:00:00Z" },
+      { path: ".github/workflows/seatgeek-cta-sync.yml", conclusion: "failure", created_at: "2026-11-20T06:00:00Z" },
+      { path: ".github/workflows/blog-draft.yml", conclusion: "failure", created_at: "2026-11-20T06:00:00Z" }
+    ])
+  });
+  assert.deepEqual(nearTermCoverage([
+    { datetime_iso: "2026-11-25T20:00:00Z", provider_links: {} }, { datetime_iso: "2026-11-22T20:00:00Z", status: "on-sale", ticketmaster_status_code: "cancelled", provider_links: {} }
+  ], new Date("2026-11-21T12:00:00Z")), { shows: 1, none: 1, one: 0 }, "cancelled shows are not counted");
+  const impactMd = renderScoreboard(impactBoard);
+  assert.ok(impactMd.includes("| approved | 1 | GBP 10.00 |") && impactMd.includes("| pending | 1 | GBP 5.00 |"));
+  assert.ok(impactMd.includes("Paid and invoiced amounts: not available"), "paid is never filled in");
+  assert.ok(impactMd.includes("| seatgeek-cta-sync.yml | 2 |") && !impactMd.includes("blog-draft"), "only commercial workflows are listed");
+  assert.ok(impactMd.includes("Add verified sellers to 2 of 3 shows in the next 14 days (1 with none, 1 with one)"), "coverage counts sellers, not Ticketmaster");
+  assert.ok(impactMd.includes("Seller-order test readout on 4 Dec"));
+  assert.ok(renderScoreboard(buildScoreboard({}, range, new Date(), null, { impact: summarizeImpact([], [], { configured: false }), failures: "unavailable" })).includes("Unknown: Impact credentials are not configured"), "unreadable sources say unknown");
   const oneWeek = renderScoreboard(buildScoreboard({ search: [{ week: "2026-10-05", n: 5 }] }, { starts: ["2026-10-05"] }, new Date("2026-10-17T12:00:00Z")));
   assert.ok(!oneWeek.includes("Week on week"), "no week-on-week with one complete week");
   const funnelBoard = buildScoreboard(

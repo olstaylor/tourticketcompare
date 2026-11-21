@@ -1,0 +1,50 @@
+name: Deploy price-snapshot cron
+
+# Deploys the Cloudflare Worker in workers/price-snapshot-cron. It is a
+# backstop for GitHub's dropped hourly price-snapshot ticks: a Cloudflare Cron
+# Trigger that dispatches the Vivid Seats and Impact marketplace writers when
+# they have not started for 75 minutes. Needs repo secret
+# PRICE_CRON_GITHUB_TOKEN (fine-grained token, this repo only, Actions: read
+# and write) and a CLOUDFLARE_API_TOKEN that may edit Workers.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'workers/price-snapshot-cron/**'
+      - '.github/workflows/deploy-price-snapshot-cron.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-price-snapshot-cron
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      PRICE_CRON_GITHUB_TOKEN: ${{ secrets.PRICE_CRON_GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/price-snapshot-cron.test.mjs
+      - name: Check configuration
+        run: |
+          if [ -z "${PRICE_CRON_GITHUB_TOKEN}" ]; then
+            echo "::error::Repo secret PRICE_CRON_GITHUB_TOKEN is not set; the Worker could not dispatch anything."
+            exit 1
+          fi
+      - name: Deploy Worker
+        run: npx wrangler deploy -c workers/price-snapshot-cron/wrangler.toml
+      - name: Set dispatch token
+        run: printf '%s' "${PRICE_CRON_GITHUB_TOKEN}" | npx wrangler secret put GITHUB_TOKEN -c workers/price-snapshot-cron/wrangler.toml

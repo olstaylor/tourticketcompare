@@ -28,6 +28,7 @@ export const STEPS = [
   { id: "docs:check",                             lane: "quick",  run: "npm run docs:check" },
   { id: "schema:properties:self-test",            lane: "units",  run: "node scripts/schema-properties.test.mjs" },
   { id: "test:price-timing",                       lane: "units",  run: "npm run test:price-timing" },
+  { id: "price-snapshot-cron:self-test",           lane: "units",  run: "node scripts/price-snapshot-cron.test.mjs" },
   { id: "blog:self-test",                         lane: "units",  run: "npm run blog:self-test" },
   { id: "blog:check",                             lane: "quick",  run: "npm run blog:check" },
   { id: "blog:ideas:test",                        lane: "units",  run: "npm run blog:ideas:test" },

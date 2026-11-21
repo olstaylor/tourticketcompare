@@ -19,7 +19,7 @@
 
 import assert from "node:assert/strict";
 import { execFile } from "node:child_process";
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
@@ -65,6 +65,8 @@ export function completeWeeks(now, weeks) {
   return { since: since.toISOString(), until: until.toISOString(), starts };
 }
 
+// The slug in /artists/<slug>[/...][?...].
+const ARTIST_SLUG_SQL = "CASE WHEN instr(substr(source_path, 10), '/') > 0 THEN substr(source_path, 10, instr(substr(source_path, 10), '/') - 1) WHEN instr(substr(source_path, 10), '?') > 0 THEN substr(source_path, 10, instr(substr(source_path, 10), '?') - 1) ELSE substr(source_path, 10) END";
 const WEEK_SQL = "date(substr(created_at, 1, 10), '-6 days', 'weekday 1')";
 
 export function buildStatements({ since, until, starts = [] }) {
@@ -113,6 +115,16 @@ export function buildStatements({ since, until, starts = [] }) {
       key: "landing",
       sql: `SELECT CASE WHEN instr(source_path, '?') > 0 THEN substr(source_path, 1, instr(source_path, '?') - 1) ELSE source_path END AS path, COUNT(DISTINCT request_key || '|' || substr(created_at, 1, 10)) AS n FROM analytics_events WHERE event_name = 'page_view' AND acquisition_source = 'organic_search' AND device_category = 'mobile' AND request_key IS NOT NULL AND source_path IS NOT NULL AND ${lastWeek} GROUP BY 1 ORDER BY n DESC, path LIMIT 10`,
     },
+    // Artist-page traffic by slug for the last week, so each auto-promotion batch
+    // can be followed to search visitors and page-backed seller clicks.
+    {
+      key: "artistVisitors",
+      sql: `SELECT ${ARTIST_SLUG_SQL} AS slug, COUNT(DISTINCT request_key || '|' || substr(created_at, 1, 10)) AS visitors FROM analytics_events WHERE event_name = 'page_view' AND acquisition_source = 'organic_search' AND request_key IS NOT NULL AND source_path LIKE '/artists/%' AND ${lastWeek} GROUP BY 1`,
+    },
+    {
+      key: "artistClicks",
+      sql: `SELECT ${ARTIST_SLUG_SQL} AS slug, COUNT(*) AS clicks FROM analytics_events WHERE ${humanRedirectSql()} AND source_path LIKE '/artists/%' AND ${lastWeek} GROUP BY 1`,
+    },
     {
       key: "funnelProviders",
       sql: `SELECT COALESCE(provider, 'unknown') AS provider, COUNT(DISTINCT request_key || '|' || substr(created_at, 1, 10)) AS clickers, COUNT(*) AS clicks FROM analytics_events WHERE event_name = 'provider_click' AND request_key IS NOT NULL AND ${lastWeek} GROUP BY 1`,
@@ -125,7 +137,46 @@ export function buildStatements({ since, until, starts = [] }) {
   return statements;
 }
 
-export function buildScoreboard(results, { starts }, now = new Date()) {
+// New tours by batch: artists the daily auto-promotion added (promotion_source
+// "auto", auto_promoted_at), grouped by the Monday of the promotion week and
+// followed through to upcoming shows on the site, search visitors and
+// page-backed seller clicks on their /artists/<slug> pages in the last week.
+// Indexing, Google clicks and attributed orders are not in the repo or D1, so
+// they are reported as unavailable instead of estimated.
+function mergeArtistTraffic(visitors, clicks) {
+  const map = new Map();
+  for (const r of visitors || []) map.set(r.slug, { slug: r.slug, visitors: Number(r.visitors) || 0, clicks: 0 });
+  for (const r of clicks || []) map.set(r.slug, { slug: r.slug, visitors: map.get(r.slug)?.visitors || 0, clicks: Number(r.clicks) || 0 });
+  return [...map.values()];
+}
+
+export function buildBatches(artists, events, traffic, now = new Date(), limit = 6) {
+  const today = now.toISOString().slice(0, 10);
+  const upcoming = new Map();
+  for (const e of events || []) {
+    if (!e.artist_slug || !e.datetime_iso || e.datetime_iso.slice(0, 10) < today) continue;
+    if (/cancel|postpone/i.test(e.status || "")) continue;
+    upcoming.set(e.artist_slug, (upcoming.get(e.artist_slug) || 0) + 1);
+  }
+  const bySlug = new Map((traffic || []).map((r) => [r.slug, r]));
+  const groups = new Map();
+  for (const a of artists || []) {
+    if (a.promotion_source !== "auto" || !a.auto_promoted_at) continue;
+    const week = weekStart(new Date(`${a.auto_promoted_at}T00:00:00Z`)).toISOString().slice(0, 10);
+    const g = groups.get(week) || { week, artists: 0, withShows: 0, shows: 0, visitors: 0, clicks: 0 };
+    const shows = upcoming.get(a.slug) || 0;
+    const t = bySlug.get(a.slug);
+    g.artists += 1;
+    g.withShows += shows ? 1 : 0;
+    g.shows += shows;
+    g.visitors += Number(t?.visitors) || 0;
+    g.clicks += Number(t?.clicks) || 0;
+    groups.set(week, g);
+  }
+  return [...groups.values()].sort((a, b) => b.week.localeCompare(a.week)).slice(0, limit);
+}
+
+export function buildScoreboard(results, { starts }, now = new Date(), catalog = null) {
   const byWeek = (rows) => new Map((rows || []).map((r) => [r.week, Number(r.n) || 0]));
   const search = byWeek(results.search);
   const clicks = byWeek(results.clicks);
@@ -154,7 +205,8 @@ export function buildScoreboard(results, { starts }, now = new Date()) {
     return { provider, previous: pick(starts.at(-2))?.n || 0, last: pick(lastWeekStart)?.n || 0, lastWithSubId: pick(lastWeekStart)?.withSubId || 0 };
   }).sort((a, b) => b.last - a.last || b.previous - a.previous);
   const landing = (results.landing || []).map((r) => ({ path: r.path, visits: num(r.n) }));
-  return { generatedAt: today, weeks, latest: weeks.at(-1) || null, previous: weeks.length > 1 ? weeks.at(-2) : null, next, funnel, providerWeeks, landing };
+  const batches = catalog ? buildBatches(catalog.artists, catalog.events, mergeArtistTraffic(results.artistVisitors, results.artistClicks), now) : [];
+  return { generatedAt: today, weeks, latest: weeks.at(-1) || null, previous: weeks.length > 1 ? weeks.at(-2) : null, next, funnel, providerWeeks, landing, batches };
 }
 
 function band(value, key) {
@@ -240,6 +292,19 @@ export function renderScoreboard(board) {
       ...landing.map((r) => `| ${r.path} | ${fmt(r.visits)} |`)
     );
   }
+  const batches = board.batches || [];
+  if (batches.length) {
+    lines.push(
+      "",
+      `## New tours by batch (auto-promoted artists, activity in the week of ${board.latest?.week || "last week"})`,
+      "",
+      "| Promoted week | Artists | With upcoming shows | Upcoming shows | Search visitor-days (artist pages) | Page-backed seller clicks |",
+      "|---|---:|---:|---:|---:|---:|",
+      ...batches.map((b) => `| ${b.week} | ${fmt(b.artists)} | ${fmt(b.withShows)} | ${fmt(b.shows)} | ${fmt(b.visitors)} | ${fmt(b.clicks)} |`),
+      "",
+      "Upcoming shows are on the site now, not necessarily indexed. Traffic counts the artists' own pages (`/artists/<slug>` and its ticket, price and presale pages) for one week, so older batches have had longer to earn it. Indexed pages, Google clicks and attributed orders by batch are not available yet (Search Console pulls resume 1 Dec; Impact orders join by Sub ID in the nightly funnel check)."
+    );
+  }
   lines.push(
     "",
     "**Not available in this report:** Search Console impressions, Google clicks and queries (the export is paused and the connector is read on request), and any per-order date or lock status from Impact."
@@ -296,7 +361,11 @@ async function main(argv) {
   const statements = buildStatements(range);
   const args = buildD1ReadArgs({ database: DATABASE, remote: !argv.includes("--local"), statements });
   const { stdout } = await execFileAsync("npx", args, { cwd: REPO_ROOT, maxBuffer: 1024 * 1024 * 10 });
-  const body = renderScoreboard(buildScoreboard(parseWranglerJson(stdout, statements), range));
+  const readJson = (file) => JSON.parse(readFileSync(path.join(REPO_ROOT, "public", "data", file), "utf8"));
+  const artistsFile = readJson("artists.json");
+  const eventsFile = readJson("events.json");
+  const catalog = { artists: Array.isArray(artistsFile) ? artistsFile : artistsFile.artists, events: Array.isArray(eventsFile) ? eventsFile : eventsFile.events };
+  const body = renderScoreboard(buildScoreboard(parseWranglerJson(stdout, statements), range, new Date(), catalog));
   const markdownPath = arg("--markdown", "");
   if (markdownPath) writeFileSync(markdownPath, `${body}\n`);
   console.log(body);
@@ -335,7 +404,7 @@ function selfTest() {
   const november = renderScoreboard({ ...board, next: PLAN.checkpoints.find((c) => c.floor) });
   assert.ok(november.includes("redirect checkpoint withheld"));
   assert.ok(!november.includes("real clicks at or above 250"));
-  assert.deepEqual(statements.map((s) => s.key), ["search", "searchMobile", "redirects", "clicks", "funnelPages", "redirectProviders", "landing", "funnelProviders"]);
+  assert.deepEqual(statements.map((s) => s.key), ["search", "searchMobile", "redirects", "clicks", "funnelPages", "redirectProviders", "landing", "artistVisitors", "artistClicks", "funnelProviders"]);
   const sqlOf = (key) => statements.find((s) => s.key === key).sql;
   assert.ok(sqlOf("funnelPages").includes("created_at >= '2026-10-05T00:00:00.000Z'"), "funnel covers only the last full week");
   assert.ok(sqlOf("landing").includes("created_at >= '2026-10-05T00:00:00.000Z'") && sqlOf("landing").includes("device_category = 'mobile'"), "landing pages are mobile search, last week only");
@@ -368,6 +437,31 @@ function selfTest() {
   assert.ok(richMd.includes("| /artists/olivia-rodrigo | 40 |"));
   assert.ok(richMd.includes("Not available in this report"), "missing data is stated, not filled");
   assert.ok(!/\bforecast\b|\bestimated\b/i.test(richMd), "no estimates presented as facts");
+  // New tours by batch.
+  const catalog = {
+    artists: [
+      { slug: "a", promotion_source: "auto", auto_promoted_at: "2026-10-06" },
+      { slug: "b", promotion_source: "auto", auto_promoted_at: "2026-10-08" },
+      { slug: "c", promotion_source: "auto", auto_promoted_at: "2026-09-29" },
+      { slug: "d", promotion_source: "manual", auto_promoted_at: "2026-10-06" }
+    ],
+    events: [
+      { artist_slug: "a", datetime_iso: "2026-11-01T20:00:00Z", status: "scheduled" },
+      { artist_slug: "a", datetime_iso: "2026-11-02T20:00:00Z", status: "cancelled" },
+      { artist_slug: "a", datetime_iso: "2026-09-01T20:00:00Z", status: "scheduled" },
+      { artist_slug: "d", datetime_iso: "2026-11-01T20:00:00Z", status: "scheduled" }
+    ]
+  };
+  const batchBoard = buildScoreboard({ artistVisitors: [{ slug: "a", visitors: 12 }, { slug: "b", visitors: 1 }], artistClicks: [{ slug: "a", clicks: 3 }] }, range, new Date("2026-10-17T12:00:00Z"), catalog);
+  assert.deepEqual(batchBoard.batches, [
+    { week: "2026-10-05", artists: 2, withShows: 1, shows: 1, visitors: 13, clicks: 3 },
+    { week: "2026-09-28", artists: 1, withShows: 0, shows: 0, visitors: 0, clicks: 0 }
+  ], "batches group auto-promoted artists by Monday, skip manual ones, and ignore cancelled or past shows");
+  const batchMd = renderScoreboard(batchBoard);
+  assert.ok(batchMd.includes("| 2026-10-05 | 2 | 1 | 1 | 13 | 3 |"));
+  assert.ok(batchMd.includes("Google clicks and attributed orders by batch are not available yet"), "unavailable batch metrics are stated");
+  assert.ok(!renderScoreboard(board).includes("New tours by batch"), "no batch section without a catalog");
+  assert.ok(sqlOf("artistClicks").includes("created_at >= '2026-10-05T00:00:00.000Z'"), "batch traffic covers the last full week");
   const oneWeek = renderScoreboard(buildScoreboard({ search: [{ week: "2026-10-05", n: 5 }] }, { starts: ["2026-10-05"] }, new Date("2026-10-17T12:00:00Z")));
   assert.ok(!oneWeek.includes("Week on week"), "no week-on-week with one complete week");
   const funnelBoard = buildScoreboard(

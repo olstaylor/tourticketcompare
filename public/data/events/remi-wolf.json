@@ -2151,5 +2151,58 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376394",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376394/Remi-Wolf-tickets-Mon-May-3-2027-The-Van-Buren"
+  },
+  {
+    "id": "tm-remi-wolf-2027-phoenix-1av0z_pgkubifhc",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf - The Mud Tour With Special Guest Annabelle Dinda",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-05-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900656D98B146CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-04-2027/event/1900656D98B146CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-04-2027/event/1900656D98B146CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656D98B146CE",
+        "discovery_event_id": "1Av0Z_pGkUbifhC",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-04-2027/event/1900656D98B146CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkUbifhC",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
   }
 ]

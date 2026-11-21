@@ -3271,5 +3271,164 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8382025",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8382025/Jhene-Aiko-tickets-Sat-May-22-2027-Cryptocom-Arena"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-sunrise-z7r9jz1aaa4az",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhene Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2027-04-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4az",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4az",
+        "discovery_event_id": "Z7r9jZ1AAA4az",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4az",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-houston-z7r9jz1aaa4ay",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhene Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-04-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4ay",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4ay",
+        "discovery_event_id": "Z7r9jZ1AAA4ay",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4ay",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-las-vegas-z7r9jz1aaa41z",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhene Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2027-05-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA41Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA41Z",
+        "discovery_event_id": "Z7r9jZ1AAA41Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA41Z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

@@ -2102,5 +2102,111 @@
     "public_onsale_at": "2026-11-20T16:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367179",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367179/Morgan-Wallen-tickets-Sat-Aug-28-2027-New-Nissan-Stadium"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-athens-z7r9jz1aaa8ay",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Hardy",
+    "city": "Athens",
+    "country": "United States Of America",
+    "venue": "Sanford Stadium",
+    "datetime_iso": "2027-07-16T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8AY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8AY",
+        "discovery_event_id": "Z7r9jZ1AAA8AY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8AY",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-athens-z7r9jz1aaa8ke",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Brooks and Dunn",
+    "city": "Athens",
+    "country": "United States Of America",
+    "venue": "Sanford Stadium",
+    "datetime_iso": "2027-07-17T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8ke",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8ke",
+        "discovery_event_id": "Z7r9jZ1AAA8ke",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8ke",
+    "timezone": "America/New_York",
+    "status": "on-sale"
   }
 ]

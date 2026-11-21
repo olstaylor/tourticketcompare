@@ -244,6 +244,7 @@ jobs:
             --links .audit/links.json \
             --tm .audit/tm.json \
             --tm-status .audit/tm-status.json \
+            --events public/data/events.json \
             $DRY_RUN_FLAG
 
       # Confirms each guide's cited source URL still resolves and records the

@@ -302,6 +302,12 @@ Thursday runs share it. A manual dispatch that names artists is an explicit
 request and is not capped. Some weeks intentionally
 produce nothing, and an outstanding editorial PR pauses the next week.
 
+## Cheapest-tickets pilot
+
+Three posts, `/blog/how-to-get-the-cheapest-<artist>-tickets` (Metallica, Zach Bryan, Olivia Rodrigo), are a pilot approved by the owner on 2026-11-16, not a template for mass publishing. `npm run cheapest-guide:build -- --artist <slug>` renders each from `reports/cheapest-guides/<artist>/figures.json`, which holds every number, the city, venue and venue-local date of each listed date, and a note of the D1 queries behind it. `npm run test:cheapest-guide` fails if a post differs from its figures. To refresh, rerun the queries named in the file's `sql` block (stored snapshots for current prices, the daily rollup for history), update the figures and `asOf`, rebuild and run `npm run blog:build`.
+
+The page uses Vivid Seats and TicketNetwork only (StubHub International is excluded on North American dates because of its placeholder prices), one currency, no UK or Europe comparison, and compares each site only with itself for the same show. The history section is descriptive and says it gives no best day to buy. Add a new artist only when it has finished shows with both readings and current prices on both sites.
+
 ## Automated data stories
 
 `npm run stories:build` writes a data story from committed event data, with no

@@ -1,0 +1,99 @@
+{
+  "artistSlug": "zach-bryan",
+  "artist": "Zach Bryan",
+  "asOf": "2026-11-21",
+  "currency": "USD",
+  "capturedFrom": "2026-11-21T11:10:00Z",
+  "capturedTo": "2026-11-21T18:03:00Z",
+  "pricePath": "",
+  "current": {
+    "pricedDates": 18,
+    "vividSeatsDates": 17,
+    "ticketNetworkDates": 18,
+    "cheapest": [
+      {
+        "eventId": "tm-zach-bryan-2027-vancouver-1k78vp4fgacgpjm",
+        "vividSeats": 60,
+        "ticketNetwork": 47.15,
+        "city": "Vancouver",
+        "country": "Canada",
+        "venue": "BC Place",
+        "localDate": "2027-07-27"
+      },
+      {
+        "eventId": "tm-zach-bryan-2027-vancouver-1av7z_fgks885w5",
+        "vividSeats": 75,
+        "ticketNetwork": 58.65,
+        "city": "Vancouver",
+        "country": "Canada",
+        "venue": "BC Place",
+        "localDate": "2027-07-28"
+      },
+      {
+        "eventId": "tm-zach-bryan-2027-baltimore-z7r9jz1aa7kav",
+        "vividSeats": 80,
+        "ticketNetwork": 72.45,
+        "city": "Baltimore",
+        "country": "United States Of America",
+        "venue": "M&T Bank Stadium",
+        "localDate": "2027-05-18"
+      },
+      {
+        "eventId": "tm-zach-bryan-2027-east-rutherford-k7vgf_fsxrnwp",
+        "vividSeats": 92,
+        "ticketNetwork": 73.6,
+        "city": "East Rutherford",
+        "country": "United States Of America",
+        "venue": "MetLife Stadium",
+        "localDate": "2027-05-14"
+      },
+      {
+        "eventId": "tm-zach-bryan-2027-indianapolis-vv17fz_fgkwtxpko",
+        "vividSeats": 74,
+        "ticketNetwork": 117.3,
+        "city": "Indianapolis",
+        "country": "United States Of America",
+        "venue": "Lucas Oil Stadium",
+        "localDate": "2027-05-01"
+      }
+    ],
+    "upcomingDates": 20
+  },
+  "runUp": {
+    "shows": 8,
+    "showCities": [
+      "Auburn",
+      "Denver (2 shows)",
+      "Foxborough (2 shows)",
+      "Glendale",
+      "Toronto (2 shows)"
+    ],
+    "firstShow": "2026-08-14",
+    "lastShow": "2026-10-10",
+    "firstObserved": "2026-07-22",
+    "lastObserved": "2026-10-08",
+    "bySeller": [
+      {
+        "site": "Vivid Seats",
+        "comparisons": 7,
+        "lower": 1,
+        "higher": 6,
+        "same": 0,
+        "medianPct": 14.6
+      },
+      {
+        "site": "TicketNetwork",
+        "comparisons": 6,
+        "lower": 1,
+        "higher": 5,
+        "same": 0,
+        "medianPct": 7.3
+      }
+    ],
+    "note": "Most comparisons were higher two days before the show than a month before. Several of these shows had lowest listings under $60, where a few dollars is a large percentage."
+  },
+  "sql": {
+    "current": "provider_pricing_cache: USD rows, verified_at >= 2026-11-20T18:30Z, expires_at > 2026-11-21T19:00Z; StubHub International dropped when under half the lowest other site; page uses Vivid Seats and TicketNetwork only",
+    "runUp": "provider_pricing_daily (low_price_last): Vivid Seats + TicketNetwork, USD, shows before 2026-11-21; isolated spikes dropped (functions/_price-outliers.js rule); reading nearest 30 days out within 21-40 days vs nearest 2 days out within 0-4 days; same show, same site"
+  }
+}

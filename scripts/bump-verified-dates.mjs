@@ -41,7 +41,8 @@ async function readJson(path) {
 
 async function main() {
   const tmStatus = await readJson(tmStatusPath);
-  if (!tmStatus || tmStatus.status !== 'ok') {
+  // 'partial' = a few events were unfetchable; the per-artist error guard below holds them.
+  if (!tmStatus || !['ok', 'partial'].includes(tmStatus.status)) {
     const detail = tmStatus
       ? `status=${tmStatus.status}${tmStatus.reason ? ` (${tmStatus.reason})` : ''}`
       : `no tm-status.json at ${tmStatusPath}`;

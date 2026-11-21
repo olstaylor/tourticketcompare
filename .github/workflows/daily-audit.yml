@@ -110,7 +110,15 @@ jobs:
             printf '%s\n' '{"status":"ok"}' > .audit/tm-status.json
           else
             code=$?
-            printf '%s\n' "{\"status\":\"failed\",\"reason\":\"audit-tm-events.mjs exited ${code}\"}" > .audit/tm-status.json
+            node scripts/classify-tm-audit-status.mjs --tm .audit/tm.json --exit-code "$code" > .audit/tm-status.json
+            cat .audit/tm-status.json
+            # "partial": only a few events were unfetchable. Their artists stay held
+            # by bump-verified-dates.mjs; every other artist's check stands, so the
+            # run goes on instead of withholding all dates. Anything else stays red.
+            if grep -q '"status":"partial"' .audit/tm-status.json; then
+              echo "::warning::Ticketmaster audit partial: unfetched events hold only their own artists."
+              exit 0
+            fi
             exit $code
           fi
 

@@ -241,7 +241,7 @@ const SECURITY_HEADERS = {
   // visitor accepts cookies, and there is no no-JavaScript GTM frame, so nothing may be
   // framed (frame-src falls back to default-src 'self').
   "Content-Security-Policy":
-    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com https://static.cloudflareinsights.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com https://cloudflareinsights.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
   // same-origin, not no-referrer: cross-origin requests still send nothing, so
   // no provider, analytics vendor or affiliate network ever learns which page a
   // visitor came from. What changes is that our own /api/out redirect finally
@@ -663,6 +663,7 @@ async function deriveBlogArtistTicketRoutes(env, artistSlugs) {
 async function resolveRoute(pathname, env) {
   const path = normalizePath(pathname);
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
+  if (path === "/compare") return { type: "redirect", location: "/compare-concert-ticket-prices" };
   if (path === "/compare-concert-ticket-prices") {
     return { type: "comparison-hub", path, ...TRUST_ROUTES[path], priceGuideDirectory: await loadPriceGuideDirectory(env) };
   }
@@ -9101,7 +9102,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
       '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261121a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261025a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261121a" defer></script></body>');
   }
   return next;
 }

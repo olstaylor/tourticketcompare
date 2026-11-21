@@ -3288,3 +3288,11 @@ code {
      8,000px down. Put the summary back ahead of the board on these pages only. */
   .artist-city-page:has(.show-card-grid > .show-card:nth-child(4)) > .show-board { order: 0; }
 }
+
+/* Anchored date cards (2026-11-21). "See all N ticket sites" on a date row
+   links to that date's card (#show-...). The sticky header (top 12px, ~65px
+   tall on a phone) sat on top of the card's date and venue after the jump, so
+   the visitor landed on seller buttons with no date shown. */
+.show-card[id] {
+  scroll-margin-top: 88px;
+}

@@ -914,11 +914,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107258879",
-        "url": "https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G65mH-tZB",
@@ -926,7 +926,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018457",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

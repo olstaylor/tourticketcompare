@@ -176,11 +176,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107165656",
-        "url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7830817",
@@ -194,7 +194,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -261,7 +261,7 @@
         "event_id": "107167142",
         "url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {

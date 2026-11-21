@@ -1526,11 +1526,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107170294",
-        "url": "https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7956784",
@@ -1544,7 +1544,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/journey-dallas-tickets-11-20-2026/event/107170294",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956784",
     "organizer_names": [
       "AEG LIVE"
@@ -1691,7 +1691,7 @@
         "event_id": "107625088",
         "url": "https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1785,7 +1785,7 @@
         "event_id": "107170293",
         "url": "https://www.stubhub.ie/journey-las-vegas-tickets-11-27-2026/event/107170293",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1863,7 +1863,7 @@
         "event_id": "107169142",
         "url": "https://www.stubhub.ie/journey-san-francisco-tickets-11-28-2026/event/107169142",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {

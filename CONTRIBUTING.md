@@ -138,7 +138,7 @@ entry for the old path. Authoring reference: [docs/BLOG.md](docs/BLOG.md).
 
 Match the lane to what you changed rather than reaching for the full suite.
 The short timings below are historical estimates, not budgets: full-site render
-audits grow with the dataset and a full run is slow locally. The three site-crawl audits (internal links, indexable surface, metadata accuracy) share one per-run render cache (`ROUTE_RENDER_CACHE_DIR`, filled by `scripts/prewarm-route-cache.mjs`, created and removed by `run-test-lane.mjs`), so each route is rendered once per run; a cache miss just renders live. CI runs
+audits grow with the dataset and a full run is slow locally. The three site-crawl audits (internal links, indexable surface, metadata accuracy) share one per-run render cache (`ROUTE_RENDER_CACHE_DIR`, filled by `scripts/prewarm-route-cache.mjs`, created and removed by `run-test-lane.mjs`), so each route is rendered once per run; a cache miss just renders live. The prewarm records one clock (`_clock` in the cache directory) and the audits pin `Date.now` to it, so cached pages and the audits agree on which shows have started. CI runs
 `test:mvp` on every PR anyway, so a local run exists to catch a failure early,
 not to duplicate CI. Follow the proportional-validation rules in
 [CLAUDE.md](CLAUDE.md#validation).

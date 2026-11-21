@@ -88,8 +88,8 @@ assert(
   "server gates the links note on editorial status and a populated board"
 );
 assert(
-  server.includes("const usefulLinksHtml = shows.length") && server.includes("const faqHtml = shows.length"),
-  "server omits generic useful links and FAQ from empty boards"
+  server.includes('const usefulLinksHtml = "";') && server.includes("const faqHtml = shows.length"),
+  "server renders no generic useful links and omits the FAQ from empty boards"
 );
 assert(
   client.includes("if (serverShows.length || !isReviewRequired)") &&

@@ -5471,7 +5471,7 @@ function renderVerificationDisclosure(artist, hasShows = true) {
       )}.</p>`
     : "";
   const verificationLines = hasShows
-    ? `<p><strong>What's checked:</strong> each date's day, venue and city are checked automatically against the ticket site, and each button links to that site's page for the date. If a link stops working, the date stays listed without a button.</p><p><strong>What isn't checked:</strong> prices, fees, seat locations, delivery and availability. The ticket site confirms them when you buy.</p>`
+    ? `<p><strong>What's checked:</strong> each date's day, venue and city are checked automatically against the ticket site, and each button links to the ticket site's page for that date. If a link stops working, the date stays listed without a button.</p><p><strong>What isn't checked:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site confirms those when you buy.</p>`
     : `<p><strong>What's checked:</strong> TTC has not verified any upcoming ${escapeHtml(
         artist.name
       )} dates. This does not mean no shows have been announced. A date only goes up once its day, venue and city are confirmed, and a ticket button only once its link opens that exact show.</p>`;

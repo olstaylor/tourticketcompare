@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-21",
   "artistSlug": "lizzy-mcalpine",
   "artist": "Lizzy McAlpine",
   "artistPageIndexable": true,
@@ -11,8 +11,8 @@
   "siteLabel": "Vivid Seats",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-20T18:52:39.013Z",
-  "capturedTo": "2026-11-20T18:52:39.013Z",
+  "capturedFrom": "2026-11-21T16:58:48.626Z",
+  "capturedTo": "2026-11-21T16:58:48.626Z",
   "tourDates": 40,
   "coverage": {
     "marketCities": 25,
@@ -64,7 +64,7 @@
     "localDate": "2027-07-13",
     "price": 38,
     "currency": "USD",
-    "capturedAt": "2026-11-20T18:52:39.013Z"
+    "capturedAt": "2026-11-21T16:58:48.626Z"
   },
   "high": {
     "city": "Columbus",
@@ -74,9 +74,9 @@
     "localDate": "2027-05-06",
     "price": 322,
     "currency": "USD",
-    "capturedAt": "2026-11-20T18:52:39.013Z"
+    "capturedAt": "2026-11-21T16:58:48.626Z"
   },
-  "median": 110.5,
+  "median": 112,
   "ratio": 8.4,
   "cities": [
     {
@@ -87,7 +87,7 @@
       "localDate": "2027-07-13",
       "price": 38,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/san-francisco-united-states"
     },
     {
@@ -98,7 +98,7 @@
       "localDate": "2027-07-02",
       "price": 58,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/austin-united-states"
     },
     {
@@ -109,7 +109,7 @@
       "localDate": "2027-07-09",
       "price": 58,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/san-diego-united-states"
     },
     {
@@ -120,7 +120,7 @@
       "localDate": "2027-07-17",
       "price": 62,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/seattle-united-states"
     },
     {
@@ -131,19 +131,8 @@
       "localDate": "2027-06-16",
       "price": 68,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/nashville-united-states"
-    },
-    {
-      "city": "Inglewood",
-      "country": "United States",
-      "venue": "Kia Forum",
-      "eventId": "tm-lizzy-mcalpine-2027-inglewood-vv1aazkfugkdnwr6l",
-      "localDate": "2027-07-10",
-      "price": 71,
-      "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
-      "path": "/artists/lizzy-mcalpine/tickets/inglewood-united-states"
     },
     {
       "city": "Columbia",
@@ -153,7 +142,7 @@
       "localDate": "2027-06-25",
       "price": 76,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/columbia-united-states"
     },
     {
@@ -164,7 +153,7 @@
       "localDate": "2027-07-15",
       "price": 76,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/portland-united-states"
     },
     {
@@ -173,10 +162,21 @@
       "venue": "United Center",
       "eventId": "tm-lizzy-mcalpine-2027-chicago-vv1a7zkfggkenm_sz",
       "localDate": "2027-06-29",
+      "price": 82,
+      "currency": "USD",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
+      "path": "/artists/lizzy-mcalpine/tickets/chicago-united-states"
+    },
+    {
+      "city": "Inglewood",
+      "country": "United States",
+      "venue": "Kia Forum",
+      "eventId": "tm-lizzy-mcalpine-2027-inglewood-vv1aazkfugkdnwr6l",
+      "localDate": "2027-07-10",
       "price": 83,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
-      "path": "/artists/lizzy-mcalpine/tickets/chicago-united-states"
+      "capturedAt": "2026-11-21T16:58:48.626Z",
+      "path": "/artists/lizzy-mcalpine/tickets/inglewood-united-states"
     },
     {
       "city": "Philadelphia",
@@ -184,9 +184,9 @@
       "venue": "Xfinity Mobile Arena",
       "eventId": "tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp",
       "localDate": "2027-06-18",
-      "price": 89,
+      "price": 88,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/philadelphia-united-states"
     },
     {
@@ -197,7 +197,7 @@
       "localDate": "2027-05-01",
       "price": 106,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/houston-united-states"
     },
     {
@@ -206,9 +206,9 @@
       "venue": "Red Rocks Amphitheatre",
       "eventId": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
       "localDate": "2027-07-06",
-      "price": 115,
+      "price": 118,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/morrison-united-states"
     },
     {
@@ -219,8 +219,19 @@
       "localDate": "2027-06-24",
       "price": 154,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/new-york-united-states"
+    },
+    {
+      "city": "Detroit",
+      "country": "United States",
+      "venue": "Fox Theatre Detroit",
+      "eventId": "tm-lizzy-mcalpine-2027-detroit-vv1afzkfmgkdd0jd5",
+      "localDate": "2027-05-07",
+      "price": 165,
+      "currency": "USD",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
+      "path": "/artists/lizzy-mcalpine/tickets/detroit-united-states"
     },
     {
       "city": "Indianapolis",
@@ -230,19 +241,8 @@
       "localDate": "2027-05-09",
       "price": 165,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/indianapolis-united-states"
-    },
-    {
-      "city": "Detroit",
-      "country": "United States",
-      "venue": "Fox Theatre Detroit",
-      "eventId": "tm-lizzy-mcalpine-2027-detroit-vv1afzkfmgkdd0jd5",
-      "localDate": "2027-05-07",
-      "price": 166,
-      "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
-      "path": "/artists/lizzy-mcalpine/tickets/detroit-united-states"
     },
     {
       "city": "Boston",
@@ -252,7 +252,7 @@
       "localDate": "2027-06-20",
       "price": 167,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/boston-united-states"
     },
     {
@@ -263,7 +263,7 @@
       "localDate": "2027-04-30",
       "price": 182,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/dallas-united-states"
     },
     {
@@ -274,7 +274,7 @@
       "localDate": "2027-05-12",
       "price": 221,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/minneapolis-united-states"
     },
     {
@@ -285,7 +285,7 @@
       "localDate": "2027-05-10",
       "price": 233,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/milwaukee-united-states"
     },
     {
@@ -296,7 +296,7 @@
       "localDate": "2027-05-03",
       "price": 259,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/atlanta-united-states"
     },
     {
@@ -307,7 +307,7 @@
       "localDate": "2027-05-17",
       "price": 303,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/kansas-city-united-states"
     },
     {
@@ -318,7 +318,7 @@
       "localDate": "2027-05-06",
       "price": 322,
       "currency": "USD",
-      "capturedAt": "2026-11-20T18:52:39.013Z",
+      "capturedAt": "2026-11-21T16:58:48.626Z",
       "path": "/artists/lizzy-mcalpine/tickets/columbus-united-states"
     }
   ],
@@ -332,9 +332,9 @@
         "venue": "The Bomb Factory",
         "eventId": "tm-lizzy-mcalpine-2027-dallas-z7r9jz1aaekq3",
         "localDate": "2027-04-30",
-        "price": 140.3,
+        "price": 279.45,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:48.930Z",
+        "capturedAt": "2026-11-21T17:59:16.260Z",
         "path": "/artists/lizzy-mcalpine/tickets/dallas-united-states"
       },
       {
@@ -343,9 +343,9 @@
         "venue": "713 Music Hall",
         "eventId": "tm-lizzy-mcalpine-2027-houston-g5diz_kko6pz2",
         "localDate": "2027-05-01",
-        "price": 139.15,
+        "price": 142.6,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:05.978Z",
+        "capturedAt": "2026-11-21T17:58:47.022Z",
         "path": "/artists/lizzy-mcalpine/tickets/houston-united-states"
       },
       {
@@ -356,7 +356,7 @@
         "localDate": "2027-05-03",
         "price": 185.15,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:49.092Z",
+        "capturedAt": "2026-11-21T17:59:16.355Z",
         "path": "/artists/lizzy-mcalpine/tickets/atlanta-united-states"
       },
       {
@@ -365,9 +365,9 @@
         "venue": "Palace Theatre Columbus",
         "eventId": "tm-lizzy-mcalpine-2027-columbus-z7r9jz1aaea09",
         "localDate": "2027-05-06",
-        "price": 287.5,
+        "price": 409.4,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:49.233Z",
+        "capturedAt": "2026-11-21T17:59:16.439Z",
         "path": "/artists/lizzy-mcalpine/tickets/columbus-united-states"
       },
       {
@@ -378,7 +378,7 @@
         "localDate": "2027-05-07",
         "price": 190.9,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:06.100Z",
+        "capturedAt": "2026-11-21T17:58:47.110Z",
         "path": "/artists/lizzy-mcalpine/tickets/detroit-united-states"
       },
       {
@@ -389,7 +389,7 @@
         "localDate": "2027-05-09",
         "price": 162.15,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:06.223Z",
+        "capturedAt": "2026-11-21T17:58:47.223Z",
         "path": "/artists/lizzy-mcalpine/tickets/indianapolis-united-states"
       },
       {
@@ -398,9 +398,9 @@
         "venue": "Riverside Theater - WI",
         "eventId": "tm-lizzy-mcalpine-2027-milwaukee-z7r9jz1aaea0_",
         "localDate": "2027-05-10",
-        "price": 219.65,
+        "price": 235.75,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:49.364Z",
+        "capturedAt": "2026-11-21T17:59:16.547Z",
         "path": "/artists/lizzy-mcalpine/tickets/milwaukee-united-states"
       },
       {
@@ -411,7 +411,7 @@
         "localDate": "2027-05-12",
         "price": 175.95,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:06.348Z",
+        "capturedAt": "2026-11-21T17:58:47.323Z",
         "path": "/artists/lizzy-mcalpine/tickets/minneapolis-united-states"
       },
       {
@@ -422,7 +422,7 @@
         "localDate": "2027-05-17",
         "price": 264.5,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:49.695Z",
+        "capturedAt": "2026-11-21T17:59:16.718Z",
         "path": "/artists/lizzy-mcalpine/tickets/kansas-city-united-states"
       },
       {
@@ -433,7 +433,7 @@
         "localDate": "2027-06-16",
         "price": 67.85,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:06.546Z",
+        "capturedAt": "2026-11-21T17:58:47.408Z",
         "path": "/artists/lizzy-mcalpine/tickets/nashville-united-states"
       },
       {
@@ -442,9 +442,9 @@
         "venue": "Xfinity Mobile Arena",
         "eventId": "tm-lizzy-mcalpine-2027-philadelphia-1ayzkfsgkdubyxp",
         "localDate": "2027-06-18",
-        "price": 106.95,
+        "price": 109.25,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:06.660Z",
+        "capturedAt": "2026-11-21T17:58:47.516Z",
         "path": "/artists/lizzy-mcalpine/tickets/philadelphia-united-states"
       },
       {
@@ -455,7 +455,7 @@
         "localDate": "2027-06-20",
         "price": 143.75,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:06.779Z",
+        "capturedAt": "2026-11-21T17:58:47.597Z",
         "path": "/artists/lizzy-mcalpine/tickets/boston-united-states"
       },
       {
@@ -464,9 +464,9 @@
         "venue": "Madison Square Garden",
         "eventId": "tm-lizzy-mcalpine-2027-new-york-g5diz_kr8e3se",
         "localDate": "2027-06-24",
-        "price": 103.5,
+        "price": 134.55,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:06.903Z",
+        "capturedAt": "2026-11-21T17:58:47.694Z",
         "path": "/artists/lizzy-mcalpine/tickets/new-york-united-states"
       },
       {
@@ -475,9 +475,9 @@
         "venue": "Merriweather Post Pavilion",
         "eventId": "tm-lizzy-mcalpine-2027-columbia-1a4zkfmgkejxp8r",
         "localDate": "2027-06-25",
-        "price": 58.65,
+        "price": 90.85,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:07.023Z",
+        "capturedAt": "2026-11-21T17:58:47.783Z",
         "path": "/artists/lizzy-mcalpine/tickets/columbia-united-states"
       },
       {
@@ -488,7 +488,7 @@
         "localDate": "2027-06-29",
         "price": 98.9,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:07.134Z",
+        "capturedAt": "2026-11-21T17:58:47.862Z",
         "path": "/artists/lizzy-mcalpine/tickets/chicago-united-states"
       },
       {
@@ -499,7 +499,7 @@
         "localDate": "2027-07-02",
         "price": 75.9,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:07.251Z",
+        "capturedAt": "2026-11-21T17:58:47.957Z",
         "path": "/artists/lizzy-mcalpine/tickets/austin-united-states"
       },
       {
@@ -508,9 +508,9 @@
         "venue": "Red Rocks Amphitheatre",
         "eventId": "tm-lizzy-mcalpine-2027-morrison-z7r9jz1aaeax6",
         "localDate": "2027-07-06",
-        "price": 103.5,
+        "price": 105.8,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:50.171Z",
+        "capturedAt": "2026-11-21T17:59:16.884Z",
         "path": "/artists/lizzy-mcalpine/tickets/morrison-united-states"
       },
       {
@@ -519,9 +519,9 @@
         "venue": "The Rady Shell at Jacobs Park",
         "eventId": "tm-lizzy-mcalpine-2027-san-diego-vvg1iz_k_8qjmi",
         "localDate": "2027-07-09",
-        "price": 66.7,
+        "price": 69,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:07.368Z",
+        "capturedAt": "2026-11-21T17:58:48.044Z",
         "path": "/artists/lizzy-mcalpine/tickets/san-diego-united-states"
       },
       {
@@ -530,9 +530,9 @@
         "venue": "Kia Forum",
         "eventId": "tm-lizzy-mcalpine-2027-inglewood-vv1aazkfugkdnwr6l",
         "localDate": "2027-07-10",
-        "price": 85.1,
+        "price": 103.5,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:07.501Z",
+        "capturedAt": "2026-11-21T17:58:48.142Z",
         "path": "/artists/lizzy-mcalpine/tickets/inglewood-united-states"
       },
       {
@@ -541,9 +541,9 @@
         "venue": "Chase Center",
         "eventId": "tm-lizzy-mcalpine-2027-san-francisco-g5vyz_k6tphz4",
         "localDate": "2027-07-13",
-        "price": 47.15,
+        "price": 46,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:07.604Z",
+        "capturedAt": "2026-11-21T17:58:48.217Z",
         "path": "/artists/lizzy-mcalpine/tickets/san-francisco-united-states"
       },
       {
@@ -554,7 +554,7 @@
         "localDate": "2027-07-15",
         "price": 78.2,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:07.752Z",
+        "capturedAt": "2026-11-21T17:58:48.310Z",
         "path": "/artists/lizzy-mcalpine/tickets/portland-united-states"
       },
       {
@@ -565,7 +565,7 @@
         "localDate": "2027-07-17",
         "price": 66.7,
         "currency": "USD",
-        "capturedAt": "2026-11-20T03:20:07.869Z",
+        "capturedAt": "2026-11-21T17:58:48.391Z",
         "path": "/artists/lizzy-mcalpine/tickets/seattle-united-states"
       }
     ]

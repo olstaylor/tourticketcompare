@@ -41,7 +41,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
-import { humanRedirectSql } from "./lib/human-clicks.mjs";
+import { humanRedirectSql, suspectedBotRedirectSql } from "./lib/human-clicks.mjs";
 import { assertNoPersonalColumns, assertReadOnlySql, parseWranglerJson } from "./report-commercial-funnel.mjs";
 import {
   buildAttributionStatements,
@@ -59,6 +59,20 @@ const LABEL = "automation:funnel-daily";
 const DAY_MS = 24 * 60 * 60 * 1000;
 const ACTION_LOOKBACK_DAYS = 45; // Impact's per-request span limit.
 export const IMPACT_LANES = ["stubhub-international", "vivid-seats", "seatgeek", "ticketnetwork", "ticket-liquidator"];
+
+// First UTC day each lane's redirects carried the click ID to Impact as Sub ID 1
+// (docs/OPERATIONS.md: SeatGeek and Vivid Seats 2026-10-01; the three Impact
+// marketplace lanes 2026-10-16). An order whose Impact date is BEFORE its lane's
+// start cannot have a Sub ID, so it is a known pre-tracking order, not a gap.
+// An order dated after the start without a Sub ID is still a gap (the click may
+// predate the start), so this only excludes the certain cases.
+export const SUB_ID_START = Object.freeze({
+  seatgeek: "2026-10-01",
+  "vivid-seats": "2026-10-01",
+  "stubhub-international": "2026-10-16",
+  ticketnetwork: "2026-10-16",
+  "ticket-liquidator": "2026-10-16"
+});
 
 export const THRESHOLDS = Object.freeze({
   leakMinUnbacked: 50,     // ignore a handful of stray direct hits
@@ -112,7 +126,7 @@ export function buildStatements({ since, until }) {
   const statements = [
     {
       key: "daily",
-      sql: `SELECT ${day} AS day, COUNT(DISTINCT CASE WHEN event_name = 'page_view' THEN request_key END) AS visitors, COUNT(DISTINCT CASE WHEN event_name = 'page_view' AND acquisition_source = 'organic_search' THEN request_key END) AS search_visitors, COUNT(DISTINCT CASE WHEN event_name = 'provider_click' THEN request_key END) AS clickers, SUM(event_name = 'provider_click') AS beacons, SUM(event_name = 'outbound_click') AS redirects FROM analytics_events WHERE event_name IN ('page_view', 'provider_click', 'outbound_click') AND request_key IS NOT NULL AND ${window} GROUP BY 1`,
+      sql: `SELECT ${day} AS day, COUNT(DISTINCT CASE WHEN event_name = 'page_view' THEN request_key END) AS visitors, COUNT(DISTINCT CASE WHEN event_name = 'page_view' AND acquisition_source = 'organic_search' THEN request_key END) AS search_visitors, COUNT(DISTINCT CASE WHEN event_name = 'page_view' AND acquisition_source = 'organic_search' AND device_category = 'mobile' THEN request_key END) AS search_mobile, COUNT(DISTINCT CASE WHEN event_name = 'provider_click' THEN request_key END) AS clickers, SUM(event_name = 'provider_click') AS beacons, SUM(event_name = 'outbound_click') AS redirects, SUM(event_name = 'outbound_click' AND ${suspectedBotRedirectSql()}) AS forged FROM analytics_events WHERE event_name IN ('page_view', 'provider_click', 'outbound_click') AND request_key IS NOT NULL AND ${window} GROUP BY 1`,
     },
     {
       key: "realRedirects",
@@ -133,12 +147,15 @@ export function buildStatements({ since, until }) {
 // Impact side: actions by state over the lookback, last action date, and how
 // many join a retained TTC click by SubId1. Never estimated: when Impact cannot
 // be read, `available` is false and the report says sales are unknown.
-export function summarizeImpact(actions, matched, { error = null, configured = true, coverage = null, attributionError = null } = {}) {
+export function summarizeImpact(actions, matched, { error = null, configured = true, coverage = null, attributionError = null, campaignToProvider = null } = {}) {
   if (!configured || error) return { available: false, reason: error || "Impact credentials are not configured" };
   const states = { APPROVED: { count: 0, payout: 0 }, PENDING: { count: 0, payout: 0 }, REVERSED: { count: 0, payout: 0 }, UNKNOWN: { count: 0, payout: 0 } };
   let lastDay = null;
+  let preSubId = 0;
   const currencies = new Set();
   for (const a of actions) {
+    const lane = campaignToProvider?.get(a.campaignId);
+    if (!a.subId1 && a.day && lane && SUB_ID_START[lane] && a.day.slice(0, 10) < SUB_ID_START[lane]) preSubId += 1;
     const s = states[a.state] || states.UNKNOWN;
     s.count += 1;
     s.payout += a.payout;
@@ -146,7 +163,7 @@ export function summarizeImpact(actions, matched, { error = null, configured = t
     if (a.day && (!lastDay || a.day > lastDay)) lastDay = a.day;
   }
   return { available: true, total: actions.length, states, lastDay, currency: [...currencies].join("/") || null,
-    coverage, attributionError, matched: attributionError ? null : matched.length,
+    coverage, attributionError, preSubId, matched: attributionError ? null : matched.length,
     matchedByProvider: matched.reduce((m, o) => ({ ...m, [o.provider]: (m[o.provider] || 0) + 1 }), {}) };
 }
 
@@ -156,8 +173,13 @@ export function buildFunnel(results, range, impact) {
     const row = (results.daily || []).find((r) => r.day === d) || {};
     const real = (results.realRedirects || []).filter((r) => r.day === d);
     const realClicks = real.reduce((s, r) => s + num(r.clicks), 0);
-    return { day: d, visitors: num(row.visitors), searchVisitors: num(row.search_visitors), clickers: num(row.clickers),
-      beacons: num(row.beacons), redirects: num(row.redirects), realClicks, unbacked: Math.max(0, num(row.redirects) - realClicks) };
+    // `unbacked` (all redirects without page evidence) keeps the original
+    // meaning the redirect_leak flag uses. `forged` and `noEvidence` split it
+    // for display: the forged-home pattern that #2376 now refuses, and the rest.
+    const unbacked = Math.max(0, num(row.redirects) - realClicks);
+    const forged = Math.min(num(row.forged), unbacked);
+    return { day: d, visitors: num(row.visitors), searchVisitors: num(row.search_visitors), searchMobile: num(row.search_mobile), clickers: num(row.clickers),
+      beacons: num(row.beacons), redirects: num(row.redirects), realClicks, unbacked, forged, noEvidence: unbacked - forged };
   });
   const last = range.days.at(-1);
   const providers = {};
@@ -196,9 +218,12 @@ export function evaluateFlags(funnel, t = THRESHOLDS) {
   if (clickDrop) {
     add("click_drop", "red", `${clickDrop.latest} real ticket redirects on ${y.day}, against a typical ${clickDrop.typical} a day this week and ${clickDrop.sameWeekday} on the same weekday last week. Check the price buttons and /api/out.`);
   }
-  const searchDrop = dropAgainstBaseline(funnel.days, "searchVisitors", t.searchDropMinMedian, t.searchDropShare);
+  // Mobile only: 13-17 Nov 2026 a desktop-only surge of search visitor-days that
+  // never clicked a seller (mobile stayed flat) inflated the baseline, so the
+  // all-device count fired on the surge ending, not on lost traffic.
+  const searchDrop = dropAgainstBaseline(funnel.days, "searchMobile", t.searchDropMinMedian, t.searchDropShare);
   if (searchDrop) {
-    add("search_drop", "amber", `${searchDrop.latest} visitors from search on ${y.day}, against a typical ${searchDrop.typical} a day this week and ${searchDrop.sameWeekday} on the same weekday last week. Check Search Console and the site-health crawl.`);
+    add("search_drop", "amber", `${searchDrop.latest} mobile visitors from search on ${y.day}, against a typical ${searchDrop.typical} a day this week and ${searchDrop.sameWeekday} on the same weekday last week. Check Search Console and the site-health crawl.`);
   }
   if (y.beacons >= t.beaconGapMinBeacons && y.realClicks < t.beaconGapMinShare * y.beacons) {
     add("beacon_gap", "amber", `${y.beacons} button clicks on ${y.day} but only ${y.realClicks} real redirects.`);
@@ -209,8 +234,9 @@ export function evaluateFlags(funnel, t = THRESHOLDS) {
   } else {
     if (impact.attributionError) {
       add("attribution_unavailable", "amber", "Impact orders were read, but the retained-click lookup failed. Order attribution is unknown; retry the read before diagnosing missing clicks.");
-    } else if (impact.total > impact.matched) {
-      add("attribution_gap", "amber", `${impact.total - impact.matched} of ${impact.total} Impact orders could not be tied to a TTC click by Sub ID. Their originating pages remain unknown; inspect the attribution breakdown below.`);
+    } else if (impact.total - impact.matched - (impact.preSubId || 0) > 0) {
+      const gap = impact.total - impact.matched - (impact.preSubId || 0);
+      add("attribution_gap", "amber", `${gap} of ${impact.total} Impact orders could not be tied to a TTC click by Sub ID${impact.preSubId ? ` (not counting ${impact.preSubId} dated before Sub IDs started on that seller)` : ""}. Their originating pages remain unknown; inspect the attribution breakdown below.`);
     }
     const since = impact.lastDay ? Math.round((Date.parse(funnel.generatedAt) - Date.parse(impact.lastDay)) / DAY_MS) : null;
     if (since === null || since >= t.noSalesDays) {
@@ -238,9 +264,9 @@ export function renderFunnel(funnel, flags) {
     "",
     ...flags.map((f) => `- ${f.level === "red" ? "🔴" : "🟠"} \`${f.id}\` ${f.text}`),
     "",
-    "| Day | Visitors | From search | Clickers | Real redirects | Redirects with no page visit |",
-    "|---|---:|---:|---:|---:|---:|",
-    ...funnel.days.map((d) => `| ${d.day} | ${fmt(d.visitors)} | ${fmt(d.searchVisitors)} | ${fmt(d.clickers)} | ${fmt(d.realClicks)} | ${fmt(d.unbacked)} |`),
+    "| Day | Visitors | From search | Mobile from search | Clickers | Page-backed redirects | No page evidence | Forged home-page source |",
+    "|---|---:|---:|---:|---:|---:|---:|---:|",
+    ...funnel.days.map((d) => `| ${d.day} | ${fmt(d.visitors)} | ${fmt(d.searchVisitors)} | ${fmt(d.searchMobile)} | ${fmt(d.clickers)} | ${fmt(d.realClicks)} | ${fmt(d.noEvidence)} | ${fmt(d.forged)} |`),
     "",
     `## By provider, ${funnel.latest.day}`,
     "",
@@ -263,7 +289,7 @@ export function renderFunnel(funnel, flags) {
       "|---|---:|---:|",
       ...["APPROVED", "PENDING", "REVERSED", "UNKNOWN"].filter((k) => s[k].count || k !== "UNKNOWN").map((k) => `| ${k.toLowerCase()} | ${s[k].count} | ${s[k].payout.toFixed(2)}${cur} |`),
       "",
-      `Last order: ${impact.lastDay || "none"}. Orders tied to a TTC click by Sub ID: ${impact.matched === null ? "unknown" : impact.matched} of ${impact.total}${impact.matched ? ` (${Object.entries(impact.matchedByProvider).map(([p, n]) => `${p} ${n}`).join(", ")})` : ""}. Only approved payout is earned.`
+      `Last order: ${impact.lastDay || "none"}. Orders tied to a TTC click by Sub ID: ${impact.matched === null ? "unknown" : impact.matched} of ${impact.total}${impact.matched ? ` (${Object.entries(impact.matchedByProvider).map(([p, n]) => `${p} ${n}`).join(", ")})` : ""}${impact.preSubId ? `; ${impact.preSubId} dated before Sub IDs started on their seller (SeatGeek, Vivid Seats 1 Oct; StubHub Intl, TicketNetwork, Ticket Liquidator 16 Oct)` : ""}. Only approved payout is earned.`
     );
     if (impact.attributionError) {
       lines.push("", "Attribution lookup unavailable. Order states and payouts above still come from Impact; no zero-match result is claimed.");
@@ -286,7 +312,7 @@ export function renderFunnel(funnel, flags) {
   }
   lines.push(
     "",
-    "How it is counted: visitors and clickers are visitor-days, not verified people. Real redirects are page-backed /api/out receipts; browser automation can still qualify. Orders, states and payout are Impact's own numbers, never estimated. Written by `scripts/report-funnel-daily.mjs`."
+    "How it is counted: visitors and clickers are visitor-days, not verified people. Page-backed redirects are /api/out receipts whose visitor also sent a page event that day (an upper bound on people: browser automation can still qualify). \"No page evidence\" redirects are unproven, not shown to be bots. \"Forged home-page source\" redirects claim to come from the home page with a button it does not render; the redirect refuses them from 20 Nov, so older days still show them. Search visitors on desktop are shown but not used for the search_drop flag (see #2376 and the 13-17 Nov desktop surge in the audit). Orders, states and payout are Impact's own numbers, never estimated. Written by `scripts/report-funnel-daily.mjs`."
   );
   return lines.join("\n");
 }
@@ -330,8 +356,9 @@ async function readImpact(range, local) {
     } catch {
       return summarizeImpact(actions, [], { attributionError: true });
     }
-    const { matched, coverage } = matchSubIdAttribution(actions, indexClickRows(rows), resolveCampaignProviderMap());
-    return summarizeImpact(actions, matched, { coverage });
+    const campaignToProvider = resolveCampaignProviderMap();
+    const { matched, coverage } = matchSubIdAttribution(actions, indexClickRows(rows), campaignToProvider);
+    return summarizeImpact(actions, matched, { coverage, campaignToProvider });
   } catch (err) {
     return summarizeImpact([], [], { error: err.message });
   }
@@ -374,7 +401,7 @@ function selfTest() {
 
   // Shaped on 22 Oct 2026: ~1,800 redirects, 33 page-backed, Sub IDs intact.
   const results = {
-    daily: [{ day: "2026-10-22", visitors: 134, search_visitors: 46, clickers: 24, beacons: 37, redirects: 1802 }],
+    daily: [{ day: "2026-10-22", visitors: 134, search_visitors: 46, search_mobile: 30, clickers: 24, beacons: 37, redirects: 1802, forged: 600 }],
     realRedirects: [
       { day: "2026-10-22", provider: "stubhub-international", clicks: 19, with_sub_id: 19 },
       { day: "2026-10-22", provider: "ticketnetwork", clicks: 10, with_sub_id: 2 },
@@ -390,6 +417,10 @@ function selfTest() {
   const funnel = buildFunnel(results, range, impact);
   assert.equal(funnel.latest.realClicks, 33);
   assert.equal(funnel.latest.unbacked, 1769);
+  assert.equal(funnel.latest.forged, 600, "forged-home redirects are split out");
+  assert.equal(funnel.latest.noEvidence, 1169, "the rest of the unbacked redirects have no page evidence");
+  assert.equal(funnel.latest.forged + funnel.latest.noEvidence, funnel.latest.unbacked, "the split adds back to the unbacked total");
+  assert.ok(statements[0].sql.includes("suspected") === false && statements[0].sql.includes("source_path"), "daily statement counts forged-home redirects");
   assert.equal(funnel.days[0].visitors, 0, "a day with no rows reads as zero");
   const flags = evaluateFlags(funnel);
   const ids = flags.map((f) => f.id);
@@ -406,7 +437,7 @@ function selfTest() {
 
   const md = renderFunnel(funnel, flags);
   assert.ok(md.includes("<!-- flags:attribution_gap,no_sales,provider_redirect_missing,redirect_leak,sub_id_gap -->"));
-  assert.ok(md.includes("| 2026-10-22 | 134 | 46 | 24 | 33 | 1,769 |"));
+  assert.ok(md.includes("| 2026-10-22 | 134 | 46 | 30 | 24 | 33 | 1,169 | 600 |"));
   assert.ok(md.includes("| ticketmaster | 0 | 4 | n/a |"));
   assert.ok(md.includes("| pending | 1 | 26.86 GBP |"));
   assert.ok(md.includes("tied to a TTC click by Sub ID: 1 of 2 (vivid-seats 1)"));
@@ -458,12 +489,36 @@ function selfTest() {
   assert.equal(dropAgainstBaseline(week([3, 4, 2, 5, 3, 4, 3, 0], []), "realClicks", 10, 0.3), null, "too little volume to call");
   assert.equal(dropAgainstBaseline(week([20, 22, 4], []), "realClicks", 10, 0.3), null, "a short window never reports");
   assert.ok(dropAgainstBaseline(week([...Array(23).fill(1), 100, 100, 100, 100, 100, 100, 100, 10], []), "realClicks", 10, 0.3), "a longer report window does not dilute the 7-day baseline");
-  const dropDays = [20, 22, 18, 25, 21, 19, 23, 4].map((c, i) => ({ day: `2026-10-${15 + i}`, visitors: 200, searchVisitors: 60, clickers: 20, beacons: c, redirects: c, realClicks: c, unbacked: 0 }));
+  const dropDays = [20, 22, 18, 25, 21, 19, 23, 4].map((c, i) => ({ day: `2026-10-${15 + i}`, visitors: 200, searchVisitors: 60, searchMobile: 60, clickers: 20, beacons: c, redirects: c, realClicks: c, unbacked: 0 }));
   const dropFlags = evaluateFlags({ ...healthyFunnelShape(dropDays), impact: summarizeImpact([{ state: "PENDING", payout: 1, currency: "GBP", day: "2026-10-22" }], [{ provider: "vivid-seats" }]) });
   assert.deepEqual(dropFlags.map((f) => f.id), ["click_drop"], "a sharp fall is red, nothing else fires");
   const outageDays = dropDays.map((d, i) => (i === 7 ? { ...d, visitors: 0, searchVisitors: 0, beacons: 0, redirects: 0, realClicks: 0 } : d));
   const outageFlags = evaluateFlags({ ...healthyFunnelShape(outageDays), impact: summarizeImpact([{ state: "PENDING", payout: 1, currency: "GBP", day: "2026-10-22" }], [{ provider: "vivid-seats" }]) });
   assert.ok(outageFlags.some((f) => f.id === "click_drop"), "a zero day with too few visitors for no_clicks still raises click_drop");
+
+  // 13-17 Nov 2026 shape: an all-device search surge (desktop, never clicked) that ends
+  // must not read as a search drop while mobile search visitors are steady.
+  const surge = [75, 70, 80, 85, 460, 430, 470, 60].map((all, i) => ({ day: `2026-11-${13 + i}`, visitors: 300, searchVisitors: all, searchMobile: 70, clickers: 40, beacons: 40, redirects: 40, realClicks: 40, unbacked: 0, forged: 0, noEvidence: 0 }));
+  const surgeFlags = evaluateFlags({ ...healthyFunnelShape(surge), impact: summarizeImpact([{ state: "PENDING", payout: 1, currency: "GBP", day: "2026-11-20" }], [{ provider: "vivid-seats" }]) });
+  assert.ok(!surgeFlags.some((f) => f.id === "search_drop"), "an ended desktop surge is not a search drop");
+  const realFall = surge.map((d, i) => (i === 7 ? { ...d, searchMobile: 10 } : d));
+  assert.ok(evaluateFlags({ ...healthyFunnelShape(realFall), impact: summarizeImpact([{ state: "PENDING", payout: 1, currency: "GBP", day: "2026-11-20" }], [{ provider: "vivid-seats" }]) }).some((f) => f.id === "search_drop" && f.text.includes("mobile")), "a real mobile fall still flags");
+
+  // Orders dated before Sub IDs started on their seller are not an attribution gap.
+  const lanes = new Map([["24092", "stubhub-international"], ["20501", "seatgeek"]]);
+  const pre = [
+    { id: "a", state: "APPROVED", payout: 121.73, currency: "GBP", day: "2026-10-11", subId1: null, campaignId: "24092" },
+    { id: "b", state: "APPROVED", payout: 4.56, currency: "GBP", day: "2026-10-07", subId1: null, campaignId: "24092" },
+    { id: "c", state: "PENDING", payout: 7, currency: "GBP", day: "2026-10-20", subId1: null, campaignId: "24092" }
+  ];
+  const preImpact = summarizeImpact(pre, [], { coverage: {}, campaignToProvider: lanes });
+  assert.equal(preImpact.preSubId, 2, "only orders before the lane's start date");
+  const preFlags = evaluateFlags(buildFunnel(healthyResults, range, preImpact));
+  assert.ok(preFlags.some((f) => f.id === "attribution_gap" && f.text.startsWith("1 of 3") && f.text.includes("2 dated before")), "a later order without a Sub ID still flags");
+  const allPre = summarizeImpact(pre.slice(0, 2), [], { coverage: {}, campaignToProvider: lanes });
+  assert.ok(!evaluateFlags(buildFunnel(healthyResults, range, allPre)).some((f) => f.id === "attribution_gap"), "known pre-tracking orders alone raise nothing");
+  assert.ok(renderFunnel(buildFunnel(healthyResults, range, allPre), []).includes("2 dated before Sub IDs started"));
+  assert.equal(summarizeImpact(pre, [], { coverage: {} }).preSubId, 0, "without a campaign map nothing is excluded");
 
   // Notify once per new red flag, not nightly.
   assert.deepEqual(newRedFlags(md, flags).map((f) => f.id), []);

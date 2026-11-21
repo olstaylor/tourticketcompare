@@ -200,6 +200,39 @@
   // "results" block between the search and the artist list.
   var searchSeq = 0;
 
+  var SEARCH_FILLER = new Set(["ticket", "tickets", "tour", "tours", "concert", "concerts", "price", "prices", "cheap", "cheapest", "for", "the"]);
+
+  function editDistance(a, b) {
+    var prev = [];
+    for (var j = 0; j <= b.length; j++) prev[j] = j;
+    for (var i = 1; i <= a.length; i++) {
+      var cur = [i];
+      for (var k = 1; k <= b.length; k++) {
+        cur[k] = Math.min(prev[k] + 1, cur[k - 1] + 1, prev[k - 1] + (a[i - 1] === b[k - 1] ? 0 : 1));
+      }
+      prev = cur;
+    }
+    return prev[b.length];
+  }
+
+  // Typo help for artist names only ("oliva rodrigo", "metalica"). One slip
+  // is allowed up to seven letters, two beyond that; very short queries get
+  // none, so nothing unrelated is suggested.
+  function fuzzyArtists(index, phrase) {
+    if (phrase.length < 4) return [];
+    var limit = phrase.length >= 8 ? 2 : 1;
+    return index
+      .filter(function (entry) { return entry.hub && entry.href.indexOf("/artists/") === 0; })
+      .map(function (entry) {
+        var d = Math.min(editDistance(phrase, entry.search), editDistance(phrase, entry.search.slice(0, phrase.length)));
+        return { entry: entry, d: d };
+      })
+      .filter(function (item) { return item.d <= limit; })
+      .sort(function (a, b) { return a.d - b.d; })
+      .slice(0, 3)
+      .map(function (item) { return item.entry; });
+  }
+
   async function renderResults(query) {
     var container = document.querySelector("#search-widget .search-results");
     if (!container) return;
@@ -219,6 +252,11 @@
     // Every word must match somewhere, so "olivia rodrigo chicago" finds the
     // date even though the tour name sits between artist and city.
     var words = term.split(/\s+/).filter(Boolean);
+    // "zach bryan tickets" should still find Zach Bryan: filler words are
+    // dropped when something else is left to match.
+    var keyWords = words.filter(function (word) { return !SEARCH_FILLER.has(word); });
+    if (keyWords.length) words = keyWords;
+    var phrase = words.join(" ");
     // At most six pages, so a broad word such as "united" still leaves room
     // for dates.
     var hubCount = 0;
@@ -226,18 +264,48 @@
       if (!words.every(function (word) { return entry.search.includes(word); })) return false;
       if (entry.hub && ++hubCount > 6) return false;
       return true;
-    }).slice(0, 12);
+    });
+    // Names that start with what was typed come first, then whole-word
+    // matches, then matches inside a word ("ab" lists ABBA before Sabaton).
+    // The sort is stable, so the pages-then-guides-then-dates order holds.
+    function rank(entry) {
+      if (entry.search.startsWith(phrase)) return 0;
+      var padded = " " + entry.search;
+      return words.every(function (word) { return padded.includes(" " + word); }) ? 1 : 2;
+    }
+    matches = matches.map(function (entry, i) { return { entry: entry, i: i, r: rank(entry) }; })
+      .sort(function (a, b) { return a.r - b.r || a.i - b.i; })
+      .map(function (item) { return item.entry; })
+      .slice(0, 12);
+    var suggestions = [];
+    if (!matches.length) suggestions = fuzzyArtists(await buildIndex(), phrase);
     // A later keystroke has already started its own search; drop this one.
     if (seq !== searchSeq) return;
     container.replaceChildren();
     if (!matches.length) {
       var empty = document.createElement("p");
       empty.className = "muted";
-      empty.append("No checked artist, show, or guide matches that search. ");
+      var shown = query.trim();
+      if (suggestions.length) {
+        empty.textContent = "No exact match for \u201c" + shown + "\u201d. Did you mean:";
+        container.appendChild(empty);
+        var did = document.createElement("div");
+        did.className = "mini-link-grid";
+        suggestions.forEach(function (entry) {
+          var a = document.createElement("a");
+          a.className = "mini-link";
+          a.href = entry.href;
+          a.textContent = entry.label;
+          did.appendChild(a);
+        });
+        container.appendChild(did);
+        return;
+      }
+      empty.append("We don\u2019t list \u201c" + shown + "\u201d yet. Check the spelling, or ");
       var browse = document.createElement("a");
       browse.href = "/artists";
-      browse.textContent = "Browse all artists";
-      empty.append(browse, " instead.");
+      browse.textContent = "browse all artists";
+      empty.append(browse, ".");
       container.appendChild(empty);
       return;
     }

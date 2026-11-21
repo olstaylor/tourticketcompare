@@ -352,7 +352,11 @@ remain in the consumers. Errors still veto sync publication. Both scripts now
 exit nonzero **after writing their evidence** on unresolved fetch errors;
 the audit's existing continue-on-error step retains the rolling findings and
 marks `tm-status.json` failed, then a final failure step makes the job red and
-withholds verification dates. Malformed/mismatched 200s are errors, never a
+withholds verification dates. Exception (2026-11-21): when only a few events were
+unfetchable (at most 1% of checked events and 25), `scripts/classify-tm-audit-status.mjs`
+writes `partial` instead; the run stays green and `bump-verified-dates.mjs` still holds
+every artist with a current-event error, so only artists whose events were all checked
+are stamped. Malformed/mismatched 200s are errors, never a
 clean audit.
 
 Logs, JSON reports (`requests`) and job summaries expose `events_requested`,

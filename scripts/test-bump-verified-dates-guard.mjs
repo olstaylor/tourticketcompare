@@ -6,6 +6,7 @@
 // happy path only bumps clean-on-both artists.
 
 import { spawnSync } from 'node:child_process';
+import { classifyTmAudit } from './classify-tm-audit-status.mjs';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -169,6 +170,29 @@ console.log('Case 6: dry-run with ok status -> reports candidates, does not modi
   expect('mentions clean-artist as candidate', /clean-artist/.test(r.stdout), r.stdout);
   const after = fs.readFileSync(ctx.artistsPath, 'utf8');
   expect('artists.json unchanged', before === after);
+}
+
+console.log('Case 7: tm-status partial -> clean artists bumped, the erroring artist held');
+{
+  const ctx = setupCase('partial', { tmStatus: { status: 'partial' } });
+  const r = runBump(ctx);
+  expect('exit code 0', r.code === 0, `code=${r.code} stderr=${r.stderr}`);
+  const bumped = bumpedSlugs(ctx.artistsPath);
+  expect('clean-artist bumped', bumped.includes('clean-artist'), `bumped=${JSON.stringify(bumped)}`);
+  expect('tm-error-artist NOT bumped', !bumped.includes('tm-error-artist'));
+  expect('tm-missing-artist NOT bumped', !bumped.includes('tm-missing-artist'));
+}
+
+console.log('Case 8: classifyTmAudit');
+{
+  const tm = (errors, checked) => ({ artists: [], totals: { errors, checked } });
+  expect('exit 0 is ok', classifyTmAudit({ exitCode: 0, tm: null }).status === 'ok');
+  expect('1 error in 4857 is partial', classifyTmAudit({ exitCode: 1, tm: tm(1, 4857) }).status === 'partial');
+  expect('25 errors in 4857 is partial', classifyTmAudit({ exitCode: 1, tm: tm(25, 4857) }).status === 'partial');
+  expect('26 errors in 4857 is failed', classifyTmAudit({ exitCode: 1, tm: tm(26, 4857) }).status === 'failed');
+  expect('1 error in 50 events is failed', classifyTmAudit({ exitCode: 1, tm: tm(1, 50) }).status === 'failed');
+  expect('missing evidence is failed', classifyTmAudit({ exitCode: 1, tm: null }).status === 'failed');
+  expect('crash exit code is failed', classifyTmAudit({ exitCode: 2, tm: tm(1, 4857) }).status === 'failed');
 }
 
 fs.rmSync(tmpRoot, { recursive: true, force: true });

@@ -2876,7 +2876,7 @@ function renderLocationProvenance(reportLabel, lastUpdated = "") {
     // P8 (owner-approved 2026-09-24): the newest last_verified_at was often a
     // July date on a page whose prices were checked that morning. The nightly
     // field-sync and daily audit re-check every listed date, so say that.
-    checked ? " · Dates checked daily" : ""
+    checked ? " · Dates checked nightly for changes" : ""
   } · ${anchor(reportLabel, "/contact")}</p></section>`;
 }
 
@@ -3197,7 +3197,7 @@ function escapeRegExp(value) {
 function isShellArtistSummary(text, name) {
   const n = escapeRegExp(String(name || "").trim());
   if (!n) return false;
-  return new RegExp(`^${n} is listed by Ticketmaster(?: under [^.]+)?\\. The dates on this page come from Ticketmaster and are checked daily\\.$`).test(String(text || "").trim());
+  return new RegExp(`^${n} is listed by Ticketmaster(?: under [^.]+)?\\. The dates on this page come from Ticketmaster and are checked (?:daily|nightly for changes)\\.$`).test(String(text || "").trim());
 }
 function isShellTicketBuyingNote(text, name) {
   const n = String(name || "").trim();
@@ -5471,7 +5471,7 @@ function renderVerificationDisclosure(artist, hasShows = true) {
   // printing it would be a freshness claim attached to nothing.
   const artistVerifiedDate = hasShows ? formatVerificationDate(artist.last_verified_at) : null;
   const checkedLine = artistVerifiedDate
-    ? `<p><strong>Last checked:</strong> ticket links checked automatically against the ticket site on ${escapeHtml(
+    ? `<p><strong>Last checked:</strong> a seller link was checked on ${escapeHtml(
         artistVerifiedDate
       )}.</p>`
     : "";

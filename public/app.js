@@ -1626,7 +1626,7 @@ function showStartMs(show) {
 function isShellArtistSummary(textValue, name) {
   const n = String(name || "").trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   if (!n) return false;
-  return new RegExp(`^${n} is listed by Ticketmaster(?: under [^.]+)?\\. The dates on this page come from Ticketmaster and are checked daily\\.$`).test(String(textValue || "").trim());
+  return new RegExp(`^${n} is listed by Ticketmaster(?: under [^.]+)?\\. The dates on this page come from Ticketmaster and are checked (?:daily|nightly for changes)\\.$`).test(String(textValue || "").trim());
 }
 
 function isUpcomingShow(show, now = Date.now()) {

@@ -1438,7 +1438,7 @@
         "event_id": "8359855",
         "url": "https://www.ticketliquidator.com/tickets/8359855/Garth-Brooks-tickets-Sat-Dec-12-2026-Target-Center",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1508,7 +1508,7 @@
         "event_id": "8366616",
         "url": "https://www.ticketliquidator.com/tickets/8366616/Garth-Brooks-tickets-Fri-Feb-5-2027-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1582,7 +1582,7 @@
         "event_id": "8366617",
         "url": "https://www.ticketliquidator.com/tickets/8366617/Garth-Brooks-tickets-Sat-Feb-6-2027-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1709,12 +1709,20 @@
         "verified": true,
         "last_verified_at": "2026-11-20",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359854",
+        "url": "https://www.ticketliquidator.com/tickets/8359854/Garth-Brooks-tickets-Fri-Dec-11-2026-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAFF6",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "genre": "Country",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359854"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359854",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359854/Garth-Brooks-tickets-Fri-Dec-11-2026-Target-Center"
   }
 ]

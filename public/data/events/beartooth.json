@@ -772,11 +772,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107417483",
-        "url": "https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_1NJ0Ag4",
@@ -784,7 +784,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980215",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/beartooth-chicago-tickets-11-20-2026/event/107417483",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1418,7 +1418,7 @@
         "event_id": "107417485",
         "url": "https://www.stubhub.ie/beartooth-dallas-tickets-12-10-2026/event/107417485",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1721,7 +1721,7 @@
         "event_id": "107417486",
         "url": "https://www.stubhub.ie/beartooth-hollywood-tickets-12-18-2026/event/107417486",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },

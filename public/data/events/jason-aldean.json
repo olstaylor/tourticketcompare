@@ -94,7 +94,7 @@
     "vividseats_url": "https://www.vividseats.com/jason-aldean-tickets-durant-choctaw-grand-theater-3-6-2027/production/7880857",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jason-aldean-durant-oklahoma-03-06-2027/event/0C00655CA922565D",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -129,8 +129,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4wtFP_q",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

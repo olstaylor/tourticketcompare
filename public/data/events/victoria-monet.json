@@ -1099,7 +1099,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-washington-dc-the-anthem-11-27-2026--concerts-pop/production/7540341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1161,13 +1161,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/victoria-monet-washington-tickets-11-27-2026/event/107668328",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-09-16T14:00:00Z",
-        "end": "2026-11-21T03:00:00Z"
-      }
     ],
     "ticket_limit": 4,
     "genre": "Pop"

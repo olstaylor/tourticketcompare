@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-savannah-enmarket-arena-2-3-2027/production/7642178",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-savannah-georgia-02-03-2027/event/0E00653EC5E93533",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -72,6 +72,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-15T14:00:00Z",
         "end": "2027-01-27T04:55:00Z"
+      },
+      {
+        "name": "Me + 3 - 4 Pack Offer",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-01-01T04:59:00Z"
       },
       {
         "name": "2 For 1 Offer",

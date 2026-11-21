@@ -2704,7 +2704,7 @@
     "vividseats_url": "https://www.vividseats.com/a-perfect-circle-tickets-elizabethtown-steelgrove-amphitheater-5-19-2027/production/7890620",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/a-perfect-circle-with-special-guest-elizabethtown-kentucky-05-19-2027/event/1600656DADAB99A4",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2753,8 +2753,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkUcnyJ0",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "THE TOURING CO"
     ],

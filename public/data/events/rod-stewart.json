@@ -2319,7 +2319,7 @@
     "vividseats_url": "https://www.vividseats.com/rod-stewart-tickets-lexington-rupp-arena-3-21-2027/production/7880267",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rod-stewart-lexington-kentucky-03-21-2027/event/1600656C8B3C5240",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2368,8 +2368,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkw52AaZ",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 6,
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373810",

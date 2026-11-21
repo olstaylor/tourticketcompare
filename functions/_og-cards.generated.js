@@ -488,6 +488,7 @@ export const OG_CARDS = {
   "/artists/mariah-carey": {"url":"/og/artists-mariah-carey.png","alt":"Tickets & tour dates: Mariah Carey"},
   "/artists/mariah-carey/ticket-prices": {"url":"/og/artists-mariah-carey-ticket-prices.png","alt":"Ticket prices: Mariah Carey"},
   "/artists/mat-kearney": {"url":"/og/artists-mat-kearney.png","alt":"Tickets & tour dates: Mat Kearney"},
+  "/artists/mat-kearney/presale": {"url":"/og/artists-mat-kearney-presale.png","alt":"Presale: Mat Kearney"},
   "/artists/mat-kearney/ticket-prices": {"url":"/og/artists-mat-kearney-ticket-prices.png","alt":"Ticket prices: Mat Kearney"},
   "/artists/megadeth": {"url":"/og/artists-megadeth.png","alt":"Tickets & tour dates: Megadeth"},
   "/artists/megadeth/presale": {"url":"/og/artists-megadeth-presale.png","alt":"Presale: Megadeth"},

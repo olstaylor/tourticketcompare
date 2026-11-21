@@ -1368,7 +1368,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-uncasville-mohegan-sun-arena-ct-5-1-2027/production/7880161",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-celebrating-fifty-years-uncasville-connecticut-05-01-2027/event/1D00656DBAD45470",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1417,8 +1417,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_pUBgAoY",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "genre": "Rock",
     "presales": [
@@ -1447,7 +1446,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-bangor-maine-savings-amphitheater-7-16-2027/production/7880265",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bangor-maine-07-16-2027/event/0100656E32D5E544",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1496,8 +1495,7 @@
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkzwgr47",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC",
       "WATERFRONT CONCERTS"
@@ -1540,7 +1538,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-gilford-banknh-pavilion-7-17-2027/production/7880304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-gilford-new-hampshire-07-17-2027/event/0100656B2DF3EC65",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1575,8 +1573,7 @@
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkicHXsP",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1611,7 +1608,7 @@
     "vividseats_url": "https://www.vividseats.com/foreigner-tickets-bethel-bethel-woods-center-for-the-arts-7-18-2027/production/7880390",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/foreigner-classic-rock-meets-yacht-rock-bethel-new-york-07-18-2027/event/0000656CC7032639",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1660,8 +1657,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_pS6Zwby",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1698,7 +1694,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6uy",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1740,8 +1736,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6uy",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362541"
   },
@@ -1761,7 +1756,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8O",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1796,6 +1791,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ8O",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Rock"
   }
 ]

@@ -1056,7 +1056,7 @@
     "vividseats_url": "https://www.vividseats.com/interpol-tickets-los-angeles-bmo-stadium-5-14-2027/production/7880209",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/interpol-north-america-tour-2027-los-angeles-california-05-14-2027/event/0A00656DD13BEDB6",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1112,8 +1112,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pMoCXUU",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],

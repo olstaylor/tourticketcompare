@@ -1229,7 +1229,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-portland-moda-center-2-17-2027/production/7861285",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-portland-oregon-02-17-2027/event/0F006569984550C5",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1285,8 +1285,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pJbo4dA",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367336",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367336/Phoebe-Bridgers-tickets-Wed-Feb-17-2027-Moda-Center-at-the-Rose-Quarter",
     "organizer_names": [
@@ -1312,7 +1311,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-spokane-numerica-veterans-arena-2-18-2027--concerts-rock/production/7861689",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Z4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1361,8 +1360,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Z4",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T20:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367354",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367354/Phoebe-Bridgers-tickets-Thu-Feb-18-2027-Numerica-Veterans-Arena"
   },
@@ -1382,7 +1380,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-edmonton-alberta-02-20-2027/event/11006566C44F9121",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1431,8 +1429,7 @@
     },
     "ticketmaster_discovery_event_id": "1AoZk4JGkd7Ky7-",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367349",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367349/Phoebe-Bridgers-tickets-Sat-Feb-20-2027-Rogers-Place",
     "organizer_names": [
@@ -1458,7 +1455,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-winnipeg-canada-life-centre-2-23-2027--concerts-rock/production/7861657",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-winnipeg-manitoba-02-23-2027/event/1100656A8D6A4FB0",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1507,8 +1504,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_pGknuQ0XY",
     "timezone": "America/Winnipeg",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367350",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367350/Phoebe-Bridgers-tickets-Tue-Feb-23-2027-Canada-Life-Centre",
     "organizer_names": [
@@ -1533,7 +1529,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-kansas-city-t-mobile-center-2-26-2027--concerts-rock/production/7861701",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Zp",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1589,8 +1585,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Zp",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367390",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367390/Phoebe-Bridgers-tickets-Fri-Feb-26-2027-T-Mobile-Center",
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-kansas-city-tickets-2-26-2027/event/107682244"
@@ -1611,7 +1606,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-oklahoma-city-paycom-center-2-28-2027--concerts-rock/production/7861703",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Z9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1660,8 +1655,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Z9",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367391",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367391/Phoebe-Bridgers-tickets-Sun-Feb-28-2027-Paycom-Center"
   },
@@ -1681,7 +1675,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-lincoln-pinnacle-bank-arena-3-2-2027--concerts-rock/production/7861727",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Zb",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1730,8 +1724,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Zb",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367392",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367392/Phoebe-Bridgers-tickets-Tue-Mar-2-2027-Pinnacle-Bank-Arena"
   },
@@ -1751,7 +1744,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-milwaukee-fiserv-forum-3-4-2027/production/7861289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-milwaukee-wisconsin-03-04-2027/event/0700656996C12A6E",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1807,8 +1800,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kjZ_pJpG7Y3tm",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367338",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367338/Phoebe-Bridgers-tickets-Thu-Mar-4-2027-Fiserv-Forum",
     "organizer_names": [
@@ -1834,7 +1826,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-grand-rapids-van-andel-arena-3-6-2027--concerts-rock/production/7861749",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Z_",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1890,8 +1882,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Z_",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367393",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367393/Phoebe-Bridgers-tickets-Sat-Mar-6-2027-Van-Andel-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-grand-rapids-tickets-3-6-2027/event/107681031"
@@ -1912,7 +1903,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-cleveland-rocket-arena-3-7-2027--concerts-rock/production/7861751",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ZO",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1968,8 +1959,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8ZO",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367394",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367394/Phoebe-Bridgers-tickets-Sun-Mar-7-2027-Rocket-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/phoebe-bridgers-cleveland-tickets-3-7-2027/event/107682233"
@@ -1990,7 +1980,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-raleigh-lenovo-center-3-9-2027/production/7861297",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-raleigh-north-carolina-03-09-2027/event/2D006569D3CAC468",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2046,8 +2036,7 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pEKwioI",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367339",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367339/Phoebe-Bridgers-tickets-Tue-Mar-9-2027-Lenovo-Center",
     "organizer_names": [
@@ -2073,7 +2062,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-baltimore-cfg-bank-arena-3-10-2027/production/7861495",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-baltimore-maryland-03-10-2027/event/15006566D8DF921B",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2129,8 +2118,7 @@
     },
     "ticketmaster_discovery_event_id": "1A4Zk4JGkdbMyFh",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367340",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367340/Phoebe-Bridgers-tickets-Wed-Mar-10-2027-CFG-Bank-Arena",
     "organizer_names": [
@@ -2157,7 +2145,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-pittsburgh-ppg-paints-arena-3-12-2027/production/7861497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-pittsburgh-pennsylvania-03-12-2027/event/160065683D32D656",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2213,8 +2201,7 @@
     },
     "ticketmaster_discovery_event_id": "1kAOvPQdGAuGc_p",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367341",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367341/Phoebe-Bridgers-tickets-Fri-Mar-12-2027-PPG-Paints-Arena",
     "organizer_names": [
@@ -2240,7 +2227,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-newark-prudential-center-3-16-2027/production/7861499",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-newark-new-jersey-03-16-2027/event/0200656BC07EFD6F",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2296,8 +2283,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17FZ_pGkRZLRgR",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367342",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367342/Phoebe-Bridgers-tickets-Tue-Mar-16-2027-Prudential-Center",
     "ticket_limit": 4,
@@ -2323,7 +2309,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-university-park-bryce-jordan-center-3-19-2027/production/7861503",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-university-park-pennsylvania-03-19-2027/event/020065676F3A2404",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2372,8 +2358,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AOvP_UGA2Cx87",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367343",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367343/Phoebe-Bridgers-tickets-Fri-Mar-19-2027-Bryce-Jordan-Center",
     "organizer_names": [
@@ -2398,7 +2383,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-hamilton-td-coliseum-3-21-2027--concerts-rock/production/7861661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-hamilton-ontario-03-21-2027/event/10006567758A22B4",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2433,8 +2418,7 @@
     },
     "ticketmaster_discovery_event_id": "168Zk4EqbZA5ddGA",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE (CANADA)"
     ],
@@ -2457,7 +2441,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-montreal-bell-centre-3-23-2027--concerts-rock/production/7861663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-montreal-quebec-03-23-2027/event/31006566C70D6F9E",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2506,8 +2490,7 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4JGkd6dpXr",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367352",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367352/Phoebe-Bridgers-tickets-Tue-Mar-23-2027-Centre-Bell",
     "organizer_names": [
@@ -2532,7 +2515,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-kanata-ontario-03-25-2027/event/310065648B572279",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2567,8 +2550,7 @@
     },
     "ticketmaster_discovery_event_id": "1kG8vP_FGA54way",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE (CANADA)"
     ],
@@ -2591,7 +2573,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-tampa-benchmark-international-arena-4-22-2027--concerts-rock/production/7861537",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-tampa-florida-04-22-2027/event/0D00656A91BF4933",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2647,8 +2629,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pnoRV0S",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367345",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367345/Phoebe-Bridgers-tickets-Thu-Apr-22-2027-Benchmark-International-Arena",
     "organizer_names": [
@@ -2674,7 +2655,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-miami-kaseya-center-4-24-2027/production/7861505",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-miami-florida-04-24-2027/event/0D006566D3E0C864",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2730,8 +2711,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_phKzG-0",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367346",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367346/Phoebe-Bridgers-tickets-Sat-Apr-24-2027-Kaseya-Center",
     "organizer_names": [
@@ -2757,7 +2737,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-orlando-kia-center-4-27-2027/production/7861509",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-orlando-florida-04-27-2027/event/22006566AAEA2CE6",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2813,8 +2793,7 @@
     },
     "ticketmaster_discovery_event_id": "1AxZk4JGkenBxSJ",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367347",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367347/Phoebe-Bridgers-tickets-Tue-Apr-27-2027-Kia-Center",
     "organizer_names": [
@@ -2840,7 +2819,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-san-antonio-frost-bank-center-5-4-2027--concerts-rock/production/7861543",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-san-antonio-texas-05-04-2027/event/3A006569F632EB63",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2896,8 +2875,7 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pEUGmcN",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367348",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367348/Phoebe-Bridgers-tickets-Tue-May-4-2027-Frost-Bank-Center",
     "organizer_names": [
@@ -3103,7 +3081,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-edmonton-rogers-place-2-21-2027/production/7888076",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/phoebe-bridgers-the-lost-tour-edmonton-alberta-02-21-2027/event/1100656DC75CAF69",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3152,8 +3130,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_pGkM691Wt",
     "timezone": "America/Edmonton",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)",
       "AEG LIVE (CANADA)"
@@ -3179,7 +3156,7 @@
     "vividseats_url": "https://www.vividseats.com/phoebe-bridgers-tickets-newark-prudential-center-3-17-2027--concerts-rock/production/7889529",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/phoebe-bridgers-the-lost-tour-newark-new-jersey-03-17-2027/event/0200657079B72670",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3228,8 +3205,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kFZ_9vyG7cw_Y",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],

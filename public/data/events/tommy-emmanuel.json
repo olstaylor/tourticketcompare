@@ -2203,7 +2203,7 @@
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-grand-junction-avalon-theatre---co-2-24-2027/production/7729000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tommy-emmanuel-cgp-living-in-the-grand-junction-colorado-02-24-2027/event/1E00654ECC8DA4E3",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2263,6 +2263,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-10-23T16:00:00Z",
         "end": "2027-02-18T05:00:00Z"
+      },
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-27T17:00:00Z",
+        "end": "2026-12-25T05:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8333067",

@@ -821,7 +821,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-oklahoma-city-oklahoma-04-05-2027/event/0C00656B99576487",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -870,8 +870,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pm_4U36",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -903,7 +902,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-north-little-rock-simmons-bank-arena-4-6-2027--concerts-pop/production/7870957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-north-little-rock-arkansas-04-06-2027/event/1B00656A07377DAD",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -952,8 +951,7 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_pI6uMUc",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -985,7 +983,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-4-9-2027--concerts-pop/production/7870959",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-hollywood-florida-04-09-2027/event/0D00656C9413655D",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1041,8 +1039,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pwf7U4q",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 6,
     "genre": "Pop",
     "presales": [
@@ -1072,7 +1069,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-orlando-kia-center-4-10-2027--concerts-pop/production/7870963",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-orlando-florida-04-10-2027/event/2200656B95186A41",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1128,8 +1125,7 @@
     },
     "ticketmaster_discovery_event_id": "1AeFZ_pGkm4kktv",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1162,7 +1158,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-tampa-benchmark-international-arena-4-12-2027--concerts-pop/production/7870965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-tampa-florida-04-12-2027/event/0D00656BCE45F6B0",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1218,8 +1214,7 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pRCoLQY",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1252,7 +1247,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-jacksonville-vystar-veterans-memorial-arena-4-13-2027--concerts-pop/production/7870967",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-jacksonville-florida-04-13-2027/event/2200656CBEED42D7",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1308,8 +1303,7 @@
     },
     "ticketmaster_discovery_event_id": "1AeFZ_pGkwXDf59",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1341,7 +1335,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-knoxville-thompson-boling-arena-at-food-city-center-4-15-2027--concerts-pop/production/7870969",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-knoxville-tennessee-04-15-2027/event/1B00656B6EEC3580",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1390,8 +1384,7 @@
     },
     "ticketmaster_discovery_event_id": "G5viZ_pcmDdpZ",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1422,7 +1415,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-louisville-kfc-yum-center-4-16-2027--concerts-pop/production/7870971",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-louisville-kentucky-04-16-2027/event/1600656BA194888F",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1471,8 +1464,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkm-PFx2",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1503,7 +1495,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-saint-louis-missouri-04-18-2027/event/0600656B925D5AE6",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1538,8 +1530,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkm394lJ",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1569,7 +1560,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-sioux-falls-denny-sanford-premier-center-4-21-2027--concerts-pop/production/7870989",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-sioux-falls-south-dakota-04-21-2027/event/0600656AB40EA15B",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1618,8 +1609,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGknVdnAh",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1651,7 +1641,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-winnipeg-canada-life-centre-4-23-2027--concerts-pop/production/7871097",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-winnipeg-manitoba-04-23-2027/event/1100656C9D745ACF",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1700,8 +1690,7 @@
     },
     "ticketmaster_discovery_event_id": "1Av7Z_pGkwqqAl2",
     "timezone": "America/Winnipeg",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC",
       "LIVE NATION CANADA (LN)",
@@ -1736,7 +1725,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-grand-rapids-van-andel-arena-4-26-2027--concerts-pop/production/7870993",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-grand-rapids-michigan-04-26-2027/event/0800656BF4FCB28B",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1785,8 +1774,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkRVT515",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1818,7 +1806,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-columbus-nationwide-arena-4-28-2027--concerts-pop/production/7870997",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-columbus-ohio-04-28-2027/event/0500656BF716315E",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1867,8 +1855,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkRMANAr",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1900,7 +1887,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-hamilton-td-coliseum-4-30-2027--concerts-pop/production/7871099",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-hamilton-ontario-04-30-2027/event/1000656A0D6544BA",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1935,8 +1922,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_pGkIu_f3B",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION CANADA-RBC",
@@ -1968,7 +1954,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-kanata-ontario-05-01-2027/event/31006566DDDF8560",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2003,8 +1989,7 @@
     },
     "ticketmaster_discovery_event_id": "1AsZk4JGkdqMz4O",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -2037,7 +2022,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-quebec-city-videotron-centre-5-2-2027--concerts-pop/production/7871107",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/alex-warren-finding-more-family-on-quebec-quebec-05-02-2027/event/3100656BA98C5513",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2086,8 +2071,7 @@
     },
     "ticketmaster_discovery_event_id": "1Ad7Z_pGkmtNAfK",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC",
       "EVENKO CO-PRO WITH LIVE NATION",
@@ -2120,7 +2104,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-albany-mvp-arena-5-4-2027--concerts-pop/production/7871007",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-albany-new-york-05-04-2027/event/0000656BD6312455",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2169,8 +2153,7 @@
     },
     "ticketmaster_discovery_event_id": "k7vGF_pRpG3o4",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2202,7 +2185,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-elmont-ubs-arena-5-5-2027--concerts-pop/production/7871023",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-belmont-park-new-york-05-05-2027/event/3000656BBD39800F",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2237,8 +2220,7 @@
     },
     "ticketmaster_discovery_event_id": "1AdZZ_pGkmWCbZ2",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2268,7 +2250,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-baltimore-cfg-bank-arena-5-7-2027--concerts-pop/production/7871039",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-baltimore-maryland-05-07-2027/event/1500656BD494D7AE",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2317,8 +2299,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvfZ_pGkRfPurm",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2350,7 +2331,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-uncasville-mohegan-sun-arena-ct-5-8-2027--concerts-pop/production/7871059",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-uncasville-connecticut-05-08-2027/event/1D00656A0D2966F4",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2399,8 +2380,7 @@
     },
     "ticketmaster_discovery_event_id": "G5vVZ_pIu1phV",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 6,
     "genre": "Pop",
     "presales": [
@@ -2429,7 +2409,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-5-11-2027--concerts-pop/production/7871075",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-raleigh-north-carolina-05-11-2027/event/2D00656BAF87D35B",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2478,8 +2458,7 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pmR-Wuh",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2511,7 +2490,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-charleston-credit-one-stadium-5-12-2027--concerts-pop/production/7871087",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-charleston-south-carolina-05-12-2027/event/2D00656CB956DF72",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2560,8 +2539,7 @@
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pwy4cWw",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2592,7 +2570,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-noblesville-ruoff-music-center-5-14-2027--concerts-pop/production/7871089",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-noblesville-indiana-05-14-2027/event/0500656BB607AF8F",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2641,8 +2619,7 @@
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkmUvBX2",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2673,7 +2650,7 @@
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-birmingham-coca-cola-amphitheater-5-16-2027--concerts-pop/production/7871093",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/alex-warren-finding-more-family-on-birmingham-alabama-05-16-2027/event/2000656BBA0C4E96",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2722,8 +2699,7 @@
     },
     "ticketmaster_discovery_event_id": "1AeZZ_pGkmBd7Bp",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2755,7 +2731,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2790,7 +2766,11 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoat",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-madison-z7r9jz1aaaoaw",
@@ -2808,7 +2788,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -2843,7 +2823,11 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoaw",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Pop"
   },
   {
     "id": "tm-alex-warren-2027-rho-zg9rmiynyzae7k",
@@ -2861,7 +2845,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.it/biglietti/alex-warren-rho-11-07-2027/event/1vakzvg8pe0m",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2896,6 +2880,7 @@
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZae7k",
     "timezone": "Europe/Rome",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   }
 ]

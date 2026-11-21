@@ -518,7 +518,7 @@
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-portland-state-theatre-portland-4-28-2027/production/7762724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-portland-maine-04-28-2027/event/0100654EBD0EED9F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -575,6 +575,11 @@
         "name": "VIP Packages",
         "start": "2026-10-28T14:00:00Z",
         "end": "2027-04-28T07:00:00Z"
+      },
+      {
+        "name": "4-Pack Offer",
+        "start": "2026-11-23T15:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
       }
     ],
     "genre": "Rock"

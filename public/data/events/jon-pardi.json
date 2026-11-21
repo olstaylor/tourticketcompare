@@ -426,19 +426,19 @@
     "id": "tm-jon-pardi-2026-peoria-vvg1jz_cjyd3ia",
     "artist_slug": "jon-pardi",
     "artist_name": "Jon Pardi",
-    "event_name": "Jon Pardi: Gamblin' Man Tour 2026",
+    "event_name": "Jon Pardi",
     "city": "Peoria",
     "country": "United States Of America",
     "venue": "Peoria Civic Center",
-    "datetime_iso": "2026-11-14T01:00:00Z",
+    "datetime_iso": "2027-04-19T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "070064E9B90D2B09",
     "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
-    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2026-11-13-7-pm/concert/18390874",
-    "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-peoria-peoria-civic-center---carver-arena-11-13-2026--concerts-country-and-folk/production/7320595",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450,18 +450,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18390874,
-        "url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2026-11-13-7-pm/concert/18390874",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7320595,
-        "url": "https://www.vividseats.com/jon-pardi-tickets-peoria-peoria-civic-center---carver-arena-11-13-2026--concerts-country-and-folk/production/7320595",
-        "verified": true,
-        "last_verified_at": "2026-11-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -492,14 +492,16 @@
     "ticketliquidator_url": "",
     "presales": [
       {
-        "name": "Side View/ Obstructed View Seats",
-        "start": "2026-11-03T22:15:00Z",
-        "end": "2026-11-14T02:00:00Z"
+        "name": "New Date Standard Side View / Obstructed",
+        "start": "2026-11-20T21:00:00Z",
+        "end": "2027-04-19T01:00:00Z"
       }
     ],
     "ticket_limit": 8,
     "genre": "Country",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-14T01:00:00Z",
+    "previous_start_timezone": "America/Chicago"
   },
   {
     "id": "tm-jon-pardi-2026-independence-vvg1bz_cu03zzw",

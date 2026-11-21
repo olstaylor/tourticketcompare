@@ -3872,7 +3872,7 @@ assert(
 );
 assert(!beyonceEmptyStatePage.text.includes("Last checked:"), "empty artist pages should omit last-checked claims");
 assert(
-  manyBoard.html.includes("<strong>Last checked:</strong> ticket links checked") && !manyBoard.html.includes("reviewed by hand"),
+  manyBoard.html.includes("<strong>Last checked:</strong> a seller link was checked") && !manyBoard.html.includes("reviewed by hand"),
   "the trust block should describe link checks without claiming a human review"
 );
 // The event-record date range (derived from mixed-semantics event

@@ -7,6 +7,7 @@
 
 import { spawnSync } from 'node:child_process';
 import { classifyTmAudit } from './classify-tm-audit-status.mjs';
+import { buildTmFindingIds, isApiConfirmed } from './lib/api-confirmed-links.mjs';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -193,6 +194,29 @@ console.log('Case 8: classifyTmAudit');
   expect('1 error in 50 events is failed', classifyTmAudit({ exitCode: 1, tm: tm(1, 50) }).status === 'failed');
   expect('missing evidence is failed', classifyTmAudit({ exitCode: 1, tm: null }).status === 'failed');
   expect('crash exit code is failed', classifyTmAudit({ exitCode: 2, tm: tm(1, 4857) }).status === 'failed');
+}
+
+console.log('Case 9: API-confirmed blocked links (isApiConfirmed)');
+{
+  const events = [
+    { id: 'e1', ticketmaster_event_id: 'Z7r9jz1A7', provider_links: { seatgeek: { verified: true, url: 'https://seatgeek.com/x/1', last_verified_at: '2026-05-25' } } },
+    { id: 'e2', ticketmaster_event_id: 'Z7r9jz1B8', provider_links: { seatgeek: { verified: false, url: 'https://seatgeek.com/x/2', last_verified_at: '2026-05-26' } } },
+    { id: 'e3', ticketmaster_event_id: 'Z7r9jz1C9' }
+  ];
+  const tm = { artists: [{ slug: 'a', missing: [{ id: 'e3' }], changed: [], errors: [], unresolvable: [] }] };
+  const ctx = { eventsById: new Map(events.map((e) => [e.id, e])), tmFindingIds: buildTmFindingIds(tm), today: TODAY };
+  const entry = (o) => ({ provider: 'ticketmaster', reviewScope: 'upcoming', eventIds: ['e1'], url: 'https://www.ticketmaster.com/e/Z7r9jz1A7', ...o });
+  expect('TM url carrying the event id, no finding: confirmed', isApiConfirmed(entry({}), ctx));
+  expect('TM url without the event id: held', !isApiConfirmed(entry({ url: 'https://www.ticketmaster.com/e/other' }), ctx));
+  expect('TM event with a missing finding: held', !isApiConfirmed(entry({ eventIds: ['e3'], url: 'https://www.ticketmaster.com/e/Z7r9jz1C9' }), ctx));
+  expect('unknown event: held', !isApiConfirmed(entry({ eventIds: ['nope'] }), ctx));
+  expect('non-upcoming scope: held', !isApiConfirmed(entry({ reviewScope: 'recent' }), ctx));
+  const sg = (o) => ({ provider: 'seatgeek', reviewScope: 'upcoming', eventIds: ['e1'], url: 'https://seatgeek.com/x/1', ...o });
+  expect('SG verified same url within 3 days: confirmed', isApiConfirmed(sg({}), ctx));
+  expect('SG different url: held', !isApiConfirmed(sg({ url: 'https://seatgeek.com/x/9' }), ctx));
+  expect('SG not verified: held', !isApiConfirmed(sg({ eventIds: ['e2'], url: 'https://seatgeek.com/x/2' }), ctx));
+  expect('SG verification older than 3 days: held', !isApiConfirmed(sg({}), { ...ctx, today: '2026-05-30' }));
+  expect('other host: held', !isApiConfirmed({ provider: 'other', reviewScope: 'upcoming', eventIds: ['e1'], url: 'https://x.example/1' }, ctx));
 }
 
 fs.rmSync(tmpRoot, { recursive: true, force: true });

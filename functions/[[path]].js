@@ -4841,13 +4841,24 @@ function renderComparisonHubCityLinks(events = []) {
 }
 
 export function renderComparisonHubEventCards(events = [], env = {}, now = null) {
-  const shows = publishableFutureShows(events, 6, now);
-  if (!shows.length) return "";
   const seatGeekAvailable = isSeatGeekConfigured(env);
   const vividSeatsAvailable = isVividSeatsConfigured(env);
   const marketplaceAvailability = Object.fromEntries(
     IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
   );
+  // Lead with dates where two or more sellers list a fresh approved price in
+  // one currency (a real comparison), then fill with the soonest other dates.
+  // Date order is kept inside each group; sellers are never reordered.
+  const pool = publishableFutureShows(events, 60, now);
+  const isComparable = (show) => {
+    const priced = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }).filter(
+      (spec) => spec.priceAmount && spec.priceAsOf
+    );
+    return priced.length >= 2 && new Set(priced.map((spec) => spec.lane.currency)).size === 1;
+  };
+  const comparable = pool.filter(isComparable);
+  const shows = [...comparable, ...pool.filter((show) => !comparable.includes(show))].slice(0, 6);
+  if (!shows.length) return "";
   // The same date card as artist, city and venue boards (2026-09-24): this
   // section's older card had no date badge, so the shared two-column card grid
   // squeezed its title into the badge column. CTA clicks keep their

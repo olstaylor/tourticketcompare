@@ -24,7 +24,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
-import { humanRedirectSql } from "./lib/human-clicks.mjs";
+import { humanRedirectSql, suspectedBotRedirectSql } from "./lib/human-clicks.mjs";
 import { assertNoPersonalColumns, assertReadOnlySql, parseWranglerJson } from "./report-commercial-funnel.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -32,6 +32,7 @@ const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..
 const DATABASE = "tourticketcompare-demand";
 const LABEL = "automation:plan-scoreboard";
 const DAY_MS = 24 * 60 * 60 * 1000;
+const IMPACT_PROVIDERS = ["stubhub-international", "vivid-seats", "seatgeek", "ticketnetwork", "ticket-liquidator"];
 
 // From the plan doc. Change these only when the owner resets the targets
 // (first reset is due at the 31 Oct checkpoint, once the Impact CSV is in).
@@ -70,10 +71,25 @@ export function buildStatements({ since, until, starts = [] }) {
   const window = `created_at >= '${since}' AND created_at < '${until}'`;
   const lastStart = starts.length ? `${starts.at(-1)}T00:00:00.000Z` : since;
   const lastWeek = `created_at >= '${lastStart}' AND created_at < '${until}'`;
+  const prevStart = starts.length > 1 ? `${starts.at(-2)}T00:00:00.000Z` : lastStart;
+  const prevWeeks = `created_at >= '${prevStart}' AND created_at < '${until}'`;
   const statements = [
     {
       key: "search",
       sql: `SELECT ${WEEK_SQL} AS week, COUNT(DISTINCT request_key || '|' || substr(created_at, 1, 10)) AS n FROM analytics_events WHERE event_name = 'page_view' AND acquisition_source = 'organic_search' AND request_key IS NOT NULL AND ${window} GROUP BY week`,
+    },
+    // Mobile search visits: the qualified-traffic column. On 13-17 Nov 2026 a
+    // desktop-only surge of search visitor-days (never clicked a seller) lifted
+    // the all-device count, so the plan's search target is shown beside it.
+    {
+      key: "searchMobile",
+      sql: `SELECT ${WEEK_SQL} AS week, COUNT(DISTINCT request_key || '|' || substr(created_at, 1, 10)) AS n FROM analytics_events WHERE event_name = 'page_view' AND acquisition_source = 'organic_search' AND device_category = 'mobile' AND request_key IS NOT NULL AND ${window} GROUP BY week`,
+    },
+    // All redirects and the forged home-page pattern, so each week shows what
+    // was counted, what was excluded as forged, and what has no page evidence.
+    {
+      key: "redirects",
+      sql: `SELECT ${WEEK_SQL} AS week, COUNT(*) AS n, SUM(CASE WHEN ${suspectedBotRedirectSql()} THEN 1 ELSE 0 END) AS forged FROM analytics_events WHERE event_name = 'outbound_click' AND ${window} GROUP BY week`,
     },
     {
       key: "clicks",
@@ -85,6 +101,17 @@ export function buildStatements({ since, until, starts = [] }) {
     {
       key: "funnelPages",
       sql: `SELECT COALESCE(page_type, 'other') AS page_type, COUNT(DISTINCT CASE WHEN event_name = 'page_view' THEN request_key || '|' || substr(created_at, 1, 10) END) AS visitors, COUNT(DISTINCT CASE WHEN event_name = 'provider_click' THEN request_key || '|' || substr(created_at, 1, 10) END) AS clickers, SUM(event_name = 'provider_click') AS clicks FROM analytics_events WHERE event_name IN ('page_view', 'provider_click') AND request_key IS NOT NULL AND ${lastWeek} GROUP BY 1`,
+    },
+    // Page-backed redirects by provider for the last two weeks, with how many
+    // carried a Sub ID to Impact (impact_reconciliation_eligible).
+    {
+      key: "redirectProviders",
+      sql: `SELECT ${WEEK_SQL} AS week, COALESCE(NULLIF(TRIM(provider), ''), 'unknown') AS provider, COUNT(*) AS n, SUM(CASE WHEN impact_reconciliation_eligible = 1 THEN 1 ELSE 0 END) AS with_sub_id FROM analytics_events WHERE ${humanRedirectSql()} AND ${prevWeeks} GROUP BY week, provider`,
+    },
+    // Top pages by mobile search visitor-days in the last week (path only, no query string).
+    {
+      key: "landing",
+      sql: `SELECT CASE WHEN instr(source_path, '?') > 0 THEN substr(source_path, 1, instr(source_path, '?') - 1) ELSE source_path END AS path, COUNT(DISTINCT request_key || '|' || substr(created_at, 1, 10)) AS n FROM analytics_events WHERE event_name = 'page_view' AND acquisition_source = 'organic_search' AND device_category = 'mobile' AND request_key IS NOT NULL AND source_path IS NOT NULL AND ${lastWeek} GROUP BY 1 ORDER BY n DESC, path LIMIT 10`,
     },
     {
       key: "funnelProviders",
@@ -102,7 +129,14 @@ export function buildScoreboard(results, { starts }, now = new Date()) {
   const byWeek = (rows) => new Map((rows || []).map((r) => [r.week, Number(r.n) || 0]));
   const search = byWeek(results.search);
   const clicks = byWeek(results.clicks);
-  const weeks = starts.map((week) => ({ week, searchVisits: search.get(week) || 0, realClicks: clicks.get(week) || 0 }));
+  const searchMobile = byWeek(results.searchMobile);
+  const redirectRows = new Map((results.redirects || []).map((r) => [r.week, { total: Number(r.n) || 0, forged: Number(r.forged) || 0 }]));
+  const weeks = starts.map((week) => {
+    const realClicks = clicks.get(week) || 0;
+    const { total = 0, forged = 0 } = redirectRows.get(week) || {};
+    return { week, searchVisits: search.get(week) || 0, mobileSearchVisits: searchMobile.get(week) || 0, realClicks,
+      forgedRedirects: forged, noEvidenceRedirects: Math.max(0, total - realClicks - forged) };
+  });
   const today = now.toISOString().slice(0, 10);
   const next = PLAN.checkpoints.find((c) => c.date >= today) || null;
   const num = (v) => Number(v) || 0;
@@ -112,7 +146,15 @@ export function buildScoreboard(results, { starts }, now = new Date()) {
     providers: (results.funnelProviders || []).map((r) => ({ provider: r.provider, clickers: num(r.clickers), clicks: num(r.clicks) }))
       .sort((a, b) => b.clicks - a.clicks),
   };
-  return { generatedAt: today, weeks, latest: weeks.at(-1) || null, next, funnel };
+  const lastWeekStart = starts.at(-1);
+  const providerRows = (results.redirectProviders || []).map((r) => ({ week: r.week, provider: r.provider, n: num(r.n), withSubId: num(r.with_sub_id) }));
+  const providerNames = [...new Set(providerRows.map((r) => r.provider))];
+  const providerWeeks = providerNames.map((provider) => {
+    const pick = (week) => providerRows.find((r) => r.week === week && r.provider === provider);
+    return { provider, previous: pick(starts.at(-2))?.n || 0, last: pick(lastWeekStart)?.n || 0, lastWithSubId: pick(lastWeekStart)?.withSubId || 0 };
+  }).sort((a, b) => b.last - a.last || b.previous - a.previous);
+  const landing = (results.landing || []).map((r) => ({ path: r.path, visits: num(r.n) }));
+  return { generatedAt: today, weeks, latest: weeks.at(-1) || null, previous: weeks.length > 1 ? weeks.at(-2) : null, next, funnel, providerWeeks, landing };
 }
 
 function band(value, key) {
@@ -130,9 +172,9 @@ export function renderScoreboard(board) {
     "",
     `Updated ${board.generatedAt}. Weekly numbers against the revenue plan's targets for the 19 January 2027 launch. Weeks run Monday to Sunday (UTC).`,
     "",
-    "| Week of | Search visits | Page-backed redirects |",
-    "|---|---:|---:|",
-    ...board.weeks.map((w) => `| ${w.week} | ${fmt(w.searchVisits)} | ${fmt(w.realClicks)} |`),
+    "| Week of | Search visits (all devices) | Mobile search visits | Page-backed redirects (counted) | Forged home-page source (excluded) | No page evidence (excluded, unproven) |",
+    "|---|---:|---:|---:|---:|---:|",
+    ...board.weeks.map((w) => `| ${w.week} | ${fmt(w.searchVisits)} | ${fmt(w.mobileSearchVisits)} | ${fmt(w.realClicks)} | ${fmt(w.forgedRedirects)} | ${fmt(w.noEvidenceRedirects)} |`),
     "",
     "| Original plan target | Search visits | Plan realClicks (basis unverified) |",
     "|---|---:|---:|",
@@ -158,6 +200,50 @@ export function renderScoreboard(board) {
       : board.next.text;
     lines.push(`**Next checkpoint, ${board.next.label}:** ${checkpointText}`);
   }
+  lines.push(
+    "",
+    "**Read the mobile column, not the all-device count, for growth.** The plan's search target was set on all devices. A desktop-only surge in mid-November (event and artist-city pages, almost no seller clicks) inflated it, so the target comparison above can overstate real demand. Mobile is the qualified-traffic proxy here, not proof of buyers."
+  );
+  if (board.latest && board.previous) {
+    const move = (label, a, b) => {
+      const small = a < 100 || b < 100 ? " (small numbers)" : "";
+      const change = a ? `${b >= a ? "+" : ""}${Math.round(((b - a) / a) * 100)}%` : "n/a";
+      return `${label}: ${fmt(a)} to ${fmt(b)}, ${change}${small}`;
+    };
+    lines.push(
+      "",
+      `**Week on week (${board.previous.week} to ${board.latest.week}, same definitions, both complete weeks):** ${move("mobile search visits", board.previous.mobileSearchVisits, board.latest.mobileSearchVisits)}; ${move("page-backed redirects", board.previous.realClicks, board.latest.realClicks)}.`
+    );
+  }
+  const providerWeeks = board.providerWeeks || [];
+  if (providerWeeks.length && board.latest) {
+    const pctSub = (a, b) => (b ? `${Math.round((a / b) * 100)}%` : "–");
+    lines.push(
+      "",
+      `## Page-backed redirects by provider (weeks of ${board.previous?.week || "n/a"} and ${board.latest.week})`,
+      "",
+      "| Provider | Previous week | Last week | Last week with Sub ID |",
+      "|---|---:|---:|---:|",
+      ...providerWeeks.map((r) => `| ${r.provider} | ${fmt(r.previous)} | ${fmt(r.last)} | ${IMPACT_PROVIDERS.includes(r.provider) ? pctSub(r.lastWithSubId, r.last) : "n/a"} |`),
+      "",
+      "Sub ID share applies to the five Impact-tracked lanes; Ticketmaster is an unmonetised link. Orders per provider are not dated here (see the nightly funnel check issue)."
+    );
+  }
+  const landing = board.landing || [];
+  if (landing.length) {
+    lines.push(
+      "",
+      `## Top pages by mobile search visitor-days, week of ${board.latest?.week || "last week"}`,
+      "",
+      "| Page | Mobile search visitor-days |",
+      "|---|---:|",
+      ...landing.map((r) => `| ${r.path} | ${fmt(r.visits)} |`)
+    );
+  }
+  lines.push(
+    "",
+    "**Not available in this report:** Search Console impressions, Google clicks and queries (the export is paused and the connector is read on request), and any per-order date or lock status from Impact."
+  );
   const pages = board.funnel?.pages || [];
   if (pages.length) {
     const pct = (a, b) => (b ? `${Math.round((a / b) * 100)}%` : "–");
@@ -231,7 +317,7 @@ function selfTest() {
   assert.equal(weekStart(new Date("2026-10-12T00:30:00Z")).toISOString().slice(0, 10), "2026-10-12");
 
   const statements = buildStatements(range);
-  assert.ok(statements[1].sql.includes("event_name = 'outbound_click'"), "clicks are page-backed redirects");
+  assert.ok(statements.find((x) => x.key === "clicks").sql.includes("seen.event_name IN"), "clicks are page-backed redirects");
   assert.ok(statements.every((s) => s.sql.includes("created_at < '2026-10-12T00:00:00.000Z'")), "window stops at the current week");
 
   const board = buildScoreboard(
@@ -239,18 +325,51 @@ function selfTest() {
     range,
     new Date("2026-10-17T12:00:00Z")
   );
-  assert.deepEqual(board.weeks[0], { week: "2026-09-28", searchVisits: 0, realClicks: 150 }, "missing weeks read as zero");
+  assert.deepEqual(board.weeks[0], { week: "2026-09-28", searchVisits: 0, mobileSearchVisits: 0, realClicks: 150, forgedRedirects: 0, noEvidenceRedirects: 0 }, "missing weeks read as zero");
   assert.equal(board.next.label, "31 Oct");
   const md = renderScoreboard(board);
-  assert.ok(md.includes("| 2026-10-05 | 210 | 260 |"));
+  assert.ok(md.includes("| 2026-10-05 | 210 | 0 | 260 | 0 | 0 |"));
   assert.ok(md.includes("search visits between low and base, redirect target comparison withheld"));
   assert.ok(md.includes("search visits met; redirect verdict withheld"));
   assert.ok(md.includes("Orders and commission are not counted here"));
   const november = renderScoreboard({ ...board, next: PLAN.checkpoints.find((c) => c.floor) });
   assert.ok(november.includes("redirect checkpoint withheld"));
   assert.ok(!november.includes("real clicks at or above 250"));
-  assert.deepEqual(statements.map((s) => s.key), ["search", "clicks", "funnelPages", "funnelProviders"]);
-  assert.ok(statements[2].sql.includes("created_at >= '2026-10-05T00:00:00.000Z'"), "funnel covers only the last full week");
+  assert.deepEqual(statements.map((s) => s.key), ["search", "searchMobile", "redirects", "clicks", "funnelPages", "redirectProviders", "landing", "funnelProviders"]);
+  const sqlOf = (key) => statements.find((s) => s.key === key).sql;
+  assert.ok(sqlOf("funnelPages").includes("created_at >= '2026-10-05T00:00:00.000Z'"), "funnel covers only the last full week");
+  assert.ok(sqlOf("landing").includes("created_at >= '2026-10-05T00:00:00.000Z'") && sqlOf("landing").includes("device_category = 'mobile'"), "landing pages are mobile search, last week only");
+  assert.ok(sqlOf("redirectProviders").includes("created_at >= '2026-09-28T00:00:00.000Z'"), "provider table covers the last two weeks");
+  assert.ok(sqlOf("searchMobile").includes("device_category = 'mobile'"));
+  assert.ok(sqlOf("redirects").includes("source_path"), "forged home-page redirects are counted");
+
+  // Week-on-week, provider, landing and excluded-redirect sections.
+  const rich = buildScoreboard({
+    search: [{ week: "2026-09-28", n: 700 }, { week: "2026-10-05", n: 1900 }],
+    searchMobile: [{ week: "2026-09-28", n: 90 }, { week: "2026-10-05", n: 260 }],
+    redirects: [{ week: "2026-09-28", n: 900, forged: 2 }, { week: "2026-10-05", n: 1300, forged: 450 }],
+    clicks: [{ week: "2026-09-28", n: 380 }, { week: "2026-10-05", n: 490 }],
+    redirectProviders: [
+      { week: "2026-09-28", provider: "stubhub-international", n: 185, with_sub_id: 185 },
+      { week: "2026-10-05", provider: "stubhub-international", n: 264, with_sub_id: 264 },
+      { week: "2026-10-05", provider: "ticketmaster", n: 36, with_sub_id: 0 }
+    ],
+    landing: [{ path: "/artists/olivia-rodrigo", n: 40 }]
+  }, range, new Date("2026-10-17T12:00:00Z"));
+  assert.deepEqual(rich.weeks[1], { week: "2026-10-05", searchVisits: 1900, mobileSearchVisits: 260, realClicks: 490, forgedRedirects: 450, noEvidenceRedirects: 360 });
+  const richMd = renderScoreboard(rich);
+  assert.ok(richMd.includes("| 2026-10-05 | 1,900 | 260 | 490 | 450 | 360 |"), "counted, forged and unproven redirects are separate columns");
+  assert.ok(richMd.includes("mobile search visits: 90 to 260, +189% (small numbers)"), "week on week uses mobile search");
+  assert.ok(richMd.includes("page-backed redirects: 380 to 490, +29%"));
+  assert.ok(richMd.includes("(small numbers)"), "a week under 100 is flagged");
+  assert.ok(richMd.includes("Read the mobile column"), "all-device caveat is always shown");
+  assert.ok(richMd.includes("| stubhub-international | 185 | 264 | 100% |"));
+  assert.ok(richMd.includes("| ticketmaster | 0 | 36 | n/a |"), "Ticketmaster has no Sub ID");
+  assert.ok(richMd.includes("| /artists/olivia-rodrigo | 40 |"));
+  assert.ok(richMd.includes("Not available in this report"), "missing data is stated, not filled");
+  assert.ok(!/\bforecast\b|\bestimated\b/i.test(richMd), "no estimates presented as facts");
+  const oneWeek = renderScoreboard(buildScoreboard({ search: [{ week: "2026-10-05", n: 5 }] }, { starts: ["2026-10-05"] }, new Date("2026-10-17T12:00:00Z")));
+  assert.ok(!oneWeek.includes("Week on week"), "no week-on-week with one complete week");
   const funnelBoard = buildScoreboard(
     { funnelPages: [{ page_type: "artist", visitors: 100, clickers: 30, clicks: 45 }, { page_type: "artist_price_guide", visitors: 40, clickers: 20, clicks: 50 }], funnelProviders: [{ provider: "stubhub-international", clickers: 30, clicks: 60 }, { provider: "vivid-seats", clickers: 10, clicks: 20 }] },
     range,

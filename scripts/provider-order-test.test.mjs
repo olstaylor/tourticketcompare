@@ -56,4 +56,7 @@ for (const event of events) {
 const bigArtists = [...byArtist.values()].filter((entry) => entry.total >= 20);
 assert(bigArtists.length > 0 && bigArtists.every((entry) => entry.reverse > 0 && entry.reverse < entry.total), "artists with many dates get both arms");
 
+const shellSrc = await readFile(new URL("../public/shell.js", import.meta.url), "utf8");
+assert(/orderArm:\s*cta\.dataset\.ctaOrderArm/.test(shellSrc) && /position:\s*Number\(cta\.dataset\.ctaPosition/.test(shellSrc), "the shell's provider_click listener sends orderArm and position");
+
 console.log(`provider-order-test passed (${passed} checks)`);

@@ -1596,6 +1596,15 @@ function showStartMs(show) {
   }
 }
 
+// Mirrors isShellArtistSummary in functions/[[path]].js: the auto-promote shell
+// summary only says Ticketmaster lists the act and that dates are "checked
+// daily", so pages do not print it. Whole-string match keeps edited copy.
+function isShellArtistSummary(textValue, name) {
+  const n = String(name || "").trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  if (!n) return false;
+  return new RegExp(`^${n} is listed by Ticketmaster(?: under [^.]+)?\\. The dates on this page come from Ticketmaster and are checked daily\\.$`).test(String(textValue || "").trim());
+}
+
 function isUpcomingShow(show, now = Date.now()) {
   const start = showStartMs(show);
   return Number.isFinite(start) && start >= now;
@@ -3548,10 +3557,14 @@ function renderArtist(artist) {
   if (serverShows.length || !isReviewRequired) {
     summary = document.createElement("section");
     summary.className = serverShows.length && !isReviewRequired ? "split-section" : "split-section split-section-single";
-    const left = document.createElement("div");
-    text(left, "h2", `About ${artist.name}`);
-    text(left, "p", artist.factual_summary);
-    summary.append(left);
+    // Like the server, drop the whole About block (heading included) when the
+    // summary is only the shell template.
+    if (!isShellArtistSummary(artist.factual_summary, artist.name)) {
+      const left = document.createElement("div");
+      text(left, "h2", `About ${artist.name}`);
+      text(left, "p", artist.factual_summary);
+      summary.append(left);
+    }
   }
   // Mirrors the server gate: the links note describes a populated ticket
   // board, so an empty or review_required artist must not render it.
@@ -3561,6 +3574,7 @@ function renderArtist(artist) {
     text(right, "p", artist.ticket_buying_notes);
     summary.append(right);
   }
+  if (summary && !summary.childElementCount) summary = null;
 
   let relatedGuides = null;
   const relatedGuidePages = (Array.isArray(artist.related_guides) ? artist.related_guides : [])

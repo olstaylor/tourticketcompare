@@ -111,7 +111,7 @@ Every promoted artist is registered `sync_enabled` in
 - **Prices:** the snapshot writers, nominally hourly.
 
 A date not yet on public sale is published with its on-sale time and any
-verified resale buttons. `tour_name` stays blank until a human confirms it.
+verified resale buttons. `tour_name` is filled only from a strict `Artist: X Tour` listing title (no support-act billing); otherwise it stays blank until a human confirms it.
 Schedules and exact behaviour: `docs/OPERATIONS.md` → Scheduled workflows.
 
 ## Checking what happened
@@ -188,7 +188,7 @@ something needs attention and closes itself when all is clear. Each run:
   one on any promotion outside path D.
 - **Brand safety.** No approved source encodes it. Review the daily digest,
   and demote plus denylist when needed.
-- **`tour_name`.** It is never inferred from listing titles.
+- **`tour_name`.** New-show discovery takes it only from a listing title of exactly `Artist: X Tour` / `Artist - X Tour` (owner-approved 2026-11-21); never from URL slugs or looser titles.
 - **New Ticketmaster storefront countries.** Adding one is an `out.js`
   allowlist decision.
 - **Social-card repair PRs.** They are opened automatically; a human merges

@@ -28,6 +28,7 @@
     "artists:requests:self-test": "node scripts/artist-requests.mjs --self-test",
     "artists:watchlist:check": "node scripts/artist-watchlist.mjs --check",
     "artists:watchlist:self-test": "node scripts/artist-watchlist.mjs --self-test",
+    "report:tm-url-dates": "node scripts/report-tm-url-date-mismatch.mjs",
     "report:price-coverage": "node scripts/report-price-coverage.mjs",
     "research:uk-concerts": "node scripts/report-uk-concert-activity.mjs",
     "test:uk-concert-activity": "node --test scripts/uk-concert-activity.test.mjs",

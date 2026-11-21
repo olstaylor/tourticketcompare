@@ -6292,6 +6292,7 @@ export function renderOnsaleCalendarBody(route) {
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
 }
 
+const TOURS_HUB_RUNS_SHOWN = 6;
 const TOURS_HUB_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function toursHubArtistMeta(artist) {
@@ -6331,13 +6332,19 @@ export function renderToursHubBody(route) {
   const runsHtml = runs.length
     ? `<section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
         `Longest ${hub.year} city runs`
-      )}</h2><p>Artists with several dates in one city. Open a run to see each date and its checked ticket links.</p></div>${renderTileListHtml(
-        runs.map((run) => ({
+      )}</h2><p>Artists with several dates in one city. Open a run to see each date and its checked ticket links.</p></div>${(() => {
+        const tiles = runs.map((run) => ({
           href: run.path,
           name: `${nameBySlug.get(run.artistSlug)} in ${run.city}`,
           meta: [`${run.showCount} dates`, run.venueCount === 1 ? "1 venue" : `${run.venueCount} venues`, run.country].join(" · ")
-        }))
-      )}</section>`
+        }));
+        // Phones: the artist list below is what most visitors came for, so only
+        // the first runs sit above it. The rest stay as plain links in the page.
+        if (tiles.length <= TOURS_HUB_RUNS_SHOWN) return renderTileListHtml(tiles);
+        return `${renderTileListHtml(tiles.slice(0, TOURS_HUB_RUNS_SHOWN))}<details class="guide-more-events"><summary>${escapeHtml(
+          `Show ${tiles.length - TOURS_HUB_RUNS_SHOWN} more city runs`
+        )}</summary>${renderTileListHtml(tiles.slice(TOURS_HUB_RUNS_SHOWN))}</details>`;
+      })()}</section>`
     : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="toursHubTitle">${renderBreadcrumbHtml(
     route
@@ -9055,7 +9062,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
     '<script src="/app.js?v=20261102a" defer></script>',
-    '<script src="/shell.js?v=20261023b" defer></script>'
+    '<script src="/shell.js?v=20261121a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.

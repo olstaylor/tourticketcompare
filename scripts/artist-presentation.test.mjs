@@ -128,6 +128,7 @@ console.log(`artist-presentation: ${passed} assertions passed`);
   const shell = "Foo Fighters is listed by Ticketmaster. The dates on this page come from Ticketmaster and are checked daily.";
   assert(isShell(shell, "Foo Fighters"), "client skips the shell summary");
   assert(isShell("Foo Fighters is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.", "Foo Fighters"), "client skips the shell summary with a genre");
+  assert(isShell(shell.replace("checked daily","checked nightly for changes"), "Foo Fighters"), "client skips the new nightly wording too");
   assert(!isShell(`${shell} Extra editorial line.`, "Foo Fighters"), "client keeps an extended summary");
   assert(!isShell("Rock band from Seattle.", "Foo Fighters"), "client keeps real summaries");
   assert(isShell("A.B. is listed by Ticketmaster. The dates on this page come from Ticketmaster and are checked daily.", "A.B."), "client escapes regex characters in names");

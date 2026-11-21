@@ -54,7 +54,7 @@ export function shellRecords(row, seoTitle) {
       name,
       short_description: genre ? `${genre} act listed on Ticketmaster.` : "Listed on Ticketmaster.",
       image_alt: `${name} artist ticket information`,
-      factual_summary: `${name} is listed by Ticketmaster${genre ? ` under ${genre}` : ""}. The dates on this page come from Ticketmaster and are checked daily.`,
+      factual_summary: `${name} is listed by Ticketmaster${genre ? ` under ${genre}` : ""}. The dates on this page come from Ticketmaster and are checked nightly for changes.`,
       ticket_buying_notes: `These links go to the ${name} page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.`,
       seo_title: seoTitle,
       meta_description: descriptions.find((d) => d.length <= MAX_DESCRIPTION) || "",
@@ -241,7 +241,7 @@ function selfTest() {
   check(!outChangeIsAdditionsOnly(out, out.replace("X = 1", "X = 2")), "a change outside the block withholds the merge");
   check(!outChangeIsAdditionsOnly(out, out.replace("verified: true", "verified: false")), "an edited existing entry withholds the merge");
   const summary = d.catalog.artists[0].factual_summary;
-  check(summary === "ONE is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked daily.", "shell copy states only API facts");
+  check(summary === "ONE is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked nightly for changes.", "shell copy states only API facts");
   check(!/\d{4}|born|album|award/i.test(JSON.stringify(d.catalog.artists[0])), "shell copy carries no biographical claim");
   const dupeRow = row("three", { screen: { eligible: true, seo_title: d.catalog.artists[0].seo_title } });
   const dupe = planRun({ artists: [dupeRow] }, d, "2026-10-01", recap(dupeRow));

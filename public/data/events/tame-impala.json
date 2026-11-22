@@ -2012,7 +2012,7 @@
     "tour_name": "The Deadbeat Tour",
     "ticketmaster_event_id": "20006566BE954886",
     "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-10-2027/event/20006566BE954886",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tame-impala-tickets/tulsa-oklahoma-bok-center-2027-02-10-7-pm/concert/18760897",
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-10-2027--concerts-rock/production/7861779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-10-2027/event/20006566BE954886",
@@ -2097,7 +2097,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2132,24 +2132,11 @@
     },
     "ticketmaster_discovery_event_id": "G5dVZ_pMqy18q",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Venta Fans",
-        "start": "2026-11-16T18:00:00Z",
-        "end": "2026-11-17T05:59:00Z"
-      },
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T05:59:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-tame-impala-2027-ciudad-de-mexico-1av8z_pgknd3rue",
@@ -2293,7 +2280,7 @@
     "tour_name": "The Deadbeat Tour",
     "ticketmaster_event_id": "2000656BA29C42B7",
     "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tame-impala-tickets/tulsa-oklahoma-bok-center-2027-02-11-7-pm/concert/18843579",
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-11-2027/production/7907496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",

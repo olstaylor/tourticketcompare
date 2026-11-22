@@ -201,7 +201,9 @@ console.log('Case 9: API-confirmed blocked links (isApiConfirmed)');
   const events = [
     { id: 'e1', ticketmaster_event_id: 'Z7r9jz1A7', provider_links: { seatgeek: { verified: true, url: 'https://seatgeek.com/x/1', last_verified_at: '2026-05-25' } } },
     { id: 'e2', ticketmaster_event_id: 'Z7r9jz1B8', provider_links: { seatgeek: { verified: false, url: 'https://seatgeek.com/x/2', last_verified_at: '2026-05-26' } } },
-    { id: 'e3', ticketmaster_event_id: 'Z7r9jz1C9' }
+    { id: 'e3', ticketmaster_event_id: 'Z7r9jz1C9' },
+    { id: 'e4', ticketmaster_event_id: '14795963', ticketmaster_discovery_event_id: 'rZ7HnEZ1Afr4Pn' },
+    { id: 'e5', ticketmaster_event_id: '14911223' }
   ];
   const tm = { artists: [{ slug: 'a', missing: [{ id: 'e3' }], changed: [], errors: [], unresolvable: [] }] };
   const ctx = { eventsById: new Map(events.map((e) => [e.id, e])), tmFindingIds: buildTmFindingIds(tm), today: TODAY };
@@ -217,6 +219,13 @@ console.log('Case 9: API-confirmed blocked links (isApiConfirmed)');
   expect('SG not verified: held', !isApiConfirmed(sg({ eventIds: ['e2'], url: 'https://seatgeek.com/x/2' }), ctx));
   expect('SG verified 7 days ago: confirmed', isApiConfirmed(sg({}), { ...ctx, today: '2026-06-01' }));
   expect('SG verification older than 7 days: held', !isApiConfirmed(sg({}), { ...ctx, today: '2026-06-02' }));
+  const tw = (o) => ({ provider: 'other', reviewScope: 'upcoming', eventIds: ['e4'], url: 'https://www.ticketweb.com/event/x-tickets/14795963', ...o });
+  expect('TicketWeb url with the event id and a Discovery id, no finding: confirmed', isApiConfirmed(tw({}), ctx));
+  expect('TicketWeb .ca country domain: confirmed', isApiConfirmed(tw({ url: 'https://www.ticketweb.ca/event/x-tickets/14795963' }), ctx));
+  expect('TicketWeb url without the event id: held', !isApiConfirmed(tw({ url: 'https://www.ticketweb.com/event/x-tickets/999' }), ctx));
+  expect('TicketWeb event with no Discovery id: held', !isApiConfirmed(tw({ eventIds: ['e5'], url: 'https://www.ticketweb.com/event/y/14911223' }), ctx));
+  expect('TicketWeb event with a Discovery finding: held', !isApiConfirmed(tw({}), { ...ctx, tmFindingIds: new Set(['e4']) }));
+  expect('lookalike host: held', !isApiConfirmed(tw({ url: 'https://ticketweb.example.com/event/x/14795963' }), ctx));
   expect('other host: held', !isApiConfirmed({ provider: 'other', reviewScope: 'upcoming', eventIds: ['e1'], url: 'https://x.example/1' }, ctx));
 }
 

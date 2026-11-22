@@ -36,6 +36,7 @@ import { relatedArtistsBySharedCity } from "./_related-artists.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, COMPARISON_MIN_PRICE_PROVIDERS, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveThisWeek, renderThisWeekHtml, THIS_WEEK_GUIDE_PATHS } from "./_this-week.js";
+import { derivePlayingSoon, renderPlayingSoonHtml } from "./_playing-soon.js";
 import { deriveToursHub, deriveToursHubCityRuns, deriveHomeCityRuns, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import {
@@ -3643,7 +3644,7 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
       });
       return `<p>${escapeHtml(
         `${prefix}: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`
-      )} <span class="muted">${checkedTimeHtml(lane.fetchedAt, formatServerSnapshotTime(lane.fetchedAt))}</span></p><div class="action-row">${button}</div>`;
+      )} <span class="muted">${checkedTimeHtml(lane.fetchedAt, formatServerSnapshotTime(lane.fetchedAt), true)}</span></p><div class="action-row">${button}</div>`;
     })
     .join("");
   if (!items) return "";
@@ -6280,7 +6281,7 @@ export function renderOnsaleCalendarBody(route) {
     : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="onsaleTitle">${renderBreadcrumbHtml(
     route
-  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${route.thisWeekHtml || ""}${route.onsalePriceHtml || ""}${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
+  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${route.thisWeekHtml || ""}${route.playingSoonHtml || ""}${route.onsalePriceHtml || ""}${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
     "About this calendar",
     `<section class="nested-panel"><h2>Where these times come from</h2><div class="card-grid"><article class="info-card"><h3>Ticketmaster's public on-sale</h3><p>Each time is the public on-sale Ticketmaster lists for that exact date, carried on the same reviewed event record the artist page uses. Nothing is estimated.</p></article><article class="info-card"><h3>Presales from Ticketmaster</h3><p>Fan-club, card and venue presales are listed where Ticketmaster's record for a date names them, with their start and end times. Codes are never shown: they come from the artist, the card issuer or the venue.</p></article><article class="info-card"><h3>Times can change</h3><p>Promoters move on-sales. Confirm the time on Ticketmaster before the sale, and be signed in and ready a few minutes early.</p></article></div><div class="mini-link-grid">${anchor(
       "How to prepare for a ticket on-sale",
@@ -6790,10 +6791,16 @@ function pricesWereChecked(show) {
 // "Checked 5 hours ago", with the absolute capture time in the <time>
 // element: the one freshness phrase for tables and answer rows, matching the
 // card note (see _price-wording.js).
-function checkedTimeHtml(fetchedAt, asOf = "") {
+// `withDate` (headline "Cheapest" answer only) adds the visible UTC date,
+// "Checked 5 hours ago (22 Nov 2026)", so a quoted figure carries a dated fact.
+function checkedTimeHtml(fetchedAt, asOf = "", withDate = false) {
   const at = String(fetchedAt || "");
   const title = asOf || formatServerSnapshotTime(at);
-  return `<time datetime="${escapeAttr(at)}"${title ? ` title="${escapeAttr(title)}"` : ""}>Checked ${escapeHtml(relativeCheckAge(at))}</time>`;
+  const ms = Date.parse(at);
+  const date = withDate && Number.isFinite(ms)
+    ? ` (${new Date(ms).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })})`
+    : "";
+  return `<time datetime="${escapeAttr(at)}"${title ? ` title="${escapeAttr(title)}"` : ""}>Checked ${escapeHtml(relativeCheckAge(at))}${date}</time>`;
 }
 
 // "Last seen" figures for a card with no fresh price: each rendered button's
@@ -9091,7 +9098,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
   if (next.includes("data-price-history=")) {
-    next = next.replace("</body>", `${PRICE_ALERT_INTEREST_TEMPLATE}<script src="/price-history.js?v=20260924v" defer></script></body>`);
+    next = next.replace("</body>", `${PRICE_ALERT_INTEREST_TEMPLATE}<script src="/price-history.js?v=20261122a" defer></script></body>`);
   }
   if (route.path === "/currency-converter") {
     next = next.replace("</body>", '<script src="/currency-converter.js?v=20260821a" defer></script></body>');
@@ -9743,6 +9750,10 @@ async function renderRequest(context) {
       onCalendar ? { checkedAt: nowMs, onCalendar: true } : {}
     );
     if (thisWeekHtml) renderRoute = { ...renderRoute, thisWeekHtml };
+    if (onCalendar) {
+      const playingSoonHtml = renderPlayingSoonHtml(derivePlayingSoon(events, linkable, nowMs));
+      if (playingSoonHtml) renderRoute = { ...renderRoute, playingSoonHtml };
+    }
   }
   // "Compare <artist> ticket prices" is kept only while some upcoming date
   // shows two or more sellers' prices from this render's price read (owner

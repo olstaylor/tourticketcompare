@@ -253,12 +253,12 @@ const guideClusters = [
 
 const routeMeta = {
   "/": {
-    title: "Compare Concert Ticket Prices | TourTicketCompare",
+    title: "Compare Concert Ticket Prices by Artist | TourTicketCompare",
     description:
       "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total."
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices by Show | TourTicketCompare",
+    title: "Compare Artist Ticket Prices by Show | TourTicketCompare",
     description:
       "Pick an artist and date to compare each site's listed price for the same show, with when it was checked. Then check seats, fees and the final total."
   },
@@ -2000,6 +2000,16 @@ function formatSnapshotTime(value) {
   }
 }
 
+function formatSnapshotDay(value) {
+  const ms = Date.parse(`${String(value || "")}T00:00:00Z`);
+  if (!Number.isFinite(ms)) return "";
+  try {
+    return new Intl.DateTimeFormat("en-US", { dateStyle: "medium", timeZone: "UTC" }).format(new Date(ms));
+  } catch (error) {
+    return String(value);
+  }
+}
+
 function isValidIsoDateTime(value) {
   const input = String(value || "").trim();
   if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/.test(input)) return false;
@@ -2386,11 +2396,16 @@ function renderPriceHistoryContent(panel, wrap, data) {
     const first = points[0];
     const last = points[points.length - 1];
     const latest = formatProviderPrice(last.price, series.currency);
-    const firstAsOf = formatSnapshotTime(first.observedAt);
-    const lastAsOf = formatSnapshotTime(last.observedAt);
+    const daily = series.basis === "daily";
+    const fmt = (value) => daily ? formatSnapshotDay(value) : formatSnapshotTime(value);
+    const firstAsOf = fmt(first.observedAt);
+    const lastAsOf = fmt(last.observedAt);
+    const counts = daily
+      ? `${points.length} daily checks, ${Number(series.priceChanges || 0)} price changes`
+      : `${points.length} price changes`;
     const caption = latest && firstAsOf && lastAsOf
-      ? `${points.length} price checks · ${firstAsOf} – ${lastAsOf}. Latest: ${latest}.`
-      : `${points.length} price checks.`;
+      ? `${counts} · ${firstAsOf} – ${lastAsOf}. Latest: ${latest}.`
+      : `${counts}.`;
     text(block, "p", caption, "price-history-caption muted");
     panel.append(block);
     rendered.push(series);

@@ -1288,22 +1288,22 @@
     "venue": "The Fillmore New Orleans",
     "datetime_iso": "2026-12-07T23:30:00Z",
     "tour_name": "Pure Ecstasy World Tour",
-    "ticketmaster_event_id": "1B0064A7CD3CCBA4",
-    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+    "ticketmaster_event_id": "",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/beartooth-tickets/new-orleans-louisiana-fillmore-new-orleans-2026-12-07-5-30-pm/concert/18253062",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-orleans-fillmore-new-orleans-12-7-2026--concerts-hard-rock/production/7052872",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+    "source_url": "",
     "last_verified_at": "2026-11-10",
-    "verification_status": "machine_high_confidence",
+    "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "1B0064A7CD3CCBA4",
-        "discovery_event_id": "G5viZ_1Lu2Gm0",
-        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+        "event_id": null,
+        "discovery_event_id": null,
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": 18253062,
@@ -1341,7 +1341,7 @@
         "availability_status": "listed"
       }
     },
-    "ticketmaster_discovery_event_id": "G5viZ_1Lu2Gm0",
+    "ticketmaster_discovery_event_id": "",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980229",
@@ -1593,7 +1593,7 @@
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "190064AB0B328FE2",
     "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/beartooth-tickets/phoenix-arizona-the-van-buren-2026-12-16-6-30-pm/concert/18253074",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-phoenix-arizona-12-16-2026/event/190064AB0B328FE2",
@@ -1753,7 +1753,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-wheatland-california-12-19-2026/event/1C0064A8B5ED83D4",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1805,13 +1805,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980241",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7980241/Beartooth-tickets-Sat-Dec-19-2026-Hard-Rock-Live-Sacramento",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-05-22T17:00:00Z",
-        "end": "2026-11-22T06:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

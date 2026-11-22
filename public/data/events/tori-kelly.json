@@ -1,0 +1,2069 @@
+[
+  {
+    "id": "tm-tori-kelly-2026-manchester-g5vhz_1r4owph",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly - God Must Really Love Me Europe Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Albert Hall",
+    "datetime_iso": "2026-12-07T19:00:00Z",
+    "tour_name": "God Must Really Love Me Europe Tour",
+    "ticketmaster_event_id": "1F0064A7954725BC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-manchester-07-12-2026/event/1F0064A7954725BC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-manchester-07-12-2026/event/1F0064A7954725BC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064A7954725BC",
+        "discovery_event_id": "G5vHZ_1r4owpH",
+        "url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-manchester-07-12-2026/event/1F0064A7954725BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_1r4owpH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2026-birmingham-g5dzz_1hposmp",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly - God Must Really Love Me Europe Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Institute Birmingham",
+    "datetime_iso": "2026-12-08T19:00:00Z",
+    "tour_name": "God Must Really Love Me Europe Tour",
+    "ticketmaster_event_id": "3E0064A6D6833DE5",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-birmingham-08-12-2026/event/3E0064A6D6833DE5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-birmingham-08-12-2026/event/3E0064A6D6833DE5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064A6D6833DE5",
+        "discovery_event_id": "G5dzZ_1hpOSMP",
+        "url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-birmingham-08-12-2026/event/3E0064A6D6833DE5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1hpOSMP",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2026-bristol-g5dzz_1qs13cg",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly - God Must Really Love Me Europe Tour",
+    "city": "Bristol",
+    "country": "Great Britain",
+    "venue": "O2 Academy Bristol",
+    "datetime_iso": "2026-12-09T19:00:00Z",
+    "tour_name": "God Must Really Love Me Europe Tour",
+    "ticketmaster_event_id": "3E0064A6B1292B75",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-bristol-09-12-2026/event/3E0064A6B1292B75",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-bristol-09-12-2026/event/3E0064A6B1292B75",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064A6B1292B75",
+        "discovery_event_id": "G5dzZ_1Qs13cg",
+        "url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-bristol-09-12-2026/event/3E0064A6B1292B75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1Qs13cg",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2026-london-g5dzz_1hlw0l0",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly - God Must Really Love Me Europe Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Forum Kentish Town",
+    "datetime_iso": "2026-12-11T19:00:00Z",
+    "tour_name": "God Must Really Love Me Europe Tour",
+    "ticketmaster_event_id": "3E0064A6EBCA47E4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-london-11-12-2026/event/3E0064A6EBCA47E4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-london-11-12-2026/event/3E0064A6EBCA47E4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064A6EBCA47E4",
+        "discovery_event_id": "G5dzZ_1hlw0L0",
+        "url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-london-11-12-2026/event/3E0064A6EBCA47E4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1hlw0L0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-san-diego-vvg1iz_pmacvcd",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "House of Blues San Diego",
+    "datetime_iso": "2027-03-18T02:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0A00656B89B74383",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-san-diego-california-03-17-2027/event/0A00656B89B74383",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-san-diego-california-03-17-2027/event/0A00656B89B74383",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00656B89B74383",
+        "discovery_event_id": "vvG1IZ_pmacVCd",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-san-diego-california-03-17-2027/event/0A00656B89B74383",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_pmacVCd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-anaheim-vv170z_pgkmqbskf",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "House of Blues Anaheim",
+    "datetime_iso": "2027-03-20T02:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0900656DDA633194",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-anaheim-california-03-19-2027/event/0900656DDA633194",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-anaheim-california-03-19-2027/event/0900656DDA633194",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900656DDA633194",
+        "discovery_event_id": "vv170Z_pGkMQbSkf",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-anaheim-california-03-19-2027/event/0900656DDA633194",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_pGkMQbSkf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-phoenix-1av0z_pgkgtcw3p",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALY LOVE ME WORLD TOUR",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-03-21T03:00:00Z",
+    "tour_name": "GOD MUST REALY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1900656D7F3B24A5",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-realy-love-phoenix-arizona-03-20-2027/event/1900656D7F3B24A5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-realy-love-phoenix-arizona-03-20-2027/event/1900656D7F3B24A5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656D7F3B24A5",
+        "discovery_event_id": "1Av0Z_pGkgTCw3P",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-realy-love-phoenix-arizona-03-20-2027/event/1900656D7F3B24A5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkgTCw3P",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-tulsa-z7r9jz1aaafav",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly w/ HILLARI",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "Cain's Ballroom",
+    "datetime_iso": "2027-03-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfAV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfAV",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfAV",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfAV",
+        "discovery_event_id": "Z7r9jZ1AAAfAV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfAV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfAV",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-austin-z7r9jz1aaafaz",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-03-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfaZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfaZ",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfaZ",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfaZ",
+        "discovery_event_id": "Z7r9jZ1AAAfaZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfaZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfaZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-houston-g5diz_prlk7d5",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "House of Blues Houston",
+    "datetime_iso": "2027-03-26T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "3A00656BEB4C40CB",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-houston-texas-03-25-2027/event/3A00656BEB4C40CB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-houston-texas-03-25-2027/event/3A00656BEB4C40CB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00656BEB4C40CB",
+        "discovery_event_id": "G5dIZ_pRlK7d5",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-houston-texas-03-25-2027/event/3A00656BEB4C40CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pRlK7d5",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-dallas-vvg1yz_ptdvq44",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "House of Blues Dallas",
+    "datetime_iso": "2027-03-27T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0C00656FFBD1A555",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-dallas-texas-03-26-2027/event/0C00656FFBD1A555",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-dallas-texas-03-26-2027/event/0C00656FFBD1A555",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00656FFBD1A555",
+        "discovery_event_id": "vvG1YZ_pTDVQ44",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-dallas-texas-03-26-2027/event/0C00656FFBD1A555",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_pTDVQ44",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-new-orleans-g5viz_proo-gj",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "House of Blues New Orleans",
+    "datetime_iso": "2027-03-30T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1B00656BD1821D66",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-new-orleans-louisiana-03-29-2027/event/1B00656BD1821D66",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-new-orleans-louisiana-03-29-2027/event/1B00656BD1821D66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656BD1821D66",
+        "discovery_event_id": "G5viZ_pRoO-gJ",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-new-orleans-louisiana-03-29-2027/event/1B00656BD1821D66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pRoO-gJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-st-petersburg-vvg1vz_pwiq_m9",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "St Petersburg",
+    "country": "United States Of America",
+    "venue": "Jannus Live",
+    "datetime_iso": "2027-03-31T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0D00656CAC759B97",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-st-petersburg-florida-03-31-2027/event/0D00656CAC759B97",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-st-petersburg-florida-03-31-2027/event/0D00656CAC759B97",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00656CAC759B97",
+        "discovery_event_id": "vvG1VZ_pwiq_m9",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-st-petersburg-florida-03-31-2027/event/0D00656CAC759B97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pwiq_m9",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-orlando-1aefz_pgkmnverq",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY: GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2027-04-02T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "2200656BA3D2779A",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-orlando-florida-04-01-2027/event/2200656BA3D2779A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-orlando-florida-04-01-2027/event/2200656BA3D2779A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200656BA3D2779A",
+        "discovery_event_id": "1AeFZ_pGkmNVErQ",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-orlando-florida-04-01-2027/event/2200656BA3D2779A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_pGkmNVErQ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-ft-lauderdale-vvg1vz_pv-mndp",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Ft Lauderdale",
+    "country": "United States Of America",
+    "venue": "Revolution Live",
+    "datetime_iso": "2027-04-03T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0D00656D21DEAEE5",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-ft-lauderdale-florida-04-03-2027/event/0D00656D21DEAEE5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-ft-lauderdale-florida-04-03-2027/event/0D00656D21DEAEE5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00656D21DEAEE5",
+        "discovery_event_id": "vvG1VZ_pV-MnDP",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-ft-lauderdale-florida-04-03-2027/event/0D00656D21DEAEE5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pV-MnDP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-nashville-g5viz_pmv-gvm",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2027-04-08T00:30:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1B00656DF484C077",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-nashville-tennessee-04-07-2027/event/1B00656DF484C077",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-nashville-tennessee-04-07-2027/event/1B00656DF484C077",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656DF484C077",
+        "discovery_event_id": "G5viZ_pMV-GvM",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-nashville-tennessee-04-07-2027/event/1B00656DF484C077",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pMV-GvM",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-charlotte-g5evz_pr3nkrd",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2027-04-09T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "2D00656BD28D3BC3",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-charlotte-north-carolina-04-08-2027/event/2D00656BD28D3BC3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-charlotte-north-carolina-04-08-2027/event/2D00656BD28D3BC3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656BD28D3BC3",
+        "discovery_event_id": "G5eVZ_pR3NKRd",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-charlotte-north-carolina-04-08-2027/event/2D00656BD28D3BC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pR3NKRd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-atlanta-vvg1zz_pr5yym7",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Tabernacle Presented by iTHINK Financial",
+    "datetime_iso": "2027-04-11T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0E00656BCBE79B84",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-atlanta-georgia-04-10-2027/event/0E00656BCBE79B84",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-atlanta-georgia-04-10-2027/event/0E00656BCBE79B84",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00656BCBE79B84",
+        "discovery_event_id": "vvG1zZ_pR5yym7",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-atlanta-georgia-04-10-2027/event/0E00656BCBE79B84",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_pR5yym7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-raleigh-g5evz_pmhkhqy",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "The Ritz",
+    "datetime_iso": "2027-04-11T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "2D00656DFC4DB6B9",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-raleigh-north-carolina-04-11-2027/event/2D00656DFC4DB6B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-raleigh-north-carolina-04-11-2027/event/2D00656DFC4DB6B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656DFC4DB6B9",
+        "discovery_event_id": "G5eVZ_pMHKhQy",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-raleigh-north-carolina-04-11-2027/event/2D00656DFC4DB6B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pMHKhQy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-boston-vv177z_pgkresuwf",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2027-04-14T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0100656BC2CCDC94",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-boston-massachusetts-04-14-2027/event/0100656BC2CCDC94",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-boston-massachusetts-04-14-2027/event/0100656BC2CCDC94",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656BC2CCDC94",
+        "discovery_event_id": "vv177Z_pGkReSuwf",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-boston-massachusetts-04-14-2027/event/0100656BC2CCDC94",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkReSuwf",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-silver-spring-1avfz_pgksegqna",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Silver Spring",
+    "country": "United States Of America",
+    "venue": "The Fillmore Silver Spring",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1500656CC2D5A8C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-silver-spring-maryland-04-16-2027/event/1500656CC2D5A8C9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-silver-spring-maryland-04-16-2027/event/1500656CC2D5A8C9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500656CC2D5A8C9",
+        "discovery_event_id": "1AvfZ_pGkSegQNa",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-silver-spring-maryland-04-16-2027/event/1500656CC2D5A8C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_pGkSegQNa",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-philadelphia-z7r9jz1aaafa-",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly w/ HILLARI",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Franklin Music Hall",
+    "datetime_iso": "2027-04-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfa-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfa-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfa-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfa-",
+        "discovery_event_id": "Z7r9jZ1AAAfa-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfa-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfa-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-brooklyn-k7vgf_phude5k",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-04-18T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0000656F0D0E72C6",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-brooklyn-new-york-04-18-2027/event/0000656F0D0E72C6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-brooklyn-new-york-04-18-2027/event/0000656F0D0E72C6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000656F0D0E72C6",
+        "discovery_event_id": "k7vGF_pHudE5k",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-brooklyn-new-york-04-18-2027/event/0000656F0D0E72C6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pHudE5k",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-toronto-1avzz_pgkvx9zdy",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-04-21T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1000656D225F8EF9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-toronto-ontario-04-21-2027/event/1000656D225F8EF9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-toronto-ontario-04-21-2027/event/1000656D225F8EF9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656D225F8EF9",
+        "discovery_event_id": "1AvZZ_pGkVx9zDy",
+        "url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-toronto-ontario-04-21-2027/event/1000656D225F8EF9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_pGkVx9zDy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-detroit-vv17oz_pgkcxk3hy",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-04-23T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0800656B7E1926F9",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-detroit-michigan-04-23-2027/event/0800656B7E1926F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-detroit-michigan-04-23-2027/event/0800656B7E1926F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656B7E1926F9",
+        "discovery_event_id": "vv17OZ_pGkcXk3hy",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-detroit-michigan-04-23-2027/event/0800656B7E1926F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_pGkcXk3hy",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-louisville-1avbz_pgksxzvfu",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "The Louisville Palace",
+    "datetime_iso": "2027-04-25T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1600656CE2E01236",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-louisville-kentucky-04-24-2027/event/1600656CE2E01236",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/louisville-kentucky-louisville-palace-2027-04-24-8-pm/concert/18778568",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-louisville-kentucky-04-24-2027/event/1600656CE2E01236",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656CE2E01236",
+        "discovery_event_id": "1AvbZ_pGkSxzvFU",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-louisville-kentucky-04-24-2027/event/1600656CE2E01236",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_pGkSxzvFU",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-indianapolis-vv17fz_pgkswj0w7",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2027-04-27T23:30:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0500656CF2724F44",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-indianapolis-indiana-04-27-2027/event/0500656CF2724F44",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-04-27-7-30-pm/concert/18778566",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-indianapolis-indiana-04-27-2027/event/0500656CF2724F44",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656CF2724F44",
+        "discovery_event_id": "vv17fZ_pGkSwj0W7",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-indianapolis-indiana-04-27-2027/event/0500656CF2724F44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_pGkSwj0W7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-milwaukee-z7r9jz1aaa4u3",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Pabst Theater",
+    "datetime_iso": "2027-04-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4u3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4u3",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/milwaukee-wisconsin-pabst-theater-2027-04-28-7-pm/concert/18778953",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4u3",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4u3",
+        "discovery_event_id": "Z7r9jZ1AAA4u3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4u3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4u3",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-chicago-vv178z_pgkrb2cst",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "House of Blues Chicago",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0400656BD83EDCE9",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-chicago-illinois-04-30-2027/event/0400656BD83EDCE9",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/chicago-illinois-house-of-blues-chicago-2027-04-30-7-pm/concert/18778569",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-chicago-illinois-04-30-2027/event/0400656BD83EDCE9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400656BD83EDCE9",
+        "discovery_event_id": "vv178Z_pGkRb2cSt",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-chicago-illinois-04-30-2027/event/0400656BD83EDCE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_pGkRb2cSt",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-minneapolis-z7r9jz1aaa4uk",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly w/ HILLARI",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "First Avenue",
+    "datetime_iso": "2027-05-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4uK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4uK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4uK",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4uK",
+        "discovery_event_id": "Z7r9jZ1AAA4uK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4uK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4uK",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-saint-louis-vv17bz_pgkmbgu0t",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Pageant",
+    "datetime_iso": "2027-05-05T01:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0600656B98336929",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-saint-louis-missouri-05-04-2027/event/0600656B98336929",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-saint-louis-missouri-05-04-2027/event/0600656B98336929",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656B98336929",
+        "discovery_event_id": "vv17bZ_pGkmbGU0t",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-saint-louis-missouri-05-04-2027/event/0600656B98336929",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkmbGU0t",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-kansas-city-z7r9jz1aaaffz",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Truman - Kansas City",
+    "datetime_iso": "2027-05-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfFz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFz",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/kansas-city-missouri-the-truman-2027-05-05-7-pm/concert/18778957",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFz",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfFz",
+        "discovery_event_id": "Z7r9jZ1AAAfFz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfFz",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-denver-g5vzz_pmqeaxk",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Summit Music Hall",
+    "datetime_iso": "2027-05-09T01:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1E00656B9A9C5F86",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-denver-colorado-05-08-2027/event/1E00656B9A9C5F86",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/denver-colorado-summit-music-hall-denver-2027-05-08-7-pm/concert/18778574",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-denver-colorado-05-08-2027/event/1E00656B9A9C5F86",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00656B9A9C5F86",
+        "discovery_event_id": "G5vzZ_pmQEAXk",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-denver-colorado-05-08-2027/event/1E00656B9A9C5F86",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pmQEAXk",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-salt-lake-city-g5vzz_pw0n4ot",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Depot",
+    "datetime_iso": "2027-05-10T01:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1E00656CA4A9547F",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-salt-lake-city-utah-05-09-2027/event/1E00656CA4A9547F",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-05-09-7-pm/concert/18778576",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-salt-lake-city-utah-05-09-2027/event/1E00656CA4A9547F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00656CA4A9547F",
+        "discovery_event_id": "G5vzZ_pw0n4oT",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-salt-lake-city-utah-05-09-2027/event/1E00656CA4A9547F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pw0n4oT",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-vancouver-1av7z_pgkwlyauw",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Queen Elizabeth Theatre",
+    "datetime_iso": "2027-05-13T02:30:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1100656C9FC05DBD",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-vancouver-british-columbia-05-12-2027/event/1100656C9FC05DBD",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-05-12-7-pm/concert/18778581",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-vancouver-british-columbia-05-12-2027/event/1100656C9FC05DBD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100656C9FC05DBD",
+        "discovery_event_id": "1Av7Z_pGkwLYAUW",
+        "url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-vancouver-british-columbia-05-12-2027/event/1100656C9FC05DBD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_pGkwLYAUW",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-seattle-z7r9jz1aaafgn",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Showbox SODO",
+    "datetime_iso": "2027-05-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfGN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfGN",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfGN",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfGN",
+        "discovery_event_id": "Z7r9jZ1AAAfGN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfGN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfGN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-portland-z7r9jz1aaafff",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly w/ HILLARI",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "McMenamins Crystal Ballroom",
+    "datetime_iso": "2027-05-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfFf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfFf",
+        "discovery_event_id": "Z7r9jZ1AAAfFf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfFf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-sacramento-g5vyz_puiau1t",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Channel 24",
+    "datetime_iso": "2027-05-19T03:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1C00656DA824D2BF",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-sacramento-california-05-18-2027/event/1C00656DA824D2BF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-sacramento-california-05-18-2027/event/1C00656DA824D2BF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656DA824D2BF",
+        "discovery_event_id": "G5vYZ_pUIau1T",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-sacramento-california-05-18-2027/event/1C00656DA824D2BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pUIau1T",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tori-kelly-2027-hollywood-vv170z_pgkwplbll",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Palladium",
+    "datetime_iso": "2027-05-21T02:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0900656C967D87DF",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-hollywood-california-05-20-2027/event/0900656C967D87DF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-hollywood-california-05-20-2027/event/0900656C967D87DF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900656C967D87DF",
+        "discovery_event_id": "vv170Z_pGkwpLbLL",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-hollywood-california-05-20-2027/event/0900656C967D87DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_pGkwpLbLL",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  }
+]

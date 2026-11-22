@@ -1,0 +1,691 @@
+[
+  {
+    "id": "tm-chris-tomlin-2026-birmingham-1kfzvpfyga2ugky",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Alabama Theatre",
+    "datetime_iso": "2026-12-01T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "200065230F3751B9",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-birmingham-alabama-11-30-2026/event/200065230F3751B9",
+    "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/birmingham-alabama-alabama-theatre-birmingham-2026-11-30-7-pm/concert/18560966",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-birmingham-alabama-11-30-2026/event/200065230F3751B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "200065230F3751B9",
+        "discovery_event_id": "1kFZvPFYGA2ugky",
+        "url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-birmingham-alabama-11-30-2026/event/200065230F3751B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kFZvPFYGA2ugky",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-birmingham-1aezz_ogkloidyk",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Alabama Theatre",
+    "datetime_iso": "2026-12-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2000651AE0A03C06",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-birmingham-alabama-12-01-2026/event/2000651AE0A03C06",
+    "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/birmingham-alabama-alabama-theatre-birmingham-2026-12-01-7-pm/concert/18543012",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-birmingham-alabama-12-01-2026/event/2000651AE0A03C06",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000651AE0A03C06",
+        "discovery_event_id": "1AeZZ_oGklOIdYk",
+        "url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-birmingham-alabama-12-01-2026/event/2000651AE0A03C06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_oGklOIdYk",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-daytona-beach-z7r9jz1aav44a",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "Daytona Beach",
+    "country": "United States Of America",
+    "venue": "The Peabody Daytona Beach",
+    "datetime_iso": "2026-12-03T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv44A",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv44A",
+    "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/daytona-beach-florida-peabody-auditorium-2026-12-02-7-pm/concert/18549313",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv44A",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv44A",
+        "discovery_event_id": "Z7r9jZ1AAv44A",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv44A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv44A",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-north-charleston-g5evz_oontasw",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "North Charleston",
+    "country": "United States Of America",
+    "venue": "North Charleston Performing Arts Center",
+    "datetime_iso": "2026-12-04T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D0065182AFC5CFD",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-north-charleston-south-carolina-12-03-2026/event/2D0065182AFC5CFD",
+    "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/north-charleston-south-carolina-north-charleston-performing-arts-center-2026-12-03-7-pm/concert/18542992",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-north-charleston-south-carolina-12-03-2026/event/2D0065182AFC5CFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D0065182AFC5CFD",
+        "discovery_event_id": "G5eVZ_oOnTASW",
+        "url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-north-charleston-south-carolina-12-03-2026/event/2D0065182AFC5CFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_oOnTASW",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-pensacola-g5viz_on0-j6v",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "Pensacola",
+    "country": "United States Of America",
+    "venue": "Pensacola Saenger Theatre",
+    "datetime_iso": "2026-12-05T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00651AA485C1C1",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-pensacola-florida-12-04-2026/event/1B00651AA485C1C1",
+    "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/pensacola-florida-saenger-theatre-pensacola-2026-12-04-7-pm/concert/18543014",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-pensacola-florida-12-04-2026/event/1B00651AA485C1C1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00651AA485C1C1",
+        "discovery_event_id": "G5viZ_on0-j6v",
+        "url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-pensacola-florida-12-04-2026/event/1B00651AA485C1C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_on0-j6v",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-knoxville-g5viz_ojuxkcz",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "Knoxville",
+    "country": "United States Of America",
+    "venue": "Knoxville Civic Auditorium",
+    "datetime_iso": "2026-12-09T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065198DF86B78",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-knoxville-tennessee-12-08-2026/event/1B0065198DF86B78",
+    "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/knoxville-tennessee-knoxville-civic-auditorium-and-coliseum-2026-12-08-7-pm/concert/18542727",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-knoxville-tennessee-12-08-2026/event/1B0065198DF86B78",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065198DF86B78",
+        "discovery_event_id": "G5viZ_oJuXkcz",
+        "url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-knoxville-tennessee-12-08-2026/event/1B0065198DF86B78",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_oJuXkcz",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-newport-news-z7r9jz1aavoof",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Chris Tomlin",
+    "city": "Newport News",
+    "country": "United States Of America",
+    "venue": "Ferguson Center for the Arts Concert Hall",
+    "datetime_iso": "2026-12-10T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAvoof",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoof",
+    "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/newport-news-virginia-ferguson-center-for-the-arts-concert-hall-2026-12-09-7-30-pm/concert/18549320",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoof",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAvoof",
+        "discovery_event_id": "Z7r9jZ1AAvoof",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoof",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAvoof",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-jersey-city-vv1aezkf_gkedtdkm",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "Jersey City",
+    "country": "United States Of America",
+    "venue": "Loew's Jersey Theatre",
+    "datetime_iso": "2026-12-10T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006519BBA434F7",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-jersey-city-new-jersey-12-10-2026/event/02006519BBA434F7",
+    "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/jersey-city-new-jersey-loew-s-jersey-theatre-2026-12-10-5-30-pm/concert/18543039",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-jersey-city-new-jersey-12-10-2026/event/02006519BBA434F7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006519BBA434F7",
+        "discovery_event_id": "vv1AeZkf_GkeDtdKM",
+        "url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-jersey-city-new-jersey-12-10-2026/event/02006519BBA434F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZkf_GkeDtdKM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-detroit-z7r9jz1aav34i",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Chris Tomlin",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Fisher Theatre - Detroit",
+    "datetime_iso": "2026-12-16T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv34I",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv34I",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv34I",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv34I",
+        "discovery_event_id": "Z7r9jZ1AAv34I",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv34I",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv34I",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-indianapolis-vv17fz_ogkmojkil",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2026-12-17T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500651BA0706A1F",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-indianapolis-indiana-12-16-2026/event/0500651BA0706A1F",
+    "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2026-12-16-7-pm/concert/18543195",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-indianapolis-indiana-12-16-2026/event/0500651BA0706A1F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500651BA0706A1F",
+        "discovery_event_id": "vv17fZ_oGkmOjkIL",
+        "url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-indianapolis-indiana-12-16-2026/event/0500651BA0706A1F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_oGkmOjkIL",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-milwaukee-z7r9jz1aav4be",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Riverside Theater - WI",
+    "datetime_iso": "2026-12-18T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAv4bE",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4bE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4bE",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAv4bE",
+        "discovery_event_id": "Z7r9jZ1AAv4bE",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4bE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAv4bE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2026-cincinnati-1avbz_ogknrwawm",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Christmas with Chris Tomlin",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "Taft Theatre",
+    "datetime_iso": "2026-12-19T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600651A9EC85CB7",
+    "ticketmaster_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-cincinnati-ohio-12-18-2026/event/1600651A9EC85CB7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-cincinnati-ohio-12-18-2026/event/1600651A9EC85CB7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600651A9EC85CB7",
+        "discovery_event_id": "1AvbZ_oGknrwAwM",
+        "url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-cincinnati-ohio-12-18-2026/event/1600651A9EC85CB7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_oGknrwAwM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2027-nashville-g5viz_6t7chyi",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Chris Tomlin: Good Friday Nashville 2027",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-03-27T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00647FC4B5BE68",
+    "ticketmaster_url": "https://www.ticketmaster.com/chris-tomlin-good-friday-nashville-2027-nashville-tennessee-03-26-2027/event/1B00647FC4B5BE68",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/chris-tomlin-good-friday-nashville-2027-nashville-tennessee-03-26-2027/event/1B00647FC4B5BE68",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00647FC4B5BE68",
+        "discovery_event_id": "G5viZ_6T7chyI",
+        "url": "https://www.ticketmaster.com/chris-tomlin-good-friday-nashville-2027-nashville-tennessee-03-26-2027/event/1B00647FC4B5BE68",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_6T7chyI",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  }
+]

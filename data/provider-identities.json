@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19",
+  "updated_at": "2026-11-22",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -3043,6 +3043,39 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-11-19 (sanctioned path D): SeatGeek performer 1980795 and Ticketmaster attraction K8vZ917LxH0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "tori-kelly",
+      "ticketmaster_attraction_id": "K8vZ9178wR7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/tori-kelly-tickets/artist/1780311",
+      "seatgeek_performer_id": 57643,
+      "seatgeek_artist_url": "https://seatgeek.com/tori-kelly-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-22 (sanctioned path D): SeatGeek performer 57643 and Ticketmaster attraction K8vZ9178wR7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "chris-tomlin",
+      "ticketmaster_attraction_id": "K8vZ9175WR0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/chris-tomlin-tickets/artist/982298",
+      "seatgeek_performer_id": 458,
+      "seatgeek_artist_url": "https://seatgeek.com/chris-tomlin-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-22 (sanctioned path D): SeatGeek performer 458 and Ticketmaster attraction K8vZ9175WR0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "rascal-flatts",
+      "ticketmaster_attraction_id": "K8vZ9171nF7",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/rascal-flatts-tickets/artist/806203",
+      "seatgeek_performer_id": 1498,
+      "seatgeek_artist_url": "https://seatgeek.com/rascal-flatts-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-22 (sanctioned path D): SeatGeek performer 1498 and Ticketmaster attraction K8vZ9171nF7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

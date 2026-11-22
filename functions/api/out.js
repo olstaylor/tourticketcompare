@@ -27,6 +27,7 @@ const IMPACT_PROVIDER_TRACKING_HOSTS = {
   "stubhub-international": ["sjv.io"],
   ticketnetwork: ["goto.ticketnetwork.com"],
   "ticket-liquidator": ["auhm.net"]
+  // TickPick and Gametime vanity tracking hosts: add once Impact issues links.
 };
 // Temporary production proof header for /api/out. Remove after verifying
 // plain (non-affiliate) Ticketmaster redirects are live.
@@ -100,6 +101,21 @@ const PROVIDERS = {
     trustedAffiliateHosts: [],
     urlField: "stubhub_international_url",
     publicEnabledEnv: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED"
+  },
+  // Dormant until TICKPICK_PUBLIC_ENABLED / GAMETIME_PUBLIC_ENABLED are "true".
+  tickpick: {
+    name: "TickPick",
+    allowedDestinationHosts: ["tickpick.com"],
+    trustedAffiliateHosts: [],
+    urlField: "tickpick_url",
+    publicEnabledEnv: "TICKPICK_PUBLIC_ENABLED"
+  },
+  gametime: {
+    name: "Gametime",
+    allowedDestinationHosts: ["gametime.co"],
+    trustedAffiliateHosts: [],
+    urlField: "gametime_url",
+    publicEnabledEnv: "GAMETIME_PUBLIC_ENABLED"
   }
 };
 
@@ -4170,7 +4186,7 @@ function providerEventPublishable(event, provider) {
   // A cancelled or postponed show (stored Ticketmaster status) redirects
   // nowhere, so a hand-built showId URL cannot bypass the hold the page applies.
   if (eventLifecycleHeld(event)) return false;
-  if (["ticketnetwork", "ticket-liquidator", "stubhub-international"].includes(provider)) {
+  if (["ticketnetwork", "ticket-liquidator", "stubhub-international", "tickpick", "gametime"].includes(provider)) {
     return event?.provider_links?.[provider]?.verified === true;
   }
   if (provider !== "ticketmaster" && event?.provider_links?.[provider]?.verified === true) return true;
@@ -4357,19 +4373,25 @@ const BASE_TRACKING_URL_ENV_VARS = {
   "vivid-seats": "IMPACT_VIVIDSEATS_BASE_TRACKING_URL",
   ticketnetwork: "IMPACT_TICKETNETWORK_BASE_TRACKING_URL",
   "ticket-liquidator": "IMPACT_TICKETLIQUIDATOR_BASE_TRACKING_URL",
-  "stubhub-international": "IMPACT_STUBHUB_INTERNATIONAL_BASE_TRACKING_URL"
+  "stubhub-international": "IMPACT_STUBHUB_INTERNATIONAL_BASE_TRACKING_URL",
+  tickpick: "IMPACT_TICKPICK_BASE_TRACKING_URL",
+  gametime: "IMPACT_GAMETIME_BASE_TRACKING_URL"
 };
 
 const IMPACT_PROVIDER_ENV_PREFIXES = {
   ticketnetwork: "IMPACT_TICKETNETWORK",
   "ticket-liquidator": "IMPACT_TICKETLIQUIDATOR",
-  "stubhub-international": "IMPACT_STUBHUB_INTERNATIONAL"
+  "stubhub-international": "IMPACT_STUBHUB_INTERNATIONAL",
+  tickpick: "IMPACT_TICKPICK",
+  gametime: "IMPACT_GAMETIME"
 };
 
 const IMPACT_PROVIDER_DEFAULT_PROGRAM_IDS = {
   ticketnetwork: "2322",
   "ticket-liquidator": "2085",
-  "stubhub-international": "24092"
+  "stubhub-international": "24092",
+  tickpick: "10353",
+  gametime: "10874"
 };
 
 function baseTrackingUrlFor(env = {}, provider) {
@@ -4571,7 +4593,7 @@ function safeImpactDiagnosticConfig(config) {
 }
 
 const IMPACT_WRAPPED_PROVIDERS = new Set([
-  "seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"
+  "seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international", "tickpick", "gametime"
 ]);
 
 function impactRequestStatus(statusCode, provider = "ticketmaster") {

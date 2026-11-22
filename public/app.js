@@ -70,13 +70,23 @@ const providerCopy = {
   "stubhub-international": {
     name: "StubHub International",
     label: "Check provider"
+  },
+  tickpick: {
+    name: "TickPick",
+    label: "Check provider"
+  },
+  gametime: {
+    name: "Gametime",
+    label: "Check provider"
   }
 };
 
 const IMPACT_MARKETPLACE_PROVIDERS = [
   { slug: "ticketnetwork", name: "TicketNetwork", urlField: "ticketnetwork_url", allowedHosts: ["ticketnetwork.com"], priceSource: "ticketnetwork_impact_marketplace_api" },
   { slug: "ticket-liquidator", name: "Ticket Liquidator", urlField: "ticketliquidator_url", allowedHosts: ["ticketliquidator.com"], priceSource: "ticketliquidator_impact_marketplace_api" },
-  { slug: "stubhub-international", name: "StubHub International", urlField: "stubhub_international_url", allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"], priceSource: "stubhub_international_impact_marketplace_api" }
+  { slug: "stubhub-international", name: "StubHub International", urlField: "stubhub_international_url", allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"], priceSource: "stubhub_international_impact_marketplace_api" },
+  { slug: "tickpick", name: "TickPick", urlField: "tickpick_url", allowedHosts: ["tickpick.com"], priceSource: "tickpick_impact_marketplace_api" },
+  { slug: "gametime", name: "Gametime", urlField: "gametime_url", allowedHosts: ["gametime.co"], priceSource: "gametime_impact_marketplace_api" }
 ];
 
 const guidePages = [
@@ -876,7 +886,7 @@ function providerVerificationNote(item) {
 
 // The primary ticket site renders first, then marketplaces alphabetically. Keep in sync with PROVIDER_DISPLAY_ORDER in
 // functions/[[path]].js.
-const PROVIDER_DISPLAY_ORDER = ["ticketmaster", "seatgeek", "stubhub-international", "ticket-liquidator", "ticketnetwork", "vivid-seats"];
+const PROVIDER_DISPLAY_ORDER = ["ticketmaster", "seatgeek", "gametime", "stubhub-international", "tickpick", "ticket-liquidator", "ticketnetwork", "vivid-seats"];
 
 function providerDisplayRank(providerSlug) {
   const rank = PROVIDER_DISPLAY_ORDER.indexOf(providerSlug);
@@ -4672,7 +4682,7 @@ document.addEventListener("click", async (event) => {
 // Delegated provider-CTA click analytics. Covers server-rendered and hydrated
 // CTAs alike via the data-cta-* attributes: artist, event, provider, snapshot
 // present/absent, and CTA location. Never blocks or rewrites the navigation.
-const AFFILIATE_CTA_PROVIDERS = ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international"];
+const AFFILIATE_CTA_PROVIDERS = ["seatgeek", "vivid-seats", "ticketnetwork", "ticket-liquidator", "stubhub-international", "tickpick", "gametime"];
 
 function attachBrowserIntent(cta, event) {
   // Correlate only consented ordinary activations. Navigation remains native;

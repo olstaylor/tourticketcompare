@@ -139,7 +139,9 @@ export const AFFILIATE_PROVIDERS = Object.freeze([
   "vivid-seats",
   "ticketnetwork",
   "ticket-liquidator",
-  "stubhub-international"
+  "stubhub-international",
+  "tickpick",
+  "gametime"
 ]);
 
 const AFFILIATE_PROVIDER_SET = new Set(AFFILIATE_PROVIDERS);

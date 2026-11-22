@@ -36,6 +36,18 @@ const IMPACT_MARKETPLACE_PROVIDERS = [
     allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"],
     priceSource: "stubhub_international_impact_marketplace_api", displayFlagKey: "STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED",
     publicFlagKey: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED"
+  },
+  {
+    slug: "tickpick", name: "TickPick", envPrefix: "IMPACT_TICKPICK",
+    urlField: "tickpick_url", allowedHosts: ["tickpick.com"],
+    priceSource: "tickpick_impact_marketplace_api", displayFlagKey: "TICKPICK_PRICE_DISPLAY_ENABLED",
+    publicFlagKey: "TICKPICK_PUBLIC_ENABLED"
+  },
+  {
+    slug: "gametime", name: "Gametime", envPrefix: "IMPACT_GAMETIME",
+    urlField: "gametime_url", allowedHosts: ["gametime.co"],
+    priceSource: "gametime_impact_marketplace_api", displayFlagKey: "GAMETIME_PRICE_DISPLAY_ENABLED",
+    publicFlagKey: "GAMETIME_PUBLIC_ENABLED"
   }
 ];
 const IMPACT_MARKETPLACE_BY_SLUG = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, provider]));
@@ -141,6 +153,8 @@ export function mapEventsToShows(events) {
         ticketnetwork_url: event.ticketnetwork_url,
         ticketliquidator_url: event.ticketliquidator_url,
         stubhub_international_url: event.stubhub_international_url,
+        tickpick_url: event.tickpick_url,
+        gametime_url: event.gametime_url,
         ticketmaster_url: event.ticketmaster_url,
         // Publishability state consumed by eventLinkPublishable /
         // providerEventPublishable in public/app.js — without it, hydrated
@@ -300,7 +314,9 @@ const PROVIDER_URL_FIELDS = {
   "vivid-seats": "vividseats_url",
   ticketnetwork: "ticketnetwork_url",
   "ticket-liquidator": "ticketliquidator_url",
-  "stubhub-international": "stubhub_international_url"
+  "stubhub-international": "stubhub_international_url",
+  tickpick: "tickpick_url",
+  gametime: "gametime_url"
 };
 
 function normalizeProviderLinks(rawLinks) {

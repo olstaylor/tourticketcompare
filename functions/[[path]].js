@@ -4792,6 +4792,10 @@ function publishableFutureShowsUncached(events, now = Date.now()) {
       ticketnetwork_url: String(ev.ticketnetwork_url || "").trim(),
       ticketliquidator_url: String(ev.ticketliquidator_url || "").trim(),
       stubhub_international_url: String(ev.stubhub_international_url || "").trim(),
+    tickpick_url: String(ev.tickpick_url || "").trim(),
+    gametime_url: String(ev.gametime_url || "").trim(),
+      tickpick_url: String(ev.tickpick_url || "").trim(),
+      gametime_url: String(ev.gametime_url || "").trim(),
       publishable: Boolean(
         (eventLinkPublishable(ev) && safeShowTicketUrl(ev.ticketmaster_url)) ||
         (providerEventPublishable(ev, "seatgeek") && safeSeatGeekTicketUrl(ev.seatgeek_url)) ||
@@ -5271,7 +5275,9 @@ function providerVerificationNote(item) {
 const IMPACT_MARKETPLACE_PROVIDERS = [
   { slug: "ticketnetwork", name: "TicketNetwork", envPrefix: "IMPACT_TICKETNETWORK", urlField: "ticketnetwork_url", allowedHosts: ["ticketnetwork.com"], priceSource: "ticketnetwork_impact_marketplace_api", publicFlag: "TICKETNETWORK_PUBLIC_ENABLED" },
   { slug: "ticket-liquidator", name: "Ticket Liquidator", envPrefix: "IMPACT_TICKETLIQUIDATOR", urlField: "ticketliquidator_url", allowedHosts: ["ticketliquidator.com"], priceSource: "ticketliquidator_impact_marketplace_api", publicFlag: "TICKETLIQUIDATOR_PUBLIC_ENABLED" },
-  { slug: "stubhub-international", name: "StubHub International", envPrefix: "IMPACT_STUBHUB_INTERNATIONAL", urlField: "stubhub_international_url", allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"], priceSource: "stubhub_international_impact_marketplace_api", publicFlag: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED" }
+  { slug: "stubhub-international", name: "StubHub International", envPrefix: "IMPACT_STUBHUB_INTERNATIONAL", urlField: "stubhub_international_url", allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"], priceSource: "stubhub_international_impact_marketplace_api", publicFlag: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED" },
+  { slug: "tickpick", name: "TickPick", envPrefix: "IMPACT_TICKPICK", urlField: "tickpick_url", allowedHosts: ["tickpick.com"], priceSource: "tickpick_impact_marketplace_api", publicFlag: "TICKPICK_PUBLIC_ENABLED" },
+  { slug: "gametime", name: "Gametime", envPrefix: "IMPACT_GAMETIME", urlField: "gametime_url", allowedHosts: ["gametime.co"], priceSource: "gametime_impact_marketplace_api", publicFlag: "GAMETIME_PUBLIC_ENABLED" }
 ];
 
 // Owner-approved lanes for machine-readable price redistribution in JSON-LD
@@ -5284,7 +5290,7 @@ export const SCHEMA_OFFERS_APPROVED_PROVIDERS = Object.freeze(["vivid-seats", "t
 
 // Primary ticket site first, then marketplaces alphabetically. Commercial
 // terms never determine presentation order. Keep the server and client in sync.
-const PROVIDER_DISPLAY_ORDER = ["ticketmaster", "seatgeek", "stubhub-international", "ticket-liquidator", "ticketnetwork", "vivid-seats"];
+const PROVIDER_DISPLAY_ORDER = ["ticketmaster", "seatgeek", "gametime", "stubhub-international", "tickpick", "ticket-liquidator", "ticketnetwork", "vivid-seats"];
 const PROVIDER_DISPLAY_NAMES = { ticketmaster: "Ticketmaster", seatgeek: "SeatGeek", "vivid-seats": "Vivid Seats", ...Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, provider.name])) };
 
 function providerDisplayRank(providerSlug) {

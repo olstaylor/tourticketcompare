@@ -3678,7 +3678,7 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
   return `<section class="nested-panel price-cheapest" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
   )}</h2>${items}<p class="muted">${escapeHtml(
-    "Found on the ticket sites this page checks, not every site. Seats and fees differ, so compare the final total before you pay."
+    "From the ticket sites this page checks, not every site."
   )}</p></section>`;
 }
 
@@ -3770,9 +3770,9 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   const summary = surface?.quietSummary
     ? ""
     : ticketOptions && rows.length === 1
-    ? (showPrices ? "Prices are as of the time shown. Compare seats, fees and delivery on each ticket site before you pay." : "")
+    ? ""
     : ticketOptions
-    ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ' Prices are as of the time shown, and "sites priced" counts the sites with a price for that date.' : ""}`
+    ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ' "Sites priced" counts the sites with a price for that date.' : ""}`
     : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Seats, quantities and fees can differ between sites. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
@@ -8044,10 +8044,9 @@ function renderEventPageBody(route, events, env) {
   // "What to know": the page's own facts restated as a buyer's checklist, plus
   // links to the guides that cover delivery, scams and cancellations. No door
   // time is stated: the event record doesn't hold one.
-  const doorLine = "Door times aren't listed yet, so check your ticket or the venue before you go.";
   // A held (cancelled, postponed or unconfirmed) date states its status
   // above; nothing here may read as if the show goes ahead.
-  const knowItems = held ? [] : [escapeHtml(doorLine)];
+  const knowItems = [];
   if (!held) {
     knowItems.push(
       escapeHtml(
@@ -8079,7 +8078,7 @@ function renderEventPageBody(route, events, env) {
   // door-time caveat. A held date gets no lead (its status is the answer).
   const leadText = held
     ? ""
-    : `${localTime ? `Listed start time: ${localTime} local time. ` : ""}${ctaSpecs.length ? `Explore ${ctaSpecs.length} ticket site${ctaSpecs.length === 1 ? "" : "s"} below. ` : ""}Confirm seats and availability with the seller.`;
+    : `${localTime ? `Listed start time: ${localTime} local time. ` : ""}`.trim();
   const leadHtml = leadText ? `<p class="lead">${escapeHtml(leadText)}</p>` : "";
   const ticketsHeading = held ? "Ticket status" : "Explore ticket options";
   const disclosure = ctaSpecs.length ? renderMoneyDisclosureHtml({ prices: ctaSpecs.some((spec) => spec.priceAmount) }) : "";

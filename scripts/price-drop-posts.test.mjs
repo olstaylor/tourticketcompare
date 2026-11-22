@@ -41,7 +41,9 @@ assert.ok(text.includes("https://tourticketcompare.com/"));
 assert.equal(run(series("e1", [100, 100, 100, 100, 100, 100, 100, 90]), [ev]).length, 0);
 assert.equal(run(series("e1", [100, 100, 100, 100, 100, 100, 100, 100, 60]), [ev]).length, 0, "one reading is a spike");
 assert.equal(run(drop.map((r) => ({ ...r, last_observed_at: "2026-10-24T01:00:00Z" })), [ev]).length, 0, "stale");
-assert.equal(run(drop, [event("e1", 5)]).length, 0, "show under 7 days out");
+assert.equal(run(drop, [event("e1", 2)]).length, 0, "show under 3 days out");
+assert.equal(run(drop, [event("e1", 4)]).length, 1, "show 3+ days out is allowed");
+assert.equal(run(series("e1", [50, 50, 50, 50, 50, 50, 50, 38, 38]), [ev]).length, 0, "24% but under the 20 floor");
 assert.equal(run(drop, [event("e1", 20, { ticketmaster_status_code: "cancelled" })]).length, 0, "cancelled");
 assert.equal(run(drop, []).length, 0, "unknown event");
 assert.equal(run(series("e1", [100, 100, 100, 100, 100, 100, 100, 5, 5]), [ev]).length, 0, "implausible price");
@@ -50,7 +52,8 @@ assert.equal(run(drop.map((r) => ({ ...r, provider: "seatgeek" })), [ev]).length
 // Week-out wording when the show is close.
 out = run(drop, [event("e1", 9)]);
 assert.equal(out[0].kind, "week-out");
-assert.match(renderDraftText(out[0]), /about a week away/);
+assert.match(renderDraftText(out[0]), /is \d+ days away and/);
+assert.doesNotMatch(renderDraftText(out[0]), /about a week away/);
 
 // Record low: 20 days of history, new low 10% under every earlier reading, no 20% weekly fall.
 const rl = series("e1", [100, 98, 99, 100, 97, 99, 100, 98, 99, 100, 97, 99, 98, 100, 99, 98, 97, 96, 88, 87]);

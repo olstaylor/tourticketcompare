@@ -295,7 +295,7 @@
     "/blog/hilary-duff-lucky-me-tour-2027-on-sale"
   ];
   var SELLING_SOON_VISIBLE = 4;
-  var SELLING_SOON_VISIBLE_HOME = 6;
+  var SELLING_SOON_VISIBLE_HOME = 4;
   var sellingSoonPath = window.location.pathname.replace(/\/+$/, "") || "/";
   // Artist page: after its own dates. Homepage: under the hero. Guides, blog
   // posts and the compare hub: after the first panel (short answer, ticket
@@ -327,7 +327,7 @@
         heading.id = "sellingSoonTitle";
         heading.textContent = "Big shows in the next two weeks";
         var intro = document.createElement("p");
-        intro.textContent = "Going to one of these? Open it to compare the ticket sites for that date.";
+        intro.textContent = "Open one to compare ticket sites for that date.";
         var list = document.createElement("ul");
         list.className = "guide-link-list";
         shows.forEach(function (show, index) {

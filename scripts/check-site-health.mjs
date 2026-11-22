@@ -220,7 +220,7 @@ async function collectSitemapUrlsOnce(baseUrl, fetchImpl) {
 // empty, duplicated) is reported straight away.
 const isMismatch = (problem) => /in no segment|are not in \/sitemap\.xml/.test(problem);
 
-// Edge-cached sitemaps answer a request after a long quiet gap with the last
+// Edge-cached sitemaps and /llms.txt answer a request after a long quiet gap with the last
 // copy (up to a day old) and rebuild in the background (functions/_edge-cache.js).
 // This run's first read is usually that request, so it saw yesterday's list
 // (past dates, since-cancelled pages) and went red on URLs the live pages had
@@ -238,6 +238,7 @@ async function warmSitemaps(baseUrl, fetchImpl, warmMs) {
     }
   };
   await get(`${baseUrl}/sitemap.xml`);
+  await get(`${baseUrl}/llms.txt`); // edge-cached the same way; its old-dates check read yesterday's copy on 2026-11-22
   const index = await get(`${baseUrl}/sitemap-index.xml`);
   for (const loc of locsOf(index)) await get(onBase(loc, baseUrl));
   await new Promise((resolve) => setTimeout(resolve, warmMs));

@@ -1289,21 +1289,21 @@
     "datetime_iso": "2026-12-07T23:30:00Z",
     "tour_name": "Pure Ecstasy World Tour",
     "ticketmaster_event_id": "1B0064A7CD3CCBA4",
-    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/beartooth-tickets/new-orleans-louisiana-fillmore-new-orleans-2026-12-07-5-30-pm/concert/18253062",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-orleans-fillmore-new-orleans-12-7-2026--concerts-hard-rock/production/7052872",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+    "source_url": "",
     "last_verified_at": "2026-11-10",
-    "verification_status": "machine_high_confidence",
+    "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1B0064A7CD3CCBA4",
         "discovery_event_id": "G5viZ_1Lu2Gm0",
-        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": 18253062,

@@ -1550,7 +1550,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAAPU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/arlington-texas-at-t-stadium-2027-06-03-7-30-pm/concert/18633460",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
@@ -1566,11 +1566,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633460,
+        "url": "https://seatgeek.com/stray-kids-tickets/arlington-texas-at-t-stadium-2027-06-03-7-30-pm/concert/18633460",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1622,7 +1622,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAAPM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/baltimore-maryland-m-t-bank-stadium-2027-06-22-7-30-pm/concert/18731347",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
@@ -1638,11 +1638,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18731347,
+        "url": "https://seatgeek.com/stray-kids-tickets/baltimore-maryland-m-t-bank-stadium-2027-06-22-7-30-pm/concert/18731347",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

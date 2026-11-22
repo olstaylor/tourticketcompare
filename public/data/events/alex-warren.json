@@ -2727,7 +2727,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAoat",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/des-moines-iowa-casey-s-center-2027-04-20-7-45-pm/concert/18773531",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
@@ -2743,11 +2743,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773531,
+        "url": "https://seatgeek.com/alex-warren-tickets/des-moines-iowa-casey-s-center-2027-04-20-7-45-pm/concert/18773531",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2792,7 +2792,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAoaw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/madison-wisconsin-kohl-center-2027-04-25-7-45-pm/concert/18773538",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-madison-kohl-center-4-25-2027--concerts-pop/production/7870991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
@@ -2808,11 +2808,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773538,
+        "url": "https://seatgeek.com/alex-warren-tickets/madison-wisconsin-kohl-center-2027-04-25-7-45-pm/concert/18773538",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870991,

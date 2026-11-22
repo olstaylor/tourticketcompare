@@ -2460,7 +2460,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_ZM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/ontario-california-toyota-arena-ontario-2027-08-04-7-30-pm/concert/18772709",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-ontario-toyota-arena---ca-8-4-2027--theater-family/production/7870541",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
@@ -2476,11 +2476,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772709,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/ontario-california-toyota-arena-ontario-2027-08-04-7-30-pm/concert/18772709",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870541,
@@ -2538,7 +2538,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4-e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/sunrise-florida-amerant-bank-arena-2027-07-14-7-30-pm/concert/18744717",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-sunrise-amerant-bank-arena-7-14-2027--theater-family/production/7870538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
@@ -2554,11 +2554,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18744717,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/sunrise-florida-amerant-bank-arena-2027-07-14-7-30-pm/concert/18744717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870538,
@@ -2608,7 +2608,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAf4w",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-30-7-30-pm/concert/18772706",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
@@ -2624,11 +2624,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772706,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-30-7-30-pm/concert/18772706",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2678,7 +2678,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAf4V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-31-2-pm/concert/18772708",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
@@ -2694,11 +2694,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772708,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-31-2-pm/concert/18772708",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2732,7 +2732,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_kp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/las-vegas-nevada-t-mobile-arena-2027-08-07-2-pm/concert/18772710",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
@@ -2748,11 +2748,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772710,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/las-vegas-nevada-t-mobile-arena-2027-08-07-2-pm/concert/18772710",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2786,7 +2786,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_FF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-10-7-30-pm/concert/18772716",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-oakland-oakland-arena-8-10-2027--theater-family/production/7870544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
@@ -2802,11 +2802,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772716,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-10-7-30-pm/concert/18772716",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870544,
@@ -2856,7 +2856,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_Fa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-11-7-30-pm/concert/18772717",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-oakland-oakland-arena-8-11-2027--theater-family/production/7870545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
@@ -2872,11 +2872,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772717,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-11-7-30-pm/concert/18772717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870545,

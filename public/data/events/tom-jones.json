@@ -833,7 +833,7 @@
     "ticketmaster_event_id": "1F00655C921421CB",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-lincoln-23-06-2027/event/1F00655C921421CB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-lincoln-lincoln-castle-6-23-2027--concerts-pop/production/7886004",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-lincoln-23-06-2027/event/1F00655C921421CB",
     "last_verified_at": "2026-11-20",
@@ -855,11 +855,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886004,
+        "url": "https://www.vividseats.com/tom-jones-tickets-lincoln-lincoln-castle-6-23-2027--concerts-pop/production/7886004",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

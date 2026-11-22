@@ -676,7 +676,7 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   assert(page.status === 200, "a pilot date renders");
   const body = text(mainOf(page.html));
   assert(body.includes("Listed price range since tracking began"), "a pilot date states how its listed prices have ranged");
-  assert(body.includes("Vivid Seats USD 150 to USD 210 40 days"), "each site's range names the site, the currency and the days it covers");
+  assert(body.includes("Vivid Seats: USD 150 to USD 210 · 40 days"), "each site's range names the site, the currency and the days it covers");
   assert(!/TicketNetwork: USD 190 to/.test(body), "a site with fewer than 7 tracked days has no range");
   assert(body.includes("not final totals"), "the range is qualified as listed prices, not totals");
   assert(body.includes("Getting in at Scotiabank Arena"), "a pilot date at a sourced venue shows the venue's door rules");

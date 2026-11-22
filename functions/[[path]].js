@@ -7874,10 +7874,10 @@ function renderEventPriceRangeHtml(row, rangeSeries) {
   const range = row?.lanes?.length ? deriveEventPriceRange(row.lanes, rangeSeries) : null;
   if (!range) return "";
   const fmt = (amount, currency) => formatServerPrice(amount, currency);
-  const rows = range.sites
-    .map((site) => `<tr><th scope="row">${escapeHtml(site.name)}</th><td>${escapeHtml(`${fmt(site.low, site.currency)} to ${fmt(site.high, site.currency)}`)}</td><td>${escapeHtml(`${site.days} days`)}</td></tr>`)
+  const items = range.sites
+    .map((site) => `<li>${escapeHtml(`${site.name}: ${fmt(site.low, site.currency)} to ${fmt(site.high, site.currency)} · ${site.days} days`)}</li>`)
     .join("");
-  return `<section class="nested-panel" aria-labelledby="eventPriceRangeTitle"><h2 id="eventPriceRangeTitle">Listed price range since tracking began</h2><div class="price-answer-table-wrap"><table class="price-answer-table"><thead><tr><th scope="col">Site</th><th scope="col">Lowest to highest</th><th scope="col">Tracked</th></tr></thead><tbody>${rows}</tbody></table></div><p class="disclosure-note">${escapeHtml(
+  return `<section class="nested-panel" aria-labelledby="eventPriceRangeTitle"><h2 id="eventPriceRangeTitle">Listed price range since tracking began</h2><ul>${items}</ul><p class="disclosure-note">${escapeHtml(
     "Each site's lowest listed price at its last check of the day, not final totals."
   )}</p></section>`;
 }

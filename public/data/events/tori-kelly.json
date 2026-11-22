@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162943",
+        "url": "https://www.stubhub.ie/tori-kelly-tickets-manchester-albert-hall-manchester-7-12-2026/event/107162943",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_1r4owpH",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-manchester-albert-hall-manchester-7-12-2026/event/107162943"
   },
   {
     "id": "tm-tori-kelly-2026-birmingham-g5dzz_1hposmp",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683876",
+        "url": "https://www.stubhub.ie/tori-kelly-tickets-birmingham-o2-institute-birmingham-8-12-2026/event/107683876",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1hpOSMP",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-birmingham-o2-institute-birmingham-8-12-2026/event/107683876"
   },
   {
     "id": "tm-tori-kelly-2026-bristol-g5dzz_1qs13cg",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162942",
+        "url": "https://www.stubhub.ie/tori-kelly-tickets-london-o2-forum-kentish-town-11-12-2026/event/107162942",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1hlw0L0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-london-o2-forum-kentish-town-11-12-2026/event/107162942"
   },
   {
     "id": "tm-tori-kelly-2027-san-diego-vvg1iz_pmacvcd",
@@ -272,13 +296,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682743",
+        "url": "https://www.stubhub.ie/tori-kelly-san-diego-tickets-3-17-2027/event/107682743",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pmacVCd",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374484",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374484/Tori-Kelly-tickets-Wed-Mar-17-2027-House-Of-Blues-San-Diego"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374484/Tori-Kelly-tickets-Wed-Mar-17-2027-House-Of-Blues-San-Diego",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-san-diego-tickets-3-17-2027/event/107682743"
   },
   {
     "id": "tm-tori-kelly-2027-anaheim-vv170z_pgkmqbskf",
@@ -394,13 +426,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683730",
+        "url": "https://www.stubhub.ie/tori-kelly-phoenix-tickets-3-20-2027/event/107683730",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkgTCw3P",
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374485",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374485/Tori-Kelly-tickets-Sat-Mar-20-2027-The-Van-Buren"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374485/Tori-Kelly-tickets-Sat-Mar-20-2027-The-Van-Buren",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-phoenix-tickets-3-20-2027/event/107683730"
   },
   {
     "id": "tm-tori-kelly-2027-tulsa-z7r9jz1aaafav",
@@ -577,13 +617,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683733",
+        "url": "https://www.stubhub.ie/tori-kelly-houston-tickets-3-25-2027/event/107683733",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pRlK7d5",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374487",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374487/Tori-Kelly-tickets-Thu-Mar-25-2027-House-Of-Blues-Houston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374487/Tori-Kelly-tickets-Thu-Mar-25-2027-House-Of-Blues-Houston",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-houston-tickets-3-25-2027/event/107683733"
   },
   {
     "id": "tm-tori-kelly-2027-dallas-vvg1yz_ptdvq44",
@@ -646,13 +694,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683739",
+        "url": "https://www.stubhub.ie/tori-kelly-dallas-tickets-3-26-2027/event/107683739",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pTDVQ44",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374489",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374489/Tori-Kelly-tickets-Fri-Mar-26-2027-House-Of-Blues-Dallas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374489/Tori-Kelly-tickets-Fri-Mar-26-2027-House-Of-Blues-Dallas",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-dallas-tickets-3-26-2027/event/107683739"
   },
   {
     "id": "tm-tori-kelly-2027-new-orleans-g5viz_proo-gj",
@@ -715,13 +771,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683741",
+        "url": "https://www.stubhub.ie/tori-kelly-new-orleans-tickets-3-29-2027/event/107683741",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_pRoO-gJ",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374490",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374490/Tori-Kelly-tickets-Mon-Mar-29-2027-House-Of-Blues-New-Orleans"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374490/Tori-Kelly-tickets-Mon-Mar-29-2027-House-Of-Blues-New-Orleans",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-new-orleans-tickets-3-29-2027/event/107683741"
   },
   {
     "id": "tm-tori-kelly-2027-st-petersburg-vvg1vz_pwiq_m9",
@@ -853,13 +917,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682741",
+        "url": "https://www.stubhub.ie/tori-kelly-orlando-tickets-4-1-2027/event/107682741",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_pGkmNVErQ",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374495",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374495/Tori-Kelly-tickets-Thu-Apr-1-2027-Hard-Rock-Live-Orlando"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374495/Tori-Kelly-tickets-Thu-Apr-1-2027-Hard-Rock-Live-Orlando",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-orlando-tickets-4-1-2027/event/107682741"
   },
   {
     "id": "tm-tori-kelly-2027-ft-lauderdale-vvg1vz_pv-mndp",
@@ -1044,13 +1116,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683744",
+        "url": "https://www.stubhub.ie/tori-kelly-charlotte-tickets-4-8-2027/event/107683744",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pR3NKRd",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374499",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374499/Tori-Kelly-tickets-Thu-Apr-8-2027-The-Fillmore-Charlotte"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374499/Tori-Kelly-tickets-Thu-Apr-8-2027-The-Fillmore-Charlotte",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-charlotte-tickets-4-8-2027/event/107683744"
   },
   {
     "id": "tm-tori-kelly-2027-atlanta-vvg1zz_pr5yym7",
@@ -1113,13 +1193,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683735",
+        "url": "https://www.stubhub.ie/tori-kelly-atlanta-tickets-4-10-2027/event/107683735",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pR5yym7",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374501",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374501/Tori-Kelly-tickets-Sat-Apr-10-2027-The-Tabernacle-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374501/Tori-Kelly-tickets-Sat-Apr-10-2027-The-Tabernacle-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-atlanta-tickets-4-10-2027/event/107683735"
   },
   {
     "id": "tm-tori-kelly-2027-raleigh-g5evz_pmhkhqy",
@@ -1182,13 +1270,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682734",
+        "url": "https://www.stubhub.ie/tori-kelly-raleigh-tickets-4-11-2027/event/107682734",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pMHKhQy",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374503",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374503/Tori-Kelly-tickets-Sun-Apr-11-2027-The-Ritz-Raleigh"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374503/Tori-Kelly-tickets-Sun-Apr-11-2027-The-Ritz-Raleigh",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-raleigh-tickets-4-11-2027/event/107682734"
   },
   {
     "id": "tm-tori-kelly-2027-boston-vv177z_pgkresuwf",
@@ -1251,13 +1347,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683731",
+        "url": "https://www.stubhub.ie/tori-kelly-boston-tickets-4-14-2027/event/107683731",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkReSuwf",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374504",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374504/Tori-Kelly-tickets-Wed-Apr-14-2027-Citizens-House-Of-Blues-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374504/Tori-Kelly-tickets-Wed-Apr-14-2027-Citizens-House-Of-Blues-Boston",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-boston-tickets-4-14-2027/event/107683731"
   },
   {
     "id": "tm-tori-kelly-2027-silver-spring-1avfz_pgksegqna",
@@ -1320,13 +1424,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683727",
+        "url": "https://www.stubhub.ie/tori-kelly-silver-spring-tickets-4-16-2027/event/107683727",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_pGkSegQNa",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374505",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374505/Tori-Kelly-tickets-Fri-Apr-16-2027-The-Fillmore-Silver-Spring"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374505/Tori-Kelly-tickets-Fri-Apr-16-2027-The-Fillmore-Silver-Spring",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-silver-spring-tickets-4-16-2027/event/107683727"
   },
   {
     "id": "tm-tori-kelly-2027-philadelphia-z7r9jz1aaafa-",
@@ -1458,13 +1570,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682739",
+        "url": "https://www.stubhub.ie/tori-kelly-brooklyn-tickets-4-18-2027/event/107682739",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pHudE5k",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374507",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374507/Tori-Kelly-tickets-Sun-Apr-18-2027-Brooklyn-Paramount"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374507/Tori-Kelly-tickets-Sun-Apr-18-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-brooklyn-tickets-4-18-2027/event/107682739"
   },
   {
     "id": "tm-tori-kelly-2027-toronto-1avzz_pgkvx9zdy",
@@ -1580,13 +1700,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682737",
+        "url": "https://www.stubhub.ie/tori-kelly-detroit-tickets-4-23-2027/event/107682737",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkcXk3hy",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374510",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374510/Tori-Kelly-tickets-Fri-Apr-23-2027-The-Fillmore-Detroit"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374510/Tori-Kelly-tickets-Fri-Apr-23-2027-The-Fillmore-Detroit",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-detroit-tickets-4-23-2027/event/107682737"
   },
   {
     "id": "tm-tori-kelly-2027-louisville-1avbz_pgksxzvfu",
@@ -1649,13 +1777,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683740",
+        "url": "https://www.stubhub.ie/tori-kelly-louisville-tickets-4-24-2027/event/107683740",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkSxzvFU",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374512",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374512/Tori-Kelly-tickets-Sat-Apr-24-2027-Louisville-Palace"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374512/Tori-Kelly-tickets-Sat-Apr-24-2027-Louisville-Palace",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-louisville-tickets-4-24-2027/event/107683740"
   },
   {
     "id": "tm-tori-kelly-2027-indianapolis-vv17fz_pgkswj0w7",
@@ -1718,13 +1854,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683732",
+        "url": "https://www.stubhub.ie/tori-kelly-indianapolis-tickets-4-27-2027/event/107683732",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkSwj0W7",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374513",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374513/Tori-Kelly-tickets-Tue-Apr-27-2027-Egyptian-Room-At-Old-National-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374513/Tori-Kelly-tickets-Tue-Apr-27-2027-Egyptian-Room-At-Old-National-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-indianapolis-tickets-4-27-2027/event/107683732"
   },
   {
     "id": "tm-tori-kelly-2027-milwaukee-z7r9jz1aaa4u3",
@@ -1840,13 +1984,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682740",
+        "url": "https://www.stubhub.ie/tori-kelly-chicago-tickets-4-30-2027/event/107682740",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_pGkRb2cSt",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374514",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374514/Tori-Kelly-tickets-Fri-Apr-30-2027-House-Of-Blues-Chicago"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374514/Tori-Kelly-tickets-Fri-Apr-30-2027-House-Of-Blues-Chicago",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-chicago-tickets-4-30-2027/event/107682740"
   },
   {
     "id": "tm-tori-kelly-2027-minneapolis-z7r9jz1aaa4uk",
@@ -1948,11 +2100,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683737",
+        "url": "https://www.stubhub.ie/tori-kelly-saint-louis-tickets-5-4-2027/event/107683737",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkmbGU0t",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-saint-louis-tickets-5-4-2027/event/107683737"
   },
   {
     "id": "tm-tori-kelly-2027-kansas-city-z7r9jz1aaaffz",
@@ -2084,13 +2244,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682736",
+        "url": "https://www.stubhub.ie/tori-kelly-denver-tickets-5-8-2027/event/107682736",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pmQEAXk",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374516",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374516/Tori-Kelly-tickets-Sat-May-8-2027-The-Summit-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374516/Tori-Kelly-tickets-Sat-May-8-2027-The-Summit-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-denver-tickets-5-8-2027/event/107682736"
   },
   {
     "id": "tm-tori-kelly-2027-salt-lake-city-g5vzz_pw0n4ot",
@@ -2153,13 +2321,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682732",
+        "url": "https://www.stubhub.ie/tori-kelly-salt-lake-city-tickets-5-9-2027/event/107682732",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pw0n4oT",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374517",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374517/Tori-Kelly-tickets-Sun-May-9-2027-The-Depot-Salt-Lake-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374517/Tori-Kelly-tickets-Sun-May-9-2027-The-Depot-Salt-Lake-City",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-salt-lake-city-tickets-5-9-2027/event/107682732"
   },
   {
     "id": "tm-tori-kelly-2027-vancouver-1av7z_pgkwlyauw",
@@ -2222,13 +2398,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683728",
+        "url": "https://www.stubhub.ie/tori-kelly-tickets-vancouver-queen-elizabeth-theatre-vancouver-5-12-2027/event/107683728",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_pGkwLYAUW",
     "timezone": "America/Vancouver",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374525",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374525/Tori-Kelly-tickets-Wed-May-12-2027-Queen-Elizabeth-Theatre-Vancouver"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374525/Tori-Kelly-tickets-Wed-May-12-2027-Queen-Elizabeth-Theatre-Vancouver",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-vancouver-queen-elizabeth-theatre-vancouver-5-12-2027/event/107683728"
   },
   {
     "id": "tm-tori-kelly-2027-seattle-z7r9jz1aaafgn",
@@ -2413,13 +2597,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683736",
+        "url": "https://www.stubhub.ie/tori-kelly-sacramento-tickets-5-18-2027/event/107683736",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pUIau1T",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374519",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374519/Tori-Kelly-tickets-Tue-May-18-2027-Channel-24"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374519/Tori-Kelly-tickets-Tue-May-18-2027-Channel-24",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-sacramento-tickets-5-18-2027/event/107683736"
   },
   {
     "id": "tm-tori-kelly-2027-hollywood-vv170z_pgkwplbll",
@@ -2482,12 +2674,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683742",
+        "url": "https://www.stubhub.ie/tori-kelly-hollywood-tickets-5-20-2027/event/107683742",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGkwpLbLL",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374521",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374521/Tori-Kelly-tickets-Thu-May-20-2027-Hollywood-Palladium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374521/Tori-Kelly-tickets-Thu-May-20-2027-Hollywood-Palladium",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-hollywood-tickets-5-20-2027/event/107683742"
   }
 ]

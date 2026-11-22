@@ -21,6 +21,10 @@ import { dropIsolatedSpikes } from "../_price-outliers.js";
 // How far back a series may reach. Bounds payload size and keeps stale-era
 // snapshots out of the displayed trend.
 const HISTORY_WINDOW_DAYS = 90;
+// The daily rollup (provider_pricing_daily) is never pruned, so a series built
+// from it can reach further back than the raw change-only table. Capped so the
+// payload stays small.
+const DAILY_WINDOW_DAYS = 400;
 // Hard cap on returned points per provider, newest kept. A busy lane snapshots
 // a few times a day, so this covers the full window with headroom.
 const MAX_POINTS_PER_PROVIDER = 240;
@@ -68,6 +72,45 @@ function displayableLane(priceLane) {
   const expiresAtMs = Date.parse(String(priceLane.expiresAt || ""));
   if (!Number.isFinite(expiresAtMs) || expiresAtMs <= Date.now()) return null;
   return { currency, source: priceLane.source, price, observedAt: priceLane.fetchedAt || null };
+}
+
+// One point per UTC day from the daily rollup: the site's lowest listed price at
+// its last capture of that day. A flat price shows as a flat line with a point
+// for every day it was checked, instead of a single point at the last change.
+// Returns [] when the table is missing or has too little, so the caller can
+// fall back to the raw change-only rows.
+async function fetchDailySeries(db, eventId, dbKey, source, currency, currentPrice) {
+  const sinceDay = new Date(Date.now() - DAILY_WINDOW_DAYS * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  const result = await db
+    .prepare(
+      `SELECT observed_date, low_price_last
+       FROM provider_pricing_daily
+       WHERE event_id = ?1
+         AND provider = ?2
+         AND source = ?3
+         AND currency = ?4
+         AND observed_date >= ?5
+       ORDER BY observed_date ASC`
+    )
+    .bind(eventId, dbKey, source, currency, sinceDay)
+    .all();
+  const rows = Array.isArray(result?.results) ? result.results : [];
+  const points = [];
+  for (const row of rows) {
+    const price = Number(row?.low_price_last);
+    const day = String(row?.observed_date || "").trim();
+    if (!Number.isFinite(price) || price < MIN_PLAUSIBLE_LISTED_PRICE) continue;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(day)) continue;
+    points.push({ price: Number(price.toFixed(2)), observedAt: day });
+  }
+  const guarded = dropIsolatedSpikes(points, { trailingPrice: currentPrice });
+  return guarded.length > DAILY_WINDOW_DAYS ? guarded.slice(guarded.length - DAILY_WINDOW_DAYS) : guarded;
+}
+
+function countPriceChanges(points) {
+  let changes = 0;
+  for (let i = 1; i < points.length; i += 1) if (points[i].price !== points[i - 1].price) changes += 1;
+  return changes;
 }
 
 async function fetchProviderSeries(db, eventId, dbKey, source, currency, currentPrice) {
@@ -147,17 +190,30 @@ export async function onRequestGet({ request, env }) {
     if (gate.source !== laneConfig.approvedSource) continue;
 
     let points = [];
+    let basis = "daily";
     try {
-      points = await fetchProviderSeries(db, showId, laneConfig.dbKey, laneConfig.approvedSource, gate.currency, gate.price);
+      points = await fetchDailySeries(db, showId, laneConfig.dbKey, laneConfig.approvedSource, gate.currency, gate.price);
     } catch (error) {
       points = [];
+    }
+    if (points.length < MIN_POINTS_PER_PROVIDER) {
+      // Daily rollup missing or too thin: fall back to the raw change-only rows.
+      basis = "changes";
+      try {
+        points = await fetchProviderSeries(db, showId, laneConfig.dbKey, laneConfig.approvedSource, gate.currency, gate.price);
+      } catch (error) {
+        points = [];
+      }
     }
     if (points.length < MIN_POINTS_PER_PROVIDER) continue;
 
     providers.push({
       provider: priceLane.provider,
       currency: gate.currency,
-      windowDays: HISTORY_WINDOW_DAYS,
+      windowDays: basis === "daily" ? DAILY_WINDOW_DAYS : HISTORY_WINDOW_DAYS,
+      basis,
+      daysChecked: basis === "daily" ? points.length : undefined,
+      priceChanges: basis === "daily" ? countPriceChanges(points) : points.length,
       points
     });
   }

@@ -49,14 +49,14 @@ const expectedH1 = new Map([
   ["/terms", "Terms of use"]
 ]);
 const expectedTitle = new Map([
-  ["/", "Compare Concert Ticket Prices | TourTicketCompare"],
+  ["/", "Compare Concert Ticket Prices by Artist | TourTicketCompare"],
   ["/artists", "Artists | TourTicketCompare"],
   ["/cities", "Concerts by City | Upcoming Tour Dates | TourTicketCompare"],
   ["/on-sale", "Concert Tickets On Sale This Week | TourTicketCompare"],
   ["/guides", "Concert Ticket Buying Guides | TourTicketCompare"],
   ["/guides/vivid-seats-vs-ticketmaster", "Vivid Seats vs Ticketmaster 2026: Fees and Which Is Better"],
   ["/blog", "Ticket Research Blog | TourTicketCompare"],
-  ["/compare-concert-ticket-prices", "Compare Concert Ticket Prices by Show | TourTicketCompare"],
+  ["/compare-concert-ticket-prices", "Compare Artist Ticket Prices by Show | TourTicketCompare"],
   ["/how-it-works", "How TourTicketCompare Works"],
   ["/currency-converter", "Currency Converter for Concert Tickets | TourTicketCompare"],
   ["/about", "About TourTicketCompare"],
@@ -567,9 +567,9 @@ assert(
   "index.html must not advertise the retired sitelinks SearchAction or create a crawlable template-query URL"
 );
 const expectedClientMetadata = [
-  "Compare Concert Ticket Prices | TourTicketCompare",
+  "Compare Concert Ticket Prices by Artist | TourTicketCompare",
   homepageDescription,
-  "Compare Concert Ticket Prices by Show | TourTicketCompare",
+  "Compare Artist Ticket Prices by Show | TourTicketCompare",
   "Pick an artist and date to compare each site's listed price for the same show, with when it was checked. Then check seats, fees and the final total.",
   "How to Compare Concert Ticket Prices | TourTicketCompare"
   // Guide title/h1/description parity is asserted field-by-field against
@@ -579,7 +579,7 @@ for (const value of expectedClientMetadata) {
   assert(clientApp.includes(value), `public/app.js should preserve client metadata parity for "${value}"`);
 }
 assert(
-  clientIndexHtml.includes("<title>Compare Concert Ticket Prices | TourTicketCompare</title>"),
+  clientIndexHtml.includes("<title>Compare Concert Ticket Prices by Artist | TourTicketCompare</title>"),
   "public/index.html fallback title should match the homepage metadata source of truth"
 );
 assert(

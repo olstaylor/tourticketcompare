@@ -186,7 +186,7 @@ function reviewerSchemaRef(origin) {
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare resale ticket prices for your show, site by site.";
 const HOME_SUBCOPY =
-  "Pick an artist and date to see each ticket site's listed price where available and the time it was checked, then confirm the total on the ticket site.";
+  "Pick an artist and date to see each ticket site's listed price where available and when it was checked. Confirm the total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
@@ -2718,6 +2718,8 @@ function renderHomepagePriceAnswers(route, catalog, events, env) {
         caption: `Ticket options for the next ${artist.name} date`,
         titleId: `homeNextDate${index}`,
         ctaLocation: "home_answer",
+        // The price caveat is stated once, in the disclosure under the panels.
+        quietSummary: true,
         cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
       })
     )
@@ -3743,7 +3745,9 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   const caption = surface?.caption || `Provider starting price by date for ${artist.name} in ${artistCity.city}`;
   const titleId = surface?.titleId || "artistCityPriceTitle";
   // A one-date panel (event page, home, on-sale) has no date to pick.
-  const summary = ticketOptions && rows.length === 1
+  const summary = surface?.quietSummary
+    ? ""
+    : ticketOptions && rows.length === 1
     ? (showPrices ? "Prices are as of the time shown. Compare seats, fees and delivery on each ticket site before you pay." : "")
     : ticketOptions
     ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ' Prices are as of the time shown, and "sites priced" counts the sites with a price for that date.' : ""}`
@@ -9112,7 +9116,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
       '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261121a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261121a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261122a" defer></script></body>');
   }
   return next;
 }

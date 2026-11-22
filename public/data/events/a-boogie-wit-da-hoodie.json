@@ -445,7 +445,7 @@
     "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-toronto-scotiabank-arena-11-28-2026/production/7620477",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/a-boogie-wit-da-hoodie-10-toronto-ontario-11-28-2026/event/10006531970C7F0A",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460,14 +460,14 @@
         "event_id": 18629264,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/toronto-canada-scotiabank-arena-2026-11-28-8-pm/concert/18629264",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620477,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-toronto-scotiabank-arena-11-28-2026/production/7620477",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -488,11 +488,6 @@
       "LIVE NATION CANADA-ROGERS"
     ],
     "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-10-02T14:00:00Z",
-        "end": "2026-11-22T03:00:00Z"
-      },
       {
         "name": "Gondola Offer",
         "start": "2026-11-18T15:00:00Z",
@@ -533,14 +528,14 @@
         "event_id": 18662770,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/orlando-florida-central-florida-fairgrounds-2026-12-05-8-pm/concert/18662770",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7623178,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-orlando-orlando-amphitheater-at-central-florida-fairgrounds-12-5-2026/production/7623178",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -554,14 +549,14 @@
         "event_id": "8293991",
         "url": "https://www.ticketliquidator.com/tickets/8293991/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-5-2026-Orlando-Amphitheater-at-Central-Florida-Fairgrounds",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8293991",
         "url": "https://www.ticketnetwork.com/en/p/8293991",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -602,14 +597,14 @@
         "event_id": 18631720,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/minneapolis-minnesota-the-armory-minneapolis-2026-12-12-8-pm/concert/18631720",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7619726,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-minneapolis-armory---minneapolis-12-12-2026/production/7619726",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -623,14 +618,14 @@
         "event_id": "8294956",
         "url": "https://www.ticketliquidator.com/tickets/8294956/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-12-2026-The-Armory-Minneapolis",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8294956",
         "url": "https://www.ticketnetwork.com/en/p/8294956",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -676,14 +671,14 @@
         "event_id": 18639406,
         "url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/hartford-connecticut-peoplesbank-arena-2026-12-19-8-pm/concert/18639406",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620829,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-hartford-peoplesbank-arena-12-19-2026/production/7620829",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -697,14 +692,14 @@
         "event_id": "8293968",
         "url": "https://www.ticketliquidator.com/tickets/8293968/A-Boogie-Wit-Da-Hoodie-tickets-Sat-Dec-19-2026-PeoplesBank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8293968",
         "url": "https://www.ticketnetwork.com/en/p/8293968",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -726,8 +721,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "00006562C25D9320",
     "ticketmaster_url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/a-boogie-wit-da-hoodie-tickets/new-york-new-york-manhattan-center-hammerstein-ballroom-2026-12-13-7-pm/concert/18740860",
+    "vividseats_url": "https://www.vividseats.com/power-1051-power-sessions-tickets-new-york-manhattan-center-hammerstein-ballroom-12-13-2026/production/7801883",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/power-1051-power-sessions-new-york-new-york-12-13-2026/event/00006562C25D9320",
     "last_verified_at": "2026-11-07",
@@ -749,11 +744,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7801883,
+        "url": "https://www.vividseats.com/power-1051-power-sessions-tickets-new-york-manhattan-center-hammerstein-ballroom-12-13-2026/production/7801883",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -807,7 +802,7 @@
         "event_id": 7833211,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-london-the-o2---london-1-27-2027--concerts-rap-hip-hop/production/7833211",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -821,7 +816,7 @@
         "event_id": "107680811",
         "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-the-o2-arena-27-1-2027/event/107680811",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -870,7 +865,7 @@
         "event_id": 7832747,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-1-29-2027/production/7832747",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -884,21 +879,21 @@
         "event_id": "8361500",
         "url": "https://www.ticketnetwork.com/en/p/8361500",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8361500",
         "url": "https://www.ticketliquidator.com/tickets/8361500/A-Boogie-Wit-Da-Hoodie-tickets-Fri-Jan-29-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680659",
         "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-29-1-2027/event/107680659",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -952,7 +947,7 @@
         "event_id": 7866017,
         "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-1-31-2027/production/7866017",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -961,6 +956,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683569",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-31-1-2027/event/107683569",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_pGkwcXzVj",
@@ -970,6 +972,70 @@
       "LIVE NATION MUSIC UK LTD"
     ],
     "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-manchester-co-op-live-31-1-2027/event/107683569"
+  },
+  {
+    "id": "tm-a-boogie-wit-da-hoodie-2027-london-1amzk4ygkd4ogxu",
+    "artist_slug": "a-boogie-wit-da-hoodie",
+    "artist_name": "A Boogie Wit Da Hoodie",
+    "event_name": "A Boogie Wit Da Hoodie - 10 Years of Artist",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "OVO Arena Wembley",
+    "datetime_iso": "2027-02-02T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006570D5475FB6",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-10-london-02-02-2027/event/37006570D5475FB6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-london-ovo-arena-wembley-2-2-2027/production/7884810",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-10-london-02-02-2027/event/37006570D5475FB6",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006570D5475FB6",
+        "discovery_event_id": "1AMZk4YGkd4ogXU",
+        "url": "https://www.ticketmaster.co.uk/a-boogie-wit-da-hoodie-10-london-02-02-2027/event/37006570D5475FB6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7884810,
+        "url": "https://www.vividseats.com/a-boogie-wit-da-hoodie-tickets-london-ovo-arena-wembley-2-2-2027/production/7884810",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682615",
+        "url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-ovo-arena-wembley-2-2-2027/event/107682615",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4YGkd4ogXU",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "ticket_limit": 6,
+    "genre": "Hip-Hop/Rap",
+    "stubhub_international_url": "https://www.stubhub.ie/a-boogie-wit-da-hoodie-tickets-london-ovo-arena-wembley-2-2-2027/event/107682615"
   }
 ]

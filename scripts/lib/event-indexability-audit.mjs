@@ -38,6 +38,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { cachedRender } from "./render-cache.mjs";
 
 import { providerConfiguredTest, publishableLaneSlugs } from "./event-link-coverage.mjs";
 
@@ -103,6 +104,28 @@ export function renderedCtaProviders(html) {
 }
 
 /**
+ * The env (stub env plus wrangler.toml vars and stub credentials) and renderer
+ * this audit uses for event pages. Shared with scripts/prewarm-route-cache.mjs
+ * so the pages are rendered once per test run (scripts/lib/render-cache.mjs);
+ * the cache key is distinct from the plain route crawl because the env differs.
+ */
+export async function eventAuditRenderer(site, root) {
+  const { middlewareModule } = site.modules;
+  const vars = wranglerVars(await fs.readFile(path.join(root, "wrangler.toml"), "utf8"));
+  const env = { ...site.env, ...vars, ...STUB_CREDENTIALS };
+  const render = (pathname) =>
+    cachedRender(`event-audit:${pathname}`, async () => {
+      const response = await middlewareModule.onRequest({
+        request: new Request(`${ORIGIN}${pathname}`),
+        env,
+        next: () => new Response("static-asset", { status: 200 })
+      });
+      return { status: response.status, html: await response.text() };
+    });
+  return { env, render };
+}
+
+/**
  * @param {Awaited<ReturnType<typeof import("./route-crawl.mjs").loadSiteFixture>>} site
  * @param {{
  *   root: string,
@@ -119,22 +142,12 @@ export async function auditEventIndexability(site, options) {
   const policy = await load("functions/_event-indexability.js");
   const eventPages = await load("functions/_event-pages.js");
   const { slugify } = await load("functions/_cities.js");
-  const { middlewareModule, sitemapModule } = site.modules;
+  const { sitemapModule } = site.modules;
   const { events, artistsMeta, catalog } = site.data;
   const pilotKeys = options.pilotKeys || policy.EVENT_INDEXED_COHORT_KEYS;
 
-  const vars = wranglerVars(await fs.readFile(path.join(root, "wrangler.toml"), "utf8"));
-  const env = { ...site.env, ...vars, ...STUB_CREDENTIALS };
-  const render =
-    options.render ||
-    (async (pathname) => {
-      const response = await middlewareModule.onRequest({
-        request: new Request(`${ORIGIN}${pathname}`),
-        env,
-        next: () => new Response("static-asset", { status: 200 })
-      });
-      return { status: response.status, html: await response.text() };
-    });
+  const { env, render: eventAuditRender } = await eventAuditRenderer(site, root);
+  const render = options.render || eventAuditRender;
 
   const isConfigured = providerConfiguredTest(catalog);
   const decisions = policy.deriveEventIndexability(events, artistsMeta, {

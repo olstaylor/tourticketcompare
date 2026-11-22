@@ -103,7 +103,7 @@ Production requires:
 - `DEBUG_API_TOKEN`, without which `/api/debug-seatgeek` and every `/api/impact/*` diagnostic 404 (they are never public — each proxies an authenticated Publisher API call); and
 - for the `/admin` content editor only: the `admin.tourticketcompare.com` custom domain on this same Pages project, plus `GITHUB_OAUTH_CLIENT_ID` / `GITHUB_OAUTH_CLIENT_SECRET`. Pages binds environment variables at deploy time, so adding or rotating either value requires a redeploy before it takes effect, and sign-in fails closed until that deploy lands. Current configuration state: [OPERATIONS.md](OPERATIONS.md). Setup steps: [BLOG.md](BLOG.md).
 
-Provider credential families currently used by code include network-level Impact credentials, SeatGeek, Vivid Seats, and optional marketplace-provider overrides. Exact current configuration belongs in `PROJECT_STATUS.md` and should be verified via `/api/health` plus a fail-closed redirect test. Obsolete `IMPACT_TICKETMASTER_*` values should not be restored.
+Provider credential families currently used by code include network-level Impact credentials, SeatGeek, Vivid Seats, and optional marketplace-provider overrides. Exact current configuration belongs in `PROJECT_STATUS.md` and should be verified via `/api/health` plus a fail-closed redirect test. Obsolete `IMPACT_TICKETMASTER_*` values should not be restored. Impact site verification is a plain-text `Impact-Site-Verification:` line in the `public/index.html` footer (added 2026-11-20); keep it.
 
 `wrangler.toml` is useful for local/CLI defaults but does not replace Cloudflare Pages dashboard configuration for Git-integrated production deployments.
 

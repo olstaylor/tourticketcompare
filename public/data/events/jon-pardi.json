@@ -426,19 +426,19 @@
     "id": "tm-jon-pardi-2026-peoria-vvg1jz_cjyd3ia",
     "artist_slug": "jon-pardi",
     "artist_name": "Jon Pardi",
-    "event_name": "Jon Pardi: Gamblin' Man Tour 2026",
+    "event_name": "Jon Pardi",
     "city": "Peoria",
     "country": "United States Of America",
     "venue": "Peoria Civic Center",
-    "datetime_iso": "2026-11-14T01:00:00Z",
+    "datetime_iso": "2027-04-19T00:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "070064E9B90D2B09",
     "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
-    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2026-11-13-7-pm/concert/18390874",
-    "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-peoria-peoria-civic-center---carver-arena-11-13-2026--concerts-country-and-folk/production/7320595",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450,18 +450,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18390874,
-        "url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2026-11-13-7-pm/concert/18390874",
-        "verified": true,
-        "last_verified_at": "2026-11-12",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7320595,
-        "url": "https://www.vividseats.com/jon-pardi-tickets-peoria-peoria-civic-center---carver-arena-11-13-2026--concerts-country-and-folk/production/7320595",
-        "verified": true,
-        "last_verified_at": "2026-11-13",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub": {
         "event_id": null,
@@ -478,27 +478,30 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8149216",
+        "url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Sun-Apr-18-2027-Carver-Arena-At-Peoria-Civic-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1jZ_CJyd3ia",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149216",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Sun-Apr-18-2027-Carver-Arena-At-Peoria-Civic-Center",
     "presales": [
       {
-        "name": "Side View/ Obstructed View Seats",
-        "start": "2026-11-03T22:15:00Z",
-        "end": "2026-11-14T02:00:00Z"
+        "name": "New Date Standard Side View / Obstructed",
+        "start": "2026-11-20T21:00:00Z",
+        "end": "2027-04-19T01:00:00Z"
       }
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketmaster_status_code": "rescheduled",
+    "previous_start_date": "2026-11-14T01:00:00Z",
+    "previous_start_timezone": "America/Chicago"
   },
   {
     "id": "tm-jon-pardi-2026-independence-vvg1bz_cu03zzw",
@@ -655,14 +658,14 @@
         "event_id": 18652960,
         "url": "https://seatgeek.com/jon-pardi-tickets/durant-oklahoma-choctaw-grand-theater-2027-03-20-8-pm/concert/18652960",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7653948,
         "url": "https://www.vividseats.com/jon-pardi-tickets-durant-choctaw-grand-theater-3-20-2027/production/7653948",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -709,7 +712,7 @@
         "event_id": 18391252,
         "url": "https://seatgeek.com/jon-pardi-tickets/nampa-idaho-ford-idaho-center-2027-05-08-7-pm/concert/18391252",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -745,7 +748,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZeb3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/loveland-colorado-blue-federal-credit-union-arena-2027-05-13-7-pm/concert/18391250",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",
@@ -797,7 +800,7 @@
     "country": "United States Of America",
     "venue": "Canyon View Credit Union Stage at Maverik Center",
     "datetime_iso": "2027-05-21T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "Gamblin' Man Tour 2026",
     "ticketmaster_event_id": "1E0064F081725388",
     "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-west-valley-city-utah-05-20-2027/event/1E0064F081725388",
     "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/west-valley-city-utah-maverik-center-2027-05-20-7-pm/concert/18390278",
@@ -819,7 +822,7 @@
         "event_id": 18390278,
         "url": "https://seatgeek.com/jon-pardi-tickets/west-valley-city-utah-maverik-center-2027-05-20-7-pm/concert/18390278",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -843,5 +846,70 @@
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
     "genre": "Country"
+  },
+  {
+    "id": "tm-jon-pardi-2026-nashville-g5viz_p4pjkae",
+    "artist_slug": "jon-pardi",
+    "artist_name": "Jon Pardi",
+    "event_name": "JON PARDI - THE CHRISTMAS SHOW - ONE NIGHT ONLY",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2026-12-18T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656565993242",
+    "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/nashville-tennessee-the-truth-nashville-2026-12-17-7-30-pm/concert/18763089",
+    "vividseats_url": "https://www.vividseats.com/jon-pardi-tickets-nashville-the-truth-12-17-2026/production/7863057",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656565993242",
+        "discovery_event_id": "G5viZ_p4PJKae",
+        "url": "https://www.ticketmaster.com/jon-pardi-the-christmas-show-one-nashville-tennessee-12-17-2026/event/1B00656565993242",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7863057,
+        "url": "https://www.vividseats.com/jon-pardi-tickets-nashville-the-truth-12-17-2026/production/7863057",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_p4PJKae",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-19T16:00:00Z",
+        "end": "2026-12-13T18:00:00Z"
+      }
+    ]
   }
 ]

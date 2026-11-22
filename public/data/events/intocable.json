@@ -30,14 +30,14 @@
         "event_id": 18191936,
         "url": "https://seatgeek.com/intocable-tickets/sugar-land-texas-smart-financial-centre-2026-11-21-8-pm/concert/18191936",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6884025,
         "url": "https://www.vividseats.com/intocable-tickets-sugar-land-smart-financial-centre-11-21-2026/production/6884025",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,7 +51,21 @@
         "event_id": "7878419",
         "url": "https://www.ticketliquidator.com/tickets/7878419/Intocable-tickets-Sat-Nov-21-2026-Smart-Financial-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7878419",
+        "url": "https://www.ticketnetwork.com/en/p/7878419",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668400",
+        "url": "https://www.stubhub.ie/intocable-sugar-land-tickets-11-21-2026/event/107668400",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -59,7 +73,9 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7878419/Intocable-tickets-Sat-Nov-21-2026-Smart-Financial-Centre",
-    "genre": "World"
+    "genre": "World",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7878419",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-sugar-land-tickets-11-21-2026/event/107668400"
   },
   {
     "id": "tm-intocable-2026-san-antonio-g5diz_6xnmhis",
@@ -70,10 +86,10 @@
     "country": "United States Of America",
     "venue": "Freeman Coliseum",
     "datetime_iso": "2026-11-26T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Cultura Tour 2026",
     "ticketmaster_event_id": "3A00647FA3B9BA33",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-san-antonio-texas-11-25-2026/event/3A00647FA3B9BA33",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/san-antonio-texas-freeman-coliseum-2026-11-25-7-pm/concert/18176233",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-san-antonio-freeman-coliseum-11-25-2026/production/6900840",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-san-antonio-texas-11-25-2026/event/3A00647FA3B9BA33",
@@ -99,7 +115,7 @@
         "event_id": 6900840,
         "url": "https://www.vividseats.com/intocable-tickets-san-antonio-freeman-coliseum-11-25-2026/production/6900840",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -113,7 +129,14 @@
         "event_id": "7875906",
         "url": "https://www.ticketliquidator.com/tickets/7875906/Intocable-tickets-Wed-Nov-25-2026-Freeman-Coliseum",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7875906",
+        "url": "https://www.ticketnetwork.com/en/p/7875906",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -124,7 +147,8 @@
     "organizer_names": [
       "AMPLIFY ENTERTAINMENT"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7875906"
   },
   {
     "id": "tm-intocable-2026-fort-worth-vvg1yz_7cpuxpt",
@@ -135,10 +159,10 @@
     "country": "United States Of America",
     "venue": "Ariat Arena",
     "datetime_iso": "2026-11-28T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Cultura Tour 2026",
     "ticketmaster_event_id": "0C00644B65DA25BF",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-fort-worth-texas-11-27-2026/event/0C00644B65DA25BF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/fort-worth-texas-ariat-arena-2026-11-27-8-pm/concert/18184627",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-fort-worth-texas-11-27-2026/event/0C00644B65DA25BF",
@@ -178,7 +202,21 @@
         "event_id": "7875908",
         "url": "https://www.ticketliquidator.com/tickets/7875908/Intocable-tickets-Fri-Nov-27-2026-Ariat-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7875908",
+        "url": "https://www.ticketnetwork.com/en/p/7875908",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107478117",
+        "url": "https://www.stubhub.ie/intocable-fort-worth-tickets-11-27-2026/event/107478117",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -190,7 +228,9 @@
       "AMPLIFY ENTERTAINMENT"
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7875908",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-fort-worth-tickets-11-27-2026/event/107478117"
   },
   {
     "id": "tm-intocable-2026-hidalgo-g5diz_fw-zu9f",
@@ -201,7 +241,7 @@
     "country": "United States Of America",
     "venue": "Payne Arena",
     "datetime_iso": "2026-11-29T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Cultura Tour 2026",
     "ticketmaster_event_id": "3A00648CA1E365C8",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-hidalgo-texas-11-28-2026/event/3A00648CA1E365C8",
     "seatgeek_url": "https://seatgeek.com/intocable-tickets/hidalgo-texas-payne-arena-2026-11-28-8-pm/concert/18176203",
@@ -223,14 +263,14 @@
         "event_id": 18176203,
         "url": "https://seatgeek.com/intocable-tickets/hidalgo-texas-payne-arena-2026-11-28-8-pm/concert/18176203",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6900584,
         "url": "https://www.vividseats.com/intocable-tickets-hidalgo-payne-arena-11-28-2026/production/6900584",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -244,7 +284,14 @@
         "event_id": "7876470",
         "url": "https://www.ticketliquidator.com/tickets/7876470/Intocable-tickets-Sat-Nov-28-2026-Payne-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7876470",
+        "url": "https://www.ticketnetwork.com/en/p/7876470",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -252,7 +299,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7876470/Intocable-tickets-Sat-Nov-28-2026-Payne-Arena",
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7876470"
   },
   {
     "id": "tm-intocable-2027-chicago-vv178z_pgkrpyrnn",
@@ -263,14 +311,14 @@
     "country": "United States Of America",
     "venue": "Credit Union 1 Arena at UIC",
     "datetime_iso": "2027-02-21T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Texicano Tour 2027",
     "ticketmaster_event_id": "0400656BE5E5EAAA",
     "ticketmaster_url": "https://www.ticketmaster.com/intocabletexicano-tour-2027-chicago-illinois-02-20-2027/event/0400656BE5E5EAAA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/chicago-illinois-credit-union-1-arena-at-uic-2027-02-20-8-pm/concert/18780707",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-chicago-credit-union-1-arena-at-uic-2-20-2027/production/7880682",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocabletexicano-tour-2027-chicago-illinois-02-20-2027/event/0400656BE5E5EAAA",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -292,7 +340,7 @@
         "event_id": 7880682,
         "url": "https://www.vividseats.com/intocable-tickets-chicago-credit-union-1-arena-at-uic-2-20-2027/production/7880682",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -306,24 +354,39 @@
         "event_id": "8373879",
         "url": "https://www.ticketliquidator.com/tickets/8373879/Intocable-tickets-Sat-Feb-20-2027-Credit-Union-1-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373879",
+        "url": "https://www.ticketnetwork.com/en/p/8373879",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682785",
+        "url": "https://www.stubhub.ie/intocable-chicago-tickets-2-20-2027/event/107682785",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_pGkRPyrnn",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373879/Intocable-tickets-Sat-Feb-20-2027-Credit-Union-1-Arena",
     "ticket_limit": 12,
     "genre": "Latin",
     "presales": [
       {
-        "name": "Presale Offer",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373879",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-chicago-tickets-2-20-2027/event/107682785"
   },
   {
     "id": "tm-intocable-2027-duluth-vvg1zz_pwe5ag0",
@@ -334,14 +397,14 @@
     "country": "United States Of America",
     "venue": "Gas South Arena",
     "datetime_iso": "2027-03-01T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Texicano Tour 2027",
     "ticketmaster_event_id": "0E00656CA72C9324",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-duluth-georgia-02-28-2027/event/0E00656CA72C9324",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/duluth-georgia-gas-south-arena-2027-02-28-7-pm/concert/18780651",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-duluth-gas-south-arena-2-28-2027/production/7880302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-duluth-georgia-02-28-2027/event/0E00656CA72C9324",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -363,7 +426,7 @@
         "event_id": 7880302,
         "url": "https://www.vividseats.com/intocable-tickets-duluth-gas-south-arena-2-28-2027/production/7880302",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -377,38 +440,30 @@
         "event_id": "8373880",
         "url": "https://www.ticketliquidator.com/tickets/8373880/Intocable-tickets-Sun-Feb-28-2027-Gas-South-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373880",
+        "url": "https://www.ticketnetwork.com/en/p/8373880",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pwE5aG0",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373880/Intocable-tickets-Sun-Feb-28-2027-Gas-South-Arena",
     "genre": "Latin",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-02-22T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373880"
   },
   {
     "id": "tm-intocable-2027-fresno-g5vyz_pmjs49u",
@@ -419,14 +474,14 @@
     "country": "United States Of America",
     "venue": "Save Mart Center",
     "datetime_iso": "2027-03-06T04:00:00Z",
-    "tour_name": "",
+    "tour_name": "Texicano Tour 2027",
     "ticketmaster_event_id": "1C00656DDCC555F6",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-fresno-california-03-05-2027/event/1C00656DDCC555F6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/fresno-california-save-mart-center-2027-03-05-8-pm/concert/18780589",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-fresno-save-mart-center-3-5-2027/production/7881251",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-fresno-california-03-05-2027/event/1C00656DDCC555F6",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448,7 +503,7 @@
         "event_id": 7881251,
         "url": "https://www.vividseats.com/intocable-tickets-fresno-save-mart-center-3-5-2027/production/7881251",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -462,14 +517,27 @@
         "event_id": "8373881",
         "url": "https://www.ticketliquidator.com/tickets/8373881/Intocable-tickets-Fri-Mar-5-2027-Save-Mart-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373881",
+        "url": "https://www.ticketnetwork.com/en/p/8373881",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682782",
+        "url": "https://www.stubhub.ie/intocable-fresno-tickets-3-5-2027/event/107682782",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pMjs49U",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373881/Intocable-tickets-Fri-Mar-5-2027-Save-Mart-Center",
     "organizer_names": [
       "AMPLIFY ENTERTAINMENT"
@@ -478,11 +546,13 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-27T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373881",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-fresno-tickets-3-5-2027/event/107682782"
   },
   {
     "id": "tm-intocable-2027-inglewood-vv170z_pgkrollqf",
@@ -493,14 +563,14 @@
     "country": "United States Of America",
     "venue": "Intuit Dome",
     "datetime_iso": "2027-03-07T04:00:00Z",
-    "tour_name": "",
+    "tour_name": "Texicano Tour 2027",
     "ticketmaster_event_id": "0900656BD17DF748",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-inglewood-california-03-06-2027/event/0900656BD17DF748",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/inglewood-california-intuit-dome-2027-03-06-8-pm/concert/18782990",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-inglewood-intuit-dome-3-6-2027/production/7881253",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-inglewood-california-03-06-2027/event/0900656BD17DF748",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -522,7 +592,7 @@
         "event_id": 7881253,
         "url": "https://www.vividseats.com/intocable-tickets-inglewood-intuit-dome-3-6-2027/production/7881253",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -536,38 +606,38 @@
         "event_id": "8373882",
         "url": "https://www.ticketliquidator.com/tickets/8373882/Intocable-tickets-Sat-Mar-6-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373882",
+        "url": "https://www.ticketnetwork.com/en/p/8373882",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682290",
+        "url": "https://www.stubhub.ie/intocable-inglewood-tickets-3-6-2027/event/107682290",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGkRoLLqF",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373882/Intocable-tickets-Sat-Mar-6-2027-Intuit-Dome",
     "genre": "Latin",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-02-28T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373882",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-inglewood-tickets-3-6-2027/event/107682290"
   },
   {
     "id": "tm-intocable-2027-san-jose-g5vyz_pi39fpd",
@@ -578,14 +648,14 @@
     "country": "United States Of America",
     "venue": "SAP Center at San Jose",
     "datetime_iso": "2027-03-20T03:00:00Z",
-    "tour_name": "",
+    "tour_name": "Texicano Tour 2027",
     "ticketmaster_event_id": "1C00656B125D497B",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-san-jose-california-03-19-2027/event/1C00656B125D497B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/san-jose-california-sap-center-at-san-jose-2027-03-19-8-pm/concert/18780588",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-san-jose-california-03-19-2027/event/1C00656B125D497B",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -621,39 +691,39 @@
         "event_id": "8373883",
         "url": "https://www.ticketliquidator.com/tickets/8373883/Intocable-tickets-Fri-Mar-19-2027-SAP-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373883",
+        "url": "https://www.ticketnetwork.com/en/p/8373883",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681246",
+        "url": "https://www.stubhub.ie/intocable-san-jose-tickets-3-19-2027/event/107681246",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pi39fPD",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373883/Intocable-tickets-Fri-Mar-19-2027-SAP-Center",
     "ticket_limit": 12,
     "genre": "Latin",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "SAP Center Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Sharks365 Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-03-13T06:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373883",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-san-jose-tickets-3-19-2027/event/107681246"
   },
   {
     "id": "tm-intocable-2027-miami-vvg1vz_pmzxge8",
@@ -664,14 +734,14 @@
     "country": "United States Of America",
     "venue": "James L Knight Center",
     "datetime_iso": "2027-06-12T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Texicano Tour 2027",
     "ticketmaster_event_id": "0D00656BB8F8C9D0",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-miami-florida-06-11-2027/event/0D00656BB8F8C9D0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/miami-florida-james-l-knight-center-2027-06-11-8-pm/concert/18781154",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-miami-james-knight-center-6-11-2027--concerts-latin-music/production/7880708",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-miami-florida-06-11-2027/event/0D00656BB8F8C9D0",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -693,7 +763,7 @@
         "event_id": 7880708,
         "url": "https://www.vividseats.com/intocable-tickets-miami-james-knight-center-6-11-2027--concerts-latin-music/production/7880708",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -707,48 +777,38 @@
         "event_id": "8373885",
         "url": "https://www.ticketliquidator.com/tickets/8373885/Intocable-tickets-Fri-Jun-11-2027-James-L-Knight-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373885",
+        "url": "https://www.ticketnetwork.com/en/p/8373885",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683784",
+        "url": "https://www.stubhub.ie/intocable-miami-tickets-6-11-2027/event/107683784",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pmzXGE8",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373885/Intocable-tickets-Fri-Jun-11-2027-James-L-Knight-Center",
     "genre": "Latin",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "James L. Knight Center Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Mobile App",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373885",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-miami-tickets-6-11-2027/event/107683784"
   },
   {
     "id": "tm-intocable-2027-sacramento-g5vyz_pulkwxh",
@@ -759,14 +819,14 @@
     "country": "United States Of America",
     "venue": "Golden 1 Center",
     "datetime_iso": "2027-08-29T03:00:00Z",
-    "tour_name": "",
+    "tour_name": "Texicano Tour 2027",
     "ticketmaster_event_id": "1C00656DAB1BD8BC",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/sacramento-california-golden-1-center-2027-08-28-8-pm/concert/18782555",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-sacramento-golden-1-center-8-28-2027/production/7881269",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-texicano-tour-2027-sacramento-california-08-28-2027/event/1C00656DAB1BD8BC",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -778,17 +838,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18782555,
+        "url": "https://seatgeek.com/intocable-tickets/sacramento-california-golden-1-center-2027-08-28-8-pm/concert/18782555",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7881269,
         "url": "https://www.vividseats.com/intocable-tickets-sacramento-golden-1-center-8-28-2027/production/7881269",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -802,14 +862,27 @@
         "event_id": "8373887",
         "url": "https://www.ticketliquidator.com/tickets/8373887/Intocable-tickets-Sat-Aug-28-2027-Golden-1-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373887",
+        "url": "https://www.ticketnetwork.com/en/p/8373887",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683516",
+        "url": "https://www.stubhub.ie/intocable-sacramento-tickets-8-28-2027/event/107683516",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pUlkWxH",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373887/Intocable-tickets-Sat-Aug-28-2027-Golden-1-Center",
     "organizer_names": [
       "AMPLIFY ENTERTAINMENT"
@@ -818,15 +891,136 @@
     "genre": "Latin",
     "presales": [
       {
-        "name": "Artist Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Fan Club Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-08-22T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373887",
+    "stubhub_international_url": "https://www.stubhub.ie/intocable-sacramento-tickets-8-28-2027/event/107683516"
+  },
+  {
+    "id": "tm-intocable-2027-nashville-z7r9jz1aaak0d",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Pinnacle - TN",
+    "datetime_iso": "2027-02-28T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAK0d",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/nashville-tennessee-the-pinnacle-nashville-2027-02-27-8-pm/concert/18786697",
+    "vividseats_url": "https://www.vividseats.com/intocable-tickets-nashville-the-pinnacle-2-27-2027/production/7884092",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAK0d",
+        "discovery_event_id": "Z7r9jZ1AAAK0d",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18786697,
+        "url": "https://seatgeek.com/intocable-tickets/nashville-tennessee-the-pinnacle-nashville-2027-02-27-8-pm/concert/18786697",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7884092,
+        "url": "https://www.vividseats.com/intocable-tickets-nashville-the-pinnacle-2-27-2027/production/7884092",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381449",
+        "url": "https://www.ticketliquidator.com/tickets/8381449/Intocable-tickets-Sat-Feb-27-2027-The-Pinnacle-At-Nashville-Yards",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAK0d",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "genre": "World",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381449/Intocable-tickets-Sat-Feb-27-2027-The-Pinnacle-At-Nashville-Yards"
+  },
+  {
+    "id": "tm-intocable-2027-indio-z7r9jz1aaak07",
+    "artist_slug": "intocable",
+    "artist_name": "Intocable",
+    "event_name": "Intocable (Minors (ages 5-17) must be accompanied with an adult)",
+    "city": "Indio",
+    "country": "United States Of America",
+    "venue": "Fantasy Springs Resort Casino",
+    "datetime_iso": "2027-03-21T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAK07",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/indio-california-fantasy-springs-resort-casino-2027-03-20-8-pm/concert/18786699",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAK07",
+        "discovery_event_id": "Z7r9jZ1AAAK07",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18786699,
+        "url": "https://seatgeek.com/intocable-tickets/indio-california-fantasy-springs-resort-casino-2027-03-20-8-pm/concert/18786699",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381645",
+        "url": "https://www.ticketliquidator.com/tickets/8381645/Intocable-tickets-Sat-Mar-20-2027-Fantasy-Springs-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAK07",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "genre": "World",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381645/Intocable-tickets-Sat-Mar-20-2027-Fantasy-Springs-Resort-Casino"
   }
 ]

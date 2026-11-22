@@ -6,6 +6,8 @@
 // happy path only bumps clean-on-both artists.
 
 import { spawnSync } from 'node:child_process';
+import { classifyTmAudit } from './classify-tm-audit-status.mjs';
+import { buildTmFindingIds, isApiConfirmed } from './lib/api-confirmed-links.mjs';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -169,6 +171,62 @@ console.log('Case 6: dry-run with ok status -> reports candidates, does not modi
   expect('mentions clean-artist as candidate', /clean-artist/.test(r.stdout), r.stdout);
   const after = fs.readFileSync(ctx.artistsPath, 'utf8');
   expect('artists.json unchanged', before === after);
+}
+
+console.log('Case 7: tm-status partial -> clean artists bumped, the erroring artist held');
+{
+  const ctx = setupCase('partial', { tmStatus: { status: 'partial' } });
+  const r = runBump(ctx);
+  expect('exit code 0', r.code === 0, `code=${r.code} stderr=${r.stderr}`);
+  const bumped = bumpedSlugs(ctx.artistsPath);
+  expect('clean-artist bumped', bumped.includes('clean-artist'), `bumped=${JSON.stringify(bumped)}`);
+  expect('tm-error-artist NOT bumped', !bumped.includes('tm-error-artist'));
+  expect('tm-missing-artist NOT bumped', !bumped.includes('tm-missing-artist'));
+}
+
+console.log('Case 8: classifyTmAudit');
+{
+  const tm = (errors, checked) => ({ artists: [], totals: { errors, checked } });
+  expect('exit 0 is ok', classifyTmAudit({ exitCode: 0, tm: null }).status === 'ok');
+  expect('1 error in 4857 is partial', classifyTmAudit({ exitCode: 1, tm: tm(1, 4857) }).status === 'partial');
+  expect('25 errors in 4857 is partial', classifyTmAudit({ exitCode: 1, tm: tm(25, 4857) }).status === 'partial');
+  expect('26 errors in 4857 is failed', classifyTmAudit({ exitCode: 1, tm: tm(26, 4857) }).status === 'failed');
+  expect('1 error in 50 events is failed', classifyTmAudit({ exitCode: 1, tm: tm(1, 50) }).status === 'failed');
+  expect('missing evidence is failed', classifyTmAudit({ exitCode: 1, tm: null }).status === 'failed');
+  expect('crash exit code is failed', classifyTmAudit({ exitCode: 2, tm: tm(1, 4857) }).status === 'failed');
+}
+
+console.log('Case 9: API-confirmed blocked links (isApiConfirmed)');
+{
+  const events = [
+    { id: 'e1', ticketmaster_event_id: 'Z7r9jz1A7', provider_links: { seatgeek: { verified: true, url: 'https://seatgeek.com/x/1', last_verified_at: '2026-05-25' } } },
+    { id: 'e2', ticketmaster_event_id: 'Z7r9jz1B8', provider_links: { seatgeek: { verified: false, url: 'https://seatgeek.com/x/2', last_verified_at: '2026-05-26' } } },
+    { id: 'e3', ticketmaster_event_id: 'Z7r9jz1C9' },
+    { id: 'e4', ticketmaster_event_id: '14795963', ticketmaster_discovery_event_id: 'rZ7HnEZ1Afr4Pn' },
+    { id: 'e5', ticketmaster_event_id: '14911223' }
+  ];
+  const tm = { artists: [{ slug: 'a', missing: [{ id: 'e3' }], changed: [], errors: [], unresolvable: [] }] };
+  const ctx = { eventsById: new Map(events.map((e) => [e.id, e])), tmFindingIds: buildTmFindingIds(tm), today: TODAY };
+  const entry = (o) => ({ provider: 'ticketmaster', reviewScope: 'upcoming', eventIds: ['e1'], url: 'https://www.ticketmaster.com/e/Z7r9jz1A7', ...o });
+  expect('TM url carrying the event id, no finding: confirmed', isApiConfirmed(entry({}), ctx));
+  expect('TM url without the event id: held', !isApiConfirmed(entry({ url: 'https://www.ticketmaster.com/e/other' }), ctx));
+  expect('TM event with a missing finding: held', !isApiConfirmed(entry({ eventIds: ['e3'], url: 'https://www.ticketmaster.com/e/Z7r9jz1C9' }), ctx));
+  expect('unknown event: held', !isApiConfirmed(entry({ eventIds: ['nope'] }), ctx));
+  expect('non-upcoming scope: held', !isApiConfirmed(entry({ reviewScope: 'recent' }), ctx));
+  const sg = (o) => ({ provider: 'seatgeek', reviewScope: 'upcoming', eventIds: ['e1'], url: 'https://seatgeek.com/x/1', ...o });
+  expect('SG verified same url within 7 days: confirmed', isApiConfirmed(sg({}), ctx));
+  expect('SG different url: held', !isApiConfirmed(sg({ url: 'https://seatgeek.com/x/9' }), ctx));
+  expect('SG not verified: held', !isApiConfirmed(sg({ eventIds: ['e2'], url: 'https://seatgeek.com/x/2' }), ctx));
+  expect('SG verified 7 days ago: confirmed', isApiConfirmed(sg({}), { ...ctx, today: '2026-06-01' }));
+  expect('SG verification older than 7 days: held', !isApiConfirmed(sg({}), { ...ctx, today: '2026-06-02' }));
+  const tw = (o) => ({ provider: 'other', reviewScope: 'upcoming', eventIds: ['e4'], url: 'https://www.ticketweb.com/event/x-tickets/14795963', ...o });
+  expect('TicketWeb url with the event id and a Discovery id, no finding: confirmed', isApiConfirmed(tw({}), ctx));
+  expect('TicketWeb .ca country domain: confirmed', isApiConfirmed(tw({ url: 'https://www.ticketweb.ca/event/x-tickets/14795963' }), ctx));
+  expect('TicketWeb url without the event id: held', !isApiConfirmed(tw({ url: 'https://www.ticketweb.com/event/x-tickets/999' }), ctx));
+  expect('TicketWeb event with no Discovery id: held', !isApiConfirmed(tw({ eventIds: ['e5'], url: 'https://www.ticketweb.com/event/y/14911223' }), ctx));
+  expect('TicketWeb event with a Discovery finding: held', !isApiConfirmed(tw({}), { ...ctx, tmFindingIds: new Set(['e4']) }));
+  expect('lookalike host: held', !isApiConfirmed(tw({ url: 'https://ticketweb.example.com/event/x/14795963' }), ctx));
+  expect('other host: held', !isApiConfirmed({ provider: 'other', reviewScope: 'upcoming', eventIds: ['e1'], url: 'https://x.example/1' }, ctx));
 }
 
 fs.rmSync(tmpRoot, { recursive: true, force: true });

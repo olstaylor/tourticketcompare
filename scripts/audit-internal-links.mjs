@@ -39,6 +39,7 @@ import {
   sitemapPathsFromXml,
   decodeEntities
 } from "./lib/route-crawl.mjs";
+import { sharedClock } from "./lib/render-cache.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const CHECK_MODE = process.argv.includes("--check");
@@ -48,7 +49,7 @@ const CHECK_MODE = process.argv.includes("--check");
 // window is when US evening shows start) must not drop off the rendered pages
 // while the route list still names it (Impact sync run 40139328473 failed with
 // "served by the router but rendered 301" for two 24 Oct shows).
-const AUDIT_NOW = Date.now();
+const AUDIT_NOW = sharedClock();
 Date.now = () => AUDIT_NOW;
 
 // One crawler, shared with scripts/audit-indexable-surface.mjs, so the two

@@ -22,7 +22,7 @@ Queues 1–5 are operational (owner plus gated tooling), not engineering; select
 
 1. **Post-deploy check:**
    - `/api/out?artistSlug=<slug>&provider=ticketmaster` 302s plain, and `provider=seatgeek` 302s to the Impact tracking URL.
-   - The browser makes no `utt.impactcdn.com` requests.
+   - ~~The browser makes no `utt.impactcdn.com` requests.~~ Stale as of 2026-11-21: `public/consent.js` loads the Impact Publisher Tag after consent and the smoke tests assert it. Owner to confirm that is intended (CLAUDE.md says Ticketmaster must not be Impact-wrapped; the tag itself is separate).
    - If not already done, browser-check the 7 plain Ticketmaster artist URLs and 16 SeatGeek performer URLs in `data/provider-identities.json`.
 2. **Delete the unused `IMPACT_TICKETMASTER_*` secrets** in Cloudflare (keep `IMPACT_ACCOUNT_SID` / `IMPACT_AUTH_TOKEN`).
 3. **Price snapshots:** both display flags are on; keep watching the scheduled summaries. SeatGeek price snapshots are permanently off (its API returns null pricing for this client; owner-confirmed 2026-07-15), so SeatGeek stays CTA-only.
@@ -58,7 +58,7 @@ Open items:
   - coldplay: SeatGeek-first, with an international-domain caveat.
   - system-of-a-down and laura-pausini: promotable with `--slugs` once SeatGeek dates land.
   - rush and muse: blocked on identity resolution, because SeatGeek has no exact performer match.
-- **journey** needs onboarding from scratch (same SeatGeek identity problem).
+- **journey** was auto-promoted on 2026-10-12 and is now indexable (fact corrected 2026-11-21; see `public/data/artists.json`).
 - **Owner brand-safety calls:** Wheeler Walker Jr. and As I Lay Dying screened clean but are held, and both are on the denylist. Brit Floyd and Twilight In Concert are not artist identities.
 - **Co-headliners** Whitechapel, Insomnium and Amorphis can still be onboarded.
 - **Oasis** was published with 0 upcoming Ticketmaster events at capture (owner choice). Revisit if it still has no TM dates at the next roster pass.
@@ -67,7 +67,7 @@ Open items:
 
 ### 4. Routine data hygiene (recurring)
 
-- **`needs_recheck`:** 911 events (recounted 2026-11-14; 657 upcoming). This is not a manual CTA queue; runtime checks handle the destinations.
+- **`needs_recheck`:** 1,023 events (recounted 2026-11-21 on `b9fb2e1`; was 911 on 2026-11-14). This is not a manual CTA queue; runtime checks handle the destinations.
   - 72 upcoming ones (of 89 in total) lack a verified resale lane (2026-10-05). Once past their public on-sale, they still show the Ticketmaster button.
   - The count climbs with each large ingestion run. Recount it with the same test `scripts/validate-status-counts.mjs` uses.
   - Compute "renders no CTA" claims with `eventLinkPublishable` and `providerEventPublishable`, never by hand.

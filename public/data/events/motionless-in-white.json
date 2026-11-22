@@ -700,7 +700,7 @@
     "ticketmaster_event_id": "010064BBC7FDE27D",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
     "seatgeek_url": "https://seatgeek.com/motionless-in-white-tickets/portland-maine-cross-insurance-arena-2026-11-18-6-30-pm/concert/18281910",
-    "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-portland-cross-insurance-arena-11-18-2026/production/7108788",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-portland-maine-11-18-2026/event/010064BBC7FDE27D",
     "last_verified_at": "2026-11-07",
@@ -722,11 +722,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7108788,
-        "url": "https://www.vividseats.com/motionless-in-white-tickets-portland-cross-insurance-arena-11-18-2026/production/7108788",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -736,25 +736,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8018455",
-        "url": "https://www.ticketnetwork.com/en/p/8018455",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8018455",
-        "url": "https://www.ticketliquidator.com/tickets/8018455/Motionless-In-White-tickets-Wed-Nov-18-2026-Cross-Insurance-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG17Z_5R6TraW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018455",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018455/Motionless-In-White-tickets-Wed-Nov-18-2026-Cross-Insurance-Arena",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC",
       "WATERFRONT CONCERTS"
@@ -774,7 +774,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "020064BCC422349F",
     "ticketmaster_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
-    "seatgeek_url": "https://seatgeek.com/motionless-in-white-tickets/newark-new-jersey-prudential-center-2026-11-19-6-30-pm/concert/18281913",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/motionless-in-white-tickets-newark-prudential-center-11-19-2026/production/7108780",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/motionless-in-white-the-sweat-and-newark-new-jersey-11-19-2026/event/020064BCC422349F",
@@ -790,17 +790,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18281913,
-        "url": "https://seatgeek.com/motionless-in-white-tickets/newark-new-jersey-prudential-center-2026-11-19-6-30-pm/concert/18281913",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7108780,
         "url": "https://www.vividseats.com/motionless-in-white-tickets-newark-prudential-center-11-19-2026/production/7108780",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -811,33 +811,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8018456",
-        "url": "https://www.ticketnetwork.com/en/p/8018456",
-        "verified": true,
-        "last_verified_at": "2026-11-03",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8018456",
-        "url": "https://www.ticketliquidator.com/tickets/8018456/Motionless-In-White-tickets-Thu-Nov-19-2026-Prudential-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107258878",
-        "url": "https://www.stubhub.ie/motionless-in-white-newark-tickets-11-19-2026/event/107258878",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1FZ_5S7FN3L",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018456",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018456/Motionless-In-White-tickets-Thu-Nov-19-2026-Prudential-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-newark-tickets-11-19-2026/event/107258878",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -882,14 +882,14 @@
         "event_id": 18281916,
         "url": "https://seatgeek.com/motionless-in-white-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-20-6-30-pm/concert/18281916",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7108782,
         "url": "https://www.vividseats.com/motionless-in-white-tickets-pittsburgh-ppg-paints-arena-11-20-2026/production/7108782",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -903,30 +903,30 @@
         "event_id": "8018457",
         "url": "https://www.ticketnetwork.com/en/p/8018457",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8018457",
-        "url": "https://www.ticketliquidator.com/tickets/8018457/Motionless-In-White-tickets-Fri-Nov-20-2026-PPG-Paints-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107258879",
-        "url": "https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AOv0G65mH-tZB",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018457",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018457/Motionless-In-White-tickets-Fri-Nov-20-2026-PPG-Paints-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/motionless-in-white-pittsburgh-tickets-11-20-2026/event/107258879",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

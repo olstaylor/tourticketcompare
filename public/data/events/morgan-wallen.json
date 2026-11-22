@@ -1058,14 +1058,14 @@
     "country": "United States Of America",
     "venue": "Raymond James Stadium",
     "datetime_iso": "2027-06-11T21:30:00Z",
-    "tour_name": "",
+    "tour_name": "THE LAST TIME I CHECKED TOUR 2027",
     "ticketmaster_event_id": "0D00656914023091",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/tampa-florida-raymond-james-stadium-2027-06-11-5-30-pm/concert/18760513",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-11-2027--concerts-country-and-folk/production/7860894",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-11-2027/event/0D00656914023091",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1077,17 +1077,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760513,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/tampa-florida-raymond-james-stadium-2027-06-11-5-30-pm/concert/18760513",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860894,
         "url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-11-2027--concerts-country-and-folk/production/7860894",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1101,28 +1101,27 @@
         "event_id": "8367161",
         "url": "https://www.ticketnetwork.com/en/p/8367161",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8367161",
         "url": "https://www.ticketliquidator.com/tickets/8367161/Morgan-Wallen-tickets-Fri-Jun-11-2027-Raymond-James-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680997",
         "url": "https://www.stubhub.ie/morgan-wallen-tampa-tickets-6-11-2027/event/107680997",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_p0fZNeo",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367161",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367161/Morgan-Wallen-tickets-Fri-Jun-11-2027-Raymond-James-Stadium",
     "organizer_names": [
@@ -1130,26 +1129,6 @@
     ],
     "genre": "Country",
     "presales": [
-      {
-        "name": "Club Wallen Presale",
-        "start": "2026-11-17T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-17T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-17T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "Travel VIP Packages Public Onsale",
         "start": "2026-11-20T15:00:00Z",
@@ -1172,14 +1151,14 @@
     "country": "United States Of America",
     "venue": "Raymond James Stadium",
     "datetime_iso": "2027-06-12T21:30:00Z",
-    "tour_name": "",
+    "tour_name": "THE LAST TIME I CHECKED TOUR 2027",
     "ticketmaster_event_id": "0D00656AD703433C",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/tampa-florida-raymond-james-stadium-2027-06-12-5-30-pm/concert/18760511",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-12-2027--concerts-country-and-folk/production/7860898",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-tampa-florida-06-12-2027/event/0D00656AD703433C",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1191,17 +1170,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760511,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/tampa-florida-raymond-james-stadium-2027-06-12-5-30-pm/concert/18760511",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860898,
         "url": "https://www.vividseats.com/morgan-wallen-tickets-tampa-raymond-james-stadium-6-12-2027--concerts-country-and-folk/production/7860898",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1215,28 +1194,27 @@
         "event_id": "8367162",
         "url": "https://www.ticketnetwork.com/en/p/8367162",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8367162",
         "url": "https://www.ticketliquidator.com/tickets/8367162/Morgan-Wallen-tickets-Sat-Jun-12-2027-Raymond-James-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107682209",
         "url": "https://www.stubhub.ie/morgan-wallen-tampa-tickets-6-12-2027/event/107682209",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pl9ZVGH",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367162",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367162/Morgan-Wallen-tickets-Sat-Jun-12-2027-Raymond-James-Stadium",
     "organizer_names": [
@@ -1244,26 +1222,6 @@
     ],
     "genre": "Country",
     "presales": [
-      {
-        "name": "Club Wallen Presale",
-        "start": "2026-11-18T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-18T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-18T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "Travel VIP Packages Public Onsale",
         "start": "2026-11-20T15:00:00Z",
@@ -1286,14 +1244,14 @@
     "country": "United States Of America",
     "venue": "Gillette Stadium",
     "datetime_iso": "2027-06-25T23:00:00Z",
-    "tour_name": "",
+    "tour_name": "THE LAST TIME I CHECKED TOUR 2027",
     "ticketmaster_event_id": "0100655FDB331C8E",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-25-2027/event/0100655FDB331C8E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/foxborough-massachusetts-gillette-stadium-2027-06-25-7-pm/concert/18760514",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-25-2027--concerts-country-and-folk/production/7860902",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-25-2027/event/0100655FDB331C8E",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1305,17 +1263,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760514,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/foxborough-massachusetts-gillette-stadium-2027-06-25-7-pm/concert/18760514",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860902,
         "url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-25-2027--concerts-country-and-folk/production/7860902",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1329,28 +1287,27 @@
         "event_id": "8367163",
         "url": "https://www.ticketnetwork.com/en/p/8367163",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8367163",
         "url": "https://www.ticketliquidator.com/tickets/8367163/Morgan-Wallen-tickets-Fri-Jun-25-2027-Gillette-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680998",
         "url": "https://www.stubhub.ie/morgan-wallen-foxborough-tickets-6-25-2027/event/107680998",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_4GkThGswC",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367163",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367163/Morgan-Wallen-tickets-Fri-Jun-25-2027-Gillette-Stadium",
     "organizer_names": [
@@ -1358,26 +1315,6 @@
     ],
     "genre": "Country",
     "presales": [
-      {
-        "name": "Club Wallen Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T17:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "Travel VIP Packages Onsale",
         "start": "2026-11-20T15:00:00Z",
@@ -1401,14 +1338,14 @@
     "country": "United States Of America",
     "venue": "Gillette Stadium",
     "datetime_iso": "2027-06-26T23:00:00Z",
-    "tour_name": "",
+    "tour_name": "THE LAST TIME I CHECKED TOUR 2027",
     "ticketmaster_event_id": "0100656A1708D141",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-26-2027/event/0100656A1708D141",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/foxborough-massachusetts-gillette-stadium-2027-06-26-7-pm/concert/18760512",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-26-2027--concerts-country-and-folk/production/7860904",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-foxborough-massachusetts-06-26-2027/event/0100656A1708D141",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1420,17 +1357,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760512,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/foxborough-massachusetts-gillette-stadium-2027-06-26-7-pm/concert/18760512",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860904,
         "url": "https://www.vividseats.com/morgan-wallen-tickets-foxborough-gillette-stadium-6-26-2027--concerts-country-and-folk/production/7860904",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1444,28 +1381,27 @@
         "event_id": "8367164",
         "url": "https://www.ticketnetwork.com/en/p/8367164",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8367164",
         "url": "https://www.ticketliquidator.com/tickets/8367164/Morgan-Wallen-tickets-Sat-Jun-26-2027-Gillette-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680999",
         "url": "https://www.stubhub.ie/morgan-wallen-foxborough-tickets-6-26-2027/event/107680999",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkI9euAv",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367164",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367164/Morgan-Wallen-tickets-Sat-Jun-26-2027-Gillette-Stadium",
     "organizer_names": [
@@ -1473,26 +1409,6 @@
     ],
     "genre": "Country",
     "presales": [
-      {
-        "name": "Club Wallen Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "Travel VIP Packages Onsale",
         "start": "2026-11-20T15:00:00Z",
@@ -1516,14 +1432,14 @@
     "country": "United States Of America",
     "venue": "Highmark Stadium",
     "datetime_iso": "2027-07-23T21:30:00Z",
-    "tour_name": "",
+    "tour_name": "THE LAST TIME I CHECKED TOUR 2027",
     "ticketmaster_event_id": "0300656989390C6E",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/orchard-park-new-york-highmark-stadium-ny-2027-07-23-5-30-pm/concert/18760523",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-23-2027--concerts-country-and-folk/production/7860906",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-23-2027/event/0300656989390C6E",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1535,17 +1451,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760523,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/orchard-park-new-york-highmark-stadium-ny-2027-07-23-5-30-pm/concert/18760523",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860906,
         "url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-23-2027--concerts-country-and-folk/production/7860906",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1559,56 +1475,35 @@
         "event_id": "8367165",
         "url": "https://www.ticketnetwork.com/en/p/8367165",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8367165",
         "url": "https://www.ticketliquidator.com/tickets/8367165/Morgan-Wallen-tickets-Fri-Jul-23-2027-New-Highmark-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681000",
         "url": "https://www.stubhub.ie/morgan-wallen-orchard-park-tickets-7-23-2027/event/107681000",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FGZ_pJaC8Zdu62",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367165",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367165/Morgan-Wallen-tickets-Fri-Jul-23-2027-New-Highmark-Stadium",
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticket_limit": 8,
+    "ticket_limit": 6,
     "genre": "Country",
     "presales": [
-      {
-        "name": "Club Wallen Presale",
-        "start": "2026-11-17T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-17T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-17T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T16:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "Travel VIP Packages Public Onsale",
         "start": "2026-11-20T15:00:00Z",
@@ -1631,14 +1526,14 @@
     "country": "United States Of America",
     "venue": "Highmark Stadium",
     "datetime_iso": "2027-07-24T21:30:00Z",
-    "tour_name": "",
+    "tour_name": "THE LAST TIME I CHECKED TOUR 2027",
     "ticketmaster_event_id": "03006569893E0C70",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/orchard-park-new-york-highmark-stadium-ny-2027-07-24-5-30-pm/concert/18760525",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-24-2027--concerts-country-and-folk/production/7860908",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-orchard-park-new-york-07-24-2027/event/03006569893E0C70",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1650,17 +1545,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760525,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/orchard-park-new-york-highmark-stadium-ny-2027-07-24-5-30-pm/concert/18760525",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860908,
         "url": "https://www.vividseats.com/morgan-wallen-tickets-orchard-park-highmark-stadium-7-24-2027--concerts-country-and-folk/production/7860908",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1674,56 +1569,35 @@
         "event_id": "8367166",
         "url": "https://www.ticketnetwork.com/en/p/8367166",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8367166",
         "url": "https://www.ticketliquidator.com/tickets/8367166/Morgan-Wallen-tickets-Sat-Jul-24-2027-New-Highmark-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107682210",
         "url": "https://www.stubhub.ie/morgan-wallen-orchard-park-tickets-7-24-2027/event/107682210",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16dZk4txKZA2vuFv",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367166",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367166/Morgan-Wallen-tickets-Sat-Jul-24-2027-New-Highmark-Stadium",
     "organizer_names": [
       "AEG LIVE"
     ],
-    "ticket_limit": 8,
+    "ticket_limit": 6,
     "genre": "Country",
     "presales": [
-      {
-        "name": "Club Wallen Presale",
-        "start": "2026-11-18T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-18T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-18T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "Travel VIP Packages Public Onsale",
         "start": "2026-11-20T15:00:00Z",
@@ -1746,14 +1620,14 @@
     "country": "United States Of America",
     "venue": "Ohio Stadium",
     "datetime_iso": "2027-08-06T20:30:00Z",
-    "tour_name": "",
+    "tour_name": "THE LAST TIME I CHECKED TOUR 2027",
     "ticketmaster_event_id": "05006569C16D69D0",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/columbus-ohio-ohio-stadium-2027-08-06-4-30-pm/concert/18760528",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-6-2027--concerts-country-and-folk/production/7860912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-06-2027/event/05006569C16D69D0",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1765,17 +1639,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760528,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/columbus-ohio-ohio-stadium-2027-08-06-4-30-pm/concert/18760528",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860912,
         "url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-6-2027--concerts-country-and-folk/production/7860912",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1789,28 +1663,27 @@
         "event_id": "8367167",
         "url": "https://www.ticketnetwork.com/en/p/8367167",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8367167",
         "url": "https://www.ticketliquidator.com/tickets/8367167/Morgan-Wallen-tickets-Fri-Aug-6-2027-Ohio-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107682211",
         "url": "https://www.stubhub.ie/morgan-wallen-columbus-tickets-8-6-2027/event/107682211",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4tGkdvhpE8",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367167",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367167/Morgan-Wallen-tickets-Fri-Aug-6-2027-Ohio-Stadium",
     "organizer_names": [
@@ -1819,26 +1692,6 @@
     "ticket_limit": 6,
     "genre": "Country",
     "presales": [
-      {
-        "name": "Club Wallen Presale",
-        "start": "2026-11-17T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-17T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-17T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-17T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "Travel VIP Packages Public Onsale",
         "start": "2026-11-20T15:00:00Z",
@@ -1861,14 +1714,14 @@
     "country": "United States Of America",
     "venue": "Ohio Stadium",
     "datetime_iso": "2027-08-07T20:30:00Z",
-    "tour_name": "",
+    "tour_name": "THE LAST TIME I CHECKED TOUR 2027",
     "ticketmaster_event_id": "0500656A82E72921",
     "ticketmaster_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/columbus-ohio-ohio-stadium-2027-08-07-4-30-pm/concert/18760527",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-7-2027--concerts-country-and-folk/production/7860914",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/morgan-wallen-the-last-time-i-columbus-ohio-08-07-2027/event/0500656A82E72921",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1880,17 +1733,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760527,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/columbus-ohio-ohio-stadium-2027-08-07-4-30-pm/concert/18760527",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860914,
         "url": "https://www.vividseats.com/morgan-wallen-tickets-columbus-ohio-stadium-8-7-2027--concerts-country-and-folk/production/7860914",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1904,28 +1757,27 @@
         "event_id": "8367168",
         "url": "https://www.ticketnetwork.com/en/p/8367168",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8367168",
         "url": "https://www.ticketliquidator.com/tickets/8367168/Morgan-Wallen-tickets-Sat-Aug-7-2027-Ohio-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107682212",
         "url": "https://www.stubhub.ie/morgan-wallen-columbus-tickets-8-7-2027/event/107682212",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkneyw0-",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367168",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367168/Morgan-Wallen-tickets-Sat-Aug-7-2027-Ohio-Stadium",
     "organizer_names": [
@@ -1934,26 +1786,6 @@
     "ticket_limit": 6,
     "genre": "Country",
     "presales": [
-      {
-        "name": "Club Wallen Presale",
-        "start": "2026-11-18T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-18T13:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Travel VIP Packages Presale",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
       {
         "name": "Travel VIP Packages Public Onsale",
         "start": "2026-11-20T15:00:00Z",
@@ -1966,5 +1798,419 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-columbus-tickets-8-7-2027/event/107682212"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-arlington-z7r9jz1aaa8aa",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Hardy",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-08-13T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8Aa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Aa",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/arlington-texas-at-t-stadium-2027-08-13-5-30-pm/concert/18537611",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Aa",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8Aa",
+        "discovery_event_id": "Z7r9jZ1AAA8Aa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8Aa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18537611,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/arlington-texas-at-t-stadium-2027-08-13-5-30-pm/concert/18537611",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367175",
+        "url": "https://www.ticketnetwork.com/en/p/8367175",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367175",
+        "url": "https://www.ticketliquidator.com/tickets/8367175/Morgan-Wallen-tickets-Fri-Aug-13-2027-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681056",
+        "url": "https://www.stubhub.ie/morgan-wallen-arlington-tickets-8-13-2027/event/107681056",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8Aa",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367175",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367175/Morgan-Wallen-tickets-Fri-Aug-13-2027-ATT-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-arlington-tickets-8-13-2027/event/107681056"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-arlington-z7r9jz1aaa8a8",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Brooks and Dunn",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-08-14T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A8",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/arlington-texas-at-t-stadium-2027-08-14-5-30-pm/concert/18758293",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A8",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8A8",
+        "discovery_event_id": "Z7r9jZ1AAA8A8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18758293,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/arlington-texas-at-t-stadium-2027-08-14-5-30-pm/concert/18758293",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367176",
+        "url": "https://www.ticketnetwork.com/en/p/8367176",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367176",
+        "url": "https://www.ticketliquidator.com/tickets/8367176/Morgan-Wallen-tickets-Sat-Aug-14-2027-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681057",
+        "url": "https://www.stubhub.ie/morgan-wallen-arlington-tickets-8-14-2027/event/107681057",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8A8",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367176",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367176/Morgan-Wallen-tickets-Sat-Aug-14-2027-ATT-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/morgan-wallen-arlington-tickets-8-14-2027/event/107681057"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-nashville-z7r9jz1aaa8ak",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Hardy",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "New Nissan Stadium",
+    "datetime_iso": "2027-08-27T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8AK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AK",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/nashville-tennessee-nissan-stadium-2027-08-27-5-30-pm/concert/18729276",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AK",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8AK",
+        "discovery_event_id": "Z7r9jZ1AAA8AK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18729276,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/nashville-tennessee-nissan-stadium-2027-08-27-5-30-pm/concert/18729276",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367178",
+        "url": "https://www.ticketnetwork.com/en/p/8367178",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367178",
+        "url": "https://www.ticketliquidator.com/tickets/8367178/Morgan-Wallen-tickets-Fri-Aug-27-2027-New-Nissan-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8AK",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367178",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367178/Morgan-Wallen-tickets-Fri-Aug-27-2027-New-Nissan-Stadium"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-nashville-z7r9jz1aaa8a4",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Brooks and Dunn",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "New Nissan Stadium",
+    "datetime_iso": "2027-08-28T22:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8A4",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A4",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/nashville-tennessee-nissan-stadium-2027-08-28-5-30-pm/concert/18755669",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A4",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8A4",
+        "discovery_event_id": "Z7r9jZ1AAA8A4",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18755669,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/nashville-tennessee-nissan-stadium-2027-08-28-5-30-pm/concert/18755669",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8367179",
+        "url": "https://www.ticketnetwork.com/en/p/8367179",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367179",
+        "url": "https://www.ticketliquidator.com/tickets/8367179/Morgan-Wallen-tickets-Sat-Aug-28-2027-New-Nissan-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8A4",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367179",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367179/Morgan-Wallen-tickets-Sat-Aug-28-2027-New-Nissan-Stadium"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-athens-z7r9jz1aaa8ay",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Hardy",
+    "city": "Athens",
+    "country": "United States Of America",
+    "venue": "Sanford Stadium",
+    "datetime_iso": "2027-07-16T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8AY",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-16-5-30-pm/concert/18760516",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-athens-sanford-stadium-7-16-2027--concerts-country-and-folk/production/7860936",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8AY",
+        "discovery_event_id": "Z7r9jZ1AAA8AY",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18760516,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-16-5-30-pm/concert/18760516",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7860936,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-athens-sanford-stadium-7-16-2027--concerts-country-and-folk/production/7860936",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367172",
+        "url": "https://www.ticketliquidator.com/tickets/8367172/Morgan-Wallen-tickets-Fri-Jul-16-2027-Sanford-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8AY",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367172/Morgan-Wallen-tickets-Fri-Jul-16-2027-Sanford-Stadium"
+  },
+  {
+    "id": "tm-morgan-wallen-2027-athens-z7r9jz1aaa8ke",
+    "artist_slug": "morgan-wallen",
+    "artist_name": "Morgan Wallen",
+    "event_name": "Morgan Wallen w/ Brooks and Dunn",
+    "city": "Athens",
+    "country": "United States Of America",
+    "venue": "Sanford Stadium",
+    "datetime_iso": "2027-07-17T21:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA8ke",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-17-5-30-pm/concert/18760515",
+    "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-athens-sanford-stadium-7-17-2027--concerts-country-and-folk/production/7860938",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA8ke",
+        "discovery_event_id": "Z7r9jZ1AAA8ke",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18760515,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-17-5-30-pm/concert/18760515",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7860938,
+        "url": "https://www.vividseats.com/morgan-wallen-tickets-athens-sanford-stadium-7-17-2027--concerts-country-and-folk/production/7860938",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8367174",
+        "url": "https://www.ticketliquidator.com/tickets/8367174/Morgan-Wallen-tickets-Sat-Jul-17-2027-Sanford-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8ke",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367174/Morgan-Wallen-tickets-Sat-Jul-17-2027-Sanford-Stadium"
   }
 ]

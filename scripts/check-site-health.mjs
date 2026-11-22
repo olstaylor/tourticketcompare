@@ -177,7 +177,7 @@ const onBase = (loc, baseUrl) => {
   return `${baseUrl}${url.pathname}${url.search}`;
 };
 
-export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch) {
+async function collectSitemapUrlsOnce(baseUrl, fetchImpl) {
   const problems = [];
   let full = [];
   try {
@@ -212,6 +212,43 @@ export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch) 
     if (segmented.length !== b.size) problems.push(`${segmented.length - b.size} URL(s) are listed in more than one segment`);
   }
   return { urls: full.map((loc) => onBase(loc, baseUrl)), canonicalUrls: full, problems };
+}
+
+// /sitemap.xml and each segment are edge-cached separately, so right after a
+// data merge they can disagree for a few minutes until both refresh. A
+// mismatch alone is retried once after a pause; anything else (unreachable,
+// empty, duplicated) is reported straight away.
+const isMismatch = (problem) => /in no segment|are not in \/sitemap\.xml/.test(problem);
+
+// Edge-cached sitemaps answer a request after a long quiet gap with the last
+// copy (up to a day old) and rebuild in the background (functions/_edge-cache.js).
+// This run's first read is usually that request, so it saw yesterday's list
+// (past dates, since-cancelled pages) and went red on URLs the live pages had
+// already dropped, 2026-11-22: the first read was 18 hours old, the second 22
+// seconds. Read each sitemap once to trigger the rebuild, wait, then take the
+// real read. Failures here are ignored; the real read reports them.
+async function warmSitemaps(baseUrl, fetchImpl, warmMs) {
+  if (!(warmMs > 0)) return;
+  const get = async (url) => {
+    try {
+      const response = await fetchImpl(url, { headers: { "User-Agent": USER_AGENT } });
+      return response.ok ? response.text() : "";
+    } catch {
+      return "";
+    }
+  };
+  await get(`${baseUrl}/sitemap.xml`);
+  const index = await get(`${baseUrl}/sitemap-index.xml`);
+  for (const loc of locsOf(index)) await get(onBase(loc, baseUrl));
+  await new Promise((resolve) => setTimeout(resolve, warmMs));
+}
+
+export async function collectSitemapUrls(baseUrl, fetchImpl = globalThis.fetch, { mismatchRetryMs = 90000, warmMs = 0 } = {}) {
+  await warmSitemaps(baseUrl, fetchImpl, warmMs);
+  const first = await collectSitemapUrlsOnce(baseUrl, fetchImpl);
+  if (!first.problems.some(isMismatch) || !first.problems.every(isMismatch)) return first;
+  await new Promise((resolve) => setTimeout(resolve, mismatchRetryMs));
+  return collectSitemapUrlsOnce(baseUrl, fetchImpl);
 }
 
 async function openSensorFindings(token, repo) {
@@ -298,7 +335,7 @@ export function renderReport(report) {
 const pct = (value) => `${(Number(value) * 100).toFixed(1)}%`;
 
 export async function runHealthCheck({ baseUrl, fetchImpl = globalThis.fetch, token = "", repo = "", now = Date.now(), retryDelayMs = RETRY_DELAY_MS, contentRoot = REPO_ROOT }) {
-  const { urls, canonicalUrls, problems: sitemapProblems } = await collectSitemapUrls(baseUrl, fetchImpl);
+  const { urls, canonicalUrls, problems: sitemapProblems } = await collectSitemapUrls(baseUrl, fetchImpl, { mismatchRetryMs: retryDelayMs * 45, warmMs: retryDelayMs * 30 });
   const transient = [];
   const networkRetries = [];
   const results = await pool(urls, async (url, index) => {
@@ -444,6 +481,19 @@ async function selfTest() {
   assert.deepEqual(report.pages.failures.map((f) => f.path), ["/gone"]);
   assert.equal(report.pages.duplicate_titles[0].paths.length, 2);
   assert.ok(report.sitemap_problems.some((p) => /in no segment/.test(p)), "a URL missing from every segment is reported");
+  {
+    // A mismatch that clears on the retry is not reported; one that persists is.
+    let calls = 0;
+    const settling = async (url) => {
+      const path = new URL(url).pathname;
+      if (path === "/sitemap.xml") return new Response("<urlset><url><loc>https://x.test/a</loc></url><url><loc>https://x.test/b</loc></url></urlset>", { status: 200 });
+      if (path === "/sitemap-index.xml") return new Response("<sitemapindex><sitemap><loc>https://x.test/sitemaps/pages.xml</loc></sitemap></sitemapindex>", { status: 200 });
+      if (path === "/sitemaps/pages.xml") return new Response(++calls === 1 ? "<urlset><url><loc>https://x.test/a</loc></url></urlset>" : "<urlset><url><loc>https://x.test/a</loc></url><url><loc>https://x.test/b</loc></url></urlset>", { status: 200 });
+      return new Response("nope", { status: 404 });
+    };
+    assert.deepEqual((await collectSitemapUrls("https://x.test", settling, { mismatchRetryMs: 0 })).problems, [], "a mismatch that clears on retry is not reported");
+    assert.ok((await collectSitemapUrls("https://x.test", fakeFetch, { mismatchRetryMs: 0 })).problems.some((p) => /in no segment/.test(p)), "a persistent mismatch is still reported");
+  }
   assert.equal(report.api_health.ok, true);
   assert.equal(report.prices.ok, true);
   assert.equal(report.sensors.available, false);
@@ -470,6 +520,23 @@ async function selfTest() {
 
   // Codex review on #1126: each fail-open path now fails.
   assert.ok(pageProblems("https://x.test/a", { status: 200, html: good.replace(/<script type="application\/ld\+json">.*?<\/script>/, "") }).some((p) => /no JSON-LD/.test(p)), "a page with no JSON-LD is a finding");
+  // A stale-first edge cache (2026-11-22): the first read of each sitemap is
+  // yesterday's copy, later reads are fresh. The warm-up read absorbs it.
+  const warmSeen = new Map();
+  const staleFirst = async (url) => {
+    const path = new URL(url).pathname;
+    const n = (warmSeen.get(path) || 0) + 1;
+    warmSeen.set(path, n);
+    if (path === "/sitemap.xml") return new Response(`<urlset><url><loc>https://x.test/a</loc></url>${n === 1 ? "<url><loc>https://x.test/yesterday</loc></url>" : ""}</urlset>`, { status: 200 });
+    if (path === "/sitemap-index.xml") return new Response("<sitemapindex><sitemap><loc>https://x.test/sitemaps/pages.xml</loc></sitemap></sitemapindex>", { status: 200 });
+    return new Response(`<urlset><url><loc>https://x.test/a</loc></url>${n === 1 ? "<url><loc>https://x.test/yesterday</loc></url>" : ""}</urlset>`, { status: 200 });
+  };
+  const warmed = await collectSitemapUrls("https://x.test", staleFirst, { warmMs: 1, mismatchRetryMs: 0 });
+  assert.deepEqual(warmed.canonicalUrls, ["https://x.test/a"], "the real read sees the rebuilt sitemap, not the stale first copy");
+  assert.equal(warmed.problems.length, 0);
+  warmSeen.clear();
+  const cold = await collectSitemapUrls("https://x.test", staleFirst, { warmMs: 0, mismatchRetryMs: 0 });
+  assert.ok(cold.canonicalUrls.includes("https://x.test/yesterday"), "without the warm-up the stale copy is what gets crawled");
   const emptyFetch = async (url) => {
     const path = new URL(url).pathname;
     if (path === "/sitemap.xml" || path === "/sitemaps/pages.xml") return new Response("<urlset></urlset>", { status: 200 });

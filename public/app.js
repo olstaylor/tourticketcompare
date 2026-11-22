@@ -96,7 +96,7 @@ const guidePages = [
   },
   {
     slug: "seatgeek-vs-ticketmaster",
-    title: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
+    title: "SeatGeek vs Ticketmaster 2026: Fees and Prices Compared",
     description: "Is SeatGeek cheaper than Ticketmaster? Not for every show: Ticketmaster mostly sells face-value tickets, SeatGeek resale. Fees, delivery, protection compared.",
     h1: "SeatGeek vs Ticketmaster: Which Is Better or Cheaper?",
     serverRendered: true
@@ -243,12 +243,12 @@ const guideClusters = [
 
 const routeMeta = {
   "/": {
-    title: "Compare Concert Ticket Prices | TourTicketCompare",
+    title: "Compare Concert Ticket Prices by Artist | TourTicketCompare",
     description:
       "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total."
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices by Show | TourTicketCompare",
+    title: "Compare Artist Ticket Prices by Show | TourTicketCompare",
     description:
       "Pick an artist and date to compare each site's listed price for the same show, with when it was checked. Then check seats, fees and the final total."
   },
@@ -881,6 +881,30 @@ const PROVIDER_DISPLAY_ORDER = ["ticketmaster", "seatgeek", "stubhub-internation
 function providerDisplayRank(providerSlug) {
   const rank = PROVIDER_DISPLAY_ORDER.indexOf(providerSlug);
   return rank === -1 ? PROVIDER_DISPLAY_ORDER.length : rank;
+}
+
+// Seller-order test (owner approved 2026-11-20; readout 2026-12-04 for the
+// 2-week window, see docs/PROVIDER_DATA_POLICY.md). Half of all dates, chosen by
+// a hash of the event id so every viewer, the server render and the browser
+// hydration agree, show the marketplaces in reverse alphabetical order. The
+// primary ticket site still leads. Neither order is chosen by commission, and
+// each button reports its arm and 1-based position so click share can be read
+// by seller and position. Keep in sync with providerOrderArm in functions/[[path]].js
+// (scripts/provider-order-test.test.mjs fails if they drift).
+function providerOrderArm(showId) {
+  let h = 2166136261;
+  const text = String(showId || "");
+  for (let i = 0; i < text.length; i += 1) h = Math.imul(h ^ text.charCodeAt(i), 16777619);
+  h ^= h >>> 15;
+  h = Math.imul(h, 739982445);
+  h ^= h >>> 12;
+  return (h & 1) === 0 ? "alphabetical" : "reverse";
+}
+
+function providerDisplayRankForArm(providerSlug, arm) {
+  const rank = providerDisplayRank(providerSlug);
+  if (arm !== "reverse" || providerSlug === "ticketmaster" || rank >= PROVIDER_DISPLAY_ORDER.length) return rank;
+  return PROVIDER_DISPLAY_ORDER.length - rank;
 }
 
 function artistProviderHref(artist, item, surface) {
@@ -1596,6 +1620,15 @@ function showStartMs(show) {
   }
 }
 
+// Mirrors isShellArtistSummary in functions/[[path]].js: the auto-promote shell
+// summary only says Ticketmaster lists the act and that dates are "checked
+// daily", so pages do not print it. Whole-string match keeps edited copy.
+function isShellArtistSummary(textValue, name) {
+  const n = String(name || "").trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  if (!n) return false;
+  return new RegExp(`^${n} is listed by Ticketmaster(?: under [^.]+)?\\. The dates on this page come from Ticketmaster and are checked (?:daily|nightly for changes)\\.$`).test(String(textValue || "").trim());
+}
+
 function isUpcomingShow(show, now = Date.now()) {
   const start = showStartMs(show);
   return Number.isFinite(start) && start >= now;
@@ -1957,6 +1990,16 @@ function formatSnapshotTime(value) {
   }
 }
 
+function formatSnapshotDay(value) {
+  const ms = Date.parse(`${String(value || "")}T00:00:00Z`);
+  if (!Number.isFinite(ms)) return "";
+  try {
+    return new Intl.DateTimeFormat("en-US", { dateStyle: "medium", timeZone: "UTC" }).format(new Date(ms));
+  } catch (error) {
+    return String(value);
+  }
+}
+
 function isValidIsoDateTime(value) {
   const input = String(value || "").trim();
   if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$/.test(input)) return false;
@@ -2039,6 +2082,10 @@ function renderProviderCtaButton(name, href, amount, analytics = {}) {
   cta.dataset.ctaShowId = analytics.showId || "";
   cta.dataset.ctaPriceSnapshot = amount ? "present" : "absent";
   cta.dataset.ctaLocation = ctaLocation;
+  if (analytics.orderArm && analytics.position) {
+    cta.dataset.ctaOrderArm = analytics.orderArm;
+    cta.dataset.ctaPosition = String(analytics.position);
+  }
   text(cta, "span", name, "provider-cta-name");
   text(cta, "span", general ? `${analytics.checkKind === "page" ? "Artist page" : "Site search"} · not this date` : analytics.provider === "ticketmaster" ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace", "provider-cta-role");
   text(cta, "span", (amount ? ["From", amount].join(" ") : "") || (analytics.provider === "ticketmaster" ? "See tickets" : "Check prices"), `provider-cta-value${amount ? " provider-cta-price" : " provider-cta-check"}`);
@@ -2188,7 +2235,7 @@ function relativeCheckAge(fetchedAt, now = Date.now()) {
 // Keep in sync with MONEY_DISCLOSURE_TEXT / renderMoneyDisclosureHtml in
 // functions/[[path]].js.
 const MONEY_DISCLOSURE_TEXT =
-  "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical order. Commission does not determine the order.";
+  "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical or reverse-alphabetical order, which varies by date. Commission does not determine the order.";
 function renderMoneyDisclosure({ prices = true } = {}) {
   const wrap = document.createElement("div");
   if (prices) text(wrap, "p", PRICE_SUMMARY, "disclosure-note price-disclosure");
@@ -2339,11 +2386,16 @@ function renderPriceHistoryContent(panel, wrap, data) {
     const first = points[0];
     const last = points[points.length - 1];
     const latest = formatProviderPrice(last.price, series.currency);
-    const firstAsOf = formatSnapshotTime(first.observedAt);
-    const lastAsOf = formatSnapshotTime(last.observedAt);
+    const daily = series.basis === "daily";
+    const fmt = (value) => daily ? formatSnapshotDay(value) : formatSnapshotTime(value);
+    const firstAsOf = fmt(first.observedAt);
+    const lastAsOf = fmt(last.observedAt);
+    const counts = daily
+      ? `${points.length} daily checks, ${Number(series.priceChanges || 0)} price changes`
+      : `${points.length} price changes`;
     const caption = latest && firstAsOf && lastAsOf
-      ? `${points.length} price checks · ${firstAsOf} – ${lastAsOf}. Latest: ${latest}.`
-      : `${points.length} price checks.`;
+      ? `${counts} · ${firstAsOf} – ${lastAsOf}. Latest: ${latest}.`
+      : `${counts}.`;
     text(block, "p", caption, "price-history-caption muted");
     panel.append(block);
     rendered.push(series);
@@ -2543,10 +2595,11 @@ function renderShowCard(show, options = {}) {
       }
       const ctaGroup = document.createElement("div");
       ctaGroup.className = "provider-cta-group";
-      ctaSpecs.sort((a, b) => providerDisplayRank(a.provider) - providerDisplayRank(b.provider));
-      for (const spec of ctaSpecs) {
-        ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider }));
-      }
+      const orderArm = providerOrderArm(show.id);
+      ctaSpecs.sort((a, b) => providerDisplayRankForArm(a.provider, orderArm) - providerDisplayRankForArm(b.provider, orderArm));
+      ctaSpecs.forEach((spec, index) => {
+        ctaGroup.append(renderProviderCtaButton(spec.name, spec.href, spec.priceAmount || "", { ...analyticsBase, provider: spec.provider, orderArm, position: index + 1 }));
+      });
       // A date with no matched link on a resale site still offers that site's
       // artist page or search as a generic "Check prices" button. Keep in sync
       // with checkButtonHtml in renderShowCardServerHtml (functions/[[path]].js).
@@ -3548,10 +3601,14 @@ function renderArtist(artist) {
   if (serverShows.length || !isReviewRequired) {
     summary = document.createElement("section");
     summary.className = serverShows.length && !isReviewRequired ? "split-section" : "split-section split-section-single";
-    const left = document.createElement("div");
-    text(left, "h2", `About ${artist.name}`);
-    text(left, "p", artist.factual_summary);
-    summary.append(left);
+    // Like the server, drop the whole About block (heading included) when the
+    // summary is only the shell template.
+    if (!isShellArtistSummary(artist.factual_summary, artist.name)) {
+      const left = document.createElement("div");
+      text(left, "h2", `About ${artist.name}`);
+      text(left, "p", artist.factual_summary);
+      summary.append(left);
+    }
   }
   // Mirrors the server gate: the links note describes a populated ticket
   // board, so an empty or review_required artist must not render it.
@@ -3561,6 +3618,7 @@ function renderArtist(artist) {
     text(right, "p", artist.ticket_buying_notes);
     summary.append(right);
   }
+  if (summary && !summary.childElementCount) summary = null;
 
   let relatedGuides = null;
   const relatedGuidePages = (Array.isArray(artist.related_guides) ? artist.related_guides : [])
@@ -4683,6 +4741,7 @@ document.addEventListener("click", (event) => {
     eventId: showId,
     priceSnapshot: cta.dataset.ctaPriceSnapshot === "present" ? "present" : "absent",
     ctaLocation,
+    ...(cta.dataset.ctaOrderArm && Number(cta.dataset.ctaPosition) > 0 ? { orderArm: cta.dataset.ctaOrderArm, position: Number(cta.dataset.ctaPosition) } : {}),
     isAffiliate: AFFILIATE_CTA_PROVIDERS.indexOf(provider) !== -1,
     linkId: showId ? `${showId}:${provider}` : String(cta.dataset.ctaLinkId || "").trim()
   });

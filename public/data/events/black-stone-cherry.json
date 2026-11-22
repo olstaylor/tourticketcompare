@@ -65,7 +65,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAe8_-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8_-",
     "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/omaha-nebraska-the-waiting-room-omaha-2026-11-18-8-pm/concert/18637126",
-    "vividseats_url": "https://www.vividseats.com/black-stone-cherry-tickets-omaha-the-waiting-room---ne-11-18-2026/production/7623643",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe8_-",
     "last_verified_at": null,
@@ -83,15 +83,15 @@
         "event_id": 18637126,
         "url": "https://seatgeek.com/black-stone-cherry-tickets/omaha-nebraska-the-waiting-room-omaha-2026-11-18-8-pm/concert/18637126",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7623643,
-        "url": "https://www.vividseats.com/black-stone-cherry-tickets-omaha-the-waiting-room---ne-11-18-2026/production/7623643",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -101,25 +101,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8294993",
-        "url": "https://www.ticketnetwork.com/en/p/8294993",
-        "verified": true,
-        "last_verified_at": "2026-11-07",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8294993",
-        "url": "https://www.ticketliquidator.com/tickets/8294993/Black-Stone-Cherry-tickets-Wed-Nov-18-2026-The-Waiting-Room-Lounge-NE",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe8_-",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294993",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294993/Black-Stone-Cherry-tickets-Wed-Nov-18-2026-The-Waiting-Room-Lounge-NE"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-black-stone-cherry-2026-sauget-rz7hnez1afggzf",
@@ -187,7 +187,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "14348294",
     "ticketmaster_url": "https://www.ticketweb.com/event/black-stone-cherry-bonfire-nights-the-fennec-main-tickets/14348294",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/birmingham-alabama-the-fennec-sports-live-music-events-2026-11-21-8-pm/concert/18637134",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/black-stone-cherry-bonfire-nights-the-fennec-main-tickets/14348294",
@@ -295,7 +295,7 @@
     "ticketmaster_event_id": "1600653AEDC6D8AB",
     "ticketmaster_url": "https://www.ticketmaster.com/black-stone-cherry-lexington-kentucky-11-27-2026/event/1600653AEDC6D8AB",
     "seatgeek_url": "https://seatgeek.com/black-stone-cherry-tickets/lexington-kentucky-manchester-music-hall-2026-11-27-8-pm/concert/18630042",
-    "vividseats_url": "https://www.vividseats.com/black-stone-cherry-tickets-lexington-manchester-music-hall-11-27-2026/production/7620989",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/black-stone-cherry-lexington-kentucky-11-27-2026/event/1600653AEDC6D8AB",
     "last_verified_at": "2026-11-07",
@@ -313,15 +313,15 @@
         "event_id": 18630042,
         "url": "https://seatgeek.com/black-stone-cherry-tickets/lexington-kentucky-manchester-music-hall-2026-11-27-8-pm/concert/18630042",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7620989,
-        "url": "https://www.vividseats.com/black-stone-cherry-tickets-lexington-manchester-music-hall-11-27-2026/production/7620989",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -334,14 +334,14 @@
         "event_id": "8294989",
         "url": "https://www.ticketnetwork.com/en/p/8294989",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8294989",
         "url": "https://www.ticketliquidator.com/tickets/8294989/Black-Stone-Cherry-tickets-Fri-Nov-27-2026-Manchester-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -437,7 +437,7 @@
         "event_id": 18637149,
         "url": "https://seatgeek.com/black-stone-cherry-tickets/hartford-connecticut-webster-underground-hartford-2026-12-05-8-pm/concert/18637149",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -458,14 +458,14 @@
         "event_id": "8294999",
         "url": "https://www.ticketnetwork.com/en/p/8294999",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8294999",
         "url": "https://www.ticketliquidator.com/tickets/8294999/Black-Stone-Cherry-tickets-Sat-Dec-5-2026-Webster-Underground",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -506,14 +506,14 @@
         "event_id": 18637158,
         "url": "https://seatgeek.com/black-stone-cherry-tickets/columbus-ohio-the-king-of-clubs-oh-2026-12-12-5-30-pm/concert/18637158",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606316,
         "url": "https://www.vividseats.com/black-stone-cherry-tickets-columbus-king-of-clubs---columbus-12-12-2026/production/7606316",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -527,14 +527,14 @@
         "event_id": "8295002",
         "url": "https://www.ticketnetwork.com/en/p/8295002",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295002",
         "url": "https://www.ticketliquidator.com/tickets/8295002/Black-Stone-Cherry-tickets-Sat-Dec-12-2026-The-King-of-Clubs-Columbus",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -596,7 +596,7 @@
         "event_id": "107356092",
         "url": "https://www.stubhub.ie/black-stone-cherry-tickets-bournemouth-o2-academy-bournemouth-14-1-2027/event/107356092",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -661,7 +661,7 @@
         "event_id": "107037110",
         "url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-22-1-2027/event/107037110",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -729,7 +729,7 @@
         "event_id": "107037109",
         "url": "https://www.stubhub.ie/black-stone-cherry-tickets-london-o2-forum-kentish-town-23-1-2027/event/107037109",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -754,7 +754,7 @@
     "country": "Great Britain",
     "venue": "Hall By The Sea, Dreamland Margate",
     "datetime_iso": "2027-01-25T19:00:00Z",
-    "tour_name": "",
+    "tour_name": "the Celebrate Tour",
     "ticketmaster_event_id": "3500638584BC4711",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-margate-25-01-2027/event/3500638584BC4711",
     "seatgeek_url": "",
@@ -813,7 +813,7 @@
     "country": "Great Britain",
     "venue": "Rock City",
     "datetime_iso": "2027-01-26T19:00:00Z",
-    "tour_name": "",
+    "tour_name": "the Celebrate Tour",
     "ticketmaster_event_id": "1F0063859D2C6BD8",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-nottingham-26-01-2027/event/1F0063859D2C6BD8",
     "seatgeek_url": "",
@@ -856,7 +856,7 @@
         "event_id": "107036094",
         "url": "https://www.stubhub.ie/black-stone-cherry-tickets-nottingham-rock-city-26-1-2027/event/107036094",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -880,11 +880,11 @@
     "country": "Great Britain",
     "venue": "Manchester Academy",
     "datetime_iso": "2027-02-02T19:00:00Z",
-    "tour_name": "",
+    "tour_name": "the Celebrate Tour",
     "ticketmaster_event_id": "1F006384F55A9CCA",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-manchester-02-02-2027/event/1F006384F55A9CCA",
     "seatgeek_url": "",
-    "vividseats_url": "https://www.vividseats.com/black-stone-cherry-tickets-manchester-manchester-academy---3-2-2-2027/production/7151056",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-manchester-02-02-2027/event/1F006384F55A9CCA",
     "last_verified_at": "2026-11-07",
@@ -906,11 +906,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": 7151056,
-        "url": "https://www.vividseats.com/black-stone-cherry-tickets-manchester-manchester-academy---3-2-2-2027/production/7151056",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -923,7 +923,7 @@
         "event_id": "107029485",
         "url": "https://www.stubhub.ie/black-stone-cherry-tickets-manchester-manchester-academy-2-2-2027/event/107029485",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -947,7 +947,7 @@
     "country": "Great Britain",
     "venue": "The Nick Rayns LCR, UEA",
     "datetime_iso": "2027-02-03T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "the Celebrate Tour",
     "ticketmaster_event_id": "1F00638593F95DA9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/black-stone-cherry-the-celebrate-tour-norwich-03-02-2027/event/1F00638593F95DA9",
     "seatgeek_url": "",
@@ -990,7 +990,7 @@
         "event_id": "107037107",
         "url": "https://www.stubhub.ie/black-stone-cherry-tickets-norwich-the-nick-rayns-lcr-uea-3-2-2027/event/107037107",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1059,7 +1059,7 @@
         "event_id": "107029486",
         "url": "https://www.stubhub.ie/black-stone-cherry-tickets-edinburgh-edinburgh-corn-exchange-6-2-2027/event/107029486",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1127,21 +1127,21 @@
         "event_id": "7779272",
         "url": "https://www.ticketnetwork.com/en/p/7779272",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7779272",
         "url": "https://www.ticketliquidator.com/tickets/7779272/Black-Stone-Cherry-tickets-Mon-Feb-8-2027-Aberdeen-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107029487",
         "url": "https://www.stubhub.ie/black-stone-cherry-tickets-aberdeen-aberdeen-music-hall-8-2-2027/event/107029487",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1196,7 +1196,7 @@
         "event_id": 7139448,
         "url": "https://www.vividseats.com/black-stone-cherry-tickets-newcastle-upon-tyne-o2-city-hall-2-9-2027--concerts-rock/production/7139448",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {

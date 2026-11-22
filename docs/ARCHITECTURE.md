@@ -42,7 +42,7 @@ functions/
   _artist-cities.js          Artist-city aggregation for /artists/<artist>/tickets/<city>
   _price-guides.js           Artist price-guide registry, derivation and launch detection (/artists/<artist>/ticket-prices)
   _event-price-moves.js      Latest recorded per-date, per-provider price move; 7-day change for dates ≤ 14 days out
-  _price-outliers.js         Isolated-spike rule shared by every recorded-price claim
+  _price-outliers.js         Isolated-spike rule shared by every recorded-price claim, plus the StubHub International US/Canada placeholder-price rule
   _route-indexability.js     Shared route-usefulness thresholds, publishability test, reasons
   _event-local-date.js       Strict venue-local date/instant resolver (runtime + provider matchers)
   _event-pages.js            Event identity, stable keys, /events/* routing and event-page schema decision
@@ -188,6 +188,8 @@ Three link blocks are derived from data at render time, so they need no upkeep a
 `onRequest` attaches the post lists only for artist and guide routes. `scripts/smoke-prelaunch.mjs` asserts every published post's artist and guide back-links, and the footer's `/on-sale` link.
 
 ### Near-show links ("Big shows in the next two weeks")
+
+**Guide buy path (2026-11-20).** `seatgeek-vs-ticketmaster`, `vivid-seats-vs-ticketmaster` and `is-seatgeek-legit` open with up to three priced next-date tables (`renderGuideBuyPath`, `GUIDE_BUY_PATHS` in `functions/[[path]].js`): featured-order artists, only dates where two or more sellers list a fresh approved price in one currency, rendered by the existing next-dates component with `ctaLocation=guide_answer`. No `/api/out` change; sellers are not reordered. Baseline (30 days to 2026-11-20): 6, 2 and 1 guide-page seller clicks.
 
 The ten pages with the most Search Console impressions (`SELLING_SOON_PATHS` in `public/shell.js`: the comparison guides, the compare hub, the homepage, four blog posts and the Lizzy McAlpine artist page) show up to four (six on the homepage) internal links to shows from 3 hours to 14 days out (#1621). `/api/selling-soon` (`functions/_selling-soon.js`) picks them from the D1 `show_priority` list (at most 72 hours old, written by `show-priority.yml`), one per artist, keeping only shows that are publishable, not lifecycle-held, on an indexable and non-demoted artist page, and priced through the same approved-price gate the show card uses. Each link goes to the show on its artist page, with "Today"/"Tomorrow" where it applies and the show's lowest fresh listed price from that same gate (one currency only, provider named, snapshot age, "not the final total", 2026-11-16). It makes no availability claim, touches no CTA or affiliate logic, and fails open to nothing. Leave other SEO changes to these pages until #1621 is measured. The SEO opportunity report only turns its "add near-show links" suggestion into HOLD for them, so it can still list a REFRESH or IMPROVE row for one; skip those rows until the read.
 

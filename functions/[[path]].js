@@ -29,12 +29,14 @@ import { canonicalLocationPath, deriveVenues, findVenue, venueSlug } from "./_ve
 import { citySlug, deriveCities, findCity, metroSlugRedirect, normalizeCountry, rawCitySlug } from "./_cities.js";
 import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { cheapestAcrossDates, deriveCityDatePrices } from "./_artist-city-prices.js";
+import { ARTIST_FOCUS_PATHS, PRESALE_FOCUS_PATHS, PRICE_GUIDE_FOCUS_PATHS } from "./_page-seo-focus.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
 import { relatedArtistsBySharedCity } from "./_related-artists.js";
 import { publicOnsalePending, eventLifecycle, eventLifecycleHeld, eventPriceComparable, COMPARISON_MIN_PRICE_PROVIDERS, EVENT_LIFECYCLE, PRESALE_PAGE_FRESH_DAYS, TICKETMASTER_STATUS_FIELD } from "./_route-indexability.js";
 import { deriveOnsaleCalendar, ONSALE_LOOKAHEAD_DAYS, ONSALE_MAX_HORIZON_DAYS, ONSALE_RECENT_DAYS } from "./_onsale-calendar.js";
 import { deriveThisWeek, renderThisWeekHtml, THIS_WEEK_GUIDE_PATHS } from "./_this-week.js";
+import { derivePlayingSoon, renderPlayingSoonHtml } from "./_playing-soon.js";
 import { deriveToursHub, deriveToursHubCityRuns, deriveHomeCityRuns, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
 import {
@@ -240,7 +242,7 @@ const SECURITY_HEADERS = {
   // visitor accepts cookies, and there is no no-JavaScript GTM frame, so nothing may be
   // framed (frame-src falls back to default-src 'self').
   "Content-Security-Policy":
-    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
+    "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com https://static.cloudflareinsights.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com https://cloudflareinsights.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'",
   // same-origin, not no-referrer: cross-origin requests still send nothing, so
   // no provider, analytics vendor or affiliate network ever learns which page a
   // visitor came from. What changes is that our own /api/out redirect finally
@@ -662,6 +664,7 @@ async function deriveBlogArtistTicketRoutes(env, artistSlugs) {
 async function resolveRoute(pathname, env) {
   const path = normalizePath(pathname);
   if (OLD_GUIDE_REDIRECTS[path]) return { type: "redirect", location: OLD_GUIDE_REDIRECTS[path] };
+  if (path === "/compare") return { type: "redirect", location: "/compare-concert-ticket-prices" };
   if (path === "/compare-concert-ticket-prices") {
     return { type: "comparison-hub", path, ...TRUST_ROUTES[path], priceGuideDirectory: await loadPriceGuideDirectory(env) };
   }
@@ -2583,6 +2586,54 @@ function homepagePricePicks(catalog, events, isIndexable, now = Date.now()) {
   return picks;
 }
 
+// Per-page buy path on the three highest-impression comparison guides
+// (2026-11-20: ~27k impressions, 9 guide-page seller clicks in 30 days). Each
+// shows up to three upcoming dates where two or more sellers list a fresh
+// approved price, as the artist page's next-dates table for that one date, so
+// the figures and buttons are the existing cached snapshots. Only these paths:
+// no template-wide change. Artists follow the featured order the homepage
+// uses; sellers are never reordered.
+export const GUIDE_BUY_PATHS = new Set([
+  "/guides/seatgeek-vs-ticketmaster",
+  "/guides/vivid-seats-vs-ticketmaster",
+  "/guides/is-seatgeek-legit"
+]);
+const GUIDE_BUY_PANELS = 3;
+const GUIDE_BUY_CANDIDATES = 12;
+
+function guideBuyCandidates(catalog, events, isIndexable, now = Date.now()) {
+  const { primary } = splitArtistsByUpcoming(catalog?.artists, events, now);
+  const picks = [];
+  for (const artist of primary) {
+    if (!isIndexable(artist)) continue;
+    const show = futureShowsForArtist(events, artist.slug, 1)[0];
+    if (show) picks.push({ artist, show });
+    if (picks.length === GUIDE_BUY_CANDIDATES) break;
+  }
+  return picks;
+}
+
+export function renderGuideBuyPath(route, picks, availability) {
+  if (!GUIDE_BUY_PATHS.has(route?.path)) return "";
+  const panels = [];
+  for (const { artist, show } of picks || []) {
+    const pricedSellers = serverShowCtaSpecs(show, availability).filter((spec) => spec.priceAmount && spec.priceAsOf);
+    // Two sellers in one currency, or the line above would not be a comparison.
+    if (pricedSellers.length < 2 || new Set(pricedSellers.map((spec) => spec.lane.currency)).size !== 1) continue;
+    const panel = renderArtistNextDatesPriceAnswer(artist, [show], availability, {
+      heading: `${artist.name}: next date`,
+      caption: `Ticket options for the next ${artist.name} date`,
+      titleId: `guideBuy${panels.length}`,
+      ctaLocation: "guide_answer",
+      cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
+    });
+    if (panel) panels.push(panel);
+    if (panels.length === GUIDE_BUY_PANELS) break;
+  }
+  if (!panels.length) return "";
+  return `<section class="section-grid guide-buy-path" aria-labelledby="guideBuyTitle"><div class="section-intro"><h2 id="guideBuyTitle">Compare prices for a real show</h2><p>Upcoming dates where two or more sellers list a price right now. Open each seller and check the final total before you pay. ${anchor("See more shows in the compare hub", "/compare-concert-ticket-prices", "text-link")}.</p></div>${panels.join("")}${renderMoneyDisclosureHtml()}</section>`;
+}
+
 // The artists picked for this request, from the artists file's indexing status
 // (the catalog does not carry it), by the same rule the artist page uses.
 async function homepagePickSlugs(catalog, events, env) {
@@ -2827,7 +2878,7 @@ function renderLocationProvenance(reportLabel, lastUpdated = "") {
     // P8 (owner-approved 2026-09-24): the newest last_verified_at was often a
     // July date on a page whose prices were checked that morning. The nightly
     // field-sync and daily audit re-check every listed date, so say that.
-    checked ? " · Dates checked daily" : ""
+    checked ? " · Dates checked nightly for changes" : ""
   } · ${anchor(reportLabel, "/contact")}</p></section>`;
 }
 
@@ -3061,19 +3112,14 @@ function renderArtistTourSummariesHtml(tours, artist) {
         : tour.cityCount
           ? ` across ${tour.cityCount} cities`
           : "";
-      const citiesLine = !singleCity && tour.sampleCities.length
-        ? `<p class="muted">Cities include ${escapeHtml(tour.sampleCities.join(", "))}${
-            tour.cityCount > tour.sampleCities.length ? ", and more" : ""
-          }.</p>`
-        : "";
       return `<article class="info-card"><h3>${escapeHtml(tour.name)}</h3><p>${escapeHtml(
         `${showLabel}${cityLabel}.`
-      )}</p>${range ? `<p class="muted">${escapeHtml(range)}</p>` : ""}${citiesLine}</article>`;
+      )}</p>${range ? `<p class="muted">${escapeHtml(range)}</p>` : ""}</article>`;
     })
     .join("");
   return `<section class="nested-panel"><h2>${escapeHtml(
     artist.name
-  )} tours and dates</h2><p>Ticket links are on each date above.</p><div class="card-grid">${cards}</div></section>`;
+  )} tours and dates</h2><div class="card-grid">${cards}</div></section>`;
 }
 
 // The artist page's board + derived content, computed once per request. The
@@ -3148,7 +3194,7 @@ function escapeRegExp(value) {
 function isShellArtistSummary(text, name) {
   const n = escapeRegExp(String(name || "").trim());
   if (!n) return false;
-  return new RegExp(`^${n} is listed by Ticketmaster(?: under [^.]+)?\\. The dates on this page come from Ticketmaster and are checked daily\\.$`).test(String(text || "").trim());
+  return new RegExp(`^${n} is listed by Ticketmaster(?: under [^.]+)?\\. The dates on this page come from Ticketmaster and are checked (?:daily|nightly for changes)\\.$`).test(String(text || "").trim());
 }
 function isShellTicketBuyingNote(text, name) {
   const n = String(name || "").trim();
@@ -3598,7 +3644,7 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
       });
       return `<p>${escapeHtml(
         `${prefix}: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`
-      )} <span class="muted">${checkedTimeHtml(lane.fetchedAt, formatServerSnapshotTime(lane.fetchedAt))}</span></p><div class="action-row">${button}</div>`;
+      )} <span class="muted">${checkedTimeHtml(lane.fetchedAt, formatServerSnapshotTime(lane.fetchedAt), true)}</span></p><div class="action-row">${button}</div>`;
     })
     .join("");
   if (!items) return "";
@@ -3697,7 +3743,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   const summary = ticketOptions && rows.length === 1
     ? (showPrices ? "Prices are as of the time shown. Compare seats, fees and delivery on each ticket site before you pay." : "")
     : ticketOptions
-    ? `Pick a date to see its checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}. ${showPrices ? 'Prices are as of the times shown, and "sites priced" is how many sites had a price for that date. ' : ""}Compare seats, fees and delivery on each ticket site before you pay.`
+    ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ' Prices are as of the time shown, and "sites priced" counts the sites with a price for that date.' : ""}`
     : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Seats, quantities and fees can differ between sites. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
@@ -4792,13 +4838,24 @@ function renderComparisonHubCityLinks(events = []) {
 }
 
 export function renderComparisonHubEventCards(events = [], env = {}, now = null) {
-  const shows = publishableFutureShows(events, 6, now);
-  if (!shows.length) return "";
   const seatGeekAvailable = isSeatGeekConfigured(env);
   const vividSeatsAvailable = isVividSeatsConfigured(env);
   const marketplaceAvailability = Object.fromEntries(
     IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)])
   );
+  // Lead with dates where two or more sellers list a fresh approved price in
+  // one currency (a real comparison), then fill with the soonest other dates.
+  // Date order is kept inside each group; sellers are never reordered.
+  const pool = publishableFutureShows(events, 60, now);
+  const isComparable = (show) => {
+    const priced = serverShowCtaSpecs(show, { seatGeekAvailable, vividSeatsAvailable, marketplaceAvailability }).filter(
+      (spec) => spec.priceAmount && spec.priceAsOf
+    );
+    return priced.length >= 2 && new Set(priced.map((spec) => spec.lane.currency)).size === 1;
+  };
+  const comparable = pool.filter(isComparable);
+  const shows = [...comparable, ...pool.filter((show) => !comparable.includes(show))].slice(0, 6);
+  if (!shows.length) return "";
   // The same date card as artist, city and venue boards (2026-09-24): this
   // section's older card had no date badge, so the shared two-column card grid
   // squeezed its title into the badge column. CTA clicks keep their
@@ -5236,6 +5293,30 @@ function providerDisplayRank(providerSlug) {
   return rank === -1 ? PROVIDER_DISPLAY_ORDER.length : rank;
 }
 
+// Seller-order test (owner approved 2026-11-20; readout 2026-12-04 for the
+// 2-week window, see docs/PROVIDER_DATA_POLICY.md). Half of all dates, chosen by
+// a hash of the event id so every viewer, the server render and the browser
+// hydration agree, show the marketplaces in reverse alphabetical order. The
+// primary ticket site still leads. Neither order is chosen by commission, and
+// each button reports its arm and 1-based position so click share can be read
+// by seller and position. Keep in sync with providerOrderArm in public/app.js
+// (scripts/provider-order-test.test.mjs fails if they drift).
+function providerOrderArm(showId) {
+  let h = 2166136261;
+  const text = String(showId || "");
+  for (let i = 0; i < text.length; i += 1) h = Math.imul(h ^ text.charCodeAt(i), 16777619);
+  h ^= h >>> 15;
+  h = Math.imul(h, 739982445);
+  h ^= h >>> 12;
+  return (h & 1) === 0 ? "alphabetical" : "reverse";
+}
+
+function providerDisplayRankForArm(providerSlug, arm) {
+  const rank = providerDisplayRank(providerSlug);
+  if (arm !== "reverse" || providerSlug === "ticketmaster" || rank >= PROVIDER_DISPLAY_ORDER.length) return rank;
+  return PROVIDER_DISPLAY_ORDER.length - rank;
+}
+
 // SeatGeek / Vivid Seats artist cards render only when the provider's
 // Impact config is present server-side, so an unconfigured provider never
 // shows a dead button. Plain Ticketmaster links have no config requirement.
@@ -5387,12 +5468,12 @@ function renderVerificationDisclosure(artist, hasShows = true) {
   // printing it would be a freshness claim attached to nothing.
   const artistVerifiedDate = hasShows ? formatVerificationDate(artist.last_verified_at) : null;
   const checkedLine = artistVerifiedDate
-    ? `<p><strong>Last checked:</strong> ticket links checked automatically against the ticket site on ${escapeHtml(
+    ? `<p><strong>Last checked:</strong> a seller link was checked on ${escapeHtml(
         artistVerifiedDate
       )}.</p>`
     : "";
   const verificationLines = hasShows
-    ? `<p><strong>What's checked:</strong> each date's day, venue and city are checked automatically against the ticket site, and each button links to the ticket site's page for that date. A date can be held for a recheck, and if a link stops working, the date stays listed without a button.</p><p><strong>What isn't checked:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site confirms those when you buy.</p>`
+    ? `<p><strong>What's checked:</strong> each date's day, venue and city are checked automatically against the ticket site, and each button links to the ticket site's page for that date. If a link stops working, the date stays listed without a button.</p><p><strong>What isn't checked:</strong> prices, fees, seat locations, delivery, availability, or whether a date sells out. The ticket site confirms those when you buy.</p>`
     : `<p><strong>What's checked:</strong> TTC has not verified any upcoming ${escapeHtml(
         artist.name
       )} dates. This does not mean no shows have been announced. A date only goes up once its day, venue and city are confirmed, and a ticket button only once its link opens that exact show.</p>`;
@@ -5798,6 +5879,9 @@ function presalePageDescription(artist, presales) {
   const next = presales.nextWindow;
   const nextLine = next ? ` Next: ${next.name}, ${presaleTimeLabel(next.startMs, presaleWindowZone(next))}.` : " A presale is open now.";
   return fitMetaDescription(
+    ...(PRESALE_FOCUS_PATHS.has(`/artists/${artist.slug}/presale`) && next
+      ? [`${artist.name} presale times. ${nextLine.trim()} ${presalePlural(presales.windowCount, "presale", "presales")} listed by Ticketmaster for every upcoming date, plus the public on-sale.`]
+      : []),
     `${presalePlural(presales.windowCount, "presale", "presales")} listed by Ticketmaster for ${artist.name}'s upcoming dates.${nextLine} Times for every date, plus the public on-sale.`,
     `${artist.name} presale times from Ticketmaster for every upcoming date, plus the public on-sale.`
   );
@@ -6191,7 +6275,7 @@ export function renderOnsaleCalendarBody(route) {
     : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="onsaleTitle">${renderBreadcrumbHtml(
     route
-  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${route.thisWeekHtml || ""}${route.onsalePriceHtml || ""}${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
+  )}<h1 id="onsaleTitle">Concert tickets going on sale</h1><p class="lead">${escapeHtml(lead)}</p>${route.thisWeekHtml || ""}${route.playingSoonHtml || ""}${route.onsalePriceHtml || ""}${presaleHtml}<section aria-labelledby="onsaleUpcomingTitle"><h2 id="onsaleUpcomingTitle">Going on sale</h2><p>Before its on-sale time, a date's artist page shows the time and no Ticketmaster button. Resale sites can list tickets earlier, and those listings can sit above face value.</p>${upcomingHtml}</section>${recentHtml}${collapsedGroupHtml(
     "About this calendar",
     `<section class="nested-panel"><h2>Where these times come from</h2><div class="card-grid"><article class="info-card"><h3>Ticketmaster's public on-sale</h3><p>Each time is the public on-sale Ticketmaster lists for that exact date, carried on the same reviewed event record the artist page uses. Nothing is estimated.</p></article><article class="info-card"><h3>Presales from Ticketmaster</h3><p>Fan-club, card and venue presales are listed where Ticketmaster's record for a date names them, with their start and end times. Codes are never shown: they come from the artist, the card issuer or the venue.</p></article><article class="info-card"><h3>Times can change</h3><p>Promoters move on-sales. Confirm the time on Ticketmaster before the sale, and be signed in and ready a few minutes early.</p></article></div><div class="mini-link-grid">${anchor(
       "How to prepare for a ticket on-sale",
@@ -6205,6 +6289,7 @@ export function renderOnsaleCalendarBody(route) {
   )}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
 }
 
+const TOURS_HUB_RUNS_SHOWN = 6;
 const TOURS_HUB_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 function toursHubArtistMeta(artist) {
@@ -6244,13 +6329,19 @@ export function renderToursHubBody(route) {
   const runsHtml = runs.length
     ? `<section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
         `Longest ${hub.year} city runs`
-      )}</h2><p>Artists with several dates in one city. Open a run to see each date and its checked ticket links.</p></div>${renderTileListHtml(
-        runs.map((run) => ({
+      )}</h2><p>Artists with several dates in one city. Open a run to see each date and its checked ticket links.</p></div>${(() => {
+        const tiles = runs.map((run) => ({
           href: run.path,
           name: `${nameBySlug.get(run.artistSlug)} in ${run.city}`,
           meta: [`${run.showCount} dates`, run.venueCount === 1 ? "1 venue" : `${run.venueCount} venues`, run.country].join(" · ")
-        }))
-      )}</section>`
+        }));
+        // Phones: the artist list below is what most visitors came for, so only
+        // the first runs sit above it. The rest stay as plain links in the page.
+        if (tiles.length <= TOURS_HUB_RUNS_SHOWN) return renderTileListHtml(tiles);
+        return `${renderTileListHtml(tiles.slice(0, TOURS_HUB_RUNS_SHOWN))}<details class="guide-more-events"><summary>${escapeHtml(
+          `Show ${tiles.length - TOURS_HUB_RUNS_SHOWN} more city runs`
+        )}</summary>${renderTileListHtml(tiles.slice(TOURS_HUB_RUNS_SHOWN))}</details>`;
+      })()}</section>`
     : "";
   return `<main id="mainContent"><section class="content-page" aria-labelledby="toursHubTitle">${renderBreadcrumbHtml(
     route
@@ -6603,7 +6694,7 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const valueClass = amount ? "provider-cta-value provider-cta-price" : "provider-cta-value provider-cta-check";
   const ctaLocation = analytics.ctaLocation || "event_card";
   const trackedHref = withCtaLocation(href, ctaLocation);
-  const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"`;
+  const dataAttrs = ` data-cta-provider="${escapeAttr(analytics.provider || slugify(name))}" data-cta-artist="${escapeAttr(analytics.artistSlug || "")}" data-cta-show-id="${escapeAttr(analytics.showId || "")}" data-cta-price-snapshot="${amount ? "present" : "absent"}" data-cta-location="${escapeAttr(ctaLocation)}"${analytics.orderArm && analytics.position ? ` data-cta-order-arm="${escapeAttr(analytics.orderArm)}" data-cta-position="${escapeAttr(analytics.position)}"` : ""}`;
   const primary = analytics.provider === "ticketmaster";
   // A button that opens the artist's page or a site search, not this date, says
   // so on the button itself: on a phone the note under the card is off screen.
@@ -6694,10 +6785,16 @@ function pricesWereChecked(show) {
 // "Checked 5 hours ago", with the absolute capture time in the <time>
 // element: the one freshness phrase for tables and answer rows, matching the
 // card note (see _price-wording.js).
-function checkedTimeHtml(fetchedAt, asOf = "") {
+// `withDate` (headline "Cheapest" answer only) adds the visible UTC date,
+// "Checked 5 hours ago (22 Nov 2026)", so a quoted figure carries a dated fact.
+function checkedTimeHtml(fetchedAt, asOf = "", withDate = false) {
   const at = String(fetchedAt || "");
   const title = asOf || formatServerSnapshotTime(at);
-  return `<time datetime="${escapeAttr(at)}"${title ? ` title="${escapeAttr(title)}"` : ""}>Checked ${escapeHtml(relativeCheckAge(at))}</time>`;
+  const ms = Date.parse(at);
+  const date = withDate && Number.isFinite(ms)
+    ? ` (${new Date(ms).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" })})`
+    : "";
+  return `<time datetime="${escapeAttr(at)}"${title ? ` title="${escapeAttr(title)}"` : ""}>Checked ${escapeHtml(relativeCheckAge(at))}${date}</time>`;
 }
 
 // "Last seen" figures for a card with no fresh price: each rendered button's
@@ -6813,7 +6910,8 @@ function serverShowCtaSpecs(show, { seatGeekAvailable = false, vividSeatsAvailab
       spec.lane = null;
     }
   }
-  return specs.sort((a, b) => providerDisplayRank(a.provider) - providerDisplayRank(b.provider));
+  const orderArm = providerOrderArm(show.id);
+  return specs.sort((a, b) => providerDisplayRankForArm(a.provider, orderArm) - providerDisplayRankForArm(b.provider, orderArm));
 }
 
 // The provider lanes whose button renders for one raw events.json record, as
@@ -6917,10 +7015,12 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
     if (ctaSpecs.length) {
       const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
       const buttonsHtml = ctaSpecs
-        .map((spec) =>
+        .map((spec, index) =>
           renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
             ...analyticsBase,
-            provider: spec.provider
+            provider: spec.provider,
+            orderArm: providerOrderArm(show.id),
+            position: index + 1
           })
         )
         .join("");
@@ -6949,10 +7049,12 @@ function renderShowCardServerHtml(show, seatGeekAvailable = false, isIndexableAr
       // splitting the card into separate priced and unpriced sections.
       const analyticsBase = { artistSlug, showId: String(show.id || ""), ctaLocation: presentation.ctaLocation || "event_card" };
       const buttonsHtml = ctaSpecs
-        .map((spec) =>
+        .map((spec, index) =>
           renderProviderCtaButtonHtml(spec.name, spec.href, spec.priceAmount || "", {
             ...analyticsBase,
-            provider: spec.provider
+            provider: spec.provider,
+            orderArm: providerOrderArm(show.id),
+            position: index + 1
           })
         )
         .join("");
@@ -7272,18 +7374,25 @@ function guideProviderPairHref(event, provider, guideSlug, position) {
   return `${base}&guideSlug=${encodeURIComponent(guideSlug)}&position=${position}`;
 }
 
-// One date per artist, soonest first, so a residency cannot fill every card.
+// One date per artist so a residency cannot fill every card. Artists with the
+// most matched upcoming dates lead (a long tour is the likelier search), each
+// with its soonest date that is still at least two days away, so a show starting
+// today is not the example a reader opens. Falls back to the soonest date.
+const GUIDE_PAIR_MIN_LEAD_MS = 2 * 24 * 3600000;
+
 function guideProviderPairDisplayed(eligible, limit = 8) {
-  const seen = new Set();
-  const displayed = [];
+  const byArtist = new Map();
   for (const event of eligible) {
     const key = slugify(event.artist_slug) || String(event.id);
-    if (seen.has(key)) continue;
-    seen.add(key);
-    displayed.push(event);
-    if (displayed.length === limit) break;
+    if (!byArtist.has(key)) byArtist.set(key, []);
+    byArtist.get(key).push(event);
   }
-  return displayed;
+  const floor = Date.now() + GUIDE_PAIR_MIN_LEAD_MS;
+  return [...byArtist.values()]
+    .map((dates) => ({ count: dates.length, event: dates.find((event) => showStartMs(event) >= floor) || dates[0] }))
+    .sort((a, b) => b.count - a.count || showStartMs(a.event) - showStartMs(b.event))
+    .slice(0, limit)
+    .map((entry) => entry.event);
 }
 
 export function renderGuideProviderPair(route, events, env = {}) {
@@ -7434,7 +7543,11 @@ function priceGuideSnippet(route, events, env) {
   const date = formatShortDateServer(row.datetimeISO, row.timezone);
   const price = formatServerPrice(lane.price, lane.currency);
   const checked = captured.toISOString().slice(0, 16).replace("T", " ");
-  const head = `${route.artist.name}${year} ticket prices: soonest ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`;
+  // Focus pages (functions/_page-seo-focus.js) lead with the question searchers
+  // type; the same one date, site and check time follow.
+  const head = PRICE_GUIDE_FOCUS_PATHS.has(route.path)
+    ? `How much are ${route.artist.name} tickets? Soonest priced date: ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`
+    : `${route.artist.name}${year} ticket prices: soonest ${date}, ${show.city}, ${price} on ${lane.name}, checked ${checked} UTC. Check fees.`;
   // Policy: if the full attribution (provider, currency, capture time, fee
   // caveat) cannot fit, omit the price and keep the price-free description.
   const candidates = [
@@ -7470,6 +7583,12 @@ function priceGuideCheapestTitle(route, events, env) {
   // The year and "Ticket Prices" stay where they fit: they are the phrasing the
   // page already ranks on (Search Console, 2026-10).
   return [
+    ...(PRICE_GUIDE_FOCUS_PATHS.has(route.path)
+      ? [
+          `How Much Are ${name} Tickets? Cheapest ${price}, Checked ${checked}`,
+          `How Much Are ${name} Tickets${year}? Cheapest ${price}`
+        ]
+      : []),
     `${name} Ticket Prices${year}: Cheapest ${price}, Checked ${checked}`,
     `${name} Ticket Prices: Cheapest Found ${price} (Checked ${checked})`,
     `${name} Ticket Prices${year}: Cheapest ${price}`,
@@ -7542,7 +7661,12 @@ function startingPriceMetaDescription(route, events, env) {
   const startingPrice = ["Starting from", money].join(" ");
   const tail = `${startingPrice} listed at ${lane.name}; checked ${checked}. Check fees.`;
   const candidates = route.type === "artist"
-    ? isNextDate
+    ? ARTIST_FOCUS_PATHS.has(route.path) && artistComparisonLive(route, events, env)
+      ? [
+          `Compare ${route.artist.name} ticket prices: ${isNextDate ? "next" : "soonest priced"} date ${date} in ${city}. ${tail}`,
+          `Compare ${route.artist.name} ticket prices · ${city}, ${date}. ${tail}`
+        ]
+      : isNextDate
       ? [
           `${route.artist.name} tickets: next date ${date} in ${city}. ${tail}`,
           `${route.artist.name} tickets · next ${city}, ${date}. ${tail}`
@@ -8256,17 +8380,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       : isIndexableArtist
         ? splitHtml(aboutDiv, true)
         : "";
-    const usefulLinksHtml = shows.length
-      ? `<section class="nested-panel"><h2>Useful links</h2><div class="mini-link-grid">${anchor(
-          "Compare concert ticket prices",
-          "/compare-concert-ticket-prices",
-          "mini-link"
-        )}${anchor("All artists", "/artists", "mini-link")}${anchor("Ticket buying guides", "/guides", "mini-link")}${anchor(
-          "How it works",
-          "/how-it-works",
-          "mini-link"
-        )}${anchor("Affiliate disclosure", "/affiliate-disclosure", "mini-link")}</div></section>`
-      : "";
+    const usefulLinksHtml = "";
     const faqHtml = shows.length
       ? `<section class="nested-panel faq-panel" data-artist-faq><h2>${escapeHtml(
           artist.name
@@ -8428,7 +8542,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       route
     )}<h1 id="guideTitle">${escapeHtml(route.h1 || route.title.replace(" | TourTicketCompare", ""))}</h1><p class="lead">${escapeHtml(
       route.description
-    )}</p>${renderGuideProvenance(route)}${route.thisWeekHtml || ""}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideBlogLinks(route, contentHtml)}${renderGuideSources(
+    )}</p>${renderGuideProvenance(route)}${route.thisWeekHtml || ""}${route.guideBuyHtml || ""}${contentHtml}${providerPairHtml}${renderGuideProviderLinks(route, contentHtml)}${renderGuideBlogLinks(route, contentHtml)}${renderGuideSources(
       guideContent[route.path]?.sources
     )}<div class="action-row">${
       route.path === "/guides/how-to-compare-concert-ticket-prices"
@@ -8642,7 +8756,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   }
 
   if (route.path === "/how-it-works") {
-    return `<main id="mainContent"><section class="content-page" aria-labelledby="pageTitle">${renderBreadcrumbHtml(route)}<h1 id="pageTitle">How TourTicketCompare works</h1><p class="lead">${HOW_IT_WORKS_LEAD}</p><section class="nested-panel"><h2>1. Find your show</h2><p>Search for an artist, city or venue, then choose the date you want. Check the venue and local date before opening a ticket link.</p><p>${anchor("Browse artists", "/artists")} · ${anchor("Browse cities", "/cities")} · ${anchor("Browse venues", "/venues")}</p></section><section class="nested-panel"><h2>2. Compare ticket options</h2><p>Each date shows links to ticket sites with a checked page for that show. Where a listed price is shown, it names the ticket site and when the price was checked. Prices can change, and the listed amount may exclude fees.</p><p>Ticket sites may offer different sections, rows and ticket types. Compare equivalent seats and quantities before deciding.</p></section><section class="nested-panel"><h2>3. Check the total and buy on the ticket site</h2><p>Ticket buttons open an external site, where you choose your seats and pay. Confirm the final total, fees, delivery timing and refund or transfer terms there.</p><p>TourTicketCompare does not sell tickets or handle orders. For a purchase or refund enquiry, contact the seller named on your confirmation email.</p></section><section class="nested-panel"><h2>How links and prices are checked</h2><p>Event details come from confirmed source records. Ticket buttons are checked against the artist, date and venue. If a destination cannot be confirmed, its button is withheld.</p><p>A listed price is the amount a ticket site supplied when it was checked. It is not a live quote, a final checkout total or a guarantee that tickets remain available.</p></section><section class="nested-panel"><h2>Where the prices come from</h2><p>Listed prices come from the ticket sites' own approved partner feeds and APIs. The site does not scrape pages, estimate prices or type them in by hand.</p><ul class="check-list"><li>Each figure is the lowest listing a ticket site reported for that exact show when it was checked. It is not an average, and the seats behind it may differ from the seats you want.</li><li>Every price names its ticket site and shows when it was captured. A price that has gone out of date is hidden rather than shown.</li><li>Prices appear in the ticket site's own currency and are never converted, so two sites are only set side by side when they list the same show in the same currency.</li><li>Fees, delivery charges and taxes are often added at checkout. The listed amount is not what you will pay.</li><li>Not every ticket site supplies prices for every show. Where there is no usable price, the page says so and still links to the show.</li></ul><p>Spotted a price that looks wrong? ${anchor("Report it on the contact page", "/contact", "text-link")} with the page and ticket site.</p></section><section class="nested-panel"><h2>How the site earns money</h2><p>Some ticket links earn TourTicketCompare a commission if you buy, at no extra cost to you. Affiliate links appear before the unpaid Ticketmaster link; this order is not a price ranking. A link must pass the same checks whether it earns a commission or not.</p><p>${anchor("Read the affiliate disclosure", "/affiliate-disclosure")}</p></section><section class="nested-panel faq-panel"><h2>FAQ</h2><details><summary>Is TourTicketCompare official?</summary><p>No — it's independent, and not connected to any artist, venue, promoter, or ticket seller.</p></details><details><summary>Can I buy tickets here?</summary><p>No. You buy on the ticket site itself; this site just points you to it.</p></details><details><summary>Why does one show have buttons and another doesn't?</summary><p>Because that link's destination hasn't been confirmed yet. Showing nothing is better than sending you somewhere wrong.</p></details><details><summary>Will the price change?</summary><p>It can. The ticket site sets its own prices, fees, availability and terms, and they move.</p></details></section><div class="action-row">${anchor("Find your show", "/artists", "button button-primary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+    return `<main id="mainContent"><section class="content-page" aria-labelledby="pageTitle">${renderBreadcrumbHtml(route)}<h1 id="pageTitle">How TourTicketCompare works</h1><p class="lead">${HOW_IT_WORKS_LEAD}</p><section class="nested-panel"><h2>1. Find your show</h2><p>Search for an artist, city or venue, then choose the date you want. Check the venue and local date before opening a ticket link.</p><p>${anchor("Browse artists", "/artists")} · ${anchor("Browse cities", "/cities")} · ${anchor("Browse venues", "/venues")}</p></section><section class="nested-panel"><h2>2. Compare ticket options</h2><p>Each date shows links to ticket sites with a checked page for that show. Where a listed price is shown, it names the ticket site and when the price was checked. Prices can change, and the listed amount may exclude fees.</p><p>Ticket sites may offer different sections, rows and ticket types. Compare equivalent seats and quantities before deciding.</p></section><section class="nested-panel"><h2>3. Check the total and buy on the ticket site</h2><p>Ticket buttons open an external site, where you choose your seats and pay. Confirm the final total, fees, delivery timing and refund or transfer terms there.</p><p>TourTicketCompare does not sell tickets or handle orders. For a purchase or refund enquiry, contact the seller named on your confirmation email.</p></section><section class="nested-panel"><h2>How links and prices are checked</h2><p>Event details come from confirmed source records. Ticket buttons are checked against the artist, date and venue. If a destination cannot be confirmed, its button is withheld.</p><p>Listed prices come from the ticket sites' own approved partner feeds and APIs. The site does not scrape pages, estimate prices or type them in by hand.</p><ul class="check-list"><li>Each figure is the lowest listing a ticket site reported for that exact show when it was checked. It is not an average, a live quote or a final checkout total, and it does not mean tickets are still available. The seats behind it may differ from the seats you want, and fees, delivery charges and taxes are often added at checkout.</li><li>Every price names its ticket site and shows when it was captured. A price that has gone out of date is hidden rather than shown.</li><li>Prices appear in the ticket site's own currency and are never converted, so two sites are only set side by side when they list the same show in the same currency.</li><li>Not every ticket site supplies prices for every show. Where there is no usable price, the page says so and still links to the show.</li></ul><p>Refresh schedule: Vivid Seats, TicketNetwork and StubHub International prices are re-checked hourly. A price older than 24 hours is hidden. Event dates, venues and times are re-checked against Ticketmaster nightly. Last reviewed 21 November 2026.</p><p>Spotted a price that looks wrong? ${anchor("Report it on the contact page", "/contact", "text-link")} with the page and ticket site.</p></section><section class="nested-panel"><h2>How the site earns money</h2><p>Some ticket links earn TourTicketCompare a commission if you buy, at no extra cost to you. Affiliate links appear before the unpaid Ticketmaster link; this order is not a price ranking. A link must pass the same checks whether it earns a commission or not.</p><p>${anchor("Read the affiliate disclosure", "/affiliate-disclosure")}</p></section><section class="nested-panel faq-panel"><h2>FAQ</h2><details><summary>Is TourTicketCompare official?</summary><p>No — it's independent, and not connected to any artist, venue, promoter, or ticket seller.</p></details><details><summary>Can I buy tickets here?</summary><p>No. You buy on the ticket site itself; this site just points you to it.</p></details><details><summary>Why does one show have buttons and another doesn't?</summary><p>Because that link's destination hasn't been confirmed yet. Showing nothing is better than sending you somewhere wrong.</p></details><details><summary>Will the price change?</summary><p>It can. The ticket site sets its own prices, fees, availability and terms, and they move.</p></details></section><div class="action-row">${anchor("Find your show", "/artists", "button button-primary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
   }
 
   if (route.path === "/currency-converter") {
@@ -8951,7 +9065,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
     '<script src="/app.js?v=20261102a" defer></script>',
-    '<script src="/shell.js?v=20261023b" defer></script>'
+    '<script src="/shell.js?v=20261121a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.
@@ -8978,7 +9092,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
   if (next.includes("data-price-history=")) {
-    next = next.replace("</body>", `${PRICE_ALERT_INTEREST_TEMPLATE}<script src="/price-history.js?v=20260924v" defer></script></body>`);
+    next = next.replace("</body>", `${PRICE_ALERT_INTEREST_TEMPLATE}<script src="/price-history.js?v=20261122a" defer></script></body>`);
   }
   if (route.path === "/currency-converter") {
     next = next.replace("</body>", '<script src="/currency-converter.js?v=20260821a" defer></script></body>');
@@ -8991,11 +9105,11 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261106a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261106a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261121a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261121a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261025a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261121a" defer></script></body>');
   }
   return next;
 }
@@ -9458,7 +9572,7 @@ async function renderRequest(context) {
   const demotedSlugs = listsOnly ? await loadDemotedArtistSlugs(env) : new Set();
   const catalog = withoutDemotedArtists(route.catalog || await loadCatalog(env), demotedSlugs);
   const needsGuideEvents = route.type === "guide" && ((Array.isArray(route.comparisonProviders) && route.comparisonProviders.length === 2) || GUIDE_UPCOMING_ARTIST_PATHS.has(route.path));
-  const needsEvents = route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || THIS_WEEK_GUIDE_PATHS.has(route.path) || route.path === "/artists" || route.path === "/" || route.type === "onsale-calendar";
+  const needsEvents = GUIDE_BUY_PATHS.has(route.path) || route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || needsGuideEvents || THIS_WEEK_GUIDE_PATHS.has(route.path) || route.path === "/artists" || route.path === "/" || route.type === "onsale-calendar";
   const events = withoutDemotedEvents(route.events || (needsEvents ? await loadEvents(env) : []), demotedSlugs);
   timer.mark("data");
   let priceLowSeries = new Map();
@@ -9470,7 +9584,8 @@ async function renderRequest(context) {
   let homePickSlugs = null;
   let homeCityRuns = null;
   let onsalePicks = null;
-  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/" || route.type === "onsale-calendar") && events.length) {
+  let guideBuyPicks = null;
+  if ((route.type === "artist" || route.type === "artist-city" || route.type === "price-guide" || route.type === "presale" || route.type === "city" || route.type === "venue" || route.type === "comparison-hub" || route.type === "event" || route.path === "/" || route.type === "onsale-calendar" || GUIDE_BUY_PATHS.has(route.path)) && events.length) {
     // Query prices for exactly the cards each route renders, not a fixed prefix
     // of the board. A card the server never queried can neither show a snapshot
     // nor honestly report one as absent, so the old six-show slice left the rest
@@ -9519,6 +9634,10 @@ async function renderRequest(context) {
     } else if (route.type === "onsale-calendar") {
       onsalePicks = await onsalePickList(route, events, env);
       priceCandidates = onsalePickShows(onsalePicks, events).map(({ show }) => show);
+    } else if (GUIDE_BUY_PATHS.has(route.path)) {
+      const guideMeta = new Map((await loadArtistsMeta(env)).filter(Boolean).map((artist) => [slugify(artist.slug), artist]));
+      guideBuyPicks = guideBuyCandidates(catalog, events, (artist) => artistPageIndexable(guideMeta.get(slugify(artist.slug)), events, artist.slug));
+      priceCandidates = guideBuyPicks.map(({ show }) => show);
     } else if (route.path === "/") {
       homePickSlugs = await homepagePickSlugs(catalog, events, env);
       const homeMeta = await loadArtistsMeta(env);
@@ -9590,6 +9709,15 @@ async function renderRequest(context) {
   let renderRoute = promotesBlog ? { ...route, blogPromotable: true } : route;
   if (homePickSlugs) renderRoute = { ...renderRoute, homePickSlugs };
   if (homeCityRuns?.length) renderRoute = { ...renderRoute, homeCityRuns };
+  if (guideBuyPicks?.length) {
+    const pricedGuidePicks = guideBuyPicks.map(({ artist, show }) => ({ artist, show: renderEvents.find((event) => String(event?.id || "") === String(show.id || "")) || show }));
+    const guideBuyHtml = renderGuideBuyPath(route, pricedGuidePicks, {
+      seatGeekAvailable: isSeatGeekConfigured(env),
+      vividSeatsAvailable: isVividSeatsConfigured(env),
+      marketplaceAvailability: Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, isImpactMarketplaceConfigured(env, provider)]))
+    });
+    if (guideBuyHtml) renderRoute = { ...renderRoute, guideBuyHtml };
+  }
   if (onsalePicks?.length) {
     const onsalePriceHtml = renderOnsalePriceAnswers(onsalePicks, catalog, renderEvents, env);
     if (onsalePriceHtml) renderRoute = { ...renderRoute, onsalePriceHtml };
@@ -9616,6 +9744,10 @@ async function renderRequest(context) {
       onCalendar ? { checkedAt: nowMs, onCalendar: true } : {}
     );
     if (thisWeekHtml) renderRoute = { ...renderRoute, thisWeekHtml };
+    if (onCalendar) {
+      const playingSoonHtml = renderPlayingSoonHtml(derivePlayingSoon(events, linkable, nowMs));
+      if (playingSoonHtml) renderRoute = { ...renderRoute, playingSoonHtml };
+    }
   }
   // "Compare <artist> ticket prices" is kept only while some upcoming date
   // shows two or more sellers' prices from this render's price read (owner

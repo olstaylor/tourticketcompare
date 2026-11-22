@@ -3954,6 +3954,48 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-jhene-aiko",
     redirectUrl: "https://seatgeek.com/jhene-aiko-tickets",
     verified: true
+  },
+  "travis-tritt:ticketmaster": {
+    artistSlug: "travis-tritt",
+    provider: "ticketmaster",
+    linkId: "tm-artist-travis-tritt",
+    redirectUrl: "https://www.ticketmaster.com/travis-tritt-tickets/artist/732965",
+    verified: true
+  },
+  "travis-tritt:seatgeek": {
+    artistSlug: "travis-tritt",
+    provider: "seatgeek",
+    linkId: "sg-artist-travis-tritt",
+    redirectUrl: "https://seatgeek.com/travis-tritt-tickets",
+    verified: true
+  },
+  "grace-potter:ticketmaster": {
+    artistSlug: "grace-potter",
+    provider: "ticketmaster",
+    linkId: "tm-artist-grace-potter",
+    redirectUrl: "https://www.ticketmaster.com/grace-potter-tickets/artist/1127233",
+    verified: true
+  },
+  "grace-potter:seatgeek": {
+    artistSlug: "grace-potter",
+    provider: "seatgeek",
+    linkId: "sg-artist-grace-potter",
+    redirectUrl: "https://seatgeek.com/grace-potter-the-nocturnals-tickets",
+    verified: true
+  },
+  "hannah-harper:ticketmaster": {
+    artistSlug: "hannah-harper",
+    provider: "ticketmaster",
+    linkId: "tm-artist-hannah-harper",
+    redirectUrl: "https://www.ticketmaster.com/hannah-harper-tickets/artist/4322479",
+    verified: true
+  },
+  "hannah-harper:seatgeek": {
+    artistSlug: "hannah-harper",
+    provider: "seatgeek",
+    linkId: "sg-artist-hannah-harper",
+    redirectUrl: "https://seatgeek.com/hannah-harper-tickets",
+    verified: true
   }
 };
 
@@ -5105,15 +5147,24 @@ async function handleOut(request, env, mode) {
   // the fallback and is reduced to a path (the site's same-origin referrer
   // policy means this header is one of our own pages and is never sent to a
   // third party). Recorded as a path only — no origin, no query string.
-  const sourcePath = normalizeAnalyticsPath(
-    body.sourcePath || url.searchParams.get("sourcePath") || request.headers.get("referer") || "/"
-  );
+  const declaredSource = body.sourcePath || url.searchParams.get("sourcePath") || request.headers.get("referer");
+  const sourcePath = normalizeAnalyticsPath(declaredSource || "/");
   // Which CTA component was clicked. `surface` is the existing artist-level
   // parameter name; both are validated against the fixed CTA_LOCATIONS list, so
   // an arbitrary query value is discarded rather than stored.
   const ctaLocation = normalizeCtaLocation(
     body.ctaLocation || url.searchParams.get("ctaLocation") || url.searchParams.get("surface")
   );
+  // Forged home-page source from the 18 Nov 2026 crawler: it sends a Referer of
+  // "/" with same-origin Sec-Fetch headers and a CTA the home page never renders
+  // (454 redirects 18-20 Nov, 360 of them Impact-tracked; "/" had none on
+  // 14-17 Nov). The only home CTA is `home_answer`; anything else claiming "/"
+  // is refused before a click ID, tracking call or receipt.
+  // Only an explicit "/" counts: a request with no Referer or sourcePath at all
+  // (link checker, headerless browser) still defaults to "/" and must redirect.
+  if (declaredSource && sourcePath === "/" && ctaLocation !== "home_answer") {
+    return json({ ok: false, status: "blocked_forged_source" }, 403);
+  }
   const rawGuideSlug = clean(body.guideSlug || url.searchParams.get("guideSlug"), 120);
   const requestedPosition = Number(body.position || url.searchParams.get("position"));
   const guideSlug =

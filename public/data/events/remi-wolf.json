@@ -8,7 +8,7 @@
     "country": "United States Of America",
     "venue": "The Anthem",
     "datetime_iso": "2027-02-24T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "15006547A9CD67C5",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-23-2027/event/15006547A9CD67C5",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/washington-district-of-columbia-the-anthem-dc-2027-02-23-7-30-pm/concert/18664756",
@@ -30,14 +30,14 @@
         "event_id": 18664756,
         "url": "https://seatgeek.com/remi-wolf-tickets/washington-district-of-columbia-the-anthem-dc-2027-02-23-7-30-pm/concert/18664756",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679280,
         "url": "https://www.vividseats.com/remi-wolf-tickets-washington-dc-the-anthem-2-23-2027--concerts-pop/production/7679280",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,14 +51,14 @@
         "event_id": "8315064",
         "url": "https://www.ticketnetwork.com/en/p/8315064",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315064",
         "url": "https://www.ticketliquidator.com/tickets/8315064/Remi-Wolf-tickets-Tue-Feb-23-2027-The-Anthem-DC",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -86,10 +86,10 @@
     "country": "United States Of America",
     "venue": "The Met Presented by Highmark",
     "datetime_iso": "2027-02-27T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "020065469FAA6E71",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-philadelphia-pennsylvania-02-26-2027/event/020065469FAA6E71",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-02-26-8-pm/concert/18664758",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-philadelphia-pennsylvania-02-26-2027/event/020065469FAA6E71",
@@ -129,14 +129,14 @@
         "event_id": "8315065",
         "url": "https://www.ticketnetwork.com/en/p/8315065",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315065",
         "url": "https://www.ticketliquidator.com/tickets/8315065/Remi-Wolf-tickets-Fri-Feb-26-2027-The-Met-Presented-by-Highmark",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -167,7 +167,7 @@
     "country": "United States Of America",
     "venue": "Radio City Music Hall",
     "datetime_iso": "2027-02-28T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "3C0065477C7B0DDB",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-new-york-new-york-02-27-2027/event/3C0065477C7B0DDB",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/new-york-new-york-radio-city-music-hall-2027-02-27-8-pm/concert/18664759",
@@ -189,14 +189,14 @@
         "event_id": 18664759,
         "url": "https://seatgeek.com/remi-wolf-tickets/new-york-new-york-radio-city-music-hall-2027-02-27-8-pm/concert/18664759",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679286,
         "url": "https://www.vividseats.com/remi-wolf-tickets-new-york-radio-city-music-hall-2-27-2027--concerts-pop/production/7679286",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -210,14 +210,14 @@
         "event_id": "8315066",
         "url": "https://www.ticketnetwork.com/en/p/8315066",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315066",
         "url": "https://www.ticketliquidator.com/tickets/8315066/Remi-Wolf-tickets-Sat-Feb-27-2027-Radio-City-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -252,10 +252,10 @@
     "country": "United States Of America",
     "venue": "MGM Music Hall at Fenway",
     "datetime_iso": "2027-03-03T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "01006546DEE3F4C9",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-02-8-pm/concert/18664755",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-2-2027--concerts-pop/production/7679291",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-02-2027/event/01006546DEE3F4C9",
@@ -271,17 +271,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664755,
+        "url": "https://seatgeek.com/remi-wolf-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-02-8-pm/concert/18664755",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679291,
         "url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-2-2027--concerts-pop/production/7679291",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -295,21 +295,21 @@
         "event_id": "8315068",
         "url": "https://www.ticketnetwork.com/en/p/8315068",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315068",
         "url": "https://www.ticketliquidator.com/tickets/8315068/Remi-Wolf-tickets-Tue-Mar-2-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672948",
         "url": "https://www.stubhub.ie/remi-wolf-boston-tickets-3-2-2027/event/107672948",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -341,10 +341,10 @@
     "country": "United States Of America",
     "venue": "MGM Music Hall at Fenway",
     "datetime_iso": "2027-03-04T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "01006546DEF6F505",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-03-8-pm/concert/18693829",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-3-2027--concerts-pop/production/7713782",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-boston-massachusetts-03-03-2027/event/01006546DEF6F505",
@@ -360,17 +360,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18693829,
+        "url": "https://seatgeek.com/remi-wolf-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-03-8-pm/concert/18693829",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7713782,
         "url": "https://www.vividseats.com/remi-wolf-tickets-boston-mgm-music-hall-at-fenway-3-3-2027--concerts-pop/production/7713782",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -384,21 +384,21 @@
         "event_id": "8325850",
         "url": "https://www.ticketnetwork.com/en/p/8325850",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8325850",
         "url": "https://www.ticketliquidator.com/tickets/8325850/Remi-Wolf-tickets-Wed-Mar-3-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107677326",
         "url": "https://www.stubhub.ie/remi-wolf-boston-tickets-3-3-2027/event/107677326",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -423,7 +423,7 @@
     "country": "Canada",
     "venue": "Massey Hall",
     "datetime_iso": "2027-03-06T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "10006547EB618514",
     "ticketmaster_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-05-2027/event/10006547EB618514",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-05-8-pm/concert/18664754",
@@ -445,14 +445,14 @@
         "event_id": 18664754,
         "url": "https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-05-8-pm/concert/18664754",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679350,
         "url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-5-2027--concerts-pop/production/7679350",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -484,7 +484,7 @@
     "country": "Canada",
     "venue": "Massey Hall",
     "datetime_iso": "2027-03-07T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "10006547EB638527",
     "ticketmaster_url": "https://www.ticketmaster.ca/remi-wolf-the-mud-tour-toronto-ontario-03-06-2027/event/10006547EB638527",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-06-8-pm/concert/18693184",
@@ -506,14 +506,14 @@
         "event_id": 18693184,
         "url": "https://seatgeek.com/remi-wolf-tickets/toronto-canada-massey-hall-2027-03-06-8-pm/concert/18693184",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7713965,
         "url": "https://www.vividseats.com/remi-wolf-tickets-toronto-massey-hall---allied-music-centre-3-6-2027/production/7713965",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -567,7 +567,7 @@
         "event_id": 18664757,
         "url": "https://seatgeek.com/remi-wolf-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-03-07-7-pm/concert/18664757",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -588,14 +588,14 @@
         "event_id": "8315229",
         "url": "https://www.ticketnetwork.com/en/p/8315229",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315229",
         "url": "https://www.ticketliquidator.com/tickets/8315229/Remi-Wolf-tickets-Sun-Mar-7-2027-Masonic-Temple-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -614,7 +614,7 @@
     "country": "United States Of America",
     "venue": "The Salt Shed Indoors (Shed)",
     "datetime_iso": "2027-03-10T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "04006548D8121164",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-09-2027/event/04006548D8121164",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/chicago-illinois-the-salt-shed-indoors-2027-03-09-8-pm/concert/18664766",
@@ -636,7 +636,7 @@
         "event_id": 18664766,
         "url": "https://seatgeek.com/remi-wolf-tickets/chicago-illinois-the-salt-shed-indoors-2027-03-09-8-pm/concert/18664766",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -680,7 +680,7 @@
     "country": "United States Of America",
     "venue": "The Salt Shed Indoors (Shed)",
     "datetime_iso": "2027-03-11T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "04006548D8C61293",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-chicago-illinois-03-10-2027/event/04006548D8C61293",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/chicago-illinois-the-salt-shed-indoors-2027-03-10-8-pm/concert/18692433",
@@ -702,7 +702,7 @@
         "event_id": 18692433,
         "url": "https://seatgeek.com/remi-wolf-tickets/chicago-illinois-the-salt-shed-indoors-2027-03-10-8-pm/concert/18692433",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -739,7 +739,7 @@
     "country": "United States Of America",
     "venue": "Armory",
     "datetime_iso": "2027-03-13T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "06006547E364FAD6",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-minneapolis-minnesota-03-12-2027/event/06006547E364FAD6",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-03-12-7-30-pm/concert/18664767",
@@ -761,14 +761,14 @@
         "event_id": 18664767,
         "url": "https://seatgeek.com/remi-wolf-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-03-12-7-30-pm/concert/18664767",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679372,
         "url": "https://www.vividseats.com/remi-wolf-tickets-minneapolis-armory---minneapolis-3-12-2027--concerts-pop/production/7679372",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -782,14 +782,14 @@
         "event_id": "8315071",
         "url": "https://www.ticketnetwork.com/en/p/8315071",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315071",
         "url": "https://www.ticketliquidator.com/tickets/8315071/Remi-Wolf-tickets-Fri-Mar-12-2027-The-Armory-Minneapolis",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -820,7 +820,7 @@
     "country": "United States Of America",
     "venue": "Landmark Credit Union Live",
     "datetime_iso": "2027-03-14T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "07006546AC2956C5",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-milwaukee-wisconsin-03-13-2027/event/07006546AC2956C5",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-03-13-8-pm/concert/18664770",
@@ -842,14 +842,14 @@
         "event_id": 18664770,
         "url": "https://seatgeek.com/remi-wolf-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-03-13-8-pm/concert/18664770",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679297,
         "url": "https://www.vividseats.com/remi-wolf-tickets-milwaukee-landmark-credit-union-live-3-13-2027--concerts-pop/production/7679297",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -863,14 +863,14 @@
         "event_id": "8315072",
         "url": "https://www.ticketnetwork.com/en/p/8315072",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315072",
         "url": "https://www.ticketliquidator.com/tickets/8315072/Remi-Wolf-tickets-Sat-Mar-13-2027-Landmark-Credit-Union-Live",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -901,7 +901,7 @@
     "country": "United States Of America",
     "venue": "The Factory",
     "datetime_iso": "2027-03-17T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "21006547370B9836",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-saint-louis-missouri-03-16-2027/event/21006547370B9836",
     "seatgeek_url": "",
@@ -965,10 +965,10 @@
     "country": "United States Of America",
     "venue": "The Andrew J Brady Music Center",
     "datetime_iso": "2027-03-18T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "160065459C6148BA",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-cincinnati-ohio-03-17-2027/event/160065459C6148BA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/cincinnati-ohio-andrew-j-brady-music-center-2027-03-17-8-pm/concert/18664773",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-cincinnati-andrew-j-brady-music-center-3-17-2027--concerts-pop/production/7679320",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-cincinnati-ohio-03-17-2027/event/160065459C6148BA",
@@ -994,7 +994,7 @@
         "event_id": 7679320,
         "url": "https://www.vividseats.com/remi-wolf-tickets-cincinnati-andrew-j-brady-music-center-3-17-2027--concerts-pop/production/7679320",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1008,7 +1008,7 @@
         "event_id": "8315076",
         "url": "https://www.ticketnetwork.com/en/p/8315076",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -1031,7 +1031,7 @@
     "country": "United States Of America",
     "venue": "The Truth",
     "datetime_iso": "2027-03-20T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "1B006548E83E4662",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-nashville-tennessee-03-19-2027/event/1B006548E83E4662",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/nashville-tennessee-the-truth-nashville-2027-03-19-8-pm/concert/18664774",
@@ -1053,14 +1053,14 @@
         "event_id": 18664774,
         "url": "https://seatgeek.com/remi-wolf-tickets/nashville-tennessee-the-truth-nashville-2027-03-19-8-pm/concert/18664774",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679324,
         "url": "https://www.vividseats.com/remi-wolf-tickets-nashville-the-truth-3-19-2027--concerts-pop/production/7679324",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1074,14 +1074,14 @@
         "event_id": "8315079",
         "url": "https://www.ticketnetwork.com/en/p/8315079",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315079",
         "url": "https://www.ticketliquidator.com/tickets/8315079/Remi-Wolf-tickets-Fri-Mar-19-2027-The-Truth",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1117,7 +1117,7 @@
     "country": "United States Of America",
     "venue": "Coca-Cola Roxy",
     "datetime_iso": "2027-03-21T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "0E0065470B84F8EA",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-atlanta-georgia-03-20-2027/event/0E0065470B84F8EA",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-03-20-8-pm/concert/18664775",
@@ -1139,14 +1139,14 @@
         "event_id": 18664775,
         "url": "https://seatgeek.com/remi-wolf-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-03-20-8-pm/concert/18664775",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679330,
         "url": "https://www.vividseats.com/remi-wolf-tickets-atlanta-coca-cola-roxy-theatre-3-20-2027--concerts-pop/production/7679330",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1160,14 +1160,14 @@
         "event_id": "8315080",
         "url": "https://www.ticketnetwork.com/en/p/8315080",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315080",
         "url": "https://www.ticketliquidator.com/tickets/8315080/Remi-Wolf-tickets-Sat-Mar-20-2027-Coca-Cola-Roxy",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1197,7 +1197,7 @@
     "country": "United States Of America",
     "venue": "Moody Amphitheater",
     "datetime_iso": "2027-05-07T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "3A006548ED31C5A0",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-austin-texas-05-06-2027/event/3A006548ED31C5A0",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/austin-texas-moody-amphitheater-2027-05-06-7-pm/concert/18664777",
@@ -1219,14 +1219,14 @@
         "event_id": 18664777,
         "url": "https://seatgeek.com/remi-wolf-tickets/austin-texas-moody-amphitheater-2027-05-06-7-pm/concert/18664777",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679377,
         "url": "https://www.vividseats.com/remi-wolf-tickets-austin-moody-amphitheater-5-6-2027--concerts-pop/production/7679377",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1240,14 +1240,14 @@
         "event_id": "8315230",
         "url": "https://www.ticketnetwork.com/en/p/8315230",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315230",
         "url": "https://www.ticketliquidator.com/tickets/8315230/Remi-Wolf-tickets-Thu-May-6-2027-Moody-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1278,10 +1278,10 @@
     "country": "United States Of America",
     "venue": "713 Music Hall",
     "datetime_iso": "2027-05-08T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "3A006545CDEB6F92",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-houston-texas-05-07-2027/event/3A006545CDEB6F92",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/houston-texas-713-music-hall-2027-05-07-8-pm/concert/18664782",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-houston-713-music-hall-5-7-2027--concerts-pop/production/7679340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-houston-texas-05-07-2027/event/3A006545CDEB6F92",
@@ -1307,7 +1307,7 @@
         "event_id": 7679340,
         "url": "https://www.vividseats.com/remi-wolf-tickets-houston-713-music-hall-5-7-2027--concerts-pop/production/7679340",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1321,21 +1321,21 @@
         "event_id": "8315081",
         "url": "https://www.ticketnetwork.com/en/p/8315081",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315081",
         "url": "https://www.ticketliquidator.com/tickets/8315081/Remi-Wolf-tickets-Fri-May-7-2027-713-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672957",
         "url": "https://www.stubhub.ie/remi-wolf-houston-tickets-5-7-2027/event/107672957",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1360,10 +1360,10 @@
     "country": "United States Of America",
     "venue": "The Pavilion at Toyota Music Factory",
     "datetime_iso": "2027-05-09T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "0C006547BBD78E87",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-05-08-8-pm/concert/18664783",
     "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-irving-pavilion-at-toyota-music-factory-5-8-2027--concerts-pop/production/7679344",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-irving-texas-05-08-2027/event/0C006547BBD78E87",
@@ -1379,17 +1379,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664783,
+        "url": "https://seatgeek.com/remi-wolf-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-05-08-8-pm/concert/18664783",
+        "verified": true,
+        "last_verified_at": "2026-11-19",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679344,
         "url": "https://www.vividseats.com/remi-wolf-tickets-irving-pavilion-at-toyota-music-factory-5-8-2027--concerts-pop/production/7679344",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1403,14 +1403,14 @@
         "event_id": "8315082",
         "url": "https://www.ticketnetwork.com/en/p/8315082",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315082",
         "url": "https://www.ticketliquidator.com/tickets/8315082/Remi-Wolf-tickets-Sat-May-8-2027-The-Pavilion-at-Toyota-Music-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1463,7 +1463,7 @@
         "event_id": 18664784,
         "url": "https://seatgeek.com/remi-wolf-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-05-10-8-pm/concert/18664784",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1516,14 +1516,14 @@
         "event_id": 18664787,
         "url": "https://seatgeek.com/remi-wolf-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-05-11-8-pm/concert/18664787",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679366,
         "url": "https://www.vividseats.com/remi-wolf-tickets-kansas-city-the-midland-theatre-5-11-2027--concerts-pop/production/7679366",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1537,14 +1537,14 @@
         "event_id": "8315232",
         "url": "https://www.ticketnetwork.com/en/p/8315232",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315232",
         "url": "https://www.ticketliquidator.com/tickets/8315232/Remi-Wolf-tickets-Tue-May-11-2027-The-Midland-Theatre-MO",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1585,14 +1585,14 @@
         "event_id": 18664791,
         "url": "https://seatgeek.com/remi-wolf-tickets/west-des-moines-iowa-val-air-ballroom-2027-05-12-8-pm/concert/18664791",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679368,
         "url": "https://www.vividseats.com/remi-wolf-tickets-west-des-moines-val-air-ballroom-5-12-2027--concerts-pop/production/7679368",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1606,14 +1606,14 @@
         "event_id": "8315233",
         "url": "https://www.ticketnetwork.com/en/p/8315233",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315233",
         "url": "https://www.ticketliquidator.com/tickets/8315233/Remi-Wolf-tickets-Wed-May-12-2027-Val-Air-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1654,14 +1654,14 @@
         "event_id": 18664789,
         "url": "https://seatgeek.com/remi-wolf-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-16-7-pm/concert/18664789",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679370,
         "url": "https://www.vividseats.com/remi-wolf-tickets-morrison-red-rocks-amphitheatre-5-16-2027--concerts-pop/production/7679370",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1675,14 +1675,14 @@
         "event_id": "8315032",
         "url": "https://www.ticketnetwork.com/en/p/8315032",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315032",
         "url": "https://www.ticketliquidator.com/tickets/8315032/Remi-Wolf-tickets-Sun-May-16-2027-Red-Rocks-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1701,7 +1701,7 @@
     "country": "United States Of America",
     "venue": "Kettlehouse Amphitheater",
     "datetime_iso": "2027-05-20T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "1E006547C9A1CD00",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-bonner-montana-05-19-2027/event/1E006547C9A1CD00",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/bonner-montana-kettlehouse-amphitheater-2027-05-19-8-pm/concert/18664792",
@@ -1723,14 +1723,14 @@
         "event_id": 18664792,
         "url": "https://seatgeek.com/remi-wolf-tickets/bonner-montana-kettlehouse-amphitheater-2027-05-19-8-pm/concert/18664792",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679346,
         "url": "https://www.vividseats.com/remi-wolf-tickets-bonner-kettlehouse-amphitheater-5-19-2027--concerts-pop/production/7679346",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1744,14 +1744,14 @@
         "event_id": "8315083",
         "url": "https://www.ticketnetwork.com/en/p/8315083",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315083",
         "url": "https://www.ticketliquidator.com/tickets/8315083/Remi-Wolf-tickets-Wed-May-19-2027-KettleHouse-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1786,7 +1786,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AA7kAf",
     "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/vancouver-canada-pne-forum-vancouver-2027-05-21-8-pm/concert/18664793",
-    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-vancouver-pne-forum-5-21-2027--concerts-pop/production/7679383",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7kAf",
     "last_verified_at": null,
@@ -1804,15 +1804,15 @@
         "event_id": 18664793,
         "url": "https://seatgeek.com/remi-wolf-tickets/vancouver-canada-pne-forum-vancouver-2027-05-21-8-pm/concert/18664793",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7679383,
-        "url": "https://www.vividseats.com/remi-wolf-tickets-vancouver-pne-forum-5-21-2027--concerts-pop/production/7679383",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1825,14 +1825,14 @@
         "event_id": "8315400",
         "url": "https://www.ticketnetwork.com/en/p/8315400",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315400",
         "url": "https://www.ticketliquidator.com/tickets/8315400/Remi-Wolf-tickets-Fri-May-21-2027-PNE-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1851,7 +1851,7 @@
     "country": "United States Of America",
     "venue": "WAMU Theater",
     "datetime_iso": "2027-05-23T03:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Mud Tour",
     "ticketmaster_event_id": "0F006546BCCB95AB",
     "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-seattle-washington-05-22-2027/event/0F006546BCCB95AB",
     "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/seattle-washington-wamu-theater-2027-05-22-8-pm/concert/18664798",
@@ -1873,14 +1873,14 @@
         "event_id": 18664798,
         "url": "https://seatgeek.com/remi-wolf-tickets/seattle-washington-wamu-theater-2027-05-22-8-pm/concert/18664798",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679348,
         "url": "https://www.vividseats.com/remi-wolf-tickets-seattle-wamu-theater---seattle-5-22-2027--concerts-pop/production/7679348",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1894,14 +1894,14 @@
         "event_id": "8315084",
         "url": "https://www.ticketnetwork.com/en/p/8315084",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315084",
         "url": "https://www.ticketliquidator.com/tickets/8315084/Remi-Wolf-tickets-Sat-May-22-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1922,5 +1922,304 @@
     ],
     "ticket_limit": 4,
     "genre": "Pop"
+  },
+  {
+    "id": "tm-remi-wolf-2027-washington-1a4zk4agkemriif",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "The Anthem",
+    "datetime_iso": "2027-02-25T00:30:00Z",
+    "tour_name": "The Mud Tour",
+    "ticketmaster_event_id": "15006549AE7A8A08",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-24-2027/event/15006549AE7A8A08",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/washington-district-of-columbia-the-anthem-dc-2027-02-24-7-30-pm/concert/18786076",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-washington-dc-the-anthem-2-24-2027/production/7888944",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-24-2027/event/15006549AE7A8A08",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006549AE7A8A08",
+        "discovery_event_id": "1A4Zk4aGkemrIIF",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-washington-district-of-columbia-02-24-2027/event/15006549AE7A8A08",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7888944,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-washington-dc-the-anthem-2-24-2027/production/7888944",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376396",
+        "url": "https://www.ticketnetwork.com/en/p/8376396",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8376396",
+        "url": "https://www.ticketliquidator.com/tickets/8376396/Remi-Wolf-tickets-Wed-Feb-24-2027-The-Anthem-DC",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk4aGkemrIIF",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376396",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376396/Remi-Wolf-tickets-Wed-Feb-24-2027-The-Anthem-DC"
+  },
+  {
+    "id": "tm-remi-wolf-2027-berkeley-g5vyz_pmrwpif",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf: The Mud Tour",
+    "city": "Berkeley",
+    "country": "United States Of America",
+    "venue": "Greek Theatre-U.C. Berkeley",
+    "datetime_iso": "2027-05-01T03:00:00Z",
+    "tour_name": "The Mud Tour",
+    "ticketmaster_event_id": "1C00656DDECA5A14",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-berkeley-california-04-30-2027/event/1C00656DDECA5A14",
+    "seatgeek_url": "https://seatgeek.com/remi-wolf-tickets/berkeley-california-the-greek-theatre-at-u-c-berkeley-2027-04-30-8-pm/concert/18785269",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-berkeley-greek-theatre---berkeley-4-30-2027/production/7888924",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-berkeley-california-04-30-2027/event/1C00656DDECA5A14",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656DDECA5A14",
+        "discovery_event_id": "G5vYZ_pMrwPIf",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-berkeley-california-04-30-2027/event/1C00656DDECA5A14",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7888924,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-berkeley-greek-theatre---berkeley-4-30-2027/production/7888924",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376395",
+        "url": "https://www.ticketnetwork.com/en/p/8376395",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8376395",
+        "url": "https://www.ticketliquidator.com/tickets/8376395/Remi-Wolf-tickets-Fri-Apr-30-2027-Greek-Theatre-UC-Berkeley",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pMrwPIf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376395",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376395/Remi-Wolf-tickets-Fri-Apr-30-2027-Greek-Theatre-UC-Berkeley"
+  },
+  {
+    "id": "tm-remi-wolf-2027-phoenix-1av0z_pgkubtvhv",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf - The Mud Tour With Special Guest Annabelle Dinda",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-05-04T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900656D98A746C1",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-03-2027/event/1900656D98A746C1",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-phoenix-the-van-buren-5-3-2027/production/7889380",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-03-2027/event/1900656D98A746C1",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656D98A746C1",
+        "discovery_event_id": "1Av0Z_pGkUbtVhv",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-03-2027/event/1900656D98A746C1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7889380,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-phoenix-the-van-buren-5-3-2027/production/7889380",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8376394",
+        "url": "https://www.ticketnetwork.com/en/p/8376394",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8376394",
+        "url": "https://www.ticketliquidator.com/tickets/8376394/Remi-Wolf-tickets-Mon-May-3-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkUbtVhv",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-01T05:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376394",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376394/Remi-Wolf-tickets-Mon-May-3-2027-The-Van-Buren"
+  },
+  {
+    "id": "tm-remi-wolf-2027-phoenix-1av0z_pgkubifhc",
+    "artist_slug": "remi-wolf",
+    "artist_name": "Remi Wolf",
+    "event_name": "Remi Wolf - The Mud Tour With Special Guest Annabelle Dinda",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-05-05T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900656D98B146CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-04-2027/event/1900656D98B146CE",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/remi-wolf-tickets-phoenix-the-van-buren-5-4-2027/production/7912509",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-04-2027/event/1900656D98B146CE",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656D98B146CE",
+        "discovery_event_id": "1Av0Z_pGkUbifhC",
+        "url": "https://www.ticketmaster.com/remi-wolf-the-mud-tour-with-phoenix-arizona-05-04-2027/event/1900656D98B146CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7912509,
+        "url": "https://www.vividseats.com/remi-wolf-tickets-phoenix-the-van-buren-5-4-2027/production/7912509",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8383030",
+        "url": "https://www.ticketliquidator.com/tickets/8383030/Remi-Wolf-tickets-Tue-May-4-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkUbifhC",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-05T05:00:00Z"
+      }
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8383030/Remi-Wolf-tickets-Tue-May-4-2027-The-Van-Buren"
   }
 ]

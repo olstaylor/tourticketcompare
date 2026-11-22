@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-seattle-lumen-field-5-16-2027/production/7832789",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-seattle-washington-05-16-2027/event/0F00656215B2C500",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -30,14 +30,14 @@
         "event_id": 18753034,
         "url": "https://seatgeek.com/stray-kids-tickets/seattle-washington-lumen-field-2027-05-16-7-30-pm/concert/18753034",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7832789,
         "url": "https://www.vividseats.com/stray-kids-tickets-seattle-lumen-field-5-16-2027/production/7832789",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,54 +51,33 @@
         "event_id": "8361510",
         "url": "https://www.ticketliquidator.com/tickets/8361510/Stray-Kids-tickets-Sun-May-16-2027-Lumen-Field",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361510",
         "url": "https://www.ticketnetwork.com/en/p/8361510",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680736",
         "url": "https://www.stubhub.ie/stray-kids-seattle-tickets-5-16-2027/event/107680736",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_pF4iifZ",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T23:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Packages",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-19T23:00:00Z",
@@ -122,10 +101,10 @@
     "ticketmaster_event_id": "11006565A5686179",
     "ticketmaster_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
     "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/vancouver-canada-bc-place-stadium-2027-05-19-7-30-pm/concert/18753052",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/production/7832841",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-vancouver-british-columbia-05-19-2027/event/11006565A5686179",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -140,15 +119,15 @@
         "event_id": 18753052,
         "url": "https://seatgeek.com/stray-kids-tickets/vancouver-canada-bc-place-stadium-2027-05-19-7-30-pm/concert/18753052",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7832841,
+        "url": "https://www.vividseats.com/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/production/7832841",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -161,53 +140,32 @@
         "event_id": "8361523",
         "url": "https://www.ticketliquidator.com/tickets/8361523/Stray-Kids-tickets-Wed-May-19-2027-BC-Place-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361523",
         "url": "https://www.ticketnetwork.com/en/p/8361523",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680740",
         "url": "https://www.stubhub.ie/stray-kids-tickets-vancouver-bc-place-stadium-5-19-2027/event/107680740",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4PGkePQkAy",
     "timezone": "America/Vancouver",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T22:00:00Z",
+    "status": "on-sale",
     "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-18T21:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T22:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
-        "name": "Artist Sign Up Presale",
-        "start": "2026-11-18T22:00:00Z",
-        "end": "2026-11-19T05:00:00Z"
-      },
-      {
         "name": "VIP Package Onsale",
-        "start": "2026-11-19T22:00:00Z",
+        "start": "2026-11-19T23:00:00Z",
         "end": "2027-05-15T19:00:00Z"
       }
     ],
@@ -236,7 +194,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-santa-clara-california-05-22-2027/event/1C006562B1BE9D74",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -251,7 +209,7 @@
         "event_id": 18753035,
         "url": "https://seatgeek.com/stray-kids-tickets/santa-clara-california-levi-s-stadium-2027-05-22-7-30-pm/concert/18753035",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -272,49 +230,33 @@
         "event_id": "8361511",
         "url": "https://www.ticketliquidator.com/tickets/8361511/Stray-Kids-tickets-Sat-May-22-2027-Levis-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361511",
         "url": "https://www.ticketnetwork.com/en/p/8361511",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680741",
         "url": "https://www.stubhub.ie/stray-kids-santa-clara-tickets-5-22-2027/event/107680741",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_p1sRtgV",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T23:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T23:00:00Z",
@@ -341,7 +283,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-san-diego-petco-park-5-25-2027/production/7832915",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-san-diego-california-05-25-2027/event/0A006567FA6836E7",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -356,14 +298,14 @@
         "event_id": 18753036,
         "url": "https://seatgeek.com/stray-kids-tickets/san-diego-california-petco-park-2027-05-25-7-30-pm/concert/18753036",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7832915,
         "url": "https://www.vividseats.com/stray-kids-tickets-san-diego-petco-park-5-25-2027/production/7832915",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -377,53 +319,32 @@
         "event_id": "8361512",
         "url": "https://www.ticketliquidator.com/tickets/8361512/Stray-Kids-tickets-Tue-May-25-2027-Petco-Park",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361512",
         "url": "https://www.ticketnetwork.com/en/p/8361512",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681345",
         "url": "https://www.stubhub.ie/stray-kids-san-diego-tickets-5-25-2027/event/107681345",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pLBQdhE",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T23:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T23:00:00Z",
@@ -451,7 +372,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-inglewood-sofi-stadium-5-29-2027/production/7832799",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-inglewood-california-05-29-2027/event/0A00655CEBC68D2B",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -466,14 +387,14 @@
         "event_id": 18753032,
         "url": "https://seatgeek.com/stray-kids-tickets/inglewood-california-sofi-stadium-2027-05-29-7-30-pm/concert/18753032",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7832799,
         "url": "https://www.vividseats.com/stray-kids-tickets-inglewood-sofi-stadium-5-29-2027/production/7832799",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -487,54 +408,33 @@
         "event_id": "8361513",
         "url": "https://www.ticketliquidator.com/tickets/8361513/Stray-Kids-tickets-Sat-May-29-2027-SoFi-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361513",
         "url": "https://www.ticketnetwork.com/en/p/8361513",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680300",
         "url": "https://www.stubhub.ie/stray-kids-inglewood-tickets-5-29-2027/event/107680300",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_4SlsIVl",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T23:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Packages",
-        "start": "2026-11-18T19:00:00Z",
-        "end": "2026-11-18T22:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T23:00:00Z",
-        "end": "2026-11-19T06:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-11-19T23:00:00Z",
@@ -561,7 +461,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-houston-reliant-stadium-6-5-2027/production/7832807",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-houston-texas-06-05-2027/event/3A0065657DF6A510",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -576,14 +476,14 @@
         "event_id": 18753031,
         "url": "https://seatgeek.com/stray-kids-tickets/houston-texas-reliant-stadium-2027-06-05-7-30-pm/concert/18753031",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7832807,
         "url": "https://www.vividseats.com/stray-kids-tickets-houston-reliant-stadium-6-5-2027/production/7832807",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -597,53 +497,32 @@
         "event_id": "8361515",
         "url": "https://www.ticketliquidator.com/tickets/8361515/Stray-Kids-tickets-Sat-Jun-5-2027-Reliant-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361515",
         "url": "https://www.ticketnetwork.com/en/p/8361515",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681340",
         "url": "https://www.stubhub.ie/stray-kids-houston-tickets-6-5-2027/event/107681340",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_p4WWnf8",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T21:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T21:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T21:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T21:00:00Z",
@@ -670,7 +549,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-atlanta-mercedes-benz-stadium-6-8-2027/production/7832811",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-atlanta-georgia-06-08-2027/event/0E006566C0752D44",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -685,14 +564,14 @@
         "event_id": 18753033,
         "url": "https://seatgeek.com/stray-kids-tickets/atlanta-georgia-mercedes-benz-stadium-2027-06-08-7-30-pm/concert/18753033",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7832811,
         "url": "https://www.vividseats.com/stray-kids-tickets-atlanta-mercedes-benz-stadium-6-8-2027/production/7832811",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -706,48 +585,32 @@
         "event_id": "8361516",
         "url": "https://www.ticketliquidator.com/tickets/8361516/Stray-Kids-tickets-Tue-Jun-8-2027-Mercedes-Benz-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361516",
         "url": "https://www.ticketnetwork.com/en/p/8361516",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680301",
         "url": "https://www.stubhub.ie/stray-kids-atlanta-tickets-6-8-2027/event/107680301",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_phZq3g7",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T20:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
@@ -775,7 +638,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-miami-gardens-hard-rock-stadium-6-11-2027/production/7832833",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-miami-florida-06-11-2027/event/0D006565A3BC5881",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -790,14 +653,14 @@
         "event_id": 18753043,
         "url": "https://seatgeek.com/stray-kids-tickets/miami-gardens-florida-hard-rock-stadium-2027-06-11-7-30-pm/concert/18753043",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7832833,
         "url": "https://www.vividseats.com/stray-kids-tickets-miami-gardens-hard-rock-stadium-6-11-2027/production/7832833",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -811,54 +674,33 @@
         "event_id": "8361517",
         "url": "https://www.ticketliquidator.com/tickets/8361517/Stray-Kids-tickets-Fri-Jun-11-2027-Hard-Rock-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361517",
         "url": "https://www.ticketnetwork.com/en/p/8361517",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680302",
         "url": "https://www.stubhub.ie/stray-kids-miami-gardens-tickets-6-11-2027/event/107680302",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_ppNRAxv",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T20:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Packages",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
@@ -885,7 +727,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-orlando-camping-world-stadium-6-14-2027/production/7832837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-orlando-florida-06-14-2027/event/22006564E7F05FE6",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -900,14 +742,14 @@
         "event_id": 18753045,
         "url": "https://seatgeek.com/stray-kids-tickets/orlando-florida-camping-world-stadium-2027-06-14-7-30-pm/concert/18753045",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7832837,
         "url": "https://www.vividseats.com/stray-kids-tickets-orlando-camping-world-stadium-6-14-2027/production/7832837",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -921,54 +763,33 @@
         "event_id": "8361518",
         "url": "https://www.ticketliquidator.com/tickets/8361518/Stray-Kids-tickets-Mon-Jun-14-2027-Camping-World-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361518",
         "url": "https://www.ticketnetwork.com/en/p/8361518",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680790",
         "url": "https://www.stubhub.ie/stray-kids-orlando-tickets-6-14-2027/event/107680790",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk40GkdEHATJ",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T20:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Packages",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Packages",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
@@ -995,7 +816,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-chicago-soldier-field-6-18-2027/production/7832839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-18-2027/event/04006563DBD6842E",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1010,14 +831,14 @@
         "event_id": 18753046,
         "url": "https://seatgeek.com/stray-kids-tickets/chicago-illinois-soldier-field-2027-06-18-7-30-pm/concert/18753046",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7832839,
         "url": "https://www.vividseats.com/stray-kids-tickets-chicago-soldier-field-6-18-2027/production/7832839",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1031,54 +852,33 @@
         "event_id": "8361519",
         "url": "https://www.ticketliquidator.com/tickets/8361519/Stray-Kids-tickets-Fri-Jun-18-2027-Soldier-Field",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361519",
         "url": "https://www.ticketnetwork.com/en/p/8361519",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680744",
         "url": "https://www.stubhub.ie/stray-kids-chicago-tickets-6-18-2027/event/107680744",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4NGkdhgI8m",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T21:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T21:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T21:00:00Z",
-        "end": "2026-11-19T04:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T21:00:00Z",
@@ -1102,10 +902,10 @@
     "ticketmaster_event_id": "1000655EF725EB10",
     "ticketmaster_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-toronto-ontario-06-25-2027/event/1000655EF725EB10",
     "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/toronto-canada-rogers-stadium-toronto-2027-06-25-7-30-pm/concert/18753050",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-toronto-rogers-stadium---toronto-6-25-2027--concerts-k-pop/production/7833165",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/stray-kids-world-tour-run-it-toronto-ontario-06-25-2027/event/1000655EF725EB10",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1120,15 +920,15 @@
         "event_id": 18753050,
         "url": "https://seatgeek.com/stray-kids-tickets/toronto-canada-rogers-stadium-toronto-2027-06-25-7-30-pm/concert/18753050",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7833165,
+        "url": "https://www.vividseats.com/stray-kids-tickets-toronto-rogers-stadium---toronto-6-25-2027--concerts-k-pop/production/7833165",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1140,8 +940,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_4GkDMari8",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T20:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC"
@@ -1149,26 +948,6 @@
     "ticket_limit": 4,
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
@@ -1192,7 +971,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-east-rutherford-metlife-stadium-6-29-2027/production/7832843",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-east-rutherford-new-jersey-06-29-2027/event/00006563A3F87257",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1207,14 +986,14 @@
         "event_id": 18753048,
         "url": "https://seatgeek.com/stray-kids-tickets/east-rutherford-new-jersey-metlife-stadium-2027-06-29-7-30-pm/concert/18753048",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7832843,
         "url": "https://www.vividseats.com/stray-kids-tickets-east-rutherford-metlife-stadium-6-29-2027/production/7832843",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1228,53 +1007,32 @@
         "event_id": "8361522",
         "url": "https://www.ticketliquidator.com/tickets/8361522/Stray-Kids-tickets-Tue-Jun-29-2027-MetLife-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361522",
         "url": "https://www.ticketnetwork.com/en/p/8361522",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680746",
         "url": "https://www.stubhub.ie/stray-kids-east-rutherford-tickets-6-29-2027/event/107680746",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pCNX6a9",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T20:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "genre": "Pop",
     "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "STAY Membership Presale VIP Package",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-18T19:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
-      {
-        "name": "Artist Presale VIP Package",
-        "start": "2026-11-18T20:00:00Z",
-        "end": "2026-11-19T03:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-11-19T20:00:00Z",
@@ -1301,7 +1059,7 @@
     "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-munich-allianz-arena-7-17-2027--concerts-k-pop/production/7833169",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/240279338?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1323,7 +1081,7 @@
         "event_id": 7833169,
         "url": "https://www.vividseats.com/stray-kids-tickets-munich-allianz-arena-7-17-2027--concerts-k-pop/production/7833169",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1332,28 +1090,23 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680796",
+        "url": "https://www.stubhub.ie/stray-kids-tickets-munich-allianz-arena-17-7-2027/event/107680796",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kaZayGz",
     "timezone": "Europe/Berlin",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T14:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation GmbH"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T14:00:00Z",
-        "end": "2026-11-18T21:00:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-munich-allianz-arena-17-7-2027/event/107680796"
   },
   {
     "id": "tm-stray-kids-2027-vienna-z698xz5rz16vofpore",
@@ -1371,7 +1124,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.at/event/stray-kids-world-tour-run-it-vienna-tickets/1808951782?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1406,24 +1159,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ16vOFPore",
     "timezone": "Europe/Vienna",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T14:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation Austria GmbH"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T14:00:00Z",
-        "end": "2026-11-18T21:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-stray-kids-2027-barcelona-z698xz2qz16vod48ea",
@@ -1438,10 +1178,10 @@
     "ticketmaster_event_id": "1803550089",
     "ticketmaster_url": "https://www.ticketmaster.es/event/stray-kids-world-tour-run-it-barcelona-tickets/1803550089?language=en-us",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-barcelona-estadi-olimpic-lluis-companys-7-24-2027--concerts-k-pop/production/7882337",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/stray-kids-world-tour-run-it-barcelona-tickets/1803550089?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1460,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7882337,
+        "url": "https://www.vividseats.com/stray-kids-tickets-barcelona-estadi-olimpic-lluis-companys-7-24-2027--concerts-k-pop/production/7882337",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1476,24 +1216,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vOd48ea",
     "timezone": "Europe/Madrid",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T14:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation España Live For Fun, SL"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T14:00:00Z",
-        "end": "2026-11-18T21:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-stray-kids-2027-arnhem-z698xzbpz1k4kc30n",
@@ -1511,7 +1238,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/553392923?language=en-us",
-    "last_verified_at": "2026-11-10",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1542,27 +1269,417 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680798",
+        "url": "https://www.stubhub.ie/stray-kids-tickets-arnhem-gelredome-27-7-2027/event/107680798",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8381438",
+        "url": "https://www.ticketnetwork.com/en/p/8381438",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381438",
+        "url": "https://www.ticketliquidator.com/tickets/8381438/Stray-Kids-tickets-Tue-Jul-27-2027-Gelredome",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k4KC30N",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-11-19T14:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Mojo Concerts"
     ],
     "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-arnhem-gelredome-27-7-2027/event/107680798",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381438",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381438/Stray-Kids-tickets-Tue-Jul-27-2027-Gelredome"
+  },
+  {
+    "id": "tm-stray-kids-2027-chicago-vv167zk4yjazaue56a",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT CHICAGO]",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-06-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006570705C1A68",
+    "ticketmaster_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-19-2027/event/04006570705C1A68",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/chicago-illinois-soldier-field-2027-06-19-7-30-pm/concert/18792968",
+    "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-chicago-soldier-field-6-19-2027--concerts-k-pop/production/7901423",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-19-2027/event/04006570705C1A68",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006570705C1A68",
+        "discovery_event_id": "vv167Zk4YjAZAue56a",
+        "url": "https://www.ticketmaster.com/stray-kids-world-tour-run-it-chicago-illinois-06-19-2027/event/04006570705C1A68",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7901423,
+        "url": "https://www.vividseats.com/stray-kids-tickets-chicago-soldier-field-6-19-2027--concerts-k-pop/production/7901423",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381019",
+        "url": "https://www.ticketnetwork.com/en/p/8381019",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381019",
+        "url": "https://www.ticketliquidator.com/tickets/8381019/Stray-Kids-tickets-Sat-Jun-19-2027-Soldier-Field",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683978",
+        "url": "https://www.stubhub.ie/stray-kids-chicago-tickets-6-19-2027/event/107683978",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv167Zk4YjAZAue56a",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
     "presales": [
       {
-        "name": "STAY Membership Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-18T13:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T14:00:00Z",
-        "end": "2026-11-18T21:00:00Z"
+        "name": "VIP Package Onsale",
+        "start": "2026-11-19T21:00:00Z",
+        "end": "2027-06-15T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381019",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381019/Stray-Kids-tickets-Sat-Jun-19-2027-Soldier-Field",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-chicago-tickets-6-19-2027/event/107683978"
+  },
+  {
+    "id": "tm-stray-kids-2027-munich-z698xzc2z1kb0z0om",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT MUNICH]",
+    "city": "Munich",
+    "country": "Germany",
+    "venue": "Allianz Arena",
+    "datetime_iso": "2027-07-18T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "624024837",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/624024837?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/stray-kids-tickets-munich-allianz-arena-7-18-2027/production/7902386",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/624024837?language=en-us",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "624024837",
+        "discovery_event_id": "Z698xZC2Z1kb0Z0OM",
+        "url": "https://www.ticketmaster.de/event/stray-kids-world-tour-run-it-munich-tickets/624024837?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7902386,
+        "url": "https://www.vividseats.com/stray-kids-tickets-munich-allianz-arena-7-18-2027/production/7902386",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683938",
+        "url": "https://www.stubhub.ie/stray-kids-tickets-munich-allianz-arena-18-7-2027/event/107683938",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1kb0Z0OM",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation GmbH"
+    ],
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-munich-allianz-arena-18-7-2027/event/107683938"
+  },
+  {
+    "id": "tm-stray-kids-2027-arnhem-z698xzbpz16vp04wpo",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT ARNHEM]",
+    "city": "Arnhem",
+    "country": "Netherlands",
+    "venue": "Gelredome",
+    "datetime_iso": "2027-07-28T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1964572591",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/1964572591?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/1964572591?language=en-us",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1964572591",
+        "discovery_event_id": "Z698xZbpZ16vP04wpo",
+        "url": "https://www.ticketmaster.nl/event/stray-kids-world-tour-run-it-arnhem-tickets/1964572591?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381439",
+        "url": "https://www.ticketnetwork.com/en/p/8381439",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381439",
+        "url": "https://www.ticketliquidator.com/tickets/8381439/Stray-Kids-tickets-Wed-Jul-28-2027-Gelredome",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682916",
+        "url": "https://www.stubhub.ie/stray-kids-tickets-arnhem-gelredome-28-7-2027/event/107682916",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16vP04wpo",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381439",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381439/Stray-Kids-tickets-Wed-Jul-28-2027-Gelredome",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-arnhem-gelredome-28-7-2027/event/107682916"
+  },
+  {
+    "id": "tm-stray-kids-2027-arlington-z7r9jz1aaaapu",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT ARLINGTON]",
+    "city": "Arlington",
+    "country": "United States Of America",
+    "venue": "AT&T Stadium",
+    "datetime_iso": "2027-06-04T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAAPU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/arlington-texas-at-t-stadium-2027-06-03-7-30-pm/concert/18633460",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAAPU",
+        "discovery_event_id": "Z7r9jZ1AAAAPU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18633460,
+        "url": "https://seatgeek.com/stray-kids-tickets/arlington-texas-at-t-stadium-2027-06-03-7-30-pm/concert/18633460",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361514",
+        "url": "https://www.ticketliquidator.com/tickets/8361514/Stray-Kids-tickets-Thu-Jun-3-2027-ATT-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680743",
+        "url": "https://www.stubhub.ie/stray-kids-arlington-tickets-6-3-2027/event/107680743",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAAPU",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361514/Stray-Kids-tickets-Thu-Jun-3-2027-ATT-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-arlington-tickets-6-3-2027/event/107680743"
+  },
+  {
+    "id": "tm-stray-kids-2027-baltimore-z7r9jz1aaaapm",
+    "artist_slug": "stray-kids",
+    "artist_name": "Stray Kids",
+    "event_name": "Stray Kids World Tour [RUN IT BALTIMORE]",
+    "city": "Baltimore",
+    "country": "United States Of America",
+    "venue": "M&T Bank Stadium",
+    "datetime_iso": "2027-06-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAAPM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/baltimore-maryland-m-t-bank-stadium-2027-06-22-7-30-pm/concert/18731347",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAAPM",
+        "discovery_event_id": "Z7r9jZ1AAAAPM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18731347,
+        "url": "https://seatgeek.com/stray-kids-tickets/baltimore-maryland-m-t-bank-stadium-2027-06-22-7-30-pm/concert/18731347",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361521",
+        "url": "https://www.ticketliquidator.com/tickets/8361521/Stray-Kids-tickets-Tue-Jun-22-2027-MT-Bank-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681344",
+        "url": "https://www.stubhub.ie/stray-kids-baltimore-tickets-6-22-2027/event/107681344",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAAPM",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361521/Stray-Kids-tickets-Tue-Jun-22-2027-MT-Bank-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-baltimore-tickets-6-22-2027/event/107681344"
   }
 ]

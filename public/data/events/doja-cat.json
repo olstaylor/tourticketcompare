@@ -1612,7 +1612,7 @@
     "tour_name": "Tour Ma Vie World Tour",
     "ticketmaster_event_id": "0E00633AC24B633B",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
-    "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/atlanta-georgia-state-farm-arena-1-2026-11-17-7-30-pm/concert/17769342",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-atlanta-state-farm-arena-11-17-2026--concerts-rap-hip-hop/production/6091572",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-atlanta-georgia-11-17-2026/event/0E00633AC24B633B",
@@ -1628,11 +1628,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 17769342,
-        "url": "https://seatgeek.com/doja-cat-tickets/atlanta-georgia-state-farm-arena-1-2026-11-17-7-30-pm/concert/17769342",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 6091572,
@@ -1649,33 +1649,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457487",
-        "url": "https://www.ticketnetwork.com/en/p/7457487",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107202114",
-        "url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457487",
-        "url": "https://www.ticketliquidator.com/tickets/7457487/Doja-Cat-tickets-Tue-Nov-17-2026-State-Farm-Arena-GA",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbSle3UGD",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457487",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-atlanta-tickets-11-17-2026/event/107202114",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457487/Doja-Cat-tickets-Tue-Nov-17-2026-State-Farm-Arena-GA",
+    "ticketnetwork_url": "",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1719,7 +1719,7 @@
         "event_id": 6091576,
         "url": "https://www.vividseats.com/doja-cat-tickets-charlotte-spectrum-center-11-18-2026--concerts-rap-hip-hop/production/6091576",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1730,33 +1730,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7457650",
-        "url": "https://www.ticketnetwork.com/en/p/7457650",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107202115",
-        "url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457650",
-        "url": "https://www.ticketliquidator.com/tickets/7457650/Doja-Cat-tickets-Wed-Nov-18-2026-Spectrum-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZbSEmDaLV",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457650",
-    "stubhub_international_url": "https://www.stubhub.ie/doja-cat-charlotte-tickets-11-18-2026/event/107202115",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457650/Doja-Cat-tickets-Wed-Nov-18-2026-Spectrum-Center",
+    "ticketnetwork_url": "",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1775,7 +1775,7 @@
     "ticketmaster_event_id": "1500633A88BC22BE",
     "ticketmaster_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-baltimore-maryland-11-20-2026/event/1500633A88BC22BE",
     "seatgeek_url": "https://seatgeek.com/doja-cat-tickets/baltimore-maryland-cfg-bank-arena-2026-11-20-7-30-pm/concert/17769349",
-    "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-baltimore-maryland-11-20-2026/event/1500633A88BC22BE",
     "last_verified_at": "2026-11-17",
@@ -1793,15 +1793,15 @@
         "event_id": 17769349,
         "url": "https://seatgeek.com/doja-cat-tickets/baltimore-maryland-cfg-bank-arena-2026-11-20-7-30-pm/concert/17769349",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6091577,
-        "url": "https://www.vividseats.com/doja-cat-tickets-baltimore-cfg-bank-arena-11-20-2026--concerts-rap-hip-hop/production/6091577",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1814,22 +1814,22 @@
         "event_id": "7457652",
         "url": "https://www.ticketnetwork.com/en/p/7457652",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7457652",
-        "url": "https://www.ticketliquidator.com/tickets/7457652/Doja-Cat-tickets-Fri-Nov-20-2026-CFG-Bank-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZbSGknFRe1X",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457652",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457652/Doja-Cat-tickets-Fri-Nov-20-2026-CFG-Bank-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1866,14 +1866,14 @@
         "event_id": 17769348,
         "url": "https://seatgeek.com/doja-cat-tickets/washington-district-of-columbia-capital-one-arena-2026-11-21-7-30-pm/concert/17769348",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091579,
         "url": "https://www.vividseats.com/doja-cat-tickets-washington-capital-one-arena-11-21-2026--concerts-rap-hip-hop/production/6091579",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1887,21 +1887,21 @@
         "event_id": "7457653",
         "url": "https://www.ticketnetwork.com/en/p/7457653",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "106969162",
         "url": "https://www.stubhub.ie/doja-cat-washington-tickets-11-21-2026/event/106969162",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7457653",
         "url": "https://www.ticketliquidator.com/tickets/7457653/Doja-Cat-tickets-Sat-Nov-21-2026-Capital-One-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1933,7 +1933,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-boston-td-garden-11-23-2026--concerts-rap-hip-hop/production/6091580",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/doja-cat-tour-ma-vie-world-boston-massachusetts-11-23-2026/event/0100633917079EE3",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1948,14 +1948,14 @@
         "event_id": 17769352,
         "url": "https://seatgeek.com/doja-cat-tickets/boston-massachusetts-td-garden-2026-11-23-7-30-pm/concert/17769352",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091580,
         "url": "https://www.vividseats.com/doja-cat-tickets-boston-td-garden-11-23-2026--concerts-rap-hip-hop/production/6091580",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1969,21 +1969,21 @@
         "event_id": "7457655",
         "url": "https://www.ticketnetwork.com/en/p/7457655",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "106969161",
         "url": "https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7457655",
         "url": "https://www.ticketliquidator.com/tickets/7457655/Doja-Cat-tickets-Mon-Nov-23-2026-TD-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1993,13 +1993,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457655",
     "stubhub_international_url": "https://www.stubhub.ie/doja-cat-boston-tickets-11-23-2026/event/106969161",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457655/Doja-Cat-tickets-Mon-Nov-23-2026-TD-Garden",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-10-10T14:00:00Z",
-        "end": "2026-11-19T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2021,7 +2014,7 @@
     "vividseats_url": "https://www.vividseats.com/doja-cat-tickets-toronto-scotiabank-arena-11-25-2026--concerts-rap-hip-hop/production/6091757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-toronto-ontario-11-25-2026/event/100063398CD0266D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2036,14 +2029,14 @@
         "event_id": 17769355,
         "url": "https://seatgeek.com/doja-cat-tickets/toronto-canada-scotiabank-arena-2026-11-25-7-30-pm/concert/17769355",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091757,
         "url": "https://www.vividseats.com/doja-cat-tickets-toronto-scotiabank-arena-11-25-2026--concerts-rap-hip-hop/production/6091757",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2057,13 +2050,6 @@
     "ticketmaster_discovery_event_id": "1k7ZvNCbGAGVe_c",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2025-10-10T14:00:00Z",
-        "end": "2026-11-21T17:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION CANADA (LN)",
       "LIVE NATION MUSIC",
@@ -2104,7 +2090,7 @@
         "event_id": 17769357,
         "url": "https://seatgeek.com/doja-cat-tickets/montreal-canada-centre-bell-2026-11-27-7-30-pm/concert/17769357",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2125,14 +2111,14 @@
         "event_id": "7457664",
         "url": "https://www.ticketnetwork.com/en/p/7457664",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7457664",
         "url": "https://www.ticketliquidator.com/tickets/7457664/Doja-Cat-tickets-Fri-Nov-27-2026-Centre-Bell",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2197,14 +2183,14 @@
         "event_id": 17769353,
         "url": "https://seatgeek.com/doja-cat-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-29-7-30-pm/concert/17769353",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091581,
         "url": "https://www.vividseats.com/doja-cat-tickets-philadelphia-xfinity-mobile-arena-11-29-2026--concerts-rap-hip-hop/production/6091581",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2218,21 +2204,21 @@
         "event_id": "7457657",
         "url": "https://www.ticketnetwork.com/en/p/7457657",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "106972096",
         "url": "https://www.stubhub.ie/doja-cat-philadelphia-tickets-11-29-2026/event/106972096",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7457657",
         "url": "https://www.ticketliquidator.com/tickets/7457657/Doja-Cat-tickets-Sun-Nov-29-2026-Xfinity-Mobile-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2286,14 +2272,14 @@
         "event_id": 17769298,
         "url": "https://seatgeek.com/doja-cat-tickets/new-york-new-york-madison-square-garden-2026-12-01-7-30-pm/concert/17769298",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6091583,
         "url": "https://www.vividseats.com/doja-cat-tickets-new-york-madison-square-garden-12-1-2026--concerts-rap-hip-hop/production/6091583",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2307,21 +2293,21 @@
         "event_id": "7457486",
         "url": "https://www.ticketnetwork.com/en/p/7457486",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "106969160",
         "url": "https://www.stubhub.ie/doja-cat-new-york-tickets-12-1-2026/event/106969160",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7457486",
         "url": "https://www.ticketliquidator.com/tickets/7457486/Doja-Cat-tickets-Tue-Dec-1-2026-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },

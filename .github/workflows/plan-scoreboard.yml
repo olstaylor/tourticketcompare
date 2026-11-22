@@ -6,7 +6,8 @@ name: Plan scoreboard
 # rolling `automation:plan-scoreboard` issue.
 #
 # Read-only on D1 (SELECTs only) and on the repository; its only write is that
-# one issue. Monday 07:20 UTC, after the week it reports has closed.
+# one issue. Also reads Impact actions (read-only) and failed workflow runs
+# (actions: read). Monday 07:20 UTC, after the week it reports has closed.
 
 on:
   schedule:
@@ -16,6 +17,7 @@ on:
 permissions:
   contents: read
   issues: write
+  actions: read
 
 concurrency:
   group: plan-scoreboard
@@ -44,6 +46,15 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID || secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
+          IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN || secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
+          IMPACT_SEATGEEK_CAMPAIGN_ID: ${{ secrets.IMPACT_SEATGEEK_CAMPAIGN_ID }}
+          IMPACT_SEATGEEK_PROGRAM_ID: ${{ secrets.IMPACT_SEATGEEK_PROGRAM_ID }}
+          IMPACT_VIVIDSEATS_CAMPAIGN_ID: ${{ secrets.IMPACT_VIVIDSEATS_CAMPAIGN_ID }}
+          IMPACT_VIVIDSEATS_PROGRAM_ID: ${{ secrets.IMPACT_VIVIDSEATS_PROGRAM_ID }}
+          IMPACT_TICKETNETWORK_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETNETWORK_CAMPAIGN_ID }}
+          IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID }}
+          IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/report-plan-scoreboard.mjs --issue --markdown "$RUNNER_TEMP/scoreboard.md"

@@ -26,4 +26,5 @@
 .ttc-hd__right:has(.ttc-hd__search:empty){display:none}
 .ttc-ft{background:#f2f0ea;padding:40px 0}
 .cookie-consent__button{min-height:44px;padding:10px 20px}
+@media(max-width:620px){.cookie-consent__button{padding:8px 12px}}
 @media(max-width:620px){.ttc-hd__in{height:64px}}

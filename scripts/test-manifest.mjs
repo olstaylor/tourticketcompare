@@ -14,13 +14,17 @@
 // Steps run in listed order and stop at the first failure, matching the `&&`
 // chains this replaced. Steps sharing a `parallel` tag are the exception: these
 // read-only site crawls run side by side at the position of the first one, and
-// the lane waits for all of them before moving on. Run one step on its own with:
+// the lane waits for all of them before moving on. A step with `needs` starts
+// when that step in the same group has finished (the three audits that read the
+// route render cache wait for crawl:prewarm; schema:validate renders on its own
+// and runs alongside it). Run one step on its own with:
 //   npm run test:units -- --only blog
 
 export const STEPS = [
   { id: "test:reading-layout", lane: "quick", run: "node scripts/reading-layout.test.mjs" },
   { id: "test:event-metadata", lane: "units", run: "node scripts/event-metadata.test.mjs" },
   { id: "automation:identity:self-test", lane: "units", run: "node scripts/configure-automation-identity.mjs --self-test" },
+  { id: "render-cache:self-test", lane: "units", run: "node scripts/render-cache.test.mjs" },
   { id: "docs:check",                             lane: "quick",  run: "npm run docs:check" },
   { id: "schema:properties:self-test",            lane: "units",  run: "node scripts/schema-properties.test.mjs" },
   { id: "test:price-timing",                       lane: "units",  run: "npm run test:price-timing" },
@@ -62,6 +66,7 @@ export const STEPS = [
   { id: "prices:event-dates:backfill:self-test",  lane: "units",  run: "npm run prices:event-dates:backfill:self-test" },
   { id: "prices:freshness:self-test",             lane: "units",  run: "node scripts/check-price-snapshot-freshness.mjs --self-test" },
   { id: "automation:health:self-test",            lane: "units",  run: "npm run automation:health:self-test" },
+  { id: "audit-window:self-test",                 lane: "units",  run: "node scripts/audit-window-status.mjs --self-test" },
   { id: "pr-validation-heads:self-test",          lane: "units",  run: "node scripts/check-pr-validation-heads.mjs --self-test" },
   { id: "generated:freshness:self-test",         lane: "units",  run: "npm run generated:freshness:self-test" },
   { id: "queue:materialize:self-test",           lane: "units",  run: "npm run queue:materialize:self-test" },
@@ -75,12 +80,13 @@ export const STEPS = [
   { id: "validate:artist-providers",              lane: "quick",  run: "npm run validate:artist-providers" },
   { id: "validate:cta-provider-state",            lane: "quick",  run: "npm run validate:cta-provider-state" },
   { id: "validate:provider-allowlists",           lane: "quick",  run: "npm run validate:provider-allowlists" },
-  { id: "validate:internal-links",                lane: "quick",  run: "npm run validate:internal-links", parallel: "crawl" },
+  { id: "crawl:prewarm",                          lane: "quick",  run: "node scripts/prewarm-route-cache.mjs", parallel: "crawl" },
+  { id: "validate:internal-links",                lane: "quick",  run: "npm run validate:internal-links", parallel: "crawl", needs: "crawl:prewarm" },
   { id: "audit:indexable-surface:self-test",      lane: "units",  run: "npm run audit:indexable-surface:self-test" },
-  { id: "audit:indexable-surface:check",          lane: "quick",  run: "npm run audit:indexable-surface:check", parallel: "crawl" },
+  { id: "audit:indexable-surface:check",          lane: "quick",  run: "npm run audit:indexable-surface:check", parallel: "crawl", needs: "crawl:prewarm" },
   // Units, not quick: a full render of every indexable and event page (~100s)
   // would more than double the pre-commit lane. test:mvp and CI still run it.
-  { id: "audit:metadata-accuracy:check",          lane: "units",  run: "npm run audit:metadata-accuracy:check", parallel: "crawl" },
+  { id: "audit:metadata-accuracy:check",          lane: "units",  run: "npm run audit:metadata-accuracy:check", parallel: "crawl", needs: "crawl:prewarm" },
   { id: "test:artist-content",                    lane: "quick",  run: "npm run test:artist-content" },
   { id: "test:artist-presentation",               lane: "quick",  run: "npm run test:artist-presentation" },
   { id: "test:artist-cities",                     lane: "quick",  run: "npm run test:artist-cities" },
@@ -89,6 +95,7 @@ export const STEPS = [
   { id: "test:price-notes",                       lane: "quick",  run: "npm run test:price-notes" },
   { id: "test:price-disclosure-fields",            lane: "quick",  run: "npm run test:price-disclosure-fields" },
   { id: "test:price-wording",                     lane: "quick",  run: "npm run test:price-wording" },
+  { id: "test:provider-order",                    lane: "quick",  run: "npm run test:provider-order" },
   { id: "test:upcoming-shows",                    lane: "quick",  run: "npm run test:upcoming-shows" },
   { id: "test:selling-soon",                      lane: "quick",  run: "npm run test:selling-soon" },
   { id: "test:embed",                             lane: "quick",  run: "npm run test:embed" },
@@ -99,6 +106,7 @@ export const STEPS = [
   { id: "test:location-pages",                    lane: "quick",  run: "npm run test:location-pages" },
   { id: "test:onsale-calendar",                   lane: "quick",  run: "npm run test:onsale-calendar" },
   { id: "test:this-week",                         lane: "quick",  run: "npm run test:this-week" },
+  { id: "test:playing-soon",                      lane: "quick",  run: "npm run test:playing-soon" },
   { id: "test:tours-hub",                         lane: "quick",  run: "npm run test:tours-hub" },
   { id: "test:rumoured-tours",                    lane: "quick",  run: "npm run test:rumoured-tours" },
   { id: "test:worth-waiting",                     lane: "quick",  run: "npm run test:worth-waiting" },

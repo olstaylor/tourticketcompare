@@ -147,7 +147,7 @@
     "country": "United States Of America",
     "venue": "Oakland Arena",
     "datetime_iso": "2026-12-20T04:00:00Z",
-    "tour_name": "",
+    "tour_name": "THE GENTLEMEN'S CLUB TOUR",
     "ticketmaster_event_id": "1C0064D3DF3BB079",
     "ticketmaster_url": "https://www.ticketmaster.com/yg-the-gentlemens-club-tour-oakland-california-12-19-2026/event/1C0064D3DF3BB079",
     "seatgeek_url": "https://seatgeek.com/yg-tickets/oakland-california-oakland-arena-2026-12-19-8-pm/concert/18327961",
@@ -169,7 +169,7 @@
         "event_id": 18327961,
         "url": "https://seatgeek.com/yg-tickets/oakland-california-oakland-arena-2026-12-19-8-pm/concert/18327961",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -190,14 +190,14 @@
         "event_id": "8075219",
         "url": "https://www.ticketnetwork.com/en/p/8075219",
         "verified": true,
-        "last_verified_at": "2026-11-03",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8075219",
         "url": "https://www.ticketliquidator.com/tickets/8075219/YG-tickets-Sat-Dec-19-2026-Oakland-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },

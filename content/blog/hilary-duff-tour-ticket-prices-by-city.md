@@ -1,10 +1,10 @@
 ---
 title: "Hilary Duff tour tickets: listed prices city by city"
 seo_title: "Hilary Duff tour ticket prices by city"
-description: "Hilary Duff tour: the next date in 19 cities, $63.25 in Tulsa at the low end, $207 in Uncasville at the high end."
-summary: "TicketNetwork's lowest listed price for the next Hilary Duff date in each of 19 cities, each figure with the time it was captured. Snapshots 17 November 2026."
+description: "Hilary Duff tour: the next date in 19 cities, $71.30 in Sunrise at the low end, $299 in Uncasville at the high end."
+summary: "TicketNetwork's lowest listed price for the next Hilary Duff date in each of 19 cities, each figure with the time it was captured. Snapshots 21 November 2026."
 date: 2026-10-26
-updated: 2026-11-17
+updated: 2026-11-21
 status: published
 tags:
   - tour-data
@@ -14,58 +14,57 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-Hilary Duff's the lucky me tour has 37 dates that TourTicketCompare tracks. In the United States, 19 cities had a recent listed price on TicketNetwork. The next date in Tulsa was listed at $63.25 at the low end, and the next date in Uncasville at $207 at the high end, 3.2 times as much. The median city was listed at $96.60.
+Hilary Duff's the lucky me tour has 37 dates that TourTicketCompare tracks. In the United States, 19 cities had a recent listed price on TicketNetwork. The next date in Sunrise was listed at $71.30 at the low end, and the next date in Uncasville at $299 at the high end, 4.1 times as much. The median city was listed at $97.75.
 
 ## Hilary Duff ticket prices by city
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Tulsa](/artists/hilary-duff/tickets/tulsa-united-states) | 8 November 2027 | BOK Center | $63.25 | TicketNetwork | 17 November, 04:34 UTC |
-| [Pittsburgh](/artists/hilary-duff/tickets/pittsburgh-united-states) | 16 October 2027 | PPG Paints Arena | $75.90 | TicketNetwork | 17 November, 04:31 UTC |
-| [San Antonio](/artists/hilary-duff/tickets/san-antonio-united-states) | 5 November 2027 | Frost Bank Center | $77.05 | TicketNetwork | 17 November, 04:31 UTC |
-| [Cleveland](/artists/hilary-duff/tickets/cleveland-united-states) | 13 October 2027 | Rocket Arena | $82.80 | TicketNetwork | 17 November, 14:27 UTC |
-| [Baltimore](/artists/hilary-duff/tickets/baltimore-united-states) | 6 October 2027 | CFG Bank Arena | $83.95 | TicketNetwork | 17 November, 04:31 UTC |
-| [Columbus](/artists/hilary-duff/tickets/columbus-united-states) | 15 October 2027 | Schottenstein Center | $90.85 | TicketNetwork | 17 November, 04:31 UTC |
-| [Sunrise](/artists/hilary-duff/tickets/sunrise-united-states) | 1 October 2027 | Amerant Bank Arena | $93.15 | TicketNetwork | 17 November, 14:27 UTC |
-| [Buffalo](/artists/hilary-duff/tickets/buffalo-united-states) | 11 October 2027 | KeyBank Center | $94.30 | TicketNetwork | 17 November, 04:31 UTC |
-| [Milwaukee](/artists/hilary-duff/tickets/milwaukee-united-states) | 12 November 2027 | Fiserv Forum | $94.30 | TicketNetwork | 17 November, 04:34 UTC |
-| [Orlando](/artists/hilary-duff/tickets/orlando-united-states) | 2 October 2027 | Kia Center | $96.60 | TicketNetwork | 17 November, 04:31 UTC |
-| [Raleigh](/artists/hilary-duff/tickets/raleigh-united-states) | 4 October 2027 | Lenovo Center | $96.60 | TicketNetwork | 17 November, 04:31 UTC |
-| [Omaha](/artists/hilary-duff/tickets/omaha-united-states) | 10 November 2027 | CHI Health Center Omaha | $97.75 | TicketNetwork | 17 November, 04:34 UTC |
-| [Anaheim](/artists/hilary-duff/tickets/anaheim-united-states) | 20 November 2027 | Honda Center | $98.90 | TicketNetwork | 17 November, 04:34 UTC |
-| [Denver](/artists/hilary-duff/tickets/denver-united-states) | 17 November 2027 | Ball Arena | $101.20 | TicketNetwork | 17 November, 04:34 UTC |
-| [Des Moines](/artists/hilary-duff/tickets/des-moines-united-states) | 14 November 2027 | Casey's Center | $111.55 | TicketNetwork | 17 November, 14:27 UTC |
-| [Kansas City](/artists/hilary-duff/tickets/kansas-city-united-states) | 15 November 2027 | T-Mobile Center | $111.55 | TicketNetwork | 17 November, 04:34 UTC |
-| [Fort Worth](/artists/hilary-duff/tickets/fort-worth-united-states) | 6 November 2027 | Ariat Arena | $126.50 | TicketNetwork | 17 November, 04:34 UTC |
-| [Hershey](/artists/hilary-duff/tickets/hershey-united-states) | 9 October 2027 | GIANT Center | $162.15 | TicketNetwork | 17 November, 04:31 UTC |
-| [Uncasville](/artists/hilary-duff/tickets/uncasville-united-states) | 8 October 2027 | Mohegan Sun Arena | $207 | TicketNetwork | 17 November, 04:31 UTC |
+| [Sunrise](/artists/hilary-duff/tickets/sunrise-united-states) | 1 October 2027 | Amerant Bank Arena | $71.30 | TicketNetwork | 21 November, 17:59 UTC |
+| [Cleveland](/artists/hilary-duff/tickets/cleveland-united-states) | 13 October 2027 | Rocket Arena | $73.60 | TicketNetwork | 21 November, 17:59 UTC |
+| [Pittsburgh](/artists/hilary-duff/tickets/pittsburgh-united-states) | 16 October 2027 | PPG Paints Arena | $75.90 | TicketNetwork | 21 November, 17:58 UTC |
+| [San Antonio](/artists/hilary-duff/tickets/san-antonio-united-states) | 5 November 2027 | Frost Bank Center | $79.35 | TicketNetwork | 21 November, 17:58 UTC |
+| [Baltimore](/artists/hilary-duff/tickets/baltimore-united-states) | 6 October 2027 | CFG Bank Arena | $83.95 | TicketNetwork | 21 November, 17:58 UTC |
+| [Columbus](/artists/hilary-duff/tickets/columbus-united-states) | 15 October 2027 | Schottenstein Center | $90.85 | TicketNetwork | 21 November, 17:58 UTC |
+| [Milwaukee](/artists/hilary-duff/tickets/milwaukee-united-states) | 12 November 2027 | Fiserv Forum | $94.30 | TicketNetwork | 21 November, 17:58 UTC |
+| [Anaheim](/artists/hilary-duff/tickets/anaheim-united-states) | 20 November 2027 | Honda Center | $96.60 | TicketNetwork | 21 November, 17:58 UTC |
+| [Buffalo](/artists/hilary-duff/tickets/buffalo-united-states) | 11 October 2027 | KeyBank Center | $96.60 | TicketNetwork | 21 November, 17:58 UTC |
+| [Orlando](/artists/hilary-duff/tickets/orlando-united-states) | 2 October 2027 | Kia Center | $97.75 | TicketNetwork | 21 November, 17:58 UTC |
+| [Tulsa](/artists/hilary-duff/tickets/tulsa-united-states) | 8 November 2027 | BOK Center | $100.05 | TicketNetwork | 21 November, 17:58 UTC |
+| [Denver](/artists/hilary-duff/tickets/denver-united-states) | 17 November 2027 | Ball Arena | $101.20 | TicketNetwork | 21 November, 17:58 UTC |
+| [Raleigh](/artists/hilary-duff/tickets/raleigh-united-states) | 4 October 2027 | Lenovo Center | $104.65 | TicketNetwork | 21 November, 17:58 UTC |
+| [Des Moines](/artists/hilary-duff/tickets/des-moines-united-states) | 14 November 2027 | Casey's Center | $109.25 | TicketNetwork | 21 November, 17:59 UTC |
+| [Kansas City](/artists/hilary-duff/tickets/kansas-city-united-states) | 15 November 2027 | T-Mobile Center | $111.55 | TicketNetwork | 21 November, 17:58 UTC |
+| [Omaha](/artists/hilary-duff/tickets/omaha-united-states) | 10 November 2027 | CHI Health Center Omaha | $113.85 | TicketNetwork | 21 November, 17:58 UTC |
+| [Fort Worth](/artists/hilary-duff/tickets/fort-worth-united-states) | 6 November 2027 | Ariat Arena | $116.15 | TicketNetwork | 21 November, 17:58 UTC |
+| [Hershey](/artists/hilary-duff/tickets/hershey-united-states) | 9 October 2027 | GIANT Center | $162.15 | TicketNetwork | 21 November, 17:58 UTC |
+| [Uncasville](/artists/hilary-duff/tickets/uncasville-united-states) | 8 October 2027 | Mohegan Sun Arena | $299 | TicketNetwork | 21 November, 17:58 UTC |
 
 Each figure is the lowest listed price on TicketNetwork for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
 ## StubHub International, same cities (not ranked)
 
-StubHub International also had a recent listed price for the next date in 18 of these cities. They are set out below by date, not ranked, and are not netted against the table above: the two sites list different tickets, so a gap between them says nothing about which is better value.
+StubHub International also had a recent listed price for the next date in 17 of these cities. They are set out below by date, not ranked, and are not netted against the table above: the two sites list different tickets, so a gap between them says nothing about which is better value.
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Sunrise](/artists/hilary-duff/tickets/sunrise-united-states) | 1 October 2027 | Amerant Bank Arena | $63.12 | StubHub International | 17 November, 14:30 UTC |
-| [Orlando](/artists/hilary-duff/tickets/orlando-united-states) | 2 October 2027 | Kia Center | $67.12 | StubHub International | 17 November, 14:29 UTC |
-| [Raleigh](/artists/hilary-duff/tickets/raleigh-united-states) | 4 October 2027 | Lenovo Center | $74.64 | StubHub International | 17 November, 14:29 UTC |
-| [Baltimore](/artists/hilary-duff/tickets/baltimore-united-states) | 6 October 2027 | CFG Bank Arena | $73.27 | StubHub International | 17 November, 14:29 UTC |
-| [Uncasville](/artists/hilary-duff/tickets/uncasville-united-states) | 8 October 2027 | Mohegan Sun Arena | $201.33 | StubHub International | 17 November, 14:29 UTC |
-| [Hershey](/artists/hilary-duff/tickets/hershey-united-states) | 9 October 2027 | GIANT Center | $116 | StubHub International | 17 November, 14:29 UTC |
-| [Buffalo](/artists/hilary-duff/tickets/buffalo-united-states) | 11 October 2027 | KeyBank Center | $63.79 | StubHub International | 17 November, 14:29 UTC |
-| [Cleveland](/artists/hilary-duff/tickets/cleveland-united-states) | 13 October 2027 | Rocket Arena | $56.12 | StubHub International | 17 November, 14:30 UTC |
-| [Columbus](/artists/hilary-duff/tickets/columbus-united-states) | 15 October 2027 | Schottenstein Center | $77.09 | StubHub International | 17 November, 14:29 UTC |
-| [Pittsburgh](/artists/hilary-duff/tickets/pittsburgh-united-states) | 16 October 2027 | PPG Paints Arena | $70 | StubHub International | 17 November, 14:29 UTC |
-| [San Antonio](/artists/hilary-duff/tickets/san-antonio-united-states) | 5 November 2027 | Frost Bank Center | $52.52 | StubHub International | 17 November, 14:29 UTC |
-| [Fort Worth](/artists/hilary-duff/tickets/fort-worth-united-states) | 6 November 2027 | Ariat Arena | $86.14 | StubHub International | 17 November, 14:29 UTC |
-| [Tulsa](/artists/hilary-duff/tickets/tulsa-united-states) | 8 November 2027 | BOK Center | $61.15 | StubHub International | 17 November, 14:29 UTC |
-| [Milwaukee](/artists/hilary-duff/tickets/milwaukee-united-states) | 12 November 2027 | Fiserv Forum | $93.76 | StubHub International | 17 November, 14:29 UTC |
-| [Des Moines](/artists/hilary-duff/tickets/des-moines-united-states) | 14 November 2027 | Casey's Center | $75.62 | StubHub International | 17 November, 14:30 UTC |
-| [Kansas City](/artists/hilary-duff/tickets/kansas-city-united-states) | 15 November 2027 | T-Mobile Center | $77.09 | StubHub International | 17 November, 14:29 UTC |
-| [Denver](/artists/hilary-duff/tickets/denver-united-states) | 17 November 2027 | Ball Arena | $89.28 | StubHub International | 17 November, 14:29 UTC |
-| [Anaheim](/artists/hilary-duff/tickets/anaheim-united-states) | 20 November 2027 | Honda Center | $93.65 | StubHub International | 17 November, 14:29 UTC |
+| [Sunrise](/artists/hilary-duff/tickets/sunrise-united-states) | 1 October 2027 | Amerant Bank Arena | $48.24 | StubHub International | 21 November, 18:02 UTC |
+| [Orlando](/artists/hilary-duff/tickets/orlando-united-states) | 2 October 2027 | Kia Center | $66.15 | StubHub International | 21 November, 18:01 UTC |
+| [Raleigh](/artists/hilary-duff/tickets/raleigh-united-states) | 4 October 2027 | Lenovo Center | $71.24 | StubHub International | 21 November, 18:01 UTC |
+| [Baltimore](/artists/hilary-duff/tickets/baltimore-united-states) | 6 October 2027 | CFG Bank Arena | $72.18 | StubHub International | 21 November, 18:01 UTC |
+| [Uncasville](/artists/hilary-duff/tickets/uncasville-united-states) | 8 October 2027 | Mohegan Sun Arena | $221.61 | StubHub International | 21 November, 18:01 UTC |
+| [Hershey](/artists/hilary-duff/tickets/hershey-united-states) | 9 October 2027 | GIANT Center | $113 | StubHub International | 21 November, 18:01 UTC |
+| [Buffalo](/artists/hilary-duff/tickets/buffalo-united-states) | 11 October 2027 | KeyBank Center | $67 | StubHub International | 21 November, 18:01 UTC |
+| [Cleveland](/artists/hilary-duff/tickets/cleveland-united-states) | 13 October 2027 | Rocket Arena | $49.92 | StubHub International | 21 November, 18:02 UTC |
+| [Pittsburgh](/artists/hilary-duff/tickets/pittsburgh-united-states) | 16 October 2027 | PPG Paints Arena | $70 | StubHub International | 21 November, 18:01 UTC |
+| [San Antonio](/artists/hilary-duff/tickets/san-antonio-united-states) | 5 November 2027 | Frost Bank Center | $52 | StubHub International | 21 November, 18:01 UTC |
+| [Fort Worth](/artists/hilary-duff/tickets/fort-worth-united-states) | 6 November 2027 | Ariat Arena | $78.80 | StubHub International | 21 November, 18:01 UTC |
+| [Tulsa](/artists/hilary-duff/tickets/tulsa-united-states) | 8 November 2027 | BOK Center | $64 | StubHub International | 21 November, 18:01 UTC |
+| [Milwaukee](/artists/hilary-duff/tickets/milwaukee-united-states) | 12 November 2027 | Fiserv Forum | $93.76 | StubHub International | 21 November, 18:01 UTC |
+| [Des Moines](/artists/hilary-duff/tickets/des-moines-united-states) | 14 November 2027 | Casey's Center | $74.02 | StubHub International | 21 November, 18:02 UTC |
+| [Kansas City](/artists/hilary-duff/tickets/kansas-city-united-states) | 15 November 2027 | T-Mobile Center | $78 | StubHub International | 21 November, 18:01 UTC |
+| [Denver](/artists/hilary-duff/tickets/denver-united-states) | 17 November 2027 | Ball Arena | $86.40 | StubHub International | 21 November, 18:01 UTC |
+| [Anaheim](/artists/hilary-duff/tickets/anaheim-united-states) | 20 November 2027 | Honda Center | $92.08 | StubHub International | 21 November, 18:01 UTC |
 
 ## How this was worked out
 

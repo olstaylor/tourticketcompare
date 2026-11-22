@@ -60,6 +60,14 @@
     } catch (error) { return ""; }
   }
 
+  function formatSnapshotDay(value) {
+    var date = new Date(String(value) + "T00:00:00Z");
+    if (!Number.isFinite(date.getTime())) return "";
+    try {
+      return new Intl.DateTimeFormat("en-US", { dateStyle: "medium", timeZone: "UTC" }).format(date);
+    } catch (error) { return ""; }
+  }
+
   function sparkline(points, currency) {
     var series = (Array.isArray(points) ? points : []).filter(function (point) { return Number.isFinite(Number(point && point.price)); });
     if (series.length < 2) return null;
@@ -119,11 +127,15 @@
       var first = points[0];
       var last = points[points.length - 1];
       var latest = formatPrice(last.price, series.currency);
-      var firstAt = formatSnapshotTime(first.observedAt);
-      var lastAt = formatSnapshotTime(last.observedAt);
+      var daily = series.basis === "daily";
+      var firstAt = daily ? formatSnapshotDay(first.observedAt) : formatSnapshotTime(first.observedAt);
+      var lastAt = daily ? formatSnapshotDay(last.observedAt) : formatSnapshotTime(last.observedAt);
+      var counts = daily
+        ? points.length + " daily checks, " + Number(series.priceChanges || 0) + " price changes"
+        : points.length + " price changes";
       appendText(block, "p", latest && firstAt && lastAt
-        ? points.length + " price checks · " + firstAt + " – " + lastAt + ". Latest: " + latest + "."
-        : points.length + " price checks.", "price-history-caption muted");
+        ? counts + " · " + firstAt + " – " + lastAt + ". Latest: " + latest + "."
+        : counts + ".", "price-history-caption muted");
       panel.appendChild(block);
       rendered += 1;
     });

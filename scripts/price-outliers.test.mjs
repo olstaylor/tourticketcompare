@@ -13,7 +13,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const load = (relativePath) => import(pathToFileURL(path.join(root, relativePath)));
 
-const { isIsolatedSpike, dropIsolatedSpikes, keepNonSpikeSql, implausiblyLowAmongSites } = await load("functions/_price-outliers.js");
+const { isIsolatedSpike, dropIsolatedSpikes, keepNonSpikeSql, implausiblyLowAmongSites, STRICT_LOW_RATIO } = await load("functions/_price-outliers.js");
 const { fetchEventPriceLowSeries, deriveEventPriceLow } = await load("functions/_event-price-low.js");
 const {
   derivePriceMove,
@@ -194,5 +194,18 @@ check(implausiblyLowAmongSites([{ price: 200, currency: "USD" }, { price: 481.85
 check(implausiblyLowAmongSites([{ price: 50, currency: "USD" }, { price: 400, currency: "USD" }]).every((x) => !x), "one neighbour is not enough to judge");
 check(implausiblyLowAmongSites([{ price: 50, currency: "USD" }, { price: 400, currency: "GBP" }, { price: 420, currency: "GBP" }]).every((x) => !x), "never across currencies");
 check(implausiblyLowAmongSites([{ price: null }, { price: 400, currency: "USD" }, { price: 420, currency: "USD" }]).every((x) => !x), "missing prices are ignored");
+
+// Strict rule (audit 2026-11-20): StubHub International USD 26 at Mercedes-Benz
+// Stadium against Vivid Seats 105 and TicketNetwork 96.6, where StubHub's own
+// page reads 122.82. One other price is enough, but only when the strict flag
+// is set, and the gap must be a clean halving of the LOWEST other price.
+check(STRICT_LOW_RATIO === 0.5, "strict ratio is half the lowest other price");
+check(JSON.stringify(implausiblyLowAmongSites([{ price: 26, currency: "USD", strict: true }, { price: 105, currency: "USD" }, { price: 96.6, currency: "USD" }])) === "[true,false,false]", "strict lane far under every other site is hidden");
+check(JSON.stringify(implausiblyLowAmongSites([{ price: 20, currency: "USD", strict: true }, { price: 78.2, currency: "USD" }])) === "[true,false]", "strict lane is judged against a single neighbour");
+check(implausiblyLowAmongSites([{ price: 26, currency: "USD" }, { price: 105, currency: "USD" }, { price: 96.6, currency: "USD" }]).every((x) => !x), "without the strict flag the same prices are kept");
+check(implausiblyLowAmongSites([{ price: 60, currency: "USD", strict: true }, { price: 105, currency: "USD" }, { price: 96.6, currency: "USD" }]).every((x) => !x), "a real undercut (under 2x) is kept");
+check(implausiblyLowAmongSites([{ price: 49, currency: "USD", strict: true }, { price: 98, currency: "USD" }, { price: 100, currency: "USD" }]).every((x) => !x), "exactly half the lowest other price is kept");
+check(implausiblyLowAmongSites([{ price: 20, currency: "USD", strict: true }, { price: 100, currency: "GBP" }]).every((x) => !x), "strict rule never compares across currencies");
+check(implausiblyLowAmongSites([{ price: 20, currency: "USD", strict: true }, { price: null, currency: "USD" }]).every((x) => !x), "strict rule needs a real neighbour");
 
 console.log(`price-outliers: ${passed} checks passed`);

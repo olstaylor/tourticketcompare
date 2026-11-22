@@ -331,14 +331,14 @@
         "event_id": 18710054,
         "url": "https://seatgeek.com/cody-johnson-tickets/austin-texas-moody-center-atx-2027-02-19-7-pm/concert/18710054",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7745720,
         "url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-19-2027--concerts-country-and-folk/production/7745720",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -352,21 +352,21 @@
         "event_id": "8337510",
         "url": "https://www.ticketnetwork.com/en/p/8337510",
         "verified": true,
-        "last_verified_at": "2026-11-02",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8337510",
         "url": "https://www.ticketliquidator.com/tickets/8337510/Cody-Johnson-tickets-Fri-Feb-19-2027-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678068",
         "url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-19-2027/event/107678068",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -420,14 +420,14 @@
         "event_id": 18701505,
         "url": "https://seatgeek.com/cody-johnson-tickets/austin-texas-moody-center-atx-2027-02-20-7-pm/concert/18701505",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7721395,
         "url": "https://www.vividseats.com/cody-johnson-tickets-austin-moody-center-atx-2-20-2027--concerts-country-and-folk/production/7721395",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -441,21 +441,21 @@
         "event_id": "8329600",
         "url": "https://www.ticketnetwork.com/en/p/8329600",
         "verified": true,
-        "last_verified_at": "2026-11-02",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8329600",
         "url": "https://www.ticketliquidator.com/tickets/8329600/Cody-Johnson-tickets-Sat-Feb-20-2027-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107677325",
         "url": "https://www.stubhub.ie/cody-johnson-austin-tickets-2-20-2027/event/107677325",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -483,11 +483,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000655ABCAD78E3",
     "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-13-2027/event/0000655ABCAD78E3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/albany-new-york-mvp-arena-2027-03-13-7-pm/concert/18773452",
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-albany-mvp-arena-3-13-2027/production/7871091",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-13-2027/event/0000655ABCAD78E3",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -509,7 +509,7 @@
         "event_id": 7871091,
         "url": "https://www.vividseats.com/cody-johnson-tickets-albany-mvp-arena-3-13-2027/production/7871091",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -523,34 +523,24 @@
         "event_id": "8369880",
         "url": "https://www.ticketliquidator.com/tickets/8369880/Cody-Johnson-tickets-Sat-Mar-13-2027-MVP-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369880",
+        "url": "https://www.ticketnetwork.com/en/p/8369880",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_4nHl9NN",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticket_limit": 8,
     "genre": "Country",
-    "presales": [
-      {
-        "name": "Cody Johnson Fan Club Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "MVP Arena Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      }
-    ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369880/Cody-Johnson-tickets-Sat-Mar-13-2027-MVP-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369880/Cody-Johnson-tickets-Sat-Mar-13-2027-MVP-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369880"
   },
   {
     "id": "tm-cody-johnson-2027-fargo-vv1akzk4fgkejxfzw",
@@ -564,11 +554,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "06006554A6F88E32",
     "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-fargo-north-dakota-03-20-2027/event/06006554A6F88E32",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/fargo-north-dakota-fargodome-2027-03-20-7-pm/concert/18773454",
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-fargo-fargodome-3-20-2027--concerts-country-and-folk/production/7871140",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-fargo-north-dakota-03-20-2027/event/06006554A6F88E32",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -590,7 +580,7 @@
         "event_id": 7871140,
         "url": "https://www.vividseats.com/cody-johnson-tickets-fargo-fargodome-3-20-2027--concerts-country-and-folk/production/7871140",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -604,37 +594,27 @@
         "event_id": "8369881",
         "url": "https://www.ticketliquidator.com/tickets/8369881/Cody-Johnson-tickets-Sat-Mar-20-2027-Fargodome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369881",
+        "url": "https://www.ticketnetwork.com/en/p/8369881",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4fGkeJXFzw",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "POLICE PRODUCTIONS"
     ],
     "ticket_limit": 8,
     "genre": "Country",
-    "presales": [
-      {
-        "name": "COJO Fan Club Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      }
-    ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369881/Cody-Johnson-tickets-Sat-Mar-20-2027-Fargodome"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369881/Cody-Johnson-tickets-Sat-Mar-20-2027-Fargodome",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369881"
   },
   {
     "id": "tm-cody-johnson-2027-charlottesville-vv1avzk4ngkde3rwt",
@@ -648,11 +628,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006563E749ECA9",
     "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-03-2027/event/01006563E749ECA9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/charlottesville-virginia-john-paul-jones-arena-2027-04-03-7-pm/concert/18773453",
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-charlottesville-john-paul-jones-arena-4-3-2027--concerts-country-and-folk/production/7871146",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-03-2027/event/01006563E749ECA9",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -674,7 +654,7 @@
         "event_id": 7871146,
         "url": "https://www.vividseats.com/cody-johnson-tickets-charlottesville-john-paul-jones-arena-4-3-2027--concerts-country-and-folk/production/7871146",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -688,40 +668,295 @@
         "event_id": "8369882",
         "url": "https://www.ticketliquidator.com/tickets/8369882/Cody-Johnson-tickets-Sat-Apr-3-2027-John-Paul-Jones-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369882",
+        "url": "https://www.ticketnetwork.com/en/p/8369882",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4NGkdE3rwt",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "POLICE PRODUCTIONS"
     ],
     "genre": "Country",
     "presales": [
       {
-        "name": "COJO Fan Club Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
         "name": "VIP Offer",
         "start": "2026-11-18T15:00:00Z",
         "end": "2027-04-03T23:00:00Z"
-      },
-      {
-        "name": "John Paul Jones Arena",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369882/Cody-Johnson-tickets-Sat-Apr-3-2027-John-Paul-Jones-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369882/Cody-Johnson-tickets-Sat-Apr-3-2027-John-Paul-Jones-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369882"
+  },
+  {
+    "id": "tm-cody-johnson-2027-evansville-vv1aazk4ngkd4mac1",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Evansville",
+    "country": "United States Of America",
+    "venue": "Ford Center",
+    "datetime_iso": "2027-05-02T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006563D5DC938A",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-05-01-2027/event/05006563D5DC938A",
+    "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/evansville-indiana-ford-center-in-2027-05-01-7-pm/concert/18773456",
+    "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-evansville-ford-center-evansville-5-1-2027/production/7871127",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-05-01-2027/event/05006563D5DC938A",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006563D5DC938A",
+        "discovery_event_id": "vv1AAZk4NGkd4MaC1",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-05-01-2027/event/05006563D5DC938A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7871127,
+        "url": "https://www.vividseats.com/cody-johnson-tickets-evansville-ford-center-evansville-5-1-2027/production/7871127",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369884",
+        "url": "https://www.ticketnetwork.com/en/p/8369884",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369884",
+        "url": "https://www.ticketliquidator.com/tickets/8369884/Cody-Johnson-tickets-Sat-May-1-2027-Ford-Center-IN",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4NGkd4MaC1",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "POLICE PRODUCTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369884",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369884/Cody-Johnson-tickets-Sat-May-1-2027-Ford-Center-IN"
+  },
+  {
+    "id": "tm-cody-johnson-2027-gilford-vv177z_pgksxdnvq",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson & Friends",
+    "city": "Gilford",
+    "country": "United States Of America",
+    "venue": "BankNH Pavilion",
+    "datetime_iso": "2027-05-29T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100656CE2EE305D",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-friends-gilford-new-hampshire-05-29-2027/event/0100656CE2EE305D",
+    "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/gilford-new-hampshire-banknh-pavilion-2027-05-29-7-pm/concert/18784858",
+    "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-gilford-banknh-pavilion-5-29-2027--concerts-country-and-folk/production/7887473",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-friends-gilford-new-hampshire-05-29-2027/event/0100656CE2EE305D",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656CE2EE305D",
+        "discovery_event_id": "vv177Z_pGkSxDNvq",
+        "url": "https://www.ticketmaster.com/cody-johnson-friends-gilford-new-hampshire-05-29-2027/event/0100656CE2EE305D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7887473,
+        "url": "https://www.vividseats.com/cody-johnson-tickets-gilford-banknh-pavilion-5-29-2027--concerts-country-and-folk/production/7887473",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkSxDNvq",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Eastern Propane Ticket Offer",
+        "start": "2026-11-19T15:00:00Z",
+        "end": "2026-12-20T03:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-cody-johnson-2027-albany-k7vgf_p30ueon",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Albany",
+    "country": "United States Of America",
+    "venue": "MVP Arena",
+    "datetime_iso": "2027-03-13T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "00006564A4DA782A",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-12-2027/event/00006564A4DA782A",
+    "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/albany-new-york-mvp-arena-2027-03-12-7-pm/concert/18842219",
+    "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-albany-mvp-arena-3-12-2027/production/7913445",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-12-2027/event/00006564A4DA782A",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006564A4DA782A",
+        "discovery_event_id": "k7vGF_p30UEOn",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-albany-new-york-03-12-2027/event/00006564A4DA782A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7913445,
+        "url": "https://www.vividseats.com/cody-johnson-tickets-albany-mvp-arena-3-12-2027/production/7913445",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8383249",
+        "url": "https://www.ticketliquidator.com/tickets/8383249/Cody-Johnson-tickets-Fri-Mar-12-2027-MVP-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_p30UEOn",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8383249/Cody-Johnson-tickets-Fri-Mar-12-2027-MVP-Arena"
+  },
+  {
+    "id": "tm-cody-johnson-2027-kansas-city-z7r9jz1aaaf8f",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-04-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAf8f",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
+    "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/kansas-city-missouri-t-mobile-center-2027-04-17-7-pm/concert/18773455",
+    "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-kansas-city-t-mobile-center-4-17-2027/production/7871119",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAf8f",
+        "discovery_event_id": "Z7r9jZ1AAAf8f",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18773455,
+        "url": "https://seatgeek.com/cody-johnson-tickets/kansas-city-missouri-t-mobile-center-2027-04-17-7-pm/concert/18773455",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7871119,
+        "url": "https://www.vividseats.com/cody-johnson-tickets-kansas-city-t-mobile-center-4-17-2027/production/7871119",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369883",
+        "url": "https://www.ticketliquidator.com/tickets/8369883/Cody-Johnson-tickets-Sat-Apr-17-2027-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf8f",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369883/Cody-Johnson-tickets-Sat-Apr-17-2027-T-Mobile-Center"
   }
 ]

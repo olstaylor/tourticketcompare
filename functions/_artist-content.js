@@ -335,8 +335,7 @@ export function artistTicketHelp() {
     intro: "TourTicketCompare doesn't sell tickets. Each button opens a ticket site, and you buy there.",
     points: [
       "A button on a date card opens that exact date.",
-      "Starting prices can cover different seats, quantities and fees. Match the ticket details and full order totals before choosing.",
-      "If a date has no ticket button, no link has been checked for it yet. Ask the seller whether tickets are available."
+      "Starting prices can cover different seats, quantities and fees. Match the ticket details and full order totals before choosing."
     ]
   };
 }

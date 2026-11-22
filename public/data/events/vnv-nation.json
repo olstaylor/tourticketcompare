@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Jv8S",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8S",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/tampa-florida-the-orpheum-tampa-2027-03-13-8-pm/concert/18791107",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8S",
@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18791107,
+        "url": "https://seatgeek.com/vnv-nation-tickets/tampa-florida-the-orpheum-tampa-2027-03-13-8-pm/concert/18791107",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -83,14 +83,14 @@
         "event_id": 17912521,
         "url": "https://seatgeek.com/vnv-nation-tickets/atlanta-georgia-variety-playhouse-2027-03-14-8-pm/concert/17912521",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7235026,
         "url": "https://www.vividseats.com/vnv-nation-tickets-atlanta-variety-playhouse-3-14-2027--concerts-rock/production/7235026",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -104,14 +104,14 @@
         "event_id": "8099561",
         "url": "https://www.ticketliquidator.com/tickets/8099561/VNV-Nation-tickets-Sun-Mar-14-2027-Variety-Playhouse",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8099561",
         "url": "https://www.ticketnetwork.com/en/p/8099561",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -152,14 +152,14 @@
         "event_id": 18662604,
         "url": "https://seatgeek.com/vnv-nation-tickets/salt-lake-city-utah-the-grand-at-the-complex-2027-03-26-7-30-pm/concert/18662604",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7235039,
         "url": "https://www.vividseats.com/vnv-nation-tickets-salt-lake-city-the-complex---the-grand-3-26-2027--concerts-rock/production/7235039",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -173,14 +173,14 @@
         "event_id": "7529761",
         "url": "https://www.ticketliquidator.com/tickets/7529761/VNV-Nation-tickets-Fri-Mar-26-2027-The-Grand-At-The-Complex",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "7529761",
         "url": "https://www.ticketnetwork.com/en/p/7529761",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -277,7 +277,7 @@
         "event_id": 18159984,
         "url": "https://seatgeek.com/vnv-nation-tickets/chicago-illinois-metro-chicago-2027-04-01-8-pm/concert/18159984",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -298,14 +298,14 @@
         "event_id": "7495772",
         "url": "https://www.ticketliquidator.com/tickets/7495772/VNV-Nation-tickets-Thu-Apr-1-2027-Metro-Chicago",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "7495772",
         "url": "https://www.ticketnetwork.com/en/p/7495772",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -327,7 +327,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Jv8M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/denver-colorado-the-oriental-theater-2027-03-27-8-pm/concert/18669971",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
@@ -516,7 +516,7 @@
         "event_id": 18659523,
         "url": "https://seatgeek.com/vnv-nation-tickets/nashville-tennessee-exit-in-2027-03-09-8-pm/concert/18659523",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -537,14 +537,14 @@
         "event_id": "8095650",
         "url": "https://www.ticketnetwork.com/en/p/8095650",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8095650",
         "url": "https://www.ticketliquidator.com/tickets/8095650/VNV-Nation-tickets-Tue-Mar-9-2027-Exit-In",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -641,14 +641,14 @@
         "event_id": 18165972,
         "url": "https://seatgeek.com/vnv-nation-tickets/mesa-arizona-nile-theater-mesa-2027-03-18-8-pm/concert/18165972",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7235020,
         "url": "https://www.vividseats.com/vnv-nation-tickets-mesa-nile-theater---mesa-3-18-2027--concerts-rock/production/7235020",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -662,14 +662,14 @@
         "event_id": "7656035",
         "url": "https://www.ticketnetwork.com/en/p/7656035",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7656035",
         "url": "https://www.ticketliquidator.com/tickets/7656035/VNV-Nation-tickets-Thu-Mar-18-2027-Nile-Theater-AZ",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -714,7 +714,7 @@
         "event_id": 18150796,
         "url": "https://seatgeek.com/vnv-nation-tickets/san-diego-california-house-of-blues-san-diego-2027-03-19-7-pm/concert/18150796",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -735,14 +735,14 @@
         "event_id": "7610204",
         "url": "https://www.ticketnetwork.com/en/p/7610204",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7610204",
         "url": "https://www.ticketliquidator.com/tickets/7610204/VNV-Nation-tickets-Fri-Mar-19-2027-House-Of-Blues-San-Diego",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -848,7 +848,7 @@
         "event_id": 18150870,
         "url": "https://seatgeek.com/vnv-nation-tickets/san-francisco-california-august-hall-2027-03-21-7-30-pm/concert/18150870",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -869,14 +869,14 @@
         "event_id": "7493673",
         "url": "https://www.ticketnetwork.com/en/p/7493673",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7493673",
         "url": "https://www.ticketliquidator.com/tickets/7493673/VNV-Nation-tickets-Sun-Mar-21-2027-August-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -929,7 +929,7 @@
         "event_id": 18149562,
         "url": "https://seatgeek.com/vnv-nation-tickets/seattle-washington-neptune-theatre-wa-2027-03-24-8-pm/concert/18149562",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -950,14 +950,14 @@
         "event_id": "7496081",
         "url": "https://www.ticketnetwork.com/en/p/7496081",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7496081",
         "url": "https://www.ticketliquidator.com/tickets/7496081/VNV-Nation-tickets-Wed-Mar-24-2027-The-Neptune-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1004,14 +1004,14 @@
         "event_id": 18357653,
         "url": "https://seatgeek.com/vnv-nation-tickets/omaha-nebraska-slowdown-2027-03-29-8-pm/concert/18357653",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7234213,
         "url": "https://www.vividseats.com/vnv-nation-tickets-omaha-slowdown-3-29-2027/production/7234213",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1025,14 +1025,14 @@
         "event_id": "7584375",
         "url": "https://www.ticketnetwork.com/en/p/7584375",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7584375",
         "url": "https://www.ticketliquidator.com/tickets/7584375/VNV-Nation-tickets-Mon-Mar-29-2027-The-Slowdown",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1074,7 +1074,7 @@
         "event_id": 18156403,
         "url": "https://seatgeek.com/vnv-nation-tickets/detroit-michigan-saint-andrews-hall-2027-04-02-7-pm/concert/18156403",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1121,7 +1121,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0500634932B88EC7",
     "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-cleveland-ohio-04-03-2027/event/0500634932B88EC7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/cleveland-ohio-house-of-blues-cleveland-2027-04-03-7-pm/concert/18842839",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-cleveland-ohio-04-03-2027/event/0500634932B88EC7",
@@ -1161,14 +1161,14 @@
         "event_id": "7493671",
         "url": "https://www.ticketnetwork.com/en/p/7493671",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7493671",
         "url": "https://www.ticketliquidator.com/tickets/7493671/VNV-Nation-tickets-Sat-Apr-3-2027-House-Of-Blues-Cleveland",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1196,7 +1196,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000634D26306DF2",
     "ticketmaster_url": "https://www.ticketmaster.ca/vnv-nation-an-evening-with-toronto-ontario-04-04-2027/event/1000634D26306DF2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/toronto-canada-the-danforth-music-hall-2027-04-04-6-30-pm/concert/18802428",
     "vividseats_url": "https://www.vividseats.com/vnv-nation-tickets-toronto-the-danforth-music-hall-4-4-2027/production/7237610",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/vnv-nation-an-evening-with-toronto-ontario-04-04-2027/event/1000634D26306DF2",
@@ -1222,7 +1222,7 @@
         "event_id": 7237610,
         "url": "https://www.vividseats.com/vnv-nation-tickets-toronto-the-danforth-music-hall-4-4-2027/production/7237610",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1276,14 +1276,14 @@
         "event_id": 18543174,
         "url": "https://seatgeek.com/vnv-nation-tickets/montreal-canada-beanfield-theatre-2027-04-06-8-pm/concert/18543174",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7237583,
         "url": "https://www.vividseats.com/vnv-nation-tickets-montreal-beanfield-theatre-4-6-2027/production/7237583",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1297,14 +1297,14 @@
         "event_id": "7498713",
         "url": "https://www.ticketnetwork.com/en/p/7498713",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7498713",
         "url": "https://www.ticketliquidator.com/tickets/7498713/VNV-Nation-tickets-Tue-Apr-6-2027-Theatre-Beanfield",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1332,7 +1332,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0100634DED91D53E",
     "ticketmaster_url": "https://www.ticketmaster.com/an-evening-with-vnv-nation-18-boston-massachusetts-04-07-2027/event/0100634DED91D53E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/boston-massachusetts-paradise-rock-club-2027-04-07-8-pm/concert/18793518",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-vnv-nation-18-boston-massachusetts-04-07-2027/event/0100634DED91D53E",
@@ -1372,14 +1372,14 @@
         "event_id": "7503826",
         "url": "https://www.ticketnetwork.com/en/p/7503826",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7503826",
         "url": "https://www.ticketliquidator.com/tickets/7503826/VNV-Nation-tickets-Wed-Apr-7-2027-Paradise-Rock-Club-Presented-by-Citizens",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1446,14 +1446,14 @@
         "event_id": "7495786",
         "url": "https://www.ticketnetwork.com/en/p/7495786",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7495786",
         "url": "https://www.ticketliquidator.com/tickets/7495786/VNV-Nation-tickets-Fri-Apr-9-2027-Warsaw",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1481,7 +1481,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500634AEE79A4F0",
     "ticketmaster_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-baltimore-maryland-04-10-2027/event/1500634AEE79A4F0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/baltimore-maryland-baltimore-soundstage-2027-04-10-9-pm/concert/18809274",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/vnv-nation-an-evening-with-baltimore-maryland-04-10-2027/event/1500634AEE79A4F0",
@@ -1521,14 +1521,14 @@
         "event_id": "7665363",
         "url": "https://www.ticketnetwork.com/en/p/7665363",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7665363",
         "url": "https://www.ticketliquidator.com/tickets/7665363/VNV-Nation-tickets-Sat-Apr-10-2027-Baltimore-Soundstage",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1572,7 +1572,7 @@
         "event_id": 18516864,
         "url": "https://seatgeek.com/vnv-nation-tickets/millvale-pennsylvania-mr-smalls-theatre-2027-04-11-9-pm/concert/18516864",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

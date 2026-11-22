@@ -511,7 +511,7 @@
         "event_id": "107674266",
         "url": "https://www.stubhub.ie/jake-bugg-tickets-london-union-chapel-london-25-2-2027/event/107674266",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -571,17 +571,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107674265",
-        "url": "https://www.stubhub.ie/jake-bugg-tickets-london-union-chapel-london-26-2-2027/event/107674265",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_olVuIND",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/jake-bugg-tickets-london-union-chapel-london-26-2-2027/event/107674265",
+    "stubhub_international_url": "",
     "ticket_limit": 6,
     "genre": "Rock"
   },
@@ -649,7 +649,7 @@
     "country": "Spain",
     "venue": "Teatro Eslava",
     "datetime_iso": "2027-04-06T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "Alamo – Solo Acoustic Tour",
     "ticketmaster_event_id": "679434859",
     "ticketmaster_url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/679434859?language=en-us",
     "seatgeek_url": "",
@@ -692,7 +692,7 @@
         "event_id": "107665739",
         "url": "https://www.stubhub.ie/jake-bugg-tickets-madrid-teatro-eslava-ochoymedio-club-6-4-2027/event/107665739",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -714,7 +714,7 @@
     "country": "Spain",
     "venue": "La Paloma",
     "datetime_iso": "2027-04-07T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "Alamo – Solo Acoustic Tour",
     "ticketmaster_event_id": "1973664608",
     "ticketmaster_url": "https://www.ticketmaster.es/event/jake-bugg-alamo--solo-acoustic-tour-tickets/1973664608?language=en-us",
     "seatgeek_url": "",
@@ -757,7 +757,7 @@
         "event_id": "107665740",
         "url": "https://www.stubhub.ie/jake-bugg-tickets-barcelona-sala-la-paloma-7-4-2027/event/107665740",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },

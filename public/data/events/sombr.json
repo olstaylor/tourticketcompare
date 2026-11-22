@@ -2363,7 +2363,7 @@
         "event_id": 6898034,
         "url": "https://www.vividseats.com/sombr-tickets-boston-td-garden-11-18-2026--concerts-alternative/production/6898034",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2374,33 +2374,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874884",
-        "url": "https://www.ticketnetwork.com/en/p/7874884",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107154733",
-        "url": "https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874884",
-        "url": "https://www.ticketliquidator.com/tickets/7874884/sombr-tickets-Wed-Nov-18-2026-TD-Garden",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk36GkdFNKEx",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874884",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-boston-tickets-11-18-2026/event/107154733",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874884/sombr-tickets-Wed-Nov-18-2026-TD-Garden",
+    "ticketnetwork_url": "",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2438,14 +2438,14 @@
         "event_id": 18175611,
         "url": "https://seatgeek.com/sombr-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2026-11-19-7-30-pm/concert/18175611",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6898038,
         "url": "https://www.vividseats.com/sombr-tickets-philadelphia-xfinity-mobile-arena-11-19-2026--concerts-alternative/production/6898038",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2456,33 +2456,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7874885",
-        "url": "https://www.ticketnetwork.com/en/p/7874885",
-        "verified": true,
-        "last_verified_at": "2026-07-30",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107154735",
-        "url": "https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7874885",
-        "url": "https://www.ticketliquidator.com/tickets/7874885/sombr-tickets-Thu-Nov-19-2026-Xfinity-Mobile-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZv0xbGA5zeAe",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7874885",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-philadelphia-tickets-11-19-2026/event/107154735",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874885/sombr-tickets-Thu-Nov-19-2026-Xfinity-Mobile-Arena",
+    "ticketnetwork_url": "",
+    "stubhub_international_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -2519,14 +2519,14 @@
         "event_id": 18175560,
         "url": "https://seatgeek.com/sombr-tickets/newark-new-jersey-prudential-center-2026-11-21-7-pm/concert/18175560",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6898048,
         "url": "https://www.vividseats.com/sombr-tickets-newark-prudential-center-11-21-2026--concerts-alternative/production/6898048",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2540,21 +2540,21 @@
         "event_id": "7874886",
         "url": "https://www.ticketnetwork.com/en/p/7874886",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107155495",
         "url": "https://www.stubhub.ie/sombr-newark-tickets-11-21-2026/event/107155495",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7874886",
         "url": "https://www.ticketliquidator.com/tickets/7874886/sombr-tickets-Sat-Nov-21-2026-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2586,7 +2586,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-23-2026/production/6898010",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-23-2026/event/3B00648AD4475021",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2601,14 +2601,14 @@
         "event_id": 18175563,
         "url": "https://seatgeek.com/sombr-tickets/new-york-new-york-madison-square-garden-2026-11-23-7-pm/concert/18175563",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6898010,
         "url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-23-2026/production/6898010",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2622,21 +2622,21 @@
         "event_id": "7874887",
         "url": "https://www.ticketnetwork.com/en/p/7874887",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107154738",
         "url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7874887",
         "url": "https://www.ticketliquidator.com/tickets/7874887/sombr-tickets-Mon-Nov-23-2026-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2647,11 +2647,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7874887/sombr-tickets-Mon-Nov-23-2026-Madison-Square-Garden",
     "presales": [
-      {
-        "name": "VIP Packages",
-        "start": "2026-04-17T14:00:00Z",
-        "end": "2026-11-19T17:00:00Z"
-      },
       {
         "name": "Chase Cardholder Preferred Tickets",
         "start": "2026-04-17T14:00:00Z",
@@ -2679,7 +2674,7 @@
     "vividseats_url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-24-2026/production/6902538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sombr-you-are-the-reason-tour-new-york-new-york-11-24-2026/event/3B00648AD4525028",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2694,14 +2689,14 @@
         "event_id": 18176743,
         "url": "https://seatgeek.com/sombr-tickets/new-york-new-york-madison-square-garden-2026-11-24-7-pm/concert/18176743",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6902538,
         "url": "https://www.vividseats.com/sombr-tickets-new-york-madison-square-garden-11-24-2026/production/6902538",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2715,21 +2710,21 @@
         "event_id": "7877722",
         "url": "https://www.ticketnetwork.com/en/p/7877722",
         "verified": true,
-        "last_verified_at": "2026-07-30",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107160120",
         "url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7877722",
         "url": "https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2740,11 +2735,6 @@
     "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden",
     "presales": [
-      {
-        "name": "VIP Packages",
-        "start": "2026-04-17T14:00:00Z",
-        "end": "2026-11-20T17:00:00Z"
-      },
       {
         "name": "Chase Cardholder Preferred Tickets",
         "start": "2026-04-17T14:00:00Z",
@@ -2794,7 +2784,7 @@
         "event_id": 7505371,
         "url": "https://www.vividseats.com/sombr-tickets-hamburg-barclays-arena---hamburg-5-14-2027/production/7505371",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2808,21 +2798,21 @@
         "event_id": "8245510",
         "url": "https://www.ticketnetwork.com/en/p/8245510",
         "verified": true,
-        "last_verified_at": "2026-09-04",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8245510",
         "url": "https://www.ticketliquidator.com/tickets/8245510/sombr-tickets-Fri-May-14-2027-Barclays-Arena-Hamburg",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107666407",
         "url": "https://www.stubhub.ie/sombr-tickets-hamburg-barclays-arena-hamburg-14-5-2027/event/107666407",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2932,7 +2922,7 @@
         "event_id": 7505369,
         "url": "https://www.vividseats.com/sombr-tickets-berlin-uber-arena-5-18-2027/production/7505369",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2946,21 +2936,21 @@
         "event_id": "8245511",
         "url": "https://www.ticketnetwork.com/en/p/8245511",
         "verified": true,
-        "last_verified_at": "2026-09-04",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8245511",
         "url": "https://www.ticketliquidator.com/tickets/8245511/sombr-tickets-Tue-May-18-2027-Uber-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107666398",
         "url": "https://www.stubhub.ie/sombr-tickets-berlin-uber-arena-18-5-2027/event/107666398",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3027,21 +3017,21 @@
         "event_id": "8245513",
         "url": "https://www.ticketnetwork.com/en/p/8245513",
         "verified": true,
-        "last_verified_at": "2026-09-04",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8245513",
         "url": "https://www.ticketliquidator.com/tickets/8245513/sombr-tickets-Fri-May-28-2027-Kleine-Olympiahalle-Munich",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107666431",
         "url": "https://www.stubhub.ie/sombr-tickets-munich-olympiahalle-munich-28-5-2027/event/107666431",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3108,21 +3098,21 @@
         "event_id": "8245523",
         "url": "https://www.ticketnetwork.com/en/p/8245523",
         "verified": true,
-        "last_verified_at": "2026-09-04",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8245523",
         "url": "https://www.ticketliquidator.com/tickets/8245523/sombr-tickets-Mon-May-31-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107666327",
         "url": "https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-31-5-2027/event/107666327",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3189,7 +3179,7 @@
         "event_id": "107665761",
         "url": "https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-1-6-2027/event/107665761",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3294,7 +3284,7 @@
         "event_id": 7505317,
         "url": "https://www.vividseats.com/sombr-tickets-glasgow-bellahouston-park-6-19-2027--concerts-alternative/production/7505317",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3308,21 +3298,21 @@
         "event_id": "8245421",
         "url": "https://www.ticketnetwork.com/en/p/8245421",
         "verified": true,
-        "last_verified_at": "2026-09-05",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8245421",
         "url": "https://www.ticketliquidator.com/tickets/8245421/sombr-tickets-Sat-Jun-19-2027-Bellahouston-Park",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107666406",
         "url": "https://www.stubhub.ie/sombr-tickets-glasgow-bellahouston-park-19-6-2027/event/107666406",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3379,7 +3369,7 @@
         "event_id": 7510556,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-21-2027/production/7510556",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3393,7 +3383,7 @@
         "event_id": "107666543",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-21-6-2027/event/107666543",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3445,7 +3435,7 @@
         "event_id": 7505319,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-22-2027--concerts-alternative/production/7505319",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3459,7 +3449,7 @@
         "event_id": "107665338",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-22-6-2027/event/107665338",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3511,7 +3501,7 @@
         "event_id": 7510546,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-24-2027/production/7510546",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3525,7 +3515,7 @@
         "event_id": "107666544",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-24-6-2027/event/107666544",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3577,7 +3567,7 @@
         "event_id": 7518769,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-25-2027/production/7518769",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3591,7 +3581,7 @@
         "event_id": "107666748",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-25-6-2027/event/107666748",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3643,7 +3633,7 @@
         "event_id": 7527275,
         "url": "https://www.vividseats.com/sombr-tickets-london-the-o2---london-6-29-2027/production/7527275",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3657,7 +3647,7 @@
         "event_id": "107666815",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-29-6-2027/event/107666815",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3767,7 +3757,7 @@
         "event_id": 7505313,
         "url": "https://www.vividseats.com/sombr-tickets-belfast-ormeau-park-6-17-2027--concerts-alternative/production/7505313",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3781,7 +3771,7 @@
         "event_id": "107666405",
         "url": "https://www.stubhub.ie/sombr-tickets-belfast-ormeau-park-17-6-2027/event/107666405",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3846,7 +3836,7 @@
         "event_id": "107158149",
         "url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3911,7 +3901,7 @@
         "event_id": "107449736",
         "url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3983,14 +3973,14 @@
         "event_id": "8264595",
         "url": "https://www.ticketnetwork.com/en/p/8264595",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8264595",
         "url": "https://www.ticketliquidator.com/tickets/8264595/sombr-tickets-Tue-Apr-27-2027-Spark-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4053,14 +4043,14 @@
         "event_id": "8245506",
         "url": "https://www.ticketnetwork.com/en/p/8245506",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8245506",
         "url": "https://www.ticketliquidator.com/tickets/8245506/sombr-tickets-Sat-May-8-2027-Unity-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4126,21 +4116,21 @@
         "event_id": "8245507",
         "url": "https://www.ticketnetwork.com/en/p/8245507",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8245507",
         "url": "https://www.ticketliquidator.com/tickets/8245507/sombr-tickets-Tue-May-11-2027-Veikkaus-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107666323",
         "url": "https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4264,21 +4254,21 @@
         "event_id": "8245518",
         "url": "https://www.ticketnetwork.com/en/p/8245518",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8245518",
         "url": "https://www.ticketliquidator.com/tickets/8245518/sombr-tickets-Thu-May-27-2027-Hallenstadion-Zurich",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107666419",
         "url": "https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },

@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-baltimore-maryland-06-05-2027/event/15006564DFB4AC25",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -46,12 +46,25 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369575",
+        "url": "https://www.ticketnetwork.com/en/p/8369575",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369575",
+        "url": "https://www.ticketliquidator.com/tickets/8369575/KPOP-Demon-Hunters-tickets-Sat-Jun-5-2027-CFG-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A4Zk40GkdLc1YP",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG - TICKETING"
     ],
@@ -59,47 +72,7 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard World Legend",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-09T02:00:00Z"
       },
@@ -113,7 +86,9 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-27T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369575",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369575/KPOP-Demon-Hunters-tickets-Sat-Jun-5-2027-CFG-Bank-Arena"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-newark-vv1aezk4pgkd6oqqp",
@@ -131,7 +106,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-12-2027/event/02006565C781A756",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -162,12 +137,25 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369577",
+        "url": "https://www.ticketnetwork.com/en/p/8369577",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369577",
+        "url": "https://www.ticketliquidator.com/tickets/8369577/KPOP-Demon-Hunters-tickets-Sat-Jun-12-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4PGkd6OQqp",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -175,47 +163,7 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard World Legend",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-16T02:00:00Z"
       },
@@ -229,7 +177,9 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-03T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369577",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369577/KPOP-Demon-Hunters-tickets-Sat-Jun-12-2027-Prudential-Center"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-columbus-vv1aazk4pgkdbhbjx",
@@ -247,7 +197,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-columbus-value-city-arena-at-schottenstein-center-6-16-2027/production/7870459",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-16-2027/event/05006565D8F3A722",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,14 +212,14 @@
         "event_id": 18772671,
         "url": "https://seatgeek.com/kpop-demon-hunters-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-06-16-7-30-pm/concert/18772671",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870459,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-columbus-value-city-arena-at-schottenstein-center-6-16-2027/production/7870459",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -283,14 +233,27 @@
         "event_id": "8369579",
         "url": "https://www.ticketliquidator.com/tickets/8369579/KPOP-Demon-Hunters-tickets-Wed-Jun-16-2027-Value-City-Arena-at-The-Schottenstein-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369579",
+        "url": "https://www.ticketnetwork.com/en/p/8369579",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682240",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-columbus-tickets-6-16-2027/event/107682240",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4PGkdbHBjx",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369579/KPOP-Demon-Hunters-tickets-Wed-Jun-16-2027-Value-City-Arena-at-The-Schottenstein-Center",
     "organizer_names": [
       "AEG LIVE"
@@ -299,42 +262,7 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard World Legend",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-20T02:00:00Z"
       },
@@ -348,7 +276,9 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-05T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369579",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-columbus-tickets-6-16-2027/event/107682240"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-chicago-vv1k8z_pb3g7s3vy",
@@ -366,7 +296,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-19-2027/event/0400656612CD2D30",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -397,12 +327,25 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369580",
+        "url": "https://www.ticketnetwork.com/en/p/8369580",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369580",
+        "url": "https://www.ticketliquidator.com/tickets/8369580/KPOP-Demon-Hunters-tickets-Sat-Jun-19-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1k8Z_pb3G7S3VY",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG - TICKETING"
     ],
@@ -410,37 +353,7 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-19T15:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Mastercard World Legend",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-05-23T03:00:00Z"
       },
@@ -454,7 +367,9 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-09T22:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369580",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369580/KPOP-Demon-Hunters-tickets-Sat-Jun-19-2027-United-Center"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-indianapolis-vv1aazk40gkes_m63",
@@ -472,7 +387,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-indianapolis-gainbridge-fieldhouse-6-23-2027--theater-family/production/7870485",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-indianapolis-indiana-06-23-2027/event/05006564B16771D2",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -487,14 +402,14 @@
         "event_id": 18772668,
         "url": "https://seatgeek.com/kpop-demon-hunters-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-06-23-7-30-pm/concert/18772668",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870485,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-indianapolis-gainbridge-fieldhouse-6-23-2027--theater-family/production/7870485",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -508,14 +423,27 @@
         "event_id": "8369582",
         "url": "https://www.ticketliquidator.com/tickets/8369582/KPOP-Demon-Hunters-tickets-Wed-Jun-23-2027-Gainbridge-Fieldhouse",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369582",
+        "url": "https://www.ticketnetwork.com/en/p/8369582",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681023",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-indianapolis-tickets-6-23-2027/event/107681023",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk40Gkes_M63",
     "timezone": "America/Indiana/Indianapolis",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369582/KPOP-Demon-Hunters-tickets-Wed-Jun-23-2027-Gainbridge-Fieldhouse",
     "organizer_names": [
       "AEG LIVE"
@@ -524,47 +452,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-27T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "Mastercard Collection Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-27T02:00:00Z"
       },
@@ -573,7 +466,9 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-12T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369582",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-indianapolis-tickets-6-23-2027/event/107681023"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-hamilton-1avzz_pgknnsz0d",
@@ -591,7 +486,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-hamilton-td-coliseum-6-26-2027/production/7870445",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kpop-demon-hunters-golden-world-tour-hamilton-ontario-06-26-2027/event/1000656AAAC78903",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -613,7 +508,7 @@
         "event_id": 7870445,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-hamilton-td-coliseum-6-26-2027/production/7870445",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -626,8 +521,7 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_pGknnsz0d",
     "timezone": "America/Toronto",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE (CANADA)"
     ],
@@ -635,42 +529,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard World Legend",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-30T02:00:00Z"
       },
       {
-        "name": "The Mastercard Collection",
+        "name": "The Mastercard Collection Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-05-30T02:00:00Z"
       },
@@ -693,11 +557,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "300065633C0ADFCE",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-29-2027/event/300065633C0ADFCE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/elmont-new-york-ubs-arena-2027-06-29-7-30-pm/concert/18772683",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-29-2027/production/7870441",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-29-2027/event/300065633C0ADFCE",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -719,7 +583,7 @@
         "event_id": 7870441,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-29-2027/production/7870441",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -732,8 +596,7 @@
     },
     "ticketmaster_discovery_event_id": "1kGZvPbSGAGecTC",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -741,37 +604,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-02T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-02T02:00:00Z"
       },
@@ -794,11 +632,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "300065633C11DFD5",
     "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-30-2027/event/300065633C11DFD5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/elmont-new-york-ubs-arena-2027-06-30-7-30-pm/concert/18772726",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-30-2027/production/7870471",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-belmont-park-new-york-06-30-2027/event/300065633C11DFD5",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -820,7 +658,7 @@
         "event_id": 7870471,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-elmont-ubs-arena-6-30-2027/production/7870471",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -833,8 +671,7 @@
     },
     "ticketmaster_discovery_event_id": "1kGZvPbSGAG7qT4",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -842,37 +679,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Packages Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Tickets",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-02T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-03T02:00:00Z"
       },
@@ -899,7 +711,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-pittsburgh-pennsylvania-07-03-2027/event/16006565BB0383F1",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -930,64 +742,37 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369626",
+        "url": "https://www.ticketnetwork.com/en/p/8369626",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369626",
+        "url": "https://www.ticketliquidator.com/tickets/8369626/KPOP-Demon-Hunters-tickets-Sat-Jul-3-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZk4PGkeDZz2s",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-06T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-06T02:00:00Z"
       },
@@ -996,7 +781,9 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-24T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369626",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369626/KPOP-Demon-Hunters-tickets-Sat-Jul-3-2027-PPG-Paints-Arena"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-charlotte-g5evz_p39bkd-",
@@ -1014,7 +801,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-charlotte-spectrum-center-7-7-2027/production/7870457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-charlotte-north-carolina-07-07-2027/event/2D00656497E860E1",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1029,14 +816,14 @@
         "event_id": 18772689,
         "url": "https://seatgeek.com/kpop-demon-hunters-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-07-07-7-30-pm/concert/18772689",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870457,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-charlotte-spectrum-center-7-7-2027/production/7870457",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1050,67 +837,40 @@
         "event_id": "8369586",
         "url": "https://www.ticketliquidator.com/tickets/8369586/KPOP-Demon-Hunters-tickets-Wed-Jul-7-2027-Spectrum-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369586",
+        "url": "https://www.ticketnetwork.com/en/p/8369586",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681027",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-charlotte-tickets-7-7-2027/event/107681027",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_p39Bkd-",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369586/KPOP-Demon-Hunters-tickets-Wed-Jul-7-2027-Spectrum-Center",
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Children's Music",
+    "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Spectrum Center Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-10T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-10T02:00:00Z"
       },
@@ -1119,7 +879,9 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-26T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369586",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-charlotte-tickets-7-7-2027/event/107681027"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-atlanta-vvg1zz_p9cj0zu",
@@ -1137,7 +899,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-atlanta-georgia-07-10-2027/event/0E006565CE724E36",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1168,12 +930,25 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369587",
+        "url": "https://www.ticketnetwork.com/en/p/8369587",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369587",
+        "url": "https://www.ticketliquidator.com/tickets/8369587/KPOP-Demon-Hunters-tickets-Sat-Jul-10-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_p9Cj0zU",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -1181,52 +956,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-13T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-13T02:00:00Z"
       },
@@ -1235,7 +970,9 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-30T21:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369587",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369587/KPOP-Demon-Hunters-tickets-Sat-Jul-10-2027-State-Farm-Arena-GA"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-orlando-1axzk4jgkdj4ft4",
@@ -1253,7 +990,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-orlando-florida-07-17-2027/event/22006566DC554FD5",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1284,12 +1021,25 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369589",
+        "url": "https://www.ticketnetwork.com/en/p/8369589",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369589",
+        "url": "https://www.ticketliquidator.com/tickets/8369589/KPOP-Demon-Hunters-tickets-Sat-Jul-17-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AxZk4JGkdj4fT4",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T15:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -1297,47 +1047,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-19T14:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Local Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T19:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Preferred Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-20T02:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-06-20T02:00:00Z"
       },
@@ -1346,7 +1061,9 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-07-08T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369589",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369589/KPOP-Demon-Hunters-tickets-Sat-Jul-17-2027-Kia-Center"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-dallas-vvg1yz_pqm-6ap",
@@ -1364,7 +1081,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-20-2027/production/7870467",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-20-2027/event/0C006566AE847156",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1379,14 +1096,14 @@
         "event_id": 18772702,
         "url": "https://seatgeek.com/kpop-demon-hunters-tickets/dallas-texas-american-airlines-center-2027-07-20-7-30-pm/concert/18772702",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870467,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-20-2027/production/7870467",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1400,21 +1117,27 @@
         "event_id": "8369592",
         "url": "https://www.ticketliquidator.com/tickets/8369592/KPOP-Demon-Hunters-tickets-Tue-Jul-20-2027-American-Airlines-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681010",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-dallas-tickets-7-20-2027/event/107681010",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369592",
+        "url": "https://www.ticketnetwork.com/en/p/8369592",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pQm-6Ap",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369592/KPOP-Demon-Hunters-tickets-Tue-Jul-20-2027-American-Airlines-Center",
     "organizer_names": [
       "AEG LIVE"
@@ -1423,47 +1146,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-19T15:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T08:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T08:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "AAC Insider Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-23T03:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-23T03:00:00Z"
       },
@@ -1473,7 +1161,8 @@
         "end": "2027-07-09T22:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-dallas-tickets-7-20-2027/event/107681010"
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-dallas-tickets-7-20-2027/event/107681010",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369592"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-dallas-vvg1yz_pqmd65i",
@@ -1491,7 +1180,7 @@
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-21-2027/production/7870455",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-dallas-texas-07-21-2027/event/0C006566AEEC72EC",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1506,14 +1195,14 @@
         "event_id": 18772728,
         "url": "https://seatgeek.com/kpop-demon-hunters-tickets/dallas-texas-american-airlines-center-2027-07-21-7-30-pm/concert/18772728",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870455,
         "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-dallas-american-airlines-center---tx-7-21-2027/production/7870455",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1527,21 +1216,27 @@
         "event_id": "8369593",
         "url": "https://www.ticketliquidator.com/tickets/8369593/KPOP-Demon-Hunters-tickets-Wed-Jul-21-2027-American-Airlines-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107682216",
         "url": "https://www.stubhub.ie/kpop-demon-hunters-dallas-tickets-7-21-2027/event/107682216",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369593",
+        "url": "https://www.ticketnetwork.com/en/p/8369593",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pQmD65i",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T16:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369593/KPOP-Demon-Hunters-tickets-Wed-Jul-21-2027-American-Airlines-Center",
     "organizer_names": [
       "AEG LIVE"
@@ -1550,52 +1245,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-19T15:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T16:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "AAC Insider Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T20:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-24T03:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-06-24T03:00:00Z"
       },
@@ -1605,7 +1260,8 @@
         "end": "2027-07-09T22:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-dallas-tickets-7-21-2027/event/107682216"
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-dallas-tickets-7-21-2027/event/107682216",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369593"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-phoenix-16v0z_pj9g7lsu3",
@@ -1623,7 +1279,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-phoenix-arizona-07-24-2027/event/1900656997AF3352",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1654,12 +1310,25 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369596",
+        "url": "https://www.ticketnetwork.com/en/p/8369596",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369596",
+        "url": "https://www.ticketliquidator.com/tickets/8369596/KPOP-Demon-Hunters-tickets-Sat-Jul-24-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16v0Z_pJ9G7lSu3",
     "timezone": "America/Phoenix",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -1667,47 +1336,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-19T16:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T17:00:00Z",
-        "end": "2026-11-20T05:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T17:00:00Z",
-        "end": "2026-11-20T05:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T17:00:00Z",
-        "end": "2026-11-20T05:00:00Z"
-      },
-      {
-        "name": "Mortgage Matchup Center Presale",
-        "start": "2026-11-19T21:00:00Z",
-        "end": "2026-11-20T05:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T21:00:00Z",
-        "end": "2026-11-20T05:00:00Z"
-      },
-      {
-        "name": "Ticketmaster Presale",
-        "start": "2026-11-19T21:00:00Z",
-        "end": "2026-11-20T05:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-06-27T05:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-06-27T05:00:00Z"
       },
@@ -1716,7 +1350,9 @@
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-07-15T00:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369596",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369596/KPOP-Demon-Hunters-tickets-Sat-Jul-24-2027-Mortgage-Matchup-Center"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-tacoma-vvg1hz_p9ckjih",
@@ -1734,7 +1370,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-tacoma-washington-08-14-2027/event/0F006565CE4DCA3C",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1765,12 +1401,25 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369598",
+        "url": "https://www.ticketnetwork.com/en/p/8369598",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369598",
+        "url": "https://www.ticketliquidator.com/tickets/8369598/KPOP-Demon-Hunters-tickets-Sat-Aug-14-2027-Tacoma-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_p9CKjIH",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -1778,42 +1427,12 @@
     "genre": "Pop",
     "presales": [
       {
-        "name": "Mastercard VIP Package Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-19T17:45:00Z"
-      },
-      {
-        "name": "Mastercard Presale Tickets",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "VIP Package Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T22:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Venue/Ticketmaster/Radio Presales",
-        "start": "2026-11-19T22:00:00Z",
-        "end": "2026-11-20T06:00:00Z"
-      },
-      {
-        "name": "Mastercard Collection Tickets",
+        "name": "Mastercard Collection Front Row Tickets",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-07-18T05:00:00Z"
       },
       {
-        "name": "Mastercard World Legend",
+        "name": "The Mastercard Collection",
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-07-18T05:00:00Z"
       },
@@ -1822,7 +1441,9 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-08-05T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369598",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369598/KPOP-Demon-Hunters-tickets-Sat-Aug-14-2027-Tacoma-Dome"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-amsterdam-z698xzbpz16v0ozyff",
@@ -1840,7 +1461,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/1911030514?language=en-us",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1876,36 +1497,34 @@
         "event_id": "8369607",
         "url": "https://www.ticketliquidator.com/tickets/8369607/KPOP-Demon-Hunters-tickets-Wed-Sep-8-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369607",
+        "url": "https://www.ticketnetwork.com/en/p/8369607",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682223",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-amsterdam-ziggo-dome-8-9-2027/event/107682223",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0oZYff",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369607/KPOP-Demon-Hunters-tickets-Wed-Sep-8-2027-Ziggo-Dome",
     "organizer_names": [
       "Greenhouse Talent"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-18T09:00:00Z",
-        "end": "2026-11-19T21:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T09:00:00Z",
-        "end": "2026-11-19T21:00:00Z"
-      },
-      {
-        "name": "Greenhouse Talent Presale",
-        "start": "2026-11-19T13:00:00Z",
-        "end": "2026-11-19T21:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369607",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-amsterdam-ziggo-dome-8-9-2027/event/107682223"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-amsterdam-z698xzbpz1krbj60f",
@@ -1923,7 +1542,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/kpop-demon-hunters-golden-world-tour-tickets/798707908?language=en-us",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1959,36 +1578,34 @@
         "event_id": "8369608",
         "url": "https://www.ticketliquidator.com/tickets/8369608/KPOP-Demon-Hunters-tickets-Thu-Sep-9-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369608",
+        "url": "https://www.ticketnetwork.com/en/p/8369608",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682224",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-amsterdam-ziggo-dome-9-9-2027/event/107682224",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1krbj60F",
     "timezone": "Europe/Amsterdam",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369608/KPOP-Demon-Hunters-tickets-Thu-Sep-9-2027-Ziggo-Dome",
     "organizer_names": [
       "Greenhouse Talent"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-18T09:00:00Z",
-        "end": "2026-11-19T21:00:00Z"
-      },
-      {
-        "name": "FOR THE FANS Presale",
-        "start": "2026-11-19T09:00:00Z",
-        "end": "2026-11-19T21:00:00Z"
-      },
-      {
-        "name": "Greenhouse Talent Presale",
-        "start": "2026-11-19T13:00:00Z",
-        "end": "2026-11-19T21:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369608",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-amsterdam-ziggo-dome-9-9-2027/event/107682224"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-fornebu-z698xzb_z1k-p0apk",
@@ -2006,7 +1623,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/kpop-demon-hunters-golden-world-tour-tickets/856905953?language=en-us",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2037,33 +1654,31 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369611",
+        "url": "https://www.ticketnetwork.com/en/p/8369611",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369611",
+        "url": "https://www.ticketliquidator.com/tickets/8369611/KPOP-Demon-Hunters-tickets-Sat-Sep-25-2027-Unity-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z1k-p0APK",
     "timezone": "Europe/Oslo",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AEG Presents Norway AS"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-18T09:00:00Z",
-        "end": "2026-11-19T21:00:00Z"
-      },
-      {
-        "name": "For The Fans Presale",
-        "start": "2026-11-19T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      },
-      {
-        "name": "AEG Presale",
-        "start": "2026-11-19T13:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369611",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369611/KPOP-Demon-Hunters-tickets-Sat-Sep-25-2027-Unity-Arena"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-brussels-z698xzg2z1kup-z3o",
@@ -2081,7 +1696,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.be/event/kpop-demon-hunters-tickets/356840491",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2112,38 +1727,31 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369614",
+        "url": "https://www.ticketnetwork.com/en/p/8369614",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369614",
+        "url": "https://www.ticketliquidator.com/tickets/8369614/KPOP-Demon-Hunters-tickets-Sat-Oct-2-2027-ING-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kup-Z3o",
     "timezone": "Europe/Brussels",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Greenhouse Talent"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Mastercard® Presale",
-        "start": "2026-11-18T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      },
-      {
-        "name": "For The Fans-presale",
-        "start": "2026-11-19T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      },
-      {
-        "name": "ING Presale",
-        "start": "2026-11-19T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      },
-      {
-        "name": "Greenhouse Talent Presale",
-        "start": "2026-11-19T13:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369614",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369614/KPOP-Demon-Hunters-tickets-Sat-Oct-2-2027-ING-Arena"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-dublin-1avoz_pgksg3dqw",
@@ -2154,14 +1762,14 @@
     "country": "Ireland",
     "venue": "3Arena",
     "datetime_iso": "2027-10-09T13:00:00Z",
-    "tour_name": "",
+    "tour_name": "Golden World Tour 2027",
     "ticketmaster_event_id": "1800656CF54BB6B2",
     "ticketmaster_url": "https://www.ticketmaster.ie/kpop-demon-hunters-golden-world-tour-dublin-09-10-2027/event/1800656CF54BB6B2",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/kpop-demon-hunters-golden-world-tour-dublin-09-10-2027/event/1800656CF54BB6B2",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2192,40 +1800,33 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369617",
+        "url": "https://www.ticketnetwork.com/en/p/8369617",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369617",
+        "url": "https://www.ticketliquidator.com/tickets/8369617/KPOP-Demon-Hunters-tickets-Sat-Oct-9-2027-3Arena-Dublin",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvOZ_pGkSg3DQw",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
       "AIKEN PROMOTIONS"
     ],
     "ticket_limit": 8,
     "genre": "Pop",
-    "presales": [
-      {
-        "name": "Bank Of Ireland Mastercard Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Promoter Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Three+ Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "For the Fans Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369617",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369617/KPOP-Demon-Hunters-tickets-Sat-Oct-9-2027-3Arena-Dublin"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-glasgow-1adbz_pgkrybqvg",
@@ -2236,14 +1837,14 @@
     "country": "Great Britain",
     "venue": "OVO Hydro",
     "datetime_iso": "2027-10-12T17:00:00Z",
-    "tour_name": "",
+    "tour_name": "Golden World Tour",
     "ticketmaster_event_id": "3600656BF0E9AD0C",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-glasgow-12-10-2027/event/3600656BF0E9AD0C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-glasgow-ovo-hydro-10-12-2027/production/7871143",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-glasgow-12-10-2027/event/3600656BF0E9AD0C",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2262,11 +1863,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7871143,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-glasgow-ovo-hydro-10-12-2027/production/7871143",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2279,14 +1880,27 @@
         "event_id": "8369645",
         "url": "https://www.ticketliquidator.com/tickets/8369645/KPOP-Demon-Hunters-tickets-Tue-Oct-12-2027-OVO-Hydro",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369645",
+        "url": "https://www.ticketnetwork.com/en/p/8369645",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683580",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-glasgow-ovo-hydro-arena-glasgow-12-10-2027/event/107683580",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_pGkRYBQVG",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369645/KPOP-Demon-Hunters-tickets-Tue-Oct-12-2027-OVO-Hydro",
     "organizer_names": [
       "AEG PRESENTS",
@@ -2294,28 +1908,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Children's Music",
-    "presales": [
-      {
-        "name": "Mastercard Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-19T22:00:00Z"
-      },
-      {
-        "name": "OVO Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "For the Fans Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T14:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ]
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369645",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-glasgow-ovo-hydro-arena-glasgow-12-10-2027/event/107683580"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-birmingham-1aegz_pgkm7p-do",
@@ -2333,7 +1927,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-birmingham-16-10-2027/event/2300656DC49610E0",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2368,12 +1962,12 @@
     },
     "ticketmaster_discovery_event_id": "1AeGZ_pGkM7P-dO",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "genre": "Pop",
     "organizer_names": [
       "AEG PRESENTS"
-    ]
+    ],
+    "ticket_limit": 8
   },
   {
     "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkm7wjw0",
@@ -2388,10 +1982,10 @@
     "ticketmaster_event_id": "3500656DC4F66CA4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-22-10-2027/event/3500656DC4F66CA4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-london-the-o2---london-10-22-2027--theater-family/production/7870503",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-22-10-2027/event/3500656DC4F66CA4",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2410,11 +2004,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7870503,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-london-the-o2---london-10-22-2027--theater-family/production/7870503",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -2422,17 +2016,24 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682215",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-london-the-o2-arena-22-10-2027/event/107682215",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_pGkM7WJw0",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "genre": "Pop",
     "organizer_names": [
       "AEG PRESENTS"
     ],
-    "ticket_limit": 8
+    "ticket_limit": 8,
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-london-the-o2-arena-22-10-2027/event/107682215"
   },
   {
     "id": "tm-kpop-demon-hunters-2027-london-1adfz_pgkmklpyh",
@@ -2450,7 +2051,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-london-23-10-2027/event/3500656DC67D6E5B",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2485,12 +2086,832 @@
     },
     "ticketmaster_discovery_event_id": "1AdfZ_pGkMkLpyh",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "genre": "Pop",
     "organizer_names": [
       "AEG PRESENTS"
     ],
     "ticket_limit": 8
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-manchester-g5vhz_prka4i0",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2027-10-19T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00656BD3155B24",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-manchester-19-10-2027/event/1F00656BD3155B24",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-manchester-ao-arena-10-19-2027/production/7871142",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-manchester-19-10-2027/event/1F00656BD3155B24",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00656BD3155B24",
+        "discovery_event_id": "G5vHZ_pRKA4i0",
+        "url": "https://www.ticketmaster.co.uk/kpop-demon-hunters-golden-world-tour-manchester-19-10-2027/event/1F00656BD3155B24",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7871142,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-manchester-ao-arena-10-19-2027/production/7871142",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369646",
+        "url": "https://www.ticketnetwork.com/en/p/8369646",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369646",
+        "url": "https://www.ticketliquidator.com/tickets/8369646/KPOP-Demon-Hunters-tickets-Tue-Oct-19-2027-AO-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681001",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-manchester-manchester-ao-arena-19-10-2027/event/107681001",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_pRKA4i0",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "ASM T-A AO ARENA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369646",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369646/KPOP-Demon-Hunters-tickets-Tue-Oct-19-2027-AO-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-tickets-manchester-manchester-ao-arena-19-10-2027/event/107681001"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-newark-vv1aezk4pgkd6hbhj",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-06-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006565C76FA6E6",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-13-2027/event/02006565C76FA6E6",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/newark-new-jersey-prudential-center-2027-06-13-2-pm/concert/18839590",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-newark-prudential-center-6-13-2027/production/7907856",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-13-2027/event/02006565C76FA6E6",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006565C76FA6E6",
+        "discovery_event_id": "vv1AeZk4PGkd6hBhJ",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-newark-new-jersey-06-13-2027/event/02006565C76FA6E6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7907856,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-newark-prudential-center-6-13-2027/production/7907856",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8382021",
+        "url": "https://www.ticketnetwork.com/en/p/8382021",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8382021",
+        "url": "https://www.ticketliquidator.com/tickets/8382021/KPOP-Demon-Hunters-tickets-Sun-Jun-13-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107684247",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-newark-tickets-6-13-2027/event/107684247",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4PGkd6hBhJ",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Mastercard Collection Front Row Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-16T02:00:00Z"
+      },
+      {
+        "name": "The Mastercard Collection",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-16T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-04T02:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8382021",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8382021/KPOP-Demon-Hunters-tickets-Sun-Jun-13-2027-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-newark-tickets-6-13-2027/event/107684247"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-columbus-vv1aazk4pgkdbznja",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Schottenstein Center",
+    "datetime_iso": "2027-06-15T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006565D8E2A709",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-15-2027/event/05006565D8E2A709",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-06-15-7-30-pm/concert/18838896",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-columbus-value-city-arena-at-schottenstein-center-6-15-2027/production/7907072",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-15-2027/event/05006565D8E2A709",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006565D8E2A709",
+        "discovery_event_id": "vv1AAZk4PGkdbznja",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-columbus-ohio-06-15-2027/event/05006565D8E2A709",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7907072,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-columbus-value-city-arena-at-schottenstein-center-6-15-2027/production/7907072",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4PGkdbznja",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Mastercard Collection Front Row Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-20T02:00:00Z"
+      },
+      {
+        "name": "The Mastercard Collection",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-05-20T02:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-06-05T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-chicago-vv178z_pgkra4jvj",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "KPop Demon Hunters Golden World Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-06-20T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400656BC955CD1C",
+    "ticketmaster_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-20-2027/event/0400656BC955CD1C",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/chicago-illinois-united-center-2027-06-20-2-pm/concert/18838894",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-chicago-united-center-6-20-2027--theater-family/production/7906857",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-20-2027/event/0400656BC955CD1C",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400656BC955CD1C",
+        "discovery_event_id": "vv178Z_pGkRa4jVj",
+        "url": "https://www.ticketmaster.com/kpop-demon-hunters-golden-world-tour-chicago-illinois-06-20-2027/event/0400656BC955CD1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7906857,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-chicago-united-center-6-20-2027--theater-family/production/7906857",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381708",
+        "url": "https://www.ticketnetwork.com/en/p/8381708",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381708",
+        "url": "https://www.ticketliquidator.com/tickets/8381708/KPOP-Demon-Hunters-tickets-Sun-Jun-20-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107684222",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-chicago-tickets-6-20-2027/event/107684222",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_pGkRa4jVj",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG - TICKETING"
+    ],
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Mastercard Collection Front Row Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-24T03:00:00Z"
+      },
+      {
+        "name": "The Mastercard Collection",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-05-24T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-06-15T22:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381708",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381708/KPOP-Demon-Hunters-tickets-Sun-Jun-20-2027-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-chicago-tickets-6-20-2027/event/107684222"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-ontario-z7r9jz1aaa_zm",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Ontario",
+    "country": "United States Of America",
+    "venue": "Toyota Arena-CA",
+    "datetime_iso": "2027-08-05T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_ZM",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/ontario-california-toyota-arena-ontario-2027-08-04-7-30-pm/concert/18772709",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-ontario-toyota-arena---ca-8-4-2027--theater-family/production/7870541",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_ZM",
+        "discovery_event_id": "Z7r9jZ1AAA_ZM",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18772709,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/ontario-california-toyota-arena-ontario-2027-08-04-7-30-pm/concert/18772709",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7870541,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-ontario-toyota-arena---ca-8-4-2027--theater-family/production/7870541",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369633",
+        "url": "https://www.ticketnetwork.com/en/p/8369633",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369633",
+        "url": "https://www.ticketliquidator.com/tickets/8369633/KPOP-Demon-Hunters-tickets-Wed-Aug-4-2027-Toyota-Arena-Ontario",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682218",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-ontario-tickets-8-4-2027/event/107682218",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_ZM",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369633",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369633/KPOP-Demon-Hunters-tickets-Wed-Aug-4-2027-Toyota-Arena-Ontario",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-ontario-tickets-8-4-2027/event/107682218"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-sunrise-z7r9jz1aaa4-e",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2027-07-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4-e",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/sunrise-florida-amerant-bank-arena-2027-07-14-7-30-pm/concert/18744717",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-sunrise-amerant-bank-arena-7-14-2027--theater-family/production/7870538",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4-e",
+        "discovery_event_id": "Z7r9jZ1AAA4-e",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18744717,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/sunrise-florida-amerant-bank-arena-2027-07-14-7-30-pm/concert/18744717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7870538,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-sunrise-amerant-bank-arena-7-14-2027--theater-family/production/7870538",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369628",
+        "url": "https://www.ticketliquidator.com/tickets/8369628/KPOP-Demon-Hunters-tickets-Wed-Jul-14-2027-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683570",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-sunrise-tickets-7-14-2027/event/107683570",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4-e",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369628/KPOP-Demon-Hunters-tickets-Wed-Jul-14-2027-Amerant-Bank-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-sunrise-tickets-7-14-2027/event/107683570"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-los-angeles-z7r9jz1aaaf4w",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-07-31T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAf4w",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-30-7-30-pm/concert/18772706",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAf4w",
+        "discovery_event_id": "Z7r9jZ1AAAf4w",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18772706,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-30-7-30-pm/concert/18772706",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369629",
+        "url": "https://www.ticketliquidator.com/tickets/8369629/KPOP-Demon-Hunters-tickets-Fri-Jul-30-2027-Cryptocom-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681011",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-los-angeles-tickets-7-30-2027/event/107681011",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf4w",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369629/KPOP-Demon-Hunters-tickets-Fri-Jul-30-2027-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-los-angeles-tickets-7-30-2027/event/107681011"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-los-angeles-z7r9jz1aaaf4v",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-07-31T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAf4V",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-31-2-pm/concert/18772708",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAf4V",
+        "discovery_event_id": "Z7r9jZ1AAAf4V",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18772708,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-31-2-pm/concert/18772708",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf4V",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-las-vegas-z7r9jz1aaa_kp",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2027-08-07T21:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_kp",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/las-vegas-nevada-t-mobile-arena-2027-08-07-2-pm/concert/18772710",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_kp",
+        "discovery_event_id": "Z7r9jZ1AAA_kp",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18772710,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/las-vegas-nevada-t-mobile-arena-2027-08-07-2-pm/concert/18772710",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_kp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-oakland-z7r9jz1aaa_ff",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-08-11T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_FF",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-10-7-30-pm/concert/18772716",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-oakland-oakland-arena-8-10-2027--theater-family/production/7870544",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_FF",
+        "discovery_event_id": "Z7r9jZ1AAA_FF",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18772716,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-10-7-30-pm/concert/18772716",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7870544,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-oakland-oakland-arena-8-10-2027--theater-family/production/7870544",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8370359",
+        "url": "https://www.ticketliquidator.com/tickets/8370359/KPOP-Demon-Hunters-tickets-Tue-Aug-10-2027-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681013",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-oakland-tickets-8-10-2027/event/107681013",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_FF",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370359/KPOP-Demon-Hunters-tickets-Tue-Aug-10-2027-Oakland-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-oakland-tickets-8-10-2027/event/107681013"
+  },
+  {
+    "id": "tm-kpop-demon-hunters-2027-oakland-z7r9jz1aaa_fa",
+    "artist_slug": "kpop-demon-hunters",
+    "artist_name": "KPop Demon Hunters",
+    "event_name": "K-Pop Demon Hunters",
+    "city": "Oakland",
+    "country": "United States Of America",
+    "venue": "Oakland Arena",
+    "datetime_iso": "2027-08-12T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_Fa",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-11-7-30-pm/concert/18772717",
+    "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-oakland-oakland-arena-8-11-2027--theater-family/production/7870545",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_Fa",
+        "discovery_event_id": "Z7r9jZ1AAA_Fa",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18772717,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-11-7-30-pm/concert/18772717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7870545,
+        "url": "https://www.vividseats.com/kpop-demon-hunters-tickets-oakland-oakland-arena-8-11-2027--theater-family/production/7870545",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8370360",
+        "url": "https://www.ticketliquidator.com/tickets/8370360/KPOP-Demon-Hunters-tickets-Wed-Aug-11-2027-Oakland-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681014",
+        "url": "https://www.stubhub.ie/kpop-demon-hunters-oakland-tickets-8-11-2027/event/107681014",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_Fa",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370360/KPOP-Demon-Hunters-tickets-Wed-Aug-11-2027-Oakland-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/kpop-demon-hunters-oakland-tickets-8-11-2027/event/107681014"
   }
 ]

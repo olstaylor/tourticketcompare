@@ -11,7 +11,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C00652BA1D6AEB7",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/sacramento-california-golden-1-center-2027-02-21-8-pm/concert/18592286",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-sacramento-california-11-07-2026/event/1C00652BA1D6AEB7",
@@ -51,21 +51,21 @@
         "event_id": "8267874",
         "url": "https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sun-Feb-21-2027-Golden-1-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107668612",
+        "url": "https://www.stubhub.ie/karan-aujla-sacramento-tickets-2-21-2027/event/107668612",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8267874",
         "url": "https://www.ticketnetwork.com/en/p/8267874",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -73,7 +73,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267874/Karan-Aujla-tickets-Sun-Feb-21-2027-Golden-1-Center",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-sacramento-tickets-2-21-2027/event/107668612",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -96,7 +96,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2C00652AF5740D18",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/los-angeles-california-crypto-com-arena-2027-02-19-8-pm/concert/18592285",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-los-angeles-california-11-09-2026/event/2C00652AF5740D18",
@@ -136,21 +136,21 @@
         "event_id": "8267866",
         "url": "https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Fri-Feb-19-2027-Cryptocom-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "107668616",
+        "url": "https://www.stubhub.ie/karan-aujla-los-angeles-tickets-2-19-2027/event/107668616",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8267866",
         "url": "https://www.ticketnetwork.com/en/p/8267866",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -158,7 +158,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267866/Karan-Aujla-tickets-Fri-Feb-19-2027-Cryptocom-Arena",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-los-angeles-tickets-2-19-2027/event/107668616",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -188,7 +188,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00652BD99CF27F",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/dallas-texas-american-airlines-center-2027-02-03-8-pm/concert/18592287",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-dallas-texas-11-13-2026/event/0C00652BD99CF27F",
@@ -228,21 +228,21 @@
         "event_id": "8267876",
         "url": "https://www.ticketliquidator.com/tickets/8267876/Karan-Aujla-tickets-Wed-Feb-3-2027-American-Airlines-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": "107669422",
+        "url": "https://www.stubhub.ie/karan-aujla-dallas-tickets-2-3-2027/event/107669422",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8267876",
         "url": "https://www.ticketnetwork.com/en/p/8267876",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -250,7 +250,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267876/Karan-Aujla-tickets-Wed-Feb-3-2027-American-Airlines-Center",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-dallas-tickets-2-3-2027/event/107669422",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -280,7 +280,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E00652BB098CCA0",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/atlanta-georgia-state-farm-arena-1-2027-02-11-8-pm/concert/18592290",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-atlanta-georgia-11-16-2026/event/0E00652BB098CCA0",
@@ -320,21 +320,21 @@
         "event_id": "8267877",
         "url": "https://www.ticketliquidator.com/tickets/8267877/Karan-Aujla-tickets-Thu-Feb-11-2027-State-Farm-Arena-GA",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": "107668599",
+        "url": "https://www.stubhub.ie/karan-aujla-atlanta-tickets-2-11-2027/event/107668599",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8267877",
         "url": "https://www.ticketnetwork.com/en/p/8267877",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -342,7 +342,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267877/Karan-Aujla-tickets-Thu-Feb-11-2027-State-Farm-Arena-GA",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-atlanta-tickets-2-11-2027/event/107668599",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -372,7 +372,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3B00652A0114E8EF",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/new-york-new-york-madison-square-garden-2027-02-08-8-pm/concert/18592288",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-new-york-new-york-11-18-2026/event/3B00652A0114E8EF",
@@ -412,21 +412,21 @@
         "event_id": "8267865",
         "url": "https://www.ticketliquidator.com/tickets/8267865/Karan-Aujla-tickets-Mon-Feb-8-2027-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": "107669421",
+        "url": "https://www.stubhub.ie/karan-aujla-new-york-tickets-2-8-2027/event/107669421",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8267865",
         "url": "https://www.ticketnetwork.com/en/p/8267865",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -434,7 +434,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267865/Karan-Aujla-tickets-Mon-Feb-8-2027-Madison-Square-Garden",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-new-york-tickets-2-8-2027/event/107669421",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -468,7 +468,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006529DB4CD0CB",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/washington-district-of-columbia-capital-one-arena-2027-02-06-8-pm/concert/18592289",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-washington-district-of-columbia-11-20-2026/event/15006529DB4CD0CB",
@@ -508,21 +508,21 @@
         "event_id": "8267878",
         "url": "https://www.ticketliquidator.com/tickets/8267878/Karan-Aujla-tickets-Sat-Feb-6-2027-Capital-One-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": "107668604",
+        "url": "https://www.stubhub.ie/karan-aujla-washington-tickets-2-6-2027/event/107668604",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8267878",
         "url": "https://www.ticketnetwork.com/en/p/8267878",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -530,7 +530,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267878/Karan-Aujla-tickets-Sat-Feb-6-2027-Capital-One-Arena",
-    "stubhub_international_url": "",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-washington-tickets-2-6-2027/event/107668604",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -553,7 +553,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "04006564BDE784EF",
     "ticketmaster_url": "https://www.ticketmaster.com/karan-aujla-chicago-illinois-02-13-2027/event/04006564BDE784EF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/karan-aujla-tickets/chicago-illinois-united-center-2027-02-13-8-pm/concert/18753253",
     "vividseats_url": "https://www.vividseats.com/karan-aujla-tickets-chicago-united-center-2-13-2027/production/7833531",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/karan-aujla-chicago-illinois-02-13-2027/event/04006564BDE784EF",
@@ -569,17 +569,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753253,
+        "url": "https://seatgeek.com/karan-aujla-tickets/chicago-illinois-united-center-2027-02-13-8-pm/concert/18753253",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833531,
         "url": "https://www.vividseats.com/karan-aujla-tickets-chicago-united-center-2-13-2027/production/7833531",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -593,14 +593,21 @@
         "event_id": "8362140",
         "url": "https://www.ticketliquidator.com/tickets/8362140/Karan-Aujla-tickets-Sat-Feb-13-2027-United-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8362140",
         "url": "https://www.ticketnetwork.com/en/p/8362140",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680711",
+        "url": "https://www.stubhub.ie/karan-aujla-chicago-tickets-2-13-2027/event/107680711",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -620,6 +627,7 @@
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362140/Karan-Aujla-tickets-Sat-Feb-13-2027-United-Center",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362140"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362140",
+    "stubhub_international_url": "https://www.stubhub.ie/karan-aujla-chicago-tickets-2-13-2027/event/107680711"
   }
 ]

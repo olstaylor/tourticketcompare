@@ -7,7 +7,7 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 import { readSource, githubClient } from './propose-blog-ideas.mjs';
 import { splitDocument } from './lib/content-markdown.mjs';
 import { MAX_RUN_USD, selectArticle, selectTourGuides, withNewTourGuides, buildEvidence, researchEvidence, anthropicClient, generateArticle, listEditorialPrs, reserveTopic, prBody, spentUsd,
-  MAX_DRAFTS_PER_RUN, MAX_OPEN_DRAFTS, PREFIX } from './lib/blog-drafting.mjs';
+  MAX_DRAFTS_PER_RUN, MAX_OPEN_DRAFTS, MAX_DRAFTS_PER_WEEK, WEEK_MS, PREFIX } from './lib/blog-drafting.mjs';
 import { readPriorityRows } from './lib/show-priority-store.mjs';
 import { readDraftPrices } from './lib/draft-prices.mjs';
 
@@ -68,8 +68,13 @@ export async function draftOnce({ source, issue, gh, mode, snapshot, rules, apiK
   // Missing credentials must not reserve a branch or make a provider call.
   anthropicClient({ apiKey, fetchImpl });
   const open = prs.filter((p) => p.state === 'open' && p.head?.ref?.startsWith(PREFIX)).length;
-  const slots = Math.min(maxDrafts, MAX_OPEN_DRAFTS - open);
+  let slots = Math.min(maxDrafts, MAX_OPEN_DRAFTS - open);
   if (slots <= 0) return { mode, outcome: 'open-draft-limit-reached', open, rejected: selection.rejected };
+  if (!artists?.length) {
+    const recent = prs.filter((p) => p.head?.ref?.startsWith(PREFIX) && now - Date.parse(p.created_at || 0) < WEEK_MS).length;
+    slots = Math.min(slots, MAX_DRAFTS_PER_WEEK - recent);
+    if (slots <= 0) return { mode, outcome: 'weekly-draft-limit-reached', recent, rejected: selection.rejected };
+  }
   const drafts = [];
   let paid = 0;
   for (const selected of selection.candidates) {

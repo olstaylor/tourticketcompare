@@ -129,11 +129,11 @@
     "country": "United States Of America",
     "venue": "Moody Center ATX",
     "datetime_iso": "2026-11-21T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Legal Tour 2026",
     "ticketmaster_event_id": "3A00646DA0949E2B",
     "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
     "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/austin-texas-moody-center-atx-2026-11-20-7-30-pm/concert/18142345",
-    "vividseats_url": "https://www.vividseats.com/ty-myers-tickets-austin-moody-center-atx-11-20-2026--concerts-country-and-folk/production/6828458",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-austin-texas-11-20-2026/event/3A00646DA0949E2B",
     "last_verified_at": "2026-11-16",
@@ -151,15 +151,15 @@
         "event_id": 18142345,
         "url": "https://seatgeek.com/ty-myers-tickets/austin-texas-moody-center-atx-2026-11-20-7-30-pm/concert/18142345",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6828458,
-        "url": "https://www.vividseats.com/ty-myers-tickets-austin-moody-center-atx-11-20-2026--concerts-country-and-folk/production/6828458",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -169,32 +169,32 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7830817",
-        "url": "https://www.ticketliquidator.com/tickets/7830817/Ty-Myers-tickets-Fri-Nov-20-2026-Moody-Center-ATX",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107165656",
-        "url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7830817",
         "url": "https://www.ticketnetwork.com/en/p/7830817",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_kUOPazl",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7830817/Ty-Myers-tickets-Fri-Nov-20-2026-Moody-Center-ATX",
-    "stubhub_international_url": "https://www.stubhub.ie/ty-myers-austin-tickets-11-20-2026/event/107165656",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -211,7 +211,7 @@
     "country": "United States Of America",
     "venue": "Ariat Arena",
     "datetime_iso": "2026-11-22T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Legal Tour 2026",
     "ticketmaster_event_id": "0C006472BB99A9EB",
     "ticketmaster_url": "https://www.ticketmaster.com/ty-myers-the-legal-tour-2026-fort-worth-texas-11-21-2026/event/0C006472BB99A9EB",
     "seatgeek_url": "https://seatgeek.com/ty-myers-tickets/fort-worth-texas-dickies-arena-2026-11-21-7-30-pm/concert/18142347",
@@ -233,7 +233,7 @@
         "event_id": 18142347,
         "url": "https://seatgeek.com/ty-myers-tickets/fort-worth-texas-dickies-arena-2026-11-21-7-30-pm/concert/18142347",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -254,21 +254,21 @@
         "event_id": "7830819",
         "url": "https://www.ticketliquidator.com/tickets/7830819/Ty-Myers-tickets-Sat-Nov-21-2026-Ariat-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107167142",
         "url": "https://www.stubhub.ie/ty-myers-fort-worth-tickets-11-21-2026/event/107167142",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "7830819",
         "url": "https://www.ticketnetwork.com/en/p/7830819",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },

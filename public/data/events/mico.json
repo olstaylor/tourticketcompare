@@ -1429,7 +1429,7 @@
     "country": "Spain",
     "venue": "Sala Razzmatazz 1",
     "datetime_iso": "2027-01-18T19:30:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "566939805",
     "ticketmaster_url": "https://www.ticketmaster.es/event/mico-inbetween-tour-tickets/566939805?language=en-us",
     "seatgeek_url": "",
@@ -1529,7 +1529,7 @@
         "event_id": "107673345",
         "url": "https://www.stubhub.ie/mico-tickets-amsterdam-melkweg-29-1-2027/event/107673345",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1591,7 +1591,7 @@
         "event_id": "107672867",
         "url": "https://www.stubhub.ie/mico-tickets-manchester-manchester-academy-1-2-2027/event/107672867",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1654,7 +1654,7 @@
         "event_id": "107672270",
         "url": "https://www.stubhub.ie/mico-tickets-london-the-roundhouse-4-2-2027/event/107672270",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1733,7 +1733,7 @@
     "country": "United States Of America",
     "venue": "The Underground",
     "datetime_iso": "2027-02-21T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "2D0065469A2791D3",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-charlotte-north-carolina-02-20-2027/event/2D0065469A2791D3",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-02-20-8-pm/concert/18667445",
@@ -1755,14 +1755,14 @@
         "event_id": 18667445,
         "url": "https://seatgeek.com/mico-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-02-20-8-pm/concert/18667445",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679627,
         "url": "https://www.vividseats.com/mico-tickets-charlotte-the-underground-at-the-fillmore-charlotte-2-20-2027--concerts-rock/production/7679627",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1776,14 +1776,14 @@
         "event_id": "8315048",
         "url": "https://www.ticketnetwork.com/en/p/8315048",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315048",
         "url": "https://www.ticketliquidator.com/tickets/8315048/Mico-tickets-Sat-Feb-20-2027-The-Underground-Charlotte",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1814,7 +1814,7 @@
     "country": "United States Of America",
     "venue": "The Charleston Music Hall",
     "datetime_iso": "2027-02-22T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "2D006548AF3C1E94",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-charleston-south-carolina-02-21-2027/event/2D006548AF3C1E94",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/charleston-south-carolina-charleston-music-hall-2027-02-21-8-pm/concert/18665962",
@@ -1836,14 +1836,14 @@
         "event_id": 18665962,
         "url": "https://seatgeek.com/mico-tickets/charleston-south-carolina-charleston-music-hall-2027-02-21-8-pm/concert/18665962",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679097,
         "url": "https://www.vividseats.com/mico-tickets-charleston-charleston-music-hall-2-21-2027/production/7679097",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1857,14 +1857,14 @@
         "event_id": "8315049",
         "url": "https://www.ticketnetwork.com/en/p/8315049",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315049",
         "url": "https://www.ticketliquidator.com/tickets/8315049/Mico-tickets-Sun-Feb-21-2027-Charleston-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1895,7 +1895,7 @@
     "country": "United States Of America",
     "venue": "Revolution Live",
     "datetime_iso": "2027-02-26T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "0D006546BED7B6DC",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-ft-lauderdale-florida-02-25-2027/event/0D006546BED7B6DC",
     "seatgeek_url": "",
@@ -1953,7 +1953,7 @@
     "country": "United States Of America",
     "venue": "Jannus Live",
     "datetime_iso": "2027-02-27T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "0D00654898D97CDA",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-st-petersburg-florida-02-26-2027/event/0D00654898D97CDA",
     "seatgeek_url": "",
@@ -1996,14 +1996,14 @@
         "event_id": "8315051",
         "url": "https://www.ticketnetwork.com/en/p/8315051",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315051",
         "url": "https://www.ticketliquidator.com/tickets/8315051/Mico-tickets-Fri-Feb-26-2027-Jannus-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2028,7 +2028,7 @@
     "country": "United States Of America",
     "venue": "House of Blues Orlando",
     "datetime_iso": "2027-02-28T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "2200654600DD9A42",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-orlando-florida-02-27-2027/event/2200654600DD9A42",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/orlando-florida-house-of-blues-orlando-2027-02-27-7-pm/concert/18666323",
@@ -2050,14 +2050,14 @@
         "event_id": 18666323,
         "url": "https://seatgeek.com/mico-tickets/orlando-florida-house-of-blues-orlando-2027-02-27-7-pm/concert/18666323",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679204,
         "url": "https://www.vividseats.com/mico-tickets-lake-buena-vista-house-of-blues-orlando-2-27-2027/production/7679204",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2071,14 +2071,14 @@
         "event_id": "8315052",
         "url": "https://www.ticketnetwork.com/en/p/8315052",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315052",
         "url": "https://www.ticketliquidator.com/tickets/8315052/Mico-tickets-Sat-Feb-27-2027-House-Of-Blues-Orlando",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2103,7 +2103,7 @@
     "country": "United States Of America",
     "venue": "Iron City",
     "datetime_iso": "2027-03-02T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "20006548F3C8876E",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-birmingham-alabama-03-01-2027/event/20006548F3C8876E",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/birmingham-alabama-iron-city-2027-03-01-8-pm/concert/18667195",
@@ -2125,14 +2125,14 @@
         "event_id": 18667195,
         "url": "https://seatgeek.com/mico-tickets/birmingham-alabama-iron-city-2027-03-01-8-pm/concert/18667195",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679258,
         "url": "https://www.vividseats.com/mico-tickets-birmingham-iron-city-birmingham-3-1-2027/production/7679258",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2146,14 +2146,14 @@
         "event_id": "8315053",
         "url": "https://www.ticketnetwork.com/en/p/8315053",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315053",
         "url": "https://www.ticketliquidator.com/tickets/8315053/Mico-tickets-Mon-Mar-1-2027-Iron-City-Birmingham",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2174,7 +2174,7 @@
     "country": "United States Of America",
     "venue": "House of Blues New Orleans",
     "datetime_iso": "2027-03-03T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "1B006545C4AE315F",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-new-orleans-louisiana-03-02-2027/event/1B006545C4AE315F",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2027-03-02-7-pm/concert/18666337",
@@ -2196,14 +2196,14 @@
         "event_id": 18666337,
         "url": "https://seatgeek.com/mico-tickets/new-orleans-louisiana-house-of-blues-new-orleans-2027-03-02-7-pm/concert/18666337",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679270,
         "url": "https://www.vividseats.com/mico-tickets-new-orleans-house-of-blues-new-orleans-3-2-2027/production/7679270",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2217,14 +2217,14 @@
         "event_id": "8315055",
         "url": "https://www.ticketnetwork.com/en/p/8315055",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315055",
         "url": "https://www.ticketliquidator.com/tickets/8315055/Mico-tickets-Tue-Mar-2-2027-House-Of-Blues-New-Orleans",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2254,7 +2254,7 @@
     "country": "United States Of America",
     "venue": "Old National Centre",
     "datetime_iso": "2027-03-10T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "05006546A359609F",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-inbetween-tour-indianapolis-indiana-03-09-2027/event/05006546A359609F",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/indianapolis-indiana-the-deluxe-at-old-national-centre-2027-03-09-8-pm/concert/18666757",
@@ -2276,14 +2276,14 @@
         "event_id": 18666757,
         "url": "https://seatgeek.com/mico-tickets/indianapolis-indiana-the-deluxe-at-old-national-centre-2027-03-09-8-pm/concert/18666757",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679637,
         "url": "https://www.vividseats.com/mico-tickets-indianapolis-deluxe-at-old-national-centre-3-9-2027--concerts-rock/production/7679637",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2297,14 +2297,14 @@
         "event_id": "8315056",
         "url": "https://www.ticketnetwork.com/en/p/8315056",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315056",
         "url": "https://www.ticketliquidator.com/tickets/8315056/Mico-tickets-Tue-Mar-9-2027-The-Deluxe-at-Old-National-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2335,10 +2335,10 @@
     "country": "United States Of America",
     "venue": "Bogart's",
     "datetime_iso": "2027-03-13T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "16006544C2C1714C",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/cincinnati-ohio-bogarts-cincinnati-2027-03-12-7-pm/concert/18666222",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
@@ -2400,19 +2400,19 @@
     "id": "tm-mico-2027-praha-1-z698xzu0z16vxkonfi",
     "artist_slug": "mico",
     "artist_name": "Mico",
-    "event_name": "MICO - IN:BETWEEN TOUR",
+    "event_name": "MICO - IN:BETWEEN TOUR, support: Stevie Bill",
     "city": "Praha 1",
     "country": "Czech Republic",
     "venue": "Roxy",
     "datetime_iso": "2027-01-25T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR, support: Stevie Bill",
     "ticketmaster_event_id": "1886823228",
     "ticketmaster_url": "https://www.ticketmaster.cz/event/mico-inbetween-tour-tickets/1886823228?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.cz/event/mico-inbetween-tour-tickets/1886823228?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2462,7 +2462,7 @@
     "country": "Denmark",
     "venue": "VEGA - Musikkens Hus, Store VEGA",
     "datetime_iso": "2027-01-27T19:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "1717984081",
     "ticketmaster_url": "https://www.ticketmaster.dk/event/mico-inbetween-tour-tickets/1717984081?language=en-us",
     "seatgeek_url": "",
@@ -2541,14 +2541,14 @@
         "event_id": 18746851,
         "url": "https://seatgeek.com/mico-tickets/cleveland-ohio-globe-iron-2027-03-13-8-pm/concert/18746851",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679641,
         "url": "https://www.vividseats.com/mico-tickets-cleveland-globe-iron-3-13-2027--concerts-rock/production/7679641",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2562,14 +2562,14 @@
         "event_id": "8315361",
         "url": "https://www.ticketnetwork.com/en/p/8315361",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315361",
         "url": "https://www.ticketliquidator.com/tickets/8315361/Mico-tickets-Sat-Mar-13-2027-Globe-Iron",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2589,7 +2589,7 @@
     "country": "United States Of America",
     "venue": "FIVE",
     "datetime_iso": "2027-02-24T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "Z7r9jZ1AA7a4E",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7a4E",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/jacksonville-florida-five-jacksonville-2027-02-23-8-pm/concert/18685771",
@@ -2611,14 +2611,14 @@
         "event_id": 18685771,
         "url": "https://seatgeek.com/mico-tickets/jacksonville-florida-five-jacksonville-2027-02-23-8-pm/concert/18685771",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7687343,
         "url": "https://www.vividseats.com/mico-tickets-jacksonville-five-2-23-2027/production/7687343",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2632,14 +2632,14 @@
         "event_id": "8315358",
         "url": "https://www.ticketnetwork.com/en/p/8315358",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315358",
         "url": "https://www.ticketliquidator.com/tickets/8315358/Mico-tickets-Tue-Feb-23-2027-FIVE",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2662,7 +2662,7 @@
     "country": "United States Of America",
     "venue": "Granada - KS",
     "datetime_iso": "2027-03-07T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "Z7r9jZ1AA7A_g",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7A_g",
     "seatgeek_url": "",
@@ -2769,7 +2769,7 @@
     "country": "United States Of America",
     "venue": "Newport Music Hall",
     "datetime_iso": "2027-03-11T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "Z7r9jZ1AA7_pZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7_pZ",
     "seatgeek_url": "https://seatgeek.com/mico-tickets/columbus-ohio-newport-music-hall-2027-03-10-7-pm/concert/18702224",
@@ -2791,14 +2791,14 @@
         "event_id": 18702224,
         "url": "https://seatgeek.com/mico-tickets/columbus-ohio-newport-music-hall-2027-03-10-7-pm/concert/18702224",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679835,
         "url": "https://www.vividseats.com/mico-tickets-columbus-newport-music-hall-3-10-2027/production/7679835",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2812,14 +2812,14 @@
         "event_id": "8315360",
         "url": "https://www.ticketnetwork.com/en/p/8315360",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315360",
         "url": "https://www.ticketliquidator.com/tickets/8315360/Mico-tickets-Wed-Mar-10-2027-Newport-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2842,7 +2842,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA73Ap",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-02-19-8-pm/concert/18844951",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
@@ -2858,11 +2858,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844951,
+        "url": "https://seatgeek.com/mico-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-02-19-8-pm/concert/18844951",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2882,14 +2882,14 @@
         "event_id": "8315394",
         "url": "https://www.ticketnetwork.com/en/p/8315394",
         "verified": true,
-        "last_verified_at": "2026-11-04",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315394",
         "url": "https://www.ticketliquidator.com/tickets/8315394/Mico-tickets-Fri-Feb-19-2027-Cats-Cradle",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },

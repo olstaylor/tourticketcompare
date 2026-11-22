@@ -422,14 +422,14 @@
     "country": "Finland",
     "venue": "Helsinki Olympic Stadium",
     "datetime_iso": "2027-06-12T14:00:00Z",
-    "tour_name": "",
+    "tour_name": "TAKE COVER TOUR 2027",
     "ticketmaster_event_id": "957011023",
     "ticketmaster_url": "https://www.ticketmaster.fi/event/foo-fighters-take-cover-tour-2027-tickets/957011023?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/foo-fighters-take-cover-tour-2027-tickets/957011023?language=en-us",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -460,38 +460,23 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681044",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-helsinki-olympic-stadium-12-6-2027/event/107681044",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ1kP9ZoZN",
     "timezone": "Europe/Helsinki",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T08:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation Finland Oy"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T08:00:00Z",
-        "end": "2026-11-20T07:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-19T08:00:00Z",
-        "end": "2026-11-20T07:00:00Z"
-      },
-      {
-        "name": "Mastercard® Presale",
-        "start": "2026-11-19T08:00:00Z",
-        "end": "2026-11-20T07:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T07:00:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-helsinki-olympic-stadium-12-6-2027/event/107681044"
   },
   {
     "id": "tm-foo-fighters-2027-k-benhavn-sv-z698xzc4z16vbe4w_s",
@@ -502,14 +487,14 @@
     "country": "Denmark",
     "venue": "Valbyparken",
     "datetime_iso": "2027-06-15T18:00:00Z",
-    "tour_name": "",
+    "tour_name": "TAKE COVER TOUR 2027",
     "ticketmaster_event_id": "1602572671",
     "ticketmaster_url": "https://www.ticketmaster.dk/event/foo-fighters-take-cover-tour-2027-tickets/1602572671?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.dk/event/foo-fighters-take-cover-tour-2027-tickets/1602572671?language=en-us",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -544,34 +529,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZC4Z16vbe4w_s",
     "timezone": "Europe/Copenhagen",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      },
-      {
-        "name": "Mastercard® Presale",
-        "start": "2026-11-18T11:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      },
-      {
-        "name": "Live Nation Presale",
-        "start": "2026-11-19T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T11:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-foo-fighters-2027-london-1aegz_pgknyaowd",
@@ -582,14 +544,14 @@
     "country": "Great Britain",
     "venue": "Wembley Stadium",
     "datetime_iso": "2027-09-09T15:00:00Z",
-    "tour_name": "",
+    "tour_name": "TAKE COVER TOUR 2027",
     "ticketmaster_event_id": "2300656AB0260F7B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-9-2027--concerts-rock/production/7879721",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-09-09-2027/event/2300656AB0260F7B",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -608,11 +570,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7879721,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-9-2027--concerts-rock/production/7879721",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -625,32 +587,35 @@
         "event_id": "8372601",
         "url": "https://www.ticketliquidator.com/tickets/8372601/Foo-Fighters-tickets-Thu-Sep-9-2027-Wembley-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372601",
+        "url": "https://www.ticketnetwork.com/en/p/8372601",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681039",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-9-9-2027/event/107681039",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_pGknYaOWD",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372601/Foo-Fighters-tickets-Thu-Sep-9-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372601/Foo-Fighters-tickets-Thu-Sep-9-2027-Wembley-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372601",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-9-9-2027/event/107681039"
   },
   {
     "id": "tm-foo-fighters-2027-london-1aegz_pgky5a3fo",
@@ -661,14 +626,14 @@
     "country": "Great Britain",
     "venue": "Wembley Stadium",
     "datetime_iso": "2027-09-11T15:00:00Z",
-    "tour_name": "",
+    "tour_name": "TAKE COVER TOUR 2027",
     "ticketmaster_event_id": "2300656C0B252511",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-11-2027--concerts-rock/production/7879767",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-london-11-09-2027/event/2300656C0B252511",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -687,11 +652,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7879767,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-london-wembley-stadium-9-11-2027--concerts-rock/production/7879767",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -704,32 +669,35 @@
         "event_id": "8372602",
         "url": "https://www.ticketliquidator.com/tickets/8372602/Foo-Fighters-tickets-Sat-Sep-11-2027-Wembley-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372602",
+        "url": "https://www.ticketnetwork.com/en/p/8372602",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681040",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-11-9-2027/event/107681040",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeGZ_pGkY5a3fo",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372602/Foo-Fighters-tickets-Sat-Sep-11-2027-Wembley-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372602/Foo-Fighters-tickets-Sat-Sep-11-2027-Wembley-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372602",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-11-9-2027/event/107681040"
   },
   {
     "id": "tm-foo-fighters-2027-darlington-1adjz_pgknom0ij",
@@ -740,14 +708,14 @@
     "country": "Great Britain",
     "venue": "Darlington Arena",
     "datetime_iso": "2027-09-14T15:00:00Z",
-    "tour_name": "",
+    "tour_name": "TAKE COVER TOUR 2027",
     "ticketmaster_event_id": "3700656AA0DE4A1C",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-darlington-darlington-arena-9-14-2027--concerts-rock/production/7879771",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-darlington-14-09-2027/event/3700656AA0DE4A1C",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -766,11 +734,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7879771,
+        "url": "https://www.vividseats.com/foo-fighters-tickets-darlington-darlington-arena-9-14-2027--concerts-rock/production/7879771",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -783,32 +751,27 @@
         "event_id": "8372603",
         "url": "https://www.ticketliquidator.com/tickets/8372603/Foo-Fighters-tickets-Tue-Sep-14-2027-Darlington-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372603",
+        "url": "https://www.ticketnetwork.com/en/p/8372603",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_pGknOM0Ij",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372603/Foo-Fighters-tickets-Tue-Sep-14-2027-Darlington-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372603/Foo-Fighters-tickets-Tue-Sep-14-2027-Darlington-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372603"
   },
   {
     "id": "tm-foo-fighters-2027-edinburgh-1auzkfegkecn0w6",
@@ -819,14 +782,14 @@
     "country": "Great Britain",
     "venue": "Scottish Gas Murrayfield",
     "datetime_iso": "2027-09-16T16:00:00Z",
-    "tour_name": "",
+    "tour_name": "TAKE COVER TOUR 2027",
     "ticketmaster_event_id": "36006527AD8E4F47",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-edinburgh-16-09-2027/event/36006527AD8E4F47",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/foo-fighters-tickets-edinburgh-scottish-gas-murrayfield-stadium-9-16-2027--concerts-rock/production/7879775",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/foo-fighters-take-cover-tour-2027-edinburgh-16-09-2027/event/36006527AD8E4F47",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -848,7 +811,7 @@
         "event_id": 7879775,
         "url": "https://www.vividseats.com/foo-fighters-tickets-edinburgh-scottish-gas-murrayfield-stadium-9-16-2027--concerts-rock/production/7879775",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -861,37 +824,14 @@
     },
     "ticketmaster_discovery_event_id": "1AUZkfEGkecN0W6",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "PCL PRESENTS",
       "DF CONCERTS LIMITED",
       "GIGS IN SCOTLAND"
     ],
     "ticket_limit": 6,
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Album Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Gigs in Scotland Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T12:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-foo-fighters-2027-dublin-1avoz_3gktbqeds",
@@ -902,14 +842,14 @@
     "country": "Ireland",
     "venue": "Croke Park",
     "datetime_iso": "2027-09-18T16:00:00Z",
-    "tour_name": "",
+    "tour_name": "TAKE COVER TOUR 2027",
     "ticketmaster_event_id": "1800652FD8682EF1",
     "ticketmaster_url": "https://www.ticketmaster.ie/foo-fighters-take-cover-tour-2027-dublin-18-09-2027/event/1800652FD8682EF1",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/foo-fighters-take-cover-tour-2027-dublin-18-09-2027/event/1800652FD8682EF1",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -944,33 +884,10 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_3GkTbQeDs",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T10:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Bank Of Ireland Mastercard Presale",
-        "start": "2026-11-18T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "MCD Presale",
-        "start": "2026-11-19T10:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      },
-      {
-        "name": "Spotify Presale",
-        "start": "2026-11-19T12:00:00Z",
-        "end": "2026-11-20T09:00:00Z"
-      }
-    ]
+    "genre": "Rock"
   }
 ]

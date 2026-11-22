@@ -1951,14 +1951,14 @@
         "event_id": 18208621,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-19-7-pm/concert/18208621",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969281,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-sunrise-amerant-bank-arena-11-19-2026--concerts-pop/production/6969281",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1969,34 +1969,34 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7921667",
-        "url": "https://www.ticketnetwork.com/en/p/7921667",
-        "verified": true,
-        "last_verified_at": "2026-08-09",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921667",
-        "url": "https://www.ticketliquidator.com/tickets/7921667/Olivia-Rodrigo-tickets-Thu-Nov-19-2026-Amerant-Bank-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107164285",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-sunrise-tickets-11-19-2026/event/107164285",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "status": "on-sale",
     "verification_status": "needs_recheck",
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7067F",
     "timezone": "America/New_York",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921667",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921667/Olivia-Rodrigo-tickets-Thu-Nov-19-2026-Amerant-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-sunrise-tickets-11-19-2026/event/107164285"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
@@ -2028,14 +2028,14 @@
         "event_id": 18208620,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sunrise-florida-amerant-bank-arena-2026-11-20-7-pm/concert/18208620",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969283,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-sunrise-amerant-bank-arena-11-20-2026--concerts-pop/production/6969283",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2049,22 +2049,22 @@
         "event_id": "7921668",
         "url": "https://www.ticketnetwork.com/en/p/7921668",
         "verified": true,
-        "last_verified_at": "2026-08-09",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7921668",
-        "url": "https://www.ticketliquidator.com/tickets/7921668/Olivia-Rodrigo-tickets-Fri-Nov-20-2026-Amerant-Bank-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107162478",
-        "url": "https://www.stubhub.ie/olivia-rodrigo-sunrise-tickets-11-20-2026/event/107162478",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "status": "on-sale",
@@ -2072,8 +2072,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7067o",
     "timezone": "America/New_York",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921668",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921668/Olivia-Rodrigo-tickets-Fri-Nov-20-2026-Amerant-Bank-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/olivia-rodrigo-sunrise-tickets-11-20-2026/event/107162478"
+    "ticketliquidator_url": "",
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
@@ -2105,14 +2105,14 @@
         "event_id": 18211703,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-23-7-pm/concert/18211703",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969285,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-nashville-bridgestone-arena-11-23-2026--concerts-pop/production/6969285",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2126,21 +2126,21 @@
         "event_id": "7921669",
         "url": "https://www.ticketnetwork.com/en/p/7921669",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921669",
         "url": "https://www.ticketliquidator.com/tickets/7921669/Olivia-Rodrigo-tickets-Mon-Nov-23-2026-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162480",
         "url": "https://www.stubhub.ie/olivia-rodrigo-nashville-tickets-11-23-2026/event/107162480",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2187,14 +2187,14 @@
         "event_id": 18211705,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/nashville-tennessee-bridgestone-arena-2026-11-24-7-pm/concert/18211705",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969287,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-nashville-bridgestone-arena-11-24-2026--concerts-pop/production/6969287",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2208,21 +2208,21 @@
         "event_id": "7921670",
         "url": "https://www.ticketnetwork.com/en/p/7921670",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921670",
         "url": "https://www.ticketliquidator.com/tickets/7921670/Olivia-Rodrigo-tickets-Tue-Nov-24-2026-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162481",
         "url": "https://www.stubhub.ie/olivia-rodrigo-nashville-tickets-11-24-2026/event/107162481",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2269,14 +2269,14 @@
         "event_id": 18211742,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-01-7-pm/concert/18211742",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969339,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-vancouver-rogers-arena-12-1-2026--concerts-pop/production/6969339",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2290,21 +2290,21 @@
         "event_id": "7921691",
         "url": "https://www.ticketnetwork.com/en/p/7921691",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921691",
         "url": "https://www.ticketliquidator.com/tickets/7921691/Olivia-Rodrigo-tickets-Tue-Dec-1-2026-Rogers-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162486",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-vancouver-rogers-arena-12-1-2026/event/107162486",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2352,14 +2352,14 @@
         "event_id": 18211743,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/vancouver-canada-rogers-arena-2026-12-02-7-pm/concert/18211743",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969341,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-vancouver-rogers-arena-12-2-2026--concerts-pop/production/6969341",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2373,21 +2373,21 @@
         "event_id": "7921692",
         "url": "https://www.ticketnetwork.com/en/p/7921692",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921692",
         "url": "https://www.ticketliquidator.com/tickets/7921692/Olivia-Rodrigo-tickets-Wed-Dec-2-2026-Rogers-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162487",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-vancouver-rogers-arena-12-2-2026/event/107162487",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2435,14 +2435,14 @@
         "event_id": 18211710,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-07-7-pm/concert/18211710",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969291,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-seattle-climate-pledge-arena-12-7-2026--concerts-pop/production/6969291",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2456,21 +2456,21 @@
         "event_id": "7921671",
         "url": "https://www.ticketnetwork.com/en/p/7921671",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921671",
         "url": "https://www.ticketliquidator.com/tickets/7921671/Olivia-Rodrigo-tickets-Mon-Dec-7-2026-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164282",
         "url": "https://www.stubhub.ie/olivia-rodrigo-seattle-tickets-12-7-2026/event/107164282",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2517,14 +2517,14 @@
         "event_id": 18211711,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/seattle-washington-climate-pledge-arena-2026-12-08-7-pm/concert/18211711",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969293,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-seattle-climate-pledge-arena-12-8-2026--concerts-pop/production/6969293",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2538,21 +2538,21 @@
         "event_id": "7921672",
         "url": "https://www.ticketnetwork.com/en/p/7921672",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921672",
         "url": "https://www.ticketliquidator.com/tickets/7921672/Olivia-Rodrigo-tickets-Tue-Dec-8-2026-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164283",
         "url": "https://www.stubhub.ie/olivia-rodrigo-seattle-tickets-12-8-2026/event/107164283",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2599,14 +2599,14 @@
         "event_id": 18211712,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-11-7-pm/concert/18211712",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969295,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-oakland-oakland-arena-12-11-2026--concerts-pop/production/6969295",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2620,21 +2620,21 @@
         "event_id": "7921673",
         "url": "https://www.ticketnetwork.com/en/p/7921673",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921673",
         "url": "https://www.ticketliquidator.com/tickets/7921673/Olivia-Rodrigo-tickets-Fri-Dec-11-2026-Oakland-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162479",
         "url": "https://www.stubhub.ie/olivia-rodrigo-oakland-tickets-12-11-2026/event/107162479",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2681,14 +2681,14 @@
         "event_id": 18211714,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/oakland-california-oakland-arena-2026-12-12-7-pm/concert/18211714",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969298,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-oakland-oakland-arena-12-12-2026--concerts-pop/production/6969298",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2702,21 +2702,21 @@
         "event_id": "7921674",
         "url": "https://www.ticketnetwork.com/en/p/7921674",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921674",
         "url": "https://www.ticketliquidator.com/tickets/7921674/Olivia-Rodrigo-tickets-Sat-Dec-12-2026-Oakland-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107165398",
         "url": "https://www.stubhub.ie/olivia-rodrigo-oakland-tickets-12-12-2026/event/107165398",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2763,14 +2763,14 @@
         "event_id": 18211717,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-15-7-pm/concert/18211717",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969300,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-sacramento-golden-1-center-12-15-2026--concerts-pop/production/6969300",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2784,21 +2784,21 @@
         "event_id": "7921675",
         "url": "https://www.ticketnetwork.com/en/p/7921675",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921675",
         "url": "https://www.ticketliquidator.com/tickets/7921675/Olivia-Rodrigo-tickets-Tue-Dec-15-2026-Golden-1-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107165396",
         "url": "https://www.stubhub.ie/olivia-rodrigo-sacramento-tickets-12-15-2026/event/107165396",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2845,14 +2845,14 @@
         "event_id": 18211719,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/sacramento-california-golden-1-center-2026-12-16-7-pm/concert/18211719",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969304,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-sacramento-golden-1-center-12-16-2026--concerts-pop/production/6969304",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2866,21 +2866,21 @@
         "event_id": "7921676",
         "url": "https://www.ticketnetwork.com/en/p/7921676",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921676",
         "url": "https://www.ticketliquidator.com/tickets/7921676/Olivia-Rodrigo-tickets-Wed-Dec-16-2026-Golden-1-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164281",
         "url": "https://www.stubhub.ie/olivia-rodrigo-sacramento-tickets-12-16-2026/event/107164281",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -2927,14 +2927,14 @@
         "event_id": 18211722,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-19-7-pm/concert/18211722",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969306,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-las-vegas-t-mobile-arena-12-19-2026--concerts-pop/production/6969306",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2948,21 +2948,21 @@
         "event_id": "7921677",
         "url": "https://www.ticketnetwork.com/en/p/7921677",
         "verified": true,
-        "last_verified_at": "2026-08-09",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921677",
         "url": "https://www.ticketliquidator.com/tickets/7921677/Olivia-Rodrigo-tickets-Sat-Dec-19-2026-T-Mobile-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162473",
         "url": "https://www.stubhub.ie/olivia-rodrigo-las-vegas-tickets-12-19-2026/event/107162473",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3004,14 +3004,14 @@
         "event_id": 18211723,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/las-vegas-nevada-t-mobile-arena-2026-12-20-7-pm/concert/18211723",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969308,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-las-vegas-t-mobile-arena-12-20-2026--concerts-pop/production/6969308",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3025,21 +3025,21 @@
         "event_id": "7921678",
         "url": "https://www.ticketnetwork.com/en/p/7921678",
         "verified": true,
-        "last_verified_at": "2026-08-09",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921678",
         "url": "https://www.ticketliquidator.com/tickets/7921678/Olivia-Rodrigo-tickets-Sun-Dec-20-2026-T-Mobile-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162474",
         "url": "https://www.stubhub.ie/olivia-rodrigo-las-vegas-tickets-12-20-2026/event/107162474",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3081,14 +3081,14 @@
         "event_id": 18211724,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-12-7-pm/concert/18211724",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969312,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-12-2027--concerts-pop/production/6969312",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3102,21 +3102,21 @@
         "event_id": "7921679",
         "url": "https://www.ticketnetwork.com/en/p/7921679",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921679",
         "url": "https://www.ticketliquidator.com/tickets/7921679/Olivia-Rodrigo-tickets-Tue-Jan-12-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107165394",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-12-2027/event/107165394",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3170,14 +3170,14 @@
         "event_id": 18211726,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-13-7-pm/concert/18211726",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969314,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-13-2027--concerts-pop/production/6969314",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3191,21 +3191,21 @@
         "event_id": "7921680",
         "url": "https://www.ticketnetwork.com/en/p/7921680",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921680",
         "url": "https://www.ticketliquidator.com/tickets/7921680/Olivia-Rodrigo-tickets-Wed-Jan-13-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162475",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-13-2027/event/107162475",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3259,14 +3259,14 @@
         "event_id": 18214730,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-16-7-pm/concert/18214730",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969316,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-16-2027--concerts-pop/production/6969316",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3280,21 +3280,21 @@
         "event_id": "7921681",
         "url": "https://www.ticketnetwork.com/en/p/7921681",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921681",
         "url": "https://www.ticketliquidator.com/tickets/7921681/Olivia-Rodrigo-tickets-Sat-Jan-16-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107165395",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-16-2027/event/107165395",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3348,14 +3348,14 @@
         "event_id": 18211731,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-17-7-pm/concert/18211731",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969318,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-17-2027--concerts-pop/production/6969318",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3369,21 +3369,21 @@
         "event_id": "7921682",
         "url": "https://www.ticketnetwork.com/en/p/7921682",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921682",
         "url": "https://www.ticketliquidator.com/tickets/7921682/Olivia-Rodrigo-tickets-Sun-Jan-17-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164280",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-17-2027/event/107164280",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3437,14 +3437,14 @@
         "event_id": 18224991,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-20-7-pm/concert/18224991",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6998734,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-20-2027/production/6998734",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3458,21 +3458,21 @@
         "event_id": "7939456",
         "url": "https://www.ticketnetwork.com/en/p/7939456",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7939456",
         "url": "https://www.ticketliquidator.com/tickets/7939456/Olivia-Rodrigo-tickets-Wed-Jan-20-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164682",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-20-2027/event/107164682",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3526,14 +3526,14 @@
         "event_id": 18224990,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-21-7-pm/concert/18224990",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6999304,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-21-2027/production/6999304",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3547,21 +3547,21 @@
         "event_id": "7940735",
         "url": "https://www.ticketnetwork.com/en/p/7940735",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7940735",
         "url": "https://www.ticketliquidator.com/tickets/7940735/Olivia-Rodrigo-tickets-Thu-Jan-21-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162642",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-21-2027/event/107162642",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3615,14 +3615,14 @@
         "event_id": 18225825,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-24-7-pm/concert/18225825",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7000059,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-24-2027/production/7000059",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3636,21 +3636,21 @@
         "event_id": "7940980",
         "url": "https://www.ticketnetwork.com/en/p/7940980",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7940980",
         "url": "https://www.ticketliquidator.com/tickets/7940980/Olivia-Rodrigo-tickets-Sun-Jan-24-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162643",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-24-2027/event/107162643",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3704,14 +3704,14 @@
         "event_id": 18227093,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-25-7-pm/concert/18227093",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7003825,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-25-2027/production/7003825",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3725,21 +3725,21 @@
         "event_id": "7943084",
         "url": "https://www.ticketnetwork.com/en/p/7943084",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7943084",
         "url": "https://www.ticketliquidator.com/tickets/7943084/Olivia-Rodrigo-tickets-Mon-Jan-25-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162644",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-25-2027/event/107162644",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3793,14 +3793,14 @@
         "event_id": 18230500,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-28-7-pm/concert/18230500",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7004868,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-28-2027--concerts-pop/production/7004868",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3814,21 +3814,21 @@
         "event_id": "7946756",
         "url": "https://www.ticketnetwork.com/en/p/7946756",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7946756",
         "url": "https://www.ticketliquidator.com/tickets/7946756/Olivia-Rodrigo-tickets-Thu-Jan-28-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162645",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-28-2027/event/107162645",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3887,14 +3887,14 @@
         "event_id": 18230501,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/inglewood-california-intuit-dome-2027-01-29-7-pm/concert/18230501",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7008068,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-inglewood-intuit-dome-1-29-2027/production/7008068",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3908,21 +3908,21 @@
         "event_id": "7946757",
         "url": "https://www.ticketnetwork.com/en/p/7946757",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7946757",
         "url": "https://www.ticketliquidator.com/tickets/7946757/Olivia-Rodrigo-tickets-Fri-Jan-29-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107165566",
         "url": "https://www.stubhub.ie/olivia-rodrigo-inglewood-tickets-1-29-2027/event/107165566",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -3981,14 +3981,14 @@
         "event_id": 18211656,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-11-7-pm/concert/18211656",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969320,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-11-2027--concerts-pop/production/6969320",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4002,21 +4002,21 @@
         "event_id": "7921683",
         "url": "https://www.ticketnetwork.com/en/p/7921683",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921683",
         "url": "https://www.ticketliquidator.com/tickets/7921683/Olivia-Rodrigo-tickets-Thu-Feb-11-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164286",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-11-2027/event/107164286",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4063,14 +4063,14 @@
         "event_id": 18211659,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-12-7-pm/concert/18211659",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969322,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-12-2027--concerts-pop/production/6969322",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4084,21 +4084,21 @@
         "event_id": "7921684",
         "url": "https://www.ticketnetwork.com/en/p/7921684",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921684",
         "url": "https://www.ticketliquidator.com/tickets/7921684/Olivia-Rodrigo-tickets-Fri-Feb-12-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162482",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-12-2027/event/107162482",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4145,14 +4145,14 @@
         "event_id": 18211660,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-15-7-pm/concert/18211660",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969324,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-15-2027--concerts-pop/production/6969324",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4166,21 +4166,21 @@
         "event_id": "7921685",
         "url": "https://www.ticketnetwork.com/en/p/7921685",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921685",
         "url": "https://www.ticketliquidator.com/tickets/7921685/Olivia-Rodrigo-tickets-Mon-Feb-15-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164287",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-15-2027/event/107164287",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4227,14 +4227,14 @@
         "event_id": 18211657,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-16-7-pm/concert/18211657",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6969326,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-16-2027--concerts-pop/production/6969326",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4248,21 +4248,21 @@
         "event_id": "7921686",
         "url": "https://www.ticketnetwork.com/en/p/7921686",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921686",
         "url": "https://www.ticketliquidator.com/tickets/7921686/Olivia-Rodrigo-tickets-Tue-Feb-16-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162483",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-16-2027/event/107162483",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4309,14 +4309,14 @@
         "event_id": 18224685,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-19-7-pm/concert/18224685",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6995575,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-19-2027/production/6995575",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4330,21 +4330,21 @@
         "event_id": "7939015",
         "url": "https://www.ticketnetwork.com/en/p/7939015",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7939015",
         "url": "https://www.ticketliquidator.com/tickets/7939015/Olivia-Rodrigo-tickets-Fri-Feb-19-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164683",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-19-2027/event/107164683",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4391,14 +4391,14 @@
         "event_id": 18224992,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-20-7-pm/concert/18224992",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6999663,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-20-2027/production/6999663",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4412,21 +4412,21 @@
         "event_id": "7940856",
         "url": "https://www.ticketnetwork.com/en/p/7940856",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7940856",
         "url": "https://www.ticketliquidator.com/tickets/7940856/Olivia-Rodrigo-tickets-Sat-Feb-20-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164684",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-20-2027/event/107164684",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4473,14 +4473,14 @@
         "event_id": 18226585,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-23-7-pm/concert/18226585",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7002913,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-23-2027/production/7002913",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4494,21 +4494,21 @@
         "event_id": "7942121",
         "url": "https://www.ticketnetwork.com/en/p/7942121",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7942121",
         "url": "https://www.ticketliquidator.com/tickets/7942121/Olivia-Rodrigo-tickets-Tue-Feb-23-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162646",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-23-2027/event/107162646",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4555,14 +4555,14 @@
         "event_id": 18226587,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-24-7-pm/concert/18226587",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7003286,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-24-2027/production/7003286",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4576,21 +4576,21 @@
         "event_id": "7942272",
         "url": "https://www.ticketnetwork.com/en/p/7942272",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7942272",
         "url": "https://www.ticketliquidator.com/tickets/7942272/Olivia-Rodrigo-tickets-Wed-Feb-24-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162647",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-24-2027/event/107162647",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4637,14 +4637,14 @@
         "event_id": 18227138,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-27-7-pm/concert/18227138",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7004406,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-27-2027/production/7004406",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4658,21 +4658,21 @@
         "event_id": "7944931",
         "url": "https://www.ticketnetwork.com/en/p/7944931",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7944931",
         "url": "https://www.ticketliquidator.com/tickets/7944931/Olivia-Rodrigo-tickets-Sat-Feb-27-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107165567",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-27-2027/event/107165567",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4726,14 +4726,14 @@
         "event_id": 18229435,
         "url": "https://seatgeek.com/olivia-rodrigo-tickets/brooklyn-new-york-barclays-center-2027-02-28-7-pm/concert/18229435",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7007371,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-brooklyn-barclays-center-2-28-2027/production/7007371",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4747,21 +4747,21 @@
         "event_id": "7945595",
         "url": "https://www.ticketnetwork.com/en/p/7945595",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7945595",
         "url": "https://www.ticketliquidator.com/tickets/7945595/Olivia-Rodrigo-tickets-Sun-Feb-28-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162648",
         "url": "https://www.stubhub.ie/olivia-rodrigo-brooklyn-tickets-2-28-2027/event/107162648",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4836,21 +4836,21 @@
         "event_id": "7921730",
         "url": "https://www.ticketnetwork.com/en/p/7921730",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921730",
         "url": "https://www.ticketliquidator.com/tickets/7921730/Olivia-Rodrigo-tickets-Tue-Mar-23-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164337",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-23-3-2027/event/107164337",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4917,21 +4917,21 @@
         "event_id": "7921731",
         "url": "https://www.ticketnetwork.com/en/p/7921731",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921731",
         "url": "https://www.ticketliquidator.com/tickets/7921731/Olivia-Rodrigo-tickets-Wed-Mar-24-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164338",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-24-3-2027/event/107164338",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -4998,21 +4998,21 @@
         "event_id": "7938168",
         "url": "https://www.ticketnetwork.com/en/p/7938168",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7938168",
         "url": "https://www.ticketliquidator.com/tickets/7938168/Olivia-Rodrigo-tickets-Sat-Mar-27-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164440",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-27-3-2027/event/107164440",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5079,21 +5079,21 @@
         "event_id": "7938169",
         "url": "https://www.ticketnetwork.com/en/p/7938169",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7938169",
         "url": "https://www.ticketliquidator.com/tickets/7938169/Olivia-Rodrigo-tickets-Sun-Mar-28-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164441",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-amsterdam-ziggo-dome-28-3-2027/event/107164441",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5160,21 +5160,21 @@
         "event_id": "7921732",
         "url": "https://www.ticketnetwork.com/en/p/7921732",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921732",
         "url": "https://www.ticketliquidator.com/tickets/7921732/Olivia-Rodrigo-tickets-Thu-Apr-1-2027-Kleine-Olympiahalle-Munich",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164313",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-munich-olympiahalle-munich-1-4-2027/event/107164313",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5241,21 +5241,21 @@
         "event_id": "7921733",
         "url": "https://www.ticketnetwork.com/en/p/7921733",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921733",
         "url": "https://www.ticketliquidator.com/tickets/7921733/Olivia-Rodrigo-tickets-Fri-Apr-2-2027-Kleine-Olympiahalle-Munich",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164314",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-munich-olympiahalle-munich-2-4-2027/event/107164314",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5308,7 +5308,7 @@
         "event_id": 6969351,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-4-5-2027--concerts-pop/production/6969351",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5322,7 +5322,7 @@
         "event_id": "107164278",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-5-4-2027/event/107164278",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5376,7 +5376,7 @@
         "event_id": 6969354,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-4-6-2027--concerts-pop/production/6969354",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5390,7 +5390,7 @@
         "event_id": "107165391",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-6-4-2027/event/107165391",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5444,7 +5444,7 @@
         "event_id": 6969356,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-4-8-2027--concerts-pop/production/6969356",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5458,7 +5458,7 @@
         "event_id": "107162472",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-8-4-2027/event/107162472",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5512,7 +5512,7 @@
         "event_id": 6969358,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-4-9-2027--concerts-pop/production/6969358",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5526,7 +5526,7 @@
         "event_id": "107165392",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-9-4-2027/event/107165392",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5580,7 +5580,7 @@
         "event_id": 6985270,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-4-12-2027--concerts-pop/production/6985270",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5594,7 +5594,7 @@
         "event_id": "107164439",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-12-4-2027/event/107164439",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5648,7 +5648,7 @@
         "event_id": 6985274,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-4-14-2027--concerts-pop/production/6985274",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5662,7 +5662,7 @@
         "event_id": "107165474",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-14-4-2027/event/107165474",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5716,7 +5716,7 @@
         "event_id": 6985497,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-4-15-2027--concerts-pop/production/6985497",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5730,7 +5730,7 @@
         "event_id": "107164448",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-15-4-2027/event/107164448",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5784,7 +5784,7 @@
         "event_id": 6985492,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-4-19-2027--concerts-pop/production/6985492",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5798,7 +5798,7 @@
         "event_id": "107162545",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-19-4-2027/event/107162545",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5852,7 +5852,7 @@
         "event_id": 7003083,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-4-20-2027/production/7003083",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5866,7 +5866,7 @@
         "event_id": "107164518",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-20-4-2027/event/107164518",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -5920,7 +5920,7 @@
         "event_id": 6969376,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-5-1-2027--concerts-pop/production/6969376",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -5934,21 +5934,21 @@
         "event_id": "7921741",
         "url": "https://www.ticketnetwork.com/en/p/7921741",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921741",
         "url": "https://www.ticketliquidator.com/tickets/7921741/Olivia-Rodrigo-tickets-Sat-May-1-2027-Palau-Sant-Jordi",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107165386",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-1-5-2027/event/107165386",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -6001,7 +6001,7 @@
         "event_id": 6969378,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-5-2-2027--concerts-pop/production/6969378",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -6015,21 +6015,21 @@
         "event_id": "7921742",
         "url": "https://www.ticketnetwork.com/en/p/7921742",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7921742",
         "url": "https://www.ticketliquidator.com/tickets/7921742/Olivia-Rodrigo-tickets-Sun-May-2-2027-Palau-Sant-Jordi",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164275",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-2-5-2027/event/107164275",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -6082,7 +6082,7 @@
         "event_id": 6985439,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-5-5-2027--concerts-pop/production/6985439",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -6096,21 +6096,21 @@
         "event_id": "7938204",
         "url": "https://www.ticketnetwork.com/en/p/7938204",
         "verified": true,
-        "last_verified_at": "2026-07-13",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7938204",
         "url": "https://www.ticketliquidator.com/tickets/7938204/Olivia-Rodrigo-tickets-Wed-May-5-2027-Palau-Sant-Jordi",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107164442",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-5-5-2027/event/107164442",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -6163,7 +6163,7 @@
         "event_id": 7001032,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-5-6-2027--concerts-pop/production/7001032",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -6177,21 +6177,21 @@
         "event_id": "107165538",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-barcelona-palau-sant-jordi-6-5-2027/event/107165538",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8127307",
         "url": "https://www.ticketnetwork.com/en/p/8127307",
         "verified": true,
-        "last_verified_at": "2026-07-16",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8127307",
         "url": "https://www.ticketliquidator.com/tickets/8127307/Olivia-Rodrigo-tickets-Thu-May-6-2027-Palau-Sant-Jordi",
         "verified": true,
-        "last_verified_at": "2026-11-17",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -6244,7 +6244,7 @@
         "event_id": 7005996,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-5-9-2027/production/7005996",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -6258,7 +6258,7 @@
         "event_id": "107165539",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-9-5-2027/event/107165539",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -6312,7 +6312,7 @@
         "event_id": 7006033,
         "url": "https://www.vividseats.com/olivia-rodrigo-tickets-london-the-o2---london-5-10-2027/production/7006033",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -6326,7 +6326,7 @@
         "event_id": "107164542",
         "url": "https://www.stubhub.ie/olivia-rodrigo-tickets-london-the-o2-arena-10-5-2027/event/107164542",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },

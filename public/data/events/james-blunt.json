@@ -165,7 +165,7 @@
         "event_id": "107665757",
         "url": "https://www.stubhub.ie/james-blunt-tickets-oslo-oslo-spektrum-16-3-2027/event/107665757",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -216,7 +216,7 @@
         "event_id": 7534516,
         "url": "https://www.vividseats.com/james-blunt-tickets-leeds-first-direct-arena---leeds-3-26-2027--concerts-pop/production/7534516",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -274,7 +274,7 @@
         "event_id": 7528674,
         "url": "https://www.vividseats.com/james-blunt-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-3-27-2027/production/7528674",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -288,21 +288,21 @@
         "event_id": "107665848",
         "url": "https://www.stubhub.ie/james-blunt-tickets-birmingham-bp-pulse-live-27-3-2027/event/107665848",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8356240",
         "url": "https://www.ticketnetwork.com/en/p/8356240",
         "verified": true,
-        "last_verified_at": "2026-11-05",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8356240",
         "url": "https://www.ticketliquidator.com/tickets/8356240/James-Blunt-tickets-Sat-Mar-27-2027-bp-pulse-LIVE",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -356,7 +356,7 @@
         "event_id": 7530268,
         "url": "https://www.vividseats.com/james-blunt-tickets-newcastle-upon-tyne-utilita-arena-newcastle-3-28-2027/production/7530268",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -365,6 +365,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373749",
+        "url": "https://www.ticketnetwork.com/en/p/8373749",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373749",
+        "url": "https://www.ticketliquidator.com/tickets/8373749/James-Blunt-tickets-Sun-Mar-28-2027-Utilita-Arena-Newcastle",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_8jzh5MU",
@@ -374,7 +388,9 @@
       "DAYBROOK HOUSE LIMITED"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373749",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373749/James-Blunt-tickets-Sun-Mar-28-2027-Utilita-Arena-Newcastle"
   },
   {
     "id": "tm-james-blunt-2027-dublin-16bzkf7x3zaufauu",
@@ -473,7 +489,7 @@
         "event_id": 7534518,
         "url": "https://www.vividseats.com/james-blunt-tickets-belfast-the-o2---belfast-3-31-2027--concerts-pop/production/7534518",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -487,14 +503,14 @@
         "event_id": "8326044",
         "url": "https://www.ticketnetwork.com/en/p/8326044",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326044",
         "url": "https://www.ticketliquidator.com/tickets/8326044/James-Blunt-tickets-Wed-Mar-31-2027-The-O2-Belfast",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -548,7 +564,7 @@
         "event_id": 7530133,
         "url": "https://www.vividseats.com/james-blunt-tickets-glasgow-ovo-hydro-4-2-2027/production/7530133",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -562,21 +578,21 @@
         "event_id": "8272590",
         "url": "https://www.ticketnetwork.com/en/p/8272590",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8272590",
         "url": "https://www.ticketliquidator.com/tickets/8272590/James-Blunt-tickets-Fri-Apr-2-2027-OVO-Hydro",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107665851",
         "url": "https://www.stubhub.ie/james-blunt-tickets-glasgow-ovo-hydro-arena-glasgow-2-4-2027/event/107665851",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -631,7 +647,7 @@
         "event_id": 7514723,
         "url": "https://www.vividseats.com/james-blunt-tickets-manchester-co-op-live-4-3-2027--concerts-pop/production/7514723",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -645,21 +661,21 @@
         "event_id": "8247670",
         "url": "https://www.ticketnetwork.com/en/p/8247670",
         "verified": true,
-        "last_verified_at": "2026-10-29",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8247670",
         "url": "https://www.ticketliquidator.com/tickets/8247670/James-Blunt-tickets-Sat-Apr-3-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107665852",
         "url": "https://www.stubhub.ie/james-blunt-tickets-manchester-co-op-live-3-4-2027/event/107665852",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -712,7 +728,7 @@
         "event_id": 7528612,
         "url": "https://www.vividseats.com/james-blunt-tickets-london-the-o2---london-4-4-2027/production/7528612",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -726,7 +742,7 @@
         "event_id": "107665853",
         "url": "https://www.stubhub.ie/james-blunt-tickets-london-the-o2-arena-4-4-2027/event/107665853",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -778,7 +794,7 @@
         "event_id": 7530135,
         "url": "https://www.vividseats.com/james-blunt-tickets-cardiff-utilita-arena-cardiff-4-6-2027/production/7530135",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -792,7 +808,7 @@
         "event_id": "107665854",
         "url": "https://www.stubhub.ie/james-blunt-tickets-cardiff-utilita-arena-cardiff-6-4-2027/event/107665854",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -845,7 +861,7 @@
         "event_id": 7530270,
         "url": "https://www.vividseats.com/james-blunt-tickets-bournemouth-bournemouth-international-centre-4-7-2027/production/7530270",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -859,7 +875,7 @@
         "event_id": "107665855",
         "url": "https://www.stubhub.ie/james-blunt-tickets-bournemouth-bournemouth-international-centre-7-4-2027/event/107665855",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -925,14 +941,21 @@
         "event_id": "107665856",
         "url": "https://www.stubhub.ie/james-blunt-tickets-brighton-brighton-centre-8-4-2027/event/107665856",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8369893",
         "url": "https://www.ticketliquidator.com/tickets/8369893/James-Blunt-tickets-Thu-Apr-8-2027-Brighton-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369893",
+        "url": "https://www.ticketnetwork.com/en/p/8369893",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
@@ -946,6 +969,505 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369893/James-Blunt-tickets-Thu-Apr-8-2027-Brighton-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369893/James-Blunt-tickets-Thu-Apr-8-2027-Brighton-Centre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369893"
+  },
+  {
+    "id": "tm-james-blunt-2027-idstein-z698xzc2z16vuazef3",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt - Airplane Mode",
+    "city": "Idstein",
+    "country": "Germany",
+    "venue": "Hessentagsarena (Sportanlage)",
+    "datetime_iso": "2027-06-13T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1345002212",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/james-blunt-airplane-mode-tickets/1345002212?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/james-blunt-airplane-mode-tickets/1345002212?language=en-us",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1345002212",
+        "discovery_event_id": "Z698xZC2Z16vuAZeF3",
+        "url": "https://www.ticketmaster.de/event/james-blunt-airplane-mode-tickets/1345002212?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z16vuAZeF3",
+    "timezone": "Europe/Berlin",
+    "status": "on-sale",
+    "organizer_names": [
+      "HockeyPark Betriebs GmbH & Co. KG"
+    ],
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-james-blunt-2027-lincoln-g5vhz_on_qxm9",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Lincoln",
+    "country": "Great Britain",
+    "venue": "Lincoln Castle",
+    "datetime_iso": "2027-06-16T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00651A99762DD7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-lincoln-16-06-2027/event/1F00651A99762DD7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-lincoln-16-06-2027/event/1F00651A99762DD7",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00651A99762DD7",
+        "discovery_event_id": "G5vHZ_on_qxM9",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-lincoln-16-06-2027/event/1F00651A99762DD7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683872",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-lincoln-lincoln-castle-16-6-2027/event/107683872",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_on_qxM9",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-lincoln-lincoln-castle-16-6-2027/event/107683872"
+  },
+  {
+    "id": "tm-james-blunt-2027-thetford-1adjz_pgkw4p4i3",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt - Thetford High Lodge",
+    "city": "Thetford",
+    "country": "Great Britain",
+    "venue": "High Lodge, Thetford Forest",
+    "datetime_iso": "2027-06-18T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700656C95955A12",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-thetford-high-lodge-thetford-18-06-2027/event/3700656C95955A12",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-thetford-thetford-forest-6-18-2027/production/7891589",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-thetford-high-lodge-thetford-18-06-2027/event/3700656C95955A12",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700656C95955A12",
+        "discovery_event_id": "1AdjZ_pGkw4P4I3",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-thetford-high-lodge-thetford-18-06-2027/event/3700656C95955A12",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7891589,
+        "url": "https://www.vividseats.com/james-blunt-tickets-thetford-thetford-forest-6-18-2027/production/7891589",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_pGkw4P4I3",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "FORESTRY ENGLAND"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-james-blunt-2027-scarborough-1ku8vp1_ga1cs0u",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-06-20T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350065299AB71936",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-scarborough-20-06-2027/event/350065299AB71936",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-scarborough-scarborough-open-air-theatre-6-20-2027/production/7891649",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-scarborough-20-06-2027/event/350065299AB71936",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350065299AB71936",
+        "discovery_event_id": "1ku8vP1_GA1cs0U",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-scarborough-20-06-2027/event/350065299AB71936",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7891649,
+        "url": "https://www.vividseats.com/james-blunt-tickets-scarborough-scarborough-open-air-theatre-6-20-2027/production/7891649",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683869",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-scarborough-scarborough-open-air-theatre-20-6-2027/event/107683869",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ku8vP1_GA1cs0U",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-scarborough-scarborough-open-air-theatre-20-6-2027/event/107683869"
+  },
+  {
+    "id": "tm-james-blunt-2027-gloucestershire-16mzk4yjeza8ddu2",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt - Westonbirt Arboretum - Bus",
+    "city": "Gloucestershire",
+    "country": "Great Britain",
+    "venue": "Westonbirt Arboretum",
+    "datetime_iso": "2027-06-23T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006570982F22CE",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-westonbirt-arboretum-bus-gloucestershire-23-06-2027/event/37006570982F22CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-westonbirt-arboretum-bus-gloucestershire-23-06-2027/event/37006570982F22CE",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006570982F22CE",
+        "discovery_event_id": "16MZk4YJeZA8ddu2",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-westonbirt-arboretum-bus-gloucestershire-23-06-2027/event/37006570982F22CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682849",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-gloucestershire-westonbirt-arboretum-23-6-2027/event/107682849",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16MZk4YJeZA8ddu2",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "FORESTRY ENGLAND"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-gloucestershire-westonbirt-arboretum-23-6-2027/event/107682849"
+  },
+  {
+    "id": "tm-james-blunt-2027-llangollen-g5vhz_3nxrxc-",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Llangollen",
+    "country": "Great Britain",
+    "venue": "Live at Llangollen, Llangollen Pavilion",
+    "datetime_iso": "2027-06-24T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00652AA27A2B61",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-llangollen-24-06-2027/event/1F00652AA27A2B61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-llangollen-24-06-2027/event/1F00652AA27A2B61",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00652AA27A2B61",
+        "discovery_event_id": "G5vHZ_3nxrxc-",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-llangollen-24-06-2027/event/1F00652AA27A2B61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_3nxrxc-",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "LLANGOLLEN INTERNATIONAL MUSICAL EISTEDDFOD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-james-blunt-2027-margate-1agzkfegkdf5svi",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt",
+    "city": "Margate",
+    "country": "Great Britain",
+    "venue": "Dreamland",
+    "datetime_iso": "2027-08-27T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006527C82F306C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-blunt-margate-27-08-2027/event/35006527C82F306C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-blunt-margate-27-08-2027/event/35006527C82F306C",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006527C82F306C",
+        "discovery_event_id": "1AgZkfEGkdF5Svi",
+        "url": "https://www.ticketmaster.co.uk/james-blunt-margate-27-08-2027/event/35006527C82F306C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683856",
+        "url": "https://www.stubhub.ie/james-blunt-tickets-margate-dreamland-margate-27-8-2027/event/107683856",
+        "verified": true,
+        "last_verified_at": "2026-11-21",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkfEGkdF5Svi",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/james-blunt-tickets-margate-dreamland-margate-27-8-2027/event/107683856"
+  },
+  {
+    "id": "tm-james-blunt-2027-colchester-1agzk4fgkdt9fe6",
+    "artist_slug": "james-blunt",
+    "artist_name": "James Blunt",
+    "event_name": "James Blunt\r\nWith Special Guests Starsailor + Noonzy",
+    "city": "Colchester",
+    "country": "Great Britain",
+    "venue": "Colchester Castle Park",
+    "datetime_iso": "2027-08-28T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006548E95C89C7",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/james-bluntwith-special-guests-starsailor-noonzy-colchester-28-08-2027/event/35006548E95C89C7",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/james-blunt-tickets-colchester-colchester-castle-park-8-28-2027/production/7891683",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/james-bluntwith-special-guests-starsailor-noonzy-colchester-28-08-2027/event/35006548E95C89C7",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006548E95C89C7",
+        "discovery_event_id": "1AgZk4FGkdt9FE6",
+        "url": "https://www.ticketmaster.co.uk/james-bluntwith-special-guests-starsailor-noonzy-colchester-28-08-2027/event/35006548E95C89C7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7891683,
+        "url": "https://www.vividseats.com/james-blunt-tickets-colchester-colchester-castle-park-8-28-2027/production/7891683",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4FGkdt9FE6",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

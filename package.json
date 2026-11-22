@@ -18,6 +18,7 @@
     "test:price-notes": "node scripts/price-notes.test.mjs",
     "test:price-disclosure-fields": "node scripts/price-disclosure-fields.test.mjs",
     "test:price-wording": "node scripts/price-wording.test.mjs",
+    "test:provider-order": "node scripts/provider-order-test.test.mjs",
     "test:upcoming-shows": "node scripts/upcoming-shows.test.mjs",
     "test:selling-soon": "node scripts/selling-soon.test.mjs",
     "test:embed": "node scripts/embed.test.mjs",
@@ -27,6 +28,7 @@
     "artists:requests:self-test": "node scripts/artist-requests.mjs --self-test",
     "artists:watchlist:check": "node scripts/artist-watchlist.mjs --check",
     "artists:watchlist:self-test": "node scripts/artist-watchlist.mjs --self-test",
+    "report:tm-url-dates": "node scripts/report-tm-url-date-mismatch.mjs",
     "report:price-coverage": "node scripts/report-price-coverage.mjs",
     "research:uk-concerts": "node scripts/report-uk-concert-activity.mjs",
     "test:uk-concert-activity": "node --test scripts/uk-concert-activity.test.mjs",
@@ -42,6 +44,7 @@
     "test:location-pages": "node scripts/location-pages.test.mjs",
     "test:onsale-calendar": "node scripts/onsale-calendar.test.mjs",
     "test:this-week": "node scripts/this-week.test.mjs",
+    "test:playing-soon": "node scripts/playing-soon.test.mjs",
     "test:tours-hub": "node scripts/tours-hub.test.mjs",
     "test:rumoured-tours": "node scripts/rumoured-tours.test.mjs",
     "test:worth-waiting": "node scripts/worth-waiting.test.mjs",
@@ -100,7 +103,7 @@
     "guides:validate": "node scripts/validate-guide-routes.mjs",
     "guides:build": "node scripts/build-guide-content.mjs",
     "guides:check": "node scripts/build-guide-content.mjs --check",
-    "guides:self-test": "node scripts/build-guide-content.mjs --self-test && node scripts/guide-provider-pair.test.mjs && node scripts/guide-dates-placement.test.mjs",
+    "guides:self-test": "node scripts/build-guide-content.mjs --self-test && node scripts/guide-provider-pair.test.mjs && node scripts/guide-dates-placement.test.mjs && node scripts/guide-buy-path.test.mjs",
     "guides:new": "node scripts/new-guide.mjs",
     "og:build": "node scripts/build-og-cards.mjs",
     "og:check": "node scripts/build-og-cards.mjs --check",
@@ -231,12 +234,12 @@
   },
   "devDependencies": {
     "sharp": "^0.35.5",
-    "wrangler": "^4.106.0",
-    "yaml": "2.9.0"
+    "wrangler": "^4.166.0",
+    "yaml": "2.9.1"
   },
   "overrides": {
     "esbuild": "0.28.1",
-    "undici": "7.29.1",
+    "undici": "7.30.2",
     "ws": "8.21.0",
     "sharp": "$sharp"
   }

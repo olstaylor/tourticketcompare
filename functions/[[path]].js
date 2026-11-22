@@ -7871,7 +7871,7 @@ function renderEventPriceRangeHtml(row, rangeSeries) {
     .map((site) => `<tr><th scope="row">${escapeHtml(site.name)}</th><td>${escapeHtml(`${fmt(site.low, site.currency)} to ${fmt(site.high, site.currency)}`)}</td><td>${escapeHtml(`${site.days} days`)}</td></tr>`)
     .join("");
   return `<section class="nested-panel" aria-labelledby="eventPriceRangeTitle"><h2 id="eventPriceRangeTitle">Listed price range since tracking began</h2><div class="price-answer-table-wrap"><table class="price-answer-table"><thead><tr><th scope="col">Site</th><th scope="col">Lowest to highest</th><th scope="col">Tracked</th></tr></thead><tbody>${rows}</tbody></table></div><p class="disclosure-note">${escapeHtml(
-    "Each site's lowest listed price at its last check of the day. Not a final total."
+    "Each site's lowest listed price at its last check of the day, not final totals."
   )}</p></section>`;
 }
 

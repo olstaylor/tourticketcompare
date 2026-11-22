@@ -3773,7 +3773,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
     ? ""
     : ticketOptions
     ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ' "Sites priced" counts the sites with a price for that date.' : ""}`
-    : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Seats, quantities and fees can differ between sites. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
+    : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
   )}</h2>${summary ? `<p>${escapeHtml(summary)}</p>` : ""}<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
@@ -7972,10 +7972,10 @@ function renderEventPageBody(route, events, env) {
   const verdictAmount = row?.lowest ? formatServerPrice(row.lowest.price, row.lowest.currency) : "";
   const verdictChecked = row?.lowest ? formatServerSnapshotTime(row.lowest.fetchedAt) : "";
   const verdictHtml = verdictAmount && verdictChecked
-    ? `<p class="lead event-verdict">${escapeHtml(`Cheapest listed now: ${verdictAmount} on ${row.lowest.name} (checked ${verdictChecked}).`)}${
+    ? `<p class="lead event-verdict">${
         normalizeCountry(show.country) === "United States"
-          ? ` ${escapeHtml(`On ${DAY_ONE_FINDING.shows.toLocaleString("en-US")} US shows tracked, the lowest listed price two weeks after first being recorded was lower at ${Math.round((100 * DAY_ONE_FINDING.lower) / DAY_ONE_FINDING.shows)}% and higher at ${Math.round((100 * DAY_ONE_FINDING.higher) / DAY_ONE_FINDING.shows)}%. Not a forecast.`)} ${anchor("Is it worth waiting?", WORTH_WAITING_PATH, "text-link")}`
-          : ` ${anchor("Is it worth waiting?", WORTH_WAITING_PATH, "text-link")}`
+          ? `${escapeHtml(`On ${DAY_ONE_FINDING.shows.toLocaleString("en-US")} US shows tracked, the lowest listed price two weeks after first being recorded was lower at ${Math.round((100 * DAY_ONE_FINDING.lower) / DAY_ONE_FINDING.shows)}% and higher at ${Math.round((100 * DAY_ONE_FINDING.higher) / DAY_ONE_FINDING.shows)}%. Not a forecast.`)} ${anchor("Is it worth waiting?", WORTH_WAITING_PATH, "text-link")}`
+          : anchor("Is it worth waiting?", WORTH_WAITING_PATH, "text-link")
       }</p>`
     : "";
   const pricesHtml = priceItems.length

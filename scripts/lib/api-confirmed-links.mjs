@@ -13,7 +13,7 @@
 //
 // Only upcoming events qualify. No new date is ever written for an event.
 
-export const SEATGEEK_MAX_AGE_DAYS = 3;
+export const SEATGEEK_MAX_AGE_DAYS = 7;
 
 function dayNumber(value) {
   const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(String(value || ''));

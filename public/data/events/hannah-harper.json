@@ -796,7 +796,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA_Qa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-richmond-carpenter-theatre-at-dominion-energy-center-3-7-2027/production/7836008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
     "last_verified_at": "2026-11-20",
@@ -818,11 +818,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7836008,
+        "url": "https://www.vividseats.com/hannah-harper-tickets-richmond-carpenter-theatre-at-dominion-energy-center-3-7-2027/production/7836008",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

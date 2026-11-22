@@ -55,11 +55,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7878419",
-        "url": "https://www.ticketnetwork.com/en/p/7878419",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107668400",
@@ -74,7 +74,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7878419/Intocable-tickets-Sat-Nov-21-2026-Smart-Financial-Centre",
     "genre": "World",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7878419",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/intocable-sugar-land-tickets-11-21-2026/event/107668400"
   },
   {
@@ -136,7 +136,7 @@
         "event_id": "7875906",
         "url": "https://www.ticketnetwork.com/en/p/7875906",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -209,7 +209,7 @@
         "event_id": "7875908",
         "url": "https://www.ticketnetwork.com/en/p/7875908",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -291,7 +291,7 @@
         "event_id": "7876470",
         "url": "https://www.ticketnetwork.com/en/p/7876470",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -361,7 +361,7 @@
         "event_id": "8373879",
         "url": "https://www.ticketnetwork.com/en/p/8373879",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -447,7 +447,7 @@
         "event_id": "8373880",
         "url": "https://www.ticketnetwork.com/en/p/8373880",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -524,7 +524,7 @@
         "event_id": "8373881",
         "url": "https://www.ticketnetwork.com/en/p/8373881",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -613,7 +613,7 @@
         "event_id": "8373882",
         "url": "https://www.ticketnetwork.com/en/p/8373882",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -698,7 +698,7 @@
         "event_id": "8373883",
         "url": "https://www.ticketnetwork.com/en/p/8373883",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -784,7 +784,7 @@
         "event_id": "8373885",
         "url": "https://www.ticketnetwork.com/en/p/8373885",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -869,7 +869,7 @@
         "event_id": "8373887",
         "url": "https://www.ticketnetwork.com/en/p/8373887",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -953,13 +953,21 @@
         "verified": true,
         "last_verified_at": "2026-11-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8381449",
+        "url": "https://www.ticketnetwork.com/en/p/8381449",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAK0d",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "genre": "World",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381449/Intocable-tickets-Sat-Feb-27-2027-The-Pinnacle-At-Nashville-Yards"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381449/Intocable-tickets-Sat-Feb-27-2027-The-Pinnacle-At-Nashville-Yards",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381449"
   },
   {
     "id": "tm-intocable-2027-indio-z7r9jz1aaak07",

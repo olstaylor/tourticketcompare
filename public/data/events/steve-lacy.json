@@ -1487,11 +1487,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8199811",
-        "url": "https://www.ticketnetwork.com/en/p/8199811",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8199811",
@@ -1511,7 +1511,7 @@
     "ticketmaster_discovery_event_id": "vvG1iZ_8f-wIFq",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199811",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199811/Steve-Lacy-tickets-Sat-Nov-21-2026-Hollywood-Bowl",
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106",
     "organizer_names": [
@@ -1573,7 +1573,7 @@
         "event_id": "8199812",
         "url": "https://www.ticketnetwork.com/en/p/8199812",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1656,7 +1656,7 @@
         "event_id": "8286236",
         "url": "https://www.ticketnetwork.com/en/p/8286236",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1739,7 +1739,7 @@
         "event_id": "8199813",
         "url": "https://www.ticketnetwork.com/en/p/8199813",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1821,7 +1821,7 @@
         "event_id": "8199816",
         "url": "https://www.ticketnetwork.com/en/p/8199816",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

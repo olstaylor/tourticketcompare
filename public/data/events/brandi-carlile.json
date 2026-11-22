@@ -694,11 +694,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8293186",
-        "url": "https://www.ticketnetwork.com/en/p/8293186",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8293186",
@@ -714,7 +714,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293186",
+    "ticketnetwork_url": "",
     "ticket_limit": 8,
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293186/Brandi-Carlile-tickets-Sat-Nov-21-2026-Louisville-Palace"
@@ -771,7 +771,7 @@
         "event_id": "8293193",
         "url": "https://www.ticketnetwork.com/en/p/8293193",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -845,7 +845,7 @@
         "event_id": "8293187",
         "url": "https://www.ticketnetwork.com/en/p/8293187",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -920,7 +920,7 @@
         "event_id": "8293188",
         "url": "https://www.ticketnetwork.com/en/p/8293188",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -995,7 +995,7 @@
         "event_id": "8293189",
         "url": "https://www.ticketnetwork.com/en/p/8293189",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1070,7 +1070,7 @@
         "event_id": "8343664",
         "url": "https://www.ticketnetwork.com/en/p/8343664",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1140,7 +1140,7 @@
         "event_id": "8343665",
         "url": "https://www.ticketnetwork.com/en/p/8343665",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1210,7 +1210,7 @@
         "event_id": "8343666",
         "url": "https://www.ticketnetwork.com/en/p/8343666",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1280,7 +1280,7 @@
         "event_id": "8343667",
         "url": "https://www.ticketnetwork.com/en/p/8343667",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1350,7 +1350,7 @@
         "event_id": "8248298",
         "url": "https://www.ticketnetwork.com/en/p/8248298",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1440,7 +1440,7 @@
         "event_id": "8381782",
         "url": "https://www.ticketnetwork.com/en/p/8381782",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -1650,7 +1650,7 @@
         "event_id": "8383029",
         "url": "https://www.ticketnetwork.com/en/p/8383029",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1801,6 +1801,13 @@
         "verified": true,
         "last_verified_at": "2026-11-21",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8383124",
+        "url": "https://www.ticketnetwork.com/en/p/8383124",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16UZkf6-7ZA5ev8a",
@@ -1812,6 +1819,7 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8383124/Brandi-Carlile-tickets-Wed-Apr-14-2027-Eventim-Apollo"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8383124/Brandi-Carlile-tickets-Wed-Apr-14-2027-Eventim-Apollo",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8383124"
   }
 ]

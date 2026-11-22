@@ -793,11 +793,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8252656",
-        "url": "https://www.ticketnetwork.com/en/p/8252656",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfNGkd8KE_P",
@@ -808,7 +808,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252656",
+    "ticketnetwork_url": "",
     "ticket_limit": 6,
     "genre": "R&B"
   },
@@ -878,7 +878,7 @@
         "event_id": "8252657",
         "url": "https://www.ticketnetwork.com/en/p/8252657",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -1126,7 +1126,7 @@
         "event_id": "8252660",
         "url": "https://www.ticketnetwork.com/en/p/8252660",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },

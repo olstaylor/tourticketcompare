@@ -496,11 +496,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7703263",
-        "url": "https://www.ticketnetwork.com/en/p/7703263",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk8sGkdLdbON",
@@ -511,7 +511,7 @@
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7703263",
+    "ticketnetwork_url": "",
     "ticket_limit": 8,
     "genre": "Country"
   },
@@ -632,7 +632,7 @@
         "event_id": "8353403",
         "url": "https://www.ticketnetwork.com/en/p/8353403",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

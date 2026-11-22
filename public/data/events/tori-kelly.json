@@ -258,11 +258,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374484",
+        "url": "https://www.ticketnetwork.com/en/p/8374484",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_pmacVCd",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374484"
   },
   {
     "id": "tm-tori-kelly-2027-anaheim-vv170z_pgkmqbskf",
@@ -364,11 +372,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374485",
+        "url": "https://www.ticketnetwork.com/en/p/8374485",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av0Z_pGkgTCw3P",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374485"
   },
   {
     "id": "tm-tori-kelly-2027-tulsa-z7r9jz1aaafav",
@@ -470,11 +486,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381783",
+        "url": "https://www.ticketnetwork.com/en/p/8381783",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfaZ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381783"
   },
   {
     "id": "tm-tori-kelly-2027-houston-g5diz_prlk7d5",
@@ -523,11 +547,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374487",
+        "url": "https://www.ticketnetwork.com/en/p/8374487",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pRlK7d5",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374487"
   },
   {
     "id": "tm-tori-kelly-2027-dallas-vvg1yz_ptdvq44",
@@ -576,11 +608,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374489",
+        "url": "https://www.ticketnetwork.com/en/p/8374489",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_pTDVQ44",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374489"
   },
   {
     "id": "tm-tori-kelly-2027-new-orleans-g5viz_proo-gj",
@@ -629,11 +669,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374490",
+        "url": "https://www.ticketnetwork.com/en/p/8374490",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_pRoO-gJ",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374490"
   },
   {
     "id": "tm-tori-kelly-2027-st-petersburg-vvg1vz_pwiq_m9",
@@ -682,11 +730,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374493",
+        "url": "https://www.ticketnetwork.com/en/p/8374493",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pwiq_m9",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374493"
   },
   {
     "id": "tm-tori-kelly-2027-orlando-1aefz_pgkmnverq",
@@ -735,11 +791,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374495",
+        "url": "https://www.ticketnetwork.com/en/p/8374495",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeFZ_pGkmNVErQ",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374495"
   },
   {
     "id": "tm-tori-kelly-2027-ft-lauderdale-vvg1vz_pv-mndp",
@@ -841,11 +905,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375138",
+        "url": "https://www.ticketnetwork.com/en/p/8375138",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_pMV-GvM",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375138"
   },
   {
     "id": "tm-tori-kelly-2027-charlotte-g5evz_pr3nkrd",
@@ -894,11 +966,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374499",
+        "url": "https://www.ticketnetwork.com/en/p/8374499",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pR3NKRd",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374499"
   },
   {
     "id": "tm-tori-kelly-2027-atlanta-vvg1zz_pr5yym7",
@@ -947,11 +1027,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374501",
+        "url": "https://www.ticketnetwork.com/en/p/8374501",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_pR5yym7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374501"
   },
   {
     "id": "tm-tori-kelly-2027-raleigh-g5evz_pmhkhqy",
@@ -1000,11 +1088,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374503",
+        "url": "https://www.ticketnetwork.com/en/p/8374503",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_pMHKhQy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374503"
   },
   {
     "id": "tm-tori-kelly-2027-boston-vv177z_pgkresuwf",
@@ -1053,11 +1149,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374504",
+        "url": "https://www.ticketnetwork.com/en/p/8374504",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkReSuwf",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374504"
   },
   {
     "id": "tm-tori-kelly-2027-silver-spring-1avfz_pgksegqna",
@@ -1106,11 +1210,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374505",
+        "url": "https://www.ticketnetwork.com/en/p/8374505",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvfZ_pGkSegQNa",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374505"
   },
   {
     "id": "tm-tori-kelly-2027-philadelphia-z7r9jz1aaafa-",
@@ -1159,11 +1271,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8377710",
+        "url": "https://www.ticketnetwork.com/en/p/8377710",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfa-",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8377710"
   },
   {
     "id": "tm-tori-kelly-2027-brooklyn-k7vgf_phude5k",
@@ -1212,11 +1332,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374507",
+        "url": "https://www.ticketnetwork.com/en/p/8374507",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_pHudE5k",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374507"
   },
   {
     "id": "tm-tori-kelly-2027-toronto-1avzz_pgkvx9zdy",
@@ -1318,11 +1446,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374510",
+        "url": "https://www.ticketnetwork.com/en/p/8374510",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_pGkcXk3hy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374510"
   },
   {
     "id": "tm-tori-kelly-2027-louisville-1avbz_pgksxzvfu",
@@ -1371,11 +1507,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374512",
+        "url": "https://www.ticketnetwork.com/en/p/8374512",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_pGkSxzvFU",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374512"
   },
   {
     "id": "tm-tori-kelly-2027-indianapolis-vv17fz_pgkswj0w7",
@@ -1424,11 +1568,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374513",
+        "url": "https://www.ticketnetwork.com/en/p/8374513",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_pGkSwj0W7",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374513"
   },
   {
     "id": "tm-tori-kelly-2027-milwaukee-z7r9jz1aaa4u3",
@@ -1530,11 +1682,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374514",
+        "url": "https://www.ticketnetwork.com/en/p/8374514",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv178Z_pGkRb2cSt",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374514"
   },
   {
     "id": "tm-tori-kelly-2027-minneapolis-z7r9jz1aaa4uk",
@@ -1689,11 +1849,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8378007",
+        "url": "https://www.ticketnetwork.com/en/p/8378007",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfFz",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8378007"
   },
   {
     "id": "tm-tori-kelly-2027-denver-g5vzz_pmqeaxk",
@@ -1742,11 +1910,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374516",
+        "url": "https://www.ticketnetwork.com/en/p/8374516",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pmQEAXk",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374516"
   },
   {
     "id": "tm-tori-kelly-2027-salt-lake-city-g5vzz_pw0n4ot",
@@ -1795,11 +1971,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374517",
+        "url": "https://www.ticketnetwork.com/en/p/8374517",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pw0n4oT",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374517"
   },
   {
     "id": "tm-tori-kelly-2027-vancouver-1av7z_pgkwlyauw",
@@ -1848,11 +2032,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374525",
+        "url": "https://www.ticketnetwork.com/en/p/8374525",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_pGkwLYAUW",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374525"
   },
   {
     "id": "tm-tori-kelly-2027-seattle-z7r9jz1aaafgn",
@@ -1954,11 +2146,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375222",
+        "url": "https://www.ticketnetwork.com/en/p/8375222",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfFf",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375222"
   },
   {
     "id": "tm-tori-kelly-2027-sacramento-g5vyz_puiau1t",
@@ -2007,11 +2207,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374519",
+        "url": "https://www.ticketnetwork.com/en/p/8374519",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_pUIau1T",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374519"
   },
   {
     "id": "tm-tori-kelly-2027-hollywood-vv170z_pgkwplbll",
@@ -2060,10 +2268,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374521",
+        "url": "https://www.ticketnetwork.com/en/p/8374521",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGkwpLbLL",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374521"
   }
 ]

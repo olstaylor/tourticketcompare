@@ -836,11 +836,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7997057",
-        "url": "https://www.ticketnetwork.com/en/p/7997057",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1S5eJmh",
@@ -850,7 +850,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997057",
+    "ticketnetwork_url": "",
     "ticket_limit": 6,
     "genre": "Hip-Hop/Rap"
   }

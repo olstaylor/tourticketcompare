@@ -1288,7 +1288,7 @@
     "venue": "The Fillmore New Orleans",
     "datetime_iso": "2026-12-07T23:30:00Z",
     "tour_name": "Pure Ecstasy World Tour",
-    "ticketmaster_event_id": "1B0064A7CD3CCBA4",
+    "ticketmaster_event_id": "",
     "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/beartooth-tickets/new-orleans-louisiana-fillmore-new-orleans-2026-12-07-5-30-pm/concert/18253062",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-orleans-fillmore-new-orleans-12-7-2026--concerts-hard-rock/production/7052872",
@@ -1298,8 +1298,8 @@
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "1B0064A7CD3CCBA4",
-        "discovery_event_id": "G5viZ_1Lu2Gm0",
+        "event_id": null,
+        "discovery_event_id": null,
         "url": null,
         "verified": false,
         "last_verified_at": null,
@@ -1341,7 +1341,7 @@
         "availability_status": "listed"
       }
     },
-    "ticketmaster_discovery_event_id": "G5viZ_1Lu2Gm0",
+    "ticketmaster_discovery_event_id": "",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980229",

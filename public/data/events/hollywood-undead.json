@@ -362,7 +362,7 @@
     "venue": "O2 Forum Kentish Town",
     "datetime_iso": "2027-02-24T19:00:00Z",
     "tour_name": "",
-    "ticketmaster_event_id": "3E0065388C2618CC",
+    "ticketmaster_event_id": "",
     "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/hollywood-undead-tickets-london-o2-forum-kentish-town-2-24-2027/production/7743420",
@@ -372,8 +372,8 @@
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "3E0065388C2618CC",
-        "discovery_event_id": "G5dzZ_KxGa-NG",
+        "event_id": null,
+        "discovery_event_id": null,
         "url": null,
         "verified": false,
         "last_verified_at": null,
@@ -408,7 +408,7 @@
         "availability_status": "listed"
       }
     },
-    "ticketmaster_discovery_event_id": "G5dzZ_KxGa-NG",
+    "ticketmaster_discovery_event_id": "",
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/hollywood-undead-tickets-london-o2-forum-kentish-town-24-2-2027/event/107671979",

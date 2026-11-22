@@ -212,10 +212,11 @@ console.log('Case 9: API-confirmed blocked links (isApiConfirmed)');
   expect('unknown event: held', !isApiConfirmed(entry({ eventIds: ['nope'] }), ctx));
   expect('non-upcoming scope: held', !isApiConfirmed(entry({ reviewScope: 'recent' }), ctx));
   const sg = (o) => ({ provider: 'seatgeek', reviewScope: 'upcoming', eventIds: ['e1'], url: 'https://seatgeek.com/x/1', ...o });
-  expect('SG verified same url within 3 days: confirmed', isApiConfirmed(sg({}), ctx));
+  expect('SG verified same url within 7 days: confirmed', isApiConfirmed(sg({}), ctx));
   expect('SG different url: held', !isApiConfirmed(sg({ url: 'https://seatgeek.com/x/9' }), ctx));
   expect('SG not verified: held', !isApiConfirmed(sg({ eventIds: ['e2'], url: 'https://seatgeek.com/x/2' }), ctx));
-  expect('SG verification older than 3 days: held', !isApiConfirmed(sg({}), { ...ctx, today: '2026-05-30' }));
+  expect('SG verified 7 days ago: confirmed', isApiConfirmed(sg({}), { ...ctx, today: '2026-06-01' }));
+  expect('SG verification older than 7 days: held', !isApiConfirmed(sg({}), { ...ctx, today: '2026-06-02' }));
   expect('other host: held', !isApiConfirmed({ provider: 'other', reviewScope: 'upcoming', eventIds: ['e1'], url: 'https://x.example/1' }, ctx));
 }
 

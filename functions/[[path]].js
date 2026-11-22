@@ -2752,9 +2752,12 @@ function renderHomepageArtistLinks(catalog, events = [], now = Date.now()) {
 // search clicks ("<artist> <city> tickets") from the homepage. Names, counts
 // and countries only; the price lives on the destination page with its own
 // provider and capture time.
+// Four rows, not eight: the list was ~600px of near-identical lines on a phone.
+const HOMEPAGE_CITY_RUNS = 4;
+
 function renderHomepageCityRuns(runs, catalog) {
   const names = new Map((catalog?.artists || []).map((artist) => [artist.slug, artist.name]));
-  const items = (runs || []).filter((run) => names.has(run.artistSlug));
+  const items = (runs || []).filter((run) => names.has(run.artistSlug)).slice(0, HOMEPAGE_CITY_RUNS);
   if (!items.length) return "";
   return `<section class="section-grid home-section" aria-labelledby="homeCityRunsTitle"><div class="home-section__head"><h2 id="homeCityRunsTitle">Compare prices by city</h2></div><p class="muted">Several dates in one city, with listed prices from more than one checked ticket site.</p><ul class="guide-link-list">${items
     .map(
@@ -8930,7 +8933,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "All artists",
     HOME_PRIMARY_CTA_HREF,
     "text-link"
-  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageCityRuns(route.homeCityRuns, catalog)}${renderHomepageOnsaleStrip(events)}${route.thisWeekHtml || ""}<p class="home-browse">Planning around a place? ${anchor(
+  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageCityRuns(route.homeCityRuns, catalog)}${route.thisWeekHtml || ""}<p class="home-browse">Planning around a place? ${anchor(
     "Browse cities",
     "/cities",
     "text-link"
@@ -9065,7 +9068,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
     '<script src="/app.js?v=20261102a" defer></script>',
-    '<script src="/shell.js?v=20261121a" defer></script>'
+    '<script src="/shell.js?v=20261122a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.

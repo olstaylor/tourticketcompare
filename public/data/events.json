@@ -72387,22 +72387,22 @@
     "venue": "The Fillmore New Orleans",
     "datetime_iso": "2026-12-07T23:30:00Z",
     "tour_name": "Pure Ecstasy World Tour",
-    "ticketmaster_event_id": "1B0064A7CD3CCBA4",
-    "ticketmaster_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+    "ticketmaster_event_id": "",
+    "ticketmaster_url": "",
     "seatgeek_url": "https://seatgeek.com/beartooth-tickets/new-orleans-louisiana-fillmore-new-orleans-2026-12-07-5-30-pm/concert/18253062",
     "vividseats_url": "https://www.vividseats.com/beartooth-tickets-new-orleans-fillmore-new-orleans-12-7-2026--concerts-hard-rock/production/7052872",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+    "source_url": "",
     "last_verified_at": "2026-11-10",
-    "verification_status": "machine_high_confidence",
+    "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "1B0064A7CD3CCBA4",
-        "discovery_event_id": "G5viZ_1Lu2Gm0",
-        "url": "https://www.ticketmaster.com/beartooth-pure-ecstasy-world-tour-new-orleans-louisiana-12-07-2026/event/1B0064A7CD3CCBA4",
+        "event_id": null,
+        "discovery_event_id": null,
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": 18253062,
@@ -72440,7 +72440,7 @@
         "availability_status": "listed"
       }
     },
-    "ticketmaster_discovery_event_id": "G5viZ_1Lu2Gm0",
+    "ticketmaster_discovery_event_id": "",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7980229",
@@ -339660,22 +339660,22 @@
     "venue": "O2 Forum Kentish Town",
     "datetime_iso": "2027-02-24T19:00:00Z",
     "tour_name": "",
-    "ticketmaster_event_id": "3E0065388C2618CC",
-    "ticketmaster_url": "https://www.ticketmaster.co.uk/hollywood-undead-london-24-02-2027/event/3E0065388C2618CC",
+    "ticketmaster_event_id": "",
+    "ticketmaster_url": "",
     "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/hollywood-undead-tickets-london-o2-forum-kentish-town-2-24-2027/production/7743420",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.co.uk/hollywood-undead-london-24-02-2027/event/3E0065388C2618CC",
+    "source_url": "",
     "last_verified_at": "2026-11-07",
-    "verification_status": "machine_high_confidence",
+    "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "3E0065388C2618CC",
-        "discovery_event_id": "G5dzZ_KxGa-NG",
-        "url": "https://www.ticketmaster.co.uk/hollywood-undead-london-24-02-2027/event/3E0065388C2618CC",
+        "event_id": null,
+        "discovery_event_id": null,
+        "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "seatgeek": {
         "event_id": null,
@@ -339706,7 +339706,7 @@
         "availability_status": "listed"
       }
     },
-    "ticketmaster_discovery_event_id": "G5dzZ_KxGa-NG",
+    "ticketmaster_discovery_event_id": "",
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/hollywood-undead-tickets-london-o2-forum-kentish-town-24-2-2027/event/107671979",

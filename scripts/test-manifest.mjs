@@ -66,6 +66,7 @@ export const STEPS = [
   { id: "prices:event-dates:backfill:self-test",  lane: "units",  run: "npm run prices:event-dates:backfill:self-test" },
   { id: "prices:freshness:self-test",             lane: "units",  run: "node scripts/check-price-snapshot-freshness.mjs --self-test" },
   { id: "automation:health:self-test",            lane: "units",  run: "npm run automation:health:self-test" },
+  { id: "audit-window:self-test",                 lane: "units",  run: "node scripts/audit-window-status.mjs --self-test" },
   { id: "pr-validation-heads:self-test",          lane: "units",  run: "node scripts/check-pr-validation-heads.mjs --self-test" },
   { id: "generated:freshness:self-test",         lane: "units",  run: "npm run generated:freshness:self-test" },
   { id: "queue:materialize:self-test",           lane: "units",  run: "npm run queue:materialize:self-test" },

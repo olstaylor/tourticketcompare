@@ -1134,7 +1134,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-houston-bayou-music-center-11-28-2026--concerts-rock/production/7325340",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-houston-texas-11-28-2026/event/3A0064EEC8C1BA19",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1187,16 +1187,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151254",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151254/Trivium-tickets-Sat-Nov-28-2026-Bayou-Music-Center",
     "presales": [
-      {
-        "name": "In Flames VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-22T05:55:00Z"
-      },
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-22T05:55:00Z"
-      },
       {
         "name": "2-Pack",
         "start": "2026-10-08T15:00:00Z",

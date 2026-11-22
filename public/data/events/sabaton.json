@@ -1894,7 +1894,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-cincinnati-ohio-11-28-2026/event/1600632AA4D318FA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1931,13 +1931,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2025-09-19T14:00:00Z",
-        "end": "2026-11-22T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

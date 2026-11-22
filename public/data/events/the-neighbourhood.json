@@ -758,7 +758,7 @@
     "city": "Brooklyn",
     "country": "United States Of America",
     "venue": "Barclays Center",
-    "datetime_iso": "2026-11-22T23:00:00Z",
+    "datetime_iso": "2026-11-23T00:00:00Z",
     "tour_name": "THE WOURLD TOUR",
     "ticketmaster_event_id": "3000645478072229",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
@@ -766,7 +766,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-brooklyn-barclays-center-11-22-2026--concerts-rock/production/6932838",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-brooklyn-new-york-11-22-2026/event/3000645478072229",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

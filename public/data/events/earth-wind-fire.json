@@ -1190,7 +1190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/an-evening-with-earth-wind-fire-savannah-georgia-04-24-2027/event/0E006523AB2DBC1D",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1255,6 +1255,11 @@
         "name": "Ticket Deal Offer",
         "start": "2026-11-17T19:00:00Z",
         "end": "2027-01-01T04:59:00Z"
+      },
+      {
+        "name": "ME + 3 Offer",
+        "start": "2026-11-21T15:30:00Z",
+        "end": "2027-04-25T00:00:00Z"
       }
     ],
     "ticket_limit": 6,

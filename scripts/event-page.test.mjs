@@ -693,24 +693,15 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
 
   const notPilot = await render(pathOf(NON_PILOT_AT_PILOT_VENUE), list);
   const notPilotBody = text(mainOf(notPilot.html));
-  assert(!notPilotBody.includes("have ranged") && !notPilotBody.includes("Getting in at"), "a date outside the pilot gets neither section, even at a sourced venue");
+  assert(!notPilotBody.includes("have ranged"), "a date with no daily rows states no range");
+  assert(notPilotBody.includes("Getting in at Scotiabank Arena"), "every live date at a sourced venue shows the venue's door rules, not only the original pilot");
 
   const ordinary = await render(pathOf(PRICED));
   assert(!text(mainOf(ordinary.html)).includes("have ranged"), "an ordinary event page is unchanged");
 }
 
 {
-  // The pilot is fixed data: each id is a real event at a venue with sourced facts.
-  const { RICHER_EVENT_PILOT_IDS } = await load("functions/_event-price-range.js");
-  const { venueFactsFor, VENUE_FACTS } = await load("functions/_venue-facts.js");
-  const { venueSlug } = await load("functions/_venues.js");
-  const realEvents = JSON.parse(await read("public/data/events.json"));
-  const realList = Array.isArray(realEvents) ? realEvents : realEvents.events;
-  for (const id of RICHER_EVENT_PILOT_IDS) {
-    const event = realList.find((candidate) => candidate.id === id);
-    assert(Boolean(event), `pilot event ${id} exists in events.json`);
-    assert(Boolean(venueFactsFor(venueSlug(event.venue, event.city))), `pilot event ${id} is at a venue with sourced facts`);
-  }
+  const { VENUE_FACTS } = await load("functions/_venue-facts.js");
   for (const [slug, record] of Object.entries(VENUE_FACTS)) {
     assert(/^https:\/\//.test(record.sourceUrl) && /^\d{4}-\d{2}-\d{2}$/.test(record.checked) && record.facts.length > 0, `venue facts ${slug} carry a source, a check date and facts`);
   }

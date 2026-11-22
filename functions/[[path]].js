@@ -3349,29 +3349,19 @@ function renderArtistPriceMovementHtml(artist, rows, moves, guideHref) {
   const priced = rows.filter((row) => row.lowest);
   if (priced.length < 2) return "";
   const multi = priced.filter((row) => row.comparedCount >= 2).length;
-  const lines = [];
+  const parts = [];
   if (moves.length) {
     const down = moves.filter((move) => move.direction === "down").length;
-    const up = moves.length - down;
-    lines.push(
-      `${moves.length} of the ${priced.length} dates showing a price have a recorded change in the last ${PRICE_MOVE_WINDOW_DAYS} days: ${down} lower and ${up} higher than that ticket site's previous recorded figure for the same date.`
-    );
+    parts.push(`${moves.length} of ${priced.length} priced dates changed price (${down} lower, ${moves.length - down} higher).`);
   }
-  if (multi) {
-    lines.push(`${multi} of the ${priced.length} priced dates list a price on two or more ticket sites right now.`);
-  }
-  if (!lines.length) return "";
-  const guide = guideHref ? ` ${anchor(`${artist.name} ticket prices by date`, guideHref, "text-link")}` : "";
-  return `<section class="nested-panel" aria-labelledby="artistPriceDataTitle"><h2 id="artistPriceDataTitle">${escapeHtml(
-    `${artist.name} prices, last ${PRICE_MOVE_WINDOW_DAYS} days`
-  )}</h2><ul>${lines.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul><p class="disclosure-note">${escapeHtml(
-    "Each date is compared only with its own earlier price on the same ticket site. These are listed prices, not final totals, and this is not a forecast."
-  )}${guide}</p></section>`;
+  if (multi) parts.push(`${multi} of ${priced.length} are priced by two or more sites.`);
+  if (!parts.length) return "";
+  const guide = guideHref ? ` ${anchor("Price history by date", guideHref, "text-link")}` : "";
+  return `<section class="nested-panel" aria-labelledby="artistPriceDataTitle"><h2 id="artistPriceDataTitle">Last ${PRICE_MOVE_WINDOW_DAYS} days</h2><p>${escapeHtml(parts.join(" "))}<span class="muted">${escapeHtml(" Same-site listed prices, not a forecast.")}</span>${guide}</p></section>`;
 }
 
-function renderArtistExtraContentHtml(model, events, artist, lowestByShowId, related = [], priceDataHtml = "") {
+function renderArtistExtraContentHtml(model, events, artist, lowestByShowId, related = []) {
   const inner = [
-    priceDataHtml,
     renderArtistTourSummariesHtml(model.tours, artist),
     renderArtistLocationLinksHtml(events, artist, lowestByShowId),
     renderRelatedArtistsHtml(related, artist)
@@ -7877,28 +7867,11 @@ function renderEventPriceRangeHtml(row, rangeSeries) {
   const range = row?.lanes?.length ? deriveEventPriceRange(row.lanes, rangeSeries) : null;
   if (!range) return "";
   const fmt = (amount, currency) => formatServerPrice(amount, currency);
-  const dayLabel = (day) => formatObservationDate(`${day}T00:00:00Z`);
-  const items = range.sites.map((site) => {
-    const first = dayLabel(site.firstDay);
-    const last = dayLabel(site.lastDay);
-    const span = first && last ? ` between ${first} and ${last}` : "";
-    return `${site.name}: ${fmt(site.low, site.currency)} to ${fmt(site.high, site.currency)} across ${site.days} days tracked${span}.`;
-  });
-  const notes = [];
-  if (range.overall) {
-    notes.push(
-      `Across ${range.sites.length} sites, the lowest listed price on any tracked day was ${fmt(range.overall.low.low, range.overall.currency)} on ${range.overall.low.name}, and the highest was ${fmt(range.overall.high.high, range.overall.currency)} on ${range.overall.high.name}.`
-    );
-  }
-  if (range.spread) {
-    notes.push(
-      `Right now the sites checked list this date between ${fmt(range.spread.lowest.price, range.spread.currency)} on ${range.spread.lowest.name} and ${fmt(range.spread.highest.price, range.spread.currency)} on ${range.spread.highest.name}, a gap of ${fmt(range.spread.gap, range.spread.currency)}.`
-    );
-  }
-  return `<section class="nested-panel" aria-labelledby="eventPriceRangeTitle"><h2 id="eventPriceRangeTitle">How listed prices for this date have ranged</h2><ul>${items
-    .map((item) => `<li>${escapeHtml(item)}</li>`)
-    .join("")}</ul>${notes.map((note) => `<p>${escapeHtml(note)}</p>`).join("")}<p class="disclosure-note">${escapeHtml(
-    "Each figure is a ticket site's lowest listed price at its last check of the day, in that site's own currency. These are listed prices, not final totals: fees, taxes and delivery are added at checkout, and prices change often."
+  const rows = range.sites
+    .map((site) => `<tr><th scope="row">${escapeHtml(site.name)}</th><td>${escapeHtml(`${fmt(site.low, site.currency)} to ${fmt(site.high, site.currency)}`)}</td><td>${escapeHtml(`${site.days} days`)}</td></tr>`)
+    .join("");
+  return `<section class="nested-panel" aria-labelledby="eventPriceRangeTitle"><h2 id="eventPriceRangeTitle">Listed price range since tracking began</h2><div class="price-answer-table-wrap"><table class="price-answer-table"><thead><tr><th scope="col">Site</th><th scope="col">Lowest to highest</th><th scope="col">Tracked</th></tr></thead><tbody>${rows}</tbody></table></div><p class="disclosure-note">${escapeHtml(
+    "Each site's lowest listed price at its last check of the day. Listed prices, not final totals."
   )}</p></section>`;
 }
 
@@ -8347,9 +8320,12 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
       events,
       artist,
       artistLowestByShowId,
-      route.relatedArtists,
-      renderArtistPriceMovementHtml(artist, cheapestRows, artistMoves, priceGuideLive ? priceGuidePath(artist.slug) : "")
+      route.relatedArtists
     );
+    // Just under the date board and "Where to buy", outside the closed
+    // dropdown (owner request 2026-11-22). Wrapped so the client transplants it.
+    const artistPriceDataHtml = renderArtistPriceMovementHtml(artist, cheapestRows, artistMoves, priceGuideLive ? priceGuidePath(artist.slug) : "");
+    const artistPriceDataBlock = artistPriceDataHtml ? `<div data-artist-price-data>${artistPriceDataHtml}</div>` : "";
     const cheapestPanelHtml = cheapestRows.length
       ? renderCheapestAcrossDatesHtml(
           artist,
@@ -8401,7 +8377,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     // the dates and buttons, and these sections stacked ~6,000px under them on
     // a phone. They stay in the HTML, so their content is still on the page.
     const commercialHtml = shows.length
-      ? `${showBoardHtml}${providerPanelHtml}${collapsedGroupHtml(
+      ? `${showBoardHtml}${providerPanelHtml}${artistPriceDataBlock}${collapsedGroupHtml(
           "How prices and checks work",
           `${renderArtistTicketHelpHtml(contentModel.help)}${trustHtml}`
         )}`
@@ -9108,7 +9084,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20261102a" defer></script>',
+    '<script src="/app.js?v=20261122a" defer></script>',
     '<script src="/shell.js?v=20261121a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed

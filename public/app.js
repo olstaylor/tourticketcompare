@@ -3578,6 +3578,7 @@ function renderArtist(artist) {
   // once from the shared content model; transplant, never rebuild.
   const ticketHelp = transplantServerNode("[data-artist-ticket-help]");
   const verificationPanel = transplantServerNode("[data-artist-trust]");
+  const priceDataPanel = transplantServerNode("[data-artist-price-data]");
   // Same gate as the server: the notice says "the dates are here for reference",
   // so an empty board must not render it — the client renders on every artist
   // page and would otherwise replace the clean empty state with that claim.
@@ -3592,7 +3593,7 @@ function renderArtist(artist) {
   // board stays concise and does not surface date-specific provider or
   // last-checked claims.
   if (serverShows.length) {
-    section.append(showBoard, providerPanel, ...(ticketHelp ? [ticketHelp] : []), ...(verificationPanel ? [verificationPanel] : []));
+    section.append(showBoard, providerPanel, ...(priceDataPanel ? [priceDataPanel] : []), ...(ticketHelp ? [ticketHelp] : []), ...(verificationPanel ? [verificationPanel] : []));
   } else {
     section.append(showBoard);
   }

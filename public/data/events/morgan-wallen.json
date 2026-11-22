@@ -2103,7 +2103,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8AY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-16-5-30-pm/concert/18760516",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-athens-sanford-stadium-7-16-2027--concerts-country-and-folk/production/7860936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
@@ -2119,11 +2119,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760516,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-16-5-30-pm/concert/18760516",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860936,
@@ -2164,7 +2164,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8ke",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-17-5-30-pm/concert/18760515",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-athens-sanford-stadium-7-17-2027--concerts-country-and-folk/production/7860938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
@@ -2180,11 +2180,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760515,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-17-5-30-pm/concert/18760515",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860938,

@@ -1843,7 +1843,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA6Ce",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-08-7-30-pm/concert/18755211",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
@@ -1859,11 +1859,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755211,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-08-7-30-pm/concert/18755211",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1896,7 +1896,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA6Cv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-09-7-30-pm/concert/18755214",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
@@ -1912,11 +1912,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755214,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-09-7-30-pm/concert/18755214",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1949,7 +1949,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA40k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-10-7-30-pm/concert/18755215",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
@@ -1965,11 +1965,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755215,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-10-7-30-pm/concert/18755215",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2002,7 +2002,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA6Cd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-12-7-30-pm/concert/18755216",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
@@ -2018,11 +2018,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755216,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-12-7-30-pm/concert/18755216",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2055,7 +2055,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAb04",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-13-7-30-pm/concert/18755220",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
@@ -2071,11 +2071,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755220,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-13-7-30-pm/concert/18755220",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

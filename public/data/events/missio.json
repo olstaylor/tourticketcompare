@@ -542,7 +542,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvo",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/portland-oregon-star-theater-portland-2026-12-10-7-30-pm/concert/18850486",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvo",
@@ -558,11 +558,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18850486,
+        "url": "https://seatgeek.com/missio-tickets/portland-oregon-star-theater-portland-2026-12-10-7-30-pm/concert/18850486",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -611,7 +611,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIv3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/seattle-washington-funhouse-2026-12-11-8-30-pm/concert/18851903",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv3",
@@ -627,11 +627,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18851903,
+        "url": "https://seatgeek.com/missio-tickets/seattle-washington-funhouse-2026-12-11-8-30-pm/concert/18851903",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -749,7 +749,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/spokane-washington-the-district-bar-2026-12-13-7-pm/concert/18856700",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-spokane-the-district-bar---wa-12-13-2026--concerts-dance-electronica/production/7425935",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvK",
@@ -765,11 +765,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18856700,
+        "url": "https://seatgeek.com/missio-tickets/spokane-washington-the-district-bar-2026-12-13-7-pm/concert/18856700",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425935,
@@ -1025,7 +1025,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvO",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvO",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/minneapolis-minnesota-fine-line-music-cafe-2027-01-15-8-pm/concert/18844651",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-minneapolis-fine-line-1-15-2027/production/7425043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvO",
@@ -1041,11 +1041,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844651,
+        "url": "https://seatgeek.com/missio-tickets/minneapolis-minnesota-fine-line-music-cafe-2027-01-15-8-pm/concert/18844651",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425043,
@@ -1180,7 +1180,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIv-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/washington-district-of-columbia-union-stage-2027-02-11-8-pm/concert/18856633",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-washington-dc-union-stage-2-11-2027/production/7425057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv-",
@@ -1196,11 +1196,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18856633,
+        "url": "https://seatgeek.com/missio-tickets/washington-district-of-columbia-union-stage-2027-02-11-8-pm/concert/18856633",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425057,
@@ -1404,7 +1404,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvN",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-03-10-8-pm/concert/18844966",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvN",
@@ -1420,11 +1420,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844966,
+        "url": "https://seatgeek.com/missio-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-03-10-8-pm/concert/18844966",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1604,7 +1604,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvJ",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/nashville-tennessee-the-end-2027-03-14-7-30-pm/concert/18846259",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-nashville-the-end-3-14-2027/production/7425220",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvJ",
@@ -1620,11 +1620,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18846259,
+        "url": "https://seatgeek.com/missio-tickets/nashville-tennessee-the-end-2027-03-14-7-30-pm/concert/18846259",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425220,

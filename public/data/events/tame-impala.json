@@ -2091,19 +2091,19 @@
     "venue": "Arena VFG",
     "datetime_iso": "2027-02-24T03:00:00Z",
     "tour_name": "Deadbeat Tour",
-    "ticketmaster_event_id": "3D00656BAC51612E",
-    "ticketmaster_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
+    "ticketmaster_event_id": "3D00656DDDE4A41D",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
+    "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
     "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "3D00656BAC51612E",
-        "discovery_event_id": "G5dVZ_pmifp7m",
-        "url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
+        "event_id": "3D00656DDDE4A41D",
+        "discovery_event_id": "G5dVZ_pMqy18q",
+        "url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
@@ -2130,7 +2130,7 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "G5dVZ_pmifp7m",
+    "ticketmaster_discovery_event_id": "G5dVZ_pMqy18q",
     "timezone": "America/Mexico_City",
     "status": "announced",
     "public_onsale_at": "2026-11-20T17:00:00Z",

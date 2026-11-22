@@ -91,7 +91,7 @@ jobs:
         # their merges. See scripts/wait-for-writer-lanes.mjs.
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 60
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 90
 
       - name: Setup Node.js
         uses: actions/setup-node@v5

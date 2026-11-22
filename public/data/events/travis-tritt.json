@@ -1092,7 +1092,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAaJp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaJp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/travis-tritt-tickets/lake-charles-louisiana-grand-event-center-golden-nugget-lake-charles-2027-10-09-8-pm/concert/18854687",
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-lake-charles-grand-event-center---golden-nugget-lake-charles-10-9-2027--concerts-country-and-folk/production/7847165",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaJp",
@@ -1108,11 +1108,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18854687,
+        "url": "https://seatgeek.com/travis-tritt-tickets/lake-charles-louisiana-grand-event-center-golden-nugget-lake-charles-2027-10-09-8-pm/concert/18854687",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7847165,

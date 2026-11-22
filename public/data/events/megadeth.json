@@ -4023,7 +4023,7 @@
     "tour_name": "Vaccination Of The Nations Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAA3_O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_O",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-26-7-pm/concert/18778371",
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-morrison-red-rocks-amphitheatre-5-26-2027--concerts-hard-rock/production/7880207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_O",
@@ -4039,11 +4039,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778371,
+        "url": "https://seatgeek.com/megadeth-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-26-7-pm/concert/18778371",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880207,
@@ -4088,7 +4088,7 @@
     "tour_name": "Vaccination Of The Nations Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAA3_-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/nampa-idaho-ford-idaho-center-2027-09-28-7-pm/concert/18778430",
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-nampa-ford-idaho-center-arena-9-28-2027/production/7880510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_-",
@@ -4104,11 +4104,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778430,
+        "url": "https://seatgeek.com/megadeth-tickets/nampa-idaho-ford-idaho-center-2027-09-28-7-pm/concert/18778430",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880510,
@@ -4145,7 +4145,7 @@
     "tour_name": "Vaccination Of The Nations Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAA3_N",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_N",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/missoula-montana-dahlberg-arena-adams-event-center-2027-09-29-7-pm/concert/18778432",
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-missoula-adams-event-center-9-29-2027--concerts-hard-rock/production/7880189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_N",
@@ -4161,11 +4161,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778432,
+        "url": "https://seatgeek.com/megadeth-tickets/missoula-montana-dahlberg-arena-adams-event-center-2027-09-29-7-pm/concert/18778432",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880189,
@@ -4210,7 +4210,7 @@
     "tour_name": "Vaccination Of The Nations Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAA3_0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/spokane-washington-numerica-veterans-arena-2027-09-30-7-pm/concert/18778434",
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-spokane-numerica-veterans-arena-9-30-2027/production/7879965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_0",
@@ -4226,11 +4226,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778434,
+        "url": "https://seatgeek.com/megadeth-tickets/spokane-washington-numerica-veterans-arena-2027-09-30-7-pm/concert/18778434",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7879965,

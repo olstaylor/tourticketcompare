@@ -1535,7 +1535,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7t8k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t8k",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/shipshewana-indiana-blue-gate-performing-arts-center-2027-11-08-7-30-pm/concert/18857823",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-shipshewana-blue-gate-performing-arts-center-11-8-2027/production/7761158",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t8k",
@@ -1551,11 +1551,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18857823,
+        "url": "https://seatgeek.com/mat-kearney-tickets/shipshewana-indiana-blue-gate-performing-arts-center-2027-11-08-7-30-pm/concert/18857823",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761158,
@@ -1913,7 +1913,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_49",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/carmel-indiana-the-palladium-at-allied-solutions-center-for-the-performing-arts-2027-11-14-7-30-pm/concert/18848387",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-carmel-allied-solutions-center-for-the-performing-arts---payne-and-mencias-palladium-11-14-2027/production/7765205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
@@ -1929,11 +1929,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18848387,
+        "url": "https://seatgeek.com/mat-kearney-tickets/carmel-indiana-the-palladium-at-allied-solutions-center-for-the-performing-arts-2027-11-14-7-30-pm/concert/18848387",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7765205,
@@ -2035,7 +2035,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_at",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/pelham-tennessee-the-caverns-2027-11-20-8-pm/concert/18856717",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-pelham-the-caverns-11-20-2027/production/7767506",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
@@ -2051,11 +2051,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18856717,
+        "url": "https://seatgeek.com/mat-kearney-tickets/pelham-tennessee-the-caverns-2027-11-20-8-pm/concert/18856717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767506,

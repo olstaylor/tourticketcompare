@@ -910,7 +910,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAf8f",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/kansas-city-missouri-t-mobile-center-2027-04-17-7-pm/concert/18773455",
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-kansas-city-t-mobile-center-4-17-2027/production/7871119",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
@@ -926,11 +926,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773455,
+        "url": "https://seatgeek.com/cody-johnson-tickets/kansas-city-missouri-t-mobile-center-2027-04-17-7-pm/concert/18773455",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871119,

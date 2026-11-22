@@ -3295,7 +3295,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4kF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-23-8-pm/concert/18784695",
     "vividseats_url": "https://www.vividseats.com/santana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-2-23-2027/production/7886831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
@@ -3311,11 +3311,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18784695,
+        "url": "https://seatgeek.com/santana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-23-8-pm/concert/18784695",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7886831,
@@ -3357,7 +3357,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4k8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/hanover-maryland-the-hall-at-live-2027-03-26-9-pm/concert/18784693",
     "vividseats_url": "https://www.vividseats.com/santana-tickets-hanover-the-hall-at-live-casino-and-hotel---hanover-3-26-2027/production/7886813",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
@@ -3373,11 +3373,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18784693,
+        "url": "https://seatgeek.com/santana-tickets/hanover-maryland-the-hall-at-live-2027-03-26-9-pm/concert/18784693",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7886813,
@@ -3411,7 +3411,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4aK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/lancaster-pennsylvania-american-music-theatre-2027-04-07-8-pm/concert/18784713",
     "vividseats_url": "https://www.vividseats.com/santana-tickets-lancaster-american-music-theatre-4-7-2027/production/7886737",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
@@ -3427,11 +3427,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18784713,
+        "url": "https://seatgeek.com/santana-tickets/lancaster-pennsylvania-american-music-theatre-2027-04-07-8-pm/concert/18784713",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7886737,

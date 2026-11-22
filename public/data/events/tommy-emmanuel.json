@@ -1722,7 +1722,7 @@
     "tour_name": "Living In The Light Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvSp6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/fairfield-connecticut-shu-community-theatre-2027-02-05-8-pm/concert/18858717",
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-fairfield-shu-community-theatre-2-5-2027/production/7566401",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
@@ -1738,11 +1738,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18858717,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/fairfield-connecticut-shu-community-theatre-2027-02-05-8-pm/concert/18858717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7566401,

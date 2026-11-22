@@ -1760,7 +1760,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeZ8O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8O",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/clearwater-florida-ruth-eckerd-hall-2027-02-16-8-pm/concert/18629078",
     "vividseats_url": "https://www.vividseats.com/foreigner-the-hits-unplugged-tickets-clearwater-ruth-eckerd-hall-2-16-2027/production/7588277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8O",
@@ -1776,11 +1776,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629078,
+        "url": "https://seatgeek.com/foreigner-tickets/clearwater-florida-ruth-eckerd-hall-2027-02-16-8-pm/concert/18629078",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7588277,

@@ -31,13 +31,14 @@ export const DROP_RULES = Object.freeze({
   baseGapDays: [6, 8],      // the comparison reading is 6-8 days before the latest
   minReadings: 3,           // daily readings between the two, inclusive
   heldReadings: 2,          // the latest two readings must both be below the threshold
-  minDaysToShow: 7,
+  minDropAmount: 20,        // and at least 20 in the listed currency (owner/plan 2026-11-18)
+  minDaysToShow: 3,         // plan 2026-11-18: was 7
   weekOutDays: 10,          // a drop with the show this close gets the "week away" wording
   maxLatestAgeHours: 30,    // newest observation; stage C must re-check within 2h before posting
   recordLowMinShare: 0.05,  // record low: at least 5% under every earlier reading
   recordLowMinHistoryDays: 14,
   perArtist: 1,
-  maxDrafts: 10
+  maxDrafts: 5
 });
 
 // Owner focus artists (2026-10-30): their drops are drafted ahead of the rest.
@@ -132,7 +133,7 @@ export function detectPriceDrops(rows, events, artists, { now, rules = {} }) {
     const threshold = basePrice * (1 - r.minDropShare);
     const tail = between.slice(-r.heldReadings);
     const held = tail.length >= r.heldReadings && tail.every((row) => Number(row.low_price_last) <= threshold);
-    const isDrop = held && price <= threshold;
+    const isDrop = held && price <= threshold && basePrice - price >= r.minDropAmount;
 
     // Record low is judged against everything before the held tail, so the
     // new low does not count against itself.
@@ -220,7 +221,7 @@ export function renderDraftText(d, account = X_ACCOUNT) {
     body = `${d.artist} in ${d.city}, ${shortDate(d.localDate)}: the lowest listed price we've recorded on ${d.site} since ${monthYear(d.sinceDate)} is ${money(d.to, d.currency)} (${cap}). ${tail}`;
   } else {
     const lead = d.kind === "week-out"
-      ? `${d.artist} in ${d.city}, ${shortDate(d.localDate)}, is about a week away and`
+      ? `${d.artist} in ${d.city}, ${shortDate(d.localDate)}, is ${d.daysToShow} days away and`
       : `${d.artist} in ${d.city}, ${shortDate(d.localDate)}:`;
     body = `${lead} the lowest listed ${d.site} price dropped ${pctText(d.dropShare)} in a week, ${money(d.from, d.currency)} (${shortDate(d.fromDate)}) to ${money(d.to, d.currency)} (${shortDate(d.toDate)}; ${cap}). ${tail}`;
   }
@@ -254,7 +255,7 @@ export function imageFill(d, n = 1) {
 export function renderDraftFile(drafts, { now }) {
   const day = isoDay(now);
   const head = `# Price-drop post drafts, ${day}\n\nStage B: drafts for approval. Nothing is posted. Before posting each one, open the link and check the ticket site still shows a price near the figure; if it has moved back, skip it. Figures are listed starting prices from the named site, not totals. No claim is made about what prices will do next.\n`;
-  if (!drafts.length) return `${head}\nNo drops met the rules today (20%+ fall in the lowest listed price over 7 days, held on two readings, show 7+ days away, fresh data).\n`;
+  if (!drafts.length) return `${head}\nNo drops met the rules today (20%+ and 20+ fall in the lowest listed price over 7 days, held on two readings, show 3+ days away, fresh data).\n`;
   const body = drafts.map((d, i) => `## ${i + 1}. ${d.artist}, ${d.city} (${d.kind}, show priority #${d.priorityRank})\n\n\`\`\`\n${renderDraftText(d)}\n\`\`\`\n\n${xLength(renderDraftText(d)) > X_LIMIT ? "Needs editing before X: " : "X length (upper bound): "}${xLength(renderDraftText(d))} of ${X_LIMIT}. Optional image: add to a fill.json and run \`node build.mjs --fill fill.json\`:\n\n\`\`\`json\n${JSON.stringify(imageFill(d, i + 1))}\n\`\`\`\n\nSource: ${d.site}, ${d.currency}, ${money(d.from, d.currency)} to ${money(d.to, d.currency)} (${pctText(d.dropShare)}), last observed ${d.capturedAt}. Page: ${SITE}${d.eventPath || d.linkPath}${d.linkPath && d.eventPath ? ` · guide/artist: ${SITE}${d.linkPath}` : ""}`).join("\n\n");
   return `${head}\n${body}\n`;
 }

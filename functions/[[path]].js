@@ -9085,7 +9085,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
   if (next.includes("data-price-history=")) {
-    next = next.replace("</body>", `${PRICE_ALERT_INTEREST_TEMPLATE}<script src="/price-history.js?v=20260924v" defer></script></body>`);
+    next = next.replace("</body>", `${PRICE_ALERT_INTEREST_TEMPLATE}<script src="/price-history.js?v=20261122a" defer></script></body>`);
   }
   if (route.path === "/currency-converter") {
     next = next.replace("</body>", '<script src="/currency-converter.js?v=20260821a" defer></script></body>');

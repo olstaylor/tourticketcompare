@@ -1,28 +1,102 @@
 {
   "storyType": "weekday-check",
   "asOf": "2026-11-22",
-  "source": "provider_pricing_daily (D1), low_price_last per event x provider x UTC day; query in query.sql, re-run 2026-11-22 and matched the 2026-11-21 run",
-  "scope": "all tracked shows (mostly US), readings 2026-09-15 to 2026-11-18, at least 14 days before the show, price under $1,000, one site compared with itself for the same show, other readings within 3 days either side",
-  "readings": 281915,
-  "shows": 4066,
-  "artists": 238,
-  "largestArtistShareOfReadings": 0.0385,
-  "meanListedLowUsd": 129.31,
-  "typicalAbsoluteDeviationPct": 3.12,
+  "source": "provider_pricing_daily (D1), low_price_last per event x provider x UTC day; query in query.sql (complete 7-reading windows), run 2026-11-22",
+  "scope": "all tracked shows (mostly US), readings 2026-09-15 to 2026-11-18, at least 14 days before the show, price under $1,000, one site compared with itself for the same show, the other six readings within 3 days either side, all seven days present",
+  "readings": 269153,
+  "shows": 3924,
+  "artists": 230,
+  "largestArtistShareOfReadings": 0.0403,
+  "meanListedLowUsd": 128.54,
+  "typicalAbsoluteDeviationPct": 3.0,
   "weekday": [
-    { "day": "Mon", "artists": 229, "readings": 40300, "meanPct": 0.499, "sePct": 0.193, "artistsAbovePct": 55.5 },
-    { "day": "Tue", "artists": 231, "readings": 42976, "meanPct": 0.733, "sePct": 0.213, "artistsAbovePct": 54.1 },
-    { "day": "Wed", "artists": 233, "readings": 43702, "meanPct": -0.300, "sePct": 0.210, "artistsAbovePct": 44.6 },
-    { "day": "Thu", "artists": 224, "readings": 37732, "meanPct": -0.312, "sePct": 0.175, "artistsAbovePct": 47.8 },
-    { "day": "Fri", "artists": 226, "readings": 38182, "meanPct": -0.603, "sePct": 0.154, "artistsAbovePct": 37.6 },
-    { "day": "Sat", "artists": 227, "readings": 39138, "meanPct": -0.479, "sePct": 0.132, "artistsAbovePct": 37.9 },
-    { "day": "Sun", "artists": 230, "readings": 39885, "meanPct": -0.009, "sePct": 0.134, "artistsAbovePct": 47.4 }
+    {
+      "day": "Mon",
+      "artists": 224,
+      "readings": 38392,
+      "meanPct": 0.328,
+      "sePct": 0.2,
+      "artistsAbovePct": 50.9
+    },
+    {
+      "day": "Tue",
+      "artists": 225,
+      "readings": 41272,
+      "meanPct": 0.653,
+      "sePct": 0.207,
+      "artistsAbovePct": 53.3
+    },
+    {
+      "day": "Wed",
+      "artists": 227,
+      "readings": 41965,
+      "meanPct": -0.376,
+      "sePct": 0.195,
+      "artistsAbovePct": 46.7
+    },
+    {
+      "day": "Thu",
+      "artists": 220,
+      "readings": 36044,
+      "meanPct": -0.276,
+      "sePct": 0.168,
+      "artistsAbovePct": 46.8
+    },
+    {
+      "day": "Fri",
+      "artists": 223,
+      "readings": 36658,
+      "meanPct": -0.634,
+      "sePct": 0.171,
+      "artistsAbovePct": 37.2
+    },
+    {
+      "day": "Sat",
+      "artists": 222,
+      "readings": 37241,
+      "meanPct": -0.458,
+      "sePct": 0.117,
+      "artistsAbovePct": 35.6
+    },
+    {
+      "day": "Sun",
+      "artists": 223,
+      "readings": 37581,
+      "meanPct": -0.156,
+      "sePct": 0.13,
+      "artistsAbovePct": 44.4
+    }
   ],
-  "contrastMonWedMinusFriSat": { "artists": 227, "gapPp": 0.776, "sePp": 0.184, "artistsPositivePct": 59.9, "note": "grouping chosen after seeing the weekday table, so the standard error is optimistic" },
+  "contrastMonWedMinusFriSat": {
+    "artists": 223,
+    "gapPp": 0.675,
+    "sePp": 0.188,
+    "artistsPositivePct": 60.1,
+    "note": "grouping chosen after seeing the weekday table, so the standard error is optimistic"
+  },
   "sites": [
-    { "site": "stubhub-international", "artists": 180, "gapPp": 1.023, "sePp": 0.228, "artistsPositivePct": 66.1 },
-    { "site": "ticketnetwork", "artists": 214, "gapPp": 0.915, "sePp": 0.269, "artistsPositivePct": 56.5 },
-    { "site": "vivid-seats", "artists": 214, "gapPp": 0.542, "sePp": 0.194, "artistsPositivePct": 51.9 }
+    {
+      "site": "stubhub-international",
+      "artists": 173,
+      "gapPp": 0.784,
+      "sePp": 0.241,
+      "artistsPositivePct": 62.4
+    },
+    {
+      "site": "ticketnetwork",
+      "artists": 208,
+      "gapPp": 0.57,
+      "sePp": 0.253,
+      "artistsPositivePct": 55.8
+    },
+    {
+      "site": "vivid-seats",
+      "artists": 211,
+      "gapPp": 0.591,
+      "sePp": 0.198,
+      "artistsPositivePct": 51.7
+    }
   ],
-  "earlierPeriodNote": "July to 14 September (33 to 49 artists per weekday) showed no consistent weekday pattern; 25 October to 18 November showed Mon-Tue highest and Thu-Sat lowest (results from the 2026-11-21 run, not re-run)."
+  "earlierPeriodNote": "July to 14 September (33 to 49 artists per weekday) showed no consistent weekday pattern in the 2026-11-21 run with the looser window; not re-run with complete windows.",
+  "revisionNote": "First run allowed windows with as few as 5 readings (gap 0.78 pp, 281,915 readings). Review showed gaps can leave a residual trend, so windows were restricted to all 7 readings. Result moved from 0.78 to 0.68 pp."
 }

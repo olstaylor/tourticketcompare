@@ -36,6 +36,31 @@ const PROVIDERS = {
       "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz",
       "stubhub.be", "stubhub.co.at"
     ]
+  },
+  // Dormant lanes (prepared 2026-11-22; programmes not yet joined). The catalog
+  // ID is deliberately empty: impactCredentials() fails closed until it is set
+  // via IMPACT_<NAME>_CATALOG_ID once Impact shows the programme's catalog.
+  tickpick: {
+    slug: "tickpick",
+    name: "TickPick",
+    envPrefix: "IMPACT_TICKPICK",
+    urlField: "tickpick_url",
+    linkKey: "tickpick",
+    priceSource: "tickpick_impact_marketplace_api",
+    defaultProgramId: "10353",
+    defaultCatalogId: "",
+    allowedHosts: ["tickpick.com"]
+  },
+  gametime: {
+    slug: "gametime",
+    name: "Gametime",
+    envPrefix: "IMPACT_GAMETIME",
+    urlField: "gametime_url",
+    linkKey: "gametime",
+    priceSource: "gametime_impact_marketplace_api",
+    defaultProgramId: "10874",
+    defaultCatalogId: "",
+    allowedHosts: ["gametime.co"]
   }
 };
 

@@ -22,6 +22,24 @@ const PROVIDERS = Object.freeze({
     defaultProgramId: "24092",
     publicEnabledByDefault: true,
     priceDisplayEnabledByDefault: true
+  }),
+  // Dormant lanes (prepared 2026-11-22, programmes not yet joined). Public and
+  // price-display flags default OFF; nothing renders until the owner flips them.
+  tickpick: Object.freeze({
+    envPrefix: "IMPACT_TICKPICK",
+    publicFlag: "TICKPICK_PUBLIC_ENABLED",
+    priceFlag: "TICKPICK_PRICE_DISPLAY_ENABLED",
+    defaultProgramId: "10353",
+    publicEnabledByDefault: false,
+    priceDisplayEnabledByDefault: false
+  }),
+  gametime: Object.freeze({
+    envPrefix: "IMPACT_GAMETIME",
+    publicFlag: "GAMETIME_PUBLIC_ENABLED",
+    priceFlag: "GAMETIME_PRICE_DISPLAY_ENABLED",
+    defaultProgramId: "10874",
+    publicEnabledByDefault: false,
+    priceDisplayEnabledByDefault: false
   })
 });
 

@@ -114,6 +114,19 @@ When runtime Impact configuration is absent or tracking generation fails, `/api/
 
 ---
 
+## TickPick and Gametime (prepared, dormant)
+
+Two further Impact lanes (TickPick programme 10353, Gametime programme 10874) are registered in `functions/_impact-marketplace-config.js` and `scripts/lib/impact-marketplace-providers.mjs` with every public and price-display flag **default off** (`TICKPICK_*`, `GAMETIME_*` in `wrangler.toml`). The owner has not yet applied to either programme. Nothing renders, syncs or redirects for them: `/api/out`, `[[path]].js`, the sync and snapshot workflows, `catalog.json` and event data are untouched.
+
+Activation order once a programme is approved (each step needs the owner's OK where it touches links or tracking):
+
+1. Ask Impact whether the programme publishes an event catalog (event IDs, URLs, prices). Set `IMPACT_<NAME>_CATALOG_ID`; the default is deliberately empty so the sync fails closed.
+2. Read-only dry run of the provider sync for a handful of artists; review matches by hand. Links are written only on an exact artist, venue, city and venue-local date match.
+3. Add the lane to `/api/out` (allowlist, tracking-URL env and program-ID maps), the event-page lane lists, `catalog.json` and `provider-identities.json`. Protected files: explicit scope required.
+4. Flip `*_PUBLIC_ENABLED`. Price display stays off until a snapshot dry run shows usable rows and written rights to show prices are held.
+
+Price basis (people-first rule): TickPick's listed prices include fees; Gametime's listed prices include fees only behind a toggle. A price is shown only with its confirmed basis stated beside it, and prices with different bases are never compared in one "cheapest" claim. If a basis cannot be confirmed for a lane, it is link-only. Button order is never set by commission.
+
 ## TicketNetwork, Ticket Liquidator, and StubHub International
 
 These are three independent provider lanes over the shared Impact Catalogs integration. StubHub International is explicitly separate from StubHub US/Canada. Current activation, coverage, and feed constraints are recorded in `PROJECT_STATUS.md`.

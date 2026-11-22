@@ -36,6 +36,11 @@ TICKETLIQUIDATOR_PUBLIC_ENABLED = "true"
 TICKETLIQUIDATOR_PRICE_DISPLAY_ENABLED = "false"
 STUBHUB_INTERNATIONAL_PUBLIC_ENABLED = "true"
 STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED = "true"
+# Dormant lanes: OFF until the owner flips them after programme approval.
+TICKPICK_PUBLIC_ENABLED = "false"
+TICKPICK_PRICE_DISPLAY_ENABLED = "false"
+GAMETIME_PUBLIC_ENABLED = "false"
+GAMETIME_PRICE_DISPLAY_ENABLED = "false"
 TICKETMASTER_DISCOVERY_COUNTRY = ""
 # Schema-offers exception (SAFE_PUBLISHING_RULES.md, owner-approved 2026-07-22).
 # Site-wide since the harry-styles pilot was verified live (2026-07-22). To

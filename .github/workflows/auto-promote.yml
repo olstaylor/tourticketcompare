@@ -31,7 +31,7 @@ jobs:
     # in-job suite, then up to 35 min for exact-head validation and the merge.
     # At 59 the 16 Oct run was cancelled mid-merge with its PR (#1618) green.
     # Publishing keeps its own sub-60 cap below (fresh App token lifetime).
-    timeout-minutes: 100
+    timeout-minutes: 140
     steps:
       - name: Switch
         id: switch
@@ -54,7 +54,7 @@ jobs:
         if: steps.switch.outputs.on == 'true'
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 4
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 40
 
       - name: Setup Node.js
         if: steps.switch.outputs.on == 'true'

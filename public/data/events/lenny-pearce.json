@@ -871,7 +871,7 @@
     "ticketmaster_event_id": "150064C59F2B8B3B",
     "ticketmaster_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-silver-spring-maryland-11-21-2026/event/150064C59F2B8B3B",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/lenny-pearce-tickets-silver-spring-the-fillmore-silver-spring-11-21-2026/production/7155374",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lenny-pearce-toddler-rave-world-tour-silver-spring-maryland-11-21-2026/event/150064C59F2B8B3B",
     "last_verified_at": "2026-11-15",
@@ -893,11 +893,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7155374,
+        "url": "https://www.vividseats.com/lenny-pearce-tickets-silver-spring-the-fillmore-silver-spring-11-21-2026/production/7155374",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -970,7 +970,7 @@
         "event_id": 7155396,
         "url": "https://www.vividseats.com/lenny-pearce-tickets-new-york-manhattan-center-hammerstein-ballroom-11-22-2026/production/7155396",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {

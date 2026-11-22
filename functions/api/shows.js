@@ -36,20 +36,10 @@ const IMPACT_MARKETPLACE_PROVIDERS = [
     allowedHosts: ["stubhub.co.uk", "stubhub.ie", "stubhub.de", "stubhub.fr", "stubhub.es", "stubhub.it", "stubhub.pt", "stubhub.pl", "stubhub.se", "stubhub.dk", "stubhub.fi", "stubhub.gr", "stubhub.nl", "stubhub.lu", "stubhub.cz", "stubhub.be", "stubhub.co.at"],
     priceSource: "stubhub_international_impact_marketplace_api", displayFlagKey: "STUBHUB_INTERNATIONAL_PRICE_DISPLAY_ENABLED",
     publicFlagKey: "STUBHUB_INTERNATIONAL_PUBLIC_ENABLED"
-  },
-  {
-    slug: "tickpick", name: "TickPick", envPrefix: "IMPACT_TICKPICK",
-    urlField: "tickpick_url", allowedHosts: ["tickpick.com"],
-    priceSource: "tickpick_impact_marketplace_api", displayFlagKey: "TICKPICK_PRICE_DISPLAY_ENABLED",
-    publicFlagKey: "TICKPICK_PUBLIC_ENABLED"
-  },
-  {
-    slug: "gametime", name: "Gametime", envPrefix: "IMPACT_GAMETIME",
-    urlField: "gametime_url", allowedHosts: ["gametime.co"],
-    priceSource: "gametime_impact_marketplace_api", displayFlagKey: "GAMETIME_PRICE_DISPLAY_ENABLED",
-    publicFlagKey: "GAMETIME_PUBLIC_ENABLED"
   }
 ];
+// TickPick and Gametime are link-only until price display is approved, so they
+// are not price lanes yet (see PROVIDER_URL_FIELDS below).
 const IMPACT_MARKETPLACE_BY_SLUG = Object.fromEntries(IMPACT_MARKETPLACE_PROVIDERS.map((provider) => [provider.slug, provider]));
 const PLACEHOLDER_URL_MARKERS = [
   "example.com",

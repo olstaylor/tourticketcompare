@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8112214",
+        "url": "https://www.ticketnetwork.com/en/p/8112214",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17C8v0G6C1Qpoq5",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112214"
   },
   {
     "id": "tm-rascal-flatts-2027-rexburg-z7r9jz1aaa-fg",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381500",
+        "url": "https://www.ticketnetwork.com/en/p/8381500",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA-Fg",
     "timezone": "America/Denver",
     "status": "announced",
-    "public_onsale_at": "2026-11-23T17:00:00Z"
+    "public_onsale_at": "2026-11-23T17:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381500"
   }
 ]

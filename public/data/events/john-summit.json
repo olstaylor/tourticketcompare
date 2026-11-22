@@ -1228,11 +1228,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7982964",
-        "url": "https://www.ticketnetwork.com/en/p/7982964",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107189136",
@@ -1252,7 +1252,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_5CtzbZ1",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982964",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-miami-tickets-11-21-2026/event/107189136",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982964/John-Summit-tickets-Sat-Nov-21-2026-Kaseya-Center",
     "organizer_names": [
@@ -1312,7 +1312,7 @@
         "event_id": "7982944",
         "url": "https://www.ticketnetwork.com/en/p/7982944",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1393,7 +1393,7 @@
         "event_id": "7982965",
         "url": "https://www.ticketnetwork.com/en/p/7982965",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1474,7 +1474,7 @@
         "event_id": "7982966",
         "url": "https://www.ticketnetwork.com/en/p/7982966",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1548,7 +1548,7 @@
         "event_id": "7982967",
         "url": "https://www.ticketnetwork.com/en/p/7982967",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1630,7 +1630,7 @@
         "event_id": "7982968",
         "url": "https://www.ticketnetwork.com/en/p/7982968",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1712,7 +1712,7 @@
         "event_id": "8005513",
         "url": "https://www.ticketnetwork.com/en/p/8005513",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1794,7 +1794,7 @@
         "event_id": "8204658",
         "url": "https://www.ticketnetwork.com/en/p/8204658",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1921,7 +1921,7 @@
         "event_id": "8292934",
         "url": "https://www.ticketnetwork.com/en/p/8292934",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2124,7 +2124,7 @@
         "event_id": "8310259",
         "url": "https://www.ticketnetwork.com/en/p/8310259",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2205,7 +2205,7 @@
         "event_id": "8310113",
         "url": "https://www.ticketnetwork.com/en/p/8310113",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2277,7 +2277,7 @@
         "event_id": "8310405",
         "url": "https://www.ticketnetwork.com/en/p/8310405",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

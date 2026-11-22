@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8249187",
+        "url": "https://www.ticketnetwork.com/en/p/8249187",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFZvPFYGA2ugky",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249187"
   },
   {
     "id": "tm-chris-tomlin-2026-birmingham-1aezz_ogkloidyk",
@@ -99,11 +107,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238832",
+        "url": "https://www.ticketnetwork.com/en/p/8238832",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_oGklOIdYk",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238832"
   },
   {
     "id": "tm-chris-tomlin-2026-daytona-beach-z7r9jz1aav44a",
@@ -205,11 +221,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238834",
+        "url": "https://www.ticketnetwork.com/en/p/8238834",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_oOnTASW",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238834"
   },
   {
     "id": "tm-chris-tomlin-2026-pensacola-g5viz_on0-j6v",
@@ -311,11 +335,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238838",
+        "url": "https://www.ticketnetwork.com/en/p/8238838",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oJuXkcz",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238838"
   },
   {
     "id": "tm-chris-tomlin-2026-newport-news-z7r9jz1aavoof",
@@ -364,11 +396,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238947",
+        "url": "https://www.ticketnetwork.com/en/p/8238947",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvoof",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238947"
   },
   {
     "id": "tm-chris-tomlin-2026-jersey-city-vv1aezkf_gkedtdkm",
@@ -417,11 +457,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238839",
+        "url": "https://www.ticketnetwork.com/en/p/8238839",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf_GkeDtdKM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238839"
   },
   {
     "id": "tm-chris-tomlin-2026-detroit-z7r9jz1aav34i",
@@ -470,11 +518,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238948",
+        "url": "https://www.ticketnetwork.com/en/p/8238948",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv34I",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238948"
   },
   {
     "id": "tm-chris-tomlin-2026-indianapolis-vv17fz_ogkmojkil",
@@ -523,11 +579,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238843",
+        "url": "https://www.ticketnetwork.com/en/p/8238843",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_oGkmOjkIL",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238843"
   },
   {
     "id": "tm-chris-tomlin-2026-milwaukee-z7r9jz1aav4be",
@@ -576,11 +640,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238949",
+        "url": "https://www.ticketnetwork.com/en/p/8238949",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv4bE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238949"
   },
   {
     "id": "tm-chris-tomlin-2026-cincinnati-1avbz_ogknrwawm",
@@ -629,11 +701,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238845",
+        "url": "https://www.ticketnetwork.com/en/p/8238845",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_oGknrwAwM",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238845"
   },
   {
     "id": "tm-chris-tomlin-2027-nashville-g5viz_6t7chyi",
@@ -682,10 +762,18 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7850295",
+        "url": "https://www.ticketnetwork.com/en/p/7850295",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_6T7chyI",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7850295"
   }
 ]

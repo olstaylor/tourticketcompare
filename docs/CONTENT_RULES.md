@@ -105,13 +105,14 @@ Event-level buttons must additionally have a reviewed local event ID, the provid
 
 ---
 
-## Richer Event Pages (pilot, owner go 2026-10-23)
+## Richer Event Pages (pilot owner go 2026-10-23; every live show from 2026-11-22)
 
-Ten event pages (`RICHER_EVENT_PILOT_IDS` in `functions/_event-price-range.js`) carry two extra sections. Widening the list is a reviewed change, not an automation.
+Every live (not cancelled or postponed) event page carries two extra sections wherever the data exists: no tracked days or no sourced venue record means the section does not render. The ten-date pilot list was retired when the sections went to all shows (owner request 2026-11-22: "enrich all show, artist and tour pages with unique data").
 
 - **Price range:** each displayable site's lowest and highest daily listed price since tracking began, from `provider_pricing_daily`, with site, currency and days covered, plus the spread across sites today. Same currency only, isolated spikes dropped, no timing or buying advice, no fee or total claims.
 - **Venue facts:** `functions/_venue-facts.js` holds door rules (bags, re-entry, payment, age) paraphrased from the venue's own page, each venue with its source URL and the date it was read. No record means nothing renders. Never add a venue from a third-party site, and re-read the source when refreshing a date.
 - Commentary is templated from these numbers; there is no generated prose.
+- **Artist page price data (2026-11-22):** `renderArtistPriceMovementHtml` states how many of the artist's priced dates have a recorded same-site price change in the last 30 days (lower and higher) and how many list a price on two or more sites. Counts only: no figures, no cheapest or dearest date, no ranking, no timing claim. It sits below the date board, never in the lead.
 
 ## Guides
 

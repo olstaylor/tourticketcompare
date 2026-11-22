@@ -71,7 +71,7 @@ import { isUpcomingShow, showStartMs } from "./_upcoming.js";
 import { CARD_PRICE_TAIL, LAST_SEEN_MAX_DAYS, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, PRICE_SUMMARY, lastSeenDate, lastSeenNote, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
 import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
-import { deriveEventPriceRange, fetchEventPriceRange, isRicherEventPilot } from "./_event-price-range.js";
+import { deriveEventPriceRange, fetchEventPriceRange } from "./_event-price-range.js";
 import { venueFactsFor } from "./_venue-facts.js";
 import { EVENT_INDEXED_COHORT_KEYS, deriveEventIndexingPilot, eventPagesIndexingEnabled } from "./_event-indexability.js";
 import { organizerNames, eventEndDate, validTicketLimit } from "./_event-metadata.js";
@@ -3338,8 +3338,40 @@ function renderRelatedArtistsHtml(related, artist) {
   return `<section class="nested-panel related-artists"><h2>Also playing ${escapeHtml(artist.name)}'s cities</h2><p class="muted">Other artists with tracked dates in the same cities.</p><ul class="guide-link-list">${items}</ul></section>`;
 }
 
-function renderArtistExtraContentHtml(model, events, artist, lowestByShowId, related = []) {
+// Compact data block for the artist page: how many of the priced dates have a
+// recorded change in the last PRICE_MOVE_WINDOW_DAYS days, counted same event,
+// same site, same currency (derivePriceMove), plus how many of the priced dates
+// list prices from two or more sites right now. Counts only: it ranks no date
+// against another, names no cheapest or dearest date and makes no timing claim
+// (docs/PROVIDER_DATA_POLICY.md, "A recorded price move is historical").
+// Nothing renders without a priced date, so a page with no data is unchanged.
+function renderArtistPriceMovementHtml(artist, rows, moves, guideHref) {
+  const priced = rows.filter((row) => row.lowest);
+  if (priced.length < 2) return "";
+  const multi = priced.filter((row) => row.comparedCount >= 2).length;
+  const lines = [];
+  if (moves.length) {
+    const down = moves.filter((move) => move.direction === "down").length;
+    const up = moves.length - down;
+    lines.push(
+      `${moves.length} of the ${priced.length} dates showing a price have a recorded change in the last ${PRICE_MOVE_WINDOW_DAYS} days: ${down} lower and ${up} higher than that ticket site's previous recorded figure for the same date.`
+    );
+  }
+  if (multi) {
+    lines.push(`${multi} of the ${priced.length} priced dates list a price on two or more ticket sites right now.`);
+  }
+  if (!lines.length) return "";
+  const guide = guideHref ? ` ${anchor(`${artist.name} ticket prices by date`, guideHref, "text-link")}` : "";
+  return `<section class="nested-panel" aria-labelledby="artistPriceDataTitle"><h2 id="artistPriceDataTitle">${escapeHtml(
+    `${artist.name} prices, last ${PRICE_MOVE_WINDOW_DAYS} days`
+  )}</h2><ul>${lines.map((line) => `<li>${escapeHtml(line)}</li>`).join("")}</ul><p class="disclosure-note">${escapeHtml(
+    "Each date is compared only with its own earlier price on the same ticket site. These are listed prices, not final totals, and this is not a forecast."
+  )}${guide}</p></section>`;
+}
+
+function renderArtistExtraContentHtml(model, events, artist, lowestByShowId, related = [], priceDataHtml = "") {
   const inner = [
+    priceDataHtml,
     renderArtistTourSummariesHtml(model.tours, artist),
     renderArtistLocationLinksHtml(events, artist, lowestByShowId),
     renderRelatedArtistsHtml(related, artist)
@@ -7836,7 +7868,7 @@ function renderEventContextHtml(route, artist, show, held, now = Date.now()) {
   return sections.join("");
 }
 
-// Pilot section: each displayable site's listed-price span since tracking began
+// Event section: each displayable site's listed-price span since tracking began
 // and, with two or more sites, the spread today. Figures are the lowest listed
 // price at each day's last capture (see functions/_event-price-range.js), shown
 // with the site, currency and the days they cover; never a total, a trend call
@@ -7870,7 +7902,7 @@ function renderEventPriceRangeHtml(row, rangeSeries) {
   )}</p></section>`;
 }
 
-// Pilot section: the venue's own entry rules, from the venue's page (see
+// Event section: the venue's own entry rules, from the venue's page (see
 // functions/_venue-facts.js). Nothing renders for a venue without a record.
 function renderVenueFactsHtml(show) {
   const record = venueFactsFor(venueSlug(show.venue, show.city));
@@ -7972,12 +8004,12 @@ function renderEventPageBody(route, events, env) {
         .join("")}</ul></section>`
     : "";
 
-  // Richer-page pilot (functions/_event-price-range.js): the per-site span of
-  // listed prices since tracking began, and the venue's own door rules. Both
-  // render only for the pilot dates and only from data that exists.
-  const pilot = !held && isRicherEventPilot(eventId);
-  const priceRangeHtml = pilot ? renderEventPriceRangeHtml(row, route.eventPriceRange) : "";
-  const venueFactsHtml = pilot ? renderVenueFactsHtml(show) : "";
+  // Richer event sections (functions/_event-price-range.js): the per-site span
+  // of listed prices since tracking began, and the venue's own door rules. Both
+  // render on every live date, only from data that exists: no tracked days or
+  // no sourced venue record means nothing renders.
+  const priceRangeHtml = !held ? renderEventPriceRangeHtml(row, route.eventPriceRange) : "";
+  const venueFactsHtml = !held ? renderVenueFactsHtml(show) : "";
 
   const dateLabel = formatShowDateServer(show.dateTimeISO, show.timezone);
   const localTime = showLocalTimeServer(show.dateTimeISO, show.timezone);
@@ -8235,7 +8267,6 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
         .filter((row) => row.lowest)
         .map((row) => [row.showId, row.lowest])
     );
-    const artistExtraContentHtml = renderArtistExtraContentHtml(contentModel, events, artist, artistLowestByShowId, route.relatedArtists);
     const reviewNoticeHtml = isIndexableArtist || !shows.length
       ? ""
       : `<section class="nested-panel review-notice"><p class="disclosure-note">This artist page is currently under review. Event details are shown for reference while ticket links are checked.</p></section>`;
@@ -8306,6 +8337,19 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
         }).rows
       : [];
     const regionalRows = cheapestRows.filter((row) => northAmericanIds.has(row.showId));
+    const artistMoveSeries = route.priceMoveSeries instanceof Map ? route.priceMoveSeries : new Map();
+    const artistMoves = cheapestRows
+      .filter((row) => row.lowest)
+      .map((row) => derivePriceMove(row.lowest, artistMoveSeries.get(`${row.showId}|${row.lowest.provider}`) || []))
+      .filter(Boolean);
+    const artistExtraContentHtml = renderArtistExtraContentHtml(
+      contentModel,
+      events,
+      artist,
+      artistLowestByShowId,
+      route.relatedArtists,
+      renderArtistPriceMovementHtml(artist, cheapestRows, artistMoves, priceGuideLive ? priceGuidePath(artist.slug) : "")
+    );
     const cheapestPanelHtml = cheapestRows.length
       ? renderCheapestAcrossDatesHtml(
           artist,
@@ -9666,7 +9710,7 @@ async function renderRequest(context) {
     const priceLowPromise = route.type === "artist-city" || route.type === "price-guide" || route.type === "event"
       ? fetchEventPriceLowSeries(env?.DEMAND_DB || env?.DB, candidateIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
-    const priceMovePromise = route.type === "price-guide" || route.type === "event"
+    const priceMovePromise = route.type === "price-guide" || route.type === "event" || route.type === "artist"
       ? fetchEventPriceMoveSeries(env?.DEMAND_DB || env?.DB, candidateIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
     // The 7-day change reads only dates close to show day, on the two surfaces
@@ -9677,8 +9721,8 @@ async function renderRequest(context) {
     const priceWeekPromise = weeklyIds.length
       ? fetchEventWeeklyPriceSeries(env?.DEMAND_DB || env?.DB, weeklyIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
-    // Richer-page pilot only: one extra read of the durable daily rollup.
-    const priceRangePromise = route.type === "event" && isRicherEventPilot(route.event?.id)
+    // One extra read of the durable daily rollup, event pages only.
+    const priceRangePromise = route.type === "event" && route.event?.id
       ? fetchEventPriceRange(env?.DEMAND_DB || env?.DB, String(route.event.id), APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);

@@ -466,12 +466,17 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # Same in-job-validation model as every other automated write here: if
-      # anything fails, no branch is pushed and no PR is opened.
+      # This job writes PROJECT_STATUS.md alone (a documentation refresh; the
+      # allowlist step below enforces it), so the in-job gate is the docs check,
+      # the status recount and the whitespace check. The full suite still runs
+      # on the exact PR head as the required `test-mvp` check before the merge.
+      # Measured 2026-11-21: the former in-job `npm run test:mvp` took 16 min of
+      # this job's 56. If anything fails, no branch is pushed and no PR is opened.
       - name: Validate before commit
         if: steps.diff.outputs.changed == 'true'
         run: |
-          npm run test:mvp
+          npm run docs:check
+          npm run status:validate:strict
           git diff --check
 
       - name: Assert the diff contains only allowlisted files
@@ -516,5 +521,5 @@ jobs:
           PR_TITLE="Refresh generated status figures (${TODAY})" \
           PR_LABEL="automation:status-figures" \
           PR_AUTO_MERGE=true \
-          PR_BODY=$'## What this PR does\n- Regenerates the machine-owned figures in `PROJECT_STATUS.md`: the data-derived counts, the calendar-derived indexable route surface, and the empty-board list. These move with the calendar, so they drift on days nothing else changes.\n\n## Explicit non-changes\n- `PROJECT_STATUS.md` only. No data, content, routing or provider files.\n- The regenerated evidence reports under `reports/indexable-surface/` are gitignored and are not part of this diff.\n\n## Validation\n- `npm run test:mvp` and `git diff --check` passed in-job on exactly this content, and Prelaunch Validation runs again on this branch before the merge.\n' \
+          PR_BODY=$'## What this PR does\n- Regenerates the machine-owned figures in `PROJECT_STATUS.md`: the data-derived counts, the calendar-derived indexable route surface, and the empty-board list. These move with the calendar, so they drift on days nothing else changes.\n\n## Explicit non-changes\n- `PROJECT_STATUS.md` only. No data, content, routing or provider files.\n- The regenerated evidence reports under `reports/indexable-surface/` are gitignored and are not part of this diff.\n\n## Validation\n- `docs:check`, `status:validate:strict` and `git diff --check` passed in-job on exactly this content, and the full `test-mvp` suite runs on this branch before the merge.\n' \
           node scripts/open-automation-pr.mjs

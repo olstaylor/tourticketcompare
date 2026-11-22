@@ -44,6 +44,7 @@
     "test:location-pages": "node scripts/location-pages.test.mjs",
     "test:onsale-calendar": "node scripts/onsale-calendar.test.mjs",
     "test:this-week": "node scripts/this-week.test.mjs",
+    "test:playing-soon": "node scripts/playing-soon.test.mjs",
     "test:tours-hub": "node scripts/tours-hub.test.mjs",
     "test:rumoured-tours": "node scripts/rumoured-tours.test.mjs",
     "test:worth-waiting": "node scripts/worth-waiting.test.mjs",
@@ -235,12 +236,12 @@
   },
   "devDependencies": {
     "sharp": "^0.35.5",
-    "wrangler": "^4.106.0",
-    "yaml": "2.9.0"
+    "wrangler": "^4.166.0",
+    "yaml": "2.9.1"
   },
   "overrides": {
     "esbuild": "0.28.1",
-    "undici": "7.29.1",
+    "undici": "7.30.2",
     "ws": "8.21.0",
     "sharp": "$sharp"
   }

@@ -30,14 +30,14 @@
         "event_id": 18724459,
         "url": "https://seatgeek.com/jason-aldean-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-27-8-pm/concert/18724459",
         "verified": true,
-        "last_verified_at": "2026-11-18",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7755570,
         "url": "https://www.vividseats.com/jason-aldean-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-27-2027/production/7755570",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -58,14 +58,14 @@
         "event_id": "8341789",
         "url": "https://www.ticketliquidator.com/tickets/8341789/Jason-Aldean-tickets-Sat-Feb-27-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107676194",
         "url": "https://www.stubhub.ie/jason-aldean-hollywood-tickets-2-27-2027/event/107676194",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -90,7 +90,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00655CA922565D",
     "ticketmaster_url": "https://www.ticketmaster.com/jason-aldean-durant-oklahoma-03-06-2027/event/0C00655CA922565D",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jason-aldean-tickets/durant-oklahoma-choctaw-grand-theater-2027-03-06-8-pm/concert/18781160",
     "vividseats_url": "https://www.vividseats.com/jason-aldean-tickets-durant-choctaw-grand-theater-3-6-2027/production/7880857",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jason-aldean-durant-oklahoma-03-06-2027/event/0C00655CA922565D",
@@ -116,7 +116,7 @@
         "event_id": 7880857,
         "url": "https://www.vividseats.com/jason-aldean-tickets-durant-choctaw-grand-theater-3-6-2027/production/7880857",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {

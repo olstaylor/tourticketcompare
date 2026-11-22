@@ -680,7 +680,7 @@
         "event_id": "107682852",
         "url": "https://www.stubhub.ie/tom-jones-tickets-cardiff-cardiff-castle-30-5-2027/event/107682852",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -806,7 +806,7 @@
         "event_id": "107683868",
         "url": "https://www.stubhub.ie/tom-jones-tickets-liverpool-pier-head-liverpool-20-6-2027/event/107683868",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -833,7 +833,7 @@
     "ticketmaster_event_id": "1F00655C921421CB",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-lincoln-23-06-2027/event/1F00655C921421CB",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-lincoln-lincoln-castle-6-23-2027--concerts-pop/production/7886004",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-lincoln-23-06-2027/event/1F00655C921421CB",
     "last_verified_at": "2026-11-20",
@@ -855,11 +855,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7886004,
+        "url": "https://www.vividseats.com/tom-jones-tickets-lincoln-lincoln-castle-6-23-2027--concerts-pop/production/7886004",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -872,7 +872,7 @@
         "event_id": "107683866",
         "url": "https://www.stubhub.ie/tom-jones-tickets-lincoln-lincoln-castle-23-6-2027/event/107683866",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -938,7 +938,7 @@
         "event_id": "107683850",
         "url": "https://www.stubhub.ie/tom-jones-tickets-rugeley-cannock-chase-forest-25-6-2027/event/107683850",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },
@@ -1063,7 +1063,7 @@
         "event_id": "107682871",
         "url": "https://www.stubhub.ie/tom-jones-tickets-woodstock-blenheim-palace-30-6-2027/event/107682871",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-21",
         "availability_status": "listed"
       }
     },

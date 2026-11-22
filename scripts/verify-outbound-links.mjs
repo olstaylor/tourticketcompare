@@ -312,23 +312,41 @@ export async function recheckTransientFailures(items, results, check, { maxReche
  */
 export const HOST_WIDE_MIN_URLS = 3;
 
+// The brand a hostname belongs to: www.ticketweb.com and www.ticketweb.ca are
+// one storefront on two country domains, and a refusal of the checker hits both
+// (2026-11-21: 38 .com URLs and 2 .ca URLs all answered 530, but the two .ca
+// ones were below the three-URL floor on their own and kept Site health red).
+export function hostFamily(host) {
+  const labels = String(host).toLowerCase().split('.').filter((label) => label && label !== 'www');
+  const generic = new Set(['co', 'com', 'org', 'net', 'gov', 'ac']);
+  while (labels.length > 1 && (labels.length === 2 || generic.has(labels[labels.length - 2]))) {
+    labels.pop();
+    if (labels.length === 1 || !generic.has(labels[labels.length - 1])) break;
+  }
+  return labels[labels.length - 1];
+}
+
 export function markHostWideRefusals(items, results, { minUrls = HOST_WIDE_MIN_URLS } = {}) {
-  const byHost = new Map();
+  const byFamily = new Map();
   for (const [index, item] of items.entries()) {
     let host;
     try { host = new URL(item.url).hostname; } catch { continue; }
-    byHost.set(host, [...(byHost.get(host) || []), index]);
+    const family = hostFamily(host);
+    byFamily.set(family, [...(byFamily.get(family) || []), { index, host }]);
   }
   const out = results.slice();
   const hosts = [];
-  for (const [host, indexes] of byHost) {
-    if (indexes.length < minUrls) continue;
+  for (const entries of byFamily.values()) {
+    if (entries.length < minUrls) continue;
+    const indexes = entries.map((entry) => entry.index);
     const statuses = new Set(indexes.map((index) => results[index]?.status));
     const [status] = statuses;
     const refused = statuses.size === 1 && status >= 500 && indexes.every((index) => !results[index].ok && !results[index].blocked);
     if (!refused) continue;
     for (const index of indexes) out[index] = { ...results[index], blocked: true, hostWide: true };
-    hosts.push({ host, status, urls: indexes.length });
+    const perHost = new Map();
+    for (const { host } of entries) perHost.set(host, (perHost.get(host) || 0) + 1);
+    for (const [host, urls] of perHost) hosts.push({ host, status, urls });
   }
   return { results: out, hosts };
 }
@@ -443,6 +461,15 @@ if (args.has('--self-test')) {
   assert.equal(hostRefusal.results[3].blocked, false, 'a lone 5xx on another host stays a failure');
   assert.deepEqual(hostRefusal.hosts, [{ host: 'www.ticketweb.com', status: 530, urls: 3 }]);
   assert.equal(markHostWideRefusals([tw(1), tw(2)], [fail530, fail530]).hosts.length, 0, 'two URLs are not a host-wide pattern');
+  // The same storefront on a country domain joins the refusal (2026-11-21).
+  const twCa = (n) => ({ url: `https://www.ticketweb.ca/event/x/${n}` });
+  const family = markHostWideRefusals([tw(1), tw(2), tw(3), twCa(1), twCa(2)], [fail530, fail530, fail530, fail530, fail530]);
+  assert.deepEqual(family.results.map((r) => r.hostWide), [true, true, true, true, true], 'a country domain of a refusing storefront is blocked too');
+  assert.deepEqual(family.hosts, [{ host: 'www.ticketweb.com', status: 530, urls: 3 }, { host: 'www.ticketweb.ca', status: 530, urls: 2 }]);
+  assert.equal(markHostWideRefusals([twCa(1), twCa(2)], [fail530, fail530]).hosts.length, 0, 'two country-domain URLs alone stay failures');
+  assert.equal(hostFamily('www.ticketweb.co.uk'), 'ticketweb');
+  assert.equal(hostFamily('www.stubhub.ie'), 'stubhub');
+  assert.equal(hostFamily('seatgeek.com'), 'seatgeek');
   assert.equal(markHostWideRefusals([tw(1), tw(2), tw(3)], [fail530, fail530, { ok: true, status: 200 }]).hosts.length, 0, 'one live URL means the host answers: the 530s stay failures');
   assert.equal(markHostWideRefusals([tw(1), tw(2), tw(3)], [fail530, fail530, { ok: false, status: 404 }]).hosts.length, 0, 'a 404 among them is a real dead link, so nothing is reclassified');
   assert.equal(markHostWideRefusals([tw(1), tw(2), tw(3)], [{ ok: false, status: 404 }, { ok: false, status: 404 }, { ok: false, status: 404 }]).hosts.length, 0, 'host-wide 404s stay dead links');

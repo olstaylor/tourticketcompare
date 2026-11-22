@@ -50,9 +50,17 @@ import * as runtimeLocalDate from "../functions/_event-local-date.js";
 import * as scriptsLocalDate from "./lib/event-local-date.mjs";
 import { resolveEventLocalDate } from "./lib/event-local-date.mjs";
 import { loadSiteFixture } from "./lib/route-crawl.mjs";
+import { sharedClock } from "./lib/render-cache.mjs";
 import { eventStatusPublishable } from "../functions/_route-indexability.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// Under test:mvp the rendered pages come from the run's shared route cache,
+// filled at the run's start (scripts/lib/render-cache.mjs). Judge them against
+// that same instant: a show that starts after the prewarm is still on the
+// cached page but 301s at the live clock, which failed this test on same-day
+// shows (21 Nov 2026). Standalone, sharedClock() is just the live time.
+const RUN_NOW = sharedClock();
+Date.now = () => RUN_NOW;
 const checks = [];
 const assert = (label, pass) => checks.push({ label, pass: !!pass });
 const throwsWith = (fn, ErrorType) => {

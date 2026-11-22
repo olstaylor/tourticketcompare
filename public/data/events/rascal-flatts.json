@@ -60,13 +60,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107457438",
+        "url": "https://www.stubhub.ie/rascal-flatts-las-vegas-tickets-12-5-2026/event/107457438",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17C8v0G6C1Qpoq5",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112214",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8112214/Rascal-Flatts-tickets-Sat-Dec-5-2026-The-Colosseum-At-Caesars-Palace"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8112214/Rascal-Flatts-tickets-Sat-Dec-5-2026-The-Colosseum-At-Caesars-Palace",
+    "stubhub_international_url": "https://www.stubhub.ie/rascal-flatts-las-vegas-tickets-12-5-2026/event/107457438"
   },
   {
     "id": "tm-rascal-flatts-2027-rexburg-z7r9jz1aaa-fg",

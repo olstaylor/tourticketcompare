@@ -217,11 +217,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107666750",
-        "url": "https://www.stubhub.ie/ye-glendale-tickets-11-21-2026/event/107666750",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -235,7 +235,7 @@
     "timezone": "America/Phoenix",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/ye-glendale-tickets-11-21-2026/event/107666750",
+    "stubhub_international_url": "",
     "ticketnetwork_url": "",
     "genre": "Hip-Hop/Rap"
   }

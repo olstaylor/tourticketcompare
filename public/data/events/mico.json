@@ -2842,7 +2842,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA73Ap",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-02-19-8-pm/concert/18844951",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
@@ -2858,11 +2858,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844951,
+        "url": "https://seatgeek.com/mico-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-02-19-8-pm/concert/18844951",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

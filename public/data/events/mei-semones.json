@@ -81,7 +81,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeKPv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKPv",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/portland-maine-space-gallery-2027-02-25-8-pm/concert/18850382",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKPv",
@@ -97,11 +97,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18850382,
+        "url": "https://seatgeek.com/mei-semones-tickets/portland-maine-space-gallery-2027-02-25-8-pm/concert/18850382",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -496,7 +496,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAefGV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGV",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-04-10-8-pm/concert/18844961",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGV",
@@ -512,11 +512,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844961,
+        "url": "https://seatgeek.com/mei-semones-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-04-10-8-pm/concert/18844961",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -787,7 +787,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe3k4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3k4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/san-diego-california-music-box-san-diego-2027-04-21-8-pm/concert/18844674",
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-san-diego-music-box-san-diego-4-21-2027/production/7629380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3k4",
@@ -803,11 +803,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844674,
+        "url": "https://seatgeek.com/mei-semones-tickets/san-diego-california-music-box-san-diego-2027-04-21-8-pm/concert/18844674",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7629380,

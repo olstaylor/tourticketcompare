@@ -82792,7 +82792,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvo",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvo",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/portland-oregon-star-theater-portland-2026-12-10-7-30-pm/concert/18850486",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvo",
@@ -82808,11 +82808,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18850486,
+        "url": "https://seatgeek.com/missio-tickets/portland-oregon-star-theater-portland-2026-12-10-7-30-pm/concert/18850486",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -82861,7 +82861,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIv3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv3",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/seattle-washington-funhouse-2026-12-11-8-30-pm/concert/18851903",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv3",
@@ -82877,11 +82877,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18851903,
+        "url": "https://seatgeek.com/missio-tickets/seattle-washington-funhouse-2026-12-11-8-30-pm/concert/18851903",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -82999,7 +82999,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/spokane-washington-the-district-bar-2026-12-13-7-pm/concert/18856700",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-spokane-the-district-bar---wa-12-13-2026--concerts-dance-electronica/production/7425935",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvK",
@@ -83015,11 +83015,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18856700,
+        "url": "https://seatgeek.com/missio-tickets/spokane-washington-the-district-bar-2026-12-13-7-pm/concert/18856700",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425935,
@@ -83275,7 +83275,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvO",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvO",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/minneapolis-minnesota-fine-line-music-cafe-2027-01-15-8-pm/concert/18844651",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-minneapolis-fine-line-1-15-2027/production/7425043",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvO",
@@ -83291,11 +83291,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844651,
+        "url": "https://seatgeek.com/missio-tickets/minneapolis-minnesota-fine-line-music-cafe-2027-01-15-8-pm/concert/18844651",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425043,
@@ -83430,7 +83430,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIv-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/washington-district-of-columbia-union-stage-2027-02-11-8-pm/concert/18856633",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-washington-dc-union-stage-2-11-2027/production/7425057",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIv-",
@@ -83446,11 +83446,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18856633,
+        "url": "https://seatgeek.com/missio-tickets/washington-district-of-columbia-union-stage-2027-02-11-8-pm/concert/18856633",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425057,
@@ -83654,7 +83654,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvN",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvN",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-03-10-8-pm/concert/18844966",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvN",
@@ -83670,11 +83670,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844966,
+        "url": "https://seatgeek.com/missio-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-03-10-8-pm/concert/18844966",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -83854,7 +83854,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvJ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvJ",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/missio-tickets/nashville-tennessee-the-end-2027-03-14-7-30-pm/concert/18846259",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-nashville-the-end-3-14-2027/production/7425220",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvJ",
@@ -83870,11 +83870,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18846259,
+        "url": "https://seatgeek.com/missio-tickets/nashville-tennessee-the-end-2027-03-14-7-30-pm/concert/18846259",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7425220,
@@ -149247,7 +149247,7 @@
     "tour_name": "Living In The Light Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvSp6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tommy-emmanuel-tickets/fairfield-connecticut-shu-community-theatre-2027-02-05-8-pm/concert/18858717",
     "vividseats_url": "https://www.vividseats.com/tommy-emmanuel-tickets-fairfield-shu-community-theatre-2-5-2027/production/7566401",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvSp6",
@@ -149263,11 +149263,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18858717,
+        "url": "https://seatgeek.com/tommy-emmanuel-tickets/fairfield-connecticut-shu-community-theatre-2027-02-05-8-pm/concert/18858717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7566401,
@@ -239102,7 +239102,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeKPv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKPv",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/portland-maine-space-gallery-2027-02-25-8-pm/concert/18850382",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeKPv",
@@ -239118,11 +239118,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18850382,
+        "url": "https://seatgeek.com/mei-semones-tickets/portland-maine-space-gallery-2027-02-25-8-pm/concert/18850382",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -239517,7 +239517,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAefGV",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGV",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-04-10-8-pm/concert/18844961",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefGV",
@@ -239533,11 +239533,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844961,
+        "url": "https://seatgeek.com/mei-semones-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-04-10-8-pm/concert/18844961",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -239808,7 +239808,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe3k4",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3k4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/san-diego-california-music-box-san-diego-2027-04-21-8-pm/concert/18844674",
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-san-diego-music-box-san-diego-4-21-2027/production/7629380",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe3k4",
@@ -239824,11 +239824,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844674,
+        "url": "https://seatgeek.com/mei-semones-tickets/san-diego-california-music-box-san-diego-2027-04-21-8-pm/concert/18844674",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7629380,
@@ -268155,7 +268155,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeekk",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeekk",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/haiden-henderson-tickets/portland-oregon-hawthorne-theatre-2027-05-12-8-pm/concert/18694629",
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-portland-hawthorne-theatre-5-12-2027--concerts-pop/production/7593284",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeekk",
@@ -268171,11 +268171,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18694629,
+        "url": "https://seatgeek.com/haiden-henderson-tickets/portland-oregon-hawthorne-theatre-2027-05-12-8-pm/concert/18694629",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7593284,
@@ -282815,7 +282815,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeerb",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeerb",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/haiden-henderson-tickets/minneapolis-minnesota-7th-street-entry-2027-05-02-8-pm/concert/18847838",
     "vividseats_url": "https://www.vividseats.com/haiden-henderson-tickets-minneapolis-7th-street-entry-5-2-2027/production/7597366",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeerb",
@@ -282831,11 +282831,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18847838,
+        "url": "https://seatgeek.com/haiden-henderson-tickets/minneapolis-minnesota-7th-street-entry-2027-05-02-8-pm/concert/18847838",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7597366,
@@ -373261,7 +373261,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA73Ap",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mico-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-02-19-8-pm/concert/18844951",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA73Ap",
@@ -373277,11 +373277,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18844951,
+        "url": "https://seatgeek.com/mico-tickets/carrboro-north-carolina-cat-s-cradle-carrboro-2027-02-19-8-pm/concert/18844951",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -378608,7 +378608,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7t8k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t8k",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/shipshewana-indiana-blue-gate-performing-arts-center-2027-11-08-7-30-pm/concert/18857823",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-shipshewana-blue-gate-performing-arts-center-11-8-2027/production/7761158",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t8k",
@@ -378624,11 +378624,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18857823,
+        "url": "https://seatgeek.com/mat-kearney-tickets/shipshewana-indiana-blue-gate-performing-arts-center-2027-11-08-7-30-pm/concert/18857823",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761158,
@@ -397236,19 +397236,19 @@
     "venue": "Arena VFG",
     "datetime_iso": "2027-02-24T03:00:00Z",
     "tour_name": "Deadbeat Tour",
-    "ticketmaster_event_id": "3D00656BAC51612E",
-    "ticketmaster_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
+    "ticketmaster_event_id": "3D00656DDDE4A41D",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
+    "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
     "last_verified_at": "2026-11-13",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "3D00656BAC51612E",
-        "discovery_event_id": "G5dVZ_pmifp7m",
-        "url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
+        "event_id": "3D00656DDDE4A41D",
+        "discovery_event_id": "G5dVZ_pMqy18q",
+        "url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
@@ -397275,7 +397275,7 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "G5dVZ_pmifp7m",
+    "ticketmaster_discovery_event_id": "G5dVZ_pMqy18q",
     "timezone": "America/Mexico_City",
     "status": "announced",
     "public_onsale_at": "2026-11-20T17:00:00Z",
@@ -425686,7 +425686,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAaJp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaJp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/travis-tritt-tickets/lake-charles-louisiana-grand-event-center-golden-nugget-lake-charles-2027-10-09-8-pm/concert/18854687",
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-lake-charles-grand-event-center---golden-nugget-lake-charles-10-9-2027--concerts-country-and-folk/production/7847165",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaJp",
@@ -425702,11 +425702,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18854687,
+        "url": "https://seatgeek.com/travis-tritt-tickets/lake-charles-louisiana-grand-event-center-golden-nugget-lake-charles-2027-10-09-8-pm/concert/18854687",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7847165,
@@ -430499,7 +430499,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAFF6",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAFF6",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/garth-brooks-tickets/minneapolis-minnesota-target-center-2026-12-11-8-pm/concert/18747128",
     "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-minneapolis-target-center-12-11-2026/production/7828343",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAFF6",
@@ -430515,11 +430515,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18747128,
+        "url": "https://seatgeek.com/garth-brooks-tickets/minneapolis-minnesota-target-center-2026-12-11-8-pm/concert/18747128",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7828343,
@@ -430569,7 +430569,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAoZy",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoZy",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sam-fender-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-04-27-8-pm/concert/18760809",
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-milwaukee-the-rave-eagles-club-4-27-2027--concerts-alternative/production/7863266",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoZy",
@@ -430585,11 +430585,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760809,
+        "url": "https://seatgeek.com/sam-fender-tickets/milwaukee-wisconsin-the-rave-eagles-club-2027-04-27-8-pm/concert/18760809",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7863266,
@@ -430622,7 +430622,7 @@
     "tour_name": "North America Tour '27",
     "ticketmaster_event_id": "Z7r9jZ1AAAaOe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaOe",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/sam-fender-tickets/morrison-colorado-red-rocks-amphitheatre-2027-04-29-8-pm/concert/18760802",
     "vividseats_url": "https://www.vividseats.com/sam-fender-tickets-morrison-red-rocks-amphitheatre-4-29-2027--concerts-alternative/production/7863250",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAaOe",
@@ -430638,11 +430638,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760802,
+        "url": "https://seatgeek.com/sam-fender-tickets/morrison-colorado-red-rocks-amphitheatre-2027-04-29-8-pm/concert/18760802",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7863250,
@@ -430702,7 +430702,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA6Ce",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-08-7-30-pm/concert/18755211",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ce",
@@ -430718,11 +430718,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755211,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-08-7-30-pm/concert/18755211",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -430755,7 +430755,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA6Cv",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-09-7-30-pm/concert/18755214",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cv",
@@ -430771,11 +430771,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755214,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-09-7-30-pm/concert/18755214",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -430808,7 +430808,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA40k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-10-7-30-pm/concert/18755215",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA40k",
@@ -430824,11 +430824,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755215,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-10-7-30-pm/concert/18755215",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -430861,7 +430861,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA6Cd",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-12-7-30-pm/concert/18755216",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Cd",
@@ -430877,11 +430877,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755216,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-12-7-30-pm/concert/18755216",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -430914,7 +430914,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAb04",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-13-7-30-pm/concert/18755220",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAb04",
@@ -430930,11 +430930,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18755220,
+        "url": "https://seatgeek.com/billy-strings-tickets/saint-augustine-florida-st-augustine-amphitheatre-2027-04-13-7-30-pm/concert/18755220",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -431279,7 +431279,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_49",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/carmel-indiana-the-palladium-at-allied-solutions-center-for-the-performing-arts-2027-11-14-7-30-pm/concert/18848387",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-carmel-allied-solutions-center-for-the-performing-arts---payne-and-mencias-palladium-11-14-2027/production/7765205",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
@@ -431295,11 +431295,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18848387,
+        "url": "https://seatgeek.com/mat-kearney-tickets/carmel-indiana-the-palladium-at-allied-solutions-center-for-the-performing-arts-2027-11-14-7-30-pm/concert/18848387",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7765205,
@@ -431620,7 +431620,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_ZM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/ontario-california-toyota-arena-ontario-2027-08-04-7-30-pm/concert/18772709",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-ontario-toyota-arena---ca-8-4-2027--theater-family/production/7870541",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_ZM",
@@ -431636,11 +431636,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772709,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/ontario-california-toyota-arena-ontario-2027-08-04-7-30-pm/concert/18772709",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870541,
@@ -431838,7 +431838,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_Qa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/hannah-harper-tickets/richmond-virginia-carpenter-theatre-at-dominion-energy-center-2027-03-07-8-pm/concert/18773760",
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-richmond-carpenter-theatre-at-dominion-energy-center-3-7-2027/production/7836008",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Qa",
@@ -431854,11 +431854,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773760,
+        "url": "https://seatgeek.com/hannah-harper-tickets/richmond-virginia-carpenter-theatre-at-dominion-energy-center-2027-03-07-8-pm/concert/18773760",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7836008,
@@ -431908,7 +431908,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8AY",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-16-5-30-pm/concert/18760516",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-athens-sanford-stadium-7-16-2027--concerts-country-and-folk/production/7860936",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8AY",
@@ -431924,11 +431924,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760516,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-16-5-30-pm/concert/18760516",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860936,
@@ -431969,7 +431969,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA8ke",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-17-5-30-pm/concert/18760515",
     "vividseats_url": "https://www.vividseats.com/morgan-wallen-tickets-athens-sanford-stadium-7-17-2027--concerts-country-and-folk/production/7860938",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA8ke",
@@ -431985,11 +431985,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760515,
+        "url": "https://seatgeek.com/morgan-wallen-tickets/athens-georgia-sanford-stadium-2027-07-17-5-30-pm/concert/18760515",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7860938,
@@ -432030,7 +432030,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4kF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-23-8-pm/concert/18784695",
     "vividseats_url": "https://www.vividseats.com/santana-tickets-highland-yaamava-resort-and-casino-at-san-manuel---yaamava-theater-2-23-2027/production/7886831",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4kF",
@@ -432046,11 +432046,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18784695,
+        "url": "https://seatgeek.com/santana-tickets/highland-california-yaamava-theater-at-yaamava-resort-and-casino-2027-02-23-8-pm/concert/18784695",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7886831,
@@ -432092,7 +432092,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4k8",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/hanover-maryland-the-hall-at-live-2027-03-26-9-pm/concert/18784693",
     "vividseats_url": "https://www.vividseats.com/santana-tickets-hanover-the-hall-at-live-casino-and-hotel---hanover-3-26-2027/production/7886813",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4k8",
@@ -432108,11 +432108,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18784693,
+        "url": "https://seatgeek.com/santana-tickets/hanover-maryland-the-hall-at-live-2027-03-26-9-pm/concert/18784693",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7886813,
@@ -432146,7 +432146,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4aK",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/santana-tickets/lancaster-pennsylvania-american-music-theatre-2027-04-07-8-pm/concert/18784713",
     "vividseats_url": "https://www.vividseats.com/santana-tickets-lancaster-american-music-theatre-4-7-2027/production/7886737",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4aK",
@@ -432162,11 +432162,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18784713,
+        "url": "https://seatgeek.com/santana-tickets/lancaster-pennsylvania-american-music-theatre-2027-04-07-8-pm/concert/18784713",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7886737,
@@ -432208,7 +432208,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAAPU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/arlington-texas-at-t-stadium-2027-06-03-7-30-pm/concert/18633460",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPU",
@@ -432224,11 +432224,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633460,
+        "url": "https://seatgeek.com/stray-kids-tickets/arlington-texas-at-t-stadium-2027-06-03-7-30-pm/concert/18633460",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -432280,7 +432280,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAAPM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/stray-kids-tickets/baltimore-maryland-m-t-bank-stadium-2027-06-22-7-30-pm/concert/18731347",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAAPM",
@@ -432296,11 +432296,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18731347,
+        "url": "https://seatgeek.com/stray-kids-tickets/baltimore-maryland-m-t-bank-stadium-2027-06-22-7-30-pm/concert/18731347",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -432352,7 +432352,7 @@
     "tour_name": "Vaccination Of The Nations Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAA3_O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_O",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-26-7-pm/concert/18778371",
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-morrison-red-rocks-amphitheatre-5-26-2027--concerts-hard-rock/production/7880207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_O",
@@ -432368,11 +432368,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778371,
+        "url": "https://seatgeek.com/megadeth-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-26-7-pm/concert/18778371",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880207,
@@ -432417,7 +432417,7 @@
     "tour_name": "Vaccination Of The Nations Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAA3_-",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_-",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/nampa-idaho-ford-idaho-center-2027-09-28-7-pm/concert/18778430",
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-nampa-ford-idaho-center-arena-9-28-2027/production/7880510",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_-",
@@ -432433,11 +432433,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778430,
+        "url": "https://seatgeek.com/megadeth-tickets/nampa-idaho-ford-idaho-center-2027-09-28-7-pm/concert/18778430",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880510,
@@ -432474,7 +432474,7 @@
     "tour_name": "Vaccination Of The Nations Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAA3_N",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_N",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/missoula-montana-dahlberg-arena-adams-event-center-2027-09-29-7-pm/concert/18778432",
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-missoula-adams-event-center-9-29-2027--concerts-hard-rock/production/7880189",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_N",
@@ -432490,11 +432490,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778432,
+        "url": "https://seatgeek.com/megadeth-tickets/missoula-montana-dahlberg-arena-adams-event-center-2027-09-29-7-pm/concert/18778432",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880189,
@@ -432539,7 +432539,7 @@
     "tour_name": "Vaccination Of The Nations Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAA3_0",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_0",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/megadeth-tickets/spokane-washington-numerica-veterans-arena-2027-09-30-7-pm/concert/18778434",
     "vividseats_url": "https://www.vividseats.com/megadeth-tickets-spokane-numerica-veterans-arena-9-30-2027/production/7879965",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA3_0",
@@ -432555,11 +432555,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778434,
+        "url": "https://seatgeek.com/megadeth-tickets/spokane-washington-numerica-veterans-arena-2027-09-30-7-pm/concert/18778434",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7879965,
@@ -432604,7 +432604,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAoat",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/des-moines-iowa-casey-s-center-2027-04-20-7-45-pm/concert/18773531",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoat",
@@ -432620,11 +432620,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773531,
+        "url": "https://seatgeek.com/alex-warren-tickets/des-moines-iowa-casey-s-center-2027-04-20-7-45-pm/concert/18773531",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -432669,7 +432669,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAoaw",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/alex-warren-tickets/madison-wisconsin-kohl-center-2027-04-25-7-45-pm/concert/18773538",
     "vividseats_url": "https://www.vividseats.com/alex-warren-tickets-madison-kohl-center-4-25-2027--concerts-pop/production/7870991",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoaw",
@@ -432685,11 +432685,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773538,
+        "url": "https://seatgeek.com/alex-warren-tickets/madison-wisconsin-kohl-center-2027-04-25-7-45-pm/concert/18773538",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870991,
@@ -432861,7 +432861,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeZ8O",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8O",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/foreigner-tickets/clearwater-florida-ruth-eckerd-hall-2027-02-16-8-pm/concert/18629078",
     "vividseats_url": "https://www.vividseats.com/foreigner-the-hits-unplugged-tickets-clearwater-ruth-eckerd-hall-2-16-2027/production/7588277",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZ8O",
@@ -432877,11 +432877,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18629078,
+        "url": "https://seatgeek.com/foreigner-tickets/clearwater-florida-ruth-eckerd-hall-2027-02-16-8-pm/concert/18629078",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7588277,
@@ -432986,7 +432986,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAf8f",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/cody-johnson-tickets/kansas-city-missouri-t-mobile-center-2027-04-17-7-pm/concert/18773455",
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-kansas-city-t-mobile-center-4-17-2027/production/7871119",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8f",
@@ -433002,11 +433002,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773455,
+        "url": "https://seatgeek.com/cody-johnson-tickets/kansas-city-missouri-t-mobile-center-2027-04-17-7-pm/concert/18773455",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871119,
@@ -433100,7 +433100,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_at",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/pelham-tennessee-the-caverns-2027-11-20-8-pm/concert/18856717",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-pelham-the-caverns-11-20-2027/production/7767506",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
@@ -433116,11 +433116,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18856717,
+        "url": "https://seatgeek.com/mat-kearney-tickets/pelham-tennessee-the-caverns-2027-11-20-8-pm/concert/18856717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7767506,
@@ -433161,7 +433161,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4-e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/sunrise-florida-amerant-bank-arena-2027-07-14-7-30-pm/concert/18744717",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-sunrise-amerant-bank-arena-7-14-2027--theater-family/production/7870538",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4-e",
@@ -433177,11 +433177,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18744717,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/sunrise-florida-amerant-bank-arena-2027-07-14-7-30-pm/concert/18744717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870538,
@@ -433231,7 +433231,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAf4w",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-30-7-30-pm/concert/18772706",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4w",
@@ -433247,11 +433247,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772706,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-30-7-30-pm/concert/18772706",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -433301,7 +433301,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAf4V",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-31-2-pm/concert/18772708",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf4V",
@@ -433317,11 +433317,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772708,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/los-angeles-california-crypto-com-arena-2027-07-31-2-pm/concert/18772708",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -433355,7 +433355,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_kp",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/las-vegas-nevada-t-mobile-arena-2027-08-07-2-pm/concert/18772710",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_kp",
@@ -433371,11 +433371,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772710,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/las-vegas-nevada-t-mobile-arena-2027-08-07-2-pm/concert/18772710",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -433409,7 +433409,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_FF",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-10-7-30-pm/concert/18772716",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-oakland-oakland-arena-8-10-2027--theater-family/production/7870544",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_FF",
@@ -433425,11 +433425,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772716,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-10-7-30-pm/concert/18772716",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870544,
@@ -433479,7 +433479,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA_Fa",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-11-7-30-pm/concert/18772717",
     "vividseats_url": "https://www.vividseats.com/kpop-demon-hunters-tickets-oakland-oakland-arena-8-11-2027--theater-family/production/7870545",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_Fa",
@@ -433495,11 +433495,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18772717,
+        "url": "https://seatgeek.com/kpop-demon-hunters-tickets/oakland-california-oakland-arena-2027-08-11-7-30-pm/concert/18772717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870545,
@@ -433549,7 +433549,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAK0d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/nashville-tennessee-the-pinnacle-nashville-2027-02-27-8-pm/concert/18786697",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-nashville-the-pinnacle-2-27-2027/production/7884092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
@@ -433565,11 +433565,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18786697,
+        "url": "https://seatgeek.com/intocable-tickets/nashville-tennessee-the-pinnacle-nashville-2027-02-27-8-pm/concert/18786697",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7884092,
@@ -433611,7 +433611,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAK07",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/indio-california-fantasy-springs-resort-casino-2027-03-20-8-pm/concert/18786699",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
@@ -433627,11 +433627,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18786699,
+        "url": "https://seatgeek.com/intocable-tickets/indio-california-fantasy-springs-resort-casino-2027-03-20-8-pm/concert/18786699",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -433673,7 +433673,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4az",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/sunrise-florida-amerant-bank-arena-2027-04-14-7-30-pm/concert/18760709",
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-sunrise-amerant-bank-arena-4-14-2027/production/7887736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
@@ -433689,11 +433689,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760709,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/sunrise-florida-amerant-bank-arena-2027-04-14-7-30-pm/concert/18760709",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7887736,
@@ -433738,7 +433738,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4ay",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/houston-texas-toyota-center-2027-04-24-7-30-pm/concert/18783926",
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-houston-toyota-center---tx-4-24-2027/production/7887744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
@@ -433754,11 +433754,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18783926,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/houston-texas-toyota-center-2027-04-24-7-30-pm/concert/18783926",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7887744,
@@ -433803,7 +433803,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA41Z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/las-vegas-nevada-t-mobile-arena-2027-04-30-7-30-pm/concert/18783929",
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-las-vegas-t-mobile-arena-4-30-2027--concerts-rb/production/7886839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
@@ -433819,11 +433819,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18783929,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/las-vegas-nevada-t-mobile-arena-2027-04-30-7-30-pm/concert/18783929",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7886839,

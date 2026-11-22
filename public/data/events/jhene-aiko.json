@@ -3249,7 +3249,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4az",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/sunrise-florida-amerant-bank-arena-2027-04-14-7-30-pm/concert/18760709",
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-sunrise-amerant-bank-arena-4-14-2027/production/7887736",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
@@ -3265,11 +3265,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760709,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/sunrise-florida-amerant-bank-arena-2027-04-14-7-30-pm/concert/18760709",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7887736,
@@ -3314,7 +3314,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA4ay",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/houston-texas-toyota-center-2027-04-24-7-30-pm/concert/18783926",
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-houston-toyota-center---tx-4-24-2027/production/7887744",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
@@ -3330,11 +3330,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18783926,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/houston-texas-toyota-center-2027-04-24-7-30-pm/concert/18783926",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7887744,
@@ -3379,7 +3379,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAA41Z",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/las-vegas-nevada-t-mobile-arena-2027-04-30-7-30-pm/concert/18783929",
     "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-las-vegas-t-mobile-arena-4-30-2027--concerts-rb/production/7886839",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
@@ -3395,11 +3395,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18783929,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/las-vegas-nevada-t-mobile-arena-2027-04-30-7-30-pm/concert/18783929",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7886839,

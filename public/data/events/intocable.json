@@ -911,7 +911,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAK0d",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/nashville-tennessee-the-pinnacle-nashville-2027-02-27-8-pm/concert/18786697",
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-nashville-the-pinnacle-2-27-2027/production/7884092",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK0d",
@@ -927,11 +927,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18786697,
+        "url": "https://seatgeek.com/intocable-tickets/nashville-tennessee-the-pinnacle-nashville-2027-02-27-8-pm/concert/18786697",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7884092,
@@ -973,7 +973,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAK07",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/intocable-tickets/indio-california-fantasy-springs-resort-casino-2027-03-20-8-pm/concert/18786699",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAK07",
@@ -989,11 +989,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18786699,
+        "url": "https://seatgeek.com/intocable-tickets/indio-california-fantasy-springs-resort-casino-2027-03-20-8-pm/concert/18786699",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

@@ -69,9 +69,9 @@ const expectedTitle = new Map([
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
 const APP_ASSET_VERSION = "20261102a";
 const TTC_HOME_ASSET_VERSION = "20261023b";
-const TTC_HOME_JS_ASSET_VERSION = "20261121a";
+const TTC_HOME_JS_ASSET_VERSION = "20261122a";
 const TTC_SHELL_ASSET_VERSION = "20261107a";
-const SHELL_SCRIPT_ASSET_VERSION = "20261121a";
+const SHELL_SCRIPT_ASSET_VERSION = "20261122a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com https://static.cloudflareinsights.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com https://cloudflareinsights.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
@@ -1622,7 +1622,7 @@ assert(
 );
 assert(!ttcHomeJs.includes("main.replaceChildren") && !ttcHomeJs.includes('getElementById("ttc-main").innerHTML'), "homepage enhancement must not replace the server-rendered visual DOM");
 assert(ttcHomeJs.includes("Compare resale ticket prices for your show, site by site."), "homepage should lead with the comparison intent");
-assert(ttcHomeJs.includes("then confirm the total on the ticket site."), "homepage should tell fans where the final total is confirmed");
+assert(ttcHomeJs.includes("Confirm the total on the ticket site."), "homepage should tell fans where the final total is confirmed");
 assert(!ttcHomeJs.includes("human-checked") && !ttcHomeJs.includes("reviewed by a human"), "homepage should not claim every automated verification is performed by a human");
 assert(!ttcHomeJs.includes("statsSection(DATA)"), "homepage should not render the stale statistics strip");
 assert(!ttcHomeJs.includes("never show live prices"), "homepage should not make an absolute no-price claim that contradicts approved snapshot support");

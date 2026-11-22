@@ -186,7 +186,7 @@ function reviewerSchemaRef(origin) {
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare resale ticket prices for your show, site by site.";
 const HOME_SUBCOPY =
-  "Pick an artist and date to see each ticket site's listed price where available and the time it was checked, then confirm the total on the ticket site.";
+  "Pick an artist and date to see each ticket site's listed price where available and when it was checked. Confirm the total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
@@ -2718,6 +2718,8 @@ function renderHomepagePriceAnswers(route, catalog, events, env) {
         caption: `Ticket options for the next ${artist.name} date`,
         titleId: `homeNextDate${index}`,
         ctaLocation: "home_answer",
+        // The price caveat is stated once, in the disclosure under the panels.
+        quietSummary: true,
         cardHrefFor: (cardAnchor) => `/artists/${artist.slug}#${cardAnchor}`
       })
     )
@@ -2752,9 +2754,12 @@ function renderHomepageArtistLinks(catalog, events = [], now = Date.now()) {
 // search clicks ("<artist> <city> tickets") from the homepage. Names, counts
 // and countries only; the price lives on the destination page with its own
 // provider and capture time.
+// Four rows, not eight: the list was ~600px of near-identical lines on a phone.
+const HOMEPAGE_CITY_RUNS = 4;
+
 function renderHomepageCityRuns(runs, catalog) {
   const names = new Map((catalog?.artists || []).map((artist) => [artist.slug, artist.name]));
-  const items = (runs || []).filter((run) => names.has(run.artistSlug));
+  const items = (runs || []).filter((run) => names.has(run.artistSlug)).slice(0, HOMEPAGE_CITY_RUNS);
   if (!items.length) return "";
   return `<section class="section-grid home-section" aria-labelledby="homeCityRunsTitle"><div class="home-section__head"><h2 id="homeCityRunsTitle">Compare prices by city</h2></div><p class="muted">Several dates in one city, with listed prices from more than one checked ticket site.</p><ul class="guide-link-list">${items
     .map(
@@ -3772,7 +3777,9 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   const caption = surface?.caption || `Provider starting price by date for ${artist.name} in ${artistCity.city}`;
   const titleId = surface?.titleId || "artistCityPriceTitle";
   // A one-date panel (event page, home, on-sale) has no date to pick.
-  const summary = ticketOptions && rows.length === 1
+  const summary = surface?.quietSummary
+    ? ""
+    : ticketOptions && rows.length === 1
     ? (showPrices ? "Prices are as of the time shown. Compare seats, fees and delivery on each ticket site before you pay." : "")
     : ticketOptions
     ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ' Prices are as of the time shown, and "sites priced" counts the sites with a price for that date.' : ""}`
@@ -8974,7 +8981,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
     "All artists",
     HOME_PRIMARY_CTA_HREF,
     "text-link"
-  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageCityRuns(route.homeCityRuns, catalog)}${renderHomepageOnsaleStrip(events)}${route.thisWeekHtml || ""}<p class="home-browse">Planning around a place? ${anchor(
+  )}</div>${renderHomepageArtistLinks(catalog, events)}${renderHomepageCityRuns(route.homeCityRuns, catalog)}${route.thisWeekHtml || ""}<p class="home-browse">Planning around a place? ${anchor(
     "Browse cities",
     "/cities",
     "text-link"
@@ -9109,7 +9116,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
     '<script src="/app.js?v=20261102a" defer></script>',
-    '<script src="/shell.js?v=20261121a" defer></script>'
+    '<script src="/shell.js?v=20261122a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.
@@ -9153,7 +9160,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
       '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261121a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261121a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261122a" defer></script></body>');
   }
   return next;
 }

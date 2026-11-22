@@ -75,10 +75,12 @@ concurrency:
 jobs:
   seatgeek-cta-sync:
     runs-on: ubuntu-latest
-    # Reserve 60 minutes for queueing and 105 for enrichment (800 enrich +
+    # Reserve up to 110 minutes for queueing (2026-11-21: a manual two-hour
+    # daily audit outlasted the former 60 and the run was withheld, red) and
+    # 105 for enrichment (800 enrich +
     # 800 verify calls at ~1 per second), full validation
     # and the exact-head publishing check (itself capped at 35 minutes).
-    timeout-minutes: 165
+    timeout-minutes: 215
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -91,7 +93,7 @@ jobs:
         # their merges. See scripts/wait-for-writer-lanes.mjs.
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 90
+        run: node scripts/wait-for-writer-lanes.mjs --max-wait-minutes 110
 
       - name: Setup Node.js
         uses: actions/setup-node@v5

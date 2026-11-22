@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8249187",
+        "url": "https://www.ticketliquidator.com/tickets/8249187/Chris-Tomlin-tickets-Mon-Nov-30-2026-Alabama-Theatre-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kFZvPFYGA2ugky",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249187"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249187",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249187/Chris-Tomlin-tickets-Mon-Nov-30-2026-Alabama-Theatre-Birmingham"
   },
   {
     "id": "tm-chris-tomlin-2026-birmingham-1aezz_ogkloidyk",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238832",
+        "url": "https://www.ticketliquidator.com/tickets/8238832/Chris-Tomlin-tickets-Tue-Dec-1-2026-Alabama-Theatre-Birmingham",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_oGklOIdYk",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238832"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238832",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238832/Chris-Tomlin-tickets-Tue-Dec-1-2026-Alabama-Theatre-Birmingham"
   },
   {
     "id": "tm-chris-tomlin-2026-daytona-beach-z7r9jz1aav44a",
@@ -228,12 +244,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238834",
+        "url": "https://www.ticketliquidator.com/tickets/8238834/Chris-Tomlin-tickets-Thu-Dec-3-2026-North-Charleston-Performing-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_oOnTASW",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238834"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238834",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238834/Chris-Tomlin-tickets-Thu-Dec-3-2026-North-Charleston-Performing-Arts-Center"
   },
   {
     "id": "tm-chris-tomlin-2026-pensacola-g5viz_on0-j6v",
@@ -342,12 +366,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238838",
+        "url": "https://www.ticketliquidator.com/tickets/8238838/Chris-Tomlin-tickets-Tue-Dec-8-2026-Knoxville-Civic-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_oJuXkcz",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238838"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238838",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238838/Chris-Tomlin-tickets-Tue-Dec-8-2026-Knoxville-Civic-Auditorium"
   },
   {
     "id": "tm-chris-tomlin-2026-newport-news-z7r9jz1aavoof",
@@ -403,12 +435,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238947",
+        "url": "https://www.ticketliquidator.com/tickets/8238947/Chris-Tomlin-tickets-Wed-Dec-9-2026-Diamonstein-Concert-Hall-CNU-Ferguson-Center-for-the-Arts",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvoof",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238947"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238947",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238947/Chris-Tomlin-tickets-Wed-Dec-9-2026-Diamonstein-Concert-Hall-CNU-Ferguson-Center-for-the-Arts"
   },
   {
     "id": "tm-chris-tomlin-2026-jersey-city-vv1aezkf_gkedtdkm",
@@ -464,12 +504,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238839",
+        "url": "https://www.ticketliquidator.com/tickets/8238839/Chris-Tomlin-tickets-Thu-Dec-10-2026-Loews-Jersey-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf_GkeDtdKM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238839"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238839",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238839/Chris-Tomlin-tickets-Thu-Dec-10-2026-Loews-Jersey-Theatre"
   },
   {
     "id": "tm-chris-tomlin-2026-detroit-z7r9jz1aav34i",
@@ -525,12 +573,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238948",
+        "url": "https://www.ticketliquidator.com/tickets/8238948/Chris-Tomlin-tickets-Tue-Dec-15-2026-Fisher-Theatre-MI",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv34I",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238948"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238948",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238948/Chris-Tomlin-tickets-Tue-Dec-15-2026-Fisher-Theatre-MI"
   },
   {
     "id": "tm-chris-tomlin-2026-indianapolis-vv17fz_ogkmojkil",
@@ -586,12 +642,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238843",
+        "url": "https://www.ticketliquidator.com/tickets/8238843/Chris-Tomlin-tickets-Wed-Dec-16-2026-Murat-Theatre-at-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_oGkmOjkIL",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238843"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238843",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238843/Chris-Tomlin-tickets-Wed-Dec-16-2026-Murat-Theatre-at-Old-National-Centre"
   },
   {
     "id": "tm-chris-tomlin-2026-milwaukee-z7r9jz1aav4be",
@@ -647,12 +711,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238949",
+        "url": "https://www.ticketliquidator.com/tickets/8238949/Chris-Tomlin-tickets-Thu-Dec-17-2026-Riverside-Theater-WI",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv4bE",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238949"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238949",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238949/Chris-Tomlin-tickets-Thu-Dec-17-2026-Riverside-Theater-WI"
   },
   {
     "id": "tm-chris-tomlin-2026-cincinnati-1avbz_ogknrwawm",
@@ -708,12 +780,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238845",
+        "url": "https://www.ticketliquidator.com/tickets/8238845/Chris-Tomlin-tickets-Fri-Dec-18-2026-Taft-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_oGknrwAwM",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238845"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238845",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238845/Chris-Tomlin-tickets-Fri-Dec-18-2026-Taft-Theatre"
   },
   {
     "id": "tm-chris-tomlin-2027-nashville-g5viz_6t7chyi",
@@ -769,11 +849,19 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7850295",
+        "url": "https://www.ticketliquidator.com/tickets/7850295/Chris-Tomlin-tickets-Fri-Mar-26-2027-Bridgestone-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_6T7chyI",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7850295"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7850295",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7850295/Chris-Tomlin-tickets-Fri-Mar-26-2027-Bridgestone-Arena"
   }
 ]

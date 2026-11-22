@@ -1602,11 +1602,11 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8214362",
-        "url": "https://www.ticketliquidator.com/tickets/8214362/Jonas-Brothers-tickets-Sat-Nov-21-2026-Chase-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107482394",
@@ -1620,7 +1620,7 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214362/Jonas-Brothers-tickets-Sat-Nov-21-2026-Chase-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-san-francisco-tickets-11-21-2026/event/107482394",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1687,7 +1687,7 @@
         "event_id": "8214363",
         "url": "https://www.ticketliquidator.com/tickets/8214363/Jonas-Brothers-tickets-Sun-Nov-22-2026-Golden-1-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1769,7 +1769,7 @@
         "event_id": "8214364",
         "url": "https://www.ticketliquidator.com/tickets/8214364/Jonas-Brothers-tickets-Fri-Nov-27-2026-Desert-Diamond-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -1850,7 +1850,7 @@
         "event_id": "8214365",
         "url": "https://www.ticketliquidator.com/tickets/8214365/Jonas-Brothers-tickets-Sat-Nov-28-2026-MGM-Grand-Garden-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1931,7 +1931,7 @@
         "event_id": "8214367",
         "url": "https://www.ticketliquidator.com/tickets/8214367/Jonas-Brothers-tickets-Mon-Nov-30-2026-Viejas-Arena-At-Aztec-Bowl",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -2012,7 +2012,7 @@
         "event_id": "8214371",
         "url": "https://www.ticketliquidator.com/tickets/8214371/Jonas-Brothers-tickets-Wed-Dec-2-2026-Honda-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2101,7 +2101,7 @@
         "event_id": "8214373",
         "url": "https://www.ticketliquidator.com/tickets/8214373/Jonas-Brothers-tickets-Sat-Dec-5-2026-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2190,7 +2190,7 @@
         "event_id": "8214374",
         "url": "https://www.ticketliquidator.com/tickets/8214374/Jonas-Brothers-tickets-Mon-Dec-7-2026-Delta-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -2263,7 +2263,7 @@
         "event_id": "8214376",
         "url": "https://www.ticketliquidator.com/tickets/8214376/Jonas-Brothers-tickets-Wed-Dec-9-2026-Ball-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -2344,7 +2344,7 @@
         "event_id": "8214378",
         "url": "https://www.ticketliquidator.com/tickets/8214378/Jonas-Brothers-tickets-Thu-Dec-10-2026-Pinnacle-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -2439,7 +2439,7 @@
         "event_id": "8214380",
         "url": "https://www.ticketliquidator.com/tickets/8214380/Jonas-Brothers-tickets-Sat-Dec-12-2026-Denny-Sanford-Premier-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -2520,7 +2520,7 @@
         "event_id": "8214382",
         "url": "https://www.ticketliquidator.com/tickets/8214382/Jonas-Brothers-tickets-Tue-Dec-15-2026-Van-Andel-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },
@@ -2666,7 +2666,7 @@
         "event_id": "8214386",
         "url": "https://www.ticketliquidator.com/tickets/8214386/Jonas-Brothers-tickets-Mon-Dec-21-2026-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2755,7 +2755,7 @@
         "event_id": "8235385",
         "url": "https://www.ticketliquidator.com/tickets/8235385/Jonas-Brothers-tickets-Tue-Dec-22-2026-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub-international": {

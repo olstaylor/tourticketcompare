@@ -279,18 +279,18 @@
         "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8264458",
-        "url": "https://www.ticketliquidator.com/tickets/8264458/Treaty-Oak-Revival-tickets-Sat-Nov-21-2026-BOK-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1aeZZ_3x88oZdGea",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264458/Treaty-Oak-Revival-tickets-Sat-Nov-21-2026-BOK-Center",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],

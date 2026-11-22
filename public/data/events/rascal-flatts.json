@@ -53,12 +53,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8112214",
+        "url": "https://www.ticketliquidator.com/tickets/8112214/Rascal-Flatts-tickets-Sat-Dec-5-2026-The-Colosseum-At-Caesars-Palace",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17C8v0G6C1Qpoq5",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112214"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112214",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8112214/Rascal-Flatts-tickets-Sat-Dec-5-2026-The-Colosseum-At-Caesars-Palace"
   },
   {
     "id": "tm-rascal-flatts-2027-rexburg-z7r9jz1aaa-fg",
@@ -114,12 +122,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381500",
+        "url": "https://www.ticketliquidator.com/tickets/8381500/Rascal-Flatts-tickets-Sat-Mar-20-2027-BYU-Idaho-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA-Fg",
     "timezone": "America/Denver",
     "status": "announced",
     "public_onsale_at": "2026-11-23T17:00:00Z",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381500"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381500",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381500/Rascal-Flatts-tickets-Sat-Mar-20-2027-BYU-Idaho-Center"
   }
 ]

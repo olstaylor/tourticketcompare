@@ -489,11 +489,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7703263",
-        "url": "https://www.ticketliquidator.com/tickets/7703263/Zac-Brown-Band-tickets-Sat-Nov-21-2026-Allstate-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -507,7 +507,7 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/zac-brown-band-rosemont-tickets-11-21-2026/event/107138123",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7703263/Zac-Brown-Band-tickets-Sat-Nov-21-2026-Allstate-Arena",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "THE MESSINA GROUP (TMG)"
     ],
@@ -639,7 +639,7 @@
         "event_id": "8353403",
         "url": "https://www.ticketliquidator.com/tickets/8353403/Zac-Brown-Band-tickets-Sat-May-1-2027-Nugget-Event-Center-At-Nugget-Casino-Resort",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       }
     },

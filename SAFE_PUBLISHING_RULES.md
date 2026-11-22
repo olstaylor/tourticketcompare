@@ -48,7 +48,9 @@ the PR open for a human, fails the run, and is never forced.
 
 **B. Machine-owned generated writes.** Not event data and not a discovery path.
 Each asserts its own diff allowlist before committing and earns `test-mvp` on
-the exact PR head after the in-job validation. Status figures and generated
+the exact PR head after the in-job validation. (The status-figures job writes
+`PROJECT_STATUS.md` alone, so its in-job gate is `docs:check`, `status:validate:strict`
+and `git diff --check`; its full `test:mvp` runs as the required PR check — owner decision pending 2026-11-22.) Status figures and generated
 content squash-merge that PR. Verification dates integrate the validated PR
 head through a protected, non-forced fast-forward: its sole parent must be the
 audited source commit, so GitHub rejects integration if main advances. No new

@@ -429,10 +429,11 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
   // 2026-11-22: the artist page also counts recent same-site price changes,
   // and says nothing about which date is dearest or cheapest.
   const dataBlock = artistPage.html.match(/<section class="nested-panel" aria-labelledby="artistPriceDataTitle"[\s\S]*?<\/section>/)?.[0] || "";
-  assert(text(dataBlock).includes("Oasis prices, last 30 days"), "the artist page carries a price-data block");
-  assert(text(dataBlock).includes("2 of the 2 dates showing a price have a recorded change in the last 30 days: 1 lower and 1 higher than that ticket site's previous recorded figure for the same date."), "the block counts same-site moves");
+  assert(text(dataBlock).includes("Last 30 days"), "the artist page carries a price-data block");
+  assert(text(dataBlock).includes("2 of 2 priced dates changed price (1 lower, 1 higher)."), "the block counts same-site moves");
   assert(text(dataBlock).includes("not a forecast") && !/GBP|highest|dearest|most expensive|cheapest/i.test(text(dataBlock)), "the block prints no figure, ranks no date and makes no timing claim");
   assert(artistPage.html.indexOf('id="artistPriceDataTitle"') > artistPage.html.indexOf('id="artistShowBoard"'), "the block sits below the date board, out of the lead");
+  assert(!/<details[^>]*>(?:(?!<\/details>)[\s\S])*artistPriceDataTitle/.test(artistPage.html), "the block is outside every closed dropdown");
   const noDb = await render("/artists/oasis", { withDb: false });
   assert(!noDb.html.includes("artistPriceDataTitle"), "with no price data the block does not render");
   assert(/The cheapest listed price of the 2 priced dates is GBP\s182 on Vivid Seats, for Fri, Sep 11, 2026 in Manchester, checked/.test(text(page.main)), "the cheapest-tickets FAQ answers with the same pick");

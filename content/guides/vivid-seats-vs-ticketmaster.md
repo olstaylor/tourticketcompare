@@ -64,7 +64,7 @@ For resale, neither brand is always the better choice. Compare the exact show, t
 
 ## Find your concert
 
-[Compare prices by artist, city or venue](/compare-concert-ticket-prices) or [choose your artist](/artists) to see the links listed for each date. Match the city, venue and date, then compare seats and complete totals on each site. Coverage varies, and a listed link does not guarantee tickets are left.
+[Compare prices by artist, city or venue](/compare-concert-ticket-prices) or [choose your artist](/artists) to see the links listed for each date. Match the city, venue and date, then compare seats and complete totals on each site. Coverage varies, and a listed link does not guarantee tickets are left. For a specific tour, start from a live page such as [U2](/artists/u2), [Foo Fighters](/artists/foo-fighters), [Olivia Rodrigo](/artists/olivia-rodrigo) or [Lizzy McAlpine](/artists/lizzy-mcalpine).
 
 ## Vivid Seats vs Ticketmaster at a glance
 

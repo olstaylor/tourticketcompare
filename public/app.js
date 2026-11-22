@@ -2379,8 +2379,8 @@ function renderPriceHistoryContent(panel, wrap, data) {
     const firstAsOf = formatSnapshotTime(first.observedAt);
     const lastAsOf = formatSnapshotTime(last.observedAt);
     const caption = latest && firstAsOf && lastAsOf
-      ? `${points.length} price checks · ${firstAsOf} – ${lastAsOf}. Latest: ${latest}.`
-      : `${points.length} price checks.`;
+      ? `${points.length} price changes · ${firstAsOf} – ${lastAsOf}. Latest: ${latest}.`
+      : `${points.length} price changes.`;
     text(block, "p", caption, "price-history-caption muted");
     panel.append(block);
     rendered.push(series);

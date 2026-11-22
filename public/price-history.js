@@ -122,8 +122,8 @@
       var firstAt = formatSnapshotTime(first.observedAt);
       var lastAt = formatSnapshotTime(last.observedAt);
       appendText(block, "p", latest && firstAt && lastAt
-        ? points.length + " price checks · " + firstAt + " – " + lastAt + ". Latest: " + latest + "."
-        : points.length + " price checks.", "price-history-caption muted");
+        ? points.length + " price changes · " + firstAt + " – " + lastAt + ". Latest: " + latest + "."
+        : points.length + " price changes.", "price-history-caption muted");
       panel.appendChild(block);
       rendered += 1;
     });

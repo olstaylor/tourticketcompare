@@ -3790,5 +3790,47 @@
     "last_verified_at": "2026-11-22",
     "promotion_source": "auto",
     "auto_promoted_at": "2026-11-19"
+  },
+  {
+    "slug": "tori-kelly",
+    "name": "Tori Kelly",
+    "short_description": "Pop act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-22",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-22"
+  },
+  {
+    "slug": "chris-tomlin",
+    "name": "Chris Tomlin",
+    "short_description": "Religious act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-22",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-22"
+  },
+  {
+    "slug": "rascal-flatts",
+    "name": "Rascal Flatts",
+    "short_description": "Country act listed on Ticketmaster.",
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-22",
+    "promotion_source": "auto",
+    "auto_promoted_at": "2026-11-22"
   }
 ]

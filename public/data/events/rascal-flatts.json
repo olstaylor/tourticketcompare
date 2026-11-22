@@ -1,0 +1,109 @@
+[
+  {
+    "id": "tm-rascal-flatts-2026-las-vegas-17c8v0g6c1qpoq5",
+    "artist_slug": "rascal-flatts",
+    "artist_name": "Rascal Flatts",
+    "event_name": "Rascal Flatts",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Colosseum at Caesars Palace",
+    "datetime_iso": "2026-12-06T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "390064E29A59174B",
+    "ticketmaster_url": "https://www.ticketmaster.com/rascal-flatts-las-vegas-nevada-12-05-2026/event/390064E29A59174B",
+    "seatgeek_url": "https://seatgeek.com/rascal-flatts-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-05-8-pm/concert/18354506",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rascal-flatts-las-vegas-nevada-12-05-2026/event/390064E29A59174B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "390064E29A59174B",
+        "discovery_event_id": "17C8v0G6C1Qpoq5",
+        "url": "https://www.ticketmaster.com/rascal-flatts-las-vegas-nevada-12-05-2026/event/390064E29A59174B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17C8v0G6C1Qpoq5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rascal-flatts-2027-rexburg-z7r9jz1aaa-fg",
+    "artist_slug": "rascal-flatts",
+    "artist_name": "Rascal Flatts",
+    "event_name": "Rascal Flatts",
+    "city": "Rexburg",
+    "country": "United States Of America",
+    "venue": "BYU-Idaho Center",
+    "datetime_iso": "2027-03-21T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA-Fg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-Fg",
+    "seatgeek_url": "https://seatgeek.com/rascal-flatts-tickets/rexburg-idaho-byu-idaho-center-2027-03-20-7-30-pm/concert/18839964",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-Fg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA-Fg",
+        "discovery_event_id": "Z7r9jZ1AAA-Fg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-Fg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA-Fg",
+    "timezone": "America/Denver",
+    "status": "announced",
+    "public_onsale_at": "2026-11-23T17:00:00Z"
+  }
+]

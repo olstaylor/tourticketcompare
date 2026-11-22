@@ -8300,6 +8300,84 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "tori-kelly",
+      "name": "Tori Kelly",
+      "short_description": "Pop act listed on Ticketmaster.",
+      "image_alt": "Tori Kelly artist ticket information",
+      "factual_summary": "Tori Kelly is listed by Ticketmaster under Pop. The dates on this page come from Ticketmaster and are checked nightly for changes.",
+      "ticket_buying_notes": "These links go to the Tori Kelly page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Tori Kelly Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Tori Kelly tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Tori Kelly tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "chris-tomlin",
+      "name": "Chris Tomlin",
+      "short_description": "Religious act listed on Ticketmaster.",
+      "image_alt": "Chris Tomlin artist ticket information",
+      "factual_summary": "Chris Tomlin is listed by Ticketmaster under Religious. The dates on this page come from Ticketmaster and are checked nightly for changes.",
+      "ticket_buying_notes": "These links go to the Chris Tomlin page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Chris Tomlin Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Chris Tomlin tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Chris Tomlin tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "rascal-flatts",
+      "name": "Rascal Flatts",
+      "short_description": "Country act listed on Ticketmaster.",
+      "image_alt": "Rascal Flatts artist ticket information",
+      "factual_summary": "Rascal Flatts is listed by Ticketmaster under Country. The dates on this page come from Ticketmaster and are checked nightly for changes.",
+      "ticket_buying_notes": "These links go to the Rascal Flatts page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Rascal Flatts Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Rascal Flatts tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Rascal Flatts tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -16450,6 +16528,90 @@
       "last_checked_at": "2026-11-19",
       "disclosure_required": true,
       "url": "https://seatgeek.com/hannah-harper-tickets"
+    },
+    {
+      "link_id": "tm-artist-tori-kelly",
+      "artist_slug": "tori-kelly",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-22",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/tori-kelly-tickets/artist/1780311"
+    },
+    {
+      "link_id": "sg-artist-tori-kelly",
+      "artist_slug": "tori-kelly",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-22",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/tori-kelly-tickets"
+    },
+    {
+      "link_id": "tm-artist-chris-tomlin",
+      "artist_slug": "chris-tomlin",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-22",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/chris-tomlin-tickets/artist/982298"
+    },
+    {
+      "link_id": "sg-artist-chris-tomlin",
+      "artist_slug": "chris-tomlin",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-22",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/chris-tomlin-tickets"
+    },
+    {
+      "link_id": "tm-artist-rascal-flatts",
+      "artist_slug": "rascal-flatts",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-22",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/rascal-flatts-tickets/artist/806203"
+    },
+    {
+      "link_id": "sg-artist-rascal-flatts",
+      "artist_slug": "rascal-flatts",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-22",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/rascal-flatts-tickets"
     }
   ],
   "safety_rules": [

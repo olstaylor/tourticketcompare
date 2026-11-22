@@ -3,6 +3,60 @@
   "source": "content/blog",
   "posts": [
     {
+      "slug": "is-there-a-cheapest-day-to-check-resale-concert-prices",
+      "path": "/blog/is-there-a-cheapest-day-to-check-resale-concert-prices",
+      "title": "Is there a cheapest day of the week to check resale concert prices?",
+      "seoTitle": "Cheapest day to check concert prices? | TourTicketCompare",
+      "description": "Across 281,915 daily readings for 4,066 shows, resale prices were about 0.8% higher early in the week than on Fridays and Saturdays. Too small to plan around.",
+      "summary": "Advice columns often name a best weekday for concert tickets. TourTicketCompare tested it on 281,915 daily readings of the lowest listed resale price. Mondays and Tuesdays ran slightly higher and Fridays and Saturdays slightly lower, but the gap was under one percentage point, about a dollar on a typical ticket.",
+      "datePublished": "2026-11-22",
+      "dateModified": "2026-11-22",
+      "status": "published",
+      "author": "TourTicketCompare",
+      "tags": [
+        "ticket-prices",
+        "tour-data"
+      ],
+      "relatedGuides": [
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "why-ticket-prices-change"
+      ],
+      "relatedArtists": [],
+      "wordCount": 685,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Plenty of money sites say there is a best day of the week to buy concert tickets. TourTicketCompare tested that on the daily record it keeps of the lowest listed resale price on Vivid Seats, TicketNetwork and StubHub International. There is a pattern, but it is small: across 281,915 readings, prices were about 0.8% higher on Monday to Wednesday than on Friday and Saturday. On the typical listed price in this sample, $129, that is roughly a dollar."
+        },
+        {
+          "type": "section",
+          "title": "How it was tested",
+          "content": "Each reading is one site's lowest listed price for one show at its last check of a day (days in UTC, checks around 10 to 11am US Eastern). Each was compared with the average of the other readings for the same show on the same site, within three days either side. A seven-day window contains every weekday once, so a price drifting up or down over the week cancels out.\n\nThe sample is readings from 15 September to 18 November 2026 that were at least 14 days before the show, so end-of-run falls do not distort it. Readings of $1,000 or more were left out as placeholders. That leaves 281,915 readings for 4,066 shows by 238 artists, mostly in the US. No artist makes up more than 4% of the readings. To stop heavily tracked artists dominating, the readings were averaged within each artist first, then across artists."
+        },
+        {
+          "type": "section",
+          "title": "What the data shows",
+          "content": "| Day | Artists | Listed price vs the rest of that week | Artists above their own average |\n|---|---|---|---|\n| Monday | 229 | +0.5% | 56% |\n| Tuesday | 231 | +0.7% | 54% |\n| Wednesday | 233 | -0.3% | 45% |\n| Thursday | 224 | -0.3% | 48% |\n| Friday | 226 | -0.6% | 38% |\n| Saturday | 227 | -0.5% | 38% |\n| Sunday | 230 | 0.0% | 47% |\n\nTaking Monday to Wednesday against Friday and Saturday, the gap was 0.8 percentage points. It pointed the same way on every site: 1.0 points on StubHub International, 0.9 on TicketNetwork and 0.5 on Vivid Seats. Each site is compared only with itself, and this does not rank them."
+        },
+        {
+          "type": "section",
+          "title": "Why it is not worth planning around",
+          "content": "- **It is small.** A show's lowest listed price normally moves by about 3% from one day to the next. The weekday effect is a quarter of that.\n- **It is not consistent.** At 60% of artists, early-week prices were higher than Friday and Saturday. At 40% they were not.\n- **It was not there all year.** From July to mid-September, when far fewer artists were tracked, there was no consistent weekday pattern.\n- **The grouping was chosen after looking.** Monday to Wednesday against Friday and Saturday is how the table naturally split, so the confidence is weaker than the numbers suggest.\n- **The cause is unknown.** It could be how sellers reprice, when the site checks, or which shows are on sale which days.\n\nSo this is not advice to wait for Friday. Which show you want, and how close it is, matter far more than the weekday you look."
+        },
+        {
+          "type": "section",
+          "title": "Where the bigger moves are",
+          "content": "Two timing patterns in the site's data were larger and met a stricter evidence bar. For US shows, the lowest listed price the day before a show was [lower than a week earlier at 59% of 421 shows](/blog/do-concert-ticket-prices-drop-in-the-last-week). Two weeks after TourTicketCompare first recorded a price for a new tour's shows, it was [lower at 49% of 1,608 shows and higher at 24%](/blog/do-resale-ticket-prices-drop-after-a-tour-goes-on-sale). Both are records of past shows, not forecasts."
+        },
+        {
+          "type": "section",
+          "title": "What this does and doesn't say",
+          "content": "- **It is the lowest listed price, not every seat.** A change can mean a different listing became the cheapest, not that every ticket moved.\n- **It is not a checkout total.** Fees and delivery differ between sites and listings. Check the full total before you pay.\n- **It is not completed sales.** The site does not see what sold.\n- **It is a record of autumn 2026,** not a forecast for any show.\n\nFor the current listed price of any show, with the time it was checked, open the artist's page. The [guide to when to buy concert tickets](/guides/when-is-the-best-time-to-buy-concert-tickets) covers the trade-offs beyond price, and [why ticket prices change](/guides/why-ticket-prices-change) explains what moves them. The query is in the project repository under `reports/data-stories/is-there-a-cheapest-day-to-check-resale-concert-prices/`."
+        }
+      ],
+      "review": "automated"
+    },
+    {
       "slug": "which-tours-got-cheaper-on-resale-december-2026",
       "path": "/blog/which-tours-got-cheaper-on-resale-december-2026",
       "title": "Which US tours got cheaper on resale this month? December 2026",
@@ -4422,12 +4476,12 @@
     {
       "slug": "tour-data",
       "label": "Tour Data",
-      "postCount": 24
+      "postCount": 25
     },
     {
       "slug": "ticket-prices",
       "label": "Ticket Prices",
-      "postCount": 9
+      "postCount": 10
     },
     {
       "slug": "how-we-work",

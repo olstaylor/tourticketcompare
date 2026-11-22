@@ -1,0 +1,28 @@
+{
+  "storyType": "weekday-check",
+  "asOf": "2026-11-22",
+  "source": "provider_pricing_daily (D1), low_price_last per event x provider x UTC day; query in query.sql, re-run 2026-11-22 and matched the 2026-11-21 run",
+  "scope": "all tracked shows (mostly US), readings 2026-09-15 to 2026-11-18, at least 14 days before the show, price under $1,000, one site compared with itself for the same show, other readings within 3 days either side",
+  "readings": 281915,
+  "shows": 4066,
+  "artists": 238,
+  "largestArtistShareOfReadings": 0.0385,
+  "meanListedLowUsd": 129.31,
+  "typicalAbsoluteDeviationPct": 3.12,
+  "weekday": [
+    { "day": "Mon", "artists": 229, "readings": 40300, "meanPct": 0.499, "sePct": 0.193, "artistsAbovePct": 55.5 },
+    { "day": "Tue", "artists": 231, "readings": 42976, "meanPct": 0.733, "sePct": 0.213, "artistsAbovePct": 54.1 },
+    { "day": "Wed", "artists": 233, "readings": 43702, "meanPct": -0.300, "sePct": 0.210, "artistsAbovePct": 44.6 },
+    { "day": "Thu", "artists": 224, "readings": 37732, "meanPct": -0.312, "sePct": 0.175, "artistsAbovePct": 47.8 },
+    { "day": "Fri", "artists": 226, "readings": 38182, "meanPct": -0.603, "sePct": 0.154, "artistsAbovePct": 37.6 },
+    { "day": "Sat", "artists": 227, "readings": 39138, "meanPct": -0.479, "sePct": 0.132, "artistsAbovePct": 37.9 },
+    { "day": "Sun", "artists": 230, "readings": 39885, "meanPct": -0.009, "sePct": 0.134, "artistsAbovePct": 47.4 }
+  ],
+  "contrastMonWedMinusFriSat": { "artists": 227, "gapPp": 0.776, "sePp": 0.184, "artistsPositivePct": 59.9, "note": "grouping chosen after seeing the weekday table, so the standard error is optimistic" },
+  "sites": [
+    { "site": "stubhub-international", "artists": 180, "gapPp": 1.023, "sePp": 0.228, "artistsPositivePct": 66.1 },
+    { "site": "ticketnetwork", "artists": 214, "gapPp": 0.915, "sePp": 0.269, "artistsPositivePct": 56.5 },
+    { "site": "vivid-seats", "artists": 214, "gapPp": 0.542, "sePp": 0.194, "artistsPositivePct": 51.9 }
+  ],
+  "earlierPeriodNote": "July to 14 September (33 to 49 artists per weekday) showed no consistent weekday pattern; 25 October to 18 November showed Mon-Tue highest and Thu-Sat lowest (results from the 2026-11-21 run, not re-run)."
+}

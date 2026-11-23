@@ -1,6 +1,8 @@
 #!/usr/bin/env node
-// Daily ranked list of upcoming shows by expected commission (owner decision
-// 2026-10-11). Scoring lives in scripts/lib/show-priority.mjs; this script
+// Daily ranked list of upcoming shows (owner decision 2026-10-11). The stored
+// list keeps the legacy expected-commission order for the lanes that read it;
+// the issue and markdown show observed clicks, tiers and £ ranges instead
+// (owner request 2026-11-23, scripts/lib/show-priority-report.mjs). Scoring lives in scripts/lib/show-priority.mjs; this script
 // gathers the inputs, prints the top of the list, and with flags:
 //
 //   --apply        stores the list in D1 (`show_priority`) for the lanes that
@@ -29,6 +31,7 @@ import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
 import { providerConfiguredTest } from "./lib/event-link-coverage.mjs";
 import { coverageGaps, gapArtists, LANE_COMMISSION, rankShows } from "./lib/show-priority.mjs";
+import { artistLevel, CLICK_YIELD_GBP, eventLevel, evidenceTier, formatRange, legacyTotal, OBSERVED_MIN_CLICKER_DAYS, OBSERVED_WEEKLY_GBP, reportGaps, TIER_LABEL, tierCounts, urgencyBand, weeklyRange } from "./lib/show-priority-report.mjs";
 import { buildReplaceSql, priorityCandidates, readPriorityRows } from "./lib/show-priority-store.mjs";
 import { assertNoPersonalColumns, assertReadOnlySql, parseWranglerJson } from "./report-commercial-funnel.mjs";
 
@@ -36,6 +39,7 @@ const execFileAsync = promisify(execFile);
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const DATABASE = "tourticketcompare-demand";
 const LABEL = "automation:show-priority";
+const ISSUE_TITLE = "Show priority: where visitors are clicking";
 const STORED_ROWS = 100;
 const STORED_GAPS = 50;
 const DAY_MS = 86400000;
@@ -85,26 +89,57 @@ const gbp = (n) => `£${n.toFixed(2)}`;
 const LANE_NAMES = { "stubhub-international": "StubHub Intl", "vivid-seats": "Vivid Seats", ticketnetwork: "TicketNetwork", "ticket-liquidator": "Ticket Liquidator", seatgeek: "SeatGeek", ticketmaster: "Ticketmaster" };
 
 export function renderMarkdown(ranked, { top = 25, generatedAt } = {}) {
+  const counts = tierCounts(ranked);
+  const legacy = legacyTotal(ranked);
   const lines = [
-    `# Top ${top} shows by expected commission`,
+    "# Show priority: where visitors are clicking",
     "",
-    `Updated ${generatedAt} by \`scripts/report-show-priority.mjs\` (daily). This list decides, automatically, which shows get prices refreshed first, which artists the provider sync checks first and which shows lead the next event-page batch and the weekly social pack.`,
+    `Updated ${generatedAt} by \`scripts/report-show-priority.mjs\` (daily). Observed clicks first, estimates second. Pounds are a range from measured commission per click (${Math.round(CLICK_YIELD_GBP.low * 1000) / 10}p to ${Math.round(CLICK_YIELD_GBP.high * 1000) / 10}p, about ${CLICK_YIELD_GBP.orders} orders to ${CLICK_YIELD_GBP.asOf}) and appear only for shows with their own clicks. They are not a forecast.`,
     "",
-    "| # | Show | Date | Days out | Lowest price | Live lanes | Expected / week |",
-    "|---|---|---|---|---|---|---|"
+    `**No longer used for pounds:** the old per-show model (assumed 1 order per 100 clickers, 2 seats at the lowest price, best seller rate, ×3 / ×1.5 for nearness). Added up over every show it said £${legacy.toFixed(0)} a week; the site earned about £${OBSERVED_WEEKLY_GBP.value.toFixed(0)} a week (${OBSERVED_WEEKLY_GBP.note}).`,
+    "",
+    "The stored list that sets price-refresh order, which artists the provider sync checks first, near-show links and event-page batch picks still uses the old order. This page changes none of them.",
+    "",
+    "## Shows with their own clicks (event-level, last 14 days)",
+    "",
+    `${counts.observed} shows have ${OBSERVED_MIN_CLICKER_DAYS}+ visitor-days clicking a seller (Observed), ${counts.thin} have 1-${OBSERVED_MIN_CLICKER_DAYS - 1} (Thin: a few visitors can reorder them), ${counts.artist_only} have only artist-page traffic and ${counts.none} have no traffic data.`,
+    "",
+    "| # | Show | Date | Nearness | Clicker-days | Evidence | Lowest price | Paying sellers | £ / week |",
+    "|---|---|---|---|---|---|---|---|---|"
   ];
-  for (const row of ranked.slice(0, top)) {
-    const price = row.price_source === "show" ? `$${row.price_usd}` : `~$${row.price_usd} (${row.price_source === "artist_median" ? "artist median" : "default"})`;
-    lines.push(`| ${row.rank} | ${row.artist_name}, ${row.venue || row.city} (${row.city}) | ${row.date} | ${row.days_out} | ${price} | ${row.lanes.map((l) => LANE_NAMES[l] || l).join(", ") || "none"} | ${gbp(row.expected_gbp)} |`);
+  const events = eventLevel(ranked);
+  events.slice(0, top).forEach((row, i) => {
+    const price = row.price_source === "show" ? `$${row.price_usd}` : "no show price";
+    const paying = row.lanes.filter((l) => (LANE_COMMISSION[l] ?? 0) > 0).map((l) => LANE_NAMES[l] || l).join(", ") || "none";
+    lines.push(`| ${i + 1} | ${row.artist_name}, ${row.venue || row.city} (${row.city}) | ${row.date} | ${urgencyBand(row.days_out)} | ${row.event_clickers_14d} | ${TIER_LABEL[evidenceTier(row)]} | ${price} | ${paying} | ${formatRange(weeklyRange(row))} |`);
+  });
+  if (!events.length) lines.push("| | No show has a recorded seller click in 14 days | | | | | | | |");
+  if (events.length > top) lines.push("", `${events.length - top} more shows have 1+ clicks (full list in the run artifact).`);
+
+  const artists = artistLevel(ranked);
+  if (artists.length) {
+    lines.push(
+      "", "## Artist traffic (artist-level proxy, last 7 days)", "",
+      "Page visitors say an artist is being looked at, not which date or whether anyone will buy. No pounds are shown.", "",
+      "| Artist | Visitor-days | Dates in next 60 days | Dates with a click |", "|---|---|---|---|"
+    );
+    for (const a of artists) lines.push(`| ${a.artist_name} | ${a.visitors_7d} | ${a.dates_60d} | ${a.clicked_dates_60d} |`);
   }
-  const gaps = coverageGaps(ranked, { top: 10 });
-  if (gaps.length) {
-    lines.push("", "## Coverage gaps worth fixing first", "", "Shows where a missing StubHub International or Vivid Seats lane costs the most. The nightly provider sync checks these artists first.", "", "| Show | Date | Missing | Worth / week |", "|---|---|---|---|");
-    for (const row of gaps) lines.push(`| ${row.artist_name}, ${row.city} | ${row.date} | ${row.missing_high_paying_lanes.map((l) => LANE_NAMES[l]).join(", ")} | ${gbp(row.gap_gbp)} |`);
+
+  const gaps = reportGaps(ranked, { top: 10 });
+  if (gaps.shown.length) {
+    lines.push("", "## Coverage gaps on shows people clicked", "", "Shows with clicks where StubHub International or Vivid Seats is not listed. The nightly provider sync still checks gap artists in its stored order.", "", "| Show | Date | Clicker-days | Missing |", "|---|---|---|---|");
+    for (const row of gaps.shown) lines.push(`| ${row.artist_name}, ${row.city} | ${row.date} | ${row.event_clickers_14d} | ${row.missing_high_paying_lanes.map((l) => LANE_NAMES[l]).join(", ")} |`);
+    if (gaps.withoutClicks) lines.push("", `${gaps.withoutClicks} more shows miss one of those sellers but have no clicks yet.`);
   }
+
   lines.push(
     "",
-    "How the number is made: clicks on the show in the last 14 days plus the artist's page visitors this week, × 1 order per 100 clickers, × the lowest current price for 2 seats, × the best commission rate among the show's live lanes (Vivid Seats 10%, StubHub International 9%, TicketNetwork and Ticket Liquidator 8% assumed, SeatGeek 1%), × 3 inside a week and × 1.5 inside a month. It is a ranking aid with rough rates, not a forecast."
+    "## Limits",
+    "",
+    "- Clicker-days count visitors who pressed any seller button, Ticketmaster included, so they overstate paying clicks. Seller mix matters: in November most Metallica clicks went to StubHub International, which has no provable order since Sub IDs began.",
+    "- Per-click commission is a site-wide average, mostly US shows (all 7 traced orders were US). It is not measured for any one show, country or currency; UK and EU shows have no order evidence.",
+    "- Nearness is shown, not multiplied: 5 of 7 traced orders were within 6 days of the show, but there is no click baseline to turn that into a factor."
   );
   return lines.join("\n");
 }
@@ -157,8 +192,8 @@ async function main(argv) {
   }
   if (argv.includes("--issue")) {
     const open = await gh("GET", `/issues?state=open&labels=${encodeURIComponent(LABEL)}`);
-    if (open[0]) await gh("PATCH", `/issues/${open[0].number}`, { body });
-    else await gh("POST", "/issues", { title: "Top shows by expected commission", body, labels: [LABEL] });
+    if (open[0]) await gh("PATCH", `/issues/${open[0].number}`, { title: ISSUE_TITLE, body });
+    else await gh("POST", "/issues", { title: ISSUE_TITLE, body, labels: [LABEL] });
     console.log(`Show priority issue ${open[0] ? `#${open[0].number} updated` : "created"}.`);
   }
   return 0;
@@ -230,10 +265,29 @@ function selfTest() {
   assert.deepEqual(visit({ priceChecks, withinHours: 48 }, Date.parse("2026-10-13T06:00:00Z")), ["soon", "tm-only"], "final-hours order stays nearest first");
   assert.deepEqual(visit({ priceChecks: [{ event_id: "soon", checked_at: "invalid" }] }, now), events.map((e) => e.id), "invalid check timestamps do not hide events");
 
+  // Report layer: event-level observations apart from artist-level proxies.
+  assert.deepEqual([soon.event_clickers_14d, soon.artist_visitors_7d], [10, 30], "demand sources stay separate on the row");
+  assert.equal(evidenceTier(soon), "observed");
+  assert.equal(evidenceTier({ event_clickers_14d: 2, artist_visitors_7d: 5 }), "thin");
+  assert.equal(evidenceTier(ranked[1]), "artist_only", "artist traffic alone is never an observation");
+  assert.equal(evidenceTier({ event_clickers_14d: 0, artist_visitors_7d: 0 }), "none");
+  assert.deepEqual(weeklyRange(soon).map((n) => Math.round(n * 100) / 100), [0.23, 0.75], "5 clicker-days a week at 4.6p to 15p");
+  assert.equal(weeklyRange(ranked[1]), null, "no pounds without the show own clicks");
+  assert.deepEqual(weeklyRange(ranked[2]), [0, 0], "a Ticketmaster-only show earns nothing");
+  assert.deepEqual(eventLevel(ranked).map((r) => r.event_id), ["tm-only", "soon"], "most clicked first, and only shows with clicks");
+  assert.deepEqual(artistLevel(ranked).map((a) => [a.artist_slug, a.visitors_7d, a.dates_60d, a.clicked_dates_60d]), [["act", 30, 1, 1]]);
+  assert.equal(reportGaps(ranked).withoutClicks, 1, "the gap on the show with no clicks is counted, not ranked");
+  assert.equal(urgencyBand(7), "within 7 days");
+  assert.equal(urgencyBand(31), "31+ days");
+  assert.deepEqual(tierCounts(ranked), { observed: 2, thin: 0, artist_only: 1, none: 0 });
+
   const md = renderMarkdown(ranked, { top: 25, generatedAt: "2026-10-11 12:00 UTC" });
-  assert.ok(md.includes("| 1 | Act, United Center (Chicago) | 2026-10-14 | 2 | $200 | Vivid Seats, Ticketmaster | £13.60 |"));
-  assert.ok(md.includes("## Coverage gaps worth fixing first"));
-  return 22;
+  assert.ok(md.includes("| 2 | Act, United Center (Chicago) | 2026-10-14 | within 7 days | 10 | Observed | $200 | Vivid Seats | £0.23-£0.75 |"));
+  assert.ok(md.includes("£0 (no paying seller)"));
+  assert.ok(md.includes("## Artist traffic (artist-level proxy, last 7 days)"));
+  assert.ok(md.includes("## Coverage gaps on shows people clicked"));
+  assert.ok(!md.includes("Expected / week"), "no per-show expected pounds from the old model");
+  return 34;
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

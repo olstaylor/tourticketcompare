@@ -1582,7 +1582,7 @@
         "event_id": "8295475",
         "url": "https://www.ticketliquidator.com/tickets/8295475/Daughtry-tickets-Sat-Jan-23-2027-Saracen-Casino-Resort",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1661,7 +1661,7 @@
         "event_id": "8295476",
         "url": "https://www.ticketliquidator.com/tickets/8295476/Daughtry-tickets-Wed-Jan-27-2027-Hard-Rock-Live-Orlando",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1727,6 +1727,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295477",
+        "url": "https://www.ticketliquidator.com/tickets/8295477/Daughtry-tickets-Sat-Jan-30-2027-Hard-Rock-Live-Mississippi",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KSBnt-6",
@@ -1739,7 +1746,8 @@
         "end": "2027-01-17T04:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295477/Daughtry-tickets-Sat-Jan-30-2027-Hard-Rock-Live-Mississippi"
   },
   {
     "id": "tm-daughtry-2027-houston-g5diz_kxwqqcm",
@@ -1800,7 +1808,7 @@
         "event_id": "8295478",
         "url": "https://www.ticketliquidator.com/tickets/8295478/Daughtry-tickets-Sun-Jan-31-2027-Bayou-Music-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1881,7 +1889,7 @@
         "event_id": "8295479",
         "url": "https://www.ticketliquidator.com/tickets/8295479/Daughtry-tickets-Tue-Feb-2-2027-Selena-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1962,7 +1970,7 @@
         "event_id": "8295481",
         "url": "https://www.ticketliquidator.com/tickets/8295481/Daughtry-tickets-Mon-Feb-8-2027-Channel-24",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2042,7 +2050,7 @@
         "event_id": "8295482",
         "url": "https://www.ticketliquidator.com/tickets/8295482/Daughtry-tickets-Wed-Feb-10-2027-Paramount-Theatre-Denver",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2177,6 +2185,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295484",
+        "url": "https://www.ticketliquidator.com/tickets/8295484/Daughtry-tickets-Sat-Feb-13-2027-The-Pageant",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FvOvPGtJKZ75857",
@@ -2193,7 +2208,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295484/Daughtry-tickets-Sat-Feb-13-2027-The-Pageant"
   },
   {
     "id": "tm-daughtry-2027-duluth-vv1akzkfmgkdcbe8w",
@@ -2242,6 +2258,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295485",
+        "url": "https://www.ticketliquidator.com/tickets/8295485/Daughtry-tickets-Tue-Feb-16-2027-Symphony-Hall-At-DECC",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdcBE8w",
@@ -2262,7 +2285,8 @@
     "organizer_names": [
       "PEPPER ENTERTAINMENT INC"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295485/Daughtry-tickets-Tue-Feb-16-2027-Symphony-Hall-At-DECC"
   },
   {
     "id": "tm-daughtry-2027-rockford-16e7z_kkfg7v38v",
@@ -2323,7 +2347,7 @@
         "event_id": "8295486",
         "url": "https://www.ticketliquidator.com/tickets/8295486/Daughtry-tickets-Sat-Feb-20-2027-Hard-Rock-Live-Rockford",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2402,7 +2426,7 @@
         "event_id": "8295487",
         "url": "https://www.ticketliquidator.com/tickets/8295487/Daughtry-tickets-Sun-Feb-21-2027-Hard-Rock-Live-Northern-Indiana",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2486,7 +2510,7 @@
         "event_id": "8295488",
         "url": "https://www.ticketliquidator.com/tickets/8295488/Daughtry-tickets-Tue-Feb-23-2027-The-Fillmore-Detroit",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2572,7 +2596,7 @@
         "event_id": "8295489",
         "url": "https://www.ticketliquidator.com/tickets/8295489/Daughtry-tickets-Fri-Feb-26-2027-Hershey-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2653,7 +2677,7 @@
         "event_id": "8295490",
         "url": "https://www.ticketliquidator.com/tickets/8295490/Daughtry-tickets-Sat-Feb-27-2027-Wind-Creek-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2733,7 +2757,7 @@
         "event_id": "8295491",
         "url": "https://www.ticketliquidator.com/tickets/8295491/Daughtry-tickets-Fri-Mar-5-2027-Charleston-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2815,7 +2839,7 @@
         "event_id": "8295492",
         "url": "https://www.ticketliquidator.com/tickets/8295492/Daughtry-tickets-Sat-Mar-6-2027-The-Truth",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2901,7 +2925,7 @@
         "event_id": "8295494",
         "url": "https://www.ticketliquidator.com/tickets/8295494/Daughtry-tickets-Sun-Mar-7-2027-The-Tabernacle-GA",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2987,7 +3011,7 @@
         "event_id": "8295552",
         "url": "https://www.ticketliquidator.com/tickets/8295552/Daughtry-tickets-Mon-Jan-25-2027-King-Center-For-The-Performing-Arts",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3057,7 +3081,7 @@
         "event_id": "8295553",
         "url": "https://www.ticketliquidator.com/tickets/8295553/Daughtry-tickets-Thu-Jan-28-2027-Ruth-Eckerd-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3177,12 +3201,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295480",
+        "url": "https://www.ticketliquidator.com/tickets/8295480/Daughtry-tickets-Sat-Feb-6-2027-Majestic-Ventura-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe837",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295480/Daughtry-tickets-Sat-Feb-6-2027-Majestic-Ventura-Theatre"
   },
   {
     "id": "tm-daughtry-2027-cedar-rapids-z7r9jz1aae83a",
@@ -3231,12 +3263,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295555",
+        "url": "https://www.ticketliquidator.com/tickets/8295555/Daughtry-tickets-Mon-Feb-15-2027-Paramount-Theatre-Cedar-Rapids",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83A",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295555/Daughtry-tickets-Mon-Feb-15-2027-Paramount-Theatre-Cedar-Rapids"
   },
   {
     "id": "tm-daughtry-2027-eau-claire-z7r9jz1aae83k",
@@ -3297,7 +3337,7 @@
         "event_id": "8295556",
         "url": "https://www.ticketliquidator.com/tickets/8295556/Daughtry-tickets-Thu-Feb-18-2027-RCU-Theatre-At-Pablo-Center-at-the-Confluence",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3367,7 +3407,7 @@
         "event_id": "8295558",
         "url": "https://www.ticketliquidator.com/tickets/8295558/Daughtry-tickets-Mon-Mar-1-2027-Hutchins-Concert-Hall-At-Collins-Center-for-the-Arts",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3437,7 +3477,7 @@
         "event_id": "8295559",
         "url": "https://www.ticketliquidator.com/tickets/8295559/Daughtry-tickets-Wed-Mar-3-2027-Paramount-Theater-Of-Charlottesville",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3500,7 +3540,7 @@
         "event_id": "8363950",
         "url": "https://www.ticketliquidator.com/tickets/8363950/Daughtry-tickets-Wed-Feb-24-2027-Mershon-Auditorium-At-Wexner-Center-For-The-Arts",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {

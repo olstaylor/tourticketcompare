@@ -2573,7 +2573,7 @@
         "event_id": "8167509",
         "url": "https://www.ticketliquidator.com/tickets/8167509/Teddy-Swims-tickets-Thu-Mar-11-2027-Uber-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2654,7 +2654,7 @@
         "event_id": "8166020",
         "url": "https://www.ticketliquidator.com/tickets/8166020/Teddy-Swims-tickets-Tue-Mar-16-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2735,7 +2735,7 @@
         "event_id": "8168696",
         "url": "https://www.ticketliquidator.com/tickets/8168696/Teddy-Swims-tickets-Wed-Mar-17-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2869,6 +2869,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167527",
+        "url": "https://www.ticketliquidator.com/tickets/8167527/Teddy-Swims-tickets-Fri-Mar-26-2027-AFAS-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kF7vp3p",
@@ -2877,7 +2884,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167527/Teddy-Swims-tickets-Fri-Mar-26-2027-AFAS-Dome"
   },
   {
     "id": "tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z16v_sztub",
@@ -2995,7 +3003,7 @@
         "event_id": "8163374",
         "url": "https://www.ticketliquidator.com/tickets/8163374/Teddy-Swims-tickets-Tue-Apr-13-2027-OVO-Hydro",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3078,7 +3086,7 @@
         "event_id": "8163375",
         "url": "https://www.ticketliquidator.com/tickets/8163375/Teddy-Swims-tickets-Fri-Apr-16-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3167,7 +3175,7 @@
         "event_id": "8230821",
         "url": "https://www.ticketliquidator.com/tickets/8230821/Teddy-Swims-tickets-Sat-Apr-17-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3363,6 +3371,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8183966",
+        "url": "https://www.ticketliquidator.com/tickets/8183966/Teddy-Swims-tickets-Sat-Apr-24-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G623YvKkM",
@@ -3370,7 +3385,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438",
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8183966/Teddy-Swims-tickets-Sat-Apr-24-2027-O2-Arena-London"
   },
   {
     "id": "tm-teddy-swims-2027-manchester-17uyv0g62mo98gp",
@@ -3431,7 +3447,7 @@
         "event_id": "8230822",
         "url": "https://www.ticketliquidator.com/tickets/8230822/Teddy-Swims-tickets-Sun-Apr-18-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3619,7 +3635,7 @@
         "event_id": "8167532",
         "url": "https://www.ticketliquidator.com/tickets/8167532/Teddy-Swims-tickets-Thu-Apr-8-2027-3Arena-Dublin",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3694,7 +3710,7 @@
         "event_id": "8314998",
         "url": "https://www.ticketliquidator.com/tickets/8314998/Teddy-Swims-tickets-Fri-Apr-9-2027-3Arena-Dublin",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3764,6 +3780,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284502",
+        "url": "https://www.ticketliquidator.com/tickets/8284502/Teddy-Swims-tickets-Sun-Apr-25-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G623Nj3ov",
@@ -3771,7 +3794,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573",
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284502/Teddy-Swims-tickets-Sun-Apr-25-2027-O2-Arena-London"
   },
   {
     "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16vpvz6g3",
@@ -3832,7 +3856,7 @@
         "event_id": "8167507",
         "url": "https://www.ticketliquidator.com/tickets/8167507/Teddy-Swims-tickets-Wed-Mar-10-2027-Barclays-Arena-Hamburg",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3913,7 +3937,7 @@
         "event_id": "8167502",
         "url": "https://www.ticketliquidator.com/tickets/8167502/Teddy-Swims-tickets-Tue-Mar-2-2027-Unity-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3974,6 +3998,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8167524",
+        "url": "https://www.ticketliquidator.com/tickets/8167524/Teddy-Swims-tickets-Sat-Mar-20-2027-O2-Arena-Prague",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z1kQ9x78k",
@@ -3982,6 +4013,7 @@
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167524/Teddy-Swims-tickets-Sat-Mar-20-2027-O2-Arena-Prague"
   }
 ]

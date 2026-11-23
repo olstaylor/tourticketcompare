@@ -1712,6 +1712,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326652",
+        "url": "https://www.ticketliquidator.com/tickets/8326652/Malcolm-Todd-tickets-Thu-Feb-18-2027-Vorst-Nationaal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1A3rZZa",
@@ -1720,7 +1727,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326652/Malcolm-Todd-tickets-Thu-Feb-18-2027-Vorst-Nationaal"
   },
   {
     "id": "tm-malcolm-todd-2027-dublin-1kkzvpfyga5vo0x",
@@ -1899,7 +1907,7 @@
         "event_id": "8265887",
         "url": "https://www.ticketliquidator.com/tickets/8265887/Malcolm-Todd-tickets-Sat-Feb-27-2027-O2-Academy-Birmingham",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {

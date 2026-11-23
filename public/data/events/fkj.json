@@ -163,7 +163,7 @@
         "event_id": "8012914",
         "url": "https://www.ticketliquidator.com/tickets/8012914/FKJ-tickets-Tue-Apr-20-2027-McMenamins-Crystal-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -232,7 +232,7 @@
         "event_id": "8012969",
         "url": "https://www.ticketliquidator.com/tickets/8012969/FKJ-tickets-Fri-Apr-23-2027-Showbox-SoDo",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -301,7 +301,7 @@
         "event_id": "8012944",
         "url": "https://www.ticketliquidator.com/tickets/8012944/FKJ-tickets-Sun-Apr-25-2027-Commodore-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -385,7 +385,7 @@
         "event_id": "8045995",
         "url": "https://www.ticketliquidator.com/tickets/8045995/FKJ-tickets-Mon-Apr-26-2027-Commodore-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -469,7 +469,7 @@
         "event_id": "8012973",
         "url": "https://www.ticketliquidator.com/tickets/8012973/FKJ-tickets-Thu-Apr-29-2027-The-Mission-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -533,13 +533,21 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8012957",
+        "url": "https://www.ticketliquidator.com/tickets/8012957/FKJ-tickets-Thu-May-27-2027-The-Salt-Shed-Outdoors-Chicago",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_5UYQl9j",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticket_limit": 6,
-    "genre": "Dance/Electronic"
+    "genre": "Dance/Electronic",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8012957/FKJ-tickets-Thu-May-27-2027-The-Salt-Shed-Outdoors-Chicago"
   },
   {
     "id": "tm-fkj-2027-toronto-177zv0g65u2nyx_",
@@ -653,7 +661,7 @@
         "event_id": "8012965",
         "url": "https://www.ticketliquidator.com/tickets/8012965/FKJ-tickets-Mon-May-31-2027-MTelus",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -735,7 +743,7 @@
         "event_id": "8012958",
         "url": "https://www.ticketliquidator.com/tickets/8012958/FKJ-tickets-Tue-Jun-1-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -817,7 +825,7 @@
         "event_id": "8012959",
         "url": "https://www.ticketliquidator.com/tickets/8012959/FKJ-tickets-Thu-Jun-3-2027-The-Fillmore-Philadelphia",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -898,7 +906,7 @@
         "event_id": "8012960",
         "url": "https://www.ticketliquidator.com/tickets/8012960/FKJ-tickets-Fri-Jun-4-2027-Brooklyn-Paramount",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -986,7 +994,7 @@
         "event_id": "8012945",
         "url": "https://www.ticketliquidator.com/tickets/8012945/FKJ-tickets-Mon-Jun-7-2027-The-Anthem-DC",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1072,7 +1080,7 @@
         "event_id": "8012962",
         "url": "https://www.ticketliquidator.com/tickets/8012962/FKJ-tickets-Wed-Jun-9-2027-The-Tabernacle-GA",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1146,7 +1154,7 @@
         "event_id": "8012943",
         "url": "https://www.ticketliquidator.com/tickets/8012943/FKJ-tickets-Fri-Jun-11-2027-Bayou-Music-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1289,7 +1297,7 @@
         "event_id": "8012963",
         "url": "https://www.ticketliquidator.com/tickets/8012963/FKJ-tickets-Mon-Jun-14-2027-South-Side-Ballroom-at-Gilleys",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1428,7 +1436,7 @@
         "event_id": "8012971",
         "url": "https://www.ticketliquidator.com/tickets/8012971/FKJ-tickets-Wed-Apr-28-2027-Rockwell-At-The-Complex",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1504,7 +1512,7 @@
         "event_id": "8012974",
         "url": "https://www.ticketliquidator.com/tickets/8012974/FKJ-tickets-Thu-Jun-10-2027-Saenger-Theatre-New-Orleans",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

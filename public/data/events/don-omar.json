@@ -1630,7 +1630,7 @@
         "event_id": "8071957",
         "url": "https://www.ticketliquidator.com/tickets/8071957/Don-Omar-tickets-Wed-Feb-3-2027-Ball-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1711,7 +1711,7 @@
         "event_id": "8071958",
         "url": "https://www.ticketliquidator.com/tickets/8071958/Don-Omar-tickets-Fri-Feb-5-2027-Golden-1-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1800,7 +1800,7 @@
         "event_id": "8071959",
         "url": "https://www.ticketliquidator.com/tickets/8071959/Don-Omar-tickets-Sun-Feb-7-2027-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1889,7 +1889,7 @@
         "event_id": "8086304",
         "url": "https://www.ticketliquidator.com/tickets/8086304/Don-Omar-tickets-Wed-Feb-10-2027-Pechanga-Arena-San-Diego",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1959,7 +1959,7 @@
         "event_id": "8071960",
         "url": "https://www.ticketliquidator.com/tickets/8071960/Don-Omar-tickets-Thu-Feb-11-2027-Save-Mart-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2048,7 +2048,7 @@
         "event_id": "8071961",
         "url": "https://www.ticketliquidator.com/tickets/8071961/Don-Omar-tickets-Fri-Feb-12-2027-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2202,7 +2202,7 @@
         "event_id": "8071972",
         "url": "https://www.ticketliquidator.com/tickets/8071972/Don-Omar-tickets-Sun-Feb-21-2027-Centre-Bell",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2283,7 +2283,7 @@
         "event_id": "8071962",
         "url": "https://www.ticketliquidator.com/tickets/8071962/Don-Omar-tickets-Fri-Feb-26-2027-Allstate-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2360,6 +2360,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8071963",
+        "url": "https://www.ticketliquidator.com/tickets/8071963/Don-Omar-tickets-Sun-Feb-28-2027-UBS-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17GZv0G6u15uw7e",
@@ -2376,7 +2383,8 @@
       "CMN - CARDENAS MARKETING NETWORK"
     ],
     "ticket_limit": 8,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8071963/Don-Omar-tickets-Sun-Feb-28-2027-UBS-Arena"
   },
   {
     "id": "tm-don-omar-2027-newark-vvg1fz_u5xkezy",
@@ -2437,7 +2445,7 @@
         "event_id": "8071964",
         "url": "https://www.ticketliquidator.com/tickets/8071964/Don-Omar-tickets-Wed-Mar-3-2027-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2526,7 +2534,7 @@
         "event_id": "8071965",
         "url": "https://www.ticketliquidator.com/tickets/8071965/Don-Omar-tickets-Thu-Mar-4-2027-CFG-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2606,7 +2614,7 @@
         "event_id": "8071966",
         "url": "https://www.ticketliquidator.com/tickets/8071966/Don-Omar-tickets-Sat-Mar-6-2027-Ariat-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2695,7 +2703,7 @@
         "event_id": "8073019",
         "url": "https://www.ticketliquidator.com/tickets/8073019/Don-Omar-tickets-Sun-Mar-7-2027-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2784,7 +2792,7 @@
         "event_id": "8071967",
         "url": "https://www.ticketliquidator.com/tickets/8071967/Don-Omar-tickets-Wed-Mar-10-2027-Benchmark-International-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2872,7 +2880,7 @@
         "event_id": "8071968",
         "url": "https://www.ticketliquidator.com/tickets/8071968/Don-Omar-tickets-Fri-Mar-12-2027-Kaseya-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2960,7 +2968,7 @@
         "event_id": "8071970",
         "url": "https://www.ticketliquidator.com/tickets/8071970/Don-Omar-tickets-Sun-Mar-14-2027-Kia-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {

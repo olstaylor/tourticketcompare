@@ -481,7 +481,7 @@
         "event_id": "8149216",
         "url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Sun-Apr-18-2027-Carver-Arena-At-Peoria-Civic-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -620,12 +620,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8233638",
+        "url": "https://www.ticketliquidator.com/tickets/8233638/Jon-Pardi-tickets-Sat-Dec-19-2026-The-Factory-Chesterfield",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16e7Z_obYG7V9-3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8233638/Jon-Pardi-tickets-Sat-Dec-19-2026-The-Factory-Chesterfield"
   },
   {
     "id": "tm-jon-pardi-2027-durant-vvg1yz_ksrbiue",
@@ -728,13 +736,21 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149235",
+        "url": "https://www.ticketliquidator.com/tickets/8149235/Jon-Pardi-tickets-Sat-May-8-2027-Arena-At-Ford-Idaho-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZeQe",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149235/Jon-Pardi-tickets-Sat-May-8-2027-Arena-At-Ford-Idaho-Center"
   },
   {
     "id": "tm-jon-pardi-2027-loveland-z7r9jz1aazeb3",

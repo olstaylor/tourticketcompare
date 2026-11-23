@@ -58,7 +58,7 @@
         "event_id": "8284358",
         "url": "https://www.ticketliquidator.com/tickets/8284358/The-Interrupters-tickets-Fri-Mar-19-2027-Marquee-Theatre-AZ",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -139,7 +139,7 @@
         "event_id": "8284360",
         "url": "https://www.ticketliquidator.com/tickets/8284360/The-Interrupters-tickets-Tue-Mar-23-2027-House-Of-Blues-Dallas",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -225,7 +225,7 @@
         "event_id": "8284361",
         "url": "https://www.ticketliquidator.com/tickets/8284361/The-Interrupters-tickets-Wed-Mar-24-2027-House-Of-Blues-Houston",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -311,7 +311,7 @@
         "event_id": "8284362",
         "url": "https://www.ticketliquidator.com/tickets/8284362/The-Interrupters-tickets-Fri-Mar-26-2027-Jannus-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -381,6 +381,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284363",
+        "url": "https://www.ticketliquidator.com/tickets/8284363/The-Interrupters-tickets-Sat-Mar-27-2027-Revolution-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_3BJCJR0",
@@ -397,7 +404,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284363/The-Interrupters-tickets-Sat-Mar-27-2027-Revolution-Live"
   },
   {
     "id": "tm-the-interrupters-2027-orlando-1aefz_3gkdwdk5a",
@@ -458,7 +466,7 @@
         "event_id": "8284364",
         "url": "https://www.ticketliquidator.com/tickets/8284364/The-Interrupters-tickets-Sun-Mar-28-2027-House-Of-Blues-Orlando",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -528,6 +536,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284365",
+        "url": "https://www.ticketliquidator.com/tickets/8284365/The-Interrupters-tickets-Tue-Mar-30-2027-Heaven-Stage-at-Masquerade-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3Dh5HjB",
@@ -540,7 +555,8 @@
         "end": "2027-03-24T02:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284365/The-Interrupters-tickets-Tue-Mar-30-2027-Heaven-Stage-at-Masquerade-GA"
   },
   {
     "id": "tm-the-interrupters-2027-silver-spring-1avfz_3gkbss6tr",
@@ -601,7 +617,7 @@
         "event_id": "8284367",
         "url": "https://www.ticketliquidator.com/tickets/8284367/The-Interrupters-tickets-Fri-Apr-2-2027-The-Fillmore-Silver-Spring",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -682,7 +698,7 @@
         "event_id": "8284355",
         "url": "https://www.ticketliquidator.com/tickets/8284355/The-Interrupters-tickets-Sun-Apr-4-2027-Brooklyn-Paramount",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -775,7 +791,7 @@
         "event_id": "8284368",
         "url": "https://www.ticketliquidator.com/tickets/8284368/The-Interrupters-tickets-Wed-Apr-7-2027-Citizens-House-Of-Blues-Boston",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -855,7 +871,7 @@
         "event_id": "8284369",
         "url": "https://www.ticketliquidator.com/tickets/8284369/The-Interrupters-tickets-Fri-Apr-9-2027-MTelus",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1064,7 +1080,7 @@
         "event_id": "8284372",
         "url": "https://www.ticketliquidator.com/tickets/8284372/The-Interrupters-tickets-Tue-Apr-13-2027-House-Of-Blues-Cleveland",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1155,7 +1171,7 @@
         "event_id": "8284373",
         "url": "https://www.ticketliquidator.com/tickets/8284373/The-Interrupters-tickets-Wed-Apr-14-2027-Roxian-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1236,7 +1252,7 @@
         "event_id": "8284374",
         "url": "https://www.ticketliquidator.com/tickets/8284374/The-Interrupters-tickets-Fri-Apr-16-2027-The-Fillmore-Detroit",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1322,7 +1338,7 @@
         "event_id": "8284376",
         "url": "https://www.ticketliquidator.com/tickets/8284376/The-Interrupters-tickets-Sat-Apr-17-2027-House-Of-Blues-Chicago",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1397,6 +1413,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8284377",
+        "url": "https://www.ticketliquidator.com/tickets/8284377/The-Interrupters-tickets-Sun-Apr-18-2027-The-Pageant",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_3GkDZh1RC",
@@ -1413,7 +1436,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8284377/The-Interrupters-tickets-Sun-Apr-18-2027-The-Pageant"
   },
   {
     "id": "tm-the-interrupters-2027-minneapolis-vv17bz_3gkbzsymo",
@@ -1474,7 +1498,7 @@
         "event_id": "8284379",
         "url": "https://www.ticketliquidator.com/tickets/8284379/The-Interrupters-tickets-Wed-Apr-21-2027-The-Fillmore-Minneapolis-Presented-by-Affinity-Plus",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1560,7 +1584,7 @@
         "event_id": "8284381",
         "url": "https://www.ticketliquidator.com/tickets/8284381/The-Interrupters-tickets-Sat-Apr-24-2027-The-Union-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1641,7 +1665,7 @@
         "event_id": "8284386",
         "url": "https://www.ticketliquidator.com/tickets/8284386/The-Interrupters-tickets-Fri-Apr-30-2027-The-Wiltern",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1722,7 +1746,7 @@
         "event_id": "8284387",
         "url": "https://www.ticketliquidator.com/tickets/8284387/The-Interrupters-tickets-Sun-May-2-2027-House-Of-Blues-Anaheim",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1808,7 +1832,7 @@
         "event_id": "8345084",
         "url": "https://www.ticketliquidator.com/tickets/8345084/The-Interrupters-tickets-Sat-May-1-2027-SOMA",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

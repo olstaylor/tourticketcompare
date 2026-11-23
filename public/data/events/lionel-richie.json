@@ -269,6 +269,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8165325",
+        "url": "https://www.ticketliquidator.com/tickets/8165325/Lionel-Richie-tickets-Fri-Jan-8-2027-Encore-Theatre-At-Wynn-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5UqJk",
@@ -279,7 +286,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165325/Lionel-Richie-tickets-Fri-Jan-8-2027-Encore-Theatre-At-Wynn-Las-Vegas"
   },
   {
     "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5muj2",
@@ -335,6 +343,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8165326",
+        "url": "https://www.ticketliquidator.com/tickets/8165326/Lionel-Richie-tickets-Sat-Jan-9-2027-Encore-Theatre-At-Wynn-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5MuJ2",
@@ -345,7 +360,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165326/Lionel-Richie-tickets-Sat-Jan-9-2027-Encore-Theatre-At-Wynn-Las-Vegas"
   },
   {
     "id": "tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z",
@@ -399,7 +415,7 @@
         "event_id": "8237289",
         "url": "https://www.ticketliquidator.com/tickets/8237289/Lionel-Richie-tickets-Sat-Jan-30-2027-Lucas-Oil-Live-At-WinStar-Casino",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {

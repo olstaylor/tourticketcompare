@@ -1684,6 +1684,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090608",
+        "url": "https://www.ticketliquidator.com/tickets/8090608/BTS-tickets-Wed-Feb-10-2027-Marvel-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G65R_Eq8g",
@@ -1694,7 +1701,8 @@
       "LIVE NATION AUSTRALIA"
     ],
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090608/BTS-tickets-Wed-Feb-10-2027-Marvel-Stadium"
   },
   {
     "id": "tm-bts-2027-docklands-17a8v0g659_gumr",
@@ -1750,6 +1758,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8087588",
+        "url": "https://www.ticketliquidator.com/tickets/8087588/BTS-tickets-Fri-Feb-12-2027-Marvel-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G659_gUMR",
@@ -1760,7 +1775,8 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/bts-tickets-melbourne-marvel-stadium-docklands-12-2-2027/event/107258450",
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8087588/BTS-tickets-Fri-Feb-12-2027-Marvel-Stadium"
   },
   {
     "id": "tm-bts-2027-docklands-17a8v0g65r_ew8m",
@@ -1816,6 +1832,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090609",
+        "url": "https://www.ticketliquidator.com/tickets/8090609/BTS-tickets-Sat-Feb-13-2027-Marvel-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17a8v0G65R_EW8M",
@@ -1826,7 +1849,8 @@
       "LIVE NATION AUSTRALIA"
     ],
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090609/BTS-tickets-Sat-Feb-13-2027-Marvel-Stadium"
   },
   {
     "id": "tm-bts-2027-sydney-olympic-park-17a8v0g65qfkdo_",
@@ -1880,7 +1904,7 @@
         "event_id": "8090606",
         "url": "https://www.ticketliquidator.com/tickets/8090606/BTS-tickets-Sat-Feb-20-2027-Accor-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1961,7 +1985,7 @@
         "event_id": "8090607",
         "url": "https://www.ticketliquidator.com/tickets/8090607/BTS-tickets-Sun-Feb-21-2027-Accor-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

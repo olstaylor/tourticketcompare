@@ -1127,6 +1127,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896499",
+        "url": "https://www.ticketliquidator.com/tickets/7896499/Karol-G-tickets-Thu-Jun-3-2027-Estadi-Olimpico-Lluis-Companys",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k-d-v1k",
@@ -1135,7 +1142,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896499/Karol-G-tickets-Thu-Jun-3-2027-Estadi-Olimpico-Lluis-Companys"
   },
   {
     "id": "tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk",
@@ -1184,6 +1192,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7912284",
+        "url": "https://www.ticketliquidator.com/tickets/7912284/Karol-G-tickets-Fri-Jun-4-2027-Estadi-Olimpico-Lluis-Companys",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8N04vK",
@@ -1192,7 +1207,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7912284/Karol-G-tickets-Fri-Jun-4-2027-Estadi-Olimpico-Lluis-Companys"
   },
   {
     "id": "tm-karol-g-2027-sevilla-z698xz2qz1kp4_vuk",
@@ -1253,7 +1269,7 @@
         "event_id": "7896500",
         "url": "https://www.ticketliquidator.com/tickets/7896500/Karol-G-tickets-Fri-Jun-11-2027-Estadio-La-Cartuja",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1326,7 +1342,7 @@
         "event_id": "7912285",
         "url": "https://www.ticketliquidator.com/tickets/7912285/Karol-G-tickets-Sat-Jun-12-2027-Estadio-La-Cartuja",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1399,7 +1415,7 @@
         "event_id": "7921229",
         "url": "https://www.ticketliquidator.com/tickets/7921229/Karol-G-tickets-Sun-Jun-13-2027-Estadio-La-Cartuja",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1460,6 +1476,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896501",
+        "url": "https://www.ticketliquidator.com/tickets/7896501/Karol-G-tickets-Thu-Jun-24-2027-Estadio-Metropolitano",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vQ8A4F7",
@@ -1468,7 +1491,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896501/Karol-G-tickets-Thu-Jun-24-2027-Estadio-Metropolitano"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz1kpmzkfn",
@@ -1517,6 +1541,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7912286",
+        "url": "https://www.ticketliquidator.com/tickets/7912286/Karol-G-tickets-Fri-Jun-25-2027-Estadio-Metropolitano",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kPMZKFN",
@@ -1525,7 +1556,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7912286/Karol-G-tickets-Fri-Jun-25-2027-Estadio-Metropolitano"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz16v8zxv0i",
@@ -1574,6 +1606,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7918852",
+        "url": "https://www.ticketliquidator.com/tickets/7918852/Karol-G-tickets-Sat-Jun-26-2027-Estadio-Metropolitano",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v8zxv0I",
@@ -1582,7 +1621,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7918852/Karol-G-tickets-Sat-Jun-26-2027-Estadio-Metropolitano"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz1koujx1f",
@@ -1631,6 +1671,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7921230",
+        "url": "https://www.ticketliquidator.com/tickets/7921230/Karol-G-tickets-Sun-Jun-27-2027-Estadio-Metropolitano",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1koUjx1F",
@@ -1639,7 +1686,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7921230/Karol-G-tickets-Sun-Jun-27-2027-Estadio-Metropolitano"
   },
   {
     "id": "tm-karol-g-2027-london-1agzk3ogkddbuhf",
@@ -1695,6 +1743,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7896396",
+        "url": "https://www.ticketliquidator.com/tickets/7896396/Karol-G-tickets-Tue-Jul-6-2027-Tottenham-Hotspur-New-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3oGkdDBUhf",
@@ -1706,7 +1761,8 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896396/Karol-G-tickets-Tue-Jul-6-2027-Tottenham-Hotspur-New-Stadium"
   },
   {
     "id": "tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy",
@@ -1767,7 +1823,7 @@
         "event_id": "7896506",
         "url": "https://www.ticketliquidator.com/tickets/7896506/Karol-G-tickets-Sat-Jul-10-2027-Johan-Cruijff-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {

@@ -58,7 +58,7 @@
         "event_id": "7877280",
         "url": "https://www.ticketliquidator.com/tickets/7877280/Thirty-Seconds-To-Mars-tickets-Thu-Apr-8-2027-Movistar-Arena-Madrid",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -139,7 +139,7 @@
         "event_id": "7877281",
         "url": "https://www.ticketliquidator.com/tickets/7877281/Thirty-Seconds-To-Mars-tickets-Fri-Apr-9-2027-Roig-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -208,12 +208,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7912640",
+        "url": "https://www.ticketliquidator.com/tickets/7912640/Thirty-Seconds-To-Mars-tickets-Sun-Apr-11-2027-Forum-di-Milano",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZeAdk",
     "timezone": "Europe/Rome",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7912640/Thirty-Seconds-To-Mars-tickets-Sun-Apr-11-2027-Forum-di-Milano"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-munich-z698xzc2z16vfvofpp",
@@ -274,7 +282,7 @@
         "event_id": "7877284",
         "url": "https://www.ticketliquidator.com/tickets/7877284/Thirty-Seconds-To-Mars-tickets-Mon-Apr-12-2027-Kleine-Olympiahalle-Munich",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -355,7 +363,7 @@
         "event_id": "7877285",
         "url": "https://www.ticketliquidator.com/tickets/7877285/Thirty-Seconds-To-Mars-tickets-Wed-Apr-14-2027-Wiener-Stadthalle-Halle-D",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -416,6 +424,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877286",
+        "url": "https://www.ticketliquidator.com/tickets/7877286/Thirty-Seconds-To-Mars-tickets-Thu-Apr-15-2027-Krakow-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1ke8f3Ad",
@@ -424,7 +439,8 @@
     "organizer_names": [
       "Live Nation sp. z o.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877286/Thirty-Seconds-To-Mars-tickets-Thu-Apr-15-2027-Krakow-Arena"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-hannover-z698xzc2z16vqp_xfz",
@@ -485,7 +501,7 @@
         "event_id": "7877291",
         "url": "https://www.ticketliquidator.com/tickets/7877291/Thirty-Seconds-To-Mars-tickets-Tue-Apr-20-2027-ZAG-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -554,6 +570,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877297",
+        "url": "https://www.ticketliquidator.com/tickets/7877297/Thirty-Seconds-To-Mars-tickets-Fri-Apr-23-2027-Lotto-Arena-Antwerp",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1k-8AsF4",
@@ -562,7 +585,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877297/Thirty-Seconds-To-Mars-tickets-Fri-Apr-23-2027-Lotto-Arena-Antwerp"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u",
@@ -618,6 +642,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7877300",
+        "url": "https://www.ticketliquidator.com/tickets/7877300/Thirty-Seconds-To-Mars-tickets-Wed-Apr-28-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3aGkdEVn9u",
@@ -628,7 +659,8 @@
       "S.J.M. LTD"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877300/Thirty-Seconds-To-Mars-tickets-Wed-Apr-28-2027-O2-Arena-London"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs",
@@ -689,7 +721,7 @@
         "event_id": "7870156",
         "url": "https://www.ticketliquidator.com/tickets/7870156/Thirty-Seconds-To-Mars-tickets-Thu-Apr-29-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -772,7 +804,7 @@
         "event_id": "7877303",
         "url": "https://www.ticketliquidator.com/tickets/7877303/Thirty-Seconds-To-Mars-tickets-Sat-May-1-2027-3Arena-Dublin",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

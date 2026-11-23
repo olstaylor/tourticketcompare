@@ -314,7 +314,7 @@
     "ticketmaster_event_id": "05006505CF0325BF",
     "ticketmaster_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-youngstown-ohio-11-22-2026/event/05006505CF0325BF",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-youngstown-covelli-centre---youngstown-11-22-2026/production/7536289",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-youngstown-ohio-11-22-2026/event/05006505CF0325BF",
     "last_verified_at": "2026-11-09",
@@ -336,11 +336,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7536289,
+        "url": "https://www.vividseats.com/trans-siberian-orchestra-tickets-youngstown-covelli-centre---youngstown-11-22-2026/production/7536289",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

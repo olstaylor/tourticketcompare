@@ -1965,7 +1965,7 @@
     "ticketmaster_event_id": "100064B6B65D232B",
     "ticketmaster_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-toronto-ontario-04-21-2027/event/100064B6B65D232B",
     "seatgeek_url": "https://seatgeek.com/nothing-but-thieves-tickets/toronto-canada-massey-hall-2027-04-21-8-pm/concert/18266368",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/nothing-but-thieves-tickets-toronto-massey-hall---allied-music-centre-4-21-2027/production/7078826",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/nothing-but-thieves-the-stray-dogs-toronto-ontario-04-21-2027/event/100064B6B65D232B",
     "last_verified_at": "2026-11-07",
@@ -1987,11 +1987,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7078826,
+        "url": "https://www.vividseats.com/nothing-but-thieves-tickets-toronto-massey-hall---allied-music-centre-4-21-2027/production/7078826",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

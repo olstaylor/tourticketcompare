@@ -104,7 +104,7 @@ function parseArgs(argv) {
 
 function normalizeText(value) {
   return clean(value, 2000).toLowerCase().normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "").replace(/&/g, " and ")
+    .replace(/[\u0300-\u036f]/g, "").replace(/[\u2019']/g, "").replace(/\u0142/g, "l").replace(/&/g, " and ")
     .replace(/[^a-z0-9]+/g, " ").replace(/\s+/g, " ").trim();
 }
 
@@ -131,11 +131,26 @@ const METROS = new Map([
   ["santa clara", ["san francisco"]], ["san francisco", ["santa clara"]],
   ["miami gardens", ["miami"]], ["miami", ["miami gardens"]],
   ["foxborough", ["boston"]], ["boston", ["foxborough"]],
-  ["landover", ["washington"]], ["washington", ["landover"]]
+  ["landover", ["washington"]], ["washington", ["landover"]],
+  // Added 2026-11-23 from the TicketNetwork near-miss log: the seller names the
+  // venue's postal town or the local-language city where Ticketmaster names the
+  // district. Each pair is the same place (Docklands is the district of
+  // Melbourne's Marvel Stadium, Greenwich the O2's borough, Elmont UBS Arena).
+  ["docklands", ["melbourne"]], ["west melbourne", ["melbourne"]], ["greenwich", ["london"]],
+  ["munich", ["munchen"]], ["warsaw", ["warszawa"]], ["merksem antwerpen", ["antwerp", "antwerpen"]],
+  ["belmont park", ["elmont"]], ["wisconsin dells", ["lake delton"]], ["west valley city", ["salt lake city"]],
+  ["the woodlands", ["spring"]], ["stevenage", ["knebworth"]], ["south bend", ["notre dame"]],
+  ["forest brussels", ["brussels", "bruxelles"]], ["praha 9", ["prague"]], ["praha", ["prague"]],
+  ["milton", ["brisbane"]], ["millvale", ["pittsburgh"]], ["co meath", ["meath"]]
 ]);
 
-function cityMatches(text, city) {
+// "Saint Louis" and "St. Louis" are one city; sellers use either.
+const normalizeCity = (value) => normalizeText(value).replace(/\bsaint\b/g, "st").replace(/\bft\b/g, "fort");
+
+export function cityMatches(text, city) {
   if (containsNormalized(text, city)) return true;
+  const own = normalizeCity(city);
+  if (own && ` ${normalizeCity(text)} `.includes(` ${own} `)) return true;
   return (METROS.get(normalizeText(city)) || []).some((alias) => containsNormalized(text, alias));
 }
 
@@ -184,10 +199,55 @@ export function venueVariants(venue, city = "") {
   return [...variants].filter(Boolean);
 }
 
-function venueMatches(text, venue, city = "") {
+// Same buildings that Ticketmaster and the resale catalogs name differently
+// (a rename, a translation or a short form). Each entry is one real venue; the
+// listing must still agree on artist, venue-local date and city.
+const VENUE_ALIASES = new Map([
+  ["the o2", ["o2 arena"]],
+  ["estadio riyadh air metropolitano", ["estadio metropolitano", "wanda metropolitano"]],
+  ["unipol forum", ["forum di milano", "mediolanum forum"]],
+  ["tauron arena krakow", ["krakow arena"]],
+  ["lolympia", ["olympia theatre"]],
+  ["rotterdam ahoy", ["ahoy rotterdam"]],
+  ["estadi olimpic lluis companys", ["estadi olimpico lluis companys"]],
+  ["utilita arena cardiff", ["cardiff international arena"]],
+  ["scottish gas murrayfield", ["murrayfield stadium"]]
+]);
+
+// Words that name a kind of room, not which one. Dropped before comparing so
+// "Orpheum Theatre - Tampa" meets "Orpheum - Tampa", but the distinctive part
+// of the name must all be present in the listing: "Ramsey Concert Hall" never
+// meets "Hodgson Concert Hall", and "The Masquerade - Heaven" never meets a
+// Hell-stage listing.
+const VENUE_FILLER = new Set(["the", "at", "of", "and", "a", "de", "la", "theatre", "theater", "arena", "center", "centre", "hall",
+  "stadium", "estadio", "amphitheatre", "amphitheater", "auditorium", "ballroom", "club", "live", "music", "performing", "arts",
+  "resort", "casino", "hotel", "event", "events", "concert", "pavilion", "field", "park", "formerly"]);
+
+function distinctiveVenueTokens(variant, city) {
+  const cityTokens = new Set(normalizeText(city).split(" "));
+  return variant.split(" ").filter((word) => word.length >= 2 && !VENUE_FILLER.has(word) && !cityTokens.has(word));
+}
+
+export function venueTokensMatch(text, venue, city = "") {
+  const words = new Set(normalizeText(text).split(" "));
+  let base = clean(venue, 300).replace(/\([^)]*\)/g, " ").split(/\s*\/\s*/)[0];
+  base = SPONSOR_TAIL.reduce((value, pattern) => value.replace(pattern, "").trim(), base);
+  const tail = base.match(/^(.+?)(?:\s+-\s+([^-]+)|-([A-Za-z]{2,3}))\s*$/);
+  if (tail && placeTail(tail[2] ?? tail[3], city)) base = tail[1].trim();
+  const variant = normalizeText(base);
+  // A venue named after its own city ("Ventura Theater" in Ventura) keeps the
+  // city word, since nothing else distinguishes it.
+  const tokens = distinctiveVenueTokens(variant, city);
+  const own = tokens.length ? tokens : distinctiveVenueTokens(variant, "");
+  return own.length > 0 && own.join("").length >= 5 && own.every((token) => words.has(token));
+}
+
+export function venueMatches(text, venue, city = "") {
   if (containsNormalized(text, venue) || diceSimilarity(text, venue) >= 0.35) return true;
   const haystack = ` ${collapseInitials(normalizeText(text))} `;
-  return venueVariants(venue, city).some((variant) => haystack.includes(` ${collapseInitials(variant)} `));
+  if (venueVariants(venue, city).some((variant) => haystack.includes(` ${collapseInitials(variant)} `))) return true;
+  if ((VENUE_ALIASES.get(normalizeText(venue)) || []).some((alias) => haystack.includes(` ${alias} `))) return true;
+  return venueTokensMatch(text, venue, city);
 }
 
 function dateMatches(text, date) {
@@ -873,6 +933,35 @@ async function selfTest() {
   assert.equal(closestMiss([{ ok: false, reasons: ["city mismatch", "venue mismatch"] }, { ok: false, reasons: ["venue mismatch"] }]), "venue mismatch");
   assert.equal(closestMiss([{ ok: false, reasons: ["venue mismatch"], name: "RAYE | O2 Arena; London" }]), "venue mismatch; listing: RAYE O2 Arena London", "the closest listing is named, with table-breaking characters removed");
   assert.equal(closestMiss([{ ok: false, reasons: ["venue mismatch"], name: "Karol G", text: "Karol G Estadio Metropolitano Madrid 2027-06-26T18:00:00 https://x.test/p/1 a|b" }]), "venue mismatch; listing: Karol G; text: Karol G Estadio Metropolitano Madrid a b", "the listing's own venue text is kept, without URLs or dates");
+  // Venue and city spellings found in the 2026-11-23 near-miss log: the same
+  // building under another name passes, a different room or venue never does.
+  const venueCases = [
+    ["Olivia Rodrigo O2 Arena - London Peninsula Square London", "The O2", "London", true],
+    ["Foo O2 Academy Brixton London", "The O2", "London", false],
+    ["VNV Nation Orpheum - Tampa 14802 N Nebraska Ave Tampa Florida", "Orpheum Theatre - Tampa", "Tampa", true],
+    ["Pink Martini Hodgson Concert Hall 230 River Road Athens Georgia", "Ramsey Concert Hall", "Athens", false],
+    ["The Interrupters Heaven Stage at Masquerade - GA Atlanta Georgia", "The Masquerade - Heaven", "Atlanta", true],
+    ["Haiden Henderson Purgatory Stage at Masquerade - GA Atlanta Georgia", "The Masquerade - Heaven", "Atlanta", false],
+    ["FKJ FKJ The Salt Shed Outdoors - Chicago 76796 CONCERTS 1357 North Elston Avenue Chicago Illinois FKJ FKJ", "The Salt Shed Outdoors (Fairgrounds)", "Chicago", true],
+    ["Dylan Gossett Billy Bobs 2520 Rodeo Plaza Drive Fort Worth Texas", "Billy Bob's", "Fort Worth", true],
+    ["Blue October Majestic Ventura Theatre 26 S. Chestnut St Ventura California", "Ventura Theater", "Ventura", true],
+    ["Karol G Estadio Metropolitano Madrid", "Estadio Riyadh Air Metropolitano", "Madrid", true],
+    ["Zach Top Lucas Oil Live At WinStar Casino Thackerville", "WinStar World Casino", "Thackerville", false],
+    ["Doja Cat TD Garden 100 Legends Way Boston Massachusetts", "Roadrunner-Boston", "Boston", false],
+    ["Lola Young Roadrunner 89 Guest Street Brighton Massachusetts Boston", "Roadrunner-Boston", "Boston", true]
+  ];
+  for (const [text, venue, city, expected] of venueCases) {
+    assert.equal(venueMatches(text, venue, city), expected, `venue ${expected ? "matches" : "does not match"}: ${venue} vs ${text}`);
+  }
+  const cityCases = [
+    ["Tori Kelly The Pageant 6161 Delmar Blvd St. Louis Missouri", "Saint Louis", true],
+    ["Harry Styles Marvel Stadium 740 Bourke Street Melbourne Victoria", "Docklands", true],
+    ["Oasis Allianz Arena Werner-Heisenberg-Allee 25 München Bavaria", "Munich", true],
+    ["Revolution Live 200 West Broward Blvd Fort Lauderdale Florida", "Ft Lauderdale", true],
+    ["Doja Cat Xfinity Mobile Arena Philadelphia Pennsylvania", "Boston", false],
+    ["Nickelback O2 Arena Prague", "London", false]
+  ];
+  for (const [text, city, expected] of cityCases) assert.equal(cityMatches(text, city), expected, `city ${city} vs ${text}`);
 
   // Venue tails Ticketmaster adds and resale catalogs drop.
   assert.ok(venueMatches("Blue October The Tabernacle Atlanta GA 11/22/2026", "Tabernacle Presented by iTHINK Financial", "Atlanta"));

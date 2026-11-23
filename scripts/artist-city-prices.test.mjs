@@ -645,7 +645,10 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
 // ── the 30-day recorded low, rendered ───────────────────────────
 {
   const page = await render(RUN_PATH);
-  console.log("MOVE-DEBUG", (text(page.main).match(/[\u2191\u2193] [^\n]{0,40}/g) || []).join(" | "));
+  assert(
+    /[\u2191\u2193] USD\s+\d[\d.,]* since [A-Z][a-z]{2} \d{1,2}, 2026/.test(text(page.main)),
+    "a date whose button price changed since its previous recorded price states the move, in its own currency"
+  );
   const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
   const body = text(section);
 
@@ -691,6 +694,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const page = await render(RUN_PATH, { withDb: false });
   const body = text(page.main);
   assert(!/30-day low|Lowest (?:recorded|listed) in/.test(body), "no pricing database means no recorded low");
+  assert(!/[\u2191\u2193] USD/.test(body), "no pricing database means no price move");
 }
 
 

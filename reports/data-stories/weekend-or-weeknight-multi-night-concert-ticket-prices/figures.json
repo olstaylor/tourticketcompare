@@ -1,0 +1,28 @@
+{
+  "storyType": "multi-night-weekday",
+  "asOf": "2026-11-22",
+  "source": "provider_pricing_daily + event_price_timing_events (D1); query in query.sql, run 2026-11-22",
+  "scope": "US multi-night runs (2 to 6 nights within 3 days at one city), readings 2026-09-15 to 2026-11-21, at least 14 days before the first night, price under $1,000, each night compared with the run's average on the same site and day, only days with every night priced; Friday/Saturday chosen before looking",
+  "runs": 94,
+  "shows": 248,
+  "artists": 56,
+  "observations": 7274,
+  "largestArtistShareOfObservations": 0.112,
+  "meanListedLowUsd": 193.77,
+  "gapPp": 9.09,
+  "sePp": 2.83,
+  "artistsPositivePct": 76.8,
+  "artistMedianGapPp": 8.54,
+  "artistGapQuartilesPp": [0, 20.47],
+  "typicalAbsoluteRunDayGapPp": 21.1,
+  "sites": [
+    { "site": "stubhub-international", "artists": 32, "runs": 63, "gapPp": 14.49, "sePp": 2.95, "artistsPositivePct": 90.6 },
+    { "site": "vivid-seats", "artists": 47, "runs": 81, "gapPp": 12.32, "sePp": 2.92, "artistsPositivePct": 89.4 },
+    { "site": "ticketnetwork", "artists": 52, "runs": 89, "gapPp": 8.15, "sePp": 3.46, "artistsPositivePct": 75.0 }
+  ],
+  "periods": [
+    { "period": "2026-09-15 to 2026-10-24", "artists": 35, "runs": 62, "gapPp": 10.61, "sePp": 2.89, "artistsPositivePct": 85.7 },
+    { "period": "2026-10-25 to 2026-11-21", "artists": 50, "runs": 78, "gapPp": 10.62, "sePp": 3.25, "artistsPositivePct": 74.0 }
+  ],
+  "firstVsLastNight": { "artists": 93, "gapPp": -1.31, "sePp": 2.49, "artistsPositivePct": 47.3, "note": "no pattern; not published as a claim" }
+}

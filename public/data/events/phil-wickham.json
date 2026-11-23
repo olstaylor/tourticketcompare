@@ -46,12 +46,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8324866",
+        "url": "https://www.ticketnetwork.com/en/p/8324866",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324866",
+        "url": "https://www.ticketliquidator.com/tickets/8324866/Phil-Wickham-tickets-Mon-Nov-30-2026-Water-of-Life-Community-Church",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afu7r7",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Religious"
+    "genre": "Religious",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324866",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324866/Phil-Wickham-tickets-Mon-Nov-30-2026-Water-of-Life-Community-Church"
   },
   {
     "id": "tm-phil-wickham-2026-fontana-rz7hnez1afu7o0",
@@ -100,12 +116,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8324867",
+        "url": "https://www.ticketnetwork.com/en/p/8324867",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324867",
+        "url": "https://www.ticketliquidator.com/tickets/8324867/Phil-Wickham-tickets-Tue-Dec-1-2026-Water-of-Life-Community-Church",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afu7O0",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Religious"
+    "genre": "Religious",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324867",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324867/Phil-Wickham-tickets-Tue-Dec-1-2026-Water-of-Life-Community-Church"
   },
   {
     "id": "tm-phil-wickham-2026-san-diego-rz7hnez1afu7ov",
@@ -159,14 +191,14 @@
         "event_id": "8324868",
         "url": "https://www.ticketliquidator.com/tickets/8324868/Phil-Wickham-tickets-Thu-Dec-3-2026-Maranatha-Chapel",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8324868",
         "url": "https://www.ticketnetwork.com/en/p/8324868",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -229,14 +261,14 @@
         "event_id": "8324869",
         "url": "https://www.ticketliquidator.com/tickets/8324869/Phil-Wickham-tickets-Fri-Dec-4-2026-Maranatha-Chapel",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8324869",
         "url": "https://www.ticketnetwork.com/en/p/8324869",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -299,14 +331,14 @@
         "event_id": "8324870",
         "url": "https://www.ticketliquidator.com/tickets/8324870/Phil-Wickham-tickets-Sun-Dec-6-2026-Calvary-Chapel-Downey",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8324870",
         "url": "https://www.ticketnetwork.com/en/p/8324870",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

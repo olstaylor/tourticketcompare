@@ -51,21 +51,21 @@
         "event_id": "8264076",
         "url": "https://www.ticketnetwork.com/en/p/8264076",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107669462",
         "url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-30-2026/event/107669462",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8264076",
         "url": "https://www.ticketliquidator.com/tickets/8264076/Alex-Warren-tickets-Wed-Dec-30-2026-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -130,21 +130,21 @@
         "event_id": "8264077",
         "url": "https://www.ticketnetwork.com/en/p/8264077",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668643",
         "url": "https://www.stubhub.ie/alex-warren-las-vegas-tickets-12-31-2026/event/107668643",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8264077",
         "url": "https://www.ticketliquidator.com/tickets/8264077/Alex-Warren-tickets-Thu-Dec-31-2026-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -204,6 +204,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107670719",
+        "url": "https://www.stubhub.ie/alex-warren-tickets-cardiff-blackweir-fields-20-6-2027/event/107670719",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_3C3NozB",
@@ -214,7 +221,8 @@
       "DEPOT MARKETING LIMITED"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-tickets-cardiff-blackweir-fields-20-6-2027/event/107670719"
   },
   {
     "id": "tm-alex-warren-2027-belfast-16doz_3cdg7z8me",
@@ -268,7 +276,7 @@
         "event_id": "107670720",
         "url": "https://www.stubhub.ie/alex-warren-tickets-belfast-ormeau-park-21-6-2027/event/107670720",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -391,7 +399,7 @@
         "event_id": "107671364",
         "url": "https://www.stubhub.ie/alex-warren-tickets-glasgow-glasgow-green-25-6-2027/event/107671364",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -458,7 +466,7 @@
         "event_id": "107671365",
         "url": "https://www.stubhub.ie/alex-warren-tickets-exeter-powderham-castle-26-6-2027/event/107671365",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -524,21 +532,21 @@
         "event_id": "8345707",
         "url": "https://www.ticketnetwork.com/en/p/8345707",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107676110",
         "url": "https://www.stubhub.ie/alex-warren-tickets-woodstock-blenheim-palace-27-6-2027/event/107676110",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8345707",
         "url": "https://www.ticketliquidator.com/tickets/8345707/Alex-Warren-tickets-Sun-Jun-27-2027-Blenheim-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -608,21 +616,21 @@
         "event_id": "8295164",
         "url": "https://www.ticketnetwork.com/en/p/8295164",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670721",
         "url": "https://www.stubhub.ie/alex-warren-tickets-scarborough-scarborough-open-air-theatre-30-6-2027/event/107670721",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295164",
         "url": "https://www.ticketliquidator.com/tickets/8295164/Alex-Warren-tickets-Wed-Jun-30-2027-Scarborough-Open-Air-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -691,21 +699,21 @@
         "event_id": "8345708",
         "url": "https://www.ticketnetwork.com/en/p/8345708",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678237",
         "url": "https://www.stubhub.ie/alex-warren-tickets-manchester-heaton-park-2-7-2027/event/107678237",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8345708",
         "url": "https://www.ticketliquidator.com/tickets/8345708/Alex-Warren-tickets-Fri-Jul-2-2027-Heaton-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -773,21 +781,21 @@
         "event_id": "8294337",
         "url": "https://www.ticketnetwork.com/en/p/8294337",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671362",
         "url": "https://www.stubhub.ie/alex-warren-tickets-london-crystal-palace-park-3-7-2027/event/107671362",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8294337",
         "url": "https://www.ticketliquidator.com/tickets/8294337/Alex-Warren-tickets-Sat-Jul-3-2027-Crystal-Palace-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -833,11 +841,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773517,
+        "url": "https://seatgeek.com/alex-warren-tickets/oklahoma-city-oklahoma-paycom-center-2027-04-05-7-45-pm/concert/18773517",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -857,14 +865,14 @@
         "event_id": "8369843",
         "url": "https://www.ticketliquidator.com/tickets/8369843/Alex-Warren-tickets-Mon-Apr-5-2027-Paycom-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369843",
         "url": "https://www.ticketnetwork.com/en/p/8369843",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -914,11 +922,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773519,
+        "url": "https://seatgeek.com/alex-warren-tickets/north-little-rock-arkansas-simmons-bank-arena-2027-04-06-7-30-pm/concert/18773519",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870957,
@@ -938,14 +946,14 @@
         "event_id": "8369845",
         "url": "https://www.ticketliquidator.com/tickets/8369845/Alex-Warren-tickets-Tue-Apr-6-2027-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369845",
         "url": "https://www.ticketnetwork.com/en/p/8369845",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -998,7 +1006,7 @@
         "event_id": 18773520,
         "url": "https://seatgeek.com/alex-warren-tickets/hollywood-florida-hard-rock-live-hollywood-2027-04-09-7-30-pm/concert/18773520",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1019,21 +1027,21 @@
         "event_id": "8369846",
         "url": "https://www.ticketliquidator.com/tickets/8369846/Alex-Warren-tickets-Fri-Apr-9-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369846",
         "url": "https://www.ticketnetwork.com/en/p/8369846",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681053",
         "url": "https://www.stubhub.ie/alex-warren-hollywood-tickets-4-9-2027/event/107681053",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1084,7 +1092,7 @@
         "event_id": 18773516,
         "url": "https://seatgeek.com/alex-warren-tickets/orlando-florida-kia-center-2027-04-10-7-30-pm/concert/18773516",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1105,21 +1113,21 @@
         "event_id": "8369847",
         "url": "https://www.ticketliquidator.com/tickets/8369847/Alex-Warren-tickets-Sat-Apr-10-2027-Kia-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369847",
         "url": "https://www.ticketnetwork.com/en/p/8369847",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681054",
         "url": "https://www.stubhub.ie/alex-warren-orlando-tickets-4-10-2027/event/107681054",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1173,7 +1181,7 @@
         "event_id": 18773518,
         "url": "https://seatgeek.com/alex-warren-tickets/tampa-florida-benchmark-international-arena-2027-04-12-7-30-pm/concert/18773518",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1194,21 +1202,21 @@
         "event_id": "8369848",
         "url": "https://www.ticketliquidator.com/tickets/8369848/Alex-Warren-tickets-Mon-Apr-12-2027-Benchmark-International-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369848",
         "url": "https://www.ticketnetwork.com/en/p/8369848",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681055",
         "url": "https://www.stubhub.ie/alex-warren-tampa-tickets-4-12-2027/event/107681055",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1262,7 +1270,7 @@
         "event_id": 18773515,
         "url": "https://seatgeek.com/alex-warren-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-04-13-7-30-pm/concert/18773515",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1283,21 +1291,21 @@
         "event_id": "8369849",
         "url": "https://www.ticketliquidator.com/tickets/8369849/Alex-Warren-tickets-Tue-Apr-13-2027-VyStar-Veterans-Memorial-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369849",
         "url": "https://www.ticketnetwork.com/en/p/8369849",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681058",
         "url": "https://www.stubhub.ie/alex-warren-jacksonville-tickets-4-13-2027/event/107681058",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1347,11 +1355,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773526,
+        "url": "https://seatgeek.com/alex-warren-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2027-04-15-7-30-pm/concert/18773526",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870969,
@@ -1371,14 +1379,14 @@
         "event_id": "8369850",
         "url": "https://www.ticketliquidator.com/tickets/8369850/Alex-Warren-tickets-Thu-Apr-15-2027-Thompson-Boling-Arena-at-Food-City-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369850",
         "url": "https://www.ticketnetwork.com/en/p/8369850",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1427,11 +1435,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773527,
+        "url": "https://seatgeek.com/alex-warren-tickets/louisville-kentucky-kfc-yum-center-2027-04-16-7-30-pm/concert/18773527",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870971,
@@ -1451,14 +1459,14 @@
         "event_id": "8369851",
         "url": "https://www.ticketliquidator.com/tickets/8369851/Alex-Warren-tickets-Fri-Apr-16-2027-KFC-Yum-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369851",
         "url": "https://www.ticketnetwork.com/en/p/8369851",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1507,11 +1515,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773530,
+        "url": "https://seatgeek.com/alex-warren-tickets/saint-louis-missouri-enterprise-center-2027-04-18-7-30-pm/concert/18773530",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1526,6 +1534,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369852",
+        "url": "https://www.ticketnetwork.com/en/p/8369852",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369852",
+        "url": "https://www.ticketliquidator.com/tickets/8369852/Alex-Warren-tickets-Sun-Apr-18-2027-Enterprise-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17bZ_pGkm394lJ",
@@ -1542,7 +1564,9 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-04-11T22:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369852",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369852/Alex-Warren-tickets-Sun-Apr-18-2027-Enterprise-Center"
   },
   {
     "id": "tm-alex-warren-2027-sioux-falls-vv17bz_pgknvdnah",
@@ -1596,14 +1620,14 @@
         "event_id": "8369854",
         "url": "https://www.ticketliquidator.com/tickets/8369854/Alex-Warren-tickets-Wed-Apr-21-2027-Denny-Sanford-Premier-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369854",
         "url": "https://www.ticketnetwork.com/en/p/8369854",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1653,11 +1677,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773537,
+        "url": "https://seatgeek.com/alex-warren-tickets/winnipeg-canada-canada-life-centre-2027-04-23-7-30-pm/concert/18773537",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871097,
@@ -1677,14 +1701,14 @@
         "event_id": "8369857",
         "url": "https://www.ticketliquidator.com/tickets/8369857/Alex-Warren-tickets-Fri-Apr-23-2027-Canada-Life-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369857",
         "url": "https://www.ticketnetwork.com/en/p/8369857",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1737,11 +1761,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773541,
+        "url": "https://seatgeek.com/alex-warren-tickets/grand-rapids-michigan-van-andel-arena-2027-04-26-7-30-pm/concert/18773541",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870993,
@@ -1761,14 +1785,14 @@
         "event_id": "8369859",
         "url": "https://www.ticketliquidator.com/tickets/8369859/Alex-Warren-tickets-Mon-Apr-26-2027-Van-Andel-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369859",
         "url": "https://www.ticketnetwork.com/en/p/8369859",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1818,11 +1842,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773543,
+        "url": "https://seatgeek.com/alex-warren-tickets/columbus-ohio-nationwide-arena-2027-04-28-7-30-pm/concert/18773543",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7870997,
@@ -1842,14 +1866,14 @@
         "event_id": "8369861",
         "url": "https://www.ticketliquidator.com/tickets/8369861/Alex-Warren-tickets-Wed-Apr-28-2027-Nationwide-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369861",
         "url": "https://www.ticketnetwork.com/en/p/8369861",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1899,17 +1923,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773542,
+        "url": "https://seatgeek.com/alex-warren-tickets/hamilton-canada-td-coliseum-2027-04-30-7-30-pm/concert/18773542",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871099,
         "url": "https://www.vividseats.com/alex-warren-tickets-hamilton-td-coliseum-4-30-2027--concerts-pop/production/7871099",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1966,11 +1990,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773545,
+        "url": "https://seatgeek.com/alex-warren-tickets/kanata-canada-canadian-tire-centre-2027-05-01-7-30-pm/concert/18773545",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2034,11 +2058,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773549,
+        "url": "https://seatgeek.com/alex-warren-tickets/quebec-canada-videotron-centre-2027-05-02-7-30-pm/concert/18773549",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871107,
@@ -2058,14 +2082,14 @@
         "event_id": "8369867",
         "url": "https://www.ticketliquidator.com/tickets/8369867/Alex-Warren-tickets-Sun-May-2-2027-Centre-Videotron",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369867",
         "url": "https://www.ticketnetwork.com/en/p/8369867",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2116,11 +2140,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773550,
+        "url": "https://seatgeek.com/alex-warren-tickets/albany-new-york-mvp-arena-2027-05-04-7-30-pm/concert/18773550",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871007,
@@ -2140,14 +2164,14 @@
         "event_id": "8369868",
         "url": "https://www.ticketliquidator.com/tickets/8369868/Alex-Warren-tickets-Tue-May-4-2027-MVP-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369868",
         "url": "https://www.ticketnetwork.com/en/p/8369868",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2197,11 +2221,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773552,
+        "url": "https://seatgeek.com/alex-warren-tickets/elmont-new-york-ubs-arena-2027-05-05-7-45-pm/concert/18773552",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871023,
@@ -2216,6 +2240,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369869",
+        "url": "https://www.ticketnetwork.com/en/p/8369869",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369869",
+        "url": "https://www.ticketliquidator.com/tickets/8369869/Alex-Warren-tickets-Wed-May-5-2027-UBS-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681059",
+        "url": "https://www.stubhub.ie/alex-warren-elmont-tickets-5-5-2027/event/107681059",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_pGkmWCbZ2",
@@ -2232,7 +2277,10 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-04-28T21:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369869",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369869/Alex-Warren-tickets-Wed-May-5-2027-UBS-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/alex-warren-elmont-tickets-5-5-2027/event/107681059"
   },
   {
     "id": "tm-alex-warren-2027-baltimore-1avfz_pgkrfpurm",
@@ -2262,11 +2310,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773555,
+        "url": "https://seatgeek.com/alex-warren-tickets/baltimore-maryland-cfg-bank-arena-2027-05-07-7-45-pm/concert/18773555",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871039,
@@ -2286,14 +2334,14 @@
         "event_id": "8369870",
         "url": "https://www.ticketliquidator.com/tickets/8369870/Alex-Warren-tickets-Fri-May-7-2027-CFG-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369870",
         "url": "https://www.ticketnetwork.com/en/p/8369870",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2343,11 +2391,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773556,
+        "url": "https://seatgeek.com/alex-warren-tickets/uncasville-connecticut-mohegan-sun-arena-2027-05-08-7-30-pm/concert/18773556",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871059,
@@ -2367,14 +2415,14 @@
         "event_id": "8369871",
         "url": "https://www.ticketliquidator.com/tickets/8369871/Alex-Warren-tickets-Sat-May-8-2027-Mohegan-Sun-Arena-CT",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369871",
         "url": "https://www.ticketnetwork.com/en/p/8369871",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2421,11 +2469,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773557,
+        "url": "https://seatgeek.com/alex-warren-tickets/raleigh-north-carolina-coastal-credit-union-music-park-at-walnut-creek-2027-05-11-7-40-pm/concert/18773557",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871075,
@@ -2445,14 +2493,14 @@
         "event_id": "8369872",
         "url": "https://www.ticketliquidator.com/tickets/8369872/Alex-Warren-tickets-Tue-May-11-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369872",
         "url": "https://www.ticketnetwork.com/en/p/8369872",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2502,11 +2550,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773559,
+        "url": "https://seatgeek.com/alex-warren-tickets/charleston-south-carolina-credit-one-stadium-2027-05-12-7-30-pm/concert/18773559",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871087,
@@ -2526,14 +2574,14 @@
         "event_id": "8369873",
         "url": "https://www.ticketliquidator.com/tickets/8369873/Alex-Warren-tickets-Wed-May-12-2027-Credit-One-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369873",
         "url": "https://www.ticketnetwork.com/en/p/8369873",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2582,11 +2630,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773562,
+        "url": "https://seatgeek.com/alex-warren-tickets/noblesville-indiana-ruoff-music-center-2027-05-14-7-30-pm/concert/18773562",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871089,
@@ -2606,14 +2654,14 @@
         "event_id": "8369874",
         "url": "https://www.ticketliquidator.com/tickets/8369874/Alex-Warren-tickets-Fri-May-14-2027-Ruoff-Music-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369874",
         "url": "https://www.ticketnetwork.com/en/p/8369874",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2662,11 +2710,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18773565,
+        "url": "https://seatgeek.com/alex-warren-tickets/birmingham-alabama-coca-cola-amphitheater-2027-05-16-7-30-pm/concert/18773565",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7871093,
@@ -2686,14 +2734,14 @@
         "event_id": "8369875",
         "url": "https://www.ticketliquidator.com/tickets/8369875/Alex-Warren-tickets-Sun-May-16-2027-Coca-Cola-Amphitheater-at-the-BJCC",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8369875",
         "url": "https://www.ticketnetwork.com/en/p/8369875",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2767,7 +2815,14 @@
         "event_id": "8369853",
         "url": "https://www.ticketliquidator.com/tickets/8369853/Alex-Warren-tickets-Tue-Apr-20-2027-Caseys-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369853",
+        "url": "https://www.ticketnetwork.com/en/p/8369853",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2778,7 +2833,8 @@
       "LIVE NATION MUSIC"
     ],
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369853/Alex-Warren-tickets-Tue-Apr-20-2027-Caseys-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369853/Alex-Warren-tickets-Tue-Apr-20-2027-Caseys-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369853"
   },
   {
     "id": "tm-alex-warren-2027-madison-z7r9jz1aaaoaw",
@@ -2832,7 +2888,14 @@
         "event_id": "8369858",
         "url": "https://www.ticketliquidator.com/tickets/8369858/Alex-Warren-tickets-Sun-Apr-25-2027-Kohl-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369858",
+        "url": "https://www.ticketnetwork.com/en/p/8369858",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2843,7 +2906,8 @@
       "LIVE NATION MUSIC"
     ],
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369858/Alex-Warren-tickets-Sun-Apr-25-2027-Kohl-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369858/Alex-Warren-tickets-Sun-Apr-25-2027-Kohl-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369858"
   },
   {
     "id": "tm-alex-warren-2027-rho-zg9rmiynyzae7k",

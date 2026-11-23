@@ -10,7 +10,7 @@ let fallbackCatalog = { artists: [], tours: [], providers: [], ticket_links: [] 
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare resale ticket prices for your show, site by site.";
 const HOME_SUBCOPY =
-  "Pick an artist and date to see each ticket site's listed price where available and when it was checked. Confirm the total on the ticket site.";
+  "Pick an artist and date for each site's listed price where available and when it was checked. Confirm the total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
@@ -2125,7 +2125,6 @@ function displayCountry(value) {
 const PRICE_DISCLOSURE =
   "Starting prices are recorded separately from each ticket site, in its source currency. Seats, ticket quantities and included fees may differ, so these are not like-for-like totals. Check the full order total, delivery and terms on the ticket site.";
 const PRICE_SUMMARY = "Starting prices only. Seats and fees vary, and your final total is set at checkout on the ticket site.";
-const CARD_PRICE_TAIL = "not the final total";
 const PRICE_UNAVAILABLE_NOTE = "No listed price yet.";
 const PRICE_HISTORY_LABEL = "Show price history";
 const LAST_SEEN_MAX_DAYS = 7;
@@ -2222,7 +2221,6 @@ function renderShowCardPriceNotes(ctaSpecs, pricesChecked = false, show = null) 
     if (index) note.append(index === priced.length - 1 ? " and " : ", ");
     note.append(timeFor(spec), ` (${spec.name})`);
   });
-  note.append(` · ${CARD_PRICE_TAIL}`);
   wrap.append(note);
   if (["GB", "GBR", "United Kingdom"].includes(displayCountry(show?.country)) && priced.some((spec) => spec.lane?.currency !== "GBP")) {
     text(wrap, "p", "This UK event has prices in a foreign currency. Figures are shown as supplied; your bank or seller may charge for conversion.", "disclosure-note currency-note");
@@ -2421,10 +2419,6 @@ function renderPriceHistoryContent(panel, wrap, data) {
   if (interest) panel.append(interest);
 }
 
-// One compact line above a card's provider buttons, only when at least one
-// button shows a price, saying what that number is. No site count: the buttons
-// are the count. Keep in sync with ctaCountLabel in functions/[[path]].js.
-// `priced` is how many of the buttons show a price.
 // Names the lowest of two or more fresh listed prices on a card (owner-approved
 // 2026-11-16). One currency only; no reordering. Keep in sync with
 // lowestListedSpec in functions/[[path]].js.
@@ -2433,11 +2427,6 @@ function lowestListedSpec(ctaSpecs) {
   if (priced.length < 2) return null;
   if (new Set(priced.map((spec) => String(spec.lane.currency || "").toUpperCase())).size !== 1) return null;
   return priced.reduce((low, spec) => (spec.lane.price < low.lane.price ? spec : low));
-}
-
-function showCtaCountLabel(count, priced = 0) {
-  if (count < 1 || !priced) return "";
-  return priced === 1 ? "Provider starting price" : "Separate provider starting prices";
 }
 
 // "Check prices" buttons offered on a date with no matched link on that
@@ -2592,10 +2581,8 @@ function renderShowCard(show, options = {}) {
       // line states how many checked ticket sites this date leads to; "compare"
       // is only used for two or more, because one site is not a comparison.
       // Keep in sync with ctaCountLabel in functions/[[path]].js.
-      const countLabel = showCtaCountLabel(ctaSpecs.length, ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf).length);
-      if (countLabel) text(body, "p", countLabel, "provider-cta-count muted");
       const lowest = lowestListedSpec(ctaSpecs);
-      if (countLabel && lowest) {
+      if (lowest) {
         const lowLine = document.createElement("p");
         lowLine.className = "provider-cta-lowest";
         const lowStrong = document.createElement("strong");

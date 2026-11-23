@@ -4012,6 +4012,48 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-hannah-harper",
     redirectUrl: "https://seatgeek.com/hannah-harper-tickets",
     verified: true
+  },
+  "tori-kelly:ticketmaster": {
+    artistSlug: "tori-kelly",
+    provider: "ticketmaster",
+    linkId: "tm-artist-tori-kelly",
+    redirectUrl: "https://www.ticketmaster.com/tori-kelly-tickets/artist/1780311",
+    verified: true
+  },
+  "tori-kelly:seatgeek": {
+    artistSlug: "tori-kelly",
+    provider: "seatgeek",
+    linkId: "sg-artist-tori-kelly",
+    redirectUrl: "https://seatgeek.com/tori-kelly-tickets",
+    verified: true
+  },
+  "chris-tomlin:ticketmaster": {
+    artistSlug: "chris-tomlin",
+    provider: "ticketmaster",
+    linkId: "tm-artist-chris-tomlin",
+    redirectUrl: "https://www.ticketmaster.com/chris-tomlin-tickets/artist/982298",
+    verified: true
+  },
+  "chris-tomlin:seatgeek": {
+    artistSlug: "chris-tomlin",
+    provider: "seatgeek",
+    linkId: "sg-artist-chris-tomlin",
+    redirectUrl: "https://seatgeek.com/chris-tomlin-tickets",
+    verified: true
+  },
+  "rascal-flatts:ticketmaster": {
+    artistSlug: "rascal-flatts",
+    provider: "ticketmaster",
+    linkId: "tm-artist-rascal-flatts",
+    redirectUrl: "https://www.ticketmaster.com/rascal-flatts-tickets/artist/806203",
+    verified: true
+  },
+  "rascal-flatts:seatgeek": {
+    artistSlug: "rascal-flatts",
+    provider: "seatgeek",
+    linkId: "sg-artist-rascal-flatts",
+    redirectUrl: "https://seatgeek.com/rascal-flatts-tickets",
+    verified: true
   }
 };
 

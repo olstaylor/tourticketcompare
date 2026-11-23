@@ -51,14 +51,14 @@
         "event_id": "8277969",
         "url": "https://www.ticketnetwork.com/en/p/8277969",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277969",
         "url": "https://www.ticketliquidator.com/tickets/8277969/Atmosphere-tickets-Fri-Jan-15-2027-The-Sylvee-WI",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -126,14 +126,14 @@
         "event_id": "8277970",
         "url": "https://www.ticketnetwork.com/en/p/8277970",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277970",
         "url": "https://www.ticketliquidator.com/tickets/8277970/Atmosphere-tickets-Fri-Jan-22-2027-Knitting-Factory-Concert-House-Boise",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -197,14 +197,14 @@
         "event_id": "8277971",
         "url": "https://www.ticketnetwork.com/en/p/8277971",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277971",
         "url": "https://www.ticketliquidator.com/tickets/8277971/Atmosphere-tickets-Sat-Jan-23-2027-The-Elm-Bozeman",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -271,14 +271,14 @@
         "event_id": "8277972",
         "url": "https://www.ticketnetwork.com/en/p/8277972",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277972",
         "url": "https://www.ticketliquidator.com/tickets/8277972/Atmosphere-tickets-Sun-Jan-24-2027-Knitting-Factory-Spokane",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -341,14 +341,14 @@
         "event_id": "8277978",
         "url": "https://www.ticketnetwork.com/en/p/8277978",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277978",
         "url": "https://www.ticketliquidator.com/tickets/8277978/Atmosphere-tickets-Tue-Jan-26-2027-Commodore-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -419,14 +419,14 @@
         "event_id": "8277983",
         "url": "https://www.ticketnetwork.com/en/p/8277983",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277983",
         "url": "https://www.ticketliquidator.com/tickets/8277983/Atmosphere-tickets-Thu-Jan-28-2027-McDonald-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -484,12 +484,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277973",
+        "url": "https://www.ticketnetwork.com/en/p/8277973",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277973",
+        "url": "https://www.ticketliquidator.com/tickets/8277973/Atmosphere-tickets-Fri-Jan-29-2027-Grand-Sierra-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfwGkddBJmF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277973",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277973/Atmosphere-tickets-Fri-Jan-29-2027-Grand-Sierra-Theatre"
   },
   {
     "id": "tm-atmosphere-2027-tucson-1kk8vpgiga2ka3q",
@@ -543,14 +559,14 @@
         "event_id": "8277974",
         "url": "https://www.ticketnetwork.com/en/p/8277974",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277974",
         "url": "https://www.ticketliquidator.com/tickets/8277974/Atmosphere-tickets-Mon-Feb-1-2027-Rialto-Theatre-Tucson",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -614,7 +630,14 @@
         "event_id": "8277975",
         "url": "https://www.ticketnetwork.com/en/p/8277975",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277975",
+        "url": "https://www.ticketliquidator.com/tickets/8277975/Atmosphere-tickets-Thu-Feb-4-2027-VooDoo-Lounge-At-Harrahs-Kansas-City",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -623,7 +646,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277975",
     "ticket_limit": 8,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277975/Atmosphere-tickets-Thu-Feb-4-2027-VooDoo-Lounge-At-Harrahs-Kansas-City"
   },
   {
     "id": "tm-atmosphere-2027-joliet-vv17jz_3gknvxst7",
@@ -672,13 +696,29 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277976",
+        "url": "https://www.ticketnetwork.com/en/p/8277976",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277976",
+        "url": "https://www.ticketliquidator.com/tickets/8277976/Atmosphere-tickets-Fri-Feb-5-2027-Hollywood-Casino-IL",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_3GknvXsT7",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277976",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277976/Atmosphere-tickets-Fri-Feb-5-2027-Hollywood-Casino-IL"
   },
   {
     "id": "tm-atmosphere-2027-rockford-1ae7z_3gkl5agu0",
@@ -732,14 +772,14 @@
         "event_id": "8277977",
         "url": "https://www.ticketnetwork.com/en/p/8277977",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277977",
         "url": "https://www.ticketliquidator.com/tickets/8277977/Atmosphere-tickets-Sat-Feb-6-2027-Hard-Rock-Live-Rockford",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -804,14 +844,14 @@
         "event_id": "8277984",
         "url": "https://www.ticketliquidator.com/tickets/8277984/Atmosphere-tickets-Sat-Jan-30-2027-The-Depot-Salt-Lake-City",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8277984",
         "url": "https://www.ticketnetwork.com/en/p/8277984",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -878,14 +918,14 @@
         "event_id": "8277979",
         "url": "https://www.ticketnetwork.com/en/p/8277979",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277979",
         "url": "https://www.ticketliquidator.com/tickets/8277979/Atmosphere-tickets-Thu-Jan-14-2027-EPIC-Event-Center-WI",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -948,14 +988,14 @@
         "event_id": "8277957",
         "url": "https://www.ticketnetwork.com/en/p/8277957",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277957",
         "url": "https://www.ticketliquidator.com/tickets/8277957/Atmosphere-tickets-Sat-Jan-16-2027-Val-Air-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1013,12 +1053,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277980",
+        "url": "https://www.ticketnetwork.com/en/p/8277980",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277980",
+        "url": "https://www.ticketliquidator.com/tickets/8277980/Atmosphere-tickets-Sun-Jan-17-2027-The-Admiral-Omaha",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ39",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277980",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277980/Atmosphere-tickets-Sun-Jan-17-2027-The-Admiral-Omaha"
   },
   {
     "id": "tm-atmosphere-2027-fort-collins-z7r9jz1aaezpv",
@@ -1067,12 +1123,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277981",
+        "url": "https://www.ticketnetwork.com/en/p/8277981",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277981",
+        "url": "https://www.ticketliquidator.com/tickets/8277981/Atmosphere-tickets-Tue-Jan-19-2027-Aggie-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZPv",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277981",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277981/Atmosphere-tickets-Tue-Jan-19-2027-Aggie-Theatre"
   },
   {
     "id": "tm-atmosphere-2027-grand-junction-z7r9jz1aaezfe",
@@ -1086,7 +1158,7 @@
     "tour_name": "The Winter Carnival Tour 2027",
     "ticketmaster_event_id": "Z7r9jZ1AAeZfe",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
-    "seatgeek_url": "https://seatgeek.com/atmosphere-tickets/grand-junction-colorado-mesa-theater-2027-01-20-7-pm/concert/18609076",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeZfe",
@@ -1180,14 +1252,14 @@
         "event_id": "8277958",
         "url": "https://www.ticketnetwork.com/en/p/8277958",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8277958",
         "url": "https://www.ticketliquidator.com/tickets/8277958/Atmosphere-tickets-Sun-Feb-7-2027-First-Avenue",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

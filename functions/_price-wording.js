@@ -15,7 +15,7 @@
 //     engines may quote (leads, FAQ answers) uses the absolute time instead,
 //     because a relative age goes stale in a cached copy.
 //   - The full caveat is said once per page, in PRICE_DISCLOSURE at the top of
-//     the board; each card carries only "Checked <age> · not the final total".
+//     the board; each card carries only "Checked <age>".
 //
 // public/app.js is a classic script and cannot import this module, so it
 // mirrors these strings; scripts/price-wording.test.mjs fails if they drift.
@@ -29,9 +29,6 @@ export const PRICE_DISCLOSURE =
  *  SeatPick audit: fee surprises are the top complaint about rival sites). */
 export const PRICE_SUMMARY = "Starting prices only. Seats and fees vary, and your final total is set at checkout on the ticket site.";
 
-/** The short tail on each priced card, after "Checked <age>". */
-export const CARD_PRICE_TAIL = "not the final total";
-
 /** How this site makes money, stated the same way wherever ticket buttons show. */
 export const MONEY_DISCLOSURE =
   "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical or reverse-alphabetical order, which varies by date. Commission does not determine the order.";
@@ -41,12 +38,6 @@ export const NO_PRICE_NOTE = "No listed price yet.";
 
 /** The toggle that opens a card's recorded price history. */
 export const PRICE_HISTORY_LABEL = "Show price history";
-
-/** The label above a card's provider buttons when at least one shows a price. */
-export function lowestPriceLabel(pricedCount) {
-  if (!pricedCount) return "";
-  return pricedCount === 1 ? "Provider starting price" : "Separate provider starting prices";
-}
 
 // "Cheapest" (owner decision, 2026-10-17: the old blanket ban is lifted;
 // 2026-10-30: "lowest price", "best price" and "best deal" are allowed on the

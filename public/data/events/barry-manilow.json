@@ -408,6 +408,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275346",
+        "url": "https://www.ticketnetwork.com/en/p/7275346",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275346",
+        "url": "https://www.ticketliquidator.com/tickets/7275346/Barry-Manilow-tickets-Thu-Dec-3-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106928360",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-3-2026/event/106928360",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW_pus",
@@ -421,7 +442,10 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275346",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275346/Barry-Manilow-tickets-Thu-Dec-3-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-3-2026/event/106928360"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwqkuv",
@@ -470,13 +494,37 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275347",
+        "url": "https://www.ticketnetwork.com/en/p/7275347",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275347",
+        "url": "https://www.ticketliquidator.com/tickets/7275347/Barry-Manilow-tickets-Fri-Dec-4-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106928361",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-4-2026/event/106928361",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWQkuV",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275347",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275347/Barry-Manilow-tickets-Fri-Dec-4-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-4-2026/event/106928361"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwqjuu",
@@ -525,6 +573,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275348",
+        "url": "https://www.ticketnetwork.com/en/p/7275348",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275348",
+        "url": "https://www.ticketliquidator.com/tickets/7275348/Barry-Manilow-tickets-Sat-Dec-5-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106928362",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-5-2026/event/106928362",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWQJuU",
@@ -538,7 +607,10 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275348",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275348/Barry-Manilow-tickets-Sat-Dec-5-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-5-2026/event/106928362"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwhpuz",
@@ -587,6 +659,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275350",
+        "url": "https://www.ticketnetwork.com/en/p/7275350",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275350",
+        "url": "https://www.ticketliquidator.com/tickets/7275350/Barry-Manilow-tickets-Thu-Dec-10-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106928363",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-10-2026/event/106928363",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWhpuz",
@@ -600,7 +693,10 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275350",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275350/Barry-Manilow-tickets-Thu-Dec-10-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-10-2026/event/106928363"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwhuub",
@@ -649,6 +745,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275351",
+        "url": "https://www.ticketnetwork.com/en/p/7275351",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275351",
+        "url": "https://www.ticketliquidator.com/tickets/7275351/Barry-Manilow-tickets-Fri-Dec-11-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106928364",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-11-2026/event/106928364",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWhUuB",
@@ -662,7 +779,10 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275351",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275351/Barry-Manilow-tickets-Fri-Dec-11-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-11-2026/event/106928364"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwjjc1",
@@ -711,6 +831,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275352",
+        "url": "https://www.ticketnetwork.com/en/p/7275352",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275352",
+        "url": "https://www.ticketliquidator.com/tickets/7275352/Barry-Manilow-tickets-Sat-Dec-12-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106928365",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-12-2026/event/106928365",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWjJC1",
@@ -724,7 +865,10 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275352",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275352/Barry-Manilow-tickets-Sat-Dec-12-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-12-12-2026/event/106928365"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwqpcc",
@@ -773,6 +917,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275353",
+        "url": "https://www.ticketnetwork.com/en/p/7275353",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275353",
+        "url": "https://www.ticketliquidator.com/tickets/7275353/Barry-Manilow-tickets-Thu-Dec-17-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWqpCC",
@@ -787,7 +945,9 @@
     ],
     "ticket_limit": 8,
     "genre": "Pop",
-    "ticketmaster_status_code": "cancelled"
+    "ticketmaster_status_code": "cancelled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275353",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275353/Barry-Manilow-tickets-Thu-Dec-17-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwrkco",
@@ -836,6 +996,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275354",
+        "url": "https://www.ticketnetwork.com/en/p/7275354",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275354",
+        "url": "https://www.ticketliquidator.com/tickets/7275354/Barry-Manilow-tickets-Fri-Dec-18-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWrkCo",
@@ -850,7 +1024,9 @@
     ],
     "ticket_limit": 8,
     "genre": "Pop",
-    "ticketmaster_status_code": "cancelled"
+    "ticketmaster_status_code": "cancelled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275354",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275354/Barry-Manilow-tickets-Fri-Dec-18-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino"
   },
   {
     "id": "tm-barry-manilow-2026-las-vegas-17ayvxg62dwlkck",
@@ -899,6 +1075,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275355",
+        "url": "https://www.ticketnetwork.com/en/p/7275355",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275355",
+        "url": "https://www.ticketliquidator.com/tickets/7275355/Barry-Manilow-tickets-Sat-Dec-19-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWLkCK",
@@ -913,7 +1103,9 @@
     ],
     "ticket_limit": 8,
     "genre": "Pop",
-    "ticketmaster_status_code": "cancelled"
+    "ticketmaster_status_code": "cancelled",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275355",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275355/Barry-Manilow-tickets-Sat-Dec-19-2026-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino"
   },
   {
     "id": "tm-barry-manilow-2027-sunrise-z7r9jz1a7ji0e",
@@ -967,21 +1159,21 @@
         "event_id": "7425008",
         "url": "https://www.ticketnetwork.com/en/p/7425008",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7425008",
         "url": "https://www.ticketliquidator.com/tickets/7425008/Barry-Manilow-tickets-Fri-Jan-15-2027-Amerant-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107189127",
         "url": "https://www.stubhub.ie/barry-manilow-sunrise-tickets-1-15-2027/event/107189127",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1022,11 +1214,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17748832,
+        "url": "https://seatgeek.com/barry-manilow-tickets/estero-florida-hertz-arena-2027-01-16-7-pm/concert/17748832",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1046,14 +1238,14 @@
         "event_id": "7425011",
         "url": "https://www.ticketnetwork.com/en/p/7425011",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7425011",
         "url": "https://www.ticketliquidator.com/tickets/7425011/Barry-Manilow-tickets-Sat-Jan-16-2027-Hertz-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1093,11 +1285,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 17748833,
+        "url": "https://seatgeek.com/barry-manilow-tickets/estero-florida-hertz-arena-2027-01-17-7-pm/concert/17748833",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1117,14 +1309,14 @@
         "event_id": "7425012",
         "url": "https://www.ticketnetwork.com/en/p/7425012",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7425012",
         "url": "https://www.ticketliquidator.com/tickets/7425012/Barry-Manilow-tickets-Sun-Jan-17-2027-Hertz-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1188,21 +1380,21 @@
         "event_id": "7425010",
         "url": "https://www.ticketnetwork.com/en/p/7425010",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7425010",
         "url": "https://www.ticketliquidator.com/tickets/7425010/Barry-Manilow-tickets-Wed-Jan-20-2027-Benchmark-International-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107185225",
         "url": "https://www.stubhub.ie/barry-manilow-tampa-tickets-1-20-2027/event/107185225",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1271,21 +1463,21 @@
         "event_id": "7425009",
         "url": "https://www.ticketnetwork.com/en/p/7425009",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7425009",
         "url": "https://www.ticketliquidator.com/tickets/7425009/Barry-Manilow-tickets-Thu-Jan-21-2027-Kia-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107189128",
         "url": "https://www.stubhub.ie/barry-manilow-orlando-tickets-1-21-2027/event/107189128",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1356,6 +1548,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266249",
+        "url": "https://www.ticketnetwork.com/en/p/8266249",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266249",
+        "url": "https://www.ticketliquidator.com/tickets/8266249/Barry-Manilow-tickets-Thu-Feb-18-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668646",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-18-2027/event/107668646",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW5kGq",
@@ -1363,7 +1576,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266249",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266249/Barry-Manilow-tickets-Thu-Feb-18-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-18-2027/event/107668646"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw5ugn",
@@ -1412,6 +1628,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266250",
+        "url": "https://www.ticketnetwork.com/en/p/8266250",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266250",
+        "url": "https://www.ticketliquidator.com/tickets/8266250/Barry-Manilow-tickets-Fri-Feb-19-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669464",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-19-2027/event/107669464",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW5UGn",
@@ -1419,7 +1656,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266250",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266250/Barry-Manilow-tickets-Fri-Feb-19-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-19-2027/event/107669464"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwupgi",
@@ -1468,6 +1708,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275329",
+        "url": "https://www.ticketnetwork.com/en/p/7275329",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275329",
+        "url": "https://www.ticketliquidator.com/tickets/7275329/Barry-Manilow-tickets-Sat-Feb-20-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWupGi",
@@ -1475,7 +1729,9 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275329",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275329/Barry-Manilow-tickets-Sat-Feb-20-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwuugv",
@@ -1524,6 +1780,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266251",
+        "url": "https://www.ticketnetwork.com/en/p/8266251",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266251",
+        "url": "https://www.ticketliquidator.com/tickets/8266251/Barry-Manilow-tickets-Thu-Feb-25-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668648",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-25-2027/event/107668648",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWuUGV",
@@ -1531,7 +1808,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266251",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266251/Barry-Manilow-tickets-Thu-Feb-25-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-25-2027/event/107668648"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwcjgy",
@@ -1580,6 +1860,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266252",
+        "url": "https://www.ticketnetwork.com/en/p/8266252",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266252",
+        "url": "https://www.ticketliquidator.com/tickets/8266252/Barry-Manilow-tickets-Fri-Feb-26-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668649",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-26-2027/event/107668649",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWCJGy",
@@ -1587,7 +1888,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266252",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266252/Barry-Manilow-tickets-Fri-Feb-26-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-26-2027/event/107668649"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw2kgd",
@@ -1636,6 +1940,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275332",
+        "url": "https://www.ticketnetwork.com/en/p/7275332",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275332",
+        "url": "https://www.ticketliquidator.com/tickets/7275332/Barry-Manilow-tickets-Sat-Feb-27-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106928299",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-27-2027/event/106928299",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW2kGD",
@@ -1643,7 +1968,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275332",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275332/Barry-Manilow-tickets-Sat-Feb-27-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-2-27-2027/event/106928299"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw2ugw",
@@ -1676,7 +2004,7 @@
         "event_id": 17637123,
         "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-25-7-pm/concert/17637123",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1692,6 +2020,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7275333",
+        "url": "https://www.ticketnetwork.com/en/p/7275333",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7275333",
+        "url": "https://www.ticketliquidator.com/tickets/7275333/Barry-Manilow-tickets-Thu-Mar-25-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106929280",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-3-25-2027/event/106929280",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW2UGW",
@@ -1699,7 +2048,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7275333",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7275333/Barry-Manilow-tickets-Thu-Mar-25-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-3-25-2027/event/106929280"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dw8pgt",
@@ -1732,7 +2084,7 @@
         "event_id": 17637124,
         "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-26-8-pm/concert/17637124",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1748,6 +2100,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266256",
+        "url": "https://www.ticketnetwork.com/en/p/8266256",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266256",
+        "url": "https://www.ticketliquidator.com/tickets/8266256/Barry-Manilow-tickets-Fri-Mar-26-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669474",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-3-26-2027/event/107669474",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dW8pGT",
@@ -1755,7 +2128,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266256",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266256/Barry-Manilow-tickets-Fri-Mar-26-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-3-26-2027/event/107669474"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-17ayvxg62dwokuv",
@@ -1788,7 +2164,7 @@
         "event_id": 17637125,
         "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-03-27-7-pm/concert/17637125",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1804,6 +2180,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266255",
+        "url": "https://www.ticketnetwork.com/en/p/8266255",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266255",
+        "url": "https://www.ticketliquidator.com/tickets/8266255/Barry-Manilow-tickets-Sat-Mar-27-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "106928301",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-3-27-2027/event/106928301",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYvxG62dWokuv",
@@ -1811,7 +2208,10 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266255",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266255/Barry-Manilow-tickets-Sat-Mar-27-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-3-27-2027/event/106928301"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-1avjz_3gkroi64s",
@@ -1844,7 +2244,7 @@
         "event_id": 18590289,
         "url": "https://seatgeek.com/barry-manilow-tickets/las-vegas-nevada-westgate-las-vegas-resort-casino-2027-04-01-7-pm/concert/18590289",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1860,13 +2260,37 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266257",
+        "url": "https://www.ticketnetwork.com/en/p/8266257",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266257",
+        "url": "https://www.ticketliquidator.com/tickets/8266257/Barry-Manilow-tickets-Thu-Apr-1-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669475",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-4-1-2027/event/107669475",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_3GkRoi64s",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266257",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266257/Barry-Manilow-tickets-Thu-Apr-1-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-4-1-2027/event/107669475"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-1avjz_3gkrocmpa",
@@ -1915,13 +2339,37 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266259",
+        "url": "https://www.ticketnetwork.com/en/p/8266259",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266259",
+        "url": "https://www.ticketliquidator.com/tickets/8266259/Barry-Manilow-tickets-Fri-Apr-2-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668938",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-4-2-2027/event/107668938",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_3GkRocMpA",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266259",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266259/Barry-Manilow-tickets-Fri-Apr-2-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-4-2-2027/event/107668938"
   },
   {
     "id": "tm-barry-manilow-2027-las-vegas-1avjz_3gkrorept",
@@ -1970,12 +2418,36 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266258",
+        "url": "https://www.ticketnetwork.com/en/p/8266258",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8266258",
+        "url": "https://www.ticketliquidator.com/tickets/8266258/Barry-Manilow-tickets-Sat-Apr-3-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668653",
+        "url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-4-3-2027/event/107668653",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_3GkRoREpT",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266258",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266258/Barry-Manilow-tickets-Sat-Apr-3-2027-International-Westgate-Theater-At-Westgate-Las-Vegas-Resort-Casino",
+    "stubhub_international_url": "https://www.stubhub.ie/barry-manilow-las-vegas-tickets-4-3-2027/event/107668653"
   }
 ]

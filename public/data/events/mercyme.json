@@ -629,6 +629,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326553",
+        "url": "https://www.ticketnetwork.com/en/p/8326553",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326553",
+        "url": "https://www.ticketliquidator.com/tickets/8326553/MercyMe-tickets-Thu-Mar-11-2027-Berglund-Center-Coliseum",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4aGkdxzMI2",
@@ -637,7 +651,9 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326553",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326553/MercyMe-tickets-Thu-Mar-11-2027-Berglund-Center-Coliseum"
   },
   {
     "id": "tm-mercyme-2027-huntington-1avbz_fgkbqrak8",
@@ -686,6 +702,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326554",
+        "url": "https://www.ticketnetwork.com/en/p/8326554",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326554",
+        "url": "https://www.ticketliquidator.com/tickets/8326554/MercyMe-tickets-Fri-Mar-12-2027-Marshall-Health-Network-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_fGkBQrAK8",
@@ -702,7 +732,9 @@
         "end": "2027-03-13T02:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326554",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326554/MercyMe-tickets-Fri-Mar-12-2027-Marshall-Health-Network-Arena"
   },
   {
     "id": "tm-mercyme-2027-highland-heights-1avbz_fgkwx5pep",
@@ -732,11 +764,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18692229,
+        "url": "https://seatgeek.com/mercyme-tickets/highland-heights-kentucky-truist-arena-2027-03-14-7-pm/concert/18692229",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -756,14 +788,14 @@
         "event_id": "8326555",
         "url": "https://www.ticketnetwork.com/en/p/8326555",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326555",
         "url": "https://www.ticketliquidator.com/tickets/8326555/MercyMe-tickets-Sun-Mar-14-2027-Truist-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -808,7 +840,7 @@
         "event_id": 18692228,
         "url": "https://seatgeek.com/mercyme-tickets/florence-south-carolina-florence-center-2027-03-18-7-pm/concert/18692228",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -824,6 +856,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326559",
+        "url": "https://www.ticketnetwork.com/en/p/8326559",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326559",
+        "url": "https://www.ticketliquidator.com/tickets/8326559/MercyMe-tickets-Thu-Mar-18-2027-Florence-Civic-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_fMI8uks",
@@ -839,7 +885,9 @@
         "end": "2027-03-19T00:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326559",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326559/MercyMe-tickets-Thu-Mar-18-2027-Florence-Civic-Center"
   },
   {
     "id": "tm-mercyme-2027-macon-vvg1zz_fsveixl",
@@ -872,7 +920,7 @@
         "event_id": 18692238,
         "url": "https://seatgeek.com/mercyme-tickets/macon-georgia-atrium-health-amphitheater-2027-03-20-7-pm/concert/18692238",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -893,14 +941,14 @@
         "event_id": "8326560",
         "url": "https://www.ticketnetwork.com/en/p/8326560",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326560",
         "url": "https://www.ticketliquidator.com/tickets/8326560/MercyMe-tickets-Sat-Mar-20-2027-Atrium-Health-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -945,7 +993,7 @@
         "event_id": 18692239,
         "url": "https://seatgeek.com/mercyme-tickets/huntsville-alabama-propst-arena-at-the-von-braun-center-2027-03-21-7-pm/concert/18692239",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -961,6 +1009,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326561",
+        "url": "https://www.ticketnetwork.com/en/p/8326561",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326561",
+        "url": "https://www.ticketliquidator.com/tickets/8326561/MercyMe-tickets-Sun-Mar-21-2027-Propst-Arena-At-the-Von-Braun-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_fGkSvHPlo",
@@ -969,7 +1031,9 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326561",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326561/MercyMe-tickets-Sun-Mar-21-2027-Propst-Arena-At-the-Von-Braun-Center"
   },
   {
     "id": "tm-mercyme-2027-pensacola-g5viz_fuwn07x",
@@ -1002,7 +1066,7 @@
         "event_id": 18692241,
         "url": "https://seatgeek.com/mercyme-tickets/pensacola-florida-pensacola-bay-center-2027-03-24-7-pm/concert/18692241",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1023,14 +1087,14 @@
         "event_id": "8326562",
         "url": "https://www.ticketnetwork.com/en/p/8326562",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326562",
         "url": "https://www.ticketliquidator.com/tickets/8326562/MercyMe-tickets-Wed-Mar-24-2027-Pensacola-Bay-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1075,7 +1139,7 @@
         "event_id": 18692243,
         "url": "https://seatgeek.com/mercyme-tickets/orlando-florida-addition-financial-arena-2027-03-25-7-pm/concert/18692243",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1096,14 +1160,14 @@
         "event_id": "8326563",
         "url": "https://www.ticketnetwork.com/en/p/8326563",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326563",
         "url": "https://www.ticketliquidator.com/tickets/8326563/MercyMe-tickets-Thu-Mar-25-2027-Addition-Financial-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1145,11 +1209,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18692246,
+        "url": "https://seatgeek.com/mercyme-tickets/tallahassee-florida-donald-l-tucker-civic-center-2027-03-26-7-pm/concert/18692246",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1169,14 +1233,14 @@
         "event_id": "7965199",
         "url": "https://www.ticketnetwork.com/en/p/7965199",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7965199",
         "url": "https://www.ticketliquidator.com/tickets/7965199/MercyMe-tickets-Fri-Mar-26-2027-Donald-L-Tucker-Civic-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1226,7 +1290,7 @@
         "event_id": 18692247,
         "url": "https://seatgeek.com/mercyme-tickets/fayetteville-north-carolina-crown-coliseum-crown-complex-2027-04-01-7-pm/concert/18692247",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1247,14 +1311,14 @@
         "event_id": "8326565",
         "url": "https://www.ticketnetwork.com/en/p/8326565",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326565",
         "url": "https://www.ticketliquidator.com/tickets/8326565/MercyMe-tickets-Thu-Apr-1-2027-Crown-Coliseum-The-Crown-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1320,14 +1384,14 @@
         "event_id": "8326566",
         "url": "https://www.ticketnetwork.com/en/p/8326566",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326566",
         "url": "https://www.ticketliquidator.com/tickets/8326566/MercyMe-tickets-Sun-Apr-4-2027-Santander-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1400,14 +1464,14 @@
         "event_id": "8326567",
         "url": "https://www.ticketnetwork.com/en/p/8326567",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326567",
         "url": "https://www.ticketliquidator.com/tickets/8326567/MercyMe-tickets-Thu-Apr-8-2027-Cross-Insurance-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1473,14 +1537,14 @@
         "event_id": "8326568",
         "url": "https://www.ticketnetwork.com/en/p/8326568",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326568",
         "url": "https://www.ticketliquidator.com/tickets/8326568/MercyMe-tickets-Sat-Apr-10-2027-Cure-Insurance-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1546,14 +1610,14 @@
         "event_id": "8330257",
         "url": "https://www.ticketnetwork.com/en/p/8330257",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8330257",
         "url": "https://www.ticketliquidator.com/tickets/8330257/MercyMe-tickets-Thu-Apr-15-2027-Texas-Trust-CU-Theatre-at-Grand-Prairie",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1595,7 +1659,7 @@
         "event_id": 18692268,
         "url": "https://seatgeek.com/mercyme-tickets/cedar-park-texas-h-e-b-center-at-cedar-park-2027-04-17-7-pm/concert/18692268",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1616,14 +1680,14 @@
         "event_id": "8326569",
         "url": "https://www.ticketnetwork.com/en/p/8326569",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326569",
         "url": "https://www.ticketliquidator.com/tickets/8326569/MercyMe-tickets-Sat-Apr-17-2027-HEB-Center-at-Cedar-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1668,7 +1732,7 @@
         "event_id": 18692269,
         "url": "https://seatgeek.com/mercyme-tickets/bossier-city-louisiana-brookshire-grocery-arena-2027-04-18-6-30-pm/concert/18692269",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1689,14 +1753,14 @@
         "event_id": "8326570",
         "url": "https://www.ticketnetwork.com/en/p/8326570",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326570",
         "url": "https://www.ticketliquidator.com/tickets/8326570/MercyMe-tickets-Sun-Apr-18-2027-Brookshire-Grocery-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1748,7 +1812,7 @@
         "event_id": 18692271,
         "url": "https://seatgeek.com/mercyme-tickets/tulsa-oklahoma-bok-center-2027-04-22-7-pm/concert/18692271",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1769,14 +1833,14 @@
         "event_id": "8326571",
         "url": "https://www.ticketnetwork.com/en/p/8326571",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326571",
         "url": "https://www.ticketliquidator.com/tickets/8326571/MercyMe-tickets-Thu-Apr-22-2027-BOK-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1821,7 +1885,7 @@
         "event_id": 18692274,
         "url": "https://seatgeek.com/mercyme-tickets/lincoln-nebraska-pinnacle-bank-arena-2027-04-23-7-pm/concert/18692274",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1842,14 +1906,14 @@
         "event_id": "8326572",
         "url": "https://www.ticketnetwork.com/en/p/8326572",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326572",
         "url": "https://www.ticketliquidator.com/tickets/8326572/MercyMe-tickets-Fri-Apr-23-2027-Pinnacle-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1894,7 +1958,7 @@
         "event_id": 18692276,
         "url": "https://seatgeek.com/mercyme-tickets/moline-illinois-vibrant-arena-at-the-mark-2027-04-24-7-pm/concert/18692276",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1915,14 +1979,14 @@
         "event_id": "8326574",
         "url": "https://www.ticketnetwork.com/en/p/8326574",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326574",
         "url": "https://www.ticketliquidator.com/tickets/8326574/MercyMe-tickets-Sat-Apr-24-2027-Vibrant-Arena-at-The-MARK",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1967,7 +2031,7 @@
         "event_id": 18692277,
         "url": "https://seatgeek.com/mercyme-tickets/grand-rapids-michigan-van-andel-arena-2027-04-25-7-pm/concert/18692277",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1988,14 +2052,14 @@
         "event_id": "8326575",
         "url": "https://www.ticketnetwork.com/en/p/8326575",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326575",
         "url": "https://www.ticketliquidator.com/tickets/8326575/MercyMe-tickets-Sun-Apr-25-2027-Van-Andel-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2115,14 +2179,14 @@
         "event_id": "8326577",
         "url": "https://www.ticketnetwork.com/en/p/8326577",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326577",
         "url": "https://www.ticketliquidator.com/tickets/8326577/MercyMe-tickets-Fri-Apr-30-2027-Bank-of-Springfield-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2183,6 +2247,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326585",
+        "url": "https://www.ticketnetwork.com/en/p/8326585",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326585",
+        "url": "https://www.ticketliquidator.com/tickets/8326585/MercyMe-tickets-Sat-May-1-2027-Canton-Memorial-Civic-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17fZ_fGkw2uN6n",
@@ -2199,7 +2277,9 @@
         "start": "2026-11-23T04:59:00Z",
         "end": "2026-12-01T04:59:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326585",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326585/MercyMe-tickets-Sat-May-1-2027-Canton-Memorial-Civic-Center"
   },
   {
     "id": "tm-mercyme-2027-evansville-vv17fz_fgkwdo5qw",
@@ -2253,14 +2333,14 @@
         "event_id": "8326579",
         "url": "https://www.ticketnetwork.com/en/p/8326579",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8326579",
         "url": "https://www.ticketliquidator.com/tickets/8326579/MercyMe-tickets-Sun-May-2-2027-Ford-Center-IN",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2334,14 +2414,14 @@
         "event_id": "8332035",
         "url": "https://www.ticketnetwork.com/en/p/8332035",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8332035",
         "url": "https://www.ticketliquidator.com/tickets/8332035/MercyMe-tickets-Sat-Mar-13-2027-McKenzie-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2404,14 +2484,14 @@
         "event_id": "8332038",
         "url": "https://www.ticketnetwork.com/en/p/8332038",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8332038",
         "url": "https://www.ticketliquidator.com/tickets/8332038/MercyMe-tickets-Sat-Apr-3-2027-Wicomico-Civic-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2474,14 +2554,14 @@
         "event_id": "8329958",
         "url": "https://www.ticketliquidator.com/tickets/8329958/MercyMe-tickets-Sun-Apr-11-2027-Freedom-Hall-Civic-Center-TN",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8329958",
         "url": "https://www.ticketnetwork.com/en/p/8329958",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2523,7 +2603,7 @@
         "event_id": 18692250,
         "url": "https://seatgeek.com/mercyme-tickets/norfolk-virginia-chartway-arena-2027-04-02-7-pm/concert/18692250",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2544,14 +2624,14 @@
         "event_id": "8332037",
         "url": "https://www.ticketnetwork.com/en/p/8332037",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8332037",
         "url": "https://www.ticketliquidator.com/tickets/8332037/MercyMe-tickets-Fri-Apr-2-2027-Chartway-Arena-at-Ted-Constant-Convocation-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

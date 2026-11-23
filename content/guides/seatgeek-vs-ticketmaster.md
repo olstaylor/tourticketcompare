@@ -86,6 +86,14 @@ In the US, mandatory fees must be included in upfront ticket prices under the FT
 
 On TTC, Ticketmaster is a plain, unmonetised link source. SeatGeek is a checked ticket link without a listed-price snapshot, so open the seller's page to check its current prices and ticket details. A missing figure does not establish ticket availability. TTC may earn a commission from SeatGeek links, at no extra cost to you.
 
+## Do Ticketmaster and SeatGeek both show all-in prices?
+
+Both say their upfront price includes mandatory fees, but neither promises the final total. Ticketmaster says its upfront price includes face value and required fees, generally before taxes. SeatGeek says its event-page price includes mandatory fees, while taxes, shipping and optional extras may be added at checkout. Treat the upfront figure as a starting point and compare the order summary on each site for the same seats and quantity.
+
+## What makes SeatGeek different from other ticket sites?
+
+SeatGeek is mainly a resale marketplace, and the primary ticketing partner for some venues and teams. Its Deal Score rates listings within SeatGeek, so it can help you choose between SeatGeek listings but says nothing about another site's price. To see how SeatGeek compares for your show, check the same seats and quantity on each site's order summary.
+
 ## Why does one site have tickets when the other does not?
 
 Ticketmaster's primary allocation can sell out while resale tickets remain listed elsewhere. SeatGeek sellers may be offering tickets bought earlier, including tickets that will later transfer through Ticketmaster. The reverse happens too: Ticketmaster may have tickets that are not listed on SeatGeek.

@@ -134,7 +134,7 @@ export function buildStatements({ since, until }) {
     },
     {
       key: "beacons",
-      sql: `SELECT ${day} AS day, COALESCE(NULLIF(TRIM(provider), ''), 'unknown') AS provider, COUNT(*) AS beacons FROM analytics_events WHERE event_name = 'provider_click' AND ${window} GROUP BY 1, 2`,
+      sql: `SELECT ${day} AS day, COALESCE(NULLIF(TRIM(provider), ''), 'unknown') AS provider, COUNT(*) AS beacons, SUM(CASE WHEN json_valid(metadata_json) AND json_extract(metadata_json, '$.browserIntentId') IS NOT NULL THEN 1 ELSE 0 END) AS consented FROM analytics_events WHERE event_name = 'provider_click' AND ${window} GROUP BY 1, 2`,
     },
   ];
   for (const s of statements) {
@@ -191,7 +191,21 @@ export function buildFunnel(results, range, impact) {
     if (r.day !== last) continue;
     providers[r.provider] = { clicks: 0, withSubId: 0, ...(providers[r.provider] || {}), beacons: num(r.beacons) };
   }
-  return { generatedAt: range.until.slice(0, 10), days, latest: days.at(-1), providers, impact };
+  // Whole-window reconciliation per provider: button presses against
+  // page-backed redirects, and how many presses carried the consent token.
+  const windowProviders = {};
+  const slot = (p) => (windowProviders[p] ||= { beacons: 0, consented: 0, clicks: 0, withSubId: 0 });
+  for (const r of results.realRedirects || []) {
+    const w = slot(r.provider);
+    w.clicks += num(r.clicks);
+    w.withSubId += num(r.with_sub_id);
+  }
+  for (const r of results.beacons || []) {
+    const w = slot(r.provider);
+    w.beacons += num(r.beacons);
+    w.consented += num(r.consented);
+  }
+  return { generatedAt: range.until.slice(0, 10), days, latest: days.at(-1), providers, windowProviders, impact };
 }
 
 export function evaluateFlags(funnel, t = THRESHOLDS) {
@@ -274,6 +288,15 @@ export function renderFunnel(funnel, flags) {
     "|---|---:|---:|---:|",
     ...Object.entries(funnel.providers).sort((a, b) => b[1].clicks - a[1].clicks)
       .map(([p, r]) => `| ${p} | ${fmt(r.beacons)} | ${fmt(r.clicks)} | ${IMPACT_LANES.includes(p) ? pct(r.withSubId, r.clicks) : "n/a"} |`),
+    "",
+    `## Reconciliation by provider, last ${funnel.days.length} days`,
+    "",
+    "| Provider | Button clicks | Page-backed redirects | Redirects vs clicks | Clicks with consent token |",
+    "|---|---:|---:|---:|---:|",
+    ...Object.entries(funnel.windowProviders || {}).sort((a, b) => b[1].beacons - a[1].beacons)
+      .map(([p, r]) => `| ${p} | ${fmt(r.beacons)} | ${fmt(r.clicks)} | ${pct(r.clicks, r.beacons)} | ${pct(r.consented, r.beacons)} |`),
+    "",
+    "Redirects vs clicks near 100% means the browser-side and server-side counts agree. Far below or above is a lead, not proof: button clicks can be posted by scripts, and only visitors who accepted cookies carry the token that joins a click to its redirect. Impact's own click counts are not shown here; compare them in Impact directly.",
     "",
     `## Orders and commission (Impact, last ${ACTION_LOOKBACK_DAYS} days)`,
     "",
@@ -408,7 +431,7 @@ function selfTest() {
       { day: "2026-10-22", provider: "ticketmaster", clicks: 4, with_sub_id: 0 },
       { day: "2026-10-21", provider: "vivid-seats", clicks: 9, with_sub_id: 9 },
     ],
-    beacons: [{ day: "2026-10-22", provider: "seatgeek", beacons: 4 }, { day: "2026-10-22", provider: "stubhub-international", beacons: 20 }],
+    beacons: [{ day: "2026-10-22", provider: "seatgeek", beacons: 4, consented: 1 }, { day: "2026-10-22", provider: "stubhub-international", beacons: 20, consented: 5 }],
   };
   const impact = summarizeImpact(
     [{ state: "PENDING", payout: 26.86, currency: "GBP", day: "2026-10-03" }, { state: "APPROVED", payout: 1.05, currency: "GBP", day: "2026-08-20" }],
@@ -418,6 +441,11 @@ function selfTest() {
   assert.equal(funnel.latest.realClicks, 33);
   assert.equal(funnel.latest.unbacked, 1769);
   assert.equal(funnel.latest.forged, 600, "forged-home redirects are split out");
+  assert.deepEqual(funnel.windowProviders["stubhub-international"], { beacons: 20, consented: 5, clicks: 19, withSubId: 19 }, "window reconciliation sums per provider");
+  const reconMd = renderFunnel(funnel, []);
+  assert.ok(reconMd.includes("| stubhub-international | 20 | 19 | 95% | 25% |"), "reconciliation row renders");
+  assert.ok(reconMd.includes("| vivid-seats | 0 | 9 | – | – |"), "no button clicks reads as a dash, not 0%");
+  assert.ok(statements[2].sql.includes("json_valid(metadata_json)") && statements[2].sql.includes("browserIntentId") && !/user_agent/.test(statements[2].sql), "consent share reads no user agent");
   assert.equal(funnel.latest.noEvidence, 1169, "the rest of the unbacked redirects have no page evidence");
   assert.equal(funnel.latest.forged + funnel.latest.noEvidence, funnel.latest.unbacked, "the split adds back to the unbacked total");
   assert.ok(statements[0].sql.includes("suspected") === false && statements[0].sql.includes("source_path"), "daily statement counts forged-home redirects");

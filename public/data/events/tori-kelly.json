@@ -1,0 +1,3208 @@
+[
+  {
+    "id": "tm-tori-kelly-2026-manchester-g5vhz_1r4owph",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly - God Must Really Love Me Europe Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Albert Hall",
+    "datetime_iso": "2026-12-07T19:00:00Z",
+    "tour_name": "God Must Really Love Me Europe Tour",
+    "ticketmaster_event_id": "1F0064A7954725BC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-manchester-07-12-2026/event/1F0064A7954725BC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-manchester-07-12-2026/event/1F0064A7954725BC",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064A7954725BC",
+        "discovery_event_id": "G5vHZ_1r4owpH",
+        "url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-manchester-07-12-2026/event/1F0064A7954725BC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162943",
+        "url": "https://www.stubhub.ie/tori-kelly-tickets-manchester-albert-hall-manchester-7-12-2026/event/107162943",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_1r4owpH",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-manchester-albert-hall-manchester-7-12-2026/event/107162943",
+    "organizer_names": [
+      "S.J.M. LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2026-birmingham-g5dzz_1hposmp",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly - God Must Really Love Me Europe Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "O2 Institute Birmingham",
+    "datetime_iso": "2026-12-08T19:00:00Z",
+    "tour_name": "God Must Really Love Me Europe Tour",
+    "ticketmaster_event_id": "3E0064A6D6833DE5",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-birmingham-08-12-2026/event/3E0064A6D6833DE5",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-birmingham-o2-institute-birmingham-12-8-2026/production/7044469",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-birmingham-08-12-2026/event/3E0064A6D6833DE5",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064A6D6833DE5",
+        "discovery_event_id": "G5dzZ_1hpOSMP",
+        "url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-birmingham-08-12-2026/event/3E0064A6D6833DE5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7044469,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-birmingham-o2-institute-birmingham-12-8-2026/production/7044469",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683876",
+        "url": "https://www.stubhub.ie/tori-kelly-tickets-birmingham-o2-institute-birmingham-8-12-2026/event/107683876",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1hpOSMP",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-birmingham-o2-institute-birmingham-8-12-2026/event/107683876",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ACADEMY MUSIC GROUP (O2 INSTITUTE BIRMINGHAM)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2026-bristol-g5dzz_1qs13cg",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly - God Must Really Love Me Europe Tour",
+    "city": "Bristol",
+    "country": "Great Britain",
+    "venue": "O2 Academy Bristol",
+    "datetime_iso": "2026-12-09T19:00:00Z",
+    "tour_name": "God Must Really Love Me Europe Tour",
+    "ticketmaster_event_id": "3E0064A6B1292B75",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-bristol-09-12-2026/event/3E0064A6B1292B75",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-bristol-09-12-2026/event/3E0064A6B1292B75",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064A6B1292B75",
+        "discovery_event_id": "G5dzZ_1Qs13cg",
+        "url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-bristol-09-12-2026/event/3E0064A6B1292B75",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1Qs13cg",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRISTOL)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2026-london-g5dzz_1hlw0l0",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly - God Must Really Love Me Europe Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Forum Kentish Town",
+    "datetime_iso": "2026-12-11T19:00:00Z",
+    "tour_name": "God Must Really Love Me Europe Tour",
+    "ticketmaster_event_id": "3E0064A6EBCA47E4",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-london-11-12-2026/event/3E0064A6EBCA47E4",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-london-o2-forum-kentish-town-12-11-2026/production/7044607",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-london-11-12-2026/event/3E0064A6EBCA47E4",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E0064A6EBCA47E4",
+        "discovery_event_id": "G5dzZ_1hlw0L0",
+        "url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-london-11-12-2026/event/3E0064A6EBCA47E4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7044607,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-london-o2-forum-kentish-town-12-11-2026/production/7044607",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107162942",
+        "url": "https://www.stubhub.ie/tori-kelly-tickets-london-o2-forum-kentish-town-11-12-2026/event/107162942",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_1hlw0L0",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-london-o2-forum-kentish-town-11-12-2026/event/107162942",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ACADEMY MUSIC GROUP (O2 FORUM KENTISH TOWN)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2027-san-diego-vvg1iz_pmacvcd",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "House of Blues San Diego",
+    "datetime_iso": "2027-03-18T02:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0A00656B89B74383",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-san-diego-california-03-17-2027/event/0A00656B89B74383",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-san-diego-house-of-blues-san-diego-3-17-2027/production/7880420",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-san-diego-california-03-17-2027/event/0A00656B89B74383",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00656B89B74383",
+        "discovery_event_id": "vvG1IZ_pmacVCd",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-san-diego-california-03-17-2027/event/0A00656B89B74383",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880420,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-san-diego-house-of-blues-san-diego-3-17-2027/production/7880420",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374484",
+        "url": "https://www.ticketnetwork.com/en/p/8374484",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374484",
+        "url": "https://www.ticketliquidator.com/tickets/8374484/Tori-Kelly-tickets-Wed-Mar-17-2027-House-Of-Blues-San-Diego",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682743",
+        "url": "https://www.stubhub.ie/tori-kelly-san-diego-tickets-3-17-2027/event/107682743",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_pmacVCd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374484",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374484/Tori-Kelly-tickets-Wed-Mar-17-2027-House-Of-Blues-San-Diego",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-san-diego-tickets-3-17-2027/event/107682743",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-18T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-03-10T07:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-anaheim-vv170z_pgkmqbskf",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "House of Blues Anaheim",
+    "datetime_iso": "2027-03-20T02:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0900656DDA633194",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-anaheim-california-03-19-2027/event/0900656DDA633194",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-anaheim-house-of-blues-anaheim-3-19-2027/production/7880440",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-anaheim-california-03-19-2027/event/0900656DDA633194",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900656DDA633194",
+        "discovery_event_id": "vv170Z_pGkMQbSkf",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-anaheim-california-03-19-2027/event/0900656DDA633194",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880440,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-anaheim-house-of-blues-anaheim-3-19-2027/production/7880440",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_pGkMQbSkf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-03-12T07:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-phoenix-1av0z_pgkgtcw3p",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALY LOVE ME WORLD TOUR",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "The Van Buren",
+    "datetime_iso": "2027-03-21T03:00:00Z",
+    "tour_name": "GOD MUST REALY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1900656D7F3B24A5",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-realy-love-phoenix-arizona-03-20-2027/event/1900656D7F3B24A5",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-phoenix-the-van-buren-3-20-2027/production/7880688",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-realy-love-phoenix-arizona-03-20-2027/event/1900656D7F3B24A5",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656D7F3B24A5",
+        "discovery_event_id": "1Av0Z_pGkgTCw3P",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-realy-love-phoenix-arizona-03-20-2027/event/1900656D7F3B24A5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880688,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-phoenix-the-van-buren-3-20-2027/production/7880688",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374485",
+        "url": "https://www.ticketnetwork.com/en/p/8374485",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374485",
+        "url": "https://www.ticketliquidator.com/tickets/8374485/Tori-Kelly-tickets-Sat-Mar-20-2027-The-Van-Buren",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683730",
+        "url": "https://www.stubhub.ie/tori-kelly-phoenix-tickets-3-20-2027/event/107683730",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkgTCw3P",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374485",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374485/Tori-Kelly-tickets-Sat-Mar-20-2027-The-Van-Buren",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-phoenix-tickets-3-20-2027/event/107683730",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-02-21T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-03-13T06:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-tulsa-z7r9jz1aaafav",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly w/ HILLARI",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "Cain's Ballroom",
+    "datetime_iso": "2027-03-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfAV",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfAV",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-22-7-pm/concert/18778951",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfAV",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfAV",
+        "discovery_event_id": "Z7r9jZ1AAAfAV",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfAV",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778951,
+        "url": "https://seatgeek.com/tori-kelly-tickets/tulsa-oklahoma-cain-s-ballroom-tulsa-2027-03-22-7-pm/concert/18778951",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375003",
+        "url": "https://www.ticketnetwork.com/en/p/8375003",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375003",
+        "url": "https://www.ticketliquidator.com/tickets/8375003/Tori-Kelly-tickets-Mon-Mar-22-2027-Cains-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682745",
+        "url": "https://www.stubhub.ie/tori-kelly-tulsa-tickets-3-22-2027/event/107682745",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfAV",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375003",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375003/Tori-Kelly-tickets-Mon-Mar-22-2027-Cains-Ballroom",
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tulsa-tickets-3-22-2027/event/107682745"
+  },
+  {
+    "id": "tm-tori-kelly-2027-austin-z7r9jz1aaafaz",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Austin City Limits Live at The Moody Theater",
+    "datetime_iso": "2027-03-25T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfaZ",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfaZ",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-24-7-pm/concert/18778949",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-24-2027--concerts-pop/production/7880774",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfaZ",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfaZ",
+        "discovery_event_id": "Z7r9jZ1AAAfaZ",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfaZ",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778949,
+        "url": "https://seatgeek.com/tori-kelly-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-03-24-7-pm/concert/18778949",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7880774,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-24-2027--concerts-pop/production/7880774",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381783",
+        "url": "https://www.ticketnetwork.com/en/p/8381783",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfaZ",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381783",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2027-houston-g5diz_prlk7d5",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "House of Blues Houston",
+    "datetime_iso": "2027-03-26T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "3A00656BEB4C40CB",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-houston-texas-03-25-2027/event/3A00656BEB4C40CB",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-houston-house-of-blues-houston-3-25-2027/production/7880524",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-houston-texas-03-25-2027/event/3A00656BEB4C40CB",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00656BEB4C40CB",
+        "discovery_event_id": "G5dIZ_pRlK7d5",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-houston-texas-03-25-2027/event/3A00656BEB4C40CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880524,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-houston-house-of-blues-houston-3-25-2027/production/7880524",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374487",
+        "url": "https://www.ticketnetwork.com/en/p/8374487",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374487",
+        "url": "https://www.ticketliquidator.com/tickets/8374487/Tori-Kelly-tickets-Thu-Mar-25-2027-House-Of-Blues-Houston",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683733",
+        "url": "https://www.stubhub.ie/tori-kelly-houston-tickets-3-25-2027/event/107683733",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pRlK7d5",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374487",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374487/Tori-Kelly-tickets-Thu-Mar-25-2027-House-Of-Blues-Houston",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-houston-tickets-3-25-2027/event/107683733",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-26T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-18T04:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-dallas-vvg1yz_ptdvq44",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "House of Blues Dallas",
+    "datetime_iso": "2027-03-27T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0C00656FFBD1A555",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-dallas-texas-03-26-2027/event/0C00656FFBD1A555",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-dallas-house-of-blues-dallas-3-26-2027/production/7880534",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-dallas-texas-03-26-2027/event/0C00656FFBD1A555",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00656FFBD1A555",
+        "discovery_event_id": "vvG1YZ_pTDVQ44",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-dallas-texas-03-26-2027/event/0C00656FFBD1A555",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880534,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-dallas-house-of-blues-dallas-3-26-2027/production/7880534",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374489",
+        "url": "https://www.ticketnetwork.com/en/p/8374489",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374489",
+        "url": "https://www.ticketliquidator.com/tickets/8374489/Tori-Kelly-tickets-Fri-Mar-26-2027-House-Of-Blues-Dallas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683739",
+        "url": "https://www.stubhub.ie/tori-kelly-dallas-tickets-3-26-2027/event/107683739",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_pTDVQ44",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374489",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374489/Tori-Kelly-tickets-Fri-Mar-26-2027-House-Of-Blues-Dallas",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-dallas-tickets-3-26-2027/event/107683739",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-27T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-19T04:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-new-orleans-g5viz_proo-gj",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "House of Blues New Orleans",
+    "datetime_iso": "2027-03-30T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1B00656BD1821D66",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-new-orleans-louisiana-03-29-2027/event/1B00656BD1821D66",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-new-orleans-house-of-blues-new-orleans-3-29-2027/production/7880582",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-new-orleans-louisiana-03-29-2027/event/1B00656BD1821D66",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656BD1821D66",
+        "discovery_event_id": "G5viZ_pRoO-gJ",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-new-orleans-louisiana-03-29-2027/event/1B00656BD1821D66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880582,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-new-orleans-house-of-blues-new-orleans-3-29-2027/production/7880582",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374490",
+        "url": "https://www.ticketnetwork.com/en/p/8374490",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374490",
+        "url": "https://www.ticketliquidator.com/tickets/8374490/Tori-Kelly-tickets-Mon-Mar-29-2027-House-Of-Blues-New-Orleans",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683741",
+        "url": "https://www.stubhub.ie/tori-kelly-new-orleans-tickets-3-29-2027/event/107683741",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pRoO-gJ",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374490",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374490/Tori-Kelly-tickets-Mon-Mar-29-2027-House-Of-Blues-New-Orleans",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-new-orleans-tickets-3-29-2027/event/107683741",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-22T04:55:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-22T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-st-petersburg-vvg1vz_pwiq_m9",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "St Petersburg",
+    "country": "United States Of America",
+    "venue": "Jannus Live",
+    "datetime_iso": "2027-03-31T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0D00656CAC759B97",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-st-petersburg-florida-03-31-2027/event/0D00656CAC759B97",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-st-petersburg-florida-03-31-2027/event/0D00656CAC759B97",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00656CAC759B97",
+        "discovery_event_id": "vvG1VZ_pwiq_m9",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-st-petersburg-florida-03-31-2027/event/0D00656CAC759B97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374493",
+        "url": "https://www.ticketnetwork.com/en/p/8374493",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374493",
+        "url": "https://www.ticketliquidator.com/tickets/8374493/Tori-Kelly-tickets-Wed-Mar-31-2027-Jannus-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683726",
+        "url": "https://www.stubhub.ie/tori-kelly-saint-petersburg-tickets-3-31-2027/event/107683726",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pwiq_m9",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374493",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374493/Tori-Kelly-tickets-Wed-Mar-31-2027-Jannus-Live",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "NO CLUBS"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-25T03:55:00Z"
+      }
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-saint-petersburg-tickets-3-31-2027/event/107683726"
+  },
+  {
+    "id": "tm-tori-kelly-2027-orlando-1aefz_pgkmnverq",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY: GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live Orlando",
+    "datetime_iso": "2027-04-02T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "2200656BA3D2779A",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-orlando-florida-04-01-2027/event/2200656BA3D2779A",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-orlando-hard-rock-live---orlando-4-1-2027/production/7880678",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-orlando-florida-04-01-2027/event/2200656BA3D2779A",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2200656BA3D2779A",
+        "discovery_event_id": "1AeFZ_pGkmNVErQ",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-orlando-florida-04-01-2027/event/2200656BA3D2779A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880678,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-orlando-hard-rock-live---orlando-4-1-2027/production/7880678",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374495",
+        "url": "https://www.ticketnetwork.com/en/p/8374495",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374495",
+        "url": "https://www.ticketliquidator.com/tickets/8374495/Tori-Kelly-tickets-Thu-Apr-1-2027-Hard-Rock-Live-Orlando",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682741",
+        "url": "https://www.stubhub.ie/tori-kelly-orlando-tickets-4-1-2027/event/107682741",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeFZ_pGkmNVErQ",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374495",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374495/Tori-Kelly-tickets-Thu-Apr-1-2027-Hard-Rock-Live-Orlando",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-orlando-tickets-4-1-2027/event/107682741",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-25T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-ft-lauderdale-vvg1vz_pv-mndp",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Ft Lauderdale",
+    "country": "United States Of America",
+    "venue": "Revolution Live",
+    "datetime_iso": "2027-04-03T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0D00656D21DEAEE5",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-ft-lauderdale-florida-04-03-2027/event/0D00656D21DEAEE5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-ft-lauderdale-florida-04-03-2027/event/0D00656D21DEAEE5",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D00656D21DEAEE5",
+        "discovery_event_id": "vvG1VZ_pV-MnDP",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-ft-lauderdale-florida-04-03-2027/event/0D00656D21DEAEE5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374496",
+        "url": "https://www.ticketnetwork.com/en/p/8374496",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374496",
+        "url": "https://www.ticketliquidator.com/tickets/8374496/Tori-Kelly-tickets-Sat-Apr-3-2027-Revolution-Live",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682744",
+        "url": "https://www.stubhub.ie/tori-kelly-fort-lauderdale-tickets-4-3-2027/event/107682744",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_pV-MnDP",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374496",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374496/Tori-Kelly-tickets-Sat-Apr-3-2027-Revolution-Live",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-27T03:55:00Z"
+      }
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-fort-lauderdale-tickets-4-3-2027/event/107682744"
+  },
+  {
+    "id": "tm-tori-kelly-2027-nashville-g5viz_pmv-gvm",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "The Truth",
+    "datetime_iso": "2027-04-08T00:30:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1B00656DF484C077",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-nashville-tennessee-04-07-2027/event/1B00656DF484C077",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-nashville-the-truth-4-7-2027/production/7880887",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-nashville-tennessee-04-07-2027/event/1B00656DF484C077",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656DF484C077",
+        "discovery_event_id": "G5viZ_pMV-GvM",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-nashville-tennessee-04-07-2027/event/1B00656DF484C077",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880887,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-nashville-the-truth-4-7-2027/production/7880887",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375138",
+        "url": "https://www.ticketnetwork.com/en/p/8375138",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375138",
+        "url": "https://www.ticketliquidator.com/tickets/8375138/Tori-Kelly-tickets-Wed-Apr-7-2027-The-Truth",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pMV-GvM",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375138",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375138/Tori-Kelly-tickets-Wed-Apr-7-2027-The-Truth",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-09T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-31T04:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-charlotte-g5evz_pr3nkrd",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "The Fillmore Charlotte",
+    "datetime_iso": "2027-04-09T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "2D00656BD28D3BC3",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-charlotte-north-carolina-04-08-2027/event/2D00656BD28D3BC3",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-charlotte-the-fillmore-charlotte-4-8-2027/production/7880676",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-charlotte-north-carolina-04-08-2027/event/2D00656BD28D3BC3",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656BD28D3BC3",
+        "discovery_event_id": "G5eVZ_pR3NKRd",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-charlotte-north-carolina-04-08-2027/event/2D00656BD28D3BC3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880676,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-charlotte-the-fillmore-charlotte-4-8-2027/production/7880676",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374499",
+        "url": "https://www.ticketnetwork.com/en/p/8374499",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374499",
+        "url": "https://www.ticketliquidator.com/tickets/8374499/Tori-Kelly-tickets-Thu-Apr-8-2027-The-Fillmore-Charlotte",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683744",
+        "url": "https://www.stubhub.ie/tori-kelly-charlotte-tickets-4-8-2027/event/107683744",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pR3NKRd",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374499",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374499/Tori-Kelly-tickets-Thu-Apr-8-2027-The-Fillmore-Charlotte",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-charlotte-tickets-4-8-2027/event/107683744",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-01T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-atlanta-vvg1zz_pr5yym7",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Tabernacle Presented by iTHINK Financial",
+    "datetime_iso": "2027-04-11T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0E00656BCBE79B84",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-atlanta-georgia-04-10-2027/event/0E00656BCBE79B84",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-atlanta-georgia-04-10-2027/event/0E00656BCBE79B84",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00656BCBE79B84",
+        "discovery_event_id": "vvG1zZ_pR5yym7",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-atlanta-georgia-04-10-2027/event/0E00656BCBE79B84",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374501",
+        "url": "https://www.ticketnetwork.com/en/p/8374501",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374501",
+        "url": "https://www.ticketliquidator.com/tickets/8374501/Tori-Kelly-tickets-Sat-Apr-10-2027-The-Tabernacle-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683735",
+        "url": "https://www.stubhub.ie/tori-kelly-atlanta-tickets-4-10-2027/event/107683735",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_pR5yym7",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374501",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374501/Tori-Kelly-tickets-Sat-Apr-10-2027-The-Tabernacle-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-atlanta-tickets-4-10-2027/event/107683735",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-14T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-04T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-raleigh-g5evz_pmhkhqy",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "The Ritz",
+    "datetime_iso": "2027-04-11T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "2D00656DFC4DB6B9",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-raleigh-north-carolina-04-11-2027/event/2D00656DFC4DB6B9",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-raleigh-the-ritz---raleigh-4-11-2027/production/7880712",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-raleigh-north-carolina-04-11-2027/event/2D00656DFC4DB6B9",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656DFC4DB6B9",
+        "discovery_event_id": "G5eVZ_pMHKhQy",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-raleigh-north-carolina-04-11-2027/event/2D00656DFC4DB6B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880712,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-raleigh-the-ritz---raleigh-4-11-2027/production/7880712",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374503",
+        "url": "https://www.ticketnetwork.com/en/p/8374503",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374503",
+        "url": "https://www.ticketliquidator.com/tickets/8374503/Tori-Kelly-tickets-Sun-Apr-11-2027-The-Ritz-Raleigh",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682734",
+        "url": "https://www.stubhub.ie/tori-kelly-raleigh-tickets-4-11-2027/event/107682734",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pMHKhQy",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374503",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374503/Tori-Kelly-tickets-Sun-Apr-11-2027-The-Ritz-Raleigh",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-raleigh-tickets-4-11-2027/event/107682734",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-04T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-boston-vv177z_pgkresuwf",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "Citizens House of Blues Boston",
+    "datetime_iso": "2027-04-14T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0100656BC2CCDC94",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-boston-massachusetts-04-14-2027/event/0100656BC2CCDC94",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-boston-citizens-house-of-blues-boston-4-14-2027/production/7880636",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-boston-massachusetts-04-14-2027/event/0100656BC2CCDC94",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656BC2CCDC94",
+        "discovery_event_id": "vv177Z_pGkReSuwf",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-boston-massachusetts-04-14-2027/event/0100656BC2CCDC94",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880636,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-boston-citizens-house-of-blues-boston-4-14-2027/production/7880636",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374504",
+        "url": "https://www.ticketnetwork.com/en/p/8374504",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374504",
+        "url": "https://www.ticketliquidator.com/tickets/8374504/Tori-Kelly-tickets-Wed-Apr-14-2027-Citizens-House-Of-Blues-Boston",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683731",
+        "url": "https://www.stubhub.ie/tori-kelly-boston-tickets-4-14-2027/event/107683731",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkReSuwf",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374504",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374504/Tori-Kelly-tickets-Wed-Apr-14-2027-Citizens-House-Of-Blues-Boston",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-boston-tickets-4-14-2027/event/107683731",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-07T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-silver-spring-1avfz_pgksegqna",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Silver Spring",
+    "country": "United States Of America",
+    "venue": "The Fillmore Silver Spring",
+    "datetime_iso": "2027-04-17T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1500656CC2D5A8C9",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-silver-spring-maryland-04-16-2027/event/1500656CC2D5A8C9",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-silver-spring-the-fillmore-silver-spring-4-16-2027/production/7880646",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-silver-spring-maryland-04-16-2027/event/1500656CC2D5A8C9",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500656CC2D5A8C9",
+        "discovery_event_id": "1AvfZ_pGkSegQNa",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-silver-spring-maryland-04-16-2027/event/1500656CC2D5A8C9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880646,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-silver-spring-the-fillmore-silver-spring-4-16-2027/production/7880646",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374505",
+        "url": "https://www.ticketnetwork.com/en/p/8374505",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374505",
+        "url": "https://www.ticketliquidator.com/tickets/8374505/Tori-Kelly-tickets-Fri-Apr-16-2027-The-Fillmore-Silver-Spring",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683727",
+        "url": "https://www.stubhub.ie/tori-kelly-silver-spring-tickets-4-16-2027/event/107683727",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_pGkSegQNa",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374505",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374505/Tori-Kelly-tickets-Fri-Apr-16-2027-The-Fillmore-Silver-Spring",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-silver-spring-tickets-4-16-2027/event/107683727",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-21T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-09T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-philadelphia-z7r9jz1aaafa-",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly w/ HILLARI",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Franklin Music Hall",
+    "datetime_iso": "2027-04-18T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfa-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfa-",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/philadelphia-pennsylvania-franklin-music-hall-2027-04-17-8-pm/concert/18827093",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-philadelphia-franklin-music-hall-4-17-2027/production/7880766",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfa-",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfa-",
+        "discovery_event_id": "Z7r9jZ1AAAfa-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfa-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18827093,
+        "url": "https://seatgeek.com/tori-kelly-tickets/philadelphia-pennsylvania-franklin-music-hall-2027-04-17-8-pm/concert/18827093",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7880766,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-philadelphia-franklin-music-hall-4-17-2027/production/7880766",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8377710",
+        "url": "https://www.ticketnetwork.com/en/p/8377710",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8377710",
+        "url": "https://www.ticketliquidator.com/tickets/8377710/Tori-Kelly-tickets-Sat-Apr-17-2027-Franklin-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfa-",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8377710",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8377710/Tori-Kelly-tickets-Sat-Apr-17-2027-Franklin-Music-Hall",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2027-brooklyn-k7vgf_phude5k",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Brooklyn Paramount",
+    "datetime_iso": "2027-04-18T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0000656F0D0E72C6",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-brooklyn-new-york-04-18-2027/event/0000656F0D0E72C6",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-brooklyn-brooklyn-paramount-4-18-2027/production/7880895",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-brooklyn-new-york-04-18-2027/event/0000656F0D0E72C6",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000656F0D0E72C6",
+        "discovery_event_id": "k7vGF_pHudE5k",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-brooklyn-new-york-04-18-2027/event/0000656F0D0E72C6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880895,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-brooklyn-brooklyn-paramount-4-18-2027/production/7880895",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374507",
+        "url": "https://www.ticketnetwork.com/en/p/8374507",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374507",
+        "url": "https://www.ticketliquidator.com/tickets/8374507/Tori-Kelly-tickets-Sun-Apr-18-2027-Brooklyn-Paramount",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682739",
+        "url": "https://www.stubhub.ie/tori-kelly-brooklyn-tickets-4-18-2027/event/107682739",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pHudE5k",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374507",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374507/Tori-Kelly-tickets-Sun-Apr-18-2027-Brooklyn-Paramount",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-brooklyn-tickets-4-18-2027/event/107682739",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-22T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-11T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-toronto-1avzz_pgkvx9zdy",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "History Toronto",
+    "datetime_iso": "2027-04-21T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1000656D225F8EF9",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-toronto-ontario-04-21-2027/event/1000656D225F8EF9",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-toronto-history-toronto-4-21-2027/production/7880504",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-toronto-ontario-04-21-2027/event/1000656D225F8EF9",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656D225F8EF9",
+        "discovery_event_id": "1AvZZ_pGkVx9zDy",
+        "url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-toronto-ontario-04-21-2027/event/1000656D225F8EF9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880504,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-toronto-history-toronto-4-21-2027/production/7880504",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_pGkVx9zDy",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-14T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-detroit-vv17oz_pgkcxk3hy",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "The Fillmore Detroit",
+    "datetime_iso": "2027-04-23T23:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0800656B7E1926F9",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-detroit-michigan-04-23-2027/event/0800656B7E1926F9",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-detroit-the-fillmore-detroit-4-23-2027/production/7880649",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-detroit-michigan-04-23-2027/event/0800656B7E1926F9",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656B7E1926F9",
+        "discovery_event_id": "vv17OZ_pGkcXk3hy",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-detroit-michigan-04-23-2027/event/0800656B7E1926F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880649,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-detroit-the-fillmore-detroit-4-23-2027/production/7880649",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374510",
+        "url": "https://www.ticketnetwork.com/en/p/8374510",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374510",
+        "url": "https://www.ticketliquidator.com/tickets/8374510/Tori-Kelly-tickets-Fri-Apr-23-2027-The-Fillmore-Detroit",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682737",
+        "url": "https://www.stubhub.ie/tori-kelly-detroit-tickets-4-23-2027/event/107682737",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_pGkcXk3hy",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374510",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374510/Tori-Kelly-tickets-Fri-Apr-23-2027-The-Fillmore-Detroit",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-detroit-tickets-4-23-2027/event/107682737",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-27T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-16T02:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-louisville-1avbz_pgksxzvfu",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Louisville",
+    "country": "United States Of America",
+    "venue": "The Louisville Palace",
+    "datetime_iso": "2027-04-25T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1600656CE2E01236",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-louisville-kentucky-04-24-2027/event/1600656CE2E01236",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/louisville-kentucky-louisville-palace-2027-04-24-8-pm/concert/18778568",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-louisville-louisville-palace-4-24-2027/production/7880632",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-louisville-kentucky-04-24-2027/event/1600656CE2E01236",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656CE2E01236",
+        "discovery_event_id": "1AvbZ_pGkSxzvFU",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-louisville-kentucky-04-24-2027/event/1600656CE2E01236",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778568,
+        "url": "https://seatgeek.com/tori-kelly-tickets/louisville-kentucky-louisville-palace-2027-04-24-8-pm/concert/18778568",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7880632,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-louisville-louisville-palace-4-24-2027/production/7880632",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374512",
+        "url": "https://www.ticketnetwork.com/en/p/8374512",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374512",
+        "url": "https://www.ticketliquidator.com/tickets/8374512/Tori-Kelly-tickets-Sat-Apr-24-2027-Louisville-Palace",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683740",
+        "url": "https://www.stubhub.ie/tori-kelly-louisville-tickets-4-24-2027/event/107683740",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_pGkSxzvFU",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374512",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374512/Tori-Kelly-tickets-Sat-Apr-24-2027-Louisville-Palace",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-louisville-tickets-4-24-2027/event/107683740",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-28T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-17T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-indianapolis-vv17fz_pgkswj0w7",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Indianapolis",
+    "country": "United States Of America",
+    "venue": "Old National Centre",
+    "datetime_iso": "2027-04-27T23:30:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0500656CF2724F44",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-indianapolis-indiana-04-27-2027/event/0500656CF2724F44",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-04-27-7-30-pm/concert/18778566",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-4-27-2027/production/7880722",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-indianapolis-indiana-04-27-2027/event/0500656CF2724F44",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656CF2724F44",
+        "discovery_event_id": "vv17fZ_pGkSwj0W7",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-indianapolis-indiana-04-27-2027/event/0500656CF2724F44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778566,
+        "url": "https://seatgeek.com/tori-kelly-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-04-27-7-30-pm/concert/18778566",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7880722,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-4-27-2027/production/7880722",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374513",
+        "url": "https://www.ticketnetwork.com/en/p/8374513",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374513",
+        "url": "https://www.ticketliquidator.com/tickets/8374513/Tori-Kelly-tickets-Tue-Apr-27-2027-Egyptian-Room-At-Old-National-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683732",
+        "url": "https://www.stubhub.ie/tori-kelly-indianapolis-tickets-4-27-2027/event/107683732",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_pGkSwj0W7",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374513",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374513/Tori-Kelly-tickets-Tue-Apr-27-2027-Egyptian-Room-At-Old-National-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-indianapolis-tickets-4-27-2027/event/107683732",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-20T03:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-milwaukee-z7r9jz1aaa4u3",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Pabst Theater",
+    "datetime_iso": "2027-04-29T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4u3",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4u3",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/milwaukee-wisconsin-pabst-theater-2027-04-28-7-pm/concert/18778953",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-milwaukee-pabst-theater-4-28-2027/production/7883882",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4u3",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4u3",
+        "discovery_event_id": "Z7r9jZ1AAA4u3",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4u3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778953,
+        "url": "https://seatgeek.com/tori-kelly-tickets/milwaukee-wisconsin-pabst-theater-2027-04-28-7-pm/concert/18778953",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7883882,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-milwaukee-pabst-theater-4-28-2027/production/7883882",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4u3",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2027-chicago-vv178z_pgkrb2cst",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "House of Blues Chicago",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0400656BD83EDCE9",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-chicago-illinois-04-30-2027/event/0400656BD83EDCE9",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/chicago-illinois-house-of-blues-chicago-2027-04-30-7-pm/concert/18778569",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-chicago-house-of-blues-chicago-4-30-2027/production/7880680",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-chicago-illinois-04-30-2027/event/0400656BD83EDCE9",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400656BD83EDCE9",
+        "discovery_event_id": "vv178Z_pGkRb2cSt",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-chicago-illinois-04-30-2027/event/0400656BD83EDCE9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778569,
+        "url": "https://seatgeek.com/tori-kelly-tickets/chicago-illinois-house-of-blues-chicago-2027-04-30-7-pm/concert/18778569",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7880680,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-chicago-house-of-blues-chicago-4-30-2027/production/7880680",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374514",
+        "url": "https://www.ticketnetwork.com/en/p/8374514",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374514",
+        "url": "https://www.ticketliquidator.com/tickets/8374514/Tori-Kelly-tickets-Fri-Apr-30-2027-House-Of-Blues-Chicago",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682740",
+        "url": "https://www.stubhub.ie/tori-kelly-chicago-tickets-4-30-2027/event/107682740",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_pGkRb2cSt",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374514",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374514/Tori-Kelly-tickets-Fri-Apr-30-2027-House-Of-Blues-Chicago",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-chicago-tickets-4-30-2027/event/107682740",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-23T04:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-minneapolis-z7r9jz1aaa4uk",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly w/ HILLARI",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "First Avenue",
+    "datetime_iso": "2027-05-02T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4uK",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4uK",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4uK",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4uK",
+        "discovery_event_id": "Z7r9jZ1AAA4uK",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4uK",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4uK",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2027-saint-louis-vv17bz_pgkmbgu0t",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "The Pageant",
+    "datetime_iso": "2027-05-05T01:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0600656B98336929",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-saint-louis-missouri-05-04-2027/event/0600656B98336929",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-saint-louis-missouri-05-04-2027/event/0600656B98336929",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656B98336929",
+        "discovery_event_id": "vv17bZ_pGkmbGU0t",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-saint-louis-missouri-05-04-2027/event/0600656B98336929",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683737",
+        "url": "https://www.stubhub.ie/tori-kelly-saint-louis-tickets-5-4-2027/event/107683737",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8374515",
+        "url": "https://www.ticketnetwork.com/en/p/8374515",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374515",
+        "url": "https://www.ticketliquidator.com/tickets/8374515/Tori-Kelly-tickets-Tue-May-4-2027-The-Pageant",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkmbGU0t",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-saint-louis-tickets-5-4-2027/event/107683737",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374515",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374515/Tori-Kelly-tickets-Tue-May-4-2027-The-Pageant",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-27T04:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-kansas-city-z7r9jz1aaaffz",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "The Truman - Kansas City",
+    "datetime_iso": "2027-05-06T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfFz",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFz",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/kansas-city-missouri-the-truman-2027-05-05-7-pm/concert/18778957",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFz",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfFz",
+        "discovery_event_id": "Z7r9jZ1AAAfFz",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFz",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778957,
+        "url": "https://seatgeek.com/tori-kelly-tickets/kansas-city-missouri-the-truman-2027-05-05-7-pm/concert/18778957",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8378007",
+        "url": "https://www.ticketnetwork.com/en/p/8378007",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8378007",
+        "url": "https://www.ticketliquidator.com/tickets/8378007/Tori-Kelly-tickets-Wed-May-5-2027-The-Truman-Kansas-City",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfFz",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8378007",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8378007/Tori-Kelly-tickets-Wed-May-5-2027-The-Truman-Kansas-City",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2027-denver-g5vzz_pmqeaxk",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Summit Music Hall",
+    "datetime_iso": "2027-05-09T01:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1E00656B9A9C5F86",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-denver-colorado-05-08-2027/event/1E00656B9A9C5F86",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/denver-colorado-summit-music-hall-denver-2027-05-08-7-pm/concert/18778574",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-denver-summit-music-hall-5-8-2027/production/7880623",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-denver-colorado-05-08-2027/event/1E00656B9A9C5F86",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00656B9A9C5F86",
+        "discovery_event_id": "G5vzZ_pmQEAXk",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-denver-colorado-05-08-2027/event/1E00656B9A9C5F86",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778574,
+        "url": "https://seatgeek.com/tori-kelly-tickets/denver-colorado-summit-music-hall-denver-2027-05-08-7-pm/concert/18778574",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7880623,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-denver-summit-music-hall-5-8-2027/production/7880623",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374516",
+        "url": "https://www.ticketnetwork.com/en/p/8374516",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374516",
+        "url": "https://www.ticketliquidator.com/tickets/8374516/Tori-Kelly-tickets-Sat-May-8-2027-The-Summit-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682736",
+        "url": "https://www.stubhub.ie/tori-kelly-denver-tickets-5-8-2027/event/107682736",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pmQEAXk",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374516",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374516/Tori-Kelly-tickets-Sat-May-8-2027-The-Summit-Music-Hall",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-denver-tickets-5-8-2027/event/107682736",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-11T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-01T05:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-salt-lake-city-g5vzz_pw0n4ot",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Salt Lake City",
+    "country": "United States Of America",
+    "venue": "The Depot",
+    "datetime_iso": "2027-05-10T01:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1E00656CA4A9547F",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-salt-lake-city-utah-05-09-2027/event/1E00656CA4A9547F",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-05-09-7-pm/concert/18778576",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-salt-lake-city-the-depot---ut-5-9-2027--concerts-pop/production/7880330",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-salt-lake-city-utah-05-09-2027/event/1E00656CA4A9547F",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00656CA4A9547F",
+        "discovery_event_id": "G5vzZ_pw0n4oT",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-salt-lake-city-utah-05-09-2027/event/1E00656CA4A9547F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778576,
+        "url": "https://seatgeek.com/tori-kelly-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-05-09-7-pm/concert/18778576",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7880330,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-salt-lake-city-the-depot---ut-5-9-2027--concerts-pop/production/7880330",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374517",
+        "url": "https://www.ticketnetwork.com/en/p/8374517",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374517",
+        "url": "https://www.ticketliquidator.com/tickets/8374517/Tori-Kelly-tickets-Sun-May-9-2027-The-Depot-Salt-Lake-City",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682732",
+        "url": "https://www.stubhub.ie/tori-kelly-salt-lake-city-tickets-5-9-2027/event/107682732",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pw0n4oT",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374517",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374517/Tori-Kelly-tickets-Sun-May-9-2027-The-Depot-Salt-Lake-City",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-salt-lake-city-tickets-5-9-2027/event/107682732",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-12T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-02T05:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-vancouver-1av7z_pgkwlyauw",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Queen Elizabeth Theatre",
+    "datetime_iso": "2027-05-13T02:30:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1100656C9FC05DBD",
+    "ticketmaster_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-vancouver-british-columbia-05-12-2027/event/1100656C9FC05DBD",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-05-12-7-pm/concert/18778581",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-vancouver-british-columbia-05-12-2027/event/1100656C9FC05DBD",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100656C9FC05DBD",
+        "discovery_event_id": "1Av7Z_pGkwLYAUW",
+        "url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-vancouver-british-columbia-05-12-2027/event/1100656C9FC05DBD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778581,
+        "url": "https://seatgeek.com/tori-kelly-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-05-12-7-pm/concert/18778581",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374525",
+        "url": "https://www.ticketnetwork.com/en/p/8374525",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374525",
+        "url": "https://www.ticketliquidator.com/tickets/8374525/Tori-Kelly-tickets-Wed-May-12-2027-Queen-Elizabeth-Theatre-Vancouver",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683728",
+        "url": "https://www.stubhub.ie/tori-kelly-tickets-vancouver-queen-elizabeth-theatre-vancouver-5-12-2027/event/107683728",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_pGkwLYAUW",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374525",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374525/Tori-Kelly-tickets-Wed-May-12-2027-Queen-Elizabeth-Theatre-Vancouver",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-vancouver-queen-elizabeth-theatre-vancouver-5-12-2027/event/107683728",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-05T05:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-seattle-z7r9jz1aaafgn",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Showbox SODO",
+    "datetime_iso": "2027-05-14T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfGN",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfGN",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/seattle-washington-showbox-sodo-2027-05-13-7-pm/concert/18778959",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-seattle-showbox-sodo-5-13-2027--concerts-pop/production/7880782",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfGN",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfGN",
+        "discovery_event_id": "Z7r9jZ1AAAfGN",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfGN",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778959,
+        "url": "https://seatgeek.com/tori-kelly-tickets/seattle-washington-showbox-sodo-2027-05-13-7-pm/concert/18778959",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7880782,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-seattle-showbox-sodo-5-13-2027--concerts-pop/production/7880782",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfGN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2027-portland-z7r9jz1aaafff",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "Tori Kelly w/ HILLARI",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "McMenamins Crystal Ballroom",
+    "datetime_iso": "2027-05-15T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAfFf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFf",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-05-14-7-pm/concert/18778961",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-portland-mcmenamins-crystal-ballroom-5-14-2027--concerts-pop/production/7880772",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFf",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAfFf",
+        "discovery_event_id": "Z7r9jZ1AAAfFf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18778961,
+        "url": "https://seatgeek.com/tori-kelly-tickets/portland-oregon-mcmenamins-crystal-ballroom-2027-05-14-7-pm/concert/18778961",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7880772,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-portland-mcmenamins-crystal-ballroom-5-14-2027--concerts-pop/production/7880772",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375222",
+        "url": "https://www.ticketnetwork.com/en/p/8375222",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375222",
+        "url": "https://www.ticketliquidator.com/tickets/8375222/Tori-Kelly-tickets-Fri-May-14-2027-McMenamins-Crystal-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfFf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375222",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375222/Tori-Kelly-tickets-Fri-May-14-2027-McMenamins-Crystal-Ballroom",
+    "genre": "Pop"
+  },
+  {
+    "id": "tm-tori-kelly-2027-sacramento-g5vyz_puiau1t",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Channel 24",
+    "datetime_iso": "2027-05-19T03:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "1C00656DA824D2BF",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-sacramento-california-05-18-2027/event/1C00656DA824D2BF",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-sacramento-channel-24-5-18-2027/production/7880652",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-sacramento-california-05-18-2027/event/1C00656DA824D2BF",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656DA824D2BF",
+        "discovery_event_id": "G5vYZ_pUIau1T",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-sacramento-california-05-18-2027/event/1C00656DA824D2BF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880652,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-sacramento-channel-24-5-18-2027/production/7880652",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374519",
+        "url": "https://www.ticketnetwork.com/en/p/8374519",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374519",
+        "url": "https://www.ticketliquidator.com/tickets/8374519/Tori-Kelly-tickets-Tue-May-18-2027-Channel-24",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683736",
+        "url": "https://www.stubhub.ie/tori-kelly-sacramento-tickets-5-18-2027/event/107683736",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pUIau1T",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374519",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374519/Tori-Kelly-tickets-Tue-May-18-2027-Channel-24",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-sacramento-tickets-5-18-2027/event/107683736",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-11T06:55:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-tori-kelly-2027-hollywood-vv170z_pgkwplbll",
+    "artist_slug": "tori-kelly",
+    "artist_name": "Tori Kelly",
+    "event_name": "TORI KELLY - GOD MUST REALLY LOVE ME WORLD TOUR",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Palladium",
+    "datetime_iso": "2027-05-21T02:00:00Z",
+    "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
+    "ticketmaster_event_id": "0900656C967D87DF",
+    "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-hollywood-california-05-20-2027/event/0900656C967D87DF",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-los-angeles-hollywood-palladium-5-20-2027/production/7880663",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-hollywood-california-05-20-2027/event/0900656C967D87DF",
+    "last_verified_at": "2026-11-23",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900656C967D87DF",
+        "discovery_event_id": "vv170Z_pGkwpLbLL",
+        "url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-hollywood-california-05-20-2027/event/0900656C967D87DF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7880663,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-los-angeles-hollywood-palladium-5-20-2027/production/7880663",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374521",
+        "url": "https://www.ticketnetwork.com/en/p/8374521",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374521",
+        "url": "https://www.ticketliquidator.com/tickets/8374521/Tori-Kelly-tickets-Thu-May-20-2027-Hollywood-Palladium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683742",
+        "url": "https://www.stubhub.ie/tori-kelly-hollywood-tickets-5-20-2027/event/107683742",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_pGkwpLbLL",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374521",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374521/Tori-Kelly-tickets-Thu-May-20-2027-Hollywood-Palladium",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-hollywood-tickets-5-20-2027/event/107683742",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-21T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-13T06:55:00Z"
+      }
+    ]
+  }
+]

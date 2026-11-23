@@ -51,21 +51,21 @@
         "event_id": "8363060",
         "url": "https://www.ticketliquidator.com/tickets/8363060/Cody-Jinks-tickets-Wed-Feb-3-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680709",
         "url": "https://www.stubhub.ie/cody-jinks-hollywood-tickets-2-3-2027/event/107680709",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363060",
         "url": "https://www.ticketnetwork.com/en/p/8363060",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -129,14 +129,14 @@
         "event_id": "8363632",
         "url": "https://www.ticketliquidator.com/tickets/8363632/Cody-Jinks-tickets-Fri-Feb-5-2027-Riverfront-Park-Cocoa-Village",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363632",
         "url": "https://www.ticketnetwork.com/en/p/8363632",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -199,14 +199,14 @@
         "event_id": "8363633",
         "url": "https://www.ticketliquidator.com/tickets/8363633/Cody-Jinks-tickets-Sat-Feb-6-2027-Apopka-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363633",
         "url": "https://www.ticketnetwork.com/en/p/8363633",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -269,14 +269,14 @@
         "event_id": "8363061",
         "url": "https://www.ticketliquidator.com/tickets/8363061/Cody-Jinks-tickets-Sun-Feb-7-2027-Macon-City-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363061",
         "url": "https://www.ticketnetwork.com/en/p/8363061",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -337,12 +337,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8363545",
+        "url": "https://www.ticketnetwork.com/en/p/8363545",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363545",
+        "url": "https://www.ticketliquidator.com/tickets/8363545/Cody-Jinks-tickets-Thu-Apr-1-2027-Billy-Bobs",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkr8",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363545",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363545/Cody-Jinks-tickets-Thu-Apr-1-2027-Billy-Bobs"
   },
   {
     "id": "tm-cody-jinks-2027-fort-worth-z7r9jz1aaakrz",
@@ -391,12 +407,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8363308",
+        "url": "https://www.ticketnetwork.com/en/p/8363308",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363308",
+        "url": "https://www.ticketliquidator.com/tickets/8363308/Cody-Jinks-tickets-Fri-Apr-2-2027-Billy-Bobs",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkrZ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363308",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363308/Cody-Jinks-tickets-Fri-Apr-2-2027-Billy-Bobs"
   },
   {
     "id": "tm-cody-jinks-2027-las-vegas-1a9zk40gkdisrrp",
@@ -450,14 +482,21 @@
         "event_id": "8363062",
         "url": "https://www.ticketliquidator.com/tickets/8363062/Cody-Jinks-tickets-Sun-Apr-25-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363062",
         "url": "https://www.ticketnetwork.com/en/p/8363062",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680931",
+        "url": "https://www.stubhub.ie/cody-jinks-las-vegas-tickets-4-25-2027/event/107680931",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -470,7 +509,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Country",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363062"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363062",
+    "stubhub_international_url": "https://www.stubhub.ie/cody-jinks-las-vegas-tickets-4-25-2027/event/107680931"
   },
   {
     "id": "tm-cody-jinks-2027-modesto-g5vyz_4lc0uvr",
@@ -524,14 +564,14 @@
         "event_id": "8363063",
         "url": "https://www.ticketliquidator.com/tickets/8363063/Cody-Jinks-tickets-Fri-Jun-11-2027-The-Fruit-Yard-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363063",
         "url": "https://www.ticketnetwork.com/en/p/8363063",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -605,14 +645,14 @@
         "event_id": "8363064",
         "url": "https://www.ticketliquidator.com/tickets/8363064/Cody-Jinks-tickets-Sat-Jun-12-2027-Lake-Tahoe-Amphitheatre-at-Caesars-Republic",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363064",
         "url": "https://www.ticketnetwork.com/en/p/8363064",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -679,14 +719,14 @@
         "event_id": "8363065",
         "url": "https://www.ticketliquidator.com/tickets/8363065/Cody-Jinks-tickets-Tue-Jun-15-2027-Bi-Mart-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363065",
         "url": "https://www.ticketnetwork.com/en/p/8363065",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -759,14 +799,14 @@
         "event_id": "8362827",
         "url": "https://www.ticketliquidator.com/tickets/8362827/Cody-Jinks-tickets-Thu-Jun-17-2027-Cuthbert-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8362827",
         "url": "https://www.ticketnetwork.com/en/p/8362827",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -829,14 +869,14 @@
         "event_id": "8363066",
         "url": "https://www.ticketliquidator.com/tickets/8363066/Cody-Jinks-tickets-Fri-Jun-18-2027-Gesa-Pavilion",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363066",
         "url": "https://www.ticketnetwork.com/en/p/8363066",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -898,11 +938,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362828",
+        "url": "https://www.ticketnetwork.com/en/p/8362828",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8362828",
+        "url": "https://www.ticketliquidator.com/tickets/8362828/Cody-Jinks-tickets-Tue-Jun-22-2027-Downtown-Billings-SkatePark",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6e_",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362828",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8362828/Cody-Jinks-tickets-Tue-Jun-22-2027-Downtown-Billings-SkatePark"
   }
 ]

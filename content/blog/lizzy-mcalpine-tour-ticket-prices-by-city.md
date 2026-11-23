@@ -2,9 +2,9 @@
 title: "Lizzy McAlpine tour tickets: listed prices city by city"
 seo_title: "Lizzy McAlpine ticket prices by city"
 description: "Lizzy McAlpine tour: the next date in 22 cities, $38 in San Francisco at the low end, $322 in Columbus at the high end."
-summary: "Vivid Seats' lowest listed price for the next Lizzy McAlpine date in each of 22 cities, each figure with the time it was captured. Snapshots 21 November 2026."
+summary: "Vivid Seats' lowest listed price for the next Lizzy McAlpine date in each of 22 cities, each figure with the time it was captured. Snapshots 22 November 2026."
 date: 2026-10-26
-updated: 2026-11-21
+updated: 2026-11-22
 status: published
 tags:
   - tour-data
@@ -20,28 +20,28 @@ Lizzy McAlpine's The Over Country Tour has 40 dates that TourTicketCompare track
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [San Francisco](/artists/lizzy-mcalpine/tickets/san-francisco-united-states) | 13 July 2027 | Chase Center | $38 | Vivid Seats | 21 November, 16:58 UTC |
-| [Austin](/artists/lizzy-mcalpine/tickets/austin-united-states) | 2 July 2027 | Moody Center ATX | $58 | Vivid Seats | 21 November, 16:58 UTC |
-| [San Diego](/artists/lizzy-mcalpine/tickets/san-diego-united-states) | 9 July 2027 | The Rady Shell at Jacobs Park | $58 | Vivid Seats | 21 November, 16:58 UTC |
-| [Seattle](/artists/lizzy-mcalpine/tickets/seattle-united-states) | 17 July 2027 | Climate Pledge Arena | $62 | Vivid Seats | 21 November, 16:58 UTC |
-| [Nashville](/artists/lizzy-mcalpine/tickets/nashville-united-states) | 16 June 2027 | Bridgestone Arena | $68 | Vivid Seats | 21 November, 16:58 UTC |
-| [Columbia](/artists/lizzy-mcalpine/tickets/columbia-united-states) | 25 June 2027 | Merriweather Post Pavilion | $76 | Vivid Seats | 21 November, 16:58 UTC |
-| [Portland](/artists/lizzy-mcalpine/tickets/portland-united-states) | 15 July 2027 | Moda Center | $76 | Vivid Seats | 21 November, 16:58 UTC |
-| [Chicago](/artists/lizzy-mcalpine/tickets/chicago-united-states) | 29 June 2027 | United Center | $82 | Vivid Seats | 21 November, 16:58 UTC |
-| [Inglewood](/artists/lizzy-mcalpine/tickets/inglewood-united-states) | 10 July 2027 | Kia Forum | $83 | Vivid Seats | 21 November, 16:58 UTC |
-| [Philadelphia](/artists/lizzy-mcalpine/tickets/philadelphia-united-states) | 18 June 2027 | Xfinity Mobile Arena | $88 | Vivid Seats | 21 November, 16:58 UTC |
-| [Houston](/artists/lizzy-mcalpine/tickets/houston-united-states) | 1 May 2027 | 713 Music Hall | $106 | Vivid Seats | 21 November, 16:58 UTC |
-| [Morrison](/artists/lizzy-mcalpine/tickets/morrison-united-states) | 6 July 2027 | Red Rocks Amphitheatre | $118 | Vivid Seats | 21 November, 16:58 UTC |
-| [New York](/artists/lizzy-mcalpine/tickets/new-york-united-states) | 24 June 2027 | Madison Square Garden | $154 | Vivid Seats | 21 November, 16:58 UTC |
-| [Detroit](/artists/lizzy-mcalpine/tickets/detroit-united-states) | 7 May 2027 | Fox Theatre Detroit | $165 | Vivid Seats | 21 November, 16:58 UTC |
-| [Indianapolis](/artists/lizzy-mcalpine/tickets/indianapolis-united-states) | 9 May 2027 | Clowes Memorial Hall | $165 | Vivid Seats | 21 November, 16:58 UTC |
-| [Boston](/artists/lizzy-mcalpine/tickets/boston-united-states) | 20 June 2027 | Agganis Arena | $167 | Vivid Seats | 21 November, 16:58 UTC |
-| [Dallas](/artists/lizzy-mcalpine/tickets/dallas-united-states) | 30 April 2027 | The Bomb Factory | $182 | Vivid Seats | 21 November, 16:58 UTC |
-| [Minneapolis](/artists/lizzy-mcalpine/tickets/minneapolis-united-states) | 12 May 2027 | State Theatre | $221 | Vivid Seats | 21 November, 16:58 UTC |
-| [Milwaukee](/artists/lizzy-mcalpine/tickets/milwaukee-united-states) | 10 May 2027 | Riverside Theater - WI | $233 | Vivid Seats | 21 November, 16:58 UTC |
-| [Atlanta](/artists/lizzy-mcalpine/tickets/atlanta-united-states) | 3 May 2027 | Fox Theatre - Atlanta | $259 | Vivid Seats | 21 November, 16:58 UTC |
-| [Kansas City](/artists/lizzy-mcalpine/tickets/kansas-city-united-states) | 17 May 2027 | The Midland Theatre - MO | $303 | Vivid Seats | 21 November, 16:58 UTC |
-| [Columbus](/artists/lizzy-mcalpine/tickets/columbus-united-states) | 6 May 2027 | Palace Theatre Columbus | $322 | Vivid Seats | 21 November, 16:58 UTC |
+| [San Francisco](/artists/lizzy-mcalpine/tickets/san-francisco-united-states) | 13 July 2027 | Chase Center | $38 | Vivid Seats | 22 November, 18:05 UTC |
+| [Austin](/artists/lizzy-mcalpine/tickets/austin-united-states) | 2 July 2027 | Moody Center ATX | $58 | Vivid Seats | 22 November, 18:05 UTC |
+| [San Diego](/artists/lizzy-mcalpine/tickets/san-diego-united-states) | 9 July 2027 | The Rady Shell at Jacobs Park | $58 | Vivid Seats | 22 November, 18:05 UTC |
+| [Seattle](/artists/lizzy-mcalpine/tickets/seattle-united-states) | 17 July 2027 | Climate Pledge Arena | $62 | Vivid Seats | 22 November, 18:05 UTC |
+| [Nashville](/artists/lizzy-mcalpine/tickets/nashville-united-states) | 16 June 2027 | Bridgestone Arena | $68 | Vivid Seats | 22 November, 18:05 UTC |
+| [Columbia](/artists/lizzy-mcalpine/tickets/columbia-united-states) | 25 June 2027 | Merriweather Post Pavilion | $76 | Vivid Seats | 22 November, 18:05 UTC |
+| [Portland](/artists/lizzy-mcalpine/tickets/portland-united-states) | 15 July 2027 | Moda Center | $76 | Vivid Seats | 22 November, 18:05 UTC |
+| [Chicago](/artists/lizzy-mcalpine/tickets/chicago-united-states) | 29 June 2027 | United Center | $82 | Vivid Seats | 22 November, 18:05 UTC |
+| [Inglewood](/artists/lizzy-mcalpine/tickets/inglewood-united-states) | 10 July 2027 | Kia Forum | $83 | Vivid Seats | 22 November, 18:05 UTC |
+| [Philadelphia](/artists/lizzy-mcalpine/tickets/philadelphia-united-states) | 18 June 2027 | Xfinity Mobile Arena | $88 | Vivid Seats | 22 November, 18:05 UTC |
+| [Houston](/artists/lizzy-mcalpine/tickets/houston-united-states) | 1 May 2027 | 713 Music Hall | $106 | Vivid Seats | 22 November, 18:05 UTC |
+| [Morrison](/artists/lizzy-mcalpine/tickets/morrison-united-states) | 6 July 2027 | Red Rocks Amphitheatre | $118 | Vivid Seats | 22 November, 18:05 UTC |
+| [New York](/artists/lizzy-mcalpine/tickets/new-york-united-states) | 24 June 2027 | Madison Square Garden | $154 | Vivid Seats | 22 November, 18:05 UTC |
+| [Indianapolis](/artists/lizzy-mcalpine/tickets/indianapolis-united-states) | 9 May 2027 | Clowes Memorial Hall | $165 | Vivid Seats | 22 November, 18:05 UTC |
+| [Boston](/artists/lizzy-mcalpine/tickets/boston-united-states) | 20 June 2027 | Agganis Arena | $167 | Vivid Seats | 22 November, 18:05 UTC |
+| [Detroit](/artists/lizzy-mcalpine/tickets/detroit-united-states) | 7 May 2027 | Fox Theatre Detroit | $167 | Vivid Seats | 22 November, 18:05 UTC |
+| [Dallas](/artists/lizzy-mcalpine/tickets/dallas-united-states) | 30 April 2027 | The Bomb Factory | $182 | Vivid Seats | 22 November, 18:05 UTC |
+| [Minneapolis](/artists/lizzy-mcalpine/tickets/minneapolis-united-states) | 12 May 2027 | State Theatre | $222 | Vivid Seats | 22 November, 18:05 UTC |
+| [Milwaukee](/artists/lizzy-mcalpine/tickets/milwaukee-united-states) | 10 May 2027 | Riverside Theater - WI | $233 | Vivid Seats | 22 November, 18:05 UTC |
+| [Atlanta](/artists/lizzy-mcalpine/tickets/atlanta-united-states) | 3 May 2027 | Fox Theatre - Atlanta | $259 | Vivid Seats | 22 November, 18:05 UTC |
+| [Kansas City](/artists/lizzy-mcalpine/tickets/kansas-city-united-states) | 17 May 2027 | The Midland Theatre - MO | $303 | Vivid Seats | 22 November, 18:05 UTC |
+| [Columbus](/artists/lizzy-mcalpine/tickets/columbus-united-states) | 6 May 2027 | Palace Theatre Columbus | $322 | Vivid Seats | 22 November, 18:05 UTC |
 
 Each figure is the lowest listed price on Vivid Seats for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
@@ -51,28 +51,28 @@ TicketNetwork also had a recent listed price for the next date in 22 of these ci
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Dallas](/artists/lizzy-mcalpine/tickets/dallas-united-states) | 30 April 2027 | The Bomb Factory | $279.45 | TicketNetwork | 21 November, 17:59 UTC |
-| [Houston](/artists/lizzy-mcalpine/tickets/houston-united-states) | 1 May 2027 | 713 Music Hall | $142.60 | TicketNetwork | 21 November, 17:58 UTC |
-| [Atlanta](/artists/lizzy-mcalpine/tickets/atlanta-united-states) | 3 May 2027 | Fox Theatre - Atlanta | $185.15 | TicketNetwork | 21 November, 17:59 UTC |
-| [Columbus](/artists/lizzy-mcalpine/tickets/columbus-united-states) | 6 May 2027 | Palace Theatre Columbus | $409.40 | TicketNetwork | 21 November, 17:59 UTC |
-| [Detroit](/artists/lizzy-mcalpine/tickets/detroit-united-states) | 7 May 2027 | Fox Theatre Detroit | $190.90 | TicketNetwork | 21 November, 17:58 UTC |
-| [Indianapolis](/artists/lizzy-mcalpine/tickets/indianapolis-united-states) | 9 May 2027 | Clowes Memorial Hall | $162.15 | TicketNetwork | 21 November, 17:58 UTC |
-| [Milwaukee](/artists/lizzy-mcalpine/tickets/milwaukee-united-states) | 10 May 2027 | Riverside Theater - WI | $235.75 | TicketNetwork | 21 November, 17:59 UTC |
-| [Minneapolis](/artists/lizzy-mcalpine/tickets/minneapolis-united-states) | 12 May 2027 | State Theatre | $175.95 | TicketNetwork | 21 November, 17:58 UTC |
-| [Kansas City](/artists/lizzy-mcalpine/tickets/kansas-city-united-states) | 17 May 2027 | The Midland Theatre - MO | $264.50 | TicketNetwork | 21 November, 17:59 UTC |
-| [Nashville](/artists/lizzy-mcalpine/tickets/nashville-united-states) | 16 June 2027 | Bridgestone Arena | $67.85 | TicketNetwork | 21 November, 17:58 UTC |
-| [Philadelphia](/artists/lizzy-mcalpine/tickets/philadelphia-united-states) | 18 June 2027 | Xfinity Mobile Arena | $109.25 | TicketNetwork | 21 November, 17:58 UTC |
-| [Boston](/artists/lizzy-mcalpine/tickets/boston-united-states) | 20 June 2027 | Agganis Arena | $143.75 | TicketNetwork | 21 November, 17:58 UTC |
-| [New York](/artists/lizzy-mcalpine/tickets/new-york-united-states) | 24 June 2027 | Madison Square Garden | $134.55 | TicketNetwork | 21 November, 17:58 UTC |
-| [Columbia](/artists/lizzy-mcalpine/tickets/columbia-united-states) | 25 June 2027 | Merriweather Post Pavilion | $90.85 | TicketNetwork | 21 November, 17:58 UTC |
-| [Chicago](/artists/lizzy-mcalpine/tickets/chicago-united-states) | 29 June 2027 | United Center | $98.90 | TicketNetwork | 21 November, 17:58 UTC |
-| [Austin](/artists/lizzy-mcalpine/tickets/austin-united-states) | 2 July 2027 | Moody Center ATX | $75.90 | TicketNetwork | 21 November, 17:58 UTC |
-| [Morrison](/artists/lizzy-mcalpine/tickets/morrison-united-states) | 6 July 2027 | Red Rocks Amphitheatre | $105.80 | TicketNetwork | 21 November, 17:59 UTC |
-| [San Diego](/artists/lizzy-mcalpine/tickets/san-diego-united-states) | 9 July 2027 | The Rady Shell at Jacobs Park | $69 | TicketNetwork | 21 November, 17:58 UTC |
-| [Inglewood](/artists/lizzy-mcalpine/tickets/inglewood-united-states) | 10 July 2027 | Kia Forum | $103.50 | TicketNetwork | 21 November, 17:58 UTC |
-| [San Francisco](/artists/lizzy-mcalpine/tickets/san-francisco-united-states) | 13 July 2027 | Chase Center | $46 | TicketNetwork | 21 November, 17:58 UTC |
-| [Portland](/artists/lizzy-mcalpine/tickets/portland-united-states) | 15 July 2027 | Moda Center | $78.20 | TicketNetwork | 21 November, 17:58 UTC |
-| [Seattle](/artists/lizzy-mcalpine/tickets/seattle-united-states) | 17 July 2027 | Climate Pledge Arena | $66.70 | TicketNetwork | 21 November, 17:58 UTC |
+| [Dallas](/artists/lizzy-mcalpine/tickets/dallas-united-states) | 30 April 2027 | The Bomb Factory | $140.30 | TicketNetwork | 22 November, 15:21 UTC |
+| [Houston](/artists/lizzy-mcalpine/tickets/houston-united-states) | 1 May 2027 | 713 Music Hall | $139.15 | TicketNetwork | 22 November, 15:21 UTC |
+| [Atlanta](/artists/lizzy-mcalpine/tickets/atlanta-united-states) | 3 May 2027 | Fox Theatre - Atlanta | $185.15 | TicketNetwork | 22 November, 15:21 UTC |
+| [Columbus](/artists/lizzy-mcalpine/tickets/columbus-united-states) | 6 May 2027 | Palace Theatre Columbus | $287.50 | TicketNetwork | 22 November, 15:21 UTC |
+| [Detroit](/artists/lizzy-mcalpine/tickets/detroit-united-states) | 7 May 2027 | Fox Theatre Detroit | $190.90 | TicketNetwork | 22 November, 15:21 UTC |
+| [Indianapolis](/artists/lizzy-mcalpine/tickets/indianapolis-united-states) | 9 May 2027 | Clowes Memorial Hall | $162.15 | TicketNetwork | 22 November, 15:21 UTC |
+| [Milwaukee](/artists/lizzy-mcalpine/tickets/milwaukee-united-states) | 10 May 2027 | Riverside Theater - WI | $235.75 | TicketNetwork | 22 November, 15:21 UTC |
+| [Minneapolis](/artists/lizzy-mcalpine/tickets/minneapolis-united-states) | 12 May 2027 | State Theatre | $175.95 | TicketNetwork | 22 November, 15:21 UTC |
+| [Kansas City](/artists/lizzy-mcalpine/tickets/kansas-city-united-states) | 17 May 2027 | The Midland Theatre - MO | $264.50 | TicketNetwork | 22 November, 15:21 UTC |
+| [Nashville](/artists/lizzy-mcalpine/tickets/nashville-united-states) | 16 June 2027 | Bridgestone Arena | $67.85 | TicketNetwork | 22 November, 15:21 UTC |
+| [Philadelphia](/artists/lizzy-mcalpine/tickets/philadelphia-united-states) | 18 June 2027 | Xfinity Mobile Arena | $109.25 | TicketNetwork | 22 November, 15:21 UTC |
+| [Boston](/artists/lizzy-mcalpine/tickets/boston-united-states) | 20 June 2027 | Agganis Arena | $143.75 | TicketNetwork | 22 November, 15:21 UTC |
+| [New York](/artists/lizzy-mcalpine/tickets/new-york-united-states) | 24 June 2027 | Madison Square Garden | $103.50 | TicketNetwork | 22 November, 15:21 UTC |
+| [Columbia](/artists/lizzy-mcalpine/tickets/columbia-united-states) | 25 June 2027 | Merriweather Post Pavilion | $58.65 | TicketNetwork | 22 November, 15:21 UTC |
+| [Chicago](/artists/lizzy-mcalpine/tickets/chicago-united-states) | 29 June 2027 | United Center | $98.90 | TicketNetwork | 22 November, 15:21 UTC |
+| [Austin](/artists/lizzy-mcalpine/tickets/austin-united-states) | 2 July 2027 | Moody Center ATX | $75.90 | TicketNetwork | 22 November, 15:21 UTC |
+| [Morrison](/artists/lizzy-mcalpine/tickets/morrison-united-states) | 6 July 2027 | Red Rocks Amphitheatre | $103.50 | TicketNetwork | 22 November, 15:21 UTC |
+| [San Diego](/artists/lizzy-mcalpine/tickets/san-diego-united-states) | 9 July 2027 | The Rady Shell at Jacobs Park | $64.40 | TicketNetwork | 22 November, 15:21 UTC |
+| [Inglewood](/artists/lizzy-mcalpine/tickets/inglewood-united-states) | 10 July 2027 | Kia Forum | $101.20 | TicketNetwork | 22 November, 15:21 UTC |
+| [San Francisco](/artists/lizzy-mcalpine/tickets/san-francisco-united-states) | 13 July 2027 | Chase Center | $46 | TicketNetwork | 22 November, 15:21 UTC |
+| [Portland](/artists/lizzy-mcalpine/tickets/portland-united-states) | 15 July 2027 | Moda Center | $78.20 | TicketNetwork | 22 November, 15:21 UTC |
+| [Seattle](/artists/lizzy-mcalpine/tickets/seattle-united-states) | 17 July 2027 | Climate Pledge Arena | $66.70 | TicketNetwork | 22 November, 15:21 UTC |
 
 ## How this was worked out
 

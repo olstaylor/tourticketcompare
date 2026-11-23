@@ -1935,15 +1935,6 @@ summary {
   margin-top: 2px;
 }
 
-/* One short line naming how many checked ticket sites this date leads to.
-   Sits directly above the button group it counts, so it reads as a label
-   rather than another sentence of card copy. */
-.show-card .provider-cta-count {
-  margin: 6px 0 0;
-  font-size: 0.76rem;
-  line-height: 1.35;
-}
-
 .show-card .disclosure-note {
   margin: 0;
   font-size: 0.76rem;
@@ -2304,6 +2295,77 @@ summary {
   .price-answer-table .price-answer-price {
     padding-top: 7px;
   }
+
+  /* Phone date rows: date and extra facts on the left, the lowest price on the
+     right, so twelve dates scan as a list instead of twelve stacked cards
+     (Metallica Las Vegas: 2,251px to about 1,340px). The "Resale marketplace"
+     role is hidden here because it repeats on every row; the provider name
+     and price stay. */
+  .price-answer-table tbody tr {
+    display: grid;
+    grid-template-columns: minmax(0, 9fr) minmax(0, 11fr);
+    column-gap: 10px;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  .price-answer-table tbody th {
+    grid-column: 1;
+    font-size: 0.92rem;
+    line-height: 1.3;
+    padding: 0;
+  }
+
+  .price-answer-table tbody td {
+    grid-column: 1;
+    padding: 0;
+    font-size: 0.8rem;
+  }
+
+  .price-answer-table tbody td.price-answer-price {
+    grid-column: 2;
+    grid-row: 1 / -1;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+    padding: 7px 10px;
+    gap: 1px;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta-role {
+    display: none;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta-name {
+    grid-row: 1;
+    font-size: 0.72rem;
+    letter-spacing: 0;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta-value {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
+  }
+
+  /* Other sites: one "Site price" pair per block under its own label, so pairs
+     do not run together (it read "Vivid Seats USD 176 TicketNetwork USD
+     204.70" as one wrapped run). Never truncated: a cut price is worse. */
+  .price-answer-table td[data-label="Other sites"]::before {
+    display: block;
+  }
+
+  .price-answer-table td[data-label="Other sites"] br {
+    display: none;
+  }
+
+  .price-answer-table .price-answer-other {
+    display: block;
+    line-height: 1.35;
+    padding: 1px 0;
+  }
 }
 
 /* Mobile board tools (2026-09-24, launch-readiness Phase 4). On a phone the
@@ -2445,10 +2507,6 @@ summary {
 .show-card-actions > .show-details-link,
 .show-card-actions > .price-history {
   flex: 0 1 auto;
-}
-
-.show-card .provider-cta-count {
-  margin: 0;
 }
 
 /* The lowest of two or more fresh listed prices on a card (names it; never

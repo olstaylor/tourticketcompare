@@ -51,14 +51,14 @@
         "event_id": "8315064",
         "url": "https://www.ticketnetwork.com/en/p/8315064",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315064",
         "url": "https://www.ticketliquidator.com/tickets/8315064/Remi-Wolf-tickets-Tue-Feb-23-2027-The-Anthem-DC",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -105,11 +105,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664758,
+        "url": "https://seatgeek.com/remi-wolf-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-02-26-8-pm/concert/18664758",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -129,14 +129,14 @@
         "event_id": "8315065",
         "url": "https://www.ticketnetwork.com/en/p/8315065",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315065",
         "url": "https://www.ticketliquidator.com/tickets/8315065/Remi-Wolf-tickets-Fri-Feb-26-2027-The-Met-Presented-by-Highmark",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -210,14 +210,14 @@
         "event_id": "8315066",
         "url": "https://www.ticketnetwork.com/en/p/8315066",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315066",
         "url": "https://www.ticketliquidator.com/tickets/8315066/Remi-Wolf-tickets-Sat-Feb-27-2027-Radio-City-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -295,21 +295,21 @@
         "event_id": "8315068",
         "url": "https://www.ticketnetwork.com/en/p/8315068",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315068",
         "url": "https://www.ticketliquidator.com/tickets/8315068/Remi-Wolf-tickets-Tue-Mar-2-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672948",
         "url": "https://www.stubhub.ie/remi-wolf-boston-tickets-3-2-2027/event/107672948",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -384,21 +384,21 @@
         "event_id": "8325850",
         "url": "https://www.ticketnetwork.com/en/p/8325850",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8325850",
         "url": "https://www.ticketliquidator.com/tickets/8325850/Remi-Wolf-tickets-Wed-Mar-3-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107677326",
         "url": "https://www.stubhub.ie/remi-wolf-boston-tickets-3-3-2027/event/107677326",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -588,14 +588,14 @@
         "event_id": "8315229",
         "url": "https://www.ticketnetwork.com/en/p/8315229",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315229",
         "url": "https://www.ticketliquidator.com/tickets/8315229/Remi-Wolf-tickets-Sun-Mar-7-2027-Masonic-Temple-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -652,6 +652,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315069",
+        "url": "https://www.ticketnetwork.com/en/p/8315069",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315069",
+        "url": "https://www.ticketliquidator.com/tickets/8315069/Remi-Wolf-tickets-Tue-Mar-9-2027-The-Salt-Shed-Indoors-Chicago",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4FGkdb7-A0",
@@ -669,7 +683,9 @@
     ],
     "ticket_limit": 4,
     "legal_age_enforced": true,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315069",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315069/Remi-Wolf-tickets-Tue-Mar-9-2027-The-Salt-Shed-Indoors-Chicago"
   },
   {
     "id": "tm-remi-wolf-2027-chicago-vv1a7zk4fgkdbs-1k",
@@ -718,6 +734,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326055",
+        "url": "https://www.ticketnetwork.com/en/p/8326055",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326055",
+        "url": "https://www.ticketliquidator.com/tickets/8326055/Remi-Wolf-tickets-Wed-Mar-10-2027-The-Salt-Shed-Indoors-Chicago",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk4FGkdbs-1K",
@@ -728,7 +758,9 @@
     ],
     "ticket_limit": 4,
     "legal_age_enforced": true,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326055",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326055/Remi-Wolf-tickets-Wed-Mar-10-2027-The-Salt-Shed-Indoors-Chicago"
   },
   {
     "id": "tm-remi-wolf-2027-minneapolis-vv1akzk46gkdn_2lp",
@@ -782,14 +814,14 @@
         "event_id": "8315071",
         "url": "https://www.ticketnetwork.com/en/p/8315071",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315071",
         "url": "https://www.ticketliquidator.com/tickets/8315071/Remi-Wolf-tickets-Fri-Mar-12-2027-The-Armory-Minneapolis",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -842,7 +874,7 @@
         "event_id": 18664770,
         "url": "https://seatgeek.com/remi-wolf-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-03-13-8-pm/concert/18664770",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -863,14 +895,14 @@
         "event_id": "8315072",
         "url": "https://www.ticketnetwork.com/en/p/8315072",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315072",
         "url": "https://www.ticketliquidator.com/tickets/8315072/Remi-Wolf-tickets-Sat-Mar-13-2027-Landmark-Credit-Union-Live",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -939,6 +971,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315073",
+        "url": "https://www.ticketnetwork.com/en/p/8315073",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315073",
+        "url": "https://www.ticketliquidator.com/tickets/8315073/Remi-Wolf-tickets-Tue-Mar-16-2027-The-Factory-Chesterfield",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16-Zk46uYZAG1a76",
@@ -954,7 +1000,9 @@
         "end": "2027-02-17T04:00:00Z"
       }
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315073",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315073/Remi-Wolf-tickets-Tue-Mar-16-2027-The-Factory-Chesterfield"
   },
   {
     "id": "tm-remi-wolf-2027-cincinnati-1kaovpo_gagbfxb",
@@ -984,11 +1032,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664773,
+        "url": "https://seatgeek.com/remi-wolf-tickets/cincinnati-ohio-andrew-j-brady-music-center-2027-03-17-8-pm/concert/18664773",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679320,
@@ -1008,7 +1056,14 @@
         "event_id": "8315076",
         "url": "https://www.ticketnetwork.com/en/p/8315076",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315076",
+        "url": "https://www.ticketliquidator.com/tickets/8315076/Remi-Wolf-tickets-Wed-Mar-17-2027-The-Andrew-J-Brady-ICON-Music-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1020,7 +1075,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315076/Remi-Wolf-tickets-Wed-Mar-17-2027-The-Andrew-J-Brady-ICON-Music-Center"
   },
   {
     "id": "tm-remi-wolf-2027-nashville-g5viz_fni20_x",
@@ -1053,7 +1109,7 @@
         "event_id": 18664774,
         "url": "https://seatgeek.com/remi-wolf-tickets/nashville-tennessee-the-truth-nashville-2027-03-19-8-pm/concert/18664774",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1074,14 +1130,14 @@
         "event_id": "8315079",
         "url": "https://www.ticketnetwork.com/en/p/8315079",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315079",
         "url": "https://www.ticketliquidator.com/tickets/8315079/Remi-Wolf-tickets-Fri-Mar-19-2027-The-Truth",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1139,7 +1195,7 @@
         "event_id": 18664775,
         "url": "https://seatgeek.com/remi-wolf-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-03-20-8-pm/concert/18664775",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1160,14 +1216,14 @@
         "event_id": "8315080",
         "url": "https://www.ticketnetwork.com/en/p/8315080",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315080",
         "url": "https://www.ticketliquidator.com/tickets/8315080/Remi-Wolf-tickets-Sat-Mar-20-2027-Coca-Cola-Roxy",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1240,14 +1296,14 @@
         "event_id": "8315230",
         "url": "https://www.ticketnetwork.com/en/p/8315230",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315230",
         "url": "https://www.ticketliquidator.com/tickets/8315230/Remi-Wolf-tickets-Thu-May-6-2027-Moody-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1297,11 +1353,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664782,
+        "url": "https://seatgeek.com/remi-wolf-tickets/houston-texas-713-music-hall-2027-05-07-8-pm/concert/18664782",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679340,
@@ -1321,21 +1377,21 @@
         "event_id": "8315081",
         "url": "https://www.ticketnetwork.com/en/p/8315081",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315081",
         "url": "https://www.ticketliquidator.com/tickets/8315081/Remi-Wolf-tickets-Fri-May-7-2027-713-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672957",
         "url": "https://www.stubhub.ie/remi-wolf-houston-tickets-5-7-2027/event/107672957",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1403,14 +1459,14 @@
         "event_id": "8315082",
         "url": "https://www.ticketnetwork.com/en/p/8315082",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315082",
         "url": "https://www.ticketliquidator.com/tickets/8315082/Remi-Wolf-tickets-Sat-May-8-2027-The-Pavilion-at-Toyota-Music-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1479,11 +1535,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8315231",
+        "url": "https://www.ticketnetwork.com/en/p/8315231",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8315231",
+        "url": "https://www.ticketliquidator.com/tickets/8315231/Remi-Wolf-tickets-Mon-May-10-2027-Cains-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7ar_",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8315231",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8315231/Remi-Wolf-tickets-Mon-May-10-2027-Cains-Ballroom"
   },
   {
     "id": "tm-remi-wolf-2027-kansas-city-z7r9jz1aa7kjk",
@@ -1537,14 +1609,14 @@
         "event_id": "8315232",
         "url": "https://www.ticketnetwork.com/en/p/8315232",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315232",
         "url": "https://www.ticketliquidator.com/tickets/8315232/Remi-Wolf-tickets-Tue-May-11-2027-The-Midland-Theatre-MO",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1606,14 +1678,14 @@
         "event_id": "8315233",
         "url": "https://www.ticketnetwork.com/en/p/8315233",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315233",
         "url": "https://www.ticketliquidator.com/tickets/8315233/Remi-Wolf-tickets-Wed-May-12-2027-Val-Air-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1675,14 +1747,14 @@
         "event_id": "8315032",
         "url": "https://www.ticketnetwork.com/en/p/8315032",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315032",
         "url": "https://www.ticketliquidator.com/tickets/8315032/Remi-Wolf-tickets-Sun-May-16-2027-Red-Rocks-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1744,14 +1816,14 @@
         "event_id": "8315083",
         "url": "https://www.ticketnetwork.com/en/p/8315083",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315083",
         "url": "https://www.ticketliquidator.com/tickets/8315083/Remi-Wolf-tickets-Wed-May-19-2027-KettleHouse-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1825,14 +1897,14 @@
         "event_id": "8315400",
         "url": "https://www.ticketnetwork.com/en/p/8315400",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315400",
         "url": "https://www.ticketliquidator.com/tickets/8315400/Remi-Wolf-tickets-Fri-May-21-2027-PNE-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1894,14 +1966,14 @@
         "event_id": "8315084",
         "url": "https://www.ticketnetwork.com/en/p/8315084",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315084",
         "url": "https://www.ticketliquidator.com/tickets/8315084/Remi-Wolf-tickets-Sat-May-22-2027-Wamu-Theater-At-Lumen-Field-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1951,11 +2023,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18786076,
+        "url": "https://seatgeek.com/remi-wolf-tickets/washington-district-of-columbia-the-anthem-dc-2027-02-24-7-30-pm/concert/18786076",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7888944,
@@ -1975,14 +2047,14 @@
         "event_id": "8376396",
         "url": "https://www.ticketnetwork.com/en/p/8376396",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8376396",
         "url": "https://www.ticketliquidator.com/tickets/8376396/Remi-Wolf-tickets-Wed-Feb-24-2027-The-Anthem-DC",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2022,11 +2094,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18785269,
+        "url": "https://seatgeek.com/remi-wolf-tickets/berkeley-california-the-greek-theatre-at-u-c-berkeley-2027-04-30-8-pm/concert/18785269",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7888924,
@@ -2046,14 +2118,14 @@
         "event_id": "8376395",
         "url": "https://www.ticketnetwork.com/en/p/8376395",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8376395",
         "url": "https://www.ticketliquidator.com/tickets/8376395/Remi-Wolf-tickets-Fri-Apr-30-2027-Greek-Theatre-UC-Berkeley",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2120,14 +2192,14 @@
         "event_id": "8376394",
         "url": "https://www.ticketnetwork.com/en/p/8376394",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8376394",
         "url": "https://www.ticketliquidator.com/tickets/8376394/Remi-Wolf-tickets-Mon-May-3-2027-The-Van-Buren",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2201,7 +2273,14 @@
         "event_id": "8383030",
         "url": "https://www.ticketliquidator.com/tickets/8383030/Remi-Wolf-tickets-Tue-May-4-2027-The-Van-Buren",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8383030",
+        "url": "https://www.ticketnetwork.com/en/p/8383030",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2220,6 +2299,7 @@
         "end": "2027-04-05T05:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8383030/Remi-Wolf-tickets-Tue-May-4-2027-The-Van-Buren"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8383030/Remi-Wolf-tickets-Tue-May-4-2027-The-Van-Buren",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8383030"
   }
 ]

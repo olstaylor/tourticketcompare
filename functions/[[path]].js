@@ -68,7 +68,7 @@ import {
   WEEKLY_CHANGE_DAYS
 } from "./_event-price-moves.js";
 import { isUpcomingShow, showStartMs } from "./_upcoming.js";
-import { CARD_PRICE_TAIL, LAST_SEEN_MAX_DAYS, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, PRICE_SUMMARY, lastSeenDate, lastSeenNote, lowestPriceLabel, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
+import { LAST_SEEN_MAX_DAYS, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, PRICE_SUMMARY, lastSeenDate, lastSeenNote, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
 import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
 import { deriveEventPriceRange, fetchEventPriceRange } from "./_event-price-range.js";
@@ -6866,7 +6866,7 @@ function renderServerPriceNotes(ctaSpecs, pricesChecked = false, show = null) {
   const checkedText = checked.length > 1 ? `${checked.slice(0, -1).join(", ")} and ${checked[checked.length - 1]}` : checked[0];
   const foreignCurrency = ["UK", "GB", "United Kingdom"].includes(show?.country) && priced.some((spec) => spec.lane?.currency !== "GBP");
   const currencyNote = foreignCurrency ? '<p class="disclosure-note currency-note">This UK event has prices in a foreign currency. Figures are shown as supplied; your bank or seller may charge for conversion.</p>' : "";
-  return `<div class="provider-cta-notes"><p class="disclosure-note">Checked ${checkedText} · ${escapeHtml(CARD_PRICE_TAIL)}</p>${currencyNote}</div>`;
+  return `<div class="provider-cta-notes"><p class="disclosure-note">Checked ${checkedText}</p>${currencyNote}</div>`;
 }
 
 // relativeCheckAge ("5 hours ago") lives in _price-wording.js. Always shown
@@ -6959,21 +6959,6 @@ export function eventPublishableLaneSlugs(event, env = {}) {
   }).map((spec) => spec.provider);
 }
 
-// One compact line above a card's provider buttons, rendered only when at
-// least one button shows a price, saying what that number is (P1,
-// owner-approved 2026-09-24). The site count that used to lead it ("1 ticket
-// site for this date") was dropped on 2026-09-25 (owner request): the buttons
-// directly under it are that count, and on the common one-button card the line
-// said nothing else. It never uses comparison wording. `priced` is how many of
-// the buttons show a price. It never says "on each": SeatGeek and Ticketmaster
-// never carry a price, so most cards are mixed (the old "where shown" variant
-// read as a riddle, 2026-10-06).
-// Keep in sync with showCtaCountLabel in public/app.js.
-function ctaCountLabel(count, priced = 0) {
-  if (count < 1) return "";
-  return lowestPriceLabel(priced);
-}
-
 // Names the lowest of two or more fresh listed prices on a card, so a buyer
 // does not have to scan the buttons (owner-approved 2026-11-16). It reads the
 // same figures the buttons print, compares one currency only, and does not
@@ -6986,11 +6971,12 @@ function lowestListedSpec(ctaSpecs) {
   return priced.reduce((low, spec) => (spec.lane.price < low.lane.price ? spec : low));
 }
 
+// The line naming the cheapest listed price on a card, only when two or more
+// buttons show one. What a price means ("starting prices only, not the final
+// total") is said once per board, in PRICE_SUMMARY, not on every card.
 const ctaCountLineHtml = (ctaSpecs) => {
-  const label = ctaCountLabel(ctaSpecs.length, pricedCount(ctaSpecs));
   const low = lowestListedSpec(ctaSpecs);
-  const lowHtml = low ? `<p class="provider-cta-lowest"><strong>Lowest listed: ${escapeHtml(low.priceAmount)}</strong> on ${escapeHtml(low.name)}</p>` : "";
-  return label ? `<p class="provider-cta-count muted">${escapeHtml(label)}</p>${lowHtml}` : "";
+  return low ? `<p class="provider-cta-lowest"><strong>Lowest listed: ${escapeHtml(low.priceAmount)}</strong> on ${escapeHtml(low.name)}</p>` : "";
 };
 
 const pricedCount = (ctaSpecs) => ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf).length;
@@ -9131,8 +9117,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261123a" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261123a" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261123b" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261123b" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20261122a" defer></script></body>');

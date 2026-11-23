@@ -1935,15 +1935,6 @@ summary {
   margin-top: 2px;
 }
 
-/* One short line naming how many checked ticket sites this date leads to.
-   Sits directly above the button group it counts, so it reads as a label
-   rather than another sentence of card copy. */
-.show-card .provider-cta-count {
-  margin: 6px 0 0;
-  font-size: 0.76rem;
-  line-height: 1.35;
-}
-
 .show-card .disclosure-note {
   margin: 0;
   font-size: 0.76rem;
@@ -2499,10 +2490,6 @@ summary {
 .show-card-actions > .show-details-link,
 .show-card-actions > .price-history {
   flex: 0 1 auto;
-}
-
-.show-card .provider-cta-count {
-  margin: 0;
 }
 
 /* The lowest of two or more fresh listed prices on a card (names it; never

@@ -2349,6 +2349,23 @@ summary {
     grid-row: 2;
     text-align: left;
   }
+
+  /* Other sites: one "Site price" pair per block under its own label, so pairs
+     do not run together (it read "Vivid Seats USD 176 TicketNetwork USD
+     204.70" as one wrapped run). Never truncated: a cut price is worse. */
+  .price-answer-table td[data-label="Other sites"]::before {
+    display: block;
+  }
+
+  .price-answer-table td[data-label="Other sites"] br {
+    display: none;
+  }
+
+  .price-answer-table .price-answer-other {
+    display: block;
+    line-height: 1.35;
+    padding: 1px 0;
+  }
 }
 
 /* Mobile board tools (2026-09-24, launch-readiness Phase 4). On a phone the

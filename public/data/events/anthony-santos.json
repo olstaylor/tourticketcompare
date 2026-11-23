@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tm-anthony-santos-2027-newark-vv1aezk4sgkdqnkwj",
+    "artist_slug": "anthony-santos",
+    "artist_name": "Anthony Santos",
+    "event_name": "Anthony Santos",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-05-30T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006573DAA86CA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/anthony-santos-newark-new-jersey-05-29-2027/event/02006573DAA86CA6",
+    "seatgeek_url": "https://seatgeek.com/anthony-santos-tickets/newark-new-jersey-prudential-center-2027-05-29-8-pm/concert/18842282",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/anthony-santos-newark-new-jersey-05-29-2027/event/02006573DAA86CA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006573DAA86CA6",
+        "discovery_event_id": "vv1AeZk4SGkdQnkwJ",
+        "url": "https://www.ticketmaster.com/anthony-santos-newark-new-jersey-05-29-2027/event/02006573DAA86CA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4SGkdQnkwJ",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-24T15:00:00Z"
+  }
+]

@@ -4038,6 +4038,48 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-rascal-flatts",
     redirectUrl: "https://seatgeek.com/rascal-flatts-tickets",
     verified: true
+  },
+  "anthony-santos:ticketmaster": {
+    artistSlug: "anthony-santos",
+    provider: "ticketmaster",
+    linkId: "tm-artist-anthony-santos",
+    redirectUrl: "https://www.ticketmaster.com/anthony-santos-tickets/artist/1966245",
+    verified: true
+  },
+  "anthony-santos:seatgeek": {
+    artistSlug: "anthony-santos",
+    provider: "seatgeek",
+    linkId: "sg-artist-anthony-santos",
+    redirectUrl: "https://seatgeek.com/anthony-santos-tickets",
+    verified: true
+  },
+  "deftones:ticketmaster": {
+    artistSlug: "deftones",
+    provider: "ticketmaster",
+    linkId: "tm-artist-deftones",
+    redirectUrl: "https://www.ticketmaster.com/deftones-tickets/artist/777416",
+    verified: true
+  },
+  "deftones:seatgeek": {
+    artistSlug: "deftones",
+    provider: "seatgeek",
+    linkId: "sg-artist-deftones",
+    redirectUrl: "https://seatgeek.com/deftones-tickets",
+    verified: true
+  },
+  "matchbox-twenty:ticketmaster": {
+    artistSlug: "matchbox-twenty",
+    provider: "ticketmaster",
+    linkId: "tm-artist-matchbox-twenty",
+    redirectUrl: "https://www.ticketmaster.com/matchbox-twenty-tickets/artist/780731",
+    verified: true
+  },
+  "matchbox-twenty:seatgeek": {
+    artistSlug: "matchbox-twenty",
+    provider: "seatgeek",
+    linkId: "sg-artist-matchbox-twenty",
+    redirectUrl: "https://seatgeek.com/matchbox-twenty-tickets",
+    verified: true
   }
 };
 

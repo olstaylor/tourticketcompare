@@ -1,0 +1,2864 @@
+[
+  {
+    "id": "tm-matchbox-twenty-2027-lincoln-g5vyz_plp6uxp",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty",
+    "city": "Lincoln",
+    "country": "United States Of America",
+    "venue": "The Venue at Thunder Valley Casino Resort",
+    "datetime_iso": "2027-04-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656AE51CD896",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-lincoln-california-04-23-2027/event/1C00656AE51CD896",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-lincoln-california-04-23-2027/event/1C00656AE51CD896",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656AE51CD896",
+        "discovery_event_id": "G5vYZ_plP6uxp",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-lincoln-california-04-23-2027/event/1C00656AE51CD896",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_plP6uxp",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-birmingham-1aozk4agkexc7my",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Coca-Cola Amphitheater",
+    "datetime_iso": "2027-05-16T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "20006549A2384BB0",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-birmingham-alabama-05-15-2027/event/20006549A2384BB0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-birmingham-alabama-05-15-2027/event/20006549A2384BB0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006549A2384BB0",
+        "discovery_event_id": "1AOZk4aGkexC7mY",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-birmingham-alabama-05-15-2027/event/20006549A2384BB0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4aGkexC7mY",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-charlotte-g5evz_fljqb_-",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Truliant Amphitheater",
+    "datetime_iso": "2027-05-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006547E66BA661",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-charlotte-north-carolina-05-16-2027/event/2D006547E66BA661",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-charlotte-north-carolina-05-16-2027/event/2D006547E66BA661",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006547E66BA661",
+        "discovery_event_id": "G5eVZ_fLJQB_-",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-charlotte-north-carolina-05-16-2027/event/2D006547E66BA661",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_fLJQB_-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-nashville-g5viz_fxnfxx8",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Bridgestone Arena",
+    "datetime_iso": "2027-05-19T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006548AA522F90",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-nashville-tennessee-05-18-2027/event/1B006548AA522F90",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-nashville-tennessee-05-18-2027/event/1B006548AA522F90",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006548AA522F90",
+        "discovery_event_id": "G5viZ_fxnfxX8",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-nashville-tennessee-05-18-2027/event/1B006548AA522F90",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_fxnfxX8",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-kansas-city-1a-zk46gkdtcbvj",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Morton Amphitheater",
+    "datetime_iso": "2027-05-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006547FF39805C",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-kansas-city-missouri-05-20-2027/event/21006547FF39805C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-kansas-city-missouri-05-20-2027/event/21006547FF39805C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006547FF39805C",
+        "discovery_event_id": "1A-Zk46GkdTCbvj",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-kansas-city-missouri-05-20-2027/event/21006547FF39805C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-Zk46GkdTCbvj",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-morrison-z7r9jz1aa7aba",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-23T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7abA",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7abA",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7abA",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7abA",
+        "discovery_event_id": "Z7r9jZ1AA7abA",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7abA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7abA",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-morrison-z7r9jz1aa7-vo",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty w/ The Wallflowers",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-24T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7-vo",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-vo",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-vo",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7-vo",
+        "discovery_event_id": "Z7r9jZ1AA7-vo",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7-vo",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7-vo",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-west-valley-city-g5vzz_f9arlbt",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "West Valley City",
+    "country": "United States Of America",
+    "venue": "Utah First Credit Union Amphitheatre",
+    "datetime_iso": "2027-05-27T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006545C57AB629",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-west-valley-city-utah-05-26-2027/event/1E006545C57AB629",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-west-valley-city-utah-05-26-2027/event/1E006545C57AB629",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006545C57AB629",
+        "discovery_event_id": "G5vzZ_f9Arlbt",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-west-valley-city-utah-05-26-2027/event/1E006545C57AB629",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_f9Arlbt",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-nampa-z7r9jz1aa7ab8",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Nampa",
+    "country": "United States Of America",
+    "venue": "Ford Idaho Center Amphitheater",
+    "datetime_iso": "2027-05-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7ab8",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ab8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ab8",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7ab8",
+        "discovery_event_id": "Z7r9jZ1AA7ab8",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ab8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7ab8",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-airway-heights-z7r9jz1aa7abf",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Airway Heights",
+    "country": "United States Of America",
+    "venue": "BECU Live Outdoor Venue",
+    "datetime_iso": "2027-05-30T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7abf",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7abf",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7abf",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7abf",
+        "discovery_event_id": "Z7r9jZ1AA7abf",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7abf",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7abf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-vancouver-z7r9jz1aa7abo",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty w/ The Wallflowers",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Freedom Mobile Arch",
+    "datetime_iso": "2027-05-31T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7abO",
+    "ticketmaster_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7abO",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7abO",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7abO",
+        "discovery_event_id": "Z7r9jZ1AA7abO",
+        "url": "https://www.ticketmaster.ca/event/Z7r9jZ1AA7abO",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7abO",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-auburn-vvg1hz_fqbiyus",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Auburn",
+    "country": "United States Of America",
+    "venue": "White River Amphitheatre",
+    "datetime_iso": "2027-06-03T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006546BAA39373",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-auburn-washington-06-02-2027/event/0F006546BAA39373",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-auburn-washington-06-02-2027/event/0F006546BAA39373",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006546BAA39373",
+        "discovery_event_id": "vvG1HZ_fQBIyuS",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-auburn-washington-06-02-2027/event/0F006546BAA39373",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_fQBIyuS",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-ridgefield-vvg1hz_f5a_jj0",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Ridgefield",
+    "country": "United States Of America",
+    "venue": "Cascades Amphitheater",
+    "datetime_iso": "2027-06-05T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006542C965C9A4",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-ridgefield-washington-06-04-2027/event/0F006542C965C9A4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-ridgefield-washington-06-04-2027/event/0F006542C965C9A4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006542C965C9A4",
+        "discovery_event_id": "vvG1HZ_f5a_jJ0",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-ridgefield-washington-06-04-2027/event/0F006542C965C9A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_f5a_jJ0",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-bend-vvg1hz_f5drgeg",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Bend",
+    "country": "United States Of America",
+    "venue": "Hayden Homes Amphitheater",
+    "datetime_iso": "2027-06-06T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006542C378C0B5",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-bend-oregon-06-05-2027/event/0F006542C378C0B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-bend-oregon-06-05-2027/event/0F006542C378C0B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006542C378C0B5",
+        "discovery_event_id": "vvG1HZ_f5drGeg",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-bend-oregon-06-05-2027/event/0F006542C378C0B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_f5drGeg",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-mountain-view-g5vyz_fkannnv",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Mountain View",
+    "country": "United States Of America",
+    "venue": "Shoreline Amphitheatre",
+    "datetime_iso": "2027-06-09T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006544C9AAAA81",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-mountain-view-california-06-08-2027/event/1C006544C9AAAA81",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-mountain-view-california-06-08-2027/event/1C006544C9AAAA81",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006544C9AAAA81",
+        "discovery_event_id": "G5vYZ_fKannnv",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-mountain-view-california-06-08-2027/event/1C006544C9AAAA81",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_fKannnv",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-hollywood-vvg1iz_flwpfyj",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2027-06-10T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0B006547F2588C1C",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-hollywood-california-06-09-2027/event/0B006547F2588C1C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-hollywood-california-06-09-2027/event/0B006547F2588C1C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006547F2588C1C",
+        "discovery_event_id": "vvG1iZ_fLwpFYj",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-hollywood-california-06-09-2027/event/0B006547F2588C1C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_fLwpFYj",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-las-vegas-1ayzk46gkdigabn",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "The Colosseum at Caesars Palace",
+    "datetime_iso": "2027-06-12T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "39006547E8309623",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-las-vegas-nevada-06-11-2027/event/39006547E8309623",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-las-vegas-nevada-06-11-2027/event/39006547E8309623",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "39006547E8309623",
+        "discovery_event_id": "1AyZk46GkdIGabN",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-las-vegas-nevada-06-11-2027/event/39006547E8309623",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AyZk46GkdIGabN",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-phoenix-1a_zk4agkd-rgkn",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Talking Stick Resort Amphitheatre",
+    "datetime_iso": "2027-06-13T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006545E178C1A3",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-phoenix-arizona-06-12-2027/event/19006545E178C1A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-phoenix-arizona-06-12-2027/event/19006545E178C1A3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006545E178C1A3",
+        "discovery_event_id": "1A_Zk4AGkd-rGkN",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-phoenix-arizona-06-12-2027/event/19006545E178C1A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zk4AGkd-rGkN",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-albuquerque-g5vzz_fqnymbl",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "First Financial Credit Union Amphitheater",
+    "datetime_iso": "2027-06-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E006546AAC37EAB",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-albuquerque-new-mexico-06-13-2027/event/1E006546AAC37EAB",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-albuquerque-new-mexico-06-13-2027/event/1E006546AAC37EAB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006546AAC37EAB",
+        "discovery_event_id": "G5vzZ_fQnYMBl",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-albuquerque-new-mexico-06-13-2027/event/1E006546AAC37EAB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_fQnYMBl",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-austin-g5diz_fqu8qq0",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2027-06-17T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006546B641D6A4",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-austin-texas-06-16-2027/event/3A006546B641D6A4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-austin-texas-06-16-2027/event/3A006546B641D6A4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006546B641D6A4",
+        "discovery_event_id": "G5dIZ_fQU8qQ0",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-austin-texas-06-16-2027/event/3A006546B641D6A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_fQU8qQ0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-the-woodlands-g5diz_fnsjrze",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "The Woodlands",
+    "country": "United States Of America",
+    "venue": "The Cynthia Woods Mitchell Pavilion sponsored by Huntsman",
+    "datetime_iso": "2027-06-19T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A006548F399E027",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-the-woodlands-texas-06-18-2027/event/3A006548F399E027",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-the-woodlands-texas-06-18-2027/event/3A006548F399E027",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006548F399E027",
+        "discovery_event_id": "G5dIZ_fNSJrZE",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-the-woodlands-texas-06-18-2027/event/3A006548F399E027",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_fNSJrZE",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-dallas-vvg1yz_fxt69on",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "Dos Equis Pavilion",
+    "datetime_iso": "2027-06-20T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C006548A91D782A",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-dallas-texas-06-19-2027/event/0C006548A91D782A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-dallas-texas-06-19-2027/event/0C006548A91D782A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C006548A91D782A",
+        "discovery_event_id": "vvG1YZ_fxt69On",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-dallas-texas-06-19-2027/event/0C006548A91D782A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_fxt69On",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-rogers-g5viz_fhpgazh",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Rogers",
+    "country": "United States Of America",
+    "venue": "Walmart AMP",
+    "datetime_iso": "2027-06-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006546E530901B",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-rogers-arkansas-06-20-2027/event/1B006546E530901B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-rogers-arkansas-06-20-2027/event/1B006546E530901B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006546E530901B",
+        "discovery_event_id": "G5viZ_fhPGaZh",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-rogers-arkansas-06-20-2027/event/1B006546E530901B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_fhPGaZh",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-maryland-heights-vv1akzk46gkdrit1p",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Maryland Heights",
+    "country": "United States Of America",
+    "venue": "Hollywood Casino Amphitheater",
+    "datetime_iso": "2027-06-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006547DEB3F296",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-maryland-heights-missouri-06-23-2027/event/06006547DEB3F296",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-maryland-heights-missouri-06-23-2027/event/06006547DEB3F296",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006547DEB3F296",
+        "discovery_event_id": "vv1AkZk46GkdriT1p",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-maryland-heights-missouri-06-23-2027/event/06006547DEB3F296",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk46GkdriT1p",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-alpharetta-vvg1zz_fkhlnjm",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Alpharetta",
+    "country": "United States Of America",
+    "venue": "Ameris Bank Amphitheatre",
+    "datetime_iso": "2027-06-25T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006541BCAE39B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-alpharetta-georgia-06-25-2027/event/0E006541BCAE39B7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-alpharetta-georgia-06-25-2027/event/0E006541BCAE39B7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006541BCAE39B7",
+        "discovery_event_id": "vvG1zZ_fkHlNJM",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-alpharetta-georgia-06-25-2027/event/0E006541BCAE39B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_fkHlNJM",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-saint-augustine-z7r9jz1aa7ab-",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Saint Augustine",
+    "country": "United States Of America",
+    "venue": "St Augustine Amphitheatre",
+    "datetime_iso": "2027-06-26T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AA7ab-",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ab-",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ab-",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AA7ab-",
+        "discovery_event_id": "Z7r9jZ1AA7ab-",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7ab-",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AA7ab-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-tampa-vvg1vz_fkl6_3p",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "MIDFLORIDA Credit Union Amphitheatre at the FL State Fairgrounds",
+    "datetime_iso": "2027-06-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D0065419F1D94A5",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-tampa-florida-06-27-2027/event/0D0065419F1D94A5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-tampa-florida-06-27-2027/event/0D0065419F1D94A5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0065419F1D94A5",
+        "discovery_event_id": "vvG1VZ_fkL6_3P",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-tampa-florida-06-27-2027/event/0D0065419F1D94A5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_fkL6_3P",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-hollywood-vvg1vz_fnlo4h6",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hard Rock Live",
+    "datetime_iso": "2027-06-30T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0D006548EB455F07",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-hollywood-florida-06-30-2027/event/0D006548EB455F07",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-hollywood-florida-06-30-2027/event/0D006548EB455F07",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006548EB455F07",
+        "discovery_event_id": "vvG1VZ_fNlo4H6",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-hollywood-florida-06-30-2027/event/0D006548EB455F07",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_fNlo4H6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-wilmington-g5evz_fkgudcc",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Wilmington",
+    "country": "United States Of America",
+    "venue": "Live Oak Bank Pavilion",
+    "datetime_iso": "2027-07-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006541B5343B6D",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-wilmington-north-carolina-07-02-2027/event/2D006541B5343B6D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-wilmington-north-carolina-07-02-2027/event/2D006541B5343B6D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006541B5343B6D",
+        "discovery_event_id": "G5eVZ_fkgudcc",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-wilmington-north-carolina-07-02-2027/event/2D006541B5343B6D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_fkgudcc",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-virginia-beach-vv1avzk4agkd7gofh",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Virginia Beach",
+    "country": "United States Of America",
+    "venue": "Veterans United Home Loans Amphitheater at Virginia Beach",
+    "datetime_iso": "2027-07-03T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006545C4D5121B",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-virginia-beach-virginia-07-03-2027/event/01006545C4D5121B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-virginia-beach-virginia-07-03-2027/event/01006545C4D5121B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006545C4D5121B",
+        "discovery_event_id": "vv1AvZk4AGkd7goFh",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-virginia-beach-virginia-07-03-2027/event/01006545C4D5121B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4AGkd7goFh",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-burgettstown-15vbz_fjfok1d",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Burgettstown",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Star Lake",
+    "datetime_iso": "2027-07-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600654988813283",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-burgettstown-pennsylvania-07-07-2027/event/1600654988813283",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-burgettstown-pennsylvania-07-07-2027/event/1600654988813283",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600654988813283",
+        "discovery_event_id": "15vbZ_fJFOK1d",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-burgettstown-pennsylvania-07-07-2027/event/1600654988813283",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15vbZ_fJFOK1d",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-holmdel-vv1aezk4fgkdaawox",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Holmdel",
+    "country": "United States Of America",
+    "venue": "PNC Bank Arts Center",
+    "datetime_iso": "2027-07-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006548C927D822",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-holmdel-new-jersey-07-08-2027/event/02006548C927D822",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-holmdel-new-jersey-07-08-2027/event/02006548C927D822",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006548C927D822",
+        "discovery_event_id": "vv1AeZk4FGkdaaWOx",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-holmdel-new-jersey-07-08-2027/event/02006548C927D822",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4FGkdaaWOx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-mansfield-vv1avzk4kgkddnfwx",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Mansfield",
+    "country": "United States Of America",
+    "venue": "Xfinity Center",
+    "datetime_iso": "2027-07-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006546C38C8CA2",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-mansfield-massachusetts-07-10-2027/event/01006546C38C8CA2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-mansfield-massachusetts-07-10-2027/event/01006546C38C8CA2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006546C38C8CA2",
+        "discovery_event_id": "vv1AvZk4kGkddNFwx",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-mansfield-massachusetts-07-10-2027/event/01006546C38C8CA2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4kGkddNFwx",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-gilford-vv1avzk4fgkd3evw-",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Gilford",
+    "country": "United States Of America",
+    "venue": "BankNH Pavilion",
+    "datetime_iso": "2027-07-11T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006548D20B4F61",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-gilford-new-hampshire-07-11-2027/event/01006548D20B4F61",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-gilford-new-hampshire-07-11-2027/event/01006548D20B4F61",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006548D20B4F61",
+        "discovery_event_id": "vv1AvZk4FGkd3eVW-",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-gilford-new-hampshire-07-11-2027/event/01006548D20B4F61",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4FGkd3eVW-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-bridgeport-g5vvz_frzvo-c",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Bridgeport",
+    "country": "United States Of America",
+    "venue": "Hartford HealthCare Amphitheater",
+    "datetime_iso": "2027-07-13T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D00654780D1184E",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-bridgeport-connecticut-07-13-2027/event/1D00654780D1184E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-bridgeport-connecticut-07-13-2027/event/1D00654780D1184E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D00654780D1184E",
+        "discovery_event_id": "G5vVZ_frZVo-C",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-bridgeport-connecticut-07-13-2027/event/1D00654780D1184E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_frZVo-C",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-richmond-vv1avzk4vgkdpnwox",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Richmond",
+    "country": "United States Of America",
+    "venue": "Allianz Amphitheater at Riverfront",
+    "datetime_iso": "2027-07-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006541D68FD83E",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-richmond-virginia-07-14-2027/event/01006541D68FD83E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-richmond-virginia-07-14-2027/event/01006541D68FD83E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006541D68FD83E",
+        "discovery_event_id": "vv1AvZk4vGkdpNWOX",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-richmond-virginia-07-14-2027/event/01006541D68FD83E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4vGkdpNWOX",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-columbia-1a4zk4agkev1y7_",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Columbia",
+    "country": "United States Of America",
+    "venue": "Merriweather Post Pavilion",
+    "datetime_iso": "2027-07-16T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15006549B42B9119",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-columbia-maryland-07-16-2027/event/15006549B42B9119",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-columbia-maryland-07-16-2027/event/15006549B42B9119",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006549B42B9119",
+        "discovery_event_id": "1A4Zk4aGkeV1y7_",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-columbia-maryland-07-16-2027/event/15006549B42B9119",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk4aGkeV1y7_",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-philadelphia-vv1aezk4vgkdunwhw",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "TD Pavilion at Highmark Mann",
+    "datetime_iso": "2027-07-17T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "02006541CDABDF32",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-philadelphia-pennsylvania-07-17-2027/event/02006541CDABDF32",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-philadelphia-pennsylvania-07-17-2027/event/02006541CDABDF32",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006541CDABDF32",
+        "discovery_event_id": "vv1AeZk4vGkdunWHw",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-philadelphia-pennsylvania-07-17-2027/event/02006541CDABDF32",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4vGkdunWHw",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-wantagh-g5vvz_fh6kfm7",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Wantagh",
+    "country": "United States Of America",
+    "venue": "Northwell at Jones Beach Theater",
+    "datetime_iso": "2027-07-18T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1D006546C7194DC4",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-wantagh-new-york-07-18-2027/event/1D006546C7194DC4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-wantagh-new-york-07-18-2027/event/1D006546C7194DC4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1D006546C7194DC4",
+        "discovery_event_id": "G5vVZ_fh6kfM7",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-wantagh-new-york-07-18-2027/event/1D006546C7194DC4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vVZ_fh6kfM7",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-saratoga-springs-k7vgf_fqhlfls",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Saratoga Springs",
+    "country": "United States Of America",
+    "venue": "Albany Med Health System at SPAC",
+    "datetime_iso": "2027-07-20T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "000065469B7D4AF3",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-saratoga-springs-new-york-07-20-2027/event/000065469B7D4AF3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-saratoga-springs-new-york-07-20-2027/event/000065469B7D4AF3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "000065469B7D4AF3",
+        "discovery_event_id": "k7vGF_fQhLflS",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-saratoga-springs-new-york-07-20-2027/event/000065469B7D4AF3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_fQhLflS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-toronto-117zvp3boyfbv8",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "RBC Amphitheatre",
+    "datetime_iso": "2027-07-21T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "100065498830518F",
+    "ticketmaster_url": "https://www.ticketmaster.ca/matchbox-twenty-30-toronto-ontario-07-21-2027/event/100065498830518F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/matchbox-twenty-30-toronto-ontario-07-21-2027/event/100065498830518F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "100065498830518F",
+        "discovery_event_id": "117ZvP3bOYfbv8",
+        "url": "https://www.ticketmaster.ca/matchbox-twenty-30-toronto-ontario-07-21-2027/event/100065498830518F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "117ZvP3bOYfbv8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-tinley-park-vv1a7zk4kgkesf_hg",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Tinley Park",
+    "country": "United States Of America",
+    "venue": "Credit Union 1 Amphitheatre",
+    "datetime_iso": "2027-07-24T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "04006546B12196CC",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-tinley-park-illinois-07-23-2027/event/04006546B12196CC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-tinley-park-illinois-07-23-2027/event/04006546B12196CC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006546B12196CC",
+        "discovery_event_id": "vv1A7Zk4kGkesF_hG",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-tinley-park-illinois-07-23-2027/event/04006546B12196CC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zk4kGkesF_hG",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-clarkston-vv1afzk4fgkdgb6kt",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Clarkston",
+    "country": "United States Of America",
+    "venue": "Pine Knob Music Theatre",
+    "datetime_iso": "2027-07-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006548CCE871A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-clarkston-michigan-07-24-2027/event/08006548CCE871A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-clarkston-michigan-07-24-2027/event/08006548CCE871A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006548CCE871A9",
+        "discovery_event_id": "vv1AFZk4FGkdGB6kt",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-clarkston-michigan-07-24-2027/event/08006548CCE871A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk4FGkdGB6kt",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-cincinnati-1avbz_4gkrpabks",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Farmer Music Center",
+    "datetime_iso": "2027-07-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600655BD61584F1",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-cincinnati-ohio-07-27-2027/event/1600655BD61584F1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-cincinnati-ohio-07-27-2027/event/1600655BD61584F1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600655BD61584F1",
+        "discovery_event_id": "1AvbZ_4GkRpAbKs",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-cincinnati-ohio-07-27-2027/event/1600655BD61584F1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_4GkRpAbKs",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-noblesville-vv1aazk46gkdzpa64",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Noblesville",
+    "country": "United States Of America",
+    "venue": "Ruoff Music Center",
+    "datetime_iso": "2027-07-28T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006547C05891D5",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-noblesville-indiana-07-28-2027/event/05006547C05891D5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-noblesville-indiana-07-28-2027/event/05006547C05891D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006547C05891D5",
+        "discovery_event_id": "vv1AAZk46GkdZpa64",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-noblesville-indiana-07-28-2027/event/05006547C05891D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk46GkdZpa64",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-council-bluffs-vv1akzk4kgkdzqcj6",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Council Bluffs",
+    "country": "United States Of America",
+    "venue": "Stir Concert Cove-Harrah's Council Bluffs Casino & Hotel",
+    "datetime_iso": "2027-07-31T01:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "06006546C074E707",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-council-bluffs-iowa-07-30-2027/event/06006546C074E707",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-council-bluffs-iowa-07-30-2027/event/06006546C074E707",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "06006546C074E707",
+        "discovery_event_id": "vv1AkZk4kGkdZqCj6",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-council-bluffs-iowa-07-30-2027/event/06006546C074E707",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AkZk4kGkdZqCj6",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-shakopee-1a-zk46gkdhguv0",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Shakopee",
+    "country": "United States Of America",
+    "venue": "Mystic Lake Amphitheater",
+    "datetime_iso": "2027-08-01T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "21006547DB336D24",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-shakopee-minnesota-07-31-2027/event/21006547DB336D24",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-shakopee-minnesota-07-31-2027/event/21006547DB336D24",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006547DB336D24",
+        "discovery_event_id": "1A-Zk46GkdhGUV0",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-shakopee-minnesota-07-31-2027/event/21006547DB336D24",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-Zk46GkdhGUV0",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-milwaukee-vv1fjz_fxf_dzd5af",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "American Family Insurance Amphitheater - Summerfest Grounds",
+    "datetime_iso": "2027-08-02T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700654894643A47",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-milwaukee-wisconsin-08-01-2027/event/0700654894643A47",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-milwaukee-wisconsin-08-01-2027/event/0700654894643A47",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700654894643A47",
+        "discovery_event_id": "vv1FjZ_fxf_dZd5AF",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-milwaukee-wisconsin-08-01-2027/event/0700654894643A47",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1FjZ_fxf_dZd5AF",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-brandon-g5viz_fhelosj",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Brandon",
+    "country": "United States Of America",
+    "venue": "Brandon Amphitheater",
+    "datetime_iso": "2027-08-05T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B006546C27D1C5C",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-brandon-mississippi-08-04-2027/event/1B006546C27D1C5C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-brandon-mississippi-08-04-2027/event/1B006546C27D1C5C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B006546C27D1C5C",
+        "discovery_event_id": "G5viZ_fheLosj",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-brandon-mississippi-08-04-2027/event/1B006546C27D1C5C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_fheLosj",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-orange-beach-g5viz_fqboqkg",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Orange Beach",
+    "country": "United States Of America",
+    "venue": "The Wharf Amphitheater",
+    "datetime_iso": "2027-08-06T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B0065469845A4F5",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-orange-beach-alabama-08-05-2027/event/1B0065469845A4F5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-orange-beach-alabama-08-05-2027/event/1B0065469845A4F5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B0065469845A4F5",
+        "discovery_event_id": "G5viZ_fQboQKg",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-orange-beach-alabama-08-05-2027/event/1B0065469845A4F5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_fQboQKg",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-charleston-g5evz_flnltwd",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Charleston",
+    "country": "United States Of America",
+    "venue": "Credit One Stadium",
+    "datetime_iso": "2027-08-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006547E37E9CBB",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-charleston-south-carolina-08-07-2027/event/2D006547E37E9CBB",
+    "seatgeek_url": "https://seatgeek.com/matchbox-twenty-tickets/charleston-south-carolina-credit-one-stadium-2027-08-07-7-30-pm/concert/18675186",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-charleston-south-carolina-08-07-2027/event/2D006547E37E9CBB",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006547E37E9CBB",
+        "discovery_event_id": "G5eVZ_fLNLtwD",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-charleston-south-carolina-08-07-2027/event/2D006547E37E9CBB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_fLNLtwD",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-raleigh-g5evz_fkt4tju",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Coastal Credit Union Music Park at Walnut Creek",
+    "datetime_iso": "2027-08-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006541A957F98D",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-raleigh-north-carolina-08-08-2027/event/2D006541A957F98D",
+    "seatgeek_url": "https://seatgeek.com/matchbox-twenty-tickets/raleigh-north-carolina-coastal-credit-union-music-park-at-walnut-creek-2027-08-08-7-30-pm/concert/18675188",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-raleigh-north-carolina-08-08-2027/event/2D006541A957F98D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006541A957F98D",
+        "discovery_event_id": "G5eVZ_fkt4TJu",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-raleigh-north-carolina-08-08-2027/event/2D006541A957F98D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_fkt4TJu",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-cuyahoga-falls-vv1aazk4agkd8bynd",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Cuyahoga Falls",
+    "country": "United States Of America",
+    "venue": "Blossom Music Center",
+    "datetime_iso": "2027-08-11T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006545D0EB98C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-cuyahoga-falls-ohio-08-11-2027/event/05006545D0EB98C3",
+    "seatgeek_url": "https://seatgeek.com/matchbox-twenty-tickets/cuyahoga-falls-ohio-blossom-music-center-2027-08-11-7-30-pm/concert/18675192",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-cuyahoga-falls-ohio-08-11-2027/event/05006545D0EB98C3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006545D0EB98C3",
+        "discovery_event_id": "vv1AAZk4AGkd8ByNd",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-cuyahoga-falls-ohio-08-11-2027/event/05006545D0EB98C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4AGkd8ByNd",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-matchbox-twenty-2027-grand-rapids-vv1afzk46gkdo46mj",
+    "artist_slug": "matchbox-twenty",
+    "artist_name": "Matchbox Twenty",
+    "event_name": "Matchbox Twenty - 30",
+    "city": "Grand Rapids",
+    "country": "United States Of America",
+    "venue": "Acrisure Amphitheater",
+    "datetime_iso": "2027-08-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "08006547E0547BA6",
+    "ticketmaster_url": "https://www.ticketmaster.com/matchbox-twenty-30-grand-rapids-michigan-08-12-2027/event/08006547E0547BA6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/matchbox-twenty-30-grand-rapids-michigan-08-12-2027/event/08006547E0547BA6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "08006547E0547BA6",
+        "discovery_event_id": "vv1AFZk46GkdO46mJ",
+        "url": "https://www.ticketmaster.com/matchbox-twenty-30-grand-rapids-michigan-08-12-2027/event/08006547E0547BA6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AFZk46GkdO46mJ",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

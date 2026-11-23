@@ -1,0 +1,1274 @@
+[
+  {
+    "id": "tm-deftones-2027-dallas-vvg1yz_pojf4p4",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Dallas",
+    "country": "United States Of America",
+    "venue": "Dos Equis Pavilion",
+    "datetime_iso": "2027-05-06T00:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "0C0065681C515955",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-dallas-texas-05-05-2027/event/0C0065681C515955",
+    "seatgeek_url": "https://seatgeek.com/deftones-tickets/dallas-texas-dos-equis-pavilion-2027-05-05-7-pm/concert/18760666",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-dallas-texas-05-05-2027/event/0C0065681C515955",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C0065681C515955",
+        "discovery_event_id": "vvG1YZ_pOjf4P4",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-dallas-texas-05-05-2027/event/0C0065681C515955",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_pOjf4P4",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-san-antonio-g5diz_p9wbnqa",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "San Antonio",
+    "country": "United States Of America",
+    "venue": "Frost Bank Center",
+    "datetime_iso": "2027-05-07T00:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "3A006565FDEA3689",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-san-antonio-texas-05-06-2027/event/3A006565FDEA3689",
+    "seatgeek_url": "https://seatgeek.com/deftones-tickets/san-antonio-texas-frost-bank-center-2027-05-06-7-pm/concert/18760665",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-san-antonio-texas-05-06-2027/event/3A006565FDEA3689",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006565FDEA3689",
+        "discovery_event_id": "G5dIZ_p9WBNQa",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-san-antonio-texas-05-06-2027/event/3A006565FDEA3689",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_p9WBNQa",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-the-woodlands-g5diz_pp2vhky",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "The Woodlands",
+    "country": "United States Of America",
+    "venue": "The Cynthia Woods Mitchell Pavilion sponsored by Huntsman",
+    "datetime_iso": "2027-05-09T00:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "3A0065658FD3C1B9",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-the-woodlands-texas-05-08-2027/event/3A0065658FD3C1B9",
+    "seatgeek_url": "https://seatgeek.com/deftones-tickets/the-woodlands-texas-the-cynthia-woods-mitchell-pavilion-presented-by-huntsman-2027-05-08-7-pm/concert/18760667",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-the-woodlands-texas-05-08-2027/event/3A0065658FD3C1B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A0065658FD3C1B9",
+        "discovery_event_id": "G5dIZ_pp2VHky",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-the-woodlands-texas-05-08-2027/event/3A0065658FD3C1B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pp2VHky",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-albuquerque-g5vzz_ppeinsj",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Albuquerque",
+    "country": "United States Of America",
+    "venue": "First Financial Credit Union Amphitheater",
+    "datetime_iso": "2027-05-11T01:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "1E006565A7B23C66",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-albuquerque-new-mexico-05-10-2027/event/1E006565A7B23C66",
+    "seatgeek_url": "https://seatgeek.com/deftones-tickets/albuquerque-new-mexico-first-financial-credit-union-amphitheater-2027-05-10-7-pm/concert/18760668",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-albuquerque-new-mexico-05-10-2027/event/1E006565A7B23C66",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E006565A7B23C66",
+        "discovery_event_id": "G5vzZ_ppEiNsJ",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-albuquerque-new-mexico-05-10-2027/event/1E006565A7B23C66",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_ppEiNsJ",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-phoenix-1a_zk4pgkexsuym",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Talking Stick Resort Amphitheatre",
+    "datetime_iso": "2027-05-13T02:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "19006565BECF6E77",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-phoenix-arizona-05-12-2027/event/19006565BECF6E77",
+    "seatgeek_url": "https://seatgeek.com/deftones-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2027-05-12-7-pm/concert/18760669",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-phoenix-arizona-05-12-2027/event/19006565BECF6E77",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006565BECF6E77",
+        "discovery_event_id": "1A_Zk4PGkeXSUyM",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-phoenix-arizona-05-12-2027/event/19006565BECF6E77",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zk4PGkeXSUyM",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-wheatland-g5vyz_poagxh_",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Wheatland",
+    "country": "United States Of America",
+    "venue": "Toyota Amphitheatre",
+    "datetime_iso": "2027-05-17T02:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "1C0065644933EF19",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-wheatland-california-05-16-2027/event/1C0065644933EF19",
+    "seatgeek_url": "https://seatgeek.com/deftones-tickets/wheatland-california-toyota-amphitheatre-2027-05-16-7-pm/concert/18760670",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-wheatland-california-05-16-2027/event/1C0065644933EF19",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C0065644933EF19",
+        "discovery_event_id": "G5vYZ_poaGXH_",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-wheatland-california-05-16-2027/event/1C0065644933EF19",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_poaGXH_",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-hollywood-vvg1iz_penmg6y",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2027-05-19T02:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "0B006569EADF51F9",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-hollywood-california-05-18-2027/event/0B006569EADF51F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-hollywood-california-05-18-2027/event/0B006569EADF51F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006569EADF51F9",
+        "discovery_event_id": "vvG1iZ_pEnMg6y",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-hollywood-california-05-18-2027/event/0B006569EADF51F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_pEnMg6y",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-hollywood-vvg1iz_9d2v7ij",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Hollywood",
+    "country": "United States Of America",
+    "venue": "Hollywood Bowl",
+    "datetime_iso": "2027-05-20T02:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "0B006570CF044A26",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-hollywood-california-05-19-2027/event/0B006570CF044A26",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-hollywood-california-05-19-2027/event/0B006570CF044A26",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0B006570CF044A26",
+        "discovery_event_id": "vvG1iZ_9d2v7IJ",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-hollywood-california-05-19-2027/event/0B006570CF044A26",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1iZ_9d2v7IJ",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-concord-g5vyz_poavmx7",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Concord",
+    "country": "United States Of America",
+    "venue": "Toyota Pavilion at Concord",
+    "datetime_iso": "2027-05-27T02:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "1C00656449D2EF84",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-concord-california-05-26-2027/event/1C00656449D2EF84",
+    "seatgeek_url": "https://seatgeek.com/deftones-tickets/concord-california-toyota-pavilion-at-concord-2027-05-26-7-pm/concert/18760672",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-concord-california-05-26-2027/event/1C00656449D2EF84",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656449D2EF84",
+        "discovery_event_id": "G5vYZ_poaVmX7",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-concord-california-05-26-2027/event/1C00656449D2EF84",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_poaVmX7",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-auburn-vvg1hz_pp22vor",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Auburn",
+    "country": "United States Of America",
+    "venue": "White River Amphitheatre",
+    "datetime_iso": "2027-05-29T02:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "0F0065658F3F445E",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-auburn-washington-05-28-2027/event/0F0065658F3F445E",
+    "seatgeek_url": "https://seatgeek.com/deftones-tickets/auburn-washington-white-river-amphitheatre-2027-05-28-7-pm/concert/18760677",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-auburn-washington-05-28-2027/event/0F0065658F3F445E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F0065658F3F445E",
+        "discovery_event_id": "vvG1HZ_pp22Vor",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-auburn-washington-05-28-2027/event/0F0065658F3F445E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_pp22Vor",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-ridgefield-vvg1hz_pkr1dlz",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Ridgefield",
+    "country": "United States Of America",
+    "venue": "Cascades Amphitheater",
+    "datetime_iso": "2027-05-30T02:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "0F006564EF2BBAF8",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-ridgefield-washington-05-29-2027/event/0F006564EF2BBAF8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-ridgefield-washington-05-29-2027/event/0F006564EF2BBAF8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006564EF2BBAF8",
+        "discovery_event_id": "vvG1HZ_pKR1Dlz",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-ridgefield-washington-05-29-2027/event/0F006564EF2BBAF8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_pKR1Dlz",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-kansas-city-1a-zk4jgkd3aoqo",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "Morton Amphitheater",
+    "datetime_iso": "2027-06-03T00:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "21006566D2151751",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-kansas-city-missouri-06-02-2027/event/21006566D2151751",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-kansas-city-missouri-06-02-2027/event/21006566D2151751",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "21006566D2151751",
+        "discovery_event_id": "1A-Zk4JGkd3Aoqo",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-kansas-city-missouri-06-02-2027/event/21006566D2151751",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A-Zk4JGkd3Aoqo",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-maryland-heights-vv1kvovp_bgacdi2f",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Maryland Heights",
+    "country": "United States Of America",
+    "venue": "Hollywood Casino Amphitheater",
+    "datetime_iso": "2027-06-04T00:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "060065658EEE83D4",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-maryland-heights-missouri-06-03-2027/event/060065658EEE83D4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-maryland-heights-missouri-06-03-2027/event/060065658EEE83D4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "060065658EEE83D4",
+        "discovery_event_id": "vv1kvOvP_bGACDI2f",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-maryland-heights-missouri-06-03-2027/event/060065658EEE83D4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvOvP_bGACDI2f",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-atlanta-vvg1zz_p_e6zq2",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "SCANA Energy Amphitheatre at Lakewood",
+    "datetime_iso": "2027-06-05T23:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "0E006566421F874F",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-atlanta-georgia-06-05-2027/event/0E006566421F874F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-atlanta-georgia-06-05-2027/event/0E006566421F874F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006566421F874F",
+        "discovery_event_id": "vvG1zZ_p_e6zq2",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-atlanta-georgia-06-05-2027/event/0E006566421F874F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_p_e6zq2",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-charlotte-g5evz_ppmdn2x",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Truliant Amphitheater",
+    "datetime_iso": "2027-06-06T23:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "2D006565AEEEA3E2",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-charlotte-north-carolina-06-06-2027/event/2D006565AEEEA3E2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-charlotte-north-carolina-06-06-2027/event/2D006565AEEEA3E2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006565AEEEA3E2",
+        "discovery_event_id": "G5eVZ_ppmDn2x",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-charlotte-north-carolina-06-06-2027/event/2D006565AEEEA3E2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_ppmDn2x",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-clarkston-vv17oz_pgkrgglug",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Clarkston",
+    "country": "United States Of America",
+    "venue": "Pine Knob Music Theatre",
+    "datetime_iso": "2027-06-08T23:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "0800656BF5D6B375",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-clarkston-michigan-06-08-2027/event/0800656BF5D6B375",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-clarkston-michigan-06-08-2027/event/0800656BF5D6B375",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656BF5D6B375",
+        "discovery_event_id": "vv17OZ_pGkRgglug",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-clarkston-michigan-06-08-2027/event/0800656BF5D6B375",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_pGkRgglug",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-noblesville-vv1kfz_pf-g7vd7_",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Noblesville",
+    "country": "United States Of America",
+    "venue": "Ruoff Music Center",
+    "datetime_iso": "2027-06-09T23:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "0500656521D03119",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-noblesville-indiana-06-09-2027/event/0500656521D03119",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-noblesville-indiana-06-09-2027/event/0500656521D03119",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656521D03119",
+        "discovery_event_id": "vv1kfZ_pf-G7Vd7_",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-noblesville-indiana-06-09-2027/event/0500656521D03119",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kfZ_pf-G7Vd7_",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-cincinnati-16vbz_ppog7gf37",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Cincinnati",
+    "country": "United States Of America",
+    "venue": "The Farmer Music Center",
+    "datetime_iso": "2027-06-11T23:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "1600656591D54484",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-cincinnati-ohio-06-11-2027/event/1600656591D54484",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-cincinnati-ohio-06-11-2027/event/1600656591D54484",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656591D54484",
+        "discovery_event_id": "16vbZ_ppoG7gf37",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-cincinnati-ohio-06-11-2027/event/1600656591D54484",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vbZ_ppoG7gf37",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-bristow-1a4zk4jgkegzufs",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Bristow",
+    "country": "United States Of America",
+    "venue": "Jiffy Lube Live",
+    "datetime_iso": "2027-06-12T23:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "15006566B5036233",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-bristow-virginia-06-12-2027/event/15006566B5036233",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-bristow-virginia-06-12-2027/event/15006566B5036233",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15006566B5036233",
+        "discovery_event_id": "1A4Zk4JGkegZUFS",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-bristow-virginia-06-12-2027/event/15006566B5036233",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A4Zk4JGkegZUFS",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-virginia-beach-vv1avzk4pgkdnggvx",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Virginia Beach",
+    "country": "United States Of America",
+    "venue": "Veterans United Home Loans Amphitheater at Virginia Beach",
+    "datetime_iso": "2027-06-14T23:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "01006565E3D75D3E",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-virginia-beach-virginia-06-14-2027/event/01006565E3D75D3E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-virginia-beach-virginia-06-14-2027/event/01006565E3D75D3E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006565E3D75D3E",
+        "discovery_event_id": "vv1AvZk4PGkdNggVX",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-virginia-beach-virginia-06-14-2027/event/01006565E3D75D3E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4PGkdNggVX",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-camden-vv1aezk4jgkdlfxhp",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Camden",
+    "country": "United States Of America",
+    "venue": "Freedom Mortgage Pavilion",
+    "datetime_iso": "2027-06-15T23:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "02006566EB2226E5",
+    "ticketmaster_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-camden-new-jersey-06-15-2027/event/02006566EB2226E5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-camden-new-jersey-06-15-2027/event/02006566EB2226E5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "02006566EB2226E5",
+        "discovery_event_id": "vv1AeZk4JGkdlFxhP",
+        "url": "https://www.ticketmaster.com/deftones-north-american-tour-2027-camden-new-jersey-06-15-2027/event/02006566EB2226E5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AeZk4JGkdlFxhP",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-forest-hills-z7r9jz1aaaf8z",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Forest Hills",
+    "country": "United States Of America",
+    "venue": "Forest Hills Stadium",
+    "datetime_iso": "2027-06-17T22:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "Z7r9jZ1AAAF8Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAF8Z",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAF8Z",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAF8Z",
+        "discovery_event_id": "Z7r9jZ1AAAF8Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAF8Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAF8Z",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-forest-hills-z7r9jz1aaaf3f",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Forest Hills",
+    "country": "United States Of America",
+    "venue": "Forest Hills Stadium",
+    "datetime_iso": "2027-06-18T22:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "Z7r9jZ1AAAf3F",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf3F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf3F",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAf3F",
+        "discovery_event_id": "Z7r9jZ1AAAf3F",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf3F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf3F",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-deftones-2027-toronto-1a8zk4pgkdu8li-",
+    "artist_slug": "deftones",
+    "artist_name": "Deftones",
+    "event_name": "Deftones - North American Tour 2027",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "RBC Amphitheatre",
+    "datetime_iso": "2027-06-20T23:00:00Z",
+    "tour_name": "North American Tour 2027",
+    "ticketmaster_event_id": "10006565F641FB21",
+    "ticketmaster_url": "https://www.ticketmaster.ca/deftones-north-american-tour-2027-toronto-ontario-06-20-2027/event/10006565F641FB21",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/deftones-north-american-tour-2027-toronto-ontario-06-20-2027/event/10006565F641FB21",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006565F641FB21",
+        "discovery_event_id": "1A8Zk4PGkdU8Li-",
+        "url": "https://www.ticketmaster.ca/deftones-north-american-tour-2027-toronto-ontario-06-20-2027/event/10006565F641FB21",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4PGkdU8Li-",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  }
+]

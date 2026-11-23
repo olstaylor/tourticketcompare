@@ -73,6 +73,76 @@ export const FACE_VALUES = {
       "source_name": "Time Out",
       "source_url": "https://www.timeout.com/uk/news/foo-fighters-uk-stadium-tour-2027-dates-presale-prices-111726",
       "published_at": "2026-11-17"
+    },
+    {
+      "artist_slug": "fall-out-boy",
+      "city_slug": "glasgow-united-kingdom",
+      "amount": 66.95,
+      "currency": "GBP",
+      "basis": "lowest",
+      "source_name": "Time Out",
+      "source_url": "https://www.timeout.com/uk/news/fall-out-boy-uk-tour-2027-dates-presale-prices-111026",
+      "published_at": "2026-11-10"
+    },
+    {
+      "artist_slug": "phoebe-bridgers",
+      "city_slug": "birmingham-united-kingdom",
+      "amount": 40,
+      "currency": "GBP",
+      "basis": "lowest",
+      "source_name": "Time Out",
+      "source_url": "https://www.timeout.com/uk/news/phoebe-bridgers-2026-uk-tour-dates-presale-ticket-prices-and-everything-you-need-to-know-060826",
+      "published_at": "2026-06-08"
+    },
+    {
+      "artist_slug": "phoebe-bridgers",
+      "city_slug": "glasgow-united-kingdom",
+      "amount": 55.6,
+      "currency": "GBP",
+      "basis": "lowest",
+      "source_name": "Time Out",
+      "source_url": "https://www.timeout.com/uk/news/phoebe-bridgers-2026-uk-tour-dates-presale-ticket-prices-and-everything-you-need-to-know-060826",
+      "published_at": "2026-06-08"
+    },
+    {
+      "artist_slug": "megadeth",
+      "city_slug": "glasgow-united-kingdom",
+      "amount": 72.6,
+      "currency": "GBP",
+      "basis": "lowest",
+      "source_name": "Time Out",
+      "source_url": "https://www.timeout.com/uk/news/megadeth-2027-farewell-uk-tour-dates-presale-and-ticket-prices-080426",
+      "published_at": "2026-08-04"
+    },
+    {
+      "artist_slug": "nothing-but-thieves",
+      "city_slug": "glasgow-united-kingdom",
+      "amount": 56.7,
+      "currency": "GBP",
+      "basis": "lowest",
+      "source_name": "Time Out",
+      "source_url": "https://www.timeout.com/uk/news/nothing-but-thieves-2027-uk-tour-dates-presale-ticket-prices-and-everything-you-need-to-know-052626",
+      "published_at": "2026-05-26"
+    },
+    {
+      "artist_slug": "rod-stewart",
+      "city_slug": "glasgow-united-kingdom",
+      "amount": 78.3,
+      "currency": "GBP",
+      "basis": "lowest",
+      "source_name": "Time Out",
+      "source_url": "https://www.timeout.com/uk/news/rod-stewart-uk-tour-2027-dates-ticket-prices-guide-092926",
+      "published_at": "2026-10-06"
+    },
+    {
+      "artist_slug": "two-door-cinema-club",
+      "city_slug": "glasgow-united-kingdom",
+      "amount": 43.35,
+      "currency": "GBP",
+      "basis": "lowest",
+      "source_name": "Time Out",
+      "source_url": "https://www.timeout.com/uk/news/two-door-cinema-club-tourist-history-tour-2027-ticket-price-guide-062926",
+      "published_at": "2026-06-29"
     }
   ]
 };

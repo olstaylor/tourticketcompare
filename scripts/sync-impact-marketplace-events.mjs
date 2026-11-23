@@ -283,7 +283,7 @@ function evaluateCandidate(event, artistName, candidate, { matchStartTime = true
   }
   if (!cityMatches(text, event?.city)) reasons.push("city mismatch");
   if (!venueMatches(text, event?.venue, event?.city)) reasons.push("venue mismatch");
-  return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", externalId: candidate?.externalId || "", name: candidate?.name || "" };
+  return { ok: reasons.length === 0, reasons, url: candidate?.normalizedUrl || "", externalId: candidate?.externalId || "", name: candidate?.name || "", text };
 }
 
 function decideOutcome({ storedUrl, storedVerified, storedCandidate, passing, catalogComplete, preserveAbsentStored = false }) {
@@ -317,7 +317,13 @@ export function closestMiss(evaluations) {
   // Name the listing too (diagnostic only), so a venue or city spelled
   // differently on the seller's side can be read straight from the log.
   const name = clean(best.name, 90).replace(/[;|"]/g, " ").replace(/\s+/g, " ").trim();
-  return name ? `${best.reasons.join(", ")}; listing: ${name}` : best.reasons.join(", ");
+  const base = name ? `${best.reasons.join(", ")}; listing: ${name}` : best.reasons.join(", ");
+  // Diagnostic only (2026-11-23): the part of the listing's own text that is
+  // not the artist name, so the venue/city spelling the matcher missed can be
+  // read from the log. Catalog stamps, URL paths and numeric dates are dropped.
+  const detail = clean(best.text, 2000).replace(/https?:\S+/g, " ").replace(/\b\d{4}-\d{2}-\d{2}(?:T[\d:.+Z-]*)?/g, " ")
+    .replace(/[;|"]/g, " ").replace(/\s+/g, " ").trim().slice(0, 140);
+  return detail ? `${base}; text: ${detail}` : base;
 }
 
 function outcomeNote(action, { ambiguousListing = false, storedListed = false, catalogComplete = false, stopReason = "", nearMiss = "" } = {}) {
@@ -866,6 +872,7 @@ async function selfTest() {
   assert.equal(closestMiss([{ ok: false, reasons: ["artist name mismatch"] }, { ok: false, reasons: ["venue-local date mismatch"] }]), "", "other acts and other nights are not near-misses");
   assert.equal(closestMiss([{ ok: false, reasons: ["city mismatch", "venue mismatch"] }, { ok: false, reasons: ["venue mismatch"] }]), "venue mismatch");
   assert.equal(closestMiss([{ ok: false, reasons: ["venue mismatch"], name: "RAYE | O2 Arena; London" }]), "venue mismatch; listing: RAYE O2 Arena London", "the closest listing is named, with table-breaking characters removed");
+  assert.equal(closestMiss([{ ok: false, reasons: ["venue mismatch"], name: "Karol G", text: "Karol G Estadio Metropolitano Madrid 2027-06-26T18:00:00 https://x.test/p/1 a|b" }]), "venue mismatch; listing: Karol G; text: Karol G Estadio Metropolitano Madrid a b", "the listing's own venue text is kept, without URLs or dates");
 
   // Venue tails Ticketmaster adds and resale catalogs drop.
   assert.ok(venueMatches("Blue October The Tabernacle Atlanta GA 11/22/2026", "Tabernacle Presented by iTHINK Financial", "Atlanta"));

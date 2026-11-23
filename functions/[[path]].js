@@ -3601,6 +3601,16 @@ function priceMoveSentence(move) {
   return `${move.name} ${move.direction} ${delta}: was ${from} on ${fromDate}, now ${to}${changed ? ` since ${changed}` : ""}.`;
 }
 
+// "↓ USD 40 since 1 Nov": the button lane's move from its previous recorded
+// price (derivePriceMove). Never a forecast.
+function compactPriceMoveLabel(move) {
+  if (!move) return "";
+  const delta = formatServerPrice(Math.abs(move.delta), move.currency);
+  const fromDate = formatObservationDate(move.fromObservedAt);
+  if (!delta || !fromDate) return "";
+  return `${move.direction === "up" ? "\u2191" : "\u2193"} ${delta} since ${fromDate}`;
+}
+
 // One lane's 7-day change for a date close to show day, as a sentence, or "".
 // Shared by the artist-city price answer and the event page. A statement of
 // what this date's listed price did, never of what it will do.
@@ -3682,7 +3692,7 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
   )}</p></section>`;
 }
 
-function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map(), weeklyChangeByShowId = new Map(), surface = null) {
+function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId = new Map(), weeklyChangeByShowId = new Map(), surface = null, priceMoveByShowId = new Map()) {
   const rows = priceAnswer?.rows || [];
   // The artist's next-date preview also works without a price snapshot: a
   // checked destination is enough to help a visitor reach that date's options.
@@ -3728,7 +3738,11 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         // Close to show day only, and only for the lane on the button.
         const weekText = weeklyChangeSentence(weeklyChangeByShowId.get(row.showId));
         const weekLine = weekText ? `<span class="price-answer-low muted">${escapeHtml(weekText)}</span>` : "";
-        priceCell = `${button}<span class="price-answer-asof muted">${checkedTimeHtml(row.lowest.fetchedAt, asOf)}</span>${lowLine}${weekLine}`;
+        // Compact change on the button's own lane since its previous recorded
+        // price: same site, same currency, real snapshots only.
+        const moveText = compactPriceMoveLabel(priceMoveByShowId.get(row.showId));
+        const moveLine = moveText ? `<span class="price-answer-low muted">${escapeHtml(moveText)}</span>` : "";
+        priceCell = `${button}<span class="price-answer-asof muted">${checkedTimeHtml(row.lowest.fetchedAt, asOf)}</span>${lowLine}${weekLine}${moveLine}`;
       } else if (row.checked) {
         // Checked and nothing eligible came back. Saying so is honest; saying it
         // about a row the server never queried would not be.
@@ -8478,7 +8492,16 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
         if (change) weeklyChangeByShowId.set(row.showId, change);
       }
     }
-    const priceAnswerHtml = renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId, weeklyChangeByShowId);
+    const priceMoveSeries = route.priceMoveSeries instanceof Map ? route.priceMoveSeries : new Map();
+    const priceMoveByShowId = new Map();
+    if (priceMoveSeries.size) {
+      for (const row of priceAnswer.rows) {
+        if (!row.lowest) continue;
+        const move = derivePriceMove(row.lowest, priceMoveSeries.get(`${row.showId}|${row.lowest.provider}`) || []);
+        if (move) priceMoveByShowId.set(row.showId, move);
+      }
+    }
+    const priceAnswerHtml = renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowByShowId, weeklyChangeByShowId, null, priceMoveByShowId);
     const venueCount = new Set(priceAnswer.rows.map((row) => row.venue).filter(Boolean)).size;
     const cheapestHtml = renderCheapestAcrossDatesHtml(artist, priceAnswer.rows, {
       heading: `Cheapest ${artist.name} tickets in ${artistCity.city}`,
@@ -9695,7 +9718,7 @@ async function renderRequest(context) {
     const priceLowPromise = route.type === "artist-city" || route.type === "price-guide" || route.type === "event"
       ? fetchEventPriceLowSeries(env?.DEMAND_DB || env?.DB, candidateIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
-    const priceMovePromise = route.type === "price-guide" || route.type === "event" || route.type === "artist"
+    const priceMovePromise = route.type === "price-guide" || route.type === "event" || route.type === "artist" || route.type === "artist-city"
       ? fetchEventPriceMoveSeries(env?.DEMAND_DB || env?.DB, candidateIds, APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
     // The 7-day change reads only dates close to show day, on the two surfaces

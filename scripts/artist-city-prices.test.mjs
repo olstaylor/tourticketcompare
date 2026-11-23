@@ -251,6 +251,16 @@ function fakeDb(rows, historyRows = []) {
                 return { results: rows.filter((row) => wanted.has(String(row.event_id))) };
               }
               if (!/provider_pricing_history/.test(sql)) return { results: [] };
+              // The price-move read: newest rows per series inside the window.
+              if (/ROW_NUMBER/.test(sql)) {
+                const moveStart = String(bindings.at(-1));
+                const wanted = new Set(bindings.map(String));
+                return {
+                  results: historyRows.filter(
+                    (row) => wanted.has(String(row.event_id)) && wanted.has(String(row.provider)) && String(row.observed_at) >= moveStart
+                  )
+                };
+              }
               // Emulates the documented SQLite rule the real query relies on:
               // with exactly one min()/max() aggregate, bare columns come from
               // the row that produced the extreme.
@@ -635,6 +645,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
 // ── the 30-day recorded low, rendered ───────────────────────────
 {
   const page = await render(RUN_PATH);
+  console.log("MOVE-DEBUG", (text(page.main).match(/[\u2191\u2193] [^\n]{0,40}/g) || []).join(" | "));
   const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
   const body = text(section);
 

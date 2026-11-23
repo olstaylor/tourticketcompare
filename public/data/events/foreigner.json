@@ -175,13 +175,21 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8231518",
+        "url": "https://www.ticketliquidator.com/tickets/8231518/Foreigner-tickets-Mon-Feb-15-2027-Peabody-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAedCa",
     "timezone": "America/New_York",
     "status": "on-sale",
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231518"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231518",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8231518/Foreigner-tickets-Mon-Feb-15-2027-Peabody-Auditorium"
   },
   {
     "id": "tm-foreigner-2027-pompano-beach-z7r9jz1aav6fn",
@@ -242,7 +250,7 @@
         "event_id": "8237209",
         "url": "https://www.ticketliquidator.com/tickets/8237209/Foreigner-tickets-Fri-Feb-19-2027-Pompano-Beach-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -469,6 +477,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342824",
+        "url": "https://www.ticketliquidator.com/tickets/8342824/Foreigner-tickets-Wed-Mar-10-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrYnKa",
@@ -491,7 +506,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342824"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342824",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342824/Foreigner-tickets-Wed-Mar-10-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkursnk8",
@@ -547,6 +563,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342825",
+        "url": "https://www.ticketliquidator.com/tickets/8342825/Foreigner-tickets-Fri-Mar-12-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrsnK8",
@@ -569,7 +592,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342825"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342825",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342825/Foreigner-tickets-Fri-Mar-12-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurwnkf",
@@ -625,6 +649,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342826",
+        "url": "https://www.ticketliquidator.com/tickets/8342826/Foreigner-tickets-Sat-Mar-13-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrwnKf",
@@ -647,7 +678,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342826"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342826",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342826/Foreigner-tickets-Sat-Mar-13-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkursnk_",
@@ -703,6 +735,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342827",
+        "url": "https://www.ticketliquidator.com/tickets/8342827/Foreigner-tickets-Wed-Mar-17-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrSnK_",
@@ -725,7 +764,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342827"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342827",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342827/Foreigner-tickets-Wed-Mar-17-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurvnkq",
@@ -781,6 +821,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342828",
+        "url": "https://www.ticketliquidator.com/tickets/8342828/Foreigner-tickets-Fri-Mar-19-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrVnKq",
@@ -803,7 +850,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342828"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342828",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342828/Foreigner-tickets-Fri-Mar-19-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurgbki",
@@ -859,6 +907,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8342829",
+        "url": "https://www.ticketliquidator.com/tickets/8342829/Foreigner-tickets-Sat-Mar-20-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrgBKI",
@@ -881,7 +936,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342829"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342829",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342829/Foreigner-tickets-Sat-Mar-20-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas"
   },
   {
     "id": "tm-foreigner-2027-dublin-1kkzvpv9gacwy1_",
@@ -999,7 +1055,7 @@
         "event_id": "8324848",
         "url": "https://www.ticketliquidator.com/tickets/8324848/Foreigner-tickets-Wed-Apr-14-2027-London-Palladium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1081,7 +1137,7 @@
         "event_id": "8243091",
         "url": "https://www.ticketliquidator.com/tickets/8243091/Foreigner-tickets-Tue-Apr-27-2027-Beacon-Theatre-NY",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1169,6 +1225,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8243092",
+        "url": "https://www.ticketliquidator.com/tickets/8243092/Foreigner-tickets-Wed-Apr-28-2027-Wellmont-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf_Gkded4lx",
@@ -1183,7 +1246,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243092"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243092",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8243092/Foreigner-tickets-Wed-Apr-28-2027-Wellmont-Theatre"
   },
   {
     "id": "tm-foreigner-2027-port-chester-g5vvz_ony3-go",
@@ -1244,7 +1308,7 @@
         "event_id": "8243093",
         "url": "https://www.ticketliquidator.com/tickets/8243093/Foreigner-tickets-Fri-Apr-30-2027-Capitol-Theatre-Port-Chester",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1401,7 +1465,7 @@
         "event_id": "8318453",
         "url": "https://www.ticketliquidator.com/tickets/8318453/Foreigner-tickets-Fri-Jul-2-2027-BMO-Pavilion",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1475,7 +1539,7 @@
         "event_id": "8373802",
         "url": "https://www.ticketliquidator.com/tickets/8373802/Foreigner-tickets-Sat-May-1-2027-Mohegan-Sun-Arena-CT",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1553,7 +1617,7 @@
         "event_id": "8373799",
         "url": "https://www.ticketliquidator.com/tickets/8373799/Foreigner-tickets-Fri-Jul-16-2027-Maine-Savings-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1715,7 +1779,7 @@
         "event_id": "8373801",
         "url": "https://www.ticketliquidator.com/tickets/8373801/Foreigner-tickets-Sun-Jul-18-2027-Bethel-Woods-Center-For-The-Arts",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1801,7 +1865,7 @@
         "event_id": "8362541",
         "url": "https://www.ticketliquidator.com/tickets/8362541/Foreigner-tickets-Sat-Mar-27-2027-Great-Park-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1864,7 +1928,7 @@
         "event_id": "8286223",
         "url": "https://www.ticketliquidator.com/tickets/8286223/Foreigner-The-Hits-Unplugged-Tribute-tickets-Tue-Feb-16-2027-Ruth-Eckerd-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {

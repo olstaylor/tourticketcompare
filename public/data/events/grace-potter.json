@@ -58,7 +58,7 @@
         "event_id": "8350236",
         "url": "https://www.ticketliquidator.com/tickets/8350236/Grace-Potter-tickets-Thu-Dec-3-2026-The-Bardavon-1869-Opera-House",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -243,7 +243,7 @@
         "event_id": "8364352",
         "url": "https://www.ticketliquidator.com/tickets/8364352/Grace-Potter-tickets-Fri-Jan-15-2027-State-Theatre-ME",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -320,7 +320,7 @@
         "event_id": "8364354",
         "url": "https://www.ticketliquidator.com/tickets/8364354/Grace-Potter-tickets-Sat-Jan-16-2027-Citizens-House-Of-Blues-Boston",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -409,7 +409,7 @@
         "event_id": "8362099",
         "url": "https://www.ticketliquidator.com/tickets/8362099/Grace-Potter-tickets-Sun-Jan-17-2027-College-Street-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -479,7 +479,7 @@
         "event_id": "8364356",
         "url": "https://www.ticketliquidator.com/tickets/8364356/Grace-Potter-tickets-Wed-Jan-20-2027-Roxian-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -559,7 +559,7 @@
         "event_id": "8364358",
         "url": "https://www.ticketliquidator.com/tickets/8364358/Grace-Potter-tickets-Thu-Jan-21-2027-Kodak-Center-Theater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -644,7 +644,7 @@
         "event_id": "8370363",
         "url": "https://www.ticketliquidator.com/tickets/8370363/Grace-Potter-tickets-Fri-Jan-22-2027-Capitol-Theatre-At-Capitol-Arts-Complex",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -714,7 +714,7 @@
         "event_id": "8364360",
         "url": "https://www.ticketliquidator.com/tickets/8364360/Grace-Potter-tickets-Sat-Jan-23-2027-Beacon-Theatre-NY",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -807,7 +807,7 @@
         "event_id": "8365698",
         "url": "https://www.ticketliquidator.com/tickets/8365698/Grace-Potter-tickets-Sun-Jan-24-2027-Patchogue-Theater-For-The-Performing-Arts",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -877,7 +877,7 @@
         "event_id": "8364362",
         "url": "https://www.ticketliquidator.com/tickets/8364362/Grace-Potter-tickets-Wed-Jan-27-2027-Hershey-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -952,6 +952,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8364363",
+        "url": "https://www.ticketliquidator.com/tickets/8364363/Grace-Potter-tickets-Thu-Jan-28-2027-Kirby-Center-for-the-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kFZ_px4G7SfoW",
@@ -968,7 +975,8 @@
         "end": "2027-01-22T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364363"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364363",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364363/Grace-Potter-tickets-Thu-Jan-28-2027-Kirby-Center-for-the-Performing-Arts"
   },
   {
     "id": "tm-grace-potter-2027-bensalem-z7r9jz1aaak_n",
@@ -1029,7 +1037,7 @@
         "event_id": "8365891",
         "url": "https://www.ticketliquidator.com/tickets/8365891/Grace-Potter-tickets-Fri-Jan-29-2027-Xcite-Center-At-Parx-Casino-and-Racing",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1099,7 +1107,7 @@
         "event_id": "8364364",
         "url": "https://www.ticketliquidator.com/tickets/8364364/Grace-Potter-tickets-Sat-Jan-30-2027-The-Anthem-DC",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1185,7 +1193,7 @@
         "event_id": "8369702",
         "url": "https://www.ticketliquidator.com/tickets/8369702/Grace-Potter-tickets-Sun-Jan-31-2027-Globe-Iron",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1255,7 +1263,7 @@
         "event_id": "8364365",
         "url": "https://www.ticketliquidator.com/tickets/8364365/Grace-Potter-tickets-Wed-Feb-3-2027-The-Rail-KY",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1338,6 +1346,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8364367",
+        "url": "https://www.ticketliquidator.com/tickets/8364367/Grace-Potter-tickets-Thu-Feb-4-2027-The-Pageant",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_pQ9G7DnZN",
@@ -1356,7 +1371,8 @@
         "end": "2027-01-29T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364367"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8364367",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8364367/Grace-Potter-tickets-Thu-Feb-4-2027-The-Pageant"
   },
   {
     "id": "tm-grace-potter-2027-indianapolis-vv1aazk4jgkei1ehm",
@@ -1417,7 +1433,7 @@
         "event_id": "8364369",
         "url": "https://www.ticketliquidator.com/tickets/8364369/Grace-Potter-tickets-Fri-Feb-5-2027-Egyptian-Room-At-Old-National-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1498,7 +1514,7 @@
         "event_id": "8364371",
         "url": "https://www.ticketliquidator.com/tickets/8364371/Grace-Potter-tickets-Sat-Feb-6-2027-Taft-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1587,7 +1603,7 @@
         "event_id": "8364952",
         "url": "https://www.ticketliquidator.com/tickets/8364952/Grace-Potter-tickets-Tue-Feb-9-2027-Intersection",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1657,7 +1673,7 @@
         "event_id": "8368923",
         "url": "https://www.ticketliquidator.com/tickets/8368923/Grace-Potter-tickets-Wed-Feb-10-2027-Capitol-Theatre-Iowa",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1727,7 +1743,7 @@
         "event_id": "8369025",
         "url": "https://www.ticketliquidator.com/tickets/8369025/Grace-Potter-tickets-Thu-Feb-11-2027-Pabst-Theater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1797,7 +1813,7 @@
         "event_id": "8366153",
         "url": "https://www.ticketliquidator.com/tickets/8366153/Grace-Potter-tickets-Fri-Feb-12-2027-The-Palace-Theatre-St-Paul",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1867,7 +1883,7 @@
         "event_id": "8364372",
         "url": "https://www.ticketliquidator.com/tickets/8364372/Grace-Potter-tickets-Sat-Feb-13-2027-Hoyt-Sherman-Place-Theater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1953,7 +1969,7 @@
         "event_id": "8366185",
         "url": "https://www.ticketliquidator.com/tickets/8366185/Grace-Potter-tickets-Thu-Feb-25-2027-The-Truman-Kansas-City",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2023,7 +2039,7 @@
         "event_id": "8366368",
         "url": "https://www.ticketliquidator.com/tickets/8366368/Grace-Potter-tickets-Fri-Feb-26-2027-The-Slowdown",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2093,7 +2109,7 @@
         "event_id": "8364374",
         "url": "https://www.ticketliquidator.com/tickets/8364374/Grace-Potter-tickets-Sat-Feb-27-2027-Fillmore-Auditorium-Colorado",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2187,7 +2203,7 @@
         "event_id": "8370342",
         "url": "https://www.ticketliquidator.com/tickets/8370342/Grace-Potter-tickets-Mon-Mar-1-2027-Belly-Up-Aspen",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2250,7 +2266,7 @@
         "event_id": "8380607",
         "url": "https://www.ticketliquidator.com/tickets/8380607/Grace-Potter-tickets-Tue-Mar-2-2027-The-Lensic-Performing-Arts-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2327,7 +2343,7 @@
         "event_id": "8364375",
         "url": "https://www.ticketliquidator.com/tickets/8364375/Grace-Potter-tickets-Thu-Mar-4-2027-Rialto-Theatre-Tucson",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2405,7 +2421,7 @@
         "event_id": "8364377",
         "url": "https://www.ticketliquidator.com/tickets/8364377/Grace-Potter-tickets-Fri-Mar-5-2027-The-Sound-At-The-Del-Mar-Fairgrounds",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2475,7 +2491,7 @@
         "event_id": "8364379",
         "url": "https://www.ticketliquidator.com/tickets/8364379/Grace-Potter-tickets-Sat-Mar-6-2027-The-Stage-at-Zouk-at-Resorts-World-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2546,7 +2562,7 @@
         "event_id": "8364381",
         "url": "https://www.ticketliquidator.com/tickets/8364381/Grace-Potter-tickets-Sun-Mar-7-2027-The-Van-Buren",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2693,7 +2709,7 @@
         "event_id": "8365992",
         "url": "https://www.ticketliquidator.com/tickets/8365992/Grace-Potter-tickets-Wed-Mar-10-2027-Golden-State-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2763,7 +2779,7 @@
         "event_id": "8364383",
         "url": "https://www.ticketliquidator.com/tickets/8364383/Grace-Potter-tickets-Thu-Mar-11-2027-The-Fillmore-San-Francisco",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2856,7 +2872,7 @@
         "event_id": "8364386",
         "url": "https://www.ticketliquidator.com/tickets/8364386/Grace-Potter-tickets-Sat-Mar-13-2027-Uptown-Theatre-Napa",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2937,13 +2953,21 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369472",
+        "url": "https://www.ticketliquidator.com/tickets/8369472/Grace-Potter-tickets-Sun-Mar-14-2027-Cascade-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA64I",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "genre": "Pop",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369472"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369472",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369472/Grace-Potter-tickets-Sun-Mar-14-2027-Cascade-Theatre"
   },
   {
     "id": "tm-grace-potter-2027-boise-z7r9jz1aaak_s",
@@ -3004,7 +3028,7 @@
         "event_id": "8382907",
         "url": "https://www.ticketliquidator.com/tickets/8382907/Grace-Potter-tickets-Tue-Mar-16-2027-Treefort-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3128,7 +3152,7 @@
         "event_id": "8366186",
         "url": "https://www.ticketliquidator.com/tickets/8366186/Grace-Potter-tickets-Fri-Mar-19-2027-Rockwell-At-The-Complex",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3198,7 +3222,7 @@
         "event_id": "8364387",
         "url": "https://www.ticketliquidator.com/tickets/8364387/Grace-Potter-tickets-Sat-Mar-20-2027-The-Elm-Bozeman",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3276,7 +3300,7 @@
         "event_id": "8364388",
         "url": "https://www.ticketliquidator.com/tickets/8364388/Grace-Potter-tickets-Sun-Mar-21-2027-The-Wilma-Theatre-MT",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3357,7 +3381,7 @@
         "event_id": "8364389",
         "url": "https://www.ticketliquidator.com/tickets/8364389/Grace-Potter-tickets-Mon-Mar-22-2027-Knitting-Factory-Spokane",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3434,7 +3458,7 @@
         "event_id": "8370569",
         "url": "https://www.ticketliquidator.com/tickets/8370569/Grace-Potter-tickets-Wed-Mar-24-2027-Holly-Theatre-OR",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3504,7 +3528,7 @@
         "event_id": "8365313",
         "url": "https://www.ticketliquidator.com/tickets/8365313/Grace-Potter-tickets-Thu-Mar-25-2027-McDonald-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3574,7 +3598,7 @@
         "event_id": "8364773",
         "url": "https://www.ticketliquidator.com/tickets/8364773/Grace-Potter-tickets-Fri-Mar-26-2027-McMenamins-Crystal-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3644,7 +3668,7 @@
         "event_id": "8366328",
         "url": "https://www.ticketliquidator.com/tickets/8366328/Grace-Potter-tickets-Sat-Mar-27-2027-The-Showbox",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

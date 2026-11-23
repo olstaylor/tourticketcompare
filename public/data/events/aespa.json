@@ -65,7 +65,7 @@
         "event_id": "7915776",
         "url": "https://www.ticketliquidator.com/tickets/7915776/Aespa-tickets-Thu-Jan-14-2027-AO-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -144,6 +144,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8178283",
+        "url": "https://www.ticketliquidator.com/tickets/8178283/Aespa-tickets-Sat-Jan-16-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3pGkeOK319",
@@ -156,7 +163,8 @@
     ],
     "ticket_limit": 6,
     "genre": "Pop",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8178283"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8178283",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8178283/Aespa-tickets-Sat-Jan-16-2027-O2-Arena-London"
   },
   {
     "id": "tm-aespa-2027-amsterdam-z698xzbpz16voeqaa6",
@@ -224,7 +232,7 @@
         "event_id": "7915781",
         "url": "https://www.ticketliquidator.com/tickets/7915781/Aespa-tickets-Tue-Jan-19-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -305,7 +313,7 @@
         "event_id": "7915779",
         "url": "https://www.ticketliquidator.com/tickets/7915779/Aespa-tickets-Tue-Jan-26-2027-Uber-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -440,7 +448,7 @@
         "event_id": "7915778",
         "url": "https://www.ticketliquidator.com/tickets/7915778/Aespa-tickets-Sun-Jan-31-2027-Palau-Sant-Jordi",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

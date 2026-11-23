@@ -406,7 +406,6 @@ export const OG_CARDS = {
   "/artists/karol-g/tickets/madrid-spain": {"url":"/og/artists-karol-g-tickets-madrid-spain.png","alt":"Tickets: Karol G in Madrid"},
   "/artists/karol-g/tickets/sevilla-spain": {"url":"/og/artists-karol-g-tickets-sevilla-spain.png","alt":"Tickets: Karol G in Sevilla"},
   "/artists/katseye": {"url":"/og/artists-katseye.png","alt":"Tickets & tour dates: KATSEYE"},
-  "/artists/katseye/ticket-prices": {"url":"/og/artists-katseye-ticket-prices.png","alt":"Ticket prices: KATSEYE"},
   "/artists/katseye/tickets/ciudad-de-m-xico-mexico": {"url":"/og/artists-katseye-tickets-ciudad-de-m-xico-mexico.png","alt":"Tickets: KATSEYE in Ciudad de México"},
   "/artists/keith-urban": {"url":"/og/artists-keith-urban.png","alt":"Tickets & tour dates: Keith Urban"},
   "/artists/kenny-chesney": {"url":"/og/artists-kenny-chesney.png","alt":"Tickets & tour dates: Kenny Chesney"},

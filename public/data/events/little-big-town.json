@@ -853,6 +853,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8034564",
+        "url": "https://www.ticketliquidator.com/tickets/8034564/Little-Big-Town-tickets-Sun-Nov-22-2026-Massey-Hall-At-Allied-Music-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "177Zv0G6G2_mkrp",
@@ -882,7 +889,8 @@
       }
     ],
     "genre": "Country",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034564"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034564",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034564/Little-Big-Town-tickets-Sun-Nov-22-2026-Massey-Hall-At-Allied-Music-Centre"
   },
   {
     "id": "tm-little-big-town-2026-nashville-z7r9jz1a7j8ra",
@@ -943,7 +951,7 @@
         "event_id": "8130730",
         "url": "https://www.ticketliquidator.com/tickets/8130730/Little-Big-Town-tickets-Tue-Dec-8-2026-Ryman-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1013,7 +1021,7 @@
         "event_id": "8130732",
         "url": "https://www.ticketliquidator.com/tickets/8130732/Little-Big-Town-tickets-Wed-Dec-9-2026-Ryman-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1083,7 +1091,7 @@
         "event_id": "8130733",
         "url": "https://www.ticketliquidator.com/tickets/8130733/Little-Big-Town-tickets-Thu-Dec-10-2026-Ryman-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

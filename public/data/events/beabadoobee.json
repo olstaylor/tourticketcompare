@@ -771,7 +771,7 @@
         "event_id": "8094857",
         "url": "https://www.ticketliquidator.com/tickets/8094857/beabadoobee-tickets-Fri-Nov-27-2026-Oslo-Spektrum",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -854,6 +854,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8094858",
+        "url": "https://www.ticketliquidator.com/tickets/8094858/beabadoobee-tickets-Fri-Dec-4-2026-Vorst-Nationaal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vOVadfJ",
@@ -863,7 +870,8 @@
       "Live Nation"
     ],
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8094858"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8094858",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094858/beabadoobee-tickets-Fri-Dec-4-2026-Vorst-Nationaal"
   },
   {
     "id": "tm-beabadoobee-2026-berlin-z698xzc2z16vpmfp_a",
@@ -917,7 +925,7 @@
         "event_id": "8094855",
         "url": "https://www.ticketliquidator.com/tickets/8094855/beabadoobee-tickets-Sun-Dec-6-2026-Tempodrom",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -998,7 +1006,7 @@
         "event_id": "8094856",
         "url": "https://www.ticketliquidator.com/tickets/8094856/beabadoobee-tickets-Mon-Dec-7-2026-Mitsubishi-Electric-Halle",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {

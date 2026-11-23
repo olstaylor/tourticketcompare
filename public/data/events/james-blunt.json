@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326653",
+        "url": "https://www.ticketliquidator.com/tickets/8326653/James-Blunt-tickets-Fri-Feb-19-2027-Vorst-Nationaal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16voJF7u8",
@@ -62,7 +69,8 @@
       "FKP Scorpio Belgium"
     ],
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326653"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326653",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326653/James-Blunt-tickets-Fri-Feb-19-2027-Vorst-Nationaal"
   },
   {
     "id": "tm-james-blunt-2027-praha-9-z698xzu0z1ague3f",
@@ -310,7 +318,7 @@
         "event_id": "8356240",
         "url": "https://www.ticketliquidator.com/tickets/8356240/James-Blunt-tickets-Sat-Mar-27-2027-bp-pulse-LIVE",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -385,7 +393,7 @@
         "event_id": "8373749",
         "url": "https://www.ticketliquidator.com/tickets/8373749/James-Blunt-tickets-Sun-Mar-28-2027-Utilita-Arena-Newcastle",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -518,7 +526,7 @@
         "event_id": "8326044",
         "url": "https://www.ticketliquidator.com/tickets/8326044/James-Blunt-tickets-Wed-Mar-31-2027-The-O2-Belfast",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -593,7 +601,7 @@
         "event_id": "8272590",
         "url": "https://www.ticketliquidator.com/tickets/8272590/James-Blunt-tickets-Fri-Apr-2-2027-OVO-Hydro",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -676,7 +684,7 @@
         "event_id": "8247670",
         "url": "https://www.ticketliquidator.com/tickets/8247670/James-Blunt-tickets-Sat-Apr-3-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -759,6 +767,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8252474",
+        "url": "https://www.ticketliquidator.com/tickets/8252474/James-Blunt-tickets-Sun-Apr-4-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkf6GkdPobqQ",
@@ -770,7 +785,8 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252474"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252474",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252474/James-Blunt-tickets-Sun-Apr-4-2027-O2-Arena-London"
   },
   {
     "id": "tm-james-blunt-2027-cardiff-16dbz_8pkg7i-jy",
@@ -964,7 +980,7 @@
         "event_id": "8369893",
         "url": "https://www.ticketliquidator.com/tickets/8369893/James-Blunt-tickets-Thu-Apr-8-2027-Brighton-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {

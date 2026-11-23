@@ -1964,7 +1964,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-austin-moody-amphitheater-6-25-2027--concerts-dance-electronica/production/7841677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2024,6 +2024,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-06-21T17:00:00Z"
+      },
+      {
+        "name": "Premium Pod Seating",
+        "start": "2026-11-22T23:00:00Z",
+        "end": "2027-06-26T03:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363865"

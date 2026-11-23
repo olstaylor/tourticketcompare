@@ -230,7 +230,7 @@
         "event_id": "8266203",
         "url": "https://www.ticketnetwork.com/en/p/8266203",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -305,13 +305,21 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266212",
+        "url": "https://www.ticketnetwork.com/en/p/8266212",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_3RF_-Sk",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266212"
   },
   {
     "id": "tm-the-lemonheads-2027-houston-g5diz_3mypste",
@@ -365,7 +373,7 @@
         "event_id": "8266214",
         "url": "https://www.ticketnetwork.com/en/p/8266214",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -436,7 +444,7 @@
         "event_id": "8266221",
         "url": "https://www.ticketnetwork.com/en/p/8266221",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -506,7 +514,7 @@
         "event_id": "8266224",
         "url": "https://www.ticketnetwork.com/en/p/8266224",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -587,7 +595,7 @@
         "event_id": "8266231",
         "url": "https://www.ticketnetwork.com/en/p/8266231",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -664,6 +672,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266235",
+        "url": "https://www.ticketnetwork.com/en/p/8266235",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_3Gklkn916",
@@ -680,7 +695,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266235"
   },
   {
     "id": "tm-the-lemonheads-2027-cincinnati-1avbz_3gkmybpfp",
@@ -729,12 +745,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266236",
+        "url": "https://www.ticketnetwork.com/en/p/8266236",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvbZ_3GkmYbpfp",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266236"
   },
   {
     "id": "tm-the-lemonheads-2027-tampa-z7r9jz1aavwob",
@@ -783,12 +807,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8266209",
+        "url": "https://www.ticketnetwork.com/en/p/8266209",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvwOb",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8266209"
   },
   {
     "id": "tm-the-lemonheads-2027-englewood-z7r9jz1aavvvk",
@@ -842,7 +874,7 @@
         "event_id": "8266228",
         "url": "https://www.ticketnetwork.com/en/p/8266228",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -912,7 +944,7 @@
         "event_id": "8266229",
         "url": "https://www.ticketnetwork.com/en/p/8266229",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -982,7 +1014,7 @@
         "event_id": "8266208",
         "url": "https://www.ticketnetwork.com/en/p/8266208",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1052,7 +1084,7 @@
         "event_id": "8266211",
         "url": "https://www.ticketnetwork.com/en/p/8266211",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1122,7 +1154,7 @@
         "event_id": "8266218",
         "url": "https://www.ticketnetwork.com/en/p/8266218",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1192,7 +1224,7 @@
         "event_id": "8266219",
         "url": "https://www.ticketnetwork.com/en/p/8266219",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1262,7 +1294,7 @@
         "event_id": "8266232",
         "url": "https://www.ticketnetwork.com/en/p/8266232",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1332,7 +1364,7 @@
         "event_id": "8266237",
         "url": "https://www.ticketnetwork.com/en/p/8266237",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1405,7 +1437,7 @@
         "event_id": "8266222",
         "url": "https://www.ticketnetwork.com/en/p/8266222",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1475,7 +1507,7 @@
         "event_id": "8266225",
         "url": "https://www.ticketnetwork.com/en/p/8266225",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1552,7 +1584,7 @@
         "event_id": "8266226",
         "url": "https://www.ticketnetwork.com/en/p/8266226",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

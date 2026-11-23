@@ -106,12 +106,20 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8176744",
+        "url": "https://www.ticketnetwork.com/en/p/8176744",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUPE",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455"
+    "stubhub_international_url": "https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8176744"
   },
   {
     "id": "tm-illenium-2026-san-francisco-g5vyz_kj0ltb6",
@@ -165,7 +173,7 @@
         "event_id": "8294523",
         "url": "https://www.ticketnetwork.com/en/p/8294523",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -254,7 +262,7 @@
         "event_id": "8294522",
         "url": "https://www.ticketnetwork.com/en/p/8294522",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -343,7 +351,7 @@
         "event_id": "8342892",
         "url": "https://www.ticketnetwork.com/en/p/8342892",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

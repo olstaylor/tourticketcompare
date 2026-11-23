@@ -417,7 +417,7 @@
         "event_id": "8295784",
         "url": "https://www.ticketnetwork.com/en/p/8295784",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -502,7 +502,7 @@
         "event_id": "8295777",
         "url": "https://www.ticketnetwork.com/en/p/8295777",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -583,7 +583,7 @@
         "event_id": "8295778",
         "url": "https://www.ticketnetwork.com/en/p/8295778",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -665,6 +665,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295780",
+        "url": "https://www.ticketnetwork.com/en/p/8295780",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkfMGkdGjznY",
@@ -686,7 +693,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295780"
   },
   {
     "id": "tm-blondshell-2027-saint-louis-vv1kbz_kjdg7cpvx",
@@ -735,6 +743,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295782",
+        "url": "https://www.ticketnetwork.com/en/p/8295782",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_KJdG7cpVX",
@@ -751,7 +766,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295782"
   },
   {
     "id": "tm-blondshell-2027-san-diego-vvg1iz_1wv8vq3",
@@ -805,7 +821,7 @@
         "event_id": "7976571",
         "url": "https://www.ticketnetwork.com/en/p/7976571",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -880,7 +896,7 @@
         "event_id": "7976572",
         "url": "https://www.ticketnetwork.com/en/p/7976572",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -962,7 +978,7 @@
         "event_id": "7976573",
         "url": "https://www.ticketnetwork.com/en/p/7976573",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1044,7 +1060,7 @@
         "event_id": "7976575",
         "url": "https://www.ticketnetwork.com/en/p/7976575",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1115,7 +1131,7 @@
         "event_id": "7976576",
         "url": "https://www.ticketnetwork.com/en/p/7976576",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1202,7 +1218,7 @@
         "event_id": "7976577",
         "url": "https://www.ticketnetwork.com/en/p/7976577",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1273,7 +1289,7 @@
         "event_id": "7976580",
         "url": "https://www.ticketnetwork.com/en/p/7976580",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1344,7 +1360,7 @@
         "event_id": "7976581",
         "url": "https://www.ticketnetwork.com/en/p/7976581",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1416,7 +1432,7 @@
         "event_id": "7976583",
         "url": "https://www.ticketnetwork.com/en/p/7976583",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1497,7 +1513,7 @@
         "event_id": "7976579",
         "url": "https://www.ticketnetwork.com/en/p/7976579",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1648,7 +1664,7 @@
         "event_id": "7976582",
         "url": "https://www.ticketnetwork.com/en/p/7976582",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1727,7 +1743,7 @@
         "event_id": "8295790",
         "url": "https://www.ticketnetwork.com/en/p/8295790",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

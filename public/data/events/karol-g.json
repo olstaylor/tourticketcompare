@@ -1127,6 +1127,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896499",
+        "url": "https://www.ticketnetwork.com/en/p/7896499",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k-d-v1k",
@@ -1135,7 +1142,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896499"
   },
   {
     "id": "tm-karol-g-2027-barcelona-z698xz2qz1k8n04vk",
@@ -1184,6 +1192,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7912284",
+        "url": "https://www.ticketnetwork.com/en/p/7912284",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k8N04vK",
@@ -1192,7 +1207,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7912284"
   },
   {
     "id": "tm-karol-g-2027-sevilla-z698xz2qz1kp4_vuk",
@@ -1246,7 +1262,7 @@
         "event_id": "7896500",
         "url": "https://www.ticketnetwork.com/en/p/7896500",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1319,7 +1335,7 @@
         "event_id": "7912285",
         "url": "https://www.ticketnetwork.com/en/p/7912285",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1392,7 +1408,7 @@
         "event_id": "7921229",
         "url": "https://www.ticketnetwork.com/en/p/7921229",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1460,6 +1476,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7896501",
+        "url": "https://www.ticketnetwork.com/en/p/7896501",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vQ8A4F7",
@@ -1468,7 +1491,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896501"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz1kpmzkfn",
@@ -1517,6 +1541,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7912286",
+        "url": "https://www.ticketnetwork.com/en/p/7912286",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kPMZKFN",
@@ -1525,7 +1556,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7912286"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz16v8zxv0i",
@@ -1574,6 +1606,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7918852",
+        "url": "https://www.ticketnetwork.com/en/p/7918852",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v8zxv0I",
@@ -1582,7 +1621,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7918852"
   },
   {
     "id": "tm-karol-g-2027-madrid-z698xz2qz1koujx1f",
@@ -1631,6 +1671,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7921230",
+        "url": "https://www.ticketnetwork.com/en/p/7921230",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1koUjx1F",
@@ -1639,7 +1686,8 @@
     "organizer_names": [
       "Live Nation España Black Star S.L"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7921230"
   },
   {
     "id": "tm-karol-g-2027-london-1agzk3ogkddbuhf",
@@ -1695,6 +1743,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7896396",
+        "url": "https://www.ticketnetwork.com/en/p/7896396",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3oGkdDBUhf",
@@ -1706,7 +1761,8 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896396"
   },
   {
     "id": "tm-karol-g-2027-amsterdam-z698xzbpz16vc_bwjy",
@@ -1760,7 +1816,7 @@
         "event_id": "7896506",
         "url": "https://www.ticketnetwork.com/en/p/7896506",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

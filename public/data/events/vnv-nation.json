@@ -46,11 +46,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8095649",
+        "url": "https://www.ticketnetwork.com/en/p/8095649",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Jv8S",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8095649"
   },
   {
     "id": "tm-vnv-nation-2027-atlanta-z7r9jz1a7jvoo",
@@ -111,7 +119,7 @@
         "event_id": "8099561",
         "url": "https://www.ticketnetwork.com/en/p/8099561",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -180,7 +188,7 @@
         "event_id": "7529761",
         "url": "https://www.ticketnetwork.com/en/p/7529761",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -240,11 +248,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8129097",
+        "url": "https://www.ticketnetwork.com/en/p/8129097",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7JZvU",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8129097"
   },
   {
     "id": "tm-vnv-nation-2027-chicago-z7r9jz1a7pupm",
@@ -305,7 +321,7 @@
         "event_id": "7495772",
         "url": "https://www.ticketnetwork.com/en/p/7495772",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -362,11 +378,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8154218",
+        "url": "https://www.ticketnetwork.com/en/p/8154218",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Jv8M",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8154218"
   },
   {
     "id": "tm-vnv-nation-2027-limerick-city-1avozbugknqkh_5",
@@ -537,7 +561,7 @@
         "event_id": "8095650",
         "url": "https://www.ticketnetwork.com/en/p/8095650",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -602,13 +626,21 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7495737",
+        "url": "https://www.ticketnetwork.com/en/p/7495737",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZbVDf3U-X",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7495737"
   },
   {
     "id": "tm-vnv-nation-2027-mesa-z7r9jz1a7qp8u",
@@ -662,7 +694,7 @@
         "event_id": "7656035",
         "url": "https://www.ticketnetwork.com/en/p/7656035",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -735,7 +767,7 @@
         "event_id": "7610204",
         "url": "https://www.ticketnetwork.com/en/p/7610204",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -805,6 +837,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7653520",
+        "url": "https://www.ticketnetwork.com/en/p/7653520",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170ZbVGklJ1kgc",
@@ -815,7 +854,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7653520"
   },
   {
     "id": "tm-vnv-nation-2027-san-francisco-g5vyzbvdfhbds",
@@ -869,7 +909,7 @@
         "event_id": "7493673",
         "url": "https://www.ticketnetwork.com/en/p/7493673",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -950,7 +990,7 @@
         "event_id": "7496081",
         "url": "https://www.ticketnetwork.com/en/p/7496081",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1025,7 +1065,7 @@
         "event_id": "7584375",
         "url": "https://www.ticketnetwork.com/en/p/7584375",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1090,6 +1130,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7495777",
+        "url": "https://www.ticketnetwork.com/en/p/7495777",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AFZkuaGkexQ-mx",
@@ -1107,7 +1154,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7495777"
   },
   {
     "id": "tm-vnv-nation-2027-cleveland-vv1kfzbv0wg7mfd6",
@@ -1161,7 +1209,7 @@
         "event_id": "7493671",
         "url": "https://www.ticketnetwork.com/en/p/7493671",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1297,7 +1345,7 @@
         "event_id": "7498713",
         "url": "https://www.ticketnetwork.com/en/p/7498713",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1372,7 +1420,7 @@
         "event_id": "7503826",
         "url": "https://www.ticketnetwork.com/en/p/7503826",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1446,7 +1494,7 @@
         "event_id": "7495786",
         "url": "https://www.ticketnetwork.com/en/p/7495786",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1521,7 +1569,7 @@
         "event_id": "7665363",
         "url": "https://www.ticketnetwork.com/en/p/7665363",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1588,6 +1636,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7498635",
+        "url": "https://www.ticketnetwork.com/en/p/7498635",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1AfbaPS",
@@ -1595,6 +1650,7 @@
     "status": "on-sale",
     "organizer_names": [
       "OPUS ONE PRODUCTIONS"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7498635"
   }
 ]

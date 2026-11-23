@@ -338,7 +338,7 @@
         "event_id": "8255029",
         "url": "https://www.ticketnetwork.com/en/p/8255029",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -408,7 +408,7 @@
         "event_id": "8254012",
         "url": "https://www.ticketnetwork.com/en/p/8254012",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -490,7 +490,7 @@
         "event_id": "8254013",
         "url": "https://www.ticketnetwork.com/en/p/8254013",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -561,7 +561,7 @@
         "event_id": "8254014",
         "url": "https://www.ticketnetwork.com/en/p/8254014",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -951,7 +951,7 @@
         "event_id": "8254020",
         "url": "https://www.ticketnetwork.com/en/p/8254020",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1030,12 +1030,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255473",
+        "url": "https://www.ticketnetwork.com/en/p/8255473",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvxPg",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255473"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-enoch-1aozkfngkdgjwil",
@@ -1084,6 +1092,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8254021",
+        "url": "https://www.ticketnetwork.com/en/p/8254021",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfNGkdgJWiL",
@@ -1098,7 +1113,8 @@
     ],
     "ticket_limit": 6,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8254021"
   },
   {
     "id": "tm-theory-of-a-deadman-2027-calgary-1av7z_ogkn_kbte",
@@ -1152,7 +1168,7 @@
         "event_id": "8254022",
         "url": "https://www.ticketnetwork.com/en/p/8254022",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1283,7 +1299,7 @@
         "event_id": "8254023",
         "url": "https://www.ticketnetwork.com/en/p/8254023",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

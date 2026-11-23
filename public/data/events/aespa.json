@@ -51,7 +51,7 @@
         "event_id": "7915776",
         "url": "https://www.ticketnetwork.com/en/p/7915776",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -137,6 +137,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8178283",
+        "url": "https://www.ticketnetwork.com/en/p/8178283",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3pGkeOK319",
@@ -148,7 +155,8 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8178283"
   },
   {
     "id": "tm-aespa-2027-amsterdam-z698xzbpz16voeqaa6",
@@ -202,7 +210,7 @@
         "event_id": "7915781",
         "url": "https://www.ticketnetwork.com/en/p/7915781",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -283,7 +291,7 @@
         "event_id": "7915779",
         "url": "https://www.ticketnetwork.com/en/p/7915779",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -418,7 +426,7 @@
         "event_id": "7915778",
         "url": "https://www.ticketnetwork.com/en/p/7915778",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {

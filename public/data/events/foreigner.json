@@ -168,12 +168,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8231518",
+        "url": "https://www.ticketnetwork.com/en/p/8231518",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAedCa",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8231518"
   },
   {
     "id": "tm-foreigner-2027-pompano-beach-z7r9jz1aav6fn",
@@ -227,7 +235,7 @@
         "event_id": "8237209",
         "url": "https://www.ticketnetwork.com/en/p/8237209",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -454,6 +462,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342824",
+        "url": "https://www.ticketnetwork.com/en/p/8342824",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrYnKa",
@@ -475,7 +490,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342824"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkursnk8",
@@ -524,6 +540,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342825",
+        "url": "https://www.ticketnetwork.com/en/p/8342825",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrsnK8",
@@ -545,7 +568,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342825"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurwnkf",
@@ -594,6 +618,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342826",
+        "url": "https://www.ticketnetwork.com/en/p/8342826",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrwnKf",
@@ -615,7 +646,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342826"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkursnk_",
@@ -664,6 +696,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342827",
+        "url": "https://www.ticketnetwork.com/en/p/8342827",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrSnK_",
@@ -685,7 +724,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342827"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurvnkq",
@@ -734,6 +774,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342828",
+        "url": "https://www.ticketnetwork.com/en/p/8342828",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrVnKq",
@@ -755,7 +802,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342828"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurgbki",
@@ -804,6 +852,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8342829",
+        "url": "https://www.ticketnetwork.com/en/p/8342829",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrgBKI",
@@ -825,7 +880,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342829"
   },
   {
     "id": "tm-foreigner-2027-dublin-1kkzvpv9gacwy1_",
@@ -936,7 +992,7 @@
         "event_id": "8324848",
         "url": "https://www.ticketnetwork.com/en/p/8324848",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1018,7 +1074,7 @@
         "event_id": "8243091",
         "url": "https://www.ticketnetwork.com/en/p/8243091",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1106,6 +1162,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8243092",
+        "url": "https://www.ticketnetwork.com/en/p/8243092",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZkf_Gkded4lx",
@@ -1119,7 +1182,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8243092"
   },
   {
     "id": "tm-foreigner-2027-port-chester-g5vvz_ony3-go",
@@ -1173,7 +1237,7 @@
         "event_id": "8243093",
         "url": "https://www.ticketnetwork.com/en/p/8243093",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1330,7 +1394,7 @@
         "event_id": "8318453",
         "url": "https://www.ticketnetwork.com/en/p/8318453",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1404,7 +1468,7 @@
         "event_id": "8373802",
         "url": "https://www.ticketnetwork.com/en/p/8373802",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1482,7 +1546,7 @@
         "event_id": "8373799",
         "url": "https://www.ticketnetwork.com/en/p/8373799",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1644,7 +1708,7 @@
         "event_id": "8373801",
         "url": "https://www.ticketnetwork.com/en/p/8373801",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1730,7 +1794,7 @@
         "event_id": "8362541",
         "url": "https://www.ticketnetwork.com/en/p/8362541",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1807,7 +1871,7 @@
         "event_id": "8286223",
         "url": "https://www.ticketnetwork.com/en/p/8286223",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

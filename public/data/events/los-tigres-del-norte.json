@@ -446,7 +446,7 @@
         "event_id": "7759914",
         "url": "https://www.ticketnetwork.com/en/p/7759914",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -509,6 +509,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7759915",
+        "url": "https://www.ticketnetwork.com/en/p/7759915",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kGZv0pFGAGsN5l",
@@ -525,7 +532,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7759915"
   },
   {
     "id": "tm-los-tigres-del-norte-2026-nashville-g5viz_an5hweq",
@@ -593,7 +601,7 @@
         "event_id": "7759916",
         "url": "https://www.ticketnetwork.com/en/p/7759916",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -746,7 +754,7 @@
         "event_id": "8286352",
         "url": "https://www.ticketnetwork.com/en/p/8286352",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -826,6 +834,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8309342",
+        "url": "https://www.ticketnetwork.com/en/p/8309342",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_KM0aEy4",
@@ -836,7 +851,8 @@
       "AEG LIVE"
     ],
     "ticket_limit": 6,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8309342"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-oklahoma-city-vvg1yz_f5olqqc",
@@ -890,7 +906,7 @@
         "event_id": "8353584",
         "url": "https://www.ticketnetwork.com/en/p/8353584",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -963,7 +979,7 @@
         "event_id": "8353583",
         "url": "https://www.ticketnetwork.com/en/p/8353583",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1049,7 +1065,7 @@
         "event_id": "8355708",
         "url": "https://www.ticketnetwork.com/en/p/8355708",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1138,7 +1154,7 @@
         "event_id": "8353585",
         "url": "https://www.ticketnetwork.com/en/p/8353585",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1215,7 +1231,7 @@
         "event_id": "8353586",
         "url": "https://www.ticketnetwork.com/en/p/8353586",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1289,7 +1305,7 @@
         "event_id": "8353587",
         "url": "https://www.ticketnetwork.com/en/p/8353587",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1367,7 +1383,7 @@
         "event_id": "8353588",
         "url": "https://www.ticketnetwork.com/en/p/8353588",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1447,7 +1463,7 @@
         "event_id": "8353589",
         "url": "https://www.ticketnetwork.com/en/p/8353589",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1528,7 +1544,7 @@
         "event_id": "8355710",
         "url": "https://www.ticketnetwork.com/en/p/8355710",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1605,7 +1621,7 @@
         "event_id": "8356345",
         "url": "https://www.ticketnetwork.com/en/p/8356345",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1675,7 +1691,7 @@
         "event_id": "8357209",
         "url": "https://www.ticketnetwork.com/en/p/8357209",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1737,7 +1753,7 @@
         "event_id": "8353670",
         "url": "https://www.ticketnetwork.com/en/p/8353670",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1815,7 +1831,7 @@
         "event_id": "8356363",
         "url": "https://www.ticketnetwork.com/en/p/8356363",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1885,7 +1901,7 @@
         "event_id": "8365425",
         "url": "https://www.ticketnetwork.com/en/p/8365425",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

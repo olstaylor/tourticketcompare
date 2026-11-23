@@ -58,7 +58,7 @@
         "event_id": "8363032",
         "url": "https://www.ticketnetwork.com/en/p/8363032",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -128,7 +128,7 @@
         "event_id": "8363033",
         "url": "https://www.ticketnetwork.com/en/p/8363033",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -198,7 +198,7 @@
         "event_id": "8362406",
         "url": "https://www.ticketnetwork.com/en/p/8362406",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -267,6 +267,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362407",
+        "url": "https://www.ticketnetwork.com/en/p/8362407",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk40GkdyYany",
@@ -280,7 +287,8 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-03-19T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362407"
   },
   {
     "id": "tm-melissa-etheridge-2027-enoch-1aozk4pgkdrvn3r",
@@ -329,6 +337,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362408",
+        "url": "https://www.ticketnetwork.com/en/p/8362408",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4PGkdrvn3r",
@@ -348,7 +363,8 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-03-20T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362408"
   },
   {
     "id": "tm-melissa-etheridge-2027-saskatoon-z7r9jz1aaakcv",
@@ -409,7 +425,7 @@
         "event_id": "8363034",
         "url": "https://www.ticketnetwork.com/en/p/8363034",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -467,12 +483,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8363035",
+        "url": "https://www.ticketnetwork.com/en/p/8363035",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkCe",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363035"
   },
   {
     "id": "tm-melissa-etheridge-2027-winnipeg-1aozk4jgkenj9vg",
@@ -533,7 +557,7 @@
         "event_id": "8362410",
         "url": "https://www.ticketnetwork.com/en/p/8362410",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -611,7 +635,7 @@
         "event_id": "8362412",
         "url": "https://www.ticketnetwork.com/en/p/8362412",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -692,7 +716,7 @@
         "event_id": "8362417",
         "url": "https://www.ticketnetwork.com/en/p/8362417",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -760,6 +784,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362420",
+        "url": "https://www.ticketnetwork.com/en/p/8362420",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk4NGkd9d6LZ",
@@ -776,7 +807,8 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-03-28T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362420"
   },
   {
     "id": "tm-melissa-etheridge-2027-milwaukee-z7r9jz1aaakcd",
@@ -837,7 +869,7 @@
         "event_id": "8364068",
         "url": "https://www.ticketnetwork.com/en/p/8364068",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -907,7 +939,7 @@
         "event_id": "8369726",
         "url": "https://www.ticketnetwork.com/en/p/8369726",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -977,7 +1009,7 @@
         "event_id": "8362424",
         "url": "https://www.ticketnetwork.com/en/p/8362424",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1058,7 +1090,7 @@
         "event_id": "8362425",
         "url": "https://www.ticketnetwork.com/en/p/8362425",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1141,7 +1173,7 @@
         "event_id": "8363037",
         "url": "https://www.ticketnetwork.com/en/p/8363037",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1211,7 +1243,7 @@
         "event_id": "8362426",
         "url": "https://www.ticketnetwork.com/en/p/8362426",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1280,12 +1312,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362427",
+        "url": "https://www.ticketnetwork.com/en/p/8362427",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkZI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362427"
   },
   {
     "id": "tm-melissa-etheridge-2027-york-z7r9jz1aaakca",
@@ -1346,7 +1386,7 @@
         "event_id": "8363038",
         "url": "https://www.ticketnetwork.com/en/p/8363038",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1416,7 +1456,7 @@
         "event_id": "8363039",
         "url": "https://www.ticketnetwork.com/en/p/8363039",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1540,7 +1580,7 @@
         "event_id": "8363041",
         "url": "https://www.ticketnetwork.com/en/p/8363041",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1598,6 +1638,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8362428",
+        "url": "https://www.ticketnetwork.com/en/p/8362428",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kbZ_pfVG7Sw9z",
@@ -1614,7 +1661,8 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-04-15T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8362428"
   },
   {
     "id": "tm-melissa-etheridge-2027-chandler-1a_zk4ngkdm2bwk",
@@ -1737,7 +1785,7 @@
         "event_id": "8363043",
         "url": "https://www.ticketnetwork.com/en/p/8363043",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

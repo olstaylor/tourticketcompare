@@ -1503,7 +1503,7 @@
         "event_id": "8231212",
         "url": "https://www.ticketnetwork.com/en/p/8231212",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1585,7 +1585,7 @@
         "event_id": "8237407",
         "url": "https://www.ticketnetwork.com/en/p/8237407",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1669,6 +1669,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8235236",
+        "url": "https://www.ticketnetwork.com/en/p/8235236",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dfZ_ofPG7T8J2",
@@ -1679,7 +1686,8 @@
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235236"
   },
   {
     "id": "tm-tame-impala-2027-london-16dfz_ofjg7iyih",
@@ -1735,6 +1743,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8235237",
+        "url": "https://www.ticketnetwork.com/en/p/8235237",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dfZ_ofJG7IYIh",
@@ -1745,7 +1760,8 @@
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235237"
   },
   {
     "id": "tm-tame-impala-2027-london-1agzkfbgkdvvzlq",
@@ -1801,6 +1817,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8238540",
+        "url": "https://www.ticketnetwork.com/en/p/8238540",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfbGkdVVzLQ",
@@ -1811,7 +1834,8 @@
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238540"
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z",
@@ -1867,6 +1891,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8235383",
+        "url": "https://www.ticketnetwork.com/en/p/8235383",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kPpaN3Z",
@@ -1876,7 +1907,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235383"
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i",
@@ -1932,6 +1964,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8235384",
+        "url": "https://www.ticketnetwork.com/en/p/8235384",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k_Yjz0I",
@@ -1941,7 +1980,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235384"
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1k3e07a0",
@@ -2052,7 +2092,7 @@
         "event_id": "8367606",
         "url": "https://www.ticketnetwork.com/en/p/8367606",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2320,7 +2360,7 @@
         "event_id": "8381732",
         "url": "https://www.ticketnetwork.com/en/p/8381732",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

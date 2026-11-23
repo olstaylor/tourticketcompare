@@ -1176,7 +1176,7 @@
         "event_id": "8354481",
         "url": "https://www.ticketnetwork.com/en/p/8354481",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1300,7 +1300,7 @@
         "event_id": "8244704",
         "url": "https://www.ticketnetwork.com/en/p/8244704",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1381,7 +1381,7 @@
         "event_id": "8256068",
         "url": "https://www.ticketnetwork.com/en/p/8256068",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1505,7 +1505,7 @@
         "event_id": "8239819",
         "url": "https://www.ticketnetwork.com/en/p/8239819",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1581,6 +1581,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8240020",
+        "url": "https://www.ticketnetwork.com/en/p/8240020",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kAOvPAoGACpo0v",
@@ -1597,7 +1604,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8240020"
   },
   {
     "id": "tm-dinosaur-jr-2027-minneapolis-z7r9jz1aav8op",
@@ -1705,7 +1713,7 @@
         "event_id": "8245942",
         "url": "https://www.ticketnetwork.com/en/p/8245942",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1836,7 +1844,7 @@
         "event_id": "8239627",
         "url": "https://www.ticketnetwork.com/en/p/8239627",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1909,7 +1917,7 @@
         "event_id": "8326607",
         "url": "https://www.ticketnetwork.com/en/p/8326607",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

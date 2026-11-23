@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8381239",
+        "url": "https://www.ticketnetwork.com/en/p/8381239",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AefZ_fGkXe60v9",
@@ -60,7 +67,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381239"
   },
   {
     "id": "tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy",
@@ -114,7 +122,7 @@
         "event_id": "8329063",
         "url": "https://www.ticketnetwork.com/en/p/8329063",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -207,7 +215,7 @@
         "event_id": "8329064",
         "url": "https://www.ticketnetwork.com/en/p/8329064",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -301,7 +309,7 @@
         "event_id": "8329065",
         "url": "https://www.ticketnetwork.com/en/p/8329065",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -536,6 +544,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8356991",
+        "url": "https://www.ticketnetwork.com/en/p/8356991",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vP_ZGA5o3Gv",
@@ -552,6 +567,7 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356991"
   }
 ]

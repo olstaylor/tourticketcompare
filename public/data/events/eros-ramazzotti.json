@@ -51,7 +51,7 @@
         "event_id": "8244289",
         "url": "https://www.ticketnetwork.com/en/p/8244289",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -190,7 +190,7 @@
         "event_id": "7092012",
         "url": "https://www.ticketnetwork.com/en/p/7092012",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -276,6 +276,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7091992",
+        "url": "https://www.ticketnetwork.com/en/p/7091992",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk1FGkd0RIV2",
@@ -287,7 +294,8 @@
       "LOUD AND LIVE"
     ],
     "ticket_limit": 10,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7091992"
   },
   {
     "id": "tm-eros-ramazzotti-2027-rosemont-vv1a7zk1egkeidoc0",
@@ -341,7 +349,7 @@
         "event_id": "7091994",
         "url": "https://www.ticketnetwork.com/en/p/7091994",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -420,7 +428,7 @@
         "event_id": "7091996",
         "url": "https://www.ticketnetwork.com/en/p/7091996",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -502,7 +510,7 @@
         "event_id": "7103874",
         "url": "https://www.ticketnetwork.com/en/p/7103874",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -581,7 +589,7 @@
         "event_id": "7091997",
         "url": "https://www.ticketnetwork.com/en/p/7091997",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

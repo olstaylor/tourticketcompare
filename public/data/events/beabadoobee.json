@@ -785,7 +785,7 @@
         "event_id": "8094857",
         "url": "https://www.ticketnetwork.com/en/p/8094857",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -847,6 +847,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8094858",
+        "url": "https://www.ticketnetwork.com/en/p/8094858",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vOVadfJ",
@@ -855,7 +862,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8094858"
   },
   {
     "id": "tm-beabadoobee-2026-berlin-z698xzc2z16vpmfp_a",
@@ -923,7 +931,7 @@
         "event_id": "8094855",
         "url": "https://www.ticketnetwork.com/en/p/8094855",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1004,7 +1012,7 @@
         "event_id": "8094856",
         "url": "https://www.ticketnetwork.com/en/p/8094856",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

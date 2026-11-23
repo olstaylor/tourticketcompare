@@ -32,7 +32,7 @@ name: SeatGeek CTA sync
 
 on:
   schedule:
-    # 18:00 UTC: after both tm-new-shows-pr runs (02:40 and 16:20) have merged
+    # 18:00 UTC: after the tm-new-shows-pr run (02:40) has merged
     # their new shows, so those shows get SeatGeek URLs the same day. The
     # resale block (SeatGeek, Vivid Seats, Impact) runs in the evening rather
     # than 05:00-07:00, so it no longer queues behind the Ticketmaster lanes and

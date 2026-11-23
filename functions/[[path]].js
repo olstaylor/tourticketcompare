@@ -187,7 +187,7 @@ function reviewerSchemaRef(origin) {
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare resale ticket prices for your show, site by site.";
 const HOME_SUBCOPY =
-  "Pick an artist and date for each site's listed price and when it was checked. Confirm the total on the ticket site.";
+  "Pick an artist and date for each site's listed price where available and when it was checked. Confirm the total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [

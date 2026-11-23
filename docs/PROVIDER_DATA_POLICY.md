@@ -251,6 +251,10 @@ which is indistinguishable from a healthy run with nothing to do:
 
 ---
 
+## Face value (published primary-sale prices)
+
+`functions/_face-values.data.js` holds hand-verified face values for artist-city pages, shown as one line, "Face value from £X (source, date)", above the date table. Each entry needs an https source URL, a source name and the source's publication date; no source, no entry. Currency is shown as published. The figure is display only: never subtract it from a resale price, compute a "saving" or print a ratio. Ticketmaster Discovery `priceRanges` count as a source only where the API returns them (blank for most dynamic-priced shows). Tested by `npm run test:face-values`.
+
 ## `/api/shows` Price Display Rules
 
 - **Dated SEO snippets:** HTML meta, Open Graph and Twitter descriptions on an event page may mirror that show's visible, gated listed-price snapshot with its date, provider, explicit currency, capture time and fee caveat. Artist-city and price-guide snippets (the latter owner-approved 2026-10-25) use the next priced show's own snapshot, never a cross-date minimum; if that date has no eligible price, use price-free copy. The snippet reads `serverShowCtaSpecs` and remains separate from all JSON-LD descriptions, so schema-offers controls still apply independently. If the complete attribution cannot fit the description budget, omit the price. A search engine may retain older copy; the capture time describes the observation rather than promising a live price or final total.

@@ -2338,7 +2338,7 @@
     "tour_name": "IN:BETWEEN TOUR",
     "ticketmaster_event_id": "16006544C2C1714C",
     "ticketmaster_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
-    "seatgeek_url": "https://seatgeek.com/mico-tickets/cincinnati-ohio-bogarts-cincinnati-2027-03-12-7-pm/concert/18666222",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mico-cincinnati-ohio-03-12-2027/event/16006544C2C1714C",
@@ -2541,7 +2541,7 @@
         "event_id": 18746851,
         "url": "https://seatgeek.com/mico-tickets/cleveland-ohio-globe-iron-2027-03-13-8-pm/concert/18746851",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

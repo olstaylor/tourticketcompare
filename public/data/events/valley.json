@@ -633,7 +633,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "1100652EA2AE8DDE",
     "ticketmaster_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
-    "seatgeek_url": "https://seatgeek.com/valley-tickets/edmonton-canada-midway-edmonton-2027-02-19-6-30-pm/concert/18606369",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/valley-do-you-need-to-be-edmonton-alberta-02-19-2027/event/1100652EA2AE8DDE",
@@ -1407,7 +1407,7 @@
     "tour_name": "Do You Need To Be Entertained? The Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAvzfU",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfU",
-    "seatgeek_url": "https://seatgeek.com/valley-tickets/denver-colorado-bluebird-theater-denver-2027-03-06-9-pm/concert/18683979",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvzfU",
@@ -1692,7 +1692,7 @@
         "event_id": 18606490,
         "url": "https://seatgeek.com/valley-tickets/charlotte-north-carolina-the-underground-at-the-fillmore-charlotte-2027-03-13-8-pm/concert/18606490",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1773,7 +1773,7 @@
         "event_id": 18606068,
         "url": "https://seatgeek.com/valley-tickets/washington-district-of-columbia-9-30-club-2027-03-14-7-pm/concert/18606068",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1851,7 +1851,7 @@
         "event_id": 18606537,
         "url": "https://seatgeek.com/valley-tickets/philadelphia-pennsylvania-brooklyn-bowl-philadelphia-2027-03-16-8-pm/concert/18606537",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2001,7 +2001,7 @@
         "event_id": 18606067,
         "url": "https://seatgeek.com/valley-tickets/boston-massachusetts-paradise-rock-club-2027-03-18-7-pm/concert/18606067",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2081,7 +2081,7 @@
         "event_id": 18606234,
         "url": "https://seatgeek.com/valley-tickets/toronto-canada-massey-hall-2027-03-20-8-pm/concert/18606234",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

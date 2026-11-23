@@ -1766,7 +1766,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F00652294FE75B1",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
-    "seatgeek_url": "https://seatgeek.com/victoria-monet-tickets/seattle-washington-wamu-theater-2026-12-14-8-pm/concert/18579793",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-seattle-washington-12-14-2026/event/0F00652294FE75B1",
@@ -1871,11 +1871,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18579797,
+        "url": "https://seatgeek.com/victoria-monet-tickets/sacramento-california-sacramento-memorial-auditorium-2026-12-16-8-pm/concert/18579797",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7540381,

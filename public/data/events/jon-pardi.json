@@ -658,7 +658,7 @@
         "event_id": 18652960,
         "url": "https://seatgeek.com/jon-pardi-tickets/durant-oklahoma-choctaw-grand-theater-2027-03-20-8-pm/concert/18652960",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -748,7 +748,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZeb3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",
-    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/loveland-colorado-blue-federal-credit-union-arena-2027-05-13-7-pm/concert/18391250",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",
@@ -875,11 +875,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18763089,
+        "url": "https://seatgeek.com/jon-pardi-tickets/nashville-tennessee-the-truth-nashville-2026-12-17-7-30-pm/concert/18763089",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7863057,

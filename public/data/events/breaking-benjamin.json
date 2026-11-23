@@ -1289,11 +1289,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18742758,
+        "url": "https://seatgeek.com/breaking-benjamin-tickets/atlantic-city-new-jersey-ovation-hall-at-ocean-resort-casino-2027-03-12-7-30-pm/concert/18742758",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7807740,

@@ -718,11 +718,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753400,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/arlington-texas-globe-life-field-2027-07-13-5-30-pm/concert/18753400",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835292,
@@ -807,11 +807,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753402,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/atlanta-georgia-truist-park-2027-07-16-5-30-pm/concert/18753402",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835296,
@@ -880,7 +880,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500655F01D8F2AD",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-washington-district-of-columbia-07-18-2027/event/1500655F01D8F2AD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/washington-district-of-columbia-nationals-park-2027-07-18-5-30-pm/concert/18753401",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-washington-dc-nationals-park-7-18-2027--concerts-rock/production/7835298",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-washington-district-of-columbia-07-18-2027/event/1500655F01D8F2AD",
@@ -896,11 +896,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753401,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/washington-district-of-columbia-nationals-park-2027-07-18-5-30-pm/concert/18753401",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835298,
@@ -1117,7 +1117,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0400656696555743",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-chicago-illinois-07-24-2027/event/0400656696555743",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/chicago-illinois-soldier-field-2027-07-24-5-30-pm/concert/18753405",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-chicago-soldier-field-7-24-2027--concerts-rock/production/7835304",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-chicago-illinois-07-24-2027/event/0400656696555743",
@@ -1133,11 +1133,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753405,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/chicago-illinois-soldier-field-2027-07-24-5-30-pm/concert/18753405",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835304,
@@ -1206,7 +1206,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006563A307714A",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-boston-massachusetts-07-30-2027/event/01006563A307714A",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/boston-massachusetts-fenway-park-2027-07-30-5-pm/concert/18753413",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-boston-fenway-park-7-30-2027--concerts-rock/production/7835308",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-boston-massachusetts-07-30-2027/event/01006563A307714A",
@@ -1222,11 +1222,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753413,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/boston-massachusetts-fenway-park-2027-07-30-5-pm/concert/18753413",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835308,
@@ -1360,7 +1360,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "02006565F22DE553",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlantic-city-new-jersey-08-03-2027/event/02006565F22DE553",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/atlantic-city-new-jersey-atlantic-city-beach-2027-08-03-5-30-pm/concert/18753417",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-atlantic-city-atlantic-city-beach-8-3-2027--concerts-rock/production/7835312",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-atlantic-city-new-jersey-08-03-2027/event/02006565F22DE553",
@@ -1376,11 +1376,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753417,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/atlantic-city-new-jersey-atlantic-city-beach-2027-08-03-5-30-pm/concert/18753417",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835312,
@@ -1674,7 +1674,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C006564B15FB4AB",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-francisco-california-08-15-2027/event/1C006564B15FB4AB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/san-francisco-california-oracle-park-2027-08-15-5-30-pm/concert/18753428",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-san-francisco-oracle-park-8-15-2027--concerts-rock/production/7835324",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-francisco-california-08-15-2027/event/1C006564B15FB4AB",
@@ -1690,11 +1690,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753428,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/san-francisco-california-oracle-park-2027-08-15-5-30-pm/concert/18753428",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835324,
@@ -1763,7 +1763,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0A00656397B146DD",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-diego-california-08-17-2027/event/0A00656397B146DD",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/san-diego-california-petco-park-2027-08-17-5-30-pm/concert/18753429",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-san-diego-petco-park-8-17-2027--concerts-rock/production/7835326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-san-diego-california-08-17-2027/event/0A00656397B146DD",
@@ -1779,11 +1779,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753429,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/san-diego-california-petco-park-2027-08-17-5-30-pm/concert/18753429",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835326,
@@ -1851,7 +1851,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "19006562E2EF6842",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-phoenix-arizona-08-19-2027/event/19006562E2EF6842",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/phoenix-arizona-chase-field-2027-08-19-5-30-pm/concert/18753432",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-phoenix-chase-field-8-19-2027--concerts-rock/production/7835328",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-phoenix-arizona-08-19-2027/event/19006562E2EF6842",
@@ -1867,11 +1867,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753432,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/phoenix-arizona-chase-field-2027-08-19-5-30-pm/concert/18753432",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835328,
@@ -1939,7 +1939,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0B00656540A591AF",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-los-angeles-california-08-21-2027/event/0B00656540A591AF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/los-angeles-california-dodger-stadium-2027-08-21-5-30-pm/concert/18753433",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-los-angeles-uniqlo-field-at-dodger-stadium-8-21-2027--concerts-rock/production/7835330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-los-angeles-california-08-21-2027/event/0B00656540A591AF",
@@ -1955,11 +1955,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753433,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/los-angeles-california-dodger-stadium-2027-08-21-5-30-pm/concert/18753433",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835330,
@@ -2097,7 +2097,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006562C8D9835E",
     "ticketmaster_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/fall-out-boy-tickets/seattle-washington-t-mobile-park-2027-08-24-5-30-pm/concert/18753436",
     "vividseats_url": "https://www.vividseats.com/fall-out-boy-tickets-seattle-t-mobile-park-8-24-2027--concerts-rock/production/7835332",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/fall-out-boy-twilight-of-the-seattle-washington-08-24-2027/event/0F006562C8D9835E",
@@ -2113,11 +2113,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18753436,
+        "url": "https://seatgeek.com/fall-out-boy-tickets/seattle-washington-t-mobile-park-2027-08-24-5-30-pm/concert/18753436",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835332,

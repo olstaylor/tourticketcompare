@@ -527,7 +527,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "07006524D6217A6F",
     "ticketmaster_url": "https://www.ticketmaster.com/zac-brown-band-milwaukee-wisconsin-06-25-2027/event/07006524D6217A6F",
-    "seatgeek_url": "https://seatgeek.com/zac-brown-band-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2027-06-25-7-pm/concert/18571701",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/zac-brown-band-milwaukee-wisconsin-06-25-2027/event/07006524D6217A6F",
@@ -543,11 +543,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18571701,
-        "url": "https://seatgeek.com/zac-brown-band-tickets/milwaukee-wisconsin-american-family-insurance-amphitheater-summerfest-grounds-2027-06-25-7-pm/concert/18571701",
-        "verified": true,
-        "last_verified_at": "2026-11-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

@@ -734,7 +734,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7POZg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/daytona-beach-florida-peabody-auditorium-2027-01-22-8-pm/concert/18355671",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
@@ -944,7 +944,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D0064F8873333FB",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/immokalee-florida-seminole-casino-immokalee-2027-01-30-8-pm/concert/18424504",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
@@ -1642,7 +1642,7 @@
     "tour_name": "A Matter Of Time Canada Tour",
     "ticketmaster_event_id": "3100652CC92BB37A",
     "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/ottawa-canada-hard-rock-hotel-and-casino-ottawa-2027-03-03-7-pm/concert/18594799",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-3-2027--concerts-pop/production/7559686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
@@ -2287,11 +2287,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18782016,
+        "url": "https://seatgeek.com/air-supply-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2027-04-03-7-pm/concert/18782016",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880526,

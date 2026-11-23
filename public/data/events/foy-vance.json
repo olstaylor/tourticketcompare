@@ -1210,7 +1210,7 @@
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7-K1v",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
-    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/cincinnati-ohio-anderson-theater-at-cincinnati-memorial-hall-2027-04-12-7-pm/concert/18085807",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
@@ -1367,7 +1367,7 @@
         "event_id": 18084267,
         "url": "https://seatgeek.com/foy-vance-tickets/toronto-canada-the-danforth-music-hall-2027-04-21-7-pm/concert/18084267",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1766,7 +1766,7 @@
         "event_id": 18368104,
         "url": "https://seatgeek.com/foy-vance-tickets/chicago-illinois-thalia-hall-chicago-2027-04-17-7-pm/concert/18368104",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1836,7 +1836,7 @@
         "event_id": 18086032,
         "url": "https://seatgeek.com/foy-vance-tickets/washington-district-of-columbia-the-howard-theatre-2027-04-24-7-pm/concert/18086032",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {

@@ -348,11 +348,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18782513,
+        "url": "https://seatgeek.com/carin-leon-tickets/sparks-nevada-nugget-event-center-2027-04-24-7-pm/concert/18782513",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

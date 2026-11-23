@@ -27,11 +27,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18354506,
+        "url": "https://seatgeek.com/rascal-flatts-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2026-12-05-8-pm/concert/18354506",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -104,11 +104,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18839964,
+        "url": "https://seatgeek.com/rascal-flatts-tickets/rexburg-idaho-byu-idaho-center-2027-03-20-7-30-pm/concert/18839964",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

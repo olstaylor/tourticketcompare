@@ -1000,11 +1000,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18709223,
+        "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/rosemont-illinois-allstate-arena-2027-05-16-6-30-pm/concert/18709223",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744680,
@@ -1082,11 +1082,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18709226,
+        "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-05-18-6-30-pm/concert/18709226",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744718,
@@ -1164,11 +1164,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18709227,
+        "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/columbus-ohio-nationwide-arena-2027-05-19-6-30-pm/concert/18709227",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744724,
@@ -1320,11 +1320,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18709231,
+        "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/detroit-michigan-little-caesars-arena-2027-05-22-6-30-pm/concert/18709231",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744734,
@@ -1402,11 +1402,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18709234,
+        "url": "https://seatgeek.com/queens-of-the-stone-age-tickets/boston-massachusetts-td-garden-2027-05-24-6-30-pm/concert/18709234",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7744736,

@@ -327,7 +327,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7Jv8M",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
-    "seatgeek_url": "https://seatgeek.com/vnv-nation-tickets/denver-colorado-the-oriental-theater-2027-03-27-8-pm/concert/18669971",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7Jv8M",
@@ -714,7 +714,7 @@
         "event_id": 18150796,
         "url": "https://seatgeek.com/vnv-nation-tickets/san-diego-california-house-of-blues-san-diego-2027-03-19-7-pm/concert/18150796",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -848,7 +848,7 @@
         "event_id": 18150870,
         "url": "https://seatgeek.com/vnv-nation-tickets/san-francisco-california-august-hall-2027-03-21-7-30-pm/concert/18150870",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -929,7 +929,7 @@
         "event_id": 18149562,
         "url": "https://seatgeek.com/vnv-nation-tickets/seattle-washington-neptune-theatre-wa-2027-03-24-8-pm/concert/18149562",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1074,7 +1074,7 @@
         "event_id": 18156403,
         "url": "https://seatgeek.com/vnv-nation-tickets/detroit-michigan-saint-andrews-hall-2027-04-02-7-pm/concert/18156403",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1137,11 +1137,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18842839,
+        "url": "https://seatgeek.com/vnv-nation-tickets/cleveland-ohio-house-of-blues-cleveland-2027-04-03-7-pm/concert/18842839",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1212,11 +1212,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18802428,
+        "url": "https://seatgeek.com/vnv-nation-tickets/toronto-canada-the-danforth-music-hall-2027-04-04-6-30-pm/concert/18802428",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7237610,
@@ -1348,11 +1348,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18793518,
+        "url": "https://seatgeek.com/vnv-nation-tickets/boston-massachusetts-paradise-rock-club-2027-04-07-8-pm/concert/18793518",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1497,11 +1497,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18809274,
+        "url": "https://seatgeek.com/vnv-nation-tickets/baltimore-maryland-baltimore-soundstage-2027-04-10-9-pm/concert/18809274",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

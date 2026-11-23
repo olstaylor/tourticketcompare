@@ -1477,11 +1477,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758115,
+        "url": "https://seatgeek.com/garth-brooks-tickets/north-little-rock-arkansas-simmons-bank-arena-2027-02-05-8-pm/concert/18758115",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7851801,
@@ -1551,11 +1551,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758119,
+        "url": "https://seatgeek.com/garth-brooks-tickets/north-little-rock-arkansas-simmons-bank-arena-2027-02-06-8-pm/concert/18758119",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7851803,

@@ -1290,7 +1290,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-29-2026--concerts-pop/production/7367910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-29-2026/event/000064F8AC6B6CA0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1350,13 +1350,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8228565",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8228565/Tyla-tickets-Sun-Nov-29-2026-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-brooklyn-tickets-11-29-2026/event/107524086",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T16:30:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

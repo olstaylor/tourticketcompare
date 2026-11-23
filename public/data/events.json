@@ -42546,7 +42546,7 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
-    "datetime_iso": "2026-11-26T02:00:00Z",
+    "datetime_iso": "2026-11-26T01:00:00Z",
     "tour_name": "CTRL ESCAPE ARENA TOUR",
     "ticketmaster_event_id": "040064B3E1EEB741",
     "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-chicago-illinois-11-25-2026/event/040064B3E1EEB741",
@@ -42554,7 +42554,7 @@
     "vividseats_url": "https://www.vividseats.com/john-summit-tickets-chicago-united-center-11-25-2026--concerts-dance-electronica/production/7058757",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-chicago-illinois-11-25-2026/event/040064B3E1EEB741",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -54569,7 +54569,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976501",
     "ticketliquidator_url": "",
-    "ticketmaster_status_code": "rescheduled",
+    "ticketmaster_status_code": "postponed",
     "genre": "World"
   },
   {
@@ -62774,7 +62774,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-albany-mvp-arena-11-29-2026/production/7393828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-albany-new-york-11-29-2026/event/000064FEAF2FBD14",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -62834,13 +62834,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184424",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184424/Pentatonix-tickets-Sun-Nov-29-2026-MVP-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-albany-tickets-11-29-2026/event/107476104",
-    "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -65335,7 +65328,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-29-2026--concerts-pop/production/7367910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-29-2026/event/000064F8AC6B6CA0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -65395,13 +65388,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8228565",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8228565/Tyla-tickets-Sun-Nov-29-2026-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-brooklyn-tickets-11-29-2026/event/107524086",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T16:30:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -69611,7 +69597,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-dallas-south-side-ballroom-11-29-2026--concerts-rock/production/7325342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-dallas-texas-11-29-2026/event/0C0064EED1FB8AA6",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -69664,16 +69650,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151256",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151256/Trivium-tickets-Sun-Nov-29-2026-South-Side-Ballroom-at-Gilleys",
     "presales": [
-      {
-        "name": "In Flames VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-23T04:00:00Z"
-      },
-      {
-        "name": "Trivium VIP Packages Onsale",
-        "start": "2026-07-24T15:00:00Z",
-        "end": "2026-11-23T04:00:00Z"
-      },
       {
         "name": "2 Pack Offer",
         "start": "2026-10-08T15:00:00Z",
@@ -91490,7 +91466,7 @@
     "vividseats_url": "https://www.vividseats.com/pink-martini-tickets-brooklyn-brooklyn-paramount-12-13-2026/production/7210428",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pink-martini-allstars-present-a-season-brooklyn-new-york-12-13-2026/event/000064D2D26E1C3C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -91550,13 +91526,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8072032/Pink-Martini-All-Stars-tickets-Sun-Dec-13-2026-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/pink-martini-brooklyn-tickets-12-13-2026/event/107478247",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8072032",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-06-26T14:00:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -106571,7 +106540,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-philadelphia-pennsylvania-12-20-2026/event/3000650EA5605BDF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -106623,11 +106592,6 @@
     "status": "on-sale",
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      },
-      {
         "name": "T-Mobile $99 All In Offer",
         "start": "2026-09-18T14:00:00Z",
         "end": "2026-12-07T03:00:00Z"
@@ -106656,7 +106620,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-tampa-florida-12-20-2026/event/0D0065118D3F3D8C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -106707,11 +106671,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      },
       {
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T14:00:00Z",
@@ -189954,7 +189913,7 @@
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Kia Forum",
-    "datetime_iso": "2026-12-06T02:00:00Z",
+    "datetime_iso": "2026-12-06T03:00:00Z",
     "tour_name": "THE WOURLD TOUR",
     "ticketmaster_event_id": "0900645403D3F8BA",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
@@ -189962,7 +189921,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-5-2026/production/6707944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -220339,7 +220298,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-detroit-michigan-11-29-2026/event/08006325EA7A6DB2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -220390,13 +220349,6 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-03-05T15:00:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      }
-    ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7410018",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7410018/Sabaton-tickets-Sun-Nov-29-2026-The-Fillmore-Detroit",
     "organizer_names": [
@@ -269245,7 +269197,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-22-2026/production/7480311",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -269309,11 +269261,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-28T14:00:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-28T14:00:00Z",
@@ -339845,7 +339792,7 @@
     "event_name": "Two Door Cinema Club - 15th Anniversary Tour",
     "city": "Hamburg",
     "country": "Germany",
-    "venue": "Inselpark Arena",
+    "venue": "Sporthalle Hamburg",
     "datetime_iso": "2027-02-07T19:00:00Z",
     "tour_name": "15th Anniversary Tour",
     "ticketmaster_event_id": "1286672063",
@@ -339854,7 +339801,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/two-door-cinema-club-15th-anniversary-tour-tickets/1286672063?language=en-us",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -367760,7 +367707,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-louisville-louisville-palace-11-22-2026/production/7353398",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-louisville-kentucky-11-22-2026/event/160064F5DEAEB0E0",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -367816,7 +367763,8 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167874",
     "ticket_limit": 8,
     "genre": "R&B",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167874/Jodeci-tickets-Sun-Nov-22-2026-Louisville-Palace"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167874/Jodeci-tickets-Sun-Nov-22-2026-Louisville-Palace",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-jodeci-2026-memphis-g5viz_2h5lx5n",
@@ -368048,7 +367996,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-houston-texas-11-29-2026/event/3A0064F7C1961D77",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368100,13 +368048,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167852",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167852/Jodeci-tickets-Sun-Nov-29-2026-Houston-Arena-Theatre",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T15:00:00Z",
-        "end": "2026-11-23T05:55:00Z"
-      }
-    ],
     "genre": "R&B"
   },
   {
@@ -379037,18 +378978,18 @@
     "datetime_iso": "2027-05-22T16:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1588643857",
-    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-lippuja/1588643857",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
-    "last_verified_at": "2026-11-07",
+    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-lippuja/1588643857",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1588643857",
         "discovery_event_id": "Z698xZ8KZ16vpF_d-9",
-        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-lippuja/1588643857",
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
@@ -381629,7 +381570,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tucanes-de-tijuana-tickets-elizabeth-ritz-theatre---nj-11-28-2026/production/7063215",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tucanes-de-tijuana-tapy-quintero-elizabeth-new-jersey-11-28-2026/event/000064AC0DD26DD0",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -381681,14 +381622,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8109393",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8109393/Los-Tucanes-De-Tijuana-tickets-Sat-Nov-28-2026-Ritz-Theatre-NJ",
-    "genre": "Latin",
-    "presales": [
-      {
-        "name": "BLACK FRIDAY OFFER",
-        "start": "2026-11-17T18:00:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      }
-    ]
+    "genre": "Latin"
   },
   {
     "id": "tm-los-tucanes-de-tijuana-2026-austin-z7r9jz1aazgav",
@@ -417383,7 +417317,7 @@
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-austin-moody-amphitheater-6-25-2027--concerts-dance-electronica/production/7841677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -417443,6 +417377,11 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-06-21T17:00:00Z"
+      },
+      {
+        "name": "Premium Pod Seating",
+        "start": "2026-11-22T23:00:00Z",
+        "end": "2027-06-26T03:00:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363865"
@@ -440081,7 +440020,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-manchester-07-12-2026/event/1F0064A7954725BC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440124,7 +440063,12 @@
     "ticketmaster_discovery_event_id": "G5vHZ_1r4owpH",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-manchester-albert-hall-manchester-7-12-2026/event/107162943"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-manchester-albert-hall-manchester-7-12-2026/event/107162943",
+    "organizer_names": [
+      "S.J.M. LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2026-birmingham-g5dzz_1hposmp",
@@ -440142,7 +440086,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-birmingham-o2-institute-birmingham-12-8-2026/production/7044469",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-birmingham-08-12-2026/event/3E0064A6D6833DE5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440185,7 +440129,13 @@
     "ticketmaster_discovery_event_id": "G5dzZ_1hpOSMP",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-birmingham-o2-institute-birmingham-8-12-2026/event/107683876"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-birmingham-o2-institute-birmingham-8-12-2026/event/107683876",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ACADEMY MUSIC GROUP (O2 INSTITUTE BIRMINGHAM)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2026-bristol-g5dzz_1qs13cg",
@@ -440203,7 +440153,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-bristol-09-12-2026/event/3E0064A6B1292B75",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440238,7 +440188,13 @@
     },
     "ticketmaster_discovery_event_id": "G5dzZ_1Qs13cg",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRISTOL)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2026-london-g5dzz_1hlw0l0",
@@ -440256,7 +440212,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-london-o2-forum-kentish-town-12-11-2026/production/7044607",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/tori-kelly-god-must-really-love-london-11-12-2026/event/3E0064A6EBCA47E4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440299,7 +440255,13 @@
     "ticketmaster_discovery_event_id": "G5dzZ_1hlw0L0",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-london-o2-forum-kentish-town-11-12-2026/event/107162942"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-london-o2-forum-kentish-town-11-12-2026/event/107162942",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ACADEMY MUSIC GROUP (O2 FORUM KENTISH TOWN)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2027-san-diego-vvg1iz_pmacvcd",
@@ -440317,7 +440279,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-san-diego-house-of-blues-san-diego-3-17-2027/production/7880420",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-san-diego-california-03-17-2027/event/0A00656B89B74383",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440376,7 +440338,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374484",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374484/Tori-Kelly-tickets-Wed-Mar-17-2027-House-Of-Blues-San-Diego",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-san-diego-tickets-3-17-2027/event/107682743"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-san-diego-tickets-3-17-2027/event/107682743",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-18T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-03-10T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-anaheim-vv170z_pgkmqbskf",
@@ -440394,7 +440373,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-anaheim-house-of-blues-anaheim-3-19-2027/production/7880440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-anaheim-california-03-19-2027/event/0900656DDA633194",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440429,7 +440408,24 @@
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGkMQbSkf",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-02-20T06:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-03-12T07:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-phoenix-1av0z_pgkgtcw3p",
@@ -440447,7 +440443,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-phoenix-the-van-buren-3-20-2027/production/7880688",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-realy-love-phoenix-arizona-03-20-2027/event/1900656D7F3B24A5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440506,7 +440502,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374485",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374485/Tori-Kelly-tickets-Sat-Mar-20-2027-The-Van-Buren",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-phoenix-tickets-3-20-2027/event/107683730"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-phoenix-tickets-3-20-2027/event/107683730",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-02-21T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-03-13T06:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-tulsa-z7r9jz1aaafav",
@@ -440524,7 +440537,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfAV",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -440575,7 +440588,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375003",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375003/Tori-Kelly-tickets-Mon-Mar-22-2027-Cains-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375003/Tori-Kelly-tickets-Mon-Mar-22-2027-Cains-Ballroom",
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2027-austin-z7r9jz1aaafaz",
@@ -440593,7 +440607,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-austin-austin-city-limits-live-at-the-moody-theater-3-24-2027--concerts-pop/production/7880774",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfaZ",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -440636,7 +440650,8 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfaZ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381783"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381783",
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2027-houston-g5diz_prlk7d5",
@@ -440654,7 +440669,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-houston-house-of-blues-houston-3-25-2027/production/7880524",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-houston-texas-03-25-2027/event/3A00656BEB4C40CB",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440713,7 +440728,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374487",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374487/Tori-Kelly-tickets-Thu-Mar-25-2027-House-Of-Blues-Houston",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-houston-tickets-3-25-2027/event/107683733"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-houston-tickets-3-25-2027/event/107683733",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-26T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-18T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-dallas-vvg1yz_ptdvq44",
@@ -440731,7 +440763,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-dallas-house-of-blues-dallas-3-26-2027/production/7880534",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-dallas-texas-03-26-2027/event/0C00656FFBD1A555",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440790,7 +440822,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374489",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374489/Tori-Kelly-tickets-Fri-Mar-26-2027-House-Of-Blues-Dallas",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-dallas-tickets-3-26-2027/event/107683739"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-dallas-tickets-3-26-2027/event/107683739",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-27T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-19T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-new-orleans-g5viz_proo-gj",
@@ -440808,7 +440857,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-new-orleans-house-of-blues-new-orleans-3-29-2027/production/7880582",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-new-orleans-louisiana-03-29-2027/event/1B00656BD1821D66",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440867,7 +440916,25 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374490",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374490/Tori-Kelly-tickets-Mon-Mar-29-2027-House-Of-Blues-New-Orleans",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-new-orleans-tickets-3-29-2027/event/107683741"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-new-orleans-tickets-3-29-2027/event/107683741",
+    "organizer_names": [
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "ticket_limit": 4,
+    "legal_age_enforced": true,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-22T04:55:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-22T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-st-petersburg-vvg1vz_pwiq_m9",
@@ -440885,7 +440952,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-st-petersburg-florida-03-31-2027/event/0D00656CAC759B97",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -440936,7 +441003,20 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374493",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374493/Tori-Kelly-tickets-Wed-Mar-31-2027-Jannus-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374493/Tori-Kelly-tickets-Wed-Mar-31-2027-Jannus-Live",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "NO CLUBS"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-25T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-orlando-1aefz_pgkmnverq",
@@ -440954,7 +441034,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-orlando-hard-rock-live---orlando-4-1-2027/production/7880678",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-orlando-florida-04-01-2027/event/2200656BA3D2779A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441013,7 +441093,16 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374495",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374495/Tori-Kelly-tickets-Thu-Apr-1-2027-Hard-Rock-Live-Orlando",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-orlando-tickets-4-1-2027/event/107682741"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-orlando-tickets-4-1-2027/event/107682741",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-25T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-ft-lauderdale-vvg1vz_pv-mndp",
@@ -441031,7 +441120,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-ft-lauderdale-florida-04-03-2027/event/0D00656D21DEAEE5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441082,7 +441171,19 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374496",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374496/Tori-Kelly-tickets-Sat-Apr-3-2027-Revolution-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374496/Tori-Kelly-tickets-Sat-Apr-3-2027-Revolution-Live",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-27T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-nashville-g5viz_pmv-gvm",
@@ -441100,7 +441201,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-nashville-the-truth-4-7-2027/production/7880887",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-nashville-tennessee-04-07-2027/event/1B00656DF484C077",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441151,7 +441252,24 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375138",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375138/Tori-Kelly-tickets-Wed-Apr-7-2027-The-Truth"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375138/Tori-Kelly-tickets-Wed-Apr-7-2027-The-Truth",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-09T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-31T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-charlotte-g5evz_pr3nkrd",
@@ -441169,7 +441287,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-charlotte-the-fillmore-charlotte-4-8-2027/production/7880676",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-charlotte-north-carolina-04-08-2027/event/2D00656BD28D3BC3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441228,7 +441346,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374499",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374499/Tori-Kelly-tickets-Thu-Apr-8-2027-The-Fillmore-Charlotte",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-charlotte-tickets-4-8-2027/event/107683744"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-charlotte-tickets-4-8-2027/event/107683744",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-09T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-01T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-atlanta-vvg1zz_pr5yym7",
@@ -441246,7 +441381,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-atlanta-georgia-04-10-2027/event/0E00656BCBE79B84",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441305,7 +441440,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374501",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374501/Tori-Kelly-tickets-Sat-Apr-10-2027-The-Tabernacle-GA",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-atlanta-tickets-4-10-2027/event/107683735"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-atlanta-tickets-4-10-2027/event/107683735",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-14T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-04T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-raleigh-g5evz_pmhkhqy",
@@ -441323,7 +441475,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-raleigh-the-ritz---raleigh-4-11-2027/production/7880712",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-raleigh-north-carolina-04-11-2027/event/2D00656DFC4DB6B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441382,7 +441534,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374503",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374503/Tori-Kelly-tickets-Sun-Apr-11-2027-The-Ritz-Raleigh",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-raleigh-tickets-4-11-2027/event/107682734"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-raleigh-tickets-4-11-2027/event/107682734",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-04T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-boston-vv177z_pgkresuwf",
@@ -441400,7 +441564,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-boston-citizens-house-of-blues-boston-4-14-2027/production/7880636",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-boston-massachusetts-04-14-2027/event/0100656BC2CCDC94",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441459,7 +441623,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374504",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374504/Tori-Kelly-tickets-Wed-Apr-14-2027-Citizens-House-Of-Blues-Boston",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-boston-tickets-4-14-2027/event/107683731"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-boston-tickets-4-14-2027/event/107683731",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-07T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-silver-spring-1avfz_pgksegqna",
@@ -441477,7 +441653,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-silver-spring-the-fillmore-silver-spring-4-16-2027/production/7880646",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-silver-spring-maryland-04-16-2027/event/1500656CC2D5A8C9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441536,7 +441712,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374505",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374505/Tori-Kelly-tickets-Fri-Apr-16-2027-The-Fillmore-Silver-Spring",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-silver-spring-tickets-4-16-2027/event/107683727"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-silver-spring-tickets-4-16-2027/event/107683727",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-21T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-09T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-philadelphia-z7r9jz1aaafa-",
@@ -441554,7 +441747,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-philadelphia-franklin-music-hall-4-17-2027/production/7880766",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfa-",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -441605,7 +441798,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8377710",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8377710/Tori-Kelly-tickets-Sat-Apr-17-2027-Franklin-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8377710/Tori-Kelly-tickets-Sat-Apr-17-2027-Franklin-Music-Hall",
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2027-brooklyn-k7vgf_phude5k",
@@ -441623,7 +441817,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-brooklyn-brooklyn-paramount-4-18-2027/production/7880895",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-brooklyn-new-york-04-18-2027/event/0000656F0D0E72C6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441682,7 +441876,23 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374507",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374507/Tori-Kelly-tickets-Sun-Apr-18-2027-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-brooklyn-tickets-4-18-2027/event/107682739"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-brooklyn-tickets-4-18-2027/event/107682739",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-22T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-11T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-toronto-1avzz_pgkvx9zdy",
@@ -441700,7 +441910,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-toronto-history-toronto-4-21-2027/production/7880504",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-toronto-ontario-04-21-2027/event/1000656D225F8EF9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441735,7 +441945,20 @@
     },
     "ticketmaster_discovery_event_id": "1AvZZ_pGkVx9zDy",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-14T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-detroit-vv17oz_pgkcxk3hy",
@@ -441753,7 +441976,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-detroit-the-fillmore-detroit-4-23-2027/production/7880649",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-detroit-michigan-04-23-2027/event/0800656B7E1926F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441812,7 +442035,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374510",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374510/Tori-Kelly-tickets-Fri-Apr-23-2027-The-Fillmore-Detroit",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-detroit-tickets-4-23-2027/event/107682737"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-detroit-tickets-4-23-2027/event/107682737",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-27T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-16T02:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-louisville-1avbz_pgksxzvfu",
@@ -441830,7 +442070,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-louisville-louisville-palace-4-24-2027/production/7880632",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-louisville-kentucky-04-24-2027/event/1600656CE2E01236",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441889,7 +442129,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374512",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374512/Tori-Kelly-tickets-Sat-Apr-24-2027-Louisville-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-louisville-tickets-4-24-2027/event/107683740"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-louisville-tickets-4-24-2027/event/107683740",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-28T02:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-17T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-indianapolis-vv17fz_pgkswj0w7",
@@ -441907,7 +442164,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-4-27-2027/production/7880722",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-indianapolis-indiana-04-27-2027/event/0500656CF2724F44",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -441966,7 +442223,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374513",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374513/Tori-Kelly-tickets-Tue-Apr-27-2027-Egyptian-Room-At-Old-National-Centre",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-indianapolis-tickets-4-27-2027/event/107683732"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-indianapolis-tickets-4-27-2027/event/107683732",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-20T03:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-milwaukee-z7r9jz1aaa4u3",
@@ -441984,7 +442253,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-milwaukee-pabst-theater-4-28-2027/production/7883882",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4u3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -442019,7 +442288,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4u3",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2027-chicago-vv178z_pgkrb2cst",
@@ -442037,7 +442307,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-chicago-house-of-blues-chicago-4-30-2027/production/7880680",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-chicago-illinois-04-30-2027/event/0400656BD83EDCE9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442096,7 +442366,25 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374514",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374514/Tori-Kelly-tickets-Fri-Apr-30-2027-House-Of-Blues-Chicago",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-chicago-tickets-4-30-2027/event/107682740"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-chicago-tickets-4-30-2027/event/107682740",
+    "organizer_names": [
+      "LIVE NATION MUSIC",
+      "HOUSE OF BLUES CONCERTS (HOB)"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-23T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-minneapolis-z7r9jz1aaa4uk",
@@ -442114,7 +442402,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4uK",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -442149,7 +442437,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4uK",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2027-saint-louis-vv17bz_pgkmbgu0t",
@@ -442167,7 +442456,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-saint-louis-missouri-05-04-2027/event/0600656B98336929",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442226,7 +442515,19 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-saint-louis-tickets-5-4-2027/event/107683737",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374515",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374515/Tori-Kelly-tickets-Tue-May-4-2027-The-Pageant"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374515/Tori-Kelly-tickets-Tue-May-4-2027-The-Pageant",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-27T04:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-kansas-city-z7r9jz1aaaffz",
@@ -442244,7 +442545,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFz",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -442295,7 +442596,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8378007",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8378007/Tori-Kelly-tickets-Wed-May-5-2027-The-Truman-Kansas-City"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8378007/Tori-Kelly-tickets-Wed-May-5-2027-The-Truman-Kansas-City",
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2027-denver-g5vzz_pmqeaxk",
@@ -442313,7 +442615,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-denver-summit-music-hall-5-8-2027/production/7880623",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-denver-colorado-05-08-2027/event/1E00656B9A9C5F86",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442372,7 +442674,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374516",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374516/Tori-Kelly-tickets-Sat-May-8-2027-The-Summit-Music-Hall",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-denver-tickets-5-8-2027/event/107682736"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-denver-tickets-5-8-2027/event/107682736",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-11T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-01T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-salt-lake-city-g5vzz_pw0n4ot",
@@ -442390,7 +442709,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-salt-lake-city-the-depot---ut-5-9-2027--concerts-pop/production/7880330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-salt-lake-city-utah-05-09-2027/event/1E00656CA4A9547F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442449,7 +442768,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374517",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374517/Tori-Kelly-tickets-Sun-May-9-2027-The-Depot-Salt-Lake-City",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-salt-lake-city-tickets-5-9-2027/event/107682732"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-salt-lake-city-tickets-5-9-2027/event/107682732",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-12T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-02T05:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-vancouver-1av7z_pgkwlyauw",
@@ -442467,7 +442803,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-vancouver-british-columbia-05-12-2027/event/1100656C9FC05DBD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442526,7 +442862,22 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374525",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374525/Tori-Kelly-tickets-Wed-May-12-2027-Queen-Elizabeth-Theatre-Vancouver",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-vancouver-queen-elizabeth-theatre-vancouver-5-12-2027/event/107683728"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tickets-vancouver-queen-elizabeth-theatre-vancouver-5-12-2027/event/107683728",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-05T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-seattle-z7r9jz1aaafgn",
@@ -442544,7 +442895,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-seattle-showbox-sodo-5-13-2027--concerts-pop/production/7880782",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfGN",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -442579,7 +442930,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfGN",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2027-portland-z7r9jz1aaafff",
@@ -442597,7 +442949,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-portland-mcmenamins-crystal-ballroom-5-14-2027--concerts-pop/production/7880772",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAfFf",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -442648,7 +443000,8 @@
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375222",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375222/Tori-Kelly-tickets-Fri-May-14-2027-McMenamins-Crystal-Ballroom"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375222/Tori-Kelly-tickets-Fri-May-14-2027-McMenamins-Crystal-Ballroom",
+    "genre": "Pop"
   },
   {
     "id": "tm-tori-kelly-2027-sacramento-g5vyz_puiau1t",
@@ -442666,7 +443019,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-sacramento-channel-24-5-18-2027/production/7880652",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-sacramento-california-05-18-2027/event/1C00656DA824D2BF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442725,7 +443078,19 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374519",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374519/Tori-Kelly-tickets-Tue-May-18-2027-Channel-24",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-sacramento-tickets-5-18-2027/event/107683736"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-sacramento-tickets-5-18-2027/event/107683736",
+    "organizer_names": [
+      "ANOTHER PLANET"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-11T06:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tori-kelly-2027-hollywood-vv170z_pgkwplbll",
@@ -442743,7 +443108,7 @@
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-los-angeles-hollywood-palladium-5-20-2027/production/7880663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-hollywood-california-05-20-2027/event/0900656C967D87DF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442802,7 +443167,24 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374521",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374521/Tori-Kelly-tickets-Thu-May-20-2027-Hollywood-Palladium",
-    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-hollywood-tickets-5-20-2027/event/107683742"
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-hollywood-tickets-5-20-2027/event/107683742",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-21T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-13T06:55:00Z"
+      }
+    ]
   },
   {
     "id": "tm-chris-tomlin-2026-birmingham-1kfzvpfyga2ugky",
@@ -442820,7 +443202,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-birmingham-alabama-theatre-birmingham-11-30-2026/production/7519920",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-birmingham-alabama-11-30-2026/event/200065230F3751B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442871,7 +443253,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249187",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249187/Chris-Tomlin-tickets-Mon-Nov-30-2026-Alabama-Theatre-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249187/Chris-Tomlin-tickets-Mon-Nov-30-2026-Alabama-Theatre-Birmingham",
+    "organizer_names": [
+      "TRANSPARENT PRODUCTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "TICKETSGIVING",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-chris-tomlin-2026-birmingham-1aezz_ogkloidyk",
@@ -442889,7 +443283,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-birmingham-alabama-theatre-birmingham-12-1-2026/production/7490733",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-birmingham-alabama-12-01-2026/event/2000651AE0A03C06",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -442940,7 +443334,19 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238832",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238832/Chris-Tomlin-tickets-Tue-Dec-1-2026-Alabama-Theatre-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238832/Chris-Tomlin-tickets-Tue-Dec-1-2026-Alabama-Theatre-Birmingham",
+    "organizer_names": [
+      "TRANSPARENT PRODUCTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "TICKETSGIVING",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-chris-tomlin-2026-daytona-beach-z7r9jz1aav44a",
@@ -442958,7 +443364,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv44A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -443009,7 +443415,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238946",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238946/Chris-Tomlin-tickets-Wed-Dec-2-2026-Peabody-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238946/Chris-Tomlin-tickets-Wed-Dec-2-2026-Peabody-Auditorium",
+    "genre": "Pop"
   },
   {
     "id": "tm-chris-tomlin-2026-north-charleston-g5evz_oontasw",
@@ -443027,7 +443434,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-north-charleston-north-charleston-performing-arts-center-12-3-2026/production/7490974",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-north-charleston-south-carolina-12-03-2026/event/2D0065182AFC5CFD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443078,7 +443485,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238834",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238834/Chris-Tomlin-tickets-Thu-Dec-3-2026-North-Charleston-Performing-Arts-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238834/Chris-Tomlin-tickets-Thu-Dec-3-2026-North-Charleston-Performing-Arts-Center",
+    "ticket_limit": 8,
+    "genre": "Religious"
   },
   {
     "id": "tm-chris-tomlin-2026-pensacola-g5viz_on0-j6v",
@@ -443096,7 +443505,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-pensacola-saenger-theatre-fl-12-4-2026/production/7490715",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-pensacola-florida-12-04-2026/event/1B00651AA485C1C1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443147,7 +443556,15 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238836",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238836/Chris-Tomlin-tickets-Fri-Dec-4-2026-Saenger-Theatre-FL"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238836/Chris-Tomlin-tickets-Fri-Dec-4-2026-Saenger-Theatre-FL",
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "Ticketsgiving",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-chris-tomlin-2026-knoxville-g5viz_ojuxkcz",
@@ -443165,7 +443582,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-knoxville-knoxville-civic-auditorium-12-8-2026/production/7491149",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-knoxville-tennessee-12-08-2026/event/1B0065198DF86B78",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443216,7 +443633,18 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238838",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238838/Chris-Tomlin-tickets-Tue-Dec-8-2026-Knoxville-Civic-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238838/Chris-Tomlin-tickets-Tue-Dec-8-2026-Knoxville-Civic-Auditorium",
+    "organizer_names": [
+      "TRANSPARENT PRODUCTIONS"
+    ],
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "TICKETSGIVING",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-chris-tomlin-2026-newport-news-z7r9jz1aavoof",
@@ -443234,7 +443662,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-newport-news-ferguson-center-for-the-arts-concert-hall-12-9-2026/production/7493159",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvoof",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -443285,7 +443713,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238947",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238947/Chris-Tomlin-tickets-Wed-Dec-9-2026-Diamonstein-Concert-Hall-CNU-Ferguson-Center-for-the-Arts"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238947/Chris-Tomlin-tickets-Wed-Dec-9-2026-Diamonstein-Concert-Hall-CNU-Ferguson-Center-for-the-Arts",
+    "genre": "Pop"
   },
   {
     "id": "tm-chris-tomlin-2026-jersey-city-vv1aezkf_gkedtdkm",
@@ -443303,7 +443732,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-jersey-city-new-jersey-12-10-2026/event/02006519BBA434F7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443354,7 +443783,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238839",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238839/Chris-Tomlin-tickets-Thu-Dec-10-2026-Loews-Jersey-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238839/Chris-Tomlin-tickets-Thu-Dec-10-2026-Loews-Jersey-Theatre",
+    "genre": "Religious"
   },
   {
     "id": "tm-chris-tomlin-2026-detroit-z7r9jz1aav34i",
@@ -443372,7 +443802,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv34I",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -443423,7 +443853,8 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238948",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238948/Chris-Tomlin-tickets-Tue-Dec-15-2026-Fisher-Theatre-MI"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238948/Chris-Tomlin-tickets-Tue-Dec-15-2026-Fisher-Theatre-MI",
+    "genre": "Pop"
   },
   {
     "id": "tm-chris-tomlin-2026-indianapolis-vv17fz_ogkmojkil",
@@ -443441,7 +443872,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-indianapolis-murat-theatre-at-old-national-centre-12-16-2026/production/7491170",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-indianapolis-indiana-12-16-2026/event/0500651BA0706A1F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443492,7 +443923,12 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238843",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238843/Chris-Tomlin-tickets-Wed-Dec-16-2026-Murat-Theatre-at-Old-National-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238843/Chris-Tomlin-tickets-Wed-Dec-16-2026-Murat-Theatre-at-Old-National-Centre",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Religious"
   },
   {
     "id": "tm-chris-tomlin-2026-milwaukee-z7r9jz1aav4be",
@@ -443510,7 +443946,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-milwaukee-riverside-theater---wi-12-17-2026--concerts-adult-contemporary/production/7492597",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAv4bE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -443561,7 +443997,8 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238949",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238949/Chris-Tomlin-tickets-Thu-Dec-17-2026-Riverside-Theater-WI"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238949/Chris-Tomlin-tickets-Thu-Dec-17-2026-Riverside-Theater-WI",
+    "genre": "Pop"
   },
   {
     "id": "tm-chris-tomlin-2026-cincinnati-1avbz_ogknrwawm",
@@ -443579,7 +444016,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-cincinnati-taft-theatre-12-18-2026/production/7491172",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/christmas-with-chris-tomlin-cincinnati-ohio-12-18-2026/event/1600651A9EC85CB7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443630,7 +444067,16 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238845",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238845/Chris-Tomlin-tickets-Fri-Dec-18-2026-Taft-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238845/Chris-Tomlin-tickets-Fri-Dec-18-2026-Taft-Theatre",
+    "ticket_limit": 8,
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "Preferred Seating",
+        "start": "2026-09-04T14:00:00Z",
+        "end": "2026-12-19T00:30:00Z"
+      }
+    ]
   },
   {
     "id": "tm-chris-tomlin-2027-nashville-g5viz_6t7chyi",
@@ -443648,7 +444094,7 @@
     "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-nashville-bridgestone-arena-3-26-2027/production/6861558",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/chris-tomlin-good-friday-nashville-2027-nashville-tennessee-03-26-2027/event/1B00647FC4B5BE68",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443699,7 +444145,23 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7850295",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7850295/Chris-Tomlin-tickets-Fri-Mar-26-2027-Bridgestone-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7850295/Chris-Tomlin-tickets-Fri-Mar-26-2027-Bridgestone-Arena",
+    "organizer_names": [
+      "AWAKENING EVENTS"
+    ],
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "Gold Friday Offer",
+        "start": "2026-11-06T15:25:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      },
+      {
+        "name": "$25 All In Offer",
+        "start": "2026-11-24T06:01:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rascal-flatts-2026-las-vegas-17c8v0g6c1qpoq5",
@@ -443717,7 +444179,7 @@
     "vividseats_url": "https://www.vividseats.com/rascal-flatts-tickets-las-vegas-the-colosseum-at-caesars-palace-12-5-2026--concerts-country-and-folk/production/7254262",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rascal-flatts-las-vegas-nevada-12-05-2026/event/390064E29A59174B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -443776,7 +444238,16 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8112214",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8112214/Rascal-Flatts-tickets-Sat-Dec-5-2026-The-Colosseum-At-Caesars-Palace",
-    "stubhub_international_url": "https://www.stubhub.ie/rascal-flatts-las-vegas-tickets-12-5-2026/event/107457438"
+    "stubhub_international_url": "https://www.stubhub.ie/rascal-flatts-las-vegas-tickets-12-5-2026/event/107457438",
+    "ticket_limit": 10,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-07-10T17:00:00Z",
+        "end": "2026-12-06T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rascal-flatts-2027-rexburg-z7r9jz1aaa-fg",
@@ -443794,7 +444265,7 @@
     "vividseats_url": "https://www.vividseats.com/rascal-flatts-tickets-rexburg-byu-idaho-center-3-20-2027/production/7905457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-Fg",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-23",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -443846,6 +444317,7 @@
     "status": "announced",
     "public_onsale_at": "2026-11-23T17:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381500",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381500/Rascal-Flatts-tickets-Sat-Mar-20-2027-BYU-Idaho-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381500/Rascal-Flatts-tickets-Sat-Mar-20-2027-BYU-Idaho-Center",
+    "genre": "Country"
   }
 ]

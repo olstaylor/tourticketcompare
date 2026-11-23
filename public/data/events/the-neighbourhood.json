@@ -1094,7 +1094,7 @@
     "city": "Inglewood",
     "country": "United States Of America",
     "venue": "Kia Forum",
-    "datetime_iso": "2026-12-06T02:00:00Z",
+    "datetime_iso": "2026-12-06T03:00:00Z",
     "tour_name": "THE WOURLD TOUR",
     "ticketmaster_event_id": "0900645403D3F8BA",
     "ticketmaster_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
@@ -1102,7 +1102,7 @@
     "vividseats_url": "https://www.vividseats.com/the-neighbourhood-tickets-inglewood-kia-forum-12-5-2026/production/6707944",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-neighbourhood-the-wourld-tour-inglewood-california-12-05-2026/event/0900645403D3F8BA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

@@ -394,7 +394,8 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     body.includes(`How much are ${ARTIST.name} tickets in ${RUN_CITY}?`),
     "the page states the question it is searched for, verbatim, as a heading"
   );
-  assert(body.includes("Sites priced"), 'the table column reads "Sites priced"');
+  assert(body.includes("Other sites"), 'the table column reads "Other sites"');
+  assert(/class="price-answer-other"/.test(page.main), "a date priced by two sites lists the other site's own starting price");
   assert(!/Sites checked/i.test(body), 'the table must not imply the render initiated a check ("Sites checked")');
 
   // Both dates keep their own figure. If a cross-event minimum ever appeared,
@@ -749,7 +750,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // The CSS above is inert unless the markup supplies the labels it reads.
   const page = await render(RUN_PATH);
   const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
-  assert(/<td data-label="Sites priced">/.test(section), "the count cell carries its column name for the stacked layout");
+  assert(/<td data-label="Other sites">/.test(section), "the other-sites cell carries its column name for the stacked layout");
   assert(/<td class="price-answer-price">/.test(section), "the price cell is addressable so it is not double-labelled");
   const multi = await render(`/artists/${ARTIST.slug}/tickets/${MULTI_CITY_SLUG}`);
   const multiSection = (multi.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];

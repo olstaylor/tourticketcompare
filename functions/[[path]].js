@@ -187,7 +187,7 @@ function reviewerSchemaRef(origin) {
 // >>> homepage-proposition >>>
 const HOME_HEADLINE = "Compare resale ticket prices for your show, site by site.";
 const HOME_SUBCOPY =
-  "Pick an artist and date to see each ticket site's listed price where available and when it was checked. Confirm the total on the ticket site.";
+  "Pick an artist and date for each site's listed price where available and when it was checked. Confirm the total on the ticket site.";
 const HOME_PRIMARY_CTA_LABEL = "Compare a show";
 const HOME_PRIMARY_CTA_HREF = "/artists";
 const HOME_STEPS = [
@@ -6380,7 +6380,7 @@ export function renderToursHubBody(route) {
         hub.countryCount,
         "country",
         "countries"
-      )}. Open an artist to see every date and its checked ticket links.`
+      )}.`
     : `No tracked artist has upcoming dates in ${hub.year} yet. Dates are added as tours are announced.`;
   const listHtml = hub.artists.length
     ? `${renderTileFilterHtml("Filter artists by name", "Find an artist")}${renderTileListHtml(
@@ -6392,7 +6392,7 @@ export function renderToursHubBody(route) {
   const runsHtml = runs.length
     ? `<section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
         `Longest ${hub.year} city runs`
-      )}</h2><p>Artists with several dates in one city. Open a run to see each date and its checked ticket links.</p></div>${(() => {
+      )}</h2><p>Artists with several dates in one city.</p></div>${(() => {
         const tiles = runs.map((run) => ({
           href: run.path,
           name: `${nameBySlug.get(run.artistSlug)} in ${run.city}`,
@@ -9119,7 +9119,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   );
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
-    '<script src="/app.js?v=20261102a" defer></script>',
+    '<script src="/app.js?v=20261123a" defer></script>',
     '<script src="/shell.js?v=20261122a" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
@@ -9164,7 +9164,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
       '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261123c" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
-    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261122a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/ttc-home.js?v=20261123a" defer></script></body>');
   }
   return next;
 }

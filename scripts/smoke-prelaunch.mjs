@@ -67,9 +67,9 @@ const expectedTitle = new Map([
   ["/terms", "Terms of Use | TourTicketCompare"]
 ]);
 const homepageDescription = "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.";
-const APP_ASSET_VERSION = "20261102a";
+const APP_ASSET_VERSION = "20261123a";
 const TTC_HOME_ASSET_VERSION = "20261023b";
-const TTC_HOME_JS_ASSET_VERSION = "20261122a";
+const TTC_HOME_JS_ASSET_VERSION = "20261123a";
 const TTC_SHELL_ASSET_VERSION = "20261107a";
 const SHELL_SCRIPT_ASSET_VERSION = "20261122a";
 const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com https://static.cloudflareinsights.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com https://cloudflareinsights.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";

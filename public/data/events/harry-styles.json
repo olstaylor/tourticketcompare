@@ -2725,7 +2725,7 @@
         "event_id": "107082955",
         "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-27-11-2026/event/107082955",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2799,7 +2799,7 @@
         "event_id": "107082956",
         "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-28-11-2026/event/107082956",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2873,7 +2873,7 @@
         "event_id": "107082957",
         "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-2-12-2026/event/107082957",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2947,7 +2947,7 @@
         "event_id": "107495125",
         "url": "https://www.stubhub.ie/harry-styles-tickets-melbourne-marvel-stadium-docklands-4-12-2026/event/107495125",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3183,7 +3183,7 @@
         "event_id": "107667648",
         "url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-23-2027/event/107667648",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3265,7 +3265,7 @@
         "event_id": "107667649",
         "url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-24-2027/event/107667649",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3458,7 +3458,7 @@
         "event_id": "107667650",
         "url": "https://www.stubhub.ie/harry-styles-atlanta-tickets-5-21-2027/event/107667650",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3540,7 +3540,7 @@
         "event_id": "107667651",
         "url": "https://www.stubhub.ie/harry-styles-atlanta-tickets-5-22-2027/event/107667651",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3622,7 +3622,7 @@
         "event_id": "107667652",
         "url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-28-2027/event/107667652",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3703,7 +3703,7 @@
         "event_id": "107667653",
         "url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-29-2027/event/107667653",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3779,6 +3779,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667643",
+        "url": "https://www.stubhub.ie/harry-styles-tickets-madrid-riyadh-air-metropolitano-30-7-2027/event/107667643",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v0SPtAE",
@@ -3788,7 +3795,8 @@
       "Live Nation España Last Mile, S.A."
     ],
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8263968/Harry-Styles-tickets-Fri-Jul-30-2027-Estadio-Metropolitano"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8263968/Harry-Styles-tickets-Fri-Jul-30-2027-Estadio-Metropolitano",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-madrid-riyadh-air-metropolitano-30-7-2027/event/107667643"
   },
   {
     "id": "tm-harry-styles-2027-madrid-z698xz2qz16v8zj448",
@@ -3844,6 +3852,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107667644",
+        "url": "https://www.stubhub.ie/harry-styles-tickets-madrid-riyadh-air-metropolitano-31-7-2027/event/107667644",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16v8ZJ448",
@@ -3853,7 +3868,8 @@
       "Live Nation España Last Mile, S.A."
     ],
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8263969/Harry-Styles-tickets-Sat-Jul-31-2027-Estadio-Metropolitano"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8263969/Harry-Styles-tickets-Sat-Jul-31-2027-Estadio-Metropolitano",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-madrid-riyadh-air-metropolitano-31-7-2027/event/107667644"
   },
   {
     "id": "tm-harry-styles-2027-dublin-1abzkftgkexalp_",
@@ -4028,7 +4044,7 @@
         "event_id": "107666015",
         "url": "https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-25-8-2027/event/107666015",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4109,7 +4125,7 @@
         "event_id": "107667637",
         "url": "https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-27-8-2027/event/107667637",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4190,7 +4206,7 @@
         "event_id": "107666016",
         "url": "https://www.stubhub.ie/harry-styles-tickets-london-wembley-stadium-28-8-2027/event/107666016",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4328,7 +4344,7 @@
         "event_id": "107666028",
         "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-9-2027/event/107666028",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4405,7 +4421,7 @@
         "event_id": "107667647",
         "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-10-2027/event/107667647",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4482,7 +4498,7 @@
         "event_id": "107668117",
         "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-16-2027/event/107668117",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4566,7 +4582,7 @@
         "event_id": "107668108",
         "url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-4-30-2027/event/107668108",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4648,7 +4664,7 @@
         "event_id": "107668109",
         "url": "https://www.stubhub.ie/harry-styles-pasadena-tickets-5-1-2027/event/107668109",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4841,7 +4857,7 @@
         "event_id": "107668112",
         "url": "https://www.stubhub.ie/harry-styles-chicago-tickets-6-4-2027/event/107668112",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4922,7 +4938,7 @@
         "event_id": "107668113",
         "url": "https://www.stubhub.ie/harry-styles-chicago-tickets-6-5-2027/event/107668113",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4998,6 +5014,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666300",
+        "url": "https://www.stubhub.ie/harry-styles-tickets-madrid-riyadh-air-metropolitano-2-8-2027/event/107666300",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1ko4op48",
@@ -5007,7 +5030,8 @@
       "Live Nation España Last Mile, S.A."
     ],
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266323/Harry-Styles-tickets-Mon-Aug-2-2027-Estadio-Metropolitano"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8266323/Harry-Styles-tickets-Mon-Aug-2-2027-Estadio-Metropolitano",
+    "stubhub_international_url": "https://www.stubhub.ie/harry-styles-tickets-madrid-riyadh-air-metropolitano-2-8-2027/event/107666300"
   },
   {
     "id": "tm-harry-styles-2027-arlington-z7r9jz1aavszi",
@@ -5068,7 +5092,7 @@
         "event_id": "107668149",
         "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-14-2027/event/107668149",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -5145,7 +5169,7 @@
         "event_id": "107668118",
         "url": "https://www.stubhub.ie/harry-styles-arlington-tickets-4-17-2027/event/107668118",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -5222,7 +5246,7 @@
         "event_id": "107668111",
         "url": "https://www.stubhub.ie/harry-styles-chicago-tickets-5-31-2027/event/107668111",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -5303,7 +5327,7 @@
         "event_id": "107667646",
         "url": "https://www.stubhub.ie/harry-styles-glendale-tickets-4-2-2027/event/107667646",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -5380,7 +5404,7 @@
         "event_id": "107666027",
         "url": "https://www.stubhub.ie/harry-styles-glendale-tickets-4-3-2027/event/107666027",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

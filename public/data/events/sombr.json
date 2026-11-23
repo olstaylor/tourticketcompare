@@ -2629,7 +2629,7 @@
         "event_id": "107154738",
         "url": "https://www.stubhub.ie/sombr-new-york-tickets-11-23-2026/event/107154738",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2717,7 +2717,7 @@
         "event_id": "107160120",
         "url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2812,7 +2812,7 @@
         "event_id": "107666407",
         "url": "https://www.stubhub.ie/sombr-tickets-hamburg-barclays-arena-hamburg-14-5-2027/event/107666407",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2874,6 +2874,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107666324",
+        "url": "https://www.stubhub.ie/sombr-tickets-antwerpen-afas-dome-16-5-2027/event/107666324",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16v0pPS8o",
@@ -2882,7 +2889,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-antwerpen-afas-dome-16-5-2027/event/107666324"
   },
   {
     "id": "tm-sombr-2027-berlin-z698xzc2z1akrz8f",
@@ -2950,7 +2958,7 @@
         "event_id": "107666398",
         "url": "https://www.stubhub.ie/sombr-tickets-berlin-uber-arena-18-5-2027/event/107666398",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3031,7 +3039,7 @@
         "event_id": "107666431",
         "url": "https://www.stubhub.ie/sombr-tickets-munich-olympiahalle-munich-28-5-2027/event/107666431",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3112,7 +3120,7 @@
         "event_id": "107666327",
         "url": "https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-31-5-2027/event/107666327",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3179,7 +3187,7 @@
         "event_id": "107665761",
         "url": "https://www.stubhub.ie/sombr-tickets-amsterdam-ziggo-dome-1-6-2027/event/107665761",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3312,7 +3320,7 @@
         "event_id": "107666406",
         "url": "https://www.stubhub.ie/sombr-tickets-glasgow-bellahouston-park-19-6-2027/event/107666406",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3383,7 +3391,7 @@
         "event_id": "107666543",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-21-6-2027/event/107666543",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -3465,7 +3473,7 @@
         "event_id": "107665338",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-22-6-2027/event/107665338",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -3547,7 +3555,7 @@
         "event_id": "107666544",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-24-6-2027/event/107666544",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -3629,7 +3637,7 @@
         "event_id": "107666748",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-25-6-2027/event/107666748",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -3711,7 +3719,7 @@
         "event_id": "107666815",
         "url": "https://www.stubhub.ie/sombr-tickets-london-the-o2-arena-29-6-2027/event/107666815",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3835,7 +3843,7 @@
         "event_id": "107666405",
         "url": "https://www.stubhub.ie/sombr-tickets-belfast-ormeau-park-17-6-2027/event/107666405",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3900,7 +3908,7 @@
         "event_id": "107158149",
         "url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-29-1-2027/event/107158149",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3965,7 +3973,7 @@
         "event_id": "107449736",
         "url": "https://www.stubhub.ie/sombr-tickets-mexico-city-pepsi-center-wtc-30-1-2027/event/107449736",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4194,7 +4202,7 @@
         "event_id": "107666323",
         "url": "https://www.stubhub.ie/sombr-tickets-helsinki-veikkaus-arena-11-5-2027/event/107666323",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4270,6 +4278,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107666325",
+        "url": "https://www.stubhub.ie/sombr-tickets-prague-o2-arena-19-5-2027/event/107666325",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16v-zGMZ9",
@@ -4280,7 +4295,8 @@
     ],
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245515",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245515/sombr-tickets-Wed-May-19-2027-O2-Arena-Prague"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245515/sombr-tickets-Wed-May-19-2027-O2-Arena-Prague",
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-prague-o2-arena-19-5-2027/event/107666325"
   },
   {
     "id": "tm-sombr-2027-zurich-z698xzu3z16vqgjk0e",
@@ -4348,7 +4364,7 @@
         "event_id": "107666419",
         "url": "https://www.stubhub.ie/sombr-tickets-zurich-hallenstadion-zurich-27-5-2027/event/107666419",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

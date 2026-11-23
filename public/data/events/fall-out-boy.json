@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681326",
+        "url": "https://www.stubhub.ie/fall-out-boy-tickets-prague-o2-arena-17-5-2027/event/107681326",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16eepQfuF",
@@ -54,7 +61,8 @@
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/fall-out-boy-tickets-prague-o2-arena-17-5-2027/event/107681326"
   },
   {
     "id": "tm-fall-out-boy-2027-assago-zg9rmiynyzf1fa",
@@ -162,7 +170,7 @@
         "event_id": "107680313",
         "url": "https://www.stubhub.ie/fall-out-boy-tickets-madrid-movistar-arena-palacio-de-los-deportes-23-5-2027/event/107680313",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -227,7 +235,7 @@
         "event_id": "107681327",
         "url": "https://www.stubhub.ie/fall-out-boy-tickets-brussels-ing-arena-27-5-2027/event/107681327",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -306,7 +314,7 @@
         "event_id": "107680316",
         "url": "https://www.stubhub.ie/fall-out-boy-tickets-glasgow-ovo-hydro-arena-glasgow-30-5-2027/event/107680316",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -465,7 +473,7 @@
         "event_id": "107681319",
         "url": "https://www.stubhub.ie/fall-out-boy-tickets-manchester-co-op-live-3-6-2027/event/107681319",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -533,7 +541,7 @@
         "event_id": "107680315",
         "url": "https://www.stubhub.ie/fall-out-boy-tickets-london-tottenham-hotspur-stadium-5-6-2027/event/107680315",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -626,7 +634,7 @@
         "event_id": "107681325",
         "url": "https://www.stubhub.ie/fall-out-boy-tickets-amsterdam-ziggo-dome-8-6-2027/event/107681325",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -693,7 +701,7 @@
         "event_id": "107680762",
         "url": "https://www.stubhub.ie/fall-out-boy-tickets-lodz-atlas-arena-13-6-2027/event/107680762",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -788,7 +796,7 @@
         "event_id": "107680873",
         "url": "https://www.stubhub.ie/fall-out-boy-arlington-tickets-7-13-2027/event/107680873",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -877,7 +885,7 @@
         "event_id": "107680883",
         "url": "https://www.stubhub.ie/fall-out-boy-atlanta-tickets-7-16-2027/event/107680883",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -966,7 +974,7 @@
         "event_id": "107680890",
         "url": "https://www.stubhub.ie/fall-out-boy-washington-tickets-7-18-2027/event/107680890",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1203,7 +1211,7 @@
         "event_id": "107680891",
         "url": "https://www.stubhub.ie/fall-out-boy-chicago-tickets-7-24-2027/event/107680891",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1292,7 +1300,7 @@
         "event_id": "107680899",
         "url": "https://www.stubhub.ie/fall-out-boy-boston-tickets-7-30-2027/event/107680899",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1446,7 +1454,7 @@
         "event_id": "107680909",
         "url": "https://www.stubhub.ie/fall-out-boy-atlantic-city-tickets-8-3-2027/event/107680909",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1760,7 +1768,7 @@
         "event_id": "107680887",
         "url": "https://www.stubhub.ie/fall-out-boy-san-francisco-tickets-8-15-2027/event/107680887",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1849,7 +1857,7 @@
         "event_id": "107680897",
         "url": "https://www.stubhub.ie/fall-out-boy-san-diego-tickets-8-17-2027/event/107680897",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1937,7 +1945,7 @@
         "event_id": "107680884",
         "url": "https://www.stubhub.ie/fall-out-boy-phoenix-tickets-8-19-2027/event/107680884",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2025,7 +2033,7 @@
         "event_id": "107680861",
         "url": "https://www.stubhub.ie/fall-out-boy-los-angeles-tickets-8-21-2027/event/107680861",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2183,7 +2191,7 @@
         "event_id": "107680954",
         "url": "https://www.stubhub.ie/fall-out-boy-seattle-tickets-8-24-2027/event/107680954",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2272,7 +2280,7 @@
         "event_id": "107683096",
         "url": "https://www.stubhub.ie/fall-out-boy-tickets-manchester-co-op-live-6-6-2027/event/107683096",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

@@ -210,6 +210,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107417430",
+        "url": "https://www.stubhub.ie/cristian-castro-san-diego-tickets-11-27-2026/event/107417430",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-80A",
@@ -217,7 +224,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746197",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746197/Cristian-Castro-tickets-Fri-Nov-27-2026-Pechanga-Arena-San-Diego",
-    "genre": "World"
+    "genre": "World",
+    "stubhub_international_url": "https://www.stubhub.ie/cristian-castro-san-diego-tickets-11-27-2026/event/107417430"
   },
   {
     "id": "tm-cristian-castro-2026-los-angeles-z7r9jz1a7-f4v",
@@ -285,7 +293,7 @@
         "event_id": "107138182",
         "url": "https://www.stubhub.ie/cristian-castro-los-angeles-tickets-11-28-2026/event/107138182",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -491,7 +499,7 @@
         "event_id": "107417431",
         "url": "https://www.stubhub.ie/cristian-castro-anaheim-tickets-2-12-2027/event/107417431",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -768,7 +776,7 @@
         "event_id": "107446233",
         "url": "https://www.stubhub.ie/cristian-castro-orlando-tickets-3-12-2027/event/107446233",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -846,7 +854,7 @@
         "event_id": "107417433",
         "url": "https://www.stubhub.ie/cristian-castro-miami-tickets-3-13-2027/event/107417433",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

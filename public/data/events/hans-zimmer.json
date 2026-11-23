@@ -60,6 +60,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107668638",
+        "url": "https://www.stubhub.ie/hans-zimmer-elmont-tickets-2-19-2027/event/107668638",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_3GkmRvUZw",
@@ -78,7 +85,8 @@
     "ticket_limit": 8,
     "genre": "Classical",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8270975",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270975/Hans-Zimmer-tickets-Fri-Feb-19-2027-UBS-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8270975/Hans-Zimmer-tickets-Fri-Feb-19-2027-UBS-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-elmont-tickets-2-19-2027/event/107668638"
   },
   {
     "id": "tm-hans-zimmer-2027-newark-vv1aezkfygkepjhre",
@@ -146,7 +154,7 @@
         "event_id": "107669465",
         "url": "https://www.stubhub.ie/hans-zimmer-newark-tickets-2-21-2027/event/107669465",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -235,7 +243,7 @@
         "event_id": "107669466",
         "url": "https://www.stubhub.ie/hans-zimmer-philadelphia-tickets-2-23-2027/event/107669466",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -323,7 +331,7 @@
         "event_id": "107668647",
         "url": "https://www.stubhub.ie/hans-zimmer-boston-tickets-2-24-2027/event/107668647",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -472,6 +480,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107669535",
+        "url": "https://www.stubhub.ie/hans-zimmer-quebec-tickets-videotron-centre-2-28-2027/event/107669535",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1FG8vP17a7Z7uCe8",
@@ -489,7 +504,8 @@
     "organizer_names": [
       "AEG LIVE (CANADA)"
     ],
-    "genre": "Classical"
+    "genre": "Classical",
+    "stubhub_international_url": "https://www.stubhub.ie/hans-zimmer-quebec-tickets-videotron-centre-2-28-2027/event/107669535"
   },
   {
     "id": "tm-hans-zimmer-2027-hamilton-1a8zkfigkdxfojj",
@@ -627,7 +643,7 @@
         "event_id": "107669517",
         "url": "https://www.stubhub.ie/hans-zimmer-detroit-tickets-3-3-2027/event/107669517",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -716,7 +732,7 @@
         "event_id": "107669467",
         "url": "https://www.stubhub.ie/hans-zimmer-chicago-tickets-3-5-2027/event/107669467",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -805,7 +821,7 @@
         "event_id": "107669524",
         "url": "https://www.stubhub.ie/hans-zimmer-cincinnati-tickets-3-7-2027/event/107669524",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -893,7 +909,7 @@
         "event_id": "107669525",
         "url": "https://www.stubhub.ie/hans-zimmer-charlotte-tickets-3-9-2027/event/107669525",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -981,7 +997,7 @@
         "event_id": "107669468",
         "url": "https://www.stubhub.ie/hans-zimmer-orlando-tickets-3-11-2027/event/107669468",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1070,7 +1086,7 @@
         "event_id": "107668651",
         "url": "https://www.stubhub.ie/hans-zimmer-miami-tickets-3-13-2027/event/107668651",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1158,7 +1174,7 @@
         "event_id": "107669539",
         "url": "https://www.stubhub.ie/hans-zimmer-tampa-tickets-3-14-2027/event/107669539",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1247,7 +1263,7 @@
         "event_id": "107669533",
         "url": "https://www.stubhub.ie/hans-zimmer-atlanta-tickets-3-16-2027/event/107669533",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1336,7 +1352,7 @@
         "event_id": "107668746",
         "url": "https://www.stubhub.ie/hans-zimmer-nashville-tickets-3-17-2027/event/107668746",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1425,7 +1441,7 @@
         "event_id": "107669471",
         "url": "https://www.stubhub.ie/hans-zimmer-fort-worth-tickets-3-22-2027/event/107669471",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1514,7 +1530,7 @@
         "event_id": "107669532",
         "url": "https://www.stubhub.ie/hans-zimmer-denver-tickets-3-25-2027/event/107669532",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1603,7 +1619,7 @@
         "event_id": "107669528",
         "url": "https://www.stubhub.ie/hans-zimmer-phoenix-tickets-3-30-2027/event/107669528",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1685,7 +1701,7 @@
         "event_id": "107668652",
         "url": "https://www.stubhub.ie/hans-zimmer-anaheim-tickets-4-2-2027/event/107668652",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1774,7 +1790,7 @@
         "event_id": "107669477",
         "url": "https://www.stubhub.ie/hans-zimmer-san-francisco-tickets-4-4-2027/event/107669477",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1873,7 +1889,7 @@
         "event_id": "107669478",
         "url": "https://www.stubhub.ie/hans-zimmer-sacramento-tickets-4-5-2027/event/107669478",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1962,7 +1978,7 @@
         "event_id": "107669530",
         "url": "https://www.stubhub.ie/hans-zimmer-vancouver-tickets-rogers-arena-4-8-2027/event/107669530",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2051,7 +2067,7 @@
         "event_id": "107669479",
         "url": "https://www.stubhub.ie/hans-zimmer-seattle-tickets-4-9-2027/event/107669479",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2140,7 +2156,7 @@
         "event_id": "107668737",
         "url": "https://www.stubhub.ie/hans-zimmer-portland-tickets-4-11-2027/event/107668737",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2508,7 +2524,7 @@
         "event_id": "107669476",
         "url": "https://www.stubhub.ie/hans-zimmer-los-angeles-tickets-4-1-2027/event/107669476",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

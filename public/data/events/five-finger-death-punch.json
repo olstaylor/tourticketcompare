@@ -1640,7 +1640,7 @@
         "event_id": "107164485",
         "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-manchester-manchester-ao-arena-16-1-2027/event/107164485",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1723,7 +1723,7 @@
         "event_id": "107164486",
         "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-birmingham-bp-pulse-live-22-1-2027/event/107164486",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1798,7 +1798,7 @@
         "event_id": "107162584",
         "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-london-the-o2-arena-23-1-2027/event/107162584",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1864,7 +1864,7 @@
         "event_id": "107164435",
         "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-lodz-atlas-arena-29-1-2027/event/107164435",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2138,7 +2138,7 @@
         "event_id": "107165490",
         "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-glasgow-ovo-hydro-arena-glasgow-17-1-2027/event/107165490",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2209,6 +2209,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107164431",
+        "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-prague-o2-arena-31-1-2027/event/107164431",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z1kq-uavz",
@@ -2217,7 +2224,8 @@
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/five-finger-death-punch-tickets-prague-o2-arena-31-1-2027/event/107164431"
   },
   {
     "id": "tm-five-finger-death-punch-2027-fornebu-z698xzb_z16ezeg-gk",
@@ -2358,7 +2366,7 @@
         "event_id": "107162540",
         "url": "https://www.stubhub.ie/five-finger-death-punch-tickets-helsinki-veikkaus-arena-22-2-2027/event/107162540",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

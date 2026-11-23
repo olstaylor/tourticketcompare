@@ -65,7 +65,7 @@
         "event_id": "107154484",
         "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-madrid-movistar-arena-palacio-de-los-deportes-8-4-2027/event/107154484",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -146,7 +146,7 @@
         "event_id": "107154485",
         "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-valencia-roig-arena-9-4-2027/event/107154485",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -289,7 +289,7 @@
         "event_id": "107156408",
         "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-munich-olympiahalle-munich-12-4-2027/event/107156408",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -431,6 +431,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107156416",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-krakow-tauron-arena-15-4-2027/event/107156416",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1ke8f3Ad",
@@ -440,7 +447,8 @@
       "Live Nation sp. z o.o."
     ],
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877286"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877286",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-krakow-tauron-arena-15-4-2027/event/107156416"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-hannover-z698xzc2z16vqp_xfz",
@@ -508,7 +516,7 @@
         "event_id": "107156422",
         "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-hannover-zag-arena-20-4-2027/event/107156422",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -577,6 +585,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107154531",
+        "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-antwerpen-lotto-arena-23-4-2027/event/107154531",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1k-8AsF4",
@@ -586,7 +601,8 @@
       "Live Nation"
     ],
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877297"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877297",
+    "stubhub_international_url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-antwerpen-lotto-arena-23-4-2027/event/107154531"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u",
@@ -640,7 +656,7 @@
         "event_id": "107158077",
         "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-london-the-o2-arena-28-4-2027/event/107158077",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -728,7 +744,7 @@
         "event_id": "107155347",
         "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-manchester-co-op-live-29-4-2027/event/107155347",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -872,7 +888,7 @@
         "event_id": "107676064",
         "url": "https://www.stubhub.ie/thirty-seconds-to-mars-tickets-nurnberg-psd-bank-nurnberg-arena-5-5-2027/event/107676064",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

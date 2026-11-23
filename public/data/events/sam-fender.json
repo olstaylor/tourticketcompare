@@ -51,7 +51,7 @@
         "event_id": "107678199",
         "url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-3-6-2027/event/107678199",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -134,7 +134,7 @@
         "event_id": "107676048",
         "url": "https://www.stubhub.ie/sam-fender-tickets-newcastle-upon-tyne-st-james-park-5-6-2027/event/107676048",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -217,7 +217,7 @@
         "event_id": "107678202",
         "url": "https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-10-6-2027/event/107678202",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -300,7 +300,7 @@
         "event_id": "107678200",
         "url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-18-6-2027/event/107678200",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -384,7 +384,7 @@
         "event_id": "107676045",
         "url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-20-6-2027/event/107676045",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -507,6 +507,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107678201",
+        "url": "https://www.stubhub.ie/sam-fender-tickets-edinburgh-murrayfield-stadium-8-7-2027/event/107678201",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZk4fGkd4QEbt",
@@ -518,7 +525,8 @@
       "GIGS IN SCOTLAND"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-edinburgh-murrayfield-stadium-8-7-2027/event/107678201"
   },
   {
     "id": "tm-sam-fender-2027-manchester-g5dzz_42lyjlw",
@@ -586,7 +594,7 @@
         "event_id": "107676046",
         "url": "https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-15-7-2027/event/107676046",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -655,7 +663,7 @@
         "event_id": "107676047",
         "url": "https://www.stubhub.ie/sam-fender-tickets-manchester-etihad-stadium-17-7-2027/event/107676047",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -722,7 +730,7 @@
         "event_id": "107679562",
         "url": "https://www.stubhub.ie/sam-fender-tickets-cardiff-principality-stadium-cardiff-12-6-2027/event/107679562",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -786,6 +794,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679563",
+        "url": "https://www.stubhub.ie/sam-fender-tickets-edinburgh-murrayfield-stadium-10-7-2027/event/107679563",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_4Gkm8IKCJ",
@@ -797,7 +812,8 @@
       "GIGS IN SCOTLAND"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/sam-fender-tickets-edinburgh-murrayfield-stadium-10-7-2027/event/107679563"
   },
   {
     "id": "tm-sam-fender-2027-london-1aegz_4gklv3o2e",
@@ -865,7 +881,7 @@
         "event_id": "107679564",
         "url": "https://www.stubhub.ie/sam-fender-tickets-london-wembley-stadium-2-9-2027/event/107679564",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -949,7 +965,7 @@
         "event_id": "107681803",
         "url": "https://www.stubhub.ie/sam-fender-boston-tickets-4-20-2027/event/107681803",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1031,7 +1047,7 @@
         "event_id": "107681048",
         "url": "https://www.stubhub.ie/sam-fender-new-york-tickets-4-22-2027/event/107681048",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1259,7 +1275,7 @@
         "event_id": "107681050",
         "url": "https://www.stubhub.ie/sam-fender-los-angeles-tickets-5-3-2027/event/107681050",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1341,7 +1357,7 @@
         "event_id": "107681051",
         "url": "https://www.stubhub.ie/sam-fender-seattle-tickets-5-7-2027/event/107681051",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1423,7 +1439,7 @@
         "event_id": "107681052",
         "url": "https://www.stubhub.ie/sam-fender-tickets-vancouver-rogers-arena-5-9-2027/event/107681052",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1568,7 +1584,7 @@
         "event_id": "107681049",
         "url": "https://www.stubhub.ie/sam-fender-morrison-tickets-4-29-2027/event/107681049",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

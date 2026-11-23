@@ -65,7 +65,7 @@
         "event_id": "107671382",
         "url": "https://www.stubhub.ie/fantasia-washington-tickets-2-5-2027/event/107671382",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -208,6 +208,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682639",
+        "url": "https://www.stubhub.ie/fantasia-elmont-tickets-2-12-2027/event/107682639",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AYZkfUGkdWAFJv",
@@ -218,7 +225,8 @@
     ],
     "ticket_limit": 8,
     "genre": "R&B",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293965"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8293965",
+    "stubhub_international_url": "https://www.stubhub.ie/fantasia-elmont-tickets-2-12-2027/event/107682639"
   },
   {
     "id": "tm-fantasia-2027-atlantic-city-vv1aezkfmgkegjgo6",
@@ -363,7 +371,7 @@
         "event_id": "107670734",
         "url": "https://www.stubhub.ie/fantasia-new-orleans-tickets-2-19-2027/event/107670734",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -518,7 +526,7 @@
         "event_id": "107671383",
         "url": "https://www.stubhub.ie/fantasia-ontario-tickets-3-5-2027/event/107671383",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -670,7 +678,7 @@
         "event_id": "107671384",
         "url": "https://www.stubhub.ie/fantasia-fort-worth-tickets-3-13-2027/event/107671384",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -752,7 +760,7 @@
         "event_id": "107670735",
         "url": "https://www.stubhub.ie/fantasia-atlanta-tickets-3-26-2027/event/107670735",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1118,7 +1126,7 @@
         "event_id": "107670736",
         "url": "https://www.stubhub.ie/fantasia-hollywood-tickets-4-17-2027/event/107670736",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1274,7 +1282,7 @@
         "event_id": "107671385",
         "url": "https://www.stubhub.ie/fantasia-charlotte-tickets-5-7-2027/event/107671385",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1429,7 +1437,7 @@
         "event_id": "107670737",
         "url": "https://www.stubhub.ie/fantasia-chicago-tickets-5-14-2027/event/107670737",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1511,7 +1519,7 @@
         "event_id": "107671386",
         "url": "https://www.stubhub.ie/fantasia-detroit-tickets-5-15-2027/event/107671386",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1666,7 +1674,7 @@
         "event_id": "107670738",
         "url": "https://www.stubhub.ie/fantasia-newark-tickets-5-22-2027/event/107670738",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1748,7 +1756,7 @@
         "event_id": "107682640",
         "url": "https://www.stubhub.ie/fantasia-las-vegas-tickets-4-24-2027/event/107682640",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

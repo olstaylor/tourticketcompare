@@ -9,6 +9,8 @@ export const SNAPSHOT_VERSION = 1;
 export const SNAPSHOT_MAX_AGE_MS = 6 * 60 * 60 * 1000;
 // Discovery accepts a comma-separated `id` list; 100 ids keeps the URL short and the page single.
 export const BATCH_SIZE = 100;
+// Waits before re-sending a batch Ticketmaster answered with 429 (about 1.5 minutes in all).
+export const THROTTLE_RETRY_WAITS_MS = [10000, 30000, 60000];
 export const SNAPSHOT_ARTIFACT = 'tm-tracked-event-snapshot';
 const hash = (value) => createHash('sha256').update(JSON.stringify(value)).digest('hex');
 const object = (value) => value !== null && typeof value === 'object' && !Array.isArray(value);
@@ -145,13 +147,18 @@ export function createSnapshotSweep({ base, snapshot = null, now = () => Date.no
     // the retry rules exactly as they were. Before trusting any batch result, a
     // few returned events are fetched singly and must project identically;
     // otherwise every batch result is discarded for this run.
-    async prefetch(ids, { apiKey, fetchImpl = fetch, directFetch = null, batchSize = BATCH_SIZE, timeoutMs = 20000, userAgent = 'TourTicketCompareSync/1.0 (+https://tourticketcompare.com)', verifySample = 3, log = console.log } = {}) {
+    async prefetch(ids, { apiKey, fetchImpl = fetch, directFetch = null, batchSize = BATCH_SIZE, timeoutMs = 20000, sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms)), userAgent = 'TourTicketCompareSync/1.0 (+https://tourticketcompare.com)', verifySample = 3, log = console.log } = {}) {
       if (process.env.TM_BATCH_FETCH === '0') return;
       const at = now();
       const wanted = [...new Set(ids)].filter((id) => !usableSnapshotEntry(recorded[id], id, at) && !(validSnapshot(snapshot, base, at) && usableSnapshotEntry(snapshot.events[id], id, at)));
       const found = Object.create(null);
-      for (let i = 0; i < wanted.length; i += batchSize) {
+      let throttled = false;
+      for (let i = 0; i < wanted.length && !throttled; i += batchSize) {
         const group = wanted.slice(i, i + batchSize);
+        // A 429 on a batch used to end batching for the run, sending every
+        // event down the single-call path (4,844 calls, 35 minutes and a red run
+        // on 2026-11-23). Wait and retry the same group a few times first.
+        for (let attempt = 0; attempt <= THROTTLE_RETRY_WAITS_MS.length; attempt += 1) {
         const controller = new AbortController();
         const timer = setTimeout(() => controller.abort(), timeoutMs);
         try {
@@ -160,8 +167,15 @@ export function createSnapshotSweep({ base, snapshot = null, now = () => Date.no
           stats.batch_requests += 1;
           Object.assign(stats.quota, quotaHeaders(response?.headers));
           if (!response?.ok) {
-            if (response?.status === 429) break; // throttled: stop batching, singles will retry with backoff
-            continue;
+            if (response?.status === 429) {
+              if (attempt < THROTTLE_RETRY_WAITS_MS.length) {
+                clearTimeout(timer);
+                await sleep(THROTTLE_RETRY_WAITS_MS[attempt]);
+                continue;
+              }
+              throttled = true; // still throttled: stop batching, singles will retry with backoff
+            }
+            break;
           }
           const body = await response.json().catch(() => null);
           const list = Array.isArray(body?._embedded?.events) ? body._embedded.events : [];
@@ -172,6 +186,8 @@ export function createSnapshotSweep({ base, snapshot = null, now = () => Date.no
           stats.batch_requests += 1;
         } finally {
           clearTimeout(timer);
+        }
+        break;
         }
       }
       const hits = Object.keys(found);

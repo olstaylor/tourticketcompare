@@ -361,6 +361,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107126137",
+        "url": "https://www.stubhub.ie/bryan-adams-tickets-prague-o2-arena-13-12-2026/event/107126137",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16vu4-e_a",
@@ -370,7 +377,8 @@
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775051/Bryan-Adams-tickets-Sun-Dec-13-2026-O2-Arena-Prague"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775051/Bryan-Adams-tickets-Sun-Dec-13-2026-O2-Arena-Prague",
+    "stubhub_international_url": "https://www.stubhub.ie/bryan-adams-tickets-prague-o2-arena-13-12-2026/event/107126137"
   },
   {
     "id": "tm-bryan-adams-2027-brescia-zg9rmiynyzffda",
@@ -782,7 +790,7 @@
         "event_id": "107670969",
         "url": "https://www.stubhub.ie/bryan-adams-tickets-oslo-oslo-spektrum-3-5-2027/event/107670969",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -847,7 +855,7 @@
         "event_id": "107671837",
         "url": "https://www.stubhub.ie/bryan-adams-tickets-helsinki-veikkaus-arena-7-5-2027/event/107671837",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -969,7 +977,7 @@
         "event_id": "107671713",
         "url": "https://www.stubhub.ie/bryan-adams-tickets-fulda-domplatz-fulda-29-6-2027/event/107671713",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

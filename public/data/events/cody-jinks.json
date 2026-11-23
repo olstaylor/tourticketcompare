@@ -58,7 +58,7 @@
         "event_id": "107680709",
         "url": "https://www.stubhub.ie/cody-jinks-hollywood-tickets-2-3-2027/event/107680709",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -491,6 +491,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107680931",
+        "url": "https://www.stubhub.ie/cody-jinks-las-vegas-tickets-4-25-2027/event/107680931",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk40GkdisRRp",
@@ -502,7 +509,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Country",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363062"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363062",
+    "stubhub_international_url": "https://www.stubhub.ie/cody-jinks-las-vegas-tickets-4-25-2027/event/107680931"
   },
   {
     "id": "tm-cody-jinks-2027-modesto-g5vyz_4lc0uvr",

@@ -570,6 +570,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107684015",
+        "url": "https://www.stubhub.ie/foreigner-las-vegas-tickets-3-12-2027/event/107684015",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrsnK8",
@@ -593,7 +600,8 @@
     "ticket_limit": 8,
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342825",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342825/Foreigner-tickets-Fri-Mar-12-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342825/Foreigner-tickets-Fri-Mar-12-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/foreigner-las-vegas-tickets-3-12-2027/event/107684015"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurwnkf",
@@ -828,6 +836,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683994",
+        "url": "https://www.stubhub.ie/foreigner-las-vegas-tickets-3-19-2027/event/107683994",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrVnKq",
@@ -851,7 +866,8 @@
     "ticket_limit": 8,
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342828",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342828/Foreigner-tickets-Fri-Mar-19-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342828/Foreigner-tickets-Fri-Mar-19-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/foreigner-las-vegas-tickets-3-19-2027/event/107683994"
   },
   {
     "id": "tm-foreigner-2027-las-vegas-1avjz_kgkurgbki",
@@ -914,6 +930,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683123",
+        "url": "https://www.stubhub.ie/foreigner-las-vegas-tickets-3-20-2027/event/107683123",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_KGkUrgBKI",
@@ -937,7 +960,8 @@
     "ticket_limit": 8,
     "genre": "Rock",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8342829",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342829/Foreigner-tickets-Sat-Mar-20-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8342829/Foreigner-tickets-Sat-Mar-20-2027-Venetian-Theatre-At-the-Venetian-Hotel-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/foreigner-las-vegas-tickets-3-20-2027/event/107683123"
   },
   {
     "id": "tm-foreigner-2027-dublin-1kkzvpv9gacwy1_",
@@ -1062,7 +1086,7 @@
         "event_id": "107666759",
         "url": "https://www.stubhub.ie/foreigner-tickets-london-london-palladium-14-4-2027/event/107666759",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1144,7 +1168,7 @@
         "event_id": "107666197",
         "url": "https://www.stubhub.ie/foreigner-new-york-tickets-4-27-2027/event/107666197",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

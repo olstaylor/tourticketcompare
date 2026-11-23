@@ -810,7 +810,7 @@
         "event_id": "8353391",
         "url": "https://www.ticketliquidator.com/tickets/8353391/Jack-Johnson-tickets-Sun-Jun-27-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1002,6 +1002,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8350780",
+        "url": "https://www.ticketliquidator.com/tickets/8350780/Jack-Johnson-tickets-Sun-Jul-4-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dfZ_4ebG7VA-J",
@@ -1013,7 +1020,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350780"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8350780",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8350780/Jack-Johnson-tickets-Sun-Jul-4-2027-O2-Arena-London"
   },
   {
     "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthyfka",
@@ -1069,6 +1077,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8353404",
+        "url": "https://www.ticketliquidator.com/tickets/8353404/Jack-Johnson-tickets-Wed-Jun-2-2027-Encore-Theatre-At-Wynn-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkThyFKa",
@@ -1078,7 +1093,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353404/Jack-Johnson-tickets-Wed-Jun-2-2027-Encore-Theatre-At-Wynn-Las-Vegas"
   },
   {
     "id": "tm-jack-johnson-2027-las-vegas-1avjz_fgkthbfkc",
@@ -1134,6 +1150,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8353405",
+        "url": "https://www.ticketliquidator.com/tickets/8353405/Jack-Johnson-tickets-Thu-Jun-3-2027-Encore-Theatre-At-Wynn-Las-Vegas",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AvjZ_fGkThBFKC",
@@ -1143,6 +1166,7 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353405/Jack-Johnson-tickets-Thu-Jun-3-2027-Encore-Theatre-At-Wynn-Las-Vegas"
   }
 ]

@@ -58,7 +58,7 @@
         "event_id": "8326042",
         "url": "https://www.ticketliquidator.com/tickets/8326042/Megadeth-tickets-Tue-Mar-9-2027-The-O2-Belfast",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -133,7 +133,7 @@
         "event_id": "8179322",
         "url": "https://www.ticketliquidator.com/tickets/8179322/Megadeth-tickets-Thu-Mar-11-2027-OVO-Arena-Wembley",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -212,7 +212,7 @@
         "event_id": "8179324",
         "url": "https://www.ticketliquidator.com/tickets/8179324/Megadeth-tickets-Fri-Mar-12-2027-Motorpoint-Arena-Nottingham",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -291,7 +291,7 @@
         "event_id": "8179325",
         "url": "https://www.ticketliquidator.com/tickets/8179325/Megadeth-tickets-Sat-Mar-13-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -375,6 +375,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8179323",
+        "url": "https://www.ticketliquidator.com/tickets/8179323/Megadeth-tickets-Mon-Mar-15-2027-Cardiff-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62hGl_W2",
@@ -387,7 +394,8 @@
     ],
     "ticket_limit": 6,
     "genre": "Metal",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179323"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179323",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8179323/Megadeth-tickets-Mon-Mar-15-2027-Cardiff-International-Arena"
   },
   {
     "id": "tm-megadeth-2027-glasgow-17uov0g62mgifrs",
@@ -628,6 +636,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326654",
+        "url": "https://www.ticketliquidator.com/tickets/8326654/Megadeth-tickets-Tue-Mar-23-2027-Vorst-Nationaal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1k1kJbOJ",
@@ -637,7 +652,8 @@
       "Live Nation"
     ],
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326654"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326654",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326654/Megadeth-tickets-Tue-Mar-23-2027-Vorst-Nationaal"
   },
   {
     "id": "tm-megadeth-2027-dusseldorf-z698xzc2z1a-7kfe",
@@ -770,7 +786,7 @@
         "event_id": "8326648",
         "url": "https://www.ticketliquidator.com/tickets/8326648/Megadeth-tickets-Sun-Mar-28-2027-Oslo-Spektrum",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -844,7 +860,7 @@
         "event_id": "8373267",
         "url": "https://www.ticketliquidator.com/tickets/8373267/Megadeth-tickets-Fri-May-14-2027-First-Financial-Credit-Union-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -930,7 +946,7 @@
         "event_id": "8373268",
         "url": "https://www.ticketliquidator.com/tickets/8373268/Megadeth-tickets-Sat-May-15-2027-Talking-Stick-Resort-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1024,7 +1040,7 @@
         "event_id": "8373269",
         "url": "https://www.ticketliquidator.com/tickets/8373269/Megadeth-tickets-Tue-May-18-2027-North-Island-Credit-Union-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1118,7 +1134,7 @@
         "event_id": "8373270",
         "url": "https://www.ticketliquidator.com/tickets/8373270/Megadeth-tickets-Wed-May-19-2027-The-Kia-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1212,7 +1228,7 @@
         "event_id": "8373271",
         "url": "https://www.ticketliquidator.com/tickets/8373271/Megadeth-tickets-Fri-May-21-2027-Cascades-Amphitheater-WA",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1298,7 +1314,7 @@
         "event_id": "8373272",
         "url": "https://www.ticketliquidator.com/tickets/8373272/Megadeth-tickets-Sat-May-22-2027-White-River-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1379,6 +1395,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373273",
+        "url": "https://www.ticketliquidator.com/tickets/8373273/Megadeth-tickets-Mon-May-24-2027-Utah-First-Credit-Union-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pJgPffK",
@@ -1406,7 +1429,8 @@
         "end": "2027-05-22T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373273"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373273",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373273/Megadeth-tickets-Mon-May-24-2027-Utah-First-Credit-Union-Amphitheatre"
   },
   {
     "id": "tm-megadeth-2027-tinley-park-vv1a7zk4tgkdt6btl",
@@ -1467,7 +1491,7 @@
         "event_id": "8373276",
         "url": "https://www.ticketliquidator.com/tickets/8373276/Megadeth-tickets-Fri-May-28-2027-Credit-Union-1-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1548,6 +1572,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373277",
+        "url": "https://www.ticketliquidator.com/tickets/8373277/Megadeth-tickets-Sat-May-29-2027-Mystic-Lake-Amphitheatre-Shakopee",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_pGkcUkYSU",
@@ -1570,7 +1601,8 @@
         "end": "2027-05-16T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373277"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373277",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373277/Megadeth-tickets-Sat-May-29-2027-Mystic-Lake-Amphitheatre-Shakopee"
   },
   {
     "id": "tm-megadeth-2027-kansas-city-1ae7z_pgki7igc3",
@@ -1701,7 +1733,7 @@
         "event_id": "8373279",
         "url": "https://www.ticketliquidator.com/tickets/8373279/Megadeth-tickets-Wed-Jun-2-2027-Acrisure-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1787,7 +1819,7 @@
         "event_id": "8373280",
         "url": "https://www.ticketliquidator.com/tickets/8373280/Megadeth-tickets-Fri-Jun-4-2027-Pine-Knob-Music-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1880,7 +1912,7 @@
         "event_id": "8373281",
         "url": "https://www.ticketliquidator.com/tickets/8373281/Megadeth-tickets-Sat-Jun-5-2027-Riverbend-Music-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1969,7 +2001,7 @@
         "event_id": "8373283",
         "url": "https://www.ticketliquidator.com/tickets/8373283/Megadeth-tickets-Mon-Jun-7-2027-The-Pavilion-At-Star-Lake",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2063,7 +2095,7 @@
         "event_id": "8373284",
         "url": "https://www.ticketliquidator.com/tickets/8373284/Megadeth-tickets-Tue-Jun-8-2027-Jiffy-Lube-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2225,7 +2257,7 @@
         "event_id": "8373285",
         "url": "https://www.ticketliquidator.com/tickets/8373285/Megadeth-tickets-Sat-Jun-12-2027-Xfinity-Center-MA",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2319,7 +2351,7 @@
         "event_id": "8373287",
         "url": "https://www.ticketliquidator.com/tickets/8373287/Megadeth-tickets-Sun-Jun-13-2027-Freedom-Mortgage-Pavilion",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2413,7 +2445,7 @@
         "event_id": "8373289",
         "url": "https://www.ticketliquidator.com/tickets/8373289/Megadeth-tickets-Tue-Jun-15-2027-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2516,7 +2548,7 @@
         "event_id": "8373290",
         "url": "https://www.ticketliquidator.com/tickets/8373290/Megadeth-tickets-Thu-Jun-17-2027-Truliant-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2602,7 +2634,7 @@
         "event_id": "8373291",
         "url": "https://www.ticketliquidator.com/tickets/8373291/Megadeth-tickets-Fri-Jun-18-2027-Ameris-Bank-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2698,6 +2730,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373292",
+        "url": "https://www.ticketliquidator.com/tickets/8373292/Megadeth-tickets-Sun-Jun-20-2027-The-Cynthia-Woods-Mitchell-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pENjW6e",
@@ -2721,7 +2760,8 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/megadeth-the-woodlands-tickets-6-20-2027/event/107682756",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373292"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373292",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373292/Megadeth-tickets-Sun-Jun-20-2027-The-Cynthia-Woods-Mitchell-Pavilion"
   },
   {
     "id": "tm-megadeth-2027-irving-vvg1yz_psnfnkd",
@@ -2782,7 +2822,7 @@
         "event_id": "8373293",
         "url": "https://www.ticketliquidator.com/tickets/8373293/Megadeth-tickets-Tue-Jun-22-2027-The-Pavilion-at-Toyota-Music-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2876,7 +2916,7 @@
         "event_id": "8373294",
         "url": "https://www.ticketliquidator.com/tickets/8373294/Megadeth-tickets-Wed-Jun-23-2027-Germania-Insurance-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2970,7 +3010,7 @@
         "event_id": "8373298",
         "url": "https://www.ticketliquidator.com/tickets/8373298/Megadeth-tickets-Mon-Sep-6-2027-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3056,7 +3096,7 @@
         "event_id": "8373299",
         "url": "https://www.ticketliquidator.com/tickets/8373299/Megadeth-tickets-Tue-Sep-7-2027-Mississippi-Coast-Coliseum",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3142,7 +3182,7 @@
         "event_id": "8373301",
         "url": "https://www.ticketliquidator.com/tickets/8373301/Megadeth-tickets-Thu-Sep-9-2027-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3235,7 +3275,7 @@
         "event_id": "8373304",
         "url": "https://www.ticketliquidator.com/tickets/8373304/Megadeth-tickets-Sat-Sep-11-2027-Veterans-United-Home-Loans-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3321,7 +3361,7 @@
         "event_id": "8373305",
         "url": "https://www.ticketliquidator.com/tickets/8373305/Megadeth-tickets-Sun-Sep-12-2027-PPL-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3406,7 +3446,7 @@
         "event_id": "8373324",
         "url": "https://www.ticketliquidator.com/tickets/8373324/Megadeth-tickets-Tue-Sep-14-2027-Place-Bell",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3490,7 +3530,7 @@
         "event_id": "8373306",
         "url": "https://www.ticketliquidator.com/tickets/8373306/Megadeth-tickets-Thu-Sep-16-2027-KeyBank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3584,7 +3624,7 @@
         "event_id": "8373307",
         "url": "https://www.ticketliquidator.com/tickets/8373307/Megadeth-tickets-Sat-Sep-18-2027-Huntington-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3670,7 +3710,7 @@
         "event_id": "8373312",
         "url": "https://www.ticketliquidator.com/tickets/8373312/Megadeth-tickets-Sun-Sep-19-2027-Value-City-Arena-at-The-Schottenstein-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3756,7 +3796,7 @@
         "event_id": "8373315",
         "url": "https://www.ticketliquidator.com/tickets/8373315/Megadeth-tickets-Tue-Sep-21-2027-BMO-Pavilion",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3843,7 +3883,7 @@
         "event_id": "8373316",
         "url": "https://www.ticketliquidator.com/tickets/8373316/Megadeth-tickets-Wed-Sep-22-2027-Fargodome",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3929,7 +3969,7 @@
         "event_id": "8373317",
         "url": "https://www.ticketliquidator.com/tickets/8373317/Megadeth-tickets-Fri-Sep-24-2027-Pinnacle-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4019,7 +4059,7 @@
         "event_id": "8373318",
         "url": "https://www.ticketliquidator.com/tickets/8373318/Megadeth-tickets-Sat-Sep-25-2027-INTRUST-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4103,7 +4143,7 @@
         "event_id": "8373274",
         "url": "https://www.ticketliquidator.com/tickets/8373274/Megadeth-tickets-Wed-May-26-2027-Red-Rocks-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -4178,6 +4218,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8373319",
+        "url": "https://www.ticketliquidator.com/tickets/8373319/Megadeth-tickets-Tue-Sep-28-2027-Arena-At-Ford-Idaho-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA3_-",
@@ -4187,7 +4234,8 @@
       "LIVE NATION MUSIC"
     ],
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373319"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373319",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8373319/Megadeth-tickets-Tue-Sep-28-2027-Arena-At-Ford-Idaho-Center"
   },
   {
     "id": "tm-megadeth-2027-missoula-z7r9jz1aaa3_n",
@@ -4241,7 +4289,7 @@
         "event_id": "8373321",
         "url": "https://www.ticketliquidator.com/tickets/8373321/Megadeth-tickets-Wed-Sep-29-2027-Dahlberg-Arena-At-Adams-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -4314,7 +4362,7 @@
         "event_id": "8373322",
         "url": "https://www.ticketliquidator.com/tickets/8373322/Megadeth-tickets-Thu-Sep-30-2027-Numerica-Veterans-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {

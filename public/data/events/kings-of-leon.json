@@ -424,6 +424,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314670",
+        "url": "https://www.ticketliquidator.com/tickets/8314670/Kings-Of-Leon-tickets-Fri-Jul-2-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkeSvn16",
@@ -435,7 +442,8 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314670"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314670",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314670/Kings-Of-Leon-tickets-Fri-Jul-2-2027-O2-Arena-London"
   },
   {
     "id": "tm-kings-of-leon-2027-london-1agzk4egkdt5lpe",
@@ -498,6 +506,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314671",
+        "url": "https://www.ticketliquidator.com/tickets/8314671/Kings-Of-Leon-tickets-Sat-Jul-3-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk4eGkdT5Lpe",
@@ -509,7 +524,8 @@
     ],
     "ticket_limit": 6,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314671"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314671",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314671/Kings-Of-Leon-tickets-Sat-Jul-3-2027-O2-Arena-London"
   },
   {
     "id": "tm-kings-of-leon-2027-bristow-1ka8vp__gaurfu5",
@@ -563,7 +579,7 @@
         "event_id": "8359338",
         "url": "https://www.ticketliquidator.com/tickets/8359338/Kings-Of-Leon-tickets-Sat-May-8-2027-Jiffy-Lube-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -717,7 +733,7 @@
         "event_id": "8359343",
         "url": "https://www.ticketliquidator.com/tickets/8359343/Kings-Of-Leon-tickets-Fri-May-14-2027-Blossom-Music-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -816,7 +832,7 @@
         "event_id": "8359344",
         "url": "https://www.ticketliquidator.com/tickets/8359344/Kings-Of-Leon-tickets-Sat-May-15-2027-Ruoff-Music-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -897,7 +913,7 @@
         "event_id": "8359345",
         "url": "https://www.ticketliquidator.com/tickets/8359345/Kings-Of-Leon-tickets-Tue-May-18-2027-Acrisure-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -978,7 +994,7 @@
         "event_id": "8359346",
         "url": "https://www.ticketliquidator.com/tickets/8359346/Kings-Of-Leon-tickets-Sun-May-23-2027-Pine-Knob-Music-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1066,7 +1082,7 @@
         "event_id": "8359347",
         "url": "https://www.ticketliquidator.com/tickets/8359347/Kings-Of-Leon-tickets-Tue-May-25-2027-Hartford-HealthCare-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1160,7 +1176,7 @@
         "event_id": "8359348",
         "url": "https://www.ticketliquidator.com/tickets/8359348/Kings-Of-Leon-tickets-Thu-May-27-2027-Albany-Med-Health-System-at-SPAC",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1241,7 +1257,7 @@
         "event_id": "8359349",
         "url": "https://www.ticketliquidator.com/tickets/8359349/Kings-Of-Leon-tickets-Sat-May-29-2027-Maine-Savings-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1323,7 +1339,7 @@
         "event_id": "8359350",
         "url": "https://www.ticketliquidator.com/tickets/8359350/Kings-Of-Leon-tickets-Sun-May-30-2027-Bethel-Woods-Center-For-The-Arts",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1475,6 +1491,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359351",
+        "url": "https://www.ticketliquidator.com/tickets/8359351/Kings-Of-Leon-tickets-Sat-Jun-5-2027-Mystic-Lake-Amphitheatre-Shakopee",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16-Zk40-tZA2vG27",
@@ -1492,7 +1515,8 @@
         "end": "2027-05-08T03:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359351"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359351",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359351/Kings-Of-Leon-tickets-Sat-Jun-5-2027-Mystic-Lake-Amphitheatre-Shakopee"
   },
   {
     "id": "tm-kings-of-leon-2027-tinley-park-vv1kvzvpbygacp7l6",
@@ -1546,7 +1570,7 @@
         "event_id": "8359352",
         "url": "https://www.ticketliquidator.com/tickets/8359352/Kings-Of-Leon-tickets-Sun-Jun-6-2027-Credit-Union-1-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1637,6 +1661,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8359353",
+        "url": "https://www.ticketliquidator.com/tickets/8359353/Kings-Of-Leon-tickets-Sat-Sep-11-2027-Utah-First-Credit-Union-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_p2iQpNF",
@@ -1659,7 +1690,8 @@
         "end": "2027-09-09T04:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359353"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359353",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359353/Kings-Of-Leon-tickets-Sat-Sep-11-2027-Utah-First-Credit-Union-Amphitheatre"
   },
   {
     "id": "tm-kings-of-leon-2027-vancouver-16v7z_ppfg7nnqo",
@@ -1713,7 +1745,7 @@
         "event_id": "8359372",
         "url": "https://www.ticketliquidator.com/tickets/8359372/Kings-Of-Leon-tickets-Tue-Sep-14-2027-Rogers-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1805,7 +1837,7 @@
         "event_id": "8359354",
         "url": "https://www.ticketliquidator.com/tickets/8359354/Kings-Of-Leon-tickets-Wed-Sep-15-2027-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1894,7 +1926,7 @@
         "event_id": "8359355",
         "url": "https://www.ticketliquidator.com/tickets/8359355/Kings-Of-Leon-tickets-Fri-Sep-17-2027-Shoreline-Amphitheatre-CA",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1988,7 +2020,7 @@
         "event_id": "8359356",
         "url": "https://www.ticketliquidator.com/tickets/8359356/Kings-Of-Leon-tickets-Sat-Sep-18-2027-The-Kia-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2077,7 +2109,7 @@
         "event_id": "8359358",
         "url": "https://www.ticketliquidator.com/tickets/8359358/Kings-Of-Leon-tickets-Fri-Sep-24-2027-Talking-Stick-Resort-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2166,7 +2198,7 @@
         "event_id": "8359359",
         "url": "https://www.ticketliquidator.com/tickets/8359359/Kings-Of-Leon-tickets-Sun-Sep-26-2027-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2260,7 +2292,7 @@
         "event_id": "8359360",
         "url": "https://www.ticketliquidator.com/tickets/8359360/Kings-Of-Leon-tickets-Tue-Sep-28-2027-Ariat-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2349,7 +2381,7 @@
         "event_id": "8359361",
         "url": "https://www.ticketliquidator.com/tickets/8359361/Kings-Of-Leon-tickets-Thu-Sep-30-2027-Ameris-Bank-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2438,7 +2470,7 @@
         "event_id": "8359362",
         "url": "https://www.ticketliquidator.com/tickets/8359362/Kings-Of-Leon-tickets-Fri-Oct-1-2027-Kia-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2527,7 +2559,7 @@
         "event_id": "8359364",
         "url": "https://www.ticketliquidator.com/tickets/8359364/Kings-Of-Leon-tickets-Sun-Oct-3-2027-Coastal-Credit-Union-Music-Park-at-Walnut-Creek",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2616,7 +2648,7 @@
         "event_id": "8359365",
         "url": "https://www.ticketliquidator.com/tickets/8359365/Kings-Of-Leon-tickets-Wed-Oct-6-2027-Truliant-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2705,7 +2737,7 @@
         "event_id": "8359366",
         "url": "https://www.ticketliquidator.com/tickets/8359366/Kings-Of-Leon-tickets-Fri-Oct-8-2027-FirstBank-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2794,7 +2826,7 @@
         "event_id": "8359367",
         "url": "https://www.ticketliquidator.com/tickets/8359367/Kings-Of-Leon-tickets-Tue-Oct-12-2027-The-Farmer-Music-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2875,7 +2907,7 @@
         "event_id": "8359368",
         "url": "https://www.ticketliquidator.com/tickets/8359368/Kings-Of-Leon-tickets-Thu-Oct-14-2027-Xfinity-Center-MA",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2964,7 +2996,7 @@
         "event_id": "8359370",
         "url": "https://www.ticketliquidator.com/tickets/8359370/Kings-Of-Leon-tickets-Fri-Oct-15-2027-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -3062,7 +3094,7 @@
         "event_id": "8359357",
         "url": "https://www.ticketliquidator.com/tickets/8359357/Kings-Of-Leon-tickets-Mon-Sep-20-2027-Red-Rocks-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {

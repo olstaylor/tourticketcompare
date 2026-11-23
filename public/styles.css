@@ -3355,10 +3355,12 @@ code {
   scroll-margin-top: 88px;
 }
 
-.country-chooser { margin: 0 0 1rem; }
+.country-chooser { margin: 0 0 1rem; min-width: 0; max-width: 100%; }
+.country-chooser__chips { max-width: 100%; }
 .country-chooser[hidden] { display: none; }
 .country-chooser__label { margin: 0 0 0.4rem; font-weight: 600; font-size: 0.9rem; }
-.country-chooser__chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.4rem; }
+.country-chooser__chips { display: flex; flex-wrap: nowrap; gap: 0.4rem; margin-bottom: 0.4rem; overflow-x: auto; padding-bottom: 0.3rem; -webkit-overflow-scrolling: touch; }
+.country-chooser .chip { flex: 0 0 auto; white-space: nowrap; }
 .country-chooser .chip {
   font: inherit; font-size: 0.9rem; padding: 0.35rem 0.75rem; min-height: 2.25rem;
   border: 1px solid currentColor; border-radius: 999px; background: transparent; color: inherit; cursor: pointer;

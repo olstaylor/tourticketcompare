@@ -113,4 +113,12 @@ assert(deriveHomeCityRuns(runEvents, [], NOW_MS).length === 0, "the homepage str
 const empty = renderToursHubBody({ path: TOURS_HUB_PATH, hub: deriveToursHub([], catalog, 2027, NOW_MS), breadcrumb: [] });
 assert(empty.includes("No tracked artist has upcoming dates in 2027 yet"), "an empty hub says so");
 
+const perCountry = first.byCountry;
+assert(Object.keys(perCountry).length === first.countries.length, "per-country counts cover each country the artist plays");
+assert(Object.values(perCountry).reduce((n, c) => n + c.showCount, 0) === first.showCount, "per-country dates add up to the artist's dates");
+const withChips = renderToursHubBody({ path: TOURS_HUB_PATH, hub: { ...hub, countryChoices: [{ country: "United Kingdom", artistCount: 5 }] }, breadcrumb: [] });
+assert(withChips.includes("data-country-chooser") && withChips.includes('data-country="United Kingdom"'), "country chips render");
+assert(withChips.includes("data-by-country="), "each artist tile carries its per-country counts");
+assert(!empty.includes("data-country-chooser"), "no chips when there is nothing to choose");
+
 console.log(`tours-hub: ${passed} assertions passed`);

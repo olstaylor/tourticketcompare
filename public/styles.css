@@ -3354,3 +3354,14 @@ code {
 .show-card[id] {
   scroll-margin-top: 88px;
 }
+
+.country-chooser { margin: 0 0 1rem; }
+.country-chooser[hidden] { display: none; }
+.country-chooser__label { margin: 0 0 0.4rem; font-weight: 600; font-size: 0.9rem; }
+.country-chooser__chips { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.4rem; }
+.country-chooser .chip {
+  font: inherit; font-size: 0.9rem; padding: 0.35rem 0.75rem; min-height: 2.25rem;
+  border: 1px solid currentColor; border-radius: 999px; background: transparent; color: inherit; cursor: pointer;
+}
+.country-chooser .chip[aria-pressed="true"] { font-weight: 700; text-decoration: underline; }
+.country-chooser .chip__count { opacity: 0.65; }

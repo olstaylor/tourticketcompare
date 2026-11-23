@@ -49,7 +49,8 @@
       });
       var shown = 0;
       items.forEach(function (entry) {
-        var match = terms.every(function (term) { return entry.text.indexOf(term) !== -1; });
+        var match = !entry.item.hasAttribute("data-country-off") &&
+          terms.every(function (term) { return entry.text.indexOf(term) !== -1; });
         entry.item.hidden = !match;
         if (match) shown += 1;
       });
@@ -62,6 +63,48 @@
       });
       if (status) status.textContent = terms.length ? (shown ? shown + (shown === 1 ? " match" : " matches") : "No matches") : "";
     });
+  }
+
+  /* /tours/<year>: "Playing in" chips. Narrows the artist tiles to one country
+     and swaps each tile's facts line for that country's counts, read from the
+     data-by-country the server rendered. Nothing is fetched or computed anew. */
+  function initCountryChooser() {
+    var chooser = document.querySelector("[data-country-chooser]");
+    var input = document.querySelector("[data-tile-filter] input");
+    if (!chooser || !input) return;
+    var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    var status = chooser.querySelector("[data-country-status]");
+    var tiles = Array.from(document.querySelectorAll("[data-tile-list] > li[data-by-country]")).map(function (li) {
+      var data = {};
+      try { data = JSON.parse(li.getAttribute("data-by-country") || "{}"); } catch (e) { data = {}; }
+      var meta = li.querySelector(".tile__meta");
+      return { li: li, data: data, meta: meta, original: meta ? meta.textContent : "" };
+    });
+    if (!tiles.length) return;
+    var buttons = Array.from(chooser.querySelectorAll("button[data-country]"));
+    function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
+    function select(country) {
+      var count = 0;
+      tiles.forEach(function (tile) {
+        var row = country ? tile.data[country] : null;
+        var off = !!country && !row;
+        if (off) tile.li.setAttribute("data-country-off", ""); else tile.li.removeAttribute("data-country-off");
+        if (!off) count += 1;
+        if (tile.meta) {
+          if (row) {
+            var a = months[row.firstMonth - 1], b = months[row.lastMonth - 1];
+            tile.meta.textContent = [plural(row.showCount, "date", "dates"), plural(row.cityCount, "city", "cities"), country, a === b ? a : a + "–" + b].join(" · ");
+          } else tile.meta.textContent = tile.original;
+        }
+      });
+      buttons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.getAttribute("data-country") === country)); });
+      if (status) status.textContent = country ? plural(count, "artist", "artists") + " with 2027 dates in " + country + "." : "";
+      input.dispatchEvent(new Event("input"));
+    }
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () { select(button.getAttribute("data-country") || ""); });
+    });
+    chooser.hidden = false;
   }
 
   function initBoard() {
@@ -344,6 +387,7 @@
   }
 
   initTileFilter();
+  initCountryChooser();
   initBoard();
 
   document.addEventListener("click", function (event) {

@@ -72,7 +72,7 @@ const TTC_HOME_ASSET_VERSION = "20261023b";
 const TTC_HOME_JS_ASSET_VERSION = "20261122a";
 const TTC_SHELL_ASSET_VERSION = "20261107a";
 const SHELL_SCRIPT_ASSET_VERSION = "20261122a";
-const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com https://static.cloudflareinsights.com; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com https://cloudflareinsights.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
+const EXPECTED_CSP = "default-src 'self'; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.clarity.ms https://c.bing.com; style-src 'self'; script-src 'self' 'sha256-kHeWCj29Ws6APptXbU360N2/swJwl7jTRo//eaLVdFc=' https://*.googletagmanager.com https://utt.impactcdn.com https://static.cloudflareinsights.com https://www.clarity.ms https://scripts.clarity.ms; connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://*.googletagmanager.com https://stats.g.doubleclick.net https://www.google.com https://utt.impactcdn.com https://cloudflareinsights.com https://*.clarity.ms https://c.bing.com; base-uri 'self'; frame-ancestors 'none'; object-src 'none'";
 const CONTROLLED_SEATGEEK_SHOW_ID = "tm-morgan-wallen-2026-gainesville-2200635d19f97a46";
 const CONTROLLED_SEATGEEK_URL = "https://seatgeek.com/morgan-wallen-tickets/gainesville-florida-ben-hill-griffin-stadium-2026-05-15-5-30-pm/concert/17873112";
 const CONTROLLED_SEATGEEK_BASE_TRACKING_URL = "https://seatgeek.pxf.io/eK6adX";
@@ -1002,7 +1002,7 @@ assert(!/<script[^>]*type="text\/javascript"/.test(indexHtml), "index.html must 
 assert(!indexHtml.includes("googletagmanager.com/gtm.js"), "index.html must not load Google Tag Manager before consent");
 assert(!indexHtml.includes("googletagmanager.com/ns.html"), "index.html must not include the no-JavaScript GTM frame, which would load without consent");
 assert(!indexHtml.includes("/impact-publisher-tag.js"), "index.html must not load the Impact publisher tag before consent");
-assert(indexHtml.includes('<script src="/consent.js?v=20261107a" defer></script>'), "index.html must load the consent manager");
+assert(indexHtml.includes('<script src="/consent.js?v=20261123a" defer></script>'), "index.html must load the consent manager");
 assert(
   indexHtml.indexOf("/consent.js?v=") < indexHtml.indexOf("/app.js?v="),
   "the consent manager must run before the app bundle"
@@ -1059,7 +1059,7 @@ for (const pathname of publicRoutes.concat(artistSlugs.map((slug) => `/artists/$
   assert(csp === EXPECTED_CSP, `${pathname} CSP should match expected value, got: ${csp}`);
   assert(!csp.includes("'unsafe-inline'"), `${pathname} CSP must not contain 'unsafe-inline'`);
   assert(csp.includes("https://utt.impactcdn.com"), `${pathname} CSP must allow the account Publisher Tag loader`);
-  assert(text.includes('<script src="/consent.js?v=20261107a" defer></script>'), `${pathname} must load the consent manager`);
+  assert(text.includes('<script src="/consent.js?v=20261123a" defer></script>'), `${pathname} must load the consent manager`);
   assert(!text.includes("/impact-publisher-tag.js"), `${pathname} must not load the Impact publisher tag before consent`);
   assert(!text.includes("googletagmanager.com/gtm.js"), `${pathname} must not load Google Tag Manager before consent`);
   // Every rendered route keeps the browser revalidating, so a deploy that bumps

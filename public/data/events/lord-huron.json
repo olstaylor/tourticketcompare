@@ -579,11 +579,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421969,
+        "url": "https://seatgeek.com/lord-huron-tickets/philadelphia-pennsylvania-the-met-philadelphia-2026-12-12-8-pm/concert/18421969",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1241,11 +1241,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421985,
+        "url": "https://seatgeek.com/lord-huron-tickets/oakland-california-fox-theater-oakland-2027-01-03-8-pm/concert/18421985",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382450,
@@ -1321,11 +1321,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421986,
+        "url": "https://seatgeek.com/lord-huron-tickets/vancouver-canada-orpheum-theatre-vancouver-2027-01-05-8-pm/concert/18421986",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382806,
@@ -1405,11 +1405,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421991,
+        "url": "https://seatgeek.com/lord-huron-tickets/vancouver-canada-orpheum-theatre-vancouver-2027-01-06-8-pm/concert/18421991",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382804,
@@ -1489,11 +1489,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18421992,
+        "url": "https://seatgeek.com/lord-huron-tickets/seattle-washington-paramount-theatre-wa-2027-01-07-8-pm/concert/18421992",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7382476,

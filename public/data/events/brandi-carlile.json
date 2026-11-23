@@ -1046,11 +1046,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18723858,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/seattle-washington-paramount-theatre-wa-2027-01-05-8-pm/concert/18723858",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7757235,
@@ -1116,11 +1116,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18723857,
+        "url": "https://seatgeek.com/brandi-carlile-tickets/seattle-washington-paramount-theatre-wa-2027-01-06-8-pm/concert/18723857",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7757237,

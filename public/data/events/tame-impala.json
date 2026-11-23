@@ -2028,11 +2028,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760897,
+        "url": "https://seatgeek.com/tame-impala-tickets/tulsa-oklahoma-bok-center-2027-02-10-7-pm/concert/18760897",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861779,
@@ -2296,11 +2296,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18843579,
+        "url": "https://seatgeek.com/tame-impala-tickets/tulsa-oklahoma-bok-center-2027-02-11-7-pm/concert/18843579",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7907496,

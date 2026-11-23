@@ -1742,7 +1742,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZIvI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvI",
-    "seatgeek_url": "https://seatgeek.com/missio-tickets/san-antonio-texas-vibes-event-center-2027-04-09-7-pm/concert/18853293",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/missio-tickets-san-antonio-the-rock-box-4-9-2027/production/7425518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZIvI",
@@ -1762,7 +1762,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7425518,

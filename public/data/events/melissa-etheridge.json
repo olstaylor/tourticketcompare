@@ -725,7 +725,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "07006563D70C77C0",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-madison-wisconsin-04-03-2027/event/07006563D70C77C0",
-    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/madison-wisconsin-orpheum-theatre-madison-2027-04-03-8-pm/concert/18754496",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-madison-wisconsin-04-03-2027/event/07006563D70C77C0",
@@ -745,7 +745,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -949,7 +949,7 @@
         "event_id": 18754448,
         "url": "https://seatgeek.com/melissa-etheridge-tickets/knoxville-tennessee-tennessee-theatre-2027-04-07-7-30-pm/concert/18754448",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1030,7 +1030,7 @@
         "event_id": 18754920,
         "url": "https://seatgeek.com/melissa-etheridge-tickets/danville-virginia-the-pantheon-at-caesars-virginia-2027-04-09-9-pm/concert/18754920",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1183,7 +1183,7 @@
         "event_id": 18754417,
         "url": "https://seatgeek.com/melissa-etheridge-tickets/charleston-south-carolina-charleston-music-hall-2027-04-11-8-pm/concert/18754417",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1579,11 +1579,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754513,
+        "url": "https://seatgeek.com/melissa-etheridge-tickets/wichita-kansas-orpheum-theatre-wichita-2027-04-21-7-30-pm/concert/18754513",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835083,
@@ -1628,7 +1628,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "19006563EE3FAF53",
     "ticketmaster_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
-    "seatgeek_url": "https://seatgeek.com/melissa-etheridge-tickets/chandler-arizona-gila-river-hotels-casinos-wild-horse-pass-2027-04-23-8-pm/concert/18754727",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
@@ -1648,7 +1648,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,

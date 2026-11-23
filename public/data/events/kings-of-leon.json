@@ -523,11 +523,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746638,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/bristow-virginia-jiffy-lube-live-2027-05-08-7-30-pm/concert/18746638",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824368,
@@ -677,11 +677,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746642,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/cuyahoga-falls-ohio-blossom-music-center-2027-05-14-7-30-pm/concert/18746642",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824370,
@@ -938,11 +938,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746648,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/clarkston-michigan-pine-knob-music-theatre-2027-05-23-7-30-pm/concert/18746648",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824352,
@@ -1026,11 +1026,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746650,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/bridgeport-connecticut-hartford-healthcare-amphitheater-2027-05-25-7-30-pm/concert/18746650",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824336,
@@ -1283,11 +1283,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746656,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/bethel-new-york-bethel-woods-center-for-the-arts-2027-05-30-7-30-pm/concert/18746656",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824408,
@@ -1498,11 +1498,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746660,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/tinley-park-illinois-credit-union-1-amphitheatre-2027-06-06-7-30-pm/concert/18746660",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824332,
@@ -1641,7 +1641,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1100656588AA3760",
     "ticketmaster_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/vancouver-canada-rogers-arena-2027-09-14-7-30-pm/concert/18746697",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-vancouver-rogers-arena-9-14-2027/production/7824434",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/kings-of-leon-vancouver-british-columbia-09-14-2027/event/1100656588AA3760",
@@ -1657,11 +1657,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746697,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/vancouver-canada-rogers-arena-2027-09-14-7-30-pm/concert/18746697",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824434,
@@ -1733,7 +1733,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0F006562C4887F64",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-seattle-washington-09-15-2027/event/0F006562C4887F64",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/seattle-washington-climate-pledge-arena-2027-09-15-7-30-pm/concert/18746664",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-seattle-climate-pledge-arena-9-15-2027--concerts-rock/production/7824362",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-seattle-washington-09-15-2027/event/0F006562C4887F64",
@@ -1749,11 +1749,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746664,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/seattle-washington-climate-pledge-arena-2027-09-15-7-30-pm/concert/18746664",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824362,
@@ -1822,7 +1822,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1C0065629C64780E",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-mountain-view-california-09-17-2027/event/1C0065629C64780E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/mountain-view-california-shoreline-amphitheatre-2027-09-17-7-pm/concert/18746666",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-mountain-view-shoreline-amphitheatre---ca-9-17-2027/production/7824356",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-mountain-view-california-09-17-2027/event/1C0065629C64780E",
@@ -1838,11 +1838,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746666,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/mountain-view-california-shoreline-amphitheatre-2027-09-17-7-pm/concert/18746666",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824356,
@@ -1916,7 +1916,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "09006563F0D01019",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-inglewood-california-09-18-2027/event/09006563F0D01019",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/inglewood-california-kia-forum-2027-09-18-7-30-pm/concert/18746668",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-inglewood-kia-forum-9-18-2027/production/7824348",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-inglewood-california-09-18-2027/event/09006563F0D01019",
@@ -1932,11 +1932,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746668,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/inglewood-california-kia-forum-2027-09-18-7-30-pm/concert/18746668",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824348,
@@ -2005,7 +2005,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "19006562BDE54AA2",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-phoenix-arizona-09-24-2027/event/19006562BDE54AA2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2027-09-24-7-30-pm/concert/18746672",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-phoenix-talking-stick-resort-amphitheatre-9-24-2027/production/7824354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-phoenix-arizona-09-24-2027/event/19006562BDE54AA2",
@@ -2021,11 +2021,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746672,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/phoenix-arizona-talking-stick-resort-amphitheatre-2027-09-24-7-30-pm/concert/18746672",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824354,
@@ -2094,7 +2094,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006564CF50A3CC",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-austin-texas-09-26-2027/event/3A006564CF50A3CC",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/austin-texas-moody-center-atx-2027-09-26-7-30-pm/concert/18746674",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-austin-moody-center-atx-9-26-2027--concerts-rock/production/7824360",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-austin-texas-09-26-2027/event/3A006564CF50A3CC",
@@ -2110,11 +2110,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746674,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/austin-texas-moody-center-atx-2027-09-26-7-30-pm/concert/18746674",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824360,
@@ -2188,7 +2188,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C00655AC0E76CD1",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-fort-worth-texas-09-28-2027/event/0C00655AC0E76CD1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/fort-worth-texas-ariat-arena-2027-09-28-7-30-pm/concert/18746676",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-fort-worth-ariat-arena-9-28-2027/production/7824422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-fort-worth-texas-09-28-2027/event/0C00655AC0E76CD1",
@@ -2204,11 +2204,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746676,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/fort-worth-texas-ariat-arena-2027-09-28-7-30-pm/concert/18746676",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824422,
@@ -2277,7 +2277,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E0065639B9385BF",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-alpharetta-georgia-09-30-2027/event/0E0065639B9385BF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2027-09-30-7-30-pm/concert/18746678",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-alpharetta-ameris-bank-amphitheatre-9-30-2027/production/7824330",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-alpharetta-georgia-09-30-2027/event/0E0065639B9385BF",
@@ -2293,11 +2293,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746678,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/alpharetta-georgia-ameris-bank-amphitheatre-2027-09-30-7-30-pm/concert/18746678",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824330,
@@ -2366,7 +2366,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "22006564C65B420F",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-orlando-florida-10-01-2027/event/22006564C65B420F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/orlando-florida-kia-center-2027-10-01-7-pm/concert/18746680",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-orlando-kia-center-10-1-2027/production/7824342",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-orlando-florida-10-01-2027/event/22006564C65B420F",
@@ -2382,11 +2382,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746680,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/orlando-florida-kia-center-2027-10-01-7-pm/concert/18746680",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824342,
@@ -2455,7 +2455,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006564A39E6FCB",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-raleigh-north-carolina-10-03-2027/event/2D006564A39E6FCB",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/raleigh-north-carolina-coastal-credit-union-music-park-at-walnut-creek-2027-10-03-7-30-pm/concert/18746682",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-raleigh-coastal-credit-union-music-park-at-walnut-creek-10-3-2027/production/7824436",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-raleigh-north-carolina-10-03-2027/event/2D006564A39E6FCB",
@@ -2471,11 +2471,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746682,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/raleigh-north-carolina-coastal-credit-union-music-park-at-walnut-creek-2027-10-03-7-30-pm/concert/18746682",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824436,
@@ -2544,7 +2544,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006562C5E8B791",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-charlotte-north-carolina-10-06-2027/event/2D006562C5E8B791",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/charlotte-north-carolina-truliant-amphitheater-2027-10-06-7-30-pm/concert/18747126",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-charlotte-truliant-amphitheater-10-6-2027/production/7824406",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-charlotte-north-carolina-10-06-2027/event/2D006562C5E8B791",
@@ -2560,11 +2560,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18747126,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/charlotte-north-carolina-truliant-amphitheater-2027-10-06-7-30-pm/concert/18747126",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824406,
@@ -2633,7 +2633,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B006563D07FCC45",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-franklin-tennessee-10-08-2027/event/1B006563D07FCC45",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/franklin-tennessee-firstbank-amphitheater-2027-10-08-7-30-pm/concert/18746684",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-franklin-firstbank-amphitheater-10-8-2027/production/7824438",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-franklin-tennessee-10-08-2027/event/1B006563D07FCC45",
@@ -2649,11 +2649,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746684,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/franklin-tennessee-firstbank-amphitheater-2027-10-08-7-30-pm/concert/18746684",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824438,
@@ -2803,7 +2803,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006564AB6284CF",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-mansfield-massachusetts-10-14-2027/event/01006564AB6284CF",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/mansfield-massachusetts-xfinity-center-ma-2027-10-14-7-30-pm/concert/18746689",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-mansfield-xfinity-center---ma-10-14-2027/production/7824364",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-mansfield-massachusetts-10-14-2027/event/01006564AB6284CF",
@@ -2819,11 +2819,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746689,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/mansfield-massachusetts-xfinity-center-ma-2027-10-14-7-30-pm/concert/18746689",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824364,
@@ -2892,7 +2892,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3B0065567CC21B71",
     "ticketmaster_url": "https://www.ticketmaster.com/kings-of-leon-new-york-new-york-10-15-2027/event/3B0065567CC21B71",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kings-of-leon-tickets/new-york-new-york-madison-square-garden-2027-10-15-8-pm/concert/18746691",
     "vividseats_url": "https://www.vividseats.com/kings-of-leon-tickets-new-york-madison-square-garden-10-15-2027/production/7824410",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kings-of-leon-new-york-new-york-10-15-2027/event/3B0065567CC21B71",
@@ -2908,11 +2908,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18746691,
+        "url": "https://seatgeek.com/kings-of-leon-tickets/new-york-new-york-madison-square-garden-2027-10-15-8-pm/concert/18746691",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7824410,

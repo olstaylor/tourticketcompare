@@ -467,11 +467,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724647,
+        "url": "https://seatgeek.com/meshuggah-tickets/omaha-nebraska-steelhouse-omaha-2027-02-21-7-pm/concert/18724647",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -693,11 +693,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724654,
+        "url": "https://seatgeek.com/meshuggah-tickets/virginia-beach-virginia-the-dome-13-2027-02-26-7-pm/concert/18724654",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -936,11 +936,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724657,
+        "url": "https://seatgeek.com/meshuggah-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-03-02-7-pm/concert/18724657",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1454,7 +1454,7 @@
         "event_id": 18724672,
         "url": "https://seatgeek.com/meshuggah-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-19-6-30-pm/concert/18724672",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2032,7 +2032,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7IZs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7IZs",
-    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/oklahoma-city-oklahoma-the-criterion-okc-2027-05-02-7-pm/concert/18724686",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7IZs",
@@ -2275,11 +2275,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724693,
+        "url": "https://seatgeek.com/meshuggah-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-05-07-7-pm/concert/18724693",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761465,
@@ -2434,7 +2434,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006554EAA4A0AC",
     "ticketmaster_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-greensboro-north-carolina-05-11-2027/event/2D006554EAA4A0AC",
-    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/greensboro-north-carolina-special-events-center-at-greensboro-coliseum-complex-2027-05-11-7-pm/concert/18724694",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-5-11-2027--concerts-hard-rock/production/7761479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-greensboro-north-carolina-05-11-2027/event/2D006554EAA4A0AC",

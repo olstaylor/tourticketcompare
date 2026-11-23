@@ -655,7 +655,7 @@
         "event_id": 18638869,
         "url": "https://seatgeek.com/mei-semones-tickets/houston-texas-white-oak-music-hall-upstairs-2027-04-16-7-pm/concert/18638869",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -876,7 +876,7 @@
         "event_id": 18637391,
         "url": "https://seatgeek.com/mei-semones-tickets/san-francisco-california-castro-theatre-2027-04-24-8-pm/concert/18637391",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1209,7 +1209,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAe37y",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe37y",
-    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/denver-colorado-bluebird-theater-denver-2027-05-02-8-pm/concert/18793886",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe37y",
@@ -1229,7 +1229,7 @@
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1333,7 +1333,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAef7K",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef7K",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/columbus-ohio-ace-of-cups-2027-05-07-7-pm/concert/18863054",
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-columbus-ace-of-cups-5-7-2027/production/7635737",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAef7K",
@@ -1349,11 +1349,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18863054,
+        "url": "https://seatgeek.com/mei-semones-tickets/columbus-ohio-ace-of-cups-2027-05-07-7-pm/concert/18863054",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7635737,

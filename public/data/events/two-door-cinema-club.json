@@ -827,11 +827,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18711331,
+        "url": "https://seatgeek.com/two-door-cinema-club-tickets/seattle-washington-paramount-theatre-wa-2027-05-17-7-30-pm/concert/18711331",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7748035,
@@ -916,11 +916,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18711334,
+        "url": "https://seatgeek.com/two-door-cinema-club-tickets/sacramento-california-channel-24-sacramento-2027-05-19-8-pm/concert/18711334",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7748113,
@@ -1005,11 +1005,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18711335,
+        "url": "https://seatgeek.com/two-door-cinema-club-tickets/oakland-california-fox-theater-oakland-2027-05-20-8-pm/concert/18711335",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7748115,

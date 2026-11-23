@@ -1609,11 +1609,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 18253074,
+        "url": "https://seatgeek.com/beartooth-tickets/phoenix-arizona-the-van-buren-2026-12-16-6-30-pm/concert/18253074",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

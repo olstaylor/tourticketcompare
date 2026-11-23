@@ -223,7 +223,6 @@ const VENUE_ALIASES = new Map([
   ["banknh pavilion", ["bank of new hampshire pavilion"]],
   ["cerritos center for the performing arts", ["cerritos center"]],
   ["buckhead theatre by scana energy", ["buckhead theatre"]],
-  ["soma mainstage", ["soma"]],
   ["bjcc concert hall", ["concert hall at the bjcc"]],
   ["edmonton expo centre", ["edmonton expo"]],
   ["ernst happel stadion", ["ernst happel stadium"]],
@@ -235,7 +234,6 @@ const VENUE_ALIASES = new Map([
   ["flagstar at westbury music fair", ["westbury music fair"]],
   ["avondale brewing co", ["avondale brewing company"]],
   ["mesa theatre and club", ["mesa theater and club"]],
-  ["neighborhood theatre main room", ["neighborhood theatre"]],
   ["the hall", ["little rock hall"]]
 ]);
 
@@ -1010,6 +1008,8 @@ async function selfTest() {
   assert.ok(venueMatches("Act Bank of New Hampshire Pavilion 57083 CONCERTS 72 Meadowbrook Lane Gilford New Hampshire", "BankNH Pavilion", "Gilford"));
   assert.ok(!venueMatches("Act Lucas Oil Live At WinStar Casino 1442 CONCERTS 777 Casino Ave Thackerville Oklahoma", "WinStar World Casino", "Thackerville"), "WinStar has several rooms; no alias");
   assert.ok(!venueMatches("Act Eagles Ballroom 68194 CONCERTS 2401 W. Wisconsin Ave Milwaukee Wisconsin", "The Rave-Eagles Club", "Milwaukee"), "The Rave has several rooms; no alias");
+  assert.ok(!venueMatches("Act tickets at SOMA Sidestage in San Diego CA on November 24 2026; see seating chart, parking and event details", "SOMA - Mainstage", "San Diego"), "parent-only aliases are not used where a venue has several rooms");
+  assert.ok(!venueMatches("Act tickets at Neighborhood Theatre Music Lounge in Charlotte NC on a listed date", "Neighborhood Theatre Main Room", "Charlotte"));
   assert.ok(!venueMatches("Act Royce Auditorium 17321 CONCERTS 24 Ransom Avenue Ne Grand Rapids Michigan", "St. Cecilia Music Center", "Grand Rapids"));
   assert.deepEqual(venueVariants("SAP Center at San Jose", "San Jose"), ["sap center at san jose", "sap center"]);
   assert.deepEqual(venueVariants("Infosys Theater at Madison Square Garden", "New York"), ["infosys theater at madison square garden"]);

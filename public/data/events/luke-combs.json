@@ -51,7 +51,7 @@
         "event_id": "8203740",
         "url": "https://www.ticketnetwork.com/en/p/8203740",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -128,7 +128,7 @@
         "event_id": "8203726",
         "url": "https://www.ticketnetwork.com/en/p/8203726",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -209,7 +209,7 @@
         "event_id": "8203727",
         "url": "https://www.ticketnetwork.com/en/p/8203727",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -290,7 +290,7 @@
         "event_id": "8203728",
         "url": "https://www.ticketnetwork.com/en/p/8203728",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -371,7 +371,7 @@
         "event_id": "8203729",
         "url": "https://www.ticketnetwork.com/en/p/8203729",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -453,7 +453,7 @@
         "event_id": "8203731",
         "url": "https://www.ticketnetwork.com/en/p/8203731",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -521,6 +521,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8203737",
+        "url": "https://www.ticketnetwork.com/en/p/8203737",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_8Gkw3OEA5",
@@ -533,7 +540,8 @@
       "LIVE NATION CANADA-ROGERS"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8203737"
   },
   {
     "id": "tm-luke-combs-2027-vancouver-1av7z_8gkwig5fh",
@@ -587,7 +595,7 @@
         "event_id": "8203738",
         "url": "https://www.ticketnetwork.com/en/p/8203738",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -672,7 +680,7 @@
         "event_id": "8203732",
         "url": "https://www.ticketnetwork.com/en/p/8203732",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -745,7 +753,7 @@
         "event_id": "8203733",
         "url": "https://www.ticketnetwork.com/en/p/8203733",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -826,7 +834,7 @@
         "event_id": "8203734",
         "url": "https://www.ticketnetwork.com/en/p/8203734",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -914,7 +922,7 @@
         "event_id": "8203741",
         "url": "https://www.ticketnetwork.com/en/p/8203741",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

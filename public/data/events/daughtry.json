@@ -1575,7 +1575,7 @@
         "event_id": "8295475",
         "url": "https://www.ticketnetwork.com/en/p/8295475",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1654,7 +1654,7 @@
         "event_id": "8295476",
         "url": "https://www.ticketnetwork.com/en/p/8295476",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1727,6 +1727,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295477",
+        "url": "https://www.ticketnetwork.com/en/p/8295477",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_KSBnt-6",
@@ -1739,7 +1746,8 @@
         "end": "2027-01-17T04:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295477"
   },
   {
     "id": "tm-daughtry-2027-houston-g5diz_kxwqqcm",
@@ -1793,7 +1801,7 @@
         "event_id": "8295478",
         "url": "https://www.ticketnetwork.com/en/p/8295478",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1874,7 +1882,7 @@
         "event_id": "8295479",
         "url": "https://www.ticketnetwork.com/en/p/8295479",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1955,7 +1963,7 @@
         "event_id": "8295481",
         "url": "https://www.ticketnetwork.com/en/p/8295481",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2035,7 +2043,7 @@
         "event_id": "8295482",
         "url": "https://www.ticketnetwork.com/en/p/8295482",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2177,6 +2185,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295484",
+        "url": "https://www.ticketnetwork.com/en/p/8295484",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1FvOvPGtJKZ75857",
@@ -2193,7 +2208,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295484"
   },
   {
     "id": "tm-daughtry-2027-duluth-vv1akzkfmgkdcbe8w",
@@ -2242,6 +2258,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295485",
+        "url": "https://www.ticketnetwork.com/en/p/8295485",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfMGkdcBE8w",
@@ -2262,7 +2285,8 @@
     "organizer_names": [
       "PEPPER ENTERTAINMENT INC"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295485"
   },
   {
     "id": "tm-daughtry-2027-rockford-16e7z_kkfg7v38v",
@@ -2316,7 +2340,7 @@
         "event_id": "8295486",
         "url": "https://www.ticketnetwork.com/en/p/8295486",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2395,7 +2419,7 @@
         "event_id": "8295487",
         "url": "https://www.ticketnetwork.com/en/p/8295487",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2479,7 +2503,7 @@
         "event_id": "8295488",
         "url": "https://www.ticketnetwork.com/en/p/8295488",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2565,7 +2589,7 @@
         "event_id": "8295489",
         "url": "https://www.ticketnetwork.com/en/p/8295489",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2646,7 +2670,7 @@
         "event_id": "8295490",
         "url": "https://www.ticketnetwork.com/en/p/8295490",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2726,7 +2750,7 @@
         "event_id": "8295491",
         "url": "https://www.ticketnetwork.com/en/p/8295491",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2808,7 +2832,7 @@
         "event_id": "8295492",
         "url": "https://www.ticketnetwork.com/en/p/8295492",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2894,7 +2918,7 @@
         "event_id": "8295494",
         "url": "https://www.ticketnetwork.com/en/p/8295494",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2980,7 +3004,7 @@
         "event_id": "8295552",
         "url": "https://www.ticketnetwork.com/en/p/8295552",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3050,7 +3074,7 @@
         "event_id": "8295553",
         "url": "https://www.ticketnetwork.com/en/p/8295553",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3120,7 +3144,7 @@
         "event_id": "8295554",
         "url": "https://www.ticketnetwork.com/en/p/8295554",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3177,12 +3201,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295480",
+        "url": "https://www.ticketnetwork.com/en/p/8295480",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe837",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295480"
   },
   {
     "id": "tm-daughtry-2027-cedar-rapids-z7r9jz1aae83a",
@@ -3231,12 +3263,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295555",
+        "url": "https://www.ticketnetwork.com/en/p/8295555",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe83A",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295555"
   },
   {
     "id": "tm-daughtry-2027-eau-claire-z7r9jz1aae83k",
@@ -3290,7 +3330,7 @@
         "event_id": "8295556",
         "url": "https://www.ticketnetwork.com/en/p/8295556",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3360,7 +3400,7 @@
         "event_id": "8295558",
         "url": "https://www.ticketnetwork.com/en/p/8295558",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3430,7 +3470,7 @@
         "event_id": "8295559",
         "url": "https://www.ticketnetwork.com/en/p/8295559",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3507,7 +3547,7 @@
         "event_id": "8363950",
         "url": "https://www.ticketnetwork.com/en/p/8363950",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

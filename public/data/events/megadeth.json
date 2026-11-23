@@ -51,7 +51,7 @@
         "event_id": "8326042",
         "url": "https://www.ticketnetwork.com/en/p/8326042",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -126,7 +126,7 @@
         "event_id": "8179322",
         "url": "https://www.ticketnetwork.com/en/p/8179322",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -205,7 +205,7 @@
         "event_id": "8179324",
         "url": "https://www.ticketnetwork.com/en/p/8179324",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -284,7 +284,7 @@
         "event_id": "8179325",
         "url": "https://www.ticketnetwork.com/en/p/8179325",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -368,6 +368,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8179323",
+        "url": "https://www.ticketnetwork.com/en/p/8179323",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G62hGl_W2",
@@ -379,7 +386,8 @@
       "LIVE NATION MUSIC (VENUES) LTD (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8179323"
   },
   {
     "id": "tm-megadeth-2027-glasgow-17uov0g62mgifrs",
@@ -613,6 +621,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326654",
+        "url": "https://www.ticketnetwork.com/en/p/8326654",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1k1kJbOJ",
@@ -621,7 +636,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326654"
   },
   {
     "id": "tm-megadeth-2027-dusseldorf-z698xzc2z1a-7kfe",
@@ -740,7 +756,7 @@
         "event_id": "8326648",
         "url": "https://www.ticketnetwork.com/en/p/8326648",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -821,7 +837,7 @@
         "event_id": "8373267",
         "url": "https://www.ticketnetwork.com/en/p/8373267",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -907,7 +923,7 @@
         "event_id": "8373268",
         "url": "https://www.ticketnetwork.com/en/p/8373268",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1001,7 +1017,7 @@
         "event_id": "8373269",
         "url": "https://www.ticketnetwork.com/en/p/8373269",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1095,7 +1111,7 @@
         "event_id": "8373270",
         "url": "https://www.ticketnetwork.com/en/p/8373270",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1189,7 +1205,7 @@
         "event_id": "8373271",
         "url": "https://www.ticketnetwork.com/en/p/8373271",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1275,7 +1291,7 @@
         "event_id": "8373272",
         "url": "https://www.ticketnetwork.com/en/p/8373272",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1356,6 +1372,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373273",
+        "url": "https://www.ticketnetwork.com/en/p/8373273",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pJgPffK",
@@ -1382,7 +1405,8 @@
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-05-22T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373273"
   },
   {
     "id": "tm-megadeth-2027-tinley-park-vv1a7zk4tgkdt6btl",
@@ -1436,7 +1460,7 @@
         "event_id": "8373276",
         "url": "https://www.ticketnetwork.com/en/p/8373276",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1517,6 +1541,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373277",
+        "url": "https://www.ticketnetwork.com/en/p/8373277",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_pGkcUkYSU",
@@ -1538,7 +1569,8 @@
         "start": "2026-11-20T16:00:00Z",
         "end": "2027-05-16T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373277"
   },
   {
     "id": "tm-megadeth-2027-kansas-city-1ae7z_pgki7igc3",
@@ -1662,7 +1694,7 @@
         "event_id": "8373279",
         "url": "https://www.ticketnetwork.com/en/p/8373279",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1748,7 +1780,7 @@
         "event_id": "8373280",
         "url": "https://www.ticketnetwork.com/en/p/8373280",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1841,7 +1873,7 @@
         "event_id": "8373281",
         "url": "https://www.ticketnetwork.com/en/p/8373281",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1930,7 +1962,7 @@
         "event_id": "8373283",
         "url": "https://www.ticketnetwork.com/en/p/8373283",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2024,7 +2056,7 @@
         "event_id": "8373284",
         "url": "https://www.ticketnetwork.com/en/p/8373284",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2186,7 +2218,7 @@
         "event_id": "8373285",
         "url": "https://www.ticketnetwork.com/en/p/8373285",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2280,7 +2312,7 @@
         "event_id": "8373287",
         "url": "https://www.ticketnetwork.com/en/p/8373287",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2374,7 +2406,7 @@
         "event_id": "8373289",
         "url": "https://www.ticketnetwork.com/en/p/8373289",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2477,7 +2509,7 @@
         "event_id": "8373290",
         "url": "https://www.ticketnetwork.com/en/p/8373290",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2563,7 +2595,7 @@
         "event_id": "8373291",
         "url": "https://www.ticketnetwork.com/en/p/8373291",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2659,6 +2691,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8373292",
+        "url": "https://www.ticketnetwork.com/en/p/8373292",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_pENjW6e",
@@ -2681,7 +2720,8 @@
         "end": "2027-06-07T03:00:00Z"
       }
     ],
-    "stubhub_international_url": "https://www.stubhub.ie/megadeth-the-woodlands-tickets-6-20-2027/event/107682756"
+    "stubhub_international_url": "https://www.stubhub.ie/megadeth-the-woodlands-tickets-6-20-2027/event/107682756",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373292"
   },
   {
     "id": "tm-megadeth-2027-irving-vvg1yz_psnfnkd",
@@ -2735,7 +2775,7 @@
         "event_id": "8373293",
         "url": "https://www.ticketnetwork.com/en/p/8373293",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2829,7 +2869,7 @@
         "event_id": "8373294",
         "url": "https://www.ticketnetwork.com/en/p/8373294",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2923,7 +2963,7 @@
         "event_id": "8373298",
         "url": "https://www.ticketnetwork.com/en/p/8373298",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3009,7 +3049,7 @@
         "event_id": "8373299",
         "url": "https://www.ticketnetwork.com/en/p/8373299",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3095,7 +3135,7 @@
         "event_id": "8373301",
         "url": "https://www.ticketnetwork.com/en/p/8373301",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3188,7 +3228,7 @@
         "event_id": "8373304",
         "url": "https://www.ticketnetwork.com/en/p/8373304",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3274,7 +3314,7 @@
         "event_id": "8373305",
         "url": "https://www.ticketnetwork.com/en/p/8373305",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3359,7 +3399,7 @@
         "event_id": "8373324",
         "url": "https://www.ticketnetwork.com/en/p/8373324",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3443,7 +3483,7 @@
         "event_id": "8373306",
         "url": "https://www.ticketnetwork.com/en/p/8373306",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3537,7 +3577,7 @@
         "event_id": "8373307",
         "url": "https://www.ticketnetwork.com/en/p/8373307",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3623,7 +3663,7 @@
         "event_id": "8373312",
         "url": "https://www.ticketnetwork.com/en/p/8373312",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3709,7 +3749,7 @@
         "event_id": "8373315",
         "url": "https://www.ticketnetwork.com/en/p/8373315",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3796,7 +3836,7 @@
         "event_id": "8373316",
         "url": "https://www.ticketnetwork.com/en/p/8373316",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3882,7 +3922,7 @@
         "event_id": "8373317",
         "url": "https://www.ticketnetwork.com/en/p/8373317",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3972,7 +4012,7 @@
         "event_id": "8373318",
         "url": "https://www.ticketnetwork.com/en/p/8373318",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4070,7 +4110,7 @@
         "event_id": "8373274",
         "url": "https://www.ticketnetwork.com/en/p/8373274",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4131,6 +4171,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8373319",
+        "url": "https://www.ticketnetwork.com/en/p/8373319",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA3_-",
@@ -4139,7 +4186,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8373319"
   },
   {
     "id": "tm-megadeth-2027-missoula-z7r9jz1aaa3_n",
@@ -4200,7 +4248,7 @@
         "event_id": "8373321",
         "url": "https://www.ticketnetwork.com/en/p/8373321",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4273,7 +4321,7 @@
         "event_id": "8373322",
         "url": "https://www.ticketnetwork.com/en/p/8373322",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

@@ -1712,6 +1712,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326652",
+        "url": "https://www.ticketnetwork.com/en/p/8326652",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1A3rZZa",
@@ -1720,7 +1727,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326652"
   },
   {
     "id": "tm-malcolm-todd-2027-dublin-1kkzvpfyga5vo0x",
@@ -1892,7 +1900,7 @@
         "event_id": "8265887",
         "url": "https://www.ticketnetwork.com/en/p/8265887",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

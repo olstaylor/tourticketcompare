@@ -618,7 +618,7 @@
         "event_id": "8196638",
         "url": "https://www.ticketnetwork.com/en/p/8196638",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -700,7 +700,7 @@
         "event_id": "8196639",
         "url": "https://www.ticketnetwork.com/en/p/8196639",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -782,7 +782,7 @@
         "event_id": "8178925",
         "url": "https://www.ticketnetwork.com/en/p/8178925",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -854,13 +854,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8262219",
+        "url": "https://www.ticketnetwork.com/en/p/8262219",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAea-g",
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-west-palm-beach-tickets-3-6-2027/event/107672588",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8262219"
   },
   {
     "id": "tm-earth-wind-fire-2027-brandon-g5viz_kuehuto",
@@ -914,7 +922,7 @@
         "event_id": "8307212",
         "url": "https://www.ticketnetwork.com/en/p/8307212",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1005,6 +1013,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8307213",
+        "url": "https://www.ticketnetwork.com/en/p/8307213",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_f7otpyl",
@@ -1022,7 +1037,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307213"
   },
   {
     "id": "tm-earth-wind-fire-2027-huntsville-z7r9jz1aaeb18",
@@ -1076,7 +1092,7 @@
         "event_id": "8310384",
         "url": "https://www.ticketnetwork.com/en/p/8310384",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1146,7 +1162,7 @@
         "event_id": "8307214",
         "url": "https://www.ticketnetwork.com/en/p/8307214",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1226,7 +1242,7 @@
         "event_id": "8307215",
         "url": "https://www.ticketnetwork.com/en/p/8307215",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1317,7 +1333,7 @@
         "event_id": "8307216",
         "url": "https://www.ticketnetwork.com/en/p/8307216",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1410,7 +1426,7 @@
         "event_id": "8307217",
         "url": "https://www.ticketnetwork.com/en/p/8307217",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1496,7 +1512,7 @@
         "event_id": "8307218",
         "url": "https://www.ticketnetwork.com/en/p/8307218",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1658,13 +1674,21 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8310351",
+        "url": "https://www.ticketnetwork.com/en/p/8310351",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeb-p",
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-saint-augustine-tickets-4-14-2027/event/107672614",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310351"
   },
   {
     "id": "tm-earth-wind-fire-2027-pompano-beach-z7r9jz1aaazue",
@@ -1718,7 +1742,7 @@
         "event_id": "8355694",
         "url": "https://www.ticketnetwork.com/en/p/8355694",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

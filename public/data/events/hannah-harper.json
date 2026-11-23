@@ -51,7 +51,7 @@
         "event_id": "8362329",
         "url": "https://www.ticketnetwork.com/en/p/8362329",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -121,7 +121,7 @@
         "event_id": "8362340",
         "url": "https://www.ticketnetwork.com/en/p/8362340",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -203,7 +203,7 @@
         "event_id": "8364097",
         "url": "https://www.ticketnetwork.com/en/p/8364097",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -286,7 +286,7 @@
         "event_id": "8361751",
         "url": "https://www.ticketnetwork.com/en/p/8361751",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -416,7 +416,7 @@
         "event_id": "8361752",
         "url": "https://www.ticketnetwork.com/en/p/8361752",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -490,7 +490,7 @@
         "event_id": "8361753",
         "url": "https://www.ticketnetwork.com/en/p/8361753",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -559,12 +559,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361754",
+        "url": "https://www.ticketnetwork.com/en/p/8361754",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk4JGkdlDw-W",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361754"
   },
   {
     "id": "tm-hannah-harper-2027-valparaiso-vv17jz_fgkiiacxj",
@@ -618,7 +626,7 @@
         "event_id": "8362333",
         "url": "https://www.ticketnetwork.com/en/p/8362333",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -692,7 +700,7 @@
         "event_id": "8361755",
         "url": "https://www.ticketnetwork.com/en/p/8361755",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -765,7 +773,7 @@
         "event_id": "8362334",
         "url": "https://www.ticketnetwork.com/en/p/8362334",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -835,7 +843,7 @@
         "event_id": "8362343",
         "url": "https://www.ticketnetwork.com/en/p/8362343",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

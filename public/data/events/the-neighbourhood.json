@@ -799,11 +799,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7896353",
-        "url": "https://www.ticketnetwork.com/en/p/7896353",
-        "verified": true,
-        "last_verified_at": "2026-11-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7896353",
@@ -823,7 +823,7 @@
     "ticketmaster_discovery_event_id": "15dZZ_AozvwFt",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7896353",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7896353/The-Neighbourhood-tickets-Sun-Nov-22-2026-Barclays-Center",
     "stubhub_international_url": "https://www.stubhub.ie/the-neighbourhood-brooklyn-tickets-11-22-2026/event/107165138",
     "organizer_names": [
@@ -884,7 +884,7 @@
         "event_id": "7748322",
         "url": "https://www.ticketnetwork.com/en/p/7748322",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -966,7 +966,7 @@
         "event_id": "7748323",
         "url": "https://www.ticketnetwork.com/en/p/7748323",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1056,7 +1056,7 @@
         "event_id": "7748324",
         "url": "https://www.ticketnetwork.com/en/p/7748324",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1138,7 +1138,7 @@
         "event_id": "7896352",
         "url": "https://www.ticketnetwork.com/en/p/7896352",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1220,7 +1220,7 @@
         "event_id": "8345902",
         "url": "https://www.ticketnetwork.com/en/p/8345902",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1304,6 +1304,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8345903",
+        "url": "https://www.ticketnetwork.com/en/p/8345903",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPpFGA13fre",
@@ -1320,7 +1327,8 @@
       }
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8345903"
   },
   {
     "id": "tm-the-neighbourhood-2027-dallas-vvg1yz_4no500h",
@@ -1374,7 +1382,7 @@
         "event_id": "8345905",
         "url": "https://www.ticketnetwork.com/en/p/8345905",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1464,7 +1472,7 @@
         "event_id": "8345906",
         "url": "https://www.ticketnetwork.com/en/p/8345906",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1552,7 +1560,7 @@
         "event_id": "8345907",
         "url": "https://www.ticketnetwork.com/en/p/8345907",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1640,7 +1648,7 @@
         "event_id": "8345908",
         "url": "https://www.ticketnetwork.com/en/p/8345908",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1792,7 +1800,7 @@
         "event_id": "8345910",
         "url": "https://www.ticketnetwork.com/en/p/8345910",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1872,7 +1880,7 @@
         "event_id": "8345911",
         "url": "https://www.ticketnetwork.com/en/p/8345911",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1960,7 +1968,7 @@
         "event_id": "8345912",
         "url": "https://www.ticketnetwork.com/en/p/8345912",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2042,7 +2050,7 @@
         "event_id": "8345913",
         "url": "https://www.ticketnetwork.com/en/p/8345913",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2123,7 +2131,7 @@
         "event_id": "8345914",
         "url": "https://www.ticketnetwork.com/en/p/8345914",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2211,7 +2219,7 @@
         "event_id": "8345915",
         "url": "https://www.ticketnetwork.com/en/p/8345915",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2303,7 +2311,7 @@
         "event_id": "8345916",
         "url": "https://www.ticketnetwork.com/en/p/8345916",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2387,7 +2395,7 @@
         "event_id": "8345917",
         "url": "https://www.ticketnetwork.com/en/p/8345917",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2525,7 +2533,7 @@
         "event_id": "8345904",
         "url": "https://www.ticketnetwork.com/en/p/8345904",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

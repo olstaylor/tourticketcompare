@@ -229,7 +229,7 @@
         "event_id": "8313659",
         "url": "https://www.ticketnetwork.com/en/p/8313659",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -299,7 +299,7 @@
         "event_id": "8313660",
         "url": "https://www.ticketnetwork.com/en/p/8313660",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -442,7 +442,7 @@
         "event_id": "8313661",
         "url": "https://www.ticketnetwork.com/en/p/8313661",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -530,7 +530,7 @@
         "event_id": "8313662",
         "url": "https://www.ticketnetwork.com/en/p/8313662",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -616,7 +616,7 @@
         "event_id": "8313663",
         "url": "https://www.ticketnetwork.com/en/p/8313663",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -702,7 +702,7 @@
         "event_id": "8313664",
         "url": "https://www.ticketnetwork.com/en/p/8313664",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -782,7 +782,7 @@
         "event_id": "8313665",
         "url": "https://www.ticketnetwork.com/en/p/8313665",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -860,7 +860,7 @@
         "event_id": "8313666",
         "url": "https://www.ticketnetwork.com/en/p/8313666",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -999,7 +999,7 @@
         "event_id": "8313668",
         "url": "https://www.ticketnetwork.com/en/p/8313668",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1087,7 +1087,7 @@
         "event_id": "8313669",
         "url": "https://www.ticketnetwork.com/en/p/8313669",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1162,7 +1162,7 @@
         "event_id": "8313680",
         "url": "https://www.ticketnetwork.com/en/p/8313680",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1225,6 +1225,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8313681",
+        "url": "https://www.ticketnetwork.com/en/p/8313681",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfyGkesKGd1",
@@ -1244,7 +1251,8 @@
         "start": "2026-11-27T06:00:00Z",
         "end": "2027-01-01T05:59:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313681"
   },
   {
     "id": "tm-leon-bridges-2027-calgary-1aozkfygkesvjka",
@@ -1293,6 +1301,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8313682",
+        "url": "https://www.ticketnetwork.com/en/p/8313682",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkfyGkesVjkA",
@@ -1312,7 +1327,8 @@
         "start": "2026-11-27T06:00:00Z",
         "end": "2027-01-01T05:59:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313682"
   },
   {
     "id": "tm-leon-bridges-2027-bonner-g5vzz_fhjrcg3",
@@ -1373,7 +1389,7 @@
         "event_id": "8313670",
         "url": "https://www.ticketnetwork.com/en/p/8313670",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1447,7 +1463,7 @@
         "event_id": "8313671",
         "url": "https://www.ticketnetwork.com/en/p/8313671",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1533,7 +1549,7 @@
         "event_id": "8313672",
         "url": "https://www.ticketnetwork.com/en/p/8313672",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1619,7 +1635,7 @@
         "event_id": "8313673",
         "url": "https://www.ticketnetwork.com/en/p/8313673",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1693,7 +1709,7 @@
         "event_id": "8313674",
         "url": "https://www.ticketnetwork.com/en/p/8313674",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1767,7 +1783,7 @@
         "event_id": "8313675",
         "url": "https://www.ticketnetwork.com/en/p/8313675",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1859,7 +1875,7 @@
         "event_id": "8313676",
         "url": "https://www.ticketnetwork.com/en/p/8313676",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1941,7 +1957,7 @@
         "event_id": "8313677",
         "url": "https://www.ticketnetwork.com/en/p/8313677",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2016,7 +2032,7 @@
         "event_id": "8313678",
         "url": "https://www.ticketnetwork.com/en/p/8313678",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2090,12 +2106,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8313683",
+        "url": "https://www.ticketnetwork.com/en/p/8313683",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7dQk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313683"
   },
   {
     "id": "tm-leon-bridges-2027-morrison-z7r9jz1aa7dvk",
@@ -2149,7 +2173,7 @@
         "event_id": "8313527",
         "url": "https://www.ticketnetwork.com/en/p/8313527",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2219,7 +2243,7 @@
         "event_id": "8313686",
         "url": "https://www.ticketnetwork.com/en/p/8313686",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2289,7 +2313,7 @@
         "event_id": "8313684",
         "url": "https://www.ticketnetwork.com/en/p/8313684",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2354,12 +2378,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8313685",
+        "url": "https://www.ticketnetwork.com/en/p/8313685",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7dqd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8313685"
   },
   {
     "id": "tm-leon-bridges-2027-mexico-1kazvppagacnsha",
@@ -2485,7 +2517,7 @@
         "event_id": "8372143",
         "url": "https://www.ticketnetwork.com/en/p/8372143",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

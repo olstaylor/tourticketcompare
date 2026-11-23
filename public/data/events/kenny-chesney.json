@@ -51,7 +51,7 @@
         "event_id": "8265768",
         "url": "https://www.ticketnetwork.com/en/p/8265768",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -144,7 +144,7 @@
         "event_id": "8265769",
         "url": "https://www.ticketnetwork.com/en/p/8265769",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -214,7 +214,7 @@
         "event_id": "8265770",
         "url": "https://www.ticketnetwork.com/en/p/8265770",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -287,6 +287,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265773",
+        "url": "https://www.ticketnetwork.com/en/p/8265773",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPFIGAupVVY",
@@ -308,7 +315,8 @@
       "THE MESSINA GROUP (TMG)"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265773"
   },
   {
     "id": "tm-kenny-chesney-2027-minneapolis-vv1akzkf0gkdyrnq8",
@@ -362,7 +370,7 @@
         "event_id": "8265774",
         "url": "https://www.ticketnetwork.com/en/p/8265774",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -442,7 +450,7 @@
         "event_id": "8265775",
         "url": "https://www.ticketnetwork.com/en/p/8265775",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -601,7 +609,7 @@
         "event_id": "8265777",
         "url": "https://www.ticketnetwork.com/en/p/8265777",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -705,7 +713,7 @@
         "event_id": "8265778",
         "url": "https://www.ticketnetwork.com/en/p/8265778",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -786,7 +794,7 @@
         "event_id": "8265779",
         "url": "https://www.ticketnetwork.com/en/p/8265779",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -877,7 +885,7 @@
         "event_id": "8265780",
         "url": "https://www.ticketnetwork.com/en/p/8265780",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -947,7 +955,7 @@
         "event_id": "8265781",
         "url": "https://www.ticketnetwork.com/en/p/8265781",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1042,7 +1050,7 @@
         "event_id": "8265782",
         "url": "https://www.ticketnetwork.com/en/p/8265782",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1127,7 +1135,7 @@
         "event_id": "8265784",
         "url": "https://www.ticketnetwork.com/en/p/8265784",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1213,7 +1221,7 @@
         "event_id": "8265786",
         "url": "https://www.ticketnetwork.com/en/p/8265786",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1304,7 +1312,7 @@
         "event_id": "8265787",
         "url": "https://www.ticketnetwork.com/en/p/8265787",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1390,7 +1398,7 @@
         "event_id": "8265788",
         "url": "https://www.ticketnetwork.com/en/p/8265788",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1467,7 +1475,7 @@
         "event_id": "8265789",
         "url": "https://www.ticketnetwork.com/en/p/8265789",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1548,7 +1556,7 @@
         "event_id": "8276965",
         "url": "https://www.ticketnetwork.com/en/p/8276965",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1637,7 +1645,7 @@
         "event_id": "8265790",
         "url": "https://www.ticketnetwork.com/en/p/8265790",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

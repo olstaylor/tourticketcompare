@@ -51,7 +51,7 @@
         "event_id": "8307184",
         "url": "https://www.ticketnetwork.com/en/p/8307184",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -185,7 +185,7 @@
         "event_id": "8277059",
         "url": "https://www.ticketnetwork.com/en/p/8277059",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -256,7 +256,7 @@
         "event_id": "8294731",
         "url": "https://www.ticketnetwork.com/en/p/8294731",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -336,7 +336,7 @@
         "event_id": "8266994",
         "url": "https://www.ticketnetwork.com/en/p/8266994",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -396,12 +396,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8267706",
+        "url": "https://www.ticketnetwork.com/en/p/8267706",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvYbs",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267706"
   },
   {
     "id": "tm-rod-stewart-2027-uncasville-g5vvz_flfx92d",
@@ -462,7 +470,7 @@
         "event_id": "8319868",
         "url": "https://www.ticketnetwork.com/en/p/8319868",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -540,7 +548,7 @@
         "event_id": "8307235",
         "url": "https://www.ticketnetwork.com/en/p/8307235",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -622,7 +630,7 @@
         "event_id": "8308633",
         "url": "https://www.ticketnetwork.com/en/p/8308633",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -704,7 +712,7 @@
         "event_id": "8297144",
         "url": "https://www.ticketnetwork.com/en/p/8297144",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -783,7 +791,7 @@
         "event_id": "8293090",
         "url": "https://www.ticketnetwork.com/en/p/8293090",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -865,7 +873,7 @@
         "event_id": "8308591",
         "url": "https://www.ticketnetwork.com/en/p/8308591",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -935,6 +943,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8294332",
+        "url": "https://www.ticketnetwork.com/en/p/8294332",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfzGkdv3zFf",
@@ -942,7 +957,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-11-5-2027/event/107671346",
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294332"
   },
   {
     "id": "tm-rod-stewart-2027-london-1agzkfzgkdvmnjo",
@@ -998,6 +1014,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8308592",
+        "url": "https://www.ticketnetwork.com/en/p/8308592",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfzGkdVMnjO",
@@ -1005,7 +1028,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-14-5-2027/event/107671677",
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308592"
   },
   {
     "id": "tm-rod-stewart-2027-amsterdam-z698xzbpz1kbf3oo4",
@@ -1073,7 +1097,7 @@
         "event_id": "8299870",
         "url": "https://www.ticketnetwork.com/en/p/8299870",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1135,6 +1159,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308634",
+        "url": "https://www.ticketnetwork.com/en/p/8308634",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kQ_k_u9",
@@ -1143,7 +1174,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308634"
   },
   {
     "id": "tm-rod-stewart-2027-berlin-z698xzc2z16vov80ga",
@@ -1444,6 +1476,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8314161",
+        "url": "https://www.ticketnetwork.com/en/p/8314161",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16v8fFVx6",
@@ -1452,7 +1491,8 @@
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314161"
   },
   {
     "id": "tm-rod-stewart-2027-krakow-z698xzqpz1kk400qk",
@@ -1642,7 +1682,7 @@
         "event_id": "7548018",
         "url": "https://www.ticketnetwork.com/en/p/7548018",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1724,7 +1764,7 @@
         "event_id": "7566556",
         "url": "https://www.ticketnetwork.com/en/p/7566556",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1799,7 +1839,7 @@
         "event_id": "8307232",
         "url": "https://www.ticketnetwork.com/en/p/8307232",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1874,7 +1914,7 @@
         "event_id": "8326046",
         "url": "https://www.ticketnetwork.com/en/p/8326046",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1955,7 +1995,7 @@
         "event_id": "8299954",
         "url": "https://www.ticketnetwork.com/en/p/8299954",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2024,7 +2064,7 @@
         "event_id": "8343668",
         "url": "https://www.ticketnetwork.com/en/p/8343668",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2098,7 +2138,7 @@
         "event_id": "8343679",
         "url": "https://www.ticketnetwork.com/en/p/8343679",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2171,6 +2211,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8355791",
+        "url": "https://www.ticketnetwork.com/en/p/8355791",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkfzGkdU5QOY",
@@ -2178,7 +2225,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/rod-stewart-tickets-london-the-o2-arena-15-5-2027/event/107679045",
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355791"
   },
   {
     "id": "tm-rod-stewart-2027-glasgow-1adbz_4gkmvnhoa",
@@ -2355,7 +2403,7 @@
         "event_id": "8373810",
         "url": "https://www.ticketnetwork.com/en/p/8373810",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

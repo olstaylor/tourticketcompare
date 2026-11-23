@@ -2622,7 +2622,7 @@
         "event_id": "7874887",
         "url": "https://www.ticketnetwork.com/en/p/7874887",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2710,7 +2710,7 @@
         "event_id": "7877722",
         "url": "https://www.ticketnetwork.com/en/p/7877722",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2798,7 +2798,7 @@
         "event_id": "8245510",
         "url": "https://www.ticketnetwork.com/en/p/8245510",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2936,7 +2936,7 @@
         "event_id": "8245511",
         "url": "https://www.ticketnetwork.com/en/p/8245511",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3017,7 +3017,7 @@
         "event_id": "8245513",
         "url": "https://www.ticketnetwork.com/en/p/8245513",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3098,7 +3098,7 @@
         "event_id": "8245523",
         "url": "https://www.ticketnetwork.com/en/p/8245523",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3298,7 +3298,7 @@
         "event_id": "8245421",
         "url": "https://www.ticketnetwork.com/en/p/8245421",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3385,6 +3385,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8245378",
+        "url": "https://www.ticketnetwork.com/en/p/8245378",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwYrFUX",
@@ -3395,7 +3402,8 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245378"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogklwvhfa",
@@ -3451,6 +3459,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8245379",
+        "url": "https://www.ticketnetwork.com/en/p/8245379",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGklwvHfa",
@@ -3461,7 +3476,8 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245379"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwskt7w",
@@ -3517,6 +3533,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8245380",
+        "url": "https://www.ticketnetwork.com/en/p/8245380",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwSKt7W",
@@ -3527,7 +3550,8 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245380"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwy2ti0",
@@ -3583,6 +3607,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8248707",
+        "url": "https://www.ticketnetwork.com/en/p/8248707",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_oGkwy2ti0",
@@ -3593,7 +3624,8 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8248707"
   },
   {
     "id": "tm-sombr-2027-london-1adfz_ogkwwynfm",
@@ -3973,7 +4005,7 @@
         "event_id": "8264595",
         "url": "https://www.ticketnetwork.com/en/p/8264595",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4043,7 +4075,7 @@
         "event_id": "8245506",
         "url": "https://www.ticketnetwork.com/en/p/8245506",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4116,7 +4148,7 @@
         "event_id": "8245507",
         "url": "https://www.ticketnetwork.com/en/p/8245507",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4192,6 +4224,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8245515",
+        "url": "https://www.ticketnetwork.com/en/p/8245515",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16v-zGMZ9",
@@ -4200,7 +4239,8 @@
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245515"
   },
   {
     "id": "tm-sombr-2027-zurich-z698xzu3z16vqgjk0e",
@@ -4254,7 +4294,7 @@
         "event_id": "8245518",
         "url": "https://www.ticketnetwork.com/en/p/8245518",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

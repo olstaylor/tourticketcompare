@@ -181,7 +181,7 @@
         "event_id": "8307857",
         "url": "https://www.ticketnetwork.com/en/p/8307857",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -250,7 +250,7 @@
         "event_id": "8307858",
         "url": "https://www.ticketnetwork.com/en/p/8307858",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -319,7 +319,7 @@
         "event_id": "8307859",
         "url": "https://www.ticketnetwork.com/en/p/8307859",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -383,11 +383,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8310872",
+        "url": "https://www.ticketnetwork.com/en/p/8310872",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7evf",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310872"
   },
   {
     "id": "tm-koe-wetzel-2026-fort-worth-z7r9jz1aa7vfe",
@@ -436,11 +444,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307148",
+        "url": "https://www.ticketnetwork.com/en/p/8307148",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7vfE",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307148"
   },
   {
     "id": "tm-koe-wetzel-2026-las-vegas-1ayzkfkgkdtup_a",
@@ -494,7 +510,7 @@
         "event_id": "8194341",
         "url": "https://www.ticketnetwork.com/en/p/8194341",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

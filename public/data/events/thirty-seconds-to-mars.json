@@ -51,7 +51,7 @@
         "event_id": "7877280",
         "url": "https://www.ticketnetwork.com/en/p/7877280",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -132,7 +132,7 @@
         "event_id": "7877281",
         "url": "https://www.ticketnetwork.com/en/p/7877281",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -208,12 +208,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7912640",
+        "url": "https://www.ticketnetwork.com/en/p/7912640",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZeAdk",
     "timezone": "Europe/Rome",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7912640"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-munich-z698xzc2z16vfvofpp",
@@ -267,7 +275,7 @@
         "event_id": "7877284",
         "url": "https://www.ticketnetwork.com/en/p/7877284",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -348,7 +356,7 @@
         "event_id": "7877285",
         "url": "https://www.ticketnetwork.com/en/p/7877285",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -416,6 +424,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877286",
+        "url": "https://www.ticketnetwork.com/en/p/7877286",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1ke8f3Ad",
@@ -424,7 +439,8 @@
     "organizer_names": [
       "Live Nation sp. z o.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877286"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-hannover-z698xzc2z16vqp_xfz",
@@ -478,7 +494,7 @@
         "event_id": "7877291",
         "url": "https://www.ticketnetwork.com/en/p/7877291",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -554,6 +570,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7877297",
+        "url": "https://www.ticketnetwork.com/en/p/7877297",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1k-8AsF4",
@@ -562,7 +585,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877297"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-london-1agzk3agkdevn9u",
@@ -618,6 +642,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7877300",
+        "url": "https://www.ticketnetwork.com/en/p/7877300",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk3aGkdEVn9u",
@@ -628,7 +659,8 @@
       "S.J.M. LTD"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877300"
   },
   {
     "id": "tm-thirty-seconds-to-mars-2027-manchester-1amzk3agkeyexfs",
@@ -682,7 +714,7 @@
         "event_id": "7870156",
         "url": "https://www.ticketnetwork.com/en/p/7870156",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -765,7 +797,7 @@
         "event_id": "7877303",
         "url": "https://www.ticketnetwork.com/en/p/7877303",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

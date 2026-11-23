@@ -58,7 +58,7 @@
         "event_id": "8361510",
         "url": "https://www.ticketnetwork.com/en/p/8361510",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -147,7 +147,7 @@
         "event_id": "8361523",
         "url": "https://www.ticketnetwork.com/en/p/8361523",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -237,7 +237,7 @@
         "event_id": "8361511",
         "url": "https://www.ticketnetwork.com/en/p/8361511",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -326,7 +326,7 @@
         "event_id": "8361512",
         "url": "https://www.ticketnetwork.com/en/p/8361512",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -415,7 +415,7 @@
         "event_id": "8361513",
         "url": "https://www.ticketnetwork.com/en/p/8361513",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -504,7 +504,7 @@
         "event_id": "8361515",
         "url": "https://www.ticketnetwork.com/en/p/8361515",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -592,7 +592,7 @@
         "event_id": "8361516",
         "url": "https://www.ticketnetwork.com/en/p/8361516",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -681,7 +681,7 @@
         "event_id": "8361517",
         "url": "https://www.ticketnetwork.com/en/p/8361517",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -770,7 +770,7 @@
         "event_id": "8361518",
         "url": "https://www.ticketnetwork.com/en/p/8361518",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -859,7 +859,7 @@
         "event_id": "8361519",
         "url": "https://www.ticketnetwork.com/en/p/8361519",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1014,7 +1014,7 @@
         "event_id": "8361522",
         "url": "https://www.ticketnetwork.com/en/p/8361522",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1097,6 +1097,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361528",
+        "url": "https://www.ticketnetwork.com/en/p/8361528",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kaZayGz",
@@ -1106,7 +1113,8 @@
       "Live Nation GmbH"
     ],
     "genre": "Rock",
-    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-munich-allianz-arena-17-7-2027/event/107680796"
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-munich-allianz-arena-17-7-2027/event/107680796",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361528"
   },
   {
     "id": "tm-stray-kids-2027-vienna-z698xz5rz16vofpore",
@@ -1212,6 +1220,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381437",
+        "url": "https://www.ticketnetwork.com/en/p/8381437",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vOd48ea",
@@ -1220,7 +1235,8 @@
     "organizer_names": [
       "Live Nation España Live For Fun, SL"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381437"
   },
   {
     "id": "tm-stray-kids-2027-arnhem-z698xzbpz1k4kc30n",
@@ -1281,7 +1297,7 @@
         "event_id": "8381438",
         "url": "https://www.ticketnetwork.com/en/p/8381438",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1355,7 +1371,7 @@
         "event_id": "8381019",
         "url": "https://www.ticketnetwork.com/en/p/8381019",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1446,6 +1462,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8381435",
+        "url": "https://www.ticketnetwork.com/en/p/8381435",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z1kb0Z0OM",
@@ -1455,7 +1478,8 @@
       "Live Nation GmbH"
     ],
     "genre": "Rock",
-    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-munich-allianz-arena-18-7-2027/event/107683938"
+    "stubhub_international_url": "https://www.stubhub.ie/stray-kids-tickets-munich-allianz-arena-18-7-2027/event/107683938",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381435"
   },
   {
     "id": "tm-stray-kids-2027-arnhem-z698xzbpz16vp04wpo",
@@ -1509,7 +1533,7 @@
         "event_id": "8381439",
         "url": "https://www.ticketnetwork.com/en/p/8381439",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1604,7 +1628,7 @@
         "event_id": "8361514",
         "url": "https://www.ticketnetwork.com/en/p/8361514",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1684,7 +1708,7 @@
         "event_id": "8361521",
         "url": "https://www.ticketnetwork.com/en/p/8361521",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

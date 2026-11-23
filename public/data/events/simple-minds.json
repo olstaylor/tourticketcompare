@@ -51,7 +51,7 @@
         "event_id": "8173259",
         "url": "https://www.ticketnetwork.com/en/p/8173259",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -176,7 +176,7 @@
         "event_id": "8180239",
         "url": "https://www.ticketnetwork.com/en/p/8180239",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -556,7 +556,7 @@
         "event_id": "8353390",
         "url": "https://www.ticketnetwork.com/en/p/8353390",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -630,7 +630,7 @@
         "event_id": "8315154",
         "url": "https://www.ticketnetwork.com/en/p/8315154",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -705,6 +705,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252475",
+        "url": "https://www.ticketnetwork.com/en/p/8252475",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16dfZ_313G7Wgmr",
@@ -715,7 +722,8 @@
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252475"
   },
   {
     "id": "tm-simple-minds-2027-manchester-1amzkfxgkdzwjhm",
@@ -769,7 +777,7 @@
         "event_id": "8247671",
         "url": "https://www.ticketnetwork.com/en/p/8247671",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -858,7 +866,7 @@
         "event_id": "8378217",
         "url": "https://www.ticketnetwork.com/en/p/8378217",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -947,7 +955,7 @@
         "event_id": "8359735",
         "url": "https://www.ticketnetwork.com/en/p/8359735",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1080,7 +1088,7 @@
         "event_id": "8369699",
         "url": "https://www.ticketnetwork.com/en/p/8369699",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1147,7 +1155,7 @@
         "event_id": "8272591",
         "url": "https://www.ticketnetwork.com/en/p/8272591",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1230,7 +1238,7 @@
         "event_id": "8341561",
         "url": "https://www.ticketnetwork.com/en/p/8341561",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

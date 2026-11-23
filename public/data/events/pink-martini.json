@@ -46,12 +46,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7997604",
+        "url": "https://www.ticketnetwork.com/en/p/7997604",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G651B0Bey",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997604"
   },
   {
     "id": "tm-pink-martini-2026-redding-z7r9jz1a7ps3o",
@@ -100,12 +108,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8082379",
+        "url": "https://www.ticketnetwork.com/en/p/8082379",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Ps3o",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Blues"
+    "genre": "Blues",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8082379"
   },
   {
     "id": "tm-pink-martini-2026-fairfax-z7r9jz1aazojt",
@@ -166,7 +182,7 @@
         "event_id": "8166331",
         "url": "https://www.ticketnetwork.com/en/p/8166331",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -236,7 +252,7 @@
         "event_id": "8087921",
         "url": "https://www.ticketnetwork.com/en/p/8087921",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -313,7 +329,7 @@
         "event_id": "8072032",
         "url": "https://www.ticketnetwork.com/en/p/8072032",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -382,12 +398,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8193302",
+        "url": "https://www.ticketnetwork.com/en/p/8193302",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70PPv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Blues"
+    "genre": "Blues",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8193302"
   },
   {
     "id": "tm-pink-martini-2026-red-bank-g5vvz_gnt3jau",
@@ -448,7 +472,7 @@
         "event_id": "8072011",
         "url": "https://www.ticketnetwork.com/en/p/8072011",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -507,12 +531,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8110063",
+        "url": "https://www.ticketnetwork.com/en/p/8110063",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7PSqp",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Blues"
+    "genre": "Blues",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8110063"
   },
   {
     "id": "tm-pink-martini-2027-fort-worth-z7r9jz1a7p6-z",
@@ -573,7 +605,7 @@
         "event_id": "7950714",
         "url": "https://www.ticketnetwork.com/en/p/7950714",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -685,6 +717,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7945144",
+        "url": "https://www.ticketnetwork.com/en/p/7945144",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_aSbH4YX",
@@ -698,7 +737,8 @@
       }
     ],
     "ticket_limit": 9,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7945144"
   },
   {
     "id": "tm-pink-martini-2027-athens-z7r9jz1a7pv8_",
@@ -813,7 +853,7 @@
         "event_id": "8043631",
         "url": "https://www.ticketnetwork.com/en/p/8043631",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -883,7 +923,7 @@
         "event_id": "8121295",
         "url": "https://www.ticketnetwork.com/en/p/8121295",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -946,7 +986,7 @@
         "event_id": "8043657",
         "url": "https://www.ticketnetwork.com/en/p/8043657",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1016,7 +1056,7 @@
         "event_id": "7847496",
         "url": "https://www.ticketnetwork.com/en/p/7847496",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1093,7 +1133,7 @@
         "event_id": "8194294",
         "url": "https://www.ticketnetwork.com/en/p/8194294",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1167,7 +1207,7 @@
         "event_id": "8194295",
         "url": "https://www.ticketnetwork.com/en/p/8194295",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1229,6 +1269,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8194296",
+        "url": "https://www.ticketnetwork.com/en/p/8194296",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6ZkfAGkec5A4V",
@@ -1239,7 +1286,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194296"
   },
   {
     "id": "tm-pink-martini-2027-colorado-springs-z7r9jz1aaztzk",
@@ -1300,7 +1348,7 @@
         "event_id": "8193669",
         "url": "https://www.ticketnetwork.com/en/p/8193669",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1370,7 +1418,7 @@
         "event_id": "8193668",
         "url": "https://www.ticketnetwork.com/en/p/8193668",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1494,7 +1542,7 @@
         "event_id": "8173902",
         "url": "https://www.ticketnetwork.com/en/p/8173902",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1565,7 +1613,7 @@
         "event_id": "8223615",
         "url": "https://www.ticketnetwork.com/en/p/8223615",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1629,7 +1677,7 @@
         "event_id": "8210508",
         "url": "https://www.ticketnetwork.com/en/p/8210508",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1943,7 +1991,7 @@
         "event_id": "8267156",
         "url": "https://www.ticketnetwork.com/en/p/8267156",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

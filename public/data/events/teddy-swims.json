@@ -2566,7 +2566,7 @@
         "event_id": "8167509",
         "url": "https://www.ticketnetwork.com/en/p/8167509",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2647,7 +2647,7 @@
         "event_id": "8166020",
         "url": "https://www.ticketnetwork.com/en/p/8166020",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2728,7 +2728,7 @@
         "event_id": "8168696",
         "url": "https://www.ticketnetwork.com/en/p/8168696",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2869,6 +2869,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167527",
+        "url": "https://www.ticketnetwork.com/en/p/8167527",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kF7vp3p",
@@ -2877,7 +2884,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167527"
   },
   {
     "id": "tm-teddy-swims-2027-merksem-antwerpen-z698xzg2z16v_sztub",
@@ -2988,7 +2996,7 @@
         "event_id": "8163374",
         "url": "https://www.ticketnetwork.com/en/p/8163374",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3071,7 +3079,7 @@
         "event_id": "8163375",
         "url": "https://www.ticketnetwork.com/en/p/8163375",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3160,7 +3168,7 @@
         "event_id": "8230821",
         "url": "https://www.ticketnetwork.com/en/p/8230821",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3237,6 +3245,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8167545",
+        "url": "https://www.ticketnetwork.com/en/p/8167545",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G6253xEAZ",
@@ -3244,7 +3259,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-21-4-2027/event/107455915",
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167545"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g623cnnvk",
@@ -3300,6 +3316,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8173004",
+        "url": "https://www.ticketnetwork.com/en/p/8173004",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G623cNNvk",
@@ -3307,7 +3330,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-22-4-2027/event/107460173",
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8173004"
   },
   {
     "id": "tm-teddy-swims-2027-london-17u8v0g623yvkkm",
@@ -3363,6 +3387,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8183966",
+        "url": "https://www.ticketnetwork.com/en/p/8183966",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G623YvKkM",
@@ -3370,7 +3401,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-24-4-2027/event/107469438",
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8183966"
   },
   {
     "id": "tm-teddy-swims-2027-manchester-17uyv0g62mo98gp",
@@ -3424,7 +3456,7 @@
         "event_id": "8230822",
         "url": "https://www.ticketnetwork.com/en/p/8230822",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3612,7 +3644,7 @@
         "event_id": "8167532",
         "url": "https://www.ticketnetwork.com/en/p/8167532",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3687,7 +3719,7 @@
         "event_id": "8314998",
         "url": "https://www.ticketnetwork.com/en/p/8314998",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3764,6 +3796,13 @@
         "verified": true,
         "last_verified_at": "2026-11-22",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284502",
+        "url": "https://www.ticketnetwork.com/en/p/8284502",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G623Nj3ov",
@@ -3771,7 +3810,8 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/teddy-swims-tickets-london-the-o2-arena-25-4-2027/event/107669573",
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284502"
   },
   {
     "id": "tm-teddy-swims-2027-hamburg-z698xzc2z16vpvz6g3",
@@ -3825,7 +3865,7 @@
         "event_id": "8167507",
         "url": "https://www.ticketnetwork.com/en/p/8167507",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3906,7 +3946,7 @@
         "event_id": "8167502",
         "url": "https://www.ticketnetwork.com/en/p/8167502",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3974,6 +4014,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8167524",
+        "url": "https://www.ticketnetwork.com/en/p/8167524",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z1kQ9x78k",
@@ -3982,6 +4029,7 @@
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8167524"
   }
 ]

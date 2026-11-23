@@ -51,7 +51,7 @@
         "event_id": "7978102",
         "url": "https://www.ticketnetwork.com/en/p/7978102",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -122,7 +122,7 @@
         "event_id": "7978141",
         "url": "https://www.ticketnetwork.com/en/p/7978141",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -192,7 +192,7 @@
         "event_id": "7978059",
         "url": "https://www.ticketnetwork.com/en/p/7978059",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -269,7 +269,7 @@
         "event_id": "7977696",
         "url": "https://www.ticketnetwork.com/en/p/7977696",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -332,7 +332,7 @@
         "event_id": "7977707",
         "url": "https://www.ticketnetwork.com/en/p/7977707",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -407,7 +407,7 @@
         "event_id": "7977704",
         "url": "https://www.ticketnetwork.com/en/p/7977704",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -479,7 +479,7 @@
         "event_id": "7977701",
         "url": "https://www.ticketnetwork.com/en/p/7977701",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -553,7 +553,7 @@
         "event_id": "7977954",
         "url": "https://www.ticketnetwork.com/en/p/7977954",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -628,7 +628,7 @@
         "event_id": "7977705",
         "url": "https://www.ticketnetwork.com/en/p/7977705",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -698,6 +698,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977955",
+        "url": "https://www.ticketnetwork.com/en/p/7977955",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17OZ_aGkMOC3UG",
@@ -708,7 +715,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977955"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-minneapolis-vvg1bz_1fhethg",
@@ -757,6 +765,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7977709",
+        "url": "https://www.ticketnetwork.com/en/p/7977709",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1fhEThg",
@@ -774,7 +789,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977709"
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-las-vegas-17ayv0g61avjbwz",
@@ -828,7 +844,7 @@
         "event_id": "7977703",
         "url": "https://www.ticketnetwork.com/en/p/7977703",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -918,7 +934,7 @@
         "event_id": "7791670",
         "url": "https://www.ticketnetwork.com/en/p/7791670",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -993,7 +1009,7 @@
         "event_id": "7977708",
         "url": "https://www.ticketnetwork.com/en/p/7977708",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1075,7 +1091,7 @@
         "event_id": "7977706",
         "url": "https://www.ticketnetwork.com/en/p/7977706",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1150,7 +1166,7 @@
         "event_id": "7977952",
         "url": "https://www.ticketnetwork.com/en/p/7977952",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1221,7 +1237,7 @@
         "event_id": "7978064",
         "url": "https://www.ticketnetwork.com/en/p/7978064",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1303,7 +1319,7 @@
         "event_id": "7978076",
         "url": "https://www.ticketnetwork.com/en/p/7978076",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1374,7 +1390,7 @@
         "event_id": "7977702",
         "url": "https://www.ticketnetwork.com/en/p/7977702",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1449,7 +1465,7 @@
         "event_id": "7977515",
         "url": "https://www.ticketnetwork.com/en/p/7977515",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1520,7 +1536,7 @@
         "event_id": "7978453",
         "url": "https://www.ticketnetwork.com/en/p/7978453",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

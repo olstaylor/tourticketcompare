@@ -51,7 +51,7 @@
         "event_id": "8249187",
         "url": "https://www.ticketnetwork.com/en/p/8249187",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -120,7 +120,7 @@
         "event_id": "8238832",
         "url": "https://www.ticketnetwork.com/en/p/8238832",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -184,11 +184,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238946",
+        "url": "https://www.ticketnetwork.com/en/p/8238946",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAv44A",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238946"
   },
   {
     "id": "tm-chris-tomlin-2026-north-charleston-g5evz_oontasw",
@@ -242,7 +250,7 @@
         "event_id": "8238834",
         "url": "https://www.ticketnetwork.com/en/p/8238834",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -306,11 +314,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8238836",
+        "url": "https://www.ticketnetwork.com/en/p/8238836",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_on0-j6v",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238836"
   },
   {
     "id": "tm-chris-tomlin-2026-knoxville-g5viz_ojuxkcz",
@@ -364,7 +380,7 @@
         "event_id": "8238838",
         "url": "https://www.ticketnetwork.com/en/p/8238838",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -433,7 +449,7 @@
         "event_id": "8238947",
         "url": "https://www.ticketnetwork.com/en/p/8238947",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -502,7 +518,7 @@
         "event_id": "8238839",
         "url": "https://www.ticketnetwork.com/en/p/8238839",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -571,7 +587,7 @@
         "event_id": "8238948",
         "url": "https://www.ticketnetwork.com/en/p/8238948",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -640,7 +656,7 @@
         "event_id": "8238843",
         "url": "https://www.ticketnetwork.com/en/p/8238843",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -709,7 +725,7 @@
         "event_id": "8238949",
         "url": "https://www.ticketnetwork.com/en/p/8238949",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -778,7 +794,7 @@
         "event_id": "8238845",
         "url": "https://www.ticketnetwork.com/en/p/8238845",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -847,7 +863,7 @@
         "event_id": "7850295",
         "url": "https://www.ticketnetwork.com/en/p/7850295",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

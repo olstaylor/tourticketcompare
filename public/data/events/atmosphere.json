@@ -51,7 +51,7 @@
         "event_id": "8277969",
         "url": "https://www.ticketnetwork.com/en/p/8277969",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -126,7 +126,7 @@
         "event_id": "8277970",
         "url": "https://www.ticketnetwork.com/en/p/8277970",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -197,7 +197,7 @@
         "event_id": "8277971",
         "url": "https://www.ticketnetwork.com/en/p/8277971",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -271,7 +271,7 @@
         "event_id": "8277972",
         "url": "https://www.ticketnetwork.com/en/p/8277972",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -341,7 +341,7 @@
         "event_id": "8277978",
         "url": "https://www.ticketnetwork.com/en/p/8277978",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -419,7 +419,7 @@
         "event_id": "8277983",
         "url": "https://www.ticketnetwork.com/en/p/8277983",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -484,12 +484,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277973",
+        "url": "https://www.ticketnetwork.com/en/p/8277973",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9ZkfwGkddBJmF",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277973"
   },
   {
     "id": "tm-atmosphere-2027-tucson-1kk8vpgiga2ka3q",
@@ -543,7 +551,7 @@
         "event_id": "8277974",
         "url": "https://www.ticketnetwork.com/en/p/8277974",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -614,7 +622,7 @@
         "event_id": "8277975",
         "url": "https://www.ticketnetwork.com/en/p/8277975",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -672,13 +680,21 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277976",
+        "url": "https://www.ticketnetwork.com/en/p/8277976",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv17jZ_3GknvXsT7",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277976"
   },
   {
     "id": "tm-atmosphere-2027-rockford-1ae7z_3gkl5agu0",
@@ -732,7 +748,7 @@
         "event_id": "8277977",
         "url": "https://www.ticketnetwork.com/en/p/8277977",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -811,7 +827,7 @@
         "event_id": "8277984",
         "url": "https://www.ticketnetwork.com/en/p/8277984",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -878,7 +894,7 @@
         "event_id": "8277979",
         "url": "https://www.ticketnetwork.com/en/p/8277979",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -948,7 +964,7 @@
         "event_id": "8277957",
         "url": "https://www.ticketnetwork.com/en/p/8277957",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1013,12 +1029,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277980",
+        "url": "https://www.ticketnetwork.com/en/p/8277980",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZ39",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277980"
   },
   {
     "id": "tm-atmosphere-2027-fort-collins-z7r9jz1aaezpv",
@@ -1067,12 +1091,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8277981",
+        "url": "https://www.ticketnetwork.com/en/p/8277981",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZPv",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8277981"
   },
   {
     "id": "tm-atmosphere-2027-grand-junction-z7r9jz1aaezfe",
@@ -1180,7 +1212,7 @@
         "event_id": "8277958",
         "url": "https://www.ticketnetwork.com/en/p/8277958",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

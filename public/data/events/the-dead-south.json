@@ -51,7 +51,7 @@
         "event_id": "8324861",
         "url": "https://www.ticketnetwork.com/en/p/8324861",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -432,7 +432,7 @@
         "event_id": "8361963",
         "url": "https://www.ticketnetwork.com/en/p/8361963",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -508,12 +508,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361928",
+        "url": "https://www.ticketnetwork.com/en/p/8361928",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16e7Z_pf4G7neqx",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361928"
   },
   {
     "id": "tm-the-dead-south-2027-kansas-city-vv1akzk40gkemk2eh",
@@ -625,7 +633,7 @@
         "event_id": "8352785",
         "url": "https://www.ticketnetwork.com/en/p/8352785",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -699,7 +707,7 @@
         "event_id": "8361931",
         "url": "https://www.ticketnetwork.com/en/p/8361931",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -784,7 +792,7 @@
         "event_id": "8361932",
         "url": "https://www.ticketnetwork.com/en/p/8361932",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -861,7 +869,7 @@
         "event_id": "8361934",
         "url": "https://www.ticketnetwork.com/en/p/8361934",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -925,6 +933,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361936",
+        "url": "https://www.ticketnetwork.com/en/p/8361936",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4xGkd6z6-J",
@@ -937,7 +952,8 @@
       "LIVE NATION CANADA-RBC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361936"
   },
   {
     "id": "tm-the-dead-south-2027-edmonton-1aozk4ngkemvpah",
@@ -1111,7 +1127,7 @@
         "event_id": "8361941",
         "url": "https://www.ticketnetwork.com/en/p/8361941",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1185,7 +1201,7 @@
         "event_id": "8361942",
         "url": "https://www.ticketnetwork.com/en/p/8361942",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1373,7 +1389,7 @@
         "event_id": "8361946",
         "url": "https://www.ticketnetwork.com/en/p/8361946",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1452,11 +1468,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361971",
+        "url": "https://www.ticketnetwork.com/en/p/8361971",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfg",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361971"
   },
   {
     "id": "tm-the-dead-south-2027-cleveland-z7r9jz1aaa67e",
@@ -1517,7 +1541,7 @@
         "event_id": "8361948",
         "url": "https://www.ticketnetwork.com/en/p/8361948",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1586,7 +1610,7 @@
         "event_id": "8361949",
         "url": "https://www.ticketnetwork.com/en/p/8361949",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1655,7 +1679,7 @@
         "event_id": "8361953",
         "url": "https://www.ticketnetwork.com/en/p/8361953",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1724,7 +1748,7 @@
         "event_id": "8361964",
         "url": "https://www.ticketnetwork.com/en/p/8361964",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1846,7 +1870,7 @@
         "event_id": "8361957",
         "url": "https://www.ticketnetwork.com/en/p/8361957",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1915,7 +1939,7 @@
         "event_id": "8361967",
         "url": "https://www.ticketnetwork.com/en/p/8361967",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1984,7 +2008,7 @@
         "event_id": "8361958",
         "url": "https://www.ticketnetwork.com/en/p/8361958",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2053,7 +2077,7 @@
         "event_id": "8361961",
         "url": "https://www.ticketnetwork.com/en/p/8361961",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

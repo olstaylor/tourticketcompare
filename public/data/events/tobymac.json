@@ -391,7 +391,7 @@
         "event_id": "8239058",
         "url": "https://www.ticketnetwork.com/en/p/8239058",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -464,7 +464,7 @@
         "event_id": "8239059",
         "url": "https://www.ticketnetwork.com/en/p/8239059",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -544,6 +544,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239060",
+        "url": "https://www.ticketnetwork.com/en/p/8239060",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfbGkdEzfqD",
@@ -552,7 +559,8 @@
     "organizer_names": [
       "AWAKENING EVENTS"
     ],
-    "genre": "Religious"
+    "genre": "Religious",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239060"
   },
   {
     "id": "tm-tobymac-2027-lafayette-g5viz_2bfz904",
@@ -601,6 +609,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239061",
+        "url": "https://www.ticketnetwork.com/en/p/8239061",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_2BfZ904",
@@ -616,7 +631,8 @@
         "start": "2026-11-24T06:01:00Z",
         "end": "2026-12-01T05:59:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239061"
   },
   {
     "id": "tm-tobymac-2027-tampa-vvg1vz_oe_5n5h",
@@ -670,7 +686,7 @@
         "event_id": "8239062",
         "url": "https://www.ticketnetwork.com/en/p/8239062",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -758,7 +774,7 @@
         "event_id": "8239108",
         "url": "https://www.ticketnetwork.com/en/p/8239108",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -836,7 +852,7 @@
         "event_id": "8239066",
         "url": "https://www.ticketnetwork.com/en/p/8239066",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -917,7 +933,7 @@
         "event_id": "8239067",
         "url": "https://www.ticketnetwork.com/en/p/8239067",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1005,7 +1021,7 @@
         "event_id": "8239087",
         "url": "https://www.ticketnetwork.com/en/p/8239087",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1078,7 +1094,7 @@
         "event_id": "8239109",
         "url": "https://www.ticketnetwork.com/en/p/8239109",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1156,7 +1172,7 @@
         "event_id": "8239110",
         "url": "https://www.ticketnetwork.com/en/p/8239110",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1226,7 +1242,7 @@
         "event_id": "8239088",
         "url": "https://www.ticketnetwork.com/en/p/8239088",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1306,7 +1322,7 @@
         "event_id": "8239111",
         "url": "https://www.ticketnetwork.com/en/p/8239111",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1376,7 +1392,7 @@
         "event_id": "8239091",
         "url": "https://www.ticketnetwork.com/en/p/8239091",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1449,7 +1465,7 @@
         "event_id": "8239092",
         "url": "https://www.ticketnetwork.com/en/p/8239092",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1522,7 +1538,7 @@
         "event_id": "8239093",
         "url": "https://www.ticketnetwork.com/en/p/8239093",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1595,7 +1611,7 @@
         "event_id": "8239094",
         "url": "https://www.ticketnetwork.com/en/p/8239094",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1675,7 +1691,7 @@
         "event_id": "8239097",
         "url": "https://www.ticketnetwork.com/en/p/8239097",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1748,7 +1764,7 @@
         "event_id": "8239099",
         "url": "https://www.ticketnetwork.com/en/p/8239099",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1834,7 +1850,7 @@
         "event_id": "8239112",
         "url": "https://www.ticketnetwork.com/en/p/8239112",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1904,7 +1920,7 @@
         "event_id": "8239100",
         "url": "https://www.ticketnetwork.com/en/p/8239100",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1977,7 +1993,7 @@
         "event_id": "8239102",
         "url": "https://www.ticketnetwork.com/en/p/8239102",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2070,7 +2086,7 @@
         "event_id": "8239113",
         "url": "https://www.ticketnetwork.com/en/p/8239113",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2140,7 +2156,7 @@
         "event_id": "8238872",
         "url": "https://www.ticketnetwork.com/en/p/8238872",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2208,6 +2224,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8239105",
+        "url": "https://www.ticketnetwork.com/en/p/8239105",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkf_Gkdu8aGp",
@@ -2224,7 +2247,8 @@
         "start": "2026-11-24T06:01:00Z",
         "end": "2026-12-01T05:59:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8239105"
   },
   {
     "id": "tm-tobymac-2027-fairfax-1a4zkf_gkd7dmjf",
@@ -2278,7 +2302,7 @@
         "event_id": "8239089",
         "url": "https://www.ticketnetwork.com/en/p/8239089",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2351,7 +2375,7 @@
         "event_id": "8239090",
         "url": "https://www.ticketnetwork.com/en/p/8239090",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2424,7 +2448,7 @@
         "event_id": "8239103",
         "url": "https://www.ticketnetwork.com/en/p/8239103",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2497,7 +2521,7 @@
         "event_id": "8239104",
         "url": "https://www.ticketnetwork.com/en/p/8239104",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2570,7 +2594,7 @@
         "event_id": "8239106",
         "url": "https://www.ticketnetwork.com/en/p/8239106",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2643,7 +2667,7 @@
         "event_id": "7376289",
         "url": "https://www.ticketnetwork.com/en/p/7376289",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

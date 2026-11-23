@@ -211,7 +211,32 @@ const VENUE_ALIASES = new Map([
   ["rotterdam ahoy", ["ahoy rotterdam"]],
   ["estadi olimpic lluis companys", ["estadi olimpico lluis companys"]],
   ["utilita arena cardiff", ["cardiff international arena"]],
-  ["scottish gas murrayfield", ["murrayfield stadium"]]
+  ["scottish gas murrayfield", ["murrayfield stadium"]],
+  // Added 2026-11-23 from the feed text of near-misses: each pair is the same
+  // building under a TM sponsor name, abbreviation or parent-site name, read
+  // from the feed's own venue field and street address.
+  ["dpac", ["durham performing arts center"]],
+  ["choctaw grand theater", ["choctaw casino and resort"]],
+  ["canyon view credit union stage at maverik center", ["maverik center"]],
+  ["gecu arena at the don haskins center", ["don haskins center"]],
+  ["acrisure arena at greater palm springs", ["acrisure arena"]],
+  ["banknh pavilion", ["bank of new hampshire pavilion"]],
+  ["cerritos center for the performing arts", ["cerritos center"]],
+  ["buckhead theatre by scana energy", ["buckhead theatre"]],
+  ["soma mainstage", ["soma"]],
+  ["bjcc concert hall", ["concert hall at the bjcc"]],
+  ["edmonton expo centre", ["edmonton expo"]],
+  ["ernst happel stadion", ["ernst happel stadium"]],
+  ["grinders kc", ["grinderskc"]],
+  ["barclays hampden", ["national stadium at hampden park"]],
+  ["vbc mars music hall", ["von braun center mars music hall"]],
+  ["okc zoo amphitheatre", ["oklahoma city zoo amphitheatre"]],
+  ["jacobs pavilion at nautica", ["jacobs pavilion"]],
+  ["flagstar at westbury music fair", ["westbury music fair"]],
+  ["avondale brewing co", ["avondale brewing company"]],
+  ["mesa theatre and club", ["mesa theater and club"]],
+  ["neighborhood theatre main room", ["neighborhood theatre"]],
+  ["the hall", ["little rock hall"]]
 ]);
 
 // Words that name a kind of room, not which one. Dropped before comparing so
@@ -979,6 +1004,13 @@ async function selfTest() {
   assert.ok(!venueMatches("Victoria Monet tickets at Madison Square Garden Arena in New York, NY on the listed date; see seating chart, parking and event details", "Infosys Theater at Madison Square Garden", "New York"), "a parent venue after \"at\" is another room");
   assert.ok(!venueMatches("Act tickets at The Masquerade - Heaven in Atlanta, GA on the listed date; see seating chart, parking and event details", "The Masquerade - Hell", "Atlanta"), "a room after \" - \" is kept");
   assert.ok(!venueMatches("Act tickets at the Grand Theater in Durant, OK on November 14, 2026; see seating chart and event details", "Choctaw Grand Theater", "Durant"));
+  assert.ok(venueMatches("Nickelback Nickelback Choctaw Casino & Resort - Durant 17346 CONCERTS 4216 US-69 Durant Oklahoma", "Choctaw Grand Theater", "Durant"));
+  assert.ok(venueMatches("Act Durham Performing Arts Center 194506 CONCERTS 123 Vivian St Durham North Carolina", "DPAC", "Durham"));
+  assert.ok(venueMatches("Act Maverik Center 102147 CONCERTS 3200 Decker Lake Dr Salt Lake City Utah", "Canyon View Credit Union Stage at Maverik Center", "West Valley City"));
+  assert.ok(venueMatches("Act Bank of New Hampshire Pavilion 57083 CONCERTS 72 Meadowbrook Lane Gilford New Hampshire", "BankNH Pavilion", "Gilford"));
+  assert.ok(!venueMatches("Act Lucas Oil Live At WinStar Casino 1442 CONCERTS 777 Casino Ave Thackerville Oklahoma", "WinStar World Casino", "Thackerville"), "WinStar has several rooms; no alias");
+  assert.ok(!venueMatches("Act Eagles Ballroom 68194 CONCERTS 2401 W. Wisconsin Ave Milwaukee Wisconsin", "The Rave-Eagles Club", "Milwaukee"), "The Rave has several rooms; no alias");
+  assert.ok(!venueMatches("Act Royce Auditorium 17321 CONCERTS 24 Ransom Avenue Ne Grand Rapids Michigan", "St. Cecilia Music Center", "Grand Rapids"));
   assert.deepEqual(venueVariants("SAP Center at San Jose", "San Jose"), ["sap center at san jose", "sap center"]);
   assert.deepEqual(venueVariants("Infosys Theater at Madison Square Garden", "New York"), ["infosys theater at madison square garden"]);
   assert.deepEqual(venueVariants("The Masquerade - Hell", "Atlanta"), ["the masquerade hell", "masquerade hell"]);

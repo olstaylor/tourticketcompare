@@ -134,7 +134,7 @@ export function buildStatements({ since, until }) {
     },
     {
       key: "beacons",
-      sql: `SELECT ${day} AS day, COALESCE(NULLIF(TRIM(provider), ''), 'unknown') AS provider, COUNT(*) AS beacons, SUM(CASE WHEN json_extract(metadata_json, '$.browserIntentId') IS NOT NULL THEN 1 ELSE 0 END) AS consented FROM analytics_events WHERE event_name = 'provider_click' AND ${window} GROUP BY 1, 2`,
+      sql: `SELECT ${day} AS day, COALESCE(NULLIF(TRIM(provider), ''), 'unknown') AS provider, COUNT(*) AS beacons, SUM(CASE WHEN json_valid(metadata_json) AND json_extract(metadata_json, '$.browserIntentId') IS NOT NULL THEN 1 ELSE 0 END) AS consented FROM analytics_events WHERE event_name = 'provider_click' AND ${window} GROUP BY 1, 2`,
     },
   ];
   for (const s of statements) {
@@ -445,7 +445,7 @@ function selfTest() {
   const reconMd = renderFunnel(funnel, []);
   assert.ok(reconMd.includes("| stubhub-international | 20 | 19 | 95% | 25% |"), "reconciliation row renders");
   assert.ok(reconMd.includes("| vivid-seats | 0 | 9 | – | – |"), "no button clicks reads as a dash, not 0%");
-  assert.ok(statements[2].sql.includes("browserIntentId") && !/user_agent/.test(statements[2].sql), "consent share reads no user agent");
+  assert.ok(statements[2].sql.includes("json_valid(metadata_json)") && statements[2].sql.includes("browserIntentId") && !/user_agent/.test(statements[2].sql), "consent share reads no user agent");
   assert.equal(funnel.latest.noEvidence, 1169, "the rest of the unbacked redirects have no page evidence");
   assert.equal(funnel.latest.forged + funnel.latest.noEvidence, funnel.latest.unbacked, "the split adds back to the unbacked total");
   assert.ok(statements[0].sql.includes("suspected") === false && statements[0].sql.includes("source_path"), "daily statement counts forged-home redirects");

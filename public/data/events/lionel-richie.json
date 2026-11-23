@@ -276,6 +276,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107469452",
+        "url": "https://www.stubhub.ie/lionel-richie-las-vegas-tickets-1-8-2027/event/107469452",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5UqJk",
@@ -287,7 +294,8 @@
       "AEG LIVE"
     ],
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165325/Lionel-Richie-tickets-Fri-Jan-8-2027-Encore-Theatre-At-Wynn-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165325/Lionel-Richie-tickets-Fri-Jan-8-2027-Encore-Theatre-At-Wynn-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/lionel-richie-las-vegas-tickets-1-8-2027/event/107469452"
   },
   {
     "id": "tm-lionel-richie-2027-las-vegas-17ayv0g62k5muj2",
@@ -350,6 +358,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107472145",
+        "url": "https://www.stubhub.ie/lionel-richie-las-vegas-tickets-1-9-2027/event/107472145",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17AYv0G62K5MuJ2",
@@ -361,7 +376,8 @@
       "AEG LIVE"
     ],
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165326/Lionel-Richie-tickets-Sat-Jan-9-2027-Encore-Theatre-At-Wynn-Las-Vegas"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8165326/Lionel-Richie-tickets-Sat-Jan-9-2027-Encore-Theatre-At-Wynn-Las-Vegas",
+    "stubhub_international_url": "https://www.stubhub.ie/lionel-richie-las-vegas-tickets-1-9-2027/event/107472145"
   },
   {
     "id": "tm-lionel-richie-2027-thackerville-z7r9jz1aav_-z",

@@ -374,7 +374,7 @@
         "event_id": "107417982",
         "url": "https://www.stubhub.ie/two-door-cinema-club-tickets-glasgow-ovo-hydro-arena-glasgow-26-1-2027/event/107417982",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -457,7 +457,7 @@
         "event_id": "107447639",
         "url": "https://www.stubhub.ie/two-door-cinema-club-tickets-manchester-manchester-ao-arena-27-1-2027/event/107447639",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -535,7 +535,7 @@
         "event_id": "107417983",
         "url": "https://www.stubhub.ie/two-door-cinema-club-tickets-london-the-o2-arena-28-1-2027/event/107417983",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -873,7 +873,7 @@
         "event_id": "107678424",
         "url": "https://www.stubhub.ie/two-door-cinema-club-seattle-tickets-5-17-2027/event/107678424",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -962,7 +962,7 @@
         "event_id": "107678423",
         "url": "https://www.stubhub.ie/two-door-cinema-club-sacramento-tickets-5-19-2027/event/107678423",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1044,7 +1044,7 @@
         "event_id": "107678440",
         "url": "https://www.stubhub.ie/two-door-cinema-club-oakland-tickets-5-20-2027/event/107678440",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1133,7 +1133,7 @@
         "event_id": "107676263",
         "url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-22-2027/event/107676263",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1234,7 +1234,7 @@
         "event_id": "107679141",
         "url": "https://www.stubhub.ie/two-door-cinema-club-hollywood-tickets-5-23-2027/event/107679141",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1393,6 +1393,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107678431",
+        "url": "https://www.stubhub.ie/two-door-cinema-club-houston-tickets-5-28-2027/event/107678431",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_42WndML",
@@ -1408,7 +1415,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/two-door-cinema-club-houston-tickets-5-28-2027/event/107678431"
   },
   {
     "id": "tm-two-door-cinema-club-2027-chicago-z7r9jz1aa7p88",

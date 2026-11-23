@@ -51,7 +51,7 @@
         "event_id": "107162943",
         "url": "https://www.stubhub.ie/tori-kelly-tickets-manchester-albert-hall-manchester-7-12-2026/event/107162943",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -117,7 +117,7 @@
         "event_id": "107683876",
         "url": "https://www.stubhub.ie/tori-kelly-tickets-birmingham-o2-institute-birmingham-8-12-2026/event/107683876",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -243,7 +243,7 @@
         "event_id": "107162942",
         "url": "https://www.stubhub.ie/tori-kelly-tickets-london-o2-forum-kentish-town-11-12-2026/event/107162942",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -324,7 +324,7 @@
         "event_id": "107682743",
         "url": "https://www.stubhub.ie/tori-kelly-san-diego-tickets-3-17-2027/event/107682743",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -488,7 +488,7 @@
         "event_id": "107683730",
         "url": "https://www.stubhub.ie/tori-kelly-phoenix-tickets-3-20-2027/event/107683730",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -577,6 +577,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682745",
+        "url": "https://www.stubhub.ie/tori-kelly-tulsa-tickets-3-22-2027/event/107682745",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAfAV",
@@ -584,7 +591,8 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375003",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375003/Tori-Kelly-tickets-Mon-Mar-22-2027-Cains-Ballroom",
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-tulsa-tickets-3-22-2027/event/107682745"
   },
   {
     "id": "tm-tori-kelly-2027-austin-z7r9jz1aaafaz",
@@ -714,7 +722,7 @@
         "event_id": "107683733",
         "url": "https://www.stubhub.ie/tori-kelly-houston-tickets-3-25-2027/event/107683733",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -808,7 +816,7 @@
         "event_id": "107683739",
         "url": "https://www.stubhub.ie/tori-kelly-dallas-tickets-3-26-2027/event/107683739",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -902,7 +910,7 @@
         "event_id": "107683741",
         "url": "https://www.stubhub.ie/tori-kelly-new-orleans-tickets-3-29-2027/event/107683741",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -992,6 +1000,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683726",
+        "url": "https://www.stubhub.ie/tori-kelly-saint-petersburg-tickets-3-31-2027/event/107683726",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pwiq_m9",
@@ -1011,7 +1026,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-03-25T03:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-saint-petersburg-tickets-3-31-2027/event/107683726"
   },
   {
     "id": "tm-tori-kelly-2027-orlando-1aefz_pgkmnverq",
@@ -1079,7 +1095,7 @@
         "event_id": "107682741",
         "url": "https://www.stubhub.ie/tori-kelly-orlando-tickets-4-1-2027/event/107682741",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1160,6 +1176,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682744",
+        "url": "https://www.stubhub.ie/tori-kelly-fort-lauderdale-tickets-4-3-2027/event/107682744",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_pV-MnDP",
@@ -1178,7 +1201,8 @@
         "start": "2026-11-20T15:00:00Z",
         "end": "2027-03-27T03:55:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/tori-kelly-fort-lauderdale-tickets-4-3-2027/event/107682744"
   },
   {
     "id": "tm-tori-kelly-2027-nashville-g5viz_pmv-gvm",
@@ -1332,7 +1356,7 @@
         "event_id": "107683744",
         "url": "https://www.stubhub.ie/tori-kelly-charlotte-tickets-4-8-2027/event/107683744",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1426,7 +1450,7 @@
         "event_id": "107683735",
         "url": "https://www.stubhub.ie/tori-kelly-atlanta-tickets-4-10-2027/event/107683735",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1520,7 +1544,7 @@
         "event_id": "107682734",
         "url": "https://www.stubhub.ie/tori-kelly-raleigh-tickets-4-11-2027/event/107682734",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1609,7 +1633,7 @@
         "event_id": "107683731",
         "url": "https://www.stubhub.ie/tori-kelly-boston-tickets-4-14-2027/event/107683731",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1698,7 +1722,7 @@
         "event_id": "107683727",
         "url": "https://www.stubhub.ie/tori-kelly-silver-spring-tickets-4-16-2027/event/107683727",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1862,7 +1886,7 @@
         "event_id": "107682739",
         "url": "https://www.stubhub.ie/tori-kelly-brooklyn-tickets-4-18-2027/event/107682739",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2021,7 +2045,7 @@
         "event_id": "107682737",
         "url": "https://www.stubhub.ie/tori-kelly-detroit-tickets-4-23-2027/event/107682737",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2115,7 +2139,7 @@
         "event_id": "107683740",
         "url": "https://www.stubhub.ie/tori-kelly-louisville-tickets-4-24-2027/event/107683740",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2209,7 +2233,7 @@
         "event_id": "107683732",
         "url": "https://www.stubhub.ie/tori-kelly-indianapolis-tickets-4-27-2027/event/107683732",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2352,7 +2376,7 @@
         "event_id": "107682740",
         "url": "https://www.stubhub.ie/tori-kelly-chicago-tickets-4-30-2027/event/107682740",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2487,7 +2511,7 @@
         "event_id": "107683737",
         "url": "https://www.stubhub.ie/tori-kelly-saint-louis-tickets-5-4-2027/event/107683737",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -2660,7 +2684,7 @@
         "event_id": "107682736",
         "url": "https://www.stubhub.ie/tori-kelly-denver-tickets-5-8-2027/event/107682736",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2754,7 +2778,7 @@
         "event_id": "107682732",
         "url": "https://www.stubhub.ie/tori-kelly-salt-lake-city-tickets-5-9-2027/event/107682732",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2848,7 +2872,7 @@
         "event_id": "107683728",
         "url": "https://www.stubhub.ie/tori-kelly-tickets-vancouver-queen-elizabeth-theatre-vancouver-5-12-2027/event/107683728",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3064,7 +3088,7 @@
         "event_id": "107683736",
         "url": "https://www.stubhub.ie/tori-kelly-sacramento-tickets-5-18-2027/event/107683736",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3153,7 +3177,7 @@
         "event_id": "107683742",
         "url": "https://www.stubhub.ie/tori-kelly-hollywood-tickets-5-20-2027/event/107683742",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

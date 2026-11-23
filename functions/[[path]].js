@@ -3746,7 +3746,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
               row.lowest ? `<span class="price-answer-asof muted">${row.comparedCount} ${row.comparedCount === 1 ? "site priced" : "sites priced"}</span>` : ""
             }`
           : `<span class="muted">${escapeHtml(options?.status || "No ticket links for this date yet.")}</span>`
-        : row.lowest ? String(row.comparedCount) : "—";
+        : row.lowest ? otherSitesCellHtml(row) : "—";
       // data-label carries each cell's column name for the narrow-screen
       // layout, where the table stacks into one block per date and the header
       // row is no longer beside the value (see .price-answer-table in
@@ -3758,7 +3758,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
         : `<td data-label="Venue">${escapeHtml(placeFor(row) || "Venue confirmed on the date")}</td>`;
       return `<tr><th scope="row">${escapeHtml(
         dateLabel
-      )}</th>${venueCell}${showPrices ? `<td class="price-answer-price">${priceCell}</td>` : ""}<td data-label="${ticketOptions ? "Ticket links" : "Sites priced"}">${sitesCell}</td></tr>`;
+      )}</th>${venueCell}${showPrices ? `<td class="price-answer-price">${priceCell}</td>` : ""}<td data-label="${ticketOptions ? "Ticket links" : "Other sites"}">${sitesCell}</td></tr>`;
     })
     .join("");
 
@@ -3773,12 +3773,29 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
     ? ""
     : ticketOptions
     ? `Each date opens its own checked ticket links${singleVenue ? `, all at ${singleVenue}` : ""}.${showPrices ? ' "Sites priced" counts the sites with a price for that date.' : ""}`
-    : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
+    : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. Other sites with a price are listed beside it.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
   )}</h2>${summary ? `<p>${escapeHtml(summary)}</p>` : ""}<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
-  }${showPrices ? '<th scope="col">Starting price</th>' : ""}<th scope="col">${ticketOptions ? "Ticket links" : "Sites priced"}</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
+  }${showPrices ? '<th scope="col">Starting price</th>' : ""}<th scope="col">${ticketOptions ? "Ticket links" : "Other sites"}</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
+}
+
+// The other sites' own starting prices for one date, cheapest first, each with
+// its site and currency. Lanes already passed the display gate and share one
+// currency (deriveCityDatePrices drops a mixed-currency row), so listing them
+// side by side states no cross-basis claim: each figure is that site's own
+// starting price, not a total. Text only; the date's card carries the buttons.
+function otherSitesCellHtml(row) {
+  const others = (row.lanes || []).filter((lane) => lane !== row.lowest);
+  if (!others.length) return '<span class="muted">Only site priced</span>';
+  return others
+    .map((lane) => {
+      const amount = formatServerPrice(lane.price, lane.currency);
+      return amount ? `<span class="price-answer-other">${escapeHtml(lane.name)} ${escapeHtml(amount)}</span>` : "";
+    })
+    .filter(Boolean)
+    .join("<br>");
 }
 
 // ---------------------------------------------------------------------------

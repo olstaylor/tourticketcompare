@@ -29,6 +29,7 @@ import { canonicalLocationPath, deriveVenues, findVenue, venueSlug } from "./_ve
 import { citySlug, deriveCities, findCity, metroSlugRedirect, normalizeCountry, rawCitySlug } from "./_cities.js";
 import { deriveArtistCities, deriveIndexableArtistCities, findArtistCity, artistCityFootprint } from "./_artist-cities.js";
 import { cheapestAcrossDates, deriveCityDatePrices } from "./_artist-city-prices.js";
+import { faceValueLineHtml } from "./_face-values.js";
 import { ARTIST_FOCUS_PATHS, PRESALE_FOCUS_PATHS, PRICE_GUIDE_FOCUS_PATHS } from "./_page-seo-focus.js";
 import { buildArtistContentModel, artistTicketHelp } from "./_artist-content.js";
 import { artistPageIndexable, artistHasUpcomingShow, splitArtistsByUpcoming } from "./_artist-indexability.js";
@@ -3776,7 +3777,9 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
     : `${intro}${singleVenue ? `, all at ${singleVenue}` : ""}, and the site listing it, in date order. "Sites priced" is how many ticket sites had a price for that date.${surface?.note ? ` ${surface.note}` : ""}`;
   return `<section class="nested-panel artist-city-price-answer" aria-labelledby="${escapeAttr(titleId)}"><h2 id="${escapeAttr(titleId)}">${escapeHtml(
     heading
-  )}</h2>${summary ? `<p>${escapeHtml(summary)}</p>` : ""}<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
+  )}</h2>${summary ? `<p>${escapeHtml(summary)}</p>` : ""}${
+    surface || !artistCity?.slug ? "" : faceValueLineHtml(artist.slug, artistCity.slug, escapeHtml)
+  }<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
   }${showPrices ? '<th scope="col">Starting price</th>' : ""}<th scope="col">${ticketOptions ? "Ticket links" : "Sites priced"}</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
 }

@@ -3002,5 +3002,113 @@
       }
     ],
     "stubhub_international_url": "https://www.stubhub.ie/feid-tickets-mexico-city-palacio-de-los-deportes-23-5-2027/event/107681732"
+  },
+  {
+    "id": "tm-feid-2027-chicago-vv1kvzvpq9gach3aw",
+    "artist_slug": "feid",
+    "artist_name": "FEID",
+    "event_name": "FEID - FERXXO - THE GREEN STAR Tour 2027",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "FERXXO - THE GREEN STAR Tour 2027",
+    "ticketmaster_event_id": "040065697E6D217D",
+    "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040065697E6D217D",
+        "discovery_event_id": "vv1kvZvPQ9GACh3AW",
+        "url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvZvPQ9GACh3AW",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-24T16:00:00Z"
+  },
+  {
+    "id": "tm-feid-2027-inglewood-vv1ke8vpq_gac1mpx",
+    "artist_slug": "feid",
+    "artist_name": "FEID",
+    "event_name": "FEID - FERXXO - THE GREEN STAR Tour 2027",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Intuit Dome",
+    "datetime_iso": "2027-05-01T03:00:00Z",
+    "tour_name": "FERXXO - THE GREEN STAR Tour 2027",
+    "ticketmaster_event_id": "090065699E2B75BE",
+    "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090065699E2B75BE",
+        "discovery_event_id": "vv1ke8vPQ_GAC1MpX",
+        "url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1ke8vPQ_GAC1MpX",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-24T18:00:00Z"
   }
 ]

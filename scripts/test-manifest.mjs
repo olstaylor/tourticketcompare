@@ -147,6 +147,7 @@ export const STEPS = [
   { id: "report:funnel:self-test",                lane: "units",  run: "npm run report:funnel:self-test" },
   { id: "report:price-coverage:self-test",        lane: "units",  run: "npm run report:price-coverage:self-test" },
   { id: "price:recovery:self-test",          lane: "units",  run: "node scripts/recover-stale-prices.mjs --self-test" },
+  { id: "merge:retry:self-test",             lane: "units",  run: "node scripts/lib/merge-retry.mjs --self-test" },
   { id: "site:health:self-test",                  lane: "units",  run: "npm run site:health:self-test" },
   { id: "artists:requests:self-test",             lane: "units",  run: "npm run artists:requests:self-test" },
   { id: "artists:watchlist:self-test",            lane: "units",  run: "npm run artists:watchlist:self-test" },

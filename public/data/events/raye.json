@@ -173,5 +173,111 @@
       "Bergen Live AS"
     ],
     "genre": "Pop"
+  },
+  {
+    "id": "tm-raye-2027-london-1amzk4pgkdnol-0",
+    "artist_slug": "raye",
+    "artist_name": "RAYE",
+    "event_name": "American Express Presents BST Hyde Park - Raye",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hyde Park",
+    "datetime_iso": "2027-07-10T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006556E382B864",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-10-07-2027/event/37006556E382B864",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-10-07-2027/event/37006556E382B864",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006556E382B864",
+        "discovery_event_id": "1AMZk4pGkdNOl-0",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-10-07-2027/event/37006556E382B864",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4pGkdNOl-0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-raye-2027-london-1amzk49gkeww5xa",
+    "artist_slug": "raye",
+    "artist_name": "RAYE",
+    "event_name": "American Express Presents BST Hyde Park - Raye",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hyde Park",
+    "datetime_iso": "2027-07-11T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006557BDC8B889",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-11-07-2027/event/37006557BDC8B889",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-11-07-2027/event/37006557BDC8B889",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006557BDC8B889",
+        "discovery_event_id": "1AMZk49GkeWw5xa",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-11-07-2027/event/37006557BDC8B889",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk49GkeWw5xa",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

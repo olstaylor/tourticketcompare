@@ -1151,5 +1151,59 @@
     ],
     "genre": "Rock",
     "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-newcastle-upon-tyne-exhibition-park-newcastle-11-7-2027/event/107682854"
+  },
+  {
+    "id": "tm-tom-jones-2027-tramore-rd-cork-1abzk4ygkdk8vmb",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones",
+    "city": "Tramore Rd Cork",
+    "country": "Ireland",
+    "venue": "Virgin Media Park",
+    "datetime_iso": "2027-07-02T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006570C6434B98",
+    "ticketmaster_url": "https://www.ticketmaster.ie/tom-jones-tramore-rd-cork-02-07-2027/event/18006570C6434B98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/tom-jones-tramore-rd-cork-02-07-2027/event/18006570C6434B98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006570C6434B98",
+        "discovery_event_id": "1AbZk4YGkdk8Vmb",
+        "url": "https://www.ticketmaster.ie/tom-jones-tramore-rd-cork-02-07-2027/event/18006570C6434B98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZk4YGkdk8Vmb",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
   }
 ]

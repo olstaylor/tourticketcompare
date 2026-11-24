@@ -445607,5 +445607,1077 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381500",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381500/Rascal-Flatts-tickets-Sat-Mar-20-2027-BYU-Idaho-Center",
     "genre": "Country"
+  },
+  {
+    "id": "tm-raye-2027-london-1amzk4pgkdnol-0",
+    "artist_slug": "raye",
+    "artist_name": "RAYE",
+    "event_name": "American Express Presents BST Hyde Park - Raye",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hyde Park",
+    "datetime_iso": "2027-07-10T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006556E382B864",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-10-07-2027/event/37006556E382B864",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-10-07-2027/event/37006556E382B864",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006556E382B864",
+        "discovery_event_id": "1AMZk4pGkdNOl-0",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-10-07-2027/event/37006556E382B864",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4pGkdNOl-0",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-raye-2027-london-1amzk49gkeww5xa",
+    "artist_slug": "raye",
+    "artist_name": "RAYE",
+    "event_name": "American Express Presents BST Hyde Park - Raye",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hyde Park",
+    "datetime_iso": "2027-07-11T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006557BDC8B889",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-11-07-2027/event/37006557BDC8B889",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-11-07-2027/event/37006557BDC8B889",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006557BDC8B889",
+        "discovery_event_id": "1AMZk49GkeWw5xa",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-11-07-2027/event/37006557BDC8B889",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk49GkeWw5xa",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-summit-2026-miami-beach-rz7hnez1a4vjgn",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "John Summit",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "LIV Nightclub Miami",
+    "datetime_iso": "2026-12-03T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15066323",
+    "ticketmaster_url": "https://www.ticketweb.com/event/john-summit-liv-nightclub-miami-tickets/15066323",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/john-summit-liv-nightclub-miami-tickets/15066323",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15066323",
+        "discovery_event_id": "rZ7HnEZ1A4vJGN",
+        "url": "https://www.ticketweb.com/event/john-summit-liv-nightclub-miami-tickets/15066323",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1A4vJGN",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-john-summit-2026-los-angeles-vvg1iz_oam_0zm",
+    "artist_slug": "john-summit",
+    "artist_name": "John Summit",
+    "event_name": "JOHN SUMMIT - CTRL ESCAPE TOUR",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Los Angeles Memorial Coliseum",
+    "datetime_iso": "2026-12-12T03:30:00Z",
+    "tour_name": "CTRL ESCAPE TOUR",
+    "ticketmaster_event_id": "0A00651177664037",
+    "ticketmaster_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-11-2026/event/0A00651177664037",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-11-2026/event/0A00651177664037",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A00651177664037",
+        "discovery_event_id": "vvG1IZ_oAM_0ZM",
+        "url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-11-2026/event/0A00651177664037",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_oAM_0ZM",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-25T18:00:00Z"
+  },
+  {
+    "id": "tm-pink-martini-2026-santa-rosa-z7r9jz1aaax7p",
+    "artist_slug": "pink-martini",
+    "artist_name": "Pink Martini",
+    "event_name": "Pink Martini",
+    "city": "Santa Rosa",
+    "country": "United States Of America",
+    "venue": "Ruth Finley Person Theater- Luther Burbank Center",
+    "datetime_iso": "2026-12-09T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAx7p",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAx7p",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAx7p",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAx7p",
+        "discovery_event_id": "Z7r9jZ1AAAx7p",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAx7p",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAx7p",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-brown-2026-miami-beach-rz7hnez1a4vjgk",
+    "artist_slug": "chris-brown",
+    "artist_name": "Chris Brown",
+    "event_name": "Chris Brown",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "LIV Nightclub Miami",
+    "datetime_iso": "2026-12-07T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15066313",
+    "ticketmaster_url": "https://www.ticketweb.com/event/chris-brown-liv-nightclub-miami-tickets/15066313",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/chris-brown-liv-nightclub-miami-tickets/15066313",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15066313",
+        "discovery_event_id": "rZ7HnEZ1A4vJGK",
+        "url": "https://www.ticketweb.com/event/chris-brown-liv-nightclub-miami-tickets/15066313",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1A4vJGK",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-garth-brooks-2027-lexington-1faovpqvbjz78a57",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "Rupp Arena",
+    "datetime_iso": "2027-02-13T01:00:00Z",
+    "tour_name": "Blame It All On My Roots Arena Tour",
+    "ticketmaster_event_id": "160065741626F4A3",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160065741626F4A3",
+        "discovery_event_id": "1FAOvPqvbJZ78A57",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAOvPqvbJZ78A57",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z"
+  },
+  {
+    "id": "tm-garth-brooks-2027-lexington-16pzk4vaxzag8a5f",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "Rupp Arena",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "Blame It All On My Roots Arena Tour",
+    "ticketmaster_event_id": "16006574162BF4A7",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006574162BF4A7",
+        "discovery_event_id": "16pZk4VAxZAG8A5F",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16pZk4VAxZAG8A5F",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z"
+  },
+  {
+    "id": "tm-tom-jones-2027-tramore-rd-cork-1abzk4ygkdk8vmb",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones",
+    "city": "Tramore Rd Cork",
+    "country": "Ireland",
+    "venue": "Virgin Media Park",
+    "datetime_iso": "2027-07-02T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "18006570C6434B98",
+    "ticketmaster_url": "https://www.ticketmaster.ie/tom-jones-tramore-rd-cork-02-07-2027/event/18006570C6434B98",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/tom-jones-tramore-rd-cork-02-07-2027/event/18006570C6434B98",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "18006570C6434B98",
+        "discovery_event_id": "1AbZk4YGkdk8Vmb",
+        "url": "https://www.ticketmaster.ie/tom-jones-tramore-rd-cork-02-07-2027/event/18006570C6434B98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AbZk4YGkdk8Vmb",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
+  },
+  {
+    "id": "tm-bon-jovi-2027-london-1adjz_fgkuq9ee5",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "American Express Presents BST Hyde Park - Bon Jovi",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hyde Park",
+    "datetime_iso": "2027-06-24T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700654D9D5C208B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-24-06-2027/event/3700654D9D5C208B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-24-06-2027/event/3700654D9D5C208B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700654D9D5C208B",
+        "discovery_event_id": "1AdjZ_fGkUq9ee5",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-24-06-2027/event/3700654D9D5C208B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_fGkUq9ee5",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-cody-johnson-2027-charlottesville-vv1avzk4ygkdfzn-t",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "John Paul Jones Arena",
+    "datetime_iso": "2027-04-02T23:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "01006570C8E2A87F",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-02-2027/event/01006570C8E2A87F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-02-2027/event/01006570C8E2A87F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006570C8E2A87F",
+        "discovery_event_id": "vv1AvZk4YGkdFzn-T",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-02-2027/event/01006570C8E2A87F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4YGkdFzn-T",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-11-24T15:00:00Z"
+  },
+  {
+    "id": "tm-cody-johnson-2027-evansville-vv1aazk4ngkdekbkk",
+    "artist_slug": "cody-johnson",
+    "artist_name": "Cody Johnson",
+    "event_name": "Cody Johnson and Friends Tour",
+    "city": "Evansville",
+    "country": "United States Of America",
+    "venue": "Ford Center",
+    "datetime_iso": "2027-05-01T00:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "05006563E71BA4C6",
+    "ticketmaster_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-04-30-2027/event/05006563E71BA4C6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-04-30-2027/event/05006563E71BA4C6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "05006563E71BA4C6",
+        "discovery_event_id": "vv1AAZk4NGkdEkBKk",
+        "url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-04-30-2027/event/05006563E71BA4C6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AAZk4NGkdEkBKk",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-24T16:00:00Z"
+  },
+  {
+    "id": "tm-hardy-2027-london-g5dzz_9fvtbjx",
+    "artist_slug": "hardy",
+    "artist_name": "Hardy",
+    "event_name": "HARDY - Promise Not To Cancel: Solo Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Shepherds Bush Empire",
+    "datetime_iso": "2027-04-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00657201FFA73E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-london-08-04-2027/event/3E00657201FFA73E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-london-08-04-2027/event/3E00657201FFA73E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00657201FFA73E",
+        "discovery_event_id": "G5dzZ_9FvTBjX",
+        "url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-london-08-04-2027/event/3E00657201FFA73E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_9FvTBjX",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
+  },
+  {
+    "id": "tm-hardy-2027-manchester-g5dzz_96q1kyy",
+    "artist_slug": "hardy",
+    "artist_name": "Hardy",
+    "event_name": "HARDY - Promise Not To Cancel: Solo Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Ritz Manchester",
+    "datetime_iso": "2027-04-09T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006571DA286E79",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-manchester-09-04-2027/event/3E006571DA286E79",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-manchester-09-04-2027/event/3E006571DA286E79",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006571DA286E79",
+        "discovery_event_id": "G5dzZ_96Q1kyy",
+        "url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-manchester-09-04-2027/event/3E006571DA286E79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_96Q1kyy",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
+  },
+  {
+    "id": "tm-hardy-2027-glasgow-1auzk4sgketugdu",
+    "artist_slug": "hardy",
+    "artist_name": "Hardy",
+    "event_name": "HARDY: Promise Not To Cancel Solo Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Galvanizers SWG3",
+    "datetime_iso": "2027-04-11T18:00:00Z",
+    "tour_name": "Promise Not To Cancel Solo Tour",
+    "ticketmaster_event_id": "36006573A9DB5ECD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-glasgow-11-04-2027/event/36006573A9DB5ECD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-glasgow-11-04-2027/event/36006573A9DB5ECD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006573A9DB5ECD",
+        "discovery_event_id": "1AUZk4SGketUgDu",
+        "url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-glasgow-11-04-2027/event/36006573A9DB5ECD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4SGketUgDu",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
+  },
+  {
+    "id": "tm-hardy-2027-belfast-1adoz_pgkuppsm9",
+    "artist_slug": "hardy",
+    "artist_name": "Hardy",
+    "event_name": "HARDY - Promise Not To Cancel: Solo Tour",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The Limelight 1",
+    "datetime_iso": "2027-04-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800656DA55B1B97",
+    "ticketmaster_url": "https://www.ticketmaster.ie/hardy-promise-not-to-cancel-solo-belfast-13-04-2027/event/3800656DA55B1B97",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/hardy-promise-not-to-cancel-solo-belfast-13-04-2027/event/3800656DA55B1B97",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800656DA55B1B97",
+        "discovery_event_id": "1AdOZ_pGkUPpsm9",
+        "url": "https://www.ticketmaster.ie/hardy-promise-not-to-cancel-solo-belfast-13-04-2027/event/3800656DA55B1B97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_pGkUPpsm9",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
+  },
+  {
+    "id": "tm-feid-2027-chicago-vv1kvzvpq9gach3aw",
+    "artist_slug": "feid",
+    "artist_name": "FEID",
+    "event_name": "FEID - FERXXO - THE GREEN STAR Tour 2027",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-03-20T01:00:00Z",
+    "tour_name": "FERXXO - THE GREEN STAR Tour 2027",
+    "ticketmaster_event_id": "040065697E6D217D",
+    "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "040065697E6D217D",
+        "discovery_event_id": "vv1kvZvPQ9GACh3AW",
+        "url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1kvZvPQ9GACh3AW",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-24T16:00:00Z"
+  },
+  {
+    "id": "tm-feid-2027-inglewood-vv1ke8vpq_gac1mpx",
+    "artist_slug": "feid",
+    "artist_name": "FEID",
+    "event_name": "FEID - FERXXO - THE GREEN STAR Tour 2027",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "Intuit Dome",
+    "datetime_iso": "2027-05-01T03:00:00Z",
+    "tour_name": "FERXXO - THE GREEN STAR Tour 2027",
+    "ticketmaster_event_id": "090065699E2B75BE",
+    "ticketmaster_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090065699E2B75BE",
+        "discovery_event_id": "vv1ke8vPQ_GAC1MpX",
+        "url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1ke8vPQ_GAC1MpX",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-11-24T18:00:00Z"
+  },
+  {
+    "id": "tm-travis-tritt-2027-jacksonville-z7r9jz1aaaf8p",
+    "artist_slug": "travis-tritt",
+    "artist_name": "Travis Tritt",
+    "event_name": "Travis Tritt",
+    "city": "Jacksonville",
+    "country": "United States Of America",
+    "venue": "Florida Theatre Jacksonville",
+    "datetime_iso": "2027-03-11T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAAf8p",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8p",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8p",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAAf8p",
+        "discovery_event_id": "Z7r9jZ1AAAf8p",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8p",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf8p",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-chris-tomlin-2027-morrison-z7r9jz1aaa9vg",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Chris Tomlin - Worship Under the Stars",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-25T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA9vg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9vg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9vg",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA9vg",
+        "discovery_event_id": "Z7r9jZ1AAA9vg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9vg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA9vg",
+    "timezone": "America/Denver",
+    "status": "on-sale"
   }
 ]

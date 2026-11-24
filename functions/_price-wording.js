@@ -33,6 +33,11 @@ export const PRICE_SUMMARY = "Starting prices only. Seats and fees vary, and you
 export const MONEY_DISCLOSURE =
   "Some links earn TTC a commission at no extra cost to you. The primary ticket site appears first, then marketplaces in alphabetical or reverse-alphabetical order, which varies by date. Commission does not determine the order.";
 
+/** Under a card's "Lowest listed" line, after "Checked <age>". No seller's fee
+ *  basis is verified, so the comparison says so beside the figure
+ *  (owner-approved 2026-11-24). */
+export const LOWEST_FEE_NOTE = "fees not confirmed";
+
 /** A card or row whose price lanes were checked and none had a price. */
 export const NO_PRICE_NOTE = "No listed price yet.";
 

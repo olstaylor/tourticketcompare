@@ -790,7 +790,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     assert(!/data-cta-lowest|provider-cta-badge/.test(html), "no ranking badge markup on a card");
     const lowLine = html.match(/<p class="provider-cta-lowest">([\s\S]*?)<\/p>/);
     if (lowLine) {
-      assert(/^<strong>Lowest listed: USD\s[\d.,]+<\/strong> on [A-Za-z ]+$/.test(lowLine[1]), "the lowest-listed line names an amount and a provider only");
+      assert(/^<strong>Lowest listed: USD\s[\d.,]+<\/strong> on [A-Za-z ]+<span class="provider-cta-lowest-note">Checked [^<]+ · fees not confirmed<\/span>$/.test(lowLine[1]), "the lowest-listed line names an amount, a provider, its check age and that fees are unconfirmed");
       assert(!/best|deal|save|cheapest/i.test(lowLine[1]), "the lowest-listed line makes no savings or best-deal claim");
     }
     assert(html.includes("Primary seller · may include resale") && html.includes("Resale marketplace"), "seller roles are explicit");

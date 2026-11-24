@@ -11,7 +11,7 @@ function assert(condition, message) {
 }
 
 const appJs = await readFile(new URL("../public/app.js", import.meta.url), "utf8");
-for (const name of ["PRICE_SUMMARY", "PRICE_DISCLOSURE", "NO_PRICE_NOTE", "PRICE_HISTORY_LABEL", "MONEY_DISCLOSURE"]) {
+for (const name of ["PRICE_SUMMARY", "PRICE_DISCLOSURE", "NO_PRICE_NOTE", "PRICE_HISTORY_LABEL", "MONEY_DISCLOSURE", "LOWEST_FEE_NOTE"]) {
   assert(appJs.includes(JSON.stringify(wording[name])), `public/app.js mirrors ${name} (${JSON.stringify(wording[name])})`);
 }
 assert(appJs.includes(JSON.stringify(wording.LAST_SEEN_TAIL)), "public/app.js mirrors LAST_SEEN_TAIL");

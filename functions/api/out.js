@@ -4038,6 +4038,48 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-rascal-flatts",
     redirectUrl: "https://seatgeek.com/rascal-flatts-tickets",
     verified: true
+  },
+  "powderfinger:ticketmaster": {
+    artistSlug: "powderfinger",
+    provider: "ticketmaster",
+    linkId: "tm-artist-powderfinger",
+    redirectUrl: "https://www.ticketmaster.com/powderfinger-tickets/artist/781242",
+    verified: true
+  },
+  "powderfinger:seatgeek": {
+    artistSlug: "powderfinger",
+    provider: "seatgeek",
+    linkId: "sg-artist-powderfinger",
+    redirectUrl: "https://seatgeek.com/powderfinger-tickets",
+    verified: true
+  },
+  "slash:ticketmaster": {
+    artistSlug: "slash",
+    provider: "ticketmaster",
+    linkId: "tm-artist-slash",
+    redirectUrl: "https://www.ticketmaster.com/slash-tickets/artist/771959",
+    verified: true
+  },
+  "slash:seatgeek": {
+    artistSlug: "slash",
+    provider: "seatgeek",
+    linkId: "sg-artist-slash",
+    redirectUrl: "https://seatgeek.com/slash-tickets",
+    verified: true
+  },
+  "culture-club:ticketmaster": {
+    artistSlug: "culture-club",
+    provider: "ticketmaster",
+    linkId: "tm-artist-culture-club",
+    redirectUrl: "https://www.ticketmaster.com/culture-club-tickets/artist/894686",
+    verified: true
+  },
+  "culture-club:seatgeek": {
+    artistSlug: "culture-club",
+    provider: "seatgeek",
+    linkId: "sg-artist-culture-club",
+    redirectUrl: "https://seatgeek.com/culture-club-tickets",
+    verified: true
   }
 };
 

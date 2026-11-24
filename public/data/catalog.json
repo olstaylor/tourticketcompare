@@ -8378,6 +8378,84 @@
         "primary-vs-resale-concert-tickets",
         "how-to-avoid-overpaying-for-concert-tickets"
       ]
+    },
+    {
+      "slug": "powderfinger",
+      "name": "Powderfinger",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Powderfinger artist ticket information",
+      "factual_summary": "Powderfinger is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked nightly for changes.",
+      "ticket_buying_notes": "These links go to the Powderfinger page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Powderfinger Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Powderfinger tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Powderfinger tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "slash",
+      "name": "Slash",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Slash artist ticket information",
+      "factual_summary": "Slash is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked nightly for changes.",
+      "ticket_buying_notes": "These links go to the Slash page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Slash Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Slash tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Slash tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
+    },
+    {
+      "slug": "culture-club",
+      "name": "Culture Club",
+      "short_description": "Rock act listed on Ticketmaster.",
+      "image_alt": "Culture Club artist ticket information",
+      "factual_summary": "Culture Club is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked nightly for changes.",
+      "ticket_buying_notes": "These links go to the Culture Club page on each ticket provider. Prices, fees and availability are set by the provider, so check the final total on their site before you pay.",
+      "seo_title": "Culture Club Tickets & Tour Dates | TourTicketCompare",
+      "meta_description": "Culture Club tour dates and checked ticket links, updated as new shows are confirmed. Compare options, then confirm the final total with the provider.",
+      "faq": [
+        {
+          "question": "Where can I find Culture Club tour dates?",
+          "answer": "Check the verified ticket platform links on this page for the latest tour announcements and availability. Ticket provider sites are the source for current dates and pricing."
+        },
+        {
+          "question": "Is TourTicketCompare official?",
+          "answer": "No. TourTicketCompare is independent and unofficial. It links to verified ticketing platforms so you can check current information directly with the provider."
+        }
+      ],
+      "related_guides": [
+        "how-to-compare-concert-ticket-prices",
+        "when-is-the-best-time-to-buy-concert-tickets",
+        "primary-vs-resale-concert-tickets",
+        "how-to-avoid-overpaying-for-concert-tickets"
+      ]
     }
   ],
   "tours": [],
@@ -16612,6 +16690,90 @@
       "last_checked_at": "2026-11-22",
       "disclosure_required": true,
       "url": "https://seatgeek.com/rascal-flatts-tickets"
+    },
+    {
+      "link_id": "tm-artist-powderfinger",
+      "artist_slug": "powderfinger",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-24",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/powderfinger-tickets/artist/781242"
+    },
+    {
+      "link_id": "sg-artist-powderfinger",
+      "artist_slug": "powderfinger",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-24",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/powderfinger-tickets"
+    },
+    {
+      "link_id": "tm-artist-slash",
+      "artist_slug": "slash",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-24",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/slash-tickets/artist/771959"
+    },
+    {
+      "link_id": "sg-artist-slash",
+      "artist_slug": "slash",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-24",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/slash-tickets"
+    },
+    {
+      "link_id": "tm-artist-culture-club",
+      "artist_slug": "culture-club",
+      "tour_slug": null,
+      "provider": "ticketmaster",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "global",
+      "last_checked_at": "2026-11-24",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/culture-club-tickets/artist/894686"
+    },
+    {
+      "link_id": "sg-artist-culture-club",
+      "artist_slug": "culture-club",
+      "tour_slug": null,
+      "provider": "seatgeek",
+      "destination_type": "artist_page",
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
+      "market": "us",
+      "last_checked_at": "2026-11-24",
+      "disclosure_required": true,
+      "url": "https://seatgeek.com/culture-club-tickets"
     }
   ],
   "safety_rules": [

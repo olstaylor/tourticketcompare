@@ -1,0 +1,320 @@
+[
+  {
+    "id": "tm-slash-2027-cardiff-g5vhz_kueusb3",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Cardiff Castle",
+    "datetime_iso": "2027-06-30T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00653D82371612",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00653D82371612",
+        "discovery_event_id": "G5vHZ_KUeusb3",
+        "url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KUeusb3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-scarborough-1adfz_kgkdfwywm",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-07-01T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500653EC8F79F6E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500653EC8F79F6E",
+        "discovery_event_id": "1AdfZ_KGkDFWyWm",
+        "url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_KGkDFWyWm",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-dublin-1avoz_kgkslysih",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Trinity College",
+    "datetime_iso": "2027-07-03T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800653CEBC31A3C",
+    "ticketmaster_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-dublin-03-07-2027/event/1800653CEBC31A3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-dublin-03-07-2027/event/1800653CEBC31A3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800653CEBC31A3C",
+        "discovery_event_id": "1AvOZ_KGkSlYsIH",
+        "url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-dublin-03-07-2027/event/1800653CEBC31A3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_KGkSlYsIH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-belfast-1adoz_kgkuhgo_o",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Custom House Square Belfast",
+    "datetime_iso": "2027-07-04T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800653D9B311660",
+    "ticketmaster_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-belfast-04-07-2027/event/3800653D9B311660",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-belfast-04-07-2027/event/3800653D9B311660",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800653D9B311660",
+        "discovery_event_id": "1AdOZ_KGkUhGo_O",
+        "url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-belfast-04-07-2027/event/3800653D9B311660",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_KGkUhGo_O",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-halifax-1adfz_kgks-vju1",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Halifax",
+    "country": "Great Britain",
+    "venue": "The Piece Hall",
+    "datetime_iso": "2027-07-06T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500653CE105C34A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-halifax-06-07-2027/event/3500653CE105C34A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-halifax-06-07-2027/event/3500653CE105C34A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500653CE105C34A",
+        "discovery_event_id": "1AdfZ_KGkS-vju1",
+        "url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-halifax-06-07-2027/event/3500653CE105C34A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_KGkS-vju1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-london-1auzk4v0gjzzeck",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Eventim Apollo",
+    "datetime_iso": "2027-07-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006541935738D5",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006541935738D5",
+        "discovery_event_id": "1aUZk4v0gjzZeCk",
+        "url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aUZk4v0gjzZeCk",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

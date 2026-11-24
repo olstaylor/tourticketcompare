@@ -68,6 +68,10 @@ on:
         type: string
         default: tourticketcompare-demand
 
+# A dispatched run names its provider so price-freshness-check's recovery step
+# can count automatic attempts per lane (scripts/recover-stale-prices.mjs).
+run-name: Impact marketplace price snapshots${{ github.event_name == 'workflow_dispatch' && format(' ({0})', inputs.provider) || '' }}
+
 permissions:
   contents: read
 

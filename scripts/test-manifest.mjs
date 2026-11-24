@@ -72,6 +72,7 @@ export const STEPS = [
   { id: "queue:materialize:self-test",           lane: "units",  run: "npm run queue:materialize:self-test" },
   { id: "queue:repair:self-test",                lane: "units",  run: "npm run queue:repair:self-test" },
   { id: "test:provider-url-work",                lane: "units",  run: "node scripts/provider-url-work.test.mjs" },
+  { id: "test:match-review",                      lane: "units",  run: "node scripts/match-review.test.mjs" },
   { id: "required-check:self-test",              lane: "units",  run: "npm run required-check:self-test" },
   { id: "push-branch:self-test",                 lane: "units",  run: "npm run push-branch:self-test" },
   { id: "writer-lanes:self-test",                lane: "units",  run: "npm run writer-lanes:self-test" },

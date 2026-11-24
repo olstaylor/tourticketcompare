@@ -2514,7 +2514,7 @@ function renderTileListHtml(items, { visible = 0, moreLabel = "" } = {}) {
     list
       .map(
         (item) =>
-          `<li><a class="tile${item.muted ? " is-muted" : ""}" href="${escapeAttr(item.href)}"><span class="tile__name">${escapeHtml(
+          `<li${item.attrs ? ` ${item.attrs}` : ""}><a class="tile${item.muted ? " is-muted" : ""}" href="${escapeAttr(item.href)}"><span class="tile__name">${escapeHtml(
             item.name
           )}</span>${item.meta ? `<span class="tile__meta">${escapeHtml(item.meta)}</span>` : ""}</a></li>`
       )
@@ -6384,9 +6384,22 @@ export function renderToursHubBody(route) {
     : `No tracked artist has upcoming dates in ${hub.year} yet. Dates are added as tours are announced.`;
   const listHtml = hub.artists.length
     ? `${renderTileFilterHtml("Filter artists by name", "Find an artist")}${renderTileListHtml(
-        hub.artists.map((artist) => ({ href: artist.path, name: artist.artistName, meta: toursHubArtistMeta(artist) }))
+        hub.artists.map((artist) => ({
+          href: artist.path,
+          name: artist.artistName,
+          meta: toursHubArtistMeta(artist),
+          attrs: `data-by-country="${escapeAttr(JSON.stringify(artist.byCountry || {}))}"`
+        }))
       )}`
     : `<p>${anchor("Browse artists", "/artists", "text-link")} to see what is already on sale.</p>`;
+  const chips = (hub.countryChoices || []).length
+    ? `<div class="country-chooser" data-country-chooser hidden><p class="country-chooser__label" id="countryChooserLabel">Playing in</p><div class="country-chooser__chips" role="group" aria-labelledby="countryChooserLabel"><button type="button" class="chip" data-country="" aria-pressed="true">All countries</button>${hub.countryChoices
+        .map(
+          (choice) =>
+            `<button type="button" class="chip" data-country="${escapeAttr(choice.country)}" aria-pressed="false">${escapeHtml(choice.country)} <span class="chip__count">${choice.artistCount}</span></button>`
+        )
+        .join("")}</div><p class="muted" data-country-status role="status"></p></div>`
+    : "";
   const nameBySlug = new Map(hub.artists.map((artist) => [artist.artistSlug, artist.artistName]));
   const runs = (hub.cityRuns || []).filter((run) => nameBySlug.has(run.artistSlug));
   const runsHtml = runs.length
@@ -6412,7 +6425,7 @@ export function renderToursHubBody(route) {
     lead
   )}</p>${runsHtml}<section class="section-grid"><div class="section-intro"><h2>${escapeHtml(
     `Artists with ${hub.year} dates`
-  )}</h2><p>Most dates first. Months are in each venue's local calendar.</p></div>${listHtml}</section>${collapsedGroupHtml(
+  )}</h2><p>Most dates first. Months are in each venue's local calendar.</p></div>${chips}${listHtml}</section>${collapsedGroupHtml(
     "About this list",
     `<section class="nested-panel"><h2>How this list works</h2><div class="card-grid"><article class="info-card"><h3>The same checked dates</h3><p>Each count comes from the same checked dates on each artist page. Nothing is estimated, and a tour only shows up once its dates are confirmed.</p></article><article class="info-card"><h3>Upcoming dates only</h3><p>Cancelled and postponed shows are left out, and a date drops off once it has passed.</p></article><article class="info-card"><h3>Coverage</h3><p>Coverage is strongest in the United States, with selected UK, Europe and Canada dates. If an artist is missing, they may not be on the site yet.</p></article></div></section>`
   )}<div class="action-row">${anchor("Browse artists", "/artists", "button button-secondary")}${anchor(
@@ -9142,7 +9155,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "tours-hub" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20261102a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261123a" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
@@ -9160,8 +9173,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261123c" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261123c" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261123f" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261123f" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20261123a" defer></script></body>');

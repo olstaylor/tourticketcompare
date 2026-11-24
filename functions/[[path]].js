@@ -40,6 +40,7 @@ import { deriveThisWeek, renderThisWeekHtml, THIS_WEEK_GUIDE_PATHS } from "./_th
 import { derivePlayingSoon, renderPlayingSoonHtml } from "./_playing-soon.js";
 import { deriveToursHub, deriveToursHubCityRuns, deriveHomeCityRuns, TOURS_HUB_PATH, TOURS_HUB_YEAR } from "./_tours-hub.js";
 import { deriveRumouredTours, RUMOURED_TOURS_PATH } from "./_rumoured-tours.js";
+import { PRICE_MOVERS_PATH, fetchPriceMoverRows, derivePriceMovers } from "./_price-movers.js";
 import {
   WORTH_WAITING_PATH,
   WORTH_WAITING_COMPARE_DAYS,
@@ -69,7 +70,7 @@ import {
   WEEKLY_CHANGE_DAYS
 } from "./_event-price-moves.js";
 import { isUpcomingShow, showStartMs } from "./_upcoming.js";
-import { LAST_SEEN_MAX_DAYS, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, PRICE_SUMMARY, lastSeenDate, lastSeenNote, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
+import { LAST_SEEN_MAX_DAYS, LOWEST_FEE_NOTE, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, PRICE_SUMMARY, lastSeenDate, lastSeenNote, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
 import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
 import { deriveEventPriceRange, fetchEventPriceRange } from "./_event-price-range.js";
@@ -838,6 +839,39 @@ async function resolveRoute(pathname, env) {
       description: "How often resale ticket prices fell after a tour's first recorded day, and which US tours have seen listed prices fall or rise lately. Counts, not a forecast.",
       worth,
       breadcrumb: [{ name: "Is it worth waiting?", path }]
+    };
+  }
+
+  // My shows: the visitor's saved dates, kept in their own browser and filled
+  // by public/my-shows.js. Noindex; the server holds no per-visitor data.
+  if (path === MY_SHOWS_PATH) {
+    return {
+      type: "my-shows",
+      path,
+      indexable: false,
+      title: "My Saved Shows | TourTicketCompare",
+      description: "Concert dates you saved on this device, with the current lowest listed price next to the price recorded when you saved them.",
+      breadcrumb: [{ name: "My shows", path }]
+    };
+  }
+
+  // Price movers: real one-site price falls over the last week, noindex while
+  // measured (functions/_price-movers.js).
+  if (path === PRICE_MOVERS_PATH) {
+    const [moverEvents, catalog, artistsMeta] = await Promise.all([loadEvents(env), loadCatalog(env), loadArtistsMeta(env)]);
+    const indexableSlugs = artistsMeta
+      .filter((artist) => artist && artistPageIndexable(artist, moverEvents, slugify(artist.slug)))
+      .map((artist) => slugify(artist.slug));
+    const moverRows = await fetchPriceMoverRows(env?.DEMAND_DB || env?.DB).catch(() => []);
+    const movers = derivePriceMovers(moverRows, moverEvents, catalog, indexableSlugs);
+    return {
+      type: "price-movers",
+      path,
+      indexable: movers.indexable,
+      title: "Concert Ticket Price Drops This Week | TourTicketCompare",
+      description: "Shows where a ticket site's lowest listed price has fallen over the last week, with both prices, the site and when it was checked. Not a forecast.",
+      movers,
+      breadcrumb: [{ name: "Price drops", path }]
     };
   }
 
@@ -3761,7 +3795,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
               row.lowest ? `<span class="price-answer-asof muted">${row.comparedCount} ${row.comparedCount === 1 ? "site priced" : "sites priced"}</span>` : ""
             }`
           : `<span class="muted">${escapeHtml(options?.status || "No ticket links for this date yet.")}</span>`
-        : row.lowest ? otherSitesCellHtml(row) : "—";
+        : row.lowest ? otherSitesCellHtml(row) + otherSitesLinkHtml(artist, row, cardHref, placeFor(row), dateLabel) : "—";
       // data-label carries each cell's column name for the narrow-screen
       // layout, where the table stacks into one block per date and the header
       // row is no longer beside the value (see .price-answer-table in
@@ -3796,6 +3830,16 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   }<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
   }${showPrices ? '<th scope="col">Starting price</th>' : ""}<th scope="col">${ticketOptions ? "Ticket links" : "Other sites"}</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
+}
+
+// In-page link from the other sites' text prices to the date's card, where every
+// ticket site has its own button. Navigation only: no outbound link, no price,
+// no ordering. Skipped for a lone priced site (nothing else to compare).
+function otherSitesLinkHtml(artist, row, cardHref, place, dateLabel) {
+  if (!cardHref || (row.lanes || []).filter((lane) => lane !== row.lowest).length === 0) return "";
+  const label = "See all ticket sites";
+  const aria = `${label} for ${artist.name}, ${place || "this venue"}, ${dateLabel}`;
+  return `<br>${anchor(label, cardHref, "text-link price-answer-more", `aria-label="${escapeAttr(aria)}"`)}`;
 }
 
 // The other sites' own starting prices for one date, cheapest first, each with
@@ -6398,7 +6442,7 @@ export function renderToursHubBody(route) {
           (choice) =>
             `<button type="button" class="chip" data-country="${escapeAttr(choice.country)}" aria-pressed="false">${escapeHtml(choice.country)} <span class="chip__count">${choice.artistCount}</span></button>`
         )
-        .join("")}</div><p class="muted" data-country-status role="status"></p></div>`
+        .join("")}</div><p class="country-chooser__label" id="venueTypeLabel">Venue type</p><div class="country-chooser__chips" role="group" aria-labelledby="venueTypeLabel"><button type="button" class="chip" data-size="" aria-pressed="true">All venues</button><button type="button" class="chip" data-size="stadium" aria-pressed="false">Stadiums</button><button type="button" class="chip" data-size="arena" aria-pressed="false">Arenas</button></div><p class="muted" data-country-status role="status"></p><p class="muted country-chooser__note">Stadiums and arenas are matched on the venue's name only, so a venue with neither word in its name appears under All venues.</p></div>`
     : "";
   const nameBySlug = new Map(hub.artists.map((artist) => [artist.artistSlug, artist.artistName]));
   const runs = (hub.cityRuns || []).filter((run) => nameBySlug.has(run.artistSlug));
@@ -6409,7 +6453,8 @@ export function renderToursHubBody(route) {
         const tiles = runs.map((run) => ({
           href: run.path,
           name: `${nameBySlug.get(run.artistSlug)} in ${run.city}`,
-          meta: [`${run.showCount} dates`, run.venueCount === 1 ? "1 venue" : `${run.venueCount} venues`, run.country].join(" · ")
+          meta: [`${run.showCount} dates`, run.venueCount === 1 ? "1 venue" : `${run.venueCount} venues`, run.country].join(" · "),
+          attrs: `data-run-country="${escapeAttr(run.country)}"`
         }));
         // Phones: the artist list below is what most visitors came for, so only
         // the first runs sit above it. The rest stay as plain links in the page.
@@ -6464,6 +6509,48 @@ export function renderWorthWaitingBody(route) {
     "Limits to keep in mind",
     `<section class="nested-panel"><h2>What this does and doesn't say</h2><ul class="check-list"><li><strong>It is a record, not a forecast.</strong> A price that fell lately can rise tomorrow, and nothing here promises a drop.</li><li><strong>It is the lowest listed resale price, not every seat.</strong> A listed price is not a checkout total: fees, delivery and seat location differ by listing and site.</li><li><strong>US shows only.</strong> TourTicketCompare tracks too few shows elsewhere to say anything yet. Each ticket site is compared only with itself.</li><li><strong>Waiting can cost you.</strong> The cheapest seats may sell out, and official tickets at face value are a different market. This page makes no savings claim: the page shows direction and counts, not prices you would have saved.</li><li><strong>Gaps are not signals.</strong> A show with no reading on either day is left out.</li></ul></section>`
   )}<div class="action-row">${anchor(`${TOURS_HUB_YEAR} tours`, TOURS_HUB_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}${anchor("When to buy tickets", "/guides/when-is-the-best-time-to-buy-concert-tickets", "button button-secondary")}</div></section></main>`;
+}
+
+const MY_SHOWS_PATH = "/my-shows";
+
+export function renderMyShowsBody(route) {
+  return `<main id="mainContent"><section class="content-page" aria-labelledby="myShowsTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="myShowsTitle">My shows</h1><p class="lead">${escapeHtml(
+    "Dates you saved on this device, with today's lowest listed price next to the one recorded when you saved them."
+  )}</p><div data-my-shows><p data-my-shows-status role="status">Loading your saved shows\u2026</p><div class="card-grid" data-my-shows-list></div><noscript><p>My shows needs JavaScript, because your saved dates are stored in this browser.</p></noscript></div><section class="nested-panel"><h2>How this works</h2><ul class="check-list"><li><strong>Saved on this device only.</strong> There is no account or email. Clearing your browser data, or using another device, starts a new list.</li><li><strong>Prices are listed prices, not a checkout total.</strong> Fees, delivery and seat location differ by listing, and the ticket site confirms the final price.</li><li><strong>Sites are compared with themselves.</strong> A change is only shown when the same ticket site listed the lowest price both times.</li></ul></section><div class="action-row">${anchor("Browse artists", "/artists", "button button-secondary")}${anchor("Price drops this week", PRICE_MOVERS_PATH, "button button-secondary")}</div></section></main>`;
+}
+
+export function renderPriceMoversBody(route) {
+  const movers = route.movers || { movers: [], total: 0 };
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const day = (iso) => `${Number(iso.slice(8, 10))} ${months[Number(iso.slice(5, 7)) - 1]}`;
+  const money = (value, currency) => {
+    try {
+      return new Intl.NumberFormat("en", { style: "currency", currency, maximumFractionDigits: value % 1 === 0 ? 0 : 2 }).format(value);
+    } catch {
+      return `${currency} ${value}`;
+    }
+  };
+  const items = movers.movers
+    .map((m) => {
+      const when = m.daysToShow <= 1 ? "tomorrow" : `in ${m.daysToShow} days`;
+      return `<article class="info-card"><h3>${anchor(`${m.artist}, ${m.city}`, m.path, "text-link")}</h3><p>${escapeHtml(`${day(m.localDate)} at ${m.venue} (${when}).`)}</p><p><strong>${escapeHtml(`${m.site}: lowest listed price ${money(m.to, m.currency)} on ${day(m.toDate)}, was ${money(m.from, m.currency)} on ${day(m.fromDate)}.`)}</strong></p><p class="muted">${escapeHtml(`Checked ${day(m.capturedAt.slice(0, 10))}, ${m.capturedAt.slice(11, 16)} UTC. Fees not confirmed.`)}</p></article>`;
+    })
+    .join("");
+  const body = movers.movers.length
+    ? `<section class="section-grid"><div class="section-intro"><h2>Lower than a week ago</h2><p>${escapeHtml(
+        "Each show is compared only with itself, on the same ticket site and in the same currency. A show appears when its lowest listed price is at least 20% (and 20 in that currency) below a week earlier on two readings in a row."
+      )}</p></div><div class="card-grid">${items}</div></section>`
+    : `<section class="nested-panel"><h2>No qualifying drops right now</h2><p>No show has had a held fall of 20% or more in its lowest listed price over the last week. Check back soon, or open an artist page for its latest checked prices.</p></section>`;
+  return `<main id="mainContent"><section class="content-page" aria-labelledby="priceMoversTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="priceMoversTitle">Ticket price drops this week</h1><p class="lead">${escapeHtml(
+    "Shows where a ticket site's lowest listed price has fallen over the last week, with the exact prices and when they were checked."
+  )}</p>${body}${collapsedGroupHtml(
+    "Limits to keep in mind",
+    `<section class="nested-panel"><h2>What this does and doesn't say</h2><ul class="check-list"><li><strong>It is a record, not a forecast.</strong> A price that fell can rise again, and listings can sell out.</li><li><strong>It is the lowest listed price on one site, not a checkout total.</strong> Fees, delivery and seat location differ by listing. The ticket site confirms the final price.</li><li><strong>Sites are not ranked.</strong> A drop on one site says nothing about another site's price.</li><li><strong>Only tracked shows and sites are covered.</strong> A show missing here may simply have had no qualifying fall.</li></ul></section>`
+  )}<div class="action-row">${anchor("My shows", MY_SHOWS_PATH, "button button-secondary")}${anchor("Is it worth waiting?", WORTH_WAITING_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
 }
 
 export function renderRumouredToursBody(route) {
@@ -7023,7 +7110,11 @@ function lowestListedSpec(ctaSpecs) {
 // total") is said once per board, in PRICE_SUMMARY, not on every card.
 const ctaCountLineHtml = (ctaSpecs) => {
   const low = lowestListedSpec(ctaSpecs);
-  return low ? `<p class="provider-cta-lowest"><strong>Lowest listed: ${escapeHtml(low.priceAmount)}</strong> on ${escapeHtml(low.name)}</p>` : "";
+  // Owner-approved 2026-11-24: the line carries the lowest lane's own age and
+  // says fees are unconfirmed, because no seller's fee basis is verified.
+  return low
+    ? `<p class="provider-cta-lowest"><strong>Lowest listed: ${escapeHtml(low.priceAmount)}</strong> on ${escapeHtml(low.name)}<span class="provider-cta-lowest-note">Checked ${escapeHtml(relativeCheckAge(low.lane.fetchedAt))} · ${escapeHtml(LOWEST_FEE_NOTE)}</span></p>`
+    : "";
 };
 
 const pricedCount = (ctaSpecs) => ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf).length;
@@ -8720,6 +8811,8 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "tours-hub") return renderToursHubBody(route);
   if (route.type === "rumoured-tours") return renderRumouredToursBody(route);
   if (route.type === "worth-waiting") return renderWorthWaitingBody(route);
+  if (route.type === "price-movers") return renderPriceMoversBody(route);
+  if (route.type === "my-shows") return renderMyShowsBody(route);
   if (route.type === "presale") return renderPresalePageBody(route, events, env);
 
   if (route.type === "cities-index") {
@@ -9133,7 +9226,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
     '<script src="/app.js?v=20261123a" defer></script>',
-    '<script src="/shell.js?v=20261124a" defer></script>'
+    '<script src="/shell.js?v=20261124b" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.
@@ -9155,7 +9248,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "tours-hub" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20261124a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261124e" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
@@ -9173,8 +9266,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261123f" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261123f" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261124b" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261124b" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20261123a" defer></script></body>');

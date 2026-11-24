@@ -975,5 +975,62 @@
         "end": "2026-12-01T05:59:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-chris-tomlin-2027-morrison-z7r9jz1aaa9vg",
+    "artist_slug": "chris-tomlin",
+    "artist_name": "Chris Tomlin",
+    "event_name": "Chris Tomlin - Worship Under the Stars",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-05-25T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA9vg",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9vg",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9vg",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA9vg",
+        "discovery_event_id": "Z7r9jZ1AAA9vg",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9vg",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA9vg",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Pop"
   }
 ]

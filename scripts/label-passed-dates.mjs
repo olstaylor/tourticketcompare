@@ -14,6 +14,12 @@
 // date can be flagged when it passes), which clears the finding. It adds no fact: the date was
 // already there and the show has happened.
 //
+// One more case, added 2026-11-24: a post that is entirely about shows now over (every
+// full date it names has passed and its related artists have no upcoming date in
+// events.json) gets one dated "Update" line under the front matter saying exactly that
+// and linking the artist page. Both facts come from the post itself and our own event
+// data; nothing is invented, and a post that still names a future date is left alone.
+//
 // What it never changes: sentences. "Twelve nights remain to 31 October" needs a
 // person to put it in the past tense, so those are listed and left alone. Guides
 // are not touched (their freshness lives in the provenance ledger).
@@ -24,6 +30,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { namedDates, staleDatedCopy } from "./lib/date-staleness.mjs";
+import { isUpcomingShow } from "../functions/_upcoming.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -69,16 +76,72 @@ export function setUpdated(source, today) {
   return source.replace(/^(date:\s*.*)$/m, `$1\nupdated: ${today}`);
 }
 
+const NOTE_MARK = "has now passed, and we track no upcoming date";
+
+function readJson(root, rel) {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(root, rel), "utf8"));
+  } catch {
+    return [];
+  }
+}
+
+function longDate(iso) {
+  const [year, month, day] = iso.split("-").map(Number);
+  return `${day} ${MONTHS[month - 1]} ${year}`;
+}
+
+function listNames(names) {
+  return names.length <= 1 ? names.join("") : `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`;
+}
+
+/**
+ * The "Update" line for a post whose subject is over, or "" when it does not
+ * qualify. Needs every full date in the body to be before today, at least one
+ * related artist, and no upcoming event for any of them in `events`.
+ */
+export function endedPostNote(source, { today, events, artists }) {
+  if (source.includes(NOTE_MARK)) return "";
+  const front = String(source).match(/^---\n([\s\S]*?)\n---\n/);
+  if (!front) return "";
+  const slugs = [...(front[1].match(/^related_artists:\n((?:\s+- .+\n?)+)/m)?.[1] || "").matchAll(/^\s+- (.+)$/gm)].map((m) => m[1].trim());
+  if (!slugs.length || slugs.length > 3) return "";
+  const dates = namedDates(source.slice(front[0].length));
+  if (!dates.length || dates.some((date) => date >= today)) return "";
+  const now = Date.parse(`${today}T00:00:00Z`);
+  const names = [];
+  for (const slug of slugs) {
+    const artist = artists.find((entry) => entry.slug === slug);
+    if (!artist?.name) return "";
+    if (events.some((event) => event.artist_slug === slug && isUpcomingShow(event, now))) return "";
+    names.push(artist.name);
+  }
+  const links = slugs.map((slug, index) => `[${names[index]} page](/artists/${slug})`);
+  return `**Update, ${longDate(today)}:** every date this article names ${NOTE_MARK} for ${listNames(names)}. It is kept as a record. For current dates, see the ${listNames(links)}.\n\n`;
+}
+
 export function run({ root = ROOT, today = new Date().toISOString().slice(0, 10), check = false } = {}) {
   const findings = staleDatedCopy({ root, today }).filter((finding) => finding.file.startsWith("content/blog/"));
   const changed = [];
   const needsEditor = [];
+  const events = readJson(root, "public/data/events.json");
+  const artists = readJson(root, "public/data/artists.json");
   for (const finding of findings) {
     const file = path.join(root, finding.file);
     const before = fs.readFileSync(file, "utf8");
-    const { source, labelled } = labelPassedTableDates(before, finding.dates);
-    if (!labelled) { needsEditor.push(finding); continue; }
-    const after = setUpdated(source, updatedFor(source, today));
+    const labelledResult = labelPassedTableDates(before, finding.dates);
+    const { labelled } = labelledResult;
+    let source = labelledResult.source;
+    const sourceWithoutNote = source;
+    const note = endedPostNote(source, { today, events, artists });
+    if (note) {
+      const front = source.match(/^---\n[\s\S]*?\n---\n\n?/)[0];
+      source = front + note + source.slice(front.length);
+    }
+    if (!labelled && !note) { needsEditor.push(finding); continue; }
+    // The note's own date is today's and must not hold `updated` back a day.
+    const after = setUpdated(source, updatedFor(sourceWithoutNote, today));
+    if (note) { changed.push({ file: finding.file, labelled, noted: true }); if (!check) fs.writeFileSync(file, after); continue; }
     // Whatever is left (prose) would still be reported once `updated` moves, so
     // list it for an editor rather than hiding it behind the new date.
     const remaining = finding.dates.filter((date) => namedDates(after.split(/\n---\n/).slice(1).join("\n---\n").split("\n").filter((l) => !/^\s*\|/.test(l)).join("\n")).includes(date));
@@ -115,6 +178,17 @@ function selfTest() {
   ok("updated is today when nothing is upcoming", updatedFor("| a | 31 October 2026 |", "2026-11-10") === "2026-11-10");
   ok("updated stays below a date that is today", updatedFor("| a | 31 October 2026 |\n| b | 10 November 2026 |", "2026-11-10") === "2026-11-09");
   ok("updated stays below a date in the future", updatedFor("| b | 12 November 2026 |", "2026-11-10") === "2026-11-10");
+  const events = [{ artist_slug: "gone", datetime_iso: "2026-10-31T01:00:00Z" }, { artist_slug: "live", datetime_iso: "2027-01-01T01:00:00Z" }];
+  const artists = [{ slug: "gone", name: "Gone Band" }, { slug: "live", name: "Live Band" }];
+  const post = (slug, body) => `---\ntitle: x\ndate: 2026-10-01\nstatus: published\nrelated_artists:\n  - ${slug}\n---\n\n${body}\n`;
+  const ctx = { today: "2026-11-24", events, artists };
+  const note = endedPostNote(post("gone", "Shows on 21 October 2026 and 31 October 2026."), ctx);
+  ok("an ended post gets a dated note with the artist link", note.startsWith("**Update, 24 November 2026:**") && note.includes("[Gone Band page](/artists/gone)") && note.endsWith("\n\n"));
+  ok("a post with a future date gets no note", endedPostNote(post("gone", "Shows on 21 October 2026 and 5 January 2027."), ctx) === "");
+  ok("an artist with an upcoming date gets no note", endedPostNote(post("live", "Shows on 21 October 2026."), ctx) === "");
+  ok("an unknown artist gets no note", endedPostNote(post("nobody", "Shows on 21 October 2026."), ctx) === "");
+  ok("a post with no full date gets no note", endedPostNote(post("gone", "Shows last month."), ctx) === "");
+  ok("the note is not added twice", endedPostNote(post("gone", `${note}Shows on 21 October 2026.`), ctx) === "");
   const failed = checks.filter(([, pass]) => !pass);
   for (const [name, pass] of checks) console.log(`${pass ? "PASS" : "FAIL"}  ${name}`);
   if (failed.length) process.exit(1);
@@ -126,7 +200,7 @@ if (process.argv[1] && import.meta.url === `file://${process.argv[1]}`) {
   if (args.includes("--self-test")) selfTest();
   else {
     const { changed, needsEditor } = run({ check: args.includes("--check") });
-    for (const item of changed) console.log(`${args.includes("--check") ? "would label" : "labelled"} ${item.labelled} passed date(s) in ${item.file}`);
+    for (const item of changed) console.log(`${args.includes("--check") ? "would label" : "labelled"} ${item.labelled} passed date(s)${item.noted ? " and add an ended-post note" : ""} in ${item.file}`);
     for (const item of needsEditor) console.log(`needs an editor (prose): ${item.file} names ${item.dates.join(", ")}`);
     if (changed.length && !args.includes("--check")) console.log("Now run: npm run blog:build");
     if (args.includes("--check") && (changed.length || needsEditor.length)) process.exit(1);

@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "id": "tm-chris-brown-2026-miami-beach-rz7hnez1a4vjgk",
+    "artist_slug": "chris-brown",
+    "artist_name": "Chris Brown",
+    "event_name": "Chris Brown",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "LIV Nightclub Miami",
+    "datetime_iso": "2026-12-07T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15066313",
+    "ticketmaster_url": "https://www.ticketweb.com/event/chris-brown-liv-nightclub-miami-tickets/15066313",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/chris-brown-liv-nightclub-miami-tickets/15066313",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15066313",
+        "discovery_event_id": "rZ7HnEZ1A4vJGK",
+        "url": "https://www.ticketweb.com/event/chris-brown-liv-nightclub-miami-tickets/15066313",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1A4vJGK",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "genre": "R&B"
+  }
+]

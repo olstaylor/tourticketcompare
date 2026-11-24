@@ -2517,6 +2517,12 @@ summary {
   line-height: 1.35;
 }
 
+.show-card .provider-cta-lowest .provider-cta-lowest-note {
+  display: block;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
 .show-card .provider-cta-group {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
@@ -3367,3 +3373,14 @@ code {
 }
 .country-chooser .chip[aria-pressed="true"] { font-weight: 700; text-decoration: underline; }
 .country-chooser .chip__count { opacity: 0.65; }
+.country-chooser__note { font-size: 0.8rem; margin: 0.2rem 0 0; }
+
+/* "See all ticket sites" under a date's other-site prices (artist-city table):
+   a 44px tap target, block on phones where the table stacks. */
+.price-answer-table .price-answer-more {
+  display: inline-block;
+  min-height: 44px;
+  padding: 12px 0 0;
+  box-sizing: border-box;
+  font-weight: 700;
+}

@@ -90,12 +90,31 @@ test('intent tokens stay TTC-only and cannot alter an approved destination', asy
   } finally { db.close(); }
 });
 
+test('receipt-only token groups stay out of the intent match rate; empty input is unavailable', () => {
+  const pair = { intents: 1, receipts: 1, blocked: 0, provider_min: 'seatgeek', provider_max: 'seatgeek', event_min: 'e1', event_max: 'e1', first_at: '2026-11-20T10:00:00Z', last_at: '2026-11-20T10:00:01Z' };
+  const automated = { ...pair, intents: 0 };
+  const result = summarizeBrowserIntentPairs([pair, automated, automated, automated]);
+  assert.equal(result.matched, 1);
+  assert.equal(result.receipt_only, 3);
+  assert.equal(result.unmatched, 3);
+  assert.equal(result.intent_groups, 1);
+  assert.equal(result.intent_match_rate, 1);
+  const none = summarizeBrowserIntentPairs([automated]);
+  assert.equal(none.intent_match_rate, null);
+  assert.equal(none.conversion_rate, null);
+});
+
 test('intent matching rejects duplicates, missing receipts, tuple and timing mismatches', () => {
   const pair = { intents: 1, receipts: 1, blocked: 0, provider_min: 'seatgeek', provider_max: 'seatgeek', event_min: 'event1', event_max: 'event1', client_source_path: '/artists/test-artist', client_landing_path: '/blog/test-guide', first_at: '2026-10-09T10:00:00Z', last_at: '2026-10-09T10:00:01Z' };
   const result = summarizeBrowserIntentPairs([pair, { ...pair, intents: 2 }, { ...pair, receipts: 0 }, { ...pair, provider_max: 'vivid-seats' }, { ...pair, event_max: 'event2' }, { ...pair, last_at: '2026-10-09T10:06:00Z' }]);
   assert.equal(result.matched, 1);
   assert.equal(result.ambiguous, 1);
   assert.equal(result.unmatched, 1);
+  assert.equal(result.intent_only, 1);
+  assert.equal(result.receipt_only, 0);
+  assert.equal(result.intent_groups, 6, 'all six groups carry a client intent');
+  assert.equal(result.intent_match_rate, 1 / 6);
+  assert.equal(result.conversion_rate, null);
   assert.equal(result.tuple_mismatch, 2);
   assert.equal(result.timing_mismatch, 1);
   assert.equal(result.conversion_rate, null);

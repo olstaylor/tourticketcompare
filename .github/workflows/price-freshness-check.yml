@@ -40,6 +40,12 @@ jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    # Recovery (below) dispatches the snapshot writers and keeps one rolling
+    # issue. It is the only write this job makes; the probe stays read-only.
+    permissions:
+      contents: read
+      actions: write
+      issues: write
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -63,6 +69,28 @@ jobs:
           set -euo pipefail
           node scripts/check-price-snapshot-freshness.mjs --base-url "$BASE_URL" --json \
             | tee "$RUNNER_TEMP/price-freshness.json"
+
+      # Added 2026-11-24. When GitHub drops snapshot ticks or Impact answers 5xx,
+      # prices age until Site health goes red and someone dispatches the writers
+      # by hand. This does that dispatch for any lane whose displayed prices are
+      # mostly over 6h old: apply=true, one lane's own writer, never while a run is
+      # active, 45 minutes apart, at most 3 automatic runs per lane in 6 hours.
+      # A lane still over the 12h gate after that gets one rolling
+      # automation:price-recovery issue. Uses this job's GITHUB_TOKEN; no PAT.
+      - name: Recover aging prices
+        if: always()
+        env:
+          BASE_URL: ${{ github.event.inputs.base_url || 'https://tourticketcompare.com' }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          if [ "${GITHUB_REPOSITORY}" != "olstaylor/tourticketcompare" ] || [ "${BASE_URL}" != "https://tourticketcompare.com" ]; then
+            echo "Recovery runs only against production on the main repository." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          node scripts/recover-stale-prices.mjs --self-test
+          node scripts/recover-stale-prices.mjs --base-url "$BASE_URL" | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Summarise
         if: always()

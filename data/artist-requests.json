@@ -2,6 +2,86 @@
   "description": "Owner artist requests (2026-09-24). Add an artist by name and the next daily auto-promote run (auto-promote.yml, 10:45 UTC) captures both provider identities from their APIs, screens it, promotes it and ingests its dates in one auto-merged PR; the same run posts the verdict to the automation:roster-candidates issue. Requests skip the volume thresholds D3/D4 (a named request is the human judgement they stand in for) but never identity (D1), the denylist, music classification (D2), a dead artist page or the title checks (D5). Optional ticketmaster_attraction_id pins the Ticketmaster identity when the name is ambiguous; only use an id copied from Ticketmaster. An entry whose artist is already on the site is ignored, so it is safe to leave entries in place. Validate with `npm run artists:requests:check`. Runbook: docs/ARTIST_INGESTION.md.",
   "requests": [
     {
+      "name": "Powderfinger",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 35 AU dates from Nov 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Slash",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK dates Jun 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Culture Club",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK arena dates; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "10cc",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 19 UK dates from Feb 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Doobie Brothers",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists CA dates from Aug 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Tina Arena",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists AU dates from Aug 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Jorja Smith",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists The O2 London 17 Jul 2027 plus 6 more 2027 dates; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Courteeners",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists outdoor UK 2027 dates incl. Lincoln Castle, Newcastle, Piece Hall; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "N-Dubz",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 13 UK arena dates Feb-Mar 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Steps",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 42 UK/IE dates from Nov 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Jamiroquai",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists The O2 London 15, 16, 19 Jul 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Toto",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 10 UK/IE dates Jun 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Scorpions",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK/IE dates Jun-Jul 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Billy Ocean",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK arena dates Oct 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "The Human League",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 19 UK/IE dates from Jun 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "S Club",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists 19 UK arena dates Oct 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Thomas Rhett",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists Manchester, London, Glasgow Apr 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "André Rieu",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK/IE dates Sep-Oct 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Sonny Fodera",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK arena dates Mar 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
+      "name": "Electric Callboy",
+      "note": "2026-11-24 owner: front of the queue. Ticketmaster Discovery lists UK/IE dates Jan 2027; no TTC page. Screen still verifies identity and dates on both APIs."
+    },
+    {
       "name": "Tori Kelly",
       "note": "2026-11-22 owner: put at the front of the daily queue (on-sale in the 20 Nov calendar, no TTC page). Screen still verifies identity and dates on both APIs."
     },

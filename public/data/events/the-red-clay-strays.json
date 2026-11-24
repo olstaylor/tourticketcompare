@@ -1226,7 +1226,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-raleigh-lenovo-center-1-22-2027--concerts-country-and-folk/production/7637000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-raleigh-north-carolina-01-22-2027/event/2D00653CB7AEBFCA",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1292,6 +1292,11 @@
         "name": "Cyber Monday Offer",
         "start": "2026-11-23T15:00:00Z",
         "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300893/The-Red-Clay-Strays-tickets-Fri-Jan-22-2027-Lenovo-Center",
@@ -1590,7 +1595,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-omaha-chi-health-center-omaha-1-31-2027/production/7637012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-omaha-nebraska-01-31-2027/event/0600653CE4D6E031",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1654,6 +1659,11 @@
         "end": "2027-02-01T00:00:00Z"
       },
       {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
+      },
+      {
         "name": "2 for 1 Tickets Offer",
         "start": "2026-11-27T14:00:00Z",
         "end": "2027-01-01T04:00:00Z"
@@ -1680,7 +1690,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-indianapolis-gainbridge-fieldhouse-2-5-2027/production/7637016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-indianapolis-indiana-02-05-2027/event/0500653CCBB0AB1E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1741,6 +1751,11 @@
         "name": "Amex Reserved Tickets",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-02-05T23:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300898/The-Red-Clay-Strays-tickets-Fri-Feb-5-2027-Gainbridge-Fieldhouse",
@@ -1766,7 +1781,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-charleston-charleston-coliseum-and-convention-center-2-11-2027/production/7637070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-charleston-west-virginia-02-11-2027/event/1600653E87F13770",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1823,6 +1838,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-02-07T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -2019,7 +2039,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-edmonton-rogers-place-3-12-2027--concerts-country-and-folk/production/7637030",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-red-clay-strays-edmonton-alberta-03-12-2027/event/1100653CDA80BD24",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2075,6 +2095,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-03-08T04:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
       },
       {
         "name": "Ticketmaster 2026 Holiday Promotion",
@@ -2598,7 +2623,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-bangor-maine-savings-amphitheater-7-23-2027/production/7637060",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-bangor-maine-07-23-2027/event/0100653749823DAA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2669,6 +2694,11 @@
         "name": "2 For 1 Tickets Special Offer",
         "start": "2026-11-11T14:00:00Z",
         "end": "2027-01-01T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300903/The-Red-Clay-Strays-tickets-Fri-Jul-23-2027-Maine-Savings-Amphitheater",
@@ -3189,7 +3219,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-rogers-walmart-amp-9-9-2027--concerts-country-and-folk/production/7637068",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-rogers-arkansas-09-09-2027/event/1B00653D91449F76",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3250,6 +3280,11 @@
         "name": "Amex Reserved Tickets",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-09-10T02:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
       },
       {
         "name": "Me + 3 4-Pack Offer",
@@ -3620,7 +3655,7 @@
         "event_id": 18592284,
         "url": "https://seatgeek.com/the-red-clay-strays-tickets/cleveland-ohio-rocket-arena-2027-02-04-7-pm/concert/18592284",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3689,7 +3724,7 @@
         "event_id": 18639134,
         "url": "https://seatgeek.com/the-red-clay-strays-tickets/jacksonville-florida-vystar-veterans-memorial-arena-2027-02-26-7-pm/concert/18639134",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {

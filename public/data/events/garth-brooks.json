@@ -590,7 +590,7 @@
         "event_id": 18726838,
         "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-04-8-pm/concert/18726838",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -648,7 +648,7 @@
         "event_id": 18726837,
         "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-05-8-pm/concert/18726837",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -706,7 +706,7 @@
         "event_id": 18739726,
         "url": "https://seatgeek.com/garth-brooks-tickets/hamilton-canada-td-coliseum-2026-12-06-2-pm/concert/18739726",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1724,5 +1724,123 @@
     "genre": "Country",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8359854",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8359854/Garth-Brooks-tickets-Fri-Dec-11-2026-Target-Center"
+  },
+  {
+    "id": "tm-garth-brooks-2027-lexington-1faovpqvbjz78a57",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "Rupp Arena",
+    "datetime_iso": "2027-02-13T01:00:00Z",
+    "tour_name": "Blame It All On My Roots Arena Tour",
+    "ticketmaster_event_id": "160065741626F4A3",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "160065741626F4A3",
+        "discovery_event_id": "1FAOvPqvbJZ78A57",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1FAOvPqvbJZ78A57",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
+  },
+  {
+    "id": "tm-garth-brooks-2027-lexington-16pzk4vaxzag8a5f",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Lexington",
+    "country": "United States Of America",
+    "venue": "Rupp Arena",
+    "datetime_iso": "2027-02-14T01:00:00Z",
+    "tour_name": "Blame It All On My Roots Arena Tour",
+    "ticketmaster_event_id": "16006574162BF4A7",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "16006574162BF4A7",
+        "discovery_event_id": "16pZk4VAxZAG8A5F",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16pZk4VAxZAG8A5F",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   }
 ]

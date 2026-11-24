@@ -1,0 +1,40 @@
+{
+  "storyType": "2027-since-first-listed",
+  "asOf": "2026-11-24",
+  "source": "provider_pricing_daily (D1); query in query.sql, run 2026-11-24",
+  "scope": "2027 shows; one site's lowest listed price over its first 7 recorded days vs 18-24 Nov 2026; series that started on or before 2026-10-03; USD as listed; under $1,000; each site vs itself",
+  "shows": 1039,
+  "artists": 68,
+  "comparisons": 2191,
+  "lower": 1179,
+  "higher": 715,
+  "same": 297,
+  "medianChangePct": -3.16,
+  "avgFirstUsd": 130.53,
+  "avgLastUsd": 127.88,
+  "artistsMoreFallsThanRises": 45,
+  "largestArtistShareOfComparisons": 0.053,
+  "sites": [
+    { "site": "stubhub-international", "comparisons": 463, "artists": 47, "lower": 268, "higher": 144, "same": 51 },
+    { "site": "ticketnetwork", "comparisons": 836, "artists": 67, "lower": 512, "higher": 233, "same": 91 },
+    { "site": "vivid-seats", "comparisons": 892, "artists": 63, "lower": 399, "higher": 338, "same": 155 }
+  ],
+  "tours": [
+    { "artist": "gracie-abrams", "shows": 45, "medianPct": -34.5, "earliestFirstRecorded": "2026-07-30" },
+    { "artist": "harry-styles", "shows": 28, "medianPct": -32.7, "earliestFirstRecorded": "2026-09-11" },
+    { "artist": "saint-levant", "shows": 11, "medianPct": -31.0, "earliestFirstRecorded": "2026-09-10" },
+    { "artist": "stella-lefty", "shows": 22, "medianPct": -29.7, "earliestFirstRecorded": "2026-09-10" },
+    { "artist": "chelsea-cutler", "shows": 12, "medianPct": -21.4, "earliestFirstRecorded": "2026-10-02" },
+    { "artist": "hilary-duff", "shows": 31, "medianPct": -19.9, "earliestFirstRecorded": "2026-09-24" },
+    { "artist": "the-red-clay-strays", "shows": 25, "medianPct": -19.6, "earliestFirstRecorded": "2026-10-02" },
+    { "artist": "lizzy-mcalpine", "shows": 31, "medianPct": -17.1, "earliestFirstRecorded": "2026-09-26" },
+    { "artist": "niall-horan", "shows": 24, "medianPct": -13.0, "earliestFirstRecorded": "2026-07-30" },
+    { "artist": "oasis", "shows": 35, "medianPct": -10.3, "earliestFirstRecorded": "2026-09-24" },
+    { "artist": "olivia-rodrigo", "shows": 41, "medianPct": 45.9, "earliestFirstRecorded": "2026-07-22" },
+    { "artist": "luke-combs", "shows": 11, "medianPct": 18.0, "earliestFirstRecorded": "2026-08-28" },
+    { "artist": "metallica", "shows": 18, "medianPct": 12.8, "earliestFirstRecorded": "2026-08-22" },
+    { "artist": "hans-zimmer", "shows": 29, "medianPct": 10.8, "earliestFirstRecorded": "2026-09-24" },
+    { "artist": "tobymac", "shows": 27, "medianPct": 7.5, "earliestFirstRecorded": "2026-09-12" }
+  ],
+  "note": "Draft figures from the 2026-11-24 run. Re-run before publishing on 2026-12-01 and update."
+}

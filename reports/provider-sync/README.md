@@ -8,5 +8,6 @@ This directory contains the latest machine-generated audit output from provider 
 | `seatgeek-cta-verify.md` | `scripts/verify-seatgeek-events.mjs` |
 | `vividseats-cta-sync.md` | `scripts/sync-vividseats-events.mjs` |
 | `ticketnetwork-event-sync.md`, `ticket-liquidator-event-sync.md`, `stubhub-international-event-sync.md` | `scripts/sync-impact-marketplace-events.mjs` |
+| `match-review.md` | `scripts/report-match-review.mjs`: read-only queue of ambiguous matches the syncs withheld; human decisions go in `data/match-review-decisions.json` |
 
 These reports are operational evidence, not documentation and not a source of current counts or product policy. Do not hand-edit them. The corresponding workflow regenerates and commits the relevant report when event data changes; the three Impact marketplace logs are also committed when their per-event outcomes change. Current state belongs in `PROJECT_STATUS.md`; historical runs remain available in git history and workflow logs.

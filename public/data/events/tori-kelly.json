@@ -372,7 +372,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "0900656DDA633194",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-anaheim-california-03-19-2027/event/0900656DDA633194",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/anaheim-california-house-of-blues-anaheim-2027-03-19-7-pm/concert/18778541",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-anaheim-house-of-blues-anaheim-3-19-2027/production/7880440",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-anaheim-california-03-19-2027/event/0900656DDA633194",
@@ -388,11 +388,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778541,
+        "url": "https://seatgeek.com/tori-kelly-tickets/anaheim-california-house-of-blues-anaheim-2027-03-19-7-pm/concert/18778541",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880440,
@@ -1941,7 +1941,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "1000656D225F8EF9",
     "ticketmaster_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-toronto-ontario-04-21-2027/event/1000656D225F8EF9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/toronto-canada-history-2027-04-21-7-pm/concert/18778583",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-toronto-history-toronto-4-21-2027/production/7880504",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-toronto-ontario-04-21-2027/event/1000656D225F8EF9",
@@ -1957,11 +1957,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778583,
+        "url": "https://seatgeek.com/tori-kelly-tickets/toronto-canada-history-2027-04-21-7-pm/concert/18778583",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880504,

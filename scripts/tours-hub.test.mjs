@@ -121,4 +121,10 @@ assert(withChips.includes("data-country-chooser") && withChips.includes('data-co
 assert(withChips.includes("data-by-country="), "each artist tile carries its per-country counts");
 assert(!empty.includes("data-country-chooser"), "no chips when there is nothing to choose");
 
+import { venueTypeFromName } from "../functions/_tours-hub.js";
+assert(venueTypeFromName("Lucas Oil Stadium") === "stadium" && venueTypeFromName("Stade de France") === "stadium", "stadium is read from the venue name");
+assert(venueTypeFromName("O2 Arena") === "arena", "arena is read from the venue name");
+assert(venueTypeFromName("Madison Square Garden") === "" && venueTypeFromName("") === "" && venueTypeFromName(null) === "", "a venue whose name says neither is left unclassified");
+assert(withChips.includes('data-size="stadium"') && withChips.includes("matched on the venue's name only"), "venue type chips and the name-only note render");
+
 console.log(`tours-hub: ${passed} assertions passed`);

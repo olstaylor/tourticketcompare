@@ -1,1 +1,301 @@
-[]
+[
+  {
+    "id": "tm-hardy-2027-london-g5dzz_9fvtbjx",
+    "artist_slug": "hardy",
+    "artist_name": "Hardy",
+    "event_name": "HARDY - Promise Not To Cancel: Solo Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Shepherds Bush Empire",
+    "datetime_iso": "2027-04-08T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E00657201FFA73E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-london-08-04-2027/event/3E00657201FFA73E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-london-08-04-2027/event/3E00657201FFA73E",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E00657201FFA73E",
+        "discovery_event_id": "G5dzZ_9FvTBjX",
+        "url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-london-08-04-2027/event/3E00657201FFA73E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_9FvTBjX",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 SHEPHERD'S BUSH EMPIRE)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "HARDY Nation App Premium Presale",
+        "start": "2026-11-24T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "HARDY Nation App Member Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-hardy-2027-manchester-g5dzz_96q1kyy",
+    "artist_slug": "hardy",
+    "artist_name": "Hardy",
+    "event_name": "HARDY - Promise Not To Cancel: Solo Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Ritz Manchester",
+    "datetime_iso": "2027-04-09T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006571DA286E79",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-manchester-09-04-2027/event/3E006571DA286E79",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-manchester-09-04-2027/event/3E006571DA286E79",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006571DA286E79",
+        "discovery_event_id": "G5dzZ_96Q1kyy",
+        "url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-manchester-09-04-2027/event/3E006571DA286E79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_96Q1kyy",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 RITZ MANCHESTER)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "HARDY Nation App Premium Presale",
+        "start": "2026-11-24T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "HARDY Nation App Member Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2 Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-hardy-2027-glasgow-1auzk4sgketugdu",
+    "artist_slug": "hardy",
+    "artist_name": "Hardy",
+    "event_name": "HARDY: Promise Not To Cancel Solo Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "Galvanizers SWG3",
+    "datetime_iso": "2027-04-11T18:00:00Z",
+    "tour_name": "Promise Not To Cancel Solo Tour",
+    "ticketmaster_event_id": "36006573A9DB5ECD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-glasgow-11-04-2027/event/36006573A9DB5ECD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-glasgow-11-04-2027/event/36006573A9DB5ECD",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006573A9DB5ECD",
+        "discovery_event_id": "1AUZk4SGketUgDu",
+        "url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-glasgow-11-04-2027/event/36006573A9DB5ECD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZk4SGketUgDu",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SWG3 LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country"
+  },
+  {
+    "id": "tm-hardy-2027-belfast-1adoz_pgkuppsm9",
+    "artist_slug": "hardy",
+    "artist_name": "Hardy",
+    "event_name": "HARDY - Promise Not To Cancel: Solo Tour",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "The Limelight 1",
+    "datetime_iso": "2027-04-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800656DA55B1B97",
+    "ticketmaster_url": "https://www.ticketmaster.ie/hardy-promise-not-to-cancel-solo-belfast-13-04-2027/event/3800656DA55B1B97",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/hardy-promise-not-to-cancel-solo-belfast-13-04-2027/event/3800656DA55B1B97",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800656DA55B1B97",
+        "discovery_event_id": "1AdOZ_pGkUPpsm9",
+        "url": "https://www.ticketmaster.ie/hardy-promise-not-to-cancel-solo-belfast-13-04-2027/event/3800656DA55B1B97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_pGkUPpsm9",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "LIMELIGHT BELFAST LTD"
+    ],
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "HARDY Nation App Premium Presale",
+        "start": "2026-11-24T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "HARDY Nation App Member Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      }
+    ]
+  }
+]

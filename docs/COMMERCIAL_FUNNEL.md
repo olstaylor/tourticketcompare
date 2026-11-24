@@ -78,6 +78,11 @@ artist for artist-level links without an event) and a five-minute
 maximum time span. Duplicates, blocked paths, mismatches and incomplete groups
 are reported separately. This partial correlation does not prove a human,
 provider arrival or purchase, and does not unlock visitor conversion rates.
+`unmatched` splits into `receipt_only` (token on a receipt, no client intent:
+the beacon was dropped or never sent; cause not established) and `intent_only`.
+`intent_match_rate` is `matched` over token groups with at least one client
+intent. Receipt-only groups are excluded from that denominator. It covers
+consented tokens only and is not a conversion rate.
 Both the normal route shell and fallback app bundle attach this token.
 `by_client_page` honors the report’s `--top` and `--min-clicks` thresholds and
 groups only accepted matches by client-reported source page,

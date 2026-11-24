@@ -64,7 +64,7 @@
     "city": "Auckland",
     "country": "New Zealand",
     "venue": "Spark Arena",
-    "datetime_iso": "2026-12-01T06:00:00Z",
+    "datetime_iso": "2026-12-01T05:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "240064E3C20634BF",
     "ticketmaster_url": "https://www.ticketmaster.co.nz/boyz-ii-men-auckland-01-12-2026/event/240064E3C20634BF",
@@ -72,7 +72,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/boyz-ii-men-auckland-01-12-2026/event/240064E3C20634BF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -271,7 +271,7 @@
         "event_id": 18320946,
         "url": "https://seatgeek.com/boyz-ii-men-tickets/norman-oklahoma-riverwind-casino-2026-12-18-8-pm/concert/18320946",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -341,7 +341,7 @@
         "event_id": 18211756,
         "url": "https://seatgeek.com/boyz-ii-men-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-19-8-pm/concert/18211756",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -395,7 +395,7 @@
         "event_id": 18739687,
         "url": "https://seatgeek.com/boyz-ii-men-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-02-05-8-pm/concert/18739687",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {

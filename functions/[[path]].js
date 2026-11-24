@@ -3712,7 +3712,10 @@ function renderCheapestAcrossDatesHtml(artist, rows, { heading, titleId, placeFo
         provider: lane.provider,
         artistSlug: artist.slug,
         showId: row.showId,
-        ctaLocation
+        ctaLocation,
+        // The sentence above names the date; the button repeats it so the tap
+        // target on a multi-date page says which date it opens.
+        dateLabel: date
       });
       return `<p>${escapeHtml(
         `${prefix}: ${amount} on ${lane.name} for ${date}${place ? ` in ${place}` : ""}.`
@@ -6865,7 +6868,8 @@ function renderProviderCtaButtonHtml(name, href, amount, analytics = {}) {
   const role = general
     ? `${analytics.checkKind === "page" ? "Artist page" : "Site search"} · not this date`
     : primary ? "Primary seller · may include resale" : analytics.provider === "seatgeek" ? "Marketplace · check ticket type" : "Resale marketplace";
-  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${primary ? " provider-cta-primary" : ""}${general ? " provider-cta-general" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="provider-cta-role">${escapeHtml(role)}</span><span class="${valueClass}">${amount ? "From " : ""}${escapeHtml(value)}</span></a>`;
+  const roleText = analytics.dateLabel && !general ? `${role} · ${analytics.dateLabel}` : role;
+  return `<a class="provider-cta${amount ? " provider-cta-priced" : ""}${primary ? " provider-cta-primary" : ""}${general ? " provider-cta-general" : ""}" href="${escapeAttr(trackedHref)}" target="_blank" rel="${escapeAttr(outboundCtaRel(trackedHref) || "noopener")}"${dataAttrs}><span class="provider-cta-name">${escapeHtml(name)}</span><span class="provider-cta-role">${escapeHtml(roleText)}</span><span class="${valueClass}">${amount ? "From " : ""}${escapeHtml(value)}</span></a>`;
 }
 
 // Copy for a card whose lanes were checked and none had an eligible snapshot.

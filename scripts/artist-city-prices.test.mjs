@@ -434,6 +434,8 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   assert(cheapest.includes(`>Cheapest ${ARTIST.name} tickets in ${RUN_CITY}</h2>`), "the multi-date page names the cheapest under a search-wording heading");
   assert(/Cheapest listed price of 2 priced dates: USD\s182 on Vivid Seats for /.test(text(cheapest)) && !/USD\s240/.test(cheapest) && /<time datetime=/.test(cheapest), "the cheapest names its figure, site, date and check time");
   assert(page.main.indexOf("artistCityCheapestTitle") < page.main.indexOf("artistCityPriceTitle"), "the cheapest sits above the per-date table");
+  const cheapestRole = cheapest.match(/<span class="provider-cta-role">([^<]*)<\/span>/)?.[1] || "";
+  assert(/^Resale marketplace · \w{3}, \w{3} \d{1,2}, \d{4}$/.test(cheapestRole), "the cheapest button repeats its date so the tap target names which date it opens");
   assert(
     !body.includes("USD 145"),
     "a price from a different city never reaches this page"

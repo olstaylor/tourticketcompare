@@ -641,6 +641,11 @@ from recorded receipts (a provider with button clicks but no receipts), never by
 firing test redirects, because Impact would count those as clicks. Thresholds
 live in `THRESHOLDS` in the script.
 
+The issue also carries a per-provider reconciliation table over the whole window:
+button clicks, page-backed redirects, their ratio, and the share of button clicks
+that carried the consent token (`browserIntentId`). It is descriptive only: no
+flag reads it, and Impact click counts are deliberately left out.
+
 An unmatched Impact order raises an amber `attribution_gap`, even when click
 delivery is healthy. The report reuses the performance report's retained-click
 matcher and shows aggregate reasons: missing or invalid Sub IDs, missing or

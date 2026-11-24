@@ -534,7 +534,7 @@
     "ticketmaster_event_id": "Z7r9jZ1A70Eoz",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
     "seatgeek_url": "https://seatgeek.com/air-supply-tickets/jacksonville-florida-florida-theatre-jacksonville-2026-11-22-7-pm/concert/18355667",
-    "vividseats_url": "https://www.vividseats.com/air-supply-tickets-jacksonville-florida-theatre-jacksonville-11-22-2026/production/7047661",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A70Eoz",
     "last_verified_at": "2026-11-07",
@@ -556,11 +556,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 7047661,
-        "url": "https://www.vividseats.com/air-supply-tickets-jacksonville-florida-theatre-jacksonville-11-22-2026/production/7047661",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -570,25 +570,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7985796",
-        "url": "https://www.ticketnetwork.com/en/p/7985796",
-        "verified": true,
-        "last_verified_at": "2026-11-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7985796",
-        "url": "https://www.ticketliquidator.com/tickets/7985796/Air-Supply-tickets-Sun-Nov-22-2026-Florida-Theatre-Jacksonville",
-        "verified": true,
-        "last_verified_at": "2026-11-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70Eoz",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7985796",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7985796/Air-Supply-tickets-Sun-Nov-22-2026-Florida-Theatre-Jacksonville",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "genre": "Pop"
   },
   {
@@ -638,6 +638,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8204003",
+        "url": "https://www.ticketnetwork.com/en/p/8204003",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8204003",
+        "url": "https://www.ticketliquidator.com/tickets/8204003/Air-Supply-tickets-Tue-Dec-15-2026-Auckland-Civic-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17aZv0G65RxwS3Q",
@@ -646,7 +660,9 @@
     "organizer_names": [
       "AUCKLAND LIVE"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8204003",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8204003/Air-Supply-tickets-Tue-Dec-15-2026-Auckland-Civic-Theatre"
   },
   {
     "id": "tm-air-supply-2027-fort-pierce-vvg1vz_8hv66ia",
@@ -700,14 +716,14 @@
         "event_id": "8199121",
         "url": "https://www.ticketnetwork.com/en/p/8199121",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8199121",
         "url": "https://www.ticketliquidator.com/tickets/8199121/Air-Supply-tickets-Thu-Jan-21-2027-Sunrise-Theatre-FL",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -734,7 +750,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1A7POZg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/daytona-beach-florida-peabody-auditorium-2027-01-22-8-pm/concert/18355671",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7POZg",
@@ -769,12 +785,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056799",
+        "url": "https://www.ticketnetwork.com/en/p/8056799",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056799",
+        "url": "https://www.ticketliquidator.com/tickets/8056799/Air-Supply-tickets-Fri-Jan-22-2027-Peabody-Auditorium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7POZg",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056799",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056799/Air-Supply-tickets-Fri-Jan-22-2027-Peabody-Auditorium"
   },
   {
     "id": "tm-air-supply-2027-sarasota-z7r9jz1a7p_4p",
@@ -828,14 +860,14 @@
         "event_id": "8062550",
         "url": "https://www.ticketnetwork.com/en/p/8062550",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8062550",
         "url": "https://www.ticketliquidator.com/tickets/8062550/Air-Supply-tickets-Sun-Jan-24-2027-Van-Wezel-Performing-Arts-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -898,21 +930,21 @@
         "event_id": "8293949",
         "url": "https://www.ticketnetwork.com/en/p/8293949",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8293949",
         "url": "https://www.ticketliquidator.com/tickets/8293949/Air-Supply-tickets-Fri-Jan-29-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670677",
         "url": "https://www.stubhub.ie/air-supply-hollywood-tickets-1-29-2027/event/107670677",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -944,7 +976,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0D0064F8873333FB",
     "ticketmaster_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/immokalee-florida-seminole-casino-immokalee-2027-01-30-8-pm/concert/18424504",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-a-matter-of-time-immokalee-florida-01-30-2027/event/0D0064F8873333FB",
@@ -979,6 +1011,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8184590",
+        "url": "https://www.ticketnetwork.com/en/p/8184590",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8184590",
+        "url": "https://www.ticketliquidator.com/tickets/8184590/Air-Supply-tickets-Sat-Jan-30-2027-Seminole-Casino-Center-Immokalee",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_2x6GS2D",
@@ -996,7 +1042,9 @@
     ],
     "ticket_limit": 8,
     "legal_age_enforced": true,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184590",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184590/Air-Supply-tickets-Sat-Jan-30-2027-Seminole-Casino-Center-Immokalee"
   },
   {
     "id": "tm-air-supply-2027-rockford-17f8v0g62es30d4",
@@ -1050,14 +1098,14 @@
         "event_id": "8193701",
         "url": "https://www.ticketnetwork.com/en/p/8193701",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8193701",
         "url": "https://www.ticketliquidator.com/tickets/8193701/Air-Supply-tickets-Fri-Feb-5-2027-Hard-Rock-Live-Rockford",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1124,12 +1172,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7902369",
+        "url": "https://www.ticketnetwork.com/en/p/7902369",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7902369",
+        "url": "https://www.ticketliquidator.com/tickets/7902369/Air-Supply-tickets-Sat-Feb-6-2027-Crystal-Grand-Music-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7x_eZ",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7902369",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7902369/Air-Supply-tickets-Sat-Feb-6-2027-Crystal-Grand-Music-Theatre"
   },
   {
     "id": "tm-air-supply-2027-waukegan-vvg1jz_ce-oddx",
@@ -1183,14 +1247,14 @@
         "event_id": "8231497",
         "url": "https://www.ticketnetwork.com/en/p/8231497",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8231497",
         "url": "https://www.ticketliquidator.com/tickets/8231497/Air-Supply-tickets-Sun-Feb-7-2027-Genesee-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1261,14 +1325,14 @@
         "event_id": "8238782",
         "url": "https://www.ticketnetwork.com/en/p/8238782",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8238782",
         "url": "https://www.ticketliquidator.com/tickets/8238782/Air-Supply-tickets-Sat-Feb-13-2027-The-Show-Agua-Caliente-Casino",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1339,14 +1403,14 @@
         "event_id": "8274264",
         "url": "https://www.ticketnetwork.com/en/p/8274264",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8274264",
         "url": "https://www.ticketliquidator.com/tickets/8274264/Air-Supply-tickets-Thu-Feb-18-2027-Rogers-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1470,12 +1534,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8274111",
+        "url": "https://www.ticketnetwork.com/en/p/8274111",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8274111",
+        "url": "https://www.ticketliquidator.com/tickets/8274111/Air-Supply-tickets-Wed-Feb-24-2027-Grey-Eagle-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkf0GkeV7Qvg",
     "timezone": "America/Edmonton",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8274111",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8274111/Air-Supply-tickets-Wed-Feb-24-2027-Grey-Eagle-Resort-Casino"
   },
   {
     "id": "tm-air-supply-2027-moose-jaw-z7r9jz1aavsx4",
@@ -1529,14 +1609,14 @@
         "event_id": "8366579",
         "url": "https://www.ticketnetwork.com/en/p/8366579",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8366579",
         "url": "https://www.ticketliquidator.com/tickets/8366579/Air-Supply-tickets-Fri-Feb-26-2027-Temple-Gardens-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1599,14 +1679,14 @@
         "event_id": "8274110",
         "url": "https://www.ticketnetwork.com/en/p/8274110",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8274110",
         "url": "https://www.ticketliquidator.com/tickets/8274110/Air-Supply-tickets-Sun-Feb-28-2027-Canada-Life-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1642,7 +1722,7 @@
     "tour_name": "A Matter Of Time Canada Tour",
     "ticketmaster_event_id": "3100652CC92BB37A",
     "ticketmaster_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
-    "seatgeek_url": "https://seatgeek.com/air-supply-tickets/ottawa-canada-hard-rock-hotel-and-casino-ottawa-2027-03-03-7-pm/concert/18594799",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-gloucester-hard-rock-hotel-and-casino-ottawa-3-3-2027--concerts-pop/production/7559686",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/air-supply-a-matter-of-time-ottawa-ontario-03-03-2027/event/3100652CC92BB37A",
@@ -1954,6 +2034,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8311194",
+        "url": "https://www.ticketnetwork.com/en/p/8311194",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8311194",
+        "url": "https://www.ticketliquidator.com/tickets/8311194/Air-Supply-tickets-Sun-May-23-2027-River-City-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkftGkdvWrKV",
@@ -1968,7 +2062,9 @@
     ],
     "ticket_limit": 8,
     "legal_age_enforced": true,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8311194",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8311194/Air-Supply-tickets-Sun-May-23-2027-River-City-Casino"
   },
   {
     "id": "tm-air-supply-2027-penticton-z7r9jz1aa7o-a",
@@ -2008,7 +2104,7 @@
         "event_id": 7559511,
         "url": "https://www.vividseats.com/air-supply-tickets-penticton-south-okanagan-events-centre-2-19-2027/production/7559511",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2022,14 +2118,14 @@
         "event_id": "8269067",
         "url": "https://www.ticketnetwork.com/en/p/8269067",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8269067",
         "url": "https://www.ticketliquidator.com/tickets/8269067/Air-Supply-tickets-Fri-Feb-19-2027-South-Okanagan-Events-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2092,14 +2188,14 @@
         "event_id": "8355435",
         "url": "https://www.ticketnetwork.com/en/p/8355435",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8355435",
         "url": "https://www.ticketliquidator.com/tickets/8355435/Air-Supply-tickets-Sun-Feb-21-2027-CN-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2148,7 +2244,7 @@
         "event_id": 7833895,
         "url": "https://www.vividseats.com/air-supply-tickets-wallingford-toyota-oakdale-theatre-1-31-2027/production/7833895",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2162,14 +2258,14 @@
         "event_id": "8361965",
         "url": "https://www.ticketliquidator.com/tickets/8361965/Air-Supply-tickets-Sun-Jan-31-2027-Toyota-Oakdale-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361965",
         "url": "https://www.ticketnetwork.com/en/p/8361965",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2234,7 +2330,7 @@
         "event_id": 7835522,
         "url": "https://www.vividseats.com/air-supply-tickets-valley-center-events-center-at-harrahs-resort-socal-2-12-2027/production/7835522",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2287,11 +2383,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18782016,
+        "url": "https://seatgeek.com/air-supply-tickets/indianapolis-indiana-murat-theatre-at-old-national-centre-2027-04-03-7-pm/concert/18782016",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880526,
@@ -2311,14 +2407,14 @@
         "event_id": "8373812",
         "url": "https://www.ticketnetwork.com/en/p/8373812",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8373812",
         "url": "https://www.ticketliquidator.com/tickets/8373812/Air-Supply-tickets-Sat-Apr-3-2027-Murat-Theatre-at-Old-National-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

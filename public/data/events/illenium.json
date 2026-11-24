@@ -104,14 +104,30 @@
         "event_id": "107672455",
         "url": "https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8176744",
+        "url": "https://www.ticketnetwork.com/en/p/8176744",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8176744",
+        "url": "https://www.ticketliquidator.com/tickets/8176744/Illenium-tickets-Sat-Dec-19-2026-Omnia-Nightclub-Las-Vegas-at-Caesars-Palace",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvUPE",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455"
+    "stubhub_international_url": "https://www.stubhub.ie/illenium-las-vegas-tickets-12-19-2026/event/107672455",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8176744",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8176744/Illenium-tickets-Sat-Dec-19-2026-Omnia-Nightclub-Las-Vegas-at-Caesars-Palace"
   },
   {
     "id": "tm-illenium-2026-san-francisco-g5vyz_kj0ltb6",
@@ -165,21 +181,21 @@
         "event_id": "8294523",
         "url": "https://www.ticketnetwork.com/en/p/8294523",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8294523",
         "url": "https://www.ticketliquidator.com/tickets/8294523/Illenium-tickets-Wed-Dec-30-2026-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672778",
         "url": "https://www.stubhub.ie/illenium-san-francisco-tickets-12-30-2026/event/107672778",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -254,21 +270,21 @@
         "event_id": "8294522",
         "url": "https://www.ticketnetwork.com/en/p/8294522",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8294522",
         "url": "https://www.ticketliquidator.com/tickets/8294522/Illenium-tickets-Thu-Dec-31-2026-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672779",
         "url": "https://www.stubhub.ie/illenium-san-francisco-tickets-12-31-2026/event/107672779",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -343,14 +359,14 @@
         "event_id": "8342892",
         "url": "https://www.ticketnetwork.com/en/p/8342892",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8342892",
         "url": "https://www.ticketliquidator.com/tickets/8342892/Illenium-tickets-Fri-Jan-1-2027-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

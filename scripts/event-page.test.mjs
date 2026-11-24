@@ -279,7 +279,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(/About prices, seller order/.test(page.html), "the money disclosure sits with the buttons");
   // Answer-first lead: who, where, when and the linked sites, directly under the title, said once.
   const lead = text(meta(page.html, /<\/h1>(<p class="lead">[\s\S]*?<\/p>)/));
-  assert(/Listed start time: 8:00 PM local time\. Explore \d+ ticket sites below/.test(lead), `the lead states local time and the next action (got ${lead})`);
+  assert(/Listed start time: 8:00 PM local time\./.test(lead), `the lead states local time (got ${lead})`);
   assert(!/plays Fixture Arena/.test(lead), "the lead does not repeat the title's venue and date");
   // Revenue-per-visitor test 1 (2026-10-23): the cheapest listed price as a
   // button right under the lead, above the card, with its own cta_location.

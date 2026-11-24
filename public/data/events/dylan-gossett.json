@@ -426,6 +426,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8369706",
+        "url": "https://www.ticketnetwork.com/en/p/8369706",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8369706",
+        "url": "https://www.ticketliquidator.com/tickets/8369706/Dylan-Gossett-tickets-Tue-Dec-8-2026-Festival-Hall-Melbourne",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "177Yv0G653CUwz_",
@@ -435,7 +449,9 @@
       "LIVE NATION AUSTRALIA"
     ],
     "ticket_limit": 10,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369706",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369706/Dylan-Gossett-tickets-Tue-Dec-8-2026-Festival-Hall-Melbourne"
   },
   {
     "id": "tm-dylan-gossett-2027-london-g5dzz_8kn_3tz",
@@ -489,21 +505,21 @@
         "event_id": "107469555",
         "url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8324860",
         "url": "https://www.ticketnetwork.com/en/p/8324860",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8324860",
         "url": "https://www.ticketliquidator.com/tickets/8324860/Dylan-Gossett-tickets-Thu-Feb-18-2027-O2-Academy-Brixton",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -633,21 +649,21 @@
         "event_id": "8265884",
         "url": "https://www.ticketnetwork.com/en/p/8265884",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265884",
         "url": "https://www.ticketliquidator.com/tickets/8265884/Dylan-Gossett-tickets-Sun-Feb-21-2027-O2-Academy-Birmingham",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107476097",
         "url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -716,7 +732,7 @@
         "event_id": "107482715",
         "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -783,7 +799,7 @@
         "event_id": "107469557",
         "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -887,7 +903,7 @@
         "event_id": 18642081,
         "url": "https://seatgeek.com/dylan-gossett-tickets/charleston-south-carolina-charleston-music-hall-2027-03-25-7-pm/concert/18642081",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -908,14 +924,14 @@
         "event_id": "8303651",
         "url": "https://www.ticketnetwork.com/en/p/8303651",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303651",
         "url": "https://www.ticketliquidator.com/tickets/8303651/Dylan-Gossett-tickets-Thu-Mar-25-2027-Charleston-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -968,7 +984,7 @@
         "event_id": 18642079,
         "url": "https://seatgeek.com/dylan-gossett-tickets/north-myrtle-beach-south-carolina-house-of-blues-myrtle-beach-2027-03-26-7-pm/concert/18642079",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -989,14 +1005,14 @@
         "event_id": "8303652",
         "url": "https://www.ticketnetwork.com/en/p/8303652",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303652",
         "url": "https://www.ticketliquidator.com/tickets/8303652/Dylan-Gossett-tickets-Fri-Mar-26-2027-House-Of-Blues-Myrtle-Beach",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1050,7 +1066,7 @@
         "event_id": 18642082,
         "url": "https://seatgeek.com/dylan-gossett-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-03-27-7-pm/concert/18642082",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1071,14 +1087,14 @@
         "event_id": "8303653",
         "url": "https://www.ticketnetwork.com/en/p/8303653",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303653",
         "url": "https://www.ticketliquidator.com/tickets/8303653/Dylan-Gossett-tickets-Sat-Mar-27-2027-The-Fillmore-Charlotte",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1152,14 +1168,14 @@
         "event_id": "8307109",
         "url": "https://www.ticketnetwork.com/en/p/8307109",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8307109",
         "url": "https://www.ticketliquidator.com/tickets/8307109/Dylan-Gossett-tickets-Tue-Mar-30-2027-The-Signal-TN",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1217,6 +1233,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303654",
+        "url": "https://www.ticketnetwork.com/en/p/8303654",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303654",
+        "url": "https://www.ticketliquidator.com/tickets/8303654/Dylan-Gossett-tickets-Wed-Mar-31-2027-The-Factory-Chesterfield",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Ae7Z_KGkyegGq8",
@@ -1232,7 +1262,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303654",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303654/Dylan-Gossett-tickets-Wed-Mar-31-2027-The-Factory-Chesterfield"
   },
   {
     "id": "tm-dylan-gossett-2027-fayetteville-z7r9jz1aae4bt",
@@ -1286,14 +1318,14 @@
         "event_id": "8304295",
         "url": "https://www.ticketnetwork.com/en/p/8304295",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8304295",
         "url": "https://www.ticketliquidator.com/tickets/8304295/Dylan-Gossett-tickets-Fri-Apr-2-2027-Ozark-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1356,14 +1388,14 @@
         "event_id": "8303655",
         "url": "https://www.ticketnetwork.com/en/p/8303655",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303655",
         "url": "https://www.ticketliquidator.com/tickets/8303655/Dylan-Gossett-tickets-Sat-Apr-3-2027-Satellite-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1432,6 +1464,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303656",
+        "url": "https://www.ticketliquidator.com/tickets/8303656/Dylan-Gossett-tickets-Sun-Apr-4-2027-Avondale-Brewing-Company",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_KGkBDR7KS",
@@ -1448,7 +1487,8 @@
       "RED MOUNTAIN ENTERTAINMENT",
       "LIVE NATION MUSIC"
     ],
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303656/Dylan-Gossett-tickets-Sun-Apr-4-2027-Avondale-Brewing-Company"
   },
   {
     "id": "tm-dylan-gossett-2027-philadelphia-vv17fz_kgkmvqdsy",
@@ -1502,14 +1542,14 @@
         "event_id": "8303657",
         "url": "https://www.ticketnetwork.com/en/p/8303657",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303657",
         "url": "https://www.ticketliquidator.com/tickets/8303657/Dylan-Gossett-tickets-Tue-Apr-6-2027-The-Met-Presented-by-Highmark",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1583,14 +1623,14 @@
         "event_id": "8303658",
         "url": "https://www.ticketnetwork.com/en/p/8303658",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303658",
         "url": "https://www.ticketliquidator.com/tickets/8303658/Dylan-Gossett-tickets-Wed-Apr-7-2027-The-Paramount-Baltimore",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1663,14 +1703,14 @@
         "event_id": "8307089",
         "url": "https://www.ticketnetwork.com/en/p/8307089",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8307089",
         "url": "https://www.ticketliquidator.com/tickets/8307089/Dylan-Gossett-tickets-Thu-Apr-8-2027-KEMBA-Live",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1733,14 +1773,14 @@
         "event_id": "8303659",
         "url": "https://www.ticketnetwork.com/en/p/8303659",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303659",
         "url": "https://www.ticketliquidator.com/tickets/8303659/Dylan-Gossett-tickets-Sat-Apr-10-2027-The-Fillmore-Detroit",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1814,14 +1854,14 @@
         "event_id": "8303660",
         "url": "https://www.ticketnetwork.com/en/p/8303660",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303660",
         "url": "https://www.ticketliquidator.com/tickets/8303660/Dylan-Gossett-tickets-Sun-Apr-11-2027-GLC-Live-at-20-Monroe",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1895,14 +1935,14 @@
         "event_id": "8303661",
         "url": "https://www.ticketnetwork.com/en/p/8303661",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303661",
         "url": "https://www.ticketliquidator.com/tickets/8303661/Dylan-Gossett-tickets-Tue-May-4-2027-Egyptian-Room-At-Old-National-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1976,14 +2016,14 @@
         "event_id": "8303662",
         "url": "https://www.ticketnetwork.com/en/p/8303662",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303662",
         "url": "https://www.ticketliquidator.com/tickets/8303662/Dylan-Gossett-tickets-Thu-May-6-2027-The-Sylvee-WI",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2058,14 +2098,14 @@
         "event_id": "8303663",
         "url": "https://www.ticketnetwork.com/en/p/8303663",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303663",
         "url": "https://www.ticketliquidator.com/tickets/8303663/Dylan-Gossett-tickets-Fri-May-7-2027-Uptown-Theater-KC",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2140,6 +2180,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303664",
+        "url": "https://www.ticketnetwork.com/en/p/8303664",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303664",
+        "url": "https://www.ticketliquidator.com/tickets/8303664/Dylan-Gossett-tickets-Sat-May-8-2027-The-Astro-NE",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AeZZ_KGkwpXe_0",
@@ -2156,7 +2210,9 @@
         "start": "2026-11-27T06:00:00Z",
         "end": "2027-01-01T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303664",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303664/Dylan-Gossett-tickets-Sat-May-8-2027-The-Astro-NE"
   },
   {
     "id": "tm-dylan-gossett-2027-austin-g5diz_fkdqvvu",
@@ -2210,14 +2266,14 @@
         "event_id": "8303665",
         "url": "https://www.ticketnetwork.com/en/p/8303665",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303665",
         "url": "https://www.ticketliquidator.com/tickets/8303665/Dylan-Gossett-tickets-Thu-May-13-2027-Moody-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2290,14 +2346,14 @@
         "event_id": "8303666",
         "url": "https://www.ticketnetwork.com/en/p/8303666",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8303666",
         "url": "https://www.ticketliquidator.com/tickets/8303666/Dylan-Gossett-tickets-Fri-May-14-2027-Bayou-Music-Center",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2366,12 +2422,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8307091",
+        "url": "https://www.ticketnetwork.com/en/p/8307091",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307091",
+        "url": "https://www.ticketliquidator.com/tickets/8307091/Dylan-Gossett-tickets-Sat-May-15-2027-Billy-Bobs",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bs",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307091",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307091/Dylan-Gossett-tickets-Sat-May-15-2027-Billy-Bobs"
   },
   {
     "id": "tm-dylan-gossett-2027-oklahoma-city-z7r9jz1aae4ba",
@@ -2385,7 +2457,7 @@
     "tour_name": "The Ramblin' Tour 2027",
     "ticketmaster_event_id": "Z7r9jZ1AAe4ba",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4ba",
-    "seatgeek_url": "https://seatgeek.com/dylan-gossett-tickets/oklahoma-city-oklahoma-the-criterion-okc-2027-05-20-7-pm/concert/18642116",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAe4ba",
@@ -2420,6 +2492,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8303667",
+        "url": "https://www.ticketnetwork.com/en/p/8303667",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303667",
+        "url": "https://www.ticketliquidator.com/tickets/8303667/Dylan-Gossett-tickets-Thu-May-20-2027-The-Criterion-Oklahoma-City",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4ba",
@@ -2428,7 +2514,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8303667",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303667/Dylan-Gossett-tickets-Thu-May-20-2027-The-Criterion-Oklahoma-City"
   },
   {
     "id": "tm-dylan-gossett-2027-tulsa-z7r9jz1aae4bw",
@@ -2477,12 +2565,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8305605",
+        "url": "https://www.ticketnetwork.com/en/p/8305605",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8305605",
+        "url": "https://www.ticketliquidator.com/tickets/8305605/Dylan-Gossett-tickets-Fri-May-21-2027-Cains-Ballroom",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAe4bw",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8305605",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8305605/Dylan-Gossett-tickets-Fri-May-21-2027-Cains-Ballroom"
   },
   {
     "id": "tm-dylan-gossett-2026-auckland-17azv0g65cuaddf",
@@ -2595,14 +2699,14 @@
         "event_id": "8370552",
         "url": "https://www.ticketliquidator.com/tickets/8370552/Dylan-Gossett-tickets-Sat-Dec-12-2026-Waipara-Winehouse",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8370552",
         "url": "https://www.ticketnetwork.com/en/p/8370552",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

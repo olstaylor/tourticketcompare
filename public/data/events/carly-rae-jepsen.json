@@ -30,7 +30,7 @@
         "event_id": 18639050,
         "url": "https://seatgeek.com/carly-rae-jepsen-tickets/edmonton-canada-northern-alberta-jubilee-auditorium-2027-04-15-7-30-pm/concert/18639050",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -51,21 +51,21 @@
         "event_id": "8300790",
         "url": "https://www.ticketnetwork.com/en/p/8300790",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300790",
         "url": "https://www.ticketliquidator.com/tickets/8300790/Carly-Rae-Jepsen-tickets-Thu-Apr-15-2027-Northern-Alberta-Jubilee-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671807",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-edmonton-northern-alberta-jubilee-auditorium-4-15-2027/event/107671807",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -122,7 +122,7 @@
         "event_id": 18639051,
         "url": "https://seatgeek.com/carly-rae-jepsen-tickets/calgary-canada-grey-eagle-event-centre-2027-04-16-7-30-pm/concert/18639051",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -138,6 +138,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8300791",
+        "url": "https://www.ticketnetwork.com/en/p/8300791",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300791",
+        "url": "https://www.ticketliquidator.com/tickets/8300791/Carly-Rae-Jepsen-tickets-Fri-Apr-16-2027-Grey-Eagle-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av7Z_KGkULM9F3",
@@ -157,7 +171,9 @@
       "LIVE NATION CANADA-RBC"
     ],
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8300791",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300791/Carly-Rae-Jepsen-tickets-Fri-Apr-16-2027-Grey-Eagle-Resort-Casino"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-vancouver-1av7z_kgklk3dkw",
@@ -211,21 +227,21 @@
         "event_id": "8300792",
         "url": "https://www.ticketnetwork.com/en/p/8300792",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300792",
         "url": "https://www.ticketliquidator.com/tickets/8300792/Carly-Rae-Jepsen-tickets-Sun-Apr-18-2027-Orpheum-Theatre-Vancouver",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670983",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-vancouver-orpheum-theatre-vancouver-4-18-2027/event/107670983",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -303,21 +319,21 @@
         "event_id": "8300771",
         "url": "https://www.ticketnetwork.com/en/p/8300771",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300771",
         "url": "https://www.ticketliquidator.com/tickets/8300771/Carly-Rae-Jepsen-tickets-Wed-Apr-21-2027-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671822",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-san-francisco-tickets-4-21-2027/event/107671822",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -382,7 +398,7 @@
         "event_id": 18639016,
         "url": "https://seatgeek.com/carly-rae-jepsen-tickets/inglewood-california-kia-forum-2027-04-22-7-30-pm/concert/18639016",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -403,21 +419,21 @@
         "event_id": "8300772",
         "url": "https://www.ticketnetwork.com/en/p/8300772",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300772",
         "url": "https://www.ticketliquidator.com/tickets/8300772/Carly-Rae-Jepsen-tickets-Thu-Apr-22-2027-The-Kia-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671547",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-inglewood-tickets-4-22-2027/event/107671547",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -497,21 +513,21 @@
         "event_id": "8300773",
         "url": "https://www.ticketnetwork.com/en/p/8300773",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300773",
         "url": "https://www.ticketliquidator.com/tickets/8300773/Carly-Rae-Jepsen-tickets-Fri-Apr-23-2027-Gallagher-Square-at-Petco-Park",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671798",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-san-diego-tickets-4-23-2027/event/107671798",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -591,21 +607,21 @@
         "event_id": "8300776",
         "url": "https://www.ticketnetwork.com/en/p/8300776",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300776",
         "url": "https://www.ticketliquidator.com/tickets/8300776/Carly-Rae-Jepsen-tickets-Fri-Apr-30-2027-The-Chelsea-The-Cosmopolitan-of-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671811",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-las-vegas-tickets-4-30-2027/event/107671811",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -685,21 +701,21 @@
         "event_id": "8300777",
         "url": "https://www.ticketnetwork.com/en/p/8300777",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300777",
         "url": "https://www.ticketliquidator.com/tickets/8300777/Carly-Rae-Jepsen-tickets-Sat-May-1-2027-Arizona-Financial-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671825",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-phoenix-tickets-5-1-2027/event/107671825",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -765,11 +781,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18639025,
+        "url": "https://seatgeek.com/carly-rae-jepsen-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-05-05-7-30-pm/concert/18639025",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7636637,
@@ -789,21 +805,21 @@
         "event_id": "8300778",
         "url": "https://www.ticketnetwork.com/en/p/8300778",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300778",
         "url": "https://www.ticketliquidator.com/tickets/8300778/Carly-Rae-Jepsen-tickets-Wed-May-5-2027-The-Pavilion-at-Toyota-Music-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671805",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-irving-tickets-5-5-2027/event/107671805",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -883,21 +899,21 @@
         "event_id": "8300779",
         "url": "https://www.ticketnetwork.com/en/p/8300779",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300779",
         "url": "https://www.ticketliquidator.com/tickets/8300779/Carly-Rae-Jepsen-tickets-Fri-May-7-2027-Moody-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671818",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-austin-tickets-5-7-2027/event/107671818",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -976,21 +992,21 @@
         "event_id": "8300780",
         "url": "https://www.ticketnetwork.com/en/p/8300780",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300780",
         "url": "https://www.ticketliquidator.com/tickets/8300780/Carly-Rae-Jepsen-tickets-Sat-May-8-2027-713-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671550",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-houston-tickets-5-8-2027/event/107671550",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1070,14 +1086,14 @@
         "event_id": "8300781",
         "url": "https://www.ticketnetwork.com/en/p/8300781",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300781",
         "url": "https://www.ticketliquidator.com/tickets/8300781/Carly-Rae-Jepsen-tickets-Mon-May-10-2027-The-Truth",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1161,21 +1177,21 @@
         "event_id": "8300782",
         "url": "https://www.ticketnetwork.com/en/p/8300782",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300782",
         "url": "https://www.ticketliquidator.com/tickets/8300782/Carly-Rae-Jepsen-tickets-Tue-May-11-2027-Coca-Cola-Roxy",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671834",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-atlanta-tickets-5-11-2027/event/107671834",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1255,21 +1271,21 @@
         "event_id": "8300783",
         "url": "https://www.ticketnetwork.com/en/p/8300783",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300783",
         "url": "https://www.ticketliquidator.com/tickets/8300783/Carly-Rae-Jepsen-tickets-Wed-May-12-2027-Skyla-Credit-Union-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671821",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-charlotte-tickets-5-12-2027/event/107671821",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1349,21 +1365,21 @@
         "event_id": "8300784",
         "url": "https://www.ticketnetwork.com/en/p/8300784",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300784",
         "url": "https://www.ticketliquidator.com/tickets/8300784/Carly-Rae-Jepsen-tickets-Fri-May-14-2027-The-Anthem-DC",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671883",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-washington-tickets-5-14-2027/event/107671883",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1438,21 +1454,21 @@
         "event_id": "8300785",
         "url": "https://www.ticketnetwork.com/en/p/8300785",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300785",
         "url": "https://www.ticketliquidator.com/tickets/8300785/Carly-Rae-Jepsen-tickets-Sat-May-15-2027-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671551",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-new-york-tickets-5-15-2027/event/107671551",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1536,14 +1552,14 @@
         "event_id": "8300786",
         "url": "https://www.ticketnetwork.com/en/p/8300786",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300786",
         "url": "https://www.ticketliquidator.com/tickets/8300786/Carly-Rae-Jepsen-tickets-Tue-May-18-2027-The-Met-Presented-by-Highmark",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1627,21 +1643,21 @@
         "event_id": "8300787",
         "url": "https://www.ticketnetwork.com/en/p/8300787",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300787",
         "url": "https://www.ticketliquidator.com/tickets/8300787/Carly-Rae-Jepsen-tickets-Wed-May-19-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671552",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-boston-tickets-5-19-2027/event/107671552",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1721,21 +1737,21 @@
         "event_id": "8300788",
         "url": "https://www.ticketnetwork.com/en/p/8300788",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300788",
         "url": "https://www.ticketliquidator.com/tickets/8300788/Carly-Rae-Jepsen-tickets-Fri-May-21-2027-The-Chicago-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671809",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-chicago-tickets-5-21-2027/event/107671809",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1820,21 +1836,21 @@
         "event_id": "8300789",
         "url": "https://www.ticketnetwork.com/en/p/8300789",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300789",
         "url": "https://www.ticketliquidator.com/tickets/8300789/Carly-Rae-Jepsen-tickets-Sat-May-22-2027-Fox-Theatre-Detroit",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671817",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-detroit-tickets-5-22-2027/event/107671817",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2050,21 +2066,21 @@
         "event_id": "8300795",
         "url": "https://www.ticketnetwork.com/en/p/8300795",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300795",
         "url": "https://www.ticketliquidator.com/tickets/8300795/Carly-Rae-Jepsen-tickets-Sat-May-29-2027-MTelus",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671816",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-tickets-montreal-mtelus-5-29-2027/event/107671816",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2209,14 +2225,21 @@
         "event_id": "8300380",
         "url": "https://www.ticketnetwork.com/en/p/8300380",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300380",
         "url": "https://www.ticketliquidator.com/tickets/8300380/Carly-Rae-Jepsen-tickets-Mon-Apr-19-2027-Arlene-Schnitzer-Concert-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107671808",
+        "url": "https://www.stubhub.ie/carly-rae-jepsen-portland-tickets-4-19-2027/event/107671808",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2228,7 +2251,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/carly-rae-jepsen-portland-tickets-4-19-2027/event/107671808"
   },
   {
     "id": "tm-carly-rae-jepsen-2027-morrison-z7r9jz1aaekuz",
@@ -2282,21 +2306,21 @@
         "event_id": "8300774",
         "url": "https://www.ticketnetwork.com/en/p/8300774",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300774",
         "url": "https://www.ticketliquidator.com/tickets/8300774/Carly-Rae-Jepsen-tickets-Sun-Apr-25-2027-Red-Rocks-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671803",
         "url": "https://www.stubhub.ie/carly-rae-jepsen-morrison-tickets-4-25-2027/event/107671803",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2349,7 +2373,7 @@
         "event_id": 7636625,
         "url": "https://www.vividseats.com/carly-rae-jepsen-tickets-salt-lake-city-the-complex---rockwell-4-27-2027--concerts-pop/production/7636625",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2363,14 +2387,14 @@
         "event_id": "8300775",
         "url": "https://www.ticketliquidator.com/tickets/8300775/Carly-Rae-Jepsen-tickets-Tue-Apr-27-2027-Rockwell-At-The-Complex",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8300775",
         "url": "https://www.ticketnetwork.com/en/p/8300775",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

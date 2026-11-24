@@ -1935,15 +1935,6 @@ summary {
   margin-top: 2px;
 }
 
-/* One short line naming how many checked ticket sites this date leads to.
-   Sits directly above the button group it counts, so it reads as a label
-   rather than another sentence of card copy. */
-.show-card .provider-cta-count {
-  margin: 6px 0 0;
-  font-size: 0.76rem;
-  line-height: 1.35;
-}
-
 .show-card .disclosure-note {
   margin: 0;
   font-size: 0.76rem;
@@ -2304,6 +2295,77 @@ summary {
   .price-answer-table .price-answer-price {
     padding-top: 7px;
   }
+
+  /* Phone date rows: date and extra facts on the left, the lowest price on the
+     right, so twelve dates scan as a list instead of twelve stacked cards
+     (Metallica Las Vegas: 2,251px to about 1,340px). The "Resale marketplace"
+     role is hidden here because it repeats on every row; the provider name
+     and price stay. */
+  .price-answer-table tbody tr {
+    display: grid;
+    grid-template-columns: minmax(0, 9fr) minmax(0, 11fr);
+    column-gap: 10px;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  .price-answer-table tbody th {
+    grid-column: 1;
+    font-size: 0.92rem;
+    line-height: 1.3;
+    padding: 0;
+  }
+
+  .price-answer-table tbody td {
+    grid-column: 1;
+    padding: 0;
+    font-size: 0.8rem;
+  }
+
+  .price-answer-table tbody td.price-answer-price {
+    grid-column: 2;
+    grid-row: 1 / -1;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+    padding: 7px 10px;
+    gap: 1px;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta-role {
+    display: none;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta-name {
+    grid-row: 1;
+    font-size: 0.72rem;
+    letter-spacing: 0;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta-value {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
+  }
+
+  /* Other sites: one "Site price" pair per block under its own label, so pairs
+     do not run together (it read "Vivid Seats USD 176 TicketNetwork USD
+     204.70" as one wrapped run). Never truncated: a cut price is worse. */
+  .price-answer-table td[data-label="Other sites"]::before {
+    display: block;
+  }
+
+  .price-answer-table td[data-label="Other sites"] br {
+    display: none;
+  }
+
+  .price-answer-table .price-answer-other {
+    display: block;
+    line-height: 1.35;
+    padding: 1px 0;
+  }
 }
 
 /* Mobile board tools (2026-09-24, launch-readiness Phase 4). On a phone the
@@ -2445,10 +2507,6 @@ summary {
 .show-card-actions > .show-details-link,
 .show-card-actions > .price-history {
   flex: 0 1 auto;
-}
-
-.show-card .provider-cta-count {
-  margin: 0;
 }
 
 /* The lowest of two or more fresh listed prices on a card (names it; never
@@ -3296,3 +3354,16 @@ code {
 .show-card[id] {
   scroll-margin-top: 88px;
 }
+
+.country-chooser { margin: 0 0 1rem; min-width: 0; max-width: 100%; }
+.country-chooser__chips { max-width: 100%; }
+.country-chooser[hidden] { display: none; }
+.country-chooser__label { margin: 0 0 0.4rem; font-weight: 600; font-size: 0.9rem; }
+.country-chooser__chips { display: flex; flex-wrap: nowrap; gap: 0.4rem; margin-bottom: 0.4rem; overflow-x: auto; padding-bottom: 0.3rem; -webkit-overflow-scrolling: touch; }
+.country-chooser .chip { flex: 0 0 auto; white-space: nowrap; }
+.country-chooser .chip {
+  font: inherit; font-size: 0.9rem; padding: 0.35rem 0.75rem; min-height: 2.25rem;
+  border: 1px solid currentColor; border-radius: 999px; background: transparent; color: inherit; cursor: pointer;
+}
+.country-chooser .chip[aria-pressed="true"] { font-weight: 700; text-decoration: underline; }
+.country-chooser .chip__count { opacity: 0.65; }

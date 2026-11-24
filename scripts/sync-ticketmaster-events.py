@@ -37,6 +37,9 @@ Withhold rules (a row failing any rule is WITHHELD for human review):
   attraction list does not include the registry's verified attraction ID; the
   registry attraction is not the event's primary attraction (support-act and
   festival-lineup appearances are withheld).
+  Exception: exactly two attractions, a festival or series brand first and the
+  registry artist second, titled exactly "<brand> - <artist>" (a headliner's own
+  BST Hyde Park listing); multi-act days and other title shapes stay withheld.
 
 Usage:
   python3 scripts/sync-ticketmaster-events.py --artist raye --dry-run
@@ -167,6 +170,22 @@ WITHHOLD_REASON_CODES = {
     "duplicate_start_instant": "Same city and exact start instant as an existing events.json row or an earlier row in this same fetch (one performance listed twice under different venue names).",
     "add_on_listing": "Name is another listing's name in the same city on the same venue-local date plus a \"| ...\" suffix: an add-on product sold alongside that show, not admission to it.",
 }
+
+
+def is_named_headliner_show(event_name, attractions, attraction_id):
+    """True for a Ticketmaster listing of exactly two attractions, a festival or
+    series brand first and the registry artist second, whose title is exactly
+    "<brand> - <artist>" (e.g. "American Express Presents BST Hyde Park - Raye").
+    Ticketmaster sells those as the headliner's own show, so the brand being
+    first is not a support-act signal. Multi-act days, three or more
+    attractions and any other title shape stay withheld."""
+    if len(attractions) != 2 or (attractions[1].get("id") or "").strip() != attraction_id:
+        return False
+    brand = (attractions[0].get("name") or "").strip()
+    artist = (attractions[1].get("name") or "").strip()
+    if not brand or not artist:
+        return False
+    return (event_name or "").strip().lower() == f"{brand} - {artist}".lower()
 
 
 def load_json(path):
@@ -714,16 +733,14 @@ def classify_event(tm_event, *, attraction_id, allowed_hosts, existing_event_ids
             "listening event requires human review; artist metadata does not prove a live performance",
         )
 
-    event_attraction_ids = [
-        (a.get("id") or "").strip()
-        for a in ((tm_event.get("_embedded") or {}).get("attractions") or [])
-    ]
+    event_attractions = (tm_event.get("_embedded") or {}).get("attractions") or []
+    event_attraction_ids = [(a.get("id") or "").strip() for a in event_attractions]
     if attraction_id not in event_attraction_ids:
         withhold(
             "attraction_identity_mismatch",
             "event attractions do not include the registry's verified attraction ID (weak/mismatched identity)",
         )
-    elif event_attraction_ids[0] != attraction_id:
+    elif event_attraction_ids[0] != attraction_id and not is_named_headliner_show(event_name, event_attractions, attraction_id):
         withhold(
             "not_primary_attraction",
             "registry attraction is not the event's primary attraction (support act / festival lineup appearance)",
@@ -1287,6 +1304,27 @@ def self_test():
     check(
         "support-act / lineup appearance withheld",
         any("not the event's primary attraction" in r for r in classify(support_act)["withheld_reasons"]),
+    )
+    bst = make_event(name="American Express Presents BST Hyde Park - RAYE")
+    bst["_embedded"]["attractions"] = [
+        {"id": "K8vZ9178W-7", "name": "American Express Presents BST Hyde Park"},
+        {"id": "K8vZ917Kvt7", "name": "RAYE"},
+    ]
+    check(
+        "named headliner show '<brand> - <artist>' is not withheld as a support act",
+        "not_primary_attraction" not in classify(bst)["withheld_reason_codes"],
+    )
+    bst_other_title = make_event(name="BST Hyde Park 2027 Saturday")
+    bst_other_title["_embedded"]["attractions"] = bst["_embedded"]["attractions"]
+    check(
+        "festival brand first with a different title stays withheld",
+        "not_primary_attraction" in classify(bst_other_title)["withheld_reason_codes"],
+    )
+    bst_three = make_event(name="American Express Presents BST Hyde Park - RAYE")
+    bst_three["_embedded"]["attractions"] = bst["_embedded"]["attractions"] + [{"id": "K8vZsupport", "name": "Guest"}]
+    check(
+        "three attractions stay withheld even with a matching title",
+        "not_primary_attraction" in classify(bst_three)["withheld_reason_codes"],
     )
     check(
         "duplicate of existing events.json Discovery id withheld",

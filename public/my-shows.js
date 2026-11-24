@@ -28,9 +28,15 @@
     var m = Math.max(0, Math.round((Date.now() - t) / 60000));
     return m < 60 ? "under an hour ago" : (m < 2880 ? Math.round(m / 60) + " hours ago" : Math.round(m / 1440) + " days ago");
   }
-  function dayText(iso) {
+  // Show dates use the venue's timezone, as the artist card does; the saved-at
+  // date (no timezone given) uses the visitor's own.
+  function dayText(iso, timeZone) {
     var t = Date.parse(iso);
-    return isFinite(t) ? new Date(t).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : "";
+    if (!isFinite(t)) return "";
+    var opts = { day: "numeric", month: "short", year: "numeric" };
+    if (timeZone) opts.timeZone = timeZone;
+    try { return new Date(t).toLocaleDateString("en-GB", opts); }
+    catch (e) { delete opts.timeZone; return new Date(t).toLocaleDateString("en-GB", opts); }
   }
   function fetchShows(list) {
     return fetch("/api/my-shows?s=" + encodeURIComponent(query(list)), { headers: { Accept: "application/json" } })
@@ -129,9 +135,12 @@
       li.appendChild(h);
       var p = document.createElement("p");
       if (r && r.status === "upcoming") {
-        p.textContent = [dayText(r.datetime_iso), r.venue].filter(Boolean).join(" · ");
+        p.textContent = [dayText(r.datetime_iso, r.timezone), r.venue].filter(Boolean).join(" · ");
       } else if (r) {
-        p.textContent = r.status === "past" ? "This date has passed." : "This date is no longer listed on the site.";
+        p.textContent = r.status === "past" ? "This date has passed."
+          : r.status === "held" ? "This date has been cancelled, postponed or changed. Open the artist page for the latest."
+          : r.status === "unknown" ? "We could not check this date just now. Try again in a moment."
+          : "This date is no longer listed on the site.";
       }
       li.appendChild(p);
       if (r && r.status === "upcoming") {

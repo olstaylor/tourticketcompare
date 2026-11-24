@@ -32,10 +32,17 @@ const body = await res.json();
 const by = Object.fromEntries(body.shows.map((s) => [s.id + (s.slug === "zed" ? "-zed" : ""), s]));
 assert(by.up.status === "upcoming" && by.up.city === "Austin", "upcoming show returned");
 assert(by.old.status === "past", "past date flagged");
-assert(by.cxl.status === "past", "a cancelled show is not offered as upcoming");
+assert(by.cxl.status === "held", "a cancelled show is labelled held, not past or upcoming");
 assert(by.missing.status === "gone" && by["zid-zed"].status === "gone", "unknown ids and wrong artist are 'gone'");
 assert(res.headers.get("X-Robots-Tag") === "noindex" && /private/.test(res.headers.get("Cache-Control")), "private, noindex");
 assert(!("lowest" in by.up), "no price invented when no lane has one");
+
+// A failed asset read is "unknown", never "gone".
+const failing = { ASSETS: { fetch: async () => new Response("down", { status: 503 }) } };
+const failedBody = await (await onRequestGet({ request: new Request("https://x.test/api/my-shows?s=amy~up"), env: failing })).json();
+assert(failedBody.shows[0].status === "unknown", "a 503 from the asset store is unknown, not gone");
+const throwing = { ASSETS: { fetch: async () => { throw new Error("boom"); } } };
+assert((await (await onRequestGet({ request: new Request("https://x.test/api/my-shows?s=amy~up"), env: throwing })).json()).shows[0].status === "unknown", "a thrown fetch is unknown");
 
 const html = renderMyShowsBody({ path: "/my-shows", breadcrumb: [{ name: "My shows", path: "/my-shows" }] });
 assert(html.includes("data-my-shows") && html.includes("this device"), "page shell and plain-language limits");
@@ -43,5 +50,6 @@ assert(!/cheapest|guarantee|alert/i.test(html), "no cheapest, guarantee or alert
 
 const client = fs.readFileSync(path.join(root, "public/my-shows.js"), "utf8");
 assert(!/innerHTML|insertAdjacentHTML|document\.write/.test(client), "client builds the page with textContent only");
+assert(/timeZone/.test(client), "show dates use the venue timezone");
 assert(!/\/api\/out|gtag|dataLayer|sendBeacon/.test(client), "client touches no redirect or analytics");
 console.log("my-shows: ok");

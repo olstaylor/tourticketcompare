@@ -18,13 +18,17 @@ const idOk = (v) => /^[A-Za-z0-9_.-]{1,160}$/.test(v);
 
 async function readPartition(env, slug) {
   const assets = env?.ASSETS;
-  if (!assets || typeof assets.fetch !== "function") return [];
+  if (!assets || typeof assets.fetch !== "function") return null;
   try {
     const res = await assets.fetch(new Request(`https://assets.local/data/events/${encodeURIComponent(slug)}.json`));
-    const body = res.ok ? await res.json() : [];
-    return Array.isArray(body) ? body : [];
+    // A missing partition is a real answer (no such artist file); anything else
+    // wrong is a failed lookup, reported as "unknown", never as "gone".
+    if (res.status === 404) return [];
+    if (!res.ok) return null;
+    const body = await res.json();
+    return Array.isArray(body) ? body : null;
   } catch {
-    return [];
+    return null;
   }
 }
 
@@ -45,7 +49,10 @@ export async function onRequestGet({ request, env }) {
   const now = Date.now();
   const slugs = [...new Set(saved.map((s) => s.slug))];
   const partitions = new Map(await Promise.all(slugs.map(async (slug) => [slug, await readPartition(env, slug)])));
-  const found = saved.map(({ slug, id }) => ({ slug, id, event: (partitions.get(slug) || []).find((e) => String(e?.id) === id) || null }));
+  const found = saved.map(({ slug, id }) => {
+    const partition = partitions.get(slug);
+    return { slug, id, failed: partition === null, event: (partition || []).find((e) => String(e?.id) === id) || null };
+  });
   const live = found.filter((f) => f.event && isUpcomingShow(f.event, now) && !eventLifecycleHeld(f.event));
   const priced = new Map();
   if (live.length) {
@@ -60,8 +67,10 @@ export async function onRequestGet({ request, env }) {
       // No prices is a valid answer; the page then shows none.
     }
   }
-  const shows = found.map(({ slug, id, event }) => {
+  const shows = found.map(({ slug, id, event, failed }) => {
+    if (failed) return { id, slug, status: "unknown" };
     if (!event) return { id, slug, status: "gone" };
+    if (eventLifecycleHeld(event)) return { id, slug, status: "held" };
     if (!live.some((f) => f.id === id)) return { id, slug, status: "past" };
     return {
       id,

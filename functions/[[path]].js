@@ -6512,7 +6512,7 @@ export function renderPriceMoversBody(route) {
   const items = movers.movers
     .map((m) => {
       const when = m.daysToShow <= 1 ? "tomorrow" : `in ${m.daysToShow} days`;
-      return `<article class="info-card"><h3>${anchor(`${m.artist}, ${m.city}`, m.path, "text-link")}</h3><p>${escapeHtml(`${day(m.localDate)} at ${m.venue} (${when}).`)}</p><p><strong>${escapeHtml(`${m.site}: lowest listed price ${money(m.to, m.currency)} on ${day(m.toDate)}, from ${money(m.from, m.currency)} on ${day(m.fromDate)}.`)}</strong></p><p class="muted">${escapeHtml(`Checked ${day(m.capturedAt.slice(0, 10))}, ${m.capturedAt.slice(11, 16)} UTC. Fees not confirmed.`)}</p></article>`;
+      return `<article class="info-card"><h3>${anchor(`${m.artist}, ${m.city}`, m.path, "text-link")}</h3><p>${escapeHtml(`${day(m.localDate)} at ${m.venue} (${when}).`)}</p><p><strong>${escapeHtml(`${m.site}: lowest listed price ${money(m.to, m.currency)} on ${day(m.toDate)}, was ${money(m.from, m.currency)} on ${day(m.fromDate)}.`)}</strong></p><p class="muted">${escapeHtml(`Checked ${day(m.capturedAt.slice(0, 10))}, ${m.capturedAt.slice(11, 16)} UTC. Fees not confirmed.`)}</p></article>`;
     })
     .join("");
   const body = movers.movers.length

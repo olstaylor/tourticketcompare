@@ -7,8 +7,11 @@ name: Nightly funnel check
 # beacon gaps and no-sales streaks. Rewrites the rolling `automation:funnel-daily`
 # issue and comments only when a new red flag appears.
 #
-# Read-only on D1 (SELECTs only), on Impact (GET Actions only) and on the
-# repository; its only write is that issue. Daily 06:40 UTC.
+# The report is read-only on D1 (SELECTs only), on Impact (GET Actions only) and
+# on the repository; its only write is that issue. The separate ledger step
+# after it records Impact orders in D1 (impact_action_ledger, see
+# docs/COMMERCIAL_FUNNEL.md) and fails the job when an import is failed or
+# incomplete. Daily 06:40 UTC.
 
 on:
   schedule:
@@ -58,6 +61,32 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: node scripts/report-funnel-daily.mjs --issue --markdown "$RUNNER_TEMP/funnel.md"
+
+      - name: Self-test ledger
+        run: node --no-warnings scripts/sync-impact-action-ledger.mjs --self-test
+
+      - name: Record Impact orders in the ledger
+        # Runs even if the report step failed, and fails the job if the import
+        # is failed or incomplete, so a partial import is never silent.
+        if: always()
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          IMPACT_ACCOUNT_SID: ${{ secrets.IMPACT_ACCOUNT_SID || secrets.IMPACT_VIVIDSEATS_ACCOUNT_SID }}
+          IMPACT_AUTH_TOKEN: ${{ secrets.IMPACT_AUTH_TOKEN || secrets.IMPACT_VIVIDSEATS_AUTH_TOKEN }}
+          IMPACT_SEATGEEK_CAMPAIGN_ID: ${{ secrets.IMPACT_SEATGEEK_CAMPAIGN_ID }}
+          IMPACT_SEATGEEK_PROGRAM_ID: ${{ secrets.IMPACT_SEATGEEK_PROGRAM_ID }}
+          IMPACT_VIVIDSEATS_CAMPAIGN_ID: ${{ secrets.IMPACT_VIVIDSEATS_CAMPAIGN_ID }}
+          IMPACT_VIVIDSEATS_PROGRAM_ID: ${{ secrets.IMPACT_VIVIDSEATS_PROGRAM_ID }}
+          IMPACT_TICKETNETWORK_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETNETWORK_CAMPAIGN_ID }}
+          IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID: ${{ secrets.IMPACT_TICKETLIQUIDATOR_CAMPAIGN_ID }}
+          IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID: ${{ secrets.IMPACT_STUBHUB_INTERNATIONAL_CAMPAIGN_ID }}
+        run: |
+          set +e
+          node scripts/sync-impact-action-ledger.mjs --markdown "$RUNNER_TEMP/ledger.md"
+          code=$?
+          [ -s "$RUNNER_TEMP/ledger.md" ] && cat "$RUNNER_TEMP/ledger.md" >> "$GITHUB_STEP_SUMMARY"
+          exit $code
 
       - name: Summarise
         if: always()

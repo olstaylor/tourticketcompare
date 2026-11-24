@@ -1,10 +1,10 @@
 ---
 title: "Hans Zimmer tour tickets: listed prices city by city"
 seo_title: "Hans Zimmer tour ticket prices by city"
-description: "Hans Zimmer tour: the next date in 25 cities, $60.95 in Orlando at the low end, $380.65 in Salt Lake City at the high end."
-summary: "TicketNetwork's lowest listed price for the next Hans Zimmer date in each of 25 cities, each figure with the time it was captured. Snapshots 22 November 2026."
+description: "Hans Zimmer tour: the next date in 26 cities, $60.95 in Orlando at the low end, $380.65 in Salt Lake City at the high end."
+summary: "TicketNetwork's lowest listed price for the next Hans Zimmer date in each of 26 cities, each figure with the time it was captured. Snapshots 23 November to 24 November 2026."
 date: 2026-10-24
-updated: 2026-11-22
+updated: 2026-11-24
 status: published
 tags:
   - tour-data
@@ -14,68 +14,70 @@ related_guides:
   - primary-vs-resale-concert-tickets
 ---
 
-Hans Zimmer's Hans Zimmer Live – The Next Level has 30 dates that TourTicketCompare tracks. In the United States, 25 cities had a recent listed price on TicketNetwork. The next date in Orlando was listed at $60.95 at the low end, and the next date in Salt Lake City at $380.65 at the high end, 6.2 times as much. The median city was listed at $155.25.
+Hans Zimmer's Hans Zimmer Live – The Next Level has 30 dates that TourTicketCompare tracks. In the United States, 26 cities had a recent listed price on TicketNetwork. The next date in Orlando was listed at $60.95 at the low end, and the next date in Salt Lake City at $380.65 at the high end, 6.2 times as much. The median city was listed at $144.33.
 
 ## Hans Zimmer ticket prices by city
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Orlando](/artists/hans-zimmer/tickets/orlando-united-states) | 11 March 2027 | Kia Center | $60.95 | TicketNetwork | 22 November, 15:20 UTC |
-| [Hartford](/artists/hans-zimmer/tickets/hartford-united-states) | 17 February 2027 | PeoplesBank Arena | $86.25 | TicketNetwork | 22 November, 15:21 UTC |
-| [Phoenix](/artists/hans-zimmer/tickets/phoenix-united-states) | 30 March 2027 | Mortgage Matchup Center | $104.65 | TicketNetwork | 22 November, 15:20 UTC |
-| [Sacramento](/artists/hans-zimmer/tickets/sacramento-united-states) | 5 April 2027 | Golden 1 Center | $105.80 | TicketNetwork | 22 November, 15:20 UTC |
-| [Portland](/artists/hans-zimmer/tickets/portland-united-states) | 11 April 2027 | Moda Center | $112.70 | TicketNetwork | 22 November, 15:20 UTC |
-| [Cincinnati](/artists/hans-zimmer/tickets/cincinnati-united-states) | 7 March 2027 | Heritage Bank Center | $113.85 | TicketNetwork | 22 November, 15:20 UTC |
-| [Oklahoma City](/artists/hans-zimmer/tickets/oklahoma-city-united-states) | 21 March 2027 | Paycom Center | $116.15 | TicketNetwork | 22 November, 15:21 UTC |
-| [Kansas City](/artists/hans-zimmer/tickets/kansas-city-united-states) | 19 March 2027 | T-Mobile Center | $132.25 | TicketNetwork | 22 November, 15:21 UTC |
-| [Charlotte](/artists/hans-zimmer/tickets/charlotte-united-states) | 9 March 2027 | Spectrum Center | $135.70 | TicketNetwork | 22 November, 15:20 UTC |
-| [Detroit](/artists/hans-zimmer/tickets/detroit-united-states) | 3 March 2027 | Little Caesars Arena | $135.70 | TicketNetwork | 22 November, 15:20 UTC |
-| [Tampa](/artists/hans-zimmer/tickets/tampa-united-states) | 14 March 2027 | Benchmark International Arena | $135.70 | TicketNetwork | 22 November, 15:20 UTC |
-| [Nashville](/artists/hans-zimmer/tickets/nashville-united-states) | 17 March 2027 | Bridgestone Arena | $138 | TicketNetwork | 22 November, 15:20 UTC |
-| [Miami](/artists/hans-zimmer/tickets/miami-united-states) | 13 March 2027 | Kaseya Center | $155.25 | TicketNetwork | 22 November, 15:20 UTC |
-| [Philadelphia](/artists/hans-zimmer/tickets/philadelphia-united-states) | 23 February 2027 | Xfinity Mobile Arena | $157.55 | TicketNetwork | 22 November, 15:20 UTC |
-| [Denver](/artists/hans-zimmer/tickets/denver-united-states) | 25 March 2027 | Ball Arena | $181.70 | TicketNetwork | 22 November, 15:20 UTC |
-| [Seattle](/artists/hans-zimmer/tickets/seattle-united-states) | 9 April 2027 | Climate Pledge Arena | $188.60 | TicketNetwork | 22 November, 15:20 UTC |
-| [Boston](/artists/hans-zimmer/tickets/boston-united-states) | 24 February 2027 | TD Garden | $194.35 | TicketNetwork | 22 November, 15:20 UTC |
-| [Fort Worth](/artists/hans-zimmer/tickets/fort-worth-united-states) | 22 March 2027 | Ariat Arena | $207 | TicketNetwork | 22 November, 15:20 UTC |
-| [Newark](/artists/hans-zimmer/tickets/newark-united-states) | 21 February 2027 | Prudential Center | $207 | TicketNetwork | 22 November, 15:20 UTC |
-| [San Francisco](/artists/hans-zimmer/tickets/san-francisco-united-states) | 4 April 2027 | Chase Center | $210.45 | TicketNetwork | 22 November, 15:20 UTC |
-| [Atlanta](/artists/hans-zimmer/tickets/atlanta-united-states) | 16 March 2027 | State Farm Arena | $212.75 | TicketNetwork | 22 November, 15:20 UTC |
-| [Los Angeles](/artists/hans-zimmer/tickets/los-angeles-united-states) | 1 April 2027 | Crypto.com Arena | $236.90 | TicketNetwork | 22 November, 15:21 UTC |
-| [Anaheim](/artists/hans-zimmer/tickets/anaheim-united-states) | 2 April 2027 | Honda Center | $256.45 | TicketNetwork | 22 November, 15:20 UTC |
-| [Chicago](/artists/hans-zimmer/tickets/chicago-united-states) | 5 March 2027 | United Center | $271.40 | TicketNetwork | 22 November, 15:20 UTC |
-| [Salt Lake City](/artists/hans-zimmer/tickets/salt-lake-city-united-states) | 27 March 2027 | Delta Center | $380.65 | TicketNetwork | 22 November, 15:21 UTC |
+| [Orlando](/artists/hans-zimmer/tickets/orlando-united-states) | 11 March 2027 | Kia Center | $60.95 | TicketNetwork | 23 November, 12:50 UTC |
+| [Hartford](/artists/hans-zimmer/tickets/hartford-united-states) | 17 February 2027 | PeoplesBank Arena | $86.25 | TicketNetwork | 24 November, 00:30 UTC |
+| [Phoenix](/artists/hans-zimmer/tickets/phoenix-united-states) | 30 March 2027 | Mortgage Matchup Center | $104.65 | TicketNetwork | 24 November, 00:29 UTC |
+| [Sacramento](/artists/hans-zimmer/tickets/sacramento-united-states) | 5 April 2027 | Golden 1 Center | $105.80 | TicketNetwork | 24 November, 00:29 UTC |
+| [Portland](/artists/hans-zimmer/tickets/portland-united-states) | 11 April 2027 | Moda Center | $112.70 | TicketNetwork | 24 November, 00:29 UTC |
+| [Cincinnati](/artists/hans-zimmer/tickets/cincinnati-united-states) | 7 March 2027 | Heritage Bank Center | $113.85 | TicketNetwork | 23 November, 12:50 UTC |
+| [Oklahoma City](/artists/hans-zimmer/tickets/oklahoma-city-united-states) | 21 March 2027 | Paycom Center | $116.15 | TicketNetwork | 24 November, 00:30 UTC |
+| [Denver](/artists/hans-zimmer/tickets/denver-united-states) | 25 March 2027 | Ball Arena | $127.65 | TicketNetwork | 24 November, 00:29 UTC |
+| [Kansas City](/artists/hans-zimmer/tickets/kansas-city-united-states) | 19 March 2027 | T-Mobile Center | $132.25 | TicketNetwork | 24 November, 00:30 UTC |
+| [Charlotte](/artists/hans-zimmer/tickets/charlotte-united-states) | 9 March 2027 | Spectrum Center | $135.70 | TicketNetwork | 23 November, 12:50 UTC |
+| [Detroit](/artists/hans-zimmer/tickets/detroit-united-states) | 3 March 2027 | Little Caesars Arena | $135.70 | TicketNetwork | 23 November, 12:50 UTC |
+| [Tampa](/artists/hans-zimmer/tickets/tampa-united-states) | 14 March 2027 | Benchmark International Arena | $135.70 | TicketNetwork | 23 November, 12:50 UTC |
+| [Nashville](/artists/hans-zimmer/tickets/nashville-united-states) | 17 March 2027 | Bridgestone Arena | $138 | TicketNetwork | 23 November, 12:50 UTC |
+| [Belmont Park](/artists/hans-zimmer/tickets/belmont-park-united-states) | 19 February 2027 | UBS Arena | $150.65 | TicketNetwork | 23 November, 12:46 UTC |
+| [Miami](/artists/hans-zimmer/tickets/miami-united-states) | 13 March 2027 | Kaseya Center | $155.25 | TicketNetwork | 23 November, 12:50 UTC |
+| [Philadelphia](/artists/hans-zimmer/tickets/philadelphia-united-states) | 23 February 2027 | Xfinity Mobile Arena | $157.55 | TicketNetwork | 23 November, 12:50 UTC |
+| [Seattle](/artists/hans-zimmer/tickets/seattle-united-states) | 9 April 2027 | Climate Pledge Arena | $189.75 | TicketNetwork | 24 November, 00:29 UTC |
+| [Boston](/artists/hans-zimmer/tickets/boston-united-states) | 24 February 2027 | TD Garden | $198.95 | TicketNetwork | 23 November, 12:50 UTC |
+| [Fort Worth](/artists/hans-zimmer/tickets/fort-worth-united-states) | 22 March 2027 | Ariat Arena | $207 | TicketNetwork | 23 November, 12:50 UTC |
+| [Newark](/artists/hans-zimmer/tickets/newark-united-states) | 21 February 2027 | Prudential Center | $207 | TicketNetwork | 23 November, 12:50 UTC |
+| [Atlanta](/artists/hans-zimmer/tickets/atlanta-united-states) | 16 March 2027 | State Farm Arena | $208.15 | TicketNetwork | 23 November, 12:50 UTC |
+| [San Francisco](/artists/hans-zimmer/tickets/san-francisco-united-states) | 4 April 2027 | Chase Center | $227.70 | TicketNetwork | 24 November, 00:29 UTC |
+| [Los Angeles](/artists/hans-zimmer/tickets/los-angeles-united-states) | 1 April 2027 | Crypto.com Arena | $234.60 | TicketNetwork | 24 November, 00:30 UTC |
+| [Anaheim](/artists/hans-zimmer/tickets/anaheim-united-states) | 2 April 2027 | Honda Center | $239.20 | TicketNetwork | 24 November, 00:29 UTC |
+| [Chicago](/artists/hans-zimmer/tickets/chicago-united-states) | 5 March 2027 | United Center | $273.70 | TicketNetwork | 23 November, 12:50 UTC |
+| [Salt Lake City](/artists/hans-zimmer/tickets/salt-lake-city-united-states) | 27 March 2027 | Delta Center | $380.65 | TicketNetwork | 24 November, 00:30 UTC |
 
 Each figure is the lowest listed price on TicketNetwork for the next date in that city, so a city with several dates shows only its first. Cities are ordered from the lowest listed price to the highest. Open a city to see every date there.
 
 ## Vivid Seats, same cities (not ranked)
 
-Vivid Seats also had a recent listed price for the next date in 22 of these cities. They are set out below by date, not ranked, and are not netted against the table above: the two sites list different tickets, so a gap between them says nothing about which is better value.
+Vivid Seats also had a recent listed price for the next date in 23 of these cities. They are set out below by date, not ranked, and are not netted against the table above: the two sites list different tickets, so a gap between them says nothing about which is better value.
 
 | City | Next date | Venue | Lowest listed | Site | Captured |
 |---|---|---|---|---|---|
-| [Hartford](/artists/hans-zimmer/tickets/hartford-united-states) | 17 February 2027 | PeoplesBank Arena | $97 | Vivid Seats | 22 November, 18:05 UTC |
-| [Newark](/artists/hans-zimmer/tickets/newark-united-states) | 21 February 2027 | Prudential Center | $162 | Vivid Seats | 22 November, 18:05 UTC |
-| [Philadelphia](/artists/hans-zimmer/tickets/philadelphia-united-states) | 23 February 2027 | Xfinity Mobile Arena | $156 | Vivid Seats | 22 November, 18:05 UTC |
-| [Boston](/artists/hans-zimmer/tickets/boston-united-states) | 24 February 2027 | TD Garden | $151 | Vivid Seats | 22 November, 18:05 UTC |
-| [Detroit](/artists/hans-zimmer/tickets/detroit-united-states) | 3 March 2027 | Little Caesars Arena | $121 | Vivid Seats | 22 November, 18:05 UTC |
-| [Chicago](/artists/hans-zimmer/tickets/chicago-united-states) | 5 March 2027 | United Center | $204 | Vivid Seats | 22 November, 18:05 UTC |
-| [Charlotte](/artists/hans-zimmer/tickets/charlotte-united-states) | 9 March 2027 | Spectrum Center | $121 | Vivid Seats | 22 November, 18:05 UTC |
-| [Orlando](/artists/hans-zimmer/tickets/orlando-united-states) | 11 March 2027 | Kia Center | $127 | Vivid Seats | 22 November, 18:05 UTC |
-| [Miami](/artists/hans-zimmer/tickets/miami-united-states) | 13 March 2027 | Kaseya Center | $136 | Vivid Seats | 22 November, 18:05 UTC |
-| [Tampa](/artists/hans-zimmer/tickets/tampa-united-states) | 14 March 2027 | Benchmark International Arena | $109 | Vivid Seats | 22 November, 18:05 UTC |
-| [Atlanta](/artists/hans-zimmer/tickets/atlanta-united-states) | 16 March 2027 | State Farm Arena | $167 | Vivid Seats | 22 November, 18:05 UTC |
-| [Nashville](/artists/hans-zimmer/tickets/nashville-united-states) | 17 March 2027 | Bridgestone Arena | $107 | Vivid Seats | 22 November, 18:05 UTC |
-| [Kansas City](/artists/hans-zimmer/tickets/kansas-city-united-states) | 19 March 2027 | T-Mobile Center | $104 | Vivid Seats | 22 November, 18:05 UTC |
-| [Oklahoma City](/artists/hans-zimmer/tickets/oklahoma-city-united-states) | 21 March 2027 | Paycom Center | $88 | Vivid Seats | 22 November, 18:05 UTC |
-| [Denver](/artists/hans-zimmer/tickets/denver-united-states) | 25 March 2027 | Ball Arena | $108 | Vivid Seats | 22 November, 18:05 UTC |
-| [Salt Lake City](/artists/hans-zimmer/tickets/salt-lake-city-united-states) | 27 March 2027 | Delta Center | $470 | Vivid Seats | 22 November, 18:05 UTC |
-| [Phoenix](/artists/hans-zimmer/tickets/phoenix-united-states) | 30 March 2027 | Mortgage Matchup Center | $120 | Vivid Seats | 22 November, 18:05 UTC |
-| [Anaheim](/artists/hans-zimmer/tickets/anaheim-united-states) | 2 April 2027 | Honda Center | $197 | Vivid Seats | 22 November, 18:05 UTC |
-| [San Francisco](/artists/hans-zimmer/tickets/san-francisco-united-states) | 4 April 2027 | Chase Center | $165 | Vivid Seats | 22 November, 18:05 UTC |
-| [Sacramento](/artists/hans-zimmer/tickets/sacramento-united-states) | 5 April 2027 | Golden 1 Center | $104 | Vivid Seats | 22 November, 18:05 UTC |
-| [Seattle](/artists/hans-zimmer/tickets/seattle-united-states) | 9 April 2027 | Climate Pledge Arena | $148 | Vivid Seats | 22 November, 18:05 UTC |
-| [Portland](/artists/hans-zimmer/tickets/portland-united-states) | 11 April 2027 | Moda Center | $104 | Vivid Seats | 22 November, 18:05 UTC |
+| [Hartford](/artists/hans-zimmer/tickets/hartford-united-states) | 17 February 2027 | PeoplesBank Arena | $97 | Vivid Seats | 24 November, 00:30 UTC |
+| [Belmont Park](/artists/hans-zimmer/tickets/belmont-park-united-states) | 19 February 2027 | UBS Arena | $117 | Vivid Seats | 24 November, 00:30 UTC |
+| [Newark](/artists/hans-zimmer/tickets/newark-united-states) | 21 February 2027 | Prudential Center | $162 | Vivid Seats | 24 November, 00:30 UTC |
+| [Philadelphia](/artists/hans-zimmer/tickets/philadelphia-united-states) | 23 February 2027 | Xfinity Mobile Arena | $156 | Vivid Seats | 24 November, 00:30 UTC |
+| [Boston](/artists/hans-zimmer/tickets/boston-united-states) | 24 February 2027 | TD Garden | $156 | Vivid Seats | 24 November, 00:30 UTC |
+| [Detroit](/artists/hans-zimmer/tickets/detroit-united-states) | 3 March 2027 | Little Caesars Arena | $119 | Vivid Seats | 24 November, 00:30 UTC |
+| [Chicago](/artists/hans-zimmer/tickets/chicago-united-states) | 5 March 2027 | United Center | $209 | Vivid Seats | 24 November, 00:30 UTC |
+| [Charlotte](/artists/hans-zimmer/tickets/charlotte-united-states) | 9 March 2027 | Spectrum Center | $121 | Vivid Seats | 24 November, 00:30 UTC |
+| [Orlando](/artists/hans-zimmer/tickets/orlando-united-states) | 11 March 2027 | Kia Center | $124 | Vivid Seats | 24 November, 00:30 UTC |
+| [Miami](/artists/hans-zimmer/tickets/miami-united-states) | 13 March 2027 | Kaseya Center | $136 | Vivid Seats | 24 November, 00:30 UTC |
+| [Tampa](/artists/hans-zimmer/tickets/tampa-united-states) | 14 March 2027 | Benchmark International Arena | $111 | Vivid Seats | 24 November, 00:30 UTC |
+| [Atlanta](/artists/hans-zimmer/tickets/atlanta-united-states) | 16 March 2027 | State Farm Arena | $163 | Vivid Seats | 24 November, 00:30 UTC |
+| [Nashville](/artists/hans-zimmer/tickets/nashville-united-states) | 17 March 2027 | Bridgestone Arena | $107 | Vivid Seats | 24 November, 00:30 UTC |
+| [Kansas City](/artists/hans-zimmer/tickets/kansas-city-united-states) | 19 March 2027 | T-Mobile Center | $104 | Vivid Seats | 24 November, 00:30 UTC |
+| [Oklahoma City](/artists/hans-zimmer/tickets/oklahoma-city-united-states) | 21 March 2027 | Paycom Center | $88 | Vivid Seats | 24 November, 00:30 UTC |
+| [Denver](/artists/hans-zimmer/tickets/denver-united-states) | 25 March 2027 | Ball Arena | $121 | Vivid Seats | 24 November, 00:30 UTC |
+| [Salt Lake City](/artists/hans-zimmer/tickets/salt-lake-city-united-states) | 27 March 2027 | Delta Center | $470 | Vivid Seats | 24 November, 00:30 UTC |
+| [Phoenix](/artists/hans-zimmer/tickets/phoenix-united-states) | 30 March 2027 | Mortgage Matchup Center | $120 | Vivid Seats | 24 November, 00:30 UTC |
+| [Anaheim](/artists/hans-zimmer/tickets/anaheim-united-states) | 2 April 2027 | Honda Center | $188 | Vivid Seats | 24 November, 00:30 UTC |
+| [San Francisco](/artists/hans-zimmer/tickets/san-francisco-united-states) | 4 April 2027 | Chase Center | $172 | Vivid Seats | 24 November, 00:30 UTC |
+| [Sacramento](/artists/hans-zimmer/tickets/sacramento-united-states) | 5 April 2027 | Golden 1 Center | $104 | Vivid Seats | 24 November, 00:30 UTC |
+| [Seattle](/artists/hans-zimmer/tickets/seattle-united-states) | 9 April 2027 | Climate Pledge Arena | $148 | Vivid Seats | 24 November, 00:30 UTC |
+| [Portland](/artists/hans-zimmer/tickets/portland-united-states) | 11 April 2027 | Moda Center | $104 | Vivid Seats | 24 November, 00:30 UTC |
 
 ## How this was worked out
 
@@ -83,7 +85,7 @@ Vivid Seats also had a recent listed price for the next date in 22 of these citi
 - **One country, one currency.** The tour also has dates in Canada (4). They are left out, because comparing across countries would mix markets and currencies.
 - **Next date only.** A city's figure is its first upcoming date, not the lowest of all its dates.
 - **Recent prices only.** A price is used only if it was captured in the 72 hours before this page was updated. Captured times are in the table.
-- **Coverage.** 25 of the 26 cities on the tour in the United States are priced. 1 city in the United States had no recent listed price on TicketNetwork and is left out: Belmont Park.
+- **Coverage.** All 26 cities on the tour in the United States are priced.
 
 ## What this does and doesn't say
 

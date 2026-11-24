@@ -848,11 +848,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8034564",
-        "url": "https://www.ticketnetwork.com/en/p/8034564",
-        "verified": true,
-        "last_verified_at": "2026-11-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8034564",
@@ -889,7 +889,7 @@
       }
     ],
     "genre": "Country",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8034564",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8034564/Little-Big-Town-tickets-Sun-Nov-22-2026-Massey-Hall-At-Allied-Music-Centre"
   },
   {
@@ -944,7 +944,7 @@
         "event_id": "8130730",
         "url": "https://www.ticketnetwork.com/en/p/8130730",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1014,7 +1014,7 @@
         "event_id": "8130732",
         "url": "https://www.ticketnetwork.com/en/p/8130732",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1084,7 +1084,7 @@
         "event_id": "8130733",
         "url": "https://www.ticketnetwork.com/en/p/8130733",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

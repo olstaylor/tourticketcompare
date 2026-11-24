@@ -65,7 +65,7 @@
         "event_id": "7977736",
         "url": "https://www.ticketnetwork.com/en/p/7977736",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -156,11 +156,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7977738",
+        "url": "https://www.ticketnetwork.com/en/p/7977738",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_1XNCFFn",
@@ -168,7 +168,7 @@
     "status": "on-sale",
     "ticketliquidator_url": "",
     "stubhub_international_url": "",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977738",
     "presales": [
       {
         "name": "VIP Packages Onsale",
@@ -252,7 +252,7 @@
         "event_id": "7977739",
         "url": "https://www.ticketnetwork.com/en/p/7977739",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -342,7 +342,7 @@
         "event_id": "7977740",
         "url": "https://www.ticketnetwork.com/en/p/7977740",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -421,7 +421,7 @@
         "event_id": "7985682",
         "url": "https://www.ticketnetwork.com/en/p/7985682",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -483,7 +483,7 @@
         "event_id": "7983752",
         "url": "https://www.ticketnetwork.com/en/p/7983752",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -574,7 +574,7 @@
         "event_id": "7977523",
         "url": "https://www.ticketnetwork.com/en/p/7977523",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -659,7 +659,7 @@
         "event_id": "7977742",
         "url": "https://www.ticketnetwork.com/en/p/7977742",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -753,7 +753,7 @@
         "event_id": "7977745",
         "url": "https://www.ticketnetwork.com/en/p/7977745",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -900,7 +900,7 @@
         "event_id": "7985892",
         "url": "https://www.ticketnetwork.com/en/p/7985892",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -982,7 +982,7 @@
         "event_id": "7977746",
         "url": "https://www.ticketnetwork.com/en/p/7977746",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1061,7 +1061,7 @@
         "event_id": "7977748",
         "url": "https://www.ticketnetwork.com/en/p/7977748",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

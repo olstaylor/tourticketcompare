@@ -51,7 +51,7 @@
         "event_id": "8324861",
         "url": "https://www.ticketnetwork.com/en/p/8324861",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -432,7 +432,7 @@
         "event_id": "8361963",
         "url": "https://www.ticketnetwork.com/en/p/8361963",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -513,7 +513,7 @@
         "event_id": "8361928",
         "url": "https://www.ticketnetwork.com/en/p/8361928",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -578,6 +578,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361930",
+        "url": "https://www.ticketnetwork.com/en/p/8361930",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk40GkeMk2eH",
@@ -587,7 +594,8 @@
       "MAMMOTH INC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361930"
   },
   {
     "id": "tm-the-dead-south-2027-lexington-1avbz_4gku2y0tx",
@@ -641,7 +649,7 @@
         "event_id": "8352785",
         "url": "https://www.ticketnetwork.com/en/p/8352785",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -715,7 +723,7 @@
         "event_id": "8361931",
         "url": "https://www.ticketnetwork.com/en/p/8361931",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -800,7 +808,7 @@
         "event_id": "8361932",
         "url": "https://www.ticketnetwork.com/en/p/8361932",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -877,7 +885,7 @@
         "event_id": "8361934",
         "url": "https://www.ticketnetwork.com/en/p/8361934",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -946,7 +954,7 @@
         "event_id": "8361936",
         "url": "https://www.ticketnetwork.com/en/p/8361936",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1018,6 +1026,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361937",
+        "url": "https://www.ticketnetwork.com/en/p/8361937",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4NGkemvpAH",
@@ -1029,7 +1044,8 @@
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361937"
   },
   {
     "id": "tm-the-dead-south-2027-toronto-1a8zk4pgkexzbc2",
@@ -1143,7 +1159,7 @@
         "event_id": "8361941",
         "url": "https://www.ticketnetwork.com/en/p/8361941",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1217,7 +1233,7 @@
         "event_id": "8361942",
         "url": "https://www.ticketnetwork.com/en/p/8361942",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1405,7 +1421,7 @@
         "event_id": "8361946",
         "url": "https://www.ticketnetwork.com/en/p/8361946",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1489,7 +1505,7 @@
         "event_id": "8361971",
         "url": "https://www.ticketnetwork.com/en/p/8361971",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1565,7 +1581,7 @@
         "event_id": "8361948",
         "url": "https://www.ticketnetwork.com/en/p/8361948",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1634,7 +1650,7 @@
         "event_id": "8361949",
         "url": "https://www.ticketnetwork.com/en/p/8361949",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1703,7 +1719,7 @@
         "event_id": "8361953",
         "url": "https://www.ticketnetwork.com/en/p/8361953",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1772,7 +1788,7 @@
         "event_id": "8361964",
         "url": "https://www.ticketnetwork.com/en/p/8361964",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1894,7 +1910,7 @@
         "event_id": "8361957",
         "url": "https://www.ticketnetwork.com/en/p/8361957",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1963,7 +1979,7 @@
         "event_id": "8361967",
         "url": "https://www.ticketnetwork.com/en/p/8361967",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2032,7 +2048,7 @@
         "event_id": "8361958",
         "url": "https://www.ticketnetwork.com/en/p/8361958",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2101,7 +2117,7 @@
         "event_id": "8361961",
         "url": "https://www.ticketnetwork.com/en/p/8361961",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

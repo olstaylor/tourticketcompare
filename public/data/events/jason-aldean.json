@@ -51,7 +51,7 @@
         "event_id": "8341789",
         "url": "https://www.ticketnetwork.com/en/p/8341789",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -125,6 +125,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374590",
+        "url": "https://www.ticketnetwork.com/en/p/8374590",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4wtFP_q",
@@ -134,6 +141,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374590"
   }
 ]

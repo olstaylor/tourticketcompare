@@ -970,11 +970,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8258111",
-        "url": "https://www.ticketnetwork.com/en/p/8258111",
-        "verified": true,
-        "last_verified_at": "2026-11-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8258111",
@@ -987,7 +987,7 @@
     "ticketmaster_discovery_event_id": "1ApZkftGkexNgTR",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8258111",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8258111/Victoria-Monet-tickets-Sun-Nov-22-2026-Citizens-Live-at-The-Wylie",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1047,7 +1047,7 @@
         "event_id": "8258112",
         "url": "https://www.ticketnetwork.com/en/p/8258112",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1135,7 +1135,7 @@
         "event_id": "8258113",
         "url": "https://www.ticketnetwork.com/en/p/8258113",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1217,7 +1217,7 @@
         "event_id": "8258114",
         "url": "https://www.ticketnetwork.com/en/p/8258114",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1303,7 +1303,7 @@
         "event_id": "8258115",
         "url": "https://www.ticketnetwork.com/en/p/8258115",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1367,7 +1367,7 @@
         "event_id": "8258116",
         "url": "https://www.ticketnetwork.com/en/p/8258116",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1453,7 +1453,7 @@
         "event_id": "8258117",
         "url": "https://www.ticketnetwork.com/en/p/8258117",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1542,7 +1542,7 @@
         "event_id": "8258118",
         "url": "https://www.ticketnetwork.com/en/p/8258118",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1631,7 +1631,7 @@
         "event_id": "8258119",
         "url": "https://www.ticketnetwork.com/en/p/8258119",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1720,7 +1720,7 @@
         "event_id": "8258123",
         "url": "https://www.ticketnetwork.com/en/p/8258123",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1903,7 +1903,7 @@
         "event_id": "8258121",
         "url": "https://www.ticketnetwork.com/en/p/8258121",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1992,7 +1992,7 @@
         "event_id": "8259524",
         "url": "https://www.ticketnetwork.com/en/p/8259524",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

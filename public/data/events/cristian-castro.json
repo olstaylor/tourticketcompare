@@ -201,7 +201,7 @@
         "event_id": "7746197",
         "url": "https://www.ticketnetwork.com/en/p/7746197",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -279,7 +279,7 @@
         "event_id": "7743647",
         "url": "https://www.ticketnetwork.com/en/p/7743647",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -357,7 +357,7 @@
         "event_id": "7757487",
         "url": "https://www.ticketnetwork.com/en/p/7757487",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -422,6 +422,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7757476",
+        "url": "https://www.ticketnetwork.com/en/p/7757476",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AKLOLqq",
@@ -431,7 +438,8 @@
       "AMPLIFY ENTERTAINMENT"
     ],
     "ticket_limit": 10,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7757476"
   },
   {
     "id": "tm-cristian-castro-2027-anaheim-vv1aazkofgkeidrym",
@@ -485,7 +493,7 @@
         "event_id": "7757473",
         "url": "https://www.ticketnetwork.com/en/p/7757473",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -562,13 +570,21 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8035175",
+        "url": "https://www.ticketnetwork.com/en/p/8035175",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1H-rYLv",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8035175"
   },
   {
     "id": "tm-cristian-castro-2027-hidalgo-g5diz_a2dt_o4",
@@ -622,7 +638,7 @@
         "event_id": "7756937",
         "url": "https://www.ticketnetwork.com/en/p/7756937",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -692,7 +708,7 @@
         "event_id": "7756939",
         "url": "https://www.ticketnetwork.com/en/p/7756939",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -762,7 +778,7 @@
         "event_id": "7756941",
         "url": "https://www.ticketnetwork.com/en/p/7756941",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -840,7 +856,7 @@
         "event_id": "7756942",
         "url": "https://www.ticketnetwork.com/en/p/7756942",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

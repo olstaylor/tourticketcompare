@@ -734,6 +734,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8386729",
+        "url": "https://www.ticketnetwork.com/en/p/8386729",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kOeeZ-t",
@@ -742,7 +749,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386729"
   },
   {
     "id": "tm-jack-johnson-2027-amsterdam-z698xzbpz16v8kg7fn",
@@ -803,7 +811,7 @@
         "event_id": "8353391",
         "url": "https://www.ticketnetwork.com/en/p/8353391",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1016,7 +1024,7 @@
         "event_id": "8350780",
         "url": "https://www.ticketnetwork.com/en/p/8350780",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1091,7 +1099,7 @@
         "event_id": "8353404",
         "url": "https://www.ticketnetwork.com/en/p/8353404",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1172,7 +1180,7 @@
         "event_id": "8353405",
         "url": "https://www.ticketnetwork.com/en/p/8353405",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

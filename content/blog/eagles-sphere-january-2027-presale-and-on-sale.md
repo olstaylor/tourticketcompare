@@ -2,10 +2,10 @@
 title: "Eagles at Sphere, January 2027: presale and on-sale times"
 seo_title: Eagles Sphere 2027 presale times
 description: Eagles added 8 and 9 January 2027 at Sphere. Presales open 28 and 29 October, general sale 30 October at 10:00 PT. What to check before buying.
-summary: Two more Eagles nights at Sphere in Las Vegas, Friday 8 and Saturday 9 January 2027, go on general sale on Friday 30 October at 10:00 Pacific time, after two days of presales. The other residency nights are already on sale, which shapes what you see on resale sites this week.
+summary: Two more Eagles nights at Sphere in Las Vegas, Friday 8 and Saturday 9 January 2027, go on general sale on Friday 30 October at 10:00 Pacific time, after two days of presales. The other residency nights are already on sale, which shapes what you see on resale sites.
 date: 2026-10-23
 status: published
-updated: 2026-11-02
+updated: 2026-11-24
 tags:
   - tour-buying
 related_artists:
@@ -24,6 +24,8 @@ sources:
   - label: Pollstar — Eagles add January shows at Sphere
     url: https://news.pollstar.com/2026/08/04/eagles-add-january-shows-at-the-sphere-due-to-overwhelming-demand/
 ---
+
+**Update, 24 November 2026:** the presales and the general on-sale described below have taken place. The sale times are kept as a record of how the sale ran. If you are buying now, see "Buying after the on-sale" below.
 
 Eagles have added two more nights to their Sphere residency in Las Vegas: Friday 8 January 2027 and Saturday 9 January 2027. Ticketmaster lists both with a public on-sale of Friday 30 October 2026 at 10:00 Pacific time, after presales on the two days before. The announcement, as reported on 21 October, puts the residency at 74 performances in total.
 
@@ -46,14 +48,14 @@ For UK readers, 10:00 Pacific on 28, 29 and 30 October is 17:00 in London. The c
 
 ## The other nights are already on sale
 
-The new January nights are not the only way in. Ticketmaster already lists twelve other Eagles nights at Sphere as on sale: 13 and 14 November, 27 and 28 November, 4 and 5 December, 11 and 12 December 2026, then 15, 16, 22 and 23 January 2027. Those nights have resale listings now, so a search for "Eagles Sphere tickets" this week mixes the new dates with dates that have been on sale for months.
+The new January nights are not the only way in. Ticketmaster already lists twelve other Eagles nights at Sphere as on sale: 13 and 14 November, 27 and 28 November, 4 and 5 December, 11 and 12 December 2026, then 15, 16, 22 and 23 January 2027. Those nights have resale listings now, so a search for "Eagles Sphere tickets" mixes the new dates with dates that have been on sale for months.
 
 On a residency, the venue and the show name are the same on every listing. The date is the only field that tells two listings apart, so check it on the listing and again on the order summary before you pay. The [guide to reading a ticket listing](/guides/how-to-read-a-ticket-listing) covers the other fields worth checking, and the [Eagles page](/artists/eagles) lists every tracked night with its own ticket buttons.
 
-## Before and after 30 October
+## Buying after the on-sale
 
-Before the general sale, the two new nights show their on-sale time on the Eagles page and no Ticketmaster button. That does not mean presales are closed: check the Ticketmaster event listing for the current window and eligibility. Resale sites sometimes list seats for a date before its public on-sale. A listing like that is a seller's promise to deliver seats they expect to get, which is worth knowing before paying for one. The [primary vs resale guide](/guides/primary-vs-resale-concert-tickets) explains the difference.
+Before a general sale opens, resale sites sometimes list seats for a date. A listing like that is a seller's promise to deliver seats they expect to get, which is worth knowing before paying for one. The [primary vs resale guide](/guides/primary-vs-resale-concert-tickets) explains the difference.
 
-After the general sale opens, the Eagles page adds the ticket sites with a checked link for each new night. Where a price appears next to a button, it is that site's listed price for that one night when it was last checked, with the time shown. It isn't the face value or the final total. Compare the seat, the fees and the delivery terms on the ticket site itself, and use the [on-sale checklist](/guides/how-to-prepare-for-a-ticket-onsale) if you plan to buy in the presale.
+Now the general sale has opened, the Eagles page shows the ticket sites with a checked link for each new night. Where a price appears next to a button, it is that site's listed price for that one night when it was last checked, with the time shown. It isn't the face value or the final total. Compare the seat, the fees and the delivery terms on the ticket site itself. The [on-sale checklist](/guides/how-to-prepare-for-a-ticket-onsale) covers what to check before the next sale you plan to buy in.
 
 Planning further ahead? Every tracked artist with 2027 dates is listed on the [2027 tours page](/tours/2027).

@@ -6419,7 +6419,8 @@ export function renderToursHubBody(route) {
         const tiles = runs.map((run) => ({
           href: run.path,
           name: `${nameBySlug.get(run.artistSlug)} in ${run.city}`,
-          meta: [`${run.showCount} dates`, run.venueCount === 1 ? "1 venue" : `${run.venueCount} venues`, run.country].join(" · ")
+          meta: [`${run.showCount} dates`, run.venueCount === 1 ? "1 venue" : `${run.venueCount} venues`, run.country].join(" · "),
+          attrs: `data-run-country="${escapeAttr(run.country)}"`
         }));
         // Phones: the artist list below is what most visitors came for, so only
         // the first runs sit above it. The rest stay as plain links in the page.
@@ -9169,7 +9170,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "tours-hub" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20261124c" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261124e" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.

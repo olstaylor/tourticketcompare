@@ -747,7 +747,7 @@
         "event_id": "7927241",
         "url": "https://www.ticketnetwork.com/en/p/7927241",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -817,7 +817,7 @@
         "event_id": "8318410",
         "url": "https://www.ticketnetwork.com/en/p/8318410",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -891,7 +891,7 @@
         "event_id": "8318411",
         "url": "https://www.ticketnetwork.com/en/p/8318411",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -971,7 +971,7 @@
         "event_id": "8318412",
         "url": "https://www.ticketnetwork.com/en/p/8318412",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1058,7 +1058,7 @@
         "event_id": "7807220",
         "url": "https://www.ticketnetwork.com/en/p/7807220",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1129,7 +1129,7 @@
         "event_id": "8318413",
         "url": "https://www.ticketnetwork.com/en/p/8318413",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1202,7 +1202,7 @@
         "event_id": "8319457",
         "url": "https://www.ticketnetwork.com/en/p/8319457",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1274,13 +1274,21 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8319441",
+        "url": "https://www.ticketnetwork.com/en/p/8319441",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA76GU",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "genre": "Country",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319441/Gavin-Adcock-tickets-Fri-May-7-2027-Oklahoma-City-Zoo-Amphitheatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319441/Gavin-Adcock-tickets-Fri-May-7-2027-Oklahoma-City-Zoo-Amphitheatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319441"
   },
   {
     "id": "tm-gavin-adcock-2027-houston-g5diz_f9nlu8w",
@@ -1341,7 +1349,7 @@
         "event_id": "8318414",
         "url": "https://www.ticketnetwork.com/en/p/8318414",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1432,7 +1440,7 @@
         "event_id": "8319557",
         "url": "https://www.ticketnetwork.com/en/p/8319557",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1502,7 +1510,7 @@
         "event_id": "8318415",
         "url": "https://www.ticketnetwork.com/en/p/8318415",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1580,7 +1588,7 @@
         "event_id": "8319558",
         "url": "https://www.ticketnetwork.com/en/p/8319558",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1650,7 +1658,7 @@
         "event_id": "8319559",
         "url": "https://www.ticketnetwork.com/en/p/8319559",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1720,7 +1728,7 @@
         "event_id": "8319560",
         "url": "https://www.ticketnetwork.com/en/p/8319560",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

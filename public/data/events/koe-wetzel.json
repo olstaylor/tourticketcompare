@@ -181,7 +181,7 @@
         "event_id": "8307857",
         "url": "https://www.ticketnetwork.com/en/p/8307857",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -250,7 +250,7 @@
         "event_id": "8307858",
         "url": "https://www.ticketnetwork.com/en/p/8307858",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -319,7 +319,7 @@
         "event_id": "8307859",
         "url": "https://www.ticketnetwork.com/en/p/8307859",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -388,7 +388,7 @@
         "event_id": "8310872",
         "url": "https://www.ticketnetwork.com/en/p/8310872",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -457,7 +457,7 @@
         "event_id": "8307148",
         "url": "https://www.ticketnetwork.com/en/p/8307148",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -526,7 +526,7 @@
         "event_id": "8194341",
         "url": "https://www.ticketnetwork.com/en/p/8194341",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -614,13 +614,21 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8353314",
+        "url": "https://www.ticketnetwork.com/en/p/8353314",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4wSdJ6f",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "genre": "Country",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353314/Koe-Wetzel-tickets-Fri-Jan-29-2027-Choctaw-Casino-Resort-Durant"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353314/Koe-Wetzel-tickets-Fri-Jan-29-2027-Choctaw-Casino-Resort-Durant",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353314"
   },
   {
     "id": "tm-koe-wetzel-2027-rohnert-park-z7r9jz1aa7zjf",

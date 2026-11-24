@@ -51,7 +51,7 @@
         "event_id": "8329176",
         "url": "https://www.ticketnetwork.com/en/p/8329176",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -139,7 +139,7 @@
         "event_id": "8329177",
         "url": "https://www.ticketnetwork.com/en/p/8329177",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -227,7 +227,7 @@
         "event_id": "8337104",
         "url": "https://www.ticketnetwork.com/en/p/8337104",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -322,7 +322,7 @@
         "event_id": "8344350",
         "url": "https://www.ticketnetwork.com/en/p/8344350",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -403,7 +403,7 @@
         "event_id": "8347795",
         "url": "https://www.ticketnetwork.com/en/p/8347795",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -484,7 +484,7 @@
         "event_id": "8347796",
         "url": "https://www.ticketnetwork.com/en/p/8347796",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -579,7 +579,7 @@
         "event_id": "8347800",
         "url": "https://www.ticketnetwork.com/en/p/8347800",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -660,7 +660,7 @@
         "event_id": "8347801",
         "url": "https://www.ticketnetwork.com/en/p/8347801",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -736,6 +736,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8347802",
+        "url": "https://www.ticketnetwork.com/en/p/8347802",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1adfZ_4QdZvZd55v",
@@ -747,7 +754,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-18-6-2027/event/107678744",
     "ticket_limit": 4,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347802/U2-tickets-Fri-Jun-18-2027-Tottenham-Hotspur-New-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347802/U2-tickets-Fri-Jun-18-2027-Tottenham-Hotspur-New-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347802"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkszafjm",
@@ -810,6 +818,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8347803",
+        "url": "https://www.ticketnetwork.com/en/p/8347803",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdfZ_4GkSZAFjM",
@@ -821,7 +836,8 @@
     "stubhub_international_url": "https://www.stubhub.ie/u2-tickets-london-tottenham-hotspur-stadium-19-6-2027/event/107679467",
     "ticket_limit": 4,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347803/U2-tickets-Sat-Jun-19-2027-Tottenham-Hotspur-New-Stadium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8347803/U2-tickets-Sat-Jun-19-2027-Tottenham-Hotspur-New-Stadium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8347803"
   },
   {
     "id": "tm-u2-2027-london-1adfz_4gkb4kzby",
@@ -882,7 +898,7 @@
         "event_id": "8357048",
         "url": "https://www.ticketnetwork.com/en/p/8357048",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -957,7 +973,7 @@
         "event_id": "8357120",
         "url": "https://www.ticketnetwork.com/en/p/8357120",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1033,6 +1049,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357090",
+        "url": "https://www.ticketnetwork.com/en/p/8357090",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vasCA3Z",
@@ -1041,7 +1064,8 @@
     "organizer_names": [
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357090"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz1kkzqe8t",
@@ -1095,7 +1119,7 @@
         "event_id": "8357091",
         "url": "https://www.ticketnetwork.com/en/p/8357091",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1169,7 +1193,7 @@
         "event_id": "8357092",
         "url": "https://www.ticketnetwork.com/en/p/8357092",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1258,7 +1282,7 @@
         "event_id": "8359327",
         "url": "https://www.ticketnetwork.com/en/p/8359327",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1340,7 +1364,7 @@
         "event_id": "8359472",
         "url": "https://www.ticketnetwork.com/en/p/8359472",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1421,7 +1445,7 @@
         "event_id": "8359466",
         "url": "https://www.ticketnetwork.com/en/p/8359466",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1502,7 +1526,7 @@
         "event_id": "8369572",
         "url": "https://www.ticketnetwork.com/en/p/8369572",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {

@@ -53,13 +53,21 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8295201",
+        "url": "https://www.ticketnetwork.com/en/p/8295201",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3XvgS07",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295201/Nickelback-tickets-Sat-Dec-19-2026-Choctaw-Casino-Resort-Durant"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295201/Nickelback-tickets-Sat-Dec-19-2026-Choctaw-Casino-Resort-Durant",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295201"
   },
   {
     "id": "tm-nickelback-2027-pittsburgh-1apzk4agkenjp68",
@@ -113,7 +121,7 @@
         "event_id": "8314930",
         "url": "https://www.ticketnetwork.com/en/p/8314930",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -198,7 +206,7 @@
         "event_id": "8314931",
         "url": "https://www.ticketnetwork.com/en/p/8314931",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -283,7 +291,7 @@
         "event_id": "8314932",
         "url": "https://www.ticketnetwork.com/en/p/8314932",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -369,7 +377,7 @@
         "event_id": "8314934",
         "url": "https://www.ticketnetwork.com/en/p/8314934",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -454,7 +462,7 @@
         "event_id": "8314935",
         "url": "https://www.ticketnetwork.com/en/p/8314935",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -540,7 +548,7 @@
         "event_id": "8314936",
         "url": "https://www.ticketnetwork.com/en/p/8314936",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -636,6 +644,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8314937",
+        "url": "https://www.ticketnetwork.com/en/p/8314937",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4kGkdIwPu8",
@@ -658,7 +673,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314937/Nickelback-tickets-Sat-Feb-20-2027-Enterprise-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314937/Nickelback-tickets-Sat-Feb-20-2027-Enterprise-Center",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314937"
   },
   {
     "id": "tm-nickelback-2027-nashville-g5viz_frya27y",
@@ -712,7 +728,7 @@
         "event_id": "8314938",
         "url": "https://www.ticketnetwork.com/en/p/8314938",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -806,7 +822,7 @@
         "event_id": "8314939",
         "url": "https://www.ticketnetwork.com/en/p/8314939",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -891,7 +907,7 @@
         "event_id": "8314940",
         "url": "https://www.ticketnetwork.com/en/p/8314940",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -982,7 +998,7 @@
         "event_id": "8314941",
         "url": "https://www.ticketnetwork.com/en/p/8314941",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1076,7 +1092,7 @@
         "event_id": "8314942",
         "url": "https://www.ticketnetwork.com/en/p/8314942",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1170,7 +1186,7 @@
         "event_id": "8314943",
         "url": "https://www.ticketnetwork.com/en/p/8314943",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1264,7 +1280,7 @@
         "event_id": "8314944",
         "url": "https://www.ticketnetwork.com/en/p/8314944",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1358,7 +1374,7 @@
         "event_id": "8314945",
         "url": "https://www.ticketnetwork.com/en/p/8314945",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1452,7 +1468,7 @@
         "event_id": "8314962",
         "url": "https://www.ticketnetwork.com/en/p/8314962",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1677,7 +1693,7 @@
         "event_id": "8314946",
         "url": "https://www.ticketnetwork.com/en/p/8314946",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1771,7 +1787,7 @@
         "event_id": "8314947",
         "url": "https://www.ticketnetwork.com/en/p/8314947",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1865,7 +1881,7 @@
         "event_id": "8314948",
         "url": "https://www.ticketnetwork.com/en/p/8314948",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1952,7 +1968,7 @@
         "event_id": "8314965",
         "url": "https://www.ticketnetwork.com/en/p/8314965",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2041,7 +2057,7 @@
         "event_id": "8314966",
         "url": "https://www.ticketnetwork.com/en/p/8314966",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2133,7 +2149,7 @@
         "event_id": "8314968",
         "url": "https://www.ticketnetwork.com/en/p/8314968",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2225,7 +2241,7 @@
         "event_id": "8314969",
         "url": "https://www.ticketnetwork.com/en/p/8314969",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2322,7 +2338,7 @@
         "event_id": "8314951",
         "url": "https://www.ticketnetwork.com/en/p/8314951",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2416,7 +2432,7 @@
         "event_id": "8314952",
         "url": "https://www.ticketnetwork.com/en/p/8314952",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2510,7 +2526,7 @@
         "event_id": "8314954",
         "url": "https://www.ticketnetwork.com/en/p/8314954",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2604,7 +2620,7 @@
         "event_id": "8314956",
         "url": "https://www.ticketnetwork.com/en/p/8314956",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2698,7 +2714,7 @@
         "event_id": "8314958",
         "url": "https://www.ticketnetwork.com/en/p/8314958",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2792,7 +2808,7 @@
         "event_id": "8314959",
         "url": "https://www.ticketnetwork.com/en/p/8314959",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2885,7 +2901,7 @@
         "event_id": "8314961",
         "url": "https://www.ticketnetwork.com/en/p/8314961",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3047,6 +3063,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8314974",
+        "url": "https://www.ticketnetwork.com/en/p/8314974",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZk46GkdJR1bv",
@@ -3058,7 +3081,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314974/Nickelback-tickets-Tue-May-25-2027-O2-Arena-London"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314974/Nickelback-tickets-Tue-May-25-2027-O2-Arena-London",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314974"
   },
   {
     "id": "tm-nickelback-2027-birmingham-1kfyvp3_gagcomu",
@@ -3112,7 +3136,7 @@
         "event_id": "8314975",
         "url": "https://www.ticketnetwork.com/en/p/8314975",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3194,7 +3218,7 @@
         "event_id": "8314976",
         "url": "https://www.ticketnetwork.com/en/p/8314976",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3268,7 +3292,7 @@
         "event_id": "8314978",
         "url": "https://www.ticketnetwork.com/en/p/8314978",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3351,7 +3375,7 @@
         "event_id": "8314791",
         "url": "https://www.ticketnetwork.com/en/p/8314791",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3436,6 +3460,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8314979",
+        "url": "https://www.ticketnetwork.com/en/p/8314979",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kppuZF3",
@@ -3445,7 +3476,8 @@
       "Live Nation"
     ],
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314979/Nickelback-tickets-Sat-Jun-5-2027-Vorst-Nationaal"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314979/Nickelback-tickets-Sat-Jun-5-2027-Vorst-Nationaal",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314979"
   },
   {
     "id": "tm-nickelback-2027-amsterdam-z698xzbpz1k-uqgjg",
@@ -3499,7 +3531,7 @@
         "event_id": "8314980",
         "url": "https://www.ticketnetwork.com/en/p/8314980",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3580,7 +3612,7 @@
         "event_id": "8314982",
         "url": "https://www.ticketnetwork.com/en/p/8314982",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3661,7 +3693,7 @@
         "event_id": "8314985",
         "url": "https://www.ticketnetwork.com/en/p/8314985",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3744,13 +3776,21 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8314988",
+        "url": "https://www.ticketnetwork.com/en/p/8314988",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZA161",
     "timezone": "Europe/Rome",
     "status": "on-sale",
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314988/Nickelback-tickets-Wed-Jun-23-2027-Forum-di-Milano"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314988/Nickelback-tickets-Wed-Jun-23-2027-Forum-di-Milano",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314988"
   },
   {
     "id": "tm-nickelback-2027-odz-z698xzqpz1kvw7fvb",
@@ -3813,6 +3853,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8314992",
+        "url": "https://www.ticketnetwork.com/en/p/8314992",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ1kvw7Fvb",
@@ -3823,7 +3870,8 @@
       "Live Nation sp. z o.o."
     ],
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314992/Nickelback-tickets-Thu-Jul-1-2027-Atlas-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314992/Nickelback-tickets-Thu-Jul-1-2027-Atlas-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314992"
   },
   {
     "id": "tm-nickelback-2027-zurich-z698xzu3z1kjt1pck",
@@ -3877,7 +3925,7 @@
         "event_id": "8314986",
         "url": "https://www.ticketnetwork.com/en/p/8314986",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3958,7 +4006,7 @@
         "event_id": "8314989",
         "url": "https://www.ticketnetwork.com/en/p/8314989",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4040,6 +4088,13 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8314990",
+        "url": "https://www.ticketnetwork.com/en/p/8314990",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z1kqVft7S",
@@ -4050,7 +4105,8 @@
     ],
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314990/Nickelback-tickets-Sat-Jun-26-2027-O2-Arena-Prague",
-    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-prague-o2-arena-26-6-2027/event/107672934"
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-prague-o2-arena-26-6-2027/event/107672934",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8314990"
   },
   {
     "id": "tm-nickelback-2027-helsinki-z698xz8kz16vqs7sfi",
@@ -4104,7 +4160,7 @@
         "event_id": "8314993",
         "url": "https://www.ticketnetwork.com/en/p/8314993",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4192,7 +4248,7 @@
         "event_id": "8314994",
         "url": "https://www.ticketnetwork.com/en/p/8314994",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4379,7 +4435,7 @@
         "event_id": "8314933",
         "url": "https://www.ticketnetwork.com/en/p/8314933",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4452,7 +4508,7 @@
         "event_id": "8314949",
         "url": "https://www.ticketnetwork.com/en/p/8314949",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4525,7 +4581,7 @@
         "event_id": "8314953",
         "url": "https://www.ticketnetwork.com/en/p/8314953",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4606,7 +4662,7 @@
         "event_id": "8314957",
         "url": "https://www.ticketnetwork.com/en/p/8314957",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4687,7 +4743,7 @@
         "event_id": "8314960",
         "url": "https://www.ticketnetwork.com/en/p/8314960",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

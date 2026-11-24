@@ -9155,7 +9155,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "tours-hub" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20261123a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261124a" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.

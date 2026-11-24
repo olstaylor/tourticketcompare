@@ -100,11 +100,23 @@
       buttons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.getAttribute("data-country") === country)); });
       if (status) status.textContent = country ? plural(count, "artist", "artists") + " with 2027 dates in " + country + "." : "";
       input.dispatchEvent(new Event("input"));
+      // A shareable address: /tours/2027?country=United+Kingdom. The page's
+      // canonical stays the plain hub; this only restores the choice on load.
+      try {
+        var url = new URL(window.location.href);
+        if (country) url.searchParams.set("country", country); else url.searchParams.delete("country");
+        window.history.replaceState(null, "", url.pathname + url.search + url.hash);
+      } catch (e) { /* history unavailable: the filter still works */ }
     }
     buttons.forEach(function (button) {
       button.addEventListener("click", function () { select(button.getAttribute("data-country") || ""); });
     });
     chooser.hidden = false;
+    try {
+      var wanted = new URL(window.location.href).searchParams.get("country");
+      var known = buttons.some(function (button) { return button.getAttribute("data-country") === wanted; });
+      if (wanted && known) select(wanted);
+    } catch (e) { /* no query string support: start unfiltered */ }
   }
 
   function initBoard() {

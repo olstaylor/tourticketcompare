@@ -3046,6 +3046,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375627",
+        "url": "https://www.ticketliquidator.com/tickets/8375627/Jhene-Aiko-tickets-Wed-May-19-2027-Maverik-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_pS36MUq",
@@ -3066,7 +3073,8 @@
         "start": "2026-11-20T17:00:00Z",
         "end": "2027-05-15T18:00:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375627/Jhene-Aiko-tickets-Wed-May-19-2027-Maverik-Center"
   },
   {
     "id": "tm-jhene-aiko-2027-los-angeles-g5eyz_pusyoov",

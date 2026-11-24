@@ -981,6 +981,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8290955",
+        "url": "https://www.ticketliquidator.com/tickets/8290955/Needtobreathe-tickets-Tue-Mar-9-2027-Durham-Performing-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_Khc4kmz",
@@ -998,7 +1005,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8290955/Needtobreathe-tickets-Tue-Mar-9-2027-Durham-Performing-Arts-Center"
   },
   {
     "id": "tm-needtobreathe-2027-asheville-g5evz_kd9sqw9",

@@ -2093,6 +2093,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8293138",
+        "url": "https://www.ticketliquidator.com/tickets/8293138/Riley-Green-tickets-Fri-Jun-18-2027-Bank-of-New-Hampshire-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfsGke-eLVi",
@@ -2114,7 +2121,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8293138/Riley-Green-tickets-Fri-Jun-18-2027-Bank-of-New-Hampshire-Pavilion"
   },
   {
     "id": "tm-riley-green-2027-gilford-vv1avzkfsgkeipxy_",
@@ -2163,6 +2171,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300341",
+        "url": "https://www.ticketliquidator.com/tickets/8300341/Riley-Green-tickets-Sat-Jun-19-2027-Bank-of-New-Hampshire-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZkfsGkeIpxY_",
@@ -2184,7 +2199,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300341/Riley-Green-tickets-Sat-Jun-19-2027-Bank-of-New-Hampshire-Pavilion"
   },
   {
     "id": "tm-riley-green-2027-clarkston-vv1afzkfwgkdw_jcp",

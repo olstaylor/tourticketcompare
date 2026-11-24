@@ -2132,6 +2132,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295483",
+        "url": "https://www.ticketliquidator.com/tickets/8295483/Daughtry-tickets-Fri-Feb-12-2027-Choctaw-Casino-Resort-Durant",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KGP_ixc",
@@ -2144,7 +2151,8 @@
         "end": "2027-02-06T04:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295483/Daughtry-tickets-Fri-Feb-12-2027-Choctaw-Casino-Resort-Durant"
   },
   {
     "id": "tm-daughtry-2027-saint-louis-vv1fvovpgtjkz75857",

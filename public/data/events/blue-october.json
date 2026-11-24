@@ -1657,11 +1657,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7827974",
-        "url": "https://www.ticketliquidator.com/tickets/7827974/Blue-October-tickets-Sun-Nov-22-2026-The-Tabernacle-GA",
-        "verified": true,
-        "last_verified_at": "2026-11-23",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_6ddzDk3",
@@ -1673,7 +1673,7 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7827974",
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827974/Blue-October-tickets-Sun-Nov-22-2026-The-Tabernacle-GA"
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-blue-october-2026-nashville-g5viz_kskltsv",
@@ -4951,12 +4951,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7827980",
+        "url": "https://www.ticketliquidator.com/tickets/7827980/Blue-October-tickets-Wed-Dec-9-2026-Little-Rock-Hall-AR",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1Afr4PN",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7827980/Blue-October-tickets-Wed-Dec-9-2026-Little-Rock-Hall-AR"
   },
   {
     "id": "tm-blue-october-2027-ventura-rz7hnez1af0ofn",

@@ -125,6 +125,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374590",
+        "url": "https://www.ticketliquidator.com/tickets/8374590/Jason-Aldean-tickets-Sat-Mar-6-2027-Choctaw-Casino-Resort-Durant",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_4wtFP_q",
@@ -134,6 +141,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374590/Jason-Aldean-tickets-Sat-Mar-6-2027-Choctaw-Casino-Resort-Durant"
   }
 ]

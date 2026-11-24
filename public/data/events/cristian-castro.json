@@ -422,6 +422,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "7757476",
+        "url": "https://www.ticketliquidator.com/tickets/7757476/Cristian-Castro-tickets-Sat-Jan-30-2027-Maverik-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_AKLOLqq",
@@ -431,7 +438,8 @@
       "AMPLIFY ENTERTAINMENT"
     ],
     "ticket_limit": 10,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7757476/Cristian-Castro-tickets-Sat-Jan-30-2027-Maverik-Center"
   },
   {
     "id": "tm-cristian-castro-2027-anaheim-vv1aazkofgkeidrym",
@@ -562,13 +570,21 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8035175",
+        "url": "https://www.ticketliquidator.com/tickets/8035175/Cristian-Castro-tickets-Sat-Feb-13-2027-Acrisure-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1H-rYLv",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8035175/Cristian-Castro-tickets-Sat-Feb-13-2027-Acrisure-Arena"
   },
   {
     "id": "tm-cristian-castro-2027-hidalgo-g5diz_a2dt_o4",

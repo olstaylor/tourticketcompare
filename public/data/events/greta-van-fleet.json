@@ -3975,6 +3975,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8303381",
+        "url": "https://www.ticketliquidator.com/tickets/8303381/Greta-Van-Fleet-tickets-Mon-Jul-26-2027-Bank-of-New-Hampshire-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGkni4dAs",
@@ -3991,7 +3998,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8303381/Greta-Van-Fleet-tickets-Mon-Jul-26-2027-Bank-of-New-Hampshire-Pavilion"
   },
   {
     "id": "tm-greta-van-fleet-2027-laval-1ad7z_kgksakup4",

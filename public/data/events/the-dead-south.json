@@ -578,6 +578,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361930",
+        "url": "https://www.ticketliquidator.com/tickets/8361930/The-Dead-South-tickets-Wed-Apr-28-2027-GrindersKC",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk40GkeMk2eH",
@@ -587,7 +594,8 @@
       "MAMMOTH INC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361930/The-Dead-South-tickets-Wed-Apr-28-2027-GrindersKC"
   },
   {
     "id": "tm-the-dead-south-2027-lexington-1avbz_4gku2y0tx",
@@ -1018,6 +1026,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361937",
+        "url": "https://www.ticketliquidator.com/tickets/8361937/The-Dead-South-tickets-Sun-Sep-26-2027-Edmonton-EXPO",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4NGkemvpAH",
@@ -1029,7 +1044,8 @@
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361937/The-Dead-South-tickets-Sun-Sep-26-2027-Edmonton-EXPO"
   },
   {
     "id": "tm-the-dead-south-2027-toronto-1a8zk4pgkexzbc2",

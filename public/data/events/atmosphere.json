@@ -1193,12 +1193,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8277982",
+        "url": "https://www.ticketliquidator.com/tickets/8277982/Atmosphere-tickets-Wed-Jan-20-2027-Mesa-Theater-Club",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeZfe",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8277982/Atmosphere-tickets-Wed-Jan-20-2027-Mesa-Theater-Club"
   },
   {
     "id": "tm-atmosphere-2027-minneapolis-z7r9jz1aaez4o",

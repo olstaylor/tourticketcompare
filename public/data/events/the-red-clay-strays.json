@@ -2725,6 +2725,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8300904",
+        "url": "https://www.ticketliquidator.com/tickets/8300904/The-Red-Clay-Strays-tickets-Sat-Jul-24-2027-Bank-of-New-Hampshire-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_KGklLI63O",
@@ -2747,7 +2754,8 @@
       "AEG - TICKETING"
     ],
     "ticket_limit": 6,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300904/The-Red-Clay-Strays-tickets-Sat-Jul-24-2027-Bank-of-New-Hampshire-Pavilion"
   },
   {
     "id": "tm-the-red-clay-strays-2027-canandaigua-k7vgf_ksrxvbm",

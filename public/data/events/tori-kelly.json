@@ -53,6 +53,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8386321",
+        "url": "https://www.ticketliquidator.com/tickets/8386321/Tori-Kelly-tickets-Mon-Dec-7-2026-Albert-Hall-Manchester",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_1r4owpH",
@@ -63,7 +70,8 @@
       "S.J.M. LTD"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386321/Tori-Kelly-tickets-Mon-Dec-7-2026-Albert-Hall-Manchester"
   },
   {
     "id": "tm-tori-kelly-2026-birmingham-g5dzz_1hposmp",
@@ -399,6 +407,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8384056",
+        "url": "https://www.ticketliquidator.com/tickets/8384056/Tori-Kelly-tickets-Fri-Mar-19-2027-House-Of-Blues-Anaheim",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv170Z_pGkMQbSkf",
@@ -420,7 +435,8 @@
         "start": "2026-11-20T18:00:00Z",
         "end": "2027-03-12T07:55:00Z"
       }
-    ]
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8384056/Tori-Kelly-tickets-Fri-Mar-19-2027-House-Of-Blues-Anaheim"
   },
   {
     "id": "tm-tori-kelly-2027-phoenix-1av0z_pgkgtcw3p",

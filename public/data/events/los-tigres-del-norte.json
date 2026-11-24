@@ -694,6 +694,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7759917",
+        "url": "https://www.ticketliquidator.com/tickets/7759917/Los-Tigres-del-Norte-tickets-Sat-Dec-5-2026-Concert-Hall-at-the-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkobGkdkxmHh",
@@ -716,7 +723,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7759917/Los-Tigres-del-Norte-tickets-Sat-Dec-5-2026-Concert-Hall-at-the-BJCC"
   },
   {
     "id": "tm-los-tigres-del-norte-2027-san-jose-g5vyz_k6cidvv",

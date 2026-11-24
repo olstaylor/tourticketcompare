@@ -1163,12 +1163,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344244",
+        "url": "https://www.ticketliquidator.com/tickets/8344244/Mat-Kearney-tickets-Sat-Aug-21-2027-Cerritos-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_4Z4bvmR",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344244/Mat-Kearney-tickets-Sat-Aug-21-2027-Cerritos-Center"
   },
   {
     "id": "tm-mat-kearney-2027-sacramento-g5vyz_4l700ei",

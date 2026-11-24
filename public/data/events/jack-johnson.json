@@ -734,6 +734,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8386729",
+        "url": "https://www.ticketliquidator.com/tickets/8386729/Jack-Johnson-tickets-Sat-Jun-26-2027-Vorst-Nationaal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kOeeZ-t",
@@ -742,7 +749,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386729/Jack-Johnson-tickets-Sat-Jun-26-2027-Vorst-Nationaal"
   },
   {
     "id": "tm-jack-johnson-2027-amsterdam-z698xzbpz16v8kg7fn",

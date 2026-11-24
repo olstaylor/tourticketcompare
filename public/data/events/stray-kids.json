@@ -1171,6 +1171,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381436",
+        "url": "https://www.ticketliquidator.com/tickets/8381436/Stray-Kids-tickets-Wed-Jul-21-2027-Ernst-Happel-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ5rZ16vOFPore",
@@ -1179,7 +1186,8 @@
     "organizer_names": [
       "Live Nation Austria GmbH"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381436/Stray-Kids-tickets-Wed-Jul-21-2027-Ernst-Happel-Stadium"
   },
   {
     "id": "tm-stray-kids-2027-barcelona-z698xz2qz16vod48ea",

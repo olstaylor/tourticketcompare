@@ -1905,7 +1905,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-phoenix-arizona-financial-theatre-12-14-2026--concerts-pop/production/7347462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1973,7 +1973,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       }
     ],

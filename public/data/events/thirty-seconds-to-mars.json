@@ -1055,18 +1055,18 @@
     "datetime_iso": "2027-05-22T16:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1588643857",
-    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-lippuja/1588643857",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-lippuja/1588643857",
-    "last_verified_at": "2026-11-23",
+    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1588643857",
         "discovery_event_id": "Z698xZ8KZ16vpF_d-9",
-        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-lippuja/1588643857",
+        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"

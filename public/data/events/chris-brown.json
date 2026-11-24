@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/chris-brown-liv-nightclub-miami-tickets/15066313",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "15066313",
@@ -50,6 +50,7 @@
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1A4vJGK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "R&B"
   }
 ]

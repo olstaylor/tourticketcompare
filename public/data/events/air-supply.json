@@ -680,7 +680,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-fort-pierce-sunrise-theatre-1-21-2027--concerts-pop/production/7411746",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-fort-pierce-florida-01-21-2027/event/0D006506C11C7A09",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -736,7 +736,14 @@
       "VENUWORKS CORPORATE",
       "AEG PRESENTS"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Cyber Monday",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-daytona-beach-z7r9jz1a7pozg",

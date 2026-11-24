@@ -960,7 +960,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/bryson-tiller-presents-the-neo-trapsoul-dublin-01-12-2026/event/180064B5D994DD36",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -998,7 +998,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
-      "MCD PRODUCTIONS"
+      "MCD PRODUCTIONS",
+      "DUKE DUMONT"
     ],
     "genre": "Hip-Hop/Rap"
   },

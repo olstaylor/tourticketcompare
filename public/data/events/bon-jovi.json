@@ -602,7 +602,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-24-06-2027/event/3700654D9D5C208B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -637,6 +637,12 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_fGkUq9ee5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "THE ROYAL PARKS",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6
   }
 ]

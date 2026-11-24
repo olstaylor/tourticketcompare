@@ -1569,7 +1569,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-tulsa-bok-center-3-16-2027/production/7642162",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tulsa-oklahoma-03-16-2027/event/2000653EEA055CCC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1626,6 +1626,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-15T15:00:00Z",
         "end": "2027-03-09T05:55:00Z"
+      },
+      {
+        "name": "Thanksgiving Deal",
+        "start": "2026-11-23T19:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
       }
     ],
     "organizer_names": [

@@ -1726,7 +1726,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-glendale-desert-diamond-arena-11-27-2026--concerts-pop/production/7446318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-glendale-arizona-11-27-2026/event/1900650DD11599D6",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1780,13 +1780,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214364/Jonas-Brothers-tickets-Fri-Nov-27-2026-Desert-Diamond-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-23T19:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"

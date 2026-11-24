@@ -1181,7 +1181,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-nashville-the-truth-11-30-2026--concerts-pop/production/7540349",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1237,11 +1237,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-09-16T15:00:00Z",
-        "end": "2026-11-24T04:00:00Z"
-      },
       {
         "name": "2 For 50",
         "start": "2026-10-23T17:00:00Z",
@@ -1331,7 +1326,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-phoenix-arizona-financial-theatre-12-5-2026--concerts-pop/production/7540357",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1394,7 +1389,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-06T02:00:00Z"
       }
     ],

@@ -64,7 +64,7 @@
     "city": "Auckland",
     "country": "New Zealand",
     "venue": "Spark Arena",
-    "datetime_iso": "2026-12-01T06:00:00Z",
+    "datetime_iso": "2026-12-01T05:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "240064E3C20634BF",
     "ticketmaster_url": "https://www.ticketmaster.co.nz/boyz-ii-men-auckland-01-12-2026/event/240064E3C20634BF",
@@ -72,7 +72,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/boyz-ii-men-auckland-01-12-2026/event/240064E3C20634BF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

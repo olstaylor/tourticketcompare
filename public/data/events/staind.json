@@ -2396,7 +2396,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-kansas-city-t-mobile-center-4-10-2027/production/7658897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-kansas-city-missouri-04-10-2027/event/06006541B5EEF63F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2468,6 +2468,11 @@
         "name": "AISLE Preferred Seating",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-04-11T00:00:00Z"
+      },
+      {
+        "name": "Cyber Special Offer",
+        "start": "2026-11-30T06:00:00Z",
+        "end": "2026-12-08T05:59:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308788",

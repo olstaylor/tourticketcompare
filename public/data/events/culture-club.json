@@ -1,0 +1,532 @@
+[
+  {
+    "id": "tm-culture-club-2026-bournemouth-17uov0g659y_xj3",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Bournemouth",
+    "country": "Great Britain",
+    "venue": "Bournemouth International Centre",
+    "datetime_iso": "2026-12-07T18:30:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "360064B5F967E992",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064B5F967E992",
+        "discovery_event_id": "17uOv0G659y_XJ3",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G659y_XJ3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-cardiff-17uov0g65qatjh8",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2026-12-08T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064B689A666D0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064B689A666D0",
+        "discovery_event_id": "17uOv0G65QatJh8",
+        "url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G65QatJh8",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-manchester-g5vhz_g33v7ia",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club - The Singles Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-12-10T18:00:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "1F0064C492D04B09",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C492D04B09",
+        "discovery_event_id": "G5vHZ_G33V7ia",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_G33V7ia",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-liverpool-17uyv0g659ybvks",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Liverpool",
+    "country": "Great Britain",
+    "venue": "M&S Bank Arena Liverpool",
+    "datetime_iso": "2026-12-11T18:30:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "370064B5F96344F3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-liverpool-11-12-2026/event/370064B5F96344F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-liverpool-11-12-2026/event/370064B5F96344F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064B5F96344F3",
+        "discovery_event_id": "17uYv0G659ybVKS",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-liverpool-11-12-2026/event/370064B5F96344F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G659ybVKS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-leeds-g5vhz_59ybb3y",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Leeds First Direct Bank Arena",
+    "datetime_iso": "2026-12-12T18:00:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "1F0064B5F96184B9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064B5F96184B9",
+        "discovery_event_id": "G5vHZ_59ybb3y",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_59ybb3y",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-newcastle-upon-tyne-g5vhz_59ybf3i",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Newcastle",
+    "datetime_iso": "2026-12-13T18:00:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "1F0064B5F96084AC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064B5F96084AC",
+        "discovery_event_id": "G5vHZ_59ybF3i",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_59ybF3i",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-glasgow-17uov0g659z_cry",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-12-15T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064B5F864E7B0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064B5F864E7B0",
+        "discovery_event_id": "17uOv0G659z_CrY",
+        "url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G659z_CrY",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-sheffield-17u8v0g659uvycg",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club",
+    "city": "Sheffield",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Sheffield",
+    "datetime_iso": "2026-12-17T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064B5F6D39B4C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064B5F6D39B4C",
+        "discovery_event_id": "17u8v0G659UVycG",
+        "url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G659UVycG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-birmingham-17fyv0g659y9xlw",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2026-12-18T18:00:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "230064B5F95E27F2",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "230064B5F95E27F2",
+        "discovery_event_id": "17FYv0G659y9xLw",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FYv0G659y9xLw",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-london-17u8v0g659y9_dw",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2026-12-19T18:30:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "350064B5F95D9EFD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064B5F95D9EFD",
+        "discovery_event_id": "17u8v0G659y9_DW",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G659y9_DW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22",
+  "updated_at": "2026-11-24",
   "description": "Provider identity registry for provider-based event sync. One entry per artist in public/data/artists.json. Provider IDs are populated only after one-time human verification (see docs/PROVIDER_SYNC.md). This file is not served publicly and is never read at runtime.",
   "review_status_values": [
     "unverified",
@@ -3076,6 +3076,39 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Auto-promoted 2026-11-22 (sanctioned path D): SeatGeek performer 1498 and Ticketmaster attraction K8vZ9171nF7 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "powderfinger",
+      "ticketmaster_attraction_id": "K8vZ9171sE0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/powderfinger-tickets/artist/781242",
+      "seatgeek_performer_id": 93924,
+      "seatgeek_artist_url": "https://seatgeek.com/powderfinger-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-24 (sanctioned path D): SeatGeek performer 93924 and Ticketmaster attraction K8vZ9171sE0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "slash",
+      "ticketmaster_attraction_id": "K8vZ917G0H0",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/slash-tickets/artist/771959",
+      "seatgeek_performer_id": 4525,
+      "seatgeek_artist_url": "https://seatgeek.com/slash-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-24 (sanctioned path D): SeatGeek performer 4525 and Ticketmaster attraction K8vZ917G0H0 captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
+    },
+    {
+      "slug": "culture-club",
+      "ticketmaster_attraction_id": "K8vZ9171b4f",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/culture-club-tickets/artist/894686",
+      "seatgeek_performer_id": 10345,
+      "seatgeek_artist_url": "https://seatgeek.com/culture-club-tickets",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Auto-promoted 2026-11-24 (sanctioned path D): SeatGeek performer 10345 and Ticketmaster attraction K8vZ9171b4f captured by exact name and re-fetched by id in the same job; screen D1-D5 passed; no human spot-check."
     }
   ]
 }

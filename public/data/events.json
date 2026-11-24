@@ -446930,5 +446930,2708 @@
       "LIVE NATION MUSIC"
     ],
     "genre": "Pop"
+  },
+  {
+    "id": "tm-powderfinger-2027-bowen-hills-1k7yvpomga5tx6s",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-09-03T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "130065477BA621F3",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-03-09-2027/event/130065477BA621F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-03-09-2027/event/130065477BA621F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "130065477BA621F3",
+        "discovery_event_id": "1k7YvPoMGA5tx6S",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-03-09-2027/event/130065477BA621F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k7YvPoMGA5tx6S",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7xsqt",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-09-04T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300654872FB16A9",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-04-09-2027/event/1300654872FB16A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-04-09-2027/event/1300654872FB16A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300654872FB16A9",
+        "discovery_event_id": "16vGZ_f-wG7XsQt",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-04-09-2027/event/1300654872FB16A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vGZ_f-wG7XsQt",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7xsqr",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-09-06T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300654872FB16AF",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-06-09-2027/event/1300654872FB16AF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-06-09-2027/event/1300654872FB16AF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300654872FB16AF",
+        "discovery_event_id": "16vGZ_f-wG7XsQR",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-06-09-2027/event/1300654872FB16AF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vGZ_f-wG7XsQR",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7xsqs",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-09-08T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300654872FB16B1",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-08-09-2027/event/1300654872FB16B1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-08-09-2027/event/1300654872FB16B1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300654872FB16B1",
+        "discovery_event_id": "16vGZ_f-wG7XsQs",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-08-09-2027/event/1300654872FB16B1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vGZ_f-wG7XsQs",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7tvqs",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-09-10T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300654872FC16B3",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-09-2027/event/1300654872FC16B3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-09-2027/event/1300654872FC16B3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300654872FC16B3",
+        "discovery_event_id": "16vGZ_f-wG7TvQS",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-09-2027/event/1300654872FC16B3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vGZ_f-wG7TvQS",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7tvqg",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-09-11T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300654872FC16B5",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-09-2027/event/1300654872FC16B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-09-2027/event/1300654872FC16B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300654872FC16B5",
+        "discovery_event_id": "16vGZ_f-wG7TvQg",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-09-2027/event/1300654872FC16B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vGZ_f-wG7TvQg",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-westcourt-1ka8vpoygagbsx2",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Westcourt",
+    "country": "Australia",
+    "venue": "Cazalys Stadium",
+    "datetime_iso": "2027-09-17T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "250065479C63388F",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-17-09-2027/event/250065479C63388F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-17-09-2027/event/250065479C63388F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "250065479C63388F",
+        "discovery_event_id": "1ka8vPoyGAGbSx2",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-17-09-2027/event/250065479C63388F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1ka8vPoyGAGbSx2",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-westcourt-1apzk4fgken8vl2",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Westcourt",
+    "country": "Australia",
+    "venue": "Cazalys Stadium",
+    "datetime_iso": "2027-09-18T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006548AA434ACF",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-18-09-2027/event/25006548AA434ACF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-18-09-2027/event/25006548AA434ACF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006548AA434ACF",
+        "discovery_event_id": "1APZk4FGken8Vl2",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-18-09-2027/event/25006548AA434ACF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk4FGken8Vl2",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-east-perth-1akzk4fgkeyukxi",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "East Perth",
+    "country": "Australia",
+    "venue": "Wellington Square",
+    "datetime_iso": "2027-09-24T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006548B0D86FAC",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-24-09-2027/event/13006548B0D86FAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-24-09-2027/event/13006548B0D86FAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006548B0D86FAC",
+        "discovery_event_id": "1AKZk4FGkeYUkXi",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-24-09-2027/event/13006548B0D86FAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk4FGkeYUkXi",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-east-perth-16vgz_fpmg7hx1q",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "East Perth",
+    "country": "Australia",
+    "venue": "Wellington Square",
+    "datetime_iso": "2027-09-25T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300654977F2229A",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-25-09-2027/event/1300654977F2229A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-25-09-2027/event/1300654977F2229A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300654977F2229A",
+        "discovery_event_id": "16vGZ_fPMG7Hx1Q",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-25-09-2027/event/1300654977F2229A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vGZ_fPMG7Hx1Q",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-east-perth-16vgz_fpmg7hx1r",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "East Perth",
+    "country": "Australia",
+    "venue": "Wellington Square",
+    "datetime_iso": "2027-09-27T09:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300654977F2229E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-27-09-2027/event/1300654977F2229E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-27-09-2027/event/1300654977F2229E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300654977F2229E",
+        "discovery_event_id": "16vGZ_fPMG7Hx1r",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-27-09-2027/event/1300654977F2229E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16vGZ_fPMG7Hx1r",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-sydney-1akzk46gkdqpnzu",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-10-01T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006547DA5AAE36",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-01-10-2027/event/13006547DA5AAE36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-01-10-2027/event/13006547DA5AAE36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006547DA5AAE36",
+        "discovery_event_id": "1AKZk46GkdQpnzU",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-01-10-2027/event/13006547DA5AAE36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk46GkdQpnzU",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-sydney-1akzk4fgkd_qb_v",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-10-02T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006548D977A674",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-02-10-2027/event/13006548D977A674",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-02-10-2027/event/13006548D977A674",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006548D977A674",
+        "discovery_event_id": "1AKZk4FGkd_qB_V",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-02-10-2027/event/13006548D977A674",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk4FGkd_qB_V",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-sydney-1akzk4fgkd_z1h4",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-10-04T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006548D9E0A6D5",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-04-10-2027/event/13006548D9E0A6D5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-04-10-2027/event/13006548D9E0A6D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006548D9E0A6D5",
+        "discovery_event_id": "1AKZk4FGkd_z1h4",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-04-10-2027/event/13006548D9E0A6D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk4FGkd_z1h4",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-sydney-1akzk4fgkdqv1hi",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-10-06T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006548DA04A6EC",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-06-10-2027/event/13006548DA04A6EC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-06-10-2027/event/13006548DA04A6EC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006548DA04A6EC",
+        "discovery_event_id": "1AKZk4FGkdQv1hi",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-06-10-2027/event/13006548DA04A6EC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk4FGkdQv1hi",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-sydney-1akzk4fgkdqabj6",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-10-08T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006548DA27A707",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-08-10-2027/event/13006548DA27A707",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-08-10-2027/event/13006548DA27A707",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006548DA27A707",
+        "discovery_event_id": "1AKZk4FGkdQaBj6",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-08-10-2027/event/13006548DA27A707",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk4FGkdQaBj6",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-sydney-1akzk4fgkdq4qju",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Sydney",
+    "country": "Australia",
+    "venue": "The Domain",
+    "datetime_iso": "2027-10-09T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006548DA55A736",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-09-10-2027/event/13006548DA55A736",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-09-10-2027/event/13006548DA55A736",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006548DA55A736",
+        "discovery_event_id": "1AKZk4FGkdQ4QjU",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-09-10-2027/event/13006548DA55A736",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk4FGkdQ4QjU",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-adelaide-1akzk46gkezazeo",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Adelaide",
+    "country": "Australia",
+    "venue": "Ellis Park",
+    "datetime_iso": "2027-10-15T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006547B82789D1",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-15-10-2027/event/13006547B82789D1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-15-10-2027/event/13006547B82789D1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006547B82789D1",
+        "discovery_event_id": "1AKZk46GkezazEo",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-15-10-2027/event/13006547B82789D1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk46GkezazEo",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-adelaide-1akzk46gkdlbdc4",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Adelaide",
+    "country": "Australia",
+    "venue": "Ellis Park",
+    "datetime_iso": "2027-10-16T06:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "13006547DFEBB395",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-16-10-2027/event/13006547DFEBB395",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-16-10-2027/event/13006547DFEBB395",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "13006547DFEBB395",
+        "discovery_event_id": "1AKZk46GkdLBDC4",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-16-10-2027/event/13006547DFEBB395",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AKZk46GkdLBDC4",
+    "timezone": "Australia/Adelaide",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-melbourne-1apzk4fgkei00m-",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Melbourne",
+    "country": "Australia",
+    "venue": "Melbourne Park Oval",
+    "datetime_iso": "2027-10-22T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006548AC924DE1",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-22-10-2027/event/25006548AC924DE1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-22-10-2027/event/25006548AC924DE1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006548AC924DE1",
+        "discovery_event_id": "1APZk4FGkei00M-",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-22-10-2027/event/25006548AC924DE1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk4FGkei00M-",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoeeea",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Melbourne",
+    "country": "Australia",
+    "venue": "Melbourne Park Oval",
+    "datetime_iso": "2027-10-23T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006548D19E7085",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-23-10-2027/event/25006548D19E7085",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-23-10-2027/event/25006548D19E7085",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006548D19E7085",
+        "discovery_event_id": "1APZk4FGkdoEEeA",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-23-10-2027/event/25006548D19E7085",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk4FGkdoEEeA",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoeee6",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Melbourne",
+    "country": "Australia",
+    "venue": "Melbourne Park Oval",
+    "datetime_iso": "2027-10-25T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006548D19E7087",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-25-10-2027/event/25006548D19E7087",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-25-10-2027/event/25006548D19E7087",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006548D19E7087",
+        "discovery_event_id": "1APZk4FGkdoEEe6",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-25-10-2027/event/25006548D19E7087",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk4FGkdoEEe6",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoeme2",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Melbourne",
+    "country": "Australia",
+    "venue": "Melbourne Park Oval",
+    "datetime_iso": "2027-10-29T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006548D19F708F",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-29-10-2027/event/25006548D19F708F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-29-10-2027/event/25006548D19F708F",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006548D19F708F",
+        "discovery_event_id": "1APZk4FGkdoEMe2",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-29-10-2027/event/25006548D19F708F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk4FGkdoEMe2",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoi9e3",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Melbourne",
+    "country": "Australia",
+    "venue": "Melbourne Park Oval",
+    "datetime_iso": "2027-10-30T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006548D1A17092",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-30-10-2027/event/25006548D1A17092",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-30-10-2027/event/25006548D1A17092",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006548D1A17092",
+        "discovery_event_id": "1APZk4FGkdoI9e3",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-30-10-2027/event/25006548D1A17092",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk4FGkdoI9e3",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-melbourne-1aefz_fgkxvpad9",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Melbourne",
+    "country": "Australia",
+    "venue": "Melbourne Park Oval",
+    "datetime_iso": "2027-11-01T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500654FB49490D7",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-01-11-2027/event/2500654FB49490D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-01-11-2027/event/2500654FB49490D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500654FB49490D7",
+        "discovery_event_id": "1AefZ_fGkXVPad9",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-01-11-2027/event/2500654FB49490D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_fGkXVPad9",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-melbourne-1apzk49gkdahuzu",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Melbourne",
+    "country": "Australia",
+    "venue": "Melbourne Park Oval",
+    "datetime_iso": "2027-11-05T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006557C9F0DE36",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-05-11-2027/event/25006557C9F0DE36",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-05-11-2027/event/25006557C9F0DE36",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006557C9F0DE36",
+        "discovery_event_id": "1APZk49GkdaHuzU",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-05-11-2027/event/25006557C9F0DE36",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk49GkdaHuzU",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-melbourne-1apzk49gkdawczh",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Melbourne",
+    "country": "Australia",
+    "venue": "Melbourne Park Oval",
+    "datetime_iso": "2027-11-06T06:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "25006557C9F6DE3C",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-06-11-2027/event/25006557C9F6DE3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-06-11-2027/event/25006557C9F6DE3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "25006557C9F6DE3C",
+        "discovery_event_id": "1APZk49GkdaWczH",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-06-11-2027/event/25006557C9F6DE3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1APZk49GkdaWczH",
+    "timezone": "Australia/Melbourne",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-new-town-1aefz_4gkmua4ux",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "New Town",
+    "country": "Australia",
+    "venue": "Cornelian Bay Oval",
+    "datetime_iso": "2027-11-13T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500655BB625537E",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-13-11-2027/event/2500655BB625537E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-13-11-2027/event/2500655BB625537E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500655BB625537E",
+        "discovery_event_id": "1AefZ_4GkmUa4uX",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-13-11-2027/event/2500655BB625537E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_4GkmUa4uX",
+    "timezone": "Australia/Hobart",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-new-town-1aefz_4gkwn0f-6",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "New Town",
+    "country": "Australia",
+    "venue": "Cornelian Bay Oval",
+    "datetime_iso": "2027-11-14T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2500655CAA914847",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-14-11-2027/event/2500655CAA914847",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-14-11-2027/event/2500655CAA914847",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2500655CAA914847",
+        "discovery_event_id": "1AefZ_4Gkwn0f-6",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-14-11-2027/event/2500655CAA914847",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AefZ_4Gkwn0f-6",
+    "timezone": "Australia/Hobart",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-caversham-1avgz_4gklqcbyy",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Caversham",
+    "country": "Australia",
+    "venue": "Sandalford Wines - Swan Valley",
+    "datetime_iso": "2027-11-20T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300655ADD398E79",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-20-11-2027/event/1300655ADD398E79",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-20-11-2027/event/1300655ADD398E79",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300655ADD398E79",
+        "discovery_event_id": "1AvGZ_4GklqCbyy",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-20-11-2027/event/1300655ADD398E79",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_4GklqCbyy",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-caversham-1avgz_4gkm_nd5y",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Caversham",
+    "country": "Australia",
+    "venue": "Sandalford Wines - Swan Valley",
+    "datetime_iso": "2027-11-21T07:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300655B99A832F9",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-21-11-2027/event/1300655B99A832F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-21-11-2027/event/1300655B99A832F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300655B99A832F9",
+        "discovery_event_id": "1AvGZ_4Gkm_nd5y",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-21-11-2027/event/1300655B99A832F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_4Gkm_nd5y",
+    "timezone": "Australia/Perth",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-parkes-1avgz_4gkmmigtv",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Parkes",
+    "country": "Australia",
+    "venue": "Stage 88",
+    "datetime_iso": "2027-12-04T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300655BB7A35FC1",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-04-12-2027/event/1300655BB7A35FC1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-04-12-2027/event/1300655BB7A35FC1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300655BB7A35FC1",
+        "discovery_event_id": "1AvGZ_4GkmMIgTv",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-04-12-2027/event/1300655BB7A35FC1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_4GkmMIgTv",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-parkes-1avgz_4gkrpif0p",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Parkes",
+    "country": "Australia",
+    "venue": "Stage 88",
+    "datetime_iso": "2027-12-05T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300655BD6B08916",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-05-12-2027/event/1300655BD6B08916",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-05-12-2027/event/1300655BD6B08916",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300655BD6B08916",
+        "discovery_event_id": "1AvGZ_4GkRpiF0p",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-05-12-2027/event/1300655BD6B08916",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_4GkRpiF0p",
+    "timezone": "Australia/Sydney",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-bowen-hills-1avgz_4gkwmdz73",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-12-10T05:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300655CB70F8112",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-12-2027/event/1300655CB70F8112",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-12-2027/event/1300655CB70F8112",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300655CB70F8112",
+        "discovery_event_id": "1AvGZ_4GkwMdz73",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-12-2027/event/1300655CB70F8112",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_4GkwMdz73",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-powderfinger-2027-bowen-hills-1avgz_4gkue2jyq",
+    "artist_slug": "powderfinger",
+    "artist_name": "Powderfinger",
+    "event_name": "Powderfinger - Live 2027",
+    "city": "Bowen Hills",
+    "country": "Australia",
+    "venue": "Brisbane Showgrounds",
+    "datetime_iso": "2027-12-11T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1300655DA73E6E5D",
+    "ticketmaster_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-12-2027/event/1300655DA73E6E5D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-12-2027/event/1300655DA73E6E5D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1300655DA73E6E5D",
+        "discovery_event_id": "1AvGZ_4GkUE2Jyq",
+        "url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-12-2027/event/1300655DA73E6E5D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvGZ_4GkUE2Jyq",
+    "timezone": "Australia/Brisbane",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-cardiff-g5vhz_kueusb3",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Cardiff Castle",
+    "datetime_iso": "2027-06-30T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00653D82371612",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00653D82371612",
+        "discovery_event_id": "G5vHZ_KUeusb3",
+        "url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KUeusb3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-scarborough-1adfz_kgkdfwywm",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Scarborough",
+    "country": "Great Britain",
+    "venue": "Scarborough Open Air Theatre",
+    "datetime_iso": "2027-07-01T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500653EC8F79F6E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500653EC8F79F6E",
+        "discovery_event_id": "1AdfZ_KGkDFWyWm",
+        "url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_KGkDFWyWm",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-dublin-1avoz_kgkslysih",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Dublin",
+    "country": "Ireland",
+    "venue": "Trinity College",
+    "datetime_iso": "2027-07-03T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1800653CEBC31A3C",
+    "ticketmaster_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-dublin-03-07-2027/event/1800653CEBC31A3C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-dublin-03-07-2027/event/1800653CEBC31A3C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1800653CEBC31A3C",
+        "discovery_event_id": "1AvOZ_KGkSlYsIH",
+        "url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-dublin-03-07-2027/event/1800653CEBC31A3C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvOZ_KGkSlYsIH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-belfast-1adoz_kgkuhgo_o",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Belfast",
+    "country": "Great Britain",
+    "venue": "Custom House Square Belfast",
+    "datetime_iso": "2027-07-04T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3800653D9B311660",
+    "ticketmaster_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-belfast-04-07-2027/event/3800653D9B311660",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-belfast-04-07-2027/event/3800653D9B311660",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3800653D9B311660",
+        "discovery_event_id": "1AdOZ_KGkUhGo_O",
+        "url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-belfast-04-07-2027/event/3800653D9B311660",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdOZ_KGkUhGo_O",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-halifax-1adfz_kgks-vju1",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "Halifax",
+    "country": "Great Britain",
+    "venue": "The Piece Hall",
+    "datetime_iso": "2027-07-06T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500653CE105C34A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-halifax-06-07-2027/event/3500653CE105C34A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-halifax-06-07-2027/event/3500653CE105C34A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500653CE105C34A",
+        "discovery_event_id": "1AdfZ_KGkS-vju1",
+        "url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-halifax-06-07-2027/event/3500653CE105C34A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdfZ_KGkS-vju1",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-slash-2027-london-1auzk4v0gjzzeck",
+    "artist_slug": "slash",
+    "artist_name": "Slash",
+    "event_name": "Slash feat Myles Kennedy and The Conspirators Flying Blind World Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Eventim Apollo",
+    "datetime_iso": "2027-07-07T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "36006541935738D5",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006541935738D5",
+        "discovery_event_id": "1aUZk4v0gjzZeCk",
+        "url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1aUZk4v0gjzZeCk",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-bournemouth-17uov0g659y_xj3",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Bournemouth",
+    "country": "Great Britain",
+    "venue": "Bournemouth International Centre",
+    "datetime_iso": "2026-12-07T18:30:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "360064B5F967E992",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064B5F967E992",
+        "discovery_event_id": "17uOv0G659y_XJ3",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G659y_XJ3",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-cardiff-17uov0g65qatjh8",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Cardiff",
+    "datetime_iso": "2026-12-08T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064B689A666D0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064B689A666D0",
+        "discovery_event_id": "17uOv0G65QatJh8",
+        "url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G65QatJh8",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-manchester-g5vhz_g33v7ia",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club - The Singles Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "AO Arena",
+    "datetime_iso": "2026-12-10T18:00:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "1F0064C492D04B09",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064C492D04B09",
+        "discovery_event_id": "G5vHZ_G33V7ia",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_G33V7ia",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-liverpool-17uyv0g659ybvks",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Liverpool",
+    "country": "Great Britain",
+    "venue": "M&S Bank Arena Liverpool",
+    "datetime_iso": "2026-12-11T18:30:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "370064B5F96344F3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-liverpool-11-12-2026/event/370064B5F96344F3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-liverpool-11-12-2026/event/370064B5F96344F3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "370064B5F96344F3",
+        "discovery_event_id": "17uYv0G659ybVKS",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-liverpool-11-12-2026/event/370064B5F96344F3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uYv0G659ybVKS",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-leeds-g5vhz_59ybb3y",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Leeds First Direct Bank Arena",
+    "datetime_iso": "2026-12-12T18:00:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "1F0064B5F96184B9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064B5F96184B9",
+        "discovery_event_id": "G5vHZ_59ybb3y",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_59ybb3y",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-newcastle-upon-tyne-g5vhz_59ybf3i",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Newcastle Upon Tyne",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Newcastle",
+    "datetime_iso": "2026-12-13T18:00:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "1F0064B5F96084AC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0064B5F96084AC",
+        "discovery_event_id": "G5vHZ_59ybF3i",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_59ybF3i",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-glasgow-17uov0g659z_cry",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2026-12-15T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "360064B5F864E7B0",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "360064B5F864E7B0",
+        "discovery_event_id": "17uOv0G659z_CrY",
+        "url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17uOv0G659z_CrY",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-sheffield-17u8v0g659uvycg",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club",
+    "city": "Sheffield",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Sheffield",
+    "datetime_iso": "2026-12-17T18:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "350064B5F6D39B4C",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064B5F6D39B4C",
+        "discovery_event_id": "17u8v0G659UVycG",
+        "url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G659UVycG",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-birmingham-17fyv0g659y9xlw",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "Birmingham",
+    "country": "Great Britain",
+    "venue": "Utilita Arena Birmingham",
+    "datetime_iso": "2026-12-18T18:00:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "230064B5F95E27F2",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "230064B5F95E27F2",
+        "discovery_event_id": "17FYv0G659y9xLw",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17FYv0G659y9xLw",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-culture-club-2026-london-17u8v0g659y9_dw",
+    "artist_slug": "culture-club",
+    "artist_name": "Culture Club",
+    "event_name": "Culture Club: The Singles Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2026-12-19T18:30:00Z",
+    "tour_name": "The Singles Tour",
+    "ticketmaster_event_id": "350064B5F95D9EFD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "350064B5F95D9EFD",
+        "discovery_event_id": "17u8v0G659y9_DW",
+        "url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "17u8v0G659y9_DW",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

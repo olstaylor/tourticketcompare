@@ -4558,7 +4558,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-des-moines-hoyt-sherman-place-3-12-2027/production/7023460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-des-moines-iowa-03-12-2027/event/060064A8A56ED838",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -4611,7 +4611,14 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957280",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957280/Blue-October-tickets-Fri-Mar-12-2027-Hoyt-Sherman-Place-Theater",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Black Friday Deal",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blue-october-2027-rockford-17f8v0g61mnfk5g",

@@ -38214,7 +38214,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/doja-cat-tour-ma-vie-world-montreal-quebec-11-27-2026/event/31006339B7D269BF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -38267,11 +38267,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7457664",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7457664/Doja-Cat-tickets-Fri-Nov-27-2026-Centre-Bell",
     "presales": [
-      {
-        "name": "Forfaits VIP Packages",
-        "start": "2025-10-10T14:00:00Z",
-        "end": "2026-11-23T17:00:00Z"
-      },
       {
         "name": "Siège Individuel - Single Seat",
         "start": "2026-10-22T16:00:00Z",
@@ -61757,7 +61752,7 @@
     "vividseats_url": "https://www.vividseats.com/blue-october-tickets-des-moines-hoyt-sherman-place-3-12-2027/production/7023460",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/blue-october-foiled-20th-anniversary-world-des-moines-iowa-03-12-2027/event/060064A8A56ED838",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -61810,7 +61805,14 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7957280",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7957280/Blue-October-tickets-Fri-Mar-12-2027-Hoyt-Sherman-Place-Theater",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Black Friday Deal",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-blue-october-2027-rockford-17f8v0g61mnfk5g",
@@ -66047,7 +66049,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-phoenix-arizona-financial-theatre-12-14-2026--concerts-pop/production/7347462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -66115,7 +66117,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       }
     ],
@@ -69797,7 +69799,7 @@
     "vividseats_url": "https://www.vividseats.com/trivium-tickets-phoenix-arizona-financial-theatre-12-2-2026--concerts-rock/production/7325306",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/trivium-crown-in-the-grave-world-phoenix-arizona-12-02-2026/event/190064F0E0368F3A",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -69862,7 +69864,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-02T23:30:00Z"
       }
     ],
@@ -104402,7 +104404,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-portland-oregon-11-28-2026/event/0F00650BD3A8B790",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -104452,13 +104454,6 @@
     "ticketmaster_discovery_event_id": "vvG1HZ_8RKn5r8",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "Preferred Seating Onsale",
-        "start": "2026-09-18T17:00:00Z",
-        "end": "2026-11-24T00:30:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -112473,7 +112468,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-vancouver-bc-place-stadium-5-8-2027--concerts-hard-rock/production/7563478",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/metallica-m72-world-tour-vancouver-british-columbia-05-08-2027/event/1100652ED2CADD90",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -112535,12 +112530,12 @@
     "stubhub_international_url": "https://www.stubhub.ie/metallica-tickets-vancouver-bc-place-stadium-5-8-2027/event/107668657",
     "presales": [
       {
-        "name": "VIP Packages Onsale",
+        "name": "VIP Travel Packages Onsale",
         "start": "2026-09-25T17:00:00Z",
-        "end": "2027-05-02T05:00:00Z"
+        "end": "2027-03-25T05:00:00Z"
       },
       {
-        "name": "VIP Travel Packages Onsale",
+        "name": "VIP Packages Onsale",
         "start": "2026-09-25T17:00:00Z",
         "end": "2027-05-02T05:00:00Z"
       }
@@ -113290,7 +113285,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-cleveland-huntington-bank-field-6-15-2027--concerts-hard-rock/production/7563446",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-cleveland-ohio-06-15-2027/event/0500652EF0CA330C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -113352,6 +113347,11 @@
     "stubhub_international_url": "https://www.stubhub.ie/metallica-cleveland-tickets-6-15-2027/event/107668973",
     "presales": [
       {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T14:00:00Z",
+        "end": "2027-05-02T02:00:00Z"
+      },
+      {
         "name": "Verizon Shine Select Seats",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-05-19T02:00:00Z"
@@ -113363,11 +113363,6 @@
       },
       {
         "name": "VIP Packages Onsale",
-        "start": "2026-09-25T14:00:00Z",
-        "end": "2027-06-09T02:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Onsale",
         "start": "2026-09-25T14:00:00Z",
         "end": "2027-06-09T02:00:00Z"
       }
@@ -153820,7 +153815,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-albuquerque-new-mexico-02-25-2027/event/1E00652BA02E740F",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -153866,6 +153861,11 @@
         "name": "Black Friday Offer",
         "start": "2026-11-23T07:01:00Z",
         "end": "2026-12-08T06:59:00Z"
+      },
+      {
+        "name": "$30 sale",
+        "start": "2026-11-24T17:00:00Z",
+        "end": "2026-12-01T05:00:00Z"
       },
       {
         "name": "TMNTXO",
@@ -167569,7 +167569,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-raleigh-lenovo-center-1-22-2027--concerts-country-and-folk/production/7637000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-raleigh-north-carolina-01-22-2027/event/2D00653CB7AEBFCA",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -167635,6 +167635,11 @@
         "name": "Cyber Monday Offer",
         "start": "2026-11-23T15:00:00Z",
         "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300893/The-Red-Clay-Strays-tickets-Fri-Jan-22-2027-Lenovo-Center",
@@ -167933,7 +167938,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-omaha-chi-health-center-omaha-1-31-2027/production/7637012",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-omaha-nebraska-01-31-2027/event/0600653CE4D6E031",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -167997,6 +168002,11 @@
         "end": "2027-02-01T00:00:00Z"
       },
       {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
+      },
+      {
         "name": "2 for 1 Tickets Offer",
         "start": "2026-11-27T14:00:00Z",
         "end": "2027-01-01T04:00:00Z"
@@ -168023,7 +168033,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-indianapolis-gainbridge-fieldhouse-2-5-2027/production/7637016",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-indianapolis-indiana-02-05-2027/event/0500653CCBB0AB1E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -168084,6 +168094,11 @@
         "name": "Amex Reserved Tickets",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-02-05T23:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300898/The-Red-Clay-Strays-tickets-Fri-Feb-5-2027-Gainbridge-Fieldhouse",
@@ -168109,7 +168124,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-charleston-charleston-coliseum-and-convention-center-2-11-2027/production/7637070",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-charleston-west-virginia-02-11-2027/event/1600653E87F13770",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -168166,6 +168181,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-02-07T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -168362,7 +168382,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-edmonton-rogers-place-3-12-2027--concerts-country-and-folk/production/7637030",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-red-clay-strays-edmonton-alberta-03-12-2027/event/1100653CDA80BD24",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -168418,6 +168438,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T16:00:00Z",
         "end": "2027-03-08T04:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
       },
       {
         "name": "Ticketmaster 2026 Holiday Promotion",
@@ -168941,7 +168966,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-bangor-maine-savings-amphitheater-7-23-2027/production/7637060",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-bangor-maine-07-23-2027/event/0100653749823DAA",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -169012,6 +169037,11 @@
         "name": "2 For 1 Tickets Special Offer",
         "start": "2026-11-11T14:00:00Z",
         "end": "2027-01-01T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300903/The-Red-Clay-Strays-tickets-Fri-Jul-23-2027-Maine-Savings-Amphitheater",
@@ -169532,7 +169562,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-rogers-walmart-amp-9-9-2027--concerts-country-and-folk/production/7637068",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-rogers-arkansas-09-09-2027/event/1B00653D91449F76",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -169593,6 +169623,11 @@
         "name": "Amex Reserved Tickets",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-09-10T02:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
       },
       {
         "name": "Me + 3 4-Pack Offer",
@@ -178213,7 +178248,7 @@
     "vividseats_url": "https://www.vividseats.com/greta-van-fleet-tickets-tulsa-bok-center-3-16-2027/production/7642162",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/greta-van-fleet-into-the-beginning-tulsa-oklahoma-03-16-2027/event/2000653EEA055CCC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -178270,6 +178305,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-15T15:00:00Z",
         "end": "2027-03-09T05:55:00Z"
+      },
+      {
+        "name": "Thanksgiving Deal",
+        "start": "2026-11-23T19:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -186958,7 +186998,7 @@
     "vividseats_url": "https://www.vividseats.com/carly-rae-jepsen-tickets-phoenix-arizona-financial-theatre-5-1-2027--concerts-pop/production/7636635",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/carly-rae-jepsen-day-and-night-phoenix-arizona-05-01-2027/event/190065399E606563",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -187030,7 +187070,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       },
       {
@@ -192704,7 +192744,7 @@
     "vividseats_url": "https://www.vividseats.com/staind-tickets-kansas-city-t-mobile-center-4-10-2027/production/7658897",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/staind-break-the-cycle-25th-anniversary-kansas-city-missouri-04-10-2027/event/06006541B5EEF63F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -192776,6 +192816,11 @@
         "name": "AISLE Preferred Seating",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-04-11T00:00:00Z"
+      },
+      {
+        "name": "Cyber Special Offer",
+        "start": "2026-11-30T06:00:00Z",
+        "end": "2026-12-08T05:59:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308788",
@@ -268667,7 +268712,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-glendale-desert-diamond-arena-11-27-2026--concerts-pop/production/7446318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-glendale-arizona-11-27-2026/event/1900650DD11599D6",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -268721,13 +268766,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214364/Jonas-Brothers-tickets-Fri-Nov-27-2026-Desert-Diamond-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-23T19:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -279353,7 +279391,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/bryson-tiller-presents-the-neo-trapsoul-dublin-01-12-2026/event/180064B5D994DD36",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -279391,7 +279429,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
-      "MCD PRODUCTIONS"
+      "MCD PRODUCTIONS",
+      "DUKE DUMONT"
     ],
     "genre": "Hip-Hop/Rap"
   },
@@ -285838,7 +285877,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-17-2027--concerts-pop/production/7726802",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-17-2027/event/3C006551FB1528C1",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -285900,11 +285939,6 @@
       "BOWERY PRESENTS"
     ],
     "presales": [
-      {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-10-23T14:00:00Z",
-        "end": "2026-11-23T15:00:00Z"
-      },
       {
         "name": "Amex Reserved Tickets®",
         "start": "2026-10-23T14:00:00Z",
@@ -287079,7 +287113,7 @@
     "vividseats_url": "https://www.vividseats.com/sienna-spiro-tickets-new-york-radio-city-music-hall-8-18-2027/production/7729242",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sienna-spiro-my-house-tour-extended-new-york-new-york-08-18-2027/event/3C006551FB1F28C3",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -287140,11 +287174,6 @@
       "BOWERY PRESENTS"
     ],
     "presales": [
-      {
-        "name": "Verizon Shine Featured Venues",
-        "start": "2026-10-23T14:00:00Z",
-        "end": "2026-11-23T15:00:00Z"
-      },
       {
         "name": "Amex Reserved Tickets®",
         "start": "2026-10-23T14:00:00Z",
@@ -307507,7 +307536,7 @@
     "city": "Auckland",
     "country": "New Zealand",
     "venue": "Spark Arena",
-    "datetime_iso": "2026-12-01T06:00:00Z",
+    "datetime_iso": "2026-12-01T05:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "240064E3C20634BF",
     "ticketmaster_url": "https://www.ticketmaster.co.nz/boyz-ii-men-auckland-01-12-2026/event/240064E3C20634BF",
@@ -307515,7 +307544,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.nz/boyz-ii-men-auckland-01-12-2026/event/240064E3C20634BF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -312739,7 +312768,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-nashville-the-truth-11-30-2026--concerts-pop/production/7540349",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-nashville-tennessee-11-30-2026/event/1B006527BBA98ECF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -312795,11 +312824,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-09-16T15:00:00Z",
-        "end": "2026-11-24T04:00:00Z"
-      },
       {
         "name": "2 For 50",
         "start": "2026-10-23T17:00:00Z",
@@ -312889,7 +312913,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-phoenix-arizona-financial-theatre-12-5-2026--concerts-pop/production/7540357",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-phoenix-arizona-12-05-2026/event/190065243354DDCD",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -312952,7 +312976,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-06T02:00:00Z"
       }
     ],
@@ -349760,7 +349784,7 @@
     "vividseats_url": "https://www.vividseats.com/air-supply-tickets-fort-pierce-sunrise-theatre-1-21-2027--concerts-pop/production/7411746",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/air-supply-fort-pierce-florida-01-21-2027/event/0D006506C11C7A09",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -349816,7 +349840,14 @@
       "VENUWORKS CORPORATE",
       "AEG PRESENTS"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Cyber Monday",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-12-01T04:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-air-supply-2027-daytona-beach-z7r9jz1a7pozg",
@@ -366934,7 +366965,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/yg-the-gentlemens-club-tour-oakland-california-12-19-2026/event/1C0064D3DF3BB079",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -366991,7 +367022,14 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-07-24T17:00:00Z",
+        "end": "2026-12-13T07:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rawayana-2026-national-harbor-1avfz_kgkw9bb9h",
@@ -370310,7 +370348,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-phoenix-arizona-01-15-2027/event/190064F7DBB187F2",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -370374,7 +370412,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       }
     ],
@@ -378067,7 +378105,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-phoenix-arizona-financial-theatre-4-27-2027--concerts-hard-rock/production/7761453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-phoenix-arizona-04-27-2027/event/19006558148AC452",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -378138,7 +378176,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       }
     ],
@@ -379994,18 +380032,18 @@
     "datetime_iso": "2027-05-22T16:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1588643857",
-    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-lippuja/1588643857",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-lippuja/1588643857",
-    "last_verified_at": "2026-11-23",
+    "source_url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1588643857",
         "discovery_event_id": "Z698xZ8KZ16vpF_d-9",
-        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-lippuja/1588643857",
+        "url": "https://www.ticketmaster.fi/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-tickets/1588643857?language=en-us",
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
@@ -438156,7 +438194,7 @@
     "id": "tm-two-door-cinema-club-2027-scarborough-1agzk4pgkd-8j_w",
     "artist_slug": "two-door-cinema-club",
     "artist_name": "Two Door Cinema Club",
-    "event_name": "Two Door Cinema Club \r\nWith Guests Friendly Fires + Danny Griffiths",
+    "event_name": "Two Door Cinema Club With Guest Friendly Fires + Danny Griffiths",
     "city": "Scarborough",
     "country": "Great Britain",
     "venue": "Scarborough Open Air Theatre",
@@ -438168,7 +438206,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/two-door-cinema-club-with-guests-scarborough-06-08-2027/event/35006565E141C67D",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -445553,7 +445591,7 @@
     "vividseats_url": "https://www.vividseats.com/rascal-flatts-tickets-rexburg-byu-idaho-center-3-20-2027/production/7905457",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-Fg",
-    "last_verified_at": "2026-11-23",
+    "last_verified_at": "2026-11-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -445602,8 +445640,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA-Fg",
     "timezone": "America/Denver",
-    "status": "announced",
-    "public_onsale_at": "2026-11-23T17:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381500",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381500/Rascal-Flatts-tickets-Sat-Mar-20-2027-BYU-Idaho-Center",
     "genre": "Country"
@@ -445624,7 +445661,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-10-07-2027/event/37006556E382B864",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -445659,7 +445696,13 @@
     },
     "ticketmaster_discovery_event_id": "1AMZk4pGkdNOl-0",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "THE ROYAL PARKS",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6
   },
   {
     "id": "tm-raye-2027-london-1amzk49gkeww5xa",
@@ -445677,7 +445720,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-11-07-2027/event/37006557BDC8B889",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -445712,7 +445755,13 @@
     },
     "ticketmaster_discovery_event_id": "1AMZk49GkeWw5xa",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "THE ROYAL PARKS",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6
   },
   {
     "id": "tm-john-summit-2026-miami-beach-rz7hnez1a4vjgn",
@@ -445730,8 +445779,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/john-summit-liv-nightclub-miami-tickets/15066323",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "15066323",
@@ -445765,7 +445814,8 @@
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1A4vJGN",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Dance/Electronic"
   },
   {
     "id": "tm-john-summit-2026-los-angeles-vvg1iz_oam_0zm",
@@ -445783,7 +445833,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-tour-los-angeles-california-12-11-2026/event/0A00651177664037",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -445819,7 +445869,39 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_oAM_0ZM",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-25T18:00:00Z"
+    "public_onsale_at": "2026-11-25T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Dance/Electronic",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2026-11-25T16:00:00Z"
+      },
+      {
+        "name": "Reserved by Spotify",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2026-11-25T16:00:00Z"
+      },
+      {
+        "name": "Insomniac Presale",
+        "start": "2026-11-24T22:00:00Z",
+        "end": "2026-11-25T16:00:00Z"
+      },
+      {
+        "name": "LIVE NATION PRESALE",
+        "start": "2026-11-24T22:00:00Z",
+        "end": "2026-11-25T16:00:00Z"
+      },
+      {
+        "name": "Venue Presale",
+        "start": "2026-11-24T22:00:00Z",
+        "end": "2026-11-25T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-pink-martini-2026-santa-rosa-z7r9jz1aaax7p",
@@ -445837,7 +445919,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAx7p",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -445872,7 +445954,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAx7p",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Blues"
   },
   {
     "id": "tm-chris-brown-2026-miami-beach-rz7hnez1a4vjgk",
@@ -445890,8 +445973,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketweb.com/event/chris-brown-liv-nightclub-miami-tickets/15066313",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "15066313",
@@ -445925,7 +446008,8 @@
     },
     "ticketmaster_discovery_event_id": "rZ7HnEZ1A4vJGK",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "R&B"
   },
   {
     "id": "tm-garth-brooks-2027-lexington-1faovpqvbjz78a57",
@@ -445943,7 +446027,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -445979,7 +446063,12 @@
     "ticketmaster_discovery_event_id": "1FAOvPqvbJZ78A57",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T15:00:00Z"
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-lexington-16pzk4vaxzag8a5f",
@@ -445997,7 +446086,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446033,7 +446122,12 @@
     "ticketmaster_discovery_event_id": "16pZk4VAxZAG8A5F",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T15:00:00Z"
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-tom-jones-2027-tramore-rd-cork-1abzk4ygkdk8vmb",
@@ -446051,7 +446145,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/tom-jones-tramore-rd-cork-02-07-2027/event/18006570C6434B98",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446087,7 +446181,23 @@
     "ticketmaster_discovery_event_id": "1AbZk4YGkdk8Vmb",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z"
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Bank of Ireland Mastercard Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "MCD Presale",
+        "start": "2026-11-26T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-bon-jovi-2027-london-1adjz_fgkuq9ee5",
@@ -446105,7 +446215,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-24-06-2027/event/3700654D9D5C208B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446140,7 +446250,13 @@
     },
     "ticketmaster_discovery_event_id": "1AdjZ_fGkUq9ee5",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "THE ROYAL PARKS",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6
   },
   {
     "id": "tm-cody-johnson-2027-charlottesville-vv1avzk4ygkdfzn-t",
@@ -446212,7 +446328,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-04-30-2027/event/05006563E71BA4C6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446248,7 +446364,12 @@
     "ticketmaster_discovery_event_id": "vv1AAZk4NGkdEkBKk",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-24T16:00:00Z"
+    "public_onsale_at": "2026-11-24T16:00:00Z",
+    "organizer_names": [
+      "POLICE PRODUCTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-hardy-2027-london-g5dzz_9fvtbjx",
@@ -446266,7 +446387,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-london-08-04-2027/event/3E00657201FFA73E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446302,7 +446423,35 @@
     "ticketmaster_discovery_event_id": "G5dzZ_9FvTBjX",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z"
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 SHEPHERD'S BUSH EMPIRE)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "HARDY Nation App Premium Presale",
+        "start": "2026-11-24T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "HARDY Nation App Member Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hardy-2027-manchester-g5dzz_96q1kyy",
@@ -446320,7 +446469,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-manchester-09-04-2027/event/3E006571DA286E79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446356,7 +446505,35 @@
     "ticketmaster_discovery_event_id": "G5dzZ_96Q1kyy",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z"
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 RITZ MANCHESTER)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "HARDY Nation App Premium Presale",
+        "start": "2026-11-24T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "HARDY Nation App Member Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Priority from O2 Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hardy-2027-glasgow-1auzk4sgketugdu",
@@ -446374,7 +446551,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hardy-promise-not-to-cancel-solo-glasgow-11-04-2027/event/36006573A9DB5ECD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446410,7 +446587,13 @@
     "ticketmaster_discovery_event_id": "1AUZk4SGketUgDu",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z"
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "SWG3 LTD"
+    ],
+    "ticket_limit": 6,
+    "genre": "Country"
   },
   {
     "id": "tm-hardy-2027-belfast-1adoz_pgkuppsm9",
@@ -446428,7 +446611,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/hardy-promise-not-to-cancel-solo-belfast-13-04-2027/event/3800656DA55B1B97",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446464,7 +446647,28 @@
     "ticketmaster_discovery_event_id": "1AdOZ_pGkUPpsm9",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z"
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "LIMELIGHT BELFAST LTD"
+    ],
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "HARDY Nation App Premium Presale",
+        "start": "2026-11-24T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "HARDY Nation App Member Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      },
+      {
+        "name": "Promoter Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T08:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-feid-2027-chicago-vv1kvzvpq9gach3aw",
@@ -446482,7 +446686,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446518,7 +446722,24 @@
     "ticketmaster_discovery_event_id": "vv1kvZvPQ9GACh3AW",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-24T16:00:00Z"
+    "public_onsale_at": "2026-11-24T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 10,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-24T16:00:00Z",
+        "end": "2027-03-15T17:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-24T16:00:00Z",
+        "end": "2027-03-20T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-feid-2027-inglewood-vv1ke8vpq_gac1mpx",
@@ -446536,7 +446757,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -446572,7 +446793,24 @@
     "ticketmaster_discovery_event_id": "vv1ke8vPQ_GAC1MpX",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-24T18:00:00Z"
+    "public_onsale_at": "2026-11-24T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 10,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2027-04-03T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2027-04-26T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-travis-tritt-2027-jacksonville-z7r9jz1aaaf8p",
@@ -446590,7 +446828,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8p",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -446625,7 +446863,8 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAf8p",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   },
   {
     "id": "tm-chris-tomlin-2027-morrison-z7r9jz1aaa9vg",
@@ -446643,7 +446882,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9vg",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -446678,6 +446917,10 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA9vg",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Pop"
   }
 ]

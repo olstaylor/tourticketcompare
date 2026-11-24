@@ -3019,7 +3019,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3055,7 +3055,24 @@
     "ticketmaster_discovery_event_id": "vv1kvZvPQ9GACh3AW",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-24T16:00:00Z"
+    "public_onsale_at": "2026-11-24T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 10,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-24T16:00:00Z",
+        "end": "2027-03-15T17:00:00Z"
+      },
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-24T16:00:00Z",
+        "end": "2027-03-20T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-feid-2027-inglewood-vv1ke8vpq_gac1mpx",
@@ -3073,7 +3090,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3109,6 +3126,23 @@
     "ticketmaster_discovery_event_id": "vv1ke8vPQ_GAC1MpX",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-11-24T18:00:00Z"
+    "public_onsale_at": "2026-11-24T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 10,
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Citi® Cardmember Preferred Tickets",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2027-04-03T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2027-04-26T19:00:00Z"
+      }
+    ]
   }
 ]

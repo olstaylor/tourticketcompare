@@ -2465,7 +2465,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-phoenix-arizona-01-15-2027/event/190064F7DBB187F2",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2529,7 +2529,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       }
     ],

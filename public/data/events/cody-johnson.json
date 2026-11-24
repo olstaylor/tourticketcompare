@@ -1053,7 +1053,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-04-30-2027/event/05006563E71BA4C6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1089,6 +1089,11 @@
     "ticketmaster_discovery_event_id": "vv1AAZk4NGkdEkBKk",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-11-24T16:00:00Z"
+    "public_onsale_at": "2026-11-24T16:00:00Z",
+    "organizer_names": [
+      "POLICE PRODUCTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   }
 ]

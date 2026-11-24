@@ -65,9 +65,11 @@
     });
   }
 
-  /* /tours/<year>: "Playing in" chips. Narrows the artist tiles to one country
-     and swaps each tile's facts line for that country's counts, read from the
-     data-by-country the server rendered. Nothing is fetched or computed anew. */
+  /* /tours/<year>: "Playing in" and "Venue type" chips. Narrows the artist tiles
+     to one country and/or stadiums or arenas, and swaps each tile's facts line
+     for the matching counts, read from the data-by-country the server rendered.
+     Venue type is the server's name-based match; nothing is fetched or guessed.
+     The choice lives in ?country=...&size=... (the page canonical stays the hub). */
   function initCountryChooser() {
     var chooser = document.querySelector("[data-country-chooser]");
     var input = document.querySelector("[data-tile-filter] input");
@@ -81,41 +83,53 @@
       return { li: li, data: data, meta: meta, original: meta ? meta.textContent : "" };
     });
     if (!tiles.length) return;
-    var buttons = Array.from(chooser.querySelectorAll("button[data-country]"));
+    var countryButtons = Array.from(chooser.querySelectorAll("button[data-country]"));
+    var sizeButtons = Array.from(chooser.querySelectorAll("button[data-size]"));
+    var state = { country: "", size: "" };
     function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
-    function select(country) {
-      var count = 0;
+    function sizeCount(row, size) { return size === "stadium" ? row.stadiumCount || 0 : row.arenaCount || 0; }
+    function apply() {
+      var country = state.country, size = state.size, count = 0;
       tiles.forEach(function (tile) {
-        var row = country ? tile.data[country] : null;
-        var off = !!country && !row;
+        var rows = country ? (tile.data[country] ? [tile.data[country]] : []) : Object.keys(tile.data).map(function (k) { return tile.data[k]; });
+        var matched = size ? rows.reduce(function (n, row) { return n + sizeCount(row, size); }, 0) : rows.length;
+        var off = (country || size) ? matched === 0 : false;
         if (off) tile.li.setAttribute("data-country-off", ""); else tile.li.removeAttribute("data-country-off");
         if (!off) count += 1;
-        if (tile.meta) {
-          if (row) {
-            var a = months[row.firstMonth - 1], b = months[row.lastMonth - 1];
-            tile.meta.textContent = [plural(row.showCount, "date", "dates"), plural(row.cityCount, "city", "cities"), country, a === b ? a : a + "–" + b].join(" · ");
-          } else tile.meta.textContent = tile.original;
-        }
+        if (!tile.meta) return;
+        if (size && !off) {
+          tile.meta.textContent = [plural(matched, size + " date", size + " dates"), country || plural(rows.filter(function (row) { return sizeCount(row, size) > 0; }).length, "country", "countries")].join(" · ");
+        } else if (country && !off) {
+          var row = tile.data[country];
+          var a = months[row.firstMonth - 1], b = months[row.lastMonth - 1];
+          tile.meta.textContent = [plural(row.showCount, "date", "dates"), plural(row.cityCount, "city", "cities"), country, a === b ? a : a + "–" + b].join(" · ");
+        } else tile.meta.textContent = tile.original;
       });
-      buttons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.getAttribute("data-country") === country)); });
-      if (status) status.textContent = country ? plural(count, "artist", "artists") + " with 2027 dates in " + country + "." : "";
+      countryButtons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.getAttribute("data-country") === country)); });
+      sizeButtons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.getAttribute("data-size") === size)); });
+      var label = (size === "stadium" ? "stadium " : size === "arena" ? "arena " : "") + "dates";
+      if (status) status.textContent = country || size ? plural(count, "artist", "artists") + " with 2027 " + label + (country ? " in " + country : "") + "." : "";
       input.dispatchEvent(new Event("input"));
-      // A shareable address: /tours/2027?country=United+Kingdom. The page's
-      // canonical stays the plain hub; this only restores the choice on load.
       try {
         var url = new URL(window.location.href);
         if (country) url.searchParams.set("country", country); else url.searchParams.delete("country");
+        if (size) url.searchParams.set("size", size); else url.searchParams.delete("size");
         window.history.replaceState(null, "", url.pathname + url.search + url.hash);
       } catch (e) { /* history unavailable: the filter still works */ }
     }
-    buttons.forEach(function (button) {
-      button.addEventListener("click", function () { select(button.getAttribute("data-country") || ""); });
+    countryButtons.forEach(function (button) {
+      button.addEventListener("click", function () { state.country = button.getAttribute("data-country") || ""; apply(); });
+    });
+    sizeButtons.forEach(function (button) {
+      button.addEventListener("click", function () { state.size = button.getAttribute("data-size") || ""; apply(); });
     });
     chooser.hidden = false;
     try {
-      var wanted = new URL(window.location.href).searchParams.get("country");
-      var known = buttons.some(function (button) { return button.getAttribute("data-country") === wanted; });
-      if (wanted && known) select(wanted);
+      var params = new URL(window.location.href).searchParams;
+      var wantedCountry = params.get("country"), wantedSize = params.get("size");
+      if (wantedCountry && countryButtons.some(function (b) { return b.getAttribute("data-country") === wantedCountry; })) state.country = wantedCountry;
+      if (wantedSize && sizeButtons.some(function (b) { return b.getAttribute("data-size") === wantedSize; })) state.size = wantedSize;
+      if (state.country || state.size) apply();
     } catch (e) { /* no query string support: start unfiltered */ }
   }
 

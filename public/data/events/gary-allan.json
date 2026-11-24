@@ -260,25 +260,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8194381",
-        "url": "https://www.ticketnetwork.com/en/p/8194381",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8194381",
-        "url": "https://www.ticketliquidator.com/tickets/8194381/Gary-Allan-tickets-Sat-Nov-21-2026-Beau-Rivage-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5viZ_889usJK",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8194381",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8194381/Gary-Allan-tickets-Sat-Nov-21-2026-Beau-Rivage-Theatre",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "ticket_limit": 6,
     "genre": "Country"
   },
@@ -334,21 +334,21 @@
         "event_id": "8246442",
         "url": "https://www.ticketnetwork.com/en/p/8246442",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8246442",
         "url": "https://www.ticketliquidator.com/tickets/8246442/Gary-Allan-tickets-Fri-Dec-4-2026-The-Theatre-at-Resorts-World-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678761",
         "url": "https://www.stubhub.ie/gary-allan-las-vegas-tickets-12-4-2026/event/107678761",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -391,7 +391,7 @@
         "event_id": 18593936,
         "url": "https://seatgeek.com/gary-allan-tickets/napa-california-uptown-theatre-napa-2026-12-05-8-pm/concert/18593936",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -412,14 +412,14 @@
         "event_id": "8268101",
         "url": "https://www.ticketnetwork.com/en/p/8268101",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8268101",
         "url": "https://www.ticketliquidator.com/tickets/8268101/Gary-Allan-tickets-Sat-Dec-5-2026-Uptown-Theatre-Napa",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -483,14 +483,14 @@
         "event_id": "8298182",
         "url": "https://www.ticketnetwork.com/en/p/8298182",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8298182",
         "url": "https://www.ticketliquidator.com/tickets/8298182/Gary-Allan-tickets-Sun-Dec-6-2026-The-Historic-Bakersfield-Fox-Theater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -553,14 +553,14 @@
         "event_id": "8181666",
         "url": "https://www.ticketnetwork.com/en/p/8181666",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8181666",
         "url": "https://www.ticketliquidator.com/tickets/8181666/Gary-Allan-tickets-Thu-Feb-18-2027-Capital-One-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -625,14 +625,14 @@
         "event_id": "8187734",
         "url": "https://www.ticketnetwork.com/en/p/8187734",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8187734",
         "url": "https://www.ticketliquidator.com/tickets/8187734/Gary-Allan-tickets-Fri-Feb-19-2027-Steven-Tanger-Center-for-the-Performing-Arts",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -696,14 +696,14 @@
         "event_id": "8187724",
         "url": "https://www.ticketnetwork.com/en/p/8187724",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8187724",
         "url": "https://www.ticketliquidator.com/tickets/8187724/Gary-Allan-tickets-Sat-Feb-20-2027-The-Theater-at-Spartanburg-Memorial-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -766,14 +766,14 @@
         "event_id": "8135902",
         "url": "https://www.ticketnetwork.com/en/p/8135902",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8135902",
         "url": "https://www.ticketliquidator.com/tickets/8135902/Gary-Allan-tickets-Sat-Mar-13-2027-Prairie-Home-Alliance-Theater-At-Peoria-Civic-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -885,7 +885,7 @@
         "event_id": 18727084,
         "url": "https://seatgeek.com/gary-allan-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2027-02-12-8-pm/concert/18727084",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {

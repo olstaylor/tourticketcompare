@@ -1,5 +1,5 @@
 // @ts-check
-// Richer event-page pilot (owner go 2026-10-23): the span of one show's listed
+// Richer event pages (pilot owner go 2026-10-23; widened to every live show 2026-11-22): the span of one show's listed
 // prices per ticket site since tracking began, read from provider_pricing_daily.
 //
 // provider_pricing_daily keeps one row per event x site x source x currency x
@@ -23,30 +23,6 @@ import { keepNonSpikeSql } from "./_price-outliers.js";
 
 // A range over fewer tracked days is a couple of readings, not a span.
 export const PRICE_RANGE_MIN_DAYS = 7;
-
-// The pilot: ten dates across the seven venues with sourced venue facts, picked
-// from the show-priority list (2026-10-23) with 20+ tracked days on every site.
-// Fixed on purpose: widening is a reviewed change, so pilot pages stay
-// comparable with their peers when the read-out happens.
-export const RICHER_EVENT_PILOT_IDS = Object.freeze(
-  new Set([
-    "tm-olivia-rodrigo-2026-orlando-1aefz_agkuwopdf",
-    "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
-    "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
-    "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
-    "tm-olivia-rodrigo-2027-inglewood-vv170z_agkmetj8b",
-    "tm-metallica-2027-las-vegas-16vjz_kk3g7ndxr",
-    "tm-doja-cat-2026-toronto-1k7zvncbgagve_c",
-    "tm-doja-cat-2026-orlando-1aefzbsgklnlnmt",
-    "tm-doja-cat-2026-philadelphia-1adzzbsgkldzvua",
-    "tm-john-summit-2026-columbus-vvg1fz_52gqiba"
-  ])
-);
-
-/** @param {unknown} eventId */
-export function isRicherEventPilot(eventId) {
-  return RICHER_EVENT_PILOT_IDS.has(String(eventId || "").trim());
-}
 
 /**
  * @typedef {Object} PriceRangeSeries

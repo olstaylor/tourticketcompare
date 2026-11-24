@@ -958,21 +958,21 @@
         "event_id": "8267812",
         "url": "https://www.ticketnetwork.com/en/p/8267812",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8267812",
         "url": "https://www.ticketliquidator.com/tickets/8267812/Brandi-Carlile-tickets-Mon-Feb-15-2027-OVO-Hydro",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668440",
         "url": "https://www.stubhub.ie/charli-xcx-tickets-glasgow-ovo-hydro-arena-glasgow-15-2-2027/event/107668440",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1040,21 +1040,21 @@
         "event_id": "8259353",
         "url": "https://www.ticketnetwork.com/en/p/8259353",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8259353",
         "url": "https://www.ticketliquidator.com/tickets/8259353/Brandi-Carlile-tickets-Wed-Feb-17-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668439",
         "url": "https://www.stubhub.ie/charli-xcx-tickets-manchester-co-op-live-17-2-2027/event/107668439",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1122,7 +1122,21 @@
         "event_id": "107668441",
         "url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8267813",
+        "url": "https://www.ticketnetwork.com/en/p/8267813",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8267813",
+        "url": "https://www.ticketliquidator.com/tickets/8267813/Brandi-Carlile-tickets-Fri-Feb-19-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1130,7 +1144,9 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-19-2-2027/event/107668441",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8267813",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8267813/Brandi-Carlile-tickets-Fri-Feb-19-2027-O2-Arena-London"
   },
   {
     "id": "tm-charli-xcx-2027-london-1adfz_3gknni7-u",
@@ -1184,7 +1200,21 @@
         "event_id": "107669390",
         "url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8272391",
+        "url": "https://www.ticketnetwork.com/en/p/8272391",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8272391",
+        "url": "https://www.ticketliquidator.com/tickets/8272391/Brandi-Carlile-tickets-Sat-Feb-20-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1192,7 +1222,9 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/charli-xcx-tickets-london-the-o2-arena-20-2-2027/event/107669390",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8272391",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8272391/Brandi-Carlile-tickets-Sat-Feb-20-2027-O2-Arena-London"
   },
   {
     "id": "tm-charli-xcx-2027-amsterdam-z698xzbpz1kqn76of",
@@ -1246,21 +1278,21 @@
         "event_id": "8267859",
         "url": "https://www.ticketnetwork.com/en/p/8267859",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8267859",
         "url": "https://www.ticketliquidator.com/tickets/8267859/Brandi-Carlile-tickets-Mon-Feb-22-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107666206",
         "url": "https://www.stubhub.ie/charli-xcx-tickets-amsterdam-ziggo-dome-22-2-2027/event/107666206",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

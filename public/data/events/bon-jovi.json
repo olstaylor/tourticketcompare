@@ -51,7 +51,21 @@
         "event_id": "107679179",
         "url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8381239",
+        "url": "https://www.ticketnetwork.com/en/p/8381239",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381239",
+        "url": "https://www.ticketliquidator.com/tickets/8381239/Bon-Jovi-tickets-Thu-Mar-4-2027-Marvel-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -60,7 +74,9 @@
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381239",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381239/Bon-Jovi-tickets-Thu-Mar-4-2027-Marvel-Stadium"
   },
   {
     "id": "tm-bon-jovi-2027-east-rutherford-k7vgf_4evgqwy",
@@ -114,21 +130,21 @@
         "event_id": "8329063",
         "url": "https://www.ticketnetwork.com/en/p/8329063",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8329063",
         "url": "https://www.ticketliquidator.com/tickets/8329063/Bon-Jovi-tickets-Thu-Jul-15-2027-MetLife-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107675286",
         "url": "https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -207,21 +223,21 @@
         "event_id": "8329064",
         "url": "https://www.ticketnetwork.com/en/p/8329064",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8329064",
         "url": "https://www.ticketliquidator.com/tickets/8329064/Bon-Jovi-tickets-Wed-Jul-21-2027-Soldier-Field",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107675287",
         "url": "https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -301,21 +317,21 @@
         "event_id": "8329065",
         "url": "https://www.ticketnetwork.com/en/p/8329065",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8329065",
         "url": "https://www.ticketliquidator.com/tickets/8329065/Bon-Jovi-tickets-Wed-Jul-28-2027-Gillette-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107675288",
         "url": "https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -536,6 +552,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8356991",
+        "url": "https://www.ticketnetwork.com/en/p/8356991",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8356991",
+        "url": "https://www.ticketliquidator.com/tickets/8356991/Bon-Jovi-tickets-Sat-Oct-2-2027-Notre-Dame-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kv8vP_ZGA5o3Gv",
@@ -552,6 +582,67 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8356991",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8356991/Bon-Jovi-tickets-Sat-Oct-2-2027-Notre-Dame-Stadium"
+  },
+  {
+    "id": "tm-bon-jovi-2027-london-1adjz_fgkuq9ee5",
+    "artist_slug": "bon-jovi",
+    "artist_name": "Bon Jovi",
+    "event_name": "American Express Presents BST Hyde Park - Bon Jovi",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hyde Park",
+    "datetime_iso": "2027-06-24T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3700654D9D5C208B",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-24-06-2027/event/3700654D9D5C208B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-24-06-2027/event/3700654D9D5C208B",
+    "last_verified_at": "2026-11-24",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3700654D9D5C208B",
+        "discovery_event_id": "1AdjZ_fGkUq9ee5",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-24-06-2027/event/3700654D9D5C208B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdjZ_fGkUq9ee5",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "THE ROYAL PARKS",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6
   }
 ]

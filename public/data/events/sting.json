@@ -1005,33 +1005,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8294253",
-        "url": "https://www.ticketnetwork.com/en/p/8294253",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8294253",
-        "url": "https://www.ticketliquidator.com/tickets/8294253/Sting-tickets-Sat-Nov-21-2026-Brooklyn-Paramount",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107670637",
-        "url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7v1Ako_v_ZA5CGCC",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8294253",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8294253/Sting-tickets-Sat-Nov-21-2026-Brooklyn-Paramount",
-    "stubhub_international_url": "https://www.stubhub.ie/sting-brooklyn-tickets-11-21-2026/event/107670637",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1068,7 +1068,7 @@
         "event_id": 17898563,
         "url": "https://seatgeek.com/sting-tickets/orlando-florida-hard-rock-live-orlando-2026-11-24-8-pm/concert/17898563",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1089,21 +1089,21 @@
         "event_id": "7045419",
         "url": "https://www.ticketnetwork.com/en/p/7045419",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7045419",
         "url": "https://www.ticketliquidator.com/tickets/7045419/Sting-tickets-Tue-Nov-24-2026-Hard-Rock-Live-Orlando",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107469502",
         "url": "https://www.stubhub.ie/sting-orlando-tickets-11-24-2026/event/107469502",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1167,14 +1167,14 @@
         "event_id": "8249211",
         "url": "https://www.ticketnetwork.com/en/p/8249211",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8249211",
         "url": "https://www.ticketliquidator.com/tickets/8249211/Sting-tickets-Tue-Nov-24-2026-Seminole-Hard-Rock-Tampa-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1225,7 +1225,7 @@
         "event_id": 18507833,
         "url": "https://seatgeek.com/sting-tickets/hollywood-florida-hard-rock-live-hollywood-2026-11-25-8-pm/concert/18507833",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1246,21 +1246,21 @@
         "event_id": "8214753",
         "url": "https://www.ticketnetwork.com/en/p/8214753",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214753",
         "url": "https://www.ticketliquidator.com/tickets/8214753/Sting-tickets-Wed-Nov-25-2026-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107524081",
         "url": "https://www.stubhub.ie/sting-hollywood-tickets-11-25-2026/event/107524081",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1325,21 +1325,21 @@
         "event_id": "8319776",
         "url": "https://www.ticketnetwork.com/en/p/8319776",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319776",
         "url": "https://www.ticketliquidator.com/tickets/8319776/Sting-tickets-Thu-Mar-4-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674835",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-4-2027/event/107674835",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1411,21 +1411,21 @@
         "event_id": "8319777",
         "url": "https://www.ticketnetwork.com/en/p/8319777",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319777",
         "url": "https://www.ticketliquidator.com/tickets/8319777/Sting-tickets-Sat-Mar-6-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674836",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-6-2027/event/107674836",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1497,21 +1497,21 @@
         "event_id": "8319778",
         "url": "https://www.ticketnetwork.com/en/p/8319778",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319778",
         "url": "https://www.ticketliquidator.com/tickets/8319778/Sting-tickets-Sun-Mar-7-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674154",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-7-2027/event/107674154",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1583,21 +1583,21 @@
         "event_id": "8319779",
         "url": "https://www.ticketnetwork.com/en/p/8319779",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319779",
         "url": "https://www.ticketliquidator.com/tickets/8319779/Sting-tickets-Wed-Mar-10-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674837",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-10-2027/event/107674837",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1648,7 +1648,7 @@
         "event_id": 18674620,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-03-12-8-pm/concert/18674620",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1669,21 +1669,21 @@
         "event_id": "8319780",
         "url": "https://www.ticketnetwork.com/en/p/8319780",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319780",
         "url": "https://www.ticketliquidator.com/tickets/8319780/Sting-tickets-Fri-Mar-12-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674155",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-3-12-2027/event/107674155",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1864,6 +1864,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107675281",
+        "url": "https://www.stubhub.ie/sting-tickets-krakow-tauron-arena-9-6-2027/event/107675281",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZQpZ16evtF6jd",
@@ -1872,7 +1879,8 @@
     "organizer_names": [
       "Live Nation sp. z o.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/sting-tickets-krakow-tauron-arena-9-6-2027/event/107675281"
   },
   {
     "id": "tm-sting-2027-odz-z698xzqpz1k06xapf",
@@ -1926,7 +1934,7 @@
         "event_id": "107675353",
         "url": "https://www.stubhub.ie/sting-tickets-lodz-atlas-arena-10-6-2027/event/107675353",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2162,7 +2170,7 @@
         "event_id": "107675401",
         "url": "https://www.stubhub.ie/sting-tickets-fulda-domplatz-fulda-26-6-2027/event/107675401",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2374,7 +2382,7 @@
         "event_id": 18674621,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-14-8-pm/concert/18674621",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2395,21 +2403,21 @@
         "event_id": "8319784",
         "url": "https://www.ticketnetwork.com/en/p/8319784",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319784",
         "url": "https://www.ticketliquidator.com/tickets/8319784/Sting-tickets-Thu-Oct-14-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674256",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-14-2027/event/107674256",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2460,7 +2468,7 @@
         "event_id": 18674623,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-16-8-pm/concert/18674623",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2481,21 +2489,21 @@
         "event_id": "8319785",
         "url": "https://www.ticketnetwork.com/en/p/8319785",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319785",
         "url": "https://www.ticketliquidator.com/tickets/8319785/Sting-tickets-Sat-Oct-16-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674257",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-16-2027/event/107674257",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2546,7 +2554,7 @@
         "event_id": 18674630,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-17-8-pm/concert/18674630",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2567,21 +2575,21 @@
         "event_id": "8319786",
         "url": "https://www.ticketnetwork.com/en/p/8319786",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319786",
         "url": "https://www.ticketliquidator.com/tickets/8319786/Sting-tickets-Sun-Oct-17-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674934",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-17-2027/event/107674934",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2632,7 +2640,7 @@
         "event_id": 18674631,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-20-8-pm/concert/18674631",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2653,21 +2661,21 @@
         "event_id": "8319788",
         "url": "https://www.ticketnetwork.com/en/p/8319788",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319788",
         "url": "https://www.ticketliquidator.com/tickets/8319788/Sting-tickets-Wed-Oct-20-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674935",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-20-2027/event/107674935",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2718,7 +2726,7 @@
         "event_id": 18674632,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-22-8-pm/concert/18674632",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2739,21 +2747,21 @@
         "event_id": "8319789",
         "url": "https://www.ticketnetwork.com/en/p/8319789",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319789",
         "url": "https://www.ticketliquidator.com/tickets/8319789/Sting-tickets-Fri-Oct-22-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674936",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-22-2027/event/107674936",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2804,7 +2812,7 @@
         "event_id": 18674634,
         "url": "https://seatgeek.com/sting-tickets/las-vegas-nevada-the-colosseum-at-caesars-palace-2027-10-23-8-pm/concert/18674634",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2825,21 +2833,21 @@
         "event_id": "8319790",
         "url": "https://www.ticketnetwork.com/en/p/8319790",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319790",
         "url": "https://www.ticketliquidator.com/tickets/8319790/Sting-tickets-Sat-Oct-23-2027-The-Colosseum-At-Caesars-Palace",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674258",
         "url": "https://www.stubhub.ie/sting-las-vegas-tickets-10-23-2027/event/107674258",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

@@ -49,7 +49,8 @@
       });
       var shown = 0;
       items.forEach(function (entry) {
-        var match = terms.every(function (term) { return entry.text.indexOf(term) !== -1; });
+        var match = !entry.item.hasAttribute("data-country-off") &&
+          terms.every(function (term) { return entry.text.indexOf(term) !== -1; });
         entry.item.hidden = !match;
         if (match) shown += 1;
       });
@@ -62,6 +63,96 @@
       });
       if (status) status.textContent = terms.length ? (shown ? shown + (shown === 1 ? " match" : " matches") : "No matches") : "";
     });
+  }
+
+  /* /tours/<year>: "Playing in" and "Venue type" chips. Narrows the artist tiles
+     to one country and/or stadiums or arenas, and swaps each tile's facts line
+     for the matching counts, read from the data-by-country the server rendered.
+     Venue type is the server's name-based match; nothing is fetched or guessed.
+     The choice lives in ?country=...&size=... (the page canonical stays the hub). */
+  function initCountryChooser() {
+    var chooser = document.querySelector("[data-country-chooser]");
+    var input = document.querySelector("[data-tile-filter] input");
+    if (!chooser || !input) return;
+    var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    var status = chooser.querySelector("[data-country-status]");
+    var tiles = Array.from(document.querySelectorAll("[data-tile-list] > li[data-by-country]")).map(function (li) {
+      var data = {};
+      try { data = JSON.parse(li.getAttribute("data-by-country") || "{}"); } catch (e) { data = {}; }
+      var meta = li.querySelector(".tile__meta");
+      return { li: li, data: data, meta: meta, original: meta ? meta.textContent : "" };
+    });
+    if (!tiles.length) return;
+    var countryButtons = Array.from(chooser.querySelectorAll("button[data-country]"));
+    var sizeButtons = Array.from(chooser.querySelectorAll("button[data-size]"));
+    var runs = Array.from(document.querySelectorAll("li[data-run-country]"));
+    var state = { country: "", size: "" };
+    function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
+    function sizeCount(row, size) { return size === "stadium" ? row.stadiumCount || 0 : row.arenaCount || 0; }
+    function apply() {
+      var country = state.country, size = state.size, count = 0;
+      tiles.forEach(function (tile) {
+        var rows = country ? (tile.data[country] ? [tile.data[country]] : []) : Object.keys(tile.data).map(function (k) { return tile.data[k]; });
+        var matched = size ? rows.reduce(function (n, row) { return n + sizeCount(row, size); }, 0) : rows.length;
+        var off = (country || size) ? matched === 0 : false;
+        if (off) tile.li.setAttribute("data-country-off", ""); else tile.li.removeAttribute("data-country-off");
+        if (!off) count += 1;
+        if (!tile.meta) return;
+        if (size && !off) {
+          tile.meta.textContent = [plural(matched, size + " date", size + " dates"), country || plural(rows.filter(function (row) { return sizeCount(row, size) > 0; }).length, "country", "countries")].join(" · ");
+        } else if (country && !off) {
+          var row = tile.data[country];
+          var a = months[row.firstMonth - 1], b = months[row.lastMonth - 1];
+          tile.meta.textContent = [plural(row.showCount, "date", "dates"), plural(row.cityCount, "city", "cities"), country, a === b ? a : a + "–" + b].join(" · ");
+        } else tile.meta.textContent = tile.original;
+      });
+      countryButtons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.getAttribute("data-country") === country)); });
+      sizeButtons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.getAttribute("data-size") === size)); });
+      var label = (size === "stadium" ? "stadium " : size === "arena" ? "arena " : "") + "dates";
+      if (status) status.textContent = country || size ? plural(count, "artist", "artists") + " with 2027 " + label + (country ? " in " + country : "") + "." : "";
+      // The "Longest city runs" tiles follow the country (not the venue type).
+      runs.forEach(function (li) {
+        if (country && li.getAttribute("data-run-country") !== country) li.setAttribute("data-country-off", "");
+        else li.removeAttribute("data-country-off");
+      });
+      input.dispatchEvent(new Event("input"));
+      if (runs.length) {
+        var runSection = runs[0].closest("section");
+        if (runSection) runSection.hidden = !runs.some(function (li) { return !li.hidden; });
+        Array.from(document.querySelectorAll(".guide-more-events")).forEach(function (more) {
+          if (!more.querySelector("li[data-run-country]")) return;
+          var shown = Array.from(more.querySelectorAll("li")).filter(function (li) { return !li.hidden; }).length;
+          more.hidden = shown === 0;
+          var summary = more.querySelector("summary");
+          if (summary) {
+            if (!summary.hasAttribute("data-original")) summary.setAttribute("data-original", summary.textContent);
+            summary.textContent = state.country
+              ? "Show " + shown + " more city " + (shown === 1 ? "run" : "runs")
+              : summary.getAttribute("data-original");
+          }
+        });
+      }
+      try {
+        var url = new URL(window.location.href);
+        if (country) url.searchParams.set("country", country); else url.searchParams.delete("country");
+        if (size) url.searchParams.set("size", size); else url.searchParams.delete("size");
+        window.history.replaceState(null, "", url.pathname + url.search + url.hash);
+      } catch (e) { /* history unavailable: the filter still works */ }
+    }
+    countryButtons.forEach(function (button) {
+      button.addEventListener("click", function () { state.country = button.getAttribute("data-country") || ""; apply(); });
+    });
+    sizeButtons.forEach(function (button) {
+      button.addEventListener("click", function () { state.size = button.getAttribute("data-size") || ""; apply(); });
+    });
+    chooser.hidden = false;
+    try {
+      var params = new URL(window.location.href).searchParams;
+      var wantedCountry = params.get("country"), wantedSize = params.get("size");
+      if (wantedCountry && countryButtons.some(function (b) { return b.getAttribute("data-country") === wantedCountry; })) state.country = wantedCountry;
+      if (wantedSize && sizeButtons.some(function (b) { return b.getAttribute("data-size") === wantedSize; })) state.size = wantedSize;
+      if (state.country || state.size) apply();
+    } catch (e) { /* no query string support: start unfiltered */ }
   }
 
   function initBoard() {
@@ -344,6 +435,7 @@
   }
 
   initTileFilter();
+  initCountryChooser();
   initBoard();
 
   document.addEventListener("click", function (event) {

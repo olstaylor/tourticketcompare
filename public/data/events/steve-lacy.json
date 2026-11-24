@@ -1487,33 +1487,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8199811",
-        "url": "https://www.ticketnetwork.com/en/p/8199811",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8199811",
-        "url": "https://www.ticketliquidator.com/tickets/8199811/Steve-Lacy-tickets-Sat-Nov-21-2026-Hollywood-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107484106",
-        "url": "https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_8f-wIFq",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8199811",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8199811/Steve-Lacy-tickets-Sat-Nov-21-2026-Hollywood-Bowl",
-    "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-hollywood-tickets-11-21-2026/event/107484106",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",
       "LIVE NATION MUSIC"
@@ -1552,7 +1552,7 @@
         "event_id": 18485954,
         "url": "https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-24-8-pm/concert/18485954",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1573,21 +1573,21 @@
         "event_id": "8199812",
         "url": "https://www.ticketnetwork.com/en/p/8199812",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8199812",
         "url": "https://www.ticketliquidator.com/tickets/8199812/Steve-Lacy-tickets-Tue-Nov-24-2026-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107482319",
         "url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-24-2026/event/107482319",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1635,7 +1635,7 @@
         "event_id": 18613496,
         "url": "https://seatgeek.com/steve-lacy-tickets/san-francisco-california-bill-graham-civic-auditorium-2026-11-25-8-pm/concert/18613496",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1656,21 +1656,21 @@
         "event_id": "8286236",
         "url": "https://www.ticketnetwork.com/en/p/8286236",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8286236",
         "url": "https://www.ticketliquidator.com/tickets/8286236/Steve-Lacy-tickets-Wed-Nov-25-2026-Bill-Graham-Civic-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672773",
         "url": "https://www.stubhub.ie/steve-lacy-san-francisco-tickets-11-25-2026/event/107672773",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1718,7 +1718,7 @@
         "event_id": 18485955,
         "url": "https://seatgeek.com/steve-lacy-tickets/seattle-washington-wamu-theater-2026-11-28-7-pm/concert/18485955",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1739,21 +1739,21 @@
         "event_id": "8199813",
         "url": "https://www.ticketnetwork.com/en/p/8199813",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8199813",
         "url": "https://www.ticketliquidator.com/tickets/8199813/Steve-Lacy-tickets-Sat-Nov-28-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107482320",
         "url": "https://www.stubhub.ie/steve-lacy-seattle-tickets-11-28-2026/event/107482320",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1800,7 +1800,7 @@
         "event_id": 18485961,
         "url": "https://seatgeek.com/steve-lacy-tickets/vancouver-canada-ubc-doug-mitchell-thunderbird-sports-centre-2026-11-30-8-pm/concert/18485961",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1821,21 +1821,21 @@
         "event_id": "8199816",
         "url": "https://www.ticketnetwork.com/en/p/8199816",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8199816",
         "url": "https://www.ticketliquidator.com/tickets/8199816/Steve-Lacy-tickets-Mon-Nov-30-2026-UBC-Doug-Mitchell-Thunderbird-Sports-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107482321",
         "url": "https://www.stubhub.ie/steve-lacy-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-11-30-2026/event/107482321",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

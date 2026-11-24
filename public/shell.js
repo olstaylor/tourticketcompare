@@ -295,13 +295,18 @@
     "/blog/hilary-duff-lucky-me-tour-2027-on-sale"
   ];
   var SELLING_SOON_VISIBLE = 4;
-  var SELLING_SOON_VISIBLE_HOME = 6;
+  var SELLING_SOON_VISIBLE_HOME = 4;
   var sellingSoonPath = window.location.pathname.replace(/\/+$/, "") || "/";
   // Artist page: after its own dates. Homepage: under the hero. Guides, blog
   // posts and the compare hub: after the first panel (short answer, ticket
   // routes or hero), so the links sit in the first screens on mobile.
   var sellingSoonAnchor = SELLING_SOON_PATHS.indexOf(sellingSoonPath) === -1 ? null : (
     document.querySelector("#mainContent .artist-page > .show-board") ||
+    // Homepage: after the "Next dates" panels, not under the hero. The box
+    // arrives after an API call (~2-3 s on a slow phone); inserting it above
+    // the fold pushed the panels down (measured CLS 0.30). Below the first
+    // screen it moves nothing visible.
+    document.querySelector("#ttc-main > .home-next-dates") ||
     document.querySelector("#ttc-main > .hero-panel") ||
     document.querySelector("#mainContent .content-page > section.nested-panel")
   );
@@ -327,7 +332,7 @@
         heading.id = "sellingSoonTitle";
         heading.textContent = "Big shows in the next two weeks";
         var intro = document.createElement("p");
-        intro.textContent = "Going to one of these? Open it to compare the ticket sites for that date.";
+        intro.textContent = "Open one to compare ticket sites for that date.";
         var list = document.createElement("ul");
         list.className = "guide-link-list";
         shows.forEach(function (show, index) {

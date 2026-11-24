@@ -39,11 +39,9 @@ on:
     # 2026-10-01 and 2026-10-02. Off the top of the hour because GitHub delivers
     # :00 crons here hours late.
     - cron: '40 2 * * *'
-    # 16:20 UTC — a second pass (owner-approved 2026-10-02) for tours announced
-    # that US morning, so they are listed the same day rather than the next.
-    # About one Discovery call per artist. SeatGeek and Vivid Seats links for
-    # these dates follow at the next morning's CTA syncs.
-    - cron: '20 16 * * *'
+    # The 16:20 UTC second pass (2026-10-02) was dropped 2026-11-23: GitHub delivers
+    # it 5-8 hours late, behind the Impact seller syncs, and its 30-minute writer
+    # wait expired on 5 of 7 evenings, publishing nothing. Re-add only with owner OK.
   workflow_dispatch:
     inputs:
       artist:

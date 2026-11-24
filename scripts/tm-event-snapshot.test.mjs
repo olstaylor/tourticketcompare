@@ -31,12 +31,13 @@ try {
     const idB = 'Z7r9jZ1A706eq';
     const dataB = { ...data, id: idB };
     const reply = (events, status = 200) => async () => new Response(JSON.stringify(events ? { _embedded: { events } } : {}), { status });
+    const waits = [];
     const run1 = async (fetchImpl, directFetch, env) => {
       const prev = process.env.TM_BATCH_FETCH;
       if (env === undefined) delete process.env.TM_BATCH_FETCH; else process.env.TM_BATCH_FETCH = env;
       try {
         const sweep = createSnapshotSweep({ base, now: clock });
-        await sweep.prefetch([id, idB, 'Z7r9jZ1A706missing'], { apiKey: 'k', fetchImpl, directFetch, log: () => {} });
+        await sweep.prefetch([id, idB, 'Z7r9jZ1A706missing'], { apiKey: 'k', fetchImpl, directFetch, log: () => {}, sleep: async (ms) => { waits.push(ms); } });
         const seen = [];
         for (const eventId of [id, idB, 'Z7r9jZ1A706missing']) {
           seen.push((await sweep.get(eventId, async () => ({ status: 404, exists: false, data: null }))).source);
@@ -54,6 +55,13 @@ try {
     assert.deepEqual(differs.seen, ['direct', 'direct', 'direct'], 'a sample that differs from its single-event record discards the batch');
     const throttled = await run1(reply(null, 429), async () => ({ status: 200, exists: true, data }));
     assert.deepEqual(throttled.seen, ['direct', 'direct', 'direct'], 'a throttled batch falls back to single requests');
+    assert.equal(throttled.stats.batch_requests, 4, 'a throttled batch is retried three times before batching is abandoned');
+    assert.equal(waits.length, 3, 'each retry waits first');
+    waits.length = 0;
+    let calls = 0;
+    const recovers = await run1(async () => (++calls === 1 ? new Response('{}', { status: 429 }) : new Response(JSON.stringify({ _embedded: { events: [data, dataB] } }))), async (eventId) => ({ status: 200, exists: true, data: eventId === id ? data : dataB }));
+    assert.deepEqual(recovers.seen, ['batch', 'batch', 'direct'], 'a batch that succeeds on retry is used');
+    assert.equal(waits.length, 1);
     let batchCalls = 0;
     const off = await run1(async () => { batchCalls++; return new Response('{}'); }, null, '0');
     assert.equal(batchCalls, 0, 'TM_BATCH_FETCH=0 makes no batch request');

@@ -112,21 +112,21 @@
         "event_id": "8343260",
         "url": "https://www.ticketnetwork.com/en/p/8343260",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343260",
         "url": "https://www.ticketliquidator.com/tickets/8343260/Meshuggah-tickets-Sat-Feb-13-2027-Place-Bell",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678613",
         "url": "https://www.stubhub.ie/meshuggah-laval-tickets-2-13-2027/event/107678613",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -176,7 +176,7 @@
         "event_id": 18724637,
         "url": "https://seatgeek.com/meshuggah-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-02-16-6-pm/concert/18724637",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -197,14 +197,14 @@
         "event_id": "8343267",
         "url": "https://www.ticketnetwork.com/en/p/8343267",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343267",
         "url": "https://www.ticketliquidator.com/tickets/8343267/Meshuggah-tickets-Tue-Feb-16-2027-Masonic-Temple-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -262,6 +262,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343229",
+        "url": "https://www.ticketnetwork.com/en/p/8343229",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8343229",
+        "url": "https://www.ticketliquidator.com/tickets/8343229/Meshuggah-tickets-Wed-Feb-17-2027-The-Salt-Shed-Indoors-Chicago",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7Zk49GkdpMBhC",
@@ -278,7 +292,9 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343229",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343229/Meshuggah-tickets-Wed-Feb-17-2027-The-Salt-Shed-Indoors-Chicago"
   },
   {
     "id": "tm-meshuggah-2027-minneapolis-vv1akzk44gkdfvhxa",
@@ -332,21 +348,21 @@
         "event_id": "8343230",
         "url": "https://www.ticketnetwork.com/en/p/8343230",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343230",
         "url": "https://www.ticketliquidator.com/tickets/8343230/Meshuggah-tickets-Fri-Feb-19-2027-The-Armory-Minneapolis",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678622",
         "url": "https://www.stubhub.ie/meshuggah-minneapolis-tickets-2-19-2027/event/107678622",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -400,7 +416,7 @@
         "event_id": 18724639,
         "url": "https://seatgeek.com/meshuggah-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-02-20-7-pm/concert/18724639",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -421,14 +437,14 @@
         "event_id": "8343268",
         "url": "https://www.ticketnetwork.com/en/p/8343268",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343268",
         "url": "https://www.ticketliquidator.com/tickets/8343268/Meshuggah-tickets-Sat-Feb-20-2027-The-Midland-Theatre-MO",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -467,11 +483,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724647,
+        "url": "https://seatgeek.com/meshuggah-tickets/omaha-nebraska-steelhouse-omaha-2027-02-21-7-pm/concert/18724647",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -491,14 +507,14 @@
         "event_id": "8343233",
         "url": "https://www.ticketnetwork.com/en/p/8343233",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343233",
         "url": "https://www.ticketliquidator.com/tickets/8343233/Meshuggah-tickets-Sun-Feb-21-2027-Steelhouse-Omaha",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -567,6 +583,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343235",
+        "url": "https://www.ticketnetwork.com/en/p/8343235",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8343235",
+        "url": "https://www.ticketliquidator.com/tickets/8343235/Meshuggah-tickets-Tue-Feb-23-2027-The-Factory-Chesterfield",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A-Zk44GkdTs0oX",
@@ -582,7 +612,9 @@
         "end": "2027-01-28T04:00:00Z"
       }
     ],
-    "genre": "Metal"
+    "genre": "Metal",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343235",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343235/Meshuggah-tickets-Tue-Feb-23-2027-The-Factory-Chesterfield"
   },
   {
     "id": "tm-meshuggah-2027-nashville-g5viz_4l7rl-d",
@@ -636,14 +668,14 @@
         "event_id": "8343237",
         "url": "https://www.ticketnetwork.com/en/p/8343237",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343237",
         "url": "https://www.ticketliquidator.com/tickets/8343237/Meshuggah-tickets-Wed-Feb-24-2027-The-Truth",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -693,11 +725,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724654,
+        "url": "https://seatgeek.com/meshuggah-tickets/virginia-beach-virginia-the-dome-13-2027-02-26-7-pm/concert/18724654",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -717,14 +749,14 @@
         "event_id": "8343238",
         "url": "https://www.ticketnetwork.com/en/p/8343238",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343238",
         "url": "https://www.ticketliquidator.com/tickets/8343238/Meshuggah-tickets-Fri-Feb-26-2027-The-Dome-by-Rutter-Mills",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -798,14 +830,14 @@
         "event_id": "8343239",
         "url": "https://www.ticketnetwork.com/en/p/8343239",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343239",
         "url": "https://www.ticketliquidator.com/tickets/8343239/Meshuggah-tickets-Sat-Feb-27-2027-The-Paramount-Baltimore",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -879,14 +911,14 @@
         "event_id": "8343241",
         "url": "https://www.ticketnetwork.com/en/p/8343241",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343241",
         "url": "https://www.ticketliquidator.com/tickets/8343241/Meshuggah-tickets-Sun-Feb-28-2027-Citizens-Live-at-The-Wylie",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -936,11 +968,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724657,
+        "url": "https://seatgeek.com/meshuggah-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-03-02-7-pm/concert/18724657",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -960,14 +992,14 @@
         "event_id": "8343242",
         "url": "https://www.ticketnetwork.com/en/p/8343242",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343242",
         "url": "https://www.ticketliquidator.com/tickets/8343242/Meshuggah-tickets-Tue-Mar-2-2027-The-Met-Presented-by-Highmark",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1020,7 +1052,7 @@
         "event_id": 18724658,
         "url": "https://seatgeek.com/meshuggah-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-03-6-pm/concert/18724658",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1041,21 +1073,21 @@
         "event_id": "8343243",
         "url": "https://www.ticketnetwork.com/en/p/8343243",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343243",
         "url": "https://www.ticketliquidator.com/tickets/8343243/Meshuggah-tickets-Wed-Mar-3-2027-Brooklyn-Paramount",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678642",
         "url": "https://www.stubhub.ie/meshuggah-brooklyn-tickets-3-3-2027/event/107678642",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1109,7 +1141,7 @@
         "event_id": 18724664,
         "url": "https://seatgeek.com/meshuggah-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-06-7-pm/concert/18724664",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1130,21 +1162,21 @@
         "event_id": "8343244",
         "url": "https://www.ticketnetwork.com/en/p/8343244",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343244",
         "url": "https://www.ticketliquidator.com/tickets/8343244/Meshuggah-tickets-Sat-Mar-6-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678606",
         "url": "https://www.stubhub.ie/meshuggah-boston-tickets-3-6-2027/event/107678606",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1219,21 +1251,21 @@
         "event_id": "8343261",
         "url": "https://www.ticketnetwork.com/en/p/8343261",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343261",
         "url": "https://www.ticketliquidator.com/tickets/8343261/Meshuggah-tickets-Thu-Apr-15-2027-PNE-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678617",
         "url": "https://www.stubhub.ie/meshuggah-vancouver-tickets-4-15-2027/event/107678617",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1297,21 +1329,21 @@
         "event_id": "8343245",
         "url": "https://www.ticketnetwork.com/en/p/8343245",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343245",
         "url": "https://www.ticketliquidator.com/tickets/8343245/Meshuggah-tickets-Fri-Apr-16-2027-Moda-Center-at-the-Rose-Quarter",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678604",
         "url": "https://www.stubhub.ie/meshuggah-portland-tickets-4-16-2027/event/107678604",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1386,21 +1418,21 @@
         "event_id": "8343246",
         "url": "https://www.ticketnetwork.com/en/p/8343246",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343246",
         "url": "https://www.ticketliquidator.com/tickets/8343246/Meshuggah-tickets-Sat-Apr-17-2027-Paramount-Theatre-Seattle",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678600",
         "url": "https://www.stubhub.ie/meshuggah-seattle-tickets-4-17-2027/event/107678600",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1454,7 +1486,7 @@
         "event_id": 18724672,
         "url": "https://seatgeek.com/meshuggah-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-04-19-6-30-pm/concert/18724672",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1475,14 +1507,14 @@
         "event_id": "8343247",
         "url": "https://www.ticketnetwork.com/en/p/8343247",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343247",
         "url": "https://www.ticketliquidator.com/tickets/8343247/Meshuggah-tickets-Mon-Apr-19-2027-The-Union-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1556,21 +1588,21 @@
         "event_id": "8343226",
         "url": "https://www.ticketnetwork.com/en/p/8343226",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343226",
         "url": "https://www.ticketliquidator.com/tickets/8343226/Meshuggah-tickets-Wed-Apr-21-2027-Red-Rocks-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678638",
         "url": "https://www.stubhub.ie/meshuggah-morrison-tickets-4-21-2027/event/107678638",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1637,21 +1669,21 @@
         "event_id": "8343248",
         "url": "https://www.ticketnetwork.com/en/p/8343248",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343248",
         "url": "https://www.ticketliquidator.com/tickets/8343248/Meshuggah-tickets-Sat-Apr-24-2027-Fox-Theater-Oakland",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678644",
         "url": "https://www.stubhub.ie/meshuggah-oakland-tickets-4-24-2027/event/107678644",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1719,21 +1751,21 @@
         "event_id": "8343249",
         "url": "https://www.ticketnetwork.com/en/p/8343249",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343249",
         "url": "https://www.ticketliquidator.com/tickets/8343249/Meshuggah-tickets-Sun-Apr-25-2027-YouTube-Theater-at-Hollywood-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678605",
         "url": "https://www.stubhub.ie/meshuggah-inglewood-tickets-4-25-2027/event/107678605",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1772,7 +1804,7 @@
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-phoenix-arizona-financial-theatre-4-27-2027--concerts-hard-rock/production/7761453",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-phoenix-arizona-04-27-2027/event/19006558148AC452",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1808,21 +1840,21 @@
         "event_id": "8343250",
         "url": "https://www.ticketnetwork.com/en/p/8343250",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343250",
         "url": "https://www.ticketliquidator.com/tickets/8343250/Meshuggah-tickets-Tue-Apr-27-2027-Arizona-Financial-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678646",
         "url": "https://www.stubhub.ie/meshuggah-phoenix-tickets-4-27-2027/event/107678646",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1843,7 +1875,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       }
     ],
@@ -1902,21 +1934,21 @@
         "event_id": "8343251",
         "url": "https://www.ticketnetwork.com/en/p/8343251",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343251",
         "url": "https://www.ticketliquidator.com/tickets/8343251/Meshuggah-tickets-Fri-Apr-30-2027-Bayou-Music-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678603",
         "url": "https://www.stubhub.ie/meshuggah-houston-tickets-4-30-2027/event/107678603",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1991,21 +2023,21 @@
         "event_id": "8343252",
         "url": "https://www.ticketnetwork.com/en/p/8343252",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343252",
         "url": "https://www.ticketliquidator.com/tickets/8343252/Meshuggah-tickets-Sat-May-1-2027-Boeing-Center-at-Tech-Port",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678624",
         "url": "https://www.stubhub.ie/meshuggah-san-antonio-tickets-5-1-2027/event/107678624",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2032,7 +2064,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7IZs",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7IZs",
-    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/oklahoma-city-oklahoma-the-criterion-okc-2027-05-02-7-pm/concert/18724686",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7IZs",
@@ -2067,6 +2099,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8343253",
+        "url": "https://www.ticketnetwork.com/en/p/8343253",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8343253",
+        "url": "https://www.ticketliquidator.com/tickets/8343253/Meshuggah-tickets-Sun-May-2-2027-The-Criterion-Oklahoma-City",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AA7IZs",
@@ -2075,7 +2121,9 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8343253",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8343253/Meshuggah-tickets-Sun-May-2-2027-The-Criterion-Oklahoma-City"
   },
   {
     "id": "tm-meshuggah-2027-irving-vvg1yz_4faiuks",
@@ -2129,21 +2177,21 @@
         "event_id": "8343254",
         "url": "https://www.ticketnetwork.com/en/p/8343254",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343254",
         "url": "https://www.ticketliquidator.com/tickets/8343254/Meshuggah-tickets-Tue-May-4-2027-The-Pavilion-at-Toyota-Music-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678631",
         "url": "https://www.stubhub.ie/meshuggah-irving-tickets-5-4-2027/event/107678631",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2197,7 +2245,7 @@
         "event_id": 18724691,
         "url": "https://seatgeek.com/meshuggah-tickets/new-orleans-louisiana-fillmore-new-orleans-2027-05-06-6-pm/concert/18724691",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2218,14 +2266,14 @@
         "event_id": "8343255",
         "url": "https://www.ticketnetwork.com/en/p/8343255",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343255",
         "url": "https://www.ticketliquidator.com/tickets/8343255/Meshuggah-tickets-Thu-May-6-2027-The-Fillmore-New-Orleans",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2275,11 +2323,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18724693,
+        "url": "https://seatgeek.com/meshuggah-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-05-07-7-pm/concert/18724693",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761465,
@@ -2299,21 +2347,21 @@
         "event_id": "8343256",
         "url": "https://www.ticketnetwork.com/en/p/8343256",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343256",
         "url": "https://www.ticketliquidator.com/tickets/8343256/Meshuggah-tickets-Fri-May-7-2027-Coca-Cola-Roxy",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678609",
         "url": "https://www.stubhub.ie/meshuggah-atlanta-tickets-5-7-2027/event/107678609",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2393,21 +2441,21 @@
         "event_id": "8343257",
         "url": "https://www.ticketnetwork.com/en/p/8343257",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343257",
         "url": "https://www.ticketliquidator.com/tickets/8343257/Meshuggah-tickets-Sun-May-9-2027-FTL-War-Memorial-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678630",
         "url": "https://www.stubhub.ie/meshuggah-fort-lauderdale-tickets-5-9-2027/event/107678630",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2434,7 +2482,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006554EAA4A0AC",
     "ticketmaster_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-greensboro-north-carolina-05-11-2027/event/2D006554EAA4A0AC",
-    "seatgeek_url": "https://seatgeek.com/meshuggah-tickets/greensboro-north-carolina-special-events-center-at-greensboro-coliseum-complex-2027-05-11-7-pm/concert/18724694",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/meshuggah-tickets-greensboro-first-horizon-coliseum-at-greensboro-complex-5-11-2027--concerts-hard-rock/production/7761479",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/meshuggah-the-fortyyear-anomaly-w-testament-greensboro-north-carolina-05-11-2027/event/2D006554EAA4A0AC",
@@ -2474,14 +2522,14 @@
         "event_id": "8343258",
         "url": "https://www.ticketnetwork.com/en/p/8343258",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8343258",
         "url": "https://www.ticketliquidator.com/tickets/8343258/Meshuggah-tickets-Tue-May-11-2027-Special-Events-Center-At-Greensboro-Complex",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2612,14 +2660,14 @@
         "event_id": "8362357",
         "url": "https://www.ticketnetwork.com/en/p/8362357",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8362357",
         "url": "https://www.ticketliquidator.com/tickets/8362357/Meshuggah-tickets-Wed-Oct-27-2027-3Arena-Dublin",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2742,7 +2790,7 @@
         "event_id": "107679704",
         "url": "https://www.stubhub.ie/meshuggah-tickets-london-ovo-arena-wembley-30-10-2027/event/107679704",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2784,7 +2832,7 @@
         "event_id": 18724663,
         "url": "https://seatgeek.com/meshuggah-tickets/new-haven-connecticut-college-street-music-hall-2027-03-05-7-pm/concert/18724663",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2805,21 +2853,21 @@
         "event_id": "8343270",
         "url": "https://www.ticketliquidator.com/tickets/8343270/Meshuggah-tickets-Fri-Mar-5-2027-College-Street-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107678637",
         "url": "https://www.stubhub.ie/meshuggah-new-haven-tickets-3-5-2027/event/107678637",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8343270",
         "url": "https://www.ticketnetwork.com/en/p/8343270",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

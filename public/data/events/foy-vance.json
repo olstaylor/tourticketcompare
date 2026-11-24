@@ -906,25 +906,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7748041",
-        "url": "https://www.ticketnetwork.com/en/p/7748041",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7748041",
-        "url": "https://www.ticketliquidator.com/tickets/7748041/Foy-Vance-tickets-Sat-Nov-21-2026-Gothic-Theatre",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7--ke",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7748041",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7748041/Foy-Vance-tickets-Sat-Nov-21-2026-Gothic-Theatre"
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": ""
   },
   {
     "id": "tm-foy-vance-2027-brisbane-1akzkf_gkes7kkl",
@@ -1036,14 +1036,14 @@
         "event_id": "7748047",
         "url": "https://www.ticketnetwork.com/en/p/7748047",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7748047",
         "url": "https://www.ticketliquidator.com/tickets/7748047/Foy-Vance-tickets-Wed-Apr-7-2027-Iron-City-Birmingham",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1110,14 +1110,14 @@
         "event_id": "7748048",
         "url": "https://www.ticketnetwork.com/en/p/7748048",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7748048",
         "url": "https://www.ticketliquidator.com/tickets/7748048/Foy-Vance-tickets-Thu-Apr-8-2027-Variety-Playhouse",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1179,14 +1179,14 @@
         "event_id": "7748050",
         "url": "https://www.ticketnetwork.com/en/p/7748050",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7748050",
         "url": "https://www.ticketliquidator.com/tickets/7748050/Foy-Vance-tickets-Sat-Apr-10-2027-Bijou-Theatre-TN",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1210,7 +1210,7 @@
     "tour_name": "The Wake World Tour",
     "ticketmaster_event_id": "Z7r9jZ1A7-K1v",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
-    "seatgeek_url": "https://seatgeek.com/foy-vance-tickets/cincinnati-ohio-anderson-theater-at-cincinnati-memorial-hall-2027-04-12-7-pm/concert/18085807",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-K1v",
@@ -1250,14 +1250,14 @@
         "event_id": "7748051",
         "url": "https://www.ticketnetwork.com/en/p/7748051",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7748051",
         "url": "https://www.ticketliquidator.com/tickets/7748051/Foy-Vance-tickets-Mon-Apr-12-2027-Anderson-Theater-At-Cincinnati-Memorial-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1319,14 +1319,14 @@
         "event_id": "7748052",
         "url": "https://www.ticketnetwork.com/en/p/7748052",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7748052",
         "url": "https://www.ticketliquidator.com/tickets/7748052/Foy-Vance-tickets-Thu-Apr-15-2027-Fitzgerald-Theater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1367,7 +1367,7 @@
         "event_id": 18084267,
         "url": "https://seatgeek.com/foy-vance-tickets/toronto-canada-the-danforth-music-hall-2027-04-21-7-pm/concert/18084267",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1448,14 +1448,14 @@
         "event_id": "7748060",
         "url": "https://www.ticketnetwork.com/en/p/7748060",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7748060",
         "url": "https://www.ticketliquidator.com/tickets/7748060/Foy-Vance-tickets-Tue-Apr-27-2027-Capitol-Theatre-at-Appell-Center-for-the-Performing-Arts",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1496,7 +1496,7 @@
         "event_id": 18084126,
         "url": "https://seatgeek.com/foy-vance-tickets/boston-massachusetts-the-wilbur-2027-05-01-7-pm/concert/18084126",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1512,6 +1512,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7746767",
+        "url": "https://www.ticketnetwork.com/en/p/7746767",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "7746767",
+        "url": "https://www.ticketliquidator.com/tickets/7746767/Foy-Vance-tickets-Sat-May-1-2027-Wilbur-Theatre-MA",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_7GkSjYNiw",
@@ -1521,7 +1535,9 @@
       "COMEDY CONNECTION"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7746767",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7746767/Foy-Vance-tickets-Sat-May-1-2027-Wilbur-Theatre-MA"
   },
   {
     "id": "tm-foy-vance-2026-san-francisco-z7r9jz1aae4_v",
@@ -1714,14 +1730,14 @@
         "event_id": "7746922",
         "url": "https://www.ticketnetwork.com/en/p/7746922",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7746922",
         "url": "https://www.ticketliquidator.com/tickets/7746922/Foy-Vance-tickets-Fri-Apr-9-2027-The-Basement-East-Nashville",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1766,7 +1782,7 @@
         "event_id": 18368104,
         "url": "https://seatgeek.com/foy-vance-tickets/chicago-illinois-thalia-hall-chicago-2027-04-17-7-pm/concert/18368104",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1787,14 +1803,14 @@
         "event_id": "7747255",
         "url": "https://www.ticketnetwork.com/en/p/7747255",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7747255",
         "url": "https://www.ticketliquidator.com/tickets/7747255/Foy-Vance-tickets-Sat-Apr-17-2027-Thalia-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1836,7 +1852,7 @@
         "event_id": 18086032,
         "url": "https://seatgeek.com/foy-vance-tickets/washington-district-of-columbia-the-howard-theatre-2027-04-24-7-pm/concert/18086032",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1857,14 +1873,14 @@
         "event_id": "7746902",
         "url": "https://www.ticketnetwork.com/en/p/7746902",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7746902",
         "url": "https://www.ticketliquidator.com/tickets/7746902/Foy-Vance-tickets-Sat-Apr-24-2027-Howard-Theatre-DC",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1906,7 +1922,7 @@
         "event_id": 18368304,
         "url": "https://seatgeek.com/foy-vance-tickets/new-york-new-york-sony-hall-2027-04-30-8-pm/concert/18368304",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1927,14 +1943,14 @@
         "event_id": "7746908",
         "url": "https://www.ticketnetwork.com/en/p/7746908",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7746908",
         "url": "https://www.ticketliquidator.com/tickets/7746908/Foy-Vance-tickets-Fri-Apr-30-2027-Sony-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1997,14 +2013,14 @@
         "event_id": "7748057",
         "url": "https://www.ticketnetwork.com/en/p/7748057",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7748057",
         "url": "https://www.ticketliquidator.com/tickets/7748057/Foy-Vance-tickets-Fri-Apr-23-2027-The-Ardmore-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

@@ -426,6 +426,16 @@ const GUIDE_PATH = "/artists/oasis/ticket-prices";
     `the artist-page pick carries site, date, place and check time (got ${text(artistCheapest).slice(0, 240)})`
   );
   assert(artistCheapest.replace(/&amp;/g, "&").includes("ctaLocation=artist_cheapest") && artistLead.indexOf("price-cheapest") < artistLead.indexOf("price-guide-link"), "the artist-page pick sits under the intro, before the price-guide link, and reports its own cta location");
+  // 2026-11-22: the artist page also counts recent same-site price changes,
+  // and says nothing about which date is dearest or cheapest.
+  const dataBlock = artistPage.html.match(/<section class="nested-panel" aria-labelledby="artistPriceDataTitle"[\s\S]*?<\/section>/)?.[0] || "";
+  assert(text(dataBlock).includes("Last 30 days"), "the artist page carries a price-data block");
+  assert(text(dataBlock).includes("2 of 2 priced dates changed price (1 lower, 1 higher)."), "the block counts same-site moves");
+  assert(text(dataBlock).includes("not a forecast") && !/GBP|highest|dearest|most expensive|cheapest/i.test(text(dataBlock)), "the block prints no figure, ranks no date and makes no timing claim");
+  assert(artistPage.html.indexOf('id="artistPriceDataTitle"') > artistPage.html.indexOf('id="artistShowBoard"'), "the block sits below the date board, out of the lead");
+  assert(!/<details[^>]*>(?:(?!<\/details>)[\s\S])*artistPriceDataTitle/.test(artistPage.html), "the block is outside every closed dropdown");
+  const noDb = await render("/artists/oasis", { withDb: false });
+  assert(!noDb.html.includes("artistPriceDataTitle"), "with no price data the block does not render");
   assert(/The cheapest listed price of the 2 priced dates is GBP\s182 on Vivid Seats, for Fri, Sep 11, 2026 in Manchester, checked/.test(text(page.main)), "the cheapest-tickets FAQ answers with the same pick");
   assert(/<div class="action-row"><a[^>]+href="\/artists\/oasis"[^>]*class="button button-primary"|<div class="action-row"><a[^>]+class="button button-primary"[^>]*href="\/artists\/oasis"/.test(page.main), "the lead's one primary action is comparing tickets on the artist page");
   // Owner review 2026-10-06: the summary comes straight after the lead, then

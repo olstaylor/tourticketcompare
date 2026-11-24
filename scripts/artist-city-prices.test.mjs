@@ -251,6 +251,16 @@ function fakeDb(rows, historyRows = []) {
                 return { results: rows.filter((row) => wanted.has(String(row.event_id))) };
               }
               if (!/provider_pricing_history/.test(sql)) return { results: [] };
+              // The price-move read: newest rows per series inside the window.
+              if (/ROW_NUMBER/.test(sql)) {
+                const moveStart = String(bindings.at(-1));
+                const wanted = new Set(bindings.map(String));
+                return {
+                  results: historyRows.filter(
+                    (row) => wanted.has(String(row.event_id)) && wanted.has(String(row.provider)) && String(row.observed_at) >= moveStart
+                  )
+                };
+              }
               // Emulates the documented SQLite rule the real query relies on:
               // with exactly one min()/max() aggregate, bare columns come from
               // the row that produced the extreme.
@@ -394,7 +404,17 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     body.includes(`How much are ${ARTIST.name} tickets in ${RUN_CITY}?`),
     "the page states the question it is searched for, verbatim, as a heading"
   );
-  assert(body.includes("Sites priced"), 'the table column reads "Sites priced"');
+  assert(body.includes("Other sites"), 'the table column reads "Other sites"');
+  assert(/class="price-answer-other"/.test(page.main), "a date priced by two sites lists the other site's own starting price");
+  {
+    // Other-site prices are text; each such row links in-page to its own card.
+    const tableHtml = page.main.slice(page.main.indexOf("price-answer-table"), page.main.indexOf("</table>"));
+    const rowsWithOther = tableHtml.split("<tr>").filter((row) => row.includes("price-answer-other"));
+    assert(rowsWithOther.length > 0 && rowsWithOther.every((row) => /<a class="text-link price-answer-more" href="#show-[^"]+" aria-label="See all ticket sites for [^"]+">See all ticket sites<\/a>/.test(row)), "each row with other-site prices links in-page to that date's card, with a dated accessible name");
+    const hrefs = [...tableHtml.matchAll(/class="text-link price-answer-more" href="(#show-[^"]+)"/g)].map((m) => m[1]);
+    assert(hrefs.every((href) => page.main.includes(`id="${href.slice(1)}"`)), "every 'See all ticket sites' target exists on the page");
+    assert(!/price-answer-more[^>]*\/api\/out/.test(tableHtml), "the new link is never an outbound redirect");
+  }
   assert(!/Sites checked/i.test(body), 'the table must not imply the render initiated a check ("Sites checked")');
 
   // Both dates keep their own figure. If a cross-event minimum ever appeared,
@@ -634,6 +654,10 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
 // ── the 30-day recorded low, rendered ───────────────────────────
 {
   const page = await render(RUN_PATH);
+  assert(
+    /[\u2191\u2193] USD\s+\d[\d.,]* since [A-Z][a-z]{2} \d{1,2}, 2026/.test(text(page.main)),
+    "a date whose button price changed since its previous recorded price states the move, in its own currency"
+  );
   const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
   const body = text(section);
 
@@ -679,6 +703,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   const page = await render(RUN_PATH, { withDb: false });
   const body = text(page.main);
   assert(!/30-day low|Lowest (?:recorded|listed) in/.test(body), "no pricing database means no recorded low");
+  assert(!/[\u2191\u2193] USD/.test(body), "no pricing database means no price move");
 }
 
 
@@ -749,7 +774,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
   // The CSS above is inert unless the markup supplies the labels it reads.
   const page = await render(RUN_PATH);
   const section = (page.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
-  assert(/<td data-label="Sites priced">/.test(section), "the count cell carries its column name for the stacked layout");
+  assert(/<td data-label="Other sites">/.test(section), "the other-sites cell carries its column name for the stacked layout");
   assert(/<td class="price-answer-price">/.test(section), "the price cell is addressable so it is not double-labelled");
   const multi = await render(`/artists/${ARTIST.slug}/tickets/${MULTI_CITY_SLUG}`);
   const multiSection = (multi.main.match(/<section class="nested-panel artist-city-price-answer"[\s\S]*?<\/section>/) || [""])[0];
@@ -774,7 +799,7 @@ const SOLO_PATH = `/artists/${ARTIST.slug}/tickets/${SOLO_CITY_SLUG}`;
     assert(!/data-cta-lowest|provider-cta-badge/.test(html), "no ranking badge markup on a card");
     const lowLine = html.match(/<p class="provider-cta-lowest">([\s\S]*?)<\/p>/);
     if (lowLine) {
-      assert(/^<strong>Lowest listed: USD\s[\d.,]+<\/strong> on [A-Za-z ]+$/.test(lowLine[1]), "the lowest-listed line names an amount and a provider only");
+      assert(/^<strong>Lowest listed: USD\s[\d.,]+<\/strong> on [A-Za-z ]+<span class="provider-cta-lowest-note">Checked [^<]+ · fees not confirmed<\/span>$/.test(lowLine[1]), "the lowest-listed line names an amount, a provider, its check age and that fees are unconfirmed");
       assert(!/best|deal|save|cheapest/i.test(lowLine[1]), "the lowest-listed line makes no savings or best-deal claim");
     }
     assert(html.includes("Primary seller · may include resale") && html.includes("Resale marketplace"), "seller roles are explicit");

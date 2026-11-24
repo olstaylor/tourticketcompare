@@ -122,25 +122,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7863379",
-        "url": "https://www.ticketnetwork.com/en/p/7863379",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7863379",
-        "url": "https://www.ticketliquidator.com/tickets/7863379/Marc-Anthony-tickets-Sat-Nov-21-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk3vGkdf2mwm",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7863379",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7863379/Marc-Anthony-tickets-Sat-Nov-21-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -199,14 +199,21 @@
         "event_id": "8281218",
         "url": "https://www.ticketnetwork.com/en/p/8281218",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281218",
         "url": "https://www.ticketliquidator.com/tickets/8281218/Marc-Anthony-tickets-Fri-Feb-12-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672019",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-12-2027/event/107672019",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -226,7 +233,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-12-2027/event/107672019"
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcslva",
@@ -280,14 +288,21 @@
         "event_id": "8281219",
         "url": "https://www.ticketnetwork.com/en/p/8281219",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281219",
         "url": "https://www.ticketliquidator.com/tickets/8281219/Marc-Anthony-tickets-Sat-Feb-13-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672473",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-13-2027/event/107672473",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -307,7 +322,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-13-2027/event/107672473"
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcslvq",
@@ -361,14 +377,21 @@
         "event_id": "8281222",
         "url": "https://www.ticketnetwork.com/en/p/8281222",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281222",
         "url": "https://www.ticketliquidator.com/tickets/8281222/Marc-Anthony-tickets-Wed-Feb-17-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672472",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-17-2027/event/107672472",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -388,7 +411,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-17-2027/event/107672472"
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcglvg",
@@ -442,14 +466,21 @@
         "event_id": "8281225",
         "url": "https://www.ticketnetwork.com/en/p/8281225",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281225",
         "url": "https://www.ticketliquidator.com/tickets/8281225/Marc-Anthony-tickets-Fri-Feb-19-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672014",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-19-2027/event/107672014",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -469,7 +500,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-19-2027/event/107672014"
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcmlvw",
@@ -523,14 +555,21 @@
         "event_id": "8281226",
         "url": "https://www.ticketnetwork.com/en/p/8281226",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281226",
         "url": "https://www.ticketliquidator.com/tickets/8281226/Marc-Anthony-tickets-Sat-Feb-20-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672018",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-20-2027/event/107672018",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -550,7 +589,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-2-20-2027/event/107672018"
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcylvt",
@@ -604,14 +644,21 @@
         "event_id": "8281233",
         "url": "https://www.ticketnetwork.com/en/p/8281233",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281233",
         "url": "https://www.ticketliquidator.com/tickets/8281233/Marc-Anthony-tickets-Fri-Sep-10-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672013",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-10-2027/event/107672013",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -631,7 +678,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-10-2027/event/107672013"
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcdlga",
@@ -685,14 +733,21 @@
         "event_id": "8281234",
         "url": "https://www.ticketnetwork.com/en/p/8281234",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281234",
         "url": "https://www.ticketliquidator.com/tickets/8281234/Marc-Anthony-tickets-Sat-Sep-11-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672468",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-11-2027/event/107672468",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -712,7 +767,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-11-2027/event/107672468"
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmcwlg2",
@@ -766,14 +822,21 @@
         "event_id": "8281237",
         "url": "https://www.ticketnetwork.com/en/p/8281237",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281237",
         "url": "https://www.ticketliquidator.com/tickets/8281237/Marc-Anthony-tickets-Fri-Sep-17-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672471",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-17-2027/event/107672471",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -793,7 +856,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-17-2027/event/107672471"
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmctlgh",
@@ -847,14 +911,21 @@
         "event_id": "8281238",
         "url": "https://www.ticketnetwork.com/en/p/8281238",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281238",
         "url": "https://www.ticketliquidator.com/tickets/8281238/Marc-Anthony-tickets-Sat-Sep-18-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672463",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-18-2027/event/107672463",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -874,7 +945,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-18-2027/event/107672463"
   },
   {
     "id": "tm-marc-anthony-2027-las-vegas-1avjz_3gkmmv2gl",
@@ -928,14 +1000,21 @@
         "event_id": "8281239",
         "url": "https://www.ticketnetwork.com/en/p/8281239",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8281239",
         "url": "https://www.ticketliquidator.com/tickets/8281239/Marc-Anthony-tickets-Sun-Sep-19-2027-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672020",
+        "url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-19-2027/event/107672020",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -955,7 +1034,8 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Latin"
+    "genre": "Latin",
+    "stubhub_international_url": "https://www.stubhub.ie/marc-anthony-las-vegas-tickets-9-19-2027/event/107672020"
   },
   {
     "id": "tm-marc-anthony-2027-toronto-1avzz_fgkd8tkbf",
@@ -995,7 +1075,7 @@
         "event_id": 7833319,
         "url": "https://www.vividseats.com/marc-anthony-tickets-toronto-scotiabank-arena-4-1-2027/production/7833319",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1060,7 +1140,7 @@
         "event_id": 7833537,
         "url": "https://www.vividseats.com/marc-anthony-tickets-montreal-bell-centre-4-4-2027/production/7833537",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1074,14 +1154,14 @@
         "event_id": "8361889",
         "url": "https://www.ticketliquidator.com/tickets/8361889/Marc-Anthony-tickets-Sun-Apr-4-2027-Centre-Bell",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361889",
         "url": "https://www.ticketnetwork.com/en/p/8361889",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1141,7 +1221,7 @@
         "event_id": 7833135,
         "url": "https://www.vividseats.com/marc-anthony-tickets-brooklyn-barclays-center-4-8-2027/production/7833135",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1155,21 +1235,21 @@
         "event_id": "8361877",
         "url": "https://www.ticketliquidator.com/tickets/8361877/Marc-Anthony-tickets-Thu-Apr-8-2027-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361877",
         "url": "https://www.ticketnetwork.com/en/p/8361877",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680298",
         "url": "https://www.stubhub.ie/marc-anthony-brooklyn-tickets-4-8-2027/event/107680298",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1244,14 +1324,14 @@
         "event_id": "8361878",
         "url": "https://www.ticketliquidator.com/tickets/8361878/Marc-Anthony-tickets-Sat-Apr-10-2027-Santander-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361878",
         "url": "https://www.ticketnetwork.com/en/p/8361878",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1311,7 +1391,7 @@
         "event_id": 7833191,
         "url": "https://www.vividseats.com/marc-anthony-tickets-newark-prudential-center-4-15-2027/production/7833191",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1325,21 +1405,21 @@
         "event_id": "8361879",
         "url": "https://www.ticketliquidator.com/tickets/8361879/Marc-Anthony-tickets-Thu-Apr-15-2027-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361879",
         "url": "https://www.ticketnetwork.com/en/p/8361879",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680728",
         "url": "https://www.stubhub.ie/marc-anthony-newark-tickets-4-15-2027/event/107680728",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1400,7 +1480,7 @@
         "event_id": 7833243,
         "url": "https://www.vividseats.com/marc-anthony-tickets-chicago-united-center-4-17-2027/production/7833243",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1414,21 +1494,21 @@
         "event_id": "8361880",
         "url": "https://www.ticketliquidator.com/tickets/8361880/Marc-Anthony-tickets-Sat-Apr-17-2027-United-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361880",
         "url": "https://www.ticketnetwork.com/en/p/8361880",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680731",
         "url": "https://www.stubhub.ie/marc-anthony-chicago-tickets-4-17-2027/event/107680731",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1488,7 +1568,7 @@
         "event_id": 7833245,
         "url": "https://www.vividseats.com/marc-anthony-tickets-charlotte-spectrum-center-4-23-2027/production/7833245",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1502,21 +1582,21 @@
         "event_id": "8361881",
         "url": "https://www.ticketliquidator.com/tickets/8361881/Marc-Anthony-tickets-Fri-Apr-23-2027-Spectrum-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361881",
         "url": "https://www.ticketnetwork.com/en/p/8361881",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680309",
         "url": "https://www.stubhub.ie/marc-anthony-charlotte-tickets-4-23-2027/event/107680309",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1576,7 +1656,7 @@
         "event_id": 7833247,
         "url": "https://www.vividseats.com/marc-anthony-tickets-tampa-benchmark-international-arena-4-25-2027/production/7833247",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1590,21 +1670,21 @@
         "event_id": "8361882",
         "url": "https://www.ticketliquidator.com/tickets/8361882/Marc-Anthony-tickets-Sun-Apr-25-2027-Benchmark-International-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361882",
         "url": "https://www.ticketnetwork.com/en/p/8361882",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680757",
         "url": "https://www.stubhub.ie/marc-anthony-tampa-tickets-4-25-2027/event/107680757",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1678,21 +1758,21 @@
         "event_id": "8361884",
         "url": "https://www.ticketliquidator.com/tickets/8361884/Marc-Anthony-tickets-Thu-Apr-29-2027-Frost-Bank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361884",
         "url": "https://www.ticketnetwork.com/en/p/8361884",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680732",
         "url": "https://www.stubhub.ie/marc-anthony-san-antonio-tickets-4-29-2027/event/107680732",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1753,7 +1833,7 @@
         "event_id": 7833255,
         "url": "https://www.vividseats.com/marc-anthony-tickets-anaheim-honda-center-5-9-2027/production/7833255",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1767,21 +1847,21 @@
         "event_id": "8361885",
         "url": "https://www.ticketliquidator.com/tickets/8361885/Marc-Anthony-tickets-Sun-May-9-2027-Honda-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361885",
         "url": "https://www.ticketnetwork.com/en/p/8361885",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680735",
         "url": "https://www.stubhub.ie/marc-anthony-anaheim-tickets-5-9-2027/event/107680735",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1842,7 +1922,7 @@
         "event_id": 7833291,
         "url": "https://www.vividseats.com/marc-anthony-tickets-denver-ball-arena-5-13-2027/production/7833291",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1856,21 +1936,21 @@
         "event_id": "8361886",
         "url": "https://www.ticketliquidator.com/tickets/8361886/Marc-Anthony-tickets-Thu-May-13-2027-Ball-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361886",
         "url": "https://www.ticketnetwork.com/en/p/8361886",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680310",
         "url": "https://www.stubhub.ie/marc-anthony-denver-tickets-5-13-2027/event/107680310",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1931,7 +2011,7 @@
         "event_id": 7833293,
         "url": "https://www.vividseats.com/marc-anthony-tickets-san-francisco-chase-center-5-16-2027/production/7833293",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1945,21 +2025,21 @@
         "event_id": "8361887",
         "url": "https://www.ticketliquidator.com/tickets/8361887/Marc-Anthony-tickets-Sun-May-16-2027-Chase-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8361887",
         "url": "https://www.ticketnetwork.com/en/p/8361887",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107680738",
         "url": "https://www.stubhub.ie/marc-anthony-san-francisco-tickets-5-16-2027/event/107680738",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2036,14 +2116,14 @@
         "event_id": "8366923",
         "url": "https://www.ticketliquidator.com/tickets/8366923/Marc-Anthony-tickets-Fri-May-7-2027-Desert-Diamond-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8366923",
         "url": "https://www.ticketnetwork.com/en/p/8366923",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

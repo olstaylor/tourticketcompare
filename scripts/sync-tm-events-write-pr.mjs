@@ -73,6 +73,7 @@ import { deriveEventDuplicateGroups, EVENT_DUPLICATE_CLASS } from "../functions/
 import { reportStrandedPrValidation, earnRequiredCheck } from "./lib/required-check.mjs";
 import { checkAutopublish, heldComment, HELD_LABEL, LEDGER_LABEL } from "./lib/autopublish-guard.mjs";
 import { pushWithRetry } from "./push-automation-branch.mjs";
+import { mergeWithRetry } from "./lib/merge-retry.mjs";
 import {
   buildOutcomesArtifact,
   buildOutcomesMarkdown,
@@ -1001,7 +1002,7 @@ async function main() {
     }
 
     try {
-      await githubApi(`/repos/${owner}/${name}/pulls/${pr.number}/merge`, {
+      await mergeWithRetry(() => githubApi(`/repos/${owner}/${name}/pulls/${pr.number}/merge`, {
         method: "PUT",
         // `sha` binds the merge to the head the verdict was earned on: time
         // passes between `earnRequiredCheck` and here, and without it GitHub
@@ -1011,7 +1012,7 @@ async function main() {
         // branch was modified") and lands in the withheld-merge path below,
         // which is the right answer: the verdict no longer describes it.
         body: { merge_method: "squash", commit_title: `${prTitle} (#${pr.number})`, sha: pr.head.sha },
-      });
+      }));
       coverage.pr.merged = true;
       await fs.writeFile(coveragePath, `${JSON.stringify(coverage, null, 2)}\n`, "utf8");
       console.log(`Auto-merged PR #${pr.number} (squash).`);

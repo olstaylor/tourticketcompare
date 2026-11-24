@@ -149,7 +149,13 @@ export function renderIssue(tour, { watch, guideDraft = false } = {}) {
       ? `- [x] Tour guide draft: requested automatically from this detection ([Blog article draft](${REPO_URL}/actions/workflows/blog-draft.yml), mode \`live\`, artist \`${tour.slug}\`). It must still pass the blog lane's evidence and editorial checks, so it can be rejected for having nothing to add beyond the artist page; the run's \`blog-draft-report\` artifact says which.`
       : `- [ ] Tour guide draft, only if there is something to say that the artist page does not already (several nights in one venue, a multi-country route, an unusual on-sale or presale structure). It is a paid Claude run, so it waits for a click: [Run Blog article draft](${REPO_URL}/actions/workflows/blog-draft.yml) with mode \`live\` and artists \`${tour.slug}\`. Skip it if the answer is no.`,
     `- [ ] Date alerts: [Run Artist date alerts](${REPO_URL}/actions/workflows/date-alerts.yml), preview first, then send. Needs Resend set up.`,
-    "- [ ] One factual announcement post for socials (dates, cities, on-sale time, link; never presale codes). Ask Claude to draft it; nothing posts without approval of the exact text.",
+    "- [ ] One factual announcement post for socials. Draft below; nothing posts without the owner's approval of the exact text. Post only once the artist page loads with dates and sellers.",
+    "",
+    "  ```text",
+    `  #ad ${tour.name} has announced ${tour.dateCount} dates in ${tour.cityCount} ${tour.cityCount === 1 ? "city" : "cities"}, starting ${dayLabel(tour.firstDate)}. Every date, with the ticket sellers we list, is on one page: ${SITE}/artists/${tour.slug}?utm_source=x&utm_medium=social&utm_campaign=tourticketcomp`,
+    "  ```",
+    "",
+    "  Draft rules: no prices, presale codes, savings or \"selling fast\" wording; add an on-sale time only as shown on the artist page.",
     "- [ ] Event-page batch decision: only dates with real price history are worth widening to. A new staged batch in a reviewed PR; existing cohorts stay frozen.",
     "",
     "Close this issue when the list is done."

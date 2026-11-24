@@ -29,6 +29,7 @@ import {
 import { checkAutopublish, heldComment, HELD_LABEL, LEDGER_LABEL } from "./lib/autopublish-guard.mjs";
 import { checkAuditMergeRevision, mergeAuditedPr, rebuildAuditHead } from "./check-audit-revision.mjs";
 import { withholdRun } from "./lib/withhold-run.mjs";
+import { mergeWithRetry } from "./lib/merge-retry.mjs";
 
 const token = process.env.GITHUB_TOKEN;
 const repo = process.env.GITHUB_REPOSITORY;
@@ -251,7 +252,7 @@ if (autoMerge) {
   try {
     if (auditedCommit !== undefined) {
       await mergeAuditedPr({ audited: auditedCommit, repo, head: pr.head.sha, number: pr.number, request: gh });
-    } else await gh("PUT", `/repos/${repo}/pulls/${pr.number}/merge`, {
+    } else await mergeWithRetry(() => gh("PUT", `/repos/${repo}/pulls/${pr.number}/merge`, {
       merge_method: "squash",
       commit_title: `${title} (#${pr.number})`,
       // Bind the merge to the head the verdict was earned on. Time passes
@@ -263,7 +264,7 @@ if (autoMerge) {
       // withheld-merge path below — the right answer: the verdict no longer
       // describes the branch.
       sha: pr.head.sha,
-    });
+    }));
     console.log(`Auto-merged PR #${pr.number} (${auditedCommit !== undefined ? "fast-forward, audited base pinned" : "squash"}).`);
     await gh("DELETE", `/repos/${repo}/git/refs/heads/${branch}`).catch((err) =>
       console.warn(`Could not delete merged branch ${branch}: ${err.message}`)

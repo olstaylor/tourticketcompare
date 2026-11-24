@@ -352,13 +352,29 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271385",
+        "url": "https://www.ticketnetwork.com/en/p/8271385",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271385",
+        "url": "https://www.ticketliquidator.com/tickets/8271385/Death-Cab-for-Cutie-tickets-Tue-Jan-19-2027-Neal-S-Blaisdell-Center-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_3DQR_0d",
     "timezone": "Pacific/Honolulu",
     "status": "on-sale",
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271385",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271385/Death-Cab-for-Cutie-tickets-Tue-Jan-19-2027-Neal-S-Blaisdell-Center-Arena"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-nashville-g5viz_3bvgq-a",
@@ -412,14 +428,14 @@
         "event_id": "8271386",
         "url": "https://www.ticketnetwork.com/en/p/8271386",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271386",
         "url": "https://www.ticketliquidator.com/tickets/8271386/Death-Cab-for-Cutie-tickets-Thu-Mar-11-2027-The-Truth",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -493,21 +509,21 @@
         "event_id": "8271387",
         "url": "https://www.ticketnetwork.com/en/p/8271387",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107669558",
         "url": "https://www.stubhub.ie/death-cab-for-cutie-knoxville-tickets-3-12-2027/event/107669558",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271387",
         "url": "https://www.ticketliquidator.com/tickets/8271387/Death-Cab-for-Cutie-tickets-Fri-Mar-12-2027-Tennessee-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -551,7 +567,7 @@
         "event_id": 18603788,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/miami-beach-florida-the-fillmore-miami-beach-at-jackie-gleason-theater-2027-03-18-8-pm/concert/18603788",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -572,21 +588,21 @@
         "event_id": "8271388",
         "url": "https://www.ticketnetwork.com/en/p/8271388",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271388",
         "url": "https://www.ticketliquidator.com/tickets/8271388/Death-Cab-for-Cutie-tickets-Thu-Mar-18-2027-The-Fillmore-Miami-Beach-At-Jackie-Gleason-Theater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107669542",
         "url": "https://www.stubhub.ie/death-cab-for-cutie-miami-beach-tickets-3-18-2027/event/107669542",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -633,7 +649,7 @@
         "event_id": 18603759,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/orlando-florida-hard-rock-live-orlando-2027-03-20-8-pm/concert/18603759",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -654,21 +670,21 @@
         "event_id": "8271389",
         "url": "https://www.ticketnetwork.com/en/p/8271389",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271389",
         "url": "https://www.ticketliquidator.com/tickets/8271389/Death-Cab-for-Cutie-tickets-Sat-Mar-20-2027-Hard-Rock-Live-Orlando",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107669541",
         "url": "https://www.stubhub.ie/death-cab-for-cutie-orlando-tickets-3-20-2027/event/107669541",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -712,7 +728,7 @@
         "event_id": 18604033,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/houston-texas-713-music-hall-2027-03-22-8-pm/concert/18604033",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -733,21 +749,21 @@
         "event_id": "8271390",
         "url": "https://www.ticketnetwork.com/en/p/8271390",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107669472",
         "url": "https://www.stubhub.ie/death-cab-for-cutie-houston-tickets-3-22-2027/event/107669472",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271390",
         "url": "https://www.ticketliquidator.com/tickets/8271390/Death-Cab-for-Cutie-tickets-Mon-Mar-22-2027-713-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -794,7 +810,7 @@
         "event_id": 18604164,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/pittsburgh-pennsylvania-citizens-live-at-the-wylie-2027-03-30-8-pm/concert/18604164",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -815,14 +831,14 @@
         "event_id": "8271391",
         "url": "https://www.ticketnetwork.com/en/p/8271391",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271391",
         "url": "https://www.ticketliquidator.com/tickets/8271391/Death-Cab-for-Cutie-tickets-Tue-Mar-30-2027-Citizens-Live-at-The-Wylie",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1003,21 +1019,21 @@
         "event_id": "8271400",
         "url": "https://www.ticketnetwork.com/en/p/8271400",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668756",
         "url": "https://www.stubhub.ie/death-cab-for-cutie-tickets-montreal-mtelus-4-5-2027/event/107668756",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271400",
         "url": "https://www.ticketliquidator.com/tickets/8271400/Death-Cab-for-Cutie-tickets-Mon-Apr-5-2027-MTelus",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1085,21 +1101,21 @@
         "event_id": "8271392",
         "url": "https://www.ticketnetwork.com/en/p/8271392",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668654",
         "url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-7-2027/event/107668654",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271392",
         "url": "https://www.ticketliquidator.com/tickets/8271392/Death-Cab-for-Cutie-tickets-Wed-Apr-7-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1167,21 +1183,21 @@
         "event_id": "8271393",
         "url": "https://www.ticketnetwork.com/en/p/8271393",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668655",
         "url": "https://www.stubhub.ie/death-cab-for-cutie-boston-tickets-4-8-2027/event/107668655",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271393",
         "url": "https://www.ticketliquidator.com/tickets/8271393/Death-Cab-for-Cutie-tickets-Thu-Apr-8-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1249,14 +1265,14 @@
         "event_id": "8271394",
         "url": "https://www.ticketnetwork.com/en/p/8271394",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271394",
         "url": "https://www.ticketliquidator.com/tickets/8271394/Death-Cab-for-Cutie-tickets-Fri-Apr-9-2027-Mohegan-Sun-Arena-CT",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1320,14 +1336,14 @@
         "event_id": "8271395",
         "url": "https://www.ticketnetwork.com/en/p/8271395",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271395",
         "url": "https://www.ticketliquidator.com/tickets/8271395/Death-Cab-for-Cutie-tickets-Sun-Apr-11-2027-State-Theatre-ME",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1390,21 +1406,21 @@
         "event_id": "8271396",
         "url": "https://www.ticketnetwork.com/en/p/8271396",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668766",
         "url": "https://www.stubhub.ie/death-cab-for-cutie-new-york-tickets-4-13-2027/event/107668766",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271396",
         "url": "https://www.ticketliquidator.com/tickets/8271396/Death-Cab-for-Cutie-tickets-Tue-Apr-13-2027-Radio-City-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1457,7 +1473,7 @@
         "event_id": 18603768,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/asheville-north-carolina-harrah-s-cherokee-center-asheville-2027-04-16-8-pm/concert/18603768",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1478,14 +1494,14 @@
         "event_id": "8271397",
         "url": "https://www.ticketnetwork.com/en/p/8271397",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271397",
         "url": "https://www.ticketliquidator.com/tickets/8271397/Death-Cab-for-Cutie-tickets-Fri-Apr-16-2027-ExploreAshevillecom-Arena-at-Harrahs-Cherokee-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1551,14 +1567,14 @@
         "event_id": "8271401",
         "url": "https://www.ticketnetwork.com/en/p/8271401",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271401",
         "url": "https://www.ticketliquidator.com/tickets/8271401/Death-Cab-for-Cutie-tickets-Sun-Mar-14-2027-The-Eastern-GA",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1621,14 +1637,14 @@
         "event_id": "8271402",
         "url": "https://www.ticketnetwork.com/en/p/8271402",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271402",
         "url": "https://www.ticketliquidator.com/tickets/8271402/Death-Cab-for-Cutie-tickets-Mon-Mar-15-2027-The-Eastern-GA",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1686,12 +1702,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8271403",
+        "url": "https://www.ticketnetwork.com/en/p/8271403",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8271403",
+        "url": "https://www.ticketliquidator.com/tickets/8271403/Death-Cab-for-Cutie-tickets-Wed-Mar-17-2027-St-Augustine-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAvgPy",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8271403",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8271403/Death-Cab-for-Cutie-tickets-Wed-Mar-17-2027-St-Augustine-Amphitheatre"
   },
   {
     "id": "tm-death-cab-for-cutie-2027-new-orleans-z7r9jz1aavuv8",
@@ -1745,14 +1777,14 @@
         "event_id": "8271406",
         "url": "https://www.ticketnetwork.com/en/p/8271406",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271406",
         "url": "https://www.ticketliquidator.com/tickets/8271406/Death-Cab-for-Cutie-tickets-Fri-Mar-26-2027-Saenger-Theatre-New-Orleans",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1815,14 +1847,14 @@
         "event_id": "8271409",
         "url": "https://www.ticketnetwork.com/en/p/8271409",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271409",
         "url": "https://www.ticketliquidator.com/tickets/8271409/Death-Cab-for-Cutie-tickets-Thu-Apr-1-2027-Masonic-Temple-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1885,14 +1917,14 @@
         "event_id": "8271408",
         "url": "https://www.ticketnetwork.com/en/p/8271408",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271408",
         "url": "https://www.ticketliquidator.com/tickets/8271408/Death-Cab-for-Cutie-tickets-Sat-Mar-27-2027-The-Orion-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1955,14 +1987,14 @@
         "event_id": "8271405",
         "url": "https://www.ticketnetwork.com/en/p/8271405",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271405",
         "url": "https://www.ticketliquidator.com/tickets/8271405/Death-Cab-for-Cutie-tickets-Wed-Mar-24-2027-The-Bomb-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2004,7 +2036,7 @@
         "event_id": 18715562,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/columbus-ohio-wexner-center-mershon-auditorium-2027-03-29-7-30-pm/concert/18715562",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2025,14 +2057,14 @@
         "event_id": "8338611",
         "url": "https://www.ticketliquidator.com/tickets/8338611/Death-Cab-for-Cutie-tickets-Mon-Mar-29-2027-Mershon-Auditorium-At-Wexner-Center-For-The-Arts",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8338611",
         "url": "https://www.ticketnetwork.com/en/p/8338611",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2099,14 +2131,14 @@
         "event_id": "8338610",
         "url": "https://www.ticketliquidator.com/tickets/8338610/Death-Cab-for-Cutie-tickets-Wed-Apr-14-2027-Ting-Pavilion",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8338610",
         "url": "https://www.ticketnetwork.com/en/p/8338610",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2172,14 +2204,14 @@
         "event_id": "8341943",
         "url": "https://www.ticketnetwork.com/en/p/8341943",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8341943",
         "url": "https://www.ticketliquidator.com/tickets/8341943/Death-Cab-for-Cutie-tickets-Fri-Jul-2-2027-Spruce-Meadows",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2242,14 +2274,14 @@
         "event_id": "8338609",
         "url": "https://www.ticketnetwork.com/en/p/8338609",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8338609",
         "url": "https://www.ticketliquidator.com/tickets/8338609/Death-Cab-for-Cutie-tickets-Thu-Jul-8-2027-Red-Rocks-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2312,14 +2344,14 @@
         "event_id": "8353155",
         "url": "https://www.ticketnetwork.com/en/p/8353155",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8353155",
         "url": "https://www.ticketliquidator.com/tickets/8353155/Death-Cab-for-Cutie-tickets-Fri-Jun-25-2027-BMO-Pavilion",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2372,7 +2404,7 @@
         "event_id": 7768721,
         "url": "https://www.vividseats.com/death-cab-for-cutie-tickets-central-east-austin-united-heritage-hall-3-23-2027/production/7768721",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2386,14 +2418,14 @@
         "event_id": "8346802",
         "url": "https://www.ticketnetwork.com/en/p/8346802",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8346802",
         "url": "https://www.ticketliquidator.com/tickets/8346802/Death-Cab-for-Cutie-tickets-Tue-Mar-23-2027-United-Heritage-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2435,7 +2467,7 @@
         "event_id": 18755654,
         "url": "https://seatgeek.com/death-cab-for-cutie-tickets/harrisburg-pennsylvania-riverfront-park-pa-2027-08-06-7-pm/concert/18755654",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2456,14 +2488,14 @@
         "event_id": "8366152",
         "url": "https://www.ticketnetwork.com/en/p/8366152",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8366152",
         "url": "https://www.ticketliquidator.com/tickets/8366152/Death-Cab-for-Cutie-tickets-Fri-Aug-6-2027-Riverfront-Park-Harrisburg",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

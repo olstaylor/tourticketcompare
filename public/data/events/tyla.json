@@ -1020,30 +1020,30 @@
         "event_id": "8164826",
         "url": "https://www.ticketnetwork.com/en/p/8164826",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8164826",
-        "url": "https://www.ticketliquidator.com/tickets/8164826/Tyla-tickets-Sun-Nov-22-2026-Byline-Bank-Aragon-Ballroom",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107460124",
-        "url": "https://www.stubhub.ie/tyla-chicago-tickets-11-22-2026/event/107460124",
-        "verified": true,
-        "last_verified_at": "2026-11-21",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_2o77qjU",
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164826",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164826/Tyla-tickets-Sun-Nov-22-2026-Byline-Bank-Aragon-Ballroom",
-    "stubhub_international_url": "https://www.stubhub.ie/tyla-chicago-tickets-11-22-2026/event/107460124",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1081,7 +1081,7 @@
         "event_id": 18404277,
         "url": "https://seatgeek.com/tyla-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2026-11-25-8-pm/concert/18404277",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1102,21 +1102,21 @@
         "event_id": "8164827",
         "url": "https://www.ticketnetwork.com/en/p/8164827",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164827",
         "url": "https://www.ticketliquidator.com/tickets/8164827/Tyla-tickets-Wed-Nov-25-2026-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107460125",
         "url": "https://www.stubhub.ie/tyla-boston-tickets-11-25-2026/event/107460125",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1163,7 +1163,7 @@
         "event_id": 18404308,
         "url": "https://seatgeek.com/tyla-tickets/toronto-canada-coca-cola-coliseum-2026-11-26-8-pm/concert/18404308",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1224,7 +1224,7 @@
         "event_id": 18404284,
         "url": "https://seatgeek.com/tyla-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-28-8-pm/concert/18404284",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1245,21 +1245,21 @@
         "event_id": "8164811",
         "url": "https://www.ticketnetwork.com/en/p/8164811",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164811",
         "url": "https://www.ticketliquidator.com/tickets/8164811/Tyla-tickets-Sat-Nov-28-2026-Brooklyn-Paramount",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107460126",
         "url": "https://www.stubhub.ie/tyla-brooklyn-tickets-11-28-2026/event/107460126",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1290,7 +1290,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-brooklyn-brooklyn-paramount-11-29-2026--concerts-pop/production/7367910",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-brooklyn-new-york-11-29-2026/event/000064F8AC6B6CA0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1305,7 +1305,7 @@
         "event_id": 18414938,
         "url": "https://seatgeek.com/tyla-tickets/brooklyn-new-york-brooklyn-paramount-2026-11-29-9-pm/concert/18414938",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1326,21 +1326,21 @@
         "event_id": "8228565",
         "url": "https://www.ticketnetwork.com/en/p/8228565",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8228565",
         "url": "https://www.ticketliquidator.com/tickets/8228565/Tyla-tickets-Sun-Nov-29-2026-Brooklyn-Paramount",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107524086",
         "url": "https://www.stubhub.ie/tyla-brooklyn-tickets-11-29-2026/event/107524086",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1350,13 +1350,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8228565",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8228565/Tyla-tickets-Sun-Nov-29-2026-Brooklyn-Paramount",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-brooklyn-tickets-11-29-2026/event/107524086",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T16:30:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1393,7 +1386,7 @@
         "event_id": 18404285,
         "url": "https://seatgeek.com/tyla-tickets/washington-district-of-columbia-the-anthem-dc-2026-12-02-7-30-pm/concert/18404285",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1414,21 +1407,21 @@
         "event_id": "8164835",
         "url": "https://www.ticketnetwork.com/en/p/8164835",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164835",
         "url": "https://www.ticketliquidator.com/tickets/8164835/Tyla-tickets-Wed-Dec-2-2026-The-Anthem-DC",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107460129",
         "url": "https://www.stubhub.ie/tyla-washington-tickets-12-2-2026/event/107460129",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1479,7 +1472,7 @@
         "event_id": 18404289,
         "url": "https://seatgeek.com/tyla-tickets/tampa-florida-yuengling-center-2026-12-05-8-pm/concert/18404289",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1500,21 +1493,21 @@
         "event_id": "8164840",
         "url": "https://www.ticketnetwork.com/en/p/8164840",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164840",
         "url": "https://www.ticketliquidator.com/tickets/8164840/Tyla-tickets-Sat-Dec-5-2026-The-Yuengling-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107460130",
         "url": "https://www.stubhub.ie/tyla-tampa-tickets-12-5-2026/event/107460130",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1568,7 +1561,7 @@
         "event_id": 18404290,
         "url": "https://seatgeek.com/tyla-tickets/atlanta-georgia-coca-cola-roxy-theatre-2026-12-06-8-pm/concert/18404290",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1589,21 +1582,21 @@
         "event_id": "8164845",
         "url": "https://www.ticketnetwork.com/en/p/8164845",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164845",
         "url": "https://www.ticketliquidator.com/tickets/8164845/Tyla-tickets-Sun-Dec-6-2026-Coca-Cola-Roxy",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107460138",
         "url": "https://www.stubhub.ie/tyla-atlanta-tickets-12-6-2026/event/107460138",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1657,7 +1650,7 @@
         "event_id": 18404288,
         "url": "https://seatgeek.com/tyla-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2026-12-09-8-pm/concert/18404288",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1678,21 +1671,21 @@
         "event_id": "8164850",
         "url": "https://www.ticketnetwork.com/en/p/8164850",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164850",
         "url": "https://www.ticketliquidator.com/tickets/8164850/Tyla-tickets-Wed-Dec-9-2026-The-Pavilion-at-Toyota-Music-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107460139",
         "url": "https://www.stubhub.ie/tyla-irving-tickets-12-9-2026/event/107460139",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1745,7 +1738,7 @@
         "event_id": 18404291,
         "url": "https://seatgeek.com/tyla-tickets/houston-texas-713-music-hall-2026-12-10-8-pm/concert/18404291",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1766,21 +1759,21 @@
         "event_id": "8164851",
         "url": "https://www.ticketnetwork.com/en/p/8164851",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164851",
         "url": "https://www.ticketliquidator.com/tickets/8164851/Tyla-tickets-Thu-Dec-10-2026-713-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107463078",
         "url": "https://www.stubhub.ie/tyla-houston-tickets-12-10-2026/event/107463078",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1833,7 +1826,7 @@
         "event_id": 18404296,
         "url": "https://seatgeek.com/tyla-tickets/austin-texas-moody-center-atx-2026-12-11-8-pm/concert/18404296",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1854,21 +1847,21 @@
         "event_id": "8164672",
         "url": "https://www.ticketnetwork.com/en/p/8164672",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164672",
         "url": "https://www.ticketliquidator.com/tickets/8164672/Tyla-tickets-Fri-Dec-11-2026-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107460140",
         "url": "https://www.stubhub.ie/tyla-austin-tickets-12-11-2026/event/107460140",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1912,7 +1905,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-phoenix-arizona-financial-theatre-12-14-2026--concerts-pop/production/7347462",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-phoenix-arizona-12-14-2026/event/190064F7DC208863",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1927,7 +1920,7 @@
         "event_id": 18404297,
         "url": "https://seatgeek.com/tyla-tickets/phoenix-arizona-arizona-financial-theatre-2026-12-14-8-pm/concert/18404297",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1948,21 +1941,21 @@
         "event_id": "8164852",
         "url": "https://www.ticketnetwork.com/en/p/8164852",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164852",
         "url": "https://www.ticketliquidator.com/tickets/8164852/Tyla-tickets-Mon-Dec-14-2026-Arizona-Financial-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107463079",
         "url": "https://www.stubhub.ie/tyla-phoenix-tickets-12-14-2026/event/107463079",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1980,7 +1973,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       }
     ],
@@ -2021,7 +2014,7 @@
         "event_id": 18404300,
         "url": "https://seatgeek.com/tyla-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-15-8-pm/concert/18404300",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2042,14 +2035,14 @@
         "event_id": "8164857",
         "url": "https://www.ticketnetwork.com/en/p/8164857",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164857",
         "url": "https://www.ticketliquidator.com/tickets/8164857/Tyla-tickets-Tue-Dec-15-2026-Viejas-Arena-At-Aztec-Bowl",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2102,7 +2095,7 @@
         "event_id": 18404301,
         "url": "https://seatgeek.com/tyla-tickets/inglewood-california-youtube-theater-2026-12-16-8-pm/concert/18404301",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2123,21 +2116,21 @@
         "event_id": "8164858",
         "url": "https://www.ticketnetwork.com/en/p/8164858",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164858",
         "url": "https://www.ticketliquidator.com/tickets/8164858/Tyla-tickets-Wed-Dec-16-2026-YouTube-Theater-at-Hollywood-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107460141",
         "url": "https://www.stubhub.ie/tyla-inglewood-tickets-12-16-2026/event/107460141",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2212,14 +2205,21 @@
         "event_id": "8164859",
         "url": "https://www.ticketnetwork.com/en/p/8164859",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8164859",
         "url": "https://www.ticketliquidator.com/tickets/8164859/Tyla-tickets-Sat-Dec-19-2026-BleauLive-Theater-At-Fontainebleau-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107460142",
+        "url": "https://www.stubhub.ie/tyla-las-vegas-tickets-12-19-2026/event/107460142",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2239,7 +2239,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/tyla-las-vegas-tickets-12-19-2026/event/107460142"
   },
   {
     "id": "tm-tyla-2026-oslo-z698xzb_z16v-8-pb8",
@@ -2360,6 +2361,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8324825",
+        "url": "https://www.ticketnetwork.com/en/p/8324825",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324825",
+        "url": "https://www.ticketliquidator.com/tickets/8324825/Tyla-tickets-Fri-Jan-8-2027-SunBet-Arena-At-Time-Square-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ05Z16eZa8efw",
@@ -2368,7 +2383,9 @@
     "organizer_names": [
       "Showtime Management"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324825",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324825/Tyla-tickets-Fri-Jan-8-2027-SunBet-Arena-At-Time-Square-Casino"
   },
   {
     "id": "tm-tyla-2027-pretoria-z698xz05z1kqkoyov",
@@ -2417,6 +2434,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8324827",
+        "url": "https://www.ticketnetwork.com/en/p/8324827",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8324827",
+        "url": "https://www.ticketliquidator.com/tickets/8324827/Tyla-tickets-Sat-Jan-9-2027-SunBet-Arena-At-Time-Square-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ05Z1kqkoYov",
@@ -2425,6 +2456,8 @@
     "organizer_names": [
       "Showtime Management"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8324827",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8324827/Tyla-tickets-Sat-Jan-9-2027-SunBet-Arena-At-Time-Square-Casino"
   }
 ]

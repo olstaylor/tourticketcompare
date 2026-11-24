@@ -20,6 +20,19 @@ export const TOURS_HUB_YEAR = 2027;
 export const TOURS_HUB_PATH = `/tours/${TOURS_HUB_YEAR}`;
 export const TOURS_HUB_INDEXABLE = true;
 
+// Venue type for the hub's "Stadiums / Arenas" filter. We hold no venue
+// capacity data, so this reads only the venue's own name ("Lucas Oil Stadium",
+// "O2 Arena"). A venue whose name says neither is simply not counted under
+// either filter; it still shows under "All venues". Nothing is guessed.
+const STADIUM_NAME = /\b(stadium|stadion|stadio|estadio|stade)\b/i;
+const ARENA_NAME = /\barena\b/i;
+export function venueTypeFromName(venue) {
+  const name = String(venue ?? "");
+  if (STADIUM_NAME.test(name)) return "stadium";
+  if (ARENA_NAME.test(name)) return "arena";
+  return "";
+}
+
 function trimmed(value) {
   return String(value ?? "").trim();
 }
@@ -61,7 +74,21 @@ export function deriveToursHub(events, catalog, year = TOURS_HUB_YEAR, now = Dat
     // same aliasing city pages use).
     const countries = [...new Set(rows.map((row) => normalizeCountry(row.event.country)).filter(Boolean))].sort();
     const cities = new Set(rows.map((row) => `${trimmed(row.event.city).toLowerCase()}|${normalizeCountry(row.event.country)}`));
+    const byCountry = {};
+    for (const country of countries) {
+      const inCountry = rows.filter((row) => normalizeCountry(row.event.country) === country);
+      const monthsIn = inCountry.map((row) => row.month);
+      byCountry[country] = {
+        showCount: inCountry.length,
+        cityCount: new Set(inCountry.map((row) => trimmed(row.event.city).toLowerCase())).size,
+        firstMonth: Math.min(...monthsIn),
+        lastMonth: Math.max(...monthsIn),
+        stadiumCount: inCountry.filter((row) => venueTypeFromName(row.event.venue) === "stadium").length,
+        arenaCount: inCountry.filter((row) => venueTypeFromName(row.event.venue) === "arena").length
+      };
+    }
     return {
+      byCountry,
       artistSlug: slug,
       artistName: trimmed(catalogArtists.get(slug).name) || trimmed(rows[0].event.artist_name) || slug,
       path: `/artists/${slug}`,
@@ -81,6 +108,15 @@ export function deriveToursHub(events, catalog, year = TOURS_HUB_YEAR, now = Dat
     artistCount: artists.length,
     showCount: artists.reduce((sum, artist) => sum + artist.showCount, 0),
     countryCount: new Set(artists.flatMap((artist) => artist.countries)).size,
+    // Countries with at least 3 artists, for the "near you" chips. Most artists first.
+    countryChoices: (() => {
+      const tally = new Map();
+      for (const artist of artists) for (const c of artist.countries) tally.set(c, (tally.get(c) || 0) + 1);
+      return [...tally.entries()]
+        .filter(([, n]) => n >= 3)
+        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+        .map(([country, artistCount]) => ({ country, artistCount }));
+    })(),
     indexable: TOURS_HUB_INDEXABLE && artists.length > 0
   };
 }

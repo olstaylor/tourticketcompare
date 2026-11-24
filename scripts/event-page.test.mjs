@@ -279,7 +279,7 @@ const ARTIST_CITY = `/artists/${ARTIST.slug}/tickets/${CITY_SLUG}`;
   assert(/About prices, seller order/.test(page.html), "the money disclosure sits with the buttons");
   // Answer-first lead: who, where, when and the linked sites, directly under the title, said once.
   const lead = text(meta(page.html, /<\/h1>(<p class="lead">[\s\S]*?<\/p>)/));
-  assert(/Listed start time: 8:00 PM local time\. Explore \d+ ticket sites below/.test(lead), `the lead states local time and the next action (got ${lead})`);
+  assert(/Listed start time: 8:00 PM local time\./.test(lead), `the lead states local time (got ${lead})`);
   assert(!/plays Fixture Arena/.test(lead), "the lead does not repeat the title's venue and date");
   // Revenue-per-visitor test 1 (2026-10-23): the cheapest listed price as a
   // button right under the lead, above the card, with its own cta_location.
@@ -675,10 +675,9 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   const page = await render(pathOf(PILOT), list);
   assert(page.status === 200, "a pilot date renders");
   const body = text(mainOf(page.html));
-  assert(body.includes("How listed prices for this date have ranged"), "a pilot date states how its listed prices have ranged");
-  assert(body.includes("Vivid Seats: USD 150 to USD 210 across 40 days tracked between Jul 1, 2026 and Aug 9, 2026."), "each site's range names the site, the currency and the days it covers");
+  assert(body.includes("Listed price range since tracking began"), "a pilot date states how its listed prices have ranged");
+  assert(body.includes("Vivid Seats: USD 150 to USD 210 · 40 days"), "each site's range names the site, the currency and the days it covers");
   assert(!/TicketNetwork: USD 190 to/.test(body), "a site with fewer than 7 tracked days has no range");
-  assert(body.includes("Right now the sites checked list this date between USD 182 on Vivid Seats and USD 190 on TicketNetwork, a gap of USD 8."), "the spread names both sites and the gap");
   assert(body.includes("not final totals"), "the range is qualified as listed prices, not totals");
   assert(body.includes("Getting in at Scotiabank Arena"), "a pilot date at a sourced venue shows the venue's door rules");
   assert(body.includes("Bag check costs $25"), "the venue facts carry the venue's own figures");
@@ -688,29 +687,20 @@ const detailsLinkOf = (cardHtml) => cardHtml.match(/<a class="text-link show-det
   assert(!/href="\/events\//.test(mainOf(page.html).replace(/<link[^>]*>/g, "")), "the pilot sections add no event-to-event links");
 
   const noHistory = await render(pathOf(PILOT_NO_HISTORY), list);
-  assert(!text(mainOf(noHistory.html)).includes("have ranged"), "a pilot date with no daily rows states no range");
+  assert(!text(mainOf(noHistory.html)).includes("Listed price range"), "a pilot date with no daily rows states no range");
   assert(text(mainOf(noHistory.html)).includes("Getting in at Kia Center"), "its venue facts still render");
 
   const notPilot = await render(pathOf(NON_PILOT_AT_PILOT_VENUE), list);
   const notPilotBody = text(mainOf(notPilot.html));
-  assert(!notPilotBody.includes("have ranged") && !notPilotBody.includes("Getting in at"), "a date outside the pilot gets neither section, even at a sourced venue");
+  assert(!notPilotBody.includes("Listed price range"), "a date with no daily rows states no range");
+  assert(notPilotBody.includes("Getting in at Scotiabank Arena"), "every live date at a sourced venue shows the venue's door rules, not only the original pilot");
 
   const ordinary = await render(pathOf(PRICED));
-  assert(!text(mainOf(ordinary.html)).includes("have ranged"), "an ordinary event page is unchanged");
+  assert(!text(mainOf(ordinary.html)).includes("Listed price range"), "an ordinary event page is unchanged");
 }
 
 {
-  // The pilot is fixed data: each id is a real event at a venue with sourced facts.
-  const { RICHER_EVENT_PILOT_IDS } = await load("functions/_event-price-range.js");
-  const { venueFactsFor, VENUE_FACTS } = await load("functions/_venue-facts.js");
-  const { venueSlug } = await load("functions/_venues.js");
-  const realEvents = JSON.parse(await read("public/data/events.json"));
-  const realList = Array.isArray(realEvents) ? realEvents : realEvents.events;
-  for (const id of RICHER_EVENT_PILOT_IDS) {
-    const event = realList.find((candidate) => candidate.id === id);
-    assert(Boolean(event), `pilot event ${id} exists in events.json`);
-    assert(Boolean(venueFactsFor(venueSlug(event.venue, event.city))), `pilot event ${id} is at a venue with sourced facts`);
-  }
+  const { VENUE_FACTS } = await load("functions/_venue-facts.js");
   for (const [slug, record] of Object.entries(VENUE_FACTS)) {
     assert(/^https:\/\//.test(record.sourceUrl) && /^\d{4}-\d{2}-\d{2}$/.test(record.checked) && record.facts.length > 0, `venue facts ${slug} carry a source, a check date and facts`);
   }

@@ -465,7 +465,7 @@
         "event_id": "107681044",
         "url": "https://www.stubhub.ie/foo-fighters-tickets-helsinki-olympic-stadium-12-6-2027/event/107681044",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -587,21 +587,21 @@
         "event_id": "8372601",
         "url": "https://www.ticketliquidator.com/tickets/8372601/Foo-Fighters-tickets-Thu-Sep-9-2027-Wembley-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8372601",
         "url": "https://www.ticketnetwork.com/en/p/8372601",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681039",
         "url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-9-9-2027/event/107681039",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -669,21 +669,21 @@
         "event_id": "8372602",
         "url": "https://www.ticketliquidator.com/tickets/8372602/Foo-Fighters-tickets-Sat-Sep-11-2027-Wembley-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8372602",
         "url": "https://www.ticketnetwork.com/en/p/8372602",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107681040",
         "url": "https://www.stubhub.ie/foo-fighters-tickets-london-wembley-stadium-11-9-2027/event/107681040",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -751,14 +751,21 @@
         "event_id": "8372603",
         "url": "https://www.ticketliquidator.com/tickets/8372603/Foo-Fighters-tickets-Tue-Sep-14-2027-Darlington-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8372603",
         "url": "https://www.ticketnetwork.com/en/p/8372603",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681041",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-darlington-darlington-northern-echo-arena-14-9-2027/event/107681041",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -771,7 +778,8 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372603/Foo-Fighters-tickets-Tue-Sep-14-2027-Darlington-Arena",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372603"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372603",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-darlington-darlington-northern-echo-arena-14-9-2027/event/107681041"
   },
   {
     "id": "tm-foo-fighters-2027-edinburgh-1auzkfegkecn0w6",
@@ -811,7 +819,7 @@
         "event_id": 7879775,
         "url": "https://www.vividseats.com/foo-fighters-tickets-edinburgh-scottish-gas-murrayfield-stadium-9-16-2027--concerts-rock/production/7879775",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -820,6 +828,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8372604",
+        "url": "https://www.ticketnetwork.com/en/p/8372604",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8372604",
+        "url": "https://www.ticketliquidator.com/tickets/8372604/Foo-Fighters-tickets-Thu-Sep-16-2027-Murrayfield-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681042",
+        "url": "https://www.stubhub.ie/foo-fighters-tickets-edinburgh-murrayfield-stadium-16-9-2027/event/107681042",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZkfEGkecN0W6",
@@ -831,7 +860,10 @@
       "GIGS IN SCOTLAND"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372604",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372604/Foo-Fighters-tickets-Thu-Sep-16-2027-Murrayfield-Stadium",
+    "stubhub_international_url": "https://www.stubhub.ie/foo-fighters-tickets-edinburgh-murrayfield-stadium-16-9-2027/event/107681042"
   },
   {
     "id": "tm-foo-fighters-2027-dublin-1avoz_3gktbqeds",

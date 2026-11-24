@@ -415,7 +415,7 @@ export function artistFaqEntries(artist, status, options = {}) {
         ? status.showsWithCta > 0
           ? ` ${status.showsWithCta} of them currently have a checked ticket link.`
           : ` None of them have a checked ticket link yet.`
-        : ` Each one has at least one checked ticket link.`;
+        : "";
     entries.push([
       `How many ${name} dates are listed on this page?`,
       `${plural(status.showCount, "upcoming date")}${spread.length ? `, across ${joinList(spread)}` : ""}.${range}${coverage} The list changes as dates pass and as new ones are verified.`

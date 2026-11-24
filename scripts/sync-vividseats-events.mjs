@@ -40,8 +40,11 @@
 //   - Dry-run by default; --apply writes events.json + partition files and
 //     refreshes the committed audit log. Never touches verification_status,
 //     ticketmaster_*, seatgeek_*, or any other provider.
-//   - Artist names containing an apostrophe are skipped (no SQL-escape
-//     guessing against the Impact Query= parameter).
+//   - Artist names containing an apostrophe are queried with each documented
+//     quote-escape style in turn (backslash, then doubled quote). Because the
+//     escape syntax is not confirmed, their catalog is always treated as
+//     incomplete: they can add or verify an exact match through the normal
+//     gates, but can never clear or un-verify a link.
 //   - Events whose datetime_iso/timezone cannot resolve to an unambiguous
 //     local date are skipped — never guessed.
 //
@@ -401,10 +404,6 @@ function selectEvents(events, registryBySlug, artistNameBySlug, options, now = n
       skipped.push({ event, reason: "artist has no name on record in public/data/artists.json" });
       continue;
     }
-    if (artistName.includes("'")) {
-      skipped.push({ event, reason: "artist name contains an apostrophe — no SQL-escape guessing against the Impact Query parameter" });
-      continue;
-    }
     // Past events are excluded before the local-date gate so a row that is both
     // finished and time-ambiguous is reported as finished — the accurate reason,
     // and not something a timezone backfill would fix.
@@ -509,10 +508,19 @@ async function pacedRequest(url, headers, options, runState) {
   return response;
 }
 
-function marketplaceProductsUrl(accountSid, artistName, page) {
+// Quote-escape styles tried, in order, for artist names containing an
+// apostrophe. Names without one use the plain literal only.
+export const QUOTE_ESCAPE_STYLES = Object.freeze(["backslash", "double"]);
+
+export function impactNameLiteral(artistName, style = "backslash") {
+  if (!artistName.includes("'")) return artistName;
+  return artistName.replace(/'/g, style === "double" ? "''" : "\\'");
+}
+
+function marketplaceProductsUrl(accountSid, artistName, page, style = "backslash") {
   const params = new URLSearchParams({
     Program: MARKETPLACE_PRODUCTS_PROGRAM,
-    Query: `Name='${artistName}'`,
+    Query: `Name='${impactNameLiteral(artistName, style)}'`,
     PageSize: String(MARKETPLACE_PAGE_SIZE),
     Page: String(page)
   });
@@ -544,11 +552,25 @@ function toCandidate(item) {
 // callers must never treat an incomplete catalog's zero-match as
 // confirmed-gone evidence.
 async function fetchArtistCatalog(artistName, accountSid, authToken, options, runState) {
+  if (!artistName.includes("'")) return fetchArtistCatalogWithStyle(artistName, accountSid, authToken, options, runState, "backslash");
+  let last = null;
+  for (const style of QUOTE_ESCAPE_STYLES) {
+    const result = await fetchArtistCatalogWithStyle(artistName, accountSid, authToken, options, runState, style);
+    if (result.authFailure || result.stopReason === "rate_limited") return result;
+    // Unconfirmed escape syntax: never report a complete catalog, so an empty or
+    // partial result cannot clear or un-verify anything.
+    last = { ...result, complete: false };
+    if (result.candidates.length > 0) return last;
+  }
+  return last;
+}
+
+async function fetchArtistCatalogWithStyle(artistName, accountSid, authToken, options, runState, style) {
   const headers = basicAuthHeader(accountSid, authToken);
   const candidates = [];
   let total = null;
   for (let page = 1; page <= MARKETPLACE_MAX_PAGES; page += 1) {
-    const response = await pacedRequest(marketplaceProductsUrl(accountSid, artistName, page), headers, options, runState);
+    const response = await pacedRequest(marketplaceProductsUrl(accountSid, artistName, page, style), headers, options, runState);
     if (response.stopped) return { candidates, complete: false, stopReason: response.stopReason, authFailure: false };
     if (response.status === 401 || response.status === 403) {
       return { candidates, complete: false, stopReason: "auth_or_config_error", authFailure: true };
@@ -784,7 +806,7 @@ function selfTest() {
     { ...base, id: "s4", vividseats_url: "https://vividseats.com/x/production/3", provider_links: { "vivid-seats": { verified: true, url: "https://vividseats.com/x/production/3", last_verified_at: "2026-06-01" } } },
     { ...base, id: "s5", datetime_iso: "2026-09-01T20:00:00", timezone: "" },
     { id: "s6", artist_slug: "unknown-artist", datetime_iso: "2026-09-01T00:00:00Z" },
-    { artist_slug: "apostrophe-artist", id: "s7", datetime_iso: "2026-09-01T00:00:00Z" },
+    { ...base, artist_slug: "apostrophe-artist", id: "s7" },
     { ...base, id: "s8", datetime_iso: "2026-09-01T20:00:00+02:00", timezone: "" },
     { ...base, id: "s9", datetime_iso: "2026-09-01T20:00:00Z", timezone: "" }
   ], registryBySlug, artistNameBySlug, selOptions, now);
@@ -797,7 +819,10 @@ function selfTest() {
   assert("numeric-offset event with no timezone is now selectable", selectedIds.includes("s8"));
   assert("UTC event with no timezone stays skipped", !selectedIds.includes("s9") && selection.skipped.some((row) => row.event.id === "s9" && row.reason.includes("local date unresolved")));
   assert("unregistered artist skipped with reason", selection.skipped.some((row) => row.event.id === "s6"));
-  assert("apostrophe artist name skipped with reason", selection.skipped.some((row) => row.event.id === "s7" && row.reason.includes("apostrophe")));
+  assert("apostrophe artist is selected (queried with guarded escapes)", selectedIds.includes("s7"));
+  assert("backslash escape for an apostrophe name", impactNameLiteral("Guns N' Roses", "backslash") === "Guns N\\' Roses");
+  assert("doubled-quote escape for an apostrophe name", impactNameLiteral("Guns N' Roses", "double") === "Guns N'' Roses");
+  assert("names without an apostrophe are unchanged", impactNameLiteral("Metallica", "double") === "Metallica");
   assert("past event skipped, never touched", !selectedIds.includes("s0") && selection.skipped.some((row) => row.event.id === "s0" && row.reason.includes("past")));
 
   let failed = 0;

@@ -618,21 +618,21 @@
         "event_id": "8196638",
         "url": "https://www.ticketnetwork.com/en/p/8196638",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8196638",
         "url": "https://www.ticketliquidator.com/tickets/8196638/Earth-Wind-and-Fire-tickets-Fri-Dec-11-2026-Hard-Rock-Live-At-Etess-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672592",
         "url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-11-2026/event/107672592",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -700,21 +700,21 @@
         "event_id": "8196639",
         "url": "https://www.ticketnetwork.com/en/p/8196639",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8196639",
         "url": "https://www.ticketliquidator.com/tickets/8196639/Earth-Wind-and-Fire-tickets-Sat-Dec-12-2026-Hard-Rock-Live-At-Etess-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672603",
         "url": "https://www.stubhub.ie/earth-wind-fire-atlantic-city-tickets-12-12-2026/event/107672603",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -761,7 +761,7 @@
         "event_id": 18409857,
         "url": "https://seatgeek.com/earth-wind-fire-tickets/thackerville-oklahoma-lucas-oil-live-at-winstar-world-casino-and-resort-2026-12-31-8-pm/concert/18409857",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -782,14 +782,14 @@
         "event_id": "8178925",
         "url": "https://www.ticketnetwork.com/en/p/8178925",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672613",
         "url": "https://www.stubhub.ie/earth-wind-fire-thackerville-tickets-12-31-2026/event/107672613",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -831,7 +831,7 @@
         "event_id": 18689366,
         "url": "https://seatgeek.com/earth-wind-fire-tickets/west-palm-beach-florida-kravis-center-dreyfoos-hall-2027-03-06-7-pm/concert/18689366",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -852,7 +852,21 @@
         "event_id": "107672588",
         "url": "https://www.stubhub.ie/earth-wind-fire-west-palm-beach-tickets-3-6-2027/event/107672588",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8262219",
+        "url": "https://www.ticketnetwork.com/en/p/8262219",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8262219",
+        "url": "https://www.ticketliquidator.com/tickets/8262219/Earth-Wind-and-Fire-tickets-Sat-Mar-6-2027-Kravis-Center-Dreyfoos-Concert-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -860,7 +874,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-west-palm-beach-tickets-3-6-2027/event/107672588",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8262219",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8262219/Earth-Wind-and-Fire-tickets-Sat-Mar-6-2027-Kravis-Center-Dreyfoos-Concert-Hall"
   },
   {
     "id": "tm-earth-wind-fire-2027-brandon-g5viz_kuehuto",
@@ -914,21 +930,21 @@
         "event_id": "8307212",
         "url": "https://www.ticketnetwork.com/en/p/8307212",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8307212",
         "url": "https://www.ticketliquidator.com/tickets/8307212/Earth-Wind-and-Fire-tickets-Sat-Apr-17-2027-Brandon-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672596",
         "url": "https://www.stubhub.ie/earth-wind-fire-brandon-tickets-4-17-2027/event/107672596",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1003,7 +1019,21 @@
         "event_id": "107672610",
         "url": "https://www.stubhub.ie/earth-wind-fire-southaven-tickets-4-20-2027/event/107672610",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8307213",
+        "url": "https://www.ticketnetwork.com/en/p/8307213",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307213",
+        "url": "https://www.ticketliquidator.com/tickets/8307213/Earth-Wind-and-Fire-tickets-Tue-Apr-20-2027-BankPlus-Amphitheatre-at-Snowden-Grove",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1022,7 +1052,9 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307213",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307213/Earth-Wind-and-Fire-tickets-Tue-Apr-20-2027-BankPlus-Amphitheatre-at-Snowden-Grove"
   },
   {
     "id": "tm-earth-wind-fire-2027-huntsville-z7r9jz1aaeb18",
@@ -1076,14 +1108,14 @@
         "event_id": "8310384",
         "url": "https://www.ticketnetwork.com/en/p/8310384",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310384",
         "url": "https://www.ticketliquidator.com/tickets/8310384/Earth-Wind-and-Fire-tickets-Wed-Apr-21-2027-The-Orion-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1143,24 +1175,24 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8307214",
+        "url": "https://www.ticketnetwork.com/en/p/8307214",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8307214",
         "url": "https://www.ticketliquidator.com/tickets/8307214/Earth-Wind-and-Fire-tickets-Fri-Apr-23-2027-Pinnacle-Amphitheater-at-Chastain-Park",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_33XGiy_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8307214",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307214/Earth-Wind-and-Fire-tickets-Fri-Apr-23-2027-Pinnacle-Amphitheater-at-Chastain-Park",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1226,14 +1258,14 @@
         "event_id": "8307215",
         "url": "https://www.ticketnetwork.com/en/p/8307215",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8307215",
         "url": "https://www.ticketliquidator.com/tickets/8307215/Earth-Wind-and-Fire-tickets-Sat-Apr-24-2027-Enmarket-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1317,21 +1349,21 @@
         "event_id": "8307216",
         "url": "https://www.ticketnetwork.com/en/p/8307216",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8307216",
         "url": "https://www.ticketliquidator.com/tickets/8307216/Earth-Wind-and-Fire-tickets-Tue-Apr-27-2027-Township-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672599",
         "url": "https://www.stubhub.ie/earth-wind-fire-columbia-tickets-4-27-2027/event/107672599",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1410,21 +1442,21 @@
         "event_id": "8307217",
         "url": "https://www.ticketnetwork.com/en/p/8307217",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8307217",
         "url": "https://www.ticketliquidator.com/tickets/8307217/Earth-Wind-and-Fire-tickets-Wed-Apr-28-2027-Tennessee-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672591",
         "url": "https://www.stubhub.ie/earth-wind-fire-knoxville-tickets-4-28-2027/event/107672591",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1496,21 +1528,21 @@
         "event_id": "8307218",
         "url": "https://www.ticketnetwork.com/en/p/8307218",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8307218",
         "url": "https://www.ticketliquidator.com/tickets/8307218/Earth-Wind-and-Fire-tickets-Fri-Apr-30-2027-Skyla-Credit-Union-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672619",
         "url": "https://www.stubhub.ie/earth-wind-fire-charlotte-tickets-4-30-2027/event/107672619",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1585,6 +1617,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307219",
+        "url": "https://www.ticketliquidator.com/tickets/8307219/Earth-Wind-and-Fire-tickets-Sat-May-1-2027-Durham-Performing-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672611",
+        "url": "https://www.stubhub.ie/earth-wind-fire-durham-tickets-5-1-2027/event/107672611",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_f5p7R9-",
@@ -1602,7 +1648,9 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307219/Earth-Wind-and-Fire-tickets-Sat-May-1-2027-Durham-Performing-Arts-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-durham-tickets-5-1-2027/event/107672611"
   },
   {
     "id": "tm-earth-wind-fire-2027-saint-augustine-z7r9jz1aaeb-p",
@@ -1656,7 +1704,21 @@
         "event_id": "107672614",
         "url": "https://www.stubhub.ie/earth-wind-fire-saint-augustine-tickets-4-14-2027/event/107672614",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8310351",
+        "url": "https://www.ticketnetwork.com/en/p/8310351",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310351",
+        "url": "https://www.ticketliquidator.com/tickets/8310351/Earth-Wind-and-Fire-tickets-Wed-Apr-14-2027-St-Augustine-Amphitheatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1664,7 +1726,9 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "stubhub_international_url": "https://www.stubhub.ie/earth-wind-fire-saint-augustine-tickets-4-14-2027/event/107672614",
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310351",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310351/Earth-Wind-and-Fire-tickets-Wed-Apr-14-2027-St-Augustine-Amphitheatre"
   },
   {
     "id": "tm-earth-wind-fire-2027-pompano-beach-z7r9jz1aaazue",
@@ -1718,14 +1782,14 @@
         "event_id": "8355694",
         "url": "https://www.ticketnetwork.com/en/p/8355694",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8355694",
         "url": "https://www.ticketliquidator.com/tickets/8355694/Earth-Wind-and-Fire-tickets-Tue-Apr-13-2027-Pompano-Beach-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

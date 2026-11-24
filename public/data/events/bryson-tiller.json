@@ -809,7 +809,7 @@
         "event_id": "107258160",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-amsterdam-ziggo-dome-24-11-2026/event/107258160",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -874,7 +874,7 @@
         "event_id": "107271077",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-dusseldorf-mitsubishi-electric-halle-26-11-2026/event/107271077",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -960,7 +960,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/bryson-tiller-presents-the-neo-trapsoul-dublin-01-12-2026/event/180064B5D994DD36",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-24",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -998,7 +998,8 @@
     "status": "on-sale",
     "organizer_names": [
       "AMPHITHEATRE IRELAND",
-      "MCD PRODUCTIONS"
+      "MCD PRODUCTIONS",
+      "DUKE DUMONT"
     ],
     "genre": "Hip-Hop/Rap"
   },
@@ -1054,21 +1055,21 @@
         "event_id": "8090585",
         "url": "https://www.ticketliquidator.com/tickets/8090585/Bryson-Tiller-tickets-Thu-Dec-3-2026-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107258136",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-manchester-co-op-live-3-12-2026/event/107258136",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8090585",
         "url": "https://www.ticketnetwork.com/en/p/8090585",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1194,7 +1195,21 @@
         "event_id": "107265079",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-cardiff-utilita-arena-cardiff-5-12-2026/event/107265079",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8090583",
+        "url": "https://www.ticketnetwork.com/en/p/8090583",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8090583",
+        "url": "https://www.ticketliquidator.com/tickets/8090583/Bryson-Tiller-tickets-Sat-Dec-5-2026-Cardiff-International-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1208,7 +1223,9 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090583",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090583/Bryson-Tiller-tickets-Sat-Dec-5-2026-Cardiff-International-Arena"
   },
   {
     "id": "tm-bryson-tiller-2026-london-17u8v0g6gkcb7og",
@@ -1262,7 +1279,21 @@
         "event_id": "107258138",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-london-the-o2-arena-7-12-2026/event/107258138",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8018102",
+        "url": "https://www.ticketnetwork.com/en/p/8018102",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8018102",
+        "url": "https://www.ticketliquidator.com/tickets/8018102/Bryson-Tiller-tickets-Mon-Dec-7-2026-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1274,7 +1305,9 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
+    "genre": "Hip-Hop/Rap",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8018102",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8018102/Bryson-Tiller-tickets-Mon-Dec-7-2026-O2-Arena-London"
   },
   {
     "id": "tm-bryson-tiller-2026-birmingham-17fyv0g65u9_ewp",
@@ -1328,21 +1361,21 @@
         "event_id": "8090582",
         "url": "https://www.ticketliquidator.com/tickets/8090582/Bryson-Tiller-tickets-Wed-Dec-9-2026-bp-pulse-LIVE",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107265080",
         "url": "https://www.stubhub.ie/bryson-tiller-tickets-birmingham-bp-pulse-live-9-12-2026/event/107265080",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8090582",
         "url": "https://www.ticketnetwork.com/en/p/8090582",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1468,14 +1501,14 @@
         "event_id": "8173262",
         "url": "https://www.ticketliquidator.com/tickets/8173262/Bryson-Tiller-tickets-Wed-Jan-27-2027-Spark-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8173262",
         "url": "https://www.ticketnetwork.com/en/p/8173262",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

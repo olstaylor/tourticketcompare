@@ -434,7 +434,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "070064E9B90D2B09",
     "ticketmaster_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2027-04-18-7-pm/concert/18862818",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jon-pardi-gamblin-man-tour-2026-peoria-illinois-11-13-2026/event/070064E9B90D2B09",
@@ -450,11 +450,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18862818,
+        "url": "https://seatgeek.com/jon-pardi-tickets/peoria-illinois-peoria-civic-center-arena-2027-04-18-7-pm/concert/18862818",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -474,14 +474,14 @@
         "event_id": "8149216",
         "url": "https://www.ticketnetwork.com/en/p/8149216",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8149216",
         "url": "https://www.ticketliquidator.com/tickets/8149216/Jon-Pardi-tickets-Sun-Apr-18-2027-Carver-Arena-At-Peoria-Civic-Center",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -620,12 +620,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8233638",
+        "url": "https://www.ticketnetwork.com/en/p/8233638",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8233638",
+        "url": "https://www.ticketliquidator.com/tickets/8233638/Jon-Pardi-tickets-Sat-Dec-19-2026-The-Factory-Chesterfield",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16e7Z_obYG7V9-3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8233638",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8233638/Jon-Pardi-tickets-Sat-Dec-19-2026-The-Factory-Chesterfield"
   },
   {
     "id": "tm-jon-pardi-2027-durant-vvg1yz_ksrbiue",
@@ -658,7 +674,7 @@
         "event_id": 18652960,
         "url": "https://seatgeek.com/jon-pardi-tickets/durant-oklahoma-choctaw-grand-theater-2027-03-20-8-pm/concert/18652960",
         "verified": true,
-        "last_verified_at": "2026-11-19",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -674,12 +690,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8307418",
+        "url": "https://www.ticketliquidator.com/tickets/8307418/Jon-Pardi-tickets-Sat-Mar-20-2027-Choctaw-Casino-Resort-Durant",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_KSRbiUE",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8307418/Jon-Pardi-tickets-Sat-Mar-20-2027-Choctaw-Casino-Resort-Durant"
   },
   {
     "id": "tm-jon-pardi-2027-nampa-z7r9jz1aazeqe",
@@ -728,13 +752,29 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8149235",
+        "url": "https://www.ticketnetwork.com/en/p/8149235",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149235",
+        "url": "https://www.ticketliquidator.com/tickets/8149235/Jon-Pardi-tickets-Sat-May-8-2027-Arena-At-Ford-Idaho-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZeQe",
     "timezone": "America/Denver",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8149235",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149235/Jon-Pardi-tickets-Sat-May-8-2027-Arena-At-Ford-Idaho-Center"
   },
   {
     "id": "tm-jon-pardi-2027-loveland-z7r9jz1aazeb3",
@@ -748,7 +788,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAZeb3",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",
-    "seatgeek_url": "https://seatgeek.com/jon-pardi-tickets/loveland-colorado-blue-federal-credit-union-arena-2027-05-13-7-pm/concert/18391250",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZeb3",
@@ -838,6 +878,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8149212",
+        "url": "https://www.ticketliquidator.com/tickets/8149212/Jon-Pardi-tickets-Thu-May-20-2027-Maverik-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vzZ_2evjPCF",
@@ -845,7 +892,8 @@
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8149212/Jon-Pardi-tickets-Thu-May-20-2027-Maverik-Center"
   },
   {
     "id": "tm-jon-pardi-2026-nashville-g5viz_p4pjkae",
@@ -875,11 +923,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18763089,
+        "url": "https://seatgeek.com/jon-pardi-tickets/nashville-tennessee-the-truth-nashville-2026-12-17-7-30-pm/concert/18763089",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7863057,

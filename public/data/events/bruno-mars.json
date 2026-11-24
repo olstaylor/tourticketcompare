@@ -3792,14 +3792,14 @@
         "event_id": "8245500",
         "url": "https://www.ticketnetwork.com/en/p/8245500",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8245500",
         "url": "https://www.ticketliquidator.com/tickets/8245500/Bruno-Mars-tickets-Sat-Feb-13-2027-Optus-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3924,7 +3924,21 @@
         "event_id": "107666002",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-19-2-2027/event/107666002",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8245501",
+        "url": "https://www.ticketnetwork.com/en/p/8245501",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245501",
+        "url": "https://www.ticketliquidator.com/tickets/8245501/Bruno-Mars-tickets-Fri-Feb-19-2027-Marvel-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3936,7 +3950,9 @@
       "LIVE NATION AUSTRALIA"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245501",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245501/Bruno-Mars-tickets-Fri-Feb-19-2027-Marvel-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknww0xk",
@@ -3990,7 +4006,21 @@
         "event_id": "107666003",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-20-2-2027/event/107666003",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8245502",
+        "url": "https://www.ticketnetwork.com/en/p/8245502",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245502",
+        "url": "https://www.ticketliquidator.com/tickets/8245502/Bruno-Mars-tickets-Sat-Feb-20-2027-Marvel-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4002,7 +4032,9 @@
       "LIVE NATION AUSTRALIA"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245502",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245502/Bruno-Mars-tickets-Sat-Feb-20-2027-Marvel-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx7x5",
@@ -4056,7 +4088,21 @@
         "event_id": "107666004",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-23-2-2027/event/107666004",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8245503",
+        "url": "https://www.ticketnetwork.com/en/p/8245503",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245503",
+        "url": "https://www.ticketliquidator.com/tickets/8245503/Bruno-Mars-tickets-Tue-Feb-23-2027-Marvel-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4068,7 +4114,9 @@
       "LIVE NATION AUSTRALIA"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245503",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245503/Bruno-Mars-tickets-Tue-Feb-23-2027-Marvel-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-docklands-1aefz_ogknwx0x2",
@@ -4122,7 +4170,7 @@
         "event_id": "107667338",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-melbourne-marvel-stadium-docklands-24-2-2027/event/107667338",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -4183,6 +4231,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8245504",
+        "url": "https://www.ticketnetwork.com/en/p/8245504",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8245504",
+        "url": "https://www.ticketliquidator.com/tickets/8245504/Bruno-Mars-tickets-Sun-Feb-28-2027-Suncorp-Stadium",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AKZkf3GkdAcg5V",
@@ -4192,7 +4254,9 @@
       "LIVE NATION AUSTRALIA"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8245504",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8245504/Bruno-Mars-tickets-Sun-Feb-28-2027-Suncorp-Stadium"
   },
   {
     "id": "tm-bruno-mars-2027-milton-1avgz_ogklamkhm",
@@ -4378,14 +4442,14 @@
         "event_id": "8264032",
         "url": "https://www.ticketnetwork.com/en/p/8264032",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8264032",
         "url": "https://www.ticketliquidator.com/tickets/8264032/Bruno-Mars-tickets-Fri-Mar-5-2027-Accor-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4526,14 +4590,14 @@
         "event_id": "8264033",
         "url": "https://www.ticketnetwork.com/en/p/8264033",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8264033",
         "url": "https://www.ticketliquidator.com/tickets/8264033/Bruno-Mars-tickets-Tue-Mar-9-2027-Accor-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4600,21 +4664,21 @@
         "event_id": "7798132",
         "url": "https://www.ticketnetwork.com/en/p/7798132",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7798132",
         "url": "https://www.ticketliquidator.com/tickets/7798132/Bruno-Mars-tickets-Thu-Dec-3-2026-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107129518",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-3-12-2026/event/107129518",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -4681,21 +4745,21 @@
         "event_id": "7798133",
         "url": "https://www.ticketnetwork.com/en/p/7798133",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7798133",
         "url": "https://www.ticketliquidator.com/tickets/7798133/Bruno-Mars-tickets-Fri-Dec-4-2026-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107133105",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-4-12-2026/event/107133105",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -4762,21 +4826,21 @@
         "event_id": "7798135",
         "url": "https://www.ticketnetwork.com/en/p/7798135",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7798135",
         "url": "https://www.ticketliquidator.com/tickets/7798135/Bruno-Mars-tickets-Mon-Dec-7-2026-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107133106",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-7-12-2026/event/107133106",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -4843,21 +4907,21 @@
         "event_id": "7798136",
         "url": "https://www.ticketnetwork.com/en/p/7798136",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7798136",
         "url": "https://www.ticketliquidator.com/tickets/7798136/Bruno-Mars-tickets-Tue-Dec-8-2026-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107133107",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-8-12-2026/event/107133107",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -4924,21 +4988,21 @@
         "event_id": "8271253",
         "url": "https://www.ticketnetwork.com/en/p/8271253",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8271253",
         "url": "https://www.ticketliquidator.com/tickets/8271253/Bruno-Mars-tickets-Fri-Dec-11-2026-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107554343",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-mexico-city-estadio-gnp-seguros-11-12-2026/event/107554343",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -5005,21 +5069,21 @@
         "event_id": "8244830",
         "url": "https://www.ticketliquidator.com/tickets/8244830/Bruno-Mars-tickets-Sat-Mar-13-2027-Eden-Park-New-Zealand",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8244830",
         "url": "https://www.ticketnetwork.com/en/p/8244830",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107667645",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-13-3-2027/event/107667645",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -5087,21 +5151,21 @@
         "event_id": "8244848",
         "url": "https://www.ticketliquidator.com/tickets/8244848/Bruno-Mars-tickets-Sun-Mar-14-2027-Eden-Park-New-Zealand",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8244848",
         "url": "https://www.ticketnetwork.com/en/p/8244848",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107666025",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-14-3-2027/event/107666025",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -5169,7 +5233,7 @@
         "event_id": "107666026",
         "url": "https://www.stubhub.ie/bruno-mars-tickets-auckland-eden-park-16-3-2027/event/107666026",
         "verified": true,
-        "last_verified_at": "2026-11-21",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

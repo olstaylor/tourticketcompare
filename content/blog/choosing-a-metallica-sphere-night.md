@@ -5,7 +5,7 @@ description: Metallica's Sphere residency runs in Thursday and Saturday pairs wi
 summary: Metallica's Life Burns Faster residency at Sphere plays in Thursday and Saturday pairs, and the band bills each pair as a No Repeat Weekend with two different sets. That makes the night you pick, and whether a listing covers one night or two, worth more attention than usual.
 date: 2026-10-23
 status: published
-updated: 2026-11-01
+updated: 2026-11-24
 tags:
   - tour-buying
 related_artists:
@@ -35,14 +35,14 @@ Metallica's Life Burns Faster residency at Sphere in Las Vegas plays on Thursday
 
 The [Metallica Las Vegas date comparison](/artists/metallica/ticket-prices#priceGuideCity-las-vegas-united-states) lists each Sphere night as its own row, with the ticket sites that have a checked link for that night. Where a price appears, it is one site's listed price for that one night, with the time it was checked. It isn't the face value or the final total, and it is never a price for a weekend pair. The [Metallica page](/artists/metallica) has the same nights with their ticket buttons, alongside the band's 2027 stadium dates.
 
-## Remaining dates as of 28 October 2026
+## Residency schedule
 
-These dates remain on the [residency schedule published by Metallica](https://www.metallica.com/news/2026-02-25-life-burns-faster-at-sphere-in-las-vegas.html) as of 28 October 2026. Check the exact event listing for its current start time before booking travel.
+These dates were on the [residency schedule published by Metallica](https://www.metallica.com/news/2026-02-25-life-burns-faster-at-sphere-in-las-vegas.html) as of 28 October 2026. Dates marked "has passed" were before 24 November 2026. Check the exact event listing for its current start time before booking travel.
 
 | Weekend | Thursday | Saturday |
 |---|---|---|
 | October | 29 Oct (has passed) | 31 Oct (has passed) |
-| November | 5 Nov | 7 Nov |
+| November | 5 Nov (has passed) | 7 Nov (has passed) |
 | January 2027 | 28 Jan | 30 Jan |
 | February | 4 Feb | 6 Feb |
 | February | 18 Feb | 20 Feb |
@@ -50,7 +50,7 @@ These dates remain on the [residency schedule published by Metallica](https://ww
 | March | 4 Mar | 6 Mar |
 | March | 11 Mar | 13 Mar |
 
-After 7 November there is a gap of almost three months before the residency returns on 28 January.
+After 7 November the residency pauses for almost three months and returns on 28 January.
 
 ## Thursday, Saturday or both
 

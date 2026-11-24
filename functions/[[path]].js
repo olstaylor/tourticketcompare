@@ -3761,7 +3761,7 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
               row.lowest ? `<span class="price-answer-asof muted">${row.comparedCount} ${row.comparedCount === 1 ? "site priced" : "sites priced"}</span>` : ""
             }`
           : `<span class="muted">${escapeHtml(options?.status || "No ticket links for this date yet.")}</span>`
-        : row.lowest ? otherSitesCellHtml(row) : "—";
+        : row.lowest ? otherSitesCellHtml(row) + otherSitesLinkHtml(artist, row, cardHref, placeFor(row), dateLabel) : "—";
       // data-label carries each cell's column name for the narrow-screen
       // layout, where the table stacks into one block per date and the header
       // row is no longer beside the value (see .price-answer-table in
@@ -3796,6 +3796,16 @@ function renderArtistCityPriceAnswer(artist, artistCity, priceAnswer, priceLowBy
   }<div class="price-answer-table-wrap"><table class="price-answer-table"><caption class="sr-only">${escapeHtml(caption)}</caption><thead><tr><th scope="col">Date</th>${
     singleVenue ? "" : '<th scope="col">Venue</th>'
   }${showPrices ? '<th scope="col">Starting price</th>' : ""}<th scope="col">${ticketOptions ? "Ticket links" : "Other sites"}</th></tr></thead><tbody>${body}</tbody></table></div></section>`;
+}
+
+// In-page link from the other sites' text prices to the date's card, where every
+// ticket site has its own button. Navigation only: no outbound link, no price,
+// no ordering. Skipped for a lone priced site (nothing else to compare).
+function otherSitesLinkHtml(artist, row, cardHref, place, dateLabel) {
+  if (!cardHref || (row.lanes || []).filter((lane) => lane !== row.lowest).length === 0) return "";
+  const label = "See all ticket sites";
+  const aria = `${label} for ${artist.name}, ${place || "this venue"}, ${dateLabel}`;
+  return `<br>${anchor(label, cardHref, "text-link price-answer-more", `aria-label="${escapeAttr(aria)}"`)}`;
 }
 
 // The other sites' own starting prices for one date, cheapest first, each with
@@ -9173,8 +9183,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261123f" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261123f" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261124a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261124a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20261123a" defer></script></body>');

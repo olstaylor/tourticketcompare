@@ -221,6 +221,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8353468",
+        "url": "https://www.ticketnetwork.com/en/p/8353468",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4pGkdNOl-0",
@@ -231,7 +238,8 @@
       "THE ROYAL PARKS",
       "LIVE NATION MUSIC UK LTD"
     ],
-    "ticket_limit": 6
+    "ticket_limit": 6,
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353468"
   },
   {
     "id": "tm-raye-2027-london-1amzk49gkeww5xa",
@@ -280,6 +288,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8386080",
+        "url": "https://www.ticketnetwork.com/en/p/8386080",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk49GkeWw5xa",
@@ -290,6 +305,7 @@
       "THE ROYAL PARKS",
       "LIVE NATION MUSIC UK LTD"
     ],
-    "ticket_limit": 6
+    "ticket_limit": 6,
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386080"
   }
 ]

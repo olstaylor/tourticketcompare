@@ -352,7 +352,7 @@
         "event_id": "8337510",
         "url": "https://www.ticketnetwork.com/en/p/8337510",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -441,7 +441,7 @@
         "event_id": "8329600",
         "url": "https://www.ticketnetwork.com/en/p/8329600",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -530,7 +530,7 @@
         "event_id": "8369880",
         "url": "https://www.ticketnetwork.com/en/p/8369880",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -601,7 +601,7 @@
         "event_id": "8369881",
         "url": "https://www.ticketnetwork.com/en/p/8369881",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -675,7 +675,7 @@
         "event_id": "8369882",
         "url": "https://www.ticketnetwork.com/en/p/8369882",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -748,7 +748,7 @@
         "event_id": "8369884",
         "url": "https://www.ticketnetwork.com/en/p/8369884",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -824,6 +824,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8376764",
+        "url": "https://www.ticketnetwork.com/en/p/8376764",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv177Z_pGkSxDNvq",
@@ -841,7 +848,8 @@
         "end": "2026-12-20T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376764/Cody-Johnson-tickets-Sat-May-29-2027-Bank-of-New-Hampshire-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376764/Cody-Johnson-tickets-Sat-May-29-2027-Bank-of-New-Hampshire-Pavilion",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376764"
   },
   {
     "id": "tm-cody-johnson-2027-albany-k7vgf_p30ueon",
@@ -902,7 +910,7 @@
         "event_id": "8383249",
         "url": "https://www.ticketnetwork.com/en/p/8383249",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -973,7 +981,7 @@
         "event_id": "8369883",
         "url": "https://www.ticketnetwork.com/en/p/8369883",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1030,12 +1038,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8387868",
+        "url": "https://www.ticketnetwork.com/en/p/8387868",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4YGkdFzn-T",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-11-24T15:00:00Z"
+    "public_onsale_at": "2026-11-24T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8387868"
   },
   {
     "id": "tm-cody-johnson-2027-evansville-vv1aazk4ngkdekbkk",
@@ -1084,6 +1100,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8387948",
+        "url": "https://www.ticketnetwork.com/en/p/8387948",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4NGkdEkBKk",
@@ -1094,6 +1117,7 @@
       "POLICE PRODUCTIONS"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8387948"
   }
 ]

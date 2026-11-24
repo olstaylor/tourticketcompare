@@ -368,6 +368,13 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7775051",
+        "url": "https://www.ticketnetwork.com/en/p/7775051",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z16vu4-e_a",
@@ -378,7 +385,8 @@
     ],
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7775051/Bryan-Adams-tickets-Sun-Dec-13-2026-O2-Arena-Prague",
-    "stubhub_international_url": "https://www.stubhub.ie/bryan-adams-tickets-prague-o2-arena-13-12-2026/event/107126137"
+    "stubhub_international_url": "https://www.stubhub.ie/bryan-adams-tickets-prague-o2-arena-13-12-2026/event/107126137",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7775051"
   },
   {
     "id": "tm-bryan-adams-2027-brescia-zg9rmiynyzffda",
@@ -540,7 +548,7 @@
         "event_id": "8173258",
         "url": "https://www.ticketnetwork.com/en/p/8173258",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -611,7 +619,7 @@
         "event_id": "8180247",
         "url": "https://www.ticketnetwork.com/en/p/8180247",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

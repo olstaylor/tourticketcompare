@@ -51,7 +51,7 @@
         "event_id": "8252886",
         "url": "https://www.ticketnetwork.com/en/p/8252886",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -137,7 +137,7 @@
         "event_id": "8252888",
         "url": "https://www.ticketnetwork.com/en/p/8252888",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -223,7 +223,7 @@
         "event_id": "8252890",
         "url": "https://www.ticketnetwork.com/en/p/8252890",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -319,6 +319,13 @@
         "verified": true,
         "last_verified_at": "2026-11-23",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8252895",
+        "url": "https://www.ticketnetwork.com/en/p/8252895",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_35qkX8b",
@@ -340,7 +347,8 @@
       "LIVE NATION MUSIC"
     ],
     "genre": "Latin",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252895/Yuridia-tickets-Thu-Feb-11-2027-Acrisure-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252895/Yuridia-tickets-Thu-Feb-11-2027-Acrisure-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252895"
   },
   {
     "id": "tm-yuridia-2027-phoenix-1a_zkfxgkecvpec",
@@ -394,7 +402,7 @@
         "event_id": "8252897",
         "url": "https://www.ticketnetwork.com/en/p/8252897",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -483,7 +491,7 @@
         "event_id": "8255474",
         "url": "https://www.ticketnetwork.com/en/p/8255474",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -561,7 +569,7 @@
         "event_id": "8252899",
         "url": "https://www.ticketnetwork.com/en/p/8252899",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -652,7 +660,7 @@
         "event_id": "8252903",
         "url": "https://www.ticketnetwork.com/en/p/8252903",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -746,7 +754,7 @@
         "event_id": "8259518",
         "url": "https://www.ticketnetwork.com/en/p/8259518",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -840,7 +848,7 @@
         "event_id": "8252904",
         "url": "https://www.ticketnetwork.com/en/p/8252904",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -934,7 +942,7 @@
         "event_id": "8252906",
         "url": "https://www.ticketnetwork.com/en/p/8252906",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1020,7 +1028,7 @@
         "event_id": "8252908",
         "url": "https://www.ticketnetwork.com/en/p/8252908",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1106,7 +1114,7 @@
         "event_id": "8252911",
         "url": "https://www.ticketnetwork.com/en/p/8252911",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1192,11 +1200,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "8252912",
+        "url": "https://www.ticketnetwork.com/en/p/8252912",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8252912",
@@ -1216,7 +1224,7 @@
     "ticketmaster_discovery_event_id": "vvG1YZ_3GGzxqt",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252912",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252912/Yuridia-tickets-Sun-Mar-14-2027-Don-Haskins-Center",
     "stubhub_international_url": "https://www.stubhub.ie/yuridia-el-paso-tickets-3-14-2027/event/107666033",
     "presales": [
@@ -1289,7 +1297,7 @@
         "event_id": "8252914",
         "url": "https://www.ticketnetwork.com/en/p/8252914",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1375,7 +1383,7 @@
         "event_id": "8259597",
         "url": "https://www.ticketnetwork.com/en/p/8259597",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1445,7 +1453,7 @@
         "event_id": "8252920",
         "url": "https://www.ticketnetwork.com/en/p/8252920",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1531,7 +1539,7 @@
         "event_id": "8276961",
         "url": "https://www.ticketnetwork.com/en/p/8276961",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1602,7 +1610,7 @@
         "event_id": "8252910",
         "url": "https://www.ticketnetwork.com/en/p/8252910",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1680,7 +1688,7 @@
         "event_id": "8252916",
         "url": "https://www.ticketnetwork.com/en/p/8252916",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1753,7 +1761,7 @@
         "event_id": "8252919",
         "url": "https://www.ticketnetwork.com/en/p/8252919",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1848,7 +1856,7 @@
         "event_id": "8307103",
         "url": "https://www.ticketnetwork.com/en/p/8307103",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

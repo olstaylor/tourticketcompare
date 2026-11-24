@@ -535,16 +535,6 @@ npm run report:affiliate-performance -- --json
 npm run report:affiliate-performance -- --self-test        # no network, no D1, no Impact call
 ```
 
-### Weekly scorecard (manual)
-
-`npm run report:scorecard` composes the existing page-backed redirect definition and the SubId1 join from
-`report:affiliate-performance` into one page: last full week and trailing 90 days, by provider, with matched and
-unmatched Impact orders by status and currency kept separate, an indicative approved commission per page-backed
-SubId1 redirect (withheld on small samples), illustrative click requirements for 500 and 1,000, and three actions.
-It needs the same read-only Impact and Cloudflare credentials, writes nothing and is not scheduled.
-`npm run report:scorecard -- --sample` prints fixture data to show the layout. Search Console clicks, Impact-side
-click counts and approval-date cohorts are shown as unavailable.
-
 Requires `IMPACT_SEATGEEK_ACCOUNT_SID` / `IMPACT_SEATGEEK_AUTH_TOKEN` in the
 environment (the same read-only Impact Publisher API credentials
 `functions/api/out.js` and `functions/api/impact/*` already use server-side)
@@ -644,6 +634,18 @@ Run `npm run test:affiliate-attribution` for the redirect-to-SQLite-to-action
 fixture checks (including fail-closed destinations and default-off tracking),
 and `npm run test:funnel-analytics` for the broader existing click contract.
 Both are in `test:mvp`.
+
+### Weekly scorecard (manual)
+
+`npm run report:scorecard` composes the page-backed redirect definition and the Impact order ledger
+(`impact_action_ledger`) into one page: last full week and trailing 90 days, by provider, with orders by status,
+currency and matched/unmatched kept separate (by action date and by commission lock date), an indicative approved
+commission per page-backed SubId1 redirect (withheld on small samples or while matched orders are only pending),
+illustrative click requirements for 500 and 1,000, and three actions. It reads D1 only (SELECTs), so it needs
+Cloudflare D1 read access but no Impact credentials, writes nothing and is not scheduled. Payment status is not
+stored in the ledger, so it is shown as unavailable.
+`npm run report:scorecard -- --sample` prints fixture data to show the layout. Search Console clicks, Impact-side
+click counts and payment status are shown as unavailable.
 
 ## Nightly funnel check
 

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 // Weekly commercial scorecard (manual, read-only). Composes what the repo already
-// measures into one page: it reuses report-affiliate-performance.mjs for Impact
-// actions and the SubId1 join, and scripts/lib/human-clicks.mjs for page-backed
-// redirects. Nothing is written anywhere, nothing is scheduled, no tracking or
+// measures into one page: Impact orders come from the D1 impact_action_ledger
+// (scripts/sync-impact-action-ledger.mjs, so no Impact credentials are needed
+// here) and scripts/lib/human-clicks.mjs gives page-backed redirects. Nothing is written anywhere, nothing is scheduled, no tracking or
 // redirect behaviour is touched. Every D1 statement is a SELECT.
 //
 //   node scripts/report-scorecard.mjs [--until YYYY-MM-DD] [--local] [--json]
@@ -14,11 +14,12 @@
 //   page-backed redirect   humanRedirectSql: the same anonymous visitor-day sent a page event, and the
 //                          source is not a suspected forged home-page source. An UPPER-BOUND PROXY,
 //                          not a human count.
-//   action cohort          Impact actions grouped by action date (Impact EventDate). The date a
-//                          commission is approved is NOT returned by the Actions API fields this repo
-//                          reads, so approval-date cohorts are unavailable.
-//   matched                valid SubId1 joined to exactly one retained, eligible click of the same
-//                          provider. Unmatched orders are never allocated to pages.
+//   action cohort          ledger orders grouped by action date (event_date).
+//   lock-date cohort       the same orders grouped by lock_date, the date Impact locks the commission
+//                          (approved orders become payable after it). It is not a payment date: the
+//                          ledger stores no payment status.
+//   matched                ledger attribution = matched: valid SubId1, one eligible click, provider
+//                          agrees. Unmatched orders are never allocated to pages.
 //   commission per click   (approved matched commission, actions dated in the 90d window) /
 //                          (page-backed redirects that carried a SubId1, same window, Impact lanes).
 //                          Indicative only: actions lag clicks, so recent clicks are under-credited.
@@ -30,16 +31,7 @@ import { fileURLToPath } from "node:url";
 import { promisify } from "node:util";
 import { buildD1ReadArgs } from "./lib/d1-read.mjs";
 import { pageBackedSql, suspectedBotRedirectSql } from "./lib/human-clicks.mjs";
-import {
-  buildAttributionStatements,
-  fetchAllActions,
-  impactCredentials,
-  indexClickRows,
-  matchSubIdAttribution,
-  normalizeAction,
-  parseWranglerJson,
-  resolveCampaignProviderMap
-} from "./report-affiliate-performance.mjs";
+import { parseWranglerJson } from "./report-affiliate-performance.mjs";
 
 const execFileAsync = promisify(execFile);
 const REPO_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -111,6 +103,16 @@ export function buildScorecardStatements(windows) {
       sql: `SELECT COUNT(DISTINCT CASE WHEN event_name = 'page_view' THEN request_key END) AS visitors, COUNT(DISTINCT CASE WHEN event_name = 'page_view' AND acquisition_source = 'organic_search' THEN request_key END) AS search_visitors FROM analytics_events WHERE event_name = 'page_view' AND ${range}`
     });
   }
+  const since = windows.d90.since.slice(0, 10);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(since)) throw new Error("Refusing to interpolate a non-date bound");
+  statements.push({
+    key: "ledger",
+    sql: `SELECT provider, state, attribution, currency, payout, event_date, lock_date FROM impact_action_ledger WHERE substr(event_date, 1, 10) >= '${since}' OR substr(lock_date, 1, 10) >= '${since}'`
+  });
+  statements.push({
+    key: "import_run",
+    sql: "SELECT run_at, status, flags FROM impact_action_import_runs ORDER BY run_at DESC LIMIT 1"
+  });
   return statements;
 }
 
@@ -140,26 +142,36 @@ export function summariseRedirects(rows = []) {
 
 const inWindow = (day, w) => Boolean(day) && day >= w.since.slice(0, 10) && day < w.until.slice(0, 10);
 
-// Actions are grouped by action date and, within that, by currency so currencies
-// are never summed together. matchedIds is the set of action ids that joined a TTC click.
-export function summariseActions(actions, matchedIds, campaignToProvider, window) {
-  const cohort = actions.filter((a) => inWindow(a.day, window));
-  const undated = actions.filter((a) => !a.day).length;
+// Ledger rows -> comparable orders. Raw Impact ids are never needed or printed.
+export function ledgerOrders(rows = []) {
+  return rows.map((r) => ({
+    provider: r.provider || "(unmapped campaign)",
+    state: STATES.includes(String(r.state).toUpperCase()) ? String(r.state).toUpperCase() : "UNKNOWN",
+    matched: r.attribution === "matched",
+    attribution: r.attribution || "unknown",
+    currency: r.currency || "(unknown)",
+    payout: r.payout === null || r.payout === undefined ? null : Number(r.payout),
+    eventDay: r.event_date ? String(r.event_date).slice(0, 10) : null,
+    lockDay: r.lock_date ? String(r.lock_date).slice(0, 10) : null
+  }));
+}
+
+// Orders are grouped by currency so currencies are never summed together, and by
+// matched / unmatched so unmatched revenue never reaches a page. `field` selects the
+// cohort date: eventDay (action date) or lockDay (commission lock date).
+export function summariseOrders(orders, window, field = "eventDay") {
+  const cohort = orders.filter((o) => inWindow(o[field], window));
   const byCurrency = {};
-  const byProvider = {};
-  for (const a of cohort) {
-    const currency = a.currency || "(unknown)";
-    const provider = campaignToProvider.get(a.campaignId) || "(unmapped campaign)";
-    const site = matchedIds.has(a.id) ? "matched" : "unmatched";
-    const state = STATES.includes(a.state) ? a.state : "UNKNOWN";
-    for (const [bucketMap, key] of [[byCurrency, currency], [byProvider, `${provider}|${currency}`]]) {
-      const b = (bucketMap[key] = bucketMap[key] || { matched: {}, unmatched: {} });
-      const cell = (b[site][state] = b[site][state] || { count: 0, payout: 0, missingPayout: 0 });
-      cell.count += 1;
-      if (a.payoutKnown) cell.payout += a.payout; else cell.missingPayout += 1;
-    }
+  const attribution = {};
+  for (const o of cohort) {
+    const site = o.matched ? "matched" : "unmatched";
+    const b = (byCurrency[o.currency] = byCurrency[o.currency] || { matched: {}, unmatched: {} });
+    const cell = (b[site][o.state] = b[site][o.state] || { count: 0, payout: 0, missingPayout: 0 });
+    cell.count += 1;
+    if (o.payout === null || !Number.isFinite(o.payout)) cell.missingPayout += 1; else cell.payout += o.payout;
+    attribution[o.attribution] = (attribution[o.attribution] || 0) + 1;
   }
-  return { count: cohort.length, undated, byCurrency, byProvider };
+  return { count: cohort.length, byCurrency, attribution };
 }
 
 export function commissionPerClick({ approvedMatchedPayout, approvedMatchedCount, pageBackedSubIdClicks, currencyCount }) {
@@ -180,18 +192,18 @@ export function clickRequirements(perClick) {
   return rows;
 }
 
-export function pickActions({ redirects90, actions90, coverage }) {
+export function pickActions({ redirects90, actions90, orders90 }) {
   const actions = [];
   const total = Object.values(actions90.byCurrency).reduce((n, b) => n + ["matched", "unmatched"].reduce((m, s) => m + Object.values(b[s]).reduce((x, c) => x + c.count, 0), 0), 0);
   const matched = Object.values(actions90.byCurrency).reduce((n, b) => n + Object.values(b.matched).reduce((x, c) => x + c.count, 0), 0);
   if (total && matched / total < 0.8) {
-    actions.push({ title: "Raise attribution coverage", evidence: `${matched} of ${total} actions in the 90-day cohort match a TTC click; coverage reasons: ${JSON.stringify(coverage)}. Older actions predate SubId1 on every lane, so check whether recent weeks are clean before changing anything.`, confidence: "High (counts), the cause of older gaps is known" });
+    actions.push({ title: "Raise attribution coverage", evidence: `${matched} of ${total} actions in the 90-day cohort match a TTC click; attribution mix: ${JSON.stringify(actions90.attribution)}. Older actions predate SubId1 on every lane, so check whether recent weeks are clean before changing anything.`, confidence: "High (counts), the cause of older gaps is known" });
   }
   const providerLines = IMPACT_PROVIDERS.map((p) => ({ p, clicks: redirects90[p]?.pageBacked || 0 })).sort((a, b) => b.clicks - a.clicks);
-  const matchedByProvider = new Set(Object.entries(actions90.byProvider).filter(([, b]) => Object.keys(b.matched).length).map(([k]) => k.split("|")[0]));
+  const matchedByProvider = new Set(orders90.filter((o) => o.matched).map((o) => o.provider));
   const top = providerLines.find((l) => l.clicks >= MIN_CLICKS_FOR_RATE && !matchedByProvider.has(l.p));
   if (top) actions.push({ title: `Understand why ${top.p} clicks have no matched order`, evidence: `${top.clicks} page-backed redirects in 90 days, 0 matched orders. Redirects are an upper-bound proxy, so check the landing experience and seller coverage before drawing conclusions.`, confidence: "Medium" });
-  actions.push({ title: "Read approved commission once pending orders settle", evidence: "Commission per click is indicative while recent clicks have had no time to be approved; compare again after the next lock date.", confidence: "Medium" });
+  actions.push({ title: "Read approved commission once pending orders lock", evidence: "Matched orders are still pending, so approved commission per click stays withheld until their lock dates pass; compare again then.", confidence: "Medium" });
   return actions.slice(0, 3);
 }
 
@@ -233,14 +245,17 @@ export function renderScorecard(card) {
   L.push("Raw counts include automation; page-backed means the same visitor-day also sent a page event.");
   L.push("");
   L.push("## 3. Impact-reported clicks and actions");
-  L.push("Impact-reported clicks: **unavailable** (the Actions API has no click list; dashboard only). Actions below are account-wide totals joined to TTC clicks only where SubId1 matches.");
+  L.push("Impact-reported clicks: **unavailable** (the Actions API has no click list; dashboard only). Orders below are account-wide ledger rows, treated as TTC only where attribution is matched.");
   L.push("");
   for (const key of ["week", "d90"]) {
-    L.push(`### ${card.windows[key].label}: orders by action date, status and match (${card.actions[key].count} actions)`);
+    L.push(`### ${card.windows[key].label}: orders by action date, status and match (${card.actions[key].count} orders)`);
     L.push(table(["Currency", "Site match", "Status", "Orders", "Commission"], actionRows(card.actions[key])));
     L.push("");
+    L.push(`### ${card.windows[key].label}: orders by commission lock date (${card.locks[key].count} orders)`);
+    L.push(table(["Currency", "Site match", "Status", "Orders", "Commission"], actionRows(card.locks[key])));
+    L.push("");
   }
-  L.push("Approval-date cohorts: **unavailable** (action date only). Unmatched orders are never allocated to pages and are excluded from page-level revenue.");
+  L.push(`Ledger source: ${card.ledgerRun ? `last import ${card.ledgerRun.run_at} (${card.ledgerRun.status})` : "**unavailable** (no import run found)"}. A lock date is when Impact locks the commission, not when it is paid: payment status is **unavailable**. Unmatched orders are never allocated to pages and are excluded from page-level revenue.`);
   L.push("");
   L.push("## 4. Approved commission per page-backed seller click (indicative)");
   const cpc = card.commissionPerClick;
@@ -260,7 +275,7 @@ export function renderScorecard(card) {
   card.topActions.forEach((a, i) => L.push(`${i + 1}. **${a.title}.** ${a.evidence} Confidence: ${a.confidence}.`));
   L.push("");
   L.push("## Data gaps");
-  L.push("- Search Console, Impact clicks and approval dates are unavailable here (see above).");
+  L.push("- Search Console, Impact clicks and payment status are unavailable here (see above).");
   L.push("- SubId1 exists only on recent orders, so older actions stay unmatched.");
   L.push("- Account-level Impact actions can include other properties; only SubId1 matches count as TTC.");
   return L.join("\n");
@@ -268,46 +283,40 @@ export function renderScorecard(card) {
 
 // ── Assembly ────────────────────────────────────────────────────────────────
 
-export function buildCard({ windows, d1, actions, matched, coverage, campaignToProvider, sample = false }) {
-  const matchedIds = new Set(matched.map((m) => m.actionId));
+export function buildCard({ windows, d1, sample = false }) {
+  const orders = ledgerOrders(d1.ledger);
   const redirects = { week: summariseRedirects(d1.redirects_week), d90: summariseRedirects(d1.redirects_d90) };
   const traffic = { week: d1.traffic_week?.[0] ?? null, d90: d1.traffic_d90?.[0] ?? null };
-  const actionsSummary = {
-    week: summariseActions(actions, matchedIds, campaignToProvider, windows.week),
-    d90: summariseActions(actions, matchedIds, campaignToProvider, windows.d90)
-  };
-  const approved = Object.entries(actionsSummary.d90.byCurrency).map(([currency, b]) => ({ currency, cell: b.matched.APPROVED })).filter((x) => x.cell);
-  const currencies = approved.map((x) => x.currency);
+  const actions = { week: summariseOrders(orders, windows.week), d90: summariseOrders(orders, windows.d90) };
+  const locks = { week: summariseOrders(orders, windows.week, "lockDay"), d90: summariseOrders(orders, windows.d90, "lockDay") };
+  const approved = Object.entries(actions.d90.byCurrency).map(([currency, b]) => ({ currency, cell: b.matched.APPROVED })).filter((x) => x.cell);
   const subIdClicks = IMPACT_PROVIDERS.reduce((n, p) => n + (redirects.d90[p]?.pageBackedSubId || 0), 0);
   const only = approved.length === 1 ? approved[0] : null;
   const cpcInputs = { currency: only?.currency || null, approvedMatchedCount: only?.cell.count || 0, approvedMatchedPayout: only?.cell.payout || 0, pageBackedSubIdClicks: subIdClicks };
-  const cpc = commissionPerClick({ approvedMatchedPayout: cpcInputs.approvedMatchedPayout, approvedMatchedCount: cpcInputs.approvedMatchedCount, pageBackedSubIdClicks: subIdClicks, currencyCount: currencies.length });
+  const cpc = commissionPerClick({ approvedMatchedPayout: cpcInputs.approvedMatchedPayout, approvedMatchedCount: cpcInputs.approvedMatchedCount, pageBackedSubIdClicks: subIdClicks, currencyCount: approved.length });
   return {
-    sample, windows, redirects, traffic, actions: actionsSummary, commissionPerClick: cpc, cpcInputs,
+    sample, windows, redirects, traffic, actions, locks, ledgerRun: d1.import_run?.[0] ?? null, commissionPerClick: cpc, cpcInputs,
     requirements: clickRequirements(cpc.value),
-    topActions: pickActions({ redirects90: redirects.d90, actions90: actionsSummary.d90, coverage })
+    topActions: pickActions({ redirects90: redirects.d90, actions90: actions.d90, orders90: orders })
   };
 }
 
-const SAMPLE_CAMPAIGNS = new Map([["1", "seatgeek"], ["2", "vivid-seats"], ["3", "stubhub-international"]]);
-
 function sampleInputs() {
-  const mk = (id, campaignId, state, payout, day, subId1 = null) => normalizeAction({ Id: id, CampaignId: campaignId, State: state, Payout: payout, Currency: "GBP", EventDate: `${day}T12:00:00Z`, SubId1: subId1 });
-  const actions = [
-    mk("a1", "2", "APPROVED", "20", "2026-10-20", "aaaaaaaaaaaaaaaaaaaaaaa1"),
-    mk("a2", "2", "APPROVED", "12", "2026-11-02", "aaaaaaaaaaaaaaaaaaaaaaa2"),
-    mk("a3", "1", "APPROVED", "4", "2026-11-05", "aaaaaaaaaaaaaaaaaaaaaaa3"),
-    mk("a4", "2", "PENDING", "9", "2026-11-18", "aaaaaaaaaaaaaaaaaaaaaaa4"),
-    mk("a5", "3", "APPROVED", "50", "2026-10-01"),
-    mk("a6", "1", "REVERSED", "2", "2026-11-19", "aaaaaaaaaaaaaaaaaaaaaaa5")
-  ];
-  const matched = actions.filter((a) => a.subId1).map((a) => ({ actionId: a.id }));
-  const d1 = {
+  const row = (provider, state, attribution, payout, event_date, lock_date) => ({ provider, state, attribution, currency: "GBP", payout, event_date, lock_date });
+  return {
+    ledger: [
+      row("vivid-seats", "APPROVED", "matched", 20, "2026-10-20", "2026-11-20"),
+      row("vivid-seats", "APPROVED", "matched", 12, "2026-11-02", "2026-12-02"),
+      row("seatgeek", "APPROVED", "matched", 4, "2026-11-05", "2026-12-05"),
+      row("vivid-seats", "PENDING", "matched", 9, "2026-11-18", "2026-12-18"),
+      row("stubhub-international", "APPROVED", "no_sub_id", 50, "2026-10-01", "2026-11-01"),
+      row("seatgeek", "REVERSED", "matched", 2, "2026-11-19", "2026-12-19")
+    ],
+    import_run: [{ run_at: "2026-11-23T06:45:00Z", status: "ok" }],
     redirects_week: [{ provider: "stubhub-international", raw: 400, page_backed: 120, page_backed_subid: 120 }, { provider: "vivid-seats", raw: 90, page_backed: 40, page_backed_subid: 40 }, { provider: "seatgeek", raw: 25, page_backed: 10, page_backed_subid: 10 }, { provider: "ticketmaster", raw: 30, page_backed: 12, page_backed_subid: 0 }],
     redirects_d90: [{ provider: "stubhub-international", raw: 2500, page_backed: 900, page_backed_subid: 800 }, { provider: "vivid-seats", raw: 600, page_backed: 300, page_backed_subid: 280 }, { provider: "seatgeek", raw: 250, page_backed: 100, page_backed_subid: 90 }, { provider: "ticketmaster", raw: 300, page_backed: 120, page_backed_subid: 0 }],
     traffic_week: [{ visitors: 3200, search_visitors: 1700 }], traffic_d90: [{ visitors: 30000, search_visitors: 14000 }]
   };
-  return { d1, actions, matched, coverage: { no_sub_id: 2 } };
 }
 
 async function main() {
@@ -315,24 +324,16 @@ async function main() {
   try { options = parseArgs(process.argv.slice(2)); } catch (error) { console.error(error.message); process.exit(2); }
   if (options.help) { console.log("Usage: node scripts/report-scorecard.mjs [--until YYYY-MM-DD] [--local] [--json] [--sample] [--self-test]"); return; }
   if (options.selfTest) { console.log(`Scorecard self-test passed (${selfTest()} checks).`); return; }
-  const windows = computeWindows(options.until);
   let card;
   if (options.sample) {
-    const s = sampleInputs();
-    card = buildCard({ windows: computeWindows("2026-11-23T00:00:00.000Z"), ...s, campaignToProvider: SAMPLE_CAMPAIGNS, sample: true });
+    card = buildCard({ windows: computeWindows("2026-11-23T00:00:00.000Z"), d1: sampleInputs(), sample: true });
   } else {
-    const credentials = impactCredentials(process.env);
-    if (!credentials.configured) {
-      console.error("IMPACT_SEATGEEK_ACCOUNT_SID and IMPACT_SEATGEEK_AUTH_TOKEN (read-only Impact credentials) and CLOUDFLARE_API_TOKEN / CLOUDFLARE_ACCOUNT_ID must be set.");
+    const windows = computeWindows(options.until);
+    if (options.remote && !(process.env.CLOUDFLARE_API_TOKEN && process.env.CLOUDFLARE_ACCOUNT_ID)) {
+      console.error("CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID (read access to D1) must be set. No Impact credentials are needed: orders come from the impact_action_ledger.");
       process.exit(1);
     }
-    const campaignToProvider = resolveCampaignProviderMap(process.env);
-    const [rawActions, d1] = await Promise.all([fetchAllActions(credentials, { since: windows.d90.since, until: windows.d90.until }), runD1(buildScorecardStatements(windows), options)]);
-    const actions = rawActions;
-    const clickRows = [];
-    for (const statement of buildAttributionStatements(actions)) clickRows.push(...(await runD1([statement], options))[statement.key]);
-    const { matched, coverage } = matchSubIdAttribution(actions, indexClickRows(clickRows), campaignToProvider);
-    card = buildCard({ windows, d1, actions, matched, coverage, campaignToProvider });
+    card = buildCard({ windows, d1: await runD1(buildScorecardStatements(windows), options) });
   }
   console.log(options.json ? JSON.stringify(card, null, 2) : renderScorecard(card));
 }
@@ -349,8 +350,7 @@ export function selfTest() {
   for (const s of buildScorecardStatements(w)) { assertScorecardSql(s.sql); checks += 1; }
   assert.throws(() => assertScorecardSql("DELETE FROM analytics_events")); checks += 1;
   assert.throws(() => assertScorecardSql("SELECT user_agent FROM analytics_events")); checks += 1;
-  const s = sampleInputs();
-  const card = buildCard({ windows: w, ...s, campaignToProvider: SAMPLE_CAMPAIGNS, sample: true });
+  const card = buildCard({ windows: w, d1: sampleInputs(), sample: true });
   ok(card.actions.d90.count === 6 && card.actions.week.count === 2, "cohorts group by action date");
   ok(card.actions.d90.byCurrency.GBP.matched.APPROVED.count === 3 && card.actions.d90.byCurrency.GBP.unmatched.APPROVED.count === 1, "matched and unmatched stay separate");
   ok(card.actions.d90.byCurrency.GBP.matched.PENDING.count === 1 && card.actions.d90.byCurrency.GBP.matched.REVERSED.count === 1, "statuses stay separate");
@@ -361,12 +361,20 @@ export function selfTest() {
   ok(commissionPerClick({ approvedMatchedPayout: 5, approvedMatchedCount: 1, pageBackedSubIdClicks: 500, currencyCount: 1 }).value === null, "rate withheld on small order sample");
   ok(commissionPerClick({ approvedMatchedPayout: 5, approvedMatchedCount: 5, pageBackedSubIdClicks: 10, currencyCount: 1 }).value === null, "rate withheld on small click sample");
   ok(commissionPerClick({ approvedMatchedPayout: 5, approvedMatchedCount: 5, pageBackedSubIdClicks: 100, currencyCount: 2 }).reason === "mixed currencies", "mixed currencies are never combined");
-  const mixed = summariseActions([normalizeAction({ Id: "x", CampaignId: "1", State: "APPROVED", Payout: "1", Currency: "GBP", EventDate: "2026-11-20" }), normalizeAction({ Id: "y", CampaignId: "1", State: "APPROVED", Payout: "1", Currency: "USD", EventDate: "2026-11-20" })], new Set(), SAMPLE_CAMPAIGNS, w.week);
+  const mixed = summariseOrders(ledgerOrders([
+    { provider: "seatgeek", state: "APPROVED", attribution: "matched", currency: "GBP", payout: 1, event_date: "2026-11-20" },
+    { provider: "seatgeek", state: "APPROVED", attribution: "matched", currency: "USD", payout: 1, event_date: "2026-11-20" }]), w.week);
   ok(Object.keys(mixed.byCurrency).sort().join() === "GBP,USD", "currencies bucketed separately");
+  const noPayout = summariseOrders(ledgerOrders([{ provider: "seatgeek", state: "PENDING", attribution: "unmatched", currency: "GBP", payout: null, event_date: "2026-11-20" }]), w.week);
+  ok(noPayout.byCurrency.GBP.unmatched.PENDING.missingPayout === 1 && noPayout.byCurrency.GBP.unmatched.PENDING.payout === 0, "missing payout is counted, not guessed");
+  ok(card.locks.d90.count === 2 && card.locks.week.count === 1, "lock-date cohort is separate from action-date cohort");
+  ok(card.ledgerRun.status === "ok" && renderScorecard(card).includes("payment status is **unavailable**"), "ledger source and payment status are labelled");
+  const pendingOnly = buildCard({ windows: w, d1: { ...sampleInputs(), ledger: [{ provider: "vivid-seats", state: "PENDING", attribution: "matched", currency: "GBP", payout: 100.25, event_date: "2026-11-10", lock_date: "2026-12-10" }] } });
+  ok(pendingOnly.commissionPerClick.value === null && /no approved matched/.test(pendingOnly.commissionPerClick.reason), "pending matched orders never become approved commission per click");
   const text = renderScorecard(card);
   for (const part of ["SAMPLE", "unavailable", "upper-bound proxy", "Unmatched orders are never allocated", "Top three actions", "not forecasts"]) ok(text.includes(part), `render includes ${part}`);
   ok(card.topActions.length >= 1 && card.topActions.length <= 3, "at most three actions");
-  const empty = buildCard({ windows: w, d1: {}, actions: [], matched: [], coverage: {}, campaignToProvider: SAMPLE_CAMPAIGNS });
+  const empty = buildCard({ windows: w, d1: {} });
   ok(empty.commissionPerClick.value === null && empty.requirements === null && renderScorecard(empty).includes("Unavailable"), "missing data renders as unavailable");
   return checks;
 }

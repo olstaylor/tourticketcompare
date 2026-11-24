@@ -85,6 +85,7 @@
     if (!tiles.length) return;
     var countryButtons = Array.from(chooser.querySelectorAll("button[data-country]"));
     var sizeButtons = Array.from(chooser.querySelectorAll("button[data-size]"));
+    var runs = Array.from(document.querySelectorAll("li[data-run-country]"));
     var state = { country: "", size: "" };
     function plural(n, one, many) { return n + " " + (n === 1 ? one : many); }
     function sizeCount(row, size) { return size === "stadium" ? row.stadiumCount || 0 : row.arenaCount || 0; }
@@ -109,7 +110,28 @@
       sizeButtons.forEach(function (button) { button.setAttribute("aria-pressed", String(button.getAttribute("data-size") === size)); });
       var label = (size === "stadium" ? "stadium " : size === "arena" ? "arena " : "") + "dates";
       if (status) status.textContent = country || size ? plural(count, "artist", "artists") + " with 2027 " + label + (country ? " in " + country : "") + "." : "";
+      // The "Longest city runs" tiles follow the country (not the venue type).
+      runs.forEach(function (li) {
+        if (country && li.getAttribute("data-run-country") !== country) li.setAttribute("data-country-off", "");
+        else li.removeAttribute("data-country-off");
+      });
       input.dispatchEvent(new Event("input"));
+      if (runs.length) {
+        var runSection = runs[0].closest("section");
+        if (runSection) runSection.hidden = !runs.some(function (li) { return !li.hidden; });
+        Array.from(document.querySelectorAll(".guide-more-events")).forEach(function (more) {
+          if (!more.querySelector("li[data-run-country]")) return;
+          var shown = Array.from(more.querySelectorAll("li")).filter(function (li) { return !li.hidden; }).length;
+          more.hidden = shown === 0;
+          var summary = more.querySelector("summary");
+          if (summary) {
+            if (!summary.hasAttribute("data-original")) summary.setAttribute("data-original", summary.textContent);
+            summary.textContent = state.country
+              ? "Show " + shown + " more city " + (shown === 1 ? "run" : "runs")
+              : summary.getAttribute("data-original");
+          }
+        });
+      }
       try {
         var url = new URL(window.location.href);
         if (country) url.searchParams.set("country", country); else url.searchParams.delete("country");

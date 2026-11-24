@@ -3,6 +3,54 @@
   "source": "content/blog",
   "posts": [
     {
+      "slug": "have-2027-concert-ticket-prices-gone-down-since-first-listed",
+      "path": "/blog/have-2027-concert-ticket-prices-gone-down-since-first-listed",
+      "title": "Have 2027 concert ticket prices gone down since they were listed?",
+      "seoTitle": "Have 2027 ticket prices gone down? | TourTicketCompare",
+      "description": "For 1,039 shows in 2027, the lowest resale listing was lower in late November than in its first week at 54% of comparisons and higher at 33%.",
+      "summary": "TourTicketCompare compared the lowest listed resale price for 1,039 shows in 2027, each site against itself, between its first week on record and 18 to 24 November 2026. Prices were lower at 54% of comparisons and higher at 33%. Gracie Abrams and Harry Styles dates fell by about a third; Olivia Rodrigo's rose by nearly half.",
+      "datePublished": "2026-12-01",
+      "dateModified": "2026-12-01",
+      "status": "draft",
+      "author": "TourTicketCompare",
+      "tags": [
+        "ticket-prices",
+        "tour-data"
+      ],
+      "relatedGuides": [
+        "why-ticket-prices-change",
+        "when-is-the-best-time-to-buy-concert-tickets"
+      ],
+      "relatedArtists": [
+        "gracie-abrams",
+        "olivia-rodrigo",
+        "oasis"
+      ],
+      "wordCount": 549,
+      "sections": [
+        {
+          "type": "intro",
+          "content": "Listed resale prices for 2027 shows mostly drifted down after they first appeared, but it depended on the tour. TourTicketCompare keeps a daily record of the lowest listed price on Vivid Seats, TicketNetwork and StubHub International. For 1,039 shows in 2027 by 68 artists, it compared each site's average lowest price in its first seven recorded days with 18 to 24 November 2026. That made 2,191 comparisons. The price was lower at 1,179 (54%), higher at 715 (33%) and within 2% at 297. The typical change was a fall of 3.2%.\n\nFirst recorded days run from 22 July to 3 October, so the gap between the two readings is about 7 to 17 weeks. This is a record of what happened on these tours, not a forecast."
+        },
+        {
+          "type": "section",
+          "title": "Site by site",
+          "content": "Each row compares one site only with its own earlier listings. It does not say which site is lower for any show.\n\n| Site | Comparisons | Lower | Higher | Within 2% |\n|---|---|---|---|---|\n| Vivid Seats | 892 | 399 | 338 | 155 |\n| TicketNetwork | 836 | 512 | 233 | 91 |\n| StubHub International | 463 | 268 | 144 | 51 |\n\nFalls outnumbered rises on all three sites. On Vivid Seats the margin was slim. Across artists, 45 of the 68 had more falls than rises."
+        },
+        {
+          "type": "section",
+          "title": "Tours that fell, and tours that rose",
+          "content": "These are tours with 8 or more shows in the comparison where the typical date moved by 5% or more, at least two sites had 5 or more of the tour's shows, and every such site moved the same way.\n\n| Tour | Shows | Typical change | Earliest price recorded |\n|---|---|---|---|\n| [Gracie Abrams](/artists/gracie-abrams) | 45 | -34.5% | 30 Jul |\n| [Harry Styles](/artists/harry-styles) | 28 | -32.7% | 11 Sep |\n| [Saint Levant](/artists/saint-levant) | 11 | -31.0% | 10 Sep |\n| [Stella Lefty](/artists/stella-lefty) | 22 | -29.7% | 10 Sep |\n| [Chelsea Cutler](/artists/chelsea-cutler) | 12 | -21.4% | 2 Oct |\n| [Hilary Duff](/artists/hilary-duff) | 31 | -19.9% | 24 Sep |\n| [The Red Clay Strays](/artists/the-red-clay-strays) | 25 | -19.6% | 2 Oct |\n| [Lizzy McAlpine](/artists/lizzy-mcalpine) | 31 | -17.1% | 26 Sep |\n| [Niall Horan](/artists/niall-horan) | 24 | -13.0% | 30 Jul |\n| [Oasis](/artists/oasis) | 35 | -10.3% | 24 Sep |\n| [Olivia Rodrigo](/artists/olivia-rodrigo) | 41 | +45.9% | 22 Jul |\n| [Luke Combs](/artists/luke-combs) | 11 | +18.0% | 28 Aug |\n| [Metallica](/artists/metallica) | 18 | +12.8% | 22 Aug |\n| [Hans Zimmer](/artists/hans-zimmer) | 29 | +10.8% | 24 Sep |\n| [TobyMac](/artists/tobymac) | 27 | +7.5% | 12 Sep |\n\nFalls were more common than rises, but the biggest single move was a rise: at 94 of 105 Olivia Rodrigo comparisons the lowest listed price was higher. Other tours barely moved. The full dates for any tour are on the [2027 tours page](/tours/2027)."
+        },
+        {
+          "type": "section",
+          "title": "What this does and doesn't say",
+          "content": "- **It is the lowest listed price, not every seat.** One cheap listing can set it, and a different listing becoming the cheapest can move it.\n- **It is not a checkout total.** Fees and delivery differ between sites and listings. Check the full total before you pay.\n- **Prices are in US dollars as listed.** Figures are compared with themselves, so currency and fees cancel, but levels are not compared between countries.\n- **It is not a rule.** Prices rose at a third of comparisons, and a tour that fell in autumn may not keep falling.\n- **Sample:** 1,039 shows listed by 3 October; shows added later are not included.\n\nTo see where any single tour stands now, with the time the price was checked, open its artist page. The [final-week](/blog/do-concert-ticket-prices-drop-in-the-last-week) and [first-fortnight](/blog/do-resale-ticket-prices-drop-after-a-tour-goes-on-sale) posts cover how prices moved close to a show and just after a tour was first listed, and [why ticket prices change](/guides/why-ticket-prices-change) explains what moves them."
+        }
+      ],
+      "review": "automated"
+    },
+    {
       "slug": "weekend-or-weeknight-multi-night-concert-ticket-prices",
       "path": "/blog/weekend-or-weeknight-multi-night-concert-ticket-prices",
       "title": "Weeknight or weekend: which night of a multi-night run lists cheaper?",

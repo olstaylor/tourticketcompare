@@ -556,13 +556,20 @@ function sumRows(rows, valueKey) {
 }
 
 export function summarizeBrowserIntentPairs(rows, options = {}) {
-  const summary = { token_groups: rows.length, matched: 0, blocked: 0, unmatched: 0, ambiguous: 0, tuple_mismatch: 0, timing_mismatch: 0, basis: "consented_client_activation_to_server_receipt_not_human_identity_or_purchase", conversion_rate: null };
+  const summary = { token_groups: rows.length, matched: 0, blocked: 0, unmatched: 0, receipt_only: 0, intent_only: 0, intent_groups: 0, intent_match_rate: null, ambiguous: 0, tuple_mismatch: 0, timing_mismatch: 0, basis: "consented_client_activation_to_server_receipt_not_human_identity_or_purchase", conversion_rate: null };
   const pages = new Map();
   const pagePath = value => typeof value === 'string' && /^\/(?!\/)/.test(value) ? normalizeAnalyticsPath(value) : '(unknown)';
   for (const row of rows) {
+    if (Number(row.intents) >= 1) summary.intent_groups++;
     if (Number(row.intents) > 1 || Number(row.receipts) > 1) { summary.ambiguous++; continue; }
     if (Number(row.blocked)) { summary.blocked++; continue; }
-    if (Number(row.intents) !== 1 || Number(row.receipts) !== 1) { summary.unmatched++; continue; }
+    if (Number(row.intents) !== 1 || Number(row.receipts) !== 1) {
+      summary.unmatched++;
+      // Receipt with a token but no client intent: the beacon was dropped or never sent
+      // (cause not established here); never counted against the intent match rate.
+      if (Number(row.intents) === 0) summary.receipt_only++; else summary.intent_only++;
+      continue;
+    }
     if (!row.provider_min || row.provider_min !== row.provider_max || row.event_min !== row.event_max) { summary.tuple_mismatch++; continue; }
     if (!row.event_min && (!row.artist_min || row.artist_min !== row.artist_max)) { summary.tuple_mismatch++; continue; }
     const span = Date.parse(row.last_at) - Date.parse(row.first_at);
@@ -575,6 +582,9 @@ export function summarizeBrowserIntentPairs(rows, options = {}) {
     page.matched_events++;
     pages.set(key, page);
   }
+  // Denominator: token groups with at least one client intent. Receipt-only groups are excluded.
+  summary.intent_match_rate = summary.intent_groups > 0 ? summary.matched / summary.intent_groups : null;
+  summary.intent_match_rate_basis = "matched_token_groups_over_token_groups_with_a_client_intent_consented_only_not_a_conversion_rate";
   summary.by_client_page = [...pages.values()].filter(row => row.matched_events >= (options.minClicks ?? 1)).sort((a, b) => b.matched_events - a.matched_events || a.source_path.localeCompare(b.source_path)).slice(0, options.top ?? 10);
   summary.page_attribution_basis = 'client_reported_source_and_tab_landing_not_verified_google_acquisition';
   return summary;
@@ -852,7 +862,8 @@ export function renderReport(report) {
   lines.push(`Thresholds: traffic tables need >= ${minViews} views · receipt rankings need >= ${minClicks} redirects`);
   lines.push("outbound_click counts server-issued redirects, not verified human clicks.");
   lines.push("Visitor conversion and CTA completion rates withheld: client intent and server receipts are not reliably joined.");
-  lines.push(`Consented intent token groups: ${report.browser_intent_join.token_groups}; unique tuple/time matches: ${report.browser_intent_join.matched}; blocked: ${report.browser_intent_join.blocked}; unmatched: ${report.browser_intent_join.unmatched}; ambiguous: ${report.browser_intent_join.ambiguous}; tuple/timing mismatches: ${report.browser_intent_join.tuple_mismatch + report.browser_intent_join.timing_mismatch}. These are partial activation-to-receipt matches, not human conversions or purchases.`);
+  lines.push(`Consented intent token groups: ${report.browser_intent_join.token_groups}; unique tuple/time matches: ${report.browser_intent_join.matched}; blocked: ${report.browser_intent_join.blocked}; unmatched: ${report.browser_intent_join.unmatched} (receipt-only ${report.browser_intent_join.receipt_only}, intent-only ${report.browser_intent_join.intent_only}); ambiguous: ${report.browser_intent_join.ambiguous}; tuple/timing mismatches: ${report.browser_intent_join.tuple_mismatch + report.browser_intent_join.timing_mismatch}. These are partial activation-to-receipt matches, not human conversions or purchases.`);
+  lines.push(`Intent match rate (consented tokens only): ${report.browser_intent_join.intent_match_rate === null ? 'n/a' : `${report.browser_intent_join.matched} of ${report.browser_intent_join.intent_groups} token groups with a client intent`}. Receipt-only token groups are excluded from this denominator and from any conversion rate.`);
   lines.push(`Events without valid tokens: ${report.browser_intent_join.client_events_without_valid_token} client intents; ${report.browser_intent_join.server_receipts_without_valid_token} server receipts.`);
   lines.push('-- Matched events by client-reported landing/source page (not verified acquisition) --');
   lines.push(renderTable(['landing_page', 'source_page', 'provider', 'matched_events'], report.browser_intent_join.by_client_page.map(row => [row.landing_path, row.source_path, row.provider, row.matched_events])));

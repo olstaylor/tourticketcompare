@@ -5,6 +5,7 @@ description: Compare My Chemical Romance's October 2026 Hollywood Bowl dates, gu
 summary: My Chemical Romance's five October Hollywood Bowl listings are not identical. The first three carry The Black Parade 2026 billing; the final two name different special guests and start an hour earlier.
 date: 2026-10-11
 status: published
+updated: 2026-11-24
 tags:
   - tour-buying
 related_artists:
@@ -21,6 +22,8 @@ sources:
   - label: Warner Records — The Black Parade 2026 tour announcement
     url: https://press.warnerrecords.com/sites/g/files/g2000014901/files/2025-09/MY%20CHEMICAL%20ROMANCE%20ANNOUNCE%20%20THE%20BLACK%20PARADE%202026.pdf
 ---
+
+**Update, 24 November 2026:** all five Hollywood Bowl nights have now passed. This article is kept as a record of how the billing differed. For current dates, see the [My Chemical Romance page](/artists/my-chemical-romance).
 
 Choose the billing you want before comparing tickets. My Chemical Romance's Hollywood Bowl dates on 21, 23 and 24 October carry **The Black Parade 2026** title. The 30 October listing names **The Used** as special guest; 31 October names **Thrice**. Those final two listings also start an hour earlier. The same artist and venue do not make these five purchases interchangeable.
 

@@ -75,3 +75,8 @@ for (const path of ["/artists/lizzy-mcalpine", "/guides/seatgeek-vs-ticketmaster
 assert.ok(!/data-cta-provider|\/api\/out/.test(shell.slice(shell.indexOf("SELLING_SOON_PATHS"))), "selling-soon links are internal, never CTAs");
 
 console.log("selling-soon tests passed");
+
+// Layout shift guard: on the homepage the box is placed after the "Next dates"
+// panels (below the first screen), with the hero only as a fallback.
+const anchorBlock = shell.slice(shell.indexOf("var sellingSoonAnchor"), shell.indexOf("if (sellingSoonAnchor"));
+assert.ok(anchorBlock.indexOf("#ttc-main > .home-next-dates") !== -1 && anchorBlock.indexOf("#ttc-main > .home-next-dates") < anchorBlock.indexOf("#ttc-main > .hero-panel"), "homepage selling-soon box goes below Next dates, not above it (CLS)");

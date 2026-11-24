@@ -302,6 +302,11 @@
   // routes or hero), so the links sit in the first screens on mobile.
   var sellingSoonAnchor = SELLING_SOON_PATHS.indexOf(sellingSoonPath) === -1 ? null : (
     document.querySelector("#mainContent .artist-page > .show-board") ||
+    // Homepage: after the "Next dates" panels, not under the hero. The box
+    // arrives after an API call (~2-3 s on a slow phone); inserting it above
+    // the fold pushed the panels down (measured CLS 0.30). Below the first
+    // screen it moves nothing visible.
+    document.querySelector("#ttc-main > .home-next-dates") ||
     document.querySelector("#ttc-main > .hero-panel") ||
     document.querySelector("#mainContent .content-page > section.nested-panel")
   );

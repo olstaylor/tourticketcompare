@@ -824,7 +824,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006522E5FCE389",
     "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389",
-    "seatgeek_url": "https://seatgeek.com/stevie-wonder-tickets/washington-district-of-columbia-capital-one-arena-2026-11-23-8-pm/concert/18570216",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-washington-capital-one-arena-11-23-2026--concerts-adult-contemporary/production/7530316",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389",
@@ -840,11 +840,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18570216,
-        "url": "https://seatgeek.com/stevie-wonder-tickets/washington-district-of-columbia-capital-one-arena-2026-11-23-8-pm/concert/18570216",
-        "verified": true,
-        "last_verified_at": "2026-11-20",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7530316,

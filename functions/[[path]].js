@@ -6398,7 +6398,7 @@ export function renderToursHubBody(route) {
           (choice) =>
             `<button type="button" class="chip" data-country="${escapeAttr(choice.country)}" aria-pressed="false">${escapeHtml(choice.country)} <span class="chip__count">${choice.artistCount}</span></button>`
         )
-        .join("")}</div><p class="muted" data-country-status role="status"></p></div>`
+        .join("")}</div><p class="country-chooser__label" id="venueTypeLabel">Venue type</p><div class="country-chooser__chips" role="group" aria-labelledby="venueTypeLabel"><button type="button" class="chip" data-size="" aria-pressed="true">All venues</button><button type="button" class="chip" data-size="stadium" aria-pressed="false">Stadiums</button><button type="button" class="chip" data-size="arena" aria-pressed="false">Arenas</button></div><p class="muted" data-country-status role="status"></p><p class="muted country-chooser__note">Stadiums and arenas are matched on the venue's name only, so a venue with neither word in its name appears under All venues.</p></div>`
     : "";
   const nameBySlug = new Map(hub.artists.map((artist) => [artist.artistSlug, artist.artistName]));
   const runs = (hub.cityRuns || []).filter((run) => nameBySlug.has(run.artistSlug));
@@ -9155,7 +9155,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     route.type === "tours-hub" ||
     route.path === "/artists"
   ) {
-    next = next.replace("</body>", '<script src="/artist-board.js?v=20261124a" defer></script></body>');
+    next = next.replace("</body>", '<script src="/artist-board.js?v=20261124c" defer></script></body>');
   }
   // Any page with a price-history panel (artist, artist-city, city, venue,
   // comparison hub) gets the form template and the module that opens panels.
@@ -9173,8 +9173,8 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
     // stylesheet still stays render-blocking and in its original cascade order;
     // the preload only moves discovery earlier for the homepage's critical CSS.
     next = next.replace(
-      '<link rel="stylesheet" href="/styles.css?v=20261123f" />',
-      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261123f" />'
+      '<link rel="stylesheet" href="/styles.css?v=20261124a" />',
+      '<link rel="preload" as="style" href="/ttc-home.css?v=20261023b" />\n    <link rel="stylesheet" href="/styles.css?v=20261124a" />'
     );
     next = next.replace("</head>", '<link rel="stylesheet" href="/ttc-home.css?v=20261023b" /></head>');
     next = next.replace("</body>", '<script src="/ttc-home.js?v=20261123a" defer></script></body>');

@@ -20,6 +20,19 @@ export const TOURS_HUB_YEAR = 2027;
 export const TOURS_HUB_PATH = `/tours/${TOURS_HUB_YEAR}`;
 export const TOURS_HUB_INDEXABLE = true;
 
+// Venue type for the hub's "Stadiums / Arenas" filter. We hold no venue
+// capacity data, so this reads only the venue's own name ("Lucas Oil Stadium",
+// "O2 Arena"). A venue whose name says neither is simply not counted under
+// either filter; it still shows under "All venues". Nothing is guessed.
+const STADIUM_NAME = /\b(stadium|stadion|stadio|estadio|stade)\b/i;
+const ARENA_NAME = /\barena\b/i;
+export function venueTypeFromName(venue) {
+  const name = String(venue ?? "");
+  if (STADIUM_NAME.test(name)) return "stadium";
+  if (ARENA_NAME.test(name)) return "arena";
+  return "";
+}
+
 function trimmed(value) {
   return String(value ?? "").trim();
 }
@@ -69,7 +82,9 @@ export function deriveToursHub(events, catalog, year = TOURS_HUB_YEAR, now = Dat
         showCount: inCountry.length,
         cityCount: new Set(inCountry.map((row) => trimmed(row.event.city).toLowerCase())).size,
         firstMonth: Math.min(...monthsIn),
-        lastMonth: Math.max(...monthsIn)
+        lastMonth: Math.max(...monthsIn),
+        stadiumCount: inCountry.filter((row) => venueTypeFromName(row.event.venue) === "stadium").length,
+        arenaCount: inCountry.filter((row) => venueTypeFromName(row.event.venue) === "arena").length
       };
     }
     return {

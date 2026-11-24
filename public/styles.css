@@ -3367,3 +3367,4 @@ code {
 }
 .country-chooser .chip[aria-pressed="true"] { font-weight: 700; text-decoration: underline; }
 .country-chooser .chip__count { opacity: 0.65; }
+.country-chooser__note { font-size: 0.8rem; margin: 0.2rem 0 0; }

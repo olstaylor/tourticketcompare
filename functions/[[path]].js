@@ -69,7 +69,7 @@ import {
   WEEKLY_CHANGE_DAYS
 } from "./_event-price-moves.js";
 import { isUpcomingShow, showStartMs } from "./_upcoming.js";
-import { LAST_SEEN_MAX_DAYS, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, PRICE_SUMMARY, lastSeenDate, lastSeenNote, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
+import { LAST_SEEN_MAX_DAYS, LOWEST_FEE_NOTE, MONEY_DISCLOSURE, NO_PRICE_NOTE, PRICE_DISCLOSURE, PRICE_HISTORY_LABEL, PRICE_SUMMARY, lastSeenDate, lastSeenNote, noPriceAtLastCheck, relativeCheckAge } from "./_price-wording.js";
 import { EVENT_PATH_PREFIX, EVENT_ROUTE_ACTION, eventKey, eventPageLinker, eventPageSchemaDecision, nonPerformanceMarkers, resolveEventRoute } from "./_event-pages.js";
 import { deriveEventContext, EVENT_CITY_NEIGHBOUR_DAYS, EVENT_VENUE_NEIGHBOUR_DAYS } from "./_event-context.js";
 import { deriveEventPriceRange, fetchEventPriceRange } from "./_event-price-range.js";
@@ -7033,7 +7033,11 @@ function lowestListedSpec(ctaSpecs) {
 // total") is said once per board, in PRICE_SUMMARY, not on every card.
 const ctaCountLineHtml = (ctaSpecs) => {
   const low = lowestListedSpec(ctaSpecs);
-  return low ? `<p class="provider-cta-lowest"><strong>Lowest listed: ${escapeHtml(low.priceAmount)}</strong> on ${escapeHtml(low.name)}</p>` : "";
+  // Owner-approved 2026-11-24: the line carries the lowest lane's own age and
+  // says fees are unconfirmed, because no seller's fee basis is verified.
+  return low
+    ? `<p class="provider-cta-lowest"><strong>Lowest listed: ${escapeHtml(low.priceAmount)}</strong> on ${escapeHtml(low.name)}<span class="provider-cta-lowest-note">Checked ${escapeHtml(relativeCheckAge(low.lane.fetchedAt))} · ${escapeHtml(LOWEST_FEE_NOTE)}</span></p>`
+    : "";
 };
 
 const pricedCount = (ctaSpecs) => ctaSpecs.filter((spec) => spec.priceAmount && spec.priceAsOf).length;

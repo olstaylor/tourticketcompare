@@ -695,7 +695,7 @@
         "event_id": 18253466,
         "url": "https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-royale-boston-2026-11-17-8-pm/concert/18253466",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -713,25 +713,25 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7976872",
-        "url": "https://www.ticketliquidator.com/tickets/7976872/Stella-Lefty-tickets-Tue-Nov-17-2026-Royale-Boston",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7976872",
-        "url": "https://www.ticketnetwork.com/en/p/7976872",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A70EOZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976872/Stella-Lefty-tickets-Tue-Nov-17-2026-Royale-Boston",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976872",
+    "ticketliquidator_url": "",
+    "ticketnetwork_url": "",
     "genre": "Pop"
   },
   {
@@ -746,7 +746,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "150064ADA6967E6C",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-washington-district-of-columbia-11-19-2026/event/150064ADA6967E6C",
-    "seatgeek_url": "https://seatgeek.com/stella-lefty-tickets/washington-district-of-columbia-the-atlantis-2026-11-19-6-30-pm/concert/18252806",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-lefty-live-washington-district-of-columbia-11-19-2026/event/150064ADA6967E6C",
@@ -762,11 +762,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18252806,
-        "url": "https://seatgeek.com/stella-lefty-tickets/washington-district-of-columbia-the-atlantis-2026-11-19-6-30-pm/concert/18252806",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -783,25 +783,25 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7976588",
-        "url": "https://www.ticketliquidator.com/tickets/7976588/Stella-Lefty-tickets-Thu-Nov-19-2026-The-Atlantis",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7976588",
-        "url": "https://www.ticketnetwork.com/en/p/7976588",
-        "verified": true,
-        "last_verified_at": "2026-09-11",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17A8v0G61UJPEyi",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7976588/Stella-Lefty-tickets-Thu-Nov-19-2026-The-Atlantis",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7976588",
+    "ticketliquidator_url": "",
+    "ticketnetwork_url": "",
     "presales": [
       {
         "name": "Will Call Only - Non-Transferable",
@@ -843,14 +843,14 @@
         "event_id": 18527905,
         "url": "https://seatgeek.com/stella-lefty-tickets/detroit-michigan-the-fillmore-detroit-2027-01-09-8-pm/concert/18527905",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473877,
         "url": "https://www.vividseats.com/stella-lefty-tickets-detroit-the-fillmore-detroit-1-9-2027--concerts-pop/production/7473877",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -864,14 +864,14 @@
         "event_id": "8231213",
         "url": "https://www.ticketliquidator.com/tickets/8231213/Stella-Lefty-tickets-Sat-Jan-9-2027-The-Fillmore-Detroit",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231213",
         "url": "https://www.ticketnetwork.com/en/p/8231213",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -924,14 +924,14 @@
         "event_id": 18527907,
         "url": "https://seatgeek.com/stella-lefty-tickets/columbus-ohio-kemba-live-2027-01-10-8-pm/concert/18527907",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473885,
         "url": "https://www.vividseats.com/stella-lefty-tickets-columbus-kemba-live-1-10-2027--concerts-pop/production/7473885",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -945,14 +945,14 @@
         "event_id": "8231224",
         "url": "https://www.ticketliquidator.com/tickets/8231224/Stella-Lefty-tickets-Sun-Jan-10-2027-KEMBA-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231224",
         "url": "https://www.ticketnetwork.com/en/p/8231224",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -994,14 +994,14 @@
         "event_id": 18527909,
         "url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-history-2027-01-12-7-pm/concert/18527909",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473891,
         "url": "https://www.vividseats.com/stella-lefty-tickets-toronto-history-toronto-1-12-2027--concerts-pop/production/7473891",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1062,14 +1062,14 @@
         "event_id": 18539735,
         "url": "https://seatgeek.com/stella-lefty-tickets/toronto-canada-history-2027-01-13-7-pm/concert/18539735",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7488547,
         "url": "https://www.vividseats.com/stella-lefty-tickets-toronto-history-toronto-1-13-2027--concerts-pop/production/7488547",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1130,14 +1130,14 @@
         "event_id": 18527910,
         "url": "https://seatgeek.com/stella-lefty-tickets/montreal-canada-mtelus-2027-01-15-8-pm/concert/18527910",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473897,
         "url": "https://www.vividseats.com/stella-lefty-tickets-montreal-mtelus-1-15-2027--concerts-pop/production/7473897",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1151,14 +1151,14 @@
         "event_id": "8231124",
         "url": "https://www.ticketliquidator.com/tickets/8231124/Stella-Lefty-tickets-Fri-Jan-15-2027-MTelus",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231124",
         "url": "https://www.ticketnetwork.com/en/p/8231124",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1213,14 +1213,14 @@
         "event_id": 18527914,
         "url": "https://seatgeek.com/stella-lefty-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-01-17-8-pm/concert/18527914",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473899,
         "url": "https://www.vividseats.com/stella-lefty-tickets-boston-mgm-music-hall-at-fenway-1-17-2027--concerts-pop/production/7473899",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1234,21 +1234,21 @@
         "event_id": "8231214",
         "url": "https://www.ticketliquidator.com/tickets/8231214/Stella-Lefty-tickets-Sun-Jan-17-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107557106",
         "url": "https://www.stubhub.ie/stella-lefty-boston-tickets-1-17-2027/event/107557106",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231214",
         "url": "https://www.ticketnetwork.com/en/p/8231214",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1302,14 +1302,14 @@
         "event_id": 18527915,
         "url": "https://seatgeek.com/stella-lefty-tickets/brooklyn-new-york-brooklyn-paramount-2027-01-19-7-pm/concert/18527915",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473901,
         "url": "https://www.vividseats.com/stella-lefty-tickets-brooklyn-brooklyn-paramount-1-19-2027--concerts-pop/production/7473901",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1323,21 +1323,21 @@
         "event_id": "8231219",
         "url": "https://www.ticketliquidator.com/tickets/8231219/Stella-Lefty-tickets-Tue-Jan-19-2027-Brooklyn-Paramount",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107557107",
         "url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-19-2027/event/107557107",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231219",
         "url": "https://www.ticketnetwork.com/en/p/8231219",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1390,14 +1390,14 @@
         "event_id": 18539681,
         "url": "https://seatgeek.com/stella-lefty-tickets/brooklyn-new-york-brooklyn-paramount-2027-01-20-7-pm/concert/18539681",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7488065,
         "url": "https://www.vividseats.com/stella-lefty-tickets-brooklyn-brooklyn-paramount-1-20-2027--concerts-pop/production/7488065",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1411,21 +1411,21 @@
         "event_id": "8237158",
         "url": "https://www.ticketliquidator.com/tickets/8237158/Stella-Lefty-tickets-Wed-Jan-20-2027-Brooklyn-Paramount",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107554549",
         "url": "https://www.stubhub.ie/stella-lefty-brooklyn-tickets-1-20-2027/event/107554549",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8237158",
         "url": "https://www.ticketnetwork.com/en/p/8237158",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1478,7 +1478,7 @@
         "event_id": 18527883,
         "url": "https://seatgeek.com/stella-lefty-tickets/philadelphia-pennsylvania-the-met-philadelphia-2027-01-22-8-pm/concert/18527883",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1499,14 +1499,14 @@
         "event_id": "8231140",
         "url": "https://www.ticketliquidator.com/tickets/8231140/Stella-Lefty-tickets-Fri-Jan-22-2027-The-Met-Presented-by-Highmark",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231140",
         "url": "https://www.ticketnetwork.com/en/p/8231140",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1559,14 +1559,14 @@
         "event_id": 18527882,
         "url": "https://seatgeek.com/stella-lefty-tickets/washington-district-of-columbia-the-anthem-dc-2027-01-23-8-pm/concert/18527882",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473907,
         "url": "https://www.vividseats.com/stella-lefty-tickets-washington-dc-the-anthem-1-23-2027--concerts-pop/production/7473907",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1580,21 +1580,21 @@
         "event_id": "8231143",
         "url": "https://www.ticketliquidator.com/tickets/8231143/Stella-Lefty-tickets-Sat-Jan-23-2027-The-Anthem-DC",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231143",
         "url": "https://www.ticketnetwork.com/en/p/8231143",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670970",
         "url": "https://www.stubhub.ie/stella-lefty-washington-tickets-1-23-2027/event/107670970",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1648,14 +1648,14 @@
         "event_id": 18527884,
         "url": "https://seatgeek.com/stella-lefty-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-01-25-8-pm/concert/18527884",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473909,
         "url": "https://www.vividseats.com/stella-lefty-tickets-charlotte-the-fillmore-charlotte-1-25-2027--concerts-pop/production/7473909",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1669,14 +1669,14 @@
         "event_id": "8231132",
         "url": "https://www.ticketliquidator.com/tickets/8231132/Stella-Lefty-tickets-Mon-Jan-25-2027-The-Fillmore-Charlotte",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231132",
         "url": "https://www.ticketnetwork.com/en/p/8231132",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1734,7 +1734,7 @@
         "event_id": 18527886,
         "url": "https://seatgeek.com/stella-lefty-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-01-26-8-pm/concert/18527886",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1755,14 +1755,14 @@
         "event_id": "8231137",
         "url": "https://www.ticketnetwork.com/en/p/8231137",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8231137",
         "url": "https://www.ticketliquidator.com/tickets/8231137/Stella-Lefty-tickets-Tue-Jan-26-2027-The-Tabernacle-GA",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1815,14 +1815,14 @@
         "event_id": 18527887,
         "url": "https://seatgeek.com/stella-lefty-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-01-28-8-pm/concert/18527887",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473915,
         "url": "https://www.vividseats.com/stella-lefty-tickets-dallas-south-side-ballroom-1-28-2027--concerts-pop/production/7473915",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1836,14 +1836,14 @@
         "event_id": "8231142",
         "url": "https://www.ticketliquidator.com/tickets/8231142/Stella-Lefty-tickets-Thu-Jan-28-2027-South-Side-Ballroom-at-Gilleys",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231142",
         "url": "https://www.ticketnetwork.com/en/p/8231142",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1895,14 +1895,14 @@
         "event_id": 18527885,
         "url": "https://seatgeek.com/stella-lefty-tickets/houston-texas-house-of-blues-houston-2027-01-30-7-pm/concert/18527885",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473917,
         "url": "https://www.vividseats.com/stella-lefty-tickets-houston-house-of-blues-houston-1-30-2027--concerts-pop/production/7473917",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1916,14 +1916,14 @@
         "event_id": "8231123",
         "url": "https://www.ticketliquidator.com/tickets/8231123/Stella-Lefty-tickets-Sat-Jan-30-2027-House-Of-Blues-Houston",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231123",
         "url": "https://www.ticketnetwork.com/en/p/8231123",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1977,7 +1977,7 @@
         "event_id": 18527894,
         "url": "https://seatgeek.com/stella-lefty-tickets/san-francisco-california-the-masonic-san-francisco-2027-02-09-8-pm/concert/18527894",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1998,14 +1998,14 @@
         "event_id": "8231139",
         "url": "https://www.ticketliquidator.com/tickets/8231139/Stella-Lefty-tickets-Tue-Feb-9-2027-The-Masonic-San-Francisco",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231139",
         "url": "https://www.ticketnetwork.com/en/p/8231139",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2058,14 +2058,14 @@
         "event_id": 18527918,
         "url": "https://seatgeek.com/stella-lefty-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2027-02-12-8-pm/concert/18527918",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473943,
         "url": "https://www.vividseats.com/stella-lefty-tickets-salt-lake-city-the-union-event-center---salt-lake-city-2-12-2027--concerts-pop/production/7473943",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2079,14 +2079,14 @@
         "event_id": "8231141",
         "url": "https://www.ticketliquidator.com/tickets/8231141/Stella-Lefty-tickets-Fri-Feb-12-2027-The-Union-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231141",
         "url": "https://www.ticketnetwork.com/en/p/8231141",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2139,14 +2139,14 @@
         "event_id": 18527897,
         "url": "https://seatgeek.com/stella-lefty-tickets/denver-colorado-fillmore-auditorium-denver-2027-02-13-7-pm/concert/18527897",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473869,
         "url": "https://www.vividseats.com/stella-lefty-tickets-denver-fillmore-auditorium-denver-2-13-2027--concerts-pop/production/7473869",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2160,14 +2160,14 @@
         "event_id": "8231127",
         "url": "https://www.ticketnetwork.com/en/p/8231127",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8231127",
         "url": "https://www.ticketliquidator.com/tickets/8231127/Stella-Lefty-tickets-Sat-Feb-13-2027-Fillmore-Auditorium-Colorado",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2220,14 +2220,14 @@
         "event_id": 18527904,
         "url": "https://seatgeek.com/stella-lefty-tickets/chicago-illinois-byline-bank-aragon-ballroom-2027-02-20-8-pm/concert/18527904",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473949,
         "url": "https://www.vividseats.com/stella-lefty-tickets-chicago-aragon-ballroom-2-20-2027--concerts-pop/production/7473949",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2241,14 +2241,14 @@
         "event_id": "8231138",
         "url": "https://www.ticketliquidator.com/tickets/8231138/Stella-Lefty-tickets-Sat-Feb-20-2027-Byline-Bank-Aragon-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8231138",
         "url": "https://www.ticketnetwork.com/en/p/8231138",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2384,7 +2384,7 @@
         "event_id": "107666800",
         "url": "https://www.stubhub.ie/stella-lefty-tickets-manchester-o2-ritz-manchester-19-3-2027/event/107666800",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2445,6 +2445,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107665440",
+        "url": "https://www.stubhub.ie/stella-lefty-tickets-birmingham-o2-institute-2-birmingham-22-3-2027/event/107665440",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_o1n7vhc",
@@ -2455,7 +2462,8 @@
       "ACADEMY MUSIC GROUP (O2 INSTITUTE BIRMINGHAM)"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/stella-lefty-tickets-birmingham-o2-institute-2-birmingham-22-3-2027/event/107665440"
   },
   {
     "id": "tm-stella-lefty-2027-dublin-1avoz_8gkr5muwq",
@@ -2581,7 +2589,7 @@
     "city": "Saint Louis",
     "country": "United States Of America",
     "venue": "The Factory",
-    "datetime_iso": "2026-12-19T01:30:00Z",
+    "datetime_iso": "2026-12-19T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "21006522B5234211",
     "ticketmaster_url": "https://www.ticketmaster.com/stella-lefty-saint-louis-missouri-12-18-2026/event/21006522B5234211",
@@ -2589,7 +2597,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stella-lefty-saint-louis-missouri-12-18-2026/event/21006522B5234211",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2620,12 +2628,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8264079",
+        "url": "https://www.ticketnetwork.com/en/p/8264079",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8264079",
+        "url": "https://www.ticketliquidator.com/tickets/8264079/Stella-Lefty-tickets-Fri-Dec-18-2026-The-Factory-Chesterfield",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A-ZkfxGkegFVFo",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264079",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8264079/Stella-Lefty-tickets-Fri-Dec-18-2026-The-Factory-Chesterfield"
   },
   {
     "id": "tm-stella-lefty-2027-austin-z7r9jz1aav7f6",
@@ -2658,14 +2682,14 @@
         "event_id": 18527893,
         "url": "https://seatgeek.com/stella-lefty-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-01-31-8-pm/concert/18527893",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473925,
         "url": "https://www.vividseats.com/stella-lefty-tickets-austin-austin-city-limits-live-at-the-moody-theater-1-31-2027--concerts-pop/production/7473925",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2679,7 +2703,7 @@
         "event_id": "8231220",
         "url": "https://www.ticketnetwork.com/en/p/8231220",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2723,14 +2747,14 @@
         "event_id": 18527898,
         "url": "https://seatgeek.com/stella-lefty-tickets/nashville-tennessee-ryman-auditorium-2027-02-17-8-pm/concert/18527898",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7473945,
         "url": "https://www.vividseats.com/stella-lefty-tickets-nashville-ryman-auditorium-2-17-2027--concerts-pop/production/7473945",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2744,14 +2768,14 @@
         "event_id": "8231300",
         "url": "https://www.ticketnetwork.com/en/p/8231300",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8231300",
         "url": "https://www.ticketliquidator.com/tickets/8231300/Stella-Lefty-tickets-Wed-Feb-17-2027-Ryman-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2796,14 +2820,14 @@
         "event_id": 18539564,
         "url": "https://seatgeek.com/stella-lefty-tickets/nashville-tennessee-ryman-auditorium-2027-02-18-8-pm/concert/18539564",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7488565,
         "url": "https://www.vividseats.com/stella-lefty-tickets-nashville-ryman-auditorium-2-18-2027--concerts-pop/production/7488565",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2817,14 +2841,14 @@
         "event_id": "8237688",
         "url": "https://www.ticketnetwork.com/en/p/8237688",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8237688",
         "url": "https://www.ticketliquidator.com/tickets/8237688/Stella-Lefty-tickets-Thu-Feb-18-2027-Ryman-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

@@ -30,14 +30,14 @@
         "event_id": 18574499,
         "url": "https://seatgeek.com/josiah-queen-tickets/tulsa-oklahoma-bok-center-2027-04-08-7-pm/concert/18574499",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536901,
         "url": "https://www.vividseats.com/josiah-queen-tickets-tulsa-bok-center-4-8-2027/production/7536901",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,21 +51,21 @@
         "event_id": "107666045",
         "url": "https://www.stubhub.ie/josiah-queen-tulsa-tickets-4-8-2027/event/107666045",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8255314",
         "url": "https://www.ticketnetwork.com/en/p/8255314",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255314",
         "url": "https://www.ticketliquidator.com/tickets/8255314/Josiah-Queen-tickets-Thu-Apr-8-2027-BOK-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -125,6 +125,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8255315",
+        "url": "https://www.ticketnetwork.com/en/p/8255315",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8255315",
+        "url": "https://www.ticketliquidator.com/tickets/8255315/Josiah-Queen-tickets-Fri-Apr-9-2027-Chaifetz-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfNGkeE0a6p",
@@ -134,7 +148,9 @@
       "TRANSPARENT PRODUCTIONS"
     ],
     "ticket_limit": 8,
-    "genre": "Religious"
+    "genre": "Religious",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8255315",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8255315/Josiah-Queen-tickets-Fri-Apr-9-2027-Chaifetz-Arena"
   },
   {
     "id": "tm-josiah-queen-2027-indianapolis-vv1ffz_3xppazdu26",
@@ -167,14 +183,14 @@
         "event_id": 18574501,
         "url": "https://seatgeek.com/josiah-queen-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-04-10-7-pm/concert/18574501",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536895,
         "url": "https://www.vividseats.com/josiah-queen-tickets-indianapolis-gainbridge-fieldhouse-4-10-2027/production/7536895",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -188,21 +204,21 @@
         "event_id": "107666047",
         "url": "https://www.stubhub.ie/josiah-queen-indianapolis-tickets-4-10-2027/event/107666047",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8255316",
         "url": "https://www.ticketnetwork.com/en/p/8255316",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255316",
         "url": "https://www.ticketliquidator.com/tickets/8255316/Josiah-Queen-tickets-Sat-Apr-10-2027-Gainbridge-Fieldhouse",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -249,14 +265,14 @@
         "event_id": 18574503,
         "url": "https://seatgeek.com/josiah-queen-tickets/grand-rapids-michigan-van-andel-arena-2027-04-11-7-pm/concert/18574503",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536945,
         "url": "https://www.vividseats.com/josiah-queen-tickets-grand-rapids-van-andel-arena-4-11-2027/production/7536945",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -270,14 +286,14 @@
         "event_id": "8255317",
         "url": "https://www.ticketnetwork.com/en/p/8255317",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255317",
         "url": "https://www.ticketliquidator.com/tickets/8255317/Josiah-Queen-tickets-Sun-Apr-11-2027-Van-Andel-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -320,14 +336,14 @@
         "event_id": 18574502,
         "url": "https://seatgeek.com/josiah-queen-tickets/toronto-canada-coca-cola-coliseum-2027-04-13-7-pm/concert/18574502",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7537915,
         "url": "https://www.vividseats.com/josiah-queen-tickets-toronto-coca-cola-coliseum-4-13-2027/production/7537915",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -375,14 +391,14 @@
         "event_id": 18574500,
         "url": "https://seatgeek.com/josiah-queen-tickets/worcester-massachusetts-dcu-center-2027-04-15-7-pm/concert/18574500",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536941,
         "url": "https://www.vividseats.com/josiah-queen-tickets-worcester-dcu-center-4-15-2027/production/7536941",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -396,14 +412,14 @@
         "event_id": "8255318",
         "url": "https://www.ticketnetwork.com/en/p/8255318",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255318",
         "url": "https://www.ticketliquidator.com/tickets/8255318/Josiah-Queen-tickets-Thu-Apr-15-2027-DCU-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -446,14 +462,14 @@
         "event_id": 18574510,
         "url": "https://seatgeek.com/josiah-queen-tickets/hershey-pennsylvania-giant-center-2027-04-16-7-pm/concert/18574510",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536947,
         "url": "https://www.vividseats.com/josiah-queen-tickets-hershey-giant-center-4-16-2027/production/7536947",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -467,14 +483,14 @@
         "event_id": "8255319",
         "url": "https://www.ticketnetwork.com/en/p/8255319",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255319",
         "url": "https://www.ticketliquidator.com/tickets/8255319/Josiah-Queen-tickets-Fri-Apr-16-2027-Giant-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -520,14 +536,14 @@
         "event_id": 18574511,
         "url": "https://seatgeek.com/josiah-queen-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-17-7-pm/concert/18574511",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536954,
         "url": "https://www.vividseats.com/josiah-queen-tickets-charlotte-spectrum-center-4-17-2027/production/7536954",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -541,21 +557,21 @@
         "event_id": "107666040",
         "url": "https://www.stubhub.ie/josiah-queen-charlotte-tickets-4-17-2027/event/107666040",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8255320",
         "url": "https://www.ticketnetwork.com/en/p/8255320",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255320",
         "url": "https://www.ticketliquidator.com/tickets/8255320/Josiah-Queen-tickets-Sat-Apr-17-2027-Spectrum-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -598,14 +614,14 @@
         "event_id": 18574513,
         "url": "https://seatgeek.com/josiah-queen-tickets/duluth-georgia-gas-south-arena-2027-04-18-7-pm/concert/18574513",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536956,
         "url": "https://www.vividseats.com/josiah-queen-tickets-duluth-gas-south-arena-4-18-2027/production/7536956",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -619,14 +635,14 @@
         "event_id": "8255321",
         "url": "https://www.ticketnetwork.com/en/p/8255321",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255321",
         "url": "https://www.ticketliquidator.com/tickets/8255321/Josiah-Queen-tickets-Sun-Apr-18-2027-Gas-South-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -669,14 +685,14 @@
         "event_id": 18574515,
         "url": "https://seatgeek.com/josiah-queen-tickets/hoffman-estates-illinois-now-arena-2027-04-23-7-pm/concert/18574515",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7537180,
         "url": "https://www.vividseats.com/josiah-queen-tickets-hoffman-estates-now-arena-4-23-2027/production/7537180",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -690,14 +706,14 @@
         "event_id": "8255322",
         "url": "https://www.ticketnetwork.com/en/p/8255322",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255322",
         "url": "https://www.ticketliquidator.com/tickets/8255322/Josiah-Queen-tickets-Fri-Apr-23-2027-NOW-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -740,14 +756,14 @@
         "event_id": 18574521,
         "url": "https://seatgeek.com/josiah-queen-tickets/anaheim-california-honda-center-2027-04-29-7-pm/concert/18574521",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536975,
         "url": "https://www.vividseats.com/josiah-queen-tickets-anaheim-honda-center-4-29-2027/production/7536975",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -761,21 +777,21 @@
         "event_id": "107666044",
         "url": "https://www.stubhub.ie/josiah-queen-anaheim-tickets-4-29-2027/event/107666044",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8255323",
         "url": "https://www.ticketnetwork.com/en/p/8255323",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255323",
         "url": "https://www.ticketliquidator.com/tickets/8255323/Josiah-Queen-tickets-Thu-Apr-29-2027-Honda-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -819,7 +835,7 @@
         "event_id": 18574523,
         "url": "https://seatgeek.com/josiah-queen-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2027-04-30-7-pm/concert/18574523",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -840,14 +856,14 @@
         "event_id": "8255324",
         "url": "https://www.ticketnetwork.com/en/p/8255324",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255324",
         "url": "https://www.ticketliquidator.com/tickets/8255324/Josiah-Queen-tickets-Fri-Apr-30-2027-Viejas-Arena-At-Aztec-Bowl",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -874,7 +890,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "190065274189B911",
     "ticketmaster_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/josiah-queen-tickets/glendale-arizona-desert-diamond-arena-2027-05-01-7-pm/concert/18574526",
     "vividseats_url": "https://www.vividseats.com/josiah-queen-tickets-glendale-desert-diamond-arena-5-1-2027/production/7536958",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/damascus-road-tour-with-josiah-queen-glendale-arizona-05-01-2027/event/190065274189B911",
@@ -890,17 +906,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18574526,
+        "url": "https://seatgeek.com/josiah-queen-tickets/glendale-arizona-desert-diamond-arena-2027-05-01-7-pm/concert/18574526",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7536958,
         "url": "https://www.vividseats.com/josiah-queen-tickets-glendale-desert-diamond-arena-5-1-2027/production/7536958",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -914,21 +930,21 @@
         "event_id": "107666038",
         "url": "https://www.stubhub.ie/josiah-queen-glendale-tickets-5-1-2027/event/107666038",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8255325",
         "url": "https://www.ticketnetwork.com/en/p/8255325",
         "verified": true,
-        "last_verified_at": "2026-09-25",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255325",
         "url": "https://www.ticketliquidator.com/tickets/8255325/Josiah-Queen-tickets-Sat-May-1-2027-Desert-Diamond-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -974,7 +990,7 @@
         "event_id": 18606512,
         "url": "https://seatgeek.com/josiah-queen-tickets/fort-worth-texas-dickies-arena-2027-05-05-7-pm/concert/18606512",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -995,21 +1011,21 @@
         "event_id": "107669692",
         "url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-5-2027/event/107669692",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8272507",
         "url": "https://www.ticketnetwork.com/en/p/8272507",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8272507",
         "url": "https://www.ticketliquidator.com/tickets/8272507/Josiah-Queen-tickets-Wed-May-5-2027-Ariat-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1055,14 +1071,14 @@
         "event_id": 18574527,
         "url": "https://seatgeek.com/josiah-queen-tickets/cedar-park-texas-h-e-b-center-at-cedar-park-2027-05-07-7-pm/concert/18574527",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7537176,
         "url": "https://www.vividseats.com/josiah-queen-tickets-cedar-park-heb-center-at-cedar-park-5-7-2027/production/7537176",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1076,14 +1092,14 @@
         "event_id": "8255326",
         "url": "https://www.ticketliquidator.com/tickets/8255326/Josiah-Queen-tickets-Fri-May-7-2027-HEB-Center-at-Cedar-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8255326",
         "url": "https://www.ticketnetwork.com/en/p/8255326",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1128,7 +1144,7 @@
         "event_id": 18574530,
         "url": "https://seatgeek.com/josiah-queen-tickets/fort-worth-texas-dickies-arena-2027-05-08-7-pm/concert/18574530",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1149,21 +1165,21 @@
         "event_id": "107666052",
         "url": "https://www.stubhub.ie/josiah-queen-fort-worth-tickets-5-8-2027/event/107666052",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8255327",
         "url": "https://www.ticketnetwork.com/en/p/8255327",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8255327",
         "url": "https://www.ticketliquidator.com/tickets/8255327/Josiah-Queen-tickets-Sat-May-8-2027-Ariat-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

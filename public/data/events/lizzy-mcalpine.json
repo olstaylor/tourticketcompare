@@ -208,7 +208,7 @@
         "event_id": 7606722,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-4-9-2027--concerts-alternative/production/7606722",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -222,7 +222,7 @@
         "event_id": "107671407",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-9-4-2027/event/107671407",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -328,14 +328,14 @@
         "event_id": 18619416,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/houston-texas-713-music-hall-2027-05-01-7-pm/concert/18619416",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606570,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-houston-713-music-hall-5-1-2027/production/7606570",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -349,21 +349,21 @@
         "event_id": "8287503",
         "url": "https://www.ticketnetwork.com/en/p/8287503",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287503",
         "url": "https://www.ticketliquidator.com/tickets/8287503/Lizzy-McAlpine-tickets-Sat-May-1-2027-713-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670451",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-houston-tickets-5-1-2027/event/107670451",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -416,7 +416,7 @@
         "event_id": 18619418,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/durham-north-carolina-dpac-durham-performing-arts-center-2027-05-04-7-pm/concert/18619418",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -432,6 +432,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287504",
+        "url": "https://www.ticketliquidator.com/tickets/8287504/Lizzy-McAlpine-tickets-Tue-May-4-2027-Durham-Performing-Arts-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5eVZ_KLLJEQL",
@@ -452,7 +459,8 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287504/Lizzy-McAlpine-tickets-Tue-May-4-2027-Durham-Performing-Arts-Center"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-detroit-vv1afzkfmgkdd0jd5",
@@ -485,14 +493,14 @@
         "event_id": 18619420,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/detroit-michigan-fox-theatre-detroit-2027-05-07-7-pm/concert/18619420",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606574,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-detroit-fox-theatre-detroit-5-7-2027/production/7606574",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -506,14 +514,14 @@
         "event_id": "8287505",
         "url": "https://www.ticketnetwork.com/en/p/8287505",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287505",
         "url": "https://www.ticketliquidator.com/tickets/8287505/Lizzy-McAlpine-tickets-Fri-May-7-2027-Fox-Theatre-Detroit",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -570,14 +578,14 @@
         "event_id": 18619426,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/indianapolis-indiana-clowes-memorial-hall-2027-05-09-7-pm/concert/18619426",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606576,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-indianapolis-clowes-memorial-hall-5-9-2027/production/7606576",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -591,14 +599,14 @@
         "event_id": "8287506",
         "url": "https://www.ticketnetwork.com/en/p/8287506",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287506",
         "url": "https://www.ticketliquidator.com/tickets/8287506/Lizzy-McAlpine-tickets-Sun-May-9-2027-Clowes-Memorial-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -655,14 +663,14 @@
         "event_id": 18619429,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-12-7-pm/concert/18619429",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606578,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-12-2027/production/7606578",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -676,14 +684,14 @@
         "event_id": "8287507",
         "url": "https://www.ticketnetwork.com/en/p/8287507",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287507",
         "url": "https://www.ticketliquidator.com/tickets/8287507/Lizzy-McAlpine-tickets-Wed-May-12-2027-State-Theatre-MN",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -756,6 +764,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287509",
+        "url": "https://www.ticketnetwork.com/en/p/8287509",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287509",
+        "url": "https://www.ticketliquidator.com/tickets/8287509/Lizzy-McAlpine-tickets-Sat-May-15-2027-Stifel-Theatre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPu_GA2r6BF",
@@ -776,7 +798,9 @@
     "organizer_names": [
       "AEG LIVE"
     ],
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287509",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287509/Lizzy-McAlpine-tickets-Sat-May-15-2027-Stifel-Theatre"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-nashville-g5viz_kqsm0og",
@@ -809,14 +833,14 @@
         "event_id": 18619440,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/nashville-tennessee-bridgestone-arena-2027-06-16-7-pm/concert/18619440",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606584,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-nashville-bridgestone-arena-6-16-2027/production/7606584",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -830,21 +854,21 @@
         "event_id": "8287510",
         "url": "https://www.ticketnetwork.com/en/p/8287510",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287510",
         "url": "https://www.ticketliquidator.com/tickets/8287510/Lizzy-McAlpine-tickets-Wed-Jun-16-2027-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670480",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-nashville-tickets-6-16-2027/event/107670480",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -902,14 +926,14 @@
         "event_id": 18619442,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-06-18-7-pm/concert/18619442",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606586,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-philadelphia-xfinity-mobile-arena-6-18-2027/production/7606586",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -923,21 +947,21 @@
         "event_id": "8287512",
         "url": "https://www.ticketnetwork.com/en/p/8287512",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287512",
         "url": "https://www.ticketliquidator.com/tickets/8287512/Lizzy-McAlpine-tickets-Fri-Jun-18-2027-Xfinity-Mobile-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670455",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-philadelphia-tickets-6-18-2027/event/107670455",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -995,14 +1019,14 @@
         "event_id": 18619443,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-20-7-pm/concert/18619443",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606590,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-20-2027/production/7606590",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1016,14 +1040,14 @@
         "event_id": "8287513",
         "url": "https://www.ticketnetwork.com/en/p/8287513",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287513",
         "url": "https://www.ticketliquidator.com/tickets/8287513/Lizzy-McAlpine-tickets-Sun-Jun-20-2027-Agganis-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1080,14 +1104,14 @@
         "event_id": 18619444,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/new-york-new-york-madison-square-garden-2027-06-24-7-pm/concert/18619444",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606580,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-new-york-madison-square-garden-6-24-2027/production/7606580",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1101,21 +1125,21 @@
         "event_id": "8287514",
         "url": "https://www.ticketnetwork.com/en/p/8287514",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287514",
         "url": "https://www.ticketliquidator.com/tickets/8287514/Lizzy-McAlpine-tickets-Thu-Jun-24-2027-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670456",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-new-york-tickets-6-24-2027/event/107670456",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1178,14 +1202,14 @@
         "event_id": 18619445,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbia-maryland-merriweather-post-pavilion-2027-06-25-7-pm/concert/18619445",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606598,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbia-merriweather-post-pavilion-6-25-2027--concerts-alternative/production/7606598",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1199,14 +1223,14 @@
         "event_id": "8287516",
         "url": "https://www.ticketnetwork.com/en/p/8287516",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287516",
         "url": "https://www.ticketliquidator.com/tickets/8287516/Lizzy-McAlpine-tickets-Fri-Jun-25-2027-Merriweather-Post-Pavilion",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1263,14 +1287,14 @@
         "event_id": 18619449,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/toronto-canada-scotiabank-arena-2027-06-27-7-pm/concert/18619449",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606716,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-toronto-scotiabank-arena-6-27-2027--concerts-alternative/production/7606716",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1327,14 +1351,14 @@
         "event_id": 18619452,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/chicago-illinois-united-center-2027-06-29-7-pm/concert/18619452",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606600,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-chicago-united-center-6-29-2027--concerts-alternative/production/7606600",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1348,21 +1372,21 @@
         "event_id": "8287517",
         "url": "https://www.ticketnetwork.com/en/p/8287517",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287517",
         "url": "https://www.ticketliquidator.com/tickets/8287517/Lizzy-McAlpine-tickets-Tue-Jun-29-2027-United-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107669203",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-chicago-tickets-6-29-2027/event/107669203",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1420,14 +1444,14 @@
         "event_id": 18619454,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/austin-texas-moody-center-atx-2027-07-02-7-pm/concert/18619454",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606604,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-austin-moody-center-atx-7-2-2027--concerts-alternative/production/7606604",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1441,21 +1465,21 @@
         "event_id": "8287518",
         "url": "https://www.ticketnetwork.com/en/p/8287518",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287518",
         "url": "https://www.ticketliquidator.com/tickets/8287518/Lizzy-McAlpine-tickets-Fri-Jul-2-2027-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670457",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-austin-tickets-7-2-2027/event/107670457",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1513,14 +1537,14 @@
         "event_id": 18619456,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-diego-california-the-rady-shell-at-jacobs-park-2027-07-09-6-30-pm/concert/18619456",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606606,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-diego-the-rady-shell-at-jacobs-park-7-9-2027--concerts-alternative/production/7606606",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1534,14 +1558,14 @@
         "event_id": "8287519",
         "url": "https://www.ticketnetwork.com/en/p/8287519",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287519",
         "url": "https://www.ticketliquidator.com/tickets/8287519/Lizzy-McAlpine-tickets-Fri-Jul-9-2027-The-Rady-Shell-at-Jacobs-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1599,14 +1623,14 @@
         "event_id": 18619461,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/los-angeles-california-forum-23-2027-07-10-7-pm/concert/18619461",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606614,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-inglewood-kia-forum-7-10-2027/production/7606614",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1620,21 +1644,21 @@
         "event_id": "8287520",
         "url": "https://www.ticketnetwork.com/en/p/8287520",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287520",
         "url": "https://www.ticketliquidator.com/tickets/8287520/Lizzy-McAlpine-tickets-Sat-Jul-10-2027-The-Kia-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670458",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-inglewood-tickets-7-10-2027/event/107670458",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1692,14 +1716,14 @@
         "event_id": 18619460,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/san-francisco-california-chase-center-2027-07-13-7-pm/concert/18619460",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606620,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-san-francisco-chase-center-7-13-2027/production/7606620",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1713,21 +1737,21 @@
         "event_id": "8287521",
         "url": "https://www.ticketnetwork.com/en/p/8287521",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287521",
         "url": "https://www.ticketliquidator.com/tickets/8287521/Lizzy-McAlpine-tickets-Tue-Jul-13-2027-Chase-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670459",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-san-francisco-tickets-7-13-2027/event/107670459",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1785,14 +1809,14 @@
         "event_id": 18619462,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/portland-oregon-moda-center-2027-07-15-7-pm/concert/18619462",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606624,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-portland-moda-center-7-15-2027/production/7606624",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1806,14 +1830,14 @@
         "event_id": "8287522",
         "url": "https://www.ticketnetwork.com/en/p/8287522",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287522",
         "url": "https://www.ticketliquidator.com/tickets/8287522/Lizzy-McAlpine-tickets-Thu-Jul-15-2027-Moda-Center-at-the-Rose-Quarter",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1870,14 +1894,14 @@
         "event_id": 18619466,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/seattle-washington-climate-pledge-arena-2027-07-17-7-pm/concert/18619466",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606630,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-seattle-climate-pledge-arena-7-17-2027/production/7606630",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1891,21 +1915,21 @@
         "event_id": "8287523",
         "url": "https://www.ticketnetwork.com/en/p/8287523",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287523",
         "url": "https://www.ticketliquidator.com/tickets/8287523/Lizzy-McAlpine-tickets-Sat-Jul-17-2027-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670460",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-seattle-tickets-7-17-2027/event/107670460",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2028,7 +2052,7 @@
         "event_id": 7606823,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-3-31-2027--concerts-alternative/production/7606823",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2042,21 +2066,21 @@
         "event_id": "8297685",
         "url": "https://www.ticketnetwork.com/en/p/8297685",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8297685",
         "url": "https://www.ticketliquidator.com/tickets/8297685/Lizzy-McAlpine-tickets-Wed-Mar-31-2027-O2-Academy-Brixton",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671408",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-31-3-2027/event/107671408",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2111,7 +2135,7 @@
         "event_id": 7628968,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-1-2027/production/7628968",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2125,21 +2149,21 @@
         "event_id": "8297134",
         "url": "https://www.ticketnetwork.com/en/p/8297134",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8297134",
         "url": "https://www.ticketliquidator.com/tickets/8297134/Lizzy-McAlpine-tickets-Thu-Apr-1-2027-O2-Academy-Brixton",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671423",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-1-4-2027/event/107671423",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2195,7 +2219,7 @@
         "event_id": 7636984,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-london-o2-academy-brixton-4-2-2027/production/7636984",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2209,21 +2233,21 @@
         "event_id": "8299948",
         "url": "https://www.ticketnetwork.com/en/p/8299948",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8299948",
         "url": "https://www.ticketliquidator.com/tickets/8299948/Lizzy-McAlpine-tickets-Fri-Apr-2-2027-O2-Academy-Brixton",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107670889",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-london-o2-academy-brixton-2-4-2027/event/107670889",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2279,7 +2303,7 @@
         "event_id": 7606720,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-birmingham-o2-academy---birmingham-4-7-2027--concerts-alternative/production/7606720",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2293,7 +2317,7 @@
         "event_id": "107671411",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-birmingham-o2-academy-birmingham-7-4-2027/event/107671411",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2346,7 +2370,7 @@
         "event_id": 7637404,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-4-10-2027/production/7637404",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2360,21 +2384,21 @@
         "event_id": "8299949",
         "url": "https://www.ticketnetwork.com/en/p/8299949",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8299949",
         "url": "https://www.ticketliquidator.com/tickets/8299949/Lizzy-McAlpine-tickets-Sat-Apr-10-2027-O2-Academy-Glasgow",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671893",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-tickets-glasgow-o2-academy-glasgow-10-4-2027/event/107671893",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2422,14 +2446,14 @@
         "event_id": 18619417,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/dallas-texas-the-bomb-factory-dallas-2027-04-30-7-pm/concert/18619417",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606724,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-dallas-the-bomb-factory-4-30-2027--concerts-alternative/production/7606724",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2443,14 +2467,14 @@
         "event_id": "8287525",
         "url": "https://www.ticketnetwork.com/en/p/8287525",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287525",
         "url": "https://www.ticketliquidator.com/tickets/8287525/Lizzy-McAlpine-tickets-Fri-Apr-30-2027-The-Bomb-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2491,14 +2515,14 @@
         "event_id": 18619419,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/atlanta-georgia-fox-theatre-atlanta-2027-05-03-7-pm/concert/18619419",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606728,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-atlanta-fox-theatre---atlanta-5-3-2027--concerts-alternative/production/7606728",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2512,14 +2536,14 @@
         "event_id": "8300134",
         "url": "https://www.ticketnetwork.com/en/p/8300134",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300134",
         "url": "https://www.ticketliquidator.com/tickets/8300134/Lizzy-McAlpine-tickets-Mon-May-3-2027-Fabulous-Fox-Theatre-Atlanta",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2560,14 +2584,14 @@
         "event_id": 18619421,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/columbus-ohio-palace-theatre-columbus-2027-05-06-7-pm/concert/18619421",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606732,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-columbus-palace-theatre-columbus-5-6-2027--concerts-alternative/production/7606732",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2581,14 +2605,14 @@
         "event_id": "8287526",
         "url": "https://www.ticketnetwork.com/en/p/8287526",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287526",
         "url": "https://www.ticketliquidator.com/tickets/8287526/Lizzy-McAlpine-tickets-Thu-May-6-2027-Palace-Theatre-Columbus",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2629,14 +2653,14 @@
         "event_id": 18619430,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/milwaukee-wisconsin-riverside-theater-milwaukee-2027-05-10-7-pm/concert/18619430",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606750,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-milwaukee-riverside-theater---wi-5-10-2027--concerts-alternative/production/7606750",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2650,14 +2674,14 @@
         "event_id": "8287527",
         "url": "https://www.ticketnetwork.com/en/p/8287527",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287527",
         "url": "https://www.ticketliquidator.com/tickets/8287527/Lizzy-McAlpine-tickets-Mon-May-10-2027-Riverside-Theater-WI",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2698,14 +2722,14 @@
         "event_id": 18637702,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/minneapolis-minnesota-state-theatre-minneapolis-2027-05-13-7-pm/concert/18637702",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7631653,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-minneapolis-state-theatre-minneapolis-5-13-2027/production/7631653",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2719,14 +2743,14 @@
         "event_id": "8300364",
         "url": "https://www.ticketnetwork.com/en/p/8300364",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8300364",
         "url": "https://www.ticketliquidator.com/tickets/8300364/Lizzy-McAlpine-tickets-Thu-May-13-2027-State-Theatre-MN",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2783,14 +2807,14 @@
         "event_id": 18619436,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/kansas-city-missouri-the-midland-theatre-mo-2027-05-17-7-pm/concert/18619436",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606754,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-kansas-city-the-midland-theatre-5-17-2027--concerts-alternative/production/7606754",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2804,14 +2828,14 @@
         "event_id": "8287528",
         "url": "https://www.ticketnetwork.com/en/p/8287528",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287528",
         "url": "https://www.ticketliquidator.com/tickets/8287528/Lizzy-McAlpine-tickets-Mon-May-17-2027-The-Midland-Theatre-MO",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2868,11 +2892,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8287529",
+        "url": "https://www.ticketnetwork.com/en/p/8287529",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8287529",
+        "url": "https://www.ticketliquidator.com/tickets/8287529/Lizzy-McAlpine-tickets-Tue-May-18-2027-Thelma-Gaylord-PAT-At-Civic-Center-Music-Hall",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAeA-P",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8287529",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8287529/Lizzy-McAlpine-tickets-Tue-May-18-2027-Thelma-Gaylord-PAT-At-Civic-Center-Music-Hall"
   },
   {
     "id": "tm-lizzy-mcalpine-2027-boston-vv1a8vpuzga1bypi",
@@ -2905,14 +2945,14 @@
         "event_id": 18637280,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/boston-massachusetts-agganis-arena-2027-06-21-7-pm/concert/18637280",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7631927,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-boston-agganis-arena-6-21-2027--concerts-alternative/production/7631927",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2926,14 +2966,14 @@
         "event_id": "8298345",
         "url": "https://www.ticketnetwork.com/en/p/8298345",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8298345",
         "url": "https://www.ticketliquidator.com/tickets/8298345/Lizzy-McAlpine-tickets-Mon-Jun-21-2027-Agganis-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2990,14 +3030,14 @@
         "event_id": 18619455,
         "url": "https://seatgeek.com/lizzy-mcalpine-tickets/morrison-colorado-red-rocks-amphitheatre-2027-07-06-7-pm/concert/18619455",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7606811,
         "url": "https://www.vividseats.com/lizzy-mcalpine-tickets-morrison-red-rocks-amphitheatre-7-6-2027--concerts-alternative/production/7606811",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3011,21 +3051,21 @@
         "event_id": "8287530",
         "url": "https://www.ticketnetwork.com/en/p/8287530",
         "verified": true,
-        "last_verified_at": "2026-10-03",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8287530",
         "url": "https://www.ticketliquidator.com/tickets/8287530/Lizzy-McAlpine-tickets-Tue-Jul-6-2027-Red-Rocks-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107669216",
         "url": "https://www.stubhub.ie/lizzy-mcalpine-morrison-tickets-7-6-2027/event/107669216",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

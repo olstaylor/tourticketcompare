@@ -9,6 +9,8 @@
 // without running anything.
 
 import { spawn, spawnSync } from "node:child_process";
+import fs from "node:fs";
+import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { LANES, stepsFor } from "./test-manifest.mjs";
@@ -44,6 +46,14 @@ if (argv.includes("--list")) {
   process.exit(0);
 }
 
+// One scratch cache of rendered routes per run, shared by the site-crawl steps
+// through the environment (scripts/lib/render-cache.mjs). Removed on exit.
+if (!process.env.ROUTE_RENDER_CACHE_DIR) {
+  const cacheDir = fs.mkdtempSync(path.join(os.tmpdir(), "ttc-route-cache-"));
+  process.env.ROUTE_RENDER_CACHE_DIR = cacheDir;
+  process.on("exit", () => fs.rmSync(cacheDir, { recursive: true, force: true }));
+}
+
 const seconds = (ms) => `${(ms / 1000).toFixed(1)}s`;
 const started = Date.now();
 const timings = [];
@@ -74,8 +84,8 @@ const fail = (step, elapsed, status) => {
 
 // Output is buffered per step and printed when the step ends, so overlapping
 // crawls do not interleave their logs.
-const runAsync = (step) =>
-  new Promise((resolve) => {
+const runAsync = (step, ready = Promise.resolve()) =>
+  ready.then(() => new Promise((resolve) => {
     const stepStarted = Date.now();
     const child = spawn(step.run, { cwd: ROOT, shell: true, stdio: ["inherit", "pipe", "pipe"] });
     let output = "";
@@ -84,7 +94,7 @@ const runAsync = (step) =>
     const done = (status) => resolve({ step, output, status, elapsed: Date.now() - stepStarted });
     child.on("error", () => done(1));
     child.on("close", (code) => done(code ?? 1));
-  });
+  }));
 
 let count = 0;
 for (const group of plan) {
@@ -102,7 +112,14 @@ for (const group of plan) {
 
   console.log(`[${count + 1}-${count + group.length}/${steps.length}] running in parallel: ${group.map((s) => s.id).join(", ")}\n`);
   count += group.length;
-  const results = await Promise.all(group.map(runAsync));
+  // `needs` is honoured only when the named step is in this group (a lane that
+  // lacks it just starts the step straight away).
+  const running = new Map();
+  for (const step of group) {
+    const dependency = step.needs ? running.get(step.needs) : null;
+    running.set(step.id, runAsync(step, dependency ? dependency.then(() => undefined) : undefined));
+  }
+  const results = await Promise.all(group.map((step) => running.get(step.id)));
   for (const { step, output, status, elapsed } of results) {
     console.log(`--- ${step.id}\n  $ ${step.run}\n${output}`);
     if (status === 0) {

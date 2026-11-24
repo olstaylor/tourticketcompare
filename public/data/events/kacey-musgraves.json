@@ -428,7 +428,7 @@
         "event_id": 7021538,
         "url": "https://www.vividseats.com/kacey-musgraves-tickets-glasgow-ovo-hydro-2-22-2027--concerts-country-and-folk/production/7021538",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -442,21 +442,21 @@
         "event_id": "7964274",
         "url": "https://www.ticketliquidator.com/tickets/7964274/Kacey-Musgraves-tickets-Mon-Feb-22-2027-OVO-Hydro",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107167077",
         "url": "https://www.stubhub.ie/kacey-musgraves-tickets-glasgow-ovo-hydro-arena-glasgow-22-2-2027/event/107167077",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "7964274",
         "url": "https://www.ticketnetwork.com/en/p/7964274",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -512,7 +512,7 @@
         "event_id": 7021540,
         "url": "https://www.vividseats.com/kacey-musgraves-tickets-manchester-ao-arena-2-24-2027--concerts-country-and-folk/production/7021540",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -526,21 +526,21 @@
         "event_id": "7964277",
         "url": "https://www.ticketliquidator.com/tickets/7964277/Kacey-Musgraves-tickets-Wed-Feb-24-2027-AO-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107167078",
         "url": "https://www.stubhub.ie/kacey-musgraves-tickets-manchester-manchester-ao-arena-24-2-2027/event/107167078",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "7964277",
         "url": "https://www.ticketnetwork.com/en/p/7964277",
         "verified": true,
-        "last_verified_at": "2026-10-19",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -596,7 +596,7 @@
         "event_id": 7021542,
         "url": "https://www.vividseats.com/kacey-musgraves-tickets-london-ovo-arena-wembley-2-26-2027--concerts-country-and-folk/production/7021542",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -610,21 +610,21 @@
         "event_id": "7964279",
         "url": "https://www.ticketliquidator.com/tickets/7964279/Kacey-Musgraves-tickets-Fri-Feb-26-2027-OVO-Arena-Wembley",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107162746",
         "url": "https://www.stubhub.ie/kacey-musgraves-tickets-london-ovo-arena-wembley-26-2-2027/event/107162746",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "7964279",
         "url": "https://www.ticketnetwork.com/en/p/7964279",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -656,7 +656,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/kacey-musgraves-dublin-24-06-2027/event/1800656B91B796A1",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -691,30 +691,17 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_pGkmocyQ-",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "MCD PRODUCTIONS"
     ],
-    "genre": "Country",
-    "presales": [
-      {
-        "name": "Bank of Ireland Mastercard Presale",
-        "start": "2026-11-18T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      },
-      {
-        "name": "MCD Presale",
-        "start": "2026-11-19T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      }
-    ]
+    "genre": "Country"
   },
   {
     "id": "tm-kacey-musgraves-2027-belfast-1adoz_pgkwxv3eu",
     "artist_slug": "kacey-musgraves",
     "artist_name": "Kacey Musgraves",
-    "event_name": "Kacey Musgraves - the Outlier Tour",
+    "event_name": "Kacey Musgraves",
     "city": "Belfast",
     "country": "Great Britain",
     "venue": "Custom House Square Belfast",
@@ -726,7 +713,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/kacey-musgraves-the-outlier-tour-belfast-25-06-2027/event/3800656CA2D120B6",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -761,18 +748,10 @@
     },
     "ticketmaster_discovery_event_id": "1AdOZ_pGkwxV3eU",
     "timezone": "Europe/London",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T09:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "SD EVENT MANAGEMENT LTD"
     ],
-    "genre": "Country",
-    "presales": [
-      {
-        "name": "Promoter Presale",
-        "start": "2026-11-19T09:00:00Z",
-        "end": "2026-11-20T08:00:00Z"
-      }
-    ]
+    "genre": "Country"
   }
 ]

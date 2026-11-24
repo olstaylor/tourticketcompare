@@ -37,7 +37,7 @@
         "event_id": 7214045,
         "url": "https://www.vividseats.com/the-dead-south-tickets-london-o2-academy-brixton-3-5-2027/production/7214045",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,21 +51,21 @@
         "event_id": "8324861",
         "url": "https://www.ticketnetwork.com/en/p/8324861",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8324861",
         "url": "https://www.ticketliquidator.com/tickets/8324861/The-Dead-South-tickets-Fri-Mar-5-2027-O2-Academy-Brixton",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107441078",
         "url": "https://www.stubhub.ie/the-dead-south-tickets-london-o2-academy-brixton-5-3-2027/event/107441078",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -94,7 +94,7 @@
     "ticketmaster_event_id": "350064CB90A07FE4",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/the-dead-south-manchester-06-03-2027/event/350064CB90A07FE4",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-manchester-the-warehouse-aviva-studios-3-6-2027/production/7185755",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/the-dead-south-manchester-06-03-2027/event/350064CB90A07FE4",
     "last_verified_at": "2026-11-10",
@@ -116,11 +116,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7185755,
+        "url": "https://www.vividseats.com/the-dead-south-tickets-manchester-the-warehouse-aviva-studios-3-6-2027/production/7185755",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -177,7 +177,7 @@
         "event_id": 7520869,
         "url": "https://www.vividseats.com/the-dead-south-tickets-wolverhampton-wolverhampton-civic-hall-3-10-2027/production/7520869",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -249,7 +249,7 @@
         "event_id": "107442079",
         "url": "https://www.stubhub.ie/the-dead-south-tickets-cardiff-utilita-arena-cardiff-12-3-2027/event/107442079",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -392,7 +392,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1500655FE53EBDA4",
     "ticketmaster_url": "https://www.ticketmaster.com/the-dead-south-silence-please-tour-silver-spring-maryland-04-19-2027/event/1500655FE53EBDA4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-19-8-pm/concert/18754695",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-silver-spring-the-fillmore-silver-spring-4-19-2027/production/7835102",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-silence-please-tour-silver-spring-maryland-04-19-2027/event/1500655FE53EBDA4",
@@ -408,17 +408,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754695,
+        "url": "https://seatgeek.com/the-dead-south-tickets/silver-spring-maryland-the-fillmore-silver-spring-2027-04-19-8-pm/concert/18754695",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7835102,
         "url": "https://www.vividseats.com/the-dead-south-tickets-silver-spring-the-fillmore-silver-spring-4-19-2027/production/7835102",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -432,14 +432,14 @@
         "event_id": "8361963",
         "url": "https://www.ticketnetwork.com/en/p/8361963",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8361963",
         "url": "https://www.ticketliquidator.com/tickets/8361963/The-Dead-South-tickets-Mon-Apr-19-2027-The-Fillmore-Silver-Spring",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -470,7 +470,7 @@
     "country": "United States Of America",
     "venue": "The Factory",
     "datetime_iso": "2027-04-28T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "SIlence, Please Tour 2027",
     "ticketmaster_event_id": "2100656515A82762",
     "ticketmaster_url": "https://www.ticketmaster.com/the-dead-south-silence-please-tour-saint-louis-missouri-04-27-2027/event/2100656515A82762",
     "seatgeek_url": "",
@@ -508,12 +508,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361928",
+        "url": "https://www.ticketnetwork.com/en/p/8361928",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361928",
+        "url": "https://www.ticketliquidator.com/tickets/8361928/The-Dead-South-tickets-Tue-Apr-27-2027-The-Factory-Chesterfield",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16e7Z_pf4G7neqx",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361928",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361928/The-Dead-South-tickets-Tue-Apr-27-2027-The-Factory-Chesterfield"
   },
   {
     "id": "tm-the-dead-south-2027-kansas-city-vv1akzk40gkemk2eh",
@@ -553,7 +569,7 @@
         "event_id": 7833445,
         "url": "https://www.vividseats.com/the-dead-south-tickets-kansas-city-crossroads-kc-at-grinders-4-28-2027/production/7833445",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -562,6 +578,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361930",
+        "url": "https://www.ticketliquidator.com/tickets/8361930/The-Dead-South-tickets-Wed-Apr-28-2027-GrindersKC",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk40GkeMk2eH",
@@ -571,7 +594,8 @@
       "MAMMOTH INC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361930/The-Dead-South-tickets-Wed-Apr-28-2027-GrindersKC"
   },
   {
     "id": "tm-the-dead-south-2027-lexington-1avbz_4gku2y0tx",
@@ -585,7 +609,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1600655D8FE64A7E",
     "ticketmaster_url": "https://www.ticketmaster.com/the-dead-south-w-amigo-the-lexington-kentucky-04-30-2027/event/1600655D8FE64A7E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/lexington-kentucky-the-rail-3-2027-04-30-8-pm/concert/18738211",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-lexington-the-rail-4-30-2027/production/7794133",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-w-amigo-the-lexington-kentucky-04-30-2027/event/1600655D8FE64A7E",
@@ -601,17 +625,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18738211,
+        "url": "https://seatgeek.com/the-dead-south-tickets/lexington-kentucky-the-rail-3-2027-04-30-8-pm/concert/18738211",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7794133,
         "url": "https://www.vividseats.com/the-dead-south-tickets-lexington-the-rail-4-30-2027/production/7794133",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -625,14 +649,14 @@
         "event_id": "8352785",
         "url": "https://www.ticketnetwork.com/en/p/8352785",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8352785",
         "url": "https://www.ticketliquidator.com/tickets/8352785/The-Dead-South-tickets-Fri-Apr-30-2027-The-Rail-KY",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -659,11 +683,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "1B006564A01B9322",
     "ticketmaster_url": "https://www.ticketmaster.com/the-dead-south-nashville-tennessee-05-01-2027/event/1B006564A01B9322",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/nashville-tennessee-the-truth-nashville-2027-05-01-8-pm/concert/18754930",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-dead-south-nashville-tennessee-05-01-2027/event/1B006564A01B9322",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -675,17 +699,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754930,
+        "url": "https://seatgeek.com/the-dead-south-tickets/nashville-tennessee-the-truth-nashville-2027-05-01-8-pm/concert/18754930",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834201,
         "url": "https://www.vividseats.com/the-dead-south-tickets-nashville-the-truth-5-1-2027/production/7834201",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -699,14 +723,14 @@
         "event_id": "8361931",
         "url": "https://www.ticketnetwork.com/en/p/8361931",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8361931",
         "url": "https://www.ticketliquidator.com/tickets/8361931/The-Dead-South-tickets-Sat-May-1-2027-The-Truth",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -724,6 +748,11 @@
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-04-02T03:00:00Z"
+      },
+      {
+        "name": "2026 Holiday Promotion",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2027-01-01T04:00:00Z"
       }
     ]
   },
@@ -736,10 +765,10 @@
     "country": "Canada",
     "venue": "Malkin Bowl",
     "datetime_iso": "2027-09-24T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please World Tour",
     "ticketmaster_event_id": "110065638EDD3D60",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-vancouver-british-columbia-09-23-2027/event/110065638EDD3D60",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/vancouver-canada-malkin-bowl-2027-09-23-6-pm/concert/18754369",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-vancouver-british-columbia-09-23-2027/event/110065638EDD3D60",
@@ -755,11 +784,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754369,
+        "url": "https://seatgeek.com/the-dead-south-tickets/vancouver-canada-malkin-bowl-2027-09-23-6-pm/concert/18754369",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -779,14 +808,14 @@
         "event_id": "8361932",
         "url": "https://www.ticketnetwork.com/en/p/8361932",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8361932",
         "url": "https://www.ticketliquidator.com/tickets/8361932/The-Dead-South-tickets-Thu-Sep-23-2027-Malkin-Bowl-Stanley-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -835,7 +864,7 @@
         "event_id": 18754318,
         "url": "https://seatgeek.com/the-dead-south-tickets/kelowna-canada-prospera-place-2027-09-24-8-pm/concert/18754318",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -856,14 +885,14 @@
         "event_id": "8361934",
         "url": "https://www.ticketnetwork.com/en/p/8361934",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8361934",
         "url": "https://www.ticketliquidator.com/tickets/8361934/The-Dead-South-tickets-Fri-Sep-24-2027-Prospera-Place",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -882,7 +911,7 @@
     "country": "Canada",
     "venue": "Grey Eagle Event Centre",
     "datetime_iso": "2027-09-26T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please World Tour",
     "ticketmaster_event_id": "11006562C7E07866",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-calgary-alberta-09-25-2027/event/11006562C7E07866",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/calgary-canada-grey-eagle-event-centre-2027-09-25-8-pm/concert/18754775",
@@ -904,7 +933,7 @@
         "event_id": 18754775,
         "url": "https://seatgeek.com/the-dead-south-tickets/calgary-canada-grey-eagle-event-centre-2027-09-25-8-pm/concert/18754775",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -920,6 +949,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361936",
+        "url": "https://www.ticketnetwork.com/en/p/8361936",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361936",
+        "url": "https://www.ticketliquidator.com/tickets/8361936/The-Dead-South-tickets-Sat-Sep-25-2027-Grey-Eagle-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4xGkd6z6-J",
@@ -932,7 +975,9 @@
       "LIVE NATION CANADA-RBC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361936",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361936/The-Dead-South-tickets-Sat-Sep-25-2027-Grey-Eagle-Resort-Casino"
   },
   {
     "id": "tm-the-dead-south-2027-edmonton-1aozk4ngkemvpah",
@@ -943,7 +988,7 @@
     "country": "Canada",
     "venue": "Edmonton EXPO Centre",
     "datetime_iso": "2027-09-27T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please World Tour",
     "ticketmaster_event_id": "11006563AE05617C",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-edmonton-alberta-09-26-2027/event/11006563AE05617C",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/edmonton-canada-edmonton-expo-centre-2027-09-26-8-pm/concert/18754433",
@@ -965,14 +1010,14 @@
         "event_id": 18754433,
         "url": "https://seatgeek.com/the-dead-south-tickets/edmonton-canada-edmonton-expo-centre-2027-09-26-8-pm/concert/18754433",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834195,
         "url": "https://www.vividseats.com/the-dead-south-tickets-edmonton-edmonton-expo-centre-9-26-2027/production/7834195",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -981,6 +1026,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361937",
+        "url": "https://www.ticketliquidator.com/tickets/8361937/The-Dead-South-tickets-Sun-Sep-26-2027-Edmonton-EXPO",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZk4NGkemvpAH",
@@ -992,7 +1044,8 @@
       "LIVE NATION CANADA-RBC",
       "LIVE NATION CANADA-ROGERS"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361937/The-Dead-South-tickets-Sun-Sep-26-2027-Edmonton-EXPO"
   },
   {
     "id": "tm-the-dead-south-2027-toronto-1a8zk4pgkexzbc2",
@@ -1025,14 +1078,14 @@
         "event_id": 18754596,
         "url": "https://seatgeek.com/the-dead-south-tickets/toronto-canada-massey-hall-2027-09-30-8-pm/concert/18754596",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834163,
         "url": "https://www.vividseats.com/the-dead-south-tickets-toronto-massey-hall---allied-music-centre-9-30-2027/production/7834163",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1063,10 +1116,10 @@
     "country": "Canada",
     "venue": "MTELUS",
     "datetime_iso": "2027-10-02T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please World Tour",
     "ticketmaster_event_id": "310065628D70235B",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-01-2027/event/310065628D70235B",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/montreal-canada-mtelus-2027-10-01-8-pm/concert/18754459",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-1-2027/production/7833561",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-01-2027/event/310065628D70235B",
@@ -1082,17 +1135,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754459,
+        "url": "https://seatgeek.com/the-dead-south-tickets/montreal-canada-mtelus-2027-10-01-8-pm/concert/18754459",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833561,
         "url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-1-2027/production/7833561",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1106,14 +1159,14 @@
         "event_id": "8361941",
         "url": "https://www.ticketnetwork.com/en/p/8361941",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8361941",
         "url": "https://www.ticketliquidator.com/tickets/8361941/The-Dead-South-tickets-Fri-Oct-1-2027-MTelus",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1137,10 +1190,10 @@
     "country": "Canada",
     "venue": "MTELUS",
     "datetime_iso": "2027-10-03T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please World Tour",
     "ticketmaster_event_id": "310065628D73235F",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-02-2027/event/310065628D73235F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/montreal-canada-mtelus-2027-10-02-8-pm/concert/18754460",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-2-2027/production/7833497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-montreal-quebec-10-02-2027/event/310065628D73235F",
@@ -1156,17 +1209,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754460,
+        "url": "https://seatgeek.com/the-dead-south-tickets/montreal-canada-mtelus-2027-10-02-8-pm/concert/18754460",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833497,
         "url": "https://www.vividseats.com/the-dead-south-tickets-montreal-mtelus-10-2-2027/production/7833497",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1180,14 +1233,14 @@
         "event_id": "8361942",
         "url": "https://www.ticketnetwork.com/en/p/8361942",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8361942",
         "url": "https://www.ticketliquidator.com/tickets/8361942/The-Dead-South-tickets-Sat-Oct-2-2027-MTelus",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1233,14 +1286,14 @@
         "event_id": 18754933,
         "url": "https://seatgeek.com/the-dead-south-tickets/ottawa-canada-history-ottawa-2027-10-03-7-pm/concert/18754933",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834159,
         "url": "https://www.vividseats.com/the-dead-south-tickets-ottawa-history-ottawa-10-3-2027/production/7834159",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1270,7 +1323,7 @@
     "country": "Canada",
     "venue": "The Auditorium",
     "datetime_iso": "2027-10-07T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please World Tour 2027",
     "ticketmaster_event_id": "1000655DAE7A7A93",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-thunder-bay-ontario-10-06-2027/event/1000655DAE7A7A93",
     "seatgeek_url": "",
@@ -1325,10 +1378,10 @@
     "country": "Canada",
     "venue": "Burton Cummings Theatre",
     "datetime_iso": "2027-10-08T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please World Tour",
     "ticketmaster_event_id": "11006563833A2DAA",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-winnipeg-manitoba-10-07-2027/event/11006563833A2DAA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/winnipeg-canada-burton-cummings-theatre-2027-10-07-8-pm/concert/18754332",
     "vividseats_url": "https://www.vividseats.com/the-dead-south-tickets-winnipeg-burton-cummings-theatre-10-7-2027/production/7833549",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-dead-south-silence-please-world-winnipeg-manitoba-10-07-2027/event/11006563833A2DAA",
@@ -1344,17 +1397,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754332,
+        "url": "https://seatgeek.com/the-dead-south-tickets/winnipeg-canada-burton-cummings-theatre-2027-10-07-8-pm/concert/18754332",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833549,
         "url": "https://www.vividseats.com/the-dead-south-tickets-winnipeg-burton-cummings-theatre-10-7-2027/production/7833549",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1368,14 +1421,14 @@
         "event_id": "8361946",
         "url": "https://www.ticketnetwork.com/en/p/8361946",
         "verified": true,
-        "last_verified_at": "2026-11-10",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8361946",
         "url": "https://www.ticketliquidator.com/tickets/8361946/The-Dead-South-tickets-Thu-Oct-7-2027-Burton-Cummings-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1431,7 +1484,7 @@
         "event_id": 18760507,
         "url": "https://seatgeek.com/the-dead-south-tickets/regina-canada-conexus-arts-centre-2027-10-09-8-pm/concert/18760507",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1447,11 +1500,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361971",
+        "url": "https://www.ticketnetwork.com/en/p/8361971",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8361971",
+        "url": "https://www.ticketliquidator.com/tickets/8361971/The-Dead-South-tickets-Sat-Oct-9-2027-Conexus-Arts-Centre",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfg",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361971",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361971/The-Dead-South-tickets-Sat-Oct-9-2027-Conexus-Arts-Centre"
   },
   {
     "id": "tm-the-dead-south-2027-cleveland-z7r9jz1aaa67e",
@@ -1462,7 +1531,7 @@
     "country": "United States Of America",
     "venue": "Agora Theatre",
     "datetime_iso": "2027-04-18T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence,Please Tour 2027",
     "ticketmaster_event_id": "Z7r9jZ1AAA67e",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67e",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/cleveland-ohio-agora-theatre-2027-04-17-8-pm/concert/18760425",
@@ -1484,14 +1553,14 @@
         "event_id": 18760425,
         "url": "https://seatgeek.com/the-dead-south-tickets/cleveland-ohio-agora-theatre-2027-04-17-8-pm/concert/18760425",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834005,
         "url": "https://www.vividseats.com/the-dead-south-tickets-cleveland-agora-theatre-4-17-2027--concerts-country-and-folk/production/7834005",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1505,14 +1574,22 @@
         "event_id": "8361948",
         "url": "https://www.ticketliquidator.com/tickets/8361948/The-Dead-South-tickets-Sat-Apr-17-2027-Agora-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361948",
+        "url": "https://www.ticketnetwork.com/en/p/8361948",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67e",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361948/The-Dead-South-tickets-Sat-Apr-17-2027-Agora-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361948/The-Dead-South-tickets-Sat-Apr-17-2027-Agora-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361948"
   },
   {
     "id": "tm-the-dead-south-2027-pittsburgh-z7r9jz1aaakfy",
@@ -1545,14 +1622,14 @@
         "event_id": 18760427,
         "url": "https://seatgeek.com/the-dead-south-tickets/pittsburgh-pennsylvania-stage-ae-2027-04-18-6-pm/concert/18760427",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834955,
         "url": "https://www.vividseats.com/the-dead-south-tickets-pittsburgh-stage-ae-4-18-2027/production/7834955",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1566,14 +1643,22 @@
         "event_id": "8361949",
         "url": "https://www.ticketliquidator.com/tickets/8361949/The-Dead-South-tickets-Sun-Apr-18-2027-Stage-AE",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361949",
+        "url": "https://www.ticketnetwork.com/en/p/8361949",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAkfY",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361949/The-Dead-South-tickets-Sun-Apr-18-2027-Stage-AE"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361949/The-Dead-South-tickets-Sun-Apr-18-2027-Stage-AE",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361949"
   },
   {
     "id": "tm-the-dead-south-2027-new-york-z7r9jz1aaak4a",
@@ -1606,14 +1691,14 @@
         "event_id": 18760431,
         "url": "https://seatgeek.com/the-dead-south-tickets/new-york-new-york-webster-hall-2027-04-22-8-pm/concert/18760431",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834957,
         "url": "https://www.vividseats.com/the-dead-south-tickets-new-york-webster-hall-4-22-2027/production/7834957",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1627,14 +1712,22 @@
         "event_id": "8361953",
         "url": "https://www.ticketliquidator.com/tickets/8361953/The-Dead-South-tickets-Thu-Apr-22-2027-Webster-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361953",
+        "url": "https://www.ticketnetwork.com/en/p/8361953",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAk4A",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361953/The-Dead-South-tickets-Thu-Apr-22-2027-Webster-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361953/The-Dead-South-tickets-Thu-Apr-22-2027-Webster-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361953"
   },
   {
     "id": "tm-the-dead-south-2027-new-haven-z7r9jz1aaa67a",
@@ -1645,7 +1738,7 @@
     "country": "United States Of America",
     "venue": "College Street Music Hall",
     "datetime_iso": "2027-04-24T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please Tour 2027",
     "ticketmaster_event_id": "Z7r9jZ1AAA67A",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67A",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/new-haven-connecticut-college-street-music-hall-2027-04-23-8-pm/concert/18760433",
@@ -1667,14 +1760,14 @@
         "event_id": 18760433,
         "url": "https://seatgeek.com/the-dead-south-tickets/new-haven-connecticut-college-street-music-hall-2027-04-23-8-pm/concert/18760433",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834961,
         "url": "https://www.vividseats.com/the-dead-south-tickets-new-haven-college-street-music-hall-4-23-2027/production/7834961",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1688,14 +1781,22 @@
         "event_id": "8361964",
         "url": "https://www.ticketliquidator.com/tickets/8361964/The-Dead-South-tickets-Fri-Apr-23-2027-College-Street-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361964",
+        "url": "https://www.ticketnetwork.com/en/p/8361964",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67A",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361964/The-Dead-South-tickets-Fri-Apr-23-2027-College-Street-Music-Hall"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361964/The-Dead-South-tickets-Fri-Apr-23-2027-College-Street-Music-Hall",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361964"
   },
   {
     "id": "tm-the-dead-south-2027-boston-z7r9jz1aaa67f",
@@ -1706,7 +1807,7 @@
     "country": "United States Of America",
     "venue": "Roadrunner-Boston",
     "datetime_iso": "2027-04-25T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please Tour 2027",
     "ticketmaster_event_id": "Z7r9jZ1AAA67F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67F",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/boston-massachusetts-roadrunner-boston-2027-04-24-8-pm/concert/18760435",
@@ -1728,7 +1829,7 @@
         "event_id": 18760435,
         "url": "https://seatgeek.com/the-dead-south-tickets/boston-massachusetts-roadrunner-boston-2027-04-24-8-pm/concert/18760435",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1759,7 +1860,7 @@
     "country": "United States Of America",
     "venue": "KEMBA Live!",
     "datetime_iso": "2027-04-26T23:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please Tour 2027",
     "ticketmaster_event_id": "Z7r9jZ1AAA67t",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA67t",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/columbus-ohio-kemba-live-2027-04-26-7-pm/concert/18760437",
@@ -1781,14 +1882,14 @@
         "event_id": 18760437,
         "url": "https://seatgeek.com/the-dead-south-tickets/columbus-ohio-kemba-live-2027-04-26-7-pm/concert/18760437",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834676,
         "url": "https://www.vividseats.com/the-dead-south-tickets-columbus-kemba-live-4-26-2027/production/7834676",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1802,14 +1903,22 @@
         "event_id": "8361957",
         "url": "https://www.ticketliquidator.com/tickets/8361957/The-Dead-South-tickets-Mon-Apr-26-2027-KEMBA-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361957",
+        "url": "https://www.ticketnetwork.com/en/p/8361957",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA67t",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361957/The-Dead-South-tickets-Mon-Apr-26-2027-KEMBA-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361957/The-Dead-South-tickets-Mon-Apr-26-2027-KEMBA-Live",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361957"
   },
   {
     "id": "tm-the-dead-south-2027-asheville-z7r9jz1aaa6ao",
@@ -1820,7 +1929,7 @@
     "country": "United States Of America",
     "venue": "Asheville Yards",
     "datetime_iso": "2027-05-02T23:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please Tour 2027",
     "ticketmaster_event_id": "Z7r9jZ1AAA6Ao",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6Ao",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/asheville-north-carolina-asheville-yards-2027-05-02-7-pm/concert/18760441",
@@ -1842,14 +1951,14 @@
         "event_id": 18760441,
         "url": "https://seatgeek.com/the-dead-south-tickets/asheville-north-carolina-asheville-yards-2027-05-02-7-pm/concert/18760441",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7836604,
         "url": "https://www.vividseats.com/the-dead-south-tickets-asheville-asheville-yards-amphitheater-5-2-2027/production/7836604",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1863,14 +1972,22 @@
         "event_id": "8361967",
         "url": "https://www.ticketliquidator.com/tickets/8361967/The-Dead-South-tickets-Sun-May-2-2027-Asheville-Yards-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361967",
+        "url": "https://www.ticketnetwork.com/en/p/8361967",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6Ao",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361967/The-Dead-South-tickets-Sun-May-2-2027-Asheville-Yards-Amphitheater"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361967/The-Dead-South-tickets-Sun-May-2-2027-Asheville-Yards-Amphitheater",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361967"
   },
   {
     "id": "tm-the-dead-south-2027-atlanta-z7r9jz1aaa6az",
@@ -1881,7 +1998,7 @@
     "country": "United States Of America",
     "venue": "The Eastern-GA",
     "datetime_iso": "2027-05-04T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Silence, Please Tour 2027",
     "ticketmaster_event_id": "Z7r9jZ1AAA6AZ",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA6AZ",
     "seatgeek_url": "https://seatgeek.com/the-dead-south-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-03-8-pm/concert/18760503",
@@ -1903,14 +2020,14 @@
         "event_id": 18760503,
         "url": "https://seatgeek.com/the-dead-south-tickets/atlanta-georgia-the-eastern-atlanta-2027-05-03-8-pm/concert/18760503",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834951,
         "url": "https://www.vividseats.com/the-dead-south-tickets-atlanta-the-eastern-5-3-2027/production/7834951",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1924,14 +2041,22 @@
         "event_id": "8361958",
         "url": "https://www.ticketliquidator.com/tickets/8361958/The-Dead-South-tickets-Mon-May-3-2027-The-Eastern-GA",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361958",
+        "url": "https://www.ticketnetwork.com/en/p/8361958",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6AZ",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361958/The-Dead-South-tickets-Mon-May-3-2027-The-Eastern-GA"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361958/The-Dead-South-tickets-Mon-May-3-2027-The-Eastern-GA",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361958"
   },
   {
     "id": "tm-the-dead-south-2027-denver-z7r9jz1aaa6vm",
@@ -1964,14 +2089,14 @@
         "event_id": 18760505,
         "url": "https://seatgeek.com/the-dead-south-tickets/denver-colorado-levitt-pavilion-denver-2027-07-17-6-30-pm/concert/18760505",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7836614,
         "url": "https://www.vividseats.com/the-dead-south-tickets-denver-levitt-pavilion-denver-7-17-2027/production/7836614",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1985,13 +2110,21 @@
         "event_id": "8361961",
         "url": "https://www.ticketliquidator.com/tickets/8361961/The-Dead-South-tickets-Sat-Jul-17-2027-Levitt-Pavilion-Denver",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8361961",
+        "url": "https://www.ticketnetwork.com/en/p/8361961",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6vM",
     "timezone": "America/Denver",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361961/The-Dead-South-tickets-Sat-Jul-17-2027-Levitt-Pavilion-Denver"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8361961/The-Dead-South-tickets-Sat-Jul-17-2027-Levitt-Pavilion-Denver",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361961"
   }
 ]

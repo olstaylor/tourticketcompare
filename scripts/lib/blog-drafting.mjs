@@ -25,6 +25,12 @@ export const MAX_DRAFTS_PER_RUN = 2;
 // Actual spend after which a run starts no further paid draft.
 export const MAX_RUN_USD = 0.5;
 export const MAX_OPEN_DRAFTS = 4;
+// At most this many new automated drafts in any rolling 7 days (owner decision
+// 2026-11-20: one guide a week). The weekly ideas run twice (Monday, Thursday),
+// so the cap is counted from existing automated PRs of any state, not per run.
+// A manual dispatch naming artists is an explicit request and is not capped.
+export const MAX_DRAFTS_PER_WEEK = 1;
+export const WEEK_MS = 7 * 86400000;
 export const PREFIX = 'automation/blog-draft-';
 const DAY = 86400000;
 const fail = (message) => { throw new Error(`Blog drafting: ${message}`); };

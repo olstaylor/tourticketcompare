@@ -644,7 +644,7 @@
         "event_id": 7393780,
         "url": "https://www.vividseats.com/pentatonix-tickets-buffalo-keybank-center-11-18-2026/production/7393780",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -655,33 +655,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8184420",
-        "url": "https://www.ticketnetwork.com/en/p/8184420",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8184420",
-        "url": "https://www.ticketliquidator.com/tickets/8184420/Pentatonix-tickets-Wed-Nov-18-2026-KeyBank-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107476102",
-        "url": "https://www.stubhub.ie/pentatonix-buffalo-tickets-11-18-2026/event/107476102",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "k7vGF_8kru5hF",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184420",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184420/Pentatonix-tickets-Wed-Nov-18-2026-KeyBank-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/pentatonix-buffalo-tickets-11-18-2026/event/107476102",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -719,14 +719,14 @@
         "event_id": 18385717,
         "url": "https://seatgeek.com/pentatonix-tickets/cleveland-ohio-rocket-arena-2026-11-19-7-pm/concert/18385717",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-18",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393838,
         "url": "https://www.vividseats.com/pentatonix-tickets-cleveland-rocket-arena-11-19-2026/production/7393838",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -737,25 +737,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8184421",
-        "url": "https://www.ticketnetwork.com/en/p/8184421",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8184421",
-        "url": "https://www.ticketliquidator.com/tickets/8184421/Pentatonix-tickets-Thu-Nov-19-2026-Rocket-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAZOFo",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184421",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184421/Pentatonix-tickets-Thu-Nov-19-2026-Rocket-Arena",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ]
@@ -791,14 +791,14 @@
         "event_id": 18427204,
         "url": "https://seatgeek.com/pentatonix-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2026-11-21-7-pm/concert/18427204",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393834,
         "url": "https://www.vividseats.com/pentatonix-tickets-pittsburgh-ppg-paints-arena-11-21-2026/production/7393834",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -809,33 +809,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8184422",
-        "url": "https://www.ticketnetwork.com/en/p/8184422",
-        "verified": true,
-        "last_verified_at": "2026-08-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8184422",
-        "url": "https://www.ticketliquidator.com/tickets/8184422/Pentatonix-tickets-Sat-Nov-21-2026-PPG-Paints-Arena",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107476103",
-        "url": "https://www.stubhub.ie/pentatonix-pittsburgh-tickets-11-21-2026/event/107476103",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "1ApZkfdGkdrCD8B",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184422",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184422/Pentatonix-tickets-Sat-Nov-21-2026-PPG-Paints-Arena",
-    "stubhub_international_url": "https://www.stubhub.ie/pentatonix-pittsburgh-tickets-11-21-2026/event/107476103",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -873,14 +873,14 @@
         "event_id": 18427238,
         "url": "https://seatgeek.com/pentatonix-tickets/hamilton-canada-td-coliseum-2026-11-22-6-pm/concert/18427238",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394146,
         "url": "https://www.vividseats.com/pentatonix-tickets-hamilton-td-coliseum-11-22-2026/production/7394146",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -919,7 +919,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-charlottesville-john-paul-jones-arena-11-28-2026/production/7394185",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-charlottesville-virginia-11-28-2026/event/0100650341120D9D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -934,14 +934,14 @@
         "event_id": 18427205,
         "url": "https://seatgeek.com/pentatonix-tickets/charlottesville-virginia-john-paul-jones-arena-2026-11-28-7-pm/concert/18427205",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394185,
         "url": "https://www.vividseats.com/pentatonix-tickets-charlottesville-john-paul-jones-arena-11-28-2026/production/7394185",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -955,14 +955,14 @@
         "event_id": "8184423",
         "url": "https://www.ticketnetwork.com/en/p/8184423",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184423",
         "url": "https://www.ticketliquidator.com/tickets/8184423/Pentatonix-tickets-Sat-Nov-28-2026-John-Paul-Jones-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -971,13 +971,6 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184423",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184423/Pentatonix-tickets-Sat-Nov-28-2026-John-Paul-Jones-Arena",
-    "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-22T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1000,7 +993,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-albany-mvp-arena-11-29-2026/production/7393828",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-albany-new-york-11-29-2026/event/000064FEAF2FBD14",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1015,14 +1008,14 @@
         "event_id": 18427206,
         "url": "https://seatgeek.com/pentatonix-tickets/albany-new-york-mvp-arena-2026-11-29-7-pm/concert/18427206",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393828,
         "url": "https://www.vividseats.com/pentatonix-tickets-albany-mvp-arena-11-29-2026/production/7393828",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1036,21 +1029,21 @@
         "event_id": "8184424",
         "url": "https://www.ticketnetwork.com/en/p/8184424",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184424",
         "url": "https://www.ticketliquidator.com/tickets/8184424/Pentatonix-tickets-Sun-Nov-29-2026-MVP-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107476104",
         "url": "https://www.stubhub.ie/pentatonix-albany-tickets-11-29-2026/event/107476104",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1060,13 +1053,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8184424",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184424/Pentatonix-tickets-Sun-Nov-29-2026-MVP-Arena",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-albany-tickets-11-29-2026/event/107476104",
-    "presales": [
-      {
-        "name": "VIP Packages Public Onsale",
-        "start": "2026-08-14T14:00:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1104,14 +1090,14 @@
         "event_id": 18427209,
         "url": "https://seatgeek.com/pentatonix-tickets/baltimore-maryland-cfg-bank-arena-2026-12-03-7-pm/concert/18427209",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394001,
         "url": "https://www.vividseats.com/pentatonix-tickets-baltimore-cfg-bank-arena-12-3-2026/production/7394001",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1125,21 +1111,21 @@
         "event_id": "8184425",
         "url": "https://www.ticketnetwork.com/en/p/8184425",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184425",
         "url": "https://www.ticketliquidator.com/tickets/8184425/Pentatonix-tickets-Thu-Dec-3-2026-CFG-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107476105",
         "url": "https://www.stubhub.ie/pentatonix-baltimore-tickets-12-3-2026/event/107476105",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1193,14 +1179,14 @@
         "event_id": 18427214,
         "url": "https://seatgeek.com/pentatonix-tickets/columbia-south-carolina-colonial-life-arena-2026-12-05-7-pm/concert/18427214",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394005,
         "url": "https://www.vividseats.com/pentatonix-tickets-columbia-colonial-life-arena-12-5-2026/production/7394005",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1214,14 +1200,14 @@
         "event_id": "8184426",
         "url": "https://www.ticketnetwork.com/en/p/8184426",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184426",
         "url": "https://www.ticketliquidator.com/tickets/8184426/Pentatonix-tickets-Sat-Dec-5-2026-Colonial-Life-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1273,14 +1259,14 @@
         "event_id": 18427215,
         "url": "https://seatgeek.com/pentatonix-tickets/greenville-south-carolina-bon-secours-wellness-arena-2026-12-06-6-pm/concert/18427215",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393915,
         "url": "https://www.vividseats.com/pentatonix-tickets-greenville-bon-secours-wellness-arena-12-6-2026/production/7393915",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1294,14 +1280,14 @@
         "event_id": "8184428",
         "url": "https://www.ticketnetwork.com/en/p/8184428",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184428",
         "url": "https://www.ticketliquidator.com/tickets/8184428/Pentatonix-tickets-Sun-Dec-6-2026-Bon-Secours-Wellness-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1354,14 +1340,14 @@
         "event_id": 18427217,
         "url": "https://seatgeek.com/pentatonix-tickets/raleigh-north-carolina-lenovo-center-2026-12-07-7-pm/concert/18427217",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394057,
         "url": "https://www.vividseats.com/pentatonix-tickets-raleigh-lenovo-center-12-7-2026/production/7394057",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1375,14 +1361,14 @@
         "event_id": "8184430",
         "url": "https://www.ticketnetwork.com/en/p/8184430",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184430",
         "url": "https://www.ticketliquidator.com/tickets/8184430/Pentatonix-tickets-Mon-Dec-7-2026-Lenovo-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1440,14 +1426,14 @@
         "event_id": 18427219,
         "url": "https://seatgeek.com/pentatonix-tickets/nashville-tennessee-bridgestone-arena-2026-12-09-7-pm/concert/18427219",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394203,
         "url": "https://www.vividseats.com/pentatonix-tickets-nashville-bridgestone-arena-12-9-2026--concerts-pop/production/7394203",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1461,21 +1447,21 @@
         "event_id": "8184431",
         "url": "https://www.ticketnetwork.com/en/p/8184431",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184431",
         "url": "https://www.ticketliquidator.com/tickets/8184431/Pentatonix-tickets-Wed-Dec-9-2026-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107469565",
         "url": "https://www.stubhub.ie/pentatonix-nashville-tickets-12-9-2026/event/107469565",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1528,14 +1514,14 @@
         "event_id": 18427220,
         "url": "https://seatgeek.com/pentatonix-tickets/atlanta-georgia-state-farm-arena-1-2026-12-10-7-pm/concert/18427220",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393911,
         "url": "https://www.vividseats.com/pentatonix-tickets-atlanta-state-farm-arena-12-10-2026/production/7393911",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1549,21 +1535,21 @@
         "event_id": "8184432",
         "url": "https://www.ticketnetwork.com/en/p/8184432",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184432",
         "url": "https://www.ticketliquidator.com/tickets/8184432/Pentatonix-tickets-Thu-Dec-10-2026-State-Farm-Arena-GA",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107476106",
         "url": "https://www.stubhub.ie/pentatonix-atlanta-tickets-12-10-2026/event/107476106",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1617,14 +1603,14 @@
         "event_id": 18427222,
         "url": "https://seatgeek.com/pentatonix-tickets/north-little-rock-arkansas-simmons-bank-arena-2026-12-12-7-pm/concert/18427222",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394110,
         "url": "https://www.vividseats.com/pentatonix-tickets-north-little-rock-simmons-bank-arena-12-12-2026/production/7394110",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1638,14 +1624,14 @@
         "event_id": "8184433",
         "url": "https://www.ticketnetwork.com/en/p/8184433",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184433",
         "url": "https://www.ticketliquidator.com/tickets/8184433/Pentatonix-tickets-Sat-Dec-12-2026-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1698,14 +1684,14 @@
         "event_id": 18427226,
         "url": "https://seatgeek.com/pentatonix-tickets/bossier-city-louisiana-brookshire-grocery-arena-2026-12-13-6-pm/concert/18427226",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394179,
         "url": "https://www.vividseats.com/pentatonix-tickets-bossier-city-brookshire-grocery-arena-12-13-2026/production/7394179",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1719,14 +1705,14 @@
         "event_id": "8184435",
         "url": "https://www.ticketnetwork.com/en/p/8184435",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184435",
         "url": "https://www.ticketliquidator.com/tickets/8184435/Pentatonix-tickets-Sun-Dec-13-2026-Brookshire-Grocery-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1770,7 +1756,7 @@
     "vividseats_url": "https://www.vividseats.com/pentatonix-tickets-austin-moody-center-atx-12-15-2026/production/7393901",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-austin-texas-12-15-2026/event/3A006504EE731AE5",
-    "last_verified_at": "2026-11-11",
+    "last_verified_at": "2026-11-18",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1785,14 +1771,14 @@
         "event_id": 18427227,
         "url": "https://seatgeek.com/pentatonix-tickets/austin-texas-moody-center-atx-2026-12-15-7-pm/concert/18427227",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7393901,
         "url": "https://www.vividseats.com/pentatonix-tickets-austin-moody-center-atx-12-15-2026/production/7393901",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1806,21 +1792,21 @@
         "event_id": "8184790",
         "url": "https://www.ticketnetwork.com/en/p/8184790",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184790",
         "url": "https://www.ticketliquidator.com/tickets/8184790/Pentatonix-tickets-Tue-Dec-15-2026-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107476107",
         "url": "https://www.stubhub.ie/pentatonix-austin-tickets-12-15-2026/event/107476107",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1831,11 +1817,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8184790/Pentatonix-tickets-Tue-Dec-15-2026-Moody-Center-ATX",
     "stubhub_international_url": "https://www.stubhub.ie/pentatonix-austin-tickets-12-15-2026/event/107476107",
     "presales": [
-      {
-        "name": "Mastercard Preferred Tickets",
-        "start": "2026-08-14T15:00:00Z",
-        "end": "2026-11-18T04:00:00Z"
-      },
       {
         "name": "VIP Package Onsale",
         "start": "2026-08-14T15:00:00Z",
@@ -1865,7 +1846,7 @@
     "tour_name": "Christmas in the City Tour",
     "ticketmaster_event_id": "0C0064EA95AC5937",
     "ticketmaster_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-fort-worth-texas-12-16-2026/event/0C0064EA95AC5937",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/pentatonix-tickets/fort-worth-texas-ariat-arena-2026-12-16-7-pm/concert/18427230",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/pentatonix-christmas-in-the-city-tour-fort-worth-texas-12-16-2026/event/0C0064EA95AC5937",
@@ -1881,11 +1862,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18427230,
+        "url": "https://seatgeek.com/pentatonix-tickets/fort-worth-texas-ariat-arena-2026-12-16-7-pm/concert/18427230",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1905,21 +1886,21 @@
         "event_id": "8184443",
         "url": "https://www.ticketnetwork.com/en/p/8184443",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184443",
         "url": "https://www.ticketliquidator.com/tickets/8184443/Pentatonix-tickets-Wed-Dec-16-2026-Ariat-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107469566",
         "url": "https://www.stubhub.ie/pentatonix-fort-worth-tickets-12-16-2026/event/107469566",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1973,14 +1954,14 @@
         "event_id": 18427242,
         "url": "https://seatgeek.com/pentatonix-tickets/lubbock-texas-united-supermarkets-arena-2026-12-17-7-pm/concert/18427242",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394207,
         "url": "https://www.vividseats.com/pentatonix-tickets-lubbock-united-supermarkets-arena-12-17-2026/production/7394207",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1994,14 +1975,14 @@
         "event_id": "8193304",
         "url": "https://www.ticketnetwork.com/en/p/8193304",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8193304",
         "url": "https://www.ticketliquidator.com/tickets/8193304/Pentatonix-tickets-Thu-Dec-17-2026-United-Supermarkets-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2042,14 +2023,14 @@
         "event_id": 18427231,
         "url": "https://seatgeek.com/pentatonix-tickets/glendale-arizona-desert-diamond-arena-2026-12-19-7-pm/concert/18427231",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394209,
         "url": "https://www.vividseats.com/pentatonix-tickets-glendale-desert-diamond-arena-12-19-2026--concerts-pop/production/7394209",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2063,21 +2044,21 @@
         "event_id": "8184445",
         "url": "https://www.ticketnetwork.com/en/p/8184445",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184445",
         "url": "https://www.ticketliquidator.com/tickets/8184445/Pentatonix-tickets-Sat-Dec-19-2026-Desert-Diamond-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107469567",
         "url": "https://www.stubhub.ie/pentatonix-glendale-tickets-12-19-2026/event/107469567",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2131,7 +2112,7 @@
         "event_id": 18427232,
         "url": "https://seatgeek.com/pentatonix-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-12-20-6-pm/concert/18427232",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2152,14 +2133,14 @@
         "event_id": "8184448",
         "url": "https://www.ticketnetwork.com/en/p/8184448",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184448",
         "url": "https://www.ticketliquidator.com/tickets/8184448/Pentatonix-tickets-Sun-Dec-20-2026-Viejas-Arena-At-Aztec-Bowl",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2217,14 +2198,14 @@
         "event_id": 18427236,
         "url": "https://seatgeek.com/pentatonix-tickets/inglewood-california-kia-forum-2026-12-22-7-pm/concert/18427236",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7394183,
         "url": "https://www.vividseats.com/pentatonix-tickets-inglewood-kia-forum-12-22-2026/production/7394183",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2238,21 +2219,21 @@
         "event_id": "8184452",
         "url": "https://www.ticketnetwork.com/en/p/8184452",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8184452",
         "url": "https://www.ticketliquidator.com/tickets/8184452/Pentatonix-tickets-Tue-Dec-22-2026-The-Kia-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107469569",
         "url": "https://www.stubhub.ie/pentatonix-inglewood-tickets-12-22-2026/event/107469569",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

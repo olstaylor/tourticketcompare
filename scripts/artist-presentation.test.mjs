@@ -88,8 +88,8 @@ assert(
   "server gates the links note on editorial status and a populated board"
 );
 assert(
-  server.includes("const usefulLinksHtml = shows.length") && server.includes("const faqHtml = shows.length"),
-  "server omits generic useful links and FAQ from empty boards"
+  server.includes('const usefulLinksHtml = "";') && server.includes("const faqHtml = shows.length"),
+  "server renders no generic useful links and omits the FAQ from empty boards"
 );
 assert(
   client.includes("if (serverShows.length || !isReviewRequired)") &&
@@ -118,3 +118,22 @@ assert(
 );
 
 console.log(`artist-presentation: ${passed} assertions passed`);
+
+// Client mirror of the server's shell-summary skip: the auto-promote template
+// ("... checked daily.") must not render, while edited copy still does.
+{
+  const match = client.match(/function isShellArtistSummary\(textValue, name\) \{[\s\S]*?\n\}\n/);
+  assert(match, "client defines isShellArtistSummary");
+  const isShell = new Function(`${match[0]}; return isShellArtistSummary;`)();
+  const shell = "Foo Fighters is listed by Ticketmaster. The dates on this page come from Ticketmaster and are checked daily.";
+  assert(isShell(shell, "Foo Fighters"), "client skips the shell summary");
+  assert(isShell("Foo Fighters is listed by Ticketmaster under Rock. The dates on this page come from Ticketmaster and are checked daily.", "Foo Fighters"), "client skips the shell summary with a genre");
+  assert(isShell(shell.replace("checked daily","checked nightly for changes"), "Foo Fighters"), "client skips the new nightly wording too");
+  assert(!isShell(`${shell} Extra editorial line.`, "Foo Fighters"), "client keeps an extended summary");
+  assert(!isShell("Rock band from Seattle.", "Foo Fighters"), "client keeps real summaries");
+  assert(isShell("A.B. is listed by Ticketmaster. The dates on this page come from Ticketmaster and are checked daily.", "A.B."), "client escapes regex characters in names");
+  assert(
+    client.includes("if (!isShellArtistSummary(artist.factual_summary, artist.name))"),
+    "client gates the About block on the shell check"
+  );
+}

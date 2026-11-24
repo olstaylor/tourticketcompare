@@ -121,7 +121,7 @@ const primaryCtaHref = literal(serverBlock, "HOME_PRIMARY_CTA_HREF");
 assert(headline === "Compare resale ticket prices for your show, site by site.", "the homepage headline is the agreed proposition");
 assert(
   subcopy ===
-    "Pick an artist and date to see each ticket site's listed price where available and the time it was checked, then confirm the total on the ticket site.",
+    "Pick an artist and date for each site's listed price where available and when it was checked. Confirm the total on the ticket site.",
   "the homepage supporting copy is the agreed proposition"
 );
 // "Compare", not "Find" (owner review, 2026-10-06): the product is comparison,

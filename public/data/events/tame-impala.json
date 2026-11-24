@@ -1489,7 +1489,7 @@
         "event_id": 7474475,
         "url": "https://www.vividseats.com/tame-impala-tickets-manchester-co-op-live-5-28-2027--concerts-rock/production/7474475",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1503,21 +1503,21 @@
         "event_id": "8231212",
         "url": "https://www.ticketnetwork.com/en/p/8231212",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8231212",
         "url": "https://www.ticketliquidator.com/tickets/8231212/Tame-Impala-tickets-Fri-May-28-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107506102",
         "url": "https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-28-5-2027/event/107506102",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1571,7 +1571,7 @@
         "event_id": 7488553,
         "url": "https://www.vividseats.com/tame-impala-tickets-manchester-co-op-live-5-29-2027--concerts-rock/production/7488553",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1585,21 +1585,21 @@
         "event_id": "8237407",
         "url": "https://www.ticketnetwork.com/en/p/8237407",
         "verified": true,
-        "last_verified_at": "2026-08-28",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8237407",
         "url": "https://www.ticketliquidator.com/tickets/8237407/Tame-Impala-tickets-Sat-May-29-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107554383",
         "url": "https://www.stubhub.ie/tame-impala-tickets-manchester-co-op-live-29-5-2027/event/107554383",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1653,7 +1653,7 @@
         "event_id": 7474478,
         "url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-1-2027--concerts-rock/production/7474478",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1667,7 +1667,21 @@
         "event_id": "107482744",
         "url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-1-6-2027/event/107482744",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8235236",
+        "url": "https://www.ticketnetwork.com/en/p/8235236",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235236",
+        "url": "https://www.ticketliquidator.com/tickets/8235236/Tame-Impala-tickets-Tue-Jun-1-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1679,7 +1693,9 @@
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235236",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235236/Tame-Impala-tickets-Tue-Jun-1-2027-O2-Arena-London"
   },
   {
     "id": "tm-tame-impala-2027-london-16dfz_ofjg7iyih",
@@ -1719,7 +1735,7 @@
         "event_id": 7474490,
         "url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-2-2027--concerts-rock/production/7474490",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1733,7 +1749,21 @@
         "event_id": "107506103",
         "url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-2-6-2027/event/107506103",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8235237",
+        "url": "https://www.ticketnetwork.com/en/p/8235237",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235237",
+        "url": "https://www.ticketliquidator.com/tickets/8235237/Tame-Impala-tickets-Wed-Jun-2-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1745,7 +1775,9 @@
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235237",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235237/Tame-Impala-tickets-Wed-Jun-2-2027-O2-Arena-London"
   },
   {
     "id": "tm-tame-impala-2027-london-1agzkfbgkdvvzlq",
@@ -1785,7 +1817,7 @@
         "event_id": 7489978,
         "url": "https://www.vividseats.com/tame-impala-tickets-london-the-o2---london-6-3-2027/production/7489978",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1799,7 +1831,21 @@
         "event_id": "107554382",
         "url": "https://www.stubhub.ie/tame-impala-tickets-london-the-o2-arena-3-6-2027/event/107554382",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8238540",
+        "url": "https://www.ticketnetwork.com/en/p/8238540",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8238540",
+        "url": "https://www.ticketliquidator.com/tickets/8238540/Tame-Impala-tickets-Thu-Jun-3-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1811,7 +1857,9 @@
       "SJM LIMITED (NEW)"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8238540",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8238540/Tame-Impala-tickets-Thu-Jun-3-2027-O2-Arena-London"
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1kppan3z",
@@ -1822,7 +1870,7 @@
     "country": "Netherlands",
     "venue": "Rotterdam Ahoy",
     "datetime_iso": "2027-06-07T17:15:00Z",
-    "tour_name": "",
+    "tour_name": "Deadbeat Tour",
     "ticketmaster_event_id": "956263480",
     "ticketmaster_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/956263480?language=en-us",
     "seatgeek_url": "",
@@ -1865,7 +1913,21 @@
         "event_id": "107506132",
         "url": "https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-7-6-2027/event/107506132",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8235383",
+        "url": "https://www.ticketnetwork.com/en/p/8235383",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235383",
+        "url": "https://www.ticketliquidator.com/tickets/8235383/Tame-Impala-tickets-Mon-Jun-7-2027-Ahoy-Rotterdam",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1876,7 +1938,9 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235383",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235383/Tame-Impala-tickets-Mon-Jun-7-2027-Ahoy-Rotterdam"
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1k_yjz0i",
@@ -1887,7 +1951,7 @@
     "country": "Netherlands",
     "venue": "Rotterdam Ahoy",
     "datetime_iso": "2027-06-08T17:15:00Z",
-    "tour_name": "",
+    "tour_name": "Deadbeat Tour",
     "ticketmaster_event_id": "670738928",
     "ticketmaster_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/670738928?language=en-us",
     "seatgeek_url": "",
@@ -1930,7 +1994,21 @@
         "event_id": "107506133",
         "url": "https://www.stubhub.ie/tame-impala-tickets-rotterdam-ahoy-rotterdam-8-6-2027/event/107506133",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8235384",
+        "url": "https://www.ticketnetwork.com/en/p/8235384",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235384",
+        "url": "https://www.ticketliquidator.com/tickets/8235384/Tame-Impala-tickets-Tue-Jun-8-2027-Ahoy-Rotterdam",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1941,7 +2019,9 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235384",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235384/Tame-Impala-tickets-Tue-Jun-8-2027-Ahoy-Rotterdam"
   },
   {
     "id": "tm-tame-impala-2027-rotterdam-z698xzbpz1k3e07a0",
@@ -1952,7 +2032,7 @@
     "country": "Netherlands",
     "venue": "Rotterdam Ahoy",
     "datetime_iso": "2027-06-09T17:15:00Z",
-    "tour_name": "",
+    "tour_name": "Deadbeat Tour",
     "ticketmaster_event_id": "482904264",
     "ticketmaster_url": "https://www.ticketmaster.nl/event/tame-impala-deadbeat-tour-tickets/482904264?language=en-us",
     "seatgeek_url": "",
@@ -2009,14 +2089,14 @@
     "country": "United States Of America",
     "venue": "BOK Center",
     "datetime_iso": "2027-02-11T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Deadbeat Tour",
     "ticketmaster_event_id": "20006566BE954886",
     "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-10-2027/event/20006566BE954886",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tame-impala-tickets/tulsa-oklahoma-bok-center-2027-02-10-7-pm/concert/18760897",
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-10-2027--concerts-rock/production/7861779",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-10-2027/event/20006566BE954886",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2028,17 +2108,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18760897,
+        "url": "https://seatgeek.com/tame-impala-tickets/tulsa-oklahoma-bok-center-2027-02-10-7-pm/concert/18760897",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7861779,
         "url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-10-2027--concerts-rock/production/7861779",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2052,21 +2132,20 @@
         "event_id": "8367606",
         "url": "https://www.ticketnetwork.com/en/p/8367606",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8367606",
         "url": "https://www.ticketliquidator.com/tickets/8367606/Tame-Impala-tickets-Wed-Feb-10-2027-BOK-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4JGkeXPfxk",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T18:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8367606",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8367606/Tame-Impala-tickets-Wed-Feb-10-2027-BOK-Center",
     "organizer_names": [
@@ -2075,31 +2154,6 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Early Entry GA Presale",
-        "start": "2026-11-18T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "AEG Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Radio Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
-      {
-        "name": "Venue Presale",
-        "start": "2026-11-19T18:00:00Z",
-        "end": "2026-11-20T04:00:00Z"
-      },
       {
         "name": "Early Entry GA",
         "start": "2026-11-20T18:00:00Z",
@@ -2116,20 +2170,20 @@
     "country": "Mexico",
     "venue": "Arena VFG",
     "datetime_iso": "2027-02-24T03:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "3D00656BAC51612E",
-    "ticketmaster_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
+    "tour_name": "Deadbeat Tour",
+    "ticketmaster_event_id": "3D00656DDDE4A41D",
+    "ticketmaster_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
-    "last_verified_at": "2026-11-13",
+    "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
-        "event_id": "3D00656BAC51612E",
-        "discovery_event_id": "G5dVZ_pmifp7m",
-        "url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656BAC51612E",
+        "event_id": "3D00656DDDE4A41D",
+        "discovery_event_id": "G5dVZ_pMqy18q",
+        "url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-tlajomulco-de-zuniga-23-02-2027/event/3D00656DDDE4A41D",
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
@@ -2156,26 +2210,13 @@
         "availability_status": "not_checked"
       }
     },
-    "ticketmaster_discovery_event_id": "G5dVZ_pmifp7m",
+    "ticketmaster_discovery_event_id": "G5dVZ_pMqy18q",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],
-    "genre": "Rock",
-    "presales": [
-      {
-        "name": "Venta Fans",
-        "start": "2026-11-16T18:00:00Z",
-        "end": "2026-11-17T05:59:00Z"
-      },
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-11-19T15:00:00Z",
-        "end": "2026-11-20T05:59:00Z"
-      }
-    ]
+    "genre": "Rock"
   },
   {
     "id": "tm-tame-impala-2027-ciudad-de-mexico-1av8z_pgknd3rue",
@@ -2186,14 +2227,14 @@
     "country": "Mexico",
     "venue": "Palacio de los Deportes",
     "datetime_iso": "2027-03-01T01:00:00Z",
-    "tour_name": "",
+    "tour_name": "Deadbeat Tour",
     "ticketmaster_event_id": "1400656ABB4AF342",
     "ticketmaster_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-28-02-2027/event/1400656ABB4AF342",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-28-02-2027/event/1400656ABB4AF342",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2224,28 +2265,23 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682204",
+        "url": "https://www.stubhub.ie/tame-impala-tickets-mexico-city-palacio-de-los-deportes-28-2-2027/event/107682204",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_pGknD3Rue",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],
     "genre": "Rock",
-    "presales": [
-      {
-        "name": "Venta Fans",
-        "start": "2026-11-16T18:00:00Z",
-        "end": "2026-11-17T05:59:00Z"
-      },
-      {
-        "name": "Preventa Banamex",
-        "start": "2026-11-19T17:00:00Z",
-        "end": "2026-11-20T05:59:00Z"
-      }
-    ]
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-mexico-city-palacio-de-los-deportes-28-2-2027/event/107682204"
   },
   {
     "id": "tm-tame-impala-2027-ciudad-de-mexico-1av8z_pgklvjvrt",
@@ -2256,14 +2292,14 @@
     "country": "Mexico",
     "venue": "Palacio de los Deportes",
     "datetime_iso": "2027-03-02T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "Deadbeat Tour",
     "ticketmaster_event_id": "1400656AC19817A9",
     "ticketmaster_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-01-03-2027/event/1400656AC19817A9",
     "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.mx/tame-impala-deadbeat-tour-ciudad-de-mexico-01-03-2027/event/1400656AC19817A9",
-    "last_verified_at": "2026-11-13",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2294,27 +2330,114 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107680992",
+        "url": "https://www.stubhub.ie/tame-impala-tickets-mexico-city-palacio-de-los-deportes-1-3-2027/event/107680992",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1Av8Z_pGklvJvrt",
     "timezone": "America/Mexico_City",
-    "status": "announced",
-    "public_onsale_at": "2026-11-20T17:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "OCESA"
     ],
     "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/tame-impala-tickets-mexico-city-palacio-de-los-deportes-1-3-2027/event/107680992"
+  },
+  {
+    "id": "tm-tame-impala-2027-tulsa-1aezz_pgkmxe71m",
+    "artist_slug": "tame-impala",
+    "artist_name": "Tame Impala",
+    "event_name": "Tame Impala - The Deadbeat Tour",
+    "city": "Tulsa",
+    "country": "United States Of America",
+    "venue": "BOK Center",
+    "datetime_iso": "2027-02-12T01:00:00Z",
+    "tour_name": "The Deadbeat Tour",
+    "ticketmaster_event_id": "2000656BA29C42B7",
+    "ticketmaster_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
+    "seatgeek_url": "https://seatgeek.com/tame-impala-tickets/tulsa-oklahoma-bok-center-2027-02-11-7-pm/concert/18843579",
+    "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-11-2027/production/7907496",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2000656BA29C42B7",
+        "discovery_event_id": "1AeZZ_pGkmxE71M",
+        "url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18843579,
+        "url": "https://seatgeek.com/tame-impala-tickets/tulsa-oklahoma-bok-center-2027-02-11-7-pm/concert/18843579",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7907496,
+        "url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-11-2027/production/7907496",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8381732",
+        "url": "https://www.ticketnetwork.com/en/p/8381732",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381732",
+        "url": "https://www.ticketliquidator.com/tickets/8381732/Tame-Impala-tickets-Thu-Feb-11-2027-BOK-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AeZZ_pGkmxE71M",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-11-25T18:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
     "presales": [
       {
-        "name": "Venta Fans",
-        "start": "2026-11-16T18:00:00Z",
-        "end": "2026-11-17T05:59:00Z"
+        "name": "Artist Presale",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2026-11-25T04:00:00Z"
       },
       {
-        "name": "Preventa Banamex",
-        "start": "2026-11-19T17:00:00Z",
-        "end": "2026-11-20T05:59:00Z"
+        "name": "Early Entry GA Presale",
+        "start": "2026-11-24T18:00:00Z",
+        "end": "2026-11-25T04:00:00Z"
+      },
+      {
+        "name": "Early Entry GA",
+        "start": "2026-11-25T18:00:00Z",
+        "end": "2027-02-11T20:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381732",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381732/Tame-Impala-tickets-Thu-Feb-11-2027-BOK-Center"
   }
 ]

@@ -673,14 +673,14 @@
         "event_id": 18570214,
         "url": "https://seatgeek.com/stevie-wonder-tickets/new-york-new-york-madison-square-garden-2026-11-19-8-pm/concert/18570214",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7530311,
         "url": "https://www.vividseats.com/stevie-wonder-tickets-new-york-madison-square-garden-11-19-2026--concerts-adult-contemporary/production/7530311",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -691,32 +691,32 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8252655",
-        "url": "https://www.ticketliquidator.com/tickets/8252655/Stevie-Wonder-tickets-Thu-Nov-19-2026-Madison-Square-Garden",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107667142",
-        "url": "https://www.stubhub.ie/stevie-wonder-new-york-tickets-11-19-2026/event/107667142",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8252655",
-        "url": "https://www.ticketnetwork.com/en/p/8252655",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_GpOSSVv",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252655/Stevie-Wonder-tickets-Thu-Nov-19-2026-Madison-Square-Garden",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-new-york-tickets-11-19-2026/event/107667142",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -727,7 +727,7 @@
         "end": "2026-11-20T02:00:00Z"
       }
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252655",
+    "ticketnetwork_url": "",
     "genre": "R&B"
   },
   {
@@ -761,14 +761,14 @@
         "event_id": 18570213,
         "url": "https://seatgeek.com/stevie-wonder-tickets/chicago-illinois-united-center-2026-11-21-8-pm/concert/18570213",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7530315,
         "url": "https://www.vividseats.com/stevie-wonder-tickets-chicago-united-center-11-21-2026--concerts-adult-contemporary/production/7530315",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -779,36 +779,36 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8252656",
-        "url": "https://www.ticketliquidator.com/tickets/8252656/Stevie-Wonder-tickets-Sat-Nov-21-2026-United-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107665890",
-        "url": "https://www.stubhub.ie/stevie-wonder-chicago-tickets-11-21-2026/event/107665890",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8252656",
-        "url": "https://www.ticketnetwork.com/en/p/8252656",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A7ZkfNGkd8KE_P",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252656/Stevie-Wonder-tickets-Sat-Nov-21-2026-United-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-chicago-tickets-11-21-2026/event/107665890",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252656",
+    "ticketnetwork_url": "",
     "ticket_limit": 6,
     "genre": "R&B"
   },
@@ -824,7 +824,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006522E5FCE389",
     "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389",
-    "seatgeek_url": "https://seatgeek.com/stevie-wonder-tickets/washington-district-of-columbia-capital-one-arena-2026-11-23-8-pm/concert/18570216",
+    "seatgeek_url": "",
     "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-washington-capital-one-arena-11-23-2026--concerts-adult-contemporary/production/7530316",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-washington-district-of-columbia-11-23-2026/event/15006522E5FCE389",
@@ -840,17 +840,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18570216,
-        "url": "https://seatgeek.com/stevie-wonder-tickets/washington-district-of-columbia-capital-one-arena-2026-11-23-8-pm/concert/18570216",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": 7530316,
         "url": "https://www.vividseats.com/stevie-wonder-tickets-washington-capital-one-arena-11-23-2026--concerts-adult-contemporary/production/7530316",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -864,21 +864,21 @@
         "event_id": "8252657",
         "url": "https://www.ticketliquidator.com/tickets/8252657/Stevie-Wonder-tickets-Mon-Nov-23-2026-Capital-One-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107667143",
         "url": "https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8252657",
         "url": "https://www.ticketnetwork.com/en/p/8252657",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -906,11 +906,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "080065261D18D5BC",
     "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-08-2026/event/080065261D18D5BC",
-    "seatgeek_url": "https://seatgeek.com/stevie-wonder-tickets/detroit-michigan-fox-theatre-detroit-2026-12-08-8-pm/concert/18570215",
-    "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-8-2026--concerts-adult-contemporary/production/7530317",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-08-2026/event/080065261D18D5BC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -922,18 +922,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18570215,
-        "url": "https://seatgeek.com/stevie-wonder-tickets/detroit-michigan-fox-theatre-detroit-2026-12-08-8-pm/concert/18570215",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7530317,
-        "url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-8-2026--concerts-adult-contemporary/production/7530317",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -943,38 +943,39 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8252658",
-        "url": "https://www.ticketliquidator.com/tickets/8252658/Stevie-Wonder-tickets-Tue-Dec-8-2026-Fox-Theatre-Detroit",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107667145",
-        "url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8252658",
-        "url": "https://www.ticketnetwork.com/en/p/8252658",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1keZvPa-GAukupH",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252658/Stevie-Wonder-tickets-Tue-Dec-8-2026-Fox-Theatre-Detroit",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-8-2026/event/107667145",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252658",
+    "ticketnetwork_url": "",
     "ticket_limit": 6,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-stevie-wonder-2026-detroit-vv1koz_3bxg7sqna",
@@ -988,11 +989,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "0800652622C5DA85",
     "ticketmaster_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-09-2026/event/0800652622C5DA85",
-    "seatgeek_url": "https://seatgeek.com/stevie-wonder-tickets/detroit-michigan-fox-theatre-detroit-2026-12-09-8-pm/concert/18570217",
-    "vividseats_url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-9-2026--concerts-adult-contemporary/production/7530319",
+    "seatgeek_url": "",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/stevie-wonder-songs-in-the-key-detroit-michigan-12-09-2026/event/0800652622C5DA85",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1004,18 +1005,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18570217,
-        "url": "https://seatgeek.com/stevie-wonder-tickets/detroit-michigan-fox-theatre-detroit-2026-12-09-8-pm/concert/18570217",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
-        "event_id": 7530319,
-        "url": "https://www.vividseats.com/stevie-wonder-tickets-detroit-fox-theatre-detroit-12-9-2026--concerts-adult-contemporary/production/7530319",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1025,38 +1026,39 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "8252659",
-        "url": "https://www.ticketliquidator.com/tickets/8252659/Stevie-Wonder-tickets-Wed-Dec-9-2026-Fox-Theatre-Detroit",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107667146",
-        "url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "8252659",
-        "url": "https://www.ticketnetwork.com/en/p/8252659",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kOZ_3bxG7sqnA",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8252659/Stevie-Wonder-tickets-Wed-Dec-9-2026-Fox-Theatre-Detroit",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-detroit-tickets-12-9-2026/event/107667146",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8252659",
+    "ticketnetwork_url": "",
     "ticket_limit": 6,
-    "genre": "R&B"
+    "genre": "R&B",
+    "ticketmaster_status_code": "cancelled"
   },
   {
     "id": "tm-stevie-wonder-2026-inglewood-vv1aazkf0onvvzeug",
@@ -1089,14 +1091,14 @@
         "event_id": 18570218,
         "url": "https://seatgeek.com/stevie-wonder-tickets/inglewood-california-intuit-dome-2026-12-19-8-pm/concert/18570218",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7530323,
         "url": "https://www.vividseats.com/stevie-wonder-tickets-inglewood-intuit-dome-12-19-2026--concerts-adult-contemporary/production/7530323",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1110,21 +1112,21 @@
         "event_id": "8252660",
         "url": "https://www.ticketliquidator.com/tickets/8252660/Stevie-Wonder-tickets-Sat-Dec-19-2026-Intuit-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107667148",
         "url": "https://www.stubhub.ie/stevie-wonder-inglewood-tickets-12-19-2026/event/107667148",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8252660",
         "url": "https://www.ticketnetwork.com/en/p/8252660",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

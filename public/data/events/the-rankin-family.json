@@ -8,7 +8,7 @@
     "country": "Canada",
     "venue": "Northern Alberta Jubilee Auditorium",
     "datetime_iso": "2027-03-13T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Together Again Tour",
     "ticketmaster_event_id": "110065637FF02A66",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-edmonton-alberta-03-12-2027/event/110065637FF02A66",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/edmonton-canada-northern-alberta-jubilee-auditorium-2027-03-12-7-30-pm/concert/18761493",
@@ -30,14 +30,14 @@
         "event_id": 18761493,
         "url": "https://seatgeek.com/the-rankin-family-tickets/edmonton-canada-northern-alberta-jubilee-auditorium-2027-03-12-7-30-pm/concert/18761493",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834202,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-edmonton-northern-alberta-jubilee-auditorium-3-12-2027/production/7834202",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,7 +51,14 @@
         "event_id": "8370370",
         "url": "https://www.ticketliquidator.com/tickets/8370370/The-Rankin-Family-tickets-Fri-Mar-12-2027-Northern-Alberta-Jubilee-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8370370",
+        "url": "https://www.ticketnetwork.com/en/p/8370370",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -66,7 +73,8 @@
       "LIVE NATION CANADA-RBC"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370370"
   },
   {
     "id": "tm-the-rankin-family-2027-calgary-1k78vpbmgac53nm",
@@ -77,7 +85,7 @@
     "country": "Canada",
     "venue": "Southern Alberta Jubilee Auditorium",
     "datetime_iso": "2027-03-14T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Together Again Tour",
     "ticketmaster_event_id": "110065637E2D28EE",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-calgary-alberta-03-13-2027/event/110065637E2D28EE",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/calgary-canada-southern-alberta-jubilee-auditorium-2027-03-13-7-30-pm/concert/18761494",
@@ -99,14 +107,14 @@
         "event_id": 18761494,
         "url": "https://seatgeek.com/the-rankin-family-tickets/calgary-canada-southern-alberta-jubilee-auditorium-2027-03-13-7-30-pm/concert/18761494",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834199,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-calgary-southern-alberta-jubilee-auditorium-3-13-2027/production/7834199",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -120,7 +128,14 @@
         "event_id": "8370534",
         "url": "https://www.ticketliquidator.com/tickets/8370534/The-Rankin-Family-tickets-Sat-Mar-13-2027-Southern-Alberta-Jubilee-Auditorium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8370534",
+        "url": "https://www.ticketnetwork.com/en/p/8370534",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -135,7 +150,8 @@
     ],
     "ticket_limit": 6,
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370534/The-Rankin-Family-tickets-Sat-Mar-13-2027-Southern-Alberta-Jubilee-Auditorium"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370534/The-Rankin-Family-tickets-Sat-Mar-13-2027-Southern-Alberta-Jubilee-Auditorium",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370534"
   },
   {
     "id": "tm-the-rankin-family-2027-winnipeg-1aozk4ngkerkp1s",
@@ -146,7 +162,7 @@
     "country": "Canada",
     "venue": "Burton Cummings Theatre",
     "datetime_iso": "2027-03-16T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Together Again Tour",
     "ticketmaster_event_id": "11006563AF4D62B3",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-winnipeg-manitoba-03-15-2027/event/11006563AF4D62B3",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-15-7-30-pm/concert/18761503",
@@ -168,14 +184,14 @@
         "event_id": 18761503,
         "url": "https://seatgeek.com/the-rankin-family-tickets/winnipeg-canada-burton-cummings-theatre-2027-03-15-7-30-pm/concert/18761503",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833467,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-winnipeg-burton-cummings-theatre-3-15-2027/production/7833467",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -189,7 +205,14 @@
         "event_id": "8372058",
         "url": "https://www.ticketliquidator.com/tickets/8372058/The-Rankin-Family-tickets-Mon-Mar-15-2027-Burton-Cummings-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372058",
+        "url": "https://www.ticketnetwork.com/en/p/8372058",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -211,7 +234,8 @@
         "end": "2027-03-02T03:00:00Z"
       }
     ],
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372058/The-Rankin-Family-tickets-Mon-Mar-15-2027-Burton-Cummings-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372058/The-Rankin-Family-tickets-Mon-Mar-15-2027-Burton-Cummings-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372058"
   },
   {
     "id": "tm-the-rankin-family-2027-thunder-bay-1a8zk40gkd5kq6z",
@@ -222,7 +246,7 @@
     "country": "Canada",
     "venue": "The Auditorium",
     "datetime_iso": "2027-03-17T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Together Again Tour",
     "ticketmaster_event_id": "10006564CB19D1C0",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-thunder-bay-ontario-03-17-2027/event/10006564CB19D1C0",
     "seatgeek_url": "",
@@ -283,7 +307,7 @@
     "country": "Canada",
     "venue": "National Arts Centre / Centre national des Arts",
     "datetime_iso": "2027-03-24T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Together Again Tour",
     "ticketmaster_event_id": "31006563E6836E33",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-ottawa-ontario-03-24-2027/event/31006563E6836E33",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/ottawa-canada-national-arts-centre-2027-03-24-7-30-pm/concert/18761508",
@@ -305,14 +329,14 @@
         "event_id": 18761508,
         "url": "https://seatgeek.com/the-rankin-family-tickets/ottawa-canada-national-arts-centre-2027-03-24-7-30-pm/concert/18761508",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7859943,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-ottawa-southam-hall-at-national-arts-centre-3-24-2027/production/7859943",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -366,14 +390,14 @@
         "event_id": 18761514,
         "url": "https://seatgeek.com/the-rankin-family-tickets/niagara-falls-canada-olg-stage-at-fallsview-casino-2027-03-27-8-pm/concert/18761514",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7834161,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-niagara-falls-olg-stage-at-fallsview-casino-3-27-2027/production/7834161",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -399,7 +423,7 @@
     "country": "Canada",
     "venue": "Théâtre Beanfield",
     "datetime_iso": "2027-03-29T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Together Again Tour",
     "ticketmaster_event_id": "31006564C6DC615E",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-montreal-quebec-03-29-2027/event/31006564C6DC615E",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/montreal-canada-beanfield-theatre-2027-03-29-7-30-pm/concert/18761516",
@@ -421,14 +445,14 @@
         "event_id": 18761516,
         "url": "https://seatgeek.com/the-rankin-family-tickets/montreal-canada-beanfield-theatre-2027-03-29-7-30-pm/concert/18761516",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7848838,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-montreal-beanfield-theatre-3-29-2027/production/7848838",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -442,7 +466,14 @@
         "event_id": "8370341",
         "url": "https://www.ticketliquidator.com/tickets/8370341/The-Rankin-Family-tickets-Mon-Mar-29-2027-Theatre-Beanfield",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8370341",
+        "url": "https://www.ticketnetwork.com/en/p/8370341",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -456,7 +487,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370341"
   },
   {
     "id": "tm-the-rankin-family-2027-moncton-1aszk4pgkeuypli",
@@ -467,7 +499,7 @@
     "country": "Canada",
     "venue": "The Molson Canadian Centre at Casino New Brunswick",
     "datetime_iso": "2027-03-30T22:30:00Z",
-    "tour_name": "",
+    "tour_name": "Together Again Tour",
     "ticketmaster_event_id": "31006565B6E657EC",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-moncton-new-brunswick-03-30-2027/event/31006565B6E657EC",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/moncton-canada-molson-canadian-centre-at-casino-new-brunswick-2027-03-30-7-30-pm/concert/18761517",
@@ -489,14 +521,14 @@
         "event_id": 18761517,
         "url": "https://seatgeek.com/the-rankin-family-tickets/moncton-canada-molson-canadian-centre-at-casino-new-brunswick-2027-03-30-7-30-pm/concert/18761517",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833229,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-moncton-molson-canadian-centre-at-casino-new-brunswick-3-30-2027/production/7833229",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -510,7 +542,14 @@
         "event_id": "8372070",
         "url": "https://www.ticketliquidator.com/tickets/8372070/The-Rankin-Family-tickets-Tue-Mar-30-2027-Molson-Canadian-Centre-at-Casino-New-Brunswick",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372070",
+        "url": "https://www.ticketnetwork.com/en/p/8372070",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -523,7 +562,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372070/The-Rankin-Family-tickets-Tue-Mar-30-2027-Molson-Canadian-Centre-at-Casino-New-Brunswick"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372070/The-Rankin-Family-tickets-Tue-Mar-30-2027-Molson-Canadian-Centre-at-Casino-New-Brunswick",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372070"
   },
   {
     "id": "tm-the-rankin-family-2027-halifax-16szk4poezacdevv",
@@ -534,7 +574,7 @@
     "country": "Canada",
     "venue": "Scotiabank Centre",
     "datetime_iso": "2027-04-01T22:30:00Z",
-    "tour_name": "",
+    "tour_name": "Together Again Tour",
     "ticketmaster_event_id": "31006565827D2100",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-halifax-nova-scotia-04-01-2027/event/31006565827D2100",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/halifax-canada-scotiabank-centre-2027-04-01-7-30-pm/concert/18761518",
@@ -556,14 +596,14 @@
         "event_id": 18761518,
         "url": "https://seatgeek.com/the-rankin-family-tickets/halifax-canada-scotiabank-centre-2027-04-01-7-30-pm/concert/18761518",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833203,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-halifax-scotiabank-centre-4-1-2027/production/7833203",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -577,7 +617,14 @@
         "event_id": "8370417",
         "url": "https://www.ticketliquidator.com/tickets/8370417/The-Rankin-Family-tickets-Thu-Apr-1-2027-Scotiabank-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8370417",
+        "url": "https://www.ticketnetwork.com/en/p/8370417",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -590,7 +637,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370417/The-Rankin-Family-tickets-Thu-Apr-1-2027-Scotiabank-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8370417/The-Rankin-Family-tickets-Thu-Apr-1-2027-Scotiabank-Centre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8370417"
   },
   {
     "id": "tm-the-rankin-family-2027-sydney-1aszk4pgkd5nkwf",
@@ -601,7 +649,7 @@
     "country": "Canada",
     "venue": "Centre 200",
     "datetime_iso": "2027-04-03T22:00:00Z",
-    "tour_name": "",
+    "tour_name": "Together Again Tour",
     "ticketmaster_event_id": "31006565CB8C6C94",
     "ticketmaster_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
     "seatgeek_url": "https://seatgeek.com/the-rankin-family-tickets/sydney-canada-centre-200-2027-04-03-7-pm/concert/18761519",
@@ -623,14 +671,14 @@
         "event_id": 18761519,
         "url": "https://seatgeek.com/the-rankin-family-tickets/sydney-canada-centre-200-2027-04-03-7-pm/concert/18761519",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7833217,
         "url": "https://www.vividseats.com/the-rankin-family-tickets-sydney-centre-200-4-3-2027/production/7833217",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -644,7 +692,14 @@
         "event_id": "8372071",
         "url": "https://www.ticketliquidator.com/tickets/8372071/The-Rankin-Family-tickets-Sat-Apr-3-2027-Centre-200",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8372071",
+        "url": "https://www.ticketnetwork.com/en/p/8372071",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -652,6 +707,7 @@
     "timezone": "America/Halifax",
     "status": "on-sale",
     "genre": "Pop",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372071/The-Rankin-Family-tickets-Sat-Apr-3-2027-Centre-200"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372071/The-Rankin-Family-tickets-Sat-Apr-3-2027-Centre-200",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372071"
   }
 ]

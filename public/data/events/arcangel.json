@@ -644,7 +644,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1E0064B4954A8177",
     "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
-    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-salt-lake-city-utah-11-18-2026/event/1E0064B4954A8177",
@@ -660,10 +660,84 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18266330,
-        "url": "https://seatgeek.com/arcangel-tickets/salt-lake-city-utah-the-union-event-center-salt-lake-city-2026-11-18-8-pm/concert/18266330",
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
+      },
+      "ticketnetwork": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_5343IAM",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "ticketliquidator_url": "",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticketnetwork_url": "",
+    "ticket_limit": 6,
+    "genre": "Hip-Hop/Rap"
+  },
+  {
+    "id": "tm-arcangel-2026-inglewood-vvg1iz_1r3weok",
+    "artist_slug": "arcangel",
+    "artist_name": "Arcangel",
+    "event_name": "Arcángel - La 8va Maravilla World Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "YouTube Theater",
+    "datetime_iso": "2026-11-21T04:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0A0064A792CA7806",
+    "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-inglewood-california-11-20-2026/event/0A0064A792CA7806",
+    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/inglewood-california-youtube-theater-2026-11-20-8-pm/concert/18266331",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-inglewood-california-11-20-2026/event/0A0064A792CA7806",
+    "last_verified_at": "2026-11-17",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0064A792CA7806",
+        "discovery_event_id": "vvG1IZ_1r3wEOk",
+        "url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-inglewood-california-11-20-2026/event/0A0064A792CA7806",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18266331,
+        "url": "https://seatgeek.com/arcangel-tickets/inglewood-california-youtube-theater-2026-11-20-8-pm/concert/18266331",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -681,107 +755,26 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997055",
-        "url": "https://www.ticketliquidator.com/tickets/7997055/Arcangel-tickets-Wed-Nov-18-2026-The-Union-Event-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
-      },
-      "ticketnetwork": {
-        "event_id": "7997055",
-        "url": "https://www.ticketnetwork.com/en/p/7997055",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
-      }
-    },
-    "ticketmaster_discovery_event_id": "G5vzZ_5343IAM",
-    "timezone": "America/Denver",
-    "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997055/Arcangel-tickets-Wed-Nov-18-2026-The-Union-Event-Center",
-    "organizer_names": [
-      "LIVE NATION MUSIC"
-    ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997055",
-    "ticket_limit": 6,
-    "genre": "Hip-Hop/Rap"
-  },
-  {
-    "id": "tm-arcangel-2026-inglewood-vvg1iz_1r3weok",
-    "artist_slug": "arcangel",
-    "artist_name": "Arcangel",
-    "event_name": "Arcángel - La 8va Maravilla World Tour",
-    "city": "Inglewood",
-    "country": "United States Of America",
-    "venue": "YouTube Theater",
-    "datetime_iso": "2026-11-21T04:00:00Z",
-    "tour_name": "",
-    "ticketmaster_event_id": "0A0064A792CA7806",
-    "ticketmaster_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-inglewood-california-11-20-2026/event/0A0064A792CA7806",
-    "seatgeek_url": "https://seatgeek.com/arcangel-tickets/inglewood-california-youtube-theater-2026-11-20-8-pm/concert/18266331",
-    "vividseats_url": "https://www.vividseats.com/arcangel-tickets-inglewood-youtube-theater-11-20-2026--concerts-rap-hip-hop/production/7079519",
-    "source_type": "ticketmaster",
-    "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-inglewood-california-11-20-2026/event/0A0064A792CA7806",
-    "last_verified_at": "2026-11-07",
-    "verification_status": "machine_high_confidence",
-    "provider_links": {
-      "ticketmaster": {
-        "event_id": "0A0064A792CA7806",
-        "discovery_event_id": "vvG1IZ_1r3wEOk",
-        "url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-inglewood-california-11-20-2026/event/0A0064A792CA7806",
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "seatgeek": {
-        "event_id": 18266331,
-        "url": "https://seatgeek.com/arcangel-tickets/inglewood-california-youtube-theater-2026-11-20-8-pm/concert/18266331",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
-      },
-      "vivid-seats": {
-        "event_id": 7079519,
-        "url": "https://www.vividseats.com/arcangel-tickets-inglewood-youtube-theater-11-20-2026--concerts-rap-hip-hop/production/7079519",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
-      },
-      "stubhub": {
         "event_id": null,
         "url": null,
         "verified": false,
         "last_verified_at": null,
-        "availability_status": "not_checked"
-      },
-      "ticket-liquidator": {
-        "event_id": "7997056",
-        "url": "https://www.ticketliquidator.com/tickets/7997056/Arcangel-tickets-Fri-Nov-20-2026-YouTube-Theater-at-Hollywood-Park",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": "7997056",
         "url": "https://www.ticketnetwork.com/en/p/7997056",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_1r3wEOk",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997056/Arcangel-tickets-Fri-Nov-20-2026-YouTube-Theater-at-Hollywood-Park",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-05-28T17:00:00Z",
-        "end": "2026-11-16T20:00:00Z"
-      }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997056",
     "ticket_limit": 6,
@@ -803,7 +796,7 @@
     "vividseats_url": "https://www.vividseats.com/arcangel-tickets-san-jose-san-jose-civic-11-21-2026--concerts-rap-hip-hop/production/7079523",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/arcangel-la-8va-maravilla-world-tour-san-jose-california-11-21-2026/event/1C0064ACCB0A6B9B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -818,14 +811,14 @@
         "event_id": 18266334,
         "url": "https://seatgeek.com/arcangel-tickets/san-jose-california-san-jose-civic-2026-11-21-8-pm/concert/18266334",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7079523,
         "url": "https://www.vividseats.com/arcangel-tickets-san-jose-san-jose-civic-11-21-2026--concerts-rap-hip-hop/production/7079523",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -836,35 +829,28 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7997057",
-        "url": "https://www.ticketliquidator.com/tickets/7997057/Arcangel-tickets-Sat-Nov-21-2026-San-Jose-Civic",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": "7997057",
-        "url": "https://www.ticketnetwork.com/en/p/7997057",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_1S5eJmh",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7997057/Arcangel-tickets-Sat-Nov-21-2026-San-Jose-Civic",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "presales": [
-      {
-        "name": "VIP PACKAGES ONSALE",
-        "start": "2026-05-28T17:00:00Z",
-        "end": "2026-11-17T20:00:00Z"
-      }
-    ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7997057",
+    "ticketnetwork_url": "",
     "ticket_limit": 6,
     "genre": "Hip-Hop/Rap"
   }

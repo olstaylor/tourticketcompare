@@ -1388,7 +1388,7 @@
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hollywood Bowl",
-    "datetime_iso": "2026-11-19T03:30:00Z",
+    "datetime_iso": "2026-11-19T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0B00650ECDC0DD8B",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
@@ -1396,7 +1396,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-18-2026--concerts-pop/production/7446302",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-18-2026/event/0B00650ECDC0DD8B",
-    "last_verified_at": "2026-11-15",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1418,7 +1418,7 @@
         "event_id": 7446302,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-18-2026--concerts-pop/production/7446302",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1429,33 +1429,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8214360",
-        "url": "https://www.ticketnetwork.com/en/p/8214360",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8214360",
-        "url": "https://www.ticketliquidator.com/tickets/8214360/Jonas-Brothers-tickets-Wed-Nov-18-2026-Hollywood-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107482393",
-        "url": "https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-18-2026/event/107482393",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_8DuYuU5",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214360",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214360/Jonas-Brothers-tickets-Wed-Nov-18-2026-Hollywood-Bowl",
-    "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-18-2026/event/107482393",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",
       "LIVE NATION MUSIC"
@@ -1471,7 +1471,7 @@
     "city": "Hollywood",
     "country": "United States Of America",
     "venue": "Hollywood Bowl",
-    "datetime_iso": "2026-11-20T03:30:00Z",
+    "datetime_iso": "2026-11-20T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "0B006511309DB401",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
@@ -1479,7 +1479,7 @@
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-hollywood-california-11-19-2026/event/0B006511309DB401",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1501,7 +1501,7 @@
         "event_id": 7480299,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-los-angeles-hollywood-bowl-11-19-2026--concerts-pop/production/7480299",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-19",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1512,33 +1512,33 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8235986",
-        "url": "https://www.ticketnetwork.com/en/p/8235986",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8235986",
-        "url": "https://www.ticketliquidator.com/tickets/8235986/Jonas-Brothers-tickets-Thu-Nov-19-2026-Hollywood-Bowl",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107554508",
-        "url": "https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-19-2026/event/107554508",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_o7YEh8v",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8235986",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235986/Jonas-Brothers-tickets-Thu-Nov-19-2026-Hollywood-Bowl",
-    "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-hollywood-tickets-11-19-2026/event/107554508",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "ANDREW HEWITT & BILL SILVA PRESENTS",
       "LIVE NATION MUSIC"
@@ -1555,14 +1555,14 @@
     "country": "United States Of America",
     "venue": "Chase Center",
     "datetime_iso": "2026-11-22T03:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "1C00650CD888DAC0",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-francisco-california-11-21-2026/event/1C00650CD888DAC0",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/san-francisco-california-chase-center-2026-11-21-7-30-pm/concert/18503911",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-san-francisco-chase-center-11-21-2026--concerts-pop/production/7446310",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-francisco-california-11-21-2026/event/1C00650CD888DAC0",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-17",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1577,14 +1577,14 @@
         "event_id": 18503911,
         "url": "https://seatgeek.com/jonas-brothers-tickets/san-francisco-california-chase-center-2026-11-21-7-30-pm/concert/18503911",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446310,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-san-francisco-chase-center-11-21-2026--concerts-pop/production/7446310",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1595,42 +1595,35 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8214362",
-        "url": "https://www.ticketnetwork.com/en/p/8214362",
-        "verified": true,
-        "last_verified_at": "2026-10-17",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "8214362",
-        "url": "https://www.ticketliquidator.com/tickets/8214362/Jonas-Brothers-tickets-Sat-Nov-21-2026-Chase-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107482394",
-        "url": "https://www.stubhub.ie/jonas-brothers-san-francisco-tickets-11-21-2026/event/107482394",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_8SbxulZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214362",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214362/Jonas-Brothers-tickets-Sat-Nov-21-2026-Chase-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-san-francisco-tickets-11-21-2026/event/107482394",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-17T20:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -1644,14 +1637,14 @@
     "country": "United States Of America",
     "venue": "Golden 1 Center",
     "datetime_iso": "2026-11-23T03:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "1C00650CFB097E40",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sacramento-california-11-22-2026/event/1C00650CFB097E40",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/sacramento-california-golden-1-center-2026-11-22-7-30-pm/concert/18503910",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-sacramento-golden-1-center-11-22-2026--concerts-pop/production/7446314",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sacramento-california-11-22-2026/event/1C00650CFB097E40",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1666,14 +1659,14 @@
         "event_id": 18503910,
         "url": "https://seatgeek.com/jonas-brothers-tickets/sacramento-california-golden-1-center-2026-11-22-7-30-pm/concert/18503910",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446314,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-sacramento-golden-1-center-11-22-2026--concerts-pop/production/7446314",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1687,39 +1680,32 @@
         "event_id": "8214363",
         "url": "https://www.ticketnetwork.com/en/p/8214363",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "8214363",
-        "url": "https://www.ticketliquidator.com/tickets/8214363/Jonas-Brothers-tickets-Sun-Nov-22-2026-Golden-1-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107490079",
-        "url": "https://www.stubhub.ie/jonas-brothers-sacramento-tickets-11-22-2026/event/107490079",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_8SDe9yZ",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214363",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214363/Jonas-Brothers-tickets-Sun-Nov-22-2026-Golden-1-Center",
-    "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-sacramento-tickets-11-22-2026/event/107490079",
+    "ticketliquidator_url": "",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Packages Onsale",
-        "start": "2026-08-21T17:00:00Z",
-        "end": "2026-11-18T20:00:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "Pop"
@@ -1733,7 +1719,7 @@
     "country": "United States Of America",
     "venue": "Desert Diamond Arena",
     "datetime_iso": "2026-11-28T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "1900650DD11599D6",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-glendale-arizona-11-27-2026/event/1900650DD11599D6",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/glendale-arizona-desert-diamond-arena-2026-11-27-7-30-pm/concert/18503907",
@@ -1755,14 +1741,14 @@
         "event_id": 18503907,
         "url": "https://seatgeek.com/jonas-brothers-tickets/glendale-arizona-desert-diamond-arena-2026-11-27-7-30-pm/concert/18503907",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446318,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-glendale-desert-diamond-arena-11-27-2026--concerts-pop/production/7446318",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1776,14 +1762,14 @@
         "event_id": "8214364",
         "url": "https://www.ticketnetwork.com/en/p/8214364",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214364",
         "url": "https://www.ticketliquidator.com/tickets/8214364/Jonas-Brothers-tickets-Fri-Nov-27-2026-Desert-Diamond-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1814,7 +1800,7 @@
     "country": "United States Of America",
     "venue": "MGM Grand Garden Arena",
     "datetime_iso": "2026-11-29T03:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "Z7r9jZ1AAZwb_",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb_",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-11-28-7-30-pm/concert/18503912",
@@ -1836,14 +1822,14 @@
         "event_id": 18503912,
         "url": "https://seatgeek.com/jonas-brothers-tickets/las-vegas-nevada-mgm-grand-garden-arena-2026-11-28-7-30-pm/concert/18503912",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446322,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-las-vegas-mgm-grand-garden-arena-11-28-2026--concerts-pop/production/7446322",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1857,21 +1843,21 @@
         "event_id": "8214365",
         "url": "https://www.ticketnetwork.com/en/p/8214365",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214365",
         "url": "https://www.ticketliquidator.com/tickets/8214365/Jonas-Brothers-tickets-Sat-Nov-28-2026-MGM-Grand-Garden-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107490080",
         "url": "https://www.stubhub.ie/jonas-brothers-las-vegas-tickets-11-28-2026/event/107490080",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1895,7 +1881,7 @@
     "country": "United States Of America",
     "venue": "Viejas Arena at Aztec Bowl San Diego State University",
     "datetime_iso": "2026-12-01T03:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "0A00650D864B747A",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-san-diego-california-11-30-2026/event/0A00650D864B747A",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-11-30-7-30-pm/concert/18503919",
@@ -1917,7 +1903,7 @@
         "event_id": 18503919,
         "url": "https://seatgeek.com/jonas-brothers-tickets/san-diego-california-viejas-arena-at-aztec-bowl-2026-11-30-7-30-pm/concert/18503919",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1938,14 +1924,14 @@
         "event_id": "8214367",
         "url": "https://www.ticketnetwork.com/en/p/8214367",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214367",
         "url": "https://www.ticketliquidator.com/tickets/8214367/Jonas-Brothers-tickets-Mon-Nov-30-2026-Viejas-Arena-At-Aztec-Bowl",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1976,7 +1962,7 @@
     "country": "United States Of America",
     "venue": "Honda Center",
     "datetime_iso": "2026-12-03T03:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "0900650C4618D89F",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-anaheim-california-12-02-2026/event/0900650C4618D89F",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/anaheim-california-honda-center-2026-12-02-7-30-pm/concert/18503918",
@@ -1998,14 +1984,14 @@
         "event_id": 18503918,
         "url": "https://seatgeek.com/jonas-brothers-tickets/anaheim-california-honda-center-2026-12-02-7-30-pm/concert/18503918",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446332,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-anaheim-honda-center-12-2-2026--concerts-pop/production/7446332",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2019,21 +2005,21 @@
         "event_id": "8214371",
         "url": "https://www.ticketnetwork.com/en/p/8214371",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214371",
         "url": "https://www.ticketliquidator.com/tickets/8214371/Jonas-Brothers-tickets-Wed-Dec-2-2026-Honda-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107482385",
         "url": "https://www.stubhub.ie/jonas-brothers-anaheim-tickets-12-2-2026/event/107482385",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2065,7 +2051,7 @@
     "country": "United States Of America",
     "venue": "Climate Pledge Arena",
     "datetime_iso": "2026-12-06T03:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "0F00650D9D7768D8",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-seattle-washington-12-05-2026/event/0F00650D9D7768D8",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/seattle-washington-climate-pledge-arena-2026-12-05-7-30-pm/concert/18503920",
@@ -2087,14 +2073,14 @@
         "event_id": 18503920,
         "url": "https://seatgeek.com/jonas-brothers-tickets/seattle-washington-climate-pledge-arena-2026-12-05-7-30-pm/concert/18503920",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446334,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-seattle-climate-pledge-arena-12-5-2026--concerts-pop/production/7446334",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2108,21 +2094,21 @@
         "event_id": "8214373",
         "url": "https://www.ticketnetwork.com/en/p/8214373",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214373",
         "url": "https://www.ticketliquidator.com/tickets/8214373/Jonas-Brothers-tickets-Sat-Dec-5-2026-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107524089",
         "url": "https://www.stubhub.ie/jonas-brothers-seattle-tickets-12-5-2026/event/107524089",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2154,7 +2140,7 @@
     "country": "United States Of America",
     "venue": "Delta Center",
     "datetime_iso": "2026-12-08T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "Z7r9jZ1AAZwb9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZwb9",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/salt-lake-city-utah-delta-center-1-2026-12-07-7-30-pm/concert/18471182",
@@ -2176,14 +2162,14 @@
         "event_id": 18471182,
         "url": "https://seatgeek.com/jonas-brothers-tickets/salt-lake-city-utah-delta-center-1-2026-12-07-7-30-pm/concert/18471182",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446338,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-salt-lake-city-delta-center-12-7-2026--concerts-pop/production/7446338",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2197,14 +2183,14 @@
         "event_id": "8214374",
         "url": "https://www.ticketnetwork.com/en/p/8214374",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214374",
         "url": "https://www.ticketliquidator.com/tickets/8214374/Jonas-Brothers-tickets-Mon-Dec-7-2026-Delta-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2227,7 +2213,7 @@
     "country": "United States Of America",
     "venue": "Ball Arena",
     "datetime_iso": "2026-12-10T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "1E00650D99D85C06",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-denver-colorado-12-09-2026/event/1E00650D99D85C06",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/denver-colorado-ball-arena-2026-12-09-7-30-pm/concert/18503921",
@@ -2249,14 +2235,14 @@
         "event_id": 18503921,
         "url": "https://seatgeek.com/jonas-brothers-tickets/denver-colorado-ball-arena-2026-12-09-7-30-pm/concert/18503921",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446340,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-denver-ball-arena-12-9-2026--concerts-pop/production/7446340",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2270,14 +2256,14 @@
         "event_id": "8214376",
         "url": "https://www.ticketnetwork.com/en/p/8214376",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214376",
         "url": "https://www.ticketliquidator.com/tickets/8214376/Jonas-Brothers-tickets-Wed-Dec-9-2026-Ball-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2308,7 +2294,7 @@
     "country": "United States Of America",
     "venue": "Pinnacle Bank Arena",
     "datetime_iso": "2026-12-11T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "0600650DED6F1F8D",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-lincoln-nebraska-12-10-2026/event/0600650DED6F1F8D",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-12-10-7-30-pm/concert/18503923",
@@ -2330,14 +2316,14 @@
         "event_id": 18503923,
         "url": "https://seatgeek.com/jonas-brothers-tickets/lincoln-nebraska-pinnacle-bank-arena-2026-12-10-7-30-pm/concert/18503923",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446344,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-lincoln-pinnacle-bank-arena-12-10-2026--concerts-pop/production/7446344",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2351,14 +2337,14 @@
         "event_id": "8214378",
         "url": "https://www.ticketnetwork.com/en/p/8214378",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214378",
         "url": "https://www.ticketliquidator.com/tickets/8214378/Jonas-Brothers-tickets-Thu-Dec-10-2026-Pinnacle-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2403,7 +2389,7 @@
     "country": "United States Of America",
     "venue": "Denny Sanford PREMIER Center",
     "datetime_iso": "2026-12-13T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "0600650EC125104E",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-sioux-falls-south-dakota-12-12-2026/event/0600650EC125104E",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/sioux-falls-south-dakota-denny-sanford-premier-center-2026-12-12-7-30-pm/concert/18503922",
@@ -2425,14 +2411,14 @@
         "event_id": 18503922,
         "url": "https://seatgeek.com/jonas-brothers-tickets/sioux-falls-south-dakota-denny-sanford-premier-center-2026-12-12-7-30-pm/concert/18503922",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446348,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-sioux-falls-denny-sanford-premier-center-12-12-2026--concerts-pop/production/7446348",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2446,14 +2432,14 @@
         "event_id": "8214380",
         "url": "https://www.ticketnetwork.com/en/p/8214380",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214380",
         "url": "https://www.ticketliquidator.com/tickets/8214380/Jonas-Brothers-tickets-Sat-Dec-12-2026-Denny-Sanford-Premier-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2484,7 +2470,7 @@
     "country": "United States Of America",
     "venue": "Van Andel Arena",
     "datetime_iso": "2026-12-16T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "0800650EB9E3B051",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-grand-rapids-michigan-12-15-2026/event/0800650EB9E3B051",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/grand-rapids-michigan-van-andel-arena-2026-12-15-7-30-pm/concert/18503930",
@@ -2506,14 +2492,14 @@
         "event_id": 18503930,
         "url": "https://seatgeek.com/jonas-brothers-tickets/grand-rapids-michigan-van-andel-arena-2026-12-15-7-30-pm/concert/18503930",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446350,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-grand-rapids-van-andel-arena-12-15-2026--concerts-pop/production/7446350",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2527,14 +2513,14 @@
         "event_id": "8214382",
         "url": "https://www.ticketnetwork.com/en/p/8214382",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214382",
         "url": "https://www.ticketliquidator.com/tickets/8214382/Jonas-Brothers-tickets-Tue-Dec-15-2026-Van-Andel-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2565,14 +2551,14 @@
     "country": "United States Of America",
     "venue": "UBS Arena",
     "datetime_iso": "2026-12-20T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "3000650D997F2A93",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-belmont-park-new-york-12-19-2026/event/3000650D997F2A93",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/elmont-new-york-ubs-arena-2026-12-19-7-30-pm/concert/18503931",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-elmont-ubs-arena-12-19-2026--concerts-pop/production/7446354",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-belmont-park-new-york-12-19-2026/event/3000650D997F2A93",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-20",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2587,14 +2573,14 @@
         "event_id": 18503931,
         "url": "https://seatgeek.com/jonas-brothers-tickets/elmont-new-york-ubs-arena-2026-12-19-7-30-pm/concert/18503931",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446354,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-elmont-ubs-arena-12-19-2026--concerts-pop/production/7446354",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2603,6 +2589,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8214384",
+        "url": "https://www.ticketnetwork.com/en/p/8214384",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8214384",
+        "url": "https://www.ticketliquidator.com/tickets/8214384/Jonas-Brothers-tickets-Sat-Dec-19-2026-UBS-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107482396",
+        "url": "https://www.stubhub.ie/jonas-brothers-elmont-tickets-12-19-2026/event/107482396",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdZZ_8GkU_LwnK",
@@ -2613,18 +2620,16 @@
     ],
     "presales": [
       {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T14:00:00Z",
-        "end": "2026-11-20T03:00:00Z"
-      },
-      {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T14:00:00Z",
         "end": "2026-12-15T17:00:00Z"
       }
     ],
     "ticket_limit": 8,
-    "genre": "Pop"
+    "genre": "Pop",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8214384",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8214384/Jonas-Brothers-tickets-Sat-Dec-19-2026-UBS-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jonas-brothers-elmont-tickets-12-19-2026/event/107482396"
   },
   {
     "id": "tm-jonas-brothers-2026-newark-vv17fz_8gkzo23wg",
@@ -2635,14 +2640,14 @@
     "country": "United States Of America",
     "venue": "Prudential Center",
     "datetime_iso": "2026-12-22T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "0200650E113D2CB5",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-21-2026/event/0200650E113D2CB5",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/newark-new-jersey-prudential-center-2026-12-21-7-30-pm/concert/18503932",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-21-2026--concerts-pop/production/7446356",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-21-2026/event/0200650E113D2CB5",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-22",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2657,14 +2662,14 @@
         "event_id": 18503932,
         "url": "https://seatgeek.com/jonas-brothers-tickets/newark-new-jersey-prudential-center-2026-12-21-7-30-pm/concert/18503932",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7446356,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-21-2026--concerts-pop/production/7446356",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2678,21 +2683,21 @@
         "event_id": "8214386",
         "url": "https://www.ticketnetwork.com/en/p/8214386",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8214386",
         "url": "https://www.ticketliquidator.com/tickets/8214386/Jonas-Brothers-tickets-Mon-Dec-21-2026-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107482397",
         "url": "https://www.stubhub.ie/jonas-brothers-newark-tickets-12-21-2026/event/107482397",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2706,11 +2711,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-21T14:00:00Z",
-        "end": "2026-11-22T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-21T14:00:00Z",
@@ -2729,14 +2729,14 @@
     "country": "United States Of America",
     "venue": "Prudential Center",
     "datetime_iso": "2026-12-23T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Burning Up Tour All Over Again",
     "ticketmaster_event_id": "0200650E11422CE2",
     "ticketmaster_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
     "seatgeek_url": "https://seatgeek.com/jonas-brothers-tickets/newark-new-jersey-prudential-center-2026-12-22-7-30-pm/concert/18532484",
     "vividseats_url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-22-2026/production/7480311",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jonas-brothers-the-burning-up-tour-newark-new-jersey-12-22-2026/event/0200650E11422CE2",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2751,14 +2751,14 @@
         "event_id": 18532484,
         "url": "https://seatgeek.com/jonas-brothers-tickets/newark-new-jersey-prudential-center-2026-12-22-7-30-pm/concert/18532484",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7480311,
         "url": "https://www.vividseats.com/jonas-brothers-tickets-newark-prudential-center-12-22-2026/production/7480311",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2772,21 +2772,21 @@
         "event_id": "8235385",
         "url": "https://www.ticketnetwork.com/en/p/8235385",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8235385",
         "url": "https://www.ticketliquidator.com/tickets/8235385/Jonas-Brothers-tickets-Tue-Dec-22-2026-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107625116",
         "url": "https://www.stubhub.ie/jonas-brothers-newark-tickets-12-22-2026/event/107625116",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2800,11 +2800,6 @@
       "LIVE NATION MUSIC"
     ],
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-08-28T14:00:00Z",
-        "end": "2026-11-23T03:00:00Z"
-      },
       {
         "name": "VIP Packages Onsale",
         "start": "2026-08-28T14:00:00Z",

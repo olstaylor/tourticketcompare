@@ -588,11 +588,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "8090671",
-        "url": "https://www.ticketnetwork.com/en/p/8090671",
-        "verified": true,
-        "last_verified_at": "2026-10-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_u1gUca1",
@@ -605,7 +605,7 @@
       "ASM T-A AO ARENA",
       "S.J.M. LTD"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090671",
+    "ticketnetwork_url": "",
     "ticket_limit": 8,
     "genre": "Rock"
   },
@@ -671,7 +671,7 @@
     "country": "Sweden",
     "venue": "Fryshuset",
     "datetime_iso": "2026-11-24T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Powerlines Tour",
     "ticketmaster_event_id": "964261449",
     "ticketmaster_url": "https://www.ticketmaster.se/event/beabadoobee-the-powerlines-tour-tickets/964261449?language=en-us",
     "seatgeek_url": "",
@@ -728,7 +728,7 @@
     "country": "Norway",
     "venue": "Oslo Spektrum",
     "datetime_iso": "2026-11-27T17:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Powerlines Tour",
     "ticketmaster_event_id": "1490194092",
     "ticketmaster_url": "https://www.ticketmaster.no/event/beabadoobee-the-powerlines-tour-tickets/1490194092?language=en-us",
     "seatgeek_url": "",
@@ -771,21 +771,21 @@
         "event_id": "8094857",
         "url": "https://www.ticketliquidator.com/tickets/8094857/beabadoobee-tickets-Fri-Nov-27-2026-Oslo-Spektrum",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107417938",
         "url": "https://www.stubhub.ie/beabadoobee-tickets-oslo-oslo-spektrum-27-11-2026/event/107417938",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8094857",
         "url": "https://www.ticketnetwork.com/en/p/8094857",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -809,7 +809,7 @@
     "country": "Belgium",
     "venue": "Vorst Nationaal/Forest National",
     "datetime_iso": "2026-12-04T17:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Powerlines Tour",
     "ticketmaster_event_id": "1834243526",
     "ticketmaster_url": "https://www.ticketmaster.be/event/beabadoobee-the-powerlines-tour-tickets/1834243526",
     "seatgeek_url": "",
@@ -847,6 +847,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8094858",
+        "url": "https://www.ticketnetwork.com/en/p/8094858",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8094858",
+        "url": "https://www.ticketliquidator.com/tickets/8094858/beabadoobee-tickets-Fri-Dec-4-2026-Vorst-Nationaal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16vOVadfJ",
@@ -855,7 +869,9 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8094858",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8094858/beabadoobee-tickets-Fri-Dec-4-2026-Vorst-Nationaal"
   },
   {
     "id": "tm-beabadoobee-2026-berlin-z698xzc2z16vpmfp_a",
@@ -866,7 +882,7 @@
     "country": "Germany",
     "venue": "Tempodrom",
     "datetime_iso": "2026-12-06T19:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Powerlines Tour",
     "ticketmaster_event_id": "1977216649",
     "ticketmaster_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/1977216649?language=en-us",
     "seatgeek_url": "",
@@ -895,7 +911,7 @@
         "event_id": 7212678,
         "url": "https://www.vividseats.com/beabadoobee-tickets-berlin-tempodrom-12-6-2026--concerts-pop/production/7212678",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -909,21 +925,21 @@
         "event_id": "8094855",
         "url": "https://www.ticketliquidator.com/tickets/8094855/beabadoobee-tickets-Sun-Dec-6-2026-Tempodrom",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107417969",
         "url": "https://www.stubhub.ie/beabadoobee-tickets-berlin-tempodrom-6-12-2026/event/107417969",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8094855",
         "url": "https://www.ticketnetwork.com/en/p/8094855",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -947,7 +963,7 @@
     "country": "Germany",
     "venue": "Mitsubishi Electric HALLE",
     "datetime_iso": "2026-12-07T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "The Powerlines Tour",
     "ticketmaster_event_id": "917770412",
     "ticketmaster_url": "https://www.ticketmaster.de/event/beabadoobee-the-powerlines-tour-tickets/917770412?language=en-us",
     "seatgeek_url": "",
@@ -976,7 +992,7 @@
         "event_id": 7212682,
         "url": "https://www.vividseats.com/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-12-7-2026--concerts-pop/production/7212682",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -990,21 +1006,21 @@
         "event_id": "8094856",
         "url": "https://www.ticketliquidator.com/tickets/8094856/beabadoobee-tickets-Mon-Dec-7-2026-Mitsubishi-Electric-Halle",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107417970",
         "url": "https://www.stubhub.ie/beabadoobee-tickets-dusseldorf-mitsubishi-electric-halle-7-12-2026/event/107417970",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8094856",
         "url": "https://www.ticketnetwork.com/en/p/8094856",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

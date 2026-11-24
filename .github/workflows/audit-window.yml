@@ -1,0 +1,48 @@
+name: Audit window status
+
+# Sets the `audit-window` commit status on open PRs: pending for thread branches
+# that touch audit evidence while the Daily data audit is running, success
+# otherwise. Merging such a PR mid-audit cancels the audit (check-audit-revision).
+# Read-only apart from commit statuses; never touches data, main or the audit.
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_run:
+    workflows: ["Daily data audit"]
+    types: [requested, in_progress, completed]
+  workflow_dispatch:
+
+concurrency:
+  group: audit-window
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: read
+  pull-requests: read
+  statuses: write
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - name: Self-test
+        run: node scripts/audit-window-status.mjs --self-test
+      - name: Set the audit-window status
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          if [ -n "$PR_NUMBER" ]; then
+            node scripts/audit-window-status.mjs --pr "$PR_NUMBER"
+          else
+            node scripts/audit-window-status.mjs
+          fi

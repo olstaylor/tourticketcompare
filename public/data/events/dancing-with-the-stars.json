@@ -8,7 +8,7 @@
     "country": "United States Of America",
     "venue": "SNHU Arena",
     "datetime_iso": "2027-01-22T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "01006538BEB0BB7D",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-manchester-new-hampshire-01-21-2027/event/01006538BEB0BB7D",
     "seatgeek_url": "",
@@ -37,7 +37,7 @@
         "event_id": 7662725,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-manchester-snhu-arena-1-21-2027--theater-ballet-and-dance/production/7662725",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,14 +51,14 @@
         "event_id": "8310115",
         "url": "https://www.ticketnetwork.com/en/p/8310115",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310115",
         "url": "https://www.ticketliquidator.com/tickets/8310115/Dancing-With-The-Stars-tickets-Thu-Jan-21-2027-SNHU-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -78,7 +78,7 @@
     "country": "United States Of America",
     "venue": "KeyBank Center",
     "datetime_iso": "2027-01-23T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "00006541965469FE",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-buffalo-new-york-01-22-2027/event/00006541965469FE",
     "seatgeek_url": "",
@@ -107,7 +107,7 @@
         "event_id": 7662727,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-buffalo-keybank-center-1-22-2027--theater-ballet-and-dance/production/7662727",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -121,14 +121,21 @@
         "event_id": "8310116",
         "url": "https://www.ticketnetwork.com/en/p/8310116",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310116",
         "url": "https://www.ticketliquidator.com/tickets/8310116/Dancing-With-The-Stars-tickets-Fri-Jan-22-2027-KeyBank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683918",
+        "url": "https://www.stubhub.ie/dancing-with-the-stars-buffalo-tickets-1-22-2027/event/107683918",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -137,7 +144,8 @@
     "status": "announced",
     "public_onsale_at": "2026-10-13T14:00:00Z",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310116",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310116/Dancing-With-The-Stars-tickets-Fri-Jan-22-2027-KeyBank-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310116/Dancing-With-The-Stars-tickets-Fri-Jan-22-2027-KeyBank-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/dancing-with-the-stars-buffalo-tickets-1-22-2027/event/107683918"
   },
   {
     "id": "tm-dancing-with-the-stars-2027-cincinnati-1apzkfygkeolgly",
@@ -148,7 +156,7 @@
     "country": "United States Of America",
     "venue": "Heritage Bank Center",
     "datetime_iso": "2027-01-24T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "16006539A07F5AF9",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-cincinnati-ohio-01-23-2027/event/16006539A07F5AF9",
     "seatgeek_url": "",
@@ -177,7 +185,7 @@
         "event_id": 7662731,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-cincinnati-heritage-bank-center-1-23-2027--theater-ballet-and-dance/production/7662731",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -191,14 +199,14 @@
         "event_id": "8310117",
         "url": "https://www.ticketnetwork.com/en/p/8310117",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310117",
         "url": "https://www.ticketliquidator.com/tickets/8310117/Dancing-With-The-Stars-tickets-Sat-Jan-23-2027-Heritage-Bank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -218,7 +226,7 @@
     "country": "Canada",
     "venue": "Scotiabank Arena",
     "datetime_iso": "2027-01-25T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1000653CE43CF7B0",
     "ticketmaster_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-toronto-ontario-01-24-2027/event/1000653CE43CF7B0",
     "seatgeek_url": "",
@@ -247,7 +255,7 @@
         "event_id": 7662836,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-toronto-scotiabank-arena-1-24-2027/production/7662836",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272,7 +280,7 @@
     "country": "United States Of America",
     "venue": "Van Andel Arena",
     "datetime_iso": "2027-01-28T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "08006539FBF2D53A",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-grand-rapids-michigan-01-27-2027/event/08006539FBF2D53A",
     "seatgeek_url": "",
@@ -301,7 +309,7 @@
         "event_id": 7662740,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-grand-rapids-van-andel-arena-1-27-2027--theater-ballet-and-dance/production/7662740",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -315,14 +323,14 @@
         "event_id": "8310119",
         "url": "https://www.ticketnetwork.com/en/p/8310119",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310119",
         "url": "https://www.ticketliquidator.com/tickets/8310119/Dancing-With-The-Stars-tickets-Wed-Jan-27-2027-Van-Andel-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -342,7 +350,7 @@
     "country": "United States Of America",
     "venue": "Little Caesars Arena",
     "datetime_iso": "2027-01-29T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "08006542E5B3BA17",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-detroit-michigan-01-28-2027/event/08006542E5B3BA17",
     "seatgeek_url": "",
@@ -371,7 +379,7 @@
         "event_id": 7662742,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-detroit-little-caesars-arena-1-28-2027--theater-ballet-and-dance/production/7662742",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -385,14 +393,14 @@
         "event_id": "8310120",
         "url": "https://www.ticketnetwork.com/en/p/8310120",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310120",
         "url": "https://www.ticketliquidator.com/tickets/8310120/Dancing-With-The-Stars-tickets-Thu-Jan-28-2027-Little-Caesars-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -412,7 +420,7 @@
     "country": "United States Of America",
     "venue": "Gainbridge Fieldhouse",
     "datetime_iso": "2027-01-30T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0500653DE03DF13C",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-indianapolis-indiana-01-29-2027/event/0500653DE03DF13C",
     "seatgeek_url": "",
@@ -441,7 +449,7 @@
         "event_id": 7662744,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-indianapolis-gainbridge-fieldhouse-1-29-2027--theater-ballet-and-dance/production/7662744",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -455,14 +463,14 @@
         "event_id": "8310121",
         "url": "https://www.ticketnetwork.com/en/p/8310121",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310121",
         "url": "https://www.ticketliquidator.com/tickets/8310121/Dancing-With-The-Stars-tickets-Fri-Jan-29-2027-Gainbridge-Fieldhouse",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -482,7 +490,7 @@
     "country": "United States Of America",
     "venue": "Target Center",
     "datetime_iso": "2027-01-31T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "06006538E6A9FCF7",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-minneapolis-minnesota-01-30-2027/event/06006538E6A9FCF7",
     "seatgeek_url": "",
@@ -511,7 +519,7 @@
         "event_id": 7662746,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-minneapolis-target-center-1-30-2027--theater-ballet-and-dance/production/7662746",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -525,14 +533,14 @@
         "event_id": "8310122",
         "url": "https://www.ticketnetwork.com/en/p/8310122",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310122",
         "url": "https://www.ticketliquidator.com/tickets/8310122/Dancing-With-The-Stars-tickets-Sat-Jan-30-2027-Target-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -552,7 +560,7 @@
     "country": "United States Of America",
     "venue": "Fiserv Forum",
     "datetime_iso": "2027-02-01T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "07006538B7515581",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-milwaukee-wisconsin-01-31-2027/event/07006538B7515581",
     "seatgeek_url": "",
@@ -581,7 +589,7 @@
         "event_id": 7662748,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-milwaukee-fiserv-forum-1-31-2027--theater-ballet-and-dance/production/7662748",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -595,14 +603,14 @@
         "event_id": "8310123",
         "url": "https://www.ticketnetwork.com/en/p/8310123",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310123",
         "url": "https://www.ticketliquidator.com/tickets/8310123/Dancing-With-The-Stars-tickets-Sun-Jan-31-2027-Fiserv-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -622,7 +630,7 @@
     "country": "United States Of America",
     "venue": "PPL Center",
     "datetime_iso": "2027-02-04T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "300065414C81F38A",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-allentown-pennsylvania-02-03-2027/event/300065414C81F38A",
     "seatgeek_url": "",
@@ -651,7 +659,7 @@
         "event_id": 7662750,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-allentown-ppl-center-2-3-2027--theater-ballet-and-dance/production/7662750",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -665,14 +673,14 @@
         "event_id": "8310124",
         "url": "https://www.ticketnetwork.com/en/p/8310124",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310124",
         "url": "https://www.ticketliquidator.com/tickets/8310124/Dancing-With-The-Stars-tickets-Wed-Feb-3-2027-PPL-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -692,7 +700,7 @@
     "country": "United States Of America",
     "venue": "Xfinity Mobile Arena",
     "datetime_iso": "2027-02-05T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "30006541A59E5D3F",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-philadelphia-pennsylvania-02-04-2027/event/30006541A59E5D3F",
     "seatgeek_url": "",
@@ -721,7 +729,7 @@
         "event_id": 7662752,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-philadelphia-xfinity-mobile-arena-2-4-2027--theater-ballet-and-dance/production/7662752",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -735,21 +743,21 @@
         "event_id": "8310125",
         "url": "https://www.ticketnetwork.com/en/p/8310125",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310125",
         "url": "https://www.ticketliquidator.com/tickets/8310125/Dancing-With-The-Stars-tickets-Thu-Feb-4-2027-Xfinity-Mobile-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672823",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-philadelphia-tickets-2-4-2027/event/107672823",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -770,7 +778,7 @@
     "country": "United States Of America",
     "venue": "Madison Square Garden",
     "datetime_iso": "2027-02-06T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "3B006542B8356869",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-york-new-york-02-05-2027/event/3B006542B8356869",
     "seatgeek_url": "",
@@ -799,7 +807,7 @@
         "event_id": 7662754,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-new-york-madison-square-garden-2-5-2027--theater-ballet-and-dance/production/7662754",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -813,21 +821,21 @@
         "event_id": "8310126",
         "url": "https://www.ticketnetwork.com/en/p/8310126",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310126",
         "url": "https://www.ticketliquidator.com/tickets/8310126/Dancing-With-The-Stars-tickets-Fri-Feb-5-2027-Madison-Square-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672247",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-new-york-tickets-2-5-2027/event/107672247",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -848,7 +856,7 @@
     "country": "United States Of America",
     "venue": "Capital One Arena",
     "datetime_iso": "2027-02-08T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "15006531BD84D18B",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-washington-district-of-columbia-02-07-2027/event/15006531BD84D18B",
     "seatgeek_url": "",
@@ -877,7 +885,7 @@
         "event_id": 7662762,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-washington-capital-one-arena-2-7-2027--theater-ballet-and-dance/production/7662762",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -891,21 +899,21 @@
         "event_id": "8310127",
         "url": "https://www.ticketnetwork.com/en/p/8310127",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310127",
         "url": "https://www.ticketliquidator.com/tickets/8310127/Dancing-With-The-Stars-tickets-Sun-Feb-7-2027-Capital-One-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672824",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-washington-tickets-2-7-2027/event/107672824",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -926,7 +934,7 @@
     "country": "United States Of America",
     "venue": "CFG Bank Arena",
     "datetime_iso": "2027-02-10T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "15006541BDE3BE41",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-baltimore-maryland-02-09-2027/event/15006541BDE3BE41",
     "seatgeek_url": "",
@@ -955,7 +963,7 @@
         "event_id": 7662764,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-baltimore-cfg-bank-arena-2-9-2027--theater-ballet-and-dance/production/7662764",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -969,14 +977,14 @@
         "event_id": "8310128",
         "url": "https://www.ticketnetwork.com/en/p/8310128",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310128",
         "url": "https://www.ticketliquidator.com/tickets/8310128/Dancing-With-The-Stars-tickets-Tue-Feb-9-2027-CFG-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -996,7 +1004,7 @@
     "country": "United States Of America",
     "venue": "PPG Paints Arena",
     "datetime_iso": "2027-02-11T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! 2027 Tour",
     "ticketmaster_event_id": "16006539DABEB34E",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-pittsburgh-pennsylvania-02-10-2027/event/16006539DABEB34E",
     "seatgeek_url": "",
@@ -1025,7 +1033,7 @@
         "event_id": 7662768,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-pittsburgh-ppg-paints-arena-2-10-2027--theater-ballet-and-dance/production/7662768",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1039,14 +1047,14 @@
         "event_id": "8310129",
         "url": "https://www.ticketnetwork.com/en/p/8310129",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310129",
         "url": "https://www.ticketliquidator.com/tickets/8310129/Dancing-With-The-Stars-tickets-Wed-Feb-10-2027-PPG-Paints-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1066,7 +1074,7 @@
     "country": "United States Of America",
     "venue": "TD Garden",
     "datetime_iso": "2027-02-12T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0100653CD70D5CA8",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-boston-massachusetts-02-11-2027/event/0100653CD70D5CA8",
     "seatgeek_url": "",
@@ -1095,7 +1103,7 @@
         "event_id": 7662772,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-boston-td-garden-2-11-2027--theater-ballet-and-dance/production/7662772",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1109,21 +1117,21 @@
         "event_id": "8310130",
         "url": "https://www.ticketnetwork.com/en/p/8310130",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310130",
         "url": "https://www.ticketliquidator.com/tickets/8310130/Dancing-With-The-Stars-tickets-Thu-Feb-11-2027-TD-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672248",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-boston-tickets-2-11-2027/event/107672248",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1144,7 +1152,7 @@
     "country": "United States Of America",
     "venue": "MVP Arena",
     "datetime_iso": "2027-02-13T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0000653DD5431BAA",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-albany-new-york-02-12-2027/event/0000653DD5431BAA",
     "seatgeek_url": "",
@@ -1173,7 +1181,7 @@
         "event_id": 7662776,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-albany-mvp-arena-2-12-2027--theater-ballet-and-dance/production/7662776",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1187,14 +1195,14 @@
         "event_id": "8310131",
         "url": "https://www.ticketnetwork.com/en/p/8310131",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310131",
         "url": "https://www.ticketliquidator.com/tickets/8310131/Dancing-With-The-Stars-tickets-Fri-Feb-12-2027-MVP-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1214,7 +1222,7 @@
     "country": "United States Of America",
     "venue": "Prudential Center",
     "datetime_iso": "2027-02-14T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0200653EBECBC8A8",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-newark-new-jersey-02-13-2027/event/0200653EBECBC8A8",
     "seatgeek_url": "",
@@ -1243,7 +1251,7 @@
         "event_id": 7662780,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-newark-prudential-center-2-13-2027--theater-ballet-and-dance/production/7662780",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1257,21 +1265,21 @@
         "event_id": "8310132",
         "url": "https://www.ticketnetwork.com/en/p/8310132",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310132",
         "url": "https://www.ticketliquidator.com/tickets/8310132/Dancing-With-The-Stars-tickets-Sat-Feb-13-2027-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672825",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-newark-tickets-2-13-2027/event/107672825",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1292,7 +1300,7 @@
     "country": "United States Of America",
     "venue": "GIANT Center",
     "datetime_iso": "2027-02-18T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "02006542D92D5CA3",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-hershey-pennsylvania-02-17-2027/event/02006542D92D5CA3",
     "seatgeek_url": "",
@@ -1321,7 +1329,7 @@
         "event_id": 7662778,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-hershey-giant-center-2-17-2027/production/7662778",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1335,14 +1343,14 @@
         "event_id": "8310133",
         "url": "https://www.ticketnetwork.com/en/p/8310133",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310133",
         "url": "https://www.ticketliquidator.com/tickets/8310133/Dancing-With-The-Stars-tickets-Wed-Feb-17-2027-Giant-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1362,7 +1370,7 @@
     "country": "United States Of America",
     "venue": "Schottenstein Center",
     "datetime_iso": "2027-02-19T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "050065412E0091DE",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-columbus-ohio-02-18-2027/event/050065412E0091DE",
     "seatgeek_url": "",
@@ -1391,7 +1399,7 @@
         "event_id": 7662788,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-columbus-value-city-arena-at-schottenstein-center-2-18-2027--theater-ballet-and-dance/production/7662788",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1405,14 +1413,14 @@
         "event_id": "8310134",
         "url": "https://www.ticketnetwork.com/en/p/8310134",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310134",
         "url": "https://www.ticketliquidator.com/tickets/8310134/Dancing-With-The-Stars-tickets-Thu-Feb-18-2027-Value-City-Arena-at-The-Schottenstein-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1432,7 +1440,7 @@
     "country": "United States Of America",
     "venue": "Allstate Arena",
     "datetime_iso": "2027-02-20T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0400653D95F16C6D",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-rosemont-illinois-02-19-2027/event/0400653D95F16C6D",
     "seatgeek_url": "",
@@ -1461,7 +1469,7 @@
         "event_id": 7662790,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-rosemont-allstate-arena-2-19-2027--theater-ballet-and-dance/production/7662790",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1475,21 +1483,21 @@
         "event_id": "8310135",
         "url": "https://www.ticketnetwork.com/en/p/8310135",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310135",
         "url": "https://www.ticketliquidator.com/tickets/8310135/Dancing-With-The-Stars-tickets-Fri-Feb-19-2027-Allstate-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672249",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-rosemont-tickets-2-19-2027/event/107672249",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1510,7 +1518,7 @@
     "country": "United States Of America",
     "venue": "Vibrant Arena at the Mark",
     "datetime_iso": "2027-02-21T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0600653EB9A3CCD5",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-moline-illinois-02-20-2027/event/0600653EB9A3CCD5",
     "seatgeek_url": "",
@@ -1539,7 +1547,7 @@
         "event_id": 7662798,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-moline-vibrant-arena-at-the-mark-2-20-2027--theater-ballet-and-dance/production/7662798",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1553,14 +1561,14 @@
         "event_id": "8310136",
         "url": "https://www.ticketnetwork.com/en/p/8310136",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310136",
         "url": "https://www.ticketliquidator.com/tickets/8310136/Dancing-With-The-Stars-tickets-Sat-Feb-20-2027-Vibrant-Arena-at-The-MARK",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1580,7 +1588,7 @@
     "country": "United States Of America",
     "venue": "CHI Health Center Omaha",
     "datetime_iso": "2027-02-24T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "06006542DC3078FA",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-omaha-nebraska-02-23-2027/event/06006542DC3078FA",
     "seatgeek_url": "",
@@ -1609,7 +1617,7 @@
         "event_id": 7662832,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-omaha-chi-health-center-omaha-2-23-2027--theater-ballet-and-dance/production/7662832",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1623,14 +1631,14 @@
         "event_id": "8310137",
         "url": "https://www.ticketnetwork.com/en/p/8310137",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310137",
         "url": "https://www.ticketliquidator.com/tickets/8310137/Dancing-With-The-Stars-tickets-Tue-Feb-23-2027-CHI-Health-Center-Omaha",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1650,7 +1658,7 @@
     "country": "United States Of America",
     "venue": "T-Mobile Center",
     "datetime_iso": "2027-02-25T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0600654197E6B4C7",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-kansas-city-missouri-02-24-2027/event/0600654197E6B4C7",
     "seatgeek_url": "",
@@ -1679,7 +1687,7 @@
         "event_id": 7662838,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-kansas-city-t-mobile-center-2-24-2027--theater-ballet-and-dance/production/7662838",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1693,14 +1701,14 @@
         "event_id": "8310138",
         "url": "https://www.ticketnetwork.com/en/p/8310138",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310138",
         "url": "https://www.ticketliquidator.com/tickets/8310138/Dancing-With-The-Stars-tickets-Wed-Feb-24-2027-T-Mobile-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1720,7 +1728,7 @@
     "country": "United States Of America",
     "venue": "Simmons Bank Arena",
     "datetime_iso": "2027-02-26T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1B006538ACB4E533",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-north-little-rock-arkansas-02-25-2027/event/1B006538ACB4E533",
     "seatgeek_url": "",
@@ -1749,7 +1757,7 @@
         "event_id": 7662842,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-north-little-rock-simmons-bank-arena-2-25-2027--theater-ballet-and-dance/production/7662842",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1763,14 +1771,14 @@
         "event_id": "8310139",
         "url": "https://www.ticketnetwork.com/en/p/8310139",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310139",
         "url": "https://www.ticketliquidator.com/tickets/8310139/Dancing-With-The-Stars-tickets-Thu-Feb-25-2027-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1790,7 +1798,7 @@
     "country": "United States Of America",
     "venue": "Enterprise Center",
     "datetime_iso": "2027-02-27T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "06006531C6EB578B",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-saint-louis-missouri-02-26-2027/event/06006531C6EB578B",
     "seatgeek_url": "",
@@ -1828,12 +1836,28 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8310140",
+        "url": "https://www.ticketnetwork.com/en/p/8310140",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8310140",
+        "url": "https://www.ticketliquidator.com/tickets/8310140/Dancing-With-The-Stars-tickets-Fri-Feb-26-2027-Enterprise-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZkfsGkdkBgr5",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-10-13T15:00:00Z"
+    "public_onsale_at": "2026-10-13T15:00:00Z",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8310140",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8310140/Dancing-With-The-Stars-tickets-Fri-Feb-26-2027-Enterprise-Center"
   },
   {
     "id": "tm-dancing-with-the-stars-2027-knoxville-g5viz_kwuvui0",
@@ -1844,7 +1868,7 @@
     "country": "United States Of America",
     "venue": "Food City Center",
     "datetime_iso": "2027-02-28T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1B00653C8D076A24",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-knoxville-tennessee-02-27-2027/event/1B00653C8D076A24",
     "seatgeek_url": "",
@@ -1873,7 +1897,7 @@
         "event_id": 7662770,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-27-2027/production/7662770",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1887,14 +1911,14 @@
         "event_id": "8310141",
         "url": "https://www.ticketnetwork.com/en/p/8310141",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310141",
         "url": "https://www.ticketliquidator.com/tickets/8310141/Dancing-With-The-Stars-tickets-Sat-Feb-27-2027-Thompson-Boling-Arena-at-Food-City-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1914,7 +1938,7 @@
     "country": "United States Of America",
     "venue": "Bridgestone Arena",
     "datetime_iso": "2027-03-01T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1B00653E9585B550",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-nashville-tennessee-02-28-2027/event/1B00653E9585B550",
     "seatgeek_url": "",
@@ -1943,7 +1967,7 @@
         "event_id": 7662850,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-nashville-bridgestone-arena-2-28-2027--theater-ballet-and-dance/production/7662850",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1957,14 +1981,14 @@
         "event_id": "8310142",
         "url": "https://www.ticketnetwork.com/en/p/8310142",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310142",
         "url": "https://www.ticketliquidator.com/tickets/8310142/Dancing-With-The-Stars-tickets-Sun-Feb-28-2027-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1984,7 +2008,7 @@
     "country": "United States Of America",
     "venue": "John Paul Jones Arena",
     "datetime_iso": "2027-03-03T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "01006541731E53C6",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlottesville-virginia-03-02-2027/event/01006541731E53C6",
     "seatgeek_url": "",
@@ -2013,7 +2037,7 @@
         "event_id": 7662854,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-charlottesville-john-paul-jones-arena-3-2-2027--theater-ballet-and-dance/production/7662854",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2027,14 +2051,14 @@
         "event_id": "8310143",
         "url": "https://www.ticketnetwork.com/en/p/8310143",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310143",
         "url": "https://www.ticketliquidator.com/tickets/8310143/Dancing-With-The-Stars-tickets-Tue-Mar-2-2027-John-Paul-Jones-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2054,7 +2078,7 @@
     "country": "United States Of America",
     "venue": "Addition Financial Arena",
     "datetime_iso": "2027-03-07T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "22006535B33B4541",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-orlando-florida-03-06-2027/event/22006535B33B4541",
     "seatgeek_url": "",
@@ -2097,14 +2121,14 @@
         "event_id": "8310144",
         "url": "https://www.ticketnetwork.com/en/p/8310144",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310144",
         "url": "https://www.ticketliquidator.com/tickets/8310144/Dancing-With-The-Stars-tickets-Sat-Mar-6-2027-Addition-Financial-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2124,7 +2148,7 @@
     "country": "United States Of America",
     "venue": "Benchmark International Arena",
     "datetime_iso": "2027-03-10T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0D00653E98AD5BF3",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tampa-florida-03-09-2027/event/0D00653E98AD5BF3",
     "seatgeek_url": "",
@@ -2153,7 +2177,7 @@
         "event_id": 7662870,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-tampa-benchmark-international-arena-3-9-2027--theater-ballet-and-dance/production/7662870",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2167,14 +2191,14 @@
         "event_id": "8310149",
         "url": "https://www.ticketnetwork.com/en/p/8310149",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310149",
         "url": "https://www.ticketliquidator.com/tickets/8310149/Dancing-With-The-Stars-tickets-Tue-Mar-9-2027-Benchmark-International-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2194,7 +2218,7 @@
     "country": "United States Of America",
     "venue": "Legacy Arena at the BJCC",
     "datetime_iso": "2027-03-11T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "2000653C9E542B62",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-birmingham-alabama-03-10-2027/event/2000653C9E542B62",
     "seatgeek_url": "",
@@ -2223,7 +2247,7 @@
         "event_id": 7662874,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-birmingham-legacy-arena-at-the-bjcc-3-10-2027--theater-ballet-and-dance/production/7662874",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2237,14 +2261,14 @@
         "event_id": "8310150",
         "url": "https://www.ticketnetwork.com/en/p/8310150",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310150",
         "url": "https://www.ticketliquidator.com/tickets/8310150/Dancing-With-The-Stars-tickets-Wed-Mar-10-2027-Legacy-Arena-at-The-BJCC",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2264,7 +2288,7 @@
     "country": "United States Of America",
     "venue": "Smoothie King Center",
     "datetime_iso": "2027-03-12T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1B006538BD01255B",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-new-orleans-louisiana-03-11-2027/event/1B006538BD01255B",
     "seatgeek_url": "",
@@ -2293,7 +2317,7 @@
         "event_id": 7662876,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-new-orleans-smoothie-king-center-3-11-2027--theater-ballet-and-dance/production/7662876",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2307,14 +2331,14 @@
         "event_id": "8310154",
         "url": "https://www.ticketnetwork.com/en/p/8310154",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310154",
         "url": "https://www.ticketliquidator.com/tickets/8310154/Dancing-With-The-Stars-tickets-Thu-Mar-11-2027-Smoothie-King-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2334,7 +2358,7 @@
     "country": "United States Of America",
     "venue": "Moody Center ATX",
     "datetime_iso": "2027-03-13T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "3A006538C5B915A0",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-austin-texas-03-12-2027/event/3A006538C5B915A0",
     "seatgeek_url": "",
@@ -2363,7 +2387,7 @@
         "event_id": 7662852,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-austin-moody-center-atx-3-12-2027/production/7662852",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2377,21 +2401,21 @@
         "event_id": "8310155",
         "url": "https://www.ticketnetwork.com/en/p/8310155",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310155",
         "url": "https://www.ticketliquidator.com/tickets/8310155/Dancing-With-The-Stars-tickets-Fri-Mar-12-2027-Moody-Center-ATX",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672826",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-austin-tickets-3-12-2027/event/107672826",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2412,7 +2436,7 @@
     "country": "United States Of America",
     "venue": "Frost Bank Center",
     "datetime_iso": "2027-03-14T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "3A00653ECD645374",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-antonio-texas-03-13-2027/event/3A00653ECD645374",
     "seatgeek_url": "",
@@ -2441,7 +2465,7 @@
         "event_id": 7662896,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-san-antonio-frost-bank-center-3-13-2027--theater-ballet-and-dance/production/7662896",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2455,21 +2479,21 @@
         "event_id": "8310156",
         "url": "https://www.ticketnetwork.com/en/p/8310156",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310156",
         "url": "https://www.ticketliquidator.com/tickets/8310156/Dancing-With-The-Stars-tickets-Sat-Mar-13-2027-Frost-Bank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672827",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-san-antonio-tickets-3-13-2027/event/107672827",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2490,7 +2514,7 @@
     "country": "United States Of America",
     "venue": "American Airlines Center",
     "datetime_iso": "2027-03-17T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0C006539D5D718DC",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-dallas-texas-03-16-2027/event/0C006539D5D718DC",
     "seatgeek_url": "",
@@ -2519,7 +2543,7 @@
         "event_id": 7662862,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-dallas-american-airlines-center---tx-3-16-2027/production/7662862",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2533,14 +2557,14 @@
         "event_id": "8310157",
         "url": "https://www.ticketnetwork.com/en/p/8310157",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310157",
         "url": "https://www.ticketliquidator.com/tickets/8310157/Dancing-With-The-Stars-tickets-Tue-Mar-16-2027-American-Airlines-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2560,7 +2584,7 @@
     "country": "United States Of America",
     "venue": "BOK Center",
     "datetime_iso": "2027-03-18T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "2000653CEBF25A1E",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-tulsa-oklahoma-03-17-2027/event/2000653CEBF25A1E",
     "seatgeek_url": "",
@@ -2589,7 +2613,7 @@
         "event_id": 7662868,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-tulsa-bok-center-3-17-2027/production/7662868",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2603,14 +2627,14 @@
         "event_id": "8310158",
         "url": "https://www.ticketnetwork.com/en/p/8310158",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310158",
         "url": "https://www.ticketliquidator.com/tickets/8310158/Dancing-With-The-Stars-tickets-Wed-Mar-17-2027-BOK-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2630,7 +2654,7 @@
     "country": "United States Of America",
     "venue": "Ball Arena",
     "datetime_iso": "2027-03-20T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1E00653EB490A290",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-denver-colorado-03-19-2027/event/1E00653EB490A290",
     "seatgeek_url": "",
@@ -2659,7 +2683,7 @@
         "event_id": 7662898,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-denver-ball-arena-3-19-2027--theater-ballet-and-dance/production/7662898",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2673,14 +2697,14 @@
         "event_id": "8310159",
         "url": "https://www.ticketnetwork.com/en/p/8310159",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310159",
         "url": "https://www.ticketliquidator.com/tickets/8310159/Dancing-With-The-Stars-tickets-Fri-Mar-19-2027-Ball-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2700,7 +2724,7 @@
     "country": "United States Of America",
     "venue": "Climate Pledge Arena",
     "datetime_iso": "2027-03-23T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0F006541D298D33B",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-seattle-washington-03-22-2027/event/0F006541D298D33B",
     "seatgeek_url": "",
@@ -2729,7 +2753,7 @@
         "event_id": 7662840,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-seattle-climate-pledge-arena-3-22-2027/production/7662840",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2743,21 +2767,21 @@
         "event_id": "8310160",
         "url": "https://www.ticketnetwork.com/en/p/8310160",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310160",
         "url": "https://www.ticketliquidator.com/tickets/8310160/Dancing-With-The-Stars-tickets-Mon-Mar-22-2027-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672828",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-seattle-tickets-3-22-2027/event/107672828",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2778,7 +2802,7 @@
     "country": "Canada",
     "venue": "Rogers Forum",
     "datetime_iso": "2027-03-24T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "11006539A671AC25",
     "ticketmaster_url": "https://www.ticketmaster.ca/dancing-with-the-stars-live-2027-abbotsford-british-columbia-03-23-2027/event/11006539A671AC25",
     "seatgeek_url": "",
@@ -2807,7 +2831,7 @@
         "event_id": 7662834,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-abbotsford-rogers-forum-3-23-2027/production/7662834",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2821,14 +2845,14 @@
         "event_id": "8310161",
         "url": "https://www.ticketnetwork.com/en/p/8310161",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310161",
         "url": "https://www.ticketliquidator.com/tickets/8310161/Dancing-With-The-Stars-tickets-Tue-Mar-23-2027-Rogers-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2848,7 +2872,7 @@
     "country": "United States Of America",
     "venue": "Moda Center",
     "datetime_iso": "2027-03-25T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0F006538A0DE891F",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-portland-oregon-03-24-2027/event/0F006538A0DE891F",
     "seatgeek_url": "",
@@ -2877,7 +2901,7 @@
         "event_id": 7662882,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-portland-moda-center-3-24-2027/production/7662882",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2891,14 +2915,14 @@
         "event_id": "8310162",
         "url": "https://www.ticketnetwork.com/en/p/8310162",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310162",
         "url": "https://www.ticketliquidator.com/tickets/8310162/Dancing-With-The-Stars-tickets-Wed-Mar-24-2027-Moda-Center-at-the-Rose-Quarter",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2918,7 +2942,7 @@
     "country": "United States Of America",
     "venue": "Golden 1 Center",
     "datetime_iso": "2027-03-27T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1C00653E3B86F1F1",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-sacramento-california-03-26-2027/event/1C00653E3B86F1F1",
     "seatgeek_url": "",
@@ -2947,7 +2971,7 @@
         "event_id": 7662900,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-sacramento-golden-1-center-3-26-2027--theater-ballet-and-dance/production/7662900",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2961,21 +2985,21 @@
         "event_id": "8310163",
         "url": "https://www.ticketnetwork.com/en/p/8310163",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310163",
         "url": "https://www.ticketliquidator.com/tickets/8310163/Dancing-With-The-Stars-tickets-Fri-Mar-26-2027-Golden-1-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672250",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-sacramento-tickets-3-26-2027/event/107672250",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2996,7 +3020,7 @@
     "country": "United States Of America",
     "venue": "SAP Center at San Jose",
     "datetime_iso": "2027-03-28T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1C006538B5E63DA9",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-jose-california-03-27-2027/event/1C006538B5E63DA9",
     "seatgeek_url": "",
@@ -3039,21 +3063,21 @@
         "event_id": "8310164",
         "url": "https://www.ticketnetwork.com/en/p/8310164",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310164",
         "url": "https://www.ticketliquidator.com/tickets/8310164/Dancing-With-The-Stars-tickets-Sat-Mar-27-2027-SAP-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672251",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-san-jose-tickets-3-27-2027/event/107672251",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3074,7 +3098,7 @@
     "country": "United States Of America",
     "venue": "Viejas Arena at Aztec Bowl San Diego State University",
     "datetime_iso": "2027-04-01T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0A0065389EEB9F82",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-san-diego-california-03-31-2027/event/0A0065389EEB9F82",
     "seatgeek_url": "",
@@ -3117,14 +3141,14 @@
         "event_id": "8310165",
         "url": "https://www.ticketnetwork.com/en/p/8310165",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310165",
         "url": "https://www.ticketliquidator.com/tickets/8310165/Dancing-With-The-Stars-tickets-Wed-Mar-31-2027-Viejas-Arena-At-Aztec-Bowl",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3144,7 +3168,7 @@
     "country": "United States Of America",
     "venue": "Honda Center",
     "datetime_iso": "2027-04-02T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0900653E9B4AA1E1",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-anaheim-california-04-01-2027/event/0900653E9B4AA1E1",
     "seatgeek_url": "",
@@ -3173,7 +3197,7 @@
         "event_id": 7662910,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-anaheim-honda-center-4-1-2027--theater-ballet-and-dance/production/7662910",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3187,21 +3211,21 @@
         "event_id": "8310166",
         "url": "https://www.ticketnetwork.com/en/p/8310166",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310166",
         "url": "https://www.ticketliquidator.com/tickets/8310166/Dancing-With-The-Stars-tickets-Thu-Apr-1-2027-Honda-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672252",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-anaheim-tickets-4-1-2027/event/107672252",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3222,7 +3246,7 @@
     "country": "United States Of America",
     "venue": "Crypto.com Arena",
     "datetime_iso": "2027-04-03T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "2C00654197E40B25",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-los-angeles-california-04-02-2027/event/2C00654197E40B25",
     "seatgeek_url": "",
@@ -3265,21 +3289,21 @@
         "event_id": "8310167",
         "url": "https://www.ticketnetwork.com/en/p/8310167",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310167",
         "url": "https://www.ticketliquidator.com/tickets/8310167/Dancing-With-The-Stars-tickets-Fri-Apr-2-2027-Cryptocom-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672829",
         "url": "https://www.stubhub.ie/dancing-with-the-stars-los-angeles-tickets-4-2-2027/event/107672829",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3300,7 +3324,7 @@
     "country": "United States Of America",
     "venue": "Mortgage Matchup Center",
     "datetime_iso": "2027-04-05T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1900653E92C14C23",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-phoenix-arizona-04-04-2027/event/1900653E92C14C23",
     "seatgeek_url": "",
@@ -3329,7 +3353,7 @@
         "event_id": 7662920,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-phoenix-mortgage-matchup-center-4-4-2027--theater-ballet-and-dance/production/7662920",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3343,14 +3367,14 @@
         "event_id": "8310168",
         "url": "https://www.ticketnetwork.com/en/p/8310168",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310168",
         "url": "https://www.ticketliquidator.com/tickets/8310168/Dancing-With-The-Stars-tickets-Sun-Apr-4-2027-Mortgage-Matchup-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3370,7 +3394,7 @@
     "country": "United States Of America",
     "venue": "Regions Arena",
     "datetime_iso": "2027-04-08T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "1B0065428EB8AEA0",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-mobile-alabama-04-07-2027/event/1B0065428EB8AEA0",
     "seatgeek_url": "",
@@ -3399,7 +3423,7 @@
         "event_id": 7662924,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-mobile-regions-arena-4-7-2027--theater-ballet-and-dance/production/7662924",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3413,14 +3437,14 @@
         "event_id": "8310169",
         "url": "https://www.ticketnetwork.com/en/p/8310169",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310169",
         "url": "https://www.ticketliquidator.com/tickets/8310169/Dancing-With-The-Stars-tickets-Wed-Apr-7-2027-Regions-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3440,7 +3464,7 @@
     "country": "United States Of America",
     "venue": "Bon Secours Wellness Arena",
     "datetime_iso": "2027-04-08T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "2D00653ED67D943D",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-greenville-south-carolina-04-08-2027/event/2D00653ED67D943D",
     "seatgeek_url": "",
@@ -3469,7 +3493,7 @@
         "event_id": 7662872,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-greenville-bon-secours-wellness-arena-4-8-2027/production/7662872",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3483,14 +3507,14 @@
         "event_id": "8310170",
         "url": "https://www.ticketnetwork.com/en/p/8310170",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310170",
         "url": "https://www.ticketliquidator.com/tickets/8310170/Dancing-With-The-Stars-tickets-Thu-Apr-8-2027-Bon-Secours-Wellness-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3510,7 +3534,7 @@
     "country": "United States Of America",
     "venue": "Lenovo Center",
     "datetime_iso": "2027-04-09T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "2D006541E4BE12CC",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-raleigh-north-carolina-04-09-2027/event/2D006541E4BE12CC",
     "seatgeek_url": "",
@@ -3539,7 +3563,7 @@
         "event_id": 7662774,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-raleigh-lenovo-center-4-9-2027/production/7662774",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3553,14 +3577,14 @@
         "event_id": "8310171",
         "url": "https://www.ticketnetwork.com/en/p/8310171",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310171",
         "url": "https://www.ticketliquidator.com/tickets/8310171/Dancing-With-The-Stars-tickets-Fri-Apr-9-2027-Lenovo-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3580,7 +3604,7 @@
     "country": "United States Of America",
     "venue": "Spectrum Center",
     "datetime_iso": "2027-04-10T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "2D0065398F3E763B",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-charlotte-north-carolina-04-10-2027/event/2D0065398F3E763B",
     "seatgeek_url": "",
@@ -3609,7 +3633,7 @@
         "event_id": 7662782,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-charlotte-spectrum-center-4-10-2027/production/7662782",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3623,14 +3647,14 @@
         "event_id": "8310173",
         "url": "https://www.ticketnetwork.com/en/p/8310173",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310173",
         "url": "https://www.ticketliquidator.com/tickets/8310173/Dancing-With-The-Stars-tickets-Sat-Apr-10-2027-Spectrum-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3650,7 +3674,7 @@
     "country": "United States Of America",
     "venue": "Gas South Arena",
     "datetime_iso": "2027-04-11T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Live! - 2027 Tour",
     "ticketmaster_event_id": "0E00653DE41C8C5E",
     "ticketmaster_url": "https://www.ticketmaster.com/dancing-with-the-stars-live-2027-duluth-georgia-04-11-2027/event/0E00653DE41C8C5E",
     "seatgeek_url": "",
@@ -3679,7 +3703,7 @@
         "event_id": 7662932,
         "url": "https://www.vividseats.com/dancing-with-the-stars-tickets-duluth-gas-south-arena-4-11-2027--theater-ballet-and-dance/production/7662932",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3693,14 +3717,14 @@
         "event_id": "8310174",
         "url": "https://www.ticketnetwork.com/en/p/8310174",
         "verified": true,
-        "last_verified_at": "2026-10-12",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8310174",
         "url": "https://www.ticketliquidator.com/tickets/8310174/Dancing-With-The-Stars-tickets-Sun-Apr-11-2027-Gas-South-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },

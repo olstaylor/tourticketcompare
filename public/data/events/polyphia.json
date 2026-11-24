@@ -105,17 +105,17 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107446182",
-        "url": "https://www.stubhub.ie/polyphia-tickets-madrid-la-riviera-23-11-2026/event/107446182",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kp_ozf3",
     "timezone": "Europe/Madrid",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-madrid-la-riviera-23-11-2026/event/107446182",
+    "stubhub_international_url": "",
     "organizer_names": [
       "Live Nation España S.A.U."
     ],
@@ -284,7 +284,7 @@
         "event_id": "107417602",
         "url": "https://www.stubhub.ie/polyphia-tickets-berlin-tempodrom-5-12-2026/event/107417602",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -344,6 +344,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107447299",
+        "url": "https://www.stubhub.ie/polyphia-tickets-oberhausen-turbinenhalle-6-12-2026/event/107447299",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZC2Z16vk8v9xd",
@@ -352,7 +359,8 @@
     "organizer_names": [
       "Cold Life Productions UG (hb)"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/polyphia-tickets-oberhausen-turbinenhalle-6-12-2026/event/107447299"
   },
   {
     "id": "tm-polyphia-2026-birmingham-g5dzz_gsc9wjr",
@@ -392,7 +400,7 @@
         "event_id": 7169269,
         "url": "https://www.vividseats.com/polyphia-tickets-birmingham-o2-academy---birmingham-12-11-2026--concerts-hard-rock/production/7169269",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -406,21 +414,21 @@
         "event_id": "107438077",
         "url": "https://www.stubhub.ie/polyphia-tickets-birmingham-o2-academy-birmingham-11-12-2026/event/107438077",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8265862",
         "url": "https://www.ticketnetwork.com/en/p/8265862",
         "verified": true,
-        "last_verified_at": "2026-09-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265862",
         "url": "https://www.ticketliquidator.com/tickets/8265862/Polyphia-tickets-Fri-Dec-11-2026-O2-Academy-Birmingham",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -489,7 +497,7 @@
         "event_id": "107439077",
         "url": "https://www.stubhub.ie/polyphia-tickets-manchester-manchester-academy-12-12-2026/event/107439077",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -538,7 +546,7 @@
         "event_id": 7169275,
         "url": "https://www.vividseats.com/polyphia-tickets-leeds-o2-academy---leeds-12-15-2026--concerts-hard-rock/production/7169275",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -552,7 +560,7 @@
         "event_id": "107440077",
         "url": "https://www.stubhub.ie/polyphia-tickets-leeds-o2-academy-leeds-15-12-2026/event/107440077",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -605,7 +613,7 @@
         "event_id": 7169277,
         "url": "https://www.vividseats.com/polyphia-tickets-london-o2-academy-brixton-12-16-2026--concerts-hard-rock/production/7169277",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -619,21 +627,21 @@
         "event_id": "107440078",
         "url": "https://www.stubhub.ie/polyphia-tickets-london-o2-academy-brixton-16-12-2026/event/107440078",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8324859",
         "url": "https://www.ticketnetwork.com/en/p/8324859",
         "verified": true,
-        "last_verified_at": "2026-10-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8324859",
         "url": "https://www.ticketliquidator.com/tickets/8324859/Polyphia-tickets-Wed-Dec-16-2026-O2-Academy-Brixton",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -666,7 +674,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-phoenix-arizona-02-05-2027/event/19006519814B337C",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -681,14 +689,14 @@
         "event_id": 18536014,
         "url": "https://seatgeek.com/polyphia-tickets/phoenix-arizona-arizona-financial-theatre-2027-02-05-7-30-pm/concert/18536014",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484783,
         "url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -702,14 +710,14 @@
         "event_id": "8235923",
         "url": "https://www.ticketliquidator.com/tickets/8235923/Polyphia-tickets-Fri-Feb-5-2027-Arizona-Financial-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8235923",
         "url": "https://www.ticketnetwork.com/en/p/8235923",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -728,6 +736,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-08-28T13:00:00Z",
         "end": "2027-01-30T05:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-23T17:00:00Z",
+        "end": "2026-12-12T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -767,14 +780,14 @@
         "event_id": 18536013,
         "url": "https://seatgeek.com/polyphia-tickets/las-vegas-nevada-house-of-blues-las-vegas-2027-02-06-6-30-pm/concert/18536013",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7483184,
         "url": "https://www.vividseats.com/polyphia-tickets-las-vegas-house-of-blues-las-vegas-2-6-2027/production/7483184",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -788,21 +801,21 @@
         "event_id": "8235924",
         "url": "https://www.ticketliquidator.com/tickets/8235924/Polyphia-tickets-Sat-Feb-6-2027-House-Of-Blues-Las-Vegas",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8235924",
         "url": "https://www.ticketnetwork.com/en/p/8235924",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107676192",
         "url": "https://www.stubhub.ie/polyphia-las-vegas-tickets-2-6-2027/event/107676192",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -862,14 +875,14 @@
         "event_id": 18536015,
         "url": "https://seatgeek.com/polyphia-tickets/san-diego-california-soma-san-diego-2027-02-10-7-30-pm/concert/18536015",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7485019,
         "url": "https://www.vividseats.com/polyphia-tickets-san-diego-soma-2-10-2027--concerts-hard-rock/production/7485019",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -883,14 +896,14 @@
         "event_id": "8235926",
         "url": "https://www.ticketliquidator.com/tickets/8235926/Polyphia-tickets-Wed-Feb-10-2027-SOMA",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8235926",
         "url": "https://www.ticketnetwork.com/en/p/8235926",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -931,14 +944,14 @@
         "event_id": 18536016,
         "url": "https://seatgeek.com/polyphia-tickets/seattle-washington-paramount-theatre-wa-2027-02-17-7-30-pm/concert/18536016",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484847,
         "url": "https://www.vividseats.com/polyphia-tickets-seattle-paramount-theatre-seattle-2-17-2027/production/7484847",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -952,14 +965,14 @@
         "event_id": "8235936",
         "url": "https://www.ticketliquidator.com/tickets/8235936/Polyphia-tickets-Wed-Feb-17-2027-Paramount-Theatre-Seattle",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8235936",
         "url": "https://www.ticketnetwork.com/en/p/8235936",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1017,14 +1030,14 @@
         "event_id": 18312320,
         "url": "https://seatgeek.com/polyphia-tickets/salt-lake-city-utah-the-depot-salt-lake-city-2027-02-19-7-30-pm/concert/18312320",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7485681,
         "url": "https://www.vividseats.com/polyphia-tickets-salt-lake-city-the-depot---ut-2-19-2027--concerts-hard-rock/production/7485681",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1038,14 +1051,14 @@
         "event_id": "8056767",
         "url": "https://www.ticketliquidator.com/tickets/8056767/Polyphia-tickets-Fri-Feb-19-2027-The-Depot-Salt-Lake-City",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8056767",
         "url": "https://www.ticketnetwork.com/en/p/8056767",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1103,7 +1116,7 @@
         "event_id": 18312321,
         "url": "https://seatgeek.com/polyphia-tickets/denver-colorado-fillmore-auditorium-denver-2027-02-20-7-30-pm/concert/18312321",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1124,14 +1137,14 @@
         "event_id": "8056769",
         "url": "https://www.ticketnetwork.com/en/p/8056769",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056769",
         "url": "https://www.ticketliquidator.com/tickets/8056769/Polyphia-tickets-Sat-Feb-20-2027-Fillmore-Auditorium-Colorado",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1189,14 +1202,14 @@
         "event_id": 18312324,
         "url": "https://seatgeek.com/polyphia-tickets/minneapolis-minnesota-uptown-theater-minneapolis-2027-02-23-7-30-pm/concert/18312324",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484734,
         "url": "https://www.vividseats.com/polyphia-tickets-minneapolis-uptown-theater-minneapolis-2-23-2027/production/7484734",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1205,6 +1218,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056766",
+        "url": "https://www.ticketnetwork.com/en/p/8056766",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056766",
+        "url": "https://www.ticketliquidator.com/tickets/8056766/Polyphia-tickets-Tue-Feb-23-2027-Uptown-Theatre-Minneapolis",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv16kZkfbfAZACG5v8",
@@ -1226,7 +1253,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056766",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056766/Polyphia-tickets-Tue-Feb-23-2027-Uptown-Theatre-Minneapolis"
   },
   {
     "id": "tm-polyphia-2027-indianapolis-vv1aazkfbgkd_h8yq",
@@ -1259,14 +1288,14 @@
         "event_id": 18536018,
         "url": "https://seatgeek.com/polyphia-tickets/indianapolis-indiana-egyptian-room-at-old-national-centre-2027-02-26-7-30-pm/concert/18536018",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7485007,
         "url": "https://www.vividseats.com/polyphia-tickets-indianapolis-murat-egyptian-room-at-old-national-centre-2-26-2027/production/7485007",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1280,14 +1309,14 @@
         "event_id": "8235950",
         "url": "https://www.ticketliquidator.com/tickets/8235950/Polyphia-tickets-Fri-Feb-26-2027-Egyptian-Room-At-Old-National-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8235950",
         "url": "https://www.ticketnetwork.com/en/p/8235950",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1344,14 +1373,14 @@
         "event_id": 18536017,
         "url": "https://seatgeek.com/polyphia-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-03-12-7-30-pm/concert/18536017",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484736,
         "url": "https://www.vividseats.com/polyphia-tickets-charlotte-the-fillmore-charlotte-3-12-2027/production/7484736",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1365,14 +1394,14 @@
         "event_id": "8235961",
         "url": "https://www.ticketliquidator.com/tickets/8235961/Polyphia-tickets-Fri-Mar-12-2027-The-Fillmore-Charlotte",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8235961",
         "url": "https://www.ticketnetwork.com/en/p/8235961",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1451,14 +1480,14 @@
         "event_id": "8235963",
         "url": "https://www.ticketliquidator.com/tickets/8235963/Polyphia-tickets-Sun-Mar-14-2027-Jannus-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8235963",
         "url": "https://www.ticketnetwork.com/en/p/8235963",
         "verified": true,
-        "last_verified_at": "2026-09-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1517,14 +1546,14 @@
         "event_id": 18536027,
         "url": "https://seatgeek.com/polyphia-tickets/birmingham-alabama-avondale-brewing-company-2027-03-17-7-30-pm/concert/18536027",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7484740,
         "url": "https://www.vividseats.com/polyphia-tickets-birmingham-avondale-brewing-company-3-17-2027/production/7484740",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1533,6 +1562,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8235965",
+        "url": "https://www.ticketliquidator.com/tickets/8235965/Polyphia-tickets-Wed-Mar-17-2027-Avondale-Brewing-Company",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZkfbGkdtjfO5",
@@ -1554,7 +1590,8 @@
       "RED MOUNTAIN ENTERTAINMENT",
       "LIVE NATION MUSIC"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8235965/Polyphia-tickets-Wed-Mar-17-2027-Avondale-Brewing-Company"
   },
   {
     "id": "tm-polyphia-2027-raleigh-g5evz_oemqprp",
@@ -1587,7 +1624,7 @@
         "event_id": 18312346,
         "url": "https://seatgeek.com/polyphia-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-03-10-5-30-pm/concert/18312346",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1608,14 +1645,14 @@
         "event_id": "8056818",
         "url": "https://www.ticketnetwork.com/en/p/8056818",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056818",
         "url": "https://www.ticketliquidator.com/tickets/8056818/Polyphia-tickets-Wed-Mar-10-2027-The-Ritz-Raleigh",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1708,7 +1745,7 @@
     "country": "Czech Republic",
     "venue": "SaSaZu",
     "datetime_iso": "2026-11-28T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "1743772734",
     "ticketmaster_url": "https://www.ticketmaster.cz/event/polyphia-be-not-afraid-world-tour-tickets/1743772734?language=en-us",
     "seatgeek_url": "",
@@ -1765,7 +1802,7 @@
     "country": "United States Of America",
     "venue": "Hollywood Palladium",
     "datetime_iso": "2027-02-10T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "090064CAF59921C5",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-hollywood-california-02-09-2027/event/090064CAF59921C5",
     "seatgeek_url": "",
@@ -1808,21 +1845,21 @@
         "event_id": "8056759",
         "url": "https://www.ticketnetwork.com/en/p/8056759",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056759",
         "url": "https://www.ticketliquidator.com/tickets/8056759/Polyphia-tickets-Tue-Feb-9-2027-Hollywood-Palladium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107455605",
         "url": "https://www.stubhub.ie/polyphia-hollywood-tickets-2-9-2027/event/107455605",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1855,7 +1892,7 @@
     "country": "United States Of America",
     "venue": "House of Blues Anaheim",
     "datetime_iso": "2027-02-12T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "090064C9C95E26E2",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-anaheim-california-02-11-2027/event/090064C9C95E26E2",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/anaheim-california-house-of-blues-anaheim-2027-02-11-6-30-pm/concert/18312311",
@@ -1877,7 +1914,7 @@
         "event_id": 18312311,
         "url": "https://seatgeek.com/polyphia-tickets/anaheim-california-house-of-blues-anaheim-2027-02-11-6-30-pm/concert/18312311",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1898,21 +1935,21 @@
         "event_id": "8056760",
         "url": "https://www.ticketnetwork.com/en/p/8056760",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056760",
         "url": "https://www.ticketliquidator.com/tickets/8056760/Polyphia-tickets-Thu-Feb-11-2027-House-Of-Blues-Anaheim",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107455581",
         "url": "https://www.stubhub.ie/polyphia-anaheim-tickets-2-11-2027/event/107455581",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1950,7 +1987,7 @@
     "country": "United States Of America",
     "venue": "The Masonic",
     "datetime_iso": "2027-02-15T03:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "1C0064CBC54B572F",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-san-francisco-california-02-14-2027/event/1C0064CBC54B572F",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/san-francisco-california-the-masonic-san-francisco-2027-02-14-7-30-pm/concert/18312310",
@@ -1972,7 +2009,7 @@
         "event_id": 18312310,
         "url": "https://seatgeek.com/polyphia-tickets/san-francisco-california-the-masonic-san-francisco-2027-02-14-7-30-pm/concert/18312310",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1993,21 +2030,21 @@
         "event_id": "8056761",
         "url": "https://www.ticketnetwork.com/en/p/8056761",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056761",
         "url": "https://www.ticketliquidator.com/tickets/8056761/Polyphia-tickets-Sun-Feb-14-2027-The-Masonic-San-Francisco",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107455566",
         "url": "https://www.stubhub.ie/polyphia-san-francisco-tickets-2-14-2027/event/107455566",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2040,7 +2077,7 @@
     "country": "United States Of America",
     "venue": "Landmark Credit Union Live",
     "datetime_iso": "2027-02-25T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "070064C9A3332F5D",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-milwaukee-wisconsin-02-24-2027/event/070064C9A3332F5D",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-02-24-7-30-pm/concert/18312323",
@@ -2062,7 +2099,7 @@
         "event_id": 18312323,
         "url": "https://seatgeek.com/polyphia-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-02-24-7-30-pm/concert/18312323",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2083,14 +2120,14 @@
         "event_id": "8056853",
         "url": "https://www.ticketnetwork.com/en/p/8056853",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056853",
         "url": "https://www.ticketliquidator.com/tickets/8056853/Polyphia-tickets-Wed-Feb-24-2027-Landmark-Credit-Union-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2127,7 +2164,7 @@
     "country": "United States Of America",
     "venue": "Aragon Ballroom",
     "datetime_iso": "2027-02-26T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "040064C9B39BAFA1",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-chicago-illinois-02-25-2027/event/040064C9B39BAFA1",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/chicago-illinois-byline-bank-aragon-ballroom-2027-02-25-6-pm/concert/18312332",
@@ -2149,7 +2186,7 @@
         "event_id": 18312332,
         "url": "https://seatgeek.com/polyphia-tickets/chicago-illinois-byline-bank-aragon-ballroom-2027-02-25-6-pm/concert/18312332",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2170,21 +2207,21 @@
         "event_id": "8056758",
         "url": "https://www.ticketnetwork.com/en/p/8056758",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056758",
         "url": "https://www.ticketliquidator.com/tickets/8056758/Polyphia-tickets-Thu-Feb-25-2027-Byline-Bank-Aragon-Ballroom",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107457341",
         "url": "https://www.stubhub.ie/polyphia-chicago-tickets-2-25-2027/event/107457341",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2227,7 +2264,7 @@
     "country": "United States Of America",
     "venue": "The Fillmore Detroit",
     "datetime_iso": "2027-02-27T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "080064C9CB1D9CEF",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-detroit-michigan-02-27-2027/event/080064C9CB1D9CEF",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/detroit-michigan-the-fillmore-detroit-2027-02-27-7-30-pm/concert/18312333",
@@ -2249,7 +2286,7 @@
         "event_id": 18312333,
         "url": "https://seatgeek.com/polyphia-tickets/detroit-michigan-the-fillmore-detroit-2027-02-27-7-30-pm/concert/18312333",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2270,14 +2307,14 @@
         "event_id": "8056762",
         "url": "https://www.ticketnetwork.com/en/p/8056762",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056762",
         "url": "https://www.ticketliquidator.com/tickets/8056762/Polyphia-tickets-Sat-Feb-27-2027-The-Fillmore-Detroit",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2314,7 +2351,7 @@
     "country": "Canada",
     "venue": "The Theatre at Great Canadian Toronto",
     "datetime_iso": "2027-03-02T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "100064CBB9F84344",
     "ticketmaster_url": "https://www.ticketmaster.ca/polyphia-be-not-afraid-world-tour-toronto-ontario-03-02-2027/event/100064CBB9F84344",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2027-03-02-6-30-pm/concert/18312357",
@@ -2336,7 +2373,7 @@
         "event_id": 18312357,
         "url": "https://seatgeek.com/polyphia-tickets/toronto-canada-the-theatre-at-great-canadian-casino-resort-toronto-2027-03-02-6-30-pm/concert/18312357",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2388,7 +2425,7 @@
     "country": "Canada",
     "venue": "L'Olympia",
     "datetime_iso": "2027-03-03T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "310064CAB7E169D4",
     "ticketmaster_url": "https://www.ticketmaster.ca/polyphia-be-not-afraid-world-tour-montreal-quebec-03-03-2027/event/310064CAB7E169D4",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/montreal-canada-l-olympia-olympia-theatre-2027-03-03-6-30-pm/concert/18312356",
@@ -2410,7 +2447,7 @@
         "event_id": 18312356,
         "url": "https://seatgeek.com/polyphia-tickets/montreal-canada-l-olympia-olympia-theatre-2027-03-03-6-30-pm/concert/18312356",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2426,6 +2463,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8056793",
+        "url": "https://www.ticketnetwork.com/en/p/8056793",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8056793",
+        "url": "https://www.ticketliquidator.com/tickets/8056793/Polyphia-tickets-Wed-Mar-3-2027-Olympia-Theatre-Montreal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17G8v0G6GnMzpEf",
@@ -2450,7 +2501,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 4,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8056793",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8056793/Polyphia-tickets-Wed-Mar-3-2027-Olympia-Theatre-Montreal"
   },
   {
     "id": "tm-polyphia-2027-philadelphia-vvg1fz_gn-cuhm",
@@ -2461,7 +2514,7 @@
     "country": "United States Of America",
     "venue": "The Fillmore Philadelphia",
     "datetime_iso": "2027-03-06T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "020064CAA1B4D6EE",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-philadelphia-pennsylvania-03-05-2027/event/020064CAA1B4D6EE",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-03-05-7-30-pm/concert/18312344",
@@ -2483,7 +2536,7 @@
         "event_id": 18312344,
         "url": "https://seatgeek.com/polyphia-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-03-05-7-30-pm/concert/18312344",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2504,14 +2557,14 @@
         "event_id": "8056765",
         "url": "https://www.ticketnetwork.com/en/p/8056765",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056765",
         "url": "https://www.ticketliquidator.com/tickets/8056765/Polyphia-tickets-Fri-Mar-5-2027-The-Fillmore-Philadelphia",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2548,7 +2601,7 @@
     "country": "United States Of America",
     "venue": "Brooklyn Paramount",
     "datetime_iso": "2027-03-06T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "000064CCF0DFEBBF",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-brooklyn-new-york-03-06-2027/event/000064CCF0DFEBBF",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-06-7-30-pm/concert/18312312",
@@ -2570,7 +2623,7 @@
         "event_id": 18312312,
         "url": "https://seatgeek.com/polyphia-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-06-7-30-pm/concert/18312312",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2591,21 +2644,21 @@
         "event_id": "8056771",
         "url": "https://www.ticketnetwork.com/en/p/8056771",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056771",
         "url": "https://www.ticketliquidator.com/tickets/8056771/Polyphia-tickets-Sat-Mar-6-2027-Brooklyn-Paramount",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107455573",
         "url": "https://www.stubhub.ie/polyphia-brooklyn-tickets-3-6-2027/event/107455573",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2637,7 +2690,7 @@
     "country": "United States Of America",
     "venue": "MGM Music Hall at Fenway",
     "datetime_iso": "2027-03-08T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "010064C9E15F4752",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-boston-massachusetts-03-07-2027/event/010064C9E15F4752",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-07-7-30-pm/concert/18312334",
@@ -2659,7 +2712,7 @@
         "event_id": 18312334,
         "url": "https://seatgeek.com/polyphia-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-07-7-30-pm/concert/18312334",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2680,21 +2733,21 @@
         "event_id": "8056768",
         "url": "https://www.ticketnetwork.com/en/p/8056768",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056768",
         "url": "https://www.ticketliquidator.com/tickets/8056768/Polyphia-tickets-Sun-Mar-7-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107451606",
         "url": "https://www.stubhub.ie/polyphia-boston-tickets-3-7-2027/event/107451606",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2727,7 +2780,7 @@
     "country": "United States Of America",
     "venue": "Echostage",
     "datetime_iso": "2027-03-10T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "150064CBAF92B395",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-washington-district-of-columbia-03-09-2027/event/150064CBAF92B395",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/washington-district-of-columbia-echostage-2027-03-09-7-30-pm/concert/18312337",
@@ -2749,7 +2802,7 @@
         "event_id": 18312337,
         "url": "https://seatgeek.com/polyphia-tickets/washington-district-of-columbia-echostage-2027-03-09-7-30-pm/concert/18312337",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2770,14 +2823,14 @@
         "event_id": "8056764",
         "url": "https://www.ticketnetwork.com/en/p/8056764",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056764",
         "url": "https://www.ticketliquidator.com/tickets/8056764/Polyphia-tickets-Tue-Mar-9-2027-Echostage",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2809,7 +2862,7 @@
     "country": "United States Of America",
     "venue": "Hard Rock Live Orlando",
     "datetime_iso": "2027-03-14T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "220064C9F7B4A3C9",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-orlando-florida-03-13-2027/event/220064C9F7B4A3C9",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/orlando-florida-hard-rock-live-orlando-2027-03-13-7-30-pm/concert/18312347",
@@ -2831,7 +2884,7 @@
         "event_id": 18312347,
         "url": "https://seatgeek.com/polyphia-tickets/orlando-florida-hard-rock-live-orlando-2027-03-13-7-30-pm/concert/18312347",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2852,21 +2905,21 @@
         "event_id": "8056820",
         "url": "https://www.ticketnetwork.com/en/p/8056820",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056820",
         "url": "https://www.ticketliquidator.com/tickets/8056820/Polyphia-tickets-Sat-Mar-13-2027-Hard-Rock-Live-Orlando",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107457292",
         "url": "https://www.stubhub.ie/polyphia-orlando-tickets-3-13-2027/event/107457292",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2904,7 +2957,7 @@
     "country": "United States Of America",
     "venue": "Coca-Cola Roxy",
     "datetime_iso": "2027-03-16T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "0E0064CCB79F07BB",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-atlanta-georgia-03-16-2027/event/0E0064CCB79F07BB",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-03-16-7-30-pm/concert/18312348",
@@ -2926,7 +2979,7 @@
         "event_id": 18312348,
         "url": "https://seatgeek.com/polyphia-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-03-16-7-30-pm/concert/18312348",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2947,14 +3000,14 @@
         "event_id": "8056821",
         "url": "https://www.ticketnetwork.com/en/p/8056821",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056821",
         "url": "https://www.ticketliquidator.com/tickets/8056821/Polyphia-tickets-Tue-Mar-16-2027-Coca-Cola-Roxy",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2986,7 +3039,7 @@
     "country": "United States Of America",
     "venue": "The Truth",
     "datetime_iso": "2027-03-19T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "1B0064CA94CF9B1D",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-nashville-tennessee-03-18-2027/event/1B0064CA94CF9B1D",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/nashville-tennessee-the-truth-nashville-2027-03-18-7-30-pm/concert/18312351",
@@ -3008,7 +3061,7 @@
         "event_id": 18312351,
         "url": "https://seatgeek.com/polyphia-tickets/nashville-tennessee-the-truth-nashville-2027-03-18-7-30-pm/concert/18312351",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3029,14 +3082,14 @@
         "event_id": "8056822",
         "url": "https://www.ticketnetwork.com/en/p/8056822",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056822",
         "url": "https://www.ticketliquidator.com/tickets/8056822/Polyphia-tickets-Thu-Mar-18-2027-The-Truth",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3068,7 +3121,7 @@
     "country": "United States Of America",
     "venue": "South Side Ballroom",
     "datetime_iso": "2027-03-21T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "BE NOT AFRAID World Tour",
     "ticketmaster_event_id": "0C0064CAEE76DDA4",
     "ticketmaster_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-dallas-texas-03-20-2027/event/0C0064CAEE76DDA4",
     "seatgeek_url": "https://seatgeek.com/polyphia-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-03-20-7-30-pm/concert/18312313",
@@ -3090,7 +3143,7 @@
         "event_id": 18312313,
         "url": "https://seatgeek.com/polyphia-tickets/dallas-texas-south-side-ballroom-in-gilley-s-2027-03-20-7-30-pm/concert/18312313",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -3111,21 +3164,21 @@
         "event_id": "8056763",
         "url": "https://www.ticketnetwork.com/en/p/8056763",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8056763",
         "url": "https://www.ticketliquidator.com/tickets/8056763/Polyphia-tickets-Sat-Mar-20-2027-South-Side-Ballroom-at-Gilleys",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107457344",
         "url": "https://www.stubhub.ie/polyphia-dallas-tickets-3-20-2027/event/107457344",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3155,6 +3208,63 @@
     "stubhub_international_url": "https://www.stubhub.ie/polyphia-dallas-tickets-3-20-2027/event/107457344",
     "organizer_names": [
       "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-polyphia-2026-utrecht-z698xzbpz16v1314-i",
+    "artist_slug": "polyphia",
+    "artist_name": "Polyphia",
+    "event_name": "Polyphia: BE NOT AFRAID World Tour",
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "venue": "TivoliVredenburg",
+    "datetime_iso": "2026-12-08T18:00:00Z",
+    "tour_name": "BE NOT AFRAID World Tour",
+    "ticketmaster_event_id": "1292295868",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/polyphia-be-not-afraid-world-tour-tickets/1292295868?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/polyphia-be-not-afraid-world-tour-tickets/1292295868?language=en-us",
+    "last_verified_at": "2026-11-18",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1292295868",
+        "discovery_event_id": "Z698xZbpZ16v1314-I",
+        "url": "https://www.ticketmaster.nl/event/polyphia-be-not-afraid-world-tour-tickets/1292295868?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v1314-I",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale",
+    "organizer_names": [
+      "Stichting TivoliVredenburg"
     ],
     "genre": "Rock"
   }

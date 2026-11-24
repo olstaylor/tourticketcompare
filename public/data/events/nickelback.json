@@ -30,14 +30,14 @@
         "event_id": 18629578,
         "url": "https://seatgeek.com/nickelback-tickets/durant-oklahoma-choctaw-grand-theater-2026-12-19-8-pm/concert/18629578",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7620853,
         "url": "https://www.vividseats.com/nickelback-tickets-durant-choctaw-grand-theater-12-19-2026/production/7620853",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -46,12 +46,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295201",
+        "url": "https://www.ticketliquidator.com/tickets/8295201/Nickelback-tickets-Sat-Dec-19-2026-Choctaw-Casino-Resort-Durant",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_3XvgS07",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295201/Nickelback-tickets-Sat-Dec-19-2026-Choctaw-Casino-Resort-Durant"
   },
   {
     "id": "tm-nickelback-2027-pittsburgh-1apzk4agkenjp68",
@@ -62,7 +70,7 @@
     "country": "United States Of America",
     "venue": "PPG Paints Arena",
     "datetime_iso": "2027-02-06T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "16006545A37251D0",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-pittsburgh-pennsylvania-02-06-2027/event/16006545A37251D0",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2027-02-06-6-30-pm/concert/18664575",
@@ -84,14 +92,14 @@
         "event_id": 18664575,
         "url": "https://seatgeek.com/nickelback-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2027-02-06-6-30-pm/concert/18664575",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678917,
         "url": "https://www.vividseats.com/nickelback-tickets-pittsburgh-ppg-paints-arena-2-6-2027/production/7678917",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -105,14 +113,14 @@
         "event_id": "8314930",
         "url": "https://www.ticketnetwork.com/en/p/8314930",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314930",
         "url": "https://www.ticketliquidator.com/tickets/8314930/Nickelback-tickets-Sat-Feb-6-2027-PPG-Paints-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -147,7 +155,7 @@
     "country": "United States Of America",
     "venue": "PPL Center",
     "datetime_iso": "2027-02-08T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "3000654789193741",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-allentown-pennsylvania-02-08-2027/event/3000654789193741",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/allentown-pennsylvania-ppl-center-2027-02-08-6-30-pm/concert/18664577",
@@ -169,14 +177,14 @@
         "event_id": 18664577,
         "url": "https://seatgeek.com/nickelback-tickets/allentown-pennsylvania-ppl-center-2027-02-08-6-30-pm/concert/18664577",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678907,
         "url": "https://www.vividseats.com/nickelback-tickets-allentown-ppl-center-2-8-2027/production/7678907",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -190,14 +198,14 @@
         "event_id": "8314931",
         "url": "https://www.ticketnetwork.com/en/p/8314931",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314931",
         "url": "https://www.ticketliquidator.com/tickets/8314931/Nickelback-tickets-Mon-Feb-8-2027-PPL-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -232,7 +240,7 @@
     "country": "United States Of America",
     "venue": "Van Andel Arena",
     "datetime_iso": "2027-02-10T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "08006545D5525CC2",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-grand-rapids-michigan-02-10-2027/event/08006545D5525CC2",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/grand-rapids-michigan-van-andel-arena-2027-02-10-6-30-pm/concert/18664576",
@@ -254,14 +262,14 @@
         "event_id": 18664576,
         "url": "https://seatgeek.com/nickelback-tickets/grand-rapids-michigan-van-andel-arena-2027-02-10-6-30-pm/concert/18664576",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678960,
         "url": "https://www.vividseats.com/nickelback-tickets-grand-rapids-van-andel-arena-2-10-2027--concerts-rock/production/7678960",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -275,14 +283,14 @@
         "event_id": "8314932",
         "url": "https://www.ticketnetwork.com/en/p/8314932",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314932",
         "url": "https://www.ticketliquidator.com/tickets/8314932/Nickelback-tickets-Wed-Feb-10-2027-Van-Andel-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -318,7 +326,7 @@
     "country": "United States Of America",
     "venue": "Schottenstein Center",
     "datetime_iso": "2027-02-13T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "05006545F66BD91B",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-columbus-ohio-02-13-2027/event/05006545F66BD91B",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-02-13-6-30-pm/concert/18664574",
@@ -340,14 +348,14 @@
         "event_id": 18664574,
         "url": "https://seatgeek.com/nickelback-tickets/columbus-ohio-value-city-arena-at-schottenstein-center-2027-02-13-6-30-pm/concert/18664574",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678938,
         "url": "https://www.vividseats.com/nickelback-tickets-columbus-value-city-arena-at-schottenstein-center-2-13-2027/production/7678938",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -361,14 +369,14 @@
         "event_id": "8314934",
         "url": "https://www.ticketnetwork.com/en/p/8314934",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314934",
         "url": "https://www.ticketliquidator.com/tickets/8314934/Nickelback-tickets-Sat-Feb-13-2027-Value-City-Arena-at-The-Schottenstein-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -403,7 +411,7 @@
     "country": "United States Of America",
     "venue": "Gainbridge Fieldhouse",
     "datetime_iso": "2027-02-16T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "05006545C08C7E3B",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-indianapolis-indiana-02-16-2027/event/05006545C08C7E3B",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-02-16-6-30-pm/concert/18664572",
@@ -425,14 +433,14 @@
         "event_id": 18664572,
         "url": "https://seatgeek.com/nickelback-tickets/indianapolis-indiana-gainbridge-fieldhouse-2027-02-16-6-30-pm/concert/18664572",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678964,
         "url": "https://www.vividseats.com/nickelback-tickets-indianapolis-gainbridge-fieldhouse-2-16-2027--concerts-rock/production/7678964",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -446,14 +454,14 @@
         "event_id": "8314935",
         "url": "https://www.ticketnetwork.com/en/p/8314935",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314935",
         "url": "https://www.ticketliquidator.com/tickets/8314935/Nickelback-tickets-Tue-Feb-16-2027-Gainbridge-Fieldhouse",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -489,7 +497,7 @@
     "country": "United States Of America",
     "venue": "United Center",
     "datetime_iso": "2027-02-19T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "04006545A28079DF",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-chicago-illinois-02-18-2027/event/04006545A28079DF",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/chicago-illinois-united-center-2027-02-18-6-30-pm/concert/18664573",
@@ -511,14 +519,14 @@
         "event_id": 18664573,
         "url": "https://seatgeek.com/nickelback-tickets/chicago-illinois-united-center-2027-02-18-6-30-pm/concert/18664573",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678966,
         "url": "https://www.vividseats.com/nickelback-tickets-chicago-united-center-2-18-2027--concerts-rock/production/7678966",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -532,21 +540,21 @@
         "event_id": "8314936",
         "url": "https://www.ticketnetwork.com/en/p/8314936",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314936",
         "url": "https://www.ticketliquidator.com/tickets/8314936/Nickelback-tickets-Thu-Feb-18-2027-United-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672947",
         "url": "https://www.stubhub.ie/nickelback-chicago-tickets-2-18-2027/event/107672947",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -583,7 +591,7 @@
     "country": "United States Of America",
     "venue": "Enterprise Center",
     "datetime_iso": "2027-02-21T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "06006546E8CA5350",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-saint-louis-missouri-02-20-2027/event/06006546E8CA5350",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/saint-louis-missouri-enterprise-center-2027-02-20-6-30-pm/concert/18664583",
@@ -605,7 +613,7 @@
         "event_id": 18664583,
         "url": "https://seatgeek.com/nickelback-tickets/saint-louis-missouri-enterprise-center-2027-02-20-6-30-pm/concert/18664583",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -621,6 +629,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314937",
+        "url": "https://www.ticketliquidator.com/tickets/8314937/Nickelback-tickets-Sat-Feb-20-2027-Enterprise-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AkZk4kGkdIwPu8",
@@ -642,7 +657,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314937/Nickelback-tickets-Sat-Feb-20-2027-Enterprise-Center"
   },
   {
     "id": "tm-nickelback-2027-nashville-g5viz_frya27y",
@@ -653,7 +669,7 @@
     "country": "United States Of America",
     "venue": "Bridgestone Arena",
     "datetime_iso": "2027-02-22T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1B006547B014F139",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-nashville-tennessee-02-21-2027/event/1B006547B014F139",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/nashville-tennessee-bridgestone-arena-2027-02-21-6-30-pm/concert/18664585",
@@ -675,14 +691,14 @@
         "event_id": 18664585,
         "url": "https://seatgeek.com/nickelback-tickets/nashville-tennessee-bridgestone-arena-2027-02-21-6-30-pm/concert/18664585",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678926,
         "url": "https://www.vividseats.com/nickelback-tickets-nashville-bridgestone-arena-2-21-2027/production/7678926",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -696,21 +712,21 @@
         "event_id": "8314938",
         "url": "https://www.ticketnetwork.com/en/p/8314938",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314938",
         "url": "https://www.ticketliquidator.com/tickets/8314938/Nickelback-tickets-Sun-Feb-21-2027-Bridgestone-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673019",
         "url": "https://www.stubhub.ie/nickelback-nashville-tickets-2-21-2027/event/107673019",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -747,7 +763,7 @@
     "country": "United States Of America",
     "venue": "Food City Center",
     "datetime_iso": "2027-02-24T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1B006545C68A363F",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-knoxville-tennessee-02-24-2027/event/1B006545C68A363F",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2027-02-24-6-30-pm/concert/18664589",
@@ -769,14 +785,14 @@
         "event_id": 18664589,
         "url": "https://seatgeek.com/nickelback-tickets/knoxville-tennessee-thompson-boling-arena-at-food-city-center-2027-02-24-6-30-pm/concert/18664589",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678913,
         "url": "https://www.vividseats.com/nickelback-tickets-knoxville-thompson-boling-arena-at-food-city-center-2-24-2027/production/7678913",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -790,14 +806,14 @@
         "event_id": "8314939",
         "url": "https://www.ticketnetwork.com/en/p/8314939",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314939",
         "url": "https://www.ticketliquidator.com/tickets/8314939/Nickelback-tickets-Wed-Feb-24-2027-Thompson-Boling-Arena-at-Food-City-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -832,7 +848,7 @@
     "country": "United States Of America",
     "venue": "Hard Rock Live",
     "datetime_iso": "2027-02-26T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "0D006545AEF28005",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-hollywood-florida-02-26-2027/event/0D006545AEF28005",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-26-6-30-pm/concert/18664588",
@@ -854,14 +870,14 @@
         "event_id": 18664588,
         "url": "https://seatgeek.com/nickelback-tickets/hollywood-florida-hard-rock-live-hollywood-2027-02-26-6-30-pm/concert/18664588",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678972,
         "url": "https://www.vividseats.com/nickelback-tickets-hollywood-hard-rock-live---seminole-hard-rock-hotel-and-casino-2-26-2027--concerts-rock/production/7678972",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -875,21 +891,21 @@
         "event_id": "8314940",
         "url": "https://www.ticketnetwork.com/en/p/8314940",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314940",
         "url": "https://www.ticketliquidator.com/tickets/8314940/Nickelback-tickets-Fri-Feb-26-2027-Hard-Rock-Live-At-The-Seminole-Hard-Rock-Hotel-Casino-Hollywood",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673324",
         "url": "https://www.stubhub.ie/nickelback-hollywood-tickets-2-26-2027/event/107673324",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -923,7 +939,7 @@
     "country": "United States Of America",
     "venue": "State Farm Arena",
     "datetime_iso": "2027-03-02T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "0E006545E8676D7C",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-atlanta-georgia-03-02-2027/event/0E006545E8676D7C",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/atlanta-georgia-state-farm-arena-1-2027-03-02-6-30-pm/concert/18664590",
@@ -945,14 +961,14 @@
         "event_id": 18664590,
         "url": "https://seatgeek.com/nickelback-tickets/atlanta-georgia-state-farm-arena-1-2027-03-02-6-30-pm/concert/18664590",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678976,
         "url": "https://www.vividseats.com/nickelback-tickets-atlanta-state-farm-arena-3-2-2027--concerts-rock/production/7678976",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -966,21 +982,21 @@
         "event_id": "8314941",
         "url": "https://www.ticketnetwork.com/en/p/8314941",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314941",
         "url": "https://www.ticketliquidator.com/tickets/8314941/Nickelback-tickets-Tue-Mar-2-2027-State-Farm-Arena-GA",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673015",
         "url": "https://www.stubhub.ie/nickelback-atlanta-tickets-3-2-2027/event/107673015",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1017,7 +1033,7 @@
     "country": "United States Of America",
     "venue": "Lenovo Center",
     "datetime_iso": "2027-03-04T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "2D006546CB80322C",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-raleigh-north-carolina-03-04-2027/event/2D006546CB80322C",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/raleigh-north-carolina-lenovo-center-2027-03-04-6-30-pm/concert/18664594",
@@ -1039,14 +1055,14 @@
         "event_id": 18664594,
         "url": "https://seatgeek.com/nickelback-tickets/raleigh-north-carolina-lenovo-center-2027-03-04-6-30-pm/concert/18664594",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678897,
         "url": "https://www.vividseats.com/nickelback-tickets-raleigh-lenovo-center-3-4-2027/production/7678897",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1060,21 +1076,21 @@
         "event_id": "8314942",
         "url": "https://www.ticketnetwork.com/en/p/8314942",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314942",
         "url": "https://www.ticketliquidator.com/tickets/8314942/Nickelback-tickets-Thu-Mar-4-2027-Lenovo-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673021",
         "url": "https://www.stubhub.ie/nickelback-raleigh-tickets-3-4-2027/event/107673021",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1111,7 +1127,7 @@
     "country": "United States Of America",
     "venue": "Prudential Center",
     "datetime_iso": "2027-03-06T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "0200654704FF2B94",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-newark-new-jersey-03-06-2027/event/0200654704FF2B94",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/newark-new-jersey-prudential-center-2027-03-06-6-30-pm/concert/18664595",
@@ -1133,14 +1149,14 @@
         "event_id": 18664595,
         "url": "https://seatgeek.com/nickelback-tickets/newark-new-jersey-prudential-center-2027-03-06-6-30-pm/concert/18664595",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678936,
         "url": "https://www.vividseats.com/nickelback-tickets-newark-prudential-center-3-6-2027/production/7678936",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1154,21 +1170,21 @@
         "event_id": "8314943",
         "url": "https://www.ticketnetwork.com/en/p/8314943",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314943",
         "url": "https://www.ticketliquidator.com/tickets/8314943/Nickelback-tickets-Sat-Mar-6-2027-Prudential-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672949",
         "url": "https://www.stubhub.ie/nickelback-newark-tickets-3-6-2027/event/107672949",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1205,7 +1221,7 @@
     "country": "United States Of America",
     "venue": "Capital One Arena",
     "datetime_iso": "2027-03-08T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1500654227B83585",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-washington-district-of-columbia-03-08-2027/event/1500654227B83585",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/washington-district-of-columbia-capital-one-arena-2027-03-08-6-30-pm/concert/18664598",
@@ -1227,14 +1243,14 @@
         "event_id": 18664598,
         "url": "https://seatgeek.com/nickelback-tickets/washington-district-of-columbia-capital-one-arena-2027-03-08-6-30-pm/concert/18664598",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678978,
         "url": "https://www.vividseats.com/nickelback-tickets-washington-capital-one-arena-3-8-2027--concerts-rock/production/7678978",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1248,21 +1264,21 @@
         "event_id": "8314944",
         "url": "https://www.ticketnetwork.com/en/p/8314944",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314944",
         "url": "https://www.ticketliquidator.com/tickets/8314944/Nickelback-tickets-Mon-Mar-8-2027-Capital-One-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672950",
         "url": "https://www.stubhub.ie/nickelback-washington-tickets-3-8-2027/event/107672950",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1299,7 +1315,7 @@
     "country": "United States Of America",
     "venue": "TD Garden",
     "datetime_iso": "2027-03-10T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "01006542F8709C2C",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-boston-massachusetts-03-10-2027/event/01006542F8709C2C",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/boston-massachusetts-td-garden-2027-03-10-6-30-pm/concert/18664600",
@@ -1321,14 +1337,14 @@
         "event_id": 18664600,
         "url": "https://seatgeek.com/nickelback-tickets/boston-massachusetts-td-garden-2027-03-10-6-30-pm/concert/18664600",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678980,
         "url": "https://www.vividseats.com/nickelback-tickets-boston-td-garden-3-10-2027--concerts-rock/production/7678980",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1342,21 +1358,21 @@
         "event_id": "8314945",
         "url": "https://www.ticketnetwork.com/en/p/8314945",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314945",
         "url": "https://www.ticketliquidator.com/tickets/8314945/Nickelback-tickets-Wed-Mar-10-2027-TD-Garden",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672951",
         "url": "https://www.stubhub.ie/nickelback-boston-tickets-3-10-2027/event/107672951",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1393,7 +1409,7 @@
     "country": "Canada",
     "venue": "Centre Bell",
     "datetime_iso": "2027-03-12T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "3100654696164193",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-montreal-quebec-03-12-2027/event/3100654696164193",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/montreal-canada-centre-bell-2027-03-12-6-30-pm/concert/18664626",
@@ -1415,14 +1431,14 @@
         "event_id": 18664626,
         "url": "https://seatgeek.com/nickelback-tickets/montreal-canada-centre-bell-2027-03-12-6-30-pm/concert/18664626",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678891,
         "url": "https://www.vividseats.com/nickelback-tickets-montreal-bell-centre-3-12-2027/production/7678891",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1436,14 +1452,14 @@
         "event_id": "8314962",
         "url": "https://www.ticketnetwork.com/en/p/8314962",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314962",
         "url": "https://www.ticketliquidator.com/tickets/8314962/Nickelback-tickets-Fri-Mar-12-2027-Centre-Bell",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1477,7 +1493,7 @@
     "country": "Canada",
     "venue": "TD Coliseum",
     "datetime_iso": "2027-03-20T22:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "10006545891533EB",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-hamilton-ontario-03-20-2027/event/10006545891533EB",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/hamilton-canada-td-coliseum-2027-03-20-6-30-pm/concert/18664627",
@@ -1499,14 +1515,14 @@
         "event_id": 18664627,
         "url": "https://seatgeek.com/nickelback-tickets/hamilton-canada-td-coliseum-2027-03-20-6-30-pm/concert/18664627",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678903,
         "url": "https://www.vividseats.com/nickelback-tickets-hamilton-td-coliseum-3-20-2027/production/7678903",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1550,7 +1566,7 @@
     "country": "Canada",
     "venue": "Scotiabank Arena",
     "datetime_iso": "2027-03-21T22:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "10006544F4EAD977",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-toronto-ontario-03-21-2027/event/10006544F4EAD977",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/toronto-canada-scotiabank-arena-2027-03-21-6-30-pm/concert/18664630",
@@ -1572,14 +1588,14 @@
         "event_id": 18664630,
         "url": "https://seatgeek.com/nickelback-tickets/toronto-canada-scotiabank-arena-2027-03-21-6-30-pm/concert/18664630",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678919,
         "url": "https://www.vividseats.com/nickelback-tickets-toronto-scotiabank-arena-3-21-2027/production/7678919",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1618,7 +1634,7 @@
     "country": "United States Of America",
     "venue": "KeyBank Center",
     "datetime_iso": "2027-03-24T22:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "00006547B69E7879",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-buffalo-new-york-03-24-2027/event/00006547B69E7879",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/buffalo-new-york-keybank-center-2027-03-24-6-30-pm/concert/18664602",
@@ -1640,14 +1656,14 @@
         "event_id": 18664602,
         "url": "https://seatgeek.com/nickelback-tickets/buffalo-new-york-keybank-center-2027-03-24-6-30-pm/concert/18664602",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678915,
         "url": "https://www.vividseats.com/nickelback-tickets-buffalo-keybank-center-3-24-2027/production/7678915",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1661,21 +1677,21 @@
         "event_id": "8314946",
         "url": "https://www.ticketnetwork.com/en/p/8314946",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314946",
         "url": "https://www.ticketliquidator.com/tickets/8314946/Nickelback-tickets-Wed-Mar-24-2027-KeyBank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673397",
         "url": "https://www.stubhub.ie/nickelback-buffalo-tickets-3-24-2027/event/107673397",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1712,7 +1728,7 @@
     "country": "United States Of America",
     "venue": "Little Caesars Arena",
     "datetime_iso": "2027-03-26T22:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "08006547E0327B7F",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-detroit-michigan-03-26-2027/event/08006547E0327B7F",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/detroit-michigan-little-caesars-arena-2027-03-26-6-30-pm/concert/18664604",
@@ -1734,14 +1750,14 @@
         "event_id": 18664604,
         "url": "https://seatgeek.com/nickelback-tickets/detroit-michigan-little-caesars-arena-2027-03-26-6-30-pm/concert/18664604",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678984,
         "url": "https://www.vividseats.com/nickelback-tickets-detroit-little-caesars-arena-3-26-2027--concerts-rock/production/7678984",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1755,21 +1771,21 @@
         "event_id": "8314947",
         "url": "https://www.ticketnetwork.com/en/p/8314947",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314947",
         "url": "https://www.ticketliquidator.com/tickets/8314947/Nickelback-tickets-Fri-Mar-26-2027-Little-Caesars-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673398",
         "url": "https://www.stubhub.ie/nickelback-detroit-tickets-3-26-2027/event/107673398",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1806,7 +1822,7 @@
     "country": "United States Of America",
     "venue": "Fiserv Forum",
     "datetime_iso": "2027-03-27T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "07006545C4BC5154",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-milwaukee-wisconsin-03-27-2027/event/07006545C4BC5154",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/milwaukee-wisconsin-fiserv-forum-2027-03-27-6-30-pm/concert/18664601",
@@ -1828,14 +1844,14 @@
         "event_id": 18664601,
         "url": "https://seatgeek.com/nickelback-tickets/milwaukee-wisconsin-fiserv-forum-2027-03-27-6-30-pm/concert/18664601",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678909,
         "url": "https://www.vividseats.com/nickelback-tickets-milwaukee-fiserv-forum-3-27-2027/production/7678909",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1849,14 +1865,14 @@
         "event_id": "8314948",
         "url": "https://www.ticketnetwork.com/en/p/8314948",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314948",
         "url": "https://www.ticketliquidator.com/tickets/8314948/Nickelback-tickets-Sat-Mar-27-2027-Fiserv-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1893,7 +1909,7 @@
     "country": "Canada",
     "venue": "SaskTel Centre",
     "datetime_iso": "2027-04-03T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1100654504CBDA72",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-saskatoon-saskatchewan-04-02-2027/event/1100654504CBDA72",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/saskatoon-canada-sasktel-centre-2027-04-02-6-30-pm/concert/18664632",
@@ -1915,14 +1931,14 @@
         "event_id": 18664632,
         "url": "https://seatgeek.com/nickelback-tickets/saskatoon-canada-sasktel-centre-2027-04-02-6-30-pm/concert/18664632",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678911,
         "url": "https://www.vividseats.com/nickelback-tickets-saskatoon-sasktel-centre-4-2-2027/production/7678911",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1936,14 +1952,14 @@
         "event_id": "8314965",
         "url": "https://www.ticketnetwork.com/en/p/8314965",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314965",
         "url": "https://www.ticketliquidator.com/tickets/8314965/Nickelback-tickets-Fri-Apr-2-2027-SaskTel-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1982,7 +1998,7 @@
     "country": "Canada",
     "venue": "Rogers Place",
     "datetime_iso": "2027-04-04T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "110065451963EF33",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-edmonton-alberta-04-03-2027/event/110065451963EF33",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/edmonton-canada-rogers-place-2027-04-03-6-30-pm/concert/18664631",
@@ -2004,14 +2020,14 @@
         "event_id": 18664631,
         "url": "https://seatgeek.com/nickelback-tickets/edmonton-canada-rogers-place-2027-04-03-6-30-pm/concert/18664631",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678885,
         "url": "https://www.vividseats.com/nickelback-tickets-edmonton-rogers-place-4-3-2027/production/7678885",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2025,21 +2041,21 @@
         "event_id": "8314966",
         "url": "https://www.ticketnetwork.com/en/p/8314966",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314966",
         "url": "https://www.ticketliquidator.com/tickets/8314966/Nickelback-tickets-Sat-Apr-3-2027-Rogers-Place",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673389",
         "url": "https://www.stubhub.ie/nickelback-tickets-edmonton-rogers-place-4-3-2027/event/107673389",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2074,7 +2090,7 @@
     "country": "Canada",
     "venue": "Scotiabank Saddledome",
     "datetime_iso": "2027-04-07T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "11006546D9C1C903",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-calgary-alberta-04-06-2027/event/11006546D9C1C903",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/calgary-canada-scotiabank-saddledome-2027-04-06-6-30-pm/concert/18664633",
@@ -2096,14 +2112,14 @@
         "event_id": 18664633,
         "url": "https://seatgeek.com/nickelback-tickets/calgary-canada-scotiabank-saddledome-2027-04-06-6-30-pm/concert/18664633",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678893,
         "url": "https://www.vividseats.com/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/production/7678893",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2117,21 +2133,21 @@
         "event_id": "8314968",
         "url": "https://www.ticketnetwork.com/en/p/8314968",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314968",
         "url": "https://www.ticketliquidator.com/tickets/8314968/Nickelback-tickets-Tue-Apr-6-2027-Scotiabank-Saddledome",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673023",
         "url": "https://www.stubhub.ie/nickelback-tickets-calgary-scotiabank-saddledome-4-6-2027/event/107673023",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2166,7 +2182,7 @@
     "country": "Canada",
     "venue": "Rogers Arena",
     "datetime_iso": "2027-04-10T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "11006545D6F8A665",
     "ticketmaster_url": "https://www.ticketmaster.ca/nickelback-everything-under-the-sun-tour-vancouver-british-columbia-04-09-2027/event/11006545D6F8A665",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/vancouver-canada-rogers-arena-2027-04-09-6-30-pm/concert/18664638",
@@ -2188,14 +2204,14 @@
         "event_id": 18664638,
         "url": "https://seatgeek.com/nickelback-tickets/vancouver-canada-rogers-arena-2027-04-09-6-30-pm/concert/18664638",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678928,
         "url": "https://www.vividseats.com/nickelback-tickets-vancouver-rogers-arena-4-9-2027/production/7678928",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2209,21 +2225,21 @@
         "event_id": "8314969",
         "url": "https://www.ticketnetwork.com/en/p/8314969",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314969",
         "url": "https://www.ticketliquidator.com/tickets/8314969/Nickelback-tickets-Fri-Apr-9-2027-Rogers-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673022",
         "url": "https://www.stubhub.ie/nickelback-tickets-vancouver-rogers-arena-4-9-2027/event/107673022",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2263,10 +2279,10 @@
     "country": "United States Of America",
     "venue": "Climate Pledge Arena",
     "datetime_iso": "2027-04-11T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "0F006542F75B398E",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-seattle-washington-04-10-2027/event/0F006542F75B398E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/seattle-washington-climate-pledge-arena-2027-04-10-6-30-pm/concert/18664605",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-seattle-climate-pledge-arena-4-10-2027/production/7678899",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-seattle-washington-04-10-2027/event/0F006542F75B398E",
@@ -2282,17 +2298,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664605,
+        "url": "https://seatgeek.com/nickelback-tickets/seattle-washington-climate-pledge-arena-2027-04-10-6-30-pm/concert/18664605",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678899,
         "url": "https://www.vividseats.com/nickelback-tickets-seattle-climate-pledge-arena-4-10-2027/production/7678899",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2306,21 +2322,21 @@
         "event_id": "8314951",
         "url": "https://www.ticketnetwork.com/en/p/8314951",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314951",
         "url": "https://www.ticketliquidator.com/tickets/8314951/Nickelback-tickets-Sat-Apr-10-2027-Climate-Pledge-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672953",
         "url": "https://www.stubhub.ie/nickelback-seattle-tickets-4-10-2027/event/107672953",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2357,10 +2373,10 @@
     "country": "United States Of America",
     "venue": "Golden 1 Center",
     "datetime_iso": "2027-04-14T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1C006545C385788C",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-sacramento-california-04-13-2027/event/1C006545C385788C",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/sacramento-california-golden-1-center-2027-04-13-6-30-pm/concert/18664610",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-sacramento-golden-1-center-4-13-2027--concerts-rock/production/7678990",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-sacramento-california-04-13-2027/event/1C006545C385788C",
@@ -2376,17 +2392,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664610,
+        "url": "https://seatgeek.com/nickelback-tickets/sacramento-california-golden-1-center-2027-04-13-6-30-pm/concert/18664610",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678990,
         "url": "https://www.vividseats.com/nickelback-tickets-sacramento-golden-1-center-4-13-2027--concerts-rock/production/7678990",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2400,21 +2416,21 @@
         "event_id": "8314952",
         "url": "https://www.ticketnetwork.com/en/p/8314952",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314952",
         "url": "https://www.ticketliquidator.com/tickets/8314952/Nickelback-tickets-Tue-Apr-13-2027-Golden-1-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672954",
         "url": "https://www.stubhub.ie/nickelback-sacramento-tickets-4-13-2027/event/107672954",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2451,10 +2467,10 @@
     "country": "United States Of America",
     "venue": "Honda Center",
     "datetime_iso": "2027-04-19T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "09006546BC85E784",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-anaheim-california-04-18-2027/event/09006546BC85E784",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/anaheim-california-honda-center-2027-04-18-6-30-pm/concert/18664614",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-anaheim-honda-center-4-18-2027--concerts-rock/production/7678996",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-anaheim-california-04-18-2027/event/09006546BC85E784",
@@ -2470,17 +2486,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664614,
+        "url": "https://seatgeek.com/nickelback-tickets/anaheim-california-honda-center-2027-04-18-6-30-pm/concert/18664614",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678996,
         "url": "https://www.vividseats.com/nickelback-tickets-anaheim-honda-center-4-18-2027--concerts-rock/production/7678996",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2494,21 +2510,21 @@
         "event_id": "8314954",
         "url": "https://www.ticketnetwork.com/en/p/8314954",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314954",
         "url": "https://www.ticketliquidator.com/tickets/8314954/Nickelback-tickets-Sun-Apr-18-2027-Honda-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673326",
         "url": "https://www.stubhub.ie/nickelback-anaheim-tickets-4-18-2027/event/107673326",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2545,10 +2561,10 @@
     "country": "United States Of America",
     "venue": "Mortgage Matchup Center",
     "datetime_iso": "2027-04-21T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "19006546C468A612",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-phoenix-arizona-04-20-2027/event/19006546C468A612",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-20-6-30-pm/concert/18664616",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-phoenix-mortgage-matchup-center-4-20-2027--concerts-rock/production/7678998",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-phoenix-arizona-04-20-2027/event/19006546C468A612",
@@ -2564,17 +2580,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664616,
+        "url": "https://seatgeek.com/nickelback-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-20-6-30-pm/concert/18664616",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678998,
         "url": "https://www.vividseats.com/nickelback-tickets-phoenix-mortgage-matchup-center-4-20-2027--concerts-rock/production/7678998",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2588,21 +2604,21 @@
         "event_id": "8314956",
         "url": "https://www.ticketnetwork.com/en/p/8314956",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314956",
         "url": "https://www.ticketliquidator.com/tickets/8314956/Nickelback-tickets-Tue-Apr-20-2027-Mortgage-Matchup-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673399",
         "url": "https://www.stubhub.ie/nickelback-phoenix-tickets-4-20-2027/event/107673399",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2639,10 +2655,10 @@
     "country": "United States Of America",
     "venue": "Ball Arena",
     "datetime_iso": "2027-04-25T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1E006545B5059DB7",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-denver-colorado-04-24-2027/event/1E006545B5059DB7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/nickelback-tickets/denver-colorado-ball-arena-2027-04-24-6-30-pm/concert/18664617",
     "vividseats_url": "https://www.vividseats.com/nickelback-tickets-denver-ball-arena-4-24-2027--concerts-rock/production/7679000",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-denver-colorado-04-24-2027/event/1E006545B5059DB7",
@@ -2658,17 +2674,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18664617,
+        "url": "https://seatgeek.com/nickelback-tickets/denver-colorado-ball-arena-2027-04-24-6-30-pm/concert/18664617",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679000,
         "url": "https://www.vividseats.com/nickelback-tickets-denver-ball-arena-4-24-2027--concerts-rock/production/7679000",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2682,21 +2698,21 @@
         "event_id": "8314958",
         "url": "https://www.ticketnetwork.com/en/p/8314958",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314958",
         "url": "https://www.ticketliquidator.com/tickets/8314958/Nickelback-tickets-Sat-Apr-24-2027-Ball-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673401",
         "url": "https://www.stubhub.ie/nickelback-denver-tickets-4-24-2027/event/107673401",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2733,7 +2749,7 @@
     "country": "United States Of America",
     "venue": "American Airlines Center",
     "datetime_iso": "2027-04-27T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "0C006545CEF588BF",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-dallas-texas-04-27-2027/event/0C006545CEF588BF",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/dallas-texas-american-airlines-center-2027-04-27-6-30-pm/concert/18664618",
@@ -2755,14 +2771,14 @@
         "event_id": 18664618,
         "url": "https://seatgeek.com/nickelback-tickets/dallas-texas-american-airlines-center-2027-04-27-6-30-pm/concert/18664618",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678924,
         "url": "https://www.vividseats.com/nickelback-tickets-dallas-american-airlines-center---tx-4-27-2027/production/7678924",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2776,21 +2792,21 @@
         "event_id": "8314959",
         "url": "https://www.ticketnetwork.com/en/p/8314959",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314959",
         "url": "https://www.ticketliquidator.com/tickets/8314959/Nickelback-tickets-Tue-Apr-27-2027-American-Airlines-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673388",
         "url": "https://www.stubhub.ie/nickelback-dallas-tickets-4-27-2027/event/107673388",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2826,7 +2842,7 @@
     "country": "United States Of America",
     "venue": "Frost Bank Center",
     "datetime_iso": "2027-05-01T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "3A0065478DB3792E",
     "ticketmaster_url": "https://www.ticketmaster.com/nickelback-everything-under-the-sun-tour-san-antonio-texas-05-01-2027/event/3A0065478DB3792E",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/san-antonio-texas-frost-bank-center-2027-05-01-6-30-pm/concert/18664624",
@@ -2848,14 +2864,14 @@
         "event_id": 18664624,
         "url": "https://seatgeek.com/nickelback-tickets/san-antonio-texas-frost-bank-center-2027-05-01-6-30-pm/concert/18664624",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679004,
         "url": "https://www.vividseats.com/nickelback-tickets-san-antonio-frost-bank-center-5-1-2027--concerts-rock/production/7679004",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2869,21 +2885,21 @@
         "event_id": "8314961",
         "url": "https://www.ticketnetwork.com/en/p/8314961",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314961",
         "url": "https://www.ticketliquidator.com/tickets/8314961/Nickelback-tickets-Sat-May-1-2027-Frost-Bank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672956",
         "url": "https://www.stubhub.ie/nickelback-san-antonio-tickets-5-1-2027/event/107672956",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2921,7 +2937,7 @@
     "country": "Great Britain",
     "venue": "Leeds First Direct Bank Arena",
     "datetime_iso": "2027-05-22T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1F006547F7CD69F2",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-leeds-22-05-2027/event/1F006547F7CD69F2",
     "seatgeek_url": "",
@@ -2950,7 +2966,7 @@
         "event_id": 7679008,
         "url": "https://www.vividseats.com/nickelback-tickets-leeds-first-direct-arena---leeds-5-22-2027--concerts-rock/production/7679008",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2979,7 +2995,7 @@
     "country": "Great Britain",
     "venue": "The O2",
     "datetime_iso": "2027-05-25T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "35006547E6BCA601",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-25-05-2027/event/35006547E6BCA601",
     "seatgeek_url": "",
@@ -3008,7 +3024,7 @@
         "event_id": 7679010,
         "url": "https://www.vividseats.com/nickelback-tickets-london-the-o2---london-5-25-2027--concerts-rock/production/7679010",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3022,7 +3038,14 @@
         "event_id": "107672260",
         "url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-25-5-2027/event/107672260",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314974",
+        "url": "https://www.ticketliquidator.com/tickets/8314974/Nickelback-tickets-Tue-May-25-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3034,7 +3057,8 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314974/Nickelback-tickets-Tue-May-25-2027-O2-Arena-London"
   },
   {
     "id": "tm-nickelback-2027-birmingham-1kfyvp3_gagcomu",
@@ -3045,7 +3069,7 @@
     "country": "Great Britain",
     "venue": "Utilita Arena Birmingham",
     "datetime_iso": "2027-05-28T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "230065499CB60DF6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-birmingham-28-05-2027/event/230065499CB60DF6",
     "seatgeek_url": "",
@@ -3074,7 +3098,7 @@
         "event_id": 7679012,
         "url": "https://www.vividseats.com/nickelback-tickets-birmingham-utilita-arena-birmingham-5-28-2027--concerts-rock/production/7679012",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3088,21 +3112,21 @@
         "event_id": "8314975",
         "url": "https://www.ticketnetwork.com/en/p/8314975",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314975",
         "url": "https://www.ticketliquidator.com/tickets/8314975/Nickelback-tickets-Fri-May-28-2027-Utilita-Arena-Birmingham",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672835",
         "url": "https://www.stubhub.ie/nickelback-tickets-birmingham-utilita-arena-birmingham-28-5-2027/event/107672835",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3127,7 +3151,7 @@
     "country": "Ireland",
     "venue": "3Arena",
     "datetime_iso": "2027-05-30T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "18006537A5A9CA47",
     "ticketmaster_url": "https://www.ticketmaster.ie/nickelback-everything-under-the-sun-tour-dublin-30-05-2027/event/18006537A5A9CA47",
     "seatgeek_url": "",
@@ -3170,14 +3194,14 @@
         "event_id": "8314976",
         "url": "https://www.ticketnetwork.com/en/p/8314976",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314976",
         "url": "https://www.ticketliquidator.com/tickets/8314976/Nickelback-tickets-Sun-May-30-2027-3Arena-Dublin",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3201,7 +3225,7 @@
     "country": "Great Britain",
     "venue": "OVO Hydro",
     "datetime_iso": "2027-06-01T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "36006547BE9C6740",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-glasgow-01-06-2027/event/36006547BE9C6740",
     "seatgeek_url": "",
@@ -3230,7 +3254,7 @@
         "event_id": 7679018,
         "url": "https://www.vividseats.com/nickelback-tickets-glasgow-ovo-hydro-6-1-2027--concerts-rock/production/7679018",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3244,21 +3268,21 @@
         "event_id": "8314978",
         "url": "https://www.ticketnetwork.com/en/p/8314978",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314978",
         "url": "https://www.ticketliquidator.com/tickets/8314978/Nickelback-tickets-Tue-Jun-1-2027-OVO-Hydro",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672836",
         "url": "https://www.stubhub.ie/nickelback-tickets-glasgow-ovo-hydro-arena-glasgow-1-6-2027/event/107672836",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3284,7 +3308,7 @@
     "country": "Great Britain",
     "venue": "Co-op Live",
     "datetime_iso": "2027-06-02T18:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "37006547CC5A8DCA",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-manchester-02-06-2027/event/37006547CC5A8DCA",
     "seatgeek_url": "",
@@ -3313,7 +3337,7 @@
         "event_id": 7678932,
         "url": "https://www.vividseats.com/nickelback-tickets-manchester-co-op-live-6-2-2027--concerts-rock/production/7678932",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -3327,21 +3351,21 @@
         "event_id": "8314791",
         "url": "https://www.ticketnetwork.com/en/p/8314791",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314791",
         "url": "https://www.ticketliquidator.com/tickets/8314791/Nickelback-tickets-Wed-Jun-2-2027-Co-Op-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672261",
         "url": "https://www.stubhub.ie/nickelback-tickets-manchester-co-op-live-2-6-2027/event/107672261",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3367,7 +3391,7 @@
     "country": "Belgium",
     "venue": "Vorst Nationaal/Forest National",
     "datetime_iso": "2027-06-05T15:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "596340212",
     "ticketmaster_url": "https://www.ticketmaster.be/event/nickelback-everything-under-the-sun-tour-tickets/596340212",
     "seatgeek_url": "",
@@ -3405,6 +3429,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314979",
+        "url": "https://www.ticketliquidator.com/tickets/8314979/Nickelback-tickets-Sat-Jun-5-2027-Vorst-Nationaal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kppuZF3",
@@ -3413,7 +3444,8 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314979/Nickelback-tickets-Sat-Jun-5-2027-Vorst-Nationaal"
   },
   {
     "id": "tm-nickelback-2027-amsterdam-z698xzbpz1k-uqgjg",
@@ -3424,7 +3456,7 @@
     "country": "Netherlands",
     "venue": "Ziggo Dome",
     "datetime_iso": "2027-06-07T18:00:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "876775735",
     "ticketmaster_url": "https://www.ticketmaster.nl/event/nickelback-everything-under-the-sun-tour-tickets/876775735?language=en-us",
     "seatgeek_url": "",
@@ -3467,21 +3499,21 @@
         "event_id": "8314980",
         "url": "https://www.ticketnetwork.com/en/p/8314980",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314980",
         "url": "https://www.ticketliquidator.com/tickets/8314980/Nickelback-tickets-Mon-Jun-7-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672932",
         "url": "https://www.stubhub.ie/nickelback-tickets-amsterdam-ziggo-dome-7-6-2027/event/107672932",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3505,7 +3537,7 @@
     "country": "Germany",
     "venue": "ZAG Arena",
     "datetime_iso": "2027-06-11T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1874929301",
     "ticketmaster_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/1874929301?language=en-us",
     "seatgeek_url": "",
@@ -3548,21 +3580,21 @@
         "event_id": "8314982",
         "url": "https://www.ticketnetwork.com/en/p/8314982",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314982",
         "url": "https://www.ticketliquidator.com/tickets/8314982/Nickelback-tickets-Fri-Jun-11-2027-ZAG-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672924",
         "url": "https://www.stubhub.ie/nickelback-tickets-hannover-zag-arena-11-6-2027/event/107672924",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3586,7 +3618,7 @@
     "country": "Germany",
     "venue": "Olympiahalle",
     "datetime_iso": "2027-06-19T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "853192859",
     "ticketmaster_url": "https://www.ticketmaster.de/event/nickelback-everything-under-the-sun-tour-tickets/853192859?language=en-us",
     "seatgeek_url": "",
@@ -3629,21 +3661,21 @@
         "event_id": "8314985",
         "url": "https://www.ticketnetwork.com/en/p/8314985",
         "verified": true,
-        "last_verified_at": "2026-10-10",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314985",
         "url": "https://www.ticketliquidator.com/tickets/8314985/Nickelback-tickets-Sat-Jun-19-2027-Kleine-Olympiahalle-Munich",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672318",
         "url": "https://www.stubhub.ie/nickelback-tickets-munich-olympiahalle-munich-19-6-2027/event/107672318",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3667,7 +3699,7 @@
     "country": "Italy",
     "venue": "Unipol Forum",
     "datetime_iso": "2027-06-23T18:45:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "m3sqvboj69co",
     "ticketmaster_url": "https://www.ticketmaster.it/biglietti/nickelback-everything-under-the-sun-tour-assago-23-06-2027/event/m3sqvboj69co",
     "seatgeek_url": "",
@@ -3705,12 +3737,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314988",
+        "url": "https://www.ticketliquidator.com/tickets/8314988/Nickelback-tickets-Wed-Jun-23-2027-Forum-di-Milano",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "ZG9rmIYnyZA161",
     "timezone": "Europe/Rome",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314988/Nickelback-tickets-Wed-Jun-23-2027-Forum-di-Milano"
   },
   {
     "id": "tm-nickelback-2027-odz-z698xzqpz1kvw7fvb",
@@ -3721,7 +3761,7 @@
     "country": "Poland",
     "venue": "Atlas Arena",
     "datetime_iso": "2027-07-01T15:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "72108058",
     "ticketmaster_url": "https://www.ticketmaster.pl/event/nickelback-everything-under-the-sun-tour-tickets/72108058?language=en-us",
     "seatgeek_url": "",
@@ -3764,7 +3804,14 @@
         "event_id": "107672927",
         "url": "https://www.stubhub.ie/nickelback-tickets-lodz-atlas-arena-1-7-2027/event/107672927",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314992",
+        "url": "https://www.ticketliquidator.com/tickets/8314992/Nickelback-tickets-Thu-Jul-1-2027-Atlas-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3775,7 +3822,8 @@
     "organizer_names": [
       "Live Nation sp. z o.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314992/Nickelback-tickets-Thu-Jul-1-2027-Atlas-Arena"
   },
   {
     "id": "tm-nickelback-2027-zurich-z698xzu3z1kjt1pck",
@@ -3786,7 +3834,7 @@
     "country": "Switzerland",
     "venue": "Hallenstadion",
     "datetime_iso": "2027-06-20T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "729296386",
     "ticketmaster_url": "https://www.ticketmaster.ch/event/nickelback-everything-under-the-sun-tour-tickets/729296386?language=en-us",
     "seatgeek_url": "",
@@ -3829,21 +3877,21 @@
         "event_id": "8314986",
         "url": "https://www.ticketnetwork.com/en/p/8314986",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314986",
         "url": "https://www.ticketliquidator.com/tickets/8314986/Nickelback-tickets-Sun-Jun-20-2027-Hallenstadion-Zurich",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672925",
         "url": "https://www.stubhub.ie/nickelback-tickets-zurich-hallenstadion-zurich-20-6-2027/event/107672925",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -3867,7 +3915,7 @@
     "country": "Austria",
     "venue": "Wiener Stadthalle - Halle D",
     "datetime_iso": "2027-06-25T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1015417081",
     "ticketmaster_url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081?language=en-us",
     "seatgeek_url": "",
@@ -3910,14 +3958,14 @@
         "event_id": "8314989",
         "url": "https://www.ticketnetwork.com/en/p/8314989",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314989",
         "url": "https://www.ticketliquidator.com/tickets/8314989/Nickelback-tickets-Fri-Jun-25-2027-Wiener-Stadthalle-Halle-D",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -3940,7 +3988,7 @@
     "country": "Czech Republic",
     "venue": "O2 Arena",
     "datetime_iso": "2027-06-26T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "774529133",
     "ticketmaster_url": "https://www.ticketmaster.cz/event/nickelback-everything-under-the-sun-tour-tickets/774529133?language=en-us",
     "seatgeek_url": "",
@@ -3978,6 +4026,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8314990",
+        "url": "https://www.ticketliquidator.com/tickets/8314990/Nickelback-tickets-Sat-Jun-26-2027-O2-Arena-Prague",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107672934",
+        "url": "https://www.stubhub.ie/nickelback-tickets-prague-o2-arena-26-6-2027/event/107672934",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu0Z1kqVft7S",
@@ -3986,7 +4048,9 @@
     "organizer_names": [
       "LIVE NATION CZECH REPUBLIC s.r.o."
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8314990/Nickelback-tickets-Sat-Jun-26-2027-O2-Arena-Prague",
+    "stubhub_international_url": "https://www.stubhub.ie/nickelback-tickets-prague-o2-arena-26-6-2027/event/107672934"
   },
   {
     "id": "tm-nickelback-2027-helsinki-z698xz8kz16vqs7sfi",
@@ -3997,7 +4061,7 @@
     "country": "Finland",
     "venue": "Veikkaus Arena",
     "datetime_iso": "2027-07-07T14:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "1771131528",
     "ticketmaster_url": "https://www.ticketmaster.fi/event/nickelback-everything-under-the-sun-tour-tickets/1771131528?language=en-us",
     "seatgeek_url": "",
@@ -4040,21 +4104,21 @@
         "event_id": "8314993",
         "url": "https://www.ticketnetwork.com/en/p/8314993",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314993",
         "url": "https://www.ticketliquidator.com/tickets/8314993/Nickelback-tickets-Wed-Jul-7-2027-Veikkaus-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672935",
         "url": "https://www.stubhub.ie/nickelback-liput-helsinki-veikkaus-arena-7-7-2027/event/107672935",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -4085,7 +4149,7 @@
     "country": "Norway",
     "venue": "Unity Arena",
     "datetime_iso": "2027-07-09T17:00:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "23134970",
     "ticketmaster_url": "https://www.ticketmaster.no/event/nickelback-everything-under-the-sun-tour-tickets/23134970?language=en-us",
     "seatgeek_url": "",
@@ -4128,14 +4192,14 @@
         "event_id": "8314994",
         "url": "https://www.ticketnetwork.com/en/p/8314994",
         "verified": true,
-        "last_verified_at": "2026-10-11",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314994",
         "url": "https://www.ticketliquidator.com/tickets/8314994/Nickelback-tickets-Fri-Jul-9-2027-Unity-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4272,7 +4336,7 @@
     "country": "United States Of America",
     "venue": "Rocket Arena",
     "datetime_iso": "2027-02-12T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "Z7r9jZ1AA774F",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774F",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/cleveland-ohio-rocket-arena-2027-02-12-6-30-pm/concert/18604483",
@@ -4294,14 +4358,14 @@
         "event_id": 18604483,
         "url": "https://seatgeek.com/nickelback-tickets/cleveland-ohio-rocket-arena-2027-02-12-6-30-pm/concert/18604483",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678887,
         "url": "https://www.vividseats.com/nickelback-tickets-cleveland-rocket-arena-2-12-2027/production/7678887",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4315,14 +4379,14 @@
         "event_id": "8314933",
         "url": "https://www.ticketnetwork.com/en/p/8314933",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314933",
         "url": "https://www.ticketliquidator.com/tickets/8314933/Nickelback-tickets-Fri-Feb-12-2027-Rocket-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4345,7 +4409,7 @@
     "country": "United States Of America",
     "venue": "Grand Casino Arena",
     "datetime_iso": "2027-03-30T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "Z7r9jZ1AA774k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774k",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-30-6-30-pm/concert/18655421",
@@ -4367,14 +4431,14 @@
         "event_id": 18655421,
         "url": "https://seatgeek.com/nickelback-tickets/saint-paul-minnesota-grand-casino-arena-2027-03-30-6-30-pm/concert/18655421",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678988,
         "url": "https://www.vividseats.com/nickelback-tickets-saint-paul-grand-casino-arena-3-30-2027--concerts-rock/production/7678988",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4388,14 +4452,14 @@
         "event_id": "8314949",
         "url": "https://www.ticketnetwork.com/en/p/8314949",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314949",
         "url": "https://www.ticketliquidator.com/tickets/8314949/Nickelback-tickets-Tue-Mar-30-2027-Grand-Casino-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -4418,7 +4482,7 @@
     "country": "United States Of America",
     "venue": "T-Mobile Arena",
     "datetime_iso": "2027-04-17T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "Z7r9jZ1AA7746",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7746",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/las-vegas-nevada-t-mobile-arena-2027-04-16-6-30-pm/concert/18664612",
@@ -4440,14 +4504,14 @@
         "event_id": 18664612,
         "url": "https://seatgeek.com/nickelback-tickets/las-vegas-nevada-t-mobile-arena-2027-04-16-6-30-pm/concert/18664612",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678994,
         "url": "https://www.vividseats.com/nickelback-tickets-las-vegas-t-mobile-arena-4-16-2027--concerts-rock/production/7678994",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4461,21 +4525,21 @@
         "event_id": "8314953",
         "url": "https://www.ticketnetwork.com/en/p/8314953",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314953",
         "url": "https://www.ticketliquidator.com/tickets/8314953/Nickelback-tickets-Fri-Apr-16-2027-T-Mobile-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672955",
         "url": "https://www.stubhub.ie/nickelback-las-vegas-tickets-4-16-2027/event/107672955",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -4499,7 +4563,7 @@
     "country": "United States Of America",
     "venue": "Delta Center",
     "datetime_iso": "2027-04-23T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "Z7r9jZ1AA774a",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774a",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/salt-lake-city-utah-delta-center-1-2027-04-22-6-30-pm/concert/18647743",
@@ -4521,14 +4585,14 @@
         "event_id": 18647743,
         "url": "https://seatgeek.com/nickelback-tickets/salt-lake-city-utah-delta-center-1-2027-04-22-6-30-pm/concert/18647743",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7678901,
         "url": "https://www.vividseats.com/nickelback-tickets-salt-lake-city-delta-center-4-22-2027/production/7678901",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4542,21 +4606,21 @@
         "event_id": "8314957",
         "url": "https://www.ticketnetwork.com/en/p/8314957",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314957",
         "url": "https://www.ticketliquidator.com/tickets/8314957/Nickelback-tickets-Thu-Apr-22-2027-Delta-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673390",
         "url": "https://www.stubhub.ie/nickelback-salt-lake-city-tickets-4-22-2027/event/107673390",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -4580,7 +4644,7 @@
     "country": "United States Of America",
     "venue": "Toyota Center - TX",
     "datetime_iso": "2027-04-29T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "Z7r9jZ1AA774o",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA774o",
     "seatgeek_url": "https://seatgeek.com/nickelback-tickets/houston-texas-toyota-center-2027-04-29-6-30-pm/concert/18664619",
@@ -4602,14 +4666,14 @@
         "event_id": 18664619,
         "url": "https://seatgeek.com/nickelback-tickets/houston-texas-toyota-center-2027-04-29-6-30-pm/concert/18664619",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7679002,
         "url": "https://www.vividseats.com/nickelback-tickets-houston-toyota-center---tx-4-29-2027--concerts-rock/production/7679002",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4623,21 +4687,21 @@
         "event_id": "8314960",
         "url": "https://www.ticketnetwork.com/en/p/8314960",
         "verified": true,
-        "last_verified_at": "2026-10-17",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8314960",
         "url": "https://www.ticketliquidator.com/tickets/8314960/Nickelback-tickets-Thu-Apr-29-2027-Toyota-Center-TX",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107673010",
         "url": "https://www.stubhub.ie/nickelback-houston-tickets-4-29-2027/event/107673010",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -4661,7 +4725,7 @@
     "country": "Great Britain",
     "venue": "The O2",
     "datetime_iso": "2027-05-24T16:30:00Z",
-    "tour_name": "",
+    "tour_name": "Everything Under The Sun Tour",
     "ticketmaster_event_id": "35006547C37E8138",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/nickelback-everything-under-the-sun-tour-london-24-05-2027/event/35006547C37E8138",
     "seatgeek_url": "",
@@ -4690,7 +4754,7 @@
         "event_id": 7715176,
         "url": "https://www.vividseats.com/nickelback-tickets-london-the-o2---london-5-24-2027/production/7715176",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -4704,7 +4768,7 @@
         "event_id": "107674274",
         "url": "https://www.stubhub.ie/nickelback-tickets-london-the-o2-arena-24-5-2027/event/107674274",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

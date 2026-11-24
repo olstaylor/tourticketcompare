@@ -1383,7 +1383,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A006496EF8487E5",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
-    "seatgeek_url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-austin-texas-11-17-2026/event/3A006496EF8487E5",
@@ -1399,11 +1399,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18222798,
-        "url": "https://seatgeek.com/amble-tickets/austin-texas-emo-s-austin-2026-11-17-7-pm/concert/18222798",
-        "verified": true,
-        "last_verified_at": "2026-11-15",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1442,7 +1442,7 @@
     "ticketmaster_event_id": "0C0064A1CAA1A75C",
     "ticketmaster_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
     "seatgeek_url": "https://seatgeek.com/amble-tickets/dallas-texas-the-echo-lounge-music-hall-2026-11-18-7-pm/concert/18223872",
-    "vividseats_url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
+    "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/amble-dallas-texas-11-18-2026/event/0C0064A1CAA1A75C",
     "last_verified_at": "2026-11-07",
@@ -1464,11 +1464,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": 6982420,
-        "url": "https://www.vividseats.com/amble-tickets-dallas-the-echo-lounge-and-music-hall-11-18-2026--concerts-alternative/production/6982420",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "stubhub": {
         "event_id": null,
@@ -1478,25 +1478,25 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7930667",
-        "url": "https://www.ticketnetwork.com/en/p/7930667",
-        "verified": true,
-        "last_verified_at": "2026-09-28",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
-        "event_id": "7930667",
-        "url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall",
-        "verified": true,
-        "last_verified_at": "2026-11-16",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_161IQqj",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7930667",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7930667/Amble-tickets-Wed-Nov-18-2026-The-Echo-Lounge-and-Music-Hall",
+    "ticketnetwork_url": "",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1726,7 +1726,7 @@
         "event_id": "107198141",
         "url": "https://www.stubhub.ie/amble-tickets-madrid-sala-but-9-2-2027/event/107198141",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1791,7 +1791,7 @@
         "event_id": "107198142",
         "url": "https://www.stubhub.ie/amble-tickets-barcelona-sala-apolo-10-2-2027/event/107198142",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2021,7 +2021,7 @@
         "event_id": "107482906",
         "url": "https://www.stubhub.ie/amble-tickets-belfast-ormeau-park-23-6-2027/event/107482906",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2260,7 +2260,7 @@
         "event_id": "107483077",
         "url": "https://www.stubhub.ie/amble-tickets-manchester-castlefield-bowl-8-7-2027/event/107483077",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

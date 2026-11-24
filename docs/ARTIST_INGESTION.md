@@ -25,7 +25,7 @@ Run `npm run artists:requests:check` (it is also in `test:quick` and
 
 | When (UTC) | Workflow | What it does with the request |
 |---|---|---|
-| 10:45 | `auto-promote.yml` | Puts open requests first in the day's candidate list. Captures the SeatGeek performer and Ticketmaster attraction from their APIs by exact name, runs the D1–D5 screen and posts the verdict (marked "owner-requested") in the `automation:roster-candidates` issue, then promotes up to 12 artists a day (84 a week). Requests come first. It creates the artist record, catalog entry, registry entry and artist-level links, ingests the artist's Ticketmaster dates and SeatGeek event links, runs `test:mvp` and `test:providers`, and auto-merges one PR. Runs only while the repo variable `AUTOPROMOTE_ENABLED` is `true`. |
+| 10:45 | `auto-promote.yml` | Puts open requests first in the day's candidate list. Captures the SeatGeek performer and Ticketmaster attraction from their APIs by exact name, runs the D1–D5 screen and posts the verdict (marked "owner-requested") in the `automation:roster-candidates` issue, then promotes up to 12 artists a day (84 a week). Requests come first, then watchlist acts once Ticketmaster lists a tour, then just-announced arena/stadium tours (3 or more headline dates, public on-sale recent or still to come, from the roster forecast), then demand names; same screen and caps. It creates the artist record, catalog entry, registry entry and artist-level links, ingests the artist's Ticketmaster dates and SeatGeek event links, runs `test:mvp` and `test:providers`, and auto-merges one PR. Runs only while the repo variable `AUTOPROMOTE_ENABLED` is `true`. |
 
 **The screen for a request.** Identity must match exactly on both APIs (D1).
 The name must not be on `data/artist-denylist.json`, must not match the
@@ -104,14 +104,14 @@ Nothing below needs a hand edit once the artist is promoted:
 Every promoted artist is registered `sync_enabled` in
 `data/provider-identities.json`. After that:
 
-- **New Ticketmaster dates:** `tm-new-shows-pr.yml`, twice daily (02:40 and 16:20).
+- **New Ticketmaster dates:** `tm-new-shows-pr.yml`, daily (02:40).
 - **Date, venue and name changes:** `nightly-data-sync.yml`, 03:30.
 - **Resale links:** the SeatGeek, Vivid Seats and Impact marketplace syncs
-  (18:00–21:00 UTC).
+  (Impact 12:00–13:00, SeatGeek and Vivid Seats 18:00–18:30 UTC).
 - **Prices:** the snapshot writers, nominally hourly.
 
 A date not yet on public sale is published with its on-sale time and any
-verified resale buttons. `tour_name` stays blank until a human confirms it.
+verified resale buttons. `tour_name` is filled only from a strict `Artist: X Tour` listing title (no support-act billing); otherwise it stays blank until a human confirms it.
 Schedules and exact behaviour: `docs/OPERATIONS.md` → Scheduled workflows.
 
 ## Checking what happened
@@ -188,7 +188,7 @@ something needs attention and closes itself when all is clear. Each run:
   one on any promotion outside path D.
 - **Brand safety.** No approved source encodes it. Review the daily digest,
   and demote plus denylist when needed.
-- **`tour_name`.** It is never inferred from listing titles.
+- **`tour_name`.** New-show discovery takes it only from a listing title of exactly `Artist: X Tour` / `Artist - X Tour` (owner-approved 2026-11-21); never from URL slugs or looser titles.
 - **New Ticketmaster storefront countries.** Adding one is an `out.js`
   allowlist decision.
 - **Social-card repair PRs.** They are opened automatically; a human merges

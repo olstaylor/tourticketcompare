@@ -219,7 +219,7 @@ assert(deriveTourSummaries([]).length === 0, "empty input should yield no tours"
 
 // --- Shared help component --------------------------------------------------
 const help = artistTicketHelp();
-assert(help.points.length >= 3, "the shared help component should list the safe points once");
+assert(help.points.length >= 2, "the shared help component should list the safe points once");
 // The price caveat is said once per page, in the money disclosure at the top
 // of the board, and the "Where to buy" panel states that its buttons open the
 // artist's page; the help no longer repeats either (2026-10-10 copy pass).

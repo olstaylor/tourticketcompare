@@ -1,6 +1,6 @@
 import { CANONICAL_HOST } from "../_route-metadata.js";
 import { normalizeBrowserIntentId } from "../_browser-intent.js";
-import { isLikelyBot } from "../_bot-detection.js";
+import { isLikelyBot, isSuspectedLinuxDesktopBot } from "../_bot-detection.js";
 import { insertAnalyticsRow } from "../_analytics-write.js";
 import {
   classifyAcquisitionSource,
@@ -97,7 +97,9 @@ const SAFE_METADATA_KEYS = new Set([
   "control", "hasQuery", "city", "country", "sort", "visibleCount", "totalCount", "panel",
   // provider_click on a date showing the "Lowest listed" badge: "lowest" when
   // the badged lane was clicked, "other" for another lane on that date.
-  "lowestListed"
+  "lowestListed",
+  // Seller-order test (2026-11-20): which order the date's buttons used.
+  "orderArm"
 ]);
 
 export function sanitizeMetadata(value) {
@@ -233,7 +235,10 @@ export async function onRequestPost({ request, env }) {
   // Some crawlers execute page JS and fire beacons. Those page_view/web_vitals
   // rows are not demand signal, so drop them — accepted, not an error, so the
   // caller has nothing to retry.
-  if (isLikelyBot(request.headers.get("user-agent"))) return json({ ok: true, status: "ignored" });
+  const requestUserAgent = request.headers.get("user-agent");
+  if (isLikelyBot(requestUserAgent) || isSuspectedLinuxDesktopBot(requestUserAgent)) {
+    return json({ ok: true, status: "ignored" });
+  }
 
   const metadata = sanitizeMetadata(payload?.metadata);
   const now = new Date().toISOString();

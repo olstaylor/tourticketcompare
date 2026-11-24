@@ -1,6 +1,6 @@
 {
   "storyType": "artist-cities",
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-20",
   "artistSlug": "olivia-rodrigo",
   "artist": "Olivia Rodrigo",
   "artistPageIndexable": true,
@@ -11,12 +11,12 @@
   "siteLabel": "Vivid Seats",
   "country": "United States",
   "currency": "USD",
-  "capturedFrom": "2026-11-15T18:00:02.390Z",
-  "capturedTo": "2026-11-15T18:00:02.391Z",
-  "tourDates": 57,
+  "capturedFrom": "2026-11-20T18:52:11.046Z",
+  "capturedTo": "2026-11-20T20:19:09.117Z",
+  "tourDates": 54,
   "coverage": {
-    "marketCities": 9,
-    "pricedCities": 9,
+    "marketCities": 8,
+    "pricedCities": 8,
     "share": 1,
     "unpricedCities": [],
     "otherCountries": [
@@ -48,48 +48,37 @@
     ]
   },
   "low": {
+    "city": "Seattle",
+    "country": "United States",
+    "venue": "Climate Pledge Arena",
+    "eventId": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty",
+    "localDate": "2026-12-07",
+    "price": 312,
+    "currency": "USD",
+    "capturedAt": "2026-11-20T18:52:11.047Z"
+  },
+  "high": {
     "city": "Sunrise",
     "country": "United States",
     "venue": "Amerant Bank Arena",
-    "eventId": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
-    "localDate": "2026-11-19",
-    "price": 278,
+    "eventId": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
+    "localDate": "2026-11-20",
+    "price": 518,
     "currency": "USD",
-    "capturedAt": "2026-11-15T18:00:02.390Z"
+    "capturedAt": "2026-11-20T20:19:09.117Z"
   },
-  "high": {
-    "city": "Orlando",
-    "country": "United States",
-    "venue": "Kia Center",
-    "eventId": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
-    "localDate": "2026-11-15",
-    "price": 520,
-    "currency": "USD",
-    "capturedAt": "2026-11-15T18:00:02.390Z"
-  },
-  "median": 373,
-  "ratio": 1.8,
+  "median": 383,
+  "ratio": 1.6,
   "cities": [
-    {
-      "city": "Sunrise",
-      "country": "United States",
-      "venue": "Amerant Bank Arena",
-      "eventId": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
-      "localDate": "2026-11-19",
-      "price": 278,
-      "currency": "USD",
-      "capturedAt": "2026-11-15T18:00:02.390Z",
-      "path": "/artists/olivia-rodrigo/tickets/sunrise-united-states"
-    },
     {
       "city": "Seattle",
       "country": "United States",
       "venue": "Climate Pledge Arena",
       "eventId": "tm-olivia-rodrigo-2026-seattle-vvg1hz_amovxty",
       "localDate": "2026-12-07",
-      "price": 302,
+      "price": 312,
       "currency": "USD",
-      "capturedAt": "2026-11-15T18:00:02.390Z",
+      "capturedAt": "2026-11-20T18:52:11.047Z",
       "path": "/artists/olivia-rodrigo/tickets/seattle-united-states"
     },
     {
@@ -100,19 +89,8 @@
       "localDate": "2026-11-23",
       "price": 363,
       "currency": "USD",
-      "capturedAt": "2026-11-15T18:00:02.390Z",
+      "capturedAt": "2026-11-20T18:52:11.046Z",
       "path": "/artists/olivia-rodrigo/tickets/nashville-united-states"
-    },
-    {
-      "city": "Las Vegas",
-      "country": "United States",
-      "venue": "T-Mobile Arena",
-      "eventId": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk",
-      "localDate": "2026-12-19",
-      "price": 371,
-      "currency": "USD",
-      "capturedAt": "2026-11-15T18:00:02.391Z",
-      "path": "/artists/olivia-rodrigo/tickets/las-vegas-united-states"
     },
     {
       "city": "Oakland",
@@ -120,10 +98,21 @@
       "venue": "Oakland Arena",
       "eventId": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b",
       "localDate": "2026-12-11",
-      "price": 373,
+      "price": 368,
       "currency": "USD",
-      "capturedAt": "2026-11-15T18:00:02.390Z",
+      "capturedAt": "2026-11-20T18:52:11.047Z",
       "path": "/artists/olivia-rodrigo/tickets/oakland-united-states"
+    },
+    {
+      "city": "Las Vegas",
+      "country": "United States",
+      "venue": "T-Mobile Arena",
+      "eventId": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk",
+      "localDate": "2026-12-19",
+      "price": 369,
+      "currency": "USD",
+      "capturedAt": "2026-11-20T18:52:11.047Z",
+      "path": "/artists/olivia-rodrigo/tickets/las-vegas-united-states"
     },
     {
       "city": "Sacramento",
@@ -131,9 +120,9 @@
       "venue": "Golden 1 Center",
       "eventId": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi",
       "localDate": "2026-12-15",
-      "price": 437,
+      "price": 397,
       "currency": "USD",
-      "capturedAt": "2026-11-15T18:00:02.391Z",
+      "capturedAt": "2026-11-20T18:52:11.047Z",
       "path": "/artists/olivia-rodrigo/tickets/sacramento-united-states"
     },
     {
@@ -142,9 +131,9 @@
       "venue": "Barclays Center",
       "eventId": "tm-olivia-rodrigo-2027-brooklyn-1ayzk39gkdwvwfq",
       "localDate": "2027-02-11",
-      "price": 457,
+      "price": 475,
       "currency": "USD",
-      "capturedAt": "2026-11-15T18:00:02.391Z",
+      "capturedAt": "2026-11-20T18:52:11.047Z",
       "path": "/artists/olivia-rodrigo/tickets/brooklyn-united-states"
     },
     {
@@ -155,19 +144,19 @@
       "localDate": "2027-01-12",
       "price": 477,
       "currency": "USD",
-      "capturedAt": "2026-11-15T18:00:02.391Z",
+      "capturedAt": "2026-11-20T18:52:11.047Z",
       "path": "/artists/olivia-rodrigo/tickets/inglewood-united-states"
     },
     {
-      "city": "Orlando",
+      "city": "Sunrise",
       "country": "United States",
-      "venue": "Kia Center",
-      "eventId": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
-      "localDate": "2026-11-15",
-      "price": 520,
+      "venue": "Amerant Bank Arena",
+      "eventId": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
+      "localDate": "2026-11-20",
+      "price": 518,
       "currency": "USD",
-      "capturedAt": "2026-11-15T18:00:02.390Z",
-      "path": "/artists/olivia-rodrigo/tickets/orlando-united-states"
+      "capturedAt": "2026-11-20T20:19:09.117Z",
+      "path": "/artists/olivia-rodrigo/tickets/sunrise-united-states"
     }
   ],
   "second": {
@@ -175,25 +164,14 @@
     "siteLabel": "TicketNetwork",
     "cities": [
       {
-        "city": "Orlando",
-        "country": "United States",
-        "venue": "Kia Center",
-        "eventId": "tm-olivia-rodrigo-2026-orlando-1aefz_agkup8poj",
-        "localDate": "2026-11-15",
-        "price": 519.8,
-        "currency": "USD",
-        "capturedAt": "2026-11-15T18:00:14.100Z",
-        "path": "/artists/olivia-rodrigo/tickets/orlando-united-states"
-      },
-      {
         "city": "Sunrise",
         "country": "United States",
         "venue": "Amerant Bank Arena",
-        "eventId": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067f",
-        "localDate": "2026-11-19",
-        "price": 248.4,
+        "eventId": "tm-olivia-rodrigo-2026-sunrise-z7r9jz1a7067o",
+        "localDate": "2026-11-20",
+        "price": 646.3,
         "currency": "USD",
-        "capturedAt": "2026-11-15T18:00:20.962Z",
+        "capturedAt": "2026-11-20T18:52:21.435Z",
         "path": "/artists/olivia-rodrigo/tickets/sunrise-united-states"
       },
       {
@@ -202,9 +180,9 @@
         "venue": "Bridgestone Arena",
         "eventId": "tm-olivia-rodrigo-2026-nashville-g5viz_avuiqeo",
         "localDate": "2026-11-23",
-        "price": 455.4,
+        "price": 477.25,
         "currency": "USD",
-        "capturedAt": "2026-11-15T18:00:23.701Z",
+        "capturedAt": "2026-11-20T12:59:20.267Z",
         "path": "/artists/olivia-rodrigo/tickets/nashville-united-states"
       },
       {
@@ -215,7 +193,7 @@
         "localDate": "2026-12-07",
         "price": 340.4,
         "currency": "USD",
-        "capturedAt": "2026-11-15T10:57:05.370Z",
+        "capturedAt": "2026-11-20T12:59:20.743Z",
         "path": "/artists/olivia-rodrigo/tickets/seattle-united-states"
       },
       {
@@ -224,9 +202,9 @@
         "venue": "Oakland Arena",
         "eventId": "tm-olivia-rodrigo-2026-oakland-g5vyz_ambko0b",
         "localDate": "2026-12-11",
-        "price": 473.8,
+        "price": 468.05,
         "currency": "USD",
-        "capturedAt": "2026-11-15T18:00:24.403Z",
+        "capturedAt": "2026-11-20T12:59:21.208Z",
         "path": "/artists/olivia-rodrigo/tickets/oakland-united-states"
       },
       {
@@ -235,9 +213,9 @@
         "venue": "Golden 1 Center",
         "eventId": "tm-olivia-rodrigo-2026-sacramento-g5vyz_awltsfi",
         "localDate": "2026-12-15",
-        "price": 414,
+        "price": 397.9,
         "currency": "USD",
-        "capturedAt": "2026-11-15T10:57:06.123Z",
+        "capturedAt": "2026-11-20T12:59:21.676Z",
         "path": "/artists/olivia-rodrigo/tickets/sacramento-united-states"
       },
       {
@@ -246,9 +224,9 @@
         "venue": "T-Mobile Arena",
         "eventId": "tm-olivia-rodrigo-2026-las-vegas-z7r9jz1a706kk",
         "localDate": "2026-12-19",
-        "price": 480.7,
+        "price": 469.2,
         "currency": "USD",
-        "capturedAt": "2026-11-15T10:57:06.641Z",
+        "capturedAt": "2026-11-20T12:59:21.868Z",
         "path": "/artists/olivia-rodrigo/tickets/las-vegas-united-states"
       },
       {
@@ -259,7 +237,7 @@
         "localDate": "2027-01-12",
         "price": 600.3,
         "currency": "USD",
-        "capturedAt": "2026-11-15T10:57:07.131Z",
+        "capturedAt": "2026-11-20T12:59:22.311Z",
         "path": "/artists/olivia-rodrigo/tickets/inglewood-united-states"
       },
       {
@@ -270,7 +248,7 @@
         "localDate": "2027-02-11",
         "price": 455.4,
         "currency": "USD",
-        "capturedAt": "2026-11-15T10:57:10.969Z",
+        "capturedAt": "2026-11-20T12:59:24.824Z",
         "path": "/artists/olivia-rodrigo/tickets/brooklyn-united-states"
       }
     ]

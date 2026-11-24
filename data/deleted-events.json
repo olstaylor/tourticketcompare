@@ -386,6 +386,17 @@
       "timezone": "Europe/London",
       "reason": "Add-on/upsell product, not concert admission (\"The Orangery - Does not include event ticket - Mariah Carey\"). Removed on owner approval 2026-11-14 after weekend audit.",
       "deleted_at": "2026-11-14"
+    },
+    {
+      "artist_slug": "cody-jinks",
+      "id": "tm-cody-jinks-2027-boise-g5vzz_pk4ma4q",
+      "ticketmaster_discovery_event_id": "G5vzZ_pK4MA4q",
+      "ticketmaster_event_id": "1E006564D5DC555D",
+      "venue": "Outlaw Field at the Idaho Botanical Garden",
+      "datetime_iso": "2027-06-20T01:00:00Z",
+      "timezone": "America/Denver",
+      "reason": "Garden Suite hospitality add-on, not concert admission (\"Cody Jinks - Garden Suite\"). Removed on owner approval 2026-11-21 after weekend audit.",
+      "deleted_at": "2026-11-21"
     }
   ]
 }

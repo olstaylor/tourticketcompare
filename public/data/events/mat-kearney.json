@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAZpfI",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZpfI",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-kalispell-wachholz-college-center-2-5-2027/production/7374940",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZpfI",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7374940,
+        "url": "https://www.vividseats.com/mat-kearney-tickets-kalispell-wachholz-college-center-2-5-2027/production/7374940",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -51,14 +51,14 @@
         "event_id": "8065313",
         "url": "https://www.ticketnetwork.com/en/p/8065313",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8065313",
         "url": "https://www.ticketliquidator.com/tickets/8065313/Mat-Kearney-tickets-Fri-Feb-5-2027-McClaren-Hall-At-Wachholz-College-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -77,7 +77,7 @@
     "country": "United States Of America",
     "venue": "Carolina Theatre - Durham",
     "datetime_iso": "2027-04-16T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "Z7r9jZ1AA7tGA",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7tGA",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/durham-north-carolina-carolina-theatre-durham-2027-04-16-7-30-pm/concert/18725770",
@@ -99,7 +99,7 @@
         "event_id": 18725770,
         "url": "https://seatgeek.com/mat-kearney-tickets/durham-north-carolina-carolina-theatre-durham-2027-04-16-7-30-pm/concert/18725770",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -120,14 +120,14 @@
         "event_id": "8344161",
         "url": "https://www.ticketnetwork.com/en/p/8344161",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344161",
         "url": "https://www.ticketliquidator.com/tickets/8344161/Mat-Kearney-tickets-Fri-Apr-16-2027-Carolina-Theatre-Durham",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -171,14 +171,14 @@
         "event_id": 18725925,
         "url": "https://seatgeek.com/mat-kearney-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-04-18-8-pm/concert/18725925",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762656,
         "url": "https://www.vividseats.com/mat-kearney-tickets-charlotte-the-fillmore-charlotte-4-18-2027/production/7762656",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -192,14 +192,14 @@
         "event_id": "8344163",
         "url": "https://www.ticketnetwork.com/en/p/8344163",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344163",
         "url": "https://www.ticketliquidator.com/tickets/8344163/Mat-Kearney-tickets-Sun-Apr-18-2027-The-Fillmore-Charlotte",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -235,7 +235,7 @@
     "country": "United States Of America",
     "venue": "Lincoln Theatre",
     "datetime_iso": "2027-04-23T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "15006557DB19EC4D",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-washington-district-of-columbia-04-22-2027/event/15006557DB19EC4D",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/washington-district-of-columbia-lincoln-theatre-dc-2027-04-22-8-pm/concert/18726087",
@@ -257,14 +257,14 @@
         "event_id": 18726087,
         "url": "https://seatgeek.com/mat-kearney-tickets/washington-district-of-columbia-lincoln-theatre-dc-2027-04-22-8-pm/concert/18726087",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762740,
         "url": "https://www.vividseats.com/mat-kearney-tickets-washington-dc-lincoln-theatre-dc-4-22-2027/production/7762740",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -278,14 +278,14 @@
         "event_id": "8344165",
         "url": "https://www.ticketnetwork.com/en/p/8344165",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344165",
         "url": "https://www.ticketliquidator.com/tickets/8344165/Mat-Kearney-tickets-Thu-Apr-22-2027-Lincoln-Theatre-DC",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -313,7 +313,7 @@
     "country": "United States Of America",
     "venue": "Music Box at the Borgata",
     "datetime_iso": "2027-04-24T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "02006550E16A1923",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-atlantic-city-new-jersey-04-23-2027/event/02006550E16A1923",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/atlantic-city-new-jersey-music-box-at-the-borgata-2027-04-23-8-pm/concert/18726580",
@@ -335,14 +335,14 @@
         "event_id": 18726580,
         "url": "https://seatgeek.com/mat-kearney-tickets/atlantic-city-new-jersey-music-box-at-the-borgata-2027-04-23-8-pm/concert/18726580",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762764,
         "url": "https://www.vividseats.com/mat-kearney-tickets-atlantic-city-borgata-casino-music-box-4-23-2027/production/7762764",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -351,13 +351,29 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344174",
+        "url": "https://www.ticketnetwork.com/en/p/8344174",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344174",
+        "url": "https://www.ticketliquidator.com/tickets/8344174/Mat-Kearney-tickets-Fri-Apr-23-2027-Borgata-Music-Box",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AeZk48Gkd-Q-0N",
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344174",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344174/Mat-Kearney-tickets-Fri-Apr-23-2027-Borgata-Music-Box"
   },
   {
     "id": "tm-mat-kearney-2027-portsmouth-z7r9jz1aa7s83",
@@ -397,7 +413,7 @@
         "event_id": 7768717,
         "url": "https://www.vividseats.com/mat-kearney-tickets-portsmouth-the-music-hall-lounge-in-the-historic-theater---portsmouth-4-26-2027/production/7768717",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -411,14 +427,14 @@
         "event_id": "8344257",
         "url": "https://www.ticketnetwork.com/en/p/8344257",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344257",
         "url": "https://www.ticketliquidator.com/tickets/8344257/Mat-Kearney-tickets-Mon-Apr-26-2027-The-Historic-Theater-at-The-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -459,14 +475,14 @@
         "event_id": 18726039,
         "url": "https://seatgeek.com/mat-kearney-tickets/new-york-new-york-the-town-hall-new-york-2027-04-27-7-30-pm/concert/18726039",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762667,
         "url": "https://www.vividseats.com/mat-kearney-tickets-new-york-town-hall-new-york-4-27-2027/production/7762667",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -480,14 +496,14 @@
         "event_id": "8344155",
         "url": "https://www.ticketnetwork.com/en/p/8344155",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344155",
         "url": "https://www.ticketliquidator.com/tickets/8344155/Mat-Kearney-tickets-Tue-Apr-27-2027-Town-Hall-Theatre-NY",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -511,14 +527,14 @@
     "country": "United States Of America",
     "venue": "State Theatre",
     "datetime_iso": "2027-04-29T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "0100654EBD0EED9F",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-portland-maine-04-28-2027/event/0100654EBD0EED9F",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/portland-maine-state-theatre-portland-me-2027-04-28-8-pm/concert/18725688",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-portland-state-theatre-portland-4-28-2027/production/7762724",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-portland-maine-04-28-2027/event/0100654EBD0EED9F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-21",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,14 +549,14 @@
         "event_id": 18725688,
         "url": "https://seatgeek.com/mat-kearney-tickets/portland-maine-state-theatre-portland-me-2027-04-28-8-pm/concert/18725688",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762724,
         "url": "https://www.vividseats.com/mat-kearney-tickets-portland-state-theatre-portland-4-28-2027/production/7762724",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -554,14 +570,14 @@
         "event_id": "8344175",
         "url": "https://www.ticketnetwork.com/en/p/8344175",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344175",
         "url": "https://www.ticketliquidator.com/tickets/8344175/Mat-Kearney-tickets-Wed-Apr-28-2027-State-Theatre-ME",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -575,6 +591,11 @@
         "name": "VIP Packages",
         "start": "2026-10-28T14:00:00Z",
         "end": "2027-04-28T07:00:00Z"
+      },
+      {
+        "name": "4-Pack Offer",
+        "start": "2026-11-23T15:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
       }
     ],
     "genre": "Rock"
@@ -610,7 +631,7 @@
         "event_id": 18726607,
         "url": "https://seatgeek.com/mat-kearney-tickets/mckees-rocks-pennsylvania-roxian-theatre-2027-04-30-6-30-pm/concert/18726607",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -631,14 +652,14 @@
         "event_id": "8344177",
         "url": "https://www.ticketnetwork.com/en/p/8344177",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344177",
         "url": "https://www.ticketliquidator.com/tickets/8344177/Mat-Kearney-tickets-Fri-Apr-30-2027-Roxian-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -662,7 +683,7 @@
     "country": "United States Of America",
     "venue": "Taft Theatre",
     "datetime_iso": "2027-05-01T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "16006550734D2BB5",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cincinnati-ohio-05-01-2027/event/16006550734D2BB5",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/cincinnati-ohio-taft-theatre-2027-05-01-7-30-pm/concert/18725946",
@@ -684,14 +705,14 @@
         "event_id": 18725946,
         "url": "https://seatgeek.com/mat-kearney-tickets/cincinnati-ohio-taft-theatre-2027-05-01-7-30-pm/concert/18725946",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762638,
         "url": "https://www.vividseats.com/mat-kearney-tickets-cincinnati-taft-theatre-5-1-2027/production/7762638",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -705,14 +726,14 @@
         "event_id": "8344179",
         "url": "https://www.ticketnetwork.com/en/p/8344179",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344179",
         "url": "https://www.ticketliquidator.com/tickets/8344179/Mat-Kearney-tickets-Sat-May-1-2027-Taft-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -755,14 +776,14 @@
         "event_id": 18747385,
         "url": "https://seatgeek.com/mat-kearney-tickets/austin-texas-austin-city-limits-live-at-the-moody-theater-2027-08-13-8-pm/concert/18747385",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762676,
         "url": "https://www.vividseats.com/mat-kearney-tickets-austin-austin-city-limits-live-at-the-moody-theater-8-13-2027/production/7762676",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -776,7 +797,7 @@
         "event_id": "8344157",
         "url": "https://www.ticketnetwork.com/en/p/8344157",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -797,7 +818,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7s_b",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s_b",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/dallas-texas-majestic-theatre-dallas-2027-08-14-8-pm/concert/18794192",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-dallas-majestic-theatre-dallas-8-14-2027/production/7763422",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7s_b",
@@ -813,17 +834,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18794192,
+        "url": "https://seatgeek.com/mat-kearney-tickets/dallas-texas-majestic-theatre-dallas-2027-08-14-8-pm/concert/18794192",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7763422,
         "url": "https://www.vividseats.com/mat-kearney-tickets-dallas-majestic-theatre-dallas-8-14-2027/production/7763422",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -837,14 +858,14 @@
         "event_id": "8344158",
         "url": "https://www.ticketnetwork.com/en/p/8344158",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344158",
         "url": "https://www.ticketliquidator.com/tickets/8344158/Mat-Kearney-tickets-Sat-Aug-14-2027-Majestic-Theatre-Dallas",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -863,7 +884,7 @@
     "country": "United States Of America",
     "venue": "Paramount Theatre",
     "datetime_iso": "2027-08-18T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "1E0065557E872477",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-denver-colorado-08-17-2027/event/1E0065557E872477",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/denver-colorado-paramount-theatre-co-2027-08-17-7-30-pm/concert/18725982",
@@ -885,14 +906,14 @@
         "event_id": 18725982,
         "url": "https://seatgeek.com/mat-kearney-tickets/denver-colorado-paramount-theatre-co-2027-08-17-7-30-pm/concert/18725982",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762744,
         "url": "https://www.vividseats.com/mat-kearney-tickets-denver-paramount-theatre-denver-8-17-2027/production/7762744",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -906,14 +927,14 @@
         "event_id": "8344239",
         "url": "https://www.ticketnetwork.com/en/p/8344239",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344239",
         "url": "https://www.ticketliquidator.com/tickets/8344239/Mat-Kearney-tickets-Tue-Aug-17-2027-Paramount-Theatre-Denver",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -937,7 +958,7 @@
     "country": "United States Of America",
     "venue": "The Van Buren",
     "datetime_iso": "2027-08-20T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "1900655ABC0F508C",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-phoenix-arizona-08-19-2027/event/1900655ABC0F508C",
     "seatgeek_url": "",
@@ -966,7 +987,7 @@
         "event_id": 7762628,
         "url": "https://www.vividseats.com/mat-kearney-tickets-phoenix-the-van-buren-8-19-2027/production/7762628",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -980,14 +1001,14 @@
         "event_id": "8344241",
         "url": "https://www.ticketnetwork.com/en/p/8344241",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344241",
         "url": "https://www.ticketliquidator.com/tickets/8344241/Mat-Kearney-tickets-Thu-Aug-19-2027-The-Van-Buren",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1049,14 +1070,14 @@
         "event_id": 18726046,
         "url": "https://seatgeek.com/mat-kearney-tickets/san-diego-california-humphreys-concerts-by-the-bay-2027-08-20-7-30-pm/concert/18726046",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762622,
         "url": "https://www.vividseats.com/mat-kearney-tickets-san-diego-humphreys-concerts-by-the-bay-8-20-2027/production/7762622",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1070,14 +1091,14 @@
         "event_id": "8344243",
         "url": "https://www.ticketnetwork.com/en/p/8344243",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344243",
         "url": "https://www.ticketliquidator.com/tickets/8344243/Mat-Kearney-tickets-Fri-Aug-20-2027-Humphreys-Concerts-By-The-Bay",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1104,7 +1125,7 @@
     "country": "United States Of America",
     "venue": "Cerritos Center for the Performing Arts",
     "datetime_iso": "2027-08-22T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "0B00655015601BAF",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cerritos-california-08-21-2027/event/0B00655015601BAF",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/cerritos-california-cerritos-center-2027-08-21-7-30-pm/concert/18725672",
@@ -1126,7 +1147,7 @@
         "event_id": 18725672,
         "url": "https://seatgeek.com/mat-kearney-tickets/cerritos-california-cerritos-center-2027-08-21-7-30-pm/concert/18725672",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1142,12 +1163,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344244",
+        "url": "https://www.ticketliquidator.com/tickets/8344244/Mat-Kearney-tickets-Sat-Aug-21-2027-Cerritos-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1iZ_4Z4bvmR",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344244/Mat-Kearney-tickets-Sat-Aug-21-2027-Cerritos-Center"
   },
   {
     "id": "tm-mat-kearney-2027-sacramento-g5vyz_4l700ei",
@@ -1158,7 +1187,7 @@
     "country": "United States Of America",
     "venue": "Ace of Spades",
     "datetime_iso": "2027-08-25T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "1C00655AC49240A8",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-sacramento-california-08-24-2027/event/1C00655AC49240A8",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/sacramento-california-ace-of-spades-2027-08-24-6-30-pm/concert/18725973",
@@ -1180,14 +1209,14 @@
         "event_id": 18725973,
         "url": "https://seatgeek.com/mat-kearney-tickets/sacramento-california-ace-of-spades-2027-08-24-6-30-pm/concert/18725973",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7763264,
         "url": "https://www.vividseats.com/mat-kearney-tickets-sacramento-ace-of-spades-8-24-2027/production/7763264",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1201,14 +1230,14 @@
         "event_id": "8344245",
         "url": "https://www.ticketnetwork.com/en/p/8344245",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344245",
         "url": "https://www.ticketliquidator.com/tickets/8344245/Mat-Kearney-tickets-Tue-Aug-24-2027-Ace-of-Spades",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1231,7 +1260,7 @@
     "country": "United States Of America",
     "venue": "Knitting Factory - Spokane",
     "datetime_iso": "2027-09-01T02:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "1E0065558A872CCE",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-spokane-washington-08-31-2027/event/1E0065558A872CCE",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/spokane-washington-knitting-factory-spokane-2027-08-31-7-30-pm/concert/18725860",
@@ -1253,14 +1282,14 @@
         "event_id": 18725860,
         "url": "https://seatgeek.com/mat-kearney-tickets/spokane-washington-knitting-factory-spokane-2027-08-31-7-30-pm/concert/18725860",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762666,
         "url": "https://www.vividseats.com/mat-kearney-tickets-spokane-knitting-factory-concert-house-spokane-8-31-2027/production/7762666",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1274,14 +1303,14 @@
         "event_id": "8344247",
         "url": "https://www.ticketnetwork.com/en/p/8344247",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344247",
         "url": "https://www.ticketliquidator.com/tickets/8344247/Mat-Kearney-tickets-Tue-Aug-31-2027-Knitting-Factory-Spokane",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1311,7 +1340,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7Yr7",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Yr7",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/boise-idaho-treefort-music-hall-2027-09-01-8-pm/concert/18830979",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7Yr7",
@@ -1327,11 +1356,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18830979,
+        "url": "https://seatgeek.com/mat-kearney-tickets/boise-idaho-treefort-music-hall-2027-09-01-8-pm/concert/18830979",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1351,14 +1380,14 @@
         "event_id": "8344260",
         "url": "https://www.ticketnetwork.com/en/p/8344260",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344260",
         "url": "https://www.ticketliquidator.com/tickets/8344260/Mat-Kearney-tickets-Wed-Sep-1-2027-Treefort-Music-Hall",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1377,7 +1406,7 @@
     "country": "United States Of America",
     "venue": "Avalon Theatre",
     "datetime_iso": "2027-09-04T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "1E00654DC058A147",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-grand-junction-colorado-09-03-2027/event/1E00654DC058A147",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/grand-junction-colorado-avalon-theatre-co-2027-09-03-7-30-pm/concert/18726031",
@@ -1399,14 +1428,14 @@
         "event_id": 18726031,
         "url": "https://seatgeek.com/mat-kearney-tickets/grand-junction-colorado-avalon-theatre-co-2027-09-03-7-30-pm/concert/18726031",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762710,
         "url": "https://www.vividseats.com/mat-kearney-tickets-grand-junction-avalon-theatre---co-9-3-2027/production/7762710",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1420,14 +1449,14 @@
         "event_id": "8344249",
         "url": "https://www.ticketnetwork.com/en/p/8344249",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344249",
         "url": "https://www.ticketliquidator.com/tickets/8344249/Mat-Kearney-tickets-Fri-Sep-3-2027-The-Avalon-Theatre-CO",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1468,7 +1497,7 @@
     "country": "United States Of America",
     "venue": "Orpheum Theater",
     "datetime_iso": "2027-11-07T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "07006550BCC78929",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-madison-wisconsin-11-06-2027/event/07006550BCC78929",
     "seatgeek_url": "",
@@ -1506,6 +1535,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344250",
+        "url": "https://www.ticketnetwork.com/en/p/8344250",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344250",
+        "url": "https://www.ticketliquidator.com/tickets/8344250/Mat-Kearney-tickets-Sat-Nov-6-2027-Orpheum-Theatre-Madison",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1A6Zk48GkeHsz0t",
@@ -1516,7 +1559,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344250",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344250/Mat-Kearney-tickets-Sat-Nov-6-2027-Orpheum-Theatre-Madison"
   },
   {
     "id": "tm-mat-kearney-2027-shipshewana-z7r9jz1aa7t8k",
@@ -1530,7 +1575,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AA7t8k",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t8k",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/shipshewana-indiana-blue-gate-performing-arts-center-2027-11-08-7-30-pm/concert/18857823",
     "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-shipshewana-blue-gate-performing-arts-center-11-8-2027/production/7761158",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AA7t8k",
@@ -1546,17 +1591,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18857823,
+        "url": "https://seatgeek.com/mat-kearney-tickets/shipshewana-indiana-blue-gate-performing-arts-center-2027-11-08-7-30-pm/concert/18857823",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7761158,
         "url": "https://www.vividseats.com/mat-kearney-tickets-shipshewana-blue-gate-performing-arts-center-11-8-2027/production/7761158",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1570,14 +1615,14 @@
         "event_id": "8344159",
         "url": "https://www.ticketnetwork.com/en/p/8344159",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344159",
         "url": "https://www.ticketliquidator.com/tickets/8344159/Mat-Kearney-tickets-Mon-Nov-8-2027-Blue-Gate-Performing-Arts-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1596,7 +1641,7 @@
     "country": "United States Of America",
     "venue": "House of Blues Cleveland",
     "datetime_iso": "2027-11-10T23:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "05006554D1F9AF79",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-cleveland-ohio-11-10-2027/event/05006554D1F9AF79",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/cleveland-ohio-house-of-blues-cleveland-2027-11-10-6-30-pm/concert/18725705",
@@ -1618,14 +1663,14 @@
         "event_id": 18725705,
         "url": "https://seatgeek.com/mat-kearney-tickets/cleveland-ohio-house-of-blues-cleveland-2027-11-10-6-30-pm/concert/18725705",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7762644,
         "url": "https://www.vividseats.com/mat-kearney-tickets-cleveland-house-of-blues-cleveland-11-10-2027/production/7762644",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1639,14 +1684,14 @@
         "event_id": "8344251",
         "url": "https://www.ticketnetwork.com/en/p/8344251",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344251",
         "url": "https://www.ticketliquidator.com/tickets/8344251/Mat-Kearney-tickets-Wed-Nov-10-2027-House-Of-Blues-Cleveland",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1687,7 +1732,7 @@
     "country": "United States Of America",
     "venue": "Steelhouse Omaha",
     "datetime_iso": "2027-11-13T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "20006553B1846382",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-omaha-nebraska-11-12-2027/event/20006553B1846382",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/omaha-nebraska-steelhouse-omaha-2027-11-12-7-30-pm/concert/18726697",
@@ -1709,7 +1754,7 @@
         "event_id": 18726697,
         "url": "https://seatgeek.com/mat-kearney-tickets/omaha-nebraska-steelhouse-omaha-2027-11-12-7-30-pm/concert/18726697",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1730,14 +1775,14 @@
         "event_id": "8344252",
         "url": "https://www.ticketnetwork.com/en/p/8344252",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344252",
         "url": "https://www.ticketliquidator.com/tickets/8344252/Mat-Kearney-tickets-Fri-Nov-12-2027-Steelhouse-Omaha",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1761,7 +1806,7 @@
     "country": "United States Of America",
     "venue": "The Pageant",
     "datetime_iso": "2027-11-14T01:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "060065549C5E80C0",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-saint-louis-missouri-11-13-2027/event/060065549C5E80C0",
     "seatgeek_url": "",
@@ -1799,6 +1844,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8344253",
+        "url": "https://www.ticketnetwork.com/en/p/8344253",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344253",
+        "url": "https://www.ticketliquidator.com/tickets/8344253/Mat-Kearney-tickets-Sat-Nov-13-2027-The-Pageant",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvP4aGAG9IdZ",
@@ -1808,7 +1867,9 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344253",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344253/Mat-Kearney-tickets-Sat-Nov-13-2027-The-Pageant"
   },
   {
     "id": "tm-mat-kearney-2027-atlanta-vvg1zz_4golpzd",
@@ -1819,7 +1880,7 @@
     "country": "United States Of America",
     "venue": "Tabernacle Presented by iTHINK Financial",
     "datetime_iso": "2027-11-20T00:30:00Z",
-    "tour_name": "",
+    "tour_name": "Hanging By A Heartstring Tour",
     "ticketmaster_event_id": "0E006553207E5E3B",
     "ticketmaster_url": "https://www.ticketmaster.com/mat-kearney-hanging-by-a-heartstring-atlanta-georgia-11-19-2027/event/0E006553207E5E3B",
     "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-11-19-7-30-pm/concert/18725655",
@@ -1841,7 +1902,7 @@
         "event_id": 18725655,
         "url": "https://seatgeek.com/mat-kearney-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-11-19-7-30-pm/concert/18725655",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1862,14 +1923,14 @@
         "event_id": "8344254",
         "url": "https://www.ticketnetwork.com/en/p/8344254",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8344254",
         "url": "https://www.ticketliquidator.com/tickets/8344254/Mat-Kearney-tickets-Fri-Nov-19-2027-The-Tabernacle-GA",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1895,5 +1956,196 @@
     "ticket_limit": 8,
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344254/Mat-Kearney-tickets-Fri-Nov-19-2027-The-Tabernacle-GA"
+  },
+  {
+    "id": "tm-mat-kearney-2027-carmel-z7r9jz1aaa_49",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Carmel",
+    "country": "United States Of America",
+    "venue": "Allied Solutions Center for the Performing Arts",
+    "datetime_iso": "2027-11-15T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_49",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/carmel-indiana-the-palladium-at-allied-solutions-center-for-the-performing-arts-2027-11-14-7-30-pm/concert/18848387",
+    "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-carmel-allied-solutions-center-for-the-performing-arts---payne-and-mencias-palladium-11-14-2027/production/7765205",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_49",
+        "discovery_event_id": "Z7r9jZ1AAA_49",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_49",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18848387,
+        "url": "https://seatgeek.com/mat-kearney-tickets/carmel-indiana-the-palladium-at-allied-solutions-center-for-the-performing-arts-2027-11-14-7-30-pm/concert/18848387",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7765205,
+        "url": "https://www.vividseats.com/mat-kearney-tickets-carmel-allied-solutions-center-for-the-performing-arts---payne-and-mencias-palladium-11-14-2027/production/7765205",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8346477",
+        "url": "https://www.ticketnetwork.com/en/p/8346477",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8346477",
+        "url": "https://www.ticketliquidator.com/tickets/8346477/Mat-Kearney-tickets-Sun-Nov-14-2027-The-Payne-Mencias-Palladium-At-Allied-Solutions-Center-For-The-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_49",
+    "timezone": "America/Indiana/Indianapolis",
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8346477",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8346477/Mat-Kearney-tickets-Sun-Nov-14-2027-The-Payne-Mencias-Palladium-At-Allied-Solutions-Center-For-The-Performing-Arts"
+  },
+  {
+    "id": "tm-mat-kearney-2027-charlottesville-z7r9jz1aaa-pv",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney???Hanging By A Heartstring Tour",
+    "city": "Charlottesville",
+    "country": "United States Of America",
+    "venue": "Paramount Theater - VA",
+    "datetime_iso": "2027-04-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA-pv",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-pv",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-pv",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA-pv",
+        "discovery_event_id": "Z7r9jZ1AAA-pv",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA-pv",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA-pv",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-mat-kearney-2027-pelham-z7r9jz1aaa_at",
+    "artist_slug": "mat-kearney",
+    "artist_name": "Mat Kearney",
+    "event_name": "Mat Kearney",
+    "city": "Pelham",
+    "country": "United States Of America",
+    "venue": "The Caverns",
+    "datetime_iso": "2027-11-21T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA_at",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
+    "seatgeek_url": "https://seatgeek.com/mat-kearney-tickets/pelham-tennessee-the-caverns-2027-11-20-8-pm/concert/18856717",
+    "vividseats_url": "https://www.vividseats.com/mat-kearney-tickets-pelham-the-caverns-11-20-2027/production/7767506",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA_at",
+        "discovery_event_id": "Z7r9jZ1AAA_at",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA_at",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18856717,
+        "url": "https://seatgeek.com/mat-kearney-tickets/pelham-tennessee-the-caverns-2027-11-20-8-pm/concert/18856717",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7767506,
+        "url": "https://www.vividseats.com/mat-kearney-tickets-pelham-the-caverns-11-20-2027/production/7767506",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8344148",
+        "url": "https://www.ticketliquidator.com/tickets/8344148/Mat-Kearney-tickets-Sat-Nov-20-2027-The-Caverns-TN",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8344148",
+        "url": "https://www.ticketnetwork.com/en/p/8344148",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA_at",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8344148/Mat-Kearney-tickets-Sat-Nov-20-2027-The-Caverns-TN",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8344148"
   }
 ]

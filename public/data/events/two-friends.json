@@ -30,7 +30,7 @@
         "event_id": 18664299,
         "url": "https://seatgeek.com/two-friends-tickets/atlantic-city-new-jersey-ocean-resort-casino-hq2-beachclub-2026-11-21-11-pm/concert/18664299",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -84,14 +84,14 @@
         "event_id": 18126049,
         "url": "https://seatgeek.com/two-friends-tickets/nashville-tennessee-the-truth-nashville-2026-12-05-8-pm/concert/18126049",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 6789724,
         "url": "https://www.vividseats.com/big-bootie-land-tickets-nashville-the-truth-12-5-2026/production/6789724",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -105,7 +105,14 @@
         "event_id": "7808859",
         "url": "https://www.ticketliquidator.com/tickets/7808859/Two-Friends-tickets-Sat-Dec-5-2026-The-Truth",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "7808859",
+        "url": "https://www.ticketnetwork.com/en/p/7808859",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -124,7 +131,8 @@
         "start": "2026-03-20T15:00:00Z",
         "end": "2026-12-01T18:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7808859"
   },
   {
     "id": "tm-two-friends-2026-seattle-vvg1hz_krkthyp",
@@ -157,14 +165,14 @@
         "event_id": 18633839,
         "url": "https://seatgeek.com/two-friends-tickets/seattle-washington-wamu-theater-2026-12-12-7-pm/concert/18633839",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7631201,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-seattle-wamu-theater---seattle-12-12-2026/production/7631201",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -178,7 +186,14 @@
         "event_id": "8332446",
         "url": "https://www.ticketliquidator.com/tickets/8332446/Two-Friends-tickets-Sat-Dec-12-2026-Wamu-Theater-At-Lumen-Field-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8332446",
+        "url": "https://www.ticketnetwork.com/en/p/8332446",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -195,7 +210,8 @@
         "start": "2026-10-07T17:00:00Z",
         "end": "2026-12-12T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8332446"
   },
   {
     "id": "tm-two-friends-2027-tampa-vvg1vz_fhrt2gz",
@@ -228,14 +244,14 @@
         "event_id": 18739111,
         "url": "https://seatgeek.com/two-friends-tickets/tampa-florida-seminole-hard-rock-tampa-2026-12-31-9-pm/concert/18739111",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7799912,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-tampa-seminole-hard-rock-hotel-and-casino---tampa-12-31-2026/production/7799912",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -249,7 +265,14 @@
         "event_id": "8353529",
         "url": "https://www.ticketliquidator.com/tickets/8353529/Two-Friends-tickets-Thu-Dec-31-2026-Seminole-Hard-Rock-Tampa-Event-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8353529",
+        "url": "https://www.ticketnetwork.com/en/p/8353529",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -258,7 +281,8 @@
     "status": "on-sale",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353529/Two-Friends-tickets-Thu-Dec-31-2026-Seminole-Hard-Rock-Tampa-Event-Center",
     "legal_age_enforced": true,
-    "genre": "Dance/Electronic"
+    "genre": "Dance/Electronic",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353529"
   },
   {
     "id": "tm-two-friends-2027-morrison-z7r9jz1aa76-a",
@@ -291,14 +315,14 @@
         "event_id": 18683907,
         "url": "https://seatgeek.com/two-friends-tickets/morrison-colorado-red-rocks-amphitheatre-2027-04-30-7-pm/concert/18683907",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-20",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7697394,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-morrison-red-rocks-amphitheatre-4-30-2027--concerts-dance-electronica/production/7697394",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -312,7 +336,14 @@
         "event_id": "8319843",
         "url": "https://www.ticketliquidator.com/tickets/8319843/Two-Friends-tickets-Fri-Apr-30-2027-Red-Rocks-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8319843",
+        "url": "https://www.ticketnetwork.com/en/p/8319843",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -322,7 +353,8 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8319843/Two-Friends-tickets-Fri-Apr-30-2027-Red-Rocks-Amphitheatre",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8319843"
   },
   {
     "id": "tm-two-friends-2027-saint-louis-1a-zk4pgkdsvsmy",
@@ -371,6 +403,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8363835",
+        "url": "https://www.ticketnetwork.com/en/p/8363835",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363835",
+        "url": "https://www.ticketliquidator.com/tickets/8363835/Two-Friends-tickets-Wed-May-5-2027-The-Factory-Chesterfield",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A-Zk4PGkdSvsmy",
@@ -386,7 +432,9 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-05-01T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363835",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363835/Two-Friends-tickets-Wed-May-5-2027-The-Factory-Chesterfield"
   },
   {
     "id": "tm-two-friends-2027-indianapolis-vv1aazk40gkd83bu9",
@@ -419,14 +467,14 @@
         "event_id": 18756186,
         "url": "https://seatgeek.com/two-friends-tickets/indianapolis-indiana-everwise-amphitheater-at-white-river-state-park-2027-05-06-7-pm/concert/18756186",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841649,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-indianapolis-everwise-amphitheater-at-white-river-state-park-5-6-2027--concerts-dance-electronica/production/7841649",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -440,7 +488,14 @@
         "event_id": "8363838",
         "url": "https://www.ticketliquidator.com/tickets/8363838/Two-Friends-tickets-Thu-May-6-2027-Everwise-Amphitheater-at-White-River-State-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363838",
+        "url": "https://www.ticketnetwork.com/en/p/8363838",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -469,7 +524,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-05-04T02:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363838"
   },
   {
     "id": "tm-two-friends-2027-milwaukee-vv1a6zk4n0kbize5e",
@@ -502,14 +558,14 @@
         "event_id": 18757860,
         "url": "https://seatgeek.com/two-friends-tickets/milwaukee-wisconsin-landmark-credit-union-live-2027-05-07-8-pm/concert/18757860",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841653,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-milwaukee-landmark-credit-union-live-5-7-2027--concerts-dance-electronica/production/7841653",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -523,7 +579,14 @@
         "event_id": "8363840",
         "url": "https://www.ticketliquidator.com/tickets/8363840/Two-Friends-tickets-Fri-May-7-2027-Landmark-Credit-Union-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363840",
+        "url": "https://www.ticketnetwork.com/en/p/8363840",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -542,7 +605,8 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-05-03T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363840"
   },
   {
     "id": "tm-two-friends-2027-minneapolis-vv1akzk4jgkehfygr",
@@ -575,14 +639,14 @@
         "event_id": 18757536,
         "url": "https://seatgeek.com/two-friends-tickets/minneapolis-minnesota-the-armory-minneapolis-2027-05-08-9-pm/concert/18757536",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841655,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-minneapolis-armory---minneapolis-5-8-2027--concerts-dance-electronica/production/7841655",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -596,7 +660,14 @@
         "event_id": "8363843",
         "url": "https://www.ticketliquidator.com/tickets/8363843/Two-Friends-tickets-Sat-May-8-2027-The-Armory-Minneapolis",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363843",
+        "url": "https://www.ticketnetwork.com/en/p/8363843",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -613,7 +684,8 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-05-04T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363843"
   },
   {
     "id": "tm-two-friends-2027-chicago-vv1a7zkfwgkdmtcgf",
@@ -646,14 +718,14 @@
         "event_id": 18612569,
         "url": "https://seatgeek.com/two-friends-tickets/chicago-illinois-huntington-bank-pavilion-at-northerly-island-2027-05-15-6-30-pm/concert/18612569",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7591482,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-chicago-huntington-bank-pavilion-at-northerly-island-5-15-2027--concerts-dance-electronica/production/7591482",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -667,7 +739,14 @@
         "event_id": "8284663",
         "url": "https://www.ticketliquidator.com/tickets/8284663/Two-Friends-tickets-Sat-May-15-2027-The-Pavilion-at-Northerly-Island",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8284663",
+        "url": "https://www.ticketnetwork.com/en/p/8284663",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -686,7 +765,8 @@
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-11T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8284663"
   },
   {
     "id": "tm-two-friends-2027-detroit-z7r9jz1aaa6pk",
@@ -719,14 +799,14 @@
         "event_id": 18758783,
         "url": "https://seatgeek.com/two-friends-tickets/detroit-michigan-the-masonic-temple-theatre-detroit-2027-05-21-7-30-pm/concert/18758783",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7850262,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-detroit-masonic-temple---temple-theatre-5-21-2027/production/7850262",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -740,14 +820,22 @@
         "event_id": "8366135",
         "url": "https://www.ticketliquidator.com/tickets/8366135/Two-Friends-tickets-Fri-May-21-2027-Masonic-Temple-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8366135",
+        "url": "https://www.ticketnetwork.com/en/p/8366135",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pk",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366135/Two-Friends-tickets-Fri-May-21-2027-Masonic-Temple-Theatre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366135/Two-Friends-tickets-Fri-May-21-2027-Masonic-Temple-Theatre",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366135"
   },
   {
     "id": "tm-two-friends-2027-ottawa-1aszk4xgkdbc6bg",
@@ -761,7 +849,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "31006562FAB47EB5",
     "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-22-2027/event/31006562FAB47EB5",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/ottawa-canada-history-ottawa-2027-05-22-7-30-pm/concert/18757902",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-22-2027/event/31006562FAB47EB5",
@@ -777,11 +865,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757902,
+        "url": "https://seatgeek.com/two-friends-tickets/ottawa-canada-history-ottawa-2027-05-22-7-30-pm/concert/18757902",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -830,8 +918,8 @@
     "tour_name": "",
     "ticketmaster_event_id": "3100656D7E73263F",
     "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-23-2027/event/3100656D7E73263F",
-    "seatgeek_url": "",
-    "vividseats_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/ottawa-canada-history-ottawa-2027-05-23-6-30-pm/concert/18774332",
+    "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-ottawa-history-ottawa-5-23-2027/production/7870592",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-ottawa-ontario-05-23-2027/event/3100656D7E73263F",
     "last_verified_at": "2026-11-16",
@@ -846,18 +934,18 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18774332,
+        "url": "https://seatgeek.com/two-friends-tickets/ottawa-canada-history-ottawa-2027-05-23-6-30-pm/concert/18774332",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7870592,
+        "url": "https://www.vividseats.com/two-friends---djs-tickets-ottawa-history-ottawa-5-23-2027/production/7870592",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -899,7 +987,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "15006569863338F2",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/washington-district-of-columbia-echostage-2027-05-28-10-pm/concert/18757168",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-washington-dc-echostage-5-28-2027--concerts-dance-electronica/production/7841659",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-washington-district-of-columbia-05-28-2027/event/15006569863338F2",
@@ -915,17 +1003,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757168,
+        "url": "https://seatgeek.com/two-friends-tickets/washington-district-of-columbia-echostage-2027-05-28-10-pm/concert/18757168",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841659,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-washington-dc-echostage-5-28-2027--concerts-dance-electronica/production/7841659",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -939,7 +1027,14 @@
         "event_id": "8363846",
         "url": "https://www.ticketliquidator.com/tickets/8363846/Two-Friends-tickets-Fri-May-28-2027-Echostage",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363846",
+        "url": "https://www.ticketnetwork.com/en/p/8363846",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -958,7 +1053,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-05-24T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363846"
   },
   {
     "id": "tm-two-friends-2027-boston-vv1avzk4xgkddw012",
@@ -972,7 +1068,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006562FBF6428F",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-05-29-8-pm/concert/18757722",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-boston-mgm-music-hall-at-fenway-5-29-2027--concerts-dance-electronica/production/7841661",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-boston-massachusetts-05-29-2027/event/01006562FBF6428F",
@@ -988,17 +1084,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757722,
+        "url": "https://seatgeek.com/two-friends-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-05-29-8-pm/concert/18757722",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841661,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-boston-mgm-music-hall-at-fenway-5-29-2027--concerts-dance-electronica/production/7841661",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1012,7 +1108,21 @@
         "event_id": "8363848",
         "url": "https://www.ticketliquidator.com/tickets/8363848/Two-Friends-tickets-Sat-May-29-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363848",
+        "url": "https://www.ticketnetwork.com/en/p/8363848",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107681904",
+        "url": "https://www.stubhub.ie/two-friends-boston-tickets-5-29-2027/event/107681904",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1031,7 +1141,9 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-05-25T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363848",
+    "stubhub_international_url": "https://www.stubhub.ie/two-friends-boston-tickets-5-29-2027/event/107681904"
   },
   {
     "id": "tm-two-friends-2027-philadelphia-vv1aovp_fga1qsqx",
@@ -1045,7 +1157,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "020065648A7736A2",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-philadelphia-pennsylvania-06-04-2027/event/020065648A7736A2",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/philadelphia-pennsylvania-skyline-stage-at-the-mann-2027-06-04-7-pm/concert/18757690",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-philadelphia-skyline-stage-at-the-mann-6-4-2027--concerts-dance-electronica/production/7841663",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-philadelphia-pennsylvania-06-04-2027/event/020065648A7736A2",
@@ -1061,17 +1173,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757690,
+        "url": "https://seatgeek.com/two-friends-tickets/philadelphia-pennsylvania-skyline-stage-at-the-mann-2027-06-04-7-pm/concert/18757690",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841663,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-philadelphia-skyline-stage-at-the-mann-6-4-2027--concerts-dance-electronica/production/7841663",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1080,6 +1192,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8363852",
+        "url": "https://www.ticketnetwork.com/en/p/8363852",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8363852",
+        "url": "https://www.ticketliquidator.com/tickets/8363852/Two-Friends-tickets-Fri-Jun-4-2027-Highmark-Skyline-Stage-at-The-Mann-Center-For-The-Performing-Arts",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1AOvP_FGA1qSQx",
@@ -1096,7 +1222,9 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-05-31T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363852",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363852/Two-Friends-tickets-Fri-Jun-4-2027-Highmark-Skyline-Stage-at-The-Mann-Center-For-The-Performing-Arts"
   },
   {
     "id": "tm-two-friends-2027-brooklyn-z7r9jz1aaa6pa",
@@ -1129,14 +1257,14 @@
         "event_id": 18758786,
         "url": "https://seatgeek.com/two-friends-tickets/brooklyn-new-york-under-the-k-bridge-2027-06-05-7-pm/concert/18758786",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841717,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-brooklyn-under-the-k-bridge-park-6-5-2027--concerts-dance-electronica/production/7841717",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1145,11 +1273,27 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366136",
+        "url": "https://www.ticketnetwork.com/en/p/8366136",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366136",
+        "url": "https://www.ticketliquidator.com/tickets/8366136/Two-Friends-tickets-Sat-Jun-5-2027-Under-The-K-Bridge",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pA",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366136",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366136/Two-Friends-tickets-Sat-Jun-5-2027-Under-The-K-Bridge"
   },
   {
     "id": "tm-two-friends-2027-columbus-z7r9jz1aaa6ux",
@@ -1182,14 +1326,14 @@
         "event_id": 18758787,
         "url": "https://seatgeek.com/two-friends-tickets/columbus-ohio-kemba-live-2027-06-09-7-pm/concert/18758787",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841721,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-columbus-kemba-live-6-9-2027--concerts-dance-electronica/production/7841721",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1203,14 +1347,22 @@
         "event_id": "8366138",
         "url": "https://www.ticketliquidator.com/tickets/8366138/Two-Friends-tickets-Wed-Jun-9-2027-KEMBA-Live",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8366138",
+        "url": "https://www.ticketnetwork.com/en/p/8366138",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6ux",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366138/Two-Friends-tickets-Wed-Jun-9-2027-KEMBA-Live"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366138/Two-Friends-tickets-Wed-Jun-9-2027-KEMBA-Live",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366138"
   },
   {
     "id": "tm-two-friends-2027-pittsburgh-z7r9jz1aaa6p7",
@@ -1243,14 +1395,14 @@
         "event_id": 18758794,
         "url": "https://seatgeek.com/two-friends-tickets/pittsburgh-pennsylvania-stage-ae-2027-06-10-6-30-pm/concert/18758794",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841723,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-pittsburgh-stage-ae-6-10-2027--concerts-dance-electronica/production/7841723",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1264,14 +1416,22 @@
         "event_id": "8366143",
         "url": "https://www.ticketliquidator.com/tickets/8366143/Two-Friends-tickets-Thu-Jun-10-2027-Stage-AE",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8366143",
+        "url": "https://www.ticketnetwork.com/en/p/8366143",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6p7",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366143/Two-Friends-tickets-Thu-Jun-10-2027-Stage-AE"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366143/Two-Friends-tickets-Thu-Jun-10-2027-Stage-AE",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366143"
   },
   {
     "id": "tm-two-friends-2027-newport-z7r9jz1aaa8fi",
@@ -1304,14 +1464,14 @@
         "event_id": 18758795,
         "url": "https://seatgeek.com/two-friends-tickets/newport-kentucky-megacorp-pavilion-2027-06-11-7-pm/concert/18758795",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841731,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-newport-megacorp-pavilion-6-11-2027--concerts-dance-electronica/production/7841731",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1325,14 +1485,22 @@
         "event_id": "8366148",
         "url": "https://www.ticketliquidator.com/tickets/8366148/Two-Friends-tickets-Fri-Jun-11-2027-MegaCorp-Pavilion",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8366148",
+        "url": "https://www.ticketnetwork.com/en/p/8366148",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA8FI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366148/Two-Friends-tickets-Fri-Jun-11-2027-MegaCorp-Pavilion"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366148/Two-Friends-tickets-Fri-Jun-11-2027-MegaCorp-Pavilion",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366148"
   },
   {
     "id": "tm-two-friends-2027-cleveland-z7r9jz1aaa6c3",
@@ -1365,14 +1533,14 @@
         "event_id": 18758798,
         "url": "https://seatgeek.com/two-friends-tickets/cleveland-ohio-jacobs-pavilion-at-nautica-2027-06-12-8-pm/concert/18758798",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841735,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-cleveland-jacobs-pavilion-at-nautica-6-12-2027--concerts-dance-electronica/production/7841735",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1381,11 +1549,19 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8366149",
+        "url": "https://www.ticketliquidator.com/tickets/8366149/Two-Friends-tickets-Sat-Jun-12-2027-Jacobs-Pavilion",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6C3",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8366149/Two-Friends-tickets-Sat-Jun-12-2027-Jacobs-Pavilion"
   },
   {
     "id": "tm-two-friends-2027-raleigh-g5evz_p5qexa6",
@@ -1399,7 +1575,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006562DA9FE147",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-06-16-7-pm/concert/18756563",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-raleigh-the-ritz---raleigh-6-16-2027--concerts-dance-electronica/production/7841665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-raleigh-north-carolina-06-16-2027/event/2D006562DA9FE147",
@@ -1415,17 +1591,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18756563,
+        "url": "https://seatgeek.com/two-friends-tickets/raleigh-north-carolina-the-ritz-raleigh-2027-06-16-7-pm/concert/18756563",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841665,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-raleigh-the-ritz---raleigh-6-16-2027--concerts-dance-electronica/production/7841665",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1439,7 +1615,14 @@
         "event_id": "8363854",
         "url": "https://www.ticketliquidator.com/tickets/8363854/Two-Friends-tickets-Wed-Jun-16-2027-The-Ritz-Raleigh",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363854",
+        "url": "https://www.ticketnetwork.com/en/p/8363854",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1458,7 +1641,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-06-12T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363854"
   },
   {
     "id": "tm-two-friends-2027-north-charleston-g5evz_p3scbo8",
@@ -1472,7 +1656,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D006564B3398810",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/north-charleston-south-carolina-firefly-distillery-2027-06-17-7-pm/concert/18757437",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-north-charleston-firefly-distillery-6-17-2027--concerts-dance-electronica/production/7841667",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-north-charleston-south-carolina-06-17-2027/event/2D006564B3398810",
@@ -1488,17 +1672,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757437,
+        "url": "https://seatgeek.com/two-friends-tickets/north-charleston-south-carolina-firefly-distillery-2027-06-17-7-pm/concert/18757437",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841667,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-north-charleston-firefly-distillery-6-17-2027--concerts-dance-electronica/production/7841667",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1512,7 +1696,14 @@
         "event_id": "8363856",
         "url": "https://www.ticketliquidator.com/tickets/8363856/Two-Friends-tickets-Thu-Jun-17-2027-Firefly-Distillery",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363856",
+        "url": "https://www.ticketnetwork.com/en/p/8363856",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1531,7 +1722,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-06-13T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363856"
   },
   {
     "id": "tm-two-friends-2027-charlotte-g5evz_pnwhvow",
@@ -1545,7 +1737,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "2D00656ABDF34472",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/charlotte-north-carolina-skyla-credit-union-amphitheatre-2027-06-18-8-pm/concert/18756441",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-charlotte-skyla-credit-union-amphitheatre-6-18-2027/production/7842525",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-charlotte-north-carolina-06-18-2027/event/2D00656ABDF34472",
@@ -1561,17 +1753,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18756441,
+        "url": "https://seatgeek.com/two-friends-tickets/charlotte-north-carolina-skyla-credit-union-amphitheatre-2027-06-18-8-pm/concert/18756441",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7842525,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-charlotte-skyla-credit-union-amphitheatre-6-18-2027/production/7842525",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1585,7 +1777,14 @@
         "event_id": "8363858",
         "url": "https://www.ticketliquidator.com/tickets/8363858/Two-Friends-tickets-Fri-Jun-18-2027-Skyla-Credit-Union-Amphitheatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363858",
+        "url": "https://www.ticketnetwork.com/en/p/8363858",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1604,7 +1803,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-06-14T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363858"
   },
   {
     "id": "tm-two-friends-2027-atlanta-vvg1zz_phfqf4s",
@@ -1618,7 +1818,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0E006566C8694573",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-06-19-8-pm/concert/18757120",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-atlanta-coca-cola-roxy-theatre-6-19-2027--concerts-dance-electronica/production/7841673",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-atlanta-georgia-06-19-2027/event/0E006566C8694573",
@@ -1634,17 +1834,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757120,
+        "url": "https://seatgeek.com/two-friends-tickets/atlanta-georgia-coca-cola-roxy-theatre-2027-06-19-8-pm/concert/18757120",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841673,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-atlanta-coca-cola-roxy-theatre-6-19-2027--concerts-dance-electronica/production/7841673",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1658,7 +1858,14 @@
         "event_id": "8363862",
         "url": "https://www.ticketliquidator.com/tickets/8363862/Two-Friends-tickets-Sat-Jun-19-2027-Coca-Cola-Roxy",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363862",
+        "url": "https://www.ticketnetwork.com/en/p/8363862",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1677,7 +1884,8 @@
         "start": "2026-11-13T15:00:00Z",
         "end": "2027-06-15T16:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363862"
   },
   {
     "id": "tm-two-friends-2027-houston-z7r9jz1aaa6pd",
@@ -1710,14 +1918,14 @@
         "event_id": 18758799,
         "url": "https://seatgeek.com/two-friends-tickets/houston-texas-ductwork-houston-2027-06-24-9-pm/concert/18758799",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7850785,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-houston-ductwork-houston-6-24-2027/production/7850785",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1731,14 +1939,22 @@
         "event_id": "8369508",
         "url": "https://www.ticketliquidator.com/tickets/8369508/Two-Friends-tickets-Thu-Jun-24-2027-Ductwork-Houston",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8369508",
+        "url": "https://www.ticketnetwork.com/en/p/8369508",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAA6pd",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369508/Two-Friends-tickets-Thu-Jun-24-2027-Ductwork-Houston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8369508/Two-Friends-tickets-Thu-Jun-24-2027-Ductwork-Houston",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8369508"
   },
   {
     "id": "tm-two-friends-2027-austin-g5diz_pmgcpjv",
@@ -1752,11 +1968,11 @@
     "tour_name": "",
     "ticketmaster_event_id": "3A00656B8C3969B4",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/austin-texas-moody-amphitheater-2027-06-25-8-pm/concert/18757699",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-austin-moody-amphitheater-6-25-2027--concerts-dance-electronica/production/7841677",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-austin-texas-06-25-2027/event/3A00656B8C3969B4",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-23",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1768,17 +1984,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757699,
+        "url": "https://seatgeek.com/two-friends-tickets/austin-texas-moody-amphitheater-2027-06-25-8-pm/concert/18757699",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841677,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-austin-moody-amphitheater-6-25-2027--concerts-dance-electronica/production/7841677",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1792,7 +2008,14 @@
         "event_id": "8363865",
         "url": "https://www.ticketliquidator.com/tickets/8363865/Two-Friends-tickets-Fri-Jun-25-2027-Moody-Amphitheater",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363865",
+        "url": "https://www.ticketnetwork.com/en/p/8363865",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1809,8 +2032,14 @@
         "name": "VIP Packages Public Onsale",
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-06-21T17:00:00Z"
+      },
+      {
+        "name": "Premium Pod Seating",
+        "start": "2026-11-22T23:00:00Z",
+        "end": "2027-06-26T03:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363865"
   },
   {
     "id": "tm-two-friends-2027-irving-vvg1yz_phht2we",
@@ -1824,7 +2053,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0C006566FCA4FC82",
     "ticketmaster_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-06-26-7-pm/concert/18757520",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-irving-pavilion-at-toyota-music-factory-6-26-2027--concerts-dance-electronica/production/7841641",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/two-friends-big-bootie-world-irving-texas-06-26-2027/event/0C006566FCA4FC82",
@@ -1840,17 +2069,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18757520,
+        "url": "https://seatgeek.com/two-friends-tickets/irving-texas-the-pavilion-at-toyota-music-factory-2027-06-26-7-pm/concert/18757520",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7841641,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-irving-pavilion-at-toyota-music-factory-6-26-2027--concerts-dance-electronica/production/7841641",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1864,7 +2093,14 @@
         "event_id": "8363866",
         "url": "https://www.ticketliquidator.com/tickets/8363866/Two-Friends-tickets-Sat-Jun-26-2027-The-Pavilion-at-Toyota-Music-Factory",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8363866",
+        "url": "https://www.ticketnetwork.com/en/p/8363866",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1883,7 +2119,8 @@
         "start": "2026-11-13T16:00:00Z",
         "end": "2027-06-22T17:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363866"
   },
   {
     "id": "tm-two-friends-2027-toronto-1a8zk49gkesrne-",
@@ -1897,7 +2134,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "10006557B1BEA9E1",
     "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-present-big-bootie-world-toronto-ontario-06-30-2027/event/10006557B1BEA9E1",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/toronto-canada-rbc-amphitheatre-2027-06-30-7-pm/concert/18725838",
     "vividseats_url": "https://www.vividseats.com/two-friends---djs-tickets-toronto-rbc-amphitheatre-6-30-2027/production/7763784",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/two-friends-present-big-bootie-world-toronto-ontario-06-30-2027/event/10006557B1BEA9E1",
@@ -1913,17 +2150,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18725838,
+        "url": "https://seatgeek.com/two-friends-tickets/toronto-canada-rbc-amphitheatre-2027-06-30-7-pm/concert/18725838",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7763784,
         "url": "https://www.vividseats.com/two-friends---djs-tickets-toronto-rbc-amphitheatre-6-30-2027/production/7763784",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1965,7 +2202,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "1000655E2919658E",
     "ticketmaster_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-bala-ontario-07-01-2027/event/1000655E2919658E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/bala-canada-kee-to-bala-2027-07-01-8-pm/concert/18756748",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/two-friends-big-bootie-world-bala-ontario-07-01-2027/event/1000655E2919658E",
@@ -1981,11 +2218,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18756748,
+        "url": "https://seatgeek.com/two-friends-tickets/bala-canada-kee-to-bala-2027-07-01-8-pm/concert/18756748",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -2021,5 +2258,59 @@
         "end": "2027-06-27T16:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-two-friends-2027-miami-beach-rz7hnez1a4vo7k",
+    "artist_slug": "two-friends",
+    "artist_name": "Two Friends",
+    "event_name": "Two Friends",
+    "city": "Miami Beach",
+    "country": "United States Of America",
+    "venue": "LIV Nightclub Miami",
+    "datetime_iso": "2027-01-17T04:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "15060113",
+    "ticketmaster_url": "https://www.ticketweb.com/event/two-friends-liv-nightclub-miami-tickets/15060113",
+    "seatgeek_url": "https://seatgeek.com/two-friends-tickets/miami-beach-florida-liv-nightclub-miami-beach-2027-01-16-11-30-pm/concert/18758782",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketweb.com/event/two-friends-liv-nightclub-miami-tickets/15060113",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "15060113",
+        "discovery_event_id": "rZ7HnEZ1A4vO7K",
+        "url": "https://www.ticketweb.com/event/two-friends-liv-nightclub-miami-tickets/15060113",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18758782,
+        "url": "https://seatgeek.com/two-friends-tickets/miami-beach-florida-liv-nightclub-miami-beach-2027-01-16-11-30-pm/concert/18758782",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "rZ7HnEZ1A4vO7K",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "genre": "Dance/Electronic"
   }
 ]

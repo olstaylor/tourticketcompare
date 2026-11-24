@@ -145,6 +145,13 @@ test('unreviewed automated drafts stop new spend at the open-draft limit', async
   assert.equal(result.outcome, 'open-draft-limit-reached');
 });
 
+test('one automated draft per rolling week stops the second weekly run', async () => {
+  const recent = [{ state: 'closed', number: 1, created_at: new Date(now - 3 * 86400000).toISOString(), head: { ref: 'automation/blog-draft-x' } }];
+  const result = await draftOnce({ source: fixture, issue, mode: 'live', apiKey: 'mock', now, snapshot, fetchImpl: noNetwork,
+    gh: async (_m, url) => { if (url.startsWith('/pulls?')) return recent; throw new Error('No reservation at the weekly limit'); } });
+  assert.equal(result.outcome, 'weekly-draft-limit-reached');
+});
+
 test('PR inventory paginates all states and fails on API errors', async () => {
   let calls = 0;
   const rows = Array.from({ length: 100 }, (_, i) => ({ head: { ref: i ? 'other' : 'automation/blog-draft-2026-10-05' } }));
@@ -369,7 +376,7 @@ function liveHarness() {
   return { refs, state, gh };
 }
 
-test('mocked APIs in live-mode orchestration create up to two DRAFT PRs; reserved topics never spend twice', async () => {
+test('mocked APIs in live-mode orchestration create at most one DRAFT PR a week; reserved topics never spend twice', async () => {
   const { state, gh } = liveHarness();
   const fetchImpl = async (url, options) => {
     if (url.includes('ticketmaster')) throw new Error('No credential => no request');
@@ -384,11 +391,11 @@ test('mocked APIs in live-mode orchestration create up to two DRAFT PRs; reserve
     compile: async () => ['mock compiler passed'], publish: async ({ body }) => { state.published++; assert.match(body, /status: draft/); assert.match(body, /Estimated API cost: \$0\.\d\d/);
       return { draft: true, html_url: `https://github.com/mock/pr/${state.published}` }; } };
   const first = await draftOnce(options);
-  assert.equal(first.outcome, 'draft-prs-created'); assert.equal(first.created, 2);
-  assert.equal(first.costUsd, 0.56, 'two articles, each 2 calls of 10k in + 5k out at $4/$20 per M');
+  assert.equal(first.outcome, 'draft-prs-created'); assert.equal(first.created, 1);
+  assert.equal(first.costUsd, 0.28, 'one article, 2 calls of 10k in + 5k out at $4/$20 per M');
   const second = await draftOnce(options);
-  assert(second.drafts.slice(0, 2).every((d) => d.outcome === 'skipped-branch-exists'));
-  assert.equal(state.modelCalls, 4 + second.drafts.filter((d) => d.outcome === 'draft-pr-created').length * 2);
+  assert(second.drafts.slice(0, 1).every((d) => d.outcome === 'skipped-branch-exists'));
+  assert.equal(state.modelCalls, 2 + second.drafts.filter((d) => d.outcome === 'draft-pr-created').length * 2);
   assert.equal(state.resets, state.published);
   assert(!state.calls.some(([, p]) => /merge|reviews/.test(p)));
 });
@@ -400,12 +407,11 @@ test('failed paid drafts keep their branch, record usage and are never retried',
   const first = await draftOnce(options);
   assert.equal(first.outcome, 'drafts-failed');
   assert(first.drafts.every((d) => d.outcome === 'failed-no-retry' && d.branch && d.usage.length === 1));
-  assert.equal(spent, 2, 'at most two paid attempts per run');
+  assert.equal(spent, 1, 'at most one paid attempt per run');
   await draftOnce(options);
-  assert.equal(spent, 4, 'the next run moves on to untried topics');
+  assert.equal(spent, 2, 'the next run moves on to untried topics');
   const third = await draftOnce(options);
-  assert(third.drafts.every((d) => d.outcome === 'skipped-branch-exists')); assert.equal(spent, 4);
-  assert(refs.size === 4);
+  assert(third.drafts.every((d) => ['skipped-branch-exists', 'failed-no-retry'].includes(d.outcome))); assert(spent <= 3 && refs.size === spent, 'a retried topic is never paid twice');
 });
 
 test('PR body states the kind, listed sale times and real cost for review', () => {

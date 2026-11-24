@@ -8,7 +8,7 @@
     "country": "Great Britain",
     "venue": "Scarborough Open Air Theatre",
     "datetime_iso": "2027-06-16T17:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Places I'll Go Tour",
     "ticketmaster_event_id": "35006536D1E99CB6",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-scarborough-16-06-2027/event/35006536D1E99CB6",
     "seatgeek_url": "",
@@ -37,7 +37,7 @@
         "event_id": 7797147,
         "url": "https://www.vividseats.com/shania-twain-tickets-scarborough-scarborough-open-air-theatre-6-16-2027/production/7797147",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,7 +51,7 @@
         "event_id": "107679678",
         "url": "https://www.stubhub.ie/shania-twain-tickets-scarborough-scarborough-open-air-theatre-16-6-2027/event/107679678",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -104,7 +104,7 @@
         "event_id": 7797154,
         "url": "https://www.vividseats.com/shania-twain-tickets-glasgow-bellahouston-park-6-17-2027/production/7797154",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -135,7 +135,7 @@
     "country": "Great Britain",
     "venue": "Blackweir Fields, Cardiff",
     "datetime_iso": "2027-06-22T16:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Places I'll Go Tour",
     "ticketmaster_event_id": "1F006537E676687B",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-cardiff-22-06-2027/event/1F006537E676687B",
     "seatgeek_url": "",
@@ -164,7 +164,7 @@
         "event_id": 7797143,
         "url": "https://www.vividseats.com/shania-twain-tickets-cardiff-blackweir-fields-6-22-2027/production/7797143",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -173,6 +173,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107679685",
+        "url": "https://www.stubhub.ie/shania-twain-tickets-cardiff-blackweir-fields-22-6-2027/event/107679685",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KLJqJ-D",
@@ -183,7 +190,8 @@
       "DEPOT MARKETING LIMITED"
     ],
     "ticket_limit": 6,
-    "genre": "Country"
+    "genre": "Country",
+    "stubhub_international_url": "https://www.stubhub.ie/shania-twain-tickets-cardiff-blackweir-fields-22-6-2027/event/107679685"
   },
   {
     "id": "tm-shania-twain-2027-exeter-g5vhz_kjtg0ag",
@@ -194,7 +202,7 @@
     "country": "Great Britain",
     "venue": "Powderham Castle",
     "datetime_iso": "2027-06-24T13:00:00Z",
-    "tour_name": "",
+    "tour_name": "the Places I'll Go Tour - Transport",
     "ticketmaster_event_id": "1F006539A9D64275",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-exeter-24-06-2027/event/1F006539A9D64275",
     "seatgeek_url": "",
@@ -223,7 +231,7 @@
         "event_id": 7797141,
         "url": "https://www.vividseats.com/shania-twain-tickets-exeter-powderham-castle-6-24-2027/production/7797141",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -237,7 +245,7 @@
         "event_id": "107679687",
         "url": "https://www.stubhub.ie/shania-twain-tickets-exeter-powderham-castle-24-6-2027/event/107679687",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -260,7 +268,7 @@
     "country": "Ireland",
     "venue": "Marlay Park",
     "datetime_iso": "2027-06-26T15:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Places I'll Go Tour",
     "ticketmaster_event_id": "18006556AA68D625",
     "ticketmaster_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-dublin-26-06-2027/event/18006556AA68D625",
     "seatgeek_url": "",
@@ -317,7 +325,7 @@
     "country": "Great Britain",
     "venue": "Ormeau Park",
     "datetime_iso": "2027-06-27T17:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Places I'll Go Tour",
     "ticketmaster_event_id": "3800655C7BBD10E0",
     "ticketmaster_url": "https://www.ticketmaster.ie/shania-twain-the-places-ill-go-belfast-27-06-2027/event/3800655C7BBD10E0",
     "seatgeek_url": "",
@@ -346,7 +354,7 @@
         "event_id": 7797152,
         "url": "https://www.vividseats.com/shania-twain-tickets-belfast-ormeau-park-6-27-2027/production/7797152",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -360,7 +368,7 @@
         "event_id": "107679686",
         "url": "https://www.stubhub.ie/shania-twain-tickets-belfast-ormeau-park-27-6-2027/event/107679686",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -382,7 +390,7 @@
     "country": "Great Britain",
     "venue": "Blenheim Palace",
     "datetime_iso": "2027-06-29T16:00:00Z",
-    "tour_name": "",
+    "tour_name": "The Places I'll Go Tour",
     "ticketmaster_event_id": "37006545C63E58FF",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/shania-twain-the-places-ill-go-woodstock-29-06-2027/event/37006545C63E58FF",
     "seatgeek_url": "",
@@ -411,7 +419,7 @@
         "event_id": 7797137,
         "url": "https://www.vividseats.com/shania-twain-tickets-woodstock-blenheim-palace-6-29-2027/production/7797137",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -425,7 +433,7 @@
         "event_id": "107679154",
         "url": "https://www.stubhub.ie/shania-twain-tickets-woodstock-blenheim-palace-29-6-2027/event/107679154",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

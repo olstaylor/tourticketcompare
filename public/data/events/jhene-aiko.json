@@ -1,0 +1,3483 @@
+[
+  {
+    "id": "tm-jhene-aiko-2027-saint-louis-vv17bz_pgkmdcqlf",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Saint Louis",
+    "country": "United States Of America",
+    "venue": "Enterprise Center",
+    "datetime_iso": "2027-03-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656BBBB5AAC8",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-saint-louis-missouri-03-10-2027/event/0600656BBBB5AAC8",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/saint-louis-missouri-enterprise-center-2027-03-10-7-30-pm/concert/18783861",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-saint-louis-missouri-03-10-2027/event/0600656BBBB5AAC8",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656BBBB5AAC8",
+        "discovery_event_id": "vv17bZ_pGkmDcQlF",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-saint-louis-missouri-03-10-2027/event/0600656BBBB5AAC8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783861,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/saint-louis-missouri-enterprise-center-2027-03-10-7-30-pm/concert/18783861",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682942",
+        "url": "https://www.stubhub.ie/jhene-aiko-saint-louis-tickets-3-10-2027/event/107682942",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8375586",
+        "url": "https://www.ticketnetwork.com/en/p/8375586",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375586",
+        "url": "https://www.ticketliquidator.com/tickets/8375586/Jhene-Aiko-tickets-Wed-Mar-10-2027-Enterprise-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkmDcQlF",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-11T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-06T18:00:00Z"
+      }
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-saint-louis-tickets-3-10-2027/event/107682942",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375586",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375586/Jhene-Aiko-tickets-Wed-Mar-10-2027-Enterprise-Center"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-minneapolis-vv17bz_pgkm4rom4",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Minneapolis",
+    "country": "United States Of America",
+    "venue": "Target Center",
+    "datetime_iso": "2027-03-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656DD5BD1DD5",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/minneapolis-minnesota-target-center-2027-03-12-7-30-pm/concert/18783860",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-minneapolis-target-center-3-12-2027--concerts-rb/production/7886345",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656DD5BD1DD5",
+        "discovery_event_id": "vv17bZ_pGkM4RoM4",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-minneapolis-minnesota-03-12-2027/event/0600656DD5BD1DD5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783860,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/minneapolis-minnesota-target-center-2027-03-12-7-30-pm/concert/18783860",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886345,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-minneapolis-target-center-3-12-2027--concerts-rb/production/7886345",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375589",
+        "url": "https://www.ticketnetwork.com/en/p/8375589",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375589",
+        "url": "https://www.ticketliquidator.com/tickets/8375589/Jhene-Aiko-tickets-Fri-Mar-12-2027-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682943",
+        "url": "https://www.stubhub.ie/jhene-aiko-minneapolis-tickets-3-12-2027/event/107682943",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkM4RoM4",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-13T05:59:00Z"
+      },
+      {
+        "name": "Global Poverty Project",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-05T15:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-08T18:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375589",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375589/Jhene-Aiko-tickets-Fri-Mar-12-2027-Target-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-minneapolis-tickets-3-12-2027/event/107682943"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-milwaukee-vv17jz_pgkuxx_4x",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Milwaukee",
+    "country": "United States Of America",
+    "venue": "Fiserv Forum",
+    "datetime_iso": "2027-03-14T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0700656DBEF9957E",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/milwaukee-wisconsin-fiserv-forum-2027-03-13-7-30-pm/concert/18783857",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-milwaukee-fiserv-forum-3-13-2027--concerts-rb/production/7886351",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0700656DBEF9957E",
+        "discovery_event_id": "vv17jZ_pGkUXX_4X",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-milwaukee-wisconsin-03-13-2027/event/0700656DBEF9957E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783857,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/milwaukee-wisconsin-fiserv-forum-2027-03-13-7-30-pm/concert/18783857",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886351,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-milwaukee-fiserv-forum-3-13-2027--concerts-rb/production/7886351",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375591",
+        "url": "https://www.ticketnetwork.com/en/p/8375591",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375591",
+        "url": "https://www.ticketliquidator.com/tickets/8375591/Jhene-Aiko-tickets-Sat-Mar-13-2027-Fiserv-Forum",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682964",
+        "url": "https://www.stubhub.ie/jhene-aiko-milwaukee-tickets-3-13-2027/event/107682964",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17jZ_pGkUXX_4X",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "FRANK PRODUCTIONS",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-14T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-09T18:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375591",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375591/Jhene-Aiko-tickets-Sat-Mar-13-2027-Fiserv-Forum",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-milwaukee-tickets-3-13-2027/event/107682964"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-kansas-city-vv17bz_pgkmduzpp",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Kansas City",
+    "country": "United States Of America",
+    "venue": "T-Mobile Center",
+    "datetime_iso": "2027-03-16T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0600656DFBDB8956",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/kansas-city-missouri-t-mobile-center-2027-03-15-7-30-pm/concert/18783859",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-kansas-city-t-mobile-center-3-15-2027--concerts-rb/production/7886355",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0600656DFBDB8956",
+        "discovery_event_id": "vv17bZ_pGkMDUzPp",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-kansas-city-missouri-03-15-2027/event/0600656DFBDB8956",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783859,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/kansas-city-missouri-t-mobile-center-2027-03-15-7-30-pm/concert/18783859",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886355,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-kansas-city-t-mobile-center-3-15-2027--concerts-rb/production/7886355",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375592",
+        "url": "https://www.ticketnetwork.com/en/p/8375592",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375592",
+        "url": "https://www.ticketliquidator.com/tickets/8375592/Jhene-Aiko-tickets-Mon-Mar-15-2027-T-Mobile-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682933",
+        "url": "https://www.stubhub.ie/jhene-aiko-kansas-city-tickets-3-15-2027/event/107682933",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17bZ_pGkMDUzPp",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-16T05:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-11T18:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375592",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375592/Jhene-Aiko-tickets-Mon-Mar-15-2027-T-Mobile-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-kansas-city-tickets-3-15-2027/event/107682933"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-columbus-vv17fz_pgkmwl1_h",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Columbus",
+    "country": "United States Of America",
+    "venue": "Nationwide Arena",
+    "datetime_iso": "2027-03-18T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0500656DFDACA67C",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/columbus-ohio-nationwide-arena-2027-03-18-7-30-pm/concert/18783858",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-columbus-nationwide-arena-3-18-2027--concerts-rb/production/7886363",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0500656DFDACA67C",
+        "discovery_event_id": "vv17fZ_pGkMWl1_H",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbus-ohio-03-18-2027/event/0500656DFDACA67C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783858,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/columbus-ohio-nationwide-arena-2027-03-18-7-30-pm/concert/18783858",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886363,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-columbus-nationwide-arena-3-18-2027--concerts-rb/production/7886363",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375595",
+        "url": "https://www.ticketnetwork.com/en/p/8375595",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375595",
+        "url": "https://www.ticketliquidator.com/tickets/8375595/Jhene-Aiko-tickets-Thu-Mar-18-2027-Nationwide-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682966",
+        "url": "https://www.stubhub.ie/jhene-aiko-columbus-tickets-3-18-2027/event/107682966",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17fZ_pGkMWl1_H",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-02-19T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-14T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375595",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375595/Jhene-Aiko-tickets-Thu-Mar-18-2027-Nationwide-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-columbus-tickets-3-18-2027/event/107682966"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-buffalo-k7vgf_pm2cxpu",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Buffalo",
+    "country": "United States Of America",
+    "venue": "KeyBank Center",
+    "datetime_iso": "2027-03-19T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0000656DCF3A294D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/buffalo-new-york-keybank-center-2027-03-19-7-30-pm/concert/18783862",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-buffalo-keybank-center-3-19-2027--concerts-rb/production/7886365",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0000656DCF3A294D",
+        "discovery_event_id": "k7vGF_pM2CxPu",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-buffalo-new-york-03-19-2027/event/0000656DCF3A294D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783862,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/buffalo-new-york-keybank-center-2027-03-19-7-30-pm/concert/18783862",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886365,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-buffalo-keybank-center-3-19-2027--concerts-rb/production/7886365",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375597",
+        "url": "https://www.ticketnetwork.com/en/p/8375597",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375597",
+        "url": "https://www.ticketliquidator.com/tickets/8375597/Jhene-Aiko-tickets-Fri-Mar-19-2027-KeyBank-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682925",
+        "url": "https://www.stubhub.ie/jhene-aiko-buffalo-tickets-3-19-2027/event/107682925",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_pM2CxPu",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-02-20T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-15T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375597",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375597/Jhene-Aiko-tickets-Fri-Mar-19-2027-KeyBank-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-buffalo-tickets-3-19-2027/event/107682925"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-chicago-vv178z_pgkm4m_1r",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "United Center",
+    "datetime_iso": "2027-03-22T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0400656DD5DD929E",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/chicago-illinois-united-center-2027-03-21-7-30-pm/concert/18783869",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-chicago-united-center-3-21-2027--concerts-rb/production/7886369",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0400656DD5DD929E",
+        "discovery_event_id": "vv178Z_pGkM4M_1r",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-chicago-illinois-03-21-2027/event/0400656DD5DD929E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783869,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/chicago-illinois-united-center-2027-03-21-7-30-pm/concert/18783869",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886369,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-chicago-united-center-3-21-2027--concerts-rb/production/7886369",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375598",
+        "url": "https://www.ticketnetwork.com/en/p/8375598",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375598",
+        "url": "https://www.ticketliquidator.com/tickets/8375598/Jhene-Aiko-tickets-Sun-Mar-21-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682928",
+        "url": "https://www.stubhub.ie/jhene-aiko-chicago-tickets-3-21-2027/event/107682928",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv178Z_pGkM4M_1r",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-02-22T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-17T17:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375598",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375598/Jhene-Aiko-tickets-Sun-Mar-21-2027-United-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-chicago-tickets-3-21-2027/event/107682928"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-detroit-vv17oz_pgkwjgvk2",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Detroit",
+    "country": "United States Of America",
+    "venue": "Little Caesars Arena",
+    "datetime_iso": "2027-03-22T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0800656CA6D744CF",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/detroit-michigan-little-caesars-arena-2027-03-22-7-30-pm/concert/18783871",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-detroit-little-caesars-arena-3-22-2027--concerts-rb/production/7886377",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0800656CA6D744CF",
+        "discovery_event_id": "vv17OZ_pGkwJgVK2",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-detroit-michigan-03-22-2027/event/0800656CA6D744CF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783871,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/detroit-michigan-little-caesars-arena-2027-03-22-7-30-pm/concert/18783871",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886377,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-detroit-little-caesars-arena-3-22-2027--concerts-rb/production/7886377",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375599",
+        "url": "https://www.ticketnetwork.com/en/p/8375599",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375599",
+        "url": "https://www.ticketliquidator.com/tickets/8375599/Jhene-Aiko-tickets-Mon-Mar-22-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682945",
+        "url": "https://www.stubhub.ie/jhene-aiko-detroit-tickets-3-22-2027/event/107682945",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17OZ_pGkwJgVK2",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-02-23T04:59:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-18T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375599",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375599/Jhene-Aiko-tickets-Mon-Mar-22-2027-Little-Caesars-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-detroit-tickets-3-22-2027/event/107682945"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-toronto-1avzz_pgkm8-pwg",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Scotiabank Arena",
+    "datetime_iso": "2027-03-24T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1000656B90865C8C",
+    "ticketmaster_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/toronto-canada-scotiabank-arena-2027-03-24-7-30-pm/concert/18783919",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-toronto-scotiabank-arena-3-24-2027--concerts-rb/production/7886519",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1000656B90865C8C",
+        "discovery_event_id": "1AvZZ_pGkm8-PwG",
+        "url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-toronto-ontario-03-24-2027/event/1000656B90865C8C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783919,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/toronto-canada-scotiabank-arena-2027-03-24-7-30-pm/concert/18783919",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886519,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-toronto-scotiabank-arena-3-24-2027--concerts-rb/production/7886519",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvZZ_pGkm8-PwG",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-20T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "tm-jhene-aiko-2027-brooklyn-1adzz_pgkwqo0e1",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Brooklyn",
+    "country": "United States Of America",
+    "venue": "Barclays Center",
+    "datetime_iso": "2027-03-26T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000656C9A4649CA",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/brooklyn-new-york-barclays-center-2027-03-26-7-30-pm/concert/18783873",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-brooklyn-barclays-center-3-26-2027--concerts-rb/production/7886379",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000656C9A4649CA",
+        "discovery_event_id": "1AdZZ_pGkwQo0E1",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-brooklyn-new-york-03-26-2027/event/3000656C9A4649CA",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783873,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/brooklyn-new-york-barclays-center-2027-03-26-7-30-pm/concert/18783873",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886379,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-brooklyn-barclays-center-3-26-2027--concerts-rb/production/7886379",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375601",
+        "url": "https://www.ticketnetwork.com/en/p/8375601",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375601",
+        "url": "https://www.ticketliquidator.com/tickets/8375601/Jhene-Aiko-tickets-Fri-Mar-26-2027-Barclays-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682937",
+        "url": "https://www.stubhub.ie/jhene-aiko-brooklyn-tickets-3-26-2027/event/107682937",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_pGkwQo0E1",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2026-11-27T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-22T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375601",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375601/Jhene-Aiko-tickets-Fri-Mar-26-2027-Barclays-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-brooklyn-tickets-3-26-2027/event/107682937"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-boston-vv177z_pgkm0b_wn",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Boston",
+    "country": "United States Of America",
+    "venue": "TD Garden",
+    "datetime_iso": "2027-03-27T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0100656BA4E99F63",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/boston-massachusetts-td-garden-2027-03-27-7-30-pm/concert/18783874",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-boston-td-garden-3-27-2027--concerts-rb/production/7886381",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0100656BA4E99F63",
+        "discovery_event_id": "vv177Z_pGkm0B_WN",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-boston-massachusetts-03-27-2027/event/0100656BA4E99F63",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783874,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/boston-massachusetts-td-garden-2027-03-27-7-30-pm/concert/18783874",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886381,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-boston-td-garden-3-27-2027--concerts-rb/production/7886381",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375602",
+        "url": "https://www.ticketnetwork.com/en/p/8375602",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375602",
+        "url": "https://www.ticketliquidator.com/tickets/8375602/Jhene-Aiko-tickets-Sat-Mar-27-2027-TD-Garden",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682931",
+        "url": "https://www.stubhub.ie/jhene-aiko-boston-tickets-3-27-2027/event/107682931",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv177Z_pGkm0B_WN",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-02-27T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-23T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375602",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375602/Jhene-Aiko-tickets-Sat-Mar-27-2027-TD-Garden",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-boston-tickets-3-27-2027/event/107682931"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-pittsburgh-1avbz_pgkuj2euk",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Pittsburgh",
+    "country": "United States Of America",
+    "venue": "PPG Paints Arena",
+    "datetime_iso": "2027-03-29T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1600656D9C3E7346",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2027-03-29-7-30-pm/concert/18783876",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-pittsburgh-ppg-paints-arena-3-29-2027--concerts-rb/production/7886383",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1600656D9C3E7346",
+        "discovery_event_id": "1AvbZ_pGkUj2Euk",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-pittsburgh-pennsylvania-03-29-2027/event/1600656D9C3E7346",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783876,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/pittsburgh-pennsylvania-ppg-paints-arena-2027-03-29-7-30-pm/concert/18783876",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886383,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-pittsburgh-ppg-paints-arena-3-29-2027--concerts-rb/production/7886383",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375603",
+        "url": "https://www.ticketnetwork.com/en/p/8375603",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375603",
+        "url": "https://www.ticketliquidator.com/tickets/8375603/Jhene-Aiko-tickets-Mon-Mar-29-2027-PPG-Paints-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682958",
+        "url": "https://www.stubhub.ie/jhene-aiko-pittsburgh-tickets-3-29-2027/event/107682958",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvbZ_pGkUj2Euk",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-02T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-25T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375603",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375603/Jhene-Aiko-tickets-Mon-Mar-29-2027-PPG-Paints-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-pittsburgh-tickets-3-29-2027/event/107682958"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-washington-1avfz_pgkirkqcv",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Washington",
+    "country": "United States Of America",
+    "venue": "Capital One Arena",
+    "datetime_iso": "2027-04-01T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1500656A1E19AB74",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-washington-district-of-columbia-04-01-2027/event/1500656A1E19AB74",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/washington-district-of-columbia-capital-one-arena-2027-04-01-7-30-pm/concert/18783878",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-washington-capital-one-arena-4-1-2027--concerts-rb/production/7886387",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-washington-district-of-columbia-04-01-2027/event/1500656A1E19AB74",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1500656A1E19AB74",
+        "discovery_event_id": "1AvfZ_pGkIrkQcV",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-washington-district-of-columbia-04-01-2027/event/1500656A1E19AB74",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783878,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/washington-district-of-columbia-capital-one-arena-2027-04-01-7-30-pm/concert/18783878",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886387,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-washington-capital-one-arena-4-1-2027--concerts-rb/production/7886387",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375604",
+        "url": "https://www.ticketnetwork.com/en/p/8375604",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375604",
+        "url": "https://www.ticketliquidator.com/tickets/8375604/Jhene-Aiko-tickets-Thu-Apr-1-2027-Capital-One-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682936",
+        "url": "https://www.stubhub.ie/jhene-aiko-washington-tickets-4-1-2027/event/107682936",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvfZ_pGkIrkQcV",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-05T04:59:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-28T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375604",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375604/Jhene-Aiko-tickets-Thu-Apr-1-2027-Capital-One-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-washington-tickets-4-1-2027/event/107682936"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-newark-vv17fz_pgksjk0ub",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Newark",
+    "country": "United States Of America",
+    "venue": "Prudential Center",
+    "datetime_iso": "2027-04-02T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0200656CE61A4D98",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/newark-new-jersey-prudential-center-2027-04-02-7-30-pm/concert/18783880",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-newark-prudential-center-4-2-2027--concerts-rb/production/7886391",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0200656CE61A4D98",
+        "discovery_event_id": "vv17FZ_pGkSJk0Ub",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-newark-new-jersey-04-02-2027/event/0200656CE61A4D98",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783880,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/newark-new-jersey-prudential-center-2027-04-02-7-30-pm/concert/18783880",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886391,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-newark-prudential-center-4-2-2027--concerts-rb/production/7886391",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375606",
+        "url": "https://www.ticketnetwork.com/en/p/8375606",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375606",
+        "url": "https://www.ticketliquidator.com/tickets/8375606/Jhene-Aiko-tickets-Fri-Apr-2-2027-Prudential-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682941",
+        "url": "https://www.stubhub.ie/jhene-aiko-newark-tickets-4-2-2027/event/107682941",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv17FZ_pGkSJk0Ub",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-06T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-29T16:00:00Z"
+      },
+      {
+        "name": "Global Poverty Project",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-02T18:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375606",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375606/Jhene-Aiko-tickets-Fri-Apr-2-2027-Prudential-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-newark-tickets-4-2-2027/event/107682941"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-philadelphia-1adzz_pgkmceakj",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Philadelphia",
+    "country": "United States Of America",
+    "venue": "Xfinity Mobile Arena",
+    "datetime_iso": "2027-04-03T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3000656DCE0894DC",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-04-03-7-30-pm/concert/18783883",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-philadelphia-xfinity-mobile-arena-4-3-2027--concerts-rb/production/7886393",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3000656DCE0894DC",
+        "discovery_event_id": "1AdZZ_pGkMCeaKj",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-philadelphia-pennsylvania-04-03-2027/event/3000656DCE0894DC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783883,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/philadelphia-pennsylvania-xfinity-mobile-arena-2027-04-03-7-30-pm/concert/18783883",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886393,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-philadelphia-xfinity-mobile-arena-4-3-2027--concerts-rb/production/7886393",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375607",
+        "url": "https://www.ticketnetwork.com/en/p/8375607",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375607",
+        "url": "https://www.ticketliquidator.com/tickets/8375607/Jhene-Aiko-tickets-Sat-Apr-3-2027-Xfinity-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682926",
+        "url": "https://www.stubhub.ie/jhene-aiko-philadelphia-tickets-4-3-2027/event/107682926",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AdZZ_pGkMCeaKj",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-07T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-30T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375607",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375607/Jhene-Aiko-tickets-Sat-Apr-3-2027-Xfinity-Mobile-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-philadelphia-tickets-4-3-2027/event/107682926"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-columbia-g5evz_py95t01",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Columbia",
+    "country": "United States Of America",
+    "venue": "Colonial Life Arena",
+    "datetime_iso": "2027-04-05T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00656C172FF90A",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/columbia-south-carolina-colonial-life-arena-2027-04-05-7-30-pm/concert/18783885",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-columbia-colonial-life-arena-4-5-2027--concerts-rb/production/7886395",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656C172FF90A",
+        "discovery_event_id": "G5eVZ_pY95T01",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-columbia-south-carolina-04-05-2027/event/2D00656C172FF90A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783885,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/columbia-south-carolina-colonial-life-arena-2027-04-05-7-30-pm/concert/18783885",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886395,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-columbia-colonial-life-arena-4-5-2027--concerts-rb/production/7886395",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375608",
+        "url": "https://www.ticketnetwork.com/en/p/8375608",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375608",
+        "url": "https://www.ticketliquidator.com/tickets/8375608/Jhene-Aiko-tickets-Mon-Apr-5-2027-Colonial-Life-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682935",
+        "url": "https://www.stubhub.ie/jhene-aiko-columbia-tickets-4-5-2027/event/107682935",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pY95T01",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-09T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-01T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375608",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375608/Jhene-Aiko-tickets-Mon-Apr-5-2027-Colonial-Life-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-columbia-tickets-4-5-2027/event/107682935"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-charlotte-g5evz_pdpjkpz",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Charlotte",
+    "country": "United States Of America",
+    "venue": "Spectrum Center",
+    "datetime_iso": "2027-04-07T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D00656EE5986580",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-07-7-30-pm/concert/18783887",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-charlotte-spectrum-center-4-7-2027--concerts-rb/production/7886397",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D00656EE5986580",
+        "discovery_event_id": "G5eVZ_pDPJkpZ",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-charlotte-north-carolina-04-07-2027/event/2D00656EE5986580",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783887,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/charlotte-north-carolina-spectrum-center-charlotte-2027-04-07-7-30-pm/concert/18783887",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886397,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-charlotte-spectrum-center-4-7-2027--concerts-rb/production/7886397",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375609",
+        "url": "https://www.ticketnetwork.com/en/p/8375609",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375609",
+        "url": "https://www.ticketliquidator.com/tickets/8375609/Jhene-Aiko-tickets-Wed-Apr-7-2027-Spectrum-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682960",
+        "url": "https://www.stubhub.ie/jhene-aiko-charlotte-tickets-4-7-2027/event/107682960",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_pDPJkpZ",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-11T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-03T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375609",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375609/Jhene-Aiko-tickets-Wed-Apr-7-2027-Spectrum-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-charlotte-tickets-4-7-2027/event/107682960"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-raleigh-g5evz_9engbxl",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Raleigh",
+    "country": "United States Of America",
+    "venue": "Lenovo Center",
+    "datetime_iso": "2027-04-08T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2D006570AA318FAB",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/raleigh-north-carolina-lenovo-center-2027-04-08-7-30-pm/concert/18783890",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-raleigh-lenovo-center-4-8-2027--concerts-rb/production/7886405",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2D006570AA318FAB",
+        "discovery_event_id": "G5eVZ_9enGbXl",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-raleigh-north-carolina-04-08-2027/event/2D006570AA318FAB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783890,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/raleigh-north-carolina-lenovo-center-2027-04-08-7-30-pm/concert/18783890",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886405,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-raleigh-lenovo-center-4-8-2027--concerts-rb/production/7886405",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375610",
+        "url": "https://www.ticketnetwork.com/en/p/8375610",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375610",
+        "url": "https://www.ticketliquidator.com/tickets/8375610/Jhene-Aiko-tickets-Thu-Apr-8-2027-Lenovo-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682939",
+        "url": "https://www.stubhub.ie/jhene-aiko-raleigh-tickets-4-8-2027/event/107682939",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eVZ_9enGbXl",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-12T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-04T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375610",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375610/Jhene-Aiko-tickets-Thu-Apr-8-2027-Lenovo-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-raleigh-tickets-4-8-2027/event/107682939"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-atlanta-vvg1zz_puzair5",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2027-04-10T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00656DB826CBCB",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/atlanta-georgia-state-farm-arena-1-2027-04-10-7-30-pm/concert/18783889",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-atlanta-state-farm-arena-4-10-2027--concerts-rb/production/7886407",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00656DB826CBCB",
+        "discovery_event_id": "vvG1zZ_pUzaiR5",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-atlanta-georgia-04-10-2027/event/0E00656DB826CBCB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783889,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/atlanta-georgia-state-farm-arena-1-2027-04-10-7-30-pm/concert/18783889",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886407,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-atlanta-state-farm-arena-4-10-2027--concerts-rb/production/7886407",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375612",
+        "url": "https://www.ticketnetwork.com/en/p/8375612",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375612",
+        "url": "https://www.ticketliquidator.com/tickets/8375612/Jhene-Aiko-tickets-Sat-Apr-10-2027-State-Farm-Arena-GA",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682955",
+        "url": "https://www.stubhub.ie/jhene-aiko-atlanta-tickets-4-10-2027/event/107682955",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_pUzaiR5",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-14T03:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-06T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375612",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375612/Jhene-Aiko-tickets-Sat-Apr-10-2027-State-Farm-Arena-GA",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-atlanta-tickets-4-10-2027/event/107682955"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-orlando-1kfovpjagau4wx9",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Orlando",
+    "country": "United States Of America",
+    "venue": "Kia Center",
+    "datetime_iso": "2027-04-12T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "220065709D572F97",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/orlando-florida-kia-center-2027-04-12-7-30-pm/concert/18783893",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-orlando-kia-center-4-12-2027--concerts-rb/production/7886411",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "220065709D572F97",
+        "discovery_event_id": "1kFOvPjaGAu4wX9",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-orlando-florida-04-12-2027/event/220065709D572F97",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783893,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/orlando-florida-kia-center-2027-04-12-7-30-pm/concert/18783893",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886411,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-orlando-kia-center-4-12-2027--concerts-rb/production/7886411",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375613",
+        "url": "https://www.ticketnetwork.com/en/p/8375613",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375613",
+        "url": "https://www.ticketliquidator.com/tickets/8375613/Jhene-Aiko-tickets-Mon-Apr-12-2027-Kia-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682944",
+        "url": "https://www.stubhub.ie/jhene-aiko-orlando-tickets-4-12-2027/event/107682944",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kFOvPjaGAu4wX9",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-03-16T03:59:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T15:00:00Z",
+        "end": "2027-04-08T16:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375613",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375613/Jhene-Aiko-tickets-Mon-Apr-12-2027-Kia-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-orlando-tickets-4-12-2027/event/107682944"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-memphis-g5viz_pwsyuuc",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Memphis",
+    "country": "United States Of America",
+    "venue": "FedExForum",
+    "datetime_iso": "2027-04-17T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656CB3E4DDAD",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/memphis-tennessee-fedexforum-2027-04-16-7-30-pm/concert/18783894",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-memphis-fedexforum-4-16-2027--concerts-rb/production/7886415",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656CB3E4DDAD",
+        "discovery_event_id": "G5viZ_pwSyuUc",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-memphis-tennessee-04-16-2027/event/1B00656CB3E4DDAD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783894,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/memphis-tennessee-fedexforum-2027-04-16-7-30-pm/concert/18783894",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886415,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-memphis-fedexforum-4-16-2027--concerts-rb/production/7886415",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375614",
+        "url": "https://www.ticketnetwork.com/en/p/8375614",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375614",
+        "url": "https://www.ticketliquidator.com/tickets/8375614/Jhene-Aiko-tickets-Fri-Apr-16-2027-FedExForum",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682952",
+        "url": "https://www.stubhub.ie/jhene-aiko-memphis-tickets-4-16-2027/event/107682952",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pwSyuUc",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-20T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-12T17:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375614",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375614/Jhene-Aiko-tickets-Fri-Apr-16-2027-FedExForum",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-memphis-tickets-4-16-2027/event/107682952"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-new-orleans-g5viz_pu7vuyk",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "New Orleans",
+    "country": "United States Of America",
+    "venue": "Smoothie King Center",
+    "datetime_iso": "2027-04-18T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1B00656D84D36E46",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/new-orleans-louisiana-smoothie-king-center-2027-04-17-7-30-pm/concert/18783895",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-new-orleans-smoothie-king-center-4-17-2027--concerts-rb/production/7886419",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1B00656D84D36E46",
+        "discovery_event_id": "G5viZ_pU7VUyk",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-new-orleans-louisiana-04-17-2027/event/1B00656D84D36E46",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783895,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/new-orleans-louisiana-smoothie-king-center-2027-04-17-7-30-pm/concert/18783895",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886419,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-new-orleans-smoothie-king-center-4-17-2027--concerts-rb/production/7886419",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375615",
+        "url": "https://www.ticketnetwork.com/en/p/8375615",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375615",
+        "url": "https://www.ticketliquidator.com/tickets/8375615/Jhene-Aiko-tickets-Sat-Apr-17-2027-Smoothie-King-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682927",
+        "url": "https://www.stubhub.ie/jhene-aiko-new-orleans-tickets-4-17-2027/event/107682927",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5viZ_pU7VUyk",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-21T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-13T17:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375615",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375615/Jhene-Aiko-tickets-Sat-Apr-17-2027-Smoothie-King-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-new-orleans-tickets-4-17-2027/event/107682927"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-fort-worth-vvg1yz_pgce3dm",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Fort Worth",
+    "country": "United States Of America",
+    "venue": "Ariat Arena",
+    "datetime_iso": "2027-04-21T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0C00656D6D9D20EE",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/fort-worth-texas-ariat-arena-2027-04-20-7-30-pm/concert/18783899",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-fort-worth-ariat-arena-4-20-2027--concerts-rb/production/7886333",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00656D6D9D20EE",
+        "discovery_event_id": "vvG1YZ_pgcE3dm",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-fort-worth-texas-04-20-2027/event/0C00656D6D9D20EE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783899,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/fort-worth-texas-ariat-arena-2027-04-20-7-30-pm/concert/18783899",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886333,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-fort-worth-ariat-arena-4-20-2027--concerts-rb/production/7886333",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375616",
+        "url": "https://www.ticketnetwork.com/en/p/8375616",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375616",
+        "url": "https://www.ticketliquidator.com/tickets/8375616/Jhene-Aiko-tickets-Tue-Apr-20-2027-Ariat-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682947",
+        "url": "https://www.stubhub.ie/jhene-aiko-fort-worth-tickets-4-20-2027/event/107682947",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_pgcE3dm",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-24T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-16T17:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375616",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375616/Jhene-Aiko-tickets-Tue-Apr-20-2027-Ariat-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-fort-worth-tickets-4-20-2027/event/107682947"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-austin-g5diz_pvhlinm",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Center ATX",
+    "datetime_iso": "2027-04-23T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3A00656D1B7EC8F7",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/austin-texas-moody-center-atx-2027-04-22-7-30-pm/concert/18783901",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-austin-moody-center-atx-4-22-2027--concerts-rb/production/7886425",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A00656D1B7EC8F7",
+        "discovery_event_id": "G5dIZ_pVhLiNM",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-austin-texas-04-22-2027/event/3A00656D1B7EC8F7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783901,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/austin-texas-moody-center-atx-2027-04-22-7-30-pm/concert/18783901",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886425,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-austin-moody-center-atx-4-22-2027--concerts-rb/production/7886425",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375585",
+        "url": "https://www.ticketnetwork.com/en/p/8375585",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375585",
+        "url": "https://www.ticketliquidator.com/tickets/8375585/Jhene-Aiko-tickets-Thu-Apr-22-2027-Moody-Center-ATX",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682956",
+        "url": "https://www.stubhub.ie/jhene-aiko-austin-tickets-4-22-2027/event/107682956",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_pVhLiNM",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-03-26T04:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T16:00:00Z",
+        "end": "2027-04-18T17:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375585",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375585/Jhene-Aiko-tickets-Thu-Apr-22-2027-Moody-Center-ATX",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-austin-tickets-4-22-2027/event/107682956"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-denver-g5vzz_pu930ac",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Denver",
+    "country": "United States Of America",
+    "venue": "Ball Arena",
+    "datetime_iso": "2027-04-28T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00656D974A426D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/denver-colorado-ball-arena-2027-04-27-7-30-pm/concert/18783903",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-denver-ball-arena-4-27-2027--concerts-rb/production/7886437",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00656D974A426D",
+        "discovery_event_id": "G5vzZ_pU930ac",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-denver-colorado-04-27-2027/event/1E00656D974A426D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783903,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/denver-colorado-ball-arena-2027-04-27-7-30-pm/concert/18783903",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886437,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-denver-ball-arena-4-27-2027--concerts-rb/production/7886437",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375617",
+        "url": "https://www.ticketnetwork.com/en/p/8375617",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375617",
+        "url": "https://www.ticketliquidator.com/tickets/8375617/Jhene-Aiko-tickets-Tue-Apr-27-2027-Ball-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682940",
+        "url": "https://www.stubhub.ie/jhene-aiko-denver-tickets-4-27-2027/event/107682940",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pU930ac",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-03-31T04:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-23T18:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375617",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375617/Jhene-Aiko-tickets-Tue-Apr-27-2027-Ball-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-denver-tickets-4-27-2027/event/107682940"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-phoenix-1av0z_pgkmb6tzk",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Mortgage Matchup Center",
+    "datetime_iso": "2027-04-30T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1900656DD81E9E06",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-29-7-30-pm/concert/18783904",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-phoenix-mortgage-matchup-center-4-29-2027--concerts-rb/production/7886453",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900656DD81E9E06",
+        "discovery_event_id": "1Av0Z_pGkMb6tzk",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-phoenix-arizona-04-29-2027/event/1900656DD81E9E06",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783904,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/phoenix-arizona-mortgage-matchup-center-2027-04-29-7-30-pm/concert/18783904",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886453,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-phoenix-mortgage-matchup-center-4-29-2027--concerts-rb/production/7886453",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375619",
+        "url": "https://www.ticketnetwork.com/en/p/8375619",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375619",
+        "url": "https://www.ticketliquidator.com/tickets/8375619/Jhene-Aiko-tickets-Thu-Apr-29-2027-Mortgage-Matchup-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682948",
+        "url": "https://www.stubhub.ie/jhene-aiko-phoenix-tickets-4-29-2027/event/107682948",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av0Z_pGkMb6tzk",
+    "timezone": "America/Phoenix",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-02T06:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-25T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375619",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375619/Jhene-Aiko-tickets-Thu-Apr-29-2027-Mortgage-Matchup-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-phoenix-tickets-4-29-2027/event/107682948"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-anaheim-vv170z_pgks682ex",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Anaheim",
+    "country": "United States Of America",
+    "venue": "Honda Center",
+    "datetime_iso": "2027-05-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0900656CC740F0BE",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/anaheim-california-honda-center-2027-05-01-7-30-pm/concert/18783907",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-anaheim-honda-center-5-1-2027--concerts-rb/production/7886467",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0900656CC740F0BE",
+        "discovery_event_id": "vv170Z_pGkS682eX",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-anaheim-california-05-01-2027/event/0900656CC740F0BE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783907,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/anaheim-california-honda-center-2027-05-01-7-30-pm/concert/18783907",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886467,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-anaheim-honda-center-5-1-2027--concerts-rb/production/7886467",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375620",
+        "url": "https://www.ticketnetwork.com/en/p/8375620",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375620",
+        "url": "https://www.ticketliquidator.com/tickets/8375620/Jhene-Aiko-tickets-Sat-May-1-2027-Honda-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682949",
+        "url": "https://www.stubhub.ie/jhene-aiko-anaheim-tickets-5-1-2027/event/107682949",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv170Z_pGkS682eX",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Global Citizen",
+        "start": "2026-11-18T18:00:00Z",
+        "end": "2027-04-25T04:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-04T06:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-27T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375620",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375620/Jhene-Aiko-tickets-Sat-May-1-2027-Honda-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-anaheim-tickets-5-1-2027/event/107682949"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-san-francisco-g5vyz_plmqsld",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Chase Center",
+    "datetime_iso": "2027-05-08T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656AF77737C3",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/san-francisco-california-chase-center-2027-05-07-7-30-pm/concert/18783908",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-san-francisco-chase-center-5-7-2027--concerts-rb/production/7886469",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656AF77737C3",
+        "discovery_event_id": "G5vYZ_plMqSLd",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-san-francisco-california-05-07-2027/event/1C00656AF77737C3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783908,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/san-francisco-california-chase-center-2027-05-07-7-30-pm/concert/18783908",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886469,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-san-francisco-chase-center-5-7-2027--concerts-rb/production/7886469",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375622",
+        "url": "https://www.ticketnetwork.com/en/p/8375622",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375622",
+        "url": "https://www.ticketliquidator.com/tickets/8375622/Jhene-Aiko-tickets-Fri-May-7-2027-Chase-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682932",
+        "url": "https://www.stubhub.ie/jhene-aiko-san-francisco-tickets-5-7-2027/event/107682932",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_plMqSLd",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Chase Cardmember Preferred Tickets",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-08T05:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-10T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-03T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375622",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375622/Jhene-Aiko-tickets-Fri-May-7-2027-Chase-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-san-francisco-tickets-5-7-2027/event/107682932"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-sacramento-g5vyz_psayvgp",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Sacramento",
+    "country": "United States Of America",
+    "venue": "Golden 1 Center",
+    "datetime_iso": "2027-05-10T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C00656CC5E41325",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/sacramento-california-golden-1-center-2027-05-09-7-30-pm/concert/18783909",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-sacramento-golden-1-center-5-9-2027--concerts-rb/production/7886473",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C00656CC5E41325",
+        "discovery_event_id": "G5vYZ_pSAyvGP",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-sacramento-california-05-09-2027/event/1C00656CC5E41325",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783909,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/sacramento-california-golden-1-center-2027-05-09-7-30-pm/concert/18783909",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886473,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-sacramento-golden-1-center-5-9-2027--concerts-rb/production/7886473",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375623",
+        "url": "https://www.ticketnetwork.com/en/p/8375623",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375623",
+        "url": "https://www.ticketliquidator.com/tickets/8375623/Jhene-Aiko-tickets-Sun-May-9-2027-Golden-1-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682929",
+        "url": "https://www.stubhub.ie/jhene-aiko-sacramento-tickets-5-9-2027/event/107682929",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_pSAyvGP",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-12T06:59:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-05T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375623",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375623/Jhene-Aiko-tickets-Sun-May-9-2027-Golden-1-Center",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-sacramento-tickets-5-9-2027/event/107682929"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-portland-vvg1hz_pr1sldf",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-05-13T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00656BCACEBED4",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/portland-oregon-moda-center-2027-05-12-7-30-pm/concert/18783913",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-portland-moda-center-5-12-2027--concerts-rb/production/7886475",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00656BCACEBED4",
+        "discovery_event_id": "vvG1HZ_pR1SlDf",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-portland-oregon-05-12-2027/event/0F00656BCACEBED4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783913,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/portland-oregon-moda-center-2027-05-12-7-30-pm/concert/18783913",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886475,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-portland-moda-center-5-12-2027--concerts-rb/production/7886475",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375624",
+        "url": "https://www.ticketnetwork.com/en/p/8375624",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375624",
+        "url": "https://www.ticketliquidator.com/tickets/8375624/Jhene-Aiko-tickets-Wed-May-12-2027-Moda-Center-at-the-Rose-Quarter",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682954",
+        "url": "https://www.stubhub.ie/jhene-aiko-portland-tickets-5-12-2027/event/107682954",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_pR1SlDf",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-15T06:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-08T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375624",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375624/Jhene-Aiko-tickets-Wed-May-12-2027-Moda-Center-at-the-Rose-Quarter",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-portland-tickets-5-12-2027/event/107682954"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-seattle-vvg1hz_pm77anw",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Climate Pledge Arena",
+    "datetime_iso": "2027-05-14T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F00656DC4109AB2",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/seattle-washington-climate-pledge-arena-2027-05-13-7-30-pm/concert/18783915",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-seattle-climate-pledge-arena-5-13-2027--concerts-rb/production/7886479",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00656DC4109AB2",
+        "discovery_event_id": "vvG1HZ_pM77anw",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-seattle-washington-05-13-2027/event/0F00656DC4109AB2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783915,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/seattle-washington-climate-pledge-arena-2027-05-13-7-30-pm/concert/18783915",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886479,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-seattle-climate-pledge-arena-5-13-2027--concerts-rb/production/7886479",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375626",
+        "url": "https://www.ticketnetwork.com/en/p/8375626",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375626",
+        "url": "https://www.ticketliquidator.com/tickets/8375626/Jhene-Aiko-tickets-Thu-May-13-2027-Climate-Pledge-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682951",
+        "url": "https://www.stubhub.ie/jhene-aiko-seattle-tickets-5-13-2027/event/107682951",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_pM77anw",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-15T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-09T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375626",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375626/Jhene-Aiko-tickets-Thu-May-13-2027-Climate-Pledge-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-seattle-tickets-5-13-2027/event/107682951"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-vancouver-1av7z_pgkwqspc7",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-05-16T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100656C9DCE5B44",
+    "ticketmaster_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/vancouver-canada-rogers-arena-2027-05-15-7-30-pm/concert/18783923",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-vancouver-rogers-arena-5-15-2027--concerts-rb/production/7886535",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100656C9DCE5B44",
+        "discovery_event_id": "1Av7Z_pGkwqSPc7",
+        "url": "https://www.ticketmaster.ca/jhene-aiko-presents-ark-to-agartha-vancouver-british-columbia-05-15-2027/event/1100656C9DCE5B44",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783923,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/vancouver-canada-rogers-arena-2027-05-15-7-30-pm/concert/18783923",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886535,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-vancouver-rogers-arena-5-15-2027--concerts-rb/production/7886535",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375630",
+        "url": "https://www.ticketnetwork.com/en/p/8375630",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375630",
+        "url": "https://www.ticketliquidator.com/tickets/8375630/Jhene-Aiko-tickets-Sat-May-15-2027-Rogers-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682930",
+        "url": "https://www.stubhub.ie/jhene-aiko-tickets-vancouver-rogers-arena-5-15-2027/event/107682930",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1Av7Z_pGkwqSPc7",
+    "timezone": "America/Vancouver",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Amex Reserved Tickets",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-11T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375630",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375630/Jhene-Aiko-tickets-Sat-May-15-2027-Rogers-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-tickets-vancouver-rogers-arena-5-15-2027/event/107682930"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-west-valley-city-g5vzz_ps36muq",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "West Valley City",
+    "country": "United States Of America",
+    "venue": "Canyon View Credit Union Stage at Maverik Center",
+    "datetime_iso": "2027-05-20T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1E00656CD21F7D9D",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-west-valley-city-utah-05-19-2027/event/1E00656CD21F7D9D",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/west-valley-city-utah-maverik-center-2027-05-19-7-30-pm/concert/18783917",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-west-valley-city-utah-05-19-2027/event/1E00656CD21F7D9D",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1E00656CD21F7D9D",
+        "discovery_event_id": "G5vzZ_pS36MUq",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-west-valley-city-utah-05-19-2027/event/1E00656CD21F7D9D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783917,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/west-valley-city-utah-maverik-center-2027-05-19-7-30-pm/concert/18783917",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375627",
+        "url": "https://www.ticketliquidator.com/tickets/8375627/Jhene-Aiko-tickets-Wed-May-19-2027-Maverik-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vzZ_pS36MUq",
+    "timezone": "America/Denver",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-04-22T05:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T17:00:00Z",
+        "end": "2027-05-15T18:00:00Z"
+      }
+    ],
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375627/Jhene-Aiko-tickets-Wed-May-19-2027-Maverik-Center"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-los-angeles-g5eyz_pusyoov",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-05-22T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2C00656DB3C11474",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-21-2027/event/2C00656DB3C11474",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/los-angeles-california-crypto-com-arena-2027-05-21-7-30-pm/concert/18783918",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-21-2027/event/2C00656DB3C11474",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C00656DB3C11474",
+        "discovery_event_id": "G5eYZ_pUSYooV",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-21-2027/event/2C00656DB3C11474",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783918,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/los-angeles-california-crypto-com-arena-2027-05-21-7-30-pm/concert/18783918",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8375628",
+        "url": "https://www.ticketnetwork.com/en/p/8375628",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8375628",
+        "url": "https://www.ticketliquidator.com/tickets/8375628/Jhene-Aiko-tickets-Fri-May-21-2027-Cryptocom-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682962",
+        "url": "https://www.stubhub.ie/jhene-aiko-los-angeles-tickets-5-21-2027/event/107682962",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eYZ_pUSYooV",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Global Citizen",
+        "start": "2026-11-17T18:00:00Z",
+        "end": "2027-05-14T16:00:00Z"
+      },
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-24T06:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-17T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8375628",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8375628/Jhene-Aiko-tickets-Fri-May-21-2027-Cryptocom-Arena",
+    "stubhub_international_url": "https://www.stubhub.ie/jhene-aiko-los-angeles-tickets-5-21-2027/event/107682962"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-los-angeles-g5eyz_9ditouk",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhené Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Crypto.com Arena",
+    "datetime_iso": "2027-05-23T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "2C006570ECFD1353",
+    "ticketmaster_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-22-2027/event/2C006570ECFD1353",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/los-angeles-california-crypto-com-arena-2027-05-22-7-30-pm/concert/18841805",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-22-2027/event/2C006570ECFD1353",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "2C006570ECFD1353",
+        "discovery_event_id": "G5eYZ_9diTouK",
+        "url": "https://www.ticketmaster.com/jhene-aiko-presents-ark-to-agartha-los-angeles-california-05-22-2027/event/2C006570ECFD1353",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18841805,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/los-angeles-california-crypto-com-arena-2027-05-22-7-30-pm/concert/18841805",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8382025",
+        "url": "https://www.ticketnetwork.com/en/p/8382025",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8382025",
+        "url": "https://www.ticketliquidator.com/tickets/8382025/Jhene-Aiko-tickets-Sat-May-22-2027-Cryptocom-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5eYZ_9diTouK",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Verizon Shine Select Seats",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-04-25T06:59:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2027-05-18T19:00:00Z"
+      }
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8382025",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8382025/Jhene-Aiko-tickets-Sat-May-22-2027-Cryptocom-Arena"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-sunrise-z7r9jz1aaa4az",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhene Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Sunrise",
+    "country": "United States Of America",
+    "venue": "Amerant Bank Arena",
+    "datetime_iso": "2027-04-14T23:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4az",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/sunrise-florida-amerant-bank-arena-2027-04-14-7-30-pm/concert/18760709",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-sunrise-amerant-bank-arena-4-14-2027/production/7887736",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4az",
+        "discovery_event_id": "Z7r9jZ1AAA4az",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4az",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18760709,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/sunrise-florida-amerant-bank-arena-2027-04-14-7-30-pm/concert/18760709",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7887736,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-sunrise-amerant-bank-arena-4-14-2027/production/7887736",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8379800",
+        "url": "https://www.ticketliquidator.com/tickets/8379800/Jhene-Aiko-tickets-Wed-Apr-14-2027-Amerant-Bank-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8379800",
+        "url": "https://www.ticketnetwork.com/en/p/8379800",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4az",
+    "timezone": "America/New_York",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8379800/Jhene-Aiko-tickets-Wed-Apr-14-2027-Amerant-Bank-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8379800"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-houston-z7r9jz1aaa4ay",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhene Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Houston",
+    "country": "United States Of America",
+    "venue": "Toyota Center - TX",
+    "datetime_iso": "2027-04-25T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA4ay",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/houston-texas-toyota-center-2027-04-24-7-30-pm/concert/18783926",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-houston-toyota-center---tx-4-24-2027/production/7887744",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA4ay",
+        "discovery_event_id": "Z7r9jZ1AAA4ay",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA4ay",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783926,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/houston-texas-toyota-center-2027-04-24-7-30-pm/concert/18783926",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7887744,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-houston-toyota-center---tx-4-24-2027/production/7887744",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8376232",
+        "url": "https://www.ticketliquidator.com/tickets/8376232/Jhene-Aiko-tickets-Sat-Apr-24-2027-Toyota-Center-TX",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8376232",
+        "url": "https://www.ticketnetwork.com/en/p/8376232",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA4ay",
+    "timezone": "America/Chicago",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8376232/Jhene-Aiko-tickets-Sat-Apr-24-2027-Toyota-Center-TX",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8376232"
+  },
+  {
+    "id": "tm-jhene-aiko-2027-las-vegas-z7r9jz1aaa41z",
+    "artist_slug": "jhene-aiko",
+    "artist_name": "Jhene Aiko",
+    "event_name": "Jhene Aiko Presents: Ark to Agartha - A Westside Whimsy Experience",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "T-Mobile Arena",
+    "datetime_iso": "2027-05-01T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "Z7r9jZ1AAA41Z",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
+    "seatgeek_url": "https://seatgeek.com/jhene-aiko-tickets/las-vegas-nevada-t-mobile-arena-2027-04-30-7-30-pm/concert/18783929",
+    "vividseats_url": "https://www.vividseats.com/jhene-aiko-tickets-las-vegas-t-mobile-arena-4-30-2027--concerts-rb/production/7886839",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1AAA41Z",
+        "discovery_event_id": "Z7r9jZ1AAA41Z",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA41Z",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18783929,
+        "url": "https://seatgeek.com/jhene-aiko-tickets/las-vegas-nevada-t-mobile-arena-2027-04-30-7-30-pm/concert/18783929",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": 7886839,
+        "url": "https://www.vividseats.com/jhene-aiko-tickets-las-vegas-t-mobile-arena-4-30-2027--concerts-rb/production/7886839",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticket-liquidator": {
+        "event_id": "8381764",
+        "url": "https://www.ticketliquidator.com/tickets/8381764/Jhene-Aiko-tickets-Fri-Apr-30-2027-T-Mobile-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8381764",
+        "url": "https://www.ticketnetwork.com/en/p/8381764",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1AAA41Z",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "R&B",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8381764/Jhene-Aiko-tickets-Fri-Apr-30-2027-T-Mobile-Arena",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8381764"
+  }
+]

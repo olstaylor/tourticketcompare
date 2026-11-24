@@ -1935,15 +1935,6 @@ summary {
   margin-top: 2px;
 }
 
-/* One short line naming how many checked ticket sites this date leads to.
-   Sits directly above the button group it counts, so it reads as a label
-   rather than another sentence of card copy. */
-.show-card .provider-cta-count {
-  margin: 6px 0 0;
-  font-size: 0.76rem;
-  line-height: 1.35;
-}
-
 .show-card .disclosure-note {
   margin: 0;
   font-size: 0.76rem;
@@ -2304,6 +2295,77 @@ summary {
   .price-answer-table .price-answer-price {
     padding-top: 7px;
   }
+
+  /* Phone date rows: date and extra facts on the left, the lowest price on the
+     right, so twelve dates scan as a list instead of twelve stacked cards
+     (Metallica Las Vegas: 2,251px to about 1,340px). The "Resale marketplace"
+     role is hidden here because it repeats on every row; the provider name
+     and price stay. */
+  .price-answer-table tbody tr {
+    display: grid;
+    grid-template-columns: minmax(0, 9fr) minmax(0, 11fr);
+    column-gap: 10px;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  .price-answer-table tbody th {
+    grid-column: 1;
+    font-size: 0.92rem;
+    line-height: 1.3;
+    padding: 0;
+  }
+
+  .price-answer-table tbody td {
+    grid-column: 1;
+    padding: 0;
+    font-size: 0.8rem;
+  }
+
+  .price-answer-table tbody td.price-answer-price {
+    grid-column: 2;
+    grid-row: 1 / -1;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta {
+    grid-template-columns: minmax(0, 1fr);
+    min-height: 0;
+    padding: 7px 10px;
+    gap: 1px;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta-role {
+    display: none;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta-name {
+    grid-row: 1;
+    font-size: 0.72rem;
+    letter-spacing: 0;
+  }
+
+  .price-answer-table td.price-answer-price .provider-cta-value {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: left;
+  }
+
+  /* Other sites: one "Site price" pair per block under its own label, so pairs
+     do not run together (it read "Vivid Seats USD 176 TicketNetwork USD
+     204.70" as one wrapped run). Never truncated: a cut price is worse. */
+  .price-answer-table td[data-label="Other sites"]::before {
+    display: block;
+  }
+
+  .price-answer-table td[data-label="Other sites"] br {
+    display: none;
+  }
+
+  .price-answer-table .price-answer-other {
+    display: block;
+    line-height: 1.35;
+    padding: 1px 0;
+  }
 }
 
 /* Mobile board tools (2026-09-24, launch-readiness Phase 4). On a phone the
@@ -2445,10 +2507,6 @@ summary {
 .show-card-actions > .show-details-link,
 .show-card-actions > .price-history {
   flex: 0 1 auto;
-}
-
-.show-card .provider-cta-count {
-  margin: 0;
 }
 
 /* The lowest of two or more fresh listed prices on a card (names it; never
@@ -3267,3 +3325,55 @@ code {
    dashed and quieter than the exact-date buttons so the two read as different. */
 .show-card .provider-cta-general { border-style: dashed; background: transparent; }
 .show-card .provider-cta-general .provider-cta-role { font-weight: 650; }
+
+/* Phone: on an artist-city page, show the dates with their seller buttons
+   straight after the page title, ahead of the long price summary, and tighten
+   the spacing above it. The search/filter bar stays. Only the
+   visual order and spacing change; the HTML, links and seller order are untouched. */
+@media (max-width: 700px) {
+  .artist-city-page { display: flex; flex-direction: column; }
+  .artist-city-page > .breadcrumbs { order: -3; }
+  .artist-city-page > h1 { order: -2; margin-bottom: 8px; }
+  .artist-city-page > .show-board { order: -1; gap: 8px; margin-top: 0; padding-top: 0; }
+  .artist-city-page > h1 { padding-bottom: 0; }
+  .artist-city-page .show-board .money-disclosure { margin: 0; }
+  .artist-city-page .show-board .show-card-grid { margin-top: 0; }
+  .artist-city-page .show-board .jump-nav, .artist-city-page .show-board [class*="jump"] { margin: 0; }
+  .artist-city-page .show-board .section-intro { gap: 4px; }
+  .artist-city-page .show-board .section-intro h2 { margin-bottom: 0; }
+  /* Repeat-night pages (4+ dates, e.g. a 12-night residency): each night card is
+     ~650px, so the board-first order buries the cheapest-night summary about
+     8,000px down. Put the summary back ahead of the board on these pages only. */
+  .artist-city-page:has(.show-card-grid > .show-card:nth-child(4)) > .show-board { order: 0; }
+}
+
+/* Anchored date cards (2026-11-21). "See all N ticket sites" on a date row
+   links to that date's card (#show-...). The sticky header (top 12px, ~65px
+   tall on a phone) sat on top of the card's date and venue after the jump, so
+   the visitor landed on seller buttons with no date shown. */
+.show-card[id] {
+  scroll-margin-top: 88px;
+}
+
+.country-chooser { margin: 0 0 1rem; min-width: 0; max-width: 100%; }
+.country-chooser__chips { max-width: 100%; }
+.country-chooser[hidden] { display: none; }
+.country-chooser__label { margin: 0 0 0.4rem; font-weight: 600; font-size: 0.9rem; }
+.country-chooser__chips { display: flex; flex-wrap: nowrap; gap: 0.4rem; margin-bottom: 0.4rem; overflow-x: auto; padding-bottom: 0.3rem; -webkit-overflow-scrolling: touch; }
+.country-chooser .chip { flex: 0 0 auto; white-space: nowrap; }
+.country-chooser .chip {
+  font: inherit; font-size: 0.9rem; padding: 0.35rem 0.75rem; min-height: 2.25rem;
+  border: 1px solid currentColor; border-radius: 999px; background: transparent; color: inherit; cursor: pointer;
+}
+.country-chooser .chip[aria-pressed="true"] { font-weight: 700; text-decoration: underline; }
+.country-chooser .chip__count { opacity: 0.65; }
+
+/* "See all ticket sites" under a date's other-site prices (artist-city table):
+   a 44px tap target, block on phones where the table stacks. */
+.price-answer-table .price-answer-more {
+  display: inline-block;
+  min-height: 44px;
+  padding: 12px 0 0;
+  box-sizing: border-box;
+  font-weight: 700;
+}

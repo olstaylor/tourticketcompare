@@ -51,14 +51,14 @@
         "event_id": "8324659",
         "url": "https://www.ticketnetwork.com/en/p/8324659",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8324659",
         "url": "https://www.ticketliquidator.com/tickets/8324659/Tash-Sultana-tickets-Thu-Mar-11-2027-3Arena-Dublin",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -127,21 +127,21 @@
         "event_id": "7771601",
         "url": "https://www.ticketnetwork.com/en/p/7771601",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7771601",
         "url": "https://www.ticketliquidator.com/tickets/7771601/Tash-Sultana-tickets-Sat-Mar-13-2027-OVO-Arena-Wembley",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "106928086",
         "url": "https://www.stubhub.ie/tash-sultana-tickets-london-ovo-arena-wembley-13-3-2027/event/106928086",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -205,6 +205,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "106928107",
+        "url": "https://www.stubhub.ie/tash-sultana-tickets-antwerpen-lotto-arena-16-3-2027/event/106928107",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kjpQoFb",
@@ -213,7 +220,8 @@
     "organizer_names": [
       "FKP Scorpio Belgium"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/tash-sultana-tickets-antwerpen-lotto-arena-16-3-2027/event/106928107"
   },
   {
     "id": "tm-tash-sultana-2027-amsterdam-z698xzbpz16vawaob0",
@@ -267,21 +275,21 @@
         "event_id": "8315153",
         "url": "https://www.ticketnetwork.com/en/p/8315153",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8315153",
         "url": "https://www.ticketliquidator.com/tickets/8315153/Tash-Sultana-tickets-Fri-Mar-26-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "106927110",
         "url": "https://www.stubhub.ie/tash-sultana-tickets-amsterdam-ziggo-dome-26-3-2027/event/106927110",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

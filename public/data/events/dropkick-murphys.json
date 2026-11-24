@@ -30,14 +30,14 @@
         "event_id": 18633525,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/albuquerque-new-mexico-revel-entertainment-center-2027-02-05-7-pm/concert/18633525",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625228,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-albuquerque-revel-entertainment-center-2-5-2027--concerts-alternative/production/7625228",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,14 +51,14 @@
         "event_id": "8297965",
         "url": "https://www.ticketnetwork.com/en/p/8297965",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8297965",
         "url": "https://www.ticketliquidator.com/tickets/8297965/Dropkick-Murphys-tickets-Fri-Feb-5-2027-Revel-Entertainment-Center",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -81,7 +81,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "190065359E8A4FAA",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-tempe-arizona-02-06-2027/event/190065359E8A4FAA",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/tempe-arizona-marquee-theatre-tempe-az-2027-02-06-7-pm/concert/18633524",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-tempe-marquee-theatre-2-6-2027/production/7624076",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-tempe-arizona-02-06-2027/event/190065359E8A4FAA",
@@ -97,17 +97,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633524,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/tempe-arizona-marquee-theatre-tempe-az-2027-02-06-7-pm/concert/18633524",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624076,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-tempe-marquee-theatre-2-6-2027/production/7624076",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -121,14 +121,14 @@
         "event_id": "8295207",
         "url": "https://www.ticketnetwork.com/en/p/8295207",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295207",
         "url": "https://www.ticketliquidator.com/tickets/8295207/Dropkick-Murphys-tickets-Sat-Feb-6-2027-Marquee-Theatre-AZ",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -181,14 +181,14 @@
         "event_id": 18633526,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/del-mar-california-the-sound-del-mar-2027-02-07-7-pm/concert/18633526",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625234,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-del-mar-the-sound---del-mar-2-7-2027--concerts-alternative/production/7625234",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -202,14 +202,14 @@
         "event_id": "8295209",
         "url": "https://www.ticketnetwork.com/en/p/8295209",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295209",
         "url": "https://www.ticketliquidator.com/tickets/8295209/Dropkick-Murphys-tickets-Sun-Feb-7-2027-The-Sound-At-The-Del-Mar-Fairgrounds",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -229,10 +229,10 @@
     "country": "United States Of America",
     "venue": "House of Blues Anaheim",
     "datetime_iso": "2027-02-10T02:00:00Z",
-    "tour_name": "",
+    "tour_name": "St. Patrick's Day 2027 Tour",
     "ticketmaster_event_id": "09006536F0B8F691",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-anaheim-california-02-09-2027/event/09006536F0B8F691",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/anaheim-california-house-of-blues-anaheim-2027-02-09-6-pm/concert/18633523",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-anaheim-house-of-blues-anaheim-2-9-2027/production/7624084",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-anaheim-california-02-09-2027/event/09006536F0B8F691",
@@ -248,17 +248,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633523,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/anaheim-california-house-of-blues-anaheim-2027-02-09-6-pm/concert/18633523",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624084,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-anaheim-house-of-blues-anaheim-2-9-2027/production/7624084",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -272,14 +272,14 @@
         "event_id": "8295210",
         "url": "https://www.ticketnetwork.com/en/p/8295210",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295210",
         "url": "https://www.ticketliquidator.com/tickets/8295210/Dropkick-Murphys-tickets-Tue-Feb-9-2027-House-Of-Blues-Anaheim",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -315,10 +315,10 @@
     "country": "United States Of America",
     "venue": "Channel 24",
     "datetime_iso": "2027-02-11T03:00:00Z",
-    "tour_name": "",
+    "tour_name": "St. Patrick's Day 2027 Tour",
     "ticketmaster_event_id": "1C006535D446625E",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-sacramento-california-02-10-2027/event/1C006535D446625E",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/sacramento-channel-24-sacramento-2027-02-10-7-pm/concert/18633527",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-sacramento-channel-24-2-10-2027/production/7624088",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-sacramento-california-02-10-2027/event/1C006535D446625E",
@@ -334,17 +334,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633527,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/sacramento-channel-24-sacramento-2027-02-10-7-pm/concert/18633527",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624088,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-sacramento-channel-24-2-10-2027/production/7624088",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -358,14 +358,14 @@
         "event_id": "8295211",
         "url": "https://www.ticketnetwork.com/en/p/8295211",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295211",
         "url": "https://www.ticketliquidator.com/tickets/8295211/Dropkick-Murphys-tickets-Wed-Feb-10-2027-Channel-24",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -423,7 +423,7 @@
         "event_id": 18633528,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/vancouver-canada-pne-forum-vancouver-2027-02-12-7-pm/concert/18633528",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -444,14 +444,14 @@
         "event_id": "8351215",
         "url": "https://www.ticketliquidator.com/tickets/8351215/Dropkick-Murphys-tickets-Fri-Feb-12-2027-PNE-Forum",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8351215",
         "url": "https://www.ticketnetwork.com/en/p/8351215",
         "verified": true,
-        "last_verified_at": "2026-11-06",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -493,7 +493,7 @@
         "event_id": 18633535,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/penticton-canada-penticton-trade-convention-centre-2027-02-13-7-pm/concert/18633535",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -514,14 +514,14 @@
         "event_id": "8313582",
         "url": "https://www.ticketnetwork.com/en/p/8313582",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8313582",
         "url": "https://www.ticketliquidator.com/tickets/8313582/Dropkick-Murphys-tickets-Sat-Feb-13-2027-Penticton-Trade-Convention-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -563,7 +563,7 @@
         "event_id": 18633536,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/calgary-canada-grey-eagle-event-centre-2027-02-14-7-pm/concert/18633536",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -579,6 +579,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295218",
+        "url": "https://www.ticketnetwork.com/en/p/8295218",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295218",
+        "url": "https://www.ticketliquidator.com/tickets/8295218/Dropkick-Murphys-tickets-Sun-Feb-14-2027-Grey-Eagle-Resort-Casino",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vPuzGA1a49U",
@@ -595,7 +609,9 @@
       }
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295218",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295218/Dropkick-Murphys-tickets-Sun-Feb-14-2027-Grey-Eagle-Resort-Casino"
   },
   {
     "id": "tm-dropkick-murphys-2027-edmonton-1aozkfygkesdhkn",
@@ -628,14 +644,14 @@
         "event_id": 18633539,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/edmonton-canada-edmonton-convention-centre-2027-02-16-7-pm/concert/18633539",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624222,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-edmonton-edmonton-convention-centre-2-16-2027/production/7624222",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -649,14 +665,14 @@
         "event_id": "8295219",
         "url": "https://www.ticketnetwork.com/en/p/8295219",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295219",
         "url": "https://www.ticketliquidator.com/tickets/8295219/Dropkick-Murphys-tickets-Tue-Feb-16-2027-Edmonton-Convention-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -708,14 +724,14 @@
         "event_id": 18633540,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/saskatoon-canada-sasktel-centre-2027-02-17-7-pm/concert/18633540",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624308,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-saskatoon-sasktel-centre-2-17-2027/production/7624308",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -729,14 +745,14 @@
         "event_id": "8295220",
         "url": "https://www.ticketnetwork.com/en/p/8295220",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295220",
         "url": "https://www.ticketliquidator.com/tickets/8295220/Dropkick-Murphys-tickets-Wed-Feb-17-2027-SaskTel-Centre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -789,14 +805,14 @@
         "event_id": 18633542,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/winnipeg-canada-burton-cummings-theatre-2027-02-18-7-pm/concert/18633542",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624351,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-winnipeg-burton-cummings-theatre-2-18-2027/production/7624351",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -810,14 +826,14 @@
         "event_id": "8295221",
         "url": "https://www.ticketnetwork.com/en/p/8295221",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295221",
         "url": "https://www.ticketliquidator.com/tickets/8295221/Dropkick-Murphys-tickets-Thu-Feb-18-2027-Burton-Cummings-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -870,14 +886,14 @@
         "event_id": 18633545,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/winnipeg-canada-burton-cummings-theatre-2027-02-19-7-pm/concert/18633545",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624192,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-winnipeg-burton-cummings-theatre-2-19-2027/production/7624192",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -891,14 +907,14 @@
         "event_id": "8295223",
         "url": "https://www.ticketnetwork.com/en/p/8295223",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295223",
         "url": "https://www.ticketliquidator.com/tickets/8295223/Dropkick-Murphys-tickets-Fri-Feb-19-2027-Burton-Cummings-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -951,14 +967,14 @@
         "event_id": 18633547,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/green-bay-wisconsin-epic-event-center-green-bay-2027-02-21-7-pm/concert/18633547",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625250,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-green-bay-epic-event-center-2-21-2027--concerts-alternative/production/7625250",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -972,14 +988,14 @@
         "event_id": "8298937",
         "url": "https://www.ticketnetwork.com/en/p/8298937",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8298937",
         "url": "https://www.ticketliquidator.com/tickets/8298937/Dropkick-Murphys-tickets-Sun-Feb-21-2027-EPIC-Event-Center-WI",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1021,14 +1037,14 @@
         "event_id": 18633548,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/fort-wayne-indiana-the-clyde-theatre-fort-wayne-in-2027-02-22-7-pm/concert/18633548",
         "verified": true,
-        "last_verified_at": "2026-11-15",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625252,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-fort-wayne-clyde-theatre---in-2-22-2027--concerts-alternative/production/7625252",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1042,14 +1058,14 @@
         "event_id": "8297141",
         "url": "https://www.ticketnetwork.com/en/p/8297141",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8297141",
         "url": "https://www.ticketliquidator.com/tickets/8297141/Dropkick-Murphys-tickets-Mon-Feb-22-2027-Clyde-Theatre",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1091,14 +1107,14 @@
         "event_id": 18633551,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/grand-rapids-michigan-glc-live-at-20-monroe-2027-02-24-7-pm/concert/18633551",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624092,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-grand-rapids-glc-live-at-20-monroe-2-24-2027/production/7624092",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1112,14 +1128,14 @@
         "event_id": "8295212",
         "url": "https://www.ticketnetwork.com/en/p/8295212",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295212",
         "url": "https://www.ticketliquidator.com/tickets/8295212/Dropkick-Murphys-tickets-Wed-Feb-24-2027-GLC-Live-at-20-Monroe",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1177,14 +1193,14 @@
         "event_id": 18633552,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/detroit-michigan-the-fillmore-detroit-2027-02-26-7-pm/concert/18633552",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624100,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-detroit-the-fillmore-detroit-2-26-2027/production/7624100",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1198,14 +1214,14 @@
         "event_id": "8295213",
         "url": "https://www.ticketnetwork.com/en/p/8295213",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295213",
         "url": "https://www.ticketliquidator.com/tickets/8295213/Dropkick-Murphys-tickets-Fri-Feb-26-2027-The-Fillmore-Detroit",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1263,7 +1279,7 @@
         "event_id": 18633555,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/london-canada-london-music-hall-2027-02-27-7-pm/concert/18633555",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1310,7 +1326,7 @@
     "ticketmaster_event_id": "10006539CD99E80F",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
     "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/toronto-canada-rebel-4-2027-03-01-7-pm/concert/18633557",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-toronto-rebel---on-3-1-2027/production/7624318",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dropkick-murphys-toronto-ontario-03-01-2027/event/10006539CD99E80F",
     "last_verified_at": "2026-11-07",
@@ -1328,15 +1344,15 @@
         "event_id": 18633557,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/toronto-canada-rebel-4-2027-03-01-7-pm/concert/18633557",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7624318,
+        "url": "https://www.vividseats.com/dropkick-murphys-tickets-toronto-rebel---on-3-1-2027/production/7624318",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1394,7 +1410,7 @@
         "event_id": 18633558,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/ottawa-canada-history-ottawa-2027-03-02-7-pm/concert/18633558",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1438,7 +1454,7 @@
     "country": "Canada",
     "venue": "Théâtre Capitole",
     "datetime_iso": "2027-03-04T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "St. Patrick's Day 2027 Tour",
     "ticketmaster_event_id": "31006538635511B5",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-03-2027/event/31006538635511B5",
     "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/quebec-city-canada-theatre-capitole-2027-03-03-7-pm/concert/18633560",
@@ -1460,14 +1476,14 @@
         "event_id": 18633560,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/quebec-city-canada-theatre-capitole-2027-03-03-7-pm/concert/18633560",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625256,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-quebec-city-capitole-theatre-3-3-2027--concerts-alternative/production/7625256",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1481,14 +1497,14 @@
         "event_id": "8295227",
         "url": "https://www.ticketnetwork.com/en/p/8295227",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295227",
         "url": "https://www.ticketliquidator.com/tickets/8295227/Dropkick-Murphys-tickets-Wed-Mar-3-2027-Le-Theatre-Capitole",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1519,7 +1535,7 @@
     "country": "Canada",
     "venue": "Théâtre Capitole",
     "datetime_iso": "2027-03-05T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "St. Patrick's Day 2027 Tour",
     "ticketmaster_event_id": "31006538635811BA",
     "ticketmaster_url": "https://www.ticketmaster.ca/dropkick-murphys-st-patricks-day-2027-quebec-quebec-03-04-2027/event/31006538635811BA",
     "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/quebec-city-canada-theatre-capitole-2027-03-04-7-pm/concert/18633563",
@@ -1541,14 +1557,14 @@
         "event_id": 18633563,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/quebec-city-canada-theatre-capitole-2027-03-04-7-pm/concert/18633563",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7625262,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-quebec-city-capitole-theatre-3-4-2027--concerts-alternative/production/7625262",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1562,14 +1578,14 @@
         "event_id": "8295228",
         "url": "https://www.ticketnetwork.com/en/p/8295228",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295228",
         "url": "https://www.ticketliquidator.com/tickets/8295228/Dropkick-Murphys-tickets-Thu-Mar-4-2027-Le-Theatre-Capitole",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1622,7 +1638,7 @@
         "event_id": 18633565,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/montreal-canada-l-olympia-olympia-theatre-2027-03-05-7-pm/concert/18633565",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1638,6 +1654,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8295230",
+        "url": "https://www.ticketnetwork.com/en/p/8295230",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8295230",
+        "url": "https://www.ticketliquidator.com/tickets/8295230/Dropkick-Murphys-tickets-Fri-Mar-5-2027-Olympia-Theatre-Montreal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AsZkfUGkdv84MC",
@@ -1653,7 +1683,9 @@
         "end": "2027-02-27T03:00:00Z"
       }
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8295230",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8295230/Dropkick-Murphys-tickets-Fri-Mar-5-2027-Olympia-Theatre-Montreal"
   },
   {
     "id": "tm-dropkick-murphys-2027-brooklyn-k7vgf_kictnjm",
@@ -1667,7 +1699,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "0000653B0EA63737",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-brooklyn-new-york-03-07-2027/event/0000653B0EA63737",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-07-7-pm/concert/18633567",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-brooklyn-brooklyn-paramount-3-7-2027/production/7624104",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-brooklyn-new-york-03-07-2027/event/0000653B0EA63737",
@@ -1683,17 +1715,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18633567,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/brooklyn-new-york-brooklyn-paramount-2027-03-07-7-pm/concert/18633567",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624104,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-brooklyn-brooklyn-paramount-3-7-2027/production/7624104",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1707,21 +1739,21 @@
         "event_id": "8295214",
         "url": "https://www.ticketnetwork.com/en/p/8295214",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107671545",
         "url": "https://www.stubhub.ie/dropkick-murphys-brooklyn-tickets-3-7-2027/event/107671545",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295214",
         "url": "https://www.ticketliquidator.com/tickets/8295214/Dropkick-Murphys-tickets-Sun-Mar-7-2027-Brooklyn-Paramount",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1779,14 +1811,14 @@
         "event_id": 18633568,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/wilmington-delaware-the-queen-wilmington-2027-03-08-7-pm/concert/18633568",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624110,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-wilmington-the-queen-3-8-2027/production/7624110",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1800,14 +1832,14 @@
         "event_id": "8295215",
         "url": "https://www.ticketnetwork.com/en/p/8295215",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295215",
         "url": "https://www.ticketliquidator.com/tickets/8295215/Dropkick-Murphys-tickets-Mon-Mar-8-2027-The-Queen-Wilmington",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1857,14 +1889,14 @@
         "event_id": 18633572,
         "url": "https://seatgeek.com/dropkick-murphys-tickets/portland-maine-state-theatre-portland-me-2027-03-11-7-pm/concert/18633572",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7624117,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-portland-state-theatre-portland-3-11-2027/production/7624117",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1878,14 +1910,14 @@
         "event_id": "8295216",
         "url": "https://www.ticketnetwork.com/en/p/8295216",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8295216",
         "url": "https://www.ticketliquidator.com/tickets/8295216/Dropkick-Murphys-tickets-Thu-Mar-11-2027-State-Theatre-ME",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1915,7 +1947,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006533FFA73B59",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-12-2027/event/01006533FFA73B59",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-12-7-pm/concert/18685643",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-mgm-music-hall-at-fenway-3-12-2027--concerts-alternative/production/7696175",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-12-2027/event/01006533FFA73B59",
@@ -1931,17 +1963,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18685643,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-12-7-pm/concert/18685643",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696175,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-mgm-music-hall-at-fenway-3-12-2027--concerts-alternative/production/7696175",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1955,21 +1987,21 @@
         "event_id": "8319718",
         "url": "https://www.ticketnetwork.com/en/p/8319718",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674838",
         "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-12-2027/event/107674838",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319718",
         "url": "https://www.ticketliquidator.com/tickets/8319718/Dropkick-Murphys-tickets-Fri-Mar-12-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2036,21 +2068,21 @@
         "event_id": "8319720",
         "url": "https://www.ticketnetwork.com/en/p/8319720",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674156",
         "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-13-2027/event/107674156",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319720",
         "url": "https://www.ticketliquidator.com/tickets/8319720/Dropkick-Murphys-tickets-Sat-Mar-13-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2077,7 +2109,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006537BF0F93CE",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-14-2027/event/01006537BF0F93CE",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-14-4-pm/concert/18685644",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-mgm-music-hall-at-fenway-3-14-2027--concerts-alternative/production/7696181",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-14-2027/event/01006537BF0F93CE",
@@ -2093,17 +2125,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18685644,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-mgm-music-hall-at-fenway-2027-03-14-4-pm/concert/18685644",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696181,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-mgm-music-hall-at-fenway-3-14-2027--concerts-alternative/production/7696181",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2117,21 +2149,21 @@
         "event_id": "8319723",
         "url": "https://www.ticketnetwork.com/en/p/8319723",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674157",
         "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-14-2027/event/107674157",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319723",
         "url": "https://www.ticketliquidator.com/tickets/8319723/Dropkick-Murphys-tickets-Sun-Mar-14-2027-MGM-Music-Hall-at-Fenway-Park",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2165,7 +2197,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "01006539E0BB9980",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-17-2027/event/01006539E0BB9980",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-17-5-pm/concert/18683920",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-citizens-house-of-blues-boston-3-17-2027--concerts-alternative/production/7696183",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-boston-massachusetts-03-17-2027/event/01006539E0BB9980",
@@ -2181,17 +2213,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18683920,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/boston-massachusetts-citizens-house-of-blues-boston-2027-03-17-5-pm/concert/18683920",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7696183,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-boston-citizens-house-of-blues-boston-3-17-2027--concerts-alternative/production/7696183",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2205,21 +2237,21 @@
         "event_id": "8319724",
         "url": "https://www.ticketnetwork.com/en/p/8319724",
         "verified": true,
-        "last_verified_at": "2026-10-30",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107674954",
         "url": "https://www.stubhub.ie/dropkick-murphys-boston-tickets-3-17-2027/event/107674954",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8319724",
         "url": "https://www.ticketliquidator.com/tickets/8319724/Dropkick-Murphys-tickets-Wed-Mar-17-2027-Citizens-House-Of-Blues-Boston",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2250,14 +2282,14 @@
     "country": "United States Of America",
     "venue": "The Rail",
     "datetime_iso": "2027-02-24T00:00:00Z",
-    "tour_name": "",
+    "tour_name": "St Patrick's Day 2027 Tour",
     "ticketmaster_event_id": "16006550CD4CD028",
     "ticketmaster_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-lexington-kentucky-02-23-2027/event/16006550CD4CD028",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/dropkick-murphys-tickets/lexington-kentucky-the-rail-3-2027-02-23-7-pm/concert/18754949",
     "vividseats_url": "https://www.vividseats.com/dropkick-murphys-tickets-lexington-the-rail-2-23-2027/production/7836216",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dropkick-murphys-st-patricks-day-2027-lexington-kentucky-02-23-2027/event/16006550CD4CD028",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-19",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2269,17 +2301,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18754949,
+        "url": "https://seatgeek.com/dropkick-murphys-tickets/lexington-kentucky-the-rail-3-2027-02-23-7-pm/concert/18754949",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7836216,
         "url": "https://www.vividseats.com/dropkick-murphys-tickets-lexington-the-rail-2-23-2027/production/7836216",
         "verified": true,
-        "last_verified_at": "2026-11-14",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2293,14 +2325,14 @@
         "event_id": "8363728",
         "url": "https://www.ticketliquidator.com/tickets/8363728/Dropkick-Murphys-tickets-Tue-Feb-23-2027-The-Rail-KY",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticketnetwork": {
         "event_id": "8363728",
         "url": "https://www.ticketnetwork.com/en/p/8363728",
         "verified": true,
-        "last_verified_at": "2026-11-13",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -2313,6 +2345,13 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8363728/Dropkick-Murphys-tickets-Tue-Feb-23-2027-The-Rail-KY",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363728"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8363728",
+    "presales": [
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-18T22:00:00Z",
+        "end": "2027-02-17T03:00:00Z"
+      }
+    ]
   }
 ]

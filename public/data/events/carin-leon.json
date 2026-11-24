@@ -30,7 +30,7 @@
         "event_id": 17838557,
         "url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-15-8-pm/concert/17838557",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -51,14 +51,14 @@
         "event_id": "7496384",
         "url": "https://www.ticketnetwork.com/en/p/7496384",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "7496384",
         "url": "https://www.ticketliquidator.com/tickets/7496384/Carin-Leon-tickets-Wed-Sep-15-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -102,14 +102,14 @@
         "event_id": 18583758,
         "url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-16-8-pm/concert/18583758",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7541683,
         "url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-16-2027/production/7541683",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -123,14 +123,14 @@
         "event_id": "8258206",
         "url": "https://www.ticketnetwork.com/en/p/8258206",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8258206",
         "url": "https://www.ticketliquidator.com/tickets/8258206/Carin-Leon-tickets-Thu-Sep-16-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -185,14 +185,14 @@
         "event_id": 18583757,
         "url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-17-8-pm/concert/18583757",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7541681,
         "url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-17-2027/production/7541681",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -206,14 +206,14 @@
         "event_id": "8258208",
         "url": "https://www.ticketnetwork.com/en/p/8258208",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8258208",
         "url": "https://www.ticketliquidator.com/tickets/8258208/Carin-Leon-tickets-Fri-Sep-17-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -268,14 +268,14 @@
         "event_id": 18583756,
         "url": "https://seatgeek.com/carin-leon-tickets/las-vegas-nevada-sphere-2027-09-18-8-pm/concert/18583756",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7541685,
         "url": "https://www.vividseats.com/carin-leon-tickets-las-vegas-sphere-at-the-venetian-resort-9-18-2027/production/7541685",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -289,14 +289,14 @@
         "event_id": "8258209",
         "url": "https://www.ticketnetwork.com/en/p/8258209",
         "verified": true,
-        "last_verified_at": "2026-10-27",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8258209",
         "url": "https://www.ticketliquidator.com/tickets/8258209/Carin-Leon-tickets-Sat-Sep-18-2027-Sphere",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -319,5 +319,76 @@
     ],
     "ticket_limit": 8,
     "genre": "Latin"
+  },
+  {
+    "id": "tm-carin-leon-2027-sparks-1avjz_pgkrt9h7o",
+    "artist_slug": "carin-leon",
+    "artist_name": "Carin Leon",
+    "event_name": "Carín León",
+    "city": "Sparks",
+    "country": "United States Of America",
+    "venue": "Nugget Event Center",
+    "datetime_iso": "2027-04-25T02:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1700656BE95DB111",
+    "ticketmaster_url": "https://www.ticketmaster.com/carin-leon-sparks-nevada-04-24-2027/event/1700656BE95DB111",
+    "seatgeek_url": "https://seatgeek.com/carin-leon-tickets/sparks-nevada-nugget-event-center-2027-04-24-7-pm/concert/18782513",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/carin-leon-sparks-nevada-04-24-2027/event/1700656BE95DB111",
+    "last_verified_at": "2026-11-21",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700656BE95DB111",
+        "discovery_event_id": "1AvjZ_pGkRt9h7o",
+        "url": "https://www.ticketmaster.com/carin-leon-sparks-nevada-04-24-2027/event/1700656BE95DB111",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": 18782513,
+        "url": "https://seatgeek.com/carin-leon-tickets/sparks-nevada-nugget-event-center-2027-04-24-7-pm/concert/18782513",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8374914",
+        "url": "https://www.ticketnetwork.com/en/p/8374914",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8374914",
+        "url": "https://www.ticketliquidator.com/tickets/8374914/Carin-Leon-tickets-Sat-Apr-24-2027-Nugget-Event-Center-At-Nugget-Casino-Resort",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AvjZ_pGkRt9h7o",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale",
+    "ticket_limit": 8,
+    "genre": "Latin",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8374914",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8374914/Carin-Leon-tickets-Sat-Apr-24-2027-Nugget-Event-Center-At-Nugget-Casino-Resort"
   }
 ]

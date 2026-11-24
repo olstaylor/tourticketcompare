@@ -75,6 +75,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { loadSiteFixture, crawlRoutes, computeInboundLinks } from "./lib/route-crawl.mjs";
+import { sharedClock } from "./lib/render-cache.mjs";
 import { auditEventIndexability } from "./lib/event-indexability-audit.mjs";
 import {
   checkSurface,
@@ -447,7 +448,7 @@ async function readJsonIfPresent(absolutePath) {
 // Keep the router, the crawl and every expected record on one clock: a show that
 // starts mid-crawl must not drop off the rendered pages while the route list
 // still names it (same fix as audit-internal-links.mjs).
-const AUDIT_NOW = Date.now();
+const AUDIT_NOW = sharedClock();
 Date.now = () => AUDIT_NOW;
 
 // One crawler, shared with scripts/audit-internal-links.mjs, so the two audits

@@ -11,7 +11,7 @@
     "tour_name": "The Original Vibe Room Tour",
     "ticketmaster_event_id": "0D0065289B0D5C6F",
     "ticketmaster_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-tampa-florida-04-24-2027/event/0D0065289B0D5C6F",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/kenny-chesney-tickets/tampa-florida-raymond-james-stadium-2027-04-24-4-30-pm/concert/18591990",
     "vividseats_url": "https://www.vividseats.com/kenny-chesney-tickets-tampa-raymond-james-stadium-4-24-2027--concerts-country-and-folk/production/7557268",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/kenny-chesney-the-original-vibe-room-tampa-florida-04-24-2027/event/0D0065289B0D5C6F",
@@ -27,17 +27,17 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18591990,
+        "url": "https://seatgeek.com/kenny-chesney-tickets/tampa-florida-raymond-james-stadium-2027-04-24-4-30-pm/concert/18591990",
+        "verified": true,
+        "last_verified_at": "2026-11-20",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557268,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-tampa-raymond-james-stadium-4-24-2027--concerts-country-and-folk/production/7557268",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -51,21 +51,21 @@
         "event_id": "8265768",
         "url": "https://www.ticketnetwork.com/en/p/8265768",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265768",
         "url": "https://www.ticketliquidator.com/tickets/8265768/Kenny-Chesney-tickets-Sat-Apr-24-2027-Raymond-James-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668525",
         "url": "https://www.stubhub.ie/kenny-chesney-tampa-tickets-4-24-2027/event/107668525",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -123,14 +123,14 @@
         "event_id": 18570962,
         "url": "https://seatgeek.com/kenny-chesney-tickets/greenville-north-carolina-dowdy-ficklen-stadium-2027-05-01-4-30-pm/concert/18570962",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557272,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-greenville-dowdy-ficklen-stadium-5-1-2027--concerts-country-and-folk/production/7557272",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -144,14 +144,14 @@
         "event_id": "8265769",
         "url": "https://www.ticketnetwork.com/en/p/8265769",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265769",
         "url": "https://www.ticketliquidator.com/tickets/8265769/Kenny-Chesney-tickets-Sat-May-1-2027-Dowdy-Ficklen-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -193,7 +193,7 @@
         "event_id": 18414534,
         "url": "https://seatgeek.com/kenny-chesney-tickets/arlington-texas-at-t-stadium-2027-05-08-4-30-pm/concert/18414534",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -214,21 +214,21 @@
         "event_id": "8265770",
         "url": "https://www.ticketnetwork.com/en/p/8265770",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265770",
         "url": "https://www.ticketliquidator.com/tickets/8265770/Kenny-Chesney-tickets-Sat-May-8-2027-ATT-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668526",
         "url": "https://www.stubhub.ie/kenny-chesney-arlington-tickets-5-8-2027/event/107668526",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -287,6 +287,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8265773",
+        "url": "https://www.ticketnetwork.com/en/p/8265773",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8265773",
+        "url": "https://www.ticketliquidator.com/tickets/8265773/Kenny-Chesney-tickets-Sat-May-15-2027-The-Dome-at-Americas-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1kvOvPFIGAupVVY",
@@ -308,7 +322,9 @@
       "THE MESSINA GROUP (TMG)"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8265773",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8265773/Kenny-Chesney-tickets-Sat-May-15-2027-The-Dome-at-Americas-Center"
   },
   {
     "id": "tm-kenny-chesney-2027-minneapolis-vv1akzkf0gkdyrnq8",
@@ -341,14 +357,14 @@
         "event_id": 18591994,
         "url": "https://seatgeek.com/kenny-chesney-tickets/minneapolis-minnesota-u-s-bank-stadium-2027-05-22-4-30-pm/concert/18591994",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557276,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-minneapolis-us-bank-stadium-5-22-2027/production/7557276",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -362,14 +378,14 @@
         "event_id": "8265774",
         "url": "https://www.ticketnetwork.com/en/p/8265774",
         "verified": true,
-        "last_verified_at": "2026-11-07",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265774",
         "url": "https://www.ticketliquidator.com/tickets/8265774/Kenny-Chesney-tickets-Sat-May-22-2027-US-Bank-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -421,14 +437,14 @@
         "event_id": 18591992,
         "url": "https://seatgeek.com/kenny-chesney-tickets/pittsburgh-pennsylvania-acrisure-stadium-2027-05-29-4-30-pm/concert/18591992",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557270,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-pittsburgh-acrisure-stadium-5-29-2027/production/7557270",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -442,21 +458,21 @@
         "event_id": "8265775",
         "url": "https://www.ticketnetwork.com/en/p/8265775",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265775",
         "url": "https://www.ticketliquidator.com/tickets/8265775/Kenny-Chesney-tickets-Sat-May-29-2027-Acrisure-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668125",
         "url": "https://www.stubhub.ie/kenny-chesney-pittsburgh-tickets-5-29-2027/event/107668125",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -519,14 +535,14 @@
         "event_id": 18591993,
         "url": "https://seatgeek.com/kenny-chesney-tickets/ames-iowa-midamerican-energy-field-at-jack-trice-stadium-2027-06-05-4-30-pm/concert/18591993",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557294,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-ames-midamerican-energy-field-at-jack-trice-stadium-6-5-2027--concerts-country-and-folk/production/7557294",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -580,14 +596,14 @@
         "event_id": 18591995,
         "url": "https://seatgeek.com/kenny-chesney-tickets/philadelphia-pennsylvania-lincoln-financial-field-2027-06-12-4-30-pm/concert/18591995",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557292,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-philadelphia-lincoln-financial-field-6-12-2027/production/7557292",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -601,21 +617,21 @@
         "event_id": "8265777",
         "url": "https://www.ticketnetwork.com/en/p/8265777",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265777",
         "url": "https://www.ticketliquidator.com/tickets/8265777/Kenny-Chesney-tickets-Sat-Jun-12-2027-Lincoln-Financial-Field",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668529",
         "url": "https://www.stubhub.ie/kenny-chesney-philadelphia-tickets-6-12-2027/event/107668529",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -684,14 +700,14 @@
         "event_id": 18592002,
         "url": "https://seatgeek.com/kenny-chesney-tickets/orchard-park-new-york-highmark-stadium-ny-2027-06-19-4-30-pm/concert/18592002",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557365,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-orchard-park-highmark-stadium-6-19-2027/production/7557365",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -705,14 +721,14 @@
         "event_id": "8265778",
         "url": "https://www.ticketnetwork.com/en/p/8265778",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265778",
         "url": "https://www.ticketliquidator.com/tickets/8265778/Kenny-Chesney-tickets-Sat-Jun-19-2027-New-Highmark-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -765,14 +781,14 @@
         "event_id": 18592003,
         "url": "https://seatgeek.com/kenny-chesney-tickets/chicago-illinois-soldier-field-2027-06-26-4-30-pm/concert/18592003",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557266,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-chicago-soldier-field-6-26-2027/production/7557266",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -786,21 +802,21 @@
         "event_id": "8265779",
         "url": "https://www.ticketnetwork.com/en/p/8265779",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265779",
         "url": "https://www.ticketliquidator.com/tickets/8265779/Kenny-Chesney-tickets-Sat-Jun-26-2027-Soldier-Field",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668530",
         "url": "https://www.stubhub.ie/kenny-chesney-chicago-tickets-6-26-2027/event/107668530",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -863,7 +879,7 @@
         "event_id": 7557280,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-nashville-nissan-stadium-7-3-2027/production/7557280",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -877,14 +893,14 @@
         "event_id": "8265780",
         "url": "https://www.ticketnetwork.com/en/p/8265780",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265780",
         "url": "https://www.ticketliquidator.com/tickets/8265780/Kenny-Chesney-tickets-Sat-Jul-3-2027-New-Nissan-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -926,14 +942,14 @@
         "event_id": 18592004,
         "url": "https://seatgeek.com/kenny-chesney-tickets/milwaukee-wisconsin-american-family-field-2027-07-10-4-30-pm/concert/18592004",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557296,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-milwaukee-american-family-field-7-10-2027/production/7557296",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -947,14 +963,21 @@
         "event_id": "8265781",
         "url": "https://www.ticketnetwork.com/en/p/8265781",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265781",
         "url": "https://www.ticketliquidator.com/tickets/8265781/Kenny-Chesney-tickets-Sat-Jul-10-2027-American-Family-Field",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107682256",
+        "url": "https://www.stubhub.ie/kenny-chesney-milwaukee-tickets-7-10-2027/event/107682256",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -980,7 +1003,8 @@
       "AEG LIVE"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "stubhub_international_url": "https://www.stubhub.ie/kenny-chesney-milwaukee-tickets-7-10-2027/event/107682256"
   },
   {
     "id": "tm-kenny-chesney-2027-denver-g5vzz_3k6u08y",
@@ -1013,14 +1037,14 @@
         "event_id": 18592005,
         "url": "https://seatgeek.com/kenny-chesney-tickets/denver-colorado-empower-field-at-mile-high-2027-07-17-4-30-pm/concert/18592005",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557284,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-denver-empower-field-at-mile-high-7-17-2027/production/7557284",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1034,14 +1058,14 @@
         "event_id": "8265782",
         "url": "https://www.ticketnetwork.com/en/p/8265782",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265782",
         "url": "https://www.ticketliquidator.com/tickets/8265782/Kenny-Chesney-tickets-Sat-Jul-17-2027-Empower-Field-At-Mile-High",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1098,14 +1122,14 @@
         "event_id": 18592006,
         "url": "https://seatgeek.com/kenny-chesney-tickets/kansas-city-missouri-geha-field-at-arrowhead-stadium-2027-07-24-4-30-pm/concert/18592006",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557278,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-kansas-city-arrowhead-stadium-7-24-2027/production/7557278",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1119,14 +1143,14 @@
         "event_id": "8265784",
         "url": "https://www.ticketnetwork.com/en/p/8265784",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265784",
         "url": "https://www.ticketliquidator.com/tickets/8265784/Kenny-Chesney-tickets-Sat-Jul-24-2027-Arrowhead-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1184,14 +1208,14 @@
         "event_id": 18592008,
         "url": "https://seatgeek.com/kenny-chesney-tickets/atlanta-georgia-mercedes-benz-stadium-2027-07-31-4-30-pm/concert/18592008",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557282,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-atlanta-mercedes-benz-stadium-7-31-2027/production/7557282",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1205,21 +1229,21 @@
         "event_id": "8265786",
         "url": "https://www.ticketnetwork.com/en/p/8265786",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265786",
         "url": "https://www.ticketliquidator.com/tickets/8265786/Kenny-Chesney-tickets-Sat-Jul-31-2027-Mercedes-Benz-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668714",
         "url": "https://www.stubhub.ie/kenny-chesney-atlanta-tickets-7-31-2027/event/107668714",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1275,14 +1299,14 @@
         "event_id": 18592014,
         "url": "https://seatgeek.com/kenny-chesney-tickets/east-rutherford-new-jersey-metlife-stadium-2027-08-07-4-30-pm/concert/18592014",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557286,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-east-rutherford-metlife-stadium-8-7-2027/production/7557286",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1296,21 +1320,21 @@
         "event_id": "8265787",
         "url": "https://www.ticketnetwork.com/en/p/8265787",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265787",
         "url": "https://www.ticketliquidator.com/tickets/8265787/Kenny-Chesney-tickets-Sat-Aug-7-2027-MetLife-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668126",
         "url": "https://www.stubhub.ie/kenny-chesney-east-rutherford-tickets-7-7-2027/event/107668126",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1361,14 +1385,14 @@
         "event_id": 18592016,
         "url": "https://seatgeek.com/kenny-chesney-tickets/detroit-michigan-ford-field-2027-08-14-4-30-pm/concert/18592016",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557288,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-detroit-ford-field-8-14-2027/production/7557288",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1382,14 +1406,14 @@
         "event_id": "8265788",
         "url": "https://www.ticketnetwork.com/en/p/8265788",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265788",
         "url": "https://www.ticketliquidator.com/tickets/8265788/Kenny-Chesney-tickets-Sat-Aug-14-2027-Ford-Field",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1438,14 +1462,14 @@
         "event_id": 18592015,
         "url": "https://seatgeek.com/kenny-chesney-tickets/charlotte-north-carolina-bank-of-america-stadium-2027-08-21-4-30-pm/concert/18592015",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557298,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-charlotte-bank-of-america-stadium-8-21-2027/production/7557298",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1459,14 +1483,14 @@
         "event_id": "8265789",
         "url": "https://www.ticketnetwork.com/en/p/8265789",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265789",
         "url": "https://www.ticketliquidator.com/tickets/8265789/Kenny-Chesney-tickets-Sat-Aug-21-2027-Bank-Of-America-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -1519,14 +1543,14 @@
         "event_id": 18608957,
         "url": "https://seatgeek.com/kenny-chesney-tickets/foxborough-massachusetts-gillette-stadium-2027-08-27-4-30-pm/concert/18608957",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7587267,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-foxborough-gillette-stadium-8-27-2027--concerts-country-and-folk/production/7587267",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1540,21 +1564,21 @@
         "event_id": "8276965",
         "url": "https://www.ticketnetwork.com/en/p/8276965",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8276965",
         "url": "https://www.ticketliquidator.com/tickets/8276965/Kenny-Chesney-tickets-Fri-Aug-27-2027-Gillette-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107672442",
         "url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-27-2027/event/107672442",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1608,14 +1632,14 @@
         "event_id": 18592017,
         "url": "https://seatgeek.com/kenny-chesney-tickets/foxborough-massachusetts-gillette-stadium-2027-08-28-4-30-pm/concert/18592017",
         "verified": true,
-        "last_verified_at": "2026-11-12",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7557260,
         "url": "https://www.vividseats.com/kenny-chesney-tickets-foxborough-gillette-stadium-8-28-2027/production/7557260",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1629,21 +1653,21 @@
         "event_id": "8265790",
         "url": "https://www.ticketnetwork.com/en/p/8265790",
         "verified": true,
-        "last_verified_at": "2026-09-24",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265790",
         "url": "https://www.ticketliquidator.com/tickets/8265790/Kenny-Chesney-tickets-Sat-Aug-28-2027-Gillette-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107668127",
         "url": "https://www.stubhub.ie/kenny-chesney-foxborough-tickets-8-28-2027/event/107668127",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

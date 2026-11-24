@@ -293,19 +293,19 @@ export function artistPageTitle(artist, yearLabel, tourLabel = "", { priced = tr
 // after editing any copy below; `--check` runs in CI and fails a stale commit.
 export const TRUST_ROUTES = {
   "/": {
-    title: "Compare Concert Ticket Prices | TourTicketCompare",
+    title: "Compare Concert Ticket Prices by Artist | TourTicketCompare",
     description:
       "Compare ticket prices for the show you want. Choose an artist and date, see each ticket site's listed price where available, then check the total.",
     indexable: true,
-    lastmod: "2026-11-16"
+    lastmod: "2026-11-23"
   },
   "/compare-concert-ticket-prices": {
-    title: "Compare Concert Ticket Prices by Show | TourTicketCompare",
+    title: "Compare Artist Ticket Prices by Show | TourTicketCompare",
     description:
       "Pick an artist and date to compare each site's listed price for the same show, with when it was checked. Then check seats, fees and the final total.",
     indexable: true,
     breadcrumb: [{ name: "Compare Concert Ticket Prices", path: "/compare-concert-ticket-prices" }],
-    lastmod: "2026-11-16"
+    lastmod: "2026-11-23"
   },
   "/artists": {
     title: "Artists | TourTicketCompare",
@@ -313,7 +313,7 @@ export const TRUST_ROUTES = {
       "Browse major artist pages with verified ticket links where available and practical buying guidance on what to check before checkout.",
     indexable: true,
     breadcrumb: [{ name: "Artists", path: "/artists" }],
-    lastmod: "2026-11-06"
+    lastmod: "2026-11-23"
   },
   "/guides": {
     title: "Concert Ticket Buying Guides | TourTicketCompare",
@@ -330,7 +330,7 @@ export const TRUST_ROUTES = {
     indexable: true,
     faq: true,
     breadcrumb: [{ name: "How it works", path: "/how-it-works" }],
-    lastmod: "2026-11-02"
+    lastmod: "2026-11-21"
   },
   "/currency-converter": {
     title: "Currency Converter for Concert Tickets | TourTicketCompare",

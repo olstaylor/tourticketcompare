@@ -54,6 +54,18 @@ const PAST_EVENT_GRACE_MS = 24 * 60 * 60 * 1000;
 // The attempt ladder below issues at most this many queries per event; it is
 // what turns an API-call cap into an events-per-run window.
 const MAX_ATTEMPTS_PER_EVENT = 5;
+// Most upcoming dates SeatGeek does not list at all, and those now stop after
+// the probe query (see PROBE_ATTEMPT_COUNT), so an event costs about one to two
+// calls on average. This is what sizes a capped run's window; a run
+// whose budget runs out first reports the tail as not checked.
+const EXPECTED_ATTEMPTS_PER_EVENT = 2;
+// The first attempt of the ladder is a probe: the broadest date-anchored
+// query. If it returns a single candidate the date is not listed and the
+// narrower queries (which only add search terms to the same date filter) cannot
+// find anything either, so the ladder stops. Measured 2026-11-22: 42 of 45
+// unlinked upcoming events returned nothing on all five attempts, and every
+// listing the narrower attempts found was also found by the artist-only probe.
+const PROBE_ATTEMPT_COUNT = 1;
 const DEFAULT_PER_PAGE = 20;
 const HIGH_CONFIDENCE_MIN_SCORE = 78;
 const CONFLICT_SCORE_WINDOW = 10;
@@ -166,7 +178,7 @@ function parseArgs(argv) {
 }
 
 function usage() {
-  return `Usage: node scripts/enrich-seatgeek-events.mjs [options]\n\nSearch SeatGeek with SEATGEEK_CLIENT_ID only and add event-level SeatGeek URLs only in explicit apply mode. Default mode is a dry-run: events.json is not modified, but the audit log is refreshed.\n\nOnly upcoming events are eligible. Eligible events are ordered by fewest publishable exact-event CTAs, then nearest date; a capped run checks one rotating window of that order so consecutive runs sweep the whole set.\n\nOptions:\n  --apply-high-confidence  Write high-confidence top-level seatgeek_url matches to events.json\n  --artist <slug-or-name>  Filter by exact artist slug or artist name\n  --limit <number>         Process at most this many selected events\n  --max-events <number>    Alias for --limit\n  --delay-ms <number>      Delay before each SeatGeek API call (default: 1000)\n  --max-api-calls <number> Stop before exceeding this many enrichment API calls\n  --events-per-run <n>     Window size (default: --max-api-calls / ${MAX_ATTEMPTS_PER_EVENT})\n  --rotation-key <n>       Window index source (default: UTC day number)\n  --resume-from-log        Resume from the next showId written in the audit log\n  --resume-from <showId>   Resume from a specific selected showId\n  --refresh                Include events that already have seatgeek_url\n  --json                   Emit machine-readable JSON\n  --verbose                Include API query and candidate diagnostics\n  --self-test              Run the offline scheduling/matching tests\n  --log-path <path>        Override audit log path\n  -h, --help               Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID       Required (except for --self-test)\n`;
+  return `Usage: node scripts/enrich-seatgeek-events.mjs [options]\n\nSearch SeatGeek with SEATGEEK_CLIENT_ID only and add event-level SeatGeek URLs only in explicit apply mode. Default mode is a dry-run: events.json is not modified, but the audit log is refreshed.\n\nOnly upcoming events are eligible. Eligible events are ordered by fewest publishable exact-event CTAs, then nearest date; a capped run checks one rotating window of that order so consecutive runs sweep the whole set.\n\nOptions:\n  --apply-high-confidence  Write high-confidence top-level seatgeek_url matches to events.json\n  --artist <slug-or-name>  Filter by exact artist slug or artist name\n  --limit <number>         Process at most this many selected events\n  --max-events <number>    Alias for --limit\n  --delay-ms <number>      Delay before each SeatGeek API call (default: 1000)\n  --max-api-calls <number> Stop before exceeding this many enrichment API calls\n  --events-per-run <n>     Window size (default: --max-api-calls / ${EXPECTED_ATTEMPTS_PER_EVENT})\n  --rotation-key <n>       Window index source (default: UTC day number)\n  --resume-from-log        Resume from the next showId written in the audit log\n  --resume-from <showId>   Resume from a specific selected showId\n  --refresh                Include events that already have seatgeek_url\n  --json                   Emit machine-readable JSON\n  --verbose                Include API query and candidate diagnostics\n  --self-test              Run the offline scheduling/matching tests\n  --log-path <path>        Override audit log path\n  -h, --help               Show this help\n\nEnvironment:\n  SEATGEEK_CLIENT_ID       Required (except for --self-test)\n`;
 }
 
 function clean(value, max = 500) {
@@ -367,7 +379,7 @@ function eligibleEvents(events, options, now = Date.now(), ctaCountFor = () => 0
 function eventsPerRunFor(options) {
   if (options.eventsPerRun !== null) return options.eventsPerRun;
   if (options.limit !== null) return options.limit;
-  if (options.maxApiCalls !== null) return Math.max(1, Math.floor(options.maxApiCalls / MAX_ATTEMPTS_PER_EVENT));
+  if (options.maxApiCalls !== null) return Math.max(1, Math.floor(options.maxApiCalls / EXPECTED_ATTEMPTS_PER_EVENT));
   return null;
 }
 
@@ -396,6 +408,13 @@ function buildAttempts(event) {
   const exactDate = localDateForEvent(event);
   const attempts = [
     {
+      name: "artist only + exact date",
+      q: artist,
+      city: "",
+      dateStart: exactDate,
+      dateEnd: exactDate
+    },
+    {
       name: "artist + venue + city + exact date",
       q: [artist, venue, city].filter(Boolean).join(" "),
       city,
@@ -422,13 +441,6 @@ function buildAttempts(event) {
       city,
       dateStart: shiftLocalDateIso(exactDate, -1),
       dateEnd: shiftLocalDateIso(exactDate, 1)
-    },
-    {
-      name: "artist only + exact date",
-      q: artist,
-      city: "",
-      dateStart: exactDate,
-      dateEnd: exactDate
     }
   ];
   // Drop attempts that would issue an identical query. With a blank venue,
@@ -517,7 +529,12 @@ async function fetchSeatGeekCandidates(event, options, runState) {
   const attemptResults = [];
   const errors = [];
 
+  let attemptIndex = 0;
   for (const attempt of attempts) {
+    // Probe finished and found nothing: this date is not listed, so the narrower
+    // queries cannot find it either. Stop and spend the budget on the next event.
+    if (attemptIndex === PROBE_ATTEMPT_COUNT && candidateMap.size === 0 && attemptResults.some((r) => r.ok)) break;
+    attemptIndex += 1;
     const url = buildSeatGeekUrl(attempt);
     const safeUrl = safeApiUrl(url);
     if (options.verbose && !options.json) console.error(`Query ${event.id}: ${attempt.name}: ${safeUrl}`);
@@ -1304,7 +1321,7 @@ function selfTest() {
   assert("the rotation key is stable within a UTC day", defaultRotationKey(Date.parse("2026-08-08T01:00:00Z")) === defaultRotationKey(Date.parse("2026-08-08T23:00:00Z")));
 
   // The API budget maps to an honest events-per-run window.
-  assert("150 API calls is a 30-event window", eventsPerRunFor({ ...baseOptions, maxApiCalls: 150 }) === 30);
+  assert("150 API calls is a 75-event window (most events stop after the probe)", eventsPerRunFor({ ...baseOptions, maxApiCalls: 150 }) === 75);
   assert("an explicit --events-per-run wins", eventsPerRunFor({ ...baseOptions, maxApiCalls: 150, eventsPerRun: 5 }) === 5);
   assert("no cap means no window", eventsPerRunFor(baseOptions) === null);
 
@@ -1330,6 +1347,7 @@ function selfTest() {
   // Attempt de-duplication: identical queries never burn two budget slots.
   const noVenue = buildAttempts(tmVerified("nv", { venue: "" }));
   assert("identical attempts are de-duplicated", new Set(noVenue.map((a) => `${a.q}|${a.city}|${a.dateStart}|${a.dateEnd}`)).size === noVenue.length);
+  assert("the broadest date-anchored query runs first, as the probe", buildAttempts(tmVerified("probe"))[0].name === "artist only + exact date");
   assert("the full ladder is never longer than the per-event budget", buildAttempts(tmVerified("full")).length <= MAX_ATTEMPTS_PER_EVENT);
 
   // Zero/ambiguous candidates remain no-write outcomes.

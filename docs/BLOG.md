@@ -295,7 +295,11 @@ Automatic mode runs only after the existing **Weekly blog opportunities** workfl
 succeeds on upstream `main`, first run attempt only. It does not consume artifacts
 or execute code from the triggering run. Set `BLOG_DRAFT_ENABLED=false` to stop
 automatic drafting. Enabling it authorises at most one new draft PR per week,
-not article approval, merge or unattended publication. Some weeks intentionally
+not article approval, merge or unattended publication. Automated drafting is capped at one new draft PR in any rolling 7 days
+(owner decision 2026-11-20; `MAX_DRAFTS_PER_WEEK` in `scripts/lib/blog-drafting.mjs`),
+counted from existing automated draft PRs of any state, so the Monday and
+Thursday runs share it. A manual dispatch that names artists is an explicit
+request and is not capped. Some weeks intentionally
 produce nothing, and an outstanding editorial PR pauses the next week.
 
 ## Automated data stories

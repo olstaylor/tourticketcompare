@@ -46,7 +46,8 @@
 // Safety properties (see SAFE_PUBLISHING_RULES.md / docs/PROVIDER_SYNC.md):
 //   - event_name is the verbatim Ticketmaster Discovery API listing title —
 //     provider-sourced fact, never constructed locally.
-//   - tour_name is never inferred (left blank for human verification, #172).
+//   - tour_name comes only from a strict "Artist: X Tour" listing title
+//     (tourNameFromTitle, owner-approved 2026-11-21); otherwise blank.
 //   - Only registry-eligible, sync_enabled, verified artists are processed
 //     (the recogniser enforces this; this script trusts its report).
 //   - Withheld rows are surfaced for review, never published.
@@ -148,8 +149,8 @@ function buildEventId(slug, datetimeIso, city, discoveryId) {
 // Maps one recogniser report row (status code resolved already, storefront URL
 // resolved already) into a candidate CSV row object. event_name is the official
 // Ticketmaster Discovery API listing title, carried verbatim (a provider-sourced
-// fact, same trust level as date/venue). tour_name is always blank — never
-// inferred from a URL slug or a listing title (#172); a human supplies it.
+// fact, same trust level as date/venue). tour_name is taken only by the strict
+// listing-title rule in tourNameFromTitle (never from a URL slug); else blank.
 // The IANA venue timezone the recogniser read off the exact Discovery record.
 // Anything that is not in Area/Location form is not a zone we can resolve a
 // venue-local date with, so it is treated as absent rather than stored.
@@ -173,6 +174,23 @@ function assertTimezonePreserved(reportRow, csvRow) {
   return csvRow;
 }
 
+// Tour name from the verbatim Ticketmaster listing title, owner-approved
+// 2026-11-21 (same rule as the #2420 backfill). Only 'Artist: X Tour' or
+// 'Artist - X Tour' where X Tour is the whole remainder: no support-act or
+// extra billing (w/, with, +, &, and, feat., presents, further colons) and the
+// word 'Tour' must appear. Anything else stays blank for a human.
+export function tourNameFromTitle(title, artistName) {
+  const artist = clean(artistName);
+  if (!artist) return "";
+  const escaped = artist.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const m = clean(title).match(new RegExp(`^${escaped}\\s*(?::|\\s[-\u2013\u2014]\\s)\\s*(.+)$`, "i"));
+  if (!m) return "";
+  const rest = m[1].trim();
+  if (!/\bTour\b/i.test(rest)) return "";
+  if (/\s(w\/|with|\+|&|and|feat\.?|ft\.?|presents|special guests?|vs\.?)\s|[:|/(]/i.test(rest)) return "";
+  return rest;
+}
+
 function buildCsvRow(reportRow, slug, artistName) {
   const discoveryId = clean(reportRow.ticketmaster_discovery_event_id);
   return assertTimezonePreserved(reportRow, {
@@ -185,7 +203,7 @@ function buildCsvRow(reportRow, slug, artistName) {
     datetime_iso: clean(reportRow.datetime_iso),
     timezone: clean(reportRow.timezone),
     event_name: clean(reportRow.event_name),
-    tour_name: "",
+    tour_name: tourNameFromTitle(reportRow.event_name, artistName),
     status: statusFromCode(reportRow.status_code),
     ticketmaster_event_id: clean(reportRow.ticketmaster_event_id),
     ticketmaster_discovery_event_id: discoveryId,
@@ -545,7 +563,14 @@ function selfTest() {
   assert("buildCsvRow keeps every CSV column", CSV_COLUMNS.every((c) => c in csvRow));
   assert("buildCsvRow carries the API listing title verbatim as event_name", csvRow.event_name === longRow.event_name);
   assert("buildCsvRow blanks event_name when the API listing has none", buildCsvRow({ ...longRow, event_name: "" }, "raye", "RAYE").event_name === "");
-  assert("buildCsvRow never infers tour_name", csvRow.tour_name === "");
+  assert("buildCsvRow leaves tour_name blank when the title is not 'Artist: X Tour'", buildCsvRow({ ...longRow, event_name: "RAYE w/ Guest" }, "raye", "RAYE").tour_name === "" && buildCsvRow({ ...longRow, event_name: "" }, "raye", "RAYE").tour_name === "");
+  const tn = (t, a = "Morgan Wallen") => tourNameFromTitle(t, a);
+  assert("tour name from 'Artist: X Tour'", tn("Morgan Wallen: Still the Problem Tour") === "Still the Problem Tour");
+  assert("tour name from 'Artist - X Tour'", tn("Morgan Wallen - Still the Problem Tour") === "Still the Problem Tour");
+  assert("no tour name when title has no 'Tour'", tn("Morgan Wallen: Together, Together") === "");
+  assert("no tour name with support billing", tn("Morgan Wallen w/ Hardy") === "" && tn("Morgan Wallen: Still the Problem Tour w/ Hardy") === "" && tn("Morgan Wallen: Still the Problem Tour + Hardy") === "");
+  assert("no tour name for another artist's title", tn("Hardy: Some Tour") === "");
+  assert("buildCsvRow fills tour_name from title", buildCsvRow({ ...longRow, event_name: "RAYE: Some Tour" }, "raye", "RAYE").tour_name === "Some Tour");
   assert("buildCsvRow carries the resolved storefront url", csvRow.ticketmaster_url === longRow.ticketmaster_url);
   assert("buildCsvRow blanks marketplace columns", csvRow.seatgeek_url === "" && csvRow.vividseats_url === "");
   assert("buildCsvRow carries the Discovery venue timezone verbatim", csvRow.timezone === longRow.timezone);
@@ -871,7 +896,7 @@ async function main() {
     "Full per-candidate accounting (every discovered show, its result and its reason codes) is in `ingestion-outcomes.json` in this run's artifact.",
     "",
     "## Explicit non-changes",
-    "- `tour_name` is left blank on every new row — never inferred from a URL slug or listing title (#172). A human supplies the official tour name in a follow-up.",
+    "- `tour_name` is filled only when the Ticketmaster listing title is exactly `Artist: X Tour` or `Artist - X Tour` (no support-act billing); otherwise it is left blank for a human.",
     "- No changes to `functions/api/out.js`, `VERIFIED_TICKET_LINKS`, or affiliate logic.",
     "- No prices or availability claims.",
     options.autoMerge
@@ -886,7 +911,7 @@ async function main() {
     "## Human review checklist" + (options.autoMerge ? " (post-merge spot check)" : ""),
     "- [ ] Each added event is a real, upcoming, correctly-attributed show.",
     "- [ ] `machine_high_confidence` rows resolve to a working storefront page in a browser.",
-    "- [ ] Verify and add the official `tour_name` (or open a follow-up).",
+    "- [ ] Where `tour_name` is blank, add the official name (or open a follow-up).",
   ].join("\n");
 
   const pr = await githubApi(`/repos/${owner}/${name}/pulls`, {
@@ -905,7 +930,7 @@ async function main() {
     // SAFE_PUBLISHING_RULES.md): new shows of registry-verified, sync-enabled
     // artists may merge without a human once the full validation suite has
     // passed in this same process on exactly this content.
-    // Withheld rows were never written; tour_name stays human-gated.
+    // Withheld rows were never written.
     //
     // `main` additionally requires the `test-mvp` check on the commit being
     // published, and a bot-opened PR raises no pull_request run to produce it,

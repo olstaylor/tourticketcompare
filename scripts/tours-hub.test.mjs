@@ -97,6 +97,14 @@ assert(deriveToursHubCityRuns(runEvents, ["artist-a"], 2028, NOW_MS).length === 
 const runBody = renderToursHubBody({ path: TOURS_HUB_PATH, hub: { ...hub, cityRuns: [{ artistSlug: "artist-a", path: "/artists/artist-a/tickets/springfield-united-states", city: "Springfield", country: "United States", showCount: 2, venueCount: 1 }] }, breadcrumb: [] });
 assert(runBody.includes("Longest 2027 city runs") && runBody.includes('href="/artists/artist-a/tickets/springfield-united-states"'), "the page links each city run");
 
+// Only the first six runs sit above the artist list; the rest stay as links in a closed <details>.
+const manyRuns = Array.from({ length: 10 }, (_, i) => ({ artistSlug: "artist-a", path: `/artists/artist-a/tickets/city-${i}-united-states`, city: `City ${i}`, country: "United States", showCount: 10 - i, venueCount: 1 }));
+const manyBody = renderToursHubBody({ path: TOURS_HUB_PATH, hub: { ...hub, cityRuns: manyRuns }, breadcrumb: [] });
+const [beforeMore, afterMore] = manyBody.split("<details");
+assert((beforeMore.match(/city-\d-united-states/g) || []).length === 6, "six city runs show before the disclosure");
+assert(afterMore.includes("Show 4 more city runs") && afterMore.includes("city-9-united-states"), "remaining runs stay linked inside the disclosure");
+assert(runBody.indexOf("<details") === -1 || !runBody.includes("more city runs"), "a short list has no disclosure");
+
 // Homepage city strip: only runs with two listed-price lanes on a date, so
 // fixtures without price snapshots yield none, and noindex artists never appear.
 assert(deriveHomeCityRuns(runEvents, ["artist-a", "artist-b"], NOW_MS).length === 0, "the homepage strip needs a priced run");
@@ -104,5 +112,13 @@ assert(deriveHomeCityRuns(runEvents, [], NOW_MS).length === 0, "the homepage str
 
 const empty = renderToursHubBody({ path: TOURS_HUB_PATH, hub: deriveToursHub([], catalog, 2027, NOW_MS), breadcrumb: [] });
 assert(empty.includes("No tracked artist has upcoming dates in 2027 yet"), "an empty hub says so");
+
+const perCountry = first.byCountry;
+assert(Object.keys(perCountry).length === first.countries.length, "per-country counts cover each country the artist plays");
+assert(Object.values(perCountry).reduce((n, c) => n + c.showCount, 0) === first.showCount, "per-country dates add up to the artist's dates");
+const withChips = renderToursHubBody({ path: TOURS_HUB_PATH, hub: { ...hub, countryChoices: [{ country: "United Kingdom", artistCount: 5 }] }, breadcrumb: [] });
+assert(withChips.includes("data-country-chooser") && withChips.includes('data-country="United Kingdom"'), "country chips render");
+assert(withChips.includes("data-by-country="), "each artist tile carries its per-country counts");
+assert(!empty.includes("data-country-chooser"), "no chips when there is nothing to choose");
 
 console.log(`tours-hub: ${passed} assertions passed`);

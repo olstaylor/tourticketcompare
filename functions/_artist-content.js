@@ -335,8 +335,7 @@ export function artistTicketHelp() {
     intro: "TourTicketCompare doesn't sell tickets. Each button opens a ticket site, and you buy there.",
     points: [
       "A button on a date card opens that exact date.",
-      "Starting prices can cover different seats, quantities and fees. Match the ticket details and full order totals before choosing.",
-      "If a date has no ticket button, no link has been checked for it yet. Ask the seller whether tickets are available."
+      "Starting prices can cover different seats, quantities and fees. Match the ticket details and full order totals before choosing."
     ]
   };
 }
@@ -416,7 +415,7 @@ export function artistFaqEntries(artist, status, options = {}) {
         ? status.showsWithCta > 0
           ? ` ${status.showsWithCta} of them currently have a checked ticket link.`
           : ` None of them have a checked ticket link yet.`
-        : ` Each one has at least one checked ticket link.`;
+        : "";
     entries.push([
       `How many ${name} dates are listed on this page?`,
       `${plural(status.showCount, "upcoming date")}${spread.length ? `, across ${joinList(spread)}` : ""}.${range}${coverage} The list changes as dates pass and as new ones are verified.`

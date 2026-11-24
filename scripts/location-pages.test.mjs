@@ -428,7 +428,7 @@ for (const [label, page] of [["city", cityPage], ["venue", venuePage]]) {
     page.main.includes("About prices, seller order") && page.main.includes('href="/affiliate-disclosure"'),
     `${label} page carries the how-this-site-makes-money disclosure with its link`
   );
-  assert(page.main.includes("Dates checked daily"), `${label} page states the daily re-check (P8)`);
+  assert(page.main.includes("Dates checked nightly for changes"), `${label} page states the nightly re-check (P8)`);
   // 2026-09-25 (owner request): the summary sentence and coverage note sit under
   // the date list; only the one-line money statement stays above the dates.
   const listAt = page.main.indexOf("data-show-list");

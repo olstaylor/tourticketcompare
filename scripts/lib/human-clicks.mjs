@@ -33,9 +33,24 @@ export function pageBackedSql(alias = "") {
   return `(${prefix}request_key || '|' || substr(${prefix}created_at, 1, 10)) IN (SELECT seen.request_key || '|' || substr(seen.created_at, 1, 10) FROM analytics_events seen WHERE seen.event_name IN (${EVENT_LIST}) AND seen.request_key IS NOT NULL)`;
 }
 
+// SQL predicate for a redirect whose source cannot be a real click. Since
+// 18 Nov 2026 a crawler sends same-origin Sec-Fetch-* headers and a same-origin
+// Referer of "/", so neither the receipt gate nor the WAF rule can tell it from
+// a visitor. Checked against D1 (18-20 Nov): source_path "/" with a CTA the
+// home page does not render (only `home_answer` exists there) made 454
+// redirects, while "/" had no redirects at all on 14-17 Nov. Its Linux
+// desktop page_views are already dropped from analytics (#2332), so most of the
+// rest is unbacked. Report queries must not read user_agent (funnel-analytics
+// test), so this uses only source_path and cta_location. Reporting only: the
+// redirect and Sub ID behaviour are unchanged.
+export function suspectedBotRedirectSql(alias = "") {
+  const prefix = alias ? `${alias}.` : "";
+  return `(COALESCE(${prefix}source_path, '') = '/' AND COALESCE(${prefix}cta_location, '') != 'home_answer')`;
+}
+
 // SQL predicate for a page-backed redirect: an outbound_click with page
-// evidence from the same visitor-day.
+// evidence from the same visitor-day that is not a suspected bot redirect.
 export function humanRedirectSql(alias = "") {
   const name = alias ? `${alias}.event_name` : "event_name";
-  return `${name} = 'outbound_click' AND ${pageBackedSql(alias)}`;
+  return `${name} = 'outbound_click' AND ${pageBackedSql(alias)} AND NOT ${suspectedBotRedirectSql(alias)}`;
 }

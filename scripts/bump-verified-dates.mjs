@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import fs from 'node:fs/promises';
+import { buildTmFindingIds, isApiConfirmed } from './lib/api-confirmed-links.mjs';
 
 const DEFAULT_ARTISTS_PATH = new URL('../public/data/artists.json', import.meta.url);
 
@@ -13,6 +14,7 @@ const linksPath = arg('--links');
 const tmPath = arg('--tm');
 const tmStatusPath = arg('--tm-status');
 const artistsPathArg = arg('--artists');
+const eventsPathArg = arg('--events');
 const today = arg('--today') || new Date().toISOString().slice(0, 10);
 const dryRun = argv.includes('--dry-run');
 
@@ -41,7 +43,8 @@ async function readJson(path) {
 
 async function main() {
   const tmStatus = await readJson(tmStatusPath);
-  if (!tmStatus || tmStatus.status !== 'ok') {
+  // 'partial' = a few events were unfetchable; the per-artist error guard below holds them.
+  if (!tmStatus || !['ok', 'partial'].includes(tmStatus.status)) {
     const detail = tmStatus
       ? `status=${tmStatus.status}${tmStatus.reason ? ` (${tmStatus.reason})` : ''}`
       : `no tm-status.json at ${tmStatusPath}`;
@@ -77,8 +80,22 @@ async function main() {
   // last_verified_at on the basis of links we could not actually verify.
   // Links referenced exclusively by expired events cannot affect the live
   // board and are explicitly classified as historical by the link audit.
+  // Ticketmaster and SeatGeek always answer the runner 403. With --events, such a
+  // link stops holding its artist only when the same event is confirmed by an API
+  // check on record (see lib/api-confirmed-links.mjs); everything else stays held.
+  let apiContext = null;
+  if (eventsPathArg) {
+    const events = await readJson(eventsPathArg);
+    if (!Array.isArray(events)) {
+      console.error(`--events ${eventsPathArg} is not an event array; aborting to stay safe.`);
+      process.exit(2);
+    }
+    apiContext = { eventsById: new Map(events.map((e) => [e.id, e])), tmFindingIds: buildTmFindingIds(tm), today };
+  }
+  let apiConfirmedLinks = 0;
   for (const b of links.blocked || []) {
     if (b?.actionable === false || b?.reviewScope === 'expired') continue;
+    if (apiContext && isApiConfirmed(b, apiContext)) { apiConfirmedLinks += 1; continue; }
     for (const slug of b.artistSlugs || []) note(slug, 'link blocked (unconfirmed, anti-bot/WAF)');
   }
   for (const artist of tm.artists || []) {
@@ -104,6 +121,7 @@ async function main() {
     artist.last_verified_at = today;
   }
 
+  if (apiContext) console.log(`${apiConfirmedLinks} blocked Ticketmaster/SeatGeek link(s) confirmed by an API check on record.`);
   if (skipped.length > 0) {
     console.log(`Skipping ${skipped.length} artist(s) due to audit findings:`);
     for (const s of skipped) console.log(`  ${s.slug}: ${s.reason}`);

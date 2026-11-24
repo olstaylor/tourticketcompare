@@ -569,5 +569,587 @@
     ],
     "ticketnetwork_url": "",
     "ticketmaster_status_code": "postponed"
+  },
+  {
+    "id": "tm-tom-jones-2027-york-1agzk4jgkd-uxfr",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones",
+    "city": "York",
+    "country": "Great Britain",
+    "venue": "LNER Community Stadium",
+    "datetime_iso": "2027-05-28T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "35006566E1DBE52F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-jones-york-28-05-2027/event/35006566E1DBE52F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tom-jones-york-28-05-2027/event/35006566E1DBE52F",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006566E1DBE52F",
+        "discovery_event_id": "1AgZk4JGkd-UXfR",
+        "url": "https://www.ticketmaster.co.uk/tom-jones-york-28-05-2027/event/35006566E1DBE52F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZk4JGkd-UXfR",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-tom-jones-2027-cardiff-g5vhz_4wcs0vc",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones\r\nwith special guests Heather Small + Stone Foundation",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Cardiff Castle",
+    "datetime_iso": "2027-05-30T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00655CADC6404E",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-joneswith-special-guests-heather-small-cardiff-30-05-2027/event/1F00655CADC6404E",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-cardiff-cardiff-castle-5-30-2027/production/7883808",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tom-joneswith-special-guests-heather-small-cardiff-30-05-2027/event/1F00655CADC6404E",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00655CADC6404E",
+        "discovery_event_id": "G5vHZ_4wcs0vC",
+        "url": "https://www.ticketmaster.co.uk/tom-joneswith-special-guests-heather-small-cardiff-30-05-2027/event/1F00655CADC6404E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7883808,
+        "url": "https://www.vividseats.com/tom-jones-tickets-cardiff-cardiff-castle-5-30-2027/production/7883808",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682852",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-cardiff-cardiff-castle-30-5-2027/event/107682852",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_4wcs0vC",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "DEPOT MARKETING LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-cardiff-cardiff-castle-30-5-2027/event/107682852"
+  },
+  {
+    "id": "tm-tom-jones-2027-london-g5vhz_4bny4uy",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Hampton Court Palace Festival Presents Tom Jones",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hampton Court",
+    "datetime_iso": "2027-06-18T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00655EA3E55379",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-18-06-2027/event/1F00655EA3E55379",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-18-06-2027/event/1F00655EA3E55379",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00655EA3E55379",
+        "discovery_event_id": "G5vHZ_4BNy4uy",
+        "url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-18-06-2027/event/1F00655EA3E55379",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_4BNy4uy",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "PWR EVENTS",
+      "HISTORIC ROYAL PALACES LTD"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
+  },
+  {
+    "id": "tm-tom-jones-2027-liverpool-g5vhz_pqm3anq",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "On the Waterfront presents Tom Jones",
+    "city": "Liverpool",
+    "country": "Great Britain",
+    "venue": "Pier Head",
+    "datetime_iso": "2027-06-20T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006566B7485A9D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/on-the-waterfront-presents-tom-jones-liverpool-20-06-2027/event/1F006566B7485A9D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/on-the-waterfront-presents-tom-jones-liverpool-20-06-2027/event/1F006566B7485A9D",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006566B7485A9D",
+        "discovery_event_id": "G5vHZ_pQM3Anq",
+        "url": "https://www.ticketmaster.co.uk/on-the-waterfront-presents-tom-jones-liverpool-20-06-2027/event/1F006566B7485A9D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683868",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-liverpool-pier-head-liverpool-20-6-2027/event/107683868",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_pQM3Anq",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CREAM GLOBAL LIMITED"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-liverpool-pier-head-liverpool-20-6-2027/event/107683868"
+  },
+  {
+    "id": "tm-tom-jones-2027-lincoln-g5vhz_4w3ae65",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones with Special Guests Stone Foundation",
+    "city": "Lincoln",
+    "country": "Great Britain",
+    "venue": "Lincoln Castle",
+    "datetime_iso": "2027-06-23T17:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00655C921421CB",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-lincoln-23-06-2027/event/1F00655C921421CB",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-lincoln-lincoln-castle-6-23-2027--concerts-pop/production/7886004",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-lincoln-23-06-2027/event/1F00655C921421CB",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00655C921421CB",
+        "discovery_event_id": "G5vHZ_4w3Ae65",
+        "url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-lincoln-23-06-2027/event/1F00655C921421CB",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7886004,
+        "url": "https://www.vividseats.com/tom-jones-tickets-lincoln-lincoln-castle-6-23-2027--concerts-pop/production/7886004",
+        "verified": true,
+        "last_verified_at": "2026-11-22",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683866",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-lincoln-lincoln-castle-23-6-2027/event/107683866",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_4w3Ae65",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-lincoln-lincoln-castle-23-6-2027/event/107683866"
+  },
+  {
+    "id": "tm-tom-jones-2027-rugeley-1amzk4tgkejv7jb",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones with Special Guests Heather Small + Stone Foundation",
+    "city": "Rugeley",
+    "country": "Great Britain",
+    "venue": "Cannock Chase Forest",
+    "datetime_iso": "2027-06-25T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006569A6D04998",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-heather-rugeley-25-06-2027/event/37006569A6D04998",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-rugeley-cannock-chase-forest-6-25-2027/production/7883846",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-heather-rugeley-25-06-2027/event/37006569A6D04998",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006569A6D04998",
+        "discovery_event_id": "1AMZk4tGkeJV7Jb",
+        "url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-heather-rugeley-25-06-2027/event/37006569A6D04998",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7883846,
+        "url": "https://www.vividseats.com/tom-jones-tickets-rugeley-cannock-chase-forest-6-25-2027/production/7883846",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107683850",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-rugeley-cannock-chase-forest-25-6-2027/event/107683850",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4tGkeJV7Jb",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "FORESTRY ENGLAND"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-rugeley-cannock-chase-forest-25-6-2027/event/107683850"
+  },
+  {
+    "id": "tm-tom-jones-2027-llangollen-g5vhz_pwfve8t",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones with Special Guests Stone Foundation",
+    "city": "Llangollen",
+    "country": "Great Britain",
+    "venue": "Live at Llangollen, Llangollen Pavilion",
+    "datetime_iso": "2027-06-28T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F00656C94D0243F",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-llangollen-28-06-2027/event/1F00656C94D0243F",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-llangollen-28-06-2027/event/1F00656C94D0243F",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F00656C94D0243F",
+        "discovery_event_id": "G5vHZ_pwfVe8T",
+        "url": "https://www.ticketmaster.co.uk/tom-jones-with-special-guests-stone-llangollen-28-06-2027/event/1F00656C94D0243F",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682873",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-llangollen-llangollen-pavilion-28-6-2027/event/107682873",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_pwfVe8T",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-llangollen-llangollen-pavilion-28-6-2027/event/107682873"
+  },
+  {
+    "id": "tm-tom-jones-2027-woodstock-1amzk4tgketwvu7",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Tom Jones \r\nWith Very Special Guests Nile Rodgers & CHIC",
+    "city": "Woodstock",
+    "country": "Great Britain",
+    "venue": "Blenheim Palace",
+    "datetime_iso": "2027-06-30T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006569A9F74D84",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/tom-jones-with-very-special-guests-woodstock-30-06-2027/event/37006569A9F74D84",
+    "seatgeek_url": "",
+    "vividseats_url": "https://www.vividseats.com/tom-jones-tickets-woodstock-blenheim-palace-6-30-2027--concerts-pop/production/7888562",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/tom-jones-with-very-special-guests-woodstock-30-06-2027/event/37006569A9F74D84",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006569A9F74D84",
+        "discovery_event_id": "1AMZk4tGketWVU7",
+        "url": "https://www.ticketmaster.co.uk/tom-jones-with-very-special-guests-woodstock-30-06-2027/event/37006569A9F74D84",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": 7888562,
+        "url": "https://www.vividseats.com/tom-jones-tickets-woodstock-blenheim-palace-6-30-2027--concerts-pop/production/7888562",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682871",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-woodstock-blenheim-palace-30-6-2027/event/107682871",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4tGketWVU7",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "MARI",
+      "PWR EVENTS",
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-woodstock-blenheim-palace-30-6-2027/event/107682871"
+  },
+  {
+    "id": "tm-tom-jones-2027-newcastle-g5vhz_pjbj04_",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "In the Park Newcastle presents Tom Jones",
+    "city": "Newcastle",
+    "country": "Great Britain",
+    "venue": "Exhibition Park",
+    "datetime_iso": "2027-07-11T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006569BA724559",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/in-the-park-newcastle-presents-tom-newcastle-11-07-2027/event/1F006569BA724559",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/in-the-park-newcastle-presents-tom-newcastle-11-07-2027/event/1F006569BA724559",
+    "last_verified_at": "2026-11-20",
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006569BA724559",
+        "discovery_event_id": "G5vHZ_pJBj04_",
+        "url": "https://www.ticketmaster.co.uk/in-the-park-newcastle-presents-tom-newcastle-11-07-2027/event/1F006569BA724559",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107682854",
+        "url": "https://www.stubhub.ie/tom-jones-tickets-newcastle-upon-tyne-exhibition-park-newcastle-11-7-2027/event/107682854",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_pJBj04_",
+    "timezone": "Europe/London",
+    "status": "on-sale",
+    "organizer_names": [
+      "LOST MINDS LTD"
+    ],
+    "genre": "Rock",
+    "stubhub_international_url": "https://www.stubhub.ie/tom-jones-tickets-newcastle-upon-tyne-exhibition-park-newcastle-11-7-2027/event/107682854"
   }
 ]

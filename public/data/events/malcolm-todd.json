@@ -1712,6 +1712,20 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8326652",
+        "url": "https://www.ticketnetwork.com/en/p/8326652",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8326652",
+        "url": "https://www.ticketliquidator.com/tickets/8326652/Malcolm-Todd-tickets-Thu-Feb-18-2027-Vorst-Nationaal",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1A3rZZa",
@@ -1720,7 +1734,9 @@
     "organizer_names": [
       "Live Nation"
     ],
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326652",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8326652/Malcolm-Todd-tickets-Thu-Feb-18-2027-Vorst-Nationaal"
   },
   {
     "id": "tm-malcolm-todd-2027-dublin-1kkzvpfyga5vo0x",
@@ -1794,7 +1810,7 @@
     "ticketmaster_event_id": "3600652AA8E1605E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-glasgow-25-02-2027/event/3600652AA8E1605E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/malcolm-todd-tickets-glasgow-barrowland-ballroom-2-25-2027/production/7558498",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/malcolm-todd-do-that-again-tour-glasgow-25-02-2027/event/3600652AA8E1605E",
     "last_verified_at": "2026-11-07",
@@ -1816,11 +1832,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 7558498,
+        "url": "https://www.vividseats.com/malcolm-todd-tickets-glasgow-barrowland-ballroom-2-25-2027/production/7558498",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1828,6 +1844,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107668369",
+        "url": "https://www.stubhub.ie/malcolm-todd-tickets-glasgow-barrowland-25-2-2027/event/107668369",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdbZ_3GknIzpvr",
@@ -1838,7 +1861,8 @@
       "LNM - VIP NATION UK"
     ],
     "ticket_limit": 6,
-    "genre": "Pop"
+    "genre": "Pop",
+    "stubhub_international_url": "https://www.stubhub.ie/malcolm-todd-tickets-glasgow-barrowland-25-2-2027/event/107668369"
   },
   {
     "id": "tm-malcolm-todd-2027-birmingham-g5dzz_3nh3wrn",
@@ -1878,7 +1902,7 @@
         "event_id": 7558510,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-birmingham-o2-academy---birmingham-2-27-2027/production/7558510",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1892,21 +1916,21 @@
         "event_id": "8265887",
         "url": "https://www.ticketnetwork.com/en/p/8265887",
         "verified": true,
-        "last_verified_at": "2026-09-26",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8265887",
         "url": "https://www.ticketliquidator.com/tickets/8265887/Malcolm-Todd-tickets-Sat-Feb-27-2027-O2-Academy-Birmingham",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107667996",
         "url": "https://www.stubhub.ie/malcolm-todd-tickets-birmingham-o2-academy-birmingham-27-2-2027/event/107667996",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1963,7 +1987,7 @@
         "event_id": 7557335,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-manchester-o2-apollo-manchester-2-28-2027/production/7557335",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1977,7 +2001,7 @@
         "event_id": "107668009",
         "url": "https://www.stubhub.ie/malcolm-todd-tickets-manchester-o2-apollo-manchester-28-2-2027/event/107668009",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2031,7 +2055,7 @@
         "event_id": 7557325,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-london-o2-academy-brixton-3-2-2027/production/7557325",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2045,7 +2069,7 @@
         "event_id": "107667988",
         "url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-2-3-2027/event/107667988",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2099,7 +2123,7 @@
         "event_id": 7569304,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/production/7569304",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2113,7 +2137,7 @@
         "event_id": "107668448",
         "url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-3-3-2027/event/107668448",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -2166,7 +2190,7 @@
         "event_id": 7573613,
         "url": "https://www.vividseats.com/malcolm-todd-tickets-london-o2-academy-brixton-3-4-2027--concerts-pop/production/7573613",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -2180,7 +2204,7 @@
         "event_id": "107669504",
         "url": "https://www.stubhub.ie/malcolm-todd-tickets-london-o2-academy-brixton-4-3-2027/event/107669504",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

@@ -18,6 +18,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { cachedRender } from "./render-cache.mjs";
 
 export const ORIGIN = "https://tourticketcompare.com";
 
@@ -152,18 +153,20 @@ export async function loadSiteFixture(root) {
     }
   };
 
-  async function renderRoute(pathname) {
-    const response = await middlewareModule.onRequest({
-      request: new Request(`${ORIGIN}${pathname}`),
-      env,
-      next: () => new Response("static-asset", { status: 200, headers: { "x-audit-next": "1" } })
+  // Cached per run when ROUTE_RENDER_CACHE_DIR is set (scripts/lib/render-cache.mjs).
+  const renderRoute = (pathname) =>
+    cachedRender(`route:${pathname}`, async () => {
+      const response = await middlewareModule.onRequest({
+        request: new Request(`${ORIGIN}${pathname}`),
+        env,
+        next: () => new Response("static-asset", { status: 200, headers: { "x-audit-next": "1" } })
+      });
+      return {
+        status: response.status,
+        location: response.headers.get("location") || "",
+        html: await response.text()
+      };
     });
-    return {
-      status: response.status,
-      location: response.headers.get("location") || "",
-      html: await response.text()
-    };
-  }
 
   const indexableArtistSlugs = artistsMeta
     .filter((artist) => artist?.indexing_status === artistIndexabilityModule.INDEXABLE_ARTIST_STATUS)

@@ -37,11 +37,15 @@ import { publishableLaneSlugs } from "./event-link-coverage.mjs";
 
 const DAY_MS = 86400000;
 
-// Commission per order by lane, as a share of the order. Vivid Seats (10%) and
-// StubHub International (9%) are measured from the Impact Action Listing
-// (Oct 2026). TicketNetwork and Ticket Liquidator have no order yet, so 8% is
-// an assumption. SeatGeek pays ~1% in Impact (its $10 promo-code payout sits
-// outside Impact and is per order, not a share). Ticketmaster pays nothing.
+// Commission per order by lane, as a share of the order. Vivid Seats (10%),
+// StubHub International (9%, 2 orders) and TicketNetwork (12.5%, 1 order) are
+// measured from the Impact Action Listing (Oct-Nov 2026); each rests on very
+// few orders. The 8% below for TicketNetwork is the older assumption, kept so
+// the stored legacy order does not move. Ticket Liquidator has no order yet, so
+// 8% is an assumption. SeatGeek pays ~1% in Impact (its $10 promo-code payout
+// sits outside Impact and is per order, not a share). Ticketmaster pays nothing.
+// The legacy score is not what the report ranks by any more: see
+// scripts/lib/show-priority-report.mjs.
 export const LANE_COMMISSION = Object.freeze({
   "vivid-seats": 0.10,
   "stubhub-international": 0.09,
@@ -144,6 +148,11 @@ export function rankShows({ events, isConfigured, eventClickers = new Map(), art
       date: String(event.datetime_iso).slice(0, 10),
       days_out: Math.floor(daysOut),
       weekly_demand: round2(demand),
+      // Where the demand came from, kept apart so reports can label event-level
+      // observations and artist-level proxies differently. Additive: scoring
+      // and stored order do not read these.
+      event_clickers_14d: eventClickers.get(event.id) || 0,
+      artist_visitors_7d: artistVisitors.get(slug) || 0,
       price_usd: Math.round(priceUsd),
       price_source: lowest != null ? "show" : artistMedian.get(slug) != null ? "artist_median" : "default",
       lanes,

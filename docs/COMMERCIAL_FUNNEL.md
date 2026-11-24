@@ -78,6 +78,11 @@ artist for artist-level links without an event) and a five-minute
 maximum time span. Duplicates, blocked paths, mismatches and incomplete groups
 are reported separately. This partial correlation does not prove a human,
 provider arrival or purchase, and does not unlock visitor conversion rates.
+`unmatched` splits into `receipt_only` (token on a receipt, no client intent:
+the beacon was dropped or never sent; cause not established) and `intent_only`.
+`intent_match_rate` is `matched` over token groups with at least one client
+intent. Receipt-only groups are excluded from that denominator. It covers
+consented tokens only and is not a conversion rate.
 Both the normal route shell and fallback app bundle attach this token.
 `by_client_page` honors the report’s `--top` and `--min-clicks` thresholds and
 groups only accepted matches by client-reported source page,
@@ -640,6 +645,11 @@ failure flags rather than new metrics. Redirect health is checked passively
 from recorded receipts (a provider with button clicks but no receipts), never by
 firing test redirects, because Impact would count those as clicks. Thresholds
 live in `THRESHOLDS` in the script.
+
+The issue also carries a per-provider reconciliation table over the whole window:
+button clicks, page-backed redirects, their ratio, and the share of button clicks
+that carried the consent token (`browserIntentId`). It is descriptive only: no
+flag reads it, and Impact click counts are deliberately left out.
 
 An unmatched Impact order raises an amber `attribution_gap`, even when click
 delivery is healthy. The report reuses the performance report's retained-click

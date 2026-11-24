@@ -151,7 +151,7 @@
         "event_id": 7618049,
         "url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-2-23-2027/production/7618049",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -165,7 +165,7 @@
         "event_id": "107670042",
         "url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-glasgow-ovo-hydro-arena-glasgow-23-2-2027/event/107670042",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -217,7 +217,7 @@
         "event_id": 7618057,
         "url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-at-resorts-world-arena-2-25-2027/production/7618057",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -231,7 +231,7 @@
         "event_id": "107670043",
         "url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-birmingham-bp-pulse-live-25-2-2027/event/107670043",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -283,7 +283,7 @@
         "event_id": 7618055,
         "url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-london-the-o2---london-2-26-2027/production/7618055",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -297,7 +297,21 @@
         "event_id": "107669052",
         "url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-london-the-o2-arena-26-2-2027/event/107669052",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8297136",
+        "url": "https://www.ticketnetwork.com/en/p/8297136",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
+        "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8297136",
+        "url": "https://www.ticketliquidator.com/tickets/8297136/Bullet-For-My-Valentine-tickets-Fri-Feb-26-2027-O2-Arena-London",
+        "verified": true,
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       }
     },
@@ -309,7 +323,9 @@
       "KMJ ENTERTAINMENT LTD"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8297136",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8297136/Bullet-For-My-Valentine-tickets-Fri-Feb-26-2027-O2-Arena-London"
   },
   {
     "id": "tm-bullet-for-my-valentine-2027-manchester-g5vhz_kd3nkoq",
@@ -349,7 +365,7 @@
         "event_id": 7618045,
         "url": "https://www.vividseats.com/bullet-for-my-valentine-tickets-manchester-ao-arena-2-27-2027/production/7618045",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-22",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -363,21 +379,21 @@
         "event_id": "8297688",
         "url": "https://www.ticketnetwork.com/en/p/8297688",
         "verified": true,
-        "last_verified_at": "2026-10-31",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
         "event_id": "8297688",
         "url": "https://www.ticketliquidator.com/tickets/8297688/Bullet-For-My-Valentine-tickets-Sat-Feb-27-2027-AO-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-23",
         "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": "107669053",
         "url": "https://www.stubhub.ie/bullet-for-my-valentine-tickets-manchester-manchester-ao-arena-27-2-2027/event/107669053",
         "verified": true,
-        "last_verified_at": "2026-11-16",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },

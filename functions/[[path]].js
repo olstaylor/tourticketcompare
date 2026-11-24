@@ -842,6 +842,19 @@ async function resolveRoute(pathname, env) {
     };
   }
 
+  // My shows: the visitor's saved dates, kept in their own browser and filled
+  // by public/my-shows.js. Noindex; the server holds no per-visitor data.
+  if (path === MY_SHOWS_PATH) {
+    return {
+      type: "my-shows",
+      path,
+      indexable: false,
+      title: "My Saved Shows | TourTicketCompare",
+      description: "Concert dates you saved on this device, with the current lowest listed price next to the price recorded when you saved them.",
+      breadcrumb: [{ name: "My shows", path }]
+    };
+  }
+
   // Price movers: real one-site price falls over the last week, noindex while
   // measured (functions/_price-movers.js).
   if (path === PRICE_MOVERS_PATH) {
@@ -6498,6 +6511,16 @@ export function renderWorthWaitingBody(route) {
   )}<div class="action-row">${anchor(`${TOURS_HUB_YEAR} tours`, TOURS_HUB_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}${anchor("When to buy tickets", "/guides/when-is-the-best-time-to-buy-concert-tickets", "button button-secondary")}</div></section></main>`;
 }
 
+const MY_SHOWS_PATH = "/my-shows";
+
+export function renderMyShowsBody(route) {
+  return `<main id="mainContent"><section class="content-page" aria-labelledby="myShowsTitle">${renderBreadcrumbHtml(
+    route
+  )}<h1 id="myShowsTitle">My shows</h1><p class="lead">${escapeHtml(
+    "Dates you saved on this device, with today's lowest listed price next to the one recorded when you saved them."
+  )}</p><div data-my-shows><p data-my-shows-status role="status">Loading your saved shows\u2026</p><div class="card-grid" data-my-shows-list></div><noscript><p>My shows needs JavaScript, because your saved dates are stored in this browser.</p></noscript></div><section class="nested-panel"><h2>How this works</h2><ul class="check-list"><li><strong>Saved on this device only.</strong> There is no account or email. Clearing your browser data, or using another device, starts a new list.</li><li><strong>Prices are listed prices, not a checkout total.</strong> Fees, delivery and seat location differ by listing, and the ticket site confirms the final price.</li><li><strong>Sites are compared with themselves.</strong> A change is only shown when the same ticket site listed the lowest price both times.</li></ul></section><div class="action-row">${anchor("Browse artists", "/artists", "button button-secondary")}${anchor("Price drops this week", PRICE_MOVERS_PATH, "button button-secondary")}</div></section></main>`;
+}
+
 export function renderPriceMoversBody(route) {
   const movers = route.movers || { movers: [], total: 0 };
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -6527,7 +6550,7 @@ export function renderPriceMoversBody(route) {
   )}</p>${body}${collapsedGroupHtml(
     "Limits to keep in mind",
     `<section class="nested-panel"><h2>What this does and doesn't say</h2><ul class="check-list"><li><strong>It is a record, not a forecast.</strong> A price that fell can rise again, and listings can sell out.</li><li><strong>It is the lowest listed price on one site, not a checkout total.</strong> Fees, delivery and seat location differ by listing. The ticket site confirms the final price.</li><li><strong>Sites are not ranked.</strong> A drop on one site says nothing about another site's price.</li><li><strong>Only tracked shows and sites are covered.</strong> A show missing here may simply have had no qualifying fall.</li></ul></section>`
-  )}<div class="action-row">${anchor("Is it worth waiting?", WORTH_WAITING_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
+  )}<div class="action-row">${anchor("My shows", MY_SHOWS_PATH, "button button-secondary")}${anchor("Is it worth waiting?", WORTH_WAITING_PATH, "button button-secondary")}${anchor("Browse artists", "/artists", "button button-secondary")}${anchor("Read buying guides", "/guides", "button button-secondary")}</div></section></main>`;
 }
 
 export function renderRumouredToursBody(route) {
@@ -8789,6 +8812,7 @@ function renderMainContent(route, catalog, events = [], guideContent = {}, env =
   if (route.type === "rumoured-tours") return renderRumouredToursBody(route);
   if (route.type === "worth-waiting") return renderWorthWaitingBody(route);
   if (route.type === "price-movers") return renderPriceMoversBody(route);
+  if (route.type === "my-shows") return renderMyShowsBody(route);
   if (route.type === "presale") return renderPresalePageBody(route, events, env);
 
   if (route.type === "cities-index") {
@@ -9202,7 +9226,7 @@ function injectRoute(html, route, origin, catalog, events = [], guideContent = {
   next = next.replace(/\s*<link rel="preload" as="fetch" href="\/data\/catalog\.json" crossorigin \/>/, "");
   next = next.replace(
     '<script src="/app.js?v=20261123a" defer></script>',
-    '<script src="/shell.js?v=20261124a" defer></script>'
+    '<script src="/shell.js?v=20261124b" defer></script>'
   );
   // Feed autodiscovery, so a reader pointed at any blog page finds the feed
   // without the visitor copying /blog/rss.xml from the page copy.

@@ -113,6 +113,7 @@ export const STEPS = [
   { id: "test:rumoured-tours",                    lane: "quick",  run: "npm run test:rumoured-tours" },
   { id: "test:worth-waiting",                     lane: "quick",  run: "npm run test:worth-waiting" },
   { id: "test:price-movers",                      lane: "quick",  run: "npm run test:price-movers" },
+  { id: "test:my-shows",                          lane: "quick",  run: "npm run test:my-shows" },
   { id: "test:edge-cache",                        lane: "quick",  run: "npm run test:edge-cache" },
   { id: "test:data-stories",                      lane: "units",  run: "npm run test:data-stories" },
   { id: "test:price-drops",                       lane: "units",  run: "npm run test:price-drops" },

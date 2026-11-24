@@ -50,6 +50,7 @@
     "test:rumoured-tours": "node scripts/rumoured-tours.test.mjs",
     "test:worth-waiting": "node scripts/worth-waiting.test.mjs",
     "test:price-movers": "node scripts/price-movers.test.mjs",
+    "test:my-shows": "node scripts/my-shows.test.mjs",
     "test:edge-cache": "node scripts/edge-cache.test.mjs",
     "test:data-stories": "node scripts/data-stories.test.mjs",
     "test:price-drops": "node scripts/price-drop-posts.test.mjs",

@@ -368,4 +368,12 @@
       })
       .catch(function () {});
   }
+  // "My shows" (public/my-shows.js): save buttons on artist-page show cards and
+  // the /my-shows list. Loaded only where one of them exists.
+  if (document.querySelector("[data-my-shows]") || (/^\/artists\//.test(window.location.pathname) && document.querySelector("article.show-card[data-event-id]"))) {
+    var mine = document.createElement("script");
+    mine.src = "/my-shows.js?v=20261124a";
+    mine.defer = true;
+    document.body.appendChild(mine);
+  }
 })();

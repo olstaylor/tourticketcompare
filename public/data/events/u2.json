@@ -65,7 +65,7 @@
         "event_id": "8329176",
         "url": "https://www.ticketliquidator.com/tickets/8329176/U2-tickets-Tue-Feb-23-2027-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -153,7 +153,7 @@
         "event_id": "8329177",
         "url": "https://www.ticketliquidator.com/tickets/8329177/U2-tickets-Fri-Feb-26-2027-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -241,7 +241,7 @@
         "event_id": "8337104",
         "url": "https://www.ticketliquidator.com/tickets/8337104/U2-tickets-Sun-Feb-28-2027-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -329,7 +329,7 @@
         "event_id": "8344350",
         "url": "https://www.ticketliquidator.com/tickets/8344350/U2-tickets-Tue-Mar-2-2027-Estadio-GNP-Seguros-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -410,7 +410,7 @@
         "event_id": "8347795",
         "url": "https://www.ticketliquidator.com/tickets/8347795/U2-tickets-Mon-Apr-26-2027-Strawberry-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -491,7 +491,7 @@
         "event_id": "8347796",
         "url": "https://www.ticketliquidator.com/tickets/8347796/U2-tickets-Wed-Apr-28-2027-Strawberry-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -565,7 +565,7 @@
         "event_id": "8347800",
         "url": "https://www.ticketliquidator.com/tickets/8347800/U2-tickets-Sat-Jun-5-2027-Johan-Cruijff-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -646,7 +646,7 @@
         "event_id": "8347801",
         "url": "https://www.ticketliquidator.com/tickets/8347801/U2-tickets-Sun-Jun-6-2027-Johan-Cruijff-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -734,7 +734,7 @@
         "event_id": "8347802",
         "url": "https://www.ticketliquidator.com/tickets/8347802/U2-tickets-Fri-Jun-18-2027-Tottenham-Hotspur-New-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -816,7 +816,7 @@
         "event_id": "8347803",
         "url": "https://www.ticketliquidator.com/tickets/8347803/U2-tickets-Sat-Jun-19-2027-Tottenham-Hotspur-New-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -905,7 +905,7 @@
         "event_id": "8357048",
         "url": "https://www.ticketliquidator.com/tickets/8357048/U2-tickets-Tue-Jun-22-2027-Tottenham-Hotspur-New-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -980,7 +980,7 @@
         "event_id": "8357120",
         "url": "https://www.ticketliquidator.com/tickets/8357120/U2-tickets-Wed-Jun-9-2027-Johan-Cruijff-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1056,6 +1056,13 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8357090",
+        "url": "https://www.ticketliquidator.com/tickets/8357090/U2-tickets-Thu-May-13-2027-Estadi-Olimpico-Lluis-Companys",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vasCA3Z",
@@ -1065,7 +1072,8 @@
       "LIVE NATION ESPAÑA CONCERT EXPLORERS SL"
     ],
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357090"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357090",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8357090/U2-tickets-Thu-May-13-2027-Estadi-Olimpico-Lluis-Companys"
   },
   {
     "id": "tm-u2-2027-barcelona-z698xz2qz1kkzqe8t",
@@ -1126,7 +1134,7 @@
         "event_id": "8357091",
         "url": "https://www.ticketliquidator.com/tickets/8357091/U2-tickets-Sat-May-15-2027-Estadi-Olimpico-Lluis-Companys",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1200,7 +1208,7 @@
         "event_id": "8357092",
         "url": "https://www.ticketliquidator.com/tickets/8357092/U2-tickets-Sat-May-22-2027-Estadio-La-Cartuja",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1289,7 +1297,7 @@
         "event_id": "8359327",
         "url": "https://www.ticketliquidator.com/tickets/8359327/U2-tickets-Fri-Jun-25-2027-Tottenham-Hotspur-New-Stadium",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       }
     },
@@ -1357,7 +1365,7 @@
         "event_id": "8359472",
         "url": "https://www.ticketliquidator.com/tickets/8359472/U2-tickets-Fri-Jun-11-2027-Johan-Cruijff-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1438,7 +1446,7 @@
         "event_id": "8359466",
         "url": "https://www.ticketliquidator.com/tickets/8359466/U2-tickets-Fri-Apr-30-2027-Strawberry-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -1519,7 +1527,7 @@
         "event_id": "8369572",
         "url": "https://www.ticketliquidator.com/tickets/8369572/U2-tickets-Mon-May-24-2027-Estadio-La-Cartuja",
         "verified": true,
-        "last_verified_at": "2026-11-23",
+        "last_verified_at": "2026-11-24",
         "availability_status": "listed"
       },
       "ticketnetwork": {

@@ -228,6 +228,13 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8353468",
+        "url": "https://www.ticketliquidator.com/tickets/8353468/Raye-tickets-Sat-Jul-10-2027-Hyde-Park-London",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4pGkdNOl-0",
@@ -239,7 +246,8 @@
       "LIVE NATION MUSIC UK LTD"
     ],
     "ticket_limit": 6,
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353468"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353468",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353468/Raye-tickets-Sat-Jul-10-2027-Hyde-Park-London"
   },
   {
     "id": "tm-raye-2027-london-1amzk49gkeww5xa",
@@ -295,6 +303,13 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8386080",
+        "url": "https://www.ticketliquidator.com/tickets/8386080/Raye-tickets-Sun-Jul-11-2027-Hyde-Park-London",
+        "verified": true,
+        "last_verified_at": "2026-11-24",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk49GkeWw5xa",
@@ -306,6 +321,7 @@
       "LIVE NATION MUSIC UK LTD"
     ],
     "ticket_limit": 6,
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386080"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386080",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386080/Raye-tickets-Sun-Jul-11-2027-Hyde-Park-London"
   }
 ]

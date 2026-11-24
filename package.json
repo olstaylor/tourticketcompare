@@ -154,6 +154,8 @@
     "report:show-priority:self-test": "node scripts/report-show-priority.mjs --self-test",
     "report:seo-opportunities": "node scripts/report-seo-opportunities.mjs",
     "report:seo-opportunities:self-test": "node scripts/report-seo-opportunities.mjs --self-test",
+    "report:scorecard": "node scripts/report-scorecard.mjs",
+    "report:scorecard:self-test": "node scripts/report-scorecard.mjs --self-test",
     "report:affiliate-performance": "node scripts/report-affiliate-performance.mjs",
     "report:affiliate-performance:self-test": "node scripts/report-affiliate-performance.mjs --self-test",
     "report:event-routes": "node scripts/report-event-routes.mjs",

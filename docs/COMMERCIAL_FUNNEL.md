@@ -666,6 +666,55 @@ for SeatGeek and Vivid Seats, matching the resolver's current-first precedence.
 These reporting settings must identify the same campaigns as the live redirects;
 a successful redirect alone does not establish that the reporting job is mapped.
 
+## Impact order ledger
+
+`scripts/sync-impact-action-ledger.mjs` (`npm run sync:impact-ledger`) runs as a
+step of the nightly funnel workflow and keeps a durable record of Impact orders,
+because the Actions API is read in 45-day windows and an order's state and dates
+otherwise disappear from every report. It reads Impact (GET Actions only) and
+D1 (the retained click for a valid SubId1) and writes three tables
+(`migrations/0015_impact_action_ledger.sql`, self-applying):
+
+| Table | One row per | Holds |
+|---|---|---|
+| `impact_action_ledger` | Impact action id | seller (`provider`), order date (`event_date`), state, commission and currency, `lock_date`/`cleared_date` only when Impact returns them, when we first saw it and when the state last changed, and the matched click's artist, event, page type, source path and CTA **only when `attribution = 'matched'`** |
+| `impact_action_state_history` | state change | from-state, to-state, payout and when we observed it |
+| `impact_action_import_runs` | nightly import | `ok`, `incomplete` or `failed`, window, counts and flag names |
+
+- **Attribution** is `matched` only under the existing rule (valid SubId1, one
+  retained eligible click, provider agrees). Otherwise `unmatched`, `no_sub_id`
+  or `invalid_sub_id`, with no page, artist or event assigned. `unknown` means the
+  D1 lookup failed that night; a `matched` row is never downgraded.
+- **Repeatable:** keyed on the action id, so re-runs update, never duplicate. A
+  state change is stamped and written to history once. Values Impact stops
+  returning (for example a lock date) are kept, not erased.
+- **Approval and payment:** `lock_date` and `cleared_date` are Impact's own
+  fields, and the date we first saw `APPROVED` is `state_changed_at`. **No
+  payment status or date is stored.** The Actions API gives no order-level
+  payment evidence, and an approved order is not assumed to be paid; payouts
+  remain visible only as aggregate invoices.
+- **Failures are loud:** a missing credential, Impact error or D1 write error
+  records a `failed` run; an unsafe id, unknown state, missing payout or failed
+  attribution lookup records `incomplete`. Either fails the workflow job. The step
+  summary and run log show flag names and counts only.
+- **Minimum data and privacy:** no customer, order-value or email fields, and no
+  raw action or click IDs in any report or step summary (they exist only in the
+  private D1 table). The click ID is kept so a matched order can be re-joined.
+- **Retention:** rows are never deleted, which is the point; each row is a few
+  hundred bytes (orders run at single digits per week). Access is the same
+  Cloudflare API token the nightly jobs already use; the tables are not exposed
+  by any site route.
+- **Rollback:** remove the "Record Impact orders" workflow step. Nothing reads the
+  tables, so nothing else depends on them. `DROP TABLE` the three tables only if
+  the history is no longer wanted.
+- **Cost:** none expected. A few tiny D1 writes and about a minute of existing
+  GitHub Actions time nightly, within the current plans.
+- **Backfill limits:** nightly runs read 45 days. A one-off
+  `npm run sync:impact-ledger -- --since 2025-11-23` (Impact returns about 12
+  months) loads older orders, but orders before SubId1 existed (Oct 2026) stay
+  `no_sub_id`, and lock/clearing dates depend on Impact returning them in the
+  Actions response, which has not yet been confirmed against a live response.
+
 ## What cannot be measured
 
 **Checkout happens on the provider's site. We never see it directly.** The

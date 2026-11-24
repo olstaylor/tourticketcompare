@@ -236,8 +236,16 @@ export function normalizeAction(raw) {
     payoutKnown: ["string", "number"].includes(typeof raw?.Payout) && raw?.Payout !== null && raw?.Payout !== undefined && String(raw.Payout).trim() !== "" && Number.isFinite(Number(raw.Payout)),
     currency: String(raw?.Currency || "").slice(0, 12) || null,
     subId1: raw?.SubId1 ? String(raw.SubId1) : null,
-    day: /^\d{4}-\d{2}-\d{2}$/.test(eventDate) ? eventDate : null
+    day: /^\d{4}-\d{2}-\d{2}$/.test(eventDate) ? eventDate : null,
+    // Lock/clearing dates are kept only when Impact returns them, as a date.
+    lockDate: dateOnly(raw?.LockingDate),
+    clearedDate: dateOnly(raw?.ClearedDate)
   };
+}
+
+function dateOnly(value) {
+  const day = String(value || "").slice(0, 10);
+  return /^\d{4}-\d{2}-\d{2}$/.test(day) ? day : null;
 }
 
 function actionsFromPayload(payload) {

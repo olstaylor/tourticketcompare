@@ -148,6 +148,8 @@
     "report:plan-scoreboard:self-test": "node scripts/report-plan-scoreboard.mjs --self-test",
     "report:funnel-daily": "node scripts/report-funnel-daily.mjs",
     "report:funnel-daily:self-test": "node scripts/report-funnel-daily.mjs --self-test",
+    "sync:impact-ledger": "node scripts/sync-impact-action-ledger.mjs",
+    "sync:impact-ledger:self-test": "node --no-warnings scripts/sync-impact-action-ledger.mjs --self-test",
     "report:show-priority": "node scripts/report-show-priority.mjs",
     "report:show-priority:self-test": "node scripts/report-show-priority.mjs --self-test",
     "report:seo-opportunities": "node scripts/report-seo-opportunities.mjs",

@@ -989,7 +989,7 @@
     "ticketmaster_event_id": "Z7r9jZ1AAA9vg",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9vg",
     "seatgeek_url": "https://seatgeek.com/chris-tomlin-tickets/morrison-colorado-red-rocks-amphitheatre-2027-05-24-7-30-pm/concert/18786631",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/chris-tomlin-tickets-morrison-red-rocks-amphitheatre-5-24-2027--concerts-adult-contemporary/production/7896180",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAA9vg",
     "last_verified_at": "2026-11-24",
@@ -1011,11 +1011,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7896180,
+        "url": "https://www.vividseats.com/chris-tomlin-tickets-morrison-red-rocks-amphitheatre-5-24-2027--concerts-adult-contemporary/production/7896180",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

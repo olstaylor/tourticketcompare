@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "1F00653D82371612",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-cardiff-cardiff-castle-6-30-2027/production/7664074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664074,
+        "url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-cardiff-cardiff-castle-6-30-2027/production/7664074",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -73,7 +73,7 @@
     "ticketmaster_event_id": "3500653EC8F79F6E",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-scarborough-scarborough-open-air-theatre-7-1-2027/production/7664052",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
     "last_verified_at": null,
@@ -95,11 +95,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664052,
+        "url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-scarborough-scarborough-open-air-theatre-7-1-2027/production/7664052",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -309,7 +309,7 @@
     "ticketmaster_event_id": "36006541935738D5",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-london-eventim-apollo-7-7-2027/production/7664939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
     "last_verified_at": null,
@@ -331,11 +331,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7664939,
+        "url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-london-eventim-apollo-7-7-2027/production/7664939",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

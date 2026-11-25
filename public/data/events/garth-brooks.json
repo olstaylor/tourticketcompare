@@ -655,7 +655,7 @@
         "event_id": 7767695,
         "url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-5-2026--concerts-country-and-folk/production/7767695",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -713,7 +713,7 @@
         "event_id": 7802677,
         "url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-6-2026--concerts-country-and-folk/production/7802677",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1359,7 +1359,7 @@
         "event_id": 7824946,
         "url": "https://www.vividseats.com/garth-brooks-tickets-hamilton-td-coliseum-12-3-2026/production/7824946",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1417,7 +1417,7 @@
         "event_id": 7827961,
         "url": "https://www.vividseats.com/garth-brooks-tickets-minneapolis-target-center-12-12-2026/production/7827961",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1487,7 +1487,7 @@
         "event_id": 7851801,
         "url": "https://www.vividseats.com/garth-brooks-tickets-north-little-rock-simmons-bank-arena-2-5-2027--concerts-country-and-folk/production/7851801",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1561,7 +1561,7 @@
         "event_id": 7851803,
         "url": "https://www.vividseats.com/garth-brooks-tickets-north-little-rock-simmons-bank-arena-2-6-2027--concerts-country-and-folk/production/7851803",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1693,7 +1693,7 @@
         "event_id": 7828343,
         "url": "https://www.vividseats.com/garth-brooks-tickets-minneapolis-target-center-12-11-2026/production/7828343",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub": {
@@ -1738,7 +1738,7 @@
     "ticketmaster_event_id": "160065741626F4A3",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-lexington-rupp-arena-2-12-2027/production/7921639",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-12-2027/event/160065741626F4A3",
     "last_verified_at": "2026-11-24",
@@ -1760,11 +1760,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7921639,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-lexington-rupp-arena-2-12-2027/production/7921639",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -1813,7 +1813,7 @@
     "ticketmaster_event_id": "16006574162BF4A7",
     "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/garth-brooks-tickets-lexington-rupp-arena-2-13-2027/production/7921641",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-lexington-kentucky-02-13-2027/event/16006574162BF4A7",
     "last_verified_at": "2026-11-24",
@@ -1835,11 +1835,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7921641,
+        "url": "https://www.vividseats.com/garth-brooks-tickets-lexington-rupp-arena-2-13-2027/production/7921641",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

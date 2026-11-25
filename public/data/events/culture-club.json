@@ -12,7 +12,7 @@
     "ticketmaster_event_id": "360064B5F967E992",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/culture-club-tickets-bournemouth-bournemouth-international-centre-12-7-2026/production/7095841",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
     "last_verified_at": null,
@@ -34,11 +34,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095841,
+        "url": "https://www.vividseats.com/culture-club-tickets-bournemouth-bournemouth-international-centre-12-7-2026/production/7095841",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -89,7 +89,7 @@
     "ticketmaster_event_id": "360064B689A666D0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/culture-club-tickets-cardiff-utilita-arena-cardiff-12-8-2026--concerts-pop/production/7087452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
     "last_verified_at": null,
@@ -111,11 +111,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7087452,
+        "url": "https://www.vividseats.com/culture-club-tickets-cardiff-utilita-arena-cardiff-12-8-2026--concerts-pop/production/7087452",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -158,7 +158,7 @@
     "ticketmaster_event_id": "1F0064C492D04B09",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/culture-club-tickets-manchester-ao-arena-12-10-2026/production/7083914",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
     "last_verified_at": null,
@@ -180,11 +180,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7083914,
+        "url": "https://www.vividseats.com/culture-club-tickets-manchester-ao-arena-12-10-2026/production/7083914",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -280,7 +280,7 @@
     "ticketmaster_event_id": "1F0064B5F96184B9",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/culture-club-tickets-leeds-first-direct-arena---leeds-12-12-2026/production/7095865",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
     "last_verified_at": null,
@@ -302,11 +302,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095865,
+        "url": "https://www.vividseats.com/culture-club-tickets-leeds-first-direct-arena---leeds-12-12-2026/production/7095865",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -333,7 +333,7 @@
     "ticketmaster_event_id": "1F0064B5F96084AC",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/culture-club-tickets-newcastle-upon-tyne-utilita-arena-newcastle-12-13-2026/production/7068019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
     "last_verified_at": null,
@@ -355,11 +355,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7068019,
+        "url": "https://www.vividseats.com/culture-club-tickets-newcastle-upon-tyne-utilita-arena-newcastle-12-13-2026/production/7068019",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -402,7 +402,7 @@
     "ticketmaster_event_id": "360064B5F864E7B0",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/culture-club-tickets-glasgow-ovo-hydro-12-15-2026/production/7083912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
     "last_verified_at": null,
@@ -424,11 +424,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7083912,
+        "url": "https://www.vividseats.com/culture-club-tickets-glasgow-ovo-hydro-12-15-2026/production/7083912",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -471,7 +471,7 @@
     "ticketmaster_event_id": "350064B5F6D39B4C",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/culture-club-tickets-sheffield-utilita-arena-sheffield-12-17-2026/production/7095837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
     "last_verified_at": null,
@@ -493,11 +493,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7095837,
+        "url": "https://www.vividseats.com/culture-club-tickets-sheffield-utilita-arena-sheffield-12-17-2026/production/7095837",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -548,7 +548,7 @@
     "ticketmaster_event_id": "230064B5F95E27F2",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/culture-club-tickets-birmingham-utilita-arena-birmingham-12-18-2026/production/7067987",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
     "last_verified_at": null,
@@ -570,11 +570,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7067987,
+        "url": "https://www.vividseats.com/culture-club-tickets-birmingham-utilita-arena-birmingham-12-18-2026/production/7067987",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,
@@ -617,7 +617,7 @@
     "ticketmaster_event_id": "350064B5F95D9EFD",
     "ticketmaster_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
     "seatgeek_url": "",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/culture-club-tickets-london-the-o2---london-12-19-2026/production/7068034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
     "last_verified_at": null,
@@ -639,11 +639,11 @@
         "availability_status": "not_checked"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7068034,
+        "url": "https://www.vividseats.com/culture-club-tickets-london-the-o2---london-12-19-2026/production/7068034",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

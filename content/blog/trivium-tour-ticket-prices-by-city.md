@@ -4,7 +4,7 @@ seo_title: "Trivium tour ticket prices by city"
 description: "Trivium tour: the next date in 15 cities, $42.55 in Inglewood at the low end, $147.20 in Charlotte at the high end."
 summary: "TicketNetwork's lowest listed price for the next Trivium date in each of 15 cities, each figure with the time it was captured. Snapshots 22 November 2026."
 date: 2026-10-26
-updated: 2026-11-22
+updated: 2026-11-25
 status: published
 tags:
   - tour-data
@@ -25,7 +25,7 @@ Trivium's Crown In The Grave World Tour has 19 dates that TourTicketCompare trac
 | [Las Vegas](/artists/trivium/tickets/las-vegas-united-states) | 3 December 2026 | Pearl Concert Theater at Palms Casino Resort | $46 | TicketNetwork | 22 November, 15:21 UTC |
 | [Madison](/artists/trivium/tickets/madison-united-states) | 22 November 2026 | The Sylvee | $49.45 | TicketNetwork | 22 November, 18:05 UTC |
 | [Houston](/artists/trivium/tickets/houston-united-states) | 28 November 2026 | Bayou Music Center | $62.10 | TicketNetwork | 22 November, 15:24 UTC |
-| [Nashville](/artists/trivium/tickets/nashville-united-states) | 24 November 2026 | The Pinnacle - TN | $63.25 | TicketNetwork | 22 November, 15:24 UTC |
+| [Nashville](/artists/trivium/tickets/nashville-united-states) | 24 November 2026 (has passed) | The Pinnacle - TN | $63.25 | TicketNetwork | 22 November, 15:24 UTC |
 | [Dallas](/artists/trivium/tickets/dallas-united-states) | 29 November 2026 | South Side Ballroom | $65.55 | TicketNetwork | 22 November, 15:24 UTC |
 | [Omaha](/artists/trivium/tickets/omaha-united-states) | 16 December 2026 | Steelhouse Omaha | $66.70 | TicketNetwork | 22 November, 15:24 UTC |
 | [Phoenix](/artists/trivium/tickets/phoenix-united-states) | 2 December 2026 | Arizona Financial Theatre | $70.15 | TicketNetwork | 22 November, 15:24 UTC |

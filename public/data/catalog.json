@@ -9645,12 +9645,13 @@
       "tour_slug": null,
       "provider": "ticketmaster",
       "destination_type": "artist_page",
-      "affiliate_enabled": false,
-      "verified": false,
-      "public_enabled": false,
+      "affiliate_enabled": true,
+      "verified": true,
+      "public_enabled": true,
       "market": "global",
-      "last_checked_at": null,
-      "disclosure_required": true
+      "last_checked_at": "2026-11-25",
+      "disclosure_required": true,
+      "url": "https://www.ticketmaster.com/muse-tickets/artist/1400322"
     },
     {
       "link_id": "tm-artist-my-chemical-romance",

@@ -3120,6 +3120,17 @@
       "last_synced_at": null,
       "review_status": "verified",
       "notes": "Batch-promoted 2026-11-25: SeatGeek performer id + URL captured from the /2/performers API; Ticketmaster attraction id + URL captured from the Discovery attractions API (exact-name match, human batch spot-check required before merge)."
+    },
+    {
+      "slug": "muse",
+      "ticketmaster_attraction_id": "K8vZ9175E5V",
+      "ticketmaster_artist_url": "https://www.ticketmaster.com/muse-tickets/artist/1400322",
+      "sync_enabled": true,
+      "last_synced_at": null,
+      "review_status": "verified",
+      "notes": "Promoted 2026-11-25 Ticketmaster-only: attraction id + URL captured from the Discovery API (exact-name match); owner verified link in a browser. SeatGeek performer 20216 has no upcoming events, so no SeatGeek link.",
+      "seatgeek_performer_id": null,
+      "seatgeek_artist_url": null
     }
   ]
 }

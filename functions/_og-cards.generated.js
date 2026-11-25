@@ -820,7 +820,6 @@ export const OG_CARDS = {
   "/artists/trans-siberian-orchestra": {"url":"/og/artists-trans-siberian-orchestra.png","alt":"Tickets & tour dates: Trans-Siberian Orchestra"},
   "/artists/trans-siberian-orchestra/ticket-prices": {"url":"/og/artists-trans-siberian-orchestra-ticket-prices.png","alt":"Ticket prices: Trans-Siberian Orchestra"},
   "/artists/travis-tritt": {"url":"/og/artists-travis-tritt.png","alt":"Tickets & tour dates: Travis Tritt"},
-  "/artists/travis-tritt/presale": {"url":"/og/artists-travis-tritt-presale.png","alt":"Presale: Travis Tritt"},
   "/artists/travis-tritt/ticket-prices": {"url":"/og/artists-travis-tritt-ticket-prices.png","alt":"Ticket prices: Travis Tritt"},
   "/artists/travis-tritt/tickets/nashville-united-states": {"url":"/og/artists-travis-tritt-tickets-nashville-united-states.png","alt":"Tickets: Travis Tritt in Nashville"},
   "/artists/treaty-oak-revival": {"url":"/og/artists-treaty-oak-revival.png","alt":"Tickets & tour dates: Treaty Oak Revival"},

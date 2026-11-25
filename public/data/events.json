@@ -42662,7 +42662,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-philadelphia-pennsylvania-11-27-2026/event/020064B3BF9DC462",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -42718,7 +42718,14 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982966",
     "genre": "Dance/Electronic",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982966/John-Summit-tickets-Fri-Nov-27-2026-Liacouras-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982966/John-Summit-tickets-Fri-Nov-27-2026-Liacouras-Center",
+    "presales": [
+      {
+        "name": "Relos",
+        "start": "2026-11-26T15:00:00Z",
+        "end": "2026-11-28T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-summit-2026-brooklyn-17gzv0g655ozaay",
@@ -54894,7 +54901,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-denver-ball-arena-2-3-2027/production/7198540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -54951,6 +54958,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-26T16:00:00Z",
         "end": "2027-01-28T00:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Offer",
+        "start": "2026-11-30T17:00:00Z",
+        "end": "2026-12-01T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -55555,7 +55567,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-rosemont-allstate-arena-2-26-2027/production/7198546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -55620,6 +55632,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-26T15:00:00Z",
         "end": "2027-02-19T23:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Offer",
+        "start": "2026-11-30T16:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -55822,7 +55839,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-baltimore-cfg-bank-arena-3-4-2027/production/7198516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -55879,6 +55896,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-26T14:00:00Z",
         "end": "2027-02-25T22:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Deal",
+        "start": "2026-11-30T15:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -55991,7 +56013,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-austin-moody-center-atx-3-7-2027/production/7198526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-austin-texas-03-07-2027/event/3A0064D4B74DB03F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -56056,6 +56078,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-26T15:00:00Z",
         "end": "2027-02-28T23:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Offer",
+        "start": "2026-11-30T16:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -75696,7 +75723,7 @@
     "vividseats_url": "https://www.vividseats.com/polyphia-tickets-phoenix-arizona-financial-theatre-2-5-2027/production/7484783",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/polyphia-be-not-afraid-world-tour-phoenix-arizona-02-05-2027/event/19006519814B337C",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -75761,7 +75788,7 @@
       },
       {
         "name": "Holiday Offer",
-        "start": "2026-11-23T17:00:00Z",
+        "start": "2026-11-25T17:00:00Z",
         "end": "2026-12-12T05:00:00Z"
       }
     ],
@@ -107040,7 +107067,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/transsiberian-orchestra-the-ghosts-of-christmas-indianapolis-indiana-12-22-2026/event/0500650B3269C68A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -107091,11 +107118,6 @@
     "timezone": "America/Indiana/Indianapolis",
     "status": "on-sale",
     "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2026-09-18T14:00:00Z",
-        "end": "2026-11-25T03:00:00Z"
-      },
       {
         "name": "T-Mobile Concert Perks",
         "start": "2026-09-18T14:00:00Z",
@@ -112749,7 +112771,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-el-paso-sun-bowl-stadium-5-18-2027--concerts-hard-rock/production/7563516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -112811,6 +112833,11 @@
     "stubhub_international_url": "https://www.stubhub.ie/metallica-el-paso-tickets-5-18-2027/event/107669513",
     "presales": [
       {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-04-04T04:00:00Z"
+      },
+      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-04-19T04:00:00Z"
@@ -112822,11 +112849,6 @@
       },
       {
         "name": "VIP Packages Onsale",
-        "start": "2026-09-25T16:00:00Z",
-        "end": "2027-05-12T04:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Onsale",
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-05-12T04:00:00Z"
       }
@@ -112853,7 +112875,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-san-antonio-alamodome-5-22-2027--concerts-hard-rock/production/7563518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -112915,6 +112937,11 @@
     "stubhub_international_url": "https://www.stubhub.ie/metallica-san-antonio-tickets-5-22-2027/event/107669512",
     "presales": [
       {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-08T03:00:00Z"
+      },
+      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-04-23T03:00:00Z"
@@ -112926,11 +112953,6 @@
       },
       {
         "name": "VIP Packages Onsale",
-        "start": "2026-09-25T15:00:00Z",
-        "end": "2027-05-16T03:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Onsale",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-16T03:00:00Z"
       }
@@ -113053,7 +113075,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-kansas-city-arrowhead-stadium-5-29-2027--concerts-hard-rock/production/7563528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -113115,6 +113137,11 @@
     "stubhub_international_url": "https://www.stubhub.ie/metallica-kansas-city-tickets-5-29-2027/event/107668967",
     "presales": [
       {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-15T03:00:00Z"
+      },
+      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-04-30T03:00:00Z"
@@ -113126,11 +113153,6 @@
       },
       {
         "name": "VIP Packages Onsale",
-        "start": "2026-09-25T15:00:00Z",
-        "end": "2027-05-23T03:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Onsale",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-23T03:00:00Z"
       }
@@ -168715,7 +168737,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-uncasville-mohegan-sun-arena-ct-3-18-2027--concerts-country-and-folk/production/7637134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-uncasville-connecticut-03-18-2027/event/1D00653806FDA988",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -168771,6 +168793,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-03-14T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       },
       {
         "name": "Ticketmaster 2026 Holiday Promo: 2 for 1",
@@ -168883,7 +168910,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-mobile-regions-arena-3-25-2027/production/7601933",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-mobile-alabama-03-25-2027/event/1B00653293DB9B71",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -168939,6 +168966,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-03-22T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8285231/The-Red-Clay-Strays-tickets-Thu-Mar-25-2027-Regions-Arena",
@@ -169640,7 +169672,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-boise-extramile-arena-8-22-2027/production/7637020",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-boise-idaho-08-22-2027/event/1E0065399D9C8483",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -169706,6 +169738,11 @@
         "name": "2 for 1 Ticket Offer",
         "start": "2026-11-27T14:00:00Z",
         "end": "2027-01-01T05:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-11-30T05:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300909/The-Red-Clay-Strays-tickets-Sun-Aug-22-2027-ExtraMile-Arena",
@@ -169911,7 +169948,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-austin-moody-center-atx-9-19-2027/production/7636978",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-austin-texas-09-19-2027/event/3A00653DFA176D0A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -169979,6 +170016,11 @@
         "name": "Amex Reserved Tickets®",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-09-19T23:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO Offer",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300912/The-Red-Clay-Strays-tickets-Sun-Sep-19-2027-Moody-Center-ATX",
@@ -171529,7 +171571,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-pine-bluff-saracen-casino-resort-1-23-2027/production/7624290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -171586,6 +171628,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-01-17T04:00:00Z"
+      },
+      {
+        "name": "Black Friday and Cyber Monday",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
       }
     ],
     "ticket_limit": 6,
@@ -220694,7 +220741,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sabaton-legends-on-tour-chicago-illinois-11-24-2026/event/0400632AFF953C67",
-    "last_verified_at": "2026-11-18",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -220745,18 +220792,6 @@
     "timezone": "America/Chicago",
     "status": "on-sale",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "Citi® Cardmember Preferred Tickets",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-11-25T05:00:00Z"
-      },
-      {
-        "name": "Verizon Access Select Seats",
-        "start": "2025-09-19T15:00:00Z",
-        "end": "2026-11-25T05:00:00Z"
-      }
-    ],
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -225275,7 +225310,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-boston-massachusetts-05-22-2027/event/010064A6B989B8AC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -225332,7 +225367,14 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977954",
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977954/The-Airborne-Toxic-Event-tickets-Sat-May-22-2027-Orpheum-Theatre-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977954/The-Airborne-Toxic-Event-tickets-Sat-May-22-2027-Orpheum-Theatre-Boston",
+    "presales": [
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-cleveland-vvg1fz_1qxxiit",
@@ -247081,7 +247123,7 @@
     "vividseats_url": "https://www.vividseats.com/the-eagles-tickets-las-vegas-sphere-at-the-venetian-resort-12-4-2026--concerts-adult-contemporary/production/7256957",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/eagles-live-at-sphere-las-vegas-nevada-12-04-2026/event/17006483D6F9FC58",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -247138,13 +247180,6 @@
     "ticketmaster_discovery_event_id": "1A9Zk3dGkdpXLsb",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "presales": [
-      {
-        "name": "On The List VIP Package Onsale",
-        "start": "2026-07-17T17:00:00Z",
-        "end": "2026-11-25T06:00:00Z"
-      }
-    ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8113664/The-Eagles-tickets-Fri-Dec-4-2026-Sphere",
     "stubhub_international_url": "https://www.stubhub.ie/eagles-las-vegas-tickets-12-4-2026/event/107449339",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8113664",
@@ -288054,7 +288089,7 @@
     "city": "Detroit",
     "country": "United States Of America",
     "venue": "Little Caesars Arena",
-    "datetime_iso": "2026-11-04T01:00:00Z",
+    "datetime_iso": "2027-01-09T01:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "080064A9C8CDBB55",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
@@ -288062,7 +288097,7 @@
     "vividseats_url": "https://www.vividseats.com/katseye-tickets-detroit-little-caesars-arena-11-3-2026--concerts-pop/production/7027953",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-detroit-michigan-11-03-2026/event/080064A9C8CDBB55",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -288095,11 +288130,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7961637",
-        "url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena",
-        "verified": true,
-        "last_verified_at": "2026-10-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "stubhub-international": {
         "event_id": null,
@@ -288119,13 +288154,17 @@
     "ticketmaster_discovery_event_id": "vvG1OZ_1EFShc4",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Tue-Nov-3-2026-Little-Caesars-Arena",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961637",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "previous_start_date": "2026-11-04T01:00:00Z",
+    "previous_start_timezone": "America/New_York"
   },
   {
     "id": "tm-katseye-2026-chicago-vvg18z_1mip6i3",
@@ -288135,15 +288174,15 @@
     "city": "Chicago",
     "country": "United States Of America",
     "venue": "United Center",
-    "datetime_iso": "2026-11-06T02:00:00Z",
+    "datetime_iso": "2027-01-07T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "040064ABAC947B12",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
-    "seatgeek_url": "https://seatgeek.com/katseye-tickets/chicago-illinois-united-center-2026-11-05-8-pm/concert/18240147",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-chicago-illinois-11-05-2026/event/040064ABAC947B12",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -288155,11 +288194,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18240147,
-        "url": "https://seatgeek.com/katseye-tickets/chicago-illinois-united-center-2026-11-05-8-pm/concert/18240147",
-        "verified": true,
-        "last_verified_at": "2026-11-05",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
       },
       "vivid-seats": {
         "event_id": null,
@@ -288206,7 +288245,11 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961638",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "previous_start_date": "2026-11-06T02:00:00Z",
+    "previous_start_timezone": "America/Chicago"
   },
   {
     "id": "tm-katseye-2026-minneapolis-vvg1bz_1syoq0j",
@@ -288216,7 +288259,7 @@
     "city": "Minneapolis",
     "country": "United States Of America",
     "venue": "Target Center",
-    "datetime_iso": "2026-11-08T02:00:00Z",
+    "datetime_iso": "2027-01-11T02:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "060064ACF981D91C",
     "ticketmaster_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
@@ -288224,7 +288267,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/katseye-the-wildworld-tour-minneapolis-minnesota-11-07-2026/event/060064ACF981D91C",
-    "last_verified_at": "2026-10-22",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -288287,7 +288330,11 @@
       "LIVE NATION MUSIC"
     ],
     "ticketnetwork_url": "",
-    "ticketmaster_status_code": "postponed"
+    "ticketmaster_status_code": "rescheduled",
+    "ticket_limit": 4,
+    "genre": "Pop",
+    "previous_start_date": "2026-11-08T02:00:00Z",
+    "previous_start_timezone": "America/Chicago"
   },
   {
     "id": "tm-katseye-2026-austin-g5diz_1lv8_jd",
@@ -313038,7 +313085,7 @@
     "city": "Washington",
     "country": "United States Of America",
     "venue": "The Anthem",
-    "datetime_iso": "2026-11-28T02:00:00Z",
+    "datetime_iso": "2026-11-28T02:15:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "15006528B61E893A",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
@@ -313046,7 +313093,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-washington-dc-the-anthem-11-27-2026--concerts-pop/production/7540341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
-    "last_verified_at": "2026-11-21",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -360518,7 +360565,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-relocated-to-hard-tampa-florida-11-24-2026/event/0D00625B34E94E78",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -360571,13 +360618,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249211",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249211/Sting-tickets-Tue-Nov-24-2026-Seminole-Hard-Rock-Tampa-Event-Center",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "Official Platinum",
-        "start": "2025-03-21T14:00:00Z",
-        "end": "2026-11-25T02:00:00Z"
-      }
-    ],
     "ticket_limit": 4,
     "genre": "Rock"
   },
@@ -369512,7 +369552,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-north-little-rock-simmons-bank-arena-12-1-2026/production/7353338",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-north-little-rock-arkansas-12-01-2026/event/1B0064F5E959F269",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -369566,13 +369606,6 @@
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8167877/Jodeci-tickets-Tue-Dec-1-2026-Simmons-Bank-Arena",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ],
-    "presales": [
-      {
-        "name": "VIP Pacakges Onsale",
-        "start": "2026-07-31T15:00:00Z",
-        "end": "2026-11-25T05:55:00Z"
-      }
     ],
     "ticket_limit": 8,
     "genre": "R&B"
@@ -369746,7 +369779,7 @@
     "vividseats_url": "https://www.vividseats.com/jodeci-tickets-lake-charles-lake-charles-event-center---sudduth-coliseum-12-5-2026--concerts-rb/production/7354326",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/jodeci-35th-anniversary-tour-of-forever-lake-charles-louisiana-12-05-2026/event/1B0064FBAA6E9E92",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -369803,6 +369836,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-07-31T15:00:00Z",
         "end": "2026-11-29T05:55:00Z"
+      },
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-25T16:00:00Z",
+        "end": "2026-11-28T05:59:00Z"
       }
     ],
     "genre": "R&B"
@@ -374042,7 +374080,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-oklahoma-city-paycom-center-2-12-2027/production/7794871",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-oklahoma-city-oklahoma-02-12-2027/event/0C006542D1ADD76D",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -374097,7 +374135,14 @@
     "organizer_names": [
       "ZAMORA LIVE"
     ],
-    "genre": "Latin"
+    "genre": "Latin",
+    "presales": [
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-27T09:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-los-tigres-del-norte-2027-fort-worth-vvg1yz_4bmn9we",
@@ -374680,7 +374725,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-portland-moda-center-5-22-2027/production/7794976",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-portland-oregon-05-22-2027/event/0F006547F42EC2AF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -374735,6 +374780,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-11-05T17:00:00Z",
         "end": "2027-05-23T04:00:00Z"
+      },
+      {
+        "name": "Holiday Offer",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-12-01T07:59:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355710",
@@ -410999,7 +411049,7 @@
     "vividseats_url": "https://www.vividseats.com/the-rankin-family-tickets-sydney-centre-200-4-3-2027/production/7833217",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/the-rankin-family-together-again-tour-sydney-nova-scotia-04-03-2027/event/31006565CB8C6C94",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -411051,7 +411101,14 @@
     "status": "on-sale",
     "genre": "Pop",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8372071/The-Rankin-Family-tickets-Sat-Apr-3-2027-Centre-200",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372071"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8372071",
+    "presales": [
+      {
+        "name": "Extra Tickets Added",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2027-04-03T23:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-alan-walker-2027-jacksonville-z7r9jz1aaakpn",
@@ -420913,7 +420970,7 @@
     "city": "Hidalgo",
     "country": "United States Of America",
     "venue": "Payne Arena",
-    "datetime_iso": "2026-11-29T02:00:00Z",
+    "datetime_iso": "2026-11-29T03:00:00Z",
     "tour_name": "Cultura Tour 2026",
     "ticketmaster_event_id": "3A00648CA1E365C8",
     "ticketmaster_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-hidalgo-texas-11-28-2026/event/3A00648CA1E365C8",
@@ -420921,7 +420978,7 @@
     "vividseats_url": "https://www.vividseats.com/intocable-tickets-hidalgo-payne-arena-11-28-2026/production/6900584",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/intocable-cultura-tour-2026-hidalgo-texas-11-28-2026/event/3A00648CA1E365C8",
-    "last_verified_at": "2026-11-17",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -437802,7 +437859,7 @@
     "vividseats_url": "https://www.vividseats.com/tame-impala-tickets-tulsa-bok-center-2-11-2027/production/7907496",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tame-impala-the-deadbeat-tour-tulsa-oklahoma-02-11-2027/event/2000656BA29C42B7",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -437859,16 +437916,6 @@
     "ticket_limit": 6,
     "genre": "Rock",
     "presales": [
-      {
-        "name": "Artist Presale",
-        "start": "2026-11-24T18:00:00Z",
-        "end": "2026-11-25T04:00:00Z"
-      },
-      {
-        "name": "Early Entry GA Presale",
-        "start": "2026-11-24T18:00:00Z",
-        "end": "2026-11-25T04:00:00Z"
-      },
       {
         "name": "Early Entry GA",
         "start": "2026-11-25T18:00:00Z",
@@ -447010,7 +447057,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-charlottesville-john-paul-jones-arena-4-2-2027/production/7924385",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-02-2027/event/01006570C8E2A87F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447059,10 +447106,13 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4YGkdFzn-T",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-24T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8387868",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8387868/Cody-Johnson-tickets-Fri-Apr-2-2027-John-Paul-Jones-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8387868/Cody-Johnson-tickets-Fri-Apr-2-2027-John-Paul-Jones-Arena",
+    "organizer_names": [
+      "POLICE PRODUCTIONS"
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-cody-johnson-2027-evansville-vv1aazk4ngkdekbkk",
@@ -447080,7 +447130,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-evansville-ford-center-evansville-4-30-2027/production/7924021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-04-30-2027/event/05006563E71BA4C6",
-    "last_verified_at": "2026-11-24",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447129,8 +447179,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4NGkdEkBKk",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-24T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "POLICE PRODUCTIONS"
     ],
@@ -447454,7 +447503,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-chicago-united-center-3-19-2027/production/7922448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
-    "last_verified_at": "2026-11-24",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447503,8 +447552,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kvZvPQ9GACh3AW",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-24T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -447541,7 +447589,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-inglewood-intuit-dome-4-30-2027/production/7922446",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
-    "last_verified_at": "2026-11-24",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447576,8 +447624,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPQ_GAC1MpX",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-24T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -447755,7 +447802,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-03-09-2027/event/130065477BA621F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447790,7 +447837,12 @@
     },
     "ticketmaster_discovery_event_id": "1k7YvPoMGA5tx6S",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7xsqt",
@@ -447808,7 +447860,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-04-09-2027/event/1300654872FB16A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447843,7 +447895,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7XsQt",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7xsqr",
@@ -447861,7 +447918,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-06-09-2027/event/1300654872FB16AF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447896,7 +447953,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7XsQR",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7xsqs",
@@ -447914,7 +447976,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-08-09-2027/event/1300654872FB16B1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -447949,7 +448011,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7XsQs",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7tvqs",
@@ -447967,7 +448034,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-09-2027/event/1300654872FC16B3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448002,7 +448069,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7TvQS",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-16vgz_f-wg7tvqg",
@@ -448020,7 +448092,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-09-2027/event/1300654872FC16B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448055,7 +448127,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_f-wG7TvQg",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-westcourt-1ka8vpoygagbsx2",
@@ -448073,7 +448150,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-17-09-2027/event/250065479C63388F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448108,7 +448185,12 @@
     },
     "ticketmaster_discovery_event_id": "1ka8vPoyGAGbSx2",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-westcourt-1apzk4fgken8vl2",
@@ -448126,7 +448208,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-westcourt-18-09-2027/event/25006548AA434ACF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448161,7 +448243,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGken8Vl2",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-east-perth-1akzk4fgkeyukxi",
@@ -448179,7 +448266,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-24-09-2027/event/13006548B0D86FAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448214,7 +448301,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkeYUkXi",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-east-perth-16vgz_fpmg7hx1q",
@@ -448232,7 +448324,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-25-09-2027/event/1300654977F2229A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448267,7 +448359,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_fPMG7Hx1Q",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-east-perth-16vgz_fpmg7hx1r",
@@ -448285,7 +448382,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-east-perth-27-09-2027/event/1300654977F2229E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448320,7 +448417,12 @@
     },
     "ticketmaster_discovery_event_id": "16vGZ_fPMG7Hx1r",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk46gkdqpnzu",
@@ -448338,7 +448440,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-01-10-2027/event/13006547DA5AAE36",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448373,7 +448475,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk46GkdQpnzU",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkd_qb_v",
@@ -448391,7 +448498,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-02-10-2027/event/13006548D977A674",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448426,7 +448533,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkd_qB_V",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkd_z1h4",
@@ -448444,7 +448556,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-04-10-2027/event/13006548D9E0A6D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448479,7 +448591,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkd_z1h4",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkdqv1hi",
@@ -448497,7 +448614,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-06-10-2027/event/13006548DA04A6EC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448532,7 +448649,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkdQv1hi",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkdqabj6",
@@ -448550,7 +448672,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-08-10-2027/event/13006548DA27A707",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448585,7 +448707,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkdQaBj6",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-sydney-1akzk4fgkdq4qju",
@@ -448603,7 +448730,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-sydney-09-10-2027/event/13006548DA55A736",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448638,7 +448765,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk4FGkdQ4QjU",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-adelaide-1akzk46gkezazeo",
@@ -448656,7 +448788,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-15-10-2027/event/13006547B82789D1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448691,7 +448823,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk46GkezazEo",
     "timezone": "Australia/Adelaide",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-adelaide-1akzk46gkdlbdc4",
@@ -448709,7 +448846,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-adelaide-16-10-2027/event/13006547DFEBB395",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448744,7 +448881,12 @@
     },
     "ticketmaster_discovery_event_id": "1AKZk46GkdLBDC4",
     "timezone": "Australia/Adelaide",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkei00m-",
@@ -448762,7 +448904,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-22-10-2027/event/25006548AC924DE1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448797,7 +448939,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkei00M-",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoeeea",
@@ -448815,7 +448962,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-23-10-2027/event/25006548D19E7085",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448850,7 +448997,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkdoEEeA",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoeee6",
@@ -448868,7 +449020,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-25-10-2027/event/25006548D19E7087",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448903,7 +449055,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkdoEEe6",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoeme2",
@@ -448921,7 +449078,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-29-10-2027/event/25006548D19F708F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -448956,7 +449113,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkdoEMe2",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk4fgkdoi9e3",
@@ -448974,7 +449136,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-30-10-2027/event/25006548D1A17092",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449009,7 +449171,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk4FGkdoI9e3",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1aefz_fgkxvpad9",
@@ -449027,7 +449194,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-01-11-2027/event/2500654FB49490D7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449062,7 +449229,12 @@
     },
     "ticketmaster_discovery_event_id": "1AefZ_fGkXVPad9",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk49gkdahuzu",
@@ -449080,7 +449252,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-05-11-2027/event/25006557C9F0DE36",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449115,7 +449287,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk49GkdaHuzU",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-melbourne-1apzk49gkdawczh",
@@ -449133,7 +449310,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-melbourne-06-11-2027/event/25006557C9F6DE3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449168,7 +449345,12 @@
     },
     "ticketmaster_discovery_event_id": "1APZk49GkdaWczH",
     "timezone": "Australia/Melbourne",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-new-town-1aefz_4gkmua4ux",
@@ -449186,7 +449368,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-13-11-2027/event/2500655BB625537E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449221,7 +449403,12 @@
     },
     "ticketmaster_discovery_event_id": "1AefZ_4GkmUa4uX",
     "timezone": "Australia/Hobart",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-new-town-1aefz_4gkwn0f-6",
@@ -449239,7 +449426,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-new-town-14-11-2027/event/2500655CAA914847",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449274,7 +449461,12 @@
     },
     "ticketmaster_discovery_event_id": "1AefZ_4Gkwn0f-6",
     "timezone": "Australia/Hobart",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-caversham-1avgz_4gklqcbyy",
@@ -449292,7 +449484,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-20-11-2027/event/1300655ADD398E79",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449327,7 +449519,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GklqCbyy",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-caversham-1avgz_4gkm_nd5y",
@@ -449345,7 +449542,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-caversham-21-11-2027/event/1300655B99A832F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449380,7 +449577,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4Gkm_nd5y",
     "timezone": "Australia/Perth",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-parkes-1avgz_4gkmmigtv",
@@ -449398,7 +449600,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-04-12-2027/event/1300655BB7A35FC1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449433,7 +449635,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GkmMIgTv",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-parkes-1avgz_4gkrpif0p",
@@ -449451,7 +449658,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-parkes-05-12-2027/event/1300655BD6B08916",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449486,7 +449693,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GkRpiF0p",
     "timezone": "Australia/Sydney",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "FACE TO FACE TOURING"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-1avgz_4gkwmdz73",
@@ -449504,7 +449716,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-10-12-2027/event/1300655CB70F8112",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449539,7 +449751,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GkwMdz73",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-powderfinger-2027-bowen-hills-1avgz_4gkue2jyq",
@@ -449557,7 +449774,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com.au/powderfinger-live-2027-bowen-hills-11-12-2027/event/1300655DA73E6E5D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449592,7 +449809,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvGZ_4GkUE2Jyq",
     "timezone": "Australia/Brisbane",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION AUSTRALIA"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-cardiff-g5vhz_kueusb3",
@@ -449610,7 +449832,7 @@
     "vividseats_url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-cardiff-cardiff-castle-6-30-2027/production/7664074",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-cardiff-30-06-2027/event/1F00653D82371612",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449653,7 +449875,13 @@
     "ticketmaster_discovery_event_id": "G5vHZ_KUeusb3",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-cardiff-cardiff-castle-30-6-2027/event/107672421"
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-cardiff-cardiff-castle-30-6-2027/event/107672421",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "DEPOT MARKETING LIMITED"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-scarborough-1adfz_kgkdfwywm",
@@ -449671,7 +449899,7 @@
     "vividseats_url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-scarborough-scarborough-open-air-theatre-7-1-2027/production/7664052",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-scarborough-01-07-2027/event/3500653EC8F79F6E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449714,7 +449942,12 @@
     "ticketmaster_discovery_event_id": "1AdfZ_KGkDFWyWm",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-scarborough-scarborough-open-air-theatre-1-7-2027/event/107671960"
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-scarborough-scarborough-open-air-theatre-1-7-2027/event/107671960",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-dublin-1avoz_kgkslysih",
@@ -449732,7 +449965,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-dublin-03-07-2027/event/1800653CEBC31A3C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449767,7 +450000,12 @@
     },
     "ticketmaster_discovery_event_id": "1AvOZ_KGkSlYsIH",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "MCD PRODUCTIONS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-belfast-1adoz_kgkuhgo_o",
@@ -449785,7 +450023,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ie/slash-feat-myles-kennedy-and-the-belfast-04-07-2027/event/3800653D9B311660",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449828,7 +450066,12 @@
     "ticketmaster_discovery_event_id": "1AdOZ_KGkUhGo_O",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-belfast-custom-house-square-belfast-4-7-2027/event/107671961"
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-belfast-custom-house-square-belfast-4-7-2027/event/107671961",
+    "organizer_names": [
+      "SD EVENT MANAGEMENT LTD"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-halifax-1adfz_kgks-vju1",
@@ -449846,7 +450089,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-halifax-06-07-2027/event/3500653CE105C34A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449889,7 +450132,12 @@
     "ticketmaster_discovery_event_id": "1AdfZ_KGkS-vju1",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-halifax-piece-hall-halifax-6-7-2027/event/107672422"
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-halifax-piece-hall-halifax-6-7-2027/event/107672422",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-slash-2027-london-1auzk4v0gjzzeck",
@@ -449907,7 +450155,7 @@
     "vividseats_url": "https://www.vividseats.com/slash-featuring-myles-kennedy-and-the-conspirators-tickets-london-eventim-apollo-7-7-2027/production/7664939",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/slash-feat-myles-kennedy-and-the-london-07-07-2027/event/36006541935738D5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -449950,7 +450198,9 @@
     "ticketmaster_discovery_event_id": "1aUZk4v0gjzZeCk",
     "timezone": "Europe/London",
     "status": "on-sale",
-    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-london-eventim-apollo-7-7-2027/event/107672423"
+    "stubhub_international_url": "https://www.stubhub.ie/slash-tickets-london-eventim-apollo-7-7-2027/event/107672423",
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-bournemouth-17uov0g659y_xj3",
@@ -449968,7 +450218,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-bournemouth-bournemouth-international-centre-12-7-2026/production/7095841",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450027,7 +450277,12 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090645",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090645/Boy-George-tickets-Mon-Dec-7-2026-Windsor-Hall-At-Bournemouth-International-Centre",
-    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-bournemouth-bournemouth-international-centre-7-12-2026/event/107189082"
+    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-bournemouth-bournemouth-international-centre-7-12-2026/event/107189082",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-cardiff-17uov0g65qatjh8",
@@ -450045,7 +450300,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-cardiff-utilita-arena-cardiff-12-8-2026--concerts-pop/production/7087452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450096,7 +450351,14 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090642",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090642/Boy-George-tickets-Tue-Dec-8-2026-Cardiff-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090642/Boy-George-tickets-Tue-Dec-8-2026-Cardiff-International-Arena",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-manchester-g5vhz_g33v7ia",
@@ -450114,7 +450376,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-manchester-ao-arena-12-10-2026/production/7083914",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450165,7 +450427,13 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090641",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090641/Boy-George-tickets-Thu-Dec-10-2026-AO-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090641/Boy-George-tickets-Thu-Dec-10-2026-AO-Arena",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ASM T-A AO ARENA"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-liverpool-17uyv0g659ybvks",
@@ -450183,7 +450451,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-liverpool-11-12-2026/event/370064B5F96344F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450218,7 +450486,12 @@
     },
     "ticketmaster_discovery_event_id": "17uYv0G659ybVKS",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-leeds-g5vhz_59ybb3y",
@@ -450236,7 +450509,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-leeds-first-direct-arena---leeds-12-12-2026/production/7095865",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450271,7 +450544,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_59ybb3y",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-newcastle-upon-tyne-g5vhz_59ybf3i",
@@ -450289,7 +450567,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-newcastle-upon-tyne-utilita-arena-newcastle-12-13-2026/production/7068019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450340,7 +450618,12 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090644",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090644/Boy-George-tickets-Sun-Dec-13-2026-Utilita-Arena-Newcastle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090644/Boy-George-tickets-Sun-Dec-13-2026-Utilita-Arena-Newcastle",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-glasgow-17uov0g659z_cry",
@@ -450358,7 +450641,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-glasgow-ovo-hydro-12-15-2026/production/7083912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450409,7 +450692,12 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090648",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090648/Boy-George-tickets-Tue-Dec-15-2026-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090648/Boy-George-tickets-Tue-Dec-15-2026-OVO-Hydro",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-sheffield-17u8v0g659uvycg",
@@ -450427,7 +450715,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-sheffield-utilita-arena-sheffield-12-17-2026/production/7095837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450486,7 +450774,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090646",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090646/Boy-George-tickets-Thu-Dec-17-2026-Utilita-Arena-Sheffield",
-    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-sheffield-utilita-arena-sheffield-17-12-2026/event/107189085"
+    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-sheffield-utilita-arena-sheffield-17-12-2026/event/107189085",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ASM T.A UTILITA ARENA SHEFFIELD",
+      "LIVE NATION (MUSIC) UK LTD (VENUES)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-birmingham-17fyv0g659y9xlw",
@@ -450504,7 +450799,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-birmingham-utilita-arena-birmingham-12-18-2026/production/7067987",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450555,7 +450850,12 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090643",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090643/Boy-George-tickets-Fri-Dec-18-2026-Utilita-Arena-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090643/Boy-George-tickets-Fri-Dec-18-2026-Utilita-Arena-Birmingham",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-london-17u8v0g659y9_dw",
@@ -450573,7 +450873,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-london-the-o2---london-12-19-2026/production/7068034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450632,7 +450932,12 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8008391",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8008391/Culture-Club-tickets-Sat-Dec-19-2026-O2-Arena-London",
-    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-london-the-o2-arena-19-12-2026/event/107189086"
+    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-london-the-o2-arena-19-12-2026/event/107189086",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-staind-2027-manchester-g5dzz_92jre09",
@@ -450650,7 +450955,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-manchester-05-06-2027/event/3E006573E67A7917",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450686,7 +450991,35 @@
     "ticketmaster_discovery_event_id": "G5dzZ_92JrE09",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T10:00:00Z"
+    "public_onsale_at": "2026-11-27T10:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY VICTORIA WAREHOUSE MANCHESTER)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-25T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-26T12:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-staind-2027-london-g5dzz_9kck9dk",
@@ -450704,7 +451037,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-london-06-06-2027/event/3E006574CE1970D3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450740,7 +451073,35 @@
     "ticketmaster_discovery_event_id": "G5dzZ_9KCk9dK",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T10:00:00Z"
+    "public_onsale_at": "2026-11-27T10:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-25T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-26T12:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-staind-2027-berlin-z698xzc2z1a6oxuf",
@@ -450758,8 +451119,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/7462354?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "7462354",
@@ -450794,7 +451155,38 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1A6oxuf",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z"
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "Trinity Music GmbH"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-26T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-26T11:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-staind-2027-hannover-z698xzc2z1k0-ep0o",
@@ -450812,8 +451204,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/921096911?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "921096911",
@@ -450848,7 +451240,38 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k0-ep0o",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z"
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "Hannover Concerts GmbH & Co.KG Betriebsgesellschaft"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-26T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-26T11:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-steve-lacy-2027-london-16dfz_98yg7uf9q",
@@ -450866,7 +451289,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/steve-lacy-london-26-04-2027/event/3500657430D885DD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450902,7 +451325,21 @@
     "ticketmaster_discovery_event_id": "16dfZ_98YG7UF9q",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T10:00:00Z"
+    "public_onsale_at": "2026-11-27T10:00:00Z",
+    "ticket_limit": 8,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Metropolis Presale",
+        "start": "2026-11-26T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T10:00:00Z",
+        "end": "2026-11-27T09:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-garth-brooks-2027-birmingham-1aozk4mgkenweqi",
@@ -450920,7 +451357,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -450956,7 +451393,12 @@
     "ticketmaster_discovery_event_id": "1AOZk4MGkeNweQI",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T18:00:00Z"
+    "public_onsale_at": "2026-12-04T18:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-birmingham-1aozk4mgke0axh7",
@@ -450974,7 +451416,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451010,7 +451452,12 @@
     "ticketmaster_discovery_event_id": "1AOZk4MGke0axh7",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T18:00:00Z"
+    "public_onsale_at": "2026-12-04T18:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-elevation-worship-2027-portland-vvg1hz_3xxsikj",
@@ -451028,7 +451475,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-portland-oregon-02-27-2027/event/0F006528A2C6819C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451063,7 +451510,15 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_3xxsIkj",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Religious",
+    "presales": [
+      {
+        "name": "30% Off Promotion",
+        "start": "2026-11-20T18:00:00Z",
+        "end": "2026-12-01T07:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-tom-jones-2027-london-g5vhz_9c-qabn",
@@ -451081,7 +451536,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-17-06-2027/event/1F006573A1685623",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451116,7 +451571,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_9C-QAbN",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PWR EVENTS",
+      "HISTORIC ROYAL PALACES LTD"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-katseye-2027-edinburgh-1adbz_9rkp3zdc5u",
@@ -451134,7 +451595,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451170,7 +451631,36 @@
     "ticketmaster_discovery_event_id": "1adbZ_9rKP3ZdC5u",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T17:00:00Z"
+    "public_onsale_at": "2026-11-27T17:00:00Z",
+    "organizer_names": [
+      "DF CONCERTS LIMITED",
+      "GIGS IN SCOTLAND",
+      "SUMMER SESSIONS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Pop",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T17:00:00Z",
+        "end": "2026-11-27T16:00:00Z"
+      },
+      {
+        "name": "Mastercard Presale",
+        "start": "2026-11-25T17:00:00Z",
+        "end": "2026-11-27T16:00:00Z"
+      },
+      {
+        "name": "Gigs in Scotland Presale",
+        "start": "2026-11-26T17:00:00Z",
+        "end": "2026-11-27T16:00:00Z"
+      },
+      {
+        "name": "Summer Sessions Presale",
+        "start": "2026-11-26T17:00:00Z",
+        "end": "2026-11-27T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-miami-vvg1vz_9anpvtf",
@@ -451188,7 +451678,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-miami-florida-08-13-2027/event/0D0065716A581A54",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451224,7 +451714,44 @@
     "ticketmaster_discovery_event_id": "vvG1VZ_9Anpvtf",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T15:00:00Z"
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "PROMOTED BY TEAM"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T15:00:00Z",
+        "end": "2027-08-09T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-atlanta-vvg1zz_9oen-vc",
@@ -451242,7 +451769,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-atlanta-georgia-08-17-2027/event/0E006574428E1D0E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451278,7 +451805,44 @@
     "ticketmaster_discovery_event_id": "vvG1zZ_9oeN-VC",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T15:00:00Z"
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T15:00:00Z",
+        "end": "2027-08-13T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-east-rutherford-k7vgf_9kczqx4",
@@ -451296,7 +451860,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-26-2027/event/00006574EDE1A895",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451332,7 +451896,43 @@
     "ticketmaster_discovery_event_id": "k7vGF_9KczQx4",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T15:00:00Z"
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T15:00:00Z",
+        "end": "2027-08-22T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-east-rutherford-k7vgf_9lrnhen",
@@ -451350,7 +451950,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-28-2027/event/00006577DE8DB9E3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451386,7 +451986,43 @@
     "ticketmaster_discovery_event_id": "k7vGF_9LrNhEN",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T15:00:00Z"
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T05:00:00Z",
+        "end": "2027-08-24T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-chicago-vv1a7zk4vgkdpyr0o",
@@ -451404,7 +452040,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-chicago-illinois-09-03-2027/event/04006574E5C2F911",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451440,7 +452076,49 @@
     "ticketmaster_discovery_event_id": "vv1A7Zk4VGkdPYR0o",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T16:00:00Z"
+    "public_onsale_at": "2026-12-04T16:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T16:00:00Z",
+        "end": "2026-12-02T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T16:00:00Z",
+        "end": "2026-12-02T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T16:00:00Z",
+        "end": "2026-12-03T04:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T16:00:00Z",
+        "end": "2026-12-03T04:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T16:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-03T16:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T16:00:00Z",
+        "end": "2027-08-30T17:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-toronto-1a8zk4mgkdfgnhr",
@@ -451458,7 +452136,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-07-2027/event/10006577D4D6A6EF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451494,7 +452172,45 @@
     "ticketmaster_discovery_event_id": "1A8Zk4MGkdfgnhR",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T15:00:00Z"
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T15:00:00Z",
+        "end": "2027-09-03T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-toronto-1a8zk4mgkdbl1ra",
@@ -451512,7 +452228,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451548,7 +452264,40 @@
     "ticketmaster_discovery_event_id": "1A8Zk4MGkdbL1RA",
     "timezone": "America/Toronto",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T15:00:00Z"
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T15:00:00Z",
+        "end": "2027-09-05T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-foxborough-vv1avzk4wgkew2yy8",
@@ -451566,7 +452315,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-foxborough-massachusetts-09-14-2027/event/01006572BD3F9C10",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451602,7 +452351,44 @@
     "ticketmaster_discovery_event_id": "vv1AvZk4wGkeW2yY8",
     "timezone": "America/New_York",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T15:00:00Z"
+    "public_onsale_at": "2026-12-04T15:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T15:00:00Z",
+        "end": "2026-12-02T03:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-03T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T15:00:00Z",
+        "end": "2026-12-04T03:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T15:00:00Z",
+        "end": "2027-09-10T16:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-inglewood-vvg1iz_92xm4u0",
@@ -451620,7 +452406,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-01-2027/event/0A006573FEDD5364",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451656,7 +452442,44 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_92XM4u0",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T18:00:00Z"
+    "public_onsale_at": "2026-12-04T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T18:00:00Z",
+        "end": "2026-12-02T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T18:00:00Z",
+        "end": "2026-12-02T06:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T18:00:00Z",
+        "end": "2026-12-03T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T18:00:00Z",
+        "end": "2026-12-04T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T18:00:00Z",
+        "end": "2026-12-04T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T18:00:00Z",
+        "end": "2027-09-27T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-inglewood-vvg1iz_9guf1uh",
@@ -451674,7 +452497,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-02-2027/event/0A0065733620A37C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451710,7 +452533,44 @@
     "ticketmaster_discovery_event_id": "vvG1IZ_9GUF1uH",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T18:00:00Z"
+    "public_onsale_at": "2026-12-04T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T18:00:00Z",
+        "end": "2026-12-02T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T18:00:00Z",
+        "end": "2026-12-02T06:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T18:00:00Z",
+        "end": "2026-12-03T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T18:00:00Z",
+        "end": "2026-12-04T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T18:00:00Z",
+        "end": "2026-12-04T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T18:00:00Z",
+        "end": "2027-09-28T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-las-vegas-1avjz_9omopzd8fe",
@@ -451728,7 +452588,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-las-vegas-nevada-10-09-2027/event/1700657477465F71",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451764,7 +452624,43 @@
     "ticketmaster_discovery_event_id": "1avjZ_9oMoPZd8Fe",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T18:00:00Z"
+    "public_onsale_at": "2026-12-04T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T18:00:00Z",
+        "end": "2026-12-02T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T18:00:00Z",
+        "end": "2026-12-02T06:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T18:00:00Z",
+        "end": "2026-12-03T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T18:00:00Z",
+        "end": "2026-12-04T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T18:00:00Z",
+        "end": "2026-12-04T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T18:00:00Z",
+        "end": "2027-10-05T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-santa-clara-g5vyz_9cslwoq",
@@ -451782,7 +452678,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-santa-clara-california-10-15-2027/event/1C006573B3AF245A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451818,7 +452714,44 @@
     "ticketmaster_discovery_event_id": "G5vYZ_9CSlwoQ",
     "timezone": "America/Los_Angeles",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T18:00:00Z"
+    "public_onsale_at": "2026-12-04T18:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Presale: Feedback Group",
+        "start": "2026-11-30T18:00:00Z",
+        "end": "2026-12-02T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale: The Hype Group",
+        "start": "2026-12-01T18:00:00Z",
+        "end": "2026-12-02T06:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T18:00:00Z",
+        "end": "2026-12-03T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Presale",
+        "start": "2026-12-02T18:00:00Z",
+        "end": "2026-12-04T06:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T18:00:00Z",
+        "end": "2026-12-04T06:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-12-04T18:00:00Z",
+        "end": "2027-10-11T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-u2-2027-vancouver-1aozk4vgkdpqxj1",
@@ -451836,7 +452769,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-vancouver-british-columbia-10-18-2027/event/11006574E577E70A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451872,7 +452805,35 @@
     "ticketmaster_discovery_event_id": "1AoZk4VGkdPqXj1",
     "timezone": "America/Vancouver",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T17:00:00Z"
+    "public_onsale_at": "2026-12-04T17:00:00Z",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 4,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Presale",
+        "start": "2026-11-30T17:00:00Z",
+        "end": "2026-12-04T05:00:00Z"
+      },
+      {
+        "name": "Visa Presale",
+        "start": "2026-12-02T17:00:00Z",
+        "end": "2026-12-03T05:00:00Z"
+      },
+      {
+        "name": "Artist Presale",
+        "start": "2026-12-03T17:00:00Z",
+        "end": "2026-12-04T05:00:00Z"
+      },
+      {
+        "name": "VIP Packages Onsale",
+        "start": "2026-12-04T17:00:00Z",
+        "end": "2027-10-14T19:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-tampa-vvg1vz_6l1oil8",
@@ -451890,7 +452851,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-tampa-florida-08-24-2027/event/0D006477CA46C7D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -451925,7 +452886,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_6L1oiL8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-nashville-z7r9jz1a7-mus",
@@ -451943,7 +452910,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuS",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -451978,7 +452945,11 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-atlanta-vvg1zz_6r-fif6",
@@ -451996,7 +452967,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-atlanta-georgia-08-27-2027/event/0E006477A1228207",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452031,7 +453002,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_6r-FIF6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-birmingham-1aozkozgkdjgv_k",
@@ -452049,7 +453026,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452084,7 +453061,13 @@
     },
     "ticketmaster_discovery_event_id": "1AOZkozGkdjgV_K",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "RED MOUNTAIN ENTERTAINMENT",
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-austin-g5diz_6nescpy",
@@ -452102,7 +453085,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-austin-texas-08-31-2027/event/3A006478E7C4E970",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452137,7 +453120,13 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_6NEsCPY",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-irving-vvg1yz_6j3sk_v",
@@ -452155,7 +453144,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-irving-texas-09-01-2027/event/0C00647992CC6674",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452190,7 +453179,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6J3Sk_V",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-bellvue-z7r9jz1a7-mug",
@@ -452208,7 +453203,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mug",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -452243,7 +453238,11 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Mug",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-morrison-z7r9jz1a7-muu",
@@ -452261,7 +453260,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuU",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -452296,7 +453295,11 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuU",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-los-angeles-vv1ke8v0r6gauznui",
@@ -452314,7 +453317,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-los-angeles-california-09-07-2027/event/090064787D02336C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452349,7 +453352,13 @@
     },
     "ticketmaster_discovery_event_id": "vv1ke8v0r6GAuZNui",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-phoenix-1kk8v0r_gac5gqt",
@@ -452367,7 +453376,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-phoenix-arizona-09-08-2027/event/190064799E2F56A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452402,7 +453411,13 @@
     },
     "ticketmaster_discovery_event_id": "1kk8v0r_GAC5gQt",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-san-diego-vvg1iz_63vng7e",
@@ -452420,7 +453435,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-diego-california-09-10-2027/event/0A006474B48CC127",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452455,7 +453470,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_63VNG7E",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-san-francisco-g5vyz_6xupdzq",
@@ -452473,7 +453494,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-francisco-california-09-12-2027/event/1C006478B697BE1D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452508,7 +453529,14 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_6xUPDzq",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "ANOTHER PLANET",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-portland-vvg1hz_61kvuk5",
@@ -452526,7 +453554,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-portland-oregon-09-14-2027/event/0F00647293D3618B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452561,7 +453589,12 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_61KVUk5",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-vancouver-1aozkosgkedfaj7",
@@ -452579,7 +453612,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dermot-kennedy-the-weight-of-the-vancouver-british-columbia-09-16-2027/event/11006473BB209704",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452614,7 +453647,14 @@
     },
     "ticketmaster_discovery_event_id": "1AoZkoSGkeDFaj7",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-seattle-vvg1hz_6xvw_39",
@@ -452632,7 +453672,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-seattle-washington-09-17-2027/event/0F006478B4C99497",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452667,7 +453707,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_6xVw_39",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-atlanta-vvg1zzbgd3i_ac",
@@ -452685,7 +453731,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-25-2026/event/0E006350D2B1924E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452720,7 +453766,12 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZbgd3i_aC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-atlanta-vvg1zzbgq3ik-i",
@@ -452738,7 +453789,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452773,7 +453824,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZbgQ3ik-i",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-glendale-1a_zku3gkdjwfxj",
@@ -452791,7 +453848,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452826,7 +453883,12 @@
     },
     "ticketmaster_discovery_event_id": "1A_Zku3GkdjWfXj",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-glendale-1a_zku3gkdql0tk",
@@ -452844,7 +453906,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452879,7 +453941,12 @@
     },
     "ticketmaster_discovery_event_id": "1A_Zku3GkdqL0Tk",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-san-jose-g5vyzbg9ir1-u",
@@ -452897,7 +453964,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452932,7 +453999,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZbg9ir1-u",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-edmonton-1aozkuogkdiu5gt",
@@ -452950,7 +454023,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -452985,7 +454058,22 @@
     },
     "ticketmaster_discovery_event_id": "1AoZkuoGkdIu5gt",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2025-10-31T18:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2026-edmonton-1aozkuogkdichgs",
@@ -453003,7 +454091,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453038,7 +454126,22 @@
     },
     "ticketmaster_discovery_event_id": "1AoZkuoGkdIChgs",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2025-10-31T18:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2026-vancouver-15v7zbga7vfqk",
@@ -453056,7 +454159,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453091,7 +454194,22 @@
     },
     "ticketmaster_discovery_event_id": "15v7ZbgA7vfqk",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2025-10-31T19:00:00Z",
+        "end": "2026-12-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2026-vancouver-1k78vn4_gag8jn9",
@@ -453109,7 +454227,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453144,7 +454262,22 @@
     },
     "ticketmaster_discovery_event_id": "1k78vN4_GAG8JN9",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2025-10-31T19:00:00Z",
+        "end": "2026-12-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-amsterdam-z698xzbpz1k0w44ux",
@@ -453162,8 +454295,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/rush-fifty-something-tickets/932555362?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "932555362",
@@ -453197,7 +454330,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k0w44ux",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Greenhouse Talent"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-glasgow-16uzkokjoza2eu1c",
@@ -453215,7 +454352,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453250,7 +454387,13 @@
     },
     "ticketmaster_discovery_event_id": "16UZkoKjoZA2eu1C",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-glasgow-1auzko9gkdz3fsq",
@@ -453268,7 +454411,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453303,7 +454446,13 @@
     },
     "ticketmaster_discovery_event_id": "1AUZko9GkdZ3fsQ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-manchester-1amzko3gkd_h5ef",
@@ -453321,7 +454470,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453356,7 +454505,12 @@
     },
     "ticketmaster_discovery_event_id": "1AMZko3Gkd_H5eF",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-manchester-1amzko9gkdv60uv",
@@ -453374,7 +454528,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453409,7 +454563,12 @@
     },
     "ticketmaster_discovery_event_id": "1AMZko9GkdV60Uv",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-london-1agzkokgkdbtjvd",
@@ -453427,7 +454586,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453462,7 +454621,12 @@
     },
     "ticketmaster_discovery_event_id": "1AgZkoKGkdbtJVd",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-london-1agzkokgkdwubbc",
@@ -453480,7 +454644,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453515,7 +454679,12 @@
     },
     "ticketmaster_discovery_event_id": "1AgZkoKGkdwubbc",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-london-1agzkokgkdbmisv",
@@ -453533,7 +454702,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453568,7 +454737,12 @@
     },
     "ticketmaster_discovery_event_id": "1AgZkoKGkdBmISv",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-fornebu-z698xzb_z16v33febz",
@@ -453586,8 +454760,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/rush-fifty-something-tickets/1492227638?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1492227638",
@@ -453621,7 +454795,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v33FEbz",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Norway AS"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-helsinki-z698xz8kz16vu9qkuz",
@@ -453639,8 +454817,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/rush-fifty-something-%7C-legazy-seat-lippu-tickets/1357753378?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1357753378",
@@ -453674,7 +454852,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16vu9qKuz",
     "timezone": "Europe/Helsinki",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Veikkaus Arena VN Helsinki Oy"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgo-1b",
@@ -453692,7 +454874,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453727,7 +454909,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1b",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-07T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgo-1h",
@@ -453745,7 +454949,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453780,7 +454984,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1h",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-09T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-17T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos1r",
@@ -453798,7 +455024,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453833,7 +455059,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs1r",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-12T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-20T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos10",
@@ -453851,7 +455099,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453886,7 +455134,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs10",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-14T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-22T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-v1t",
@@ -453904,7 +455174,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453939,7 +455209,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-v1t",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-24T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1r",
@@ -453957,7 +455249,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -453992,7 +455284,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1R",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1g",
@@ -454010,7 +455324,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -454045,7 +455359,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1g",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-04T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg--5c",
@@ -454063,7 +455399,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -454098,7 +455434,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg--5C",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-06T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-13T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-s53",
@@ -454116,7 +455474,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -454151,7 +455509,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-s53",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-11T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-18T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgxv5p",
@@ -454169,7 +455549,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -454204,7 +455584,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgxv5p",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-13T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-20T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-muse-2026-amsterdam-z698xzbpz1kgae78p",
@@ -454222,8 +455624,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/305084425?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "305084425",
@@ -454257,7 +455659,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kGAe78P",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "genre": "Alternative"
   },
   {
     "id": "tm-muse-2026-amsterdam-z698xzbpz16v0z-yvb",
@@ -454275,8 +455681,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/1900870058?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1900870058",
@@ -454310,7 +455716,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0Z-Yvb",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "genre": "Alternative"
   },
   {
     "id": "tm-muse-2026-zurich-z698xzu3z1kaiqded",
@@ -454328,8 +455738,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/268683083?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "268683083",
@@ -454363,7 +455773,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z1kaIQded",
     "timezone": "Europe/Zurich",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Schweiz AG"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2026-zurich-z698xzu3z16v7p4eja",
@@ -454381,8 +455795,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/1125567705?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1125567705",
@@ -454416,7 +455830,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z16v7P4EjA",
     "timezone": "Europe/Zurich",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Schweiz AG"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-madrid-z698xz2qz16vjs7s8n",
@@ -454434,8 +455852,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1731131423",
@@ -454469,7 +455887,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vjs7s8N",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA MUSIC LAND SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-madrid-z698xz2qz1kcb1fbk",
@@ -454487,8 +455909,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "398294606",
@@ -454522,7 +455944,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kCb1fbk",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA MUSIC LAND SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-valencia-z698xz2qz16vovabug",
@@ -454540,8 +455966,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1441158375",
@@ -454575,7 +456001,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vovAbug",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA MUSIC LAND SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-valencia-z698xz2qz1k_kr6f0",
@@ -454593,8 +456023,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "653787524",
@@ -454628,7 +456058,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_Kr6f0",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA MUSIC LAND SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-cardiff-g5vhz_klws9kh",
@@ -454646,7 +456080,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -454681,7 +456115,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KLws9KH",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "DEPOT MARKETING LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-london-1amzk4pgkebnmny",
@@ -454699,7 +456139,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -454734,7 +456174,20 @@
     },
     "ticketmaster_discovery_event_id": "1AMZk4PGkeBNMNy",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "THE ROYAL PARKS",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6,
+    "presales": [
+      {
+        "name": "The Royal Parks Presale",
+        "start": "2026-11-11T10:00:00Z",
+        "end": "2027-06-25T21:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-muse-2027-leeds-g5vhz_pplenqg",
@@ -454752,7 +456205,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -454787,6 +456240,11 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_ppLeNqg",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS LTD",
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6
   }
 ]

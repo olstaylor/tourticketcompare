@@ -517,7 +517,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-airborne-toxic-event-the-way-boston-massachusetts-05-22-2027/event/010064A6B989B8AC",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -574,7 +574,14 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7977954",
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977954/The-Airborne-Toxic-Event-tickets-Sat-May-22-2027-Orpheum-Theatre-Boston"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7977954/The-Airborne-Toxic-Event-tickets-Sat-May-22-2027-Orpheum-Theatre-Boston",
+    "presales": [
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-the-airborne-toxic-event-2027-cleveland-vvg1fz_1qxxiit",

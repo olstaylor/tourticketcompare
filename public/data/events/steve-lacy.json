@@ -1870,7 +1870,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/steve-lacy-london-26-04-2027/event/3500657430D885DD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1906,6 +1906,20 @@
     "ticketmaster_discovery_event_id": "16dfZ_98YG7UF9q",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T10:00:00Z"
+    "public_onsale_at": "2026-11-27T10:00:00Z",
+    "ticket_limit": 8,
+    "genre": "R&B",
+    "presales": [
+      {
+        "name": "Metropolis Presale",
+        "start": "2026-11-26T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T10:00:00Z",
+        "end": "2026-11-27T09:59:00Z"
+      }
+    ]
   }
 ]

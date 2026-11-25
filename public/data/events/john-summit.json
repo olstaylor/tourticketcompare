@@ -1438,7 +1438,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/john-summit-ctrl-escape-arena-tour-philadelphia-pennsylvania-11-27-2026/event/020064B3BF9DC462",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1494,7 +1494,14 @@
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7982966",
     "genre": "Dance/Electronic",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982966/John-Summit-tickets-Fri-Nov-27-2026-Liacouras-Center"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982966/John-Summit-tickets-Fri-Nov-27-2026-Liacouras-Center",
+    "presales": [
+      {
+        "name": "Relos",
+        "start": "2026-11-26T15:00:00Z",
+        "end": "2026-11-28T00:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-john-summit-2026-brooklyn-17gzv0g655ozaay",

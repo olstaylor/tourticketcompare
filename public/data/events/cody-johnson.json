@@ -1007,7 +1007,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-charlottesville-john-paul-jones-arena-4-2-2027/production/7924385",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-charlottesville-virginia-04-02-2027/event/01006570C8E2A87F",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1056,10 +1056,13 @@
     },
     "ticketmaster_discovery_event_id": "vv1AvZk4YGkdFzn-T",
     "timezone": "America/New_York",
-    "status": "announced",
-    "public_onsale_at": "2026-11-24T15:00:00Z",
+    "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8387868",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8387868/Cody-Johnson-tickets-Fri-Apr-2-2027-John-Paul-Jones-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8387868/Cody-Johnson-tickets-Fri-Apr-2-2027-John-Paul-Jones-Arena",
+    "organizer_names": [
+      "POLICE PRODUCTIONS"
+    ],
+    "genre": "Country"
   },
   {
     "id": "tm-cody-johnson-2027-evansville-vv1aazk4ngkdekbkk",
@@ -1077,7 +1080,7 @@
     "vividseats_url": "https://www.vividseats.com/cody-johnson-tickets-evansville-ford-center-evansville-4-30-2027/production/7924021",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/cody-johnson-and-friends-tour-evansville-indiana-04-30-2027/event/05006563E71BA4C6",
-    "last_verified_at": "2026-11-24",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1126,8 +1129,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1AAZk4NGkdEkBKk",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-24T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "POLICE PRODUCTIONS"
     ],

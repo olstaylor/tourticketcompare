@@ -46070,7 +46070,7 @@
     "country": "United States Of America",
     "city": "Detroit",
     "venue": "Little Caesars Arena",
-    "datetime_iso": "2026-11-04T01:00:00Z",
+    "datetime_iso": "2027-01-09T01:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -46082,7 +46082,7 @@
     "country": "United States Of America",
     "city": "Chicago",
     "venue": "United Center",
-    "datetime_iso": "2026-11-06T02:00:00Z",
+    "datetime_iso": "2027-01-07T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
@@ -46094,7 +46094,7 @@
     "country": "United States Of America",
     "city": "Minneapolis",
     "venue": "Target Center",
-    "datetime_iso": "2026-11-08T02:00:00Z",
+    "datetime_iso": "2027-01-11T02:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
     "status": "on-sale"
@@ -50162,7 +50162,7 @@
     "country": "United States Of America",
     "city": "Washington",
     "venue": "The Anthem",
-    "datetime_iso": "2026-11-28T02:00:00Z",
+    "datetime_iso": "2026-11-28T02:15:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
     "status": "on-sale"
@@ -67562,7 +67562,7 @@
     "country": "United States Of America",
     "city": "Hidalgo",
     "venue": "Payne Arena",
-    "datetime_iso": "2026-11-29T02:00:00Z",
+    "datetime_iso": "2026-11-29T03:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "Cultura Tour 2026",
     "status": "on-sale"
@@ -71513,7 +71513,7 @@
     "datetime_iso": "2027-04-02T23:00:00Z",
     "timezone": "America/New_York",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-cody-johnson-2027-evansville-vv1aazk4ngkdekbkk",
@@ -71525,7 +71525,7 @@
     "datetime_iso": "2027-05-01T00:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-hardy-2027-london-g5dzz_9fvtbjx",
@@ -71585,7 +71585,7 @@
     "datetime_iso": "2027-03-20T01:00:00Z",
     "timezone": "America/Chicago",
     "tour_name": "FERXXO - THE GREEN STAR Tour 2027",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-feid-2027-inglewood-vv1ke8vpq_gac1mpx",
@@ -71597,7 +71597,7 @@
     "datetime_iso": "2027-05-01T03:00:00Z",
     "timezone": "America/Los_Angeles",
     "tour_name": "FERXXO - THE GREEN STAR Tour 2027",
-    "status": "announced"
+    "status": "on-sale"
   },
   {
     "id": "tm-travis-tritt-2027-jacksonville-z7r9jz1aaaf8p",

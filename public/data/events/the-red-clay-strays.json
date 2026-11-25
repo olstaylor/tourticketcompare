@@ -2212,7 +2212,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-uncasville-mohegan-sun-arena-ct-3-18-2027--concerts-country-and-folk/production/7637134",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-uncasville-connecticut-03-18-2027/event/1D00653806FDA988",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2268,6 +2268,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-10-09T14:00:00Z",
         "end": "2027-03-14T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T13:00:00Z",
+        "end": "2026-11-30T03:00:00Z"
       },
       {
         "name": "Ticketmaster 2026 Holiday Promo: 2 for 1",
@@ -2380,7 +2385,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-mobile-regions-arena-3-25-2027/production/7601933",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-mobile-alabama-03-25-2027/event/1B00653293DB9B71",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2436,6 +2441,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-03-22T03:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8285231/The-Red-Clay-Strays-tickets-Thu-Mar-25-2027-Regions-Arena",
@@ -3137,7 +3147,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-boise-extramile-arena-8-22-2027/production/7637020",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-boise-idaho-08-22-2027/event/1E0065399D9C8483",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3203,6 +3213,11 @@
         "name": "2 for 1 Ticket Offer",
         "start": "2026-11-27T14:00:00Z",
         "end": "2027-01-01T05:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-11-30T05:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300909/The-Red-Clay-Strays-tickets-Sun-Aug-22-2027-ExtraMile-Arena",
@@ -3408,7 +3423,7 @@
     "vividseats_url": "https://www.vividseats.com/the-red-clay-strays-tickets-austin-moody-center-atx-9-19-2027/production/7636978",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/the-red-clay-strays-austin-texas-09-19-2027/event/3A00653DFA176D0A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3476,6 +3491,11 @@
         "name": "Amex Reserved Tickets®",
         "start": "2026-10-09T15:00:00Z",
         "end": "2027-09-19T23:00:00Z"
+      },
+      {
+        "name": "Black Friday BOGO Offer",
+        "start": "2026-11-27T14:00:00Z",
+        "end": "2026-11-30T04:00:00Z"
       }
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8300912/The-Red-Clay-Strays-tickets-Sun-Sep-19-2027-Moody-Center-ATX",

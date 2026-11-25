@@ -2707,11 +2707,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7877722",
-        "url": "https://www.ticketnetwork.com/en/p/7877722",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107160120",
@@ -2731,7 +2731,7 @@
     "ticketmaster_discovery_event_id": "G5diZ_FlffPZI",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7877722",
+    "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden",
     "presales": [
@@ -2798,7 +2798,7 @@
         "event_id": "8245510",
         "url": "https://www.ticketnetwork.com/en/p/8245510",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2881,6 +2881,13 @@
         "verified": true,
         "last_verified_at": "2026-11-25",
         "availability_status": "listed"
+      },
+      "ticketnetwork": {
+        "event_id": "8389780",
+        "url": "https://www.ticketnetwork.com/en/p/8389780",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16v0pPS8o",
@@ -2890,7 +2897,8 @@
       "Live Nation"
     ],
     "genre": "Rock",
-    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-antwerpen-afas-dome-16-5-2027/event/107666324"
+    "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-antwerpen-afas-dome-16-5-2027/event/107666324",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8389780"
   },
   {
     "id": "tm-sombr-2027-berlin-z698xzc2z1akrz8f",
@@ -2944,7 +2952,7 @@
         "event_id": "8245511",
         "url": "https://www.ticketnetwork.com/en/p/8245511",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3025,7 +3033,7 @@
         "event_id": "8245513",
         "url": "https://www.ticketnetwork.com/en/p/8245513",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3106,7 +3114,7 @@
         "event_id": "8245523",
         "url": "https://www.ticketnetwork.com/en/p/8245523",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3306,7 +3314,7 @@
         "event_id": "8245421",
         "url": "https://www.ticketnetwork.com/en/p/8245421",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3398,7 +3406,7 @@
         "event_id": "8245378",
         "url": "https://www.ticketnetwork.com/en/p/8245378",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3480,7 +3488,7 @@
         "event_id": "8245379",
         "url": "https://www.ticketnetwork.com/en/p/8245379",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3562,7 +3570,7 @@
         "event_id": "8245380",
         "url": "https://www.ticketnetwork.com/en/p/8245380",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -3644,7 +3652,7 @@
         "event_id": "8248707",
         "url": "https://www.ticketnetwork.com/en/p/8248707",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4045,7 +4053,7 @@
         "event_id": "8264595",
         "url": "https://www.ticketnetwork.com/en/p/8264595",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4115,7 +4123,7 @@
         "event_id": "8245506",
         "url": "https://www.ticketnetwork.com/en/p/8245506",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4188,7 +4196,7 @@
         "event_id": "8245507",
         "url": "https://www.ticketnetwork.com/en/p/8245507",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4269,7 +4277,7 @@
         "event_id": "8245515",
         "url": "https://www.ticketnetwork.com/en/p/8245515",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -4350,7 +4358,7 @@
         "event_id": "8245518",
         "url": "https://www.ticketnetwork.com/en/p/8245518",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

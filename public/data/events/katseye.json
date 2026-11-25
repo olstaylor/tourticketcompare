@@ -462,7 +462,7 @@
         "event_id": "7961637",
         "url": "https://www.ticketnetwork.com/en/p/7961637",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -547,7 +547,7 @@
         "event_id": "7961638",
         "url": "https://www.ticketnetwork.com/en/p/7961638",
         "verified": true,
-        "last_verified_at": "2026-10-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -629,11 +629,11 @@
         "availability_status": "not_listed"
       },
       "ticketnetwork": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7961641",
+        "url": "https://www.ticketnetwork.com/en/p/7961641",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1bZ_1SyOq0j",
@@ -644,7 +644,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961641",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 4,
     "genre": "Pop",
@@ -1294,11 +1294,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7961848",
-        "url": "https://www.ticketnetwork.com/en/p/7961848",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "17k8v0G61m4tf9t",
@@ -1309,7 +1309,7 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7961848",
+    "ticketnetwork_url": "",
     "ticket_limit": 4,
     "genre": "Pop"
   },
@@ -1379,7 +1379,7 @@
         "event_id": "7983201",
         "url": "https://www.ticketnetwork.com/en/p/7983201",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1460,7 +1460,7 @@
         "event_id": "7990930",
         "url": "https://www.ticketnetwork.com/en/p/7990930",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },

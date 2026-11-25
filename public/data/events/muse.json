@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090474",
+        "url": "https://www.ticketnetwork.com/en/p/8090474",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kGAe78P",
@@ -54,7 +61,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090474"
   },
   {
     "id": "tm-muse-2026-amsterdam-z698xzbpz16v0z-yvb",
@@ -103,6 +111,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090475",
+        "url": "https://www.ticketnetwork.com/en/p/8090475",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0Z-Yvb",
@@ -111,7 +126,8 @@
     "organizer_names": [
       "Mojo Concerts"
     ],
-    "genre": "Alternative"
+    "genre": "Alternative",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090475"
   },
   {
     "id": "tm-muse-2026-zurich-z698xzu3z1kaiqded",
@@ -160,6 +176,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090469",
+        "url": "https://www.ticketnetwork.com/en/p/8090469",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z1kaIQded",
@@ -168,7 +191,8 @@
     "organizer_names": [
       "Live Nation Schweiz AG"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090469"
   },
   {
     "id": "tm-muse-2026-zurich-z698xzu3z16v7p4eja",
@@ -217,6 +241,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8090470",
+        "url": "https://www.ticketnetwork.com/en/p/8090470",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z16v7P4EjA",
@@ -225,7 +256,8 @@
     "organizer_names": [
       "Live Nation Schweiz AG"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090470"
   },
   {
     "id": "tm-muse-2027-madrid-z698xz2qz16vjs7s8n",
@@ -388,6 +420,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8308629",
+        "url": "https://www.ticketnetwork.com/en/p/8308629",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vovAbug",
@@ -396,7 +435,8 @@
     "organizer_names": [
       "LIVE NATION ESPAÑA MUSIC LAND SL"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8308629"
   },
   {
     "id": "tm-muse-2027-valencia-z698xz2qz1k_kr6f0",
@@ -502,6 +542,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8365851",
+        "url": "https://www.ticketnetwork.com/en/p/8365851",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KLws9KH",
@@ -512,7 +559,8 @@
       "DEPOT MARKETING LIMITED"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365851"
   },
   {
     "id": "tm-muse-2027-london-1amzk4pgkebnmny",
@@ -561,6 +609,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8361447",
+        "url": "https://www.ticketnetwork.com/en/p/8361447",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4PGkeBNMNy",
@@ -578,7 +633,8 @@
         "start": "2026-11-11T10:00:00Z",
         "end": "2027-06-25T21:59:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8361447"
   },
   {
     "id": "tm-muse-2027-leeds-g5vhz_pplenqg",
@@ -627,6 +683,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8365852",
+        "url": "https://www.ticketnetwork.com/en/p/8365852",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_ppLeNqg",
@@ -636,6 +699,7 @@
       "AEG PRESENTS LTD",
       "AEG PRESENTS"
     ],
-    "ticket_limit": 6
+    "ticket_limit": 6,
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8365852"
   }
 ]

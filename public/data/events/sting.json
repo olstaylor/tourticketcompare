@@ -1086,11 +1086,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "7045419",
-        "url": "https://www.ticketnetwork.com/en/p/7045419",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "7045419",
@@ -1110,7 +1110,7 @@
     "ticketmaster_discovery_event_id": "1AeFZ_FGklNyEh_",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7045419",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7045419/Sting-tickets-Tue-Nov-24-2026-Hard-Rock-Live-Orlando",
     "stubhub_international_url": "https://www.stubhub.ie/sting-orlando-tickets-11-24-2026/event/107469502",
     "genre": "Rock"
@@ -1164,11 +1164,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8249211",
-        "url": "https://www.ticketnetwork.com/en/p/8249211",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8249211",
@@ -1181,7 +1181,7 @@
     "ticketmaster_discovery_event_id": "vvG1VZbPiVBfyz",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249211",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249211/Sting-tickets-Tue-Nov-24-2026-Seminole-Hard-Rock-Tampa-Event-Center",
     "ticketmaster_status_code": "rescheduled",
     "ticket_limit": 4,
@@ -1239,7 +1239,7 @@
         "event_id": "8214753",
         "url": "https://www.ticketnetwork.com/en/p/8214753",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1318,7 +1318,7 @@
         "event_id": "8319776",
         "url": "https://www.ticketnetwork.com/en/p/8319776",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1404,7 +1404,7 @@
         "event_id": "8319777",
         "url": "https://www.ticketnetwork.com/en/p/8319777",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1490,7 +1490,7 @@
         "event_id": "8319778",
         "url": "https://www.ticketnetwork.com/en/p/8319778",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1576,7 +1576,7 @@
         "event_id": "8319779",
         "url": "https://www.ticketnetwork.com/en/p/8319779",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1662,7 +1662,7 @@
         "event_id": "8319780",
         "url": "https://www.ticketnetwork.com/en/p/8319780",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2396,7 +2396,7 @@
         "event_id": "8319784",
         "url": "https://www.ticketnetwork.com/en/p/8319784",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2482,7 +2482,7 @@
         "event_id": "8319785",
         "url": "https://www.ticketnetwork.com/en/p/8319785",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2568,7 +2568,7 @@
         "event_id": "8319786",
         "url": "https://www.ticketnetwork.com/en/p/8319786",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2654,7 +2654,7 @@
         "event_id": "8319788",
         "url": "https://www.ticketnetwork.com/en/p/8319788",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2740,7 +2740,7 @@
         "event_id": "8319789",
         "url": "https://www.ticketnetwork.com/en/p/8319789",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2826,7 +2826,7 @@
         "event_id": "8319790",
         "url": "https://www.ticketnetwork.com/en/p/8319790",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

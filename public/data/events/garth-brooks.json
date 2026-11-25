@@ -1438,7 +1438,7 @@
         "event_id": "8359855",
         "url": "https://www.ticketliquidator.com/tickets/8359855/Garth-Brooks-tickets-Sat-Dec-12-2026-Target-Center",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1508,7 +1508,7 @@
         "event_id": "8366616",
         "url": "https://www.ticketliquidator.com/tickets/8366616/Garth-Brooks-tickets-Fri-Feb-5-2027-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1582,7 +1582,7 @@
         "event_id": "8366617",
         "url": "https://www.ticketliquidator.com/tickets/8366617/Garth-Brooks-tickets-Sat-Feb-6-2027-Simmons-Bank-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1714,7 +1714,7 @@
         "event_id": "8359854",
         "url": "https://www.ticketliquidator.com/tickets/8359854/Garth-Brooks-tickets-Fri-Dec-11-2026-Target-Center",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1784,7 +1784,7 @@
         "event_id": "8386279",
         "url": "https://www.ticketliquidator.com/tickets/8386279/Garth-Brooks-tickets-Fri-Feb-12-2027-Rupp-Arena-At-Central-Bank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1859,7 +1859,7 @@
         "event_id": "8386280",
         "url": "https://www.ticketliquidator.com/tickets/8386280/Garth-Brooks-tickets-Sat-Feb-13-2027-Rupp-Arena-At-Central-Bank-Center",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1929,6 +1929,13 @@
         "verified": true,
         "last_verified_at": "2026-11-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8387775",
+        "url": "https://www.ticketliquidator.com/tickets/8387775/Garth-Brooks-tickets-Fri-Feb-19-2027-Legacy-Arena-at-The-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4MGkeNweQI",
@@ -1940,7 +1947,8 @@
     ],
     "ticket_limit": 8,
     "genre": "Country",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8387775"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8387775",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8387775/Garth-Brooks-tickets-Fri-Feb-19-2027-Legacy-Arena-at-The-BJCC"
   },
   {
     "id": "tm-garth-brooks-2027-birmingham-1aozk4mgke0axh7",
@@ -1996,6 +2004,13 @@
         "verified": true,
         "last_verified_at": "2026-11-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8387947",
+        "url": "https://www.ticketliquidator.com/tickets/8387947/Garth-Brooks-tickets-Sat-Feb-20-2027-Legacy-Arena-at-The-BJCC",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AOZk4MGke0axh7",
@@ -2007,6 +2022,7 @@
     ],
     "ticket_limit": 8,
     "genre": "Country",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8387947"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8387947",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8387947/Garth-Brooks-tickets-Sat-Feb-20-2027-Legacy-Arena-at-The-BJCC"
   }
 ]

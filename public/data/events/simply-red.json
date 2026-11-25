@@ -123,7 +123,7 @@
         "event_id": "8315155",
         "url": "https://www.ticketliquidator.com/tickets/8315155/Simply-Red-tickets-Sun-Jun-20-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -206,6 +206,13 @@
         "verified": true,
         "last_verified_at": "2026-11-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8389781",
+        "url": "https://www.ticketliquidator.com/tickets/8389781/Simply-Red-tickets-Tue-Jun-22-2027-AFAS-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z1kbK_APN",
@@ -216,7 +223,8 @@
     ],
     "genre": "Rock",
     "stubhub_international_url": "https://www.stubhub.ie/simply-red-tickets-antwerpen-afas-dome-22-6-2027/event/107669697",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8389781"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8389781",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8389781/Simply-Red-tickets-Tue-Jun-22-2027-AFAS-Dome"
   },
   {
     "id": "tm-simply-red-2027-nurnberg-z698xzc2z16v0aozkf",
@@ -1079,7 +1087,7 @@
         "event_id": "8294111",
         "url": "https://www.ticketliquidator.com/tickets/8294111/Simply-Red-tickets-Wed-Aug-18-2027-Colchester-Castle-Park",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },

@@ -445,11 +445,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": "7961637",
+        "url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Fri-Jan-8-2027-Little-Caesars-Arena",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -469,7 +469,7 @@
     "ticketmaster_discovery_event_id": "vvG1OZ_1EFShc4",
     "timezone": "America/New_York",
     "status": "on-sale",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961637/Katseye-tickets-Fri-Jan-8-2027-Little-Caesars-Arena",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -530,11 +530,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7961638",
+        "url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Wed-Jan-6-2027-United-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -554,7 +554,7 @@
     "ticketmaster_discovery_event_id": "vvG18Z_1miP6i3",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961638/Katseye-tickets-Wed-Jan-6-2027-United-Center",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -615,11 +615,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_listed"
+        "event_id": "7961641",
+        "url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sun-Jan-10-2027-Target-Center",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub-international": {
         "event_id": null,
@@ -639,7 +639,7 @@
     "ticketmaster_discovery_event_id": "vvG1bZ_1SyOq0j",
     "timezone": "America/Chicago",
     "status": "on-sale",
-    "ticketliquidator_url": "",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961641/Katseye-tickets-Sun-Jan-10-2027-Target-Center",
     "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1280,11 +1280,11 @@
         "availability_status": "not_checked"
       },
       "ticket-liquidator": {
-        "event_id": "7961848",
-        "url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "stubhub-international": {
         "event_id": "107170289",
@@ -1304,7 +1304,7 @@
     "ticketmaster_discovery_event_id": "17k8v0G61m4tf9t",
     "timezone": "America/Phoenix",
     "status": "on-sale",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7961848/Katseye-tickets-Tue-Nov-24-2026-Mortgage-Matchup-Center",
+    "ticketliquidator_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/katseye-phoenix-tickets-11-24-2026/event/107170289",
     "organizer_names": [
       "LIVE NATION MUSIC"
@@ -1365,7 +1365,7 @@
         "event_id": "7983201",
         "url": "https://www.ticketliquidator.com/tickets/7983201/Katseye-tickets-Fri-Nov-27-2026-Palacio-De-Los-Deportes-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -1446,7 +1446,7 @@
         "event_id": "7990930",
         "url": "https://www.ticketliquidator.com/tickets/7990930/Katseye-tickets-Sat-Nov-28-2026-Palacio-De-Los-Deportes-Mexico-City",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {

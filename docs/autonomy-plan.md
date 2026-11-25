@@ -12,13 +12,13 @@ Status: PLAN ONLY (2026-11-25). No code, workflow or ruleset has been changed. I
 
 ## Decisions I need from you (answer with the number and a letter)
 
-1. **Standing yeses vs "functions/ is always Tier 2".** Your two standing yeses (`?v=` cache bump and wording-only trims) edit `functions/[[path]].js`. Keep them as two narrow Tier 1 carve-outs, checked by diff shape (recommended), or make them Tier 2? (A keep / B Tier 2)
+1. **DECIDED 2026-11-25 (Ollie: "Sure"): keep option A.** The two standing yeses stay as narrow Tier 1 carve-outs, checked by diff shape. Original question: standing yeses vs "functions/ is always Tier 2". Your two standing yeses (`?v=` cache bump and wording-only trims) edit `functions/[[path]].js`. Keep them as two narrow Tier 1 carve-outs, checked by diff shape (recommended), or make them Tier 2? (A keep / B Tier 2)
 2. **Scripts.** Your Tier 2 says "data pipeline scripts". I propose all of `scripts/` except new, purely additive test files. Agree? (A yes / B only the sync/writer scripts)
 3. **Who authors PRs?** CODEOWNERS only works if the PR author is not `olstaylor` (GitHub will not let you approve your own PR). Please open any recent Claude PR and tell me who shows as author. If it is you, I need a bot identity first. Section 3.5.
 4. **Size cap.** Keep a cap of about 300 changed lines (excluding generated files) on Tier 1? (A yes / B no cap)
 5. **Benchmarks in the repo.** `AGENTS.md` and `CLAUDE.md` say no new status/governance docs. Is `docs/benchmarks/` OK as an exception, owned by this plan? (A yes / B keep it in the project folder)
 
-Nothing below happens until you answer 1-5 and say go.
+Decision 1 is settled. Nothing below happens until you answer 2-5 and say go.
 
 ---
 

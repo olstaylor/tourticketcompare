@@ -2888,6 +2888,12 @@ summary {
   box-shadow: inset 0 0 0 1px var(--green);
 }
 
+/* The "Lowest listed" text line shares the class but is not a tile: no box. */
+.show-card p.provider-cta-lowest {
+  border-color: transparent;
+  box-shadow: none;
+}
+
 .provider-cta-lowest .provider-cta-price {
   color: var(--green);
 }

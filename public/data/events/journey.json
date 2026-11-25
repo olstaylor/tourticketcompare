@@ -1695,11 +1695,11 @@
         "availability_status": "listed"
       },
       "ticketnetwork": {
-        "event_id": "7956786",
-        "url": "https://www.ticketnetwork.com/en/p/7956786",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG10Z_1Q4chn3",
@@ -1719,7 +1719,7 @@
     ],
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7956786/Journey-tickets-Tue-Nov-24-2026-Honda-Center",
     "stubhub_international_url": "https://www.stubhub.ie/journey-anaheim-tickets-11-24-2026/event/107625088",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7956786",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "AEG LIVE"
     ],
@@ -1792,7 +1792,7 @@
         "event_id": "7956855",
         "url": "https://www.ticketnetwork.com/en/p/7956855",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1870,7 +1870,7 @@
         "event_id": "7956787",
         "url": "https://www.ticketnetwork.com/en/p/7956787",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1937,7 +1937,7 @@
         "event_id": "8365092",
         "url": "https://www.ticketnetwork.com/en/p/8365092",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2011,7 +2011,7 @@
         "event_id": "8365093",
         "url": "https://www.ticketnetwork.com/en/p/8365093",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

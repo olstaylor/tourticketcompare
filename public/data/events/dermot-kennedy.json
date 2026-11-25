@@ -163,11 +163,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8326048",
-        "url": "https://www.ticketnetwork.com/en/p/8326048",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8326048",
@@ -180,7 +180,7 @@
     "ticketmaster_discovery_event_id": "1Ae8Z_aGkM57djw",
     "timezone": "Pacific/Auckland",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8326048",
+    "ticketnetwork_url": "",
     "organizer_names": [
       "LIVE NATION AUSTRALIA"
     ],
@@ -298,7 +298,7 @@
         "event_id": "8173279",
         "url": "https://www.ticketnetwork.com/en/p/8173279",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -549,6 +549,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833437",
+        "url": "https://www.ticketnetwork.com/en/p/7833437",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_6L1oiL8",
@@ -559,7 +566,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833437"
   },
   {
     "id": "tm-dermot-kennedy-2027-nashville-z7r9jz1a7-mus",
@@ -608,6 +616,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833439",
+        "url": "https://www.ticketnetwork.com/en/p/7833439",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuS",
@@ -616,7 +631,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833439"
   },
   {
     "id": "tm-dermot-kennedy-2027-atlanta-vvg1zz_6r-fif6",
@@ -665,6 +681,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833438",
+        "url": "https://www.ticketnetwork.com/en/p/7833438",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_6r-FIF6",
@@ -675,7 +698,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833438"
   },
   {
     "id": "tm-dermot-kennedy-2027-birmingham-1aozkozgkdjgv_k",
@@ -783,6 +807,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833440",
+        "url": "https://www.ticketnetwork.com/en/p/7833440",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dIZ_6NEsCPY",
@@ -793,7 +824,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833440"
   },
   {
     "id": "tm-dermot-kennedy-2027-irving-vvg1yz_6j3sk_v",
@@ -842,6 +874,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833441",
+        "url": "https://www.ticketnetwork.com/en/p/7833441",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6J3Sk_V",
@@ -852,7 +891,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833441"
   },
   {
     "id": "tm-dermot-kennedy-2027-bellvue-z7r9jz1a7-mug",
@@ -958,6 +998,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833443",
+        "url": "https://www.ticketnetwork.com/en/p/7833443",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuU",
@@ -966,7 +1013,8 @@
     "ticketmaster_status_code": "rescheduled",
     "organizer_names": [
       "LIVE NATION MUSIC"
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833443"
   },
   {
     "id": "tm-dermot-kennedy-2027-los-angeles-vv1ke8v0r6gauznui",
@@ -1015,6 +1063,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833444",
+        "url": "https://www.ticketnetwork.com/en/p/7833444",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vv1ke8v0r6GAuZNui",
@@ -1025,7 +1080,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833444"
   },
   {
     "id": "tm-dermot-kennedy-2027-phoenix-1kk8v0r_gac5gqt",
@@ -1074,6 +1130,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833445",
+        "url": "https://www.ticketnetwork.com/en/p/7833445",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1kk8v0r_GAC5gQt",
@@ -1084,7 +1147,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833445"
   },
   {
     "id": "tm-dermot-kennedy-2027-san-diego-vvg1iz_63vng7e",
@@ -1133,6 +1197,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833446",
+        "url": "https://www.ticketnetwork.com/en/p/7833446",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_63VNG7E",
@@ -1143,7 +1214,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833446"
   },
   {
     "id": "tm-dermot-kennedy-2027-san-francisco-g5vyz_6xupdzq",
@@ -1192,6 +1264,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833447",
+        "url": "https://www.ticketnetwork.com/en/p/7833447",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_6xUPDzq",
@@ -1203,7 +1282,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833447"
   },
   {
     "id": "tm-dermot-kennedy-2027-portland-vvg1hz_61kvuk5",
@@ -1252,6 +1332,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833449",
+        "url": "https://www.ticketnetwork.com/en/p/7833449",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_61KVUk5",
@@ -1261,7 +1348,8 @@
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833449"
   },
   {
     "id": "tm-dermot-kennedy-2027-vancouver-1aozkosgkedfaj7",
@@ -1310,6 +1398,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7836902",
+        "url": "https://www.ticketnetwork.com/en/p/7836902",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkoSGkeDFaj7",
@@ -1321,7 +1416,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7836902"
   },
   {
     "id": "tm-dermot-kennedy-2027-seattle-vvg1hz_6xvw_39",
@@ -1370,6 +1466,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7833448",
+        "url": "https://www.ticketnetwork.com/en/p/7833448",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_6xVw_39",
@@ -1380,6 +1483,7 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7833448"
   }
 ]

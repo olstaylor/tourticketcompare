@@ -46,6 +46,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7503530",
+        "url": "https://www.ticketnetwork.com/en/p/7503530",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbgd3i_aC",
@@ -55,7 +62,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7503530"
   },
   {
     "id": "tm-rush-2026-atlanta-vvg1zzbgq3ik-i",
@@ -104,6 +112,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510116",
+        "url": "https://www.ticketnetwork.com/en/p/7510116",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG1zZbgQ3ik-i",
@@ -114,7 +129,8 @@
     ],
     "ticket_limit": 8,
     "legal_age_enforced": true,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510116"
   },
   {
     "id": "tm-rush-2026-glendale-1a_zku3gkdjwfxj",
@@ -163,6 +179,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7503533",
+        "url": "https://www.ticketnetwork.com/en/p/7503533",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zku3GkdjWfXj",
@@ -172,7 +195,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7503533"
   },
   {
     "id": "tm-rush-2026-glendale-1a_zku3gkdql0tk",
@@ -221,6 +245,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510407",
+        "url": "https://www.ticketnetwork.com/en/p/7510407",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A_Zku3GkdqL0Tk",
@@ -230,7 +261,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510407"
   },
   {
     "id": "tm-rush-2026-san-jose-g5vyzbg9ir1-u",
@@ -279,6 +311,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510112",
+        "url": "https://www.ticketnetwork.com/en/p/7510112",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZbg9ir1-u",
@@ -289,7 +328,8 @@
       "LIVE NATION MUSIC"
     ],
     "ticket_limit": 8,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510112"
   },
   {
     "id": "tm-rush-2026-edmonton-1aozkuogkdiu5gt",
@@ -338,6 +378,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7503538",
+        "url": "https://www.ticketnetwork.com/en/p/7503538",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkuoGkdIu5gt",
@@ -357,7 +404,8 @@
         "start": "2025-10-31T18:00:00Z",
         "end": "2026-12-04T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7503538"
   },
   {
     "id": "tm-rush-2026-edmonton-1aozkuogkdichgs",
@@ -406,6 +454,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510114",
+        "url": "https://www.ticketnetwork.com/en/p/7510114",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AoZkuoGkdIChgs",
@@ -425,7 +480,8 @@
         "start": "2025-10-31T18:00:00Z",
         "end": "2026-12-04T04:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510114"
   },
   {
     "id": "tm-rush-2026-vancouver-15v7zbga7vfqk",
@@ -474,6 +530,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7503539",
+        "url": "https://www.ticketnetwork.com/en/p/7503539",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "15v7ZbgA7vfqk",
@@ -493,7 +556,8 @@
         "start": "2025-10-31T19:00:00Z",
         "end": "2026-12-09T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7503539"
   },
   {
     "id": "tm-rush-2026-vancouver-1k78vn4_gag8jn9",
@@ -542,6 +606,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7510406",
+        "url": "https://www.ticketnetwork.com/en/p/7510406",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1k78vN4_GAG8JN9",
@@ -561,7 +632,8 @@
         "start": "2025-10-31T19:00:00Z",
         "end": "2026-12-11T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7510406"
   },
   {
     "id": "tm-rush-2027-amsterdam-z698xzbpz1k0w44ux",
@@ -610,6 +682,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7756385",
+        "url": "https://www.ticketnetwork.com/en/p/7756385",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k0w44ux",
@@ -618,7 +697,8 @@
     "organizer_names": [
       "Greenhouse Talent"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756385"
   },
   {
     "id": "tm-rush-2027-glasgow-16uzkokjoza2eu1c",
@@ -667,6 +747,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7796479",
+        "url": "https://www.ticketnetwork.com/en/p/7796479",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "16UZkoKjoZA2eu1C",
@@ -677,7 +764,8 @@
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796479"
   },
   {
     "id": "tm-rush-2027-glasgow-1auzko9gkdz3fsq",
@@ -726,6 +814,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7796480",
+        "url": "https://www.ticketnetwork.com/en/p/7796480",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AUZko9GkdZ3fsQ",
@@ -736,7 +831,8 @@
       "SCOTTISH EVENT CAMPUS LIMITED"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7796480"
   },
   {
     "id": "tm-rush-2027-manchester-1amzko3gkd_h5ef",
@@ -785,6 +881,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7752300",
+        "url": "https://www.ticketnetwork.com/en/p/7752300",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZko3Gkd_H5eF",
@@ -794,7 +897,8 @@
       "AEG PRESENTS"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7752300"
   },
   {
     "id": "tm-rush-2027-manchester-1amzko9gkdv60uv",
@@ -843,6 +947,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7763826",
+        "url": "https://www.ticketnetwork.com/en/p/7763826",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZko9GkdV60Uv",
@@ -852,7 +963,8 @@
       "AEG PRESENTS"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7763826"
   },
   {
     "id": "tm-rush-2027-london-1agzkokgkdbtjvd",
@@ -901,6 +1013,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7756291",
+        "url": "https://www.ticketnetwork.com/en/p/7756291",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkoKGkdbtJVd",
@@ -910,7 +1029,8 @@
       "AEG PRESENTS"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756291"
   },
   {
     "id": "tm-rush-2027-london-1agzkokgkdwubbc",
@@ -959,6 +1079,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7756292",
+        "url": "https://www.ticketnetwork.com/en/p/7756292",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkoKGkdwubbc",
@@ -968,7 +1095,8 @@
       "AEG PRESENTS"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756292"
   },
   {
     "id": "tm-rush-2027-london-1agzkokgkdbmisv",
@@ -1017,6 +1145,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7785490",
+        "url": "https://www.ticketnetwork.com/en/p/7785490",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AgZkoKGkdBmISv",
@@ -1026,7 +1161,8 @@
       "AEG PRESENTS"
     ],
     "ticket_limit": 6,
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7785490"
   },
   {
     "id": "tm-rush-2027-fornebu-z698xzb_z16v33febz",
@@ -1075,6 +1211,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "7756388",
+        "url": "https://www.ticketnetwork.com/en/p/7756388",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v33FEbz",
@@ -1083,7 +1226,8 @@
     "organizer_names": [
       "Live Nation Norway AS"
     ],
-    "genre": "Rock"
+    "genre": "Rock",
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/7756388"
   },
   {
     "id": "tm-rush-2027-helsinki-z698xz8kz16vu9qkuz",
@@ -1189,6 +1333,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357197",
+        "url": "https://www.ticketnetwork.com/en/p/8357197",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1b",
@@ -1215,7 +1366,8 @@
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-05-15T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357197"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgo-1h",
@@ -1264,6 +1416,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357200",
+        "url": "https://www.ticketnetwork.com/en/p/8357200",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1h",
@@ -1290,7 +1449,8 @@
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-05-17T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357200"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos1r",
@@ -1339,6 +1499,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357201",
+        "url": "https://www.ticketnetwork.com/en/p/8357201",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs1r",
@@ -1365,7 +1532,8 @@
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-05-20T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357201"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos10",
@@ -1414,6 +1582,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357202",
+        "url": "https://www.ticketnetwork.com/en/p/8357202",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs10",
@@ -1440,7 +1615,8 @@
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-05-22T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357202"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-v1t",
@@ -1489,6 +1665,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8357203",
+        "url": "https://www.ticketnetwork.com/en/p/8357203",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-v1t",
@@ -1515,7 +1698,8 @@
         "start": "2026-11-13T18:00:00Z",
         "end": "2027-05-24T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8357203"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1r",
@@ -1564,6 +1748,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366487",
+        "url": "https://www.ticketnetwork.com/en/p/8366487",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1R",
@@ -1590,7 +1781,8 @@
         "start": "2026-11-13T20:00:00Z",
         "end": "2027-06-09T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366487"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1g",
@@ -1639,6 +1831,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366489",
+        "url": "https://www.ticketnetwork.com/en/p/8366489",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1g",
@@ -1665,7 +1864,8 @@
         "start": "2026-11-13T20:00:00Z",
         "end": "2027-06-11T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366489"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg--5c",
@@ -1714,6 +1914,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366424",
+        "url": "https://www.ticketnetwork.com/en/p/8366424",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg--5C",
@@ -1740,7 +1947,8 @@
         "start": "2026-11-13T20:00:00Z",
         "end": "2027-06-13T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366424"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-s53",
@@ -1789,6 +1997,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366490",
+        "url": "https://www.ticketnetwork.com/en/p/8366490",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-s53",
@@ -1815,7 +2030,8 @@
         "start": "2026-11-13T20:00:00Z",
         "end": "2027-06-18T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366490"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgxv5p",
@@ -1864,6 +2080,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "ticketnetwork": {
+        "event_id": "8366491",
+        "url": "https://www.ticketnetwork.com/en/p/8366491",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgxv5p",
@@ -1890,6 +2113,7 @@
         "start": "2026-11-13T20:00:00Z",
         "end": "2027-06-20T05:00:00Z"
       }
-    ]
+    ],
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8366491"
   }
 ]

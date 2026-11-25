@@ -48,11 +48,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8027310",
-        "url": "https://www.ticketnetwork.com/en/p/8027310",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8027310",
@@ -65,7 +65,7 @@
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7Paao",
     "timezone": "America/Los_Angeles",
     "status": "on-sale",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8027310",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8027310/Los-Tucanes-De-Tijuana-tickets-Tue-Nov-24-2026-Yaamava-Theater-at-Yaamava-Resort-Casino",
     "genre": "World"
   },
@@ -121,7 +121,7 @@
         "event_id": "7977722",
         "url": "https://www.ticketnetwork.com/en/p/7977722",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -191,7 +191,7 @@
         "event_id": "8109393",
         "url": "https://www.ticketnetwork.com/en/p/8109393",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -315,7 +315,7 @@
         "event_id": "8174820",
         "url": "https://www.ticketnetwork.com/en/p/8174820",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -385,7 +385,7 @@
         "event_id": "8296977",
         "url": "https://www.ticketnetwork.com/en/p/8296977",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -455,7 +455,7 @@
         "event_id": "8165995",
         "url": "https://www.ticketnetwork.com/en/p/8165995",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -533,7 +533,7 @@
         "event_id": "8112228",
         "url": "https://www.ticketnetwork.com/en/p/8112228",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -611,7 +611,7 @@
         "event_id": "8213428",
         "url": "https://www.ticketnetwork.com/en/p/8213428",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

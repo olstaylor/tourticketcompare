@@ -4080,7 +4080,28 @@ const VERIFIED_TICKET_LINKS = {
     linkId: "sg-artist-culture-club",
     redirectUrl: "https://seatgeek.com/culture-club-tickets",
     verified: true
-  }
+  },
+  "rush:ticketmaster": {
+    artistSlug: "rush",
+    provider: "ticketmaster",
+    linkId: "tm-artist-rush",
+    redirectUrl: "https://www.ticketmaster.com/rush-tickets/artist/807344",
+    verified: true
+  },
+  "rush:seatgeek": {
+    artistSlug: "rush",
+    provider: "seatgeek",
+    linkId: "sg-artist-rush",
+    redirectUrl: "https://seatgeek.com/rush-tickets",
+    verified: true
+  },
+  "muse:ticketmaster": {
+    artistSlug: "muse",
+    provider: "ticketmaster",
+    linkId: "tm-artist-muse",
+    redirectUrl: "https://www.ticketmaster.com/muse-tickets/artist/1400322",
+    verified: true
+  },
 };
 
 function withOutVersionHeader(response) {

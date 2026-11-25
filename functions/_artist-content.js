@@ -249,14 +249,8 @@ export function artistSearchIntro(artist, status, options = {}) {
   // Multi-night runs are not restated here (2026-09-25): every card in a run
   // carries its own "Night 1 of 2" chip, directly under this sentence.
 
-  // The soonest date is what most visitors arrived to check, so the lead names
-  // it. It is the first card on the board, so the sentence cannot disagree with
-  // what renders directly beneath it.
-  if (status.showCount > 1) {
-    const nextLabel = formatDate(status.next?.iso, status.next?.timezone);
-    const nextPlace = [status.next?.venue, status.next?.city].filter(Boolean).join(", ");
-    if (nextLabel && nextPlace) sentences.push(`Next: ${dayPrefix(status.next?.iso, status.next?.timezone)}${nextLabel} at ${nextPlace}.`);
-  }
+  // No "Next:" sentence (2026-11-25): the first card and the table directly
+  // below already name the soonest date.
 
   if (status.showsWithoutCta > 0 && status.showsWithCta > 0) {
     sentences.push(

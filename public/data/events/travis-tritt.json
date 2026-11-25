@@ -1226,7 +1226,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAAf8p",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8p",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/travis-tritt-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-03-10-7-30-pm/concert/18758681",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAf8p",
@@ -1242,11 +1242,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18758681,
+        "url": "https://seatgeek.com/travis-tritt-tickets/jacksonville-florida-florida-theatre-jacksonville-2027-03-10-7-30-pm/concert/18758681",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

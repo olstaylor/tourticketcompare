@@ -390,10 +390,13 @@
     "slug": "rush",
     "name": "Rush",
     "short_description": "Canadian rock band.",
-    "indexing_status": "review_required",
-    "verified_provider_count": 0,
-    "verified_providers": [],
-    "last_verified_at": null
+    "indexing_status": "indexable_with_substantial_content",
+    "verified_provider_count": 2,
+    "verified_providers": [
+      "ticketmaster",
+      "seatgeek"
+    ],
+    "last_verified_at": "2026-11-25"
   },
   {
     "slug": "muse",

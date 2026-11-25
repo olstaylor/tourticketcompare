@@ -1005,7 +1005,7 @@
     "tour_name": "Crown In The Grave World Tour",
     "ticketmaster_event_id": "Z7r9jZ1AAZdbM",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbM",
-    "seatgeek_url": "https://seatgeek.com/trivium-tickets/nashville-tennessee-the-pinnacle-nashville-2026-11-24-6-35-pm/concert/18391959",
+    "seatgeek_url": "",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAZdbM",
@@ -1021,11 +1021,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": 18391959,
-        "url": "https://seatgeek.com/trivium-tickets/nashville-tennessee-the-pinnacle-nashville-2026-11-24-6-35-pm/concert/18391959",
-        "verified": true,
-        "last_verified_at": "2026-11-22",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "needs_recheck"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1597,7 +1597,7 @@
         "event_id": 18391977,
         "url": "https://seatgeek.com/trivium-tickets/penticton-canada-penticton-trade-convention-centre-2026-12-07-6-35-pm/concert/18391977",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2652,7 +2652,7 @@
         "event_id": 18391961,
         "url": "https://seatgeek.com/trivium-tickets/san-antonio-texas-boeing-center-at-tech-port-2026-11-27-6-35-pm/concert/18391961",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -2725,7 +2725,7 @@
         "event_id": 18391971,
         "url": "https://seatgeek.com/trivium-tickets/las-vegas-nevada-pearl-concert-theater-at-palms-casino-resort-2026-12-03-6-30-pm/concert/18391971",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

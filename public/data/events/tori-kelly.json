@@ -1248,7 +1248,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "1B00656DF484C077",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-nashville-tennessee-04-07-2027/event/1B00656DF484C077",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/nashville-tennessee-the-truth-nashville-2027-04-07-7-30-pm/concert/18778546",
     "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-nashville-the-truth-4-7-2027/production/7880887",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-nashville-tennessee-04-07-2027/event/1B00656DF484C077",
@@ -1264,11 +1264,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778546,
+        "url": "https://seatgeek.com/tori-kelly-tickets/nashville-tennessee-the-truth-nashville-2027-04-07-7-30-pm/concert/18778546",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7880887,
@@ -1428,7 +1428,7 @@
     "tour_name": "GOD MUST REALLY LOVE ME WORLD TOUR",
     "ticketmaster_event_id": "0E00656BCBE79B84",
     "ticketmaster_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-atlanta-georgia-04-10-2027/event/0E00656BCBE79B84",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-04-10-8-pm/concert/18778552",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tori-kelly-god-must-really-love-atlanta-georgia-04-10-2027/event/0E00656BCBE79B84",
@@ -1444,11 +1444,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18778552,
+        "url": "https://seatgeek.com/tori-kelly-tickets/atlanta-georgia-the-tabernacle-atlanta-2027-04-10-8-pm/concert/18778552",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,

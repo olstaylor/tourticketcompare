@@ -30,7 +30,7 @@
         "event_id": 18639170,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/charleston-south-carolina-charleston-music-hall-2027-02-01-8-pm/concert/18639170",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -116,7 +116,7 @@
         "event_id": 18639172,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/charlotte-north-carolina-the-fillmore-charlotte-2027-02-05-8-pm/concert/18639172",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -202,7 +202,7 @@
         "event_id": 18639173,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/washington-district-of-columbia-9-30-club-2027-02-06-8-pm/concert/18639173",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -280,7 +280,7 @@
         "event_id": 18639180,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/washington-district-of-columbia-9-30-club-2027-02-07-7-pm/concert/18639180",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -358,7 +358,7 @@
         "event_id": 18639181,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/philadelphia-pennsylvania-the-fillmore-philadelphia-2027-02-10-8-pm/concert/18639181",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -537,7 +537,7 @@
         "event_id": 18639184,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/toronto-canada-history-2027-02-16-7-pm/concert/18639184",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -603,7 +603,7 @@
         "event_id": 18639185,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/detroit-michigan-saint-andrews-hall-2027-02-18-7-pm/concert/18639185",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -689,7 +689,7 @@
         "event_id": 18639192,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/chicago-illinois-the-salt-shed-indoors-2027-02-19-8-pm/concert/18639192",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1452,7 +1452,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAefp9",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp9",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/chelsea-cutler-tickets/boston-massachusetts-roadrunner-boston-2027-02-13-8-pm/concert/18830722",
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAefp9",
@@ -1468,11 +1468,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "needs_recheck"
+        "event_id": 18830722,
+        "url": "https://seatgeek.com/chelsea-cutler-tickets/boston-massachusetts-roadrunner-boston-2027-02-13-8-pm/concert/18830722",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": null,
@@ -1731,7 +1731,7 @@
         "event_id": 18639209,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/salt-lake-city-utah-rockwell-at-the-complex-2027-03-09-7-pm/concert/18639209",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1800,7 +1800,7 @@
         "event_id": 18639214,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/seattle-washington-showbox-sodo-2027-03-12-7-pm/concert/18639214",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -1869,7 +1869,7 @@
         "event_id": 18639215,
         "url": "https://seatgeek.com/chelsea-cutler-tickets/portland-oregon-roseland-theater-2027-03-13-7-pm/concert/18639215",
         "verified": true,
-        "last_verified_at": "2026-11-20",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "vivid-seats": {

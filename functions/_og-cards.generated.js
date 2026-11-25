@@ -393,7 +393,6 @@ export const OG_CARDS = {
   "/artists/john-summit/presale": {"url":"/og/artists-john-summit-presale.png","alt":"Presale: John Summit"},
   "/artists/john-summit/ticket-prices": {"url":"/og/artists-john-summit-ticket-prices.png","alt":"Ticket prices: John Summit"},
   "/artists/john-summit/tickets/brooklyn-united-states": {"url":"/og/artists-john-summit-tickets-brooklyn-united-states.png","alt":"Tickets: John Summit in Brooklyn"},
-  "/artists/john-summit/tickets/chicago-united-states": {"url":"/og/artists-john-summit-tickets-chicago-united-states.png","alt":"Tickets: John Summit in Chicago"},
   "/artists/john-summit/tickets/los-angeles-united-states": {"url":"/og/artists-john-summit-tickets-los-angeles-united-states.png","alt":"Tickets: John Summit in Los Angeles"},
   "/artists/john-summit/tickets/oakland-united-states": {"url":"/og/artists-john-summit-tickets-oakland-united-states.png","alt":"Tickets: John Summit in Oakland"},
   "/artists/jon-pardi": {"url":"/og/artists-jon-pardi.png","alt":"Tickets & tour dates: Jon Pardi"},

@@ -2,8 +2,9 @@
 title: "Beyoncé 2027 tour: what is known so far"
 seo_title: "Beyoncé 2027 tour: what is known so far"
 description: "No Beyoncé tour has been announced. What has been reported about a 2027 run, what is only speculation, and how to avoid buying for a date that does not exist."
-summary: "As of 2 November 2026 Beyoncé has not announced a tour. A 2027 run has been predicted and rumoured, but none of it is confirmed. Here is what is reported, what is not, and what to do before an announcement."
+summary: "As of 25 November 2026 Beyoncé has not announced a tour. A 2027 run has been predicted and rumoured, but none of it is confirmed. Here is what is reported, what is not, and what to do before an announcement."
 date: 2026-11-02
+updated: 2026-11-25
 status: published
 tags:
   - tour-buying
@@ -18,17 +19,22 @@ sources:
     url: https://www.dazeddigital.com/music/article/69686/1/beyonce-rumoured-rock-era-black-betty-glastonbury-act-iii-2026-album
   - label: Mediamass — Beyoncé, new studio album and tour in 2027?
     url: https://en.mediamass.net/people/beyonce/new-album.html
+  - label: Capital FM — Is Beyoncé releasing a rock album? (5 October 2026, updated 7 October)
+    url: https://capitalfm.com/news/music/beyonce-act-3-album-release-date-tracklist-tour
+  - label: HELLO! — Is Beyoncé's Act III coming soon? (25 January 2026)
+    url: https://www.hellomagazine.com/us/879931/beyonce-act-iii-hints-coming-soon
   - label: Revolt — Beyoncé announces Cowboy Carter Tour
     url: https://www.revolt.tv/article/beyonce-announces-cowboy-carter-tour-for-2025
 ---
 
-**No Beyoncé tour has been announced.** As of 2 November 2026 there are no confirmed dates, cities or on-sale times, and no official ticket link exists to buy from. The Beyoncé artist page here lists no shows for that reason.
+**No Beyoncé tour has been announced.** As of 25 November 2026 (last checked) there are no confirmed dates, cities or on-sale times, and no official ticket link exists to buy from. The Beyoncé artist page here lists no shows for that reason.
 
 Everything below about 2027 is prediction or rumour. It is separated into what is reported and what is only guessed, so you can judge how much weight to give each part.
 
 ## What has been reported
 
 - **A prediction, not an announcement.** A 19 February 2026 piece in Dazed is built on patterns rather than inside information. It expects an album in 2026 and, going by her past gaps, a tour in 2027: "If our calculations are correct, Bey will be touring Act III in 2027." The piece itself says nothing about Act III or a tour is confirmed.
+- **Hints, not dates.** Capital FM (5 October 2026, updated 7 October) says she hinted on stage that she would tour again and quotes her London Instagram post: "Holla at 'ya when I come on tour again!" The same piece says she has yet to announce when Act III arrives or what it is called, and the idea of a "Betty Black Tour" is its speculation. HELLO! (25 January 2026) reaches a 2027 tour the same way as Dazed, by extrapolating from past timing, and notes she has said nothing about where Act III will go.
 - **A rumour with a shaky source.** Entertainment site Mediamass says Beyoncé is rumoured to be planning a worldwide tour at the end of 2027. The same page says a representative had no information about future plans when contacted.
 - **Fan-account claims.** Posts on social media have claimed that her team is already booking stadiums, including in the UK. These name no source that can be checked, so treat them as unconfirmed.
 
@@ -47,4 +53,4 @@ Her previous run, the Cowboy Carter Tour, was announced on Sunday 2 February 202
 3. **Check where a link goes** once dates exist. Dates and venues should match the official announcement before you rely on a link.
 4. **Know the difference between primary and resale** before the first sale. [Primary vs resale concert tickets](/guides/primary-vs-resale-concert-tickets) explains who you are buying from, and [how to read a ticket listing](/guides/how-to-read-a-ticket-listing) covers what to check on a listing. [Ticket delivery and transfer timing](/guides/ticket-delivery-and-transfer-timing) explains why a resale ticket may not arrive straight away.
 
-This page will be updated when a tour is announced or the reporting changes.
+Last checked 25 November 2026: none of the sources above reports an official announcement. This page will be updated when a tour is announced or the reporting changes.

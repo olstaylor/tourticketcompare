@@ -1578,5 +1578,59 @@
     ],
     "ticket_limit": 4,
     "genre": "Pop"
+  },
+  {
+    "id": "tm-katseye-2027-edinburgh-1adbz_9rkp3zdc5u",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "Edinburgh Summer Sessions - Katseye",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Royal Highland Showgrounds",
+    "datetime_iso": "2027-08-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600657793952DAC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600657793952DAC",
+        "discovery_event_id": "1adbZ_9rKP3ZdC5u",
+        "url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1adbZ_9rKP3ZdC5u",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T17:00:00Z"
   }
 ]

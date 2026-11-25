@@ -1,1 +1,585 @@
-[]
+[
+  {
+    "id": "tm-muse-2026-amsterdam-z698xzbpz1kgae78p",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2026-11-29T18:30:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "305084425",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/305084425?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/305084425?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "305084425",
+        "discovery_event_id": "Z698xZbpZ1kGAe78P",
+        "url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/305084425?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kGAe78P",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2026-amsterdam-z698xzbpz16v0z-yvb",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2026-11-30T18:30:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "1900870058",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/1900870058?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/1900870058?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900870058",
+        "discovery_event_id": "Z698xZbpZ16v0Z-Yvb",
+        "url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/1900870058?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v0Z-Yvb",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2026-zurich-z698xzu3z1kaiqded",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Hallenstadion",
+    "datetime_iso": "2026-12-07T19:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "268683083",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/268683083?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/268683083?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "268683083",
+        "discovery_event_id": "Z698xZu3Z1kaIQded",
+        "url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/268683083?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z1kaIQded",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2026-zurich-z698xzu3z16v7p4eja",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Hallenstadion",
+    "datetime_iso": "2026-12-08T19:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "1125567705",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/1125567705?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/1125567705?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1125567705",
+        "discovery_event_id": "Z698xZu3Z16v7P4EjA",
+        "url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/1125567705?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z16v7P4EjA",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-madrid-z698xz2qz16vjs7s8n",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2027-01-19T20:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "1731131423",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1731131423",
+        "discovery_event_id": "Z698xZ2qZ16vjs7s8N",
+        "url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vjs7s8N",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-madrid-z698xz2qz1kcb1fbk",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2027-01-20T20:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "398294606",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "398294606",
+        "discovery_event_id": "Z698xZ2qZ1kCb1fbk",
+        "url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kCb1fbk",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-valencia-z698xz2qz16vovabug",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Valencia",
+    "country": "Spain",
+    "venue": "Roig Arena",
+    "datetime_iso": "2027-01-23T20:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "1441158375",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1441158375",
+        "discovery_event_id": "Z698xZ2qZ16vovAbug",
+        "url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vovAbug",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-valencia-z698xz2qz1k_kr6f0",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Valencia",
+    "country": "Spain",
+    "venue": "Roig Arena",
+    "datetime_iso": "2027-01-24T20:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "653787524",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "653787524",
+        "discovery_event_id": "Z698xZ2qZ1k_Kr6f0",
+        "url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_Kr6f0",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-cardiff-g5vhz_klws9kh",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Blackweir Fields, Cardiff",
+    "datetime_iso": "2027-06-23T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006537F2C574FC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006537F2C574FC",
+        "discovery_event_id": "G5vHZ_KLws9KH",
+        "url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KLws9KH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-london-1amzk4pgkebnmny",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "American Express Presents BST Hyde Park - Muse",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hyde Park",
+    "datetime_iso": "2027-06-26T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006565BA8F78F9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006565BA8F78F9",
+        "discovery_event_id": "1AMZk4PGkeBNMNy",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4PGkeBNMNy",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-leeds-g5vhz_pplenqg",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "American Express Presents Roundhay Festival - Muse",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Roundhay Park",
+    "datetime_iso": "2027-06-27T12:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0065659F0A3775",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0065659F0A3775",
+        "discovery_event_id": "G5vHZ_ppLeNqg",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_ppLeNqg",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  }
+]

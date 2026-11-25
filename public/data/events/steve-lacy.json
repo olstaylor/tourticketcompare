@@ -1853,5 +1853,59 @@
     "stubhub_international_url": "https://www.stubhub.ie/steve-lacy-tickets-vancouver-ubc-doug-mitchell-thunderbird-sports-centre-11-30-2026/event/107482321",
     "ticket_limit": 6,
     "genre": "R&B"
+  },
+  {
+    "id": "tm-steve-lacy-2027-london-16dfz_98yg7uf9q",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-26T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500657430D885DD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/steve-lacy-london-26-04-2027/event/3500657430D885DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/steve-lacy-london-26-04-2027/event/3500657430D885DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500657430D885DD",
+        "discovery_event_id": "16dfZ_98YG7UF9q",
+        "url": "https://www.ticketmaster.co.uk/steve-lacy-london-26-04-2027/event/3500657430D885DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dfZ_98YG7UF9q",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T10:00:00Z"
   }
 ]

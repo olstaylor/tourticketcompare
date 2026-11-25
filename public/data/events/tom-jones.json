@@ -1221,5 +1221,58 @@
         "end": "2026-11-27T08:00:00Z"
       }
     ]
+  },
+  {
+    "id": "tm-tom-jones-2027-london-g5vhz_9c-qabn",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Hampton Court Palace Festival Presents Tom Jones",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hampton Court",
+    "datetime_iso": "2027-06-17T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006573A1685623",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-17-06-2027/event/1F006573A1685623",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-17-06-2027/event/1F006573A1685623",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006573A1685623",
+        "discovery_event_id": "G5vHZ_9C-QAbN",
+        "url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-17-06-2027/event/1F006573A1685623",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_9C-QAbN",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

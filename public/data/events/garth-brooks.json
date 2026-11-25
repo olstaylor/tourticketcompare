@@ -1874,5 +1874,113 @@
     "genre": "Country",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386280",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386280/Garth-Brooks-tickets-Sat-Feb-13-2027-Rupp-Arena-At-Central-Bank-Center"
+  },
+  {
+    "id": "tm-garth-brooks-2027-birmingham-1aozk4mgkenweqi",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2027-02-20T02:00:00Z",
+    "tour_name": "Blame It All On My Roots Arena Tour",
+    "ticketmaster_event_id": "20006577A3C826A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006577A3C826A8",
+        "discovery_event_id": "1AOZk4MGkeNweQI",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4MGkeNweQI",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T18:00:00Z"
+  },
+  {
+    "id": "tm-garth-brooks-2027-birmingham-1aozk4mgke0axh7",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2027-02-21T02:00:00Z",
+    "tour_name": "Blame It All On My Roots Arena Tour",
+    "ticketmaster_event_id": "20006577A42626C4",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006577A42626C4",
+        "discovery_event_id": "1AOZk4MGke0axh7",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4MGke0axh7",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T18:00:00Z"
   }
 ]

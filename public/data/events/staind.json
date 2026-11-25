@@ -2983,5 +2983,221 @@
     ],
     "stubhub_international_url": "https://www.stubhub.ie/staind-cleveland-tickets-4-16-2027/event/107677632",
     "genre": "Alternative"
+  },
+  {
+    "id": "tm-staind-2027-manchester-g5dzz_92jre09",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle UK & Europe 25th Anniversary Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Victoria Warehouse Manchester",
+    "datetime_iso": "2027-06-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006573E67A7917",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-manchester-05-06-2027/event/3E006573E67A7917",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-manchester-05-06-2027/event/3E006573E67A7917",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006573E67A7917",
+        "discovery_event_id": "G5dzZ_92JrE09",
+        "url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-manchester-05-06-2027/event/3E006573E67A7917",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_92JrE09",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T10:00:00Z"
+  },
+  {
+    "id": "tm-staind-2027-london-g5dzz_9kck9dk",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle UK & Europe 25th Anniversary Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-06-06T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006574CE1970D3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-london-06-06-2027/event/3E006574CE1970D3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-london-06-06-2027/event/3E006574CE1970D3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006574CE1970D3",
+        "discovery_event_id": "G5dzZ_9KCk9dK",
+        "url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-london-06-06-2027/event/3E006574CE1970D3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_9KCk9dK",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T10:00:00Z"
+  },
+  {
+    "id": "tm-staind-2027-berlin-z698xzc2z1a6oxuf",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle UK & Europe 25th Anniversary Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Eats Music Hall",
+    "datetime_iso": "2027-06-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "7462354",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/7462354?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/7462354?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "7462354",
+        "discovery_event_id": "Z698xZC2Z1A6oxuf",
+        "url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/7462354?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1A6oxuf",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
+  },
+  {
+    "id": "tm-staind-2027-hannover-z698xzc2z1k0-ep0o",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle UK & Europe 25th Anniversary Tour",
+    "city": "Hannover",
+    "country": "Germany",
+    "venue": "Swiss Life Hall",
+    "datetime_iso": "2027-06-14T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "921096911",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/921096911?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/921096911?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "921096911",
+        "discovery_event_id": "Z698xZC2Z1k0-ep0o",
+        "url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/921096911?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k0-ep0o",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
   }
 ]

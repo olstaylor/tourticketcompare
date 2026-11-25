@@ -1891,7 +1891,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1927,7 +1927,12 @@
     "ticketmaster_discovery_event_id": "1AOZk4MGkeNweQI",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T18:00:00Z"
+    "public_onsale_at": "2026-12-04T18:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   },
   {
     "id": "tm-garth-brooks-2027-birmingham-1aozk4mgke0axh7",
@@ -1945,7 +1950,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1981,6 +1986,11 @@
     "ticketmaster_discovery_event_id": "1AOZk4MGke0axh7",
     "timezone": "America/Chicago",
     "status": "announced",
-    "public_onsale_at": "2026-12-04T18:00:00Z"
+    "public_onsale_at": "2026-12-04T18:00:00Z",
+    "organizer_names": [
+      "AEG LIVE"
+    ],
+    "ticket_limit": 8,
+    "genre": "Country"
   }
 ]

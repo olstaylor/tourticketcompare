@@ -15,7 +15,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-bournemouth-bournemouth-international-centre-12-7-2026/production/7095841",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-bournemouth-07-12-2026/event/360064B5F967E992",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -74,7 +74,12 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090645",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090645/Boy-George-tickets-Mon-Dec-7-2026-Windsor-Hall-At-Bournemouth-International-Centre",
-    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-bournemouth-bournemouth-international-centre-7-12-2026/event/107189082"
+    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-bournemouth-bournemouth-international-centre-7-12-2026/event/107189082",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-cardiff-17uov0g65qatjh8",
@@ -92,7 +97,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-cardiff-utilita-arena-cardiff-12-8-2026--concerts-pop/production/7087452",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-cardiff-08-12-2026/event/360064B689A666D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -143,7 +148,14 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090642",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090642/Boy-George-tickets-Tue-Dec-8-2026-Cardiff-International-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090642/Boy-George-tickets-Tue-Dec-8-2026-Cardiff-International-Arena",
+    "organizer_names": [
+      "SJM LIMITED (NEW)",
+      "LIVE NATION MUSIC (VENUES) LTD (NEW)",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-manchester-g5vhz_g33v7ia",
@@ -161,7 +173,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-manchester-ao-arena-12-10-2026/production/7083914",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-manchester-10-12-2026/event/1F0064C492D04B09",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -212,7 +224,13 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090641",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090641/Boy-George-tickets-Thu-Dec-10-2026-AO-Arena"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090641/Boy-George-tickets-Thu-Dec-10-2026-AO-Arena",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ASM T-A AO ARENA"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-liverpool-17uyv0g659ybvks",
@@ -230,7 +248,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-liverpool-11-12-2026/event/370064B5F96344F3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -265,7 +283,12 @@
     },
     "ticketmaster_discovery_event_id": "17uYv0G659ybVKS",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-leeds-g5vhz_59ybb3y",
@@ -283,7 +306,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-leeds-first-direct-arena---leeds-12-12-2026/production/7095865",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-leeds-12-12-2026/event/1F0064B5F96184B9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -318,7 +341,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_59ybb3y",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-newcastle-upon-tyne-g5vhz_59ybf3i",
@@ -336,7 +364,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-newcastle-upon-tyne-utilita-arena-newcastle-12-13-2026/production/7068019",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-newcastle-upon-tyne-13-12-2026/event/1F0064B5F96084AC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -387,7 +415,12 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090644",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090644/Boy-George-tickets-Sun-Dec-13-2026-Utilita-Arena-Newcastle"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090644/Boy-George-tickets-Sun-Dec-13-2026-Utilita-Arena-Newcastle",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-glasgow-17uov0g659z_cry",
@@ -405,7 +438,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-glasgow-ovo-hydro-12-15-2026/production/7083912",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-glasgow-15-12-2026/event/360064B5F864E7B0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -456,7 +489,12 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090648",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090648/Boy-George-tickets-Tue-Dec-15-2026-OVO-Hydro"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090648/Boy-George-tickets-Tue-Dec-15-2026-OVO-Hydro",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-sheffield-17u8v0g659uvycg",
@@ -474,7 +512,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-sheffield-utilita-arena-sheffield-12-17-2026/production/7095837",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-sheffield-17-12-2026/event/350064B5F6D39B4C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -533,7 +571,14 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090646",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090646/Boy-George-tickets-Thu-Dec-17-2026-Utilita-Arena-Sheffield",
-    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-sheffield-utilita-arena-sheffield-17-12-2026/event/107189085"
+    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-sheffield-utilita-arena-sheffield-17-12-2026/event/107189085",
+    "organizer_names": [
+      "S.J.M. LTD",
+      "ASM T.A UTILITA ARENA SHEFFIELD",
+      "LIVE NATION (MUSIC) UK LTD (VENUES)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-birmingham-17fyv0g659y9xlw",
@@ -551,7 +596,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-birmingham-utilita-arena-birmingham-12-18-2026/production/7067987",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-birmingham-18-12-2026/event/230064B5F95E27F2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -602,7 +647,12 @@
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090643",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090643/Boy-George-tickets-Fri-Dec-18-2026-Utilita-Arena-Birmingham"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090643/Boy-George-tickets-Fri-Dec-18-2026-Utilita-Arena-Birmingham",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-culture-club-2026-london-17u8v0g659y9_dw",
@@ -620,7 +670,7 @@
     "vividseats_url": "https://www.vividseats.com/culture-club-tickets-london-the-o2---london-12-19-2026/production/7068034",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/culture-club-the-singles-tour-london-19-12-2026/event/350064B5F95D9EFD",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -679,6 +729,11 @@
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8008391",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8008391/Culture-Club-tickets-Sat-Dec-19-2026-O2-Arena-London",
-    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-london-the-o2-arena-19-12-2026/event/107189086"
+    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-london-the-o2-arena-19-12-2026/event/107189086",
+    "organizer_names": [
+      "SJM LIMITED (NEW)"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

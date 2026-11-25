@@ -1078,7 +1078,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-el-paso-sun-bowl-stadium-5-18-2027--concerts-hard-rock/production/7563516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-el-paso-texas-05-18-2027/event/0C00652E1C7A357B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1140,6 +1140,11 @@
     "stubhub_international_url": "https://www.stubhub.ie/metallica-el-paso-tickets-5-18-2027/event/107669513",
     "presales": [
       {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T16:00:00Z",
+        "end": "2027-04-04T04:00:00Z"
+      },
+      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-04-19T04:00:00Z"
@@ -1151,11 +1156,6 @@
       },
       {
         "name": "VIP Packages Onsale",
-        "start": "2026-09-25T16:00:00Z",
-        "end": "2027-05-12T04:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Onsale",
         "start": "2026-09-25T16:00:00Z",
         "end": "2027-05-12T04:00:00Z"
       }
@@ -1182,7 +1182,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-san-antonio-alamodome-5-22-2027--concerts-hard-rock/production/7563518",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-san-antonio-texas-05-22-2027/event/3A00652DE5A33846",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1244,6 +1244,11 @@
     "stubhub_international_url": "https://www.stubhub.ie/metallica-san-antonio-tickets-5-22-2027/event/107669512",
     "presales": [
       {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-08T03:00:00Z"
+      },
+      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-04-23T03:00:00Z"
@@ -1255,11 +1260,6 @@
       },
       {
         "name": "VIP Packages Onsale",
-        "start": "2026-09-25T15:00:00Z",
-        "end": "2027-05-16T03:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Onsale",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-16T03:00:00Z"
       }
@@ -1382,7 +1382,7 @@
     "vividseats_url": "https://www.vividseats.com/metallica-tickets-kansas-city-arrowhead-stadium-5-29-2027--concerts-hard-rock/production/7563528",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/metallica-m72-world-tour-kansas-city-missouri-05-29-2027/event/0600652CA7DC8453",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1444,6 +1444,11 @@
     "stubhub_international_url": "https://www.stubhub.ie/metallica-kansas-city-tickets-5-29-2027/event/107668967",
     "presales": [
       {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-09-25T15:00:00Z",
+        "end": "2027-04-15T03:00:00Z"
+      },
+      {
         "name": "Citi® Cardmember Preferred Tickets",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-04-30T03:00:00Z"
@@ -1455,11 +1460,6 @@
       },
       {
         "name": "VIP Packages Onsale",
-        "start": "2026-09-25T15:00:00Z",
-        "end": "2027-05-23T03:00:00Z"
-      },
-      {
-        "name": "VIP Travel Packages Onsale",
         "start": "2026-09-25T15:00:00Z",
         "end": "2027-05-23T03:00:00Z"
       }

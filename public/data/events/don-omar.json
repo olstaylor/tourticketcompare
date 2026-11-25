@@ -1587,7 +1587,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-denver-ball-arena-2-3-2027/production/7198540",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-denver-colorado-02-03-2027/event/1E0064D3DB77EEBF",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1644,6 +1644,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-26T16:00:00Z",
         "end": "2027-01-28T00:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Offer",
+        "start": "2026-11-30T17:00:00Z",
+        "end": "2026-12-01T05:00:00Z"
       }
     ],
     "organizer_names": [
@@ -2248,7 +2253,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-rosemont-allstate-arena-2-26-2027/production/7198546",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-rosemont-illinois-02-26-2027/event/040064D2F74DED5B",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2313,6 +2318,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-26T15:00:00Z",
         "end": "2027-02-19T23:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Offer",
+        "start": "2026-11-30T16:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
       }
     ],
     "organizer_names": [
@@ -2515,7 +2525,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-baltimore-cfg-bank-arena-3-4-2027/production/7198516",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-baltimore-maryland-03-04-2027/event/150064D4C9797D4A",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2572,6 +2582,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-26T14:00:00Z",
         "end": "2027-02-25T22:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Deal",
+        "start": "2026-11-30T15:00:00Z",
+        "end": "2026-12-01T03:00:00Z"
       }
     ],
     "organizer_names": [
@@ -2684,7 +2699,7 @@
     "vividseats_url": "https://www.vividseats.com/don-omar-tickets-austin-moody-center-atx-3-7-2027/production/7198526",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/don-omar-the-last-king-world-austin-texas-03-07-2027/event/3A0064D4B74DB03F",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -2749,6 +2764,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-26T15:00:00Z",
         "end": "2027-02-28T23:00:00Z"
+      },
+      {
+        "name": "Cyber Monday Offer",
+        "start": "2026-11-30T16:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
       }
     ],
     "organizer_names": [

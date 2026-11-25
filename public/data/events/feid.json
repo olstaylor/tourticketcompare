@@ -3019,7 +3019,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-chicago-united-center-3-19-2027/production/7922448",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-chicago-illinois-03-19-2027/event/040065697E6D217D",
-    "last_verified_at": "2026-11-24",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3068,8 +3068,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1kvZvPQ9GACh3AW",
     "timezone": "America/Chicago",
-    "status": "announced",
-    "public_onsale_at": "2026-11-24T16:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -3106,7 +3105,7 @@
     "vividseats_url": "https://www.vividseats.com/feid-tickets-inglewood-intuit-dome-4-30-2027/production/7922446",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/feid-ferxxo-the-green-star-tour-inglewood-california-04-30-2027/event/090065699E2B75BE",
-    "last_verified_at": "2026-11-24",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3141,8 +3140,7 @@
     },
     "ticketmaster_discovery_event_id": "vv1ke8vPQ_GAC1MpX",
     "timezone": "America/Los_Angeles",
-    "status": "announced",
-    "public_onsale_at": "2026-11-24T18:00:00Z",
+    "status": "on-sale",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],

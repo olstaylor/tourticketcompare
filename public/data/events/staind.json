@@ -3000,7 +3000,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-manchester-05-06-2027/event/3E006573E67A7917",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3036,7 +3036,35 @@
     "ticketmaster_discovery_event_id": "G5dzZ_92JrE09",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T10:00:00Z"
+    "public_onsale_at": "2026-11-27T10:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY VICTORIA WAREHOUSE MANCHESTER)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-25T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-26T12:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-staind-2027-london-g5dzz_9kck9dk",
@@ -3054,7 +3082,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-london-06-06-2027/event/3E006574CE1970D3",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -3090,7 +3118,35 @@
     "ticketmaster_discovery_event_id": "G5dzZ_9KCk9dK",
     "timezone": "Europe/London",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T10:00:00Z"
+    "public_onsale_at": "2026-11-27T10:00:00Z",
+    "organizer_names": [
+      "LIVE NATION MUSIC UK LTD",
+      "ACADEMY MUSIC GROUP (O2 ACADEMY BRIXTON)"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Priority from O2",
+        "start": "2026-11-25T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Live Nation Presale",
+        "start": "2026-11-26T10:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-26T12:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-staind-2027-berlin-z698xzc2z1a6oxuf",
@@ -3108,8 +3164,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/7462354?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "7462354",
@@ -3144,7 +3200,38 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1A6oxuf",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z"
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "Trinity Music GmbH"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-26T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-26T11:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-staind-2027-hannover-z698xzc2z1k0-ep0o",
@@ -3162,8 +3249,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/921096911?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "921096911",
@@ -3198,6 +3285,37 @@
     "ticketmaster_discovery_event_id": "Z698xZC2Z1k0-ep0o",
     "timezone": "Europe/Berlin",
     "status": "announced",
-    "public_onsale_at": "2026-11-27T09:00:00Z"
+    "public_onsale_at": "2026-11-27T09:00:00Z",
+    "organizer_names": [
+      "Hannover Concerts GmbH & Co.KG Betriebsgesellschaft"
+    ],
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Artist Presale",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "PayPal Prio Tickets",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Telekom Prio Tickets",
+        "start": "2026-11-25T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Ticketmaster Presale",
+        "start": "2026-11-26T09:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      },
+      {
+        "name": "Spotify Presale",
+        "start": "2026-11-26T11:00:00Z",
+        "end": "2026-11-27T09:00:00Z"
+      }
+    ]
   }
 ]

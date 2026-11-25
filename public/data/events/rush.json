@@ -15,7 +15,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-25-2026/event/0E006350D2B1924E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -50,7 +50,12 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZbgd3i_aC",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-atlanta-vvg1zzbgq3ik-i",
@@ -68,7 +73,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -103,7 +108,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZbgQ3ik-i",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "legal_age_enforced": true,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-glendale-1a_zku3gkdjwfxj",
@@ -121,7 +132,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -156,7 +167,12 @@
     },
     "ticketmaster_discovery_event_id": "1A_Zku3GkdjWfXj",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-glendale-1a_zku3gkdql0tk",
@@ -174,7 +190,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -209,7 +225,12 @@
     },
     "ticketmaster_discovery_event_id": "1A_Zku3GkdqL0Tk",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-san-jose-g5vyzbg9ir1-u",
@@ -227,7 +248,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -262,7 +283,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZbg9ir1-u",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2026-edmonton-1aozkuogkdiu5gt",
@@ -280,7 +307,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -315,7 +342,22 @@
     },
     "ticketmaster_discovery_event_id": "1AoZkuoGkdIu5gt",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2025-10-31T18:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2026-edmonton-1aozkuogkdichgs",
@@ -333,7 +375,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -368,7 +410,22 @@
     },
     "ticketmaster_discovery_event_id": "1AoZkuoGkdIChgs",
     "timezone": "America/Edmonton",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-ROGERS",
+      "LIVE NATION CANADA-RBC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Package Public Onsale",
+        "start": "2025-10-31T18:00:00Z",
+        "end": "2026-12-04T04:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2026-vancouver-15v7zbga7vfqk",
@@ -386,7 +443,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -421,7 +478,22 @@
     },
     "ticketmaster_discovery_event_id": "15v7ZbgA7vfqk",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2025-10-31T19:00:00Z",
+        "end": "2026-12-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2026-vancouver-1k78vn4_gag8jn9",
@@ -439,7 +511,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +546,22 @@
     },
     "ticketmaster_discovery_event_id": "1k78vN4_GAG8JN9",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC",
+      "LIVE NATION CANADA-RBC",
+      "LIVE NATION CANADA-ROGERS"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "VIP Packages Public Onsale",
+        "start": "2025-10-31T19:00:00Z",
+        "end": "2026-12-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-amsterdam-z698xzbpz1k0w44ux",
@@ -492,8 +579,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/rush-fifty-something-tickets/932555362?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "932555362",
@@ -527,7 +614,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1k0w44ux",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Greenhouse Talent"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-glasgow-16uzkokjoza2eu1c",
@@ -545,7 +636,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,7 +671,13 @@
     },
     "ticketmaster_discovery_event_id": "16UZkoKjoZA2eu1C",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-glasgow-1auzko9gkdz3fsq",
@@ -598,7 +695,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -633,7 +730,13 @@
     },
     "ticketmaster_discovery_event_id": "1AUZko9GkdZ3fsQ",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "SCOTTISH EVENT CAMPUS LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-manchester-1amzko3gkd_h5ef",
@@ -651,7 +754,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -686,7 +789,12 @@
     },
     "ticketmaster_discovery_event_id": "1AMZko3Gkd_H5eF",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-manchester-1amzko9gkdv60uv",
@@ -704,7 +812,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -739,7 +847,12 @@
     },
     "ticketmaster_discovery_event_id": "1AMZko9GkdV60Uv",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-london-1agzkokgkdbtjvd",
@@ -757,7 +870,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -792,7 +905,12 @@
     },
     "ticketmaster_discovery_event_id": "1AgZkoKGkdbtJVd",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-london-1agzkokgkdwubbc",
@@ -810,7 +928,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -845,7 +963,12 @@
     },
     "ticketmaster_discovery_event_id": "1AgZkoKGkdwubbc",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-london-1agzkokgkdbmisv",
@@ -863,7 +986,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -898,7 +1021,12 @@
     },
     "ticketmaster_discovery_event_id": "1AgZkoKGkdBmISv",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-fornebu-z698xzb_z16v33febz",
@@ -916,8 +1044,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.no/event/rush-fifty-something-tickets/1492227638?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1492227638",
@@ -951,7 +1079,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZb_Z16v33FEbz",
     "timezone": "Europe/Oslo",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Norway AS"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-helsinki-z698xz8kz16vu9qkuz",
@@ -969,8 +1101,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.fi/event/rush-fifty-something-%7C-legazy-seat-lippu-tickets/1357753378?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1357753378",
@@ -1004,7 +1136,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ8KZ16vu9qKuz",
     "timezone": "Europe/Helsinki",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Veikkaus Arena VN Helsinki Oy"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgo-1b",
@@ -1022,7 +1158,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1057,7 +1193,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1b",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-07T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-15T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgo-1h",
@@ -1075,7 +1233,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1110,7 +1268,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1h",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-09T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-17T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos1r",
@@ -1128,7 +1308,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1163,7 +1343,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs1r",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-12T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-20T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos10",
@@ -1181,7 +1383,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1216,7 +1418,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs10",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-14T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-22T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-v1t",
@@ -1234,7 +1458,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1269,7 +1493,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-v1t",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-04-16T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T18:00:00Z",
+        "end": "2027-05-24T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1r",
@@ -1287,7 +1533,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1322,7 +1568,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1R",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-02T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-09T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1g",
@@ -1340,7 +1608,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1375,7 +1643,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1g",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-04T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-11T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg--5c",
@@ -1393,7 +1683,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1428,7 +1718,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg--5C",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-06T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-13T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-s53",
@@ -1446,7 +1758,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1481,7 +1793,29 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-s53",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-11T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-18T05:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgxv5p",
@@ -1499,7 +1833,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1534,6 +1868,28 @@
     },
     "ticketmaster_discovery_event_id": "1A9Zk4xGkdgxv5p",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock",
+    "presales": [
+      {
+        "name": "Verizon Shine Featured Venues",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2026-11-28T06:00:00Z"
+      },
+      {
+        "name": "VIP Travel Packages Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-05-13T05:00:00Z"
+      },
+      {
+        "name": "VIP Package Onsale",
+        "start": "2026-11-13T20:00:00Z",
+        "end": "2027-06-20T05:00:00Z"
+      }
+    ]
   }
 ]

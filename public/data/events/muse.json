@@ -15,8 +15,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/305084425?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "305084425",
@@ -50,7 +50,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ1kGAe78P",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "genre": "Alternative"
   },
   {
     "id": "tm-muse-2026-amsterdam-z698xzbpz16v0z-yvb",
@@ -68,8 +72,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/1900870058?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1900870058",
@@ -103,7 +107,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZbpZ16v0Z-Yvb",
     "timezone": "Europe/Amsterdam",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Mojo Concerts"
+    ],
+    "genre": "Alternative"
   },
   {
     "id": "tm-muse-2026-zurich-z698xzu3z1kaiqded",
@@ -121,8 +129,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/268683083?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "268683083",
@@ -156,7 +164,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z1kaIQded",
     "timezone": "Europe/Zurich",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Schweiz AG"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2026-zurich-z698xzu3z16v7p4eja",
@@ -174,8 +186,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/1125567705?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1125567705",
@@ -209,7 +221,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZu3Z16v7P4EjA",
     "timezone": "Europe/Zurich",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "Live Nation Schweiz AG"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-madrid-z698xz2qz16vjs7s8n",
@@ -227,8 +243,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1731131423",
@@ -262,7 +278,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vjs7s8N",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA MUSIC LAND SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-madrid-z698xz2qz1kcb1fbk",
@@ -280,8 +300,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "398294606",
@@ -315,7 +335,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1kCb1fbk",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA MUSIC LAND SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-valencia-z698xz2qz16vovabug",
@@ -333,8 +357,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "1441158375",
@@ -368,7 +392,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ16vovAbug",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA MUSIC LAND SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-valencia-z698xz2qz1k_kr6f0",
@@ -386,8 +414,8 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
-    "last_verified_at": null,
-    "verification_status": "needs_recheck",
+    "last_verified_at": "2026-11-25",
+    "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
         "event_id": "653787524",
@@ -421,7 +449,11 @@
     },
     "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_Kr6f0",
     "timezone": "Europe/Madrid",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "LIVE NATION ESPAÑA MUSIC LAND SL"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-cardiff-g5vhz_klws9kh",
@@ -439,7 +471,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -474,7 +506,13 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_KLws9KH",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "CUFFE & TAYLOR (NEW)",
+      "DEPOT MARKETING LIMITED"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-muse-2027-london-1amzk4pgkebnmny",
@@ -492,7 +530,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -527,7 +565,20 @@
     },
     "ticketmaster_discovery_event_id": "1AMZk4PGkeBNMNy",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS",
+      "THE ROYAL PARKS",
+      "LIVE NATION MUSIC UK LTD"
+    ],
+    "ticket_limit": 6,
+    "presales": [
+      {
+        "name": "The Royal Parks Presale",
+        "start": "2026-11-11T10:00:00Z",
+        "end": "2027-06-25T21:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-muse-2027-leeds-g5vhz_pplenqg",
@@ -545,7 +596,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -580,6 +631,11 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_ppLeNqg",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "AEG PRESENTS LTD",
+      "AEG PRESENTS"
+    ],
+    "ticket_limit": 6
   }
 ]

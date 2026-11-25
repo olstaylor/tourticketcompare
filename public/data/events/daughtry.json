@@ -1539,7 +1539,7 @@
     "vividseats_url": "https://www.vividseats.com/daughtry-tickets-pine-bluff-saracen-casino-resort-1-23-2027/production/7624290",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/daughtry-20-years-unplugged-tour-pine-bluff-arkansas-01-23-2027/event/1B00653C36D66691",
-    "last_verified_at": "2026-11-14",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1596,6 +1596,11 @@
         "name": "VIP Package Onsale",
         "start": "2026-10-02T15:00:00Z",
         "end": "2027-01-17T04:00:00Z"
+      },
+      {
+        "name": "Black Friday and Cyber Monday",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
       }
     ],
     "ticket_limit": 6,

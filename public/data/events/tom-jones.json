@@ -1238,7 +1238,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-17-06-2027/event/1F006573A1685623",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1273,6 +1273,12 @@
     },
     "ticketmaster_discovery_event_id": "G5vHZ_9C-QAbN",
     "timezone": "Europe/London",
-    "status": "on-sale"
+    "status": "on-sale",
+    "organizer_names": [
+      "PWR EVENTS",
+      "HISTORIC ROYAL PALACES LTD"
+    ],
+    "ticket_limit": 8,
+    "genre": "Rock"
   }
 ]

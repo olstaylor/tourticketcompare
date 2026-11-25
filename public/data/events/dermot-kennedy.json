@@ -518,7 +518,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-tampa-florida-08-24-2027/event/0D006477CA46C7D0",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -553,7 +553,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1VZ_6L1oiL8",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-nashville-z7r9jz1a7-mus",
@@ -571,7 +577,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuS",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -606,7 +612,11 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuS",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-atlanta-vvg1zz_6r-fif6",
@@ -624,7 +634,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-atlanta-georgia-08-27-2027/event/0E006477A1228207",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -659,7 +669,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1zZ_6r-FIF6",
     "timezone": "America/New_York",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-birmingham-1aozkozgkdjgv_k",
@@ -677,7 +693,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -712,7 +728,13 @@
     },
     "ticketmaster_discovery_event_id": "1AOZkozGkdjgV_K",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "RED MOUNTAIN ENTERTAINMENT",
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-austin-g5diz_6nescpy",
@@ -730,7 +752,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-austin-texas-08-31-2027/event/3A006478E7C4E970",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -765,7 +787,13 @@
     },
     "ticketmaster_discovery_event_id": "G5dIZ_6NEsCPY",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-irving-vvg1yz_6j3sk_v",
@@ -783,7 +811,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-irving-texas-09-01-2027/event/0C00647992CC6674",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -818,7 +846,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1YZ_6J3Sk_V",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-bellvue-z7r9jz1a7-mug",
@@ -836,7 +870,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mug",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -871,7 +905,11 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Mug",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-morrison-z7r9jz1a7-muu",
@@ -889,7 +927,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuU",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -924,7 +962,11 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuU",
     "timezone": "America/Denver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ]
   },
   {
     "id": "tm-dermot-kennedy-2027-los-angeles-vv1ke8v0r6gauznui",
@@ -942,7 +984,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-los-angeles-california-09-07-2027/event/090064787D02336C",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -977,7 +1019,13 @@
     },
     "ticketmaster_discovery_event_id": "vv1ke8v0r6GAuZNui",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-phoenix-1kk8v0r_gac5gqt",
@@ -995,7 +1043,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-phoenix-arizona-09-08-2027/event/190064799E2F56A9",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1030,7 +1078,13 @@
     },
     "ticketmaster_discovery_event_id": "1kk8v0r_GAC5gQt",
     "timezone": "America/Phoenix",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-san-diego-vvg1iz_63vng7e",
@@ -1048,7 +1102,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-diego-california-09-10-2027/event/0A006474B48CC127",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1083,7 +1137,13 @@
     },
     "ticketmaster_discovery_event_id": "vvG1IZ_63VNG7E",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-san-francisco-g5vyz_6xupdzq",
@@ -1101,7 +1161,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-francisco-california-09-12-2027/event/1C006478B697BE1D",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1136,7 +1196,14 @@
     },
     "ticketmaster_discovery_event_id": "G5vYZ_6xUPDzq",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "ANOTHER PLANET",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-portland-vvg1hz_61kvuk5",
@@ -1154,7 +1221,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-portland-oregon-09-14-2027/event/0F00647293D3618B",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1189,7 +1256,12 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_61KVUk5",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-vancouver-1aozkosgkedfaj7",
@@ -1207,7 +1279,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/dermot-kennedy-the-weight-of-the-vancouver-british-columbia-09-16-2027/event/11006473BB209704",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1242,7 +1314,14 @@
     },
     "ticketmaster_discovery_event_id": "1AoZkoSGkeDFaj7",
     "timezone": "America/Vancouver",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION CANADA (LN)",
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   },
   {
     "id": "tm-dermot-kennedy-2027-seattle-vvg1hz_6xvw_39",
@@ -1260,7 +1339,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-seattle-washington-09-17-2027/event/0F006478B4C99497",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1295,6 +1374,12 @@
     },
     "ticketmaster_discovery_event_id": "vvG1HZ_6xVw_39",
     "timezone": "America/Los_Angeles",
-    "status": "on-sale"
+    "status": "on-sale",
+    "ticketmaster_status_code": "rescheduled",
+    "organizer_names": [
+      "LIVE NATION MUSIC"
+    ],
+    "ticket_limit": 6,
+    "genre": "Rock"
   }
 ]

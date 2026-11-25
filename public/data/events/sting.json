@@ -1131,7 +1131,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/sting-30-tour-relocated-to-hard-tampa-florida-11-24-2026/event/0D00625B34E94E78",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-25",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1184,13 +1184,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8249211",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8249211/Sting-tickets-Tue-Nov-24-2026-Seminole-Hard-Rock-Tampa-Event-Center",
     "ticketmaster_status_code": "rescheduled",
-    "presales": [
-      {
-        "name": "Official Platinum",
-        "start": "2025-03-21T14:00:00Z",
-        "end": "2026-11-25T02:00:00Z"
-      }
-    ],
     "ticket_limit": 4,
     "genre": "Rock"
   },

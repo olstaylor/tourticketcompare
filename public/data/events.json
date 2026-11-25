@@ -450633,5 +450633,4160 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8008391",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8008391/Culture-Club-tickets-Sat-Dec-19-2026-O2-Arena-London",
     "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-london-the-o2-arena-19-12-2026/event/107189086"
+  },
+  {
+    "id": "tm-staind-2027-manchester-g5dzz_92jre09",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle UK & Europe 25th Anniversary Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "O2 Victoria Warehouse Manchester",
+    "datetime_iso": "2027-06-05T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006573E67A7917",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-manchester-05-06-2027/event/3E006573E67A7917",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-manchester-05-06-2027/event/3E006573E67A7917",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006573E67A7917",
+        "discovery_event_id": "G5dzZ_92JrE09",
+        "url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-manchester-05-06-2027/event/3E006573E67A7917",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_92JrE09",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T10:00:00Z"
+  },
+  {
+    "id": "tm-staind-2027-london-g5dzz_9kck9dk",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle UK & Europe 25th Anniversary Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "O2 Academy Brixton",
+    "datetime_iso": "2027-06-06T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3E006574CE1970D3",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-london-06-06-2027/event/3E006574CE1970D3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-london-06-06-2027/event/3E006574CE1970D3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3E006574CE1970D3",
+        "discovery_event_id": "G5dzZ_9KCk9dK",
+        "url": "https://www.ticketmaster.co.uk/staind-break-the-cycle-uk-europe-london-06-06-2027/event/3E006574CE1970D3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dzZ_9KCk9dK",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T10:00:00Z"
+  },
+  {
+    "id": "tm-staind-2027-berlin-z698xzc2z1a6oxuf",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle UK & Europe 25th Anniversary Tour",
+    "city": "Berlin",
+    "country": "Germany",
+    "venue": "Uber Eats Music Hall",
+    "datetime_iso": "2027-06-13T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "7462354",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/7462354?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/7462354?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "7462354",
+        "discovery_event_id": "Z698xZC2Z1A6oxuf",
+        "url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/7462354?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1A6oxuf",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
+  },
+  {
+    "id": "tm-staind-2027-hannover-z698xzc2z1k0-ep0o",
+    "artist_slug": "staind",
+    "artist_name": "Staind",
+    "event_name": "Staind: Break The Cycle UK & Europe 25th Anniversary Tour",
+    "city": "Hannover",
+    "country": "Germany",
+    "venue": "Swiss Life Hall",
+    "datetime_iso": "2027-06-14T18:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "921096911",
+    "ticketmaster_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/921096911?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/921096911?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "921096911",
+        "discovery_event_id": "Z698xZC2Z1k0-ep0o",
+        "url": "https://www.ticketmaster.de/event/staind-break-the-cycle-uk--europe-25th-anniversary-tour-tickets/921096911?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZC2Z1k0-ep0o",
+    "timezone": "Europe/Berlin",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T09:00:00Z"
+  },
+  {
+    "id": "tm-steve-lacy-2027-london-16dfz_98yg7uf9q",
+    "artist_slug": "steve-lacy",
+    "artist_name": "Steve Lacy",
+    "event_name": "Steve Lacy",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-04-26T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3500657430D885DD",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/steve-lacy-london-26-04-2027/event/3500657430D885DD",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/steve-lacy-london-26-04-2027/event/3500657430D885DD",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3500657430D885DD",
+        "discovery_event_id": "16dfZ_98YG7UF9q",
+        "url": "https://www.ticketmaster.co.uk/steve-lacy-london-26-04-2027/event/3500657430D885DD",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16dfZ_98YG7UF9q",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T10:00:00Z"
+  },
+  {
+    "id": "tm-garth-brooks-2027-birmingham-1aozk4mgkenweqi",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2027-02-20T02:00:00Z",
+    "tour_name": "Blame It All On My Roots Arena Tour",
+    "ticketmaster_event_id": "20006577A3C826A8",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006577A3C826A8",
+        "discovery_event_id": "1AOZk4MGkeNweQI",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-19-2027/event/20006577A3C826A8",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4MGkeNweQI",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T18:00:00Z"
+  },
+  {
+    "id": "tm-garth-brooks-2027-birmingham-1aozk4mgke0axh7",
+    "artist_slug": "garth-brooks",
+    "artist_name": "Garth Brooks",
+    "event_name": "Garth Brooks - Blame It All On My Roots Arena Tour",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Legacy Arena at the BJCC",
+    "datetime_iso": "2027-02-21T02:00:00Z",
+    "tour_name": "Blame It All On My Roots Arena Tour",
+    "ticketmaster_event_id": "20006577A42626C4",
+    "ticketmaster_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006577A42626C4",
+        "discovery_event_id": "1AOZk4MGke0axh7",
+        "url": "https://www.ticketmaster.com/garth-brooks-blame-it-all-on-birmingham-alabama-02-20-2027/event/20006577A42626C4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZk4MGke0axh7",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T18:00:00Z"
+  },
+  {
+    "id": "tm-elevation-worship-2027-portland-vvg1hz_3xxsikj",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-02-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006528A2C6819C",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-portland-oregon-02-27-2027/event/0F006528A2C6819C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-portland-oregon-02-27-2027/event/0F006528A2C6819C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006528A2C6819C",
+        "discovery_event_id": "vvG1HZ_3xxsIkj",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-portland-oregon-02-27-2027/event/0F006528A2C6819C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3xxsIkj",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-tom-jones-2027-london-g5vhz_9c-qabn",
+    "artist_slug": "tom-jones",
+    "artist_name": "Tom Jones",
+    "event_name": "Hampton Court Palace Festival Presents Tom Jones",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hampton Court",
+    "datetime_iso": "2027-06-17T16:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006573A1685623",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-17-06-2027/event/1F006573A1685623",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-17-06-2027/event/1F006573A1685623",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006573A1685623",
+        "discovery_event_id": "G5vHZ_9C-QAbN",
+        "url": "https://www.ticketmaster.co.uk/hampton-court-palace-festival-presents-tom-london-17-06-2027/event/1F006573A1685623",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_9C-QAbN",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-katseye-2027-edinburgh-1adbz_9rkp3zdc5u",
+    "artist_slug": "katseye",
+    "artist_name": "KATSEYE",
+    "event_name": "Edinburgh Summer Sessions - Katseye",
+    "city": "Edinburgh",
+    "country": "Great Britain",
+    "venue": "Royal Highland Showgrounds",
+    "datetime_iso": "2027-08-24T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "3600657793952DAC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3600657793952DAC",
+        "discovery_event_id": "1adbZ_9rKP3ZdC5u",
+        "url": "https://www.ticketmaster.co.uk/edinburgh-summer-sessions-katseye-edinburgh-24-08-2027/event/3600657793952DAC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1adbZ_9rKP3ZdC5u",
+    "timezone": "Europe/London",
+    "status": "announced",
+    "public_onsale_at": "2026-11-27T17:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-miami-vvg1vz_9anpvtf",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Miami",
+    "country": "United States Of America",
+    "venue": "Hard Rock Stadium",
+    "datetime_iso": "2027-08-13T23:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "0D0065716A581A54",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-miami-florida-08-13-2027/event/0D0065716A581A54",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-miami-florida-08-13-2027/event/0D0065716A581A54",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D0065716A581A54",
+        "discovery_event_id": "vvG1VZ_9Anpvtf",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-miami-florida-08-13-2027/event/0D0065716A581A54",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_9Anpvtf",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-atlanta-vvg1zz_9oen-vc",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Mercedes-Benz Stadium",
+    "datetime_iso": "2027-08-17T23:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "0E006574428E1D0E",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-atlanta-georgia-08-17-2027/event/0E006574428E1D0E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-atlanta-georgia-08-17-2027/event/0E006574428E1D0E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006574428E1D0E",
+        "discovery_event_id": "vvG1zZ_9oeN-VC",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-atlanta-georgia-08-17-2027/event/0E006574428E1D0E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_9oeN-VC",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-east-rutherford-k7vgf_9kczqx4",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-08-26T23:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "00006574EDE1A895",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-26-2027/event/00006574EDE1A895",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-26-2027/event/00006574EDE1A895",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006574EDE1A895",
+        "discovery_event_id": "k7vGF_9KczQx4",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-26-2027/event/00006574EDE1A895",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_9KczQx4",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-east-rutherford-k7vgf_9lrnhen",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "East Rutherford",
+    "country": "United States Of America",
+    "venue": "MetLife Stadium",
+    "datetime_iso": "2027-08-28T23:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "00006577DE8DB9E3",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-28-2027/event/00006577DE8DB9E3",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-28-2027/event/00006577DE8DB9E3",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "00006577DE8DB9E3",
+        "discovery_event_id": "k7vGF_9LrNhEN",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-east-rutherford-new-jersey-08-28-2027/event/00006577DE8DB9E3",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "k7vGF_9LrNhEN",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-chicago-vv1a7zk4vgkdpyr0o",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Chicago",
+    "country": "United States Of America",
+    "venue": "Soldier Field",
+    "datetime_iso": "2027-09-04T00:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "04006574E5C2F911",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-chicago-illinois-09-03-2027/event/04006574E5C2F911",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-chicago-illinois-09-03-2027/event/04006574E5C2F911",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "04006574E5C2F911",
+        "discovery_event_id": "vv1A7Zk4VGkdPYR0o",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-chicago-illinois-09-03-2027/event/04006574E5C2F911",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1A7Zk4VGkdPYR0o",
+    "timezone": "America/Chicago",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T16:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-toronto-1a8zk4mgkdfgnhr",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-09-07T23:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "10006577D4D6A6EF",
+    "ticketmaster_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-07-2027/event/10006577D4D6A6EF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-07-2027/event/10006577D4D6A6EF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006577D4D6A6EF",
+        "discovery_event_id": "1A8Zk4MGkdfgnhR",
+        "url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-07-2027/event/10006577D4D6A6EF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4MGkdfgnhR",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-toronto-1a8zk4mgkdbl1ra",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Toronto",
+    "country": "Canada",
+    "venue": "Rogers Stadium",
+    "datetime_iso": "2027-09-09T23:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "10006577D87CABC5",
+    "ticketmaster_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "10006577D87CABC5",
+        "discovery_event_id": "1A8Zk4MGkdbL1RA",
+        "url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-toronto-ontario-09-09-2027/event/10006577D87CABC5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A8Zk4MGkdbL1RA",
+    "timezone": "America/Toronto",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-foxborough-vv1avzk4wgkew2yy8",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Foxborough",
+    "country": "United States Of America",
+    "venue": "Gillette Stadium",
+    "datetime_iso": "2027-09-14T23:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "01006572BD3F9C10",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-foxborough-massachusetts-09-14-2027/event/01006572BD3F9C10",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-foxborough-massachusetts-09-14-2027/event/01006572BD3F9C10",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "01006572BD3F9C10",
+        "discovery_event_id": "vv1AvZk4wGkeW2yY8",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-foxborough-massachusetts-09-14-2027/event/01006572BD3F9C10",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1AvZk4wGkeW2yY8",
+    "timezone": "America/New_York",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T15:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-inglewood-vvg1iz_92xm4u0",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2027-10-02T02:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "0A006573FEDD5364",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-01-2027/event/0A006573FEDD5364",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-01-2027/event/0A006573FEDD5364",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006573FEDD5364",
+        "discovery_event_id": "vvG1IZ_92XM4u0",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-01-2027/event/0A006573FEDD5364",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_92XM4u0",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T18:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-inglewood-vvg1iz_9guf1uh",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Inglewood",
+    "country": "United States Of America",
+    "venue": "SoFi Stadium",
+    "datetime_iso": "2027-10-03T02:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "0A0065733620A37C",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-02-2027/event/0A0065733620A37C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-02-2027/event/0A0065733620A37C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A0065733620A37C",
+        "discovery_event_id": "vvG1IZ_9GUF1uH",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-inglewood-california-10-02-2027/event/0A0065733620A37C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_9GUF1uH",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T18:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-las-vegas-1avjz_9omopzd8fe",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Allegiant Stadium",
+    "datetime_iso": "2027-10-10T02:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "1700657477465F71",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-las-vegas-nevada-10-09-2027/event/1700657477465F71",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-las-vegas-nevada-10-09-2027/event/1700657477465F71",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1700657477465F71",
+        "discovery_event_id": "1avjZ_9oMoPZd8Fe",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-las-vegas-nevada-10-09-2027/event/1700657477465F71",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1avjZ_9oMoPZd8Fe",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T18:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-santa-clara-g5vyz_9cslwoq",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Santa Clara",
+    "country": "United States Of America",
+    "venue": "Levi's® Stadium",
+    "datetime_iso": "2027-10-16T02:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "1C006573B3AF245A",
+    "ticketmaster_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-santa-clara-california-10-15-2027/event/1C006573B3AF245A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-santa-clara-california-10-15-2027/event/1C006573B3AF245A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006573B3AF245A",
+        "discovery_event_id": "G5vYZ_9CSlwoQ",
+        "url": "https://www.ticketmaster.com/u2-the-greatest-show-on-earth-santa-clara-california-10-15-2027/event/1C006573B3AF245A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_9CSlwoQ",
+    "timezone": "America/Los_Angeles",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T18:00:00Z"
+  },
+  {
+    "id": "tm-u2-2027-vancouver-1aozk4vgkdpqxj1",
+    "artist_slug": "u2",
+    "artist_name": "U2",
+    "event_name": "U2: The Greatest Show on Earth World Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "BC Place",
+    "datetime_iso": "2027-10-19T02:30:00Z",
+    "tour_name": "The Greatest Show on Earth World Tour",
+    "ticketmaster_event_id": "11006574E577E70A",
+    "ticketmaster_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-vancouver-british-columbia-10-18-2027/event/11006574E577E70A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-vancouver-british-columbia-10-18-2027/event/11006574E577E70A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006574E577E70A",
+        "discovery_event_id": "1AoZk4VGkdPqXj1",
+        "url": "https://www.ticketmaster.ca/u2-the-greatest-show-on-earth-vancouver-british-columbia-10-18-2027/event/11006574E577E70A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZk4VGkdPqXj1",
+    "timezone": "America/Vancouver",
+    "status": "announced",
+    "public_onsale_at": "2026-12-04T17:00:00Z"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-tampa-vvg1vz_6l1oil8",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Tampa",
+    "country": "United States Of America",
+    "venue": "Yuengling Center",
+    "datetime_iso": "2027-08-25T00:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0D006477CA46C7D0",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-tampa-florida-08-24-2027/event/0D006477CA46C7D0",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-tampa-florida-08-24-2027/event/0D006477CA46C7D0",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0D006477CA46C7D0",
+        "discovery_event_id": "vvG1VZ_6L1oiL8",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-tampa-florida-08-24-2027/event/0D006477CA46C7D0",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1VZ_6L1oiL8",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-nashville-z7r9jz1a7-mus",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Nashville",
+    "country": "United States Of America",
+    "venue": "Ascend Amphitheater",
+    "datetime_iso": "2027-08-27T01:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "Z7r9jZ1A7-MuS",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuS",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuS",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-MuS",
+        "discovery_event_id": "Z7r9jZ1A7-MuS",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuS",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuS",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-atlanta-vvg1zz_6r-fif6",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "Pinnacle Amphitheater at Chastain Park",
+    "datetime_iso": "2027-08-27T23:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0E006477A1228207",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-atlanta-georgia-08-27-2027/event/0E006477A1228207",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-atlanta-georgia-08-27-2027/event/0E006477A1228207",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006477A1228207",
+        "discovery_event_id": "vvG1zZ_6r-FIF6",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-atlanta-georgia-08-27-2027/event/0E006477A1228207",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZ_6r-FIF6",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-birmingham-1aozkozgkdjgv_k",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Birmingham",
+    "country": "United States Of America",
+    "venue": "Avondale Brewing Co.",
+    "datetime_iso": "2027-08-29T23:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "20006478DCD74653",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "20006478DCD74653",
+        "discovery_event_id": "1AOZkozGkdjgV_K",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-birmingham-alabama-08-29-2027/event/20006478DCD74653",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AOZkozGkdjgV_K",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-austin-g5diz_6nescpy",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Austin",
+    "country": "United States Of America",
+    "venue": "Moody Amphitheater",
+    "datetime_iso": "2027-09-01T00:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "3A006478E7C4E970",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-austin-texas-08-31-2027/event/3A006478E7C4E970",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-austin-texas-08-31-2027/event/3A006478E7C4E970",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "3A006478E7C4E970",
+        "discovery_event_id": "G5dIZ_6NEsCPY",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-austin-texas-08-31-2027/event/3A006478E7C4E970",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5dIZ_6NEsCPY",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-irving-vvg1yz_6j3sk_v",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Irving",
+    "country": "United States Of America",
+    "venue": "The Pavilion at Toyota Music Factory",
+    "datetime_iso": "2027-09-02T00:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0C00647992CC6674",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-irving-texas-09-01-2027/event/0C00647992CC6674",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-irving-texas-09-01-2027/event/0C00647992CC6674",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0C00647992CC6674",
+        "discovery_event_id": "vvG1YZ_6J3Sk_V",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-irving-texas-09-01-2027/event/0C00647992CC6674",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1YZ_6J3Sk_V",
+    "timezone": "America/Chicago",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-bellvue-z7r9jz1a7-mug",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Bellvue",
+    "country": "United States Of America",
+    "venue": "Mishawaka Amphitheatre",
+    "datetime_iso": "2027-09-04T02:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "Z7r9jZ1A7-Mug",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mug",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mug",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-Mug",
+        "discovery_event_id": "Z7r9jZ1A7-Mug",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-Mug",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-Mug",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-morrison-z7r9jz1a7-muu",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Morrison",
+    "country": "United States Of America",
+    "venue": "Red Rocks Amphitheatre",
+    "datetime_iso": "2027-09-05T02:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "Z7r9jZ1A7-MuU",
+    "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuU",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuU",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "Z7r9jZ1A7-MuU",
+        "discovery_event_id": "Z7r9jZ1A7-MuU",
+        "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7-MuU",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z7r9jZ1A7-MuU",
+    "timezone": "America/Denver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-los-angeles-vv1ke8v0r6gauznui",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Los Angeles",
+    "country": "United States Of America",
+    "venue": "Greek Theatre",
+    "datetime_iso": "2027-09-08T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "090064787D02336C",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-los-angeles-california-09-07-2027/event/090064787D02336C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-los-angeles-california-09-07-2027/event/090064787D02336C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "090064787D02336C",
+        "discovery_event_id": "vv1ke8v0r6GAuZNui",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-los-angeles-california-09-07-2027/event/090064787D02336C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vv1ke8v0r6GAuZNui",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-phoenix-1kk8v0r_gac5gqt",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Phoenix",
+    "country": "United States Of America",
+    "venue": "Arizona Financial Theatre",
+    "datetime_iso": "2027-09-09T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "190064799E2F56A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-phoenix-arizona-09-08-2027/event/190064799E2F56A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-phoenix-arizona-09-08-2027/event/190064799E2F56A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "190064799E2F56A9",
+        "discovery_event_id": "1kk8v0r_GAC5gQt",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-phoenix-arizona-09-08-2027/event/190064799E2F56A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1kk8v0r_GAC5gQt",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-san-diego-vvg1iz_63vng7e",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "San Diego",
+    "country": "United States Of America",
+    "venue": "Cal Coast Credit Union Open Air Theatre at SDSU",
+    "datetime_iso": "2027-09-11T03:00:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0A006474B48CC127",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-diego-california-09-10-2027/event/0A006474B48CC127",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-diego-california-09-10-2027/event/0A006474B48CC127",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0A006474B48CC127",
+        "discovery_event_id": "vvG1IZ_63VNG7E",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-diego-california-09-10-2027/event/0A006474B48CC127",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1IZ_63VNG7E",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-san-francisco-g5vyz_6xupdzq",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "San Francisco",
+    "country": "United States Of America",
+    "venue": "Bill Graham Civic Auditorium",
+    "datetime_iso": "2027-09-13T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "1C006478B697BE1D",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-francisco-california-09-12-2027/event/1C006478B697BE1D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-francisco-california-09-12-2027/event/1C006478B697BE1D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006478B697BE1D",
+        "discovery_event_id": "G5vYZ_6xUPDzq",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-san-francisco-california-09-12-2027/event/1C006478B697BE1D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZ_6xUPDzq",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-portland-vvg1hz_61kvuk5",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-09-15T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0F00647293D3618B",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-portland-oregon-09-14-2027/event/0F00647293D3618B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-portland-oregon-09-14-2027/event/0F00647293D3618B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F00647293D3618B",
+        "discovery_event_id": "vvG1HZ_61KVUk5",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-portland-oregon-09-14-2027/event/0F00647293D3618B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_61KVUk5",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-vancouver-1aozkosgkedfaj7",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2027-09-17T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "11006473BB209704",
+    "ticketmaster_url": "https://www.ticketmaster.ca/dermot-kennedy-the-weight-of-the-vancouver-british-columbia-09-16-2027/event/11006473BB209704",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/dermot-kennedy-the-weight-of-the-vancouver-british-columbia-09-16-2027/event/11006473BB209704",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006473BB209704",
+        "discovery_event_id": "1AoZkoSGkeDFaj7",
+        "url": "https://www.ticketmaster.ca/dermot-kennedy-the-weight-of-the-vancouver-british-columbia-09-16-2027/event/11006473BB209704",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkoSGkeDFaj7",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-dermot-kennedy-2027-seattle-vvg1hz_6xvw_39",
+    "artist_slug": "dermot-kennedy",
+    "artist_name": "Dermot Kennedy",
+    "event_name": "Dermot Kennedy: The Weight of the Woods Tour",
+    "city": "Seattle",
+    "country": "United States Of America",
+    "venue": "Paramount Theatre",
+    "datetime_iso": "2027-09-18T02:30:00Z",
+    "tour_name": "The Weight of the Woods Tour",
+    "ticketmaster_event_id": "0F006478B4C99497",
+    "ticketmaster_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-seattle-washington-09-17-2027/event/0F006478B4C99497",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-seattle-washington-09-17-2027/event/0F006478B4C99497",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006478B4C99497",
+        "discovery_event_id": "vvG1HZ_6xVw_39",
+        "url": "https://www.ticketmaster.com/dermot-kennedy-the-weight-of-the-seattle-washington-09-17-2027/event/0F006478B4C99497",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_6xVw_39",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2026-atlanta-vvg1zzbgd3i_ac",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-11-26T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E006350D2B1924E",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-25-2026/event/0E006350D2B1924E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-25-2026/event/0E006350D2B1924E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E006350D2B1924E",
+        "discovery_event_id": "vvG1zZbgd3i_aC",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-25-2026/event/0E006350D2B1924E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZbgd3i_aC",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2026-atlanta-vvg1zzbgq3ik-i",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Atlanta",
+    "country": "United States Of America",
+    "venue": "State Farm Arena",
+    "datetime_iso": "2026-11-28T00:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0E00635692B0686C",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0E00635692B0686C",
+        "discovery_event_id": "vvG1zZbgQ3ik-i",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-atlanta-georgia-11-27-2026/event/0E00635692B0686C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1zZbgQ3ik-i",
+    "timezone": "America/New_York",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2026-glendale-1a_zku3gkdjwfxj",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2026-12-02T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006352DCF54F9C",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006352DCF54F9C",
+        "discovery_event_id": "1A_Zku3GkdjWfXj",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-01-2026/event/19006352DCF54F9C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zku3GkdjWfXj",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2026-glendale-1a_zku3gkdql0tk",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Glendale",
+    "country": "United States Of America",
+    "venue": "Desert Diamond Arena",
+    "datetime_iso": "2026-12-04T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "19006352DD7E4FC6",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "19006352DD7E4FC6",
+        "discovery_event_id": "1A_Zku3GkdqL0Tk",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-glendale-arizona-12-03-2026/event/19006352DD7E4FC6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A_Zku3GkdqL0Tk",
+    "timezone": "America/Phoenix",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2026-san-jose-g5vyzbg9ir1-u",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "San Jose",
+    "country": "United States Of America",
+    "venue": "SAP Center at San Jose",
+    "datetime_iso": "2026-12-07T03:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1C006355EC78A84D",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1C006355EC78A84D",
+        "discovery_event_id": "G5vYZbg9ir1-u",
+        "url": "https://www.ticketmaster.com/rush-fifty-something-san-jose-california-12-06-2026/event/1C006355EC78A84D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vYZbg9ir1-u",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2026-edmonton-1aozkuogkdiu5gt",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2026-12-11T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006351E834BD69",
+    "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006351E834BD69",
+        "discovery_event_id": "1AoZkuoGkdIu5gt",
+        "url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-10-2026/event/11006351E834BD69",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkuoGkdIu5gt",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2026-edmonton-1aozkuogkdichgs",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Edmonton",
+    "country": "Canada",
+    "venue": "Rogers Place",
+    "datetime_iso": "2026-12-13T01:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "11006351E839BD71",
+    "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "11006351E839BD71",
+        "discovery_event_id": "1AoZkuoGkdIChgs",
+        "url": "https://www.ticketmaster.ca/rush-fifty-something-edmonton-alberta-12-12-2026/event/11006351E839BD71",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AoZkuoGkdIChgs",
+    "timezone": "America/Edmonton",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2026-vancouver-15v7zbga7vfqk",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-12-16T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1100635144054746",
+    "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1100635144054746",
+        "discovery_event_id": "15v7ZbgA7vfqk",
+        "url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-15-2026/event/1100635144054746",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "15v7ZbgA7vfqk",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2026-vancouver-1k78vn4_gag8jn9",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Vancouver",
+    "country": "Canada",
+    "venue": "Rogers Arena",
+    "datetime_iso": "2026-12-18T02:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "110063559C4268D7",
+    "ticketmaster_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "110063559C4268D7",
+        "discovery_event_id": "1k78vN4_GAG8JN9",
+        "url": "https://www.ticketmaster.ca/rush-fifty-something-vancouver-british-columbia-12-17-2026/event/110063559C4268D7",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1k78vN4_GAG8JN9",
+    "timezone": "America/Vancouver",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-amsterdam-z698xzbpz1k0w44ux",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2027-02-23T19:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "932555362",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/rush-fifty-something-tickets/932555362?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/rush-fifty-something-tickets/932555362?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "932555362",
+        "discovery_event_id": "Z698xZbpZ1k0w44ux",
+        "url": "https://www.ticketmaster.nl/event/rush-fifty-something-tickets/932555362?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1k0w44ux",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-glasgow-16uzkokjoza2eu1c",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-03-08T18:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "36006453711E1C9D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006453711E1C9D",
+        "discovery_event_id": "16UZkoKjoZA2eu1C",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-08-03-2027/event/36006453711E1C9D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "16UZkoKjoZA2eu1C",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-glasgow-1auzko9gkdz3fsq",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "Glasgow",
+    "country": "Great Britain",
+    "venue": "OVO Hydro",
+    "datetime_iso": "2027-03-10T18:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "36006457C0494C5A",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "36006457C0494C5A",
+        "discovery_event_id": "1AUZko9GkdZ3fsQ",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-glasgow-10-03-2027/event/36006457C0494C5A",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AUZko9GkdZ3fsQ",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-manchester-1amzko3gkd_h5ef",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-03-12T19:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "37006452D9F0B088",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006452D9F0B088",
+        "discovery_event_id": "1AMZko3Gkd_H5eF",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-12-03-2027/event/37006452D9F0B088",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZko3Gkd_H5eF",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-manchester-1amzko9gkdv60uv",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "Manchester",
+    "country": "Great Britain",
+    "venue": "Co-op Live",
+    "datetime_iso": "2027-03-14T19:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "37006457F41E4D81",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006457F41E4D81",
+        "discovery_event_id": "1AMZko9GkdV60Uv",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-manchester-14-03-2027/event/37006457F41E4D81",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZko9GkdV60Uv",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-london-1agzkokgkdbtjvd",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-03-16T18:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "35006453D8A66D03",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006453D8A66D03",
+        "discovery_event_id": "1AgZkoKGkdbtJVd",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-16-03-2027/event/35006453D8A66D03",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkoKGkdbtJVd",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-london-1agzkokgkdwubbc",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-03-18T18:30:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "35006453F235862D",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006453F235862D",
+        "discovery_event_id": "1AgZkoKGkdwubbc",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-18-03-2027/event/35006453F235862D",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkoKGkdwubbc",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-london-1agzkokgkdbmisv",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something Tour",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "The O2",
+    "datetime_iso": "2027-03-21T18:00:00Z",
+    "tour_name": "Fifty Something Tour",
+    "ticketmaster_event_id": "35006453FABA8CC1",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "35006453FABA8CC1",
+        "discovery_event_id": "1AgZkoKGkdBmISv",
+        "url": "https://www.ticketmaster.co.uk/rush-fifty-something-tour-london-21-03-2027/event/35006453FABA8CC1",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AgZkoKGkdBmISv",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-fornebu-z698xzb_z16v33febz",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: Fifty Something",
+    "city": "Fornebu",
+    "country": "Norway",
+    "venue": "Unity Arena",
+    "datetime_iso": "2027-04-06T17:30:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1492227638",
+    "ticketmaster_url": "https://www.ticketmaster.no/event/rush-fifty-something-tickets/1492227638?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.no/event/rush-fifty-something-tickets/1492227638?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1492227638",
+        "discovery_event_id": "Z698xZb_Z16v33FEbz",
+        "url": "https://www.ticketmaster.no/event/rush-fifty-something-tickets/1492227638?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZb_Z16v33FEbz",
+    "timezone": "Europe/Oslo",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-helsinki-z698xz8kz16vu9qkuz",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "Rush: Fifty Something | Legazy Seat -lippu",
+    "city": "Helsinki",
+    "country": "Finland",
+    "venue": "Veikkaus Arena",
+    "datetime_iso": "2027-04-10T15:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1357753378",
+    "ticketmaster_url": "https://www.ticketmaster.fi/event/rush-fifty-something-%7C-legazy-seat-lippu-tickets/1357753378?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.fi/event/rush-fifty-something-%7C-legazy-seat-lippu-tickets/1357753378?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1357753378",
+        "discovery_event_id": "Z698xZ8KZ16vu9qKuz",
+        "url": "https://www.ticketmaster.fi/event/rush-fifty-something-%7C-legazy-seat-lippu-tickets/1357753378?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ8KZ16vu9qKuz",
+    "timezone": "Europe/Helsinki",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgo-1b",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-22T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F5821298",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F5821298",
+        "discovery_event_id": "1A9Zk4xGkdgO-1b",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-21-2027/event/17006562F5821298",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1b",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgo-1h",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-24T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F582129B",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F582129B",
+        "discovery_event_id": "1A9Zk4xGkdgO-1h",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-23-2027/event/17006562F582129B",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgO-1h",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos1r",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F583129E",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F583129E",
+        "discovery_event_id": "1A9Zk4xGkdgOs1r",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-26-2027/event/17006562F583129E",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs1r",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgos10",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-29T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58312A4",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58312A4",
+        "discovery_event_id": "1A9Zk4xGkdgOs10",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-28-2027/event/17006562F58312A4",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgOs10",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-v1t",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-05-31T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58412A9",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58412A9",
+        "discovery_event_id": "1A9Zk4xGkdg-v1t",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-05-30-2027/event/17006562F58412A9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-v1t",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1r",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-16T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58512AF",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58512AF",
+        "discovery_event_id": "1A9Zk4xGkdg-o1R",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-15-2027/event/17006562F58512AF",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1R",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-o1g",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-18T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58512B5",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58512B5",
+        "discovery_event_id": "1A9Zk4xGkdg-o1g",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-17-2027/event/17006562F58512B5",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-o1g",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg--5c",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-20T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58612CE",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58612CE",
+        "discovery_event_id": "1A9Zk4xGkdg--5C",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-19-2027/event/17006562F58612CE",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg--5C",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdg-s53",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-25T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58712D2",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58712D2",
+        "discovery_event_id": "1A9Zk4xGkdg-s53",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-24-2027/event/17006562F58712D2",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdg-s53",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-rush-2027-las-vegas-1a9zk4xgkdgxv5p",
+    "artist_slug": "rush",
+    "artist_name": "Rush",
+    "event_name": "RUSH: ELEVATE FROM THE NORM",
+    "city": "Las Vegas",
+    "country": "United States Of America",
+    "venue": "Sphere",
+    "datetime_iso": "2027-06-27T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "17006562F58812D6",
+    "ticketmaster_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "17006562F58812D6",
+        "discovery_event_id": "1A9Zk4xGkdgxv5p",
+        "url": "https://www.ticketmaster.com/rush-elevate-from-the-norm-las-vegas-nevada-06-26-2027/event/17006562F58812D6",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1A9Zk4xGkdgxv5p",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2026-amsterdam-z698xzbpz1kgae78p",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2026-11-29T18:30:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "305084425",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/305084425?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/305084425?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "305084425",
+        "discovery_event_id": "Z698xZbpZ1kGAe78P",
+        "url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/305084425?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ1kGAe78P",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2026-amsterdam-z698xzbpz16v0z-yvb",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "venue": "Ziggo Dome",
+    "datetime_iso": "2026-11-30T18:30:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "1900870058",
+    "ticketmaster_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/1900870058?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/1900870058?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1900870058",
+        "discovery_event_id": "Z698xZbpZ16v0Z-Yvb",
+        "url": "https://www.ticketmaster.nl/event/muse-the-wow-signal-europa-tour-tickets/1900870058?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZbpZ16v0Z-Yvb",
+    "timezone": "Europe/Amsterdam",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2026-zurich-z698xzu3z1kaiqded",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Hallenstadion",
+    "datetime_iso": "2026-12-07T19:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "268683083",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/268683083?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/268683083?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "268683083",
+        "discovery_event_id": "Z698xZu3Z1kaIQded",
+        "url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/268683083?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z1kaIQded",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2026-zurich-z698xzu3z16v7p4eja",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "venue": "Hallenstadion",
+    "datetime_iso": "2026-12-08T19:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "1125567705",
+    "ticketmaster_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/1125567705?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/1125567705?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1125567705",
+        "discovery_event_id": "Z698xZu3Z16v7P4EjA",
+        "url": "https://www.ticketmaster.ch/event/muse-the-wow-signal-europa-tour-tickets/1125567705?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZu3Z16v7P4EjA",
+    "timezone": "Europe/Zurich",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-madrid-z698xz2qz16vjs7s8n",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2027-01-19T20:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "1731131423",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1731131423",
+        "discovery_event_id": "Z698xZ2qZ16vjs7s8N",
+        "url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1731131423?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vjs7s8N",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-madrid-z698xz2qz1kcb1fbk",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Madrid",
+    "country": "Spain",
+    "venue": "Movistar Arena",
+    "datetime_iso": "2027-01-20T20:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "398294606",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "398294606",
+        "discovery_event_id": "Z698xZ2qZ1kCb1fbk",
+        "url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/398294606?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1kCb1fbk",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-valencia-z698xz2qz16vovabug",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Valencia",
+    "country": "Spain",
+    "venue": "Roig Arena",
+    "datetime_iso": "2027-01-23T20:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "1441158375",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1441158375",
+        "discovery_event_id": "Z698xZ2qZ16vovAbug",
+        "url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/1441158375?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ16vovAbug",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-valencia-z698xz2qz1k_kr6f0",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse - The Wow! Signal Europa Tour",
+    "city": "Valencia",
+    "country": "Spain",
+    "venue": "Roig Arena",
+    "datetime_iso": "2027-01-24T20:00:00Z",
+    "tour_name": "The Wow! Signal Europa Tour",
+    "ticketmaster_event_id": "653787524",
+    "ticketmaster_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
+    "last_verified_at": null,
+    "verification_status": "needs_recheck",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "653787524",
+        "discovery_event_id": "Z698xZ2qZ1k_Kr6f0",
+        "url": "https://www.ticketmaster.es/event/muse-the-wow-signal-europa-tour-tickets/653787524?language=en-us",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "Z698xZ2qZ1k_Kr6f0",
+    "timezone": "Europe/Madrid",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-cardiff-g5vhz_klws9kh",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "Muse",
+    "city": "Cardiff",
+    "country": "Great Britain",
+    "venue": "Blackweir Fields, Cardiff",
+    "datetime_iso": "2027-06-23T16:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F006537F2C574FC",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F006537F2C574FC",
+        "discovery_event_id": "G5vHZ_KLws9KH",
+        "url": "https://www.ticketmaster.co.uk/muse-cardiff-23-06-2027/event/1F006537F2C574FC",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_KLws9KH",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-london-1amzk4pgkebnmny",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "American Express Presents BST Hyde Park - Muse",
+    "city": "London",
+    "country": "Great Britain",
+    "venue": "Hyde Park",
+    "datetime_iso": "2027-06-26T13:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "37006565BA8F78F9",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "37006565BA8F78F9",
+        "discovery_event_id": "1AMZk4PGkeBNMNy",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-bst-hyde-park-london-26-06-2027/event/37006565BA8F78F9",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "1AMZk4PGkeBNMNy",
+    "timezone": "Europe/London",
+    "status": "on-sale"
+  },
+  {
+    "id": "tm-muse-2027-leeds-g5vhz_pplenqg",
+    "artist_slug": "muse",
+    "artist_name": "Muse",
+    "event_name": "American Express Presents Roundhay Festival - Muse",
+    "city": "Leeds",
+    "country": "Great Britain",
+    "venue": "Roundhay Park",
+    "datetime_iso": "2027-06-27T12:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "1F0065659F0A3775",
+    "ticketmaster_url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "1F0065659F0A3775",
+        "discovery_event_id": "G5vHZ_ppLeNqg",
+        "url": "https://www.ticketmaster.co.uk/american-express-presents-roundhay-festival-muse-leeds-27-06-2027/event/1F0065659F0A3775",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "G5vHZ_ppLeNqg",
+    "timezone": "Europe/London",
+    "status": "on-sale"
   }
 ]

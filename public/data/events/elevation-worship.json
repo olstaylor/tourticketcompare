@@ -620,5 +620,58 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8264728",
     "ticket_limit": 8,
     "genre": "Religious"
+  },
+  {
+    "id": "tm-elevation-worship-2027-portland-vvg1hz_3xxsikj",
+    "artist_slug": "elevation-worship",
+    "artist_name": "Elevation Worship",
+    "event_name": "Elevation Worship & Steven Furtick",
+    "city": "Portland",
+    "country": "United States Of America",
+    "venue": "Moda Center",
+    "datetime_iso": "2027-02-28T03:00:00Z",
+    "tour_name": "",
+    "ticketmaster_event_id": "0F006528A2C6819C",
+    "ticketmaster_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-portland-oregon-02-27-2027/event/0F006528A2C6819C",
+    "seatgeek_url": "",
+    "vividseats_url": "",
+    "source_type": "ticketmaster",
+    "source_url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-portland-oregon-02-27-2027/event/0F006528A2C6819C",
+    "last_verified_at": null,
+    "verification_status": "machine_high_confidence",
+    "provider_links": {
+      "ticketmaster": {
+        "event_id": "0F006528A2C6819C",
+        "discovery_event_id": "vvG1HZ_3xxsIkj",
+        "url": "https://www.ticketmaster.com/elevation-worship-steven-furtick-portland-oregon-02-27-2027/event/0F006528A2C6819C",
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "seatgeek": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "vivid-seats": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      },
+      "stubhub": {
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_checked"
+      }
+    },
+    "ticketmaster_discovery_event_id": "vvG1HZ_3xxsIkj",
+    "timezone": "America/Los_Angeles",
+    "status": "on-sale"
   }
 ]

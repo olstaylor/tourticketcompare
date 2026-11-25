@@ -51,7 +51,7 @@
         "event_id": "107679179",
         "url": "https://www.stubhub.ie/bon-jovi-tickets-melbourne-marvel-stadium-docklands-4-3-2027/event/107679179",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -144,7 +144,7 @@
         "event_id": "107675286",
         "url": "https://www.stubhub.ie/bon-jovi-east-rutherford-tickets-7-15-2027/event/107675286",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -237,7 +237,7 @@
         "event_id": "107675287",
         "url": "https://www.stubhub.ie/bon-jovi-chicago-tickets-7-21-2027/event/107675287",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -331,7 +331,7 @@
         "event_id": "107675288",
         "url": "https://www.stubhub.ie/bon-jovi-foxborough-tickets-7-28-2027/event/107675288",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -647,6 +647,13 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107675356",
+        "url": "https://www.stubhub.ie/bon-jovi-tickets-london-hyde-park-24-6-2027/event/107675356",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AdjZ_fGkUq9ee5",
@@ -659,6 +666,7 @@
     ],
     "ticket_limit": 6,
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8329073",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329073/Bon-Jovi-tickets-Thu-Jun-24-2027-Hyde-Park-London"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8329073/Bon-Jovi-tickets-Thu-Jun-24-2027-Hyde-Park-London",
+    "stubhub_international_url": "https://www.stubhub.ie/bon-jovi-tickets-london-hyde-park-24-6-2027/event/107675356"
   }
 ]

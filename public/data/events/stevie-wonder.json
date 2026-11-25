@@ -868,11 +868,11 @@
         "availability_status": "not_listed"
       },
       "stubhub-international": {
-        "event_id": "107667143",
-        "url": "https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticketnetwork": {
         "event_id": null,
@@ -886,7 +886,7 @@
     "timezone": "America/New_York",
     "status": "on-sale",
     "ticketliquidator_url": "",
-    "stubhub_international_url": "https://www.stubhub.ie/stevie-wonder-washington-tickets-11-23-2026/event/107667143",
+    "stubhub_international_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1119,7 +1119,7 @@
         "event_id": "107667148",
         "url": "https://www.stubhub.ie/stevie-wonder-inglewood-tickets-12-19-2026/event/107667148",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticketnetwork": {

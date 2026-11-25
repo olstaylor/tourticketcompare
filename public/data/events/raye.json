@@ -235,6 +235,13 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107679053",
+        "url": "https://www.stubhub.ie/raye-tickets-london-hyde-park-10-7-2027/event/107679053",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk4pGkdNOl-0",
@@ -247,7 +254,8 @@
     ],
     "ticket_limit": 6,
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8353468",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353468/Raye-tickets-Sat-Jul-10-2027-Hyde-Park-London"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8353468/Raye-tickets-Sat-Jul-10-2027-Hyde-Park-London",
+    "stubhub_international_url": "https://www.stubhub.ie/raye-tickets-london-hyde-park-10-7-2027/event/107679053"
   },
   {
     "id": "tm-raye-2027-london-1amzk49gkeww5xa",
@@ -310,6 +318,13 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107683934",
+        "url": "https://www.stubhub.ie/raye-tickets-london-hyde-park-11-7-2027/event/107683934",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "1AMZk49GkeWw5xa",
@@ -322,6 +337,7 @@
     ],
     "ticket_limit": 6,
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8386080",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386080/Raye-tickets-Sun-Jul-11-2027-Hyde-Park-London"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8386080/Raye-tickets-Sun-Jul-11-2027-Hyde-Park-London",
+    "stubhub_international_url": "https://www.stubhub.ie/raye-tickets-london-hyde-park-11-7-2027/event/107683934"
   }
 ]

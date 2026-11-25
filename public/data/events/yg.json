@@ -199,6 +199,13 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107684094",
+        "url": "https://www.stubhub.ie/yg-oakland-tickets-12-19-2026/event/107684094",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vYZ_u2LCDvy",
@@ -218,6 +225,7 @@
         "start": "2026-07-24T17:00:00Z",
         "end": "2026-12-13T07:59:00Z"
       }
-    ]
+    ],
+    "stubhub_international_url": "https://www.stubhub.ie/yg-oakland-tickets-12-19-2026/event/107684094"
   }
 ]

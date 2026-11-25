@@ -174,6 +174,7 @@ export const OG_CARDS = {
   "/artists/cristian-castro": {"url":"/og/artists-cristian-castro.png","alt":"Tickets & tour dates: Cristian Castro"},
   "/artists/cristian-castro/ticket-prices": {"url":"/og/artists-cristian-castro-ticket-prices.png","alt":"Ticket prices: Cristian Castro"},
   "/artists/culture-club": {"url":"/og/artists-culture-club.png","alt":"Tickets & tour dates: Culture Club"},
+  "/artists/culture-club/ticket-prices": {"url":"/og/artists-culture-club-ticket-prices.png","alt":"Ticket prices: Culture Club"},
   "/artists/dan-shay": {"url":"/og/artists-dan-shay.png","alt":"Tickets & tour dates: Dan + Shay"},
   "/artists/daniel-caesar": {"url":"/og/artists-daniel-caesar.png","alt":"Tickets & tour dates: Daniel Caesar"},
   "/artists/daughtry": {"url":"/og/artists-daughtry.png","alt":"Tickets & tour dates: Daughtry"},

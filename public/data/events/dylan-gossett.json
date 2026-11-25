@@ -505,7 +505,7 @@
         "event_id": "107469555",
         "url": "https://www.stubhub.ie/dylan-gossett-tickets-london-o2-academy-brixton-18-2-2027/event/107469555",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -663,7 +663,7 @@
         "event_id": "107476097",
         "url": "https://www.stubhub.ie/dylan-gossett-tickets-birmingham-o2-academy-birmingham-21-2-2027/event/107476097",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -732,7 +732,7 @@
         "event_id": "107482715",
         "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-23-2-2027/event/107482715",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -799,7 +799,7 @@
         "event_id": "107469557",
         "url": "https://www.stubhub.ie/dylan-gossett-tickets-glasgow-o2-academy-glasgow-24-2-2027/event/107469557",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -2834,6 +2834,13 @@
         "verified": false,
         "last_verified_at": null,
         "availability_status": "not_checked"
+      },
+      "stubhub-international": {
+        "event_id": "107681330",
+        "url": "https://www.stubhub.ie/dylan-gossett-tickets-bournemouth-o2-academy-bournemouth-5-7-2027/event/107681330",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5dzZ_pJb4Swt",
@@ -2844,6 +2851,7 @@
       "ACADEMY MUSIC GROUP (O2 ACADEMY BOURNEMOUTH)",
       "LIVE NATION MUSIC UK LTD"
     ],
-    "genre": "Country"
+    "genre": "Country",
+    "stubhub_international_url": "https://www.stubhub.ie/dylan-gossett-tickets-bournemouth-o2-academy-bournemouth-5-7-2027/event/107681330"
   }
 ]

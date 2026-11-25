@@ -184,6 +184,8 @@ export function buildStatements({ since, until, starts = [] }) {
       key: "funnelProviders",
       sql: `SELECT COALESCE(provider, 'unknown') AS provider, COUNT(DISTINCT request_key || '|' || substr(created_at, 1, 10)) AS clickers, COUNT(*) AS clicks FROM analytics_events WHERE event_name = 'provider_click' AND request_key IS NOT NULL AND ${lastWeek} GROUP BY 1`,
     },
+    // Durable order ledger (nightly funnel-daily import). Small table, so no window.
+    { key: "ledger", sql: "SELECT provider, state, attribution, currency, payout, lock_date FROM impact_action_ledger" },
   ];
   for (const s of statements) {
     assertReadOnlySql(s.sql);
@@ -231,6 +233,32 @@ export function buildBatches(artists, events, traffic, now = new Date(), limit =
   return [...groups.values()].sort((a, b) => b.week.localeCompare(a.week)).slice(0, limit);
 }
 
+// Impact orders from the ledger. Orders on a mapped ticket-marketplace campaign are
+// "owner-attested TTC" (owner statement, 24 Nov 2026: all show/tour orders are TTC).
+// "Sub-ID matched" is the subset the click join proves. Orders with no mapped
+// ticket campaign are other accounts and are only counted, never summed.
+// Currencies and states are never mixed. Returns null when the ledger was not read.
+export function summariseLedger(rows) {
+  if (!Array.isArray(rows)) return null;
+  const out = { ticket: {}, matched: {}, other: 0, nextLock: null };
+  const today = new Date().toISOString().slice(0, 10);
+  for (const r of rows) {
+    if (!r.provider) { out.other += 1; continue; }
+    const state = ["APPROVED", "PENDING", "REVERSED"].includes(String(r.state).toUpperCase()) ? String(r.state).toUpperCase() : "UNKNOWN";
+    const cur = r.currency || "unknown currency";
+    const payout = r.payout === null || r.payout === undefined || !Number.isFinite(Number(r.payout)) ? null : Number(r.payout);
+    for (const [bucket, include] of [["ticket", true], ["matched", r.attribution === "matched"]]) {
+      if (!include) continue;
+      const cell = ((out[bucket][cur] = out[bucket][cur] || {})[state] = out[bucket][cur][state] || { count: 0, payout: 0, missing: 0 });
+      cell.count += 1;
+      if (payout === null) cell.missing += 1; else cell.payout += payout;
+    }
+    const lock = r.lock_date ? String(r.lock_date).slice(0, 10) : null;
+    if (state === "PENDING" && lock && lock >= today && (!out.nextLock || lock < out.nextLock)) out.nextLock = lock;
+  }
+  return out;
+}
+
 export function buildScoreboard(results, { starts }, now = new Date(), catalog = null, extras = {}) {
   const byWeek = (rows) => new Map((rows || []).map((r) => [r.week, Number(r.n) || 0]));
   const search = byWeek(results.search);
@@ -264,7 +292,7 @@ export function buildScoreboard(results, { starts }, now = new Date(), catalog =
   const coverage = catalog ? nearTermCoverage(catalog.events, now) : null;
   const opportunities = catalog ? buildOpportunities({ coverage, today }) : [];
   return { generatedAt: today, weeks, latest: weeks.at(-1) || null, previous: weeks.length > 1 ? weeks.at(-2) : null, next, funnel, providerWeeks, landing, batches,
-    impact: extras.impact || null, failures: extras.failures === undefined ? null : extras.failures, opportunities };
+    impact: extras.impact || null, orders: summariseLedger(results.ledger), failures: extras.failures === undefined ? null : extras.failures, opportunities };
 }
 
 function band(value, key) {
@@ -363,6 +391,29 @@ export function renderScoreboard(board) {
       "Upcoming shows are on the site now, not necessarily indexed. Traffic counts the artists' own pages (`/artists/<slug>` and its ticket, price and presale pages) for one week, so older batches have had longer to earn it. Indexed pages, Google clicks and attributed orders by batch are not available yet (Search Console pulls resume 1 Dec; Impact orders join by Sub ID in the nightly funnel check)."
     );
   }
+  if (board.orders !== undefined) {
+    lines.push("", "## Impact orders by status (durable ledger)", "");
+    if (!board.orders) lines.push("Unavailable: the order ledger could not be read this week. This is not zero orders.");
+    else {
+      const rows = [];
+      for (const cur of Object.keys(board.orders.ticket)) {
+        for (const state of ["APPROVED", "PENDING", "REVERSED", "UNKNOWN"]) {
+          const all = board.orders.ticket[cur][state];
+          if (!all) continue;
+          const sub = board.orders.matched[cur]?.[state];
+          const amt = (c) => (c ? `${cur} ${c.payout.toFixed(2)}${c.missing ? ` (+${c.missing} without amount)` : ""}` : "none");
+          rows.push(`| ${state.toLowerCase()} | ${fmt(all.count)} | ${amt(all)} | ${fmt(sub?.count || 0)} | ${amt(sub)} |`);
+        }
+      }
+      lines.push(
+        "| Status | Ticket orders (owner-attested TTC) | Commission | Of which Sub-ID matched | Commission |",
+        "|---|---:|---:|---:|---:|",
+        ...(rows.length ? rows : ["| none | 0 | | 0 | |"]),
+        "",
+        `Owner-attested: the owner stated (24 Nov 2026) that all show and tour orders in Impact are TTC, so every order on a ticket-marketplace campaign is counted. Sub-ID matched is the subset the click join proves. ${board.orders.other} on other campaigns (not ticket marketplaces) are excluded and not summed. Statuses are never summed together. ${board.orders.nextLock ? `Next pending commission locks ${board.orders.nextLock}. ` : ""}Payment status is unavailable (Impact gives no order-level payment data); "approved" means locked, not paid.`
+      );
+    }
+  }
   const impact = board.impact;
   if (impact) {
     lines.push("", "## Impact actions, last 45 days (by action date)", "");
@@ -420,7 +471,7 @@ export function renderScoreboard(board) {
   }
   lines.push(
     "",
-    "**Orders and commission are not counted here.** Read sourced action state, payout and currency from report:affiliate-performance or the Impact Action Listing export. Per-order attribution requires a unique eligible TTC SubId1 and a matching campaign/provider; unmatched actions remain unattributed.",
+    "**Orders are read from the ledger, not from this week's traffic.** Order counts above do not mean the orders came from the traffic in this report, and no order is assigned to a page. Per-order page attribution requires a unique eligible TTC SubId1 and a matching campaign/provider (see report:scorecard).",
     "",
     "How the numbers are counted: search visits are visitor-days that landed on a page from a search engine. Page-backed redirects are qualified server redirect receipts associated with a browser event on the same UTC day. Browser automation can still qualify; these are not verified human clicks or purchases (see `scripts/lib/human-clicks.mjs`). Both come from the site's own analytics in D1, written by `scripts/report-plan-scoreboard.mjs`."
   );
@@ -510,7 +561,7 @@ function selfTest() {
 
   const statements = buildStatements(range);
   assert.ok(statements.find((x) => x.key === "clicks").sql.includes("seen.event_name IN"), "clicks are page-backed redirects");
-  assert.ok(statements.every((s) => s.sql.includes("created_at < '2026-10-12T00:00:00.000Z'")), "window stops at the current week");
+  assert.ok(statements.filter((s) => s.key !== "ledger").every((s) => s.sql.includes("created_at < '2026-10-12T00:00:00.000Z'")), "window stops at the current week");
 
   const board = buildScoreboard(
     { search: [{ week: "2026-10-05", n: 210 }], clicks: [{ week: "2026-10-05", n: 260 }, { week: "2026-09-28", n: 150 }] },
@@ -523,11 +574,11 @@ function selfTest() {
   assert.ok(md.includes("| 2026-10-05 | 210 | 0 | 260 | 0 | 0 |"));
   assert.ok(md.includes("search visits between low and base, redirect target comparison withheld"));
   assert.ok(md.includes("search visits met; redirect verdict withheld"));
-  assert.ok(md.includes("Orders and commission are not counted here"));
+  assert.ok(md.includes("Orders are read from the ledger, not from this week"));
   const november = renderScoreboard({ ...board, next: PLAN.checkpoints.find((c) => c.floor) });
   assert.ok(november.includes("redirect checkpoint withheld"));
   assert.ok(!november.includes("real clicks at or above 250"));
-  assert.deepEqual(statements.map((s) => s.key), ["search", "searchMobile", "redirects", "clicks", "funnelPages", "redirectProviders", "landing", "artistVisitors", "artistClicks", "funnelProviders"]);
+  assert.deepEqual(statements.map((s) => s.key), ["search", "searchMobile", "redirects", "clicks", "funnelPages", "redirectProviders", "landing", "artistVisitors", "artistClicks", "funnelProviders", "ledger"]);
   const sqlOf = (key) => statements.find((s) => s.key === key).sql;
   assert.ok(sqlOf("funnelPages").includes("created_at >= '2026-10-05T00:00:00.000Z'"), "funnel covers only the last full week");
   assert.ok(sqlOf("landing").includes("created_at >= '2026-10-05T00:00:00.000Z'") && sqlOf("landing").includes("device_category = 'mobile'"), "landing pages are mobile search, last week only");
@@ -606,6 +657,21 @@ function selfTest() {
   const impactMd = renderScoreboard(impactBoard);
   assert.ok(impactMd.includes("| approved | 1 | GBP 10.00 |") && impactMd.includes("| pending | 1 | GBP 5.00 |"));
   assert.ok(impactMd.includes("Paid and invoiced amounts: not available"), "paid is never filled in");
+  // Ledger section: attested vs Sub-ID matched, statuses and currencies kept apart, other campaigns excluded.
+  const ledgerRows = [
+    { provider: "vivid-seats", state: "PENDING", attribution: "matched", currency: "GBP", payout: 26.86, lock_date: "2999-01-08" },
+    { provider: "stubhub-international", state: "APPROVED", attribution: "no_sub_id", currency: "GBP", payout: 121.73, lock_date: "2026-11-01" },
+    { provider: "seatgeek", state: "PENDING", attribution: "no_sub_id", currency: "GBP", payout: null, lock_date: "2999-02-01" },
+    { provider: null, state: "APPROVED", attribution: "no_sub_id", currency: "GBP", payout: 40, lock_date: "2026-11-01" },
+  ];
+  const ledgerMd = renderScoreboard(buildScoreboard({ ledger: ledgerRows }, range, new Date("2026-11-21T12:00:00Z")));
+  assert.ok(ledgerMd.includes("| pending | 2 | GBP 26.86 (+1 without amount) | 1 | GBP 26.86 |"), "pending: attested includes unmatched, matched is the subset");
+  assert.ok(ledgerMd.includes("| approved | 1 | GBP 121.73 | 0 | none |"), "approved attested but not matched");
+  assert.ok(ledgerMd.includes("1 on other campaigns") && !ledgerMd.includes("161.73"), "other campaigns are excluded, never summed");
+  assert.ok(ledgerMd.includes("Next pending commission locks 2999-01-08"), "next lock date shown");
+  assert.ok(renderScoreboard(buildScoreboard({}, range, new Date("2026-11-21T12:00:00Z"))).includes("not zero orders"), "unreadable ledger says unavailable, not zero");
+  assert.ok(buildStatements(range).find((x) => x.key === "ledger").sql.startsWith("SELECT"), "ledger statement is read-only");
+
   assert.ok(impactMd.includes("| seatgeek-cta-sync.yml | 2 |") && !impactMd.includes("blog-draft"), "only commercial workflows are listed");
   assert.ok(impactMd.includes("Add verified sellers to 2 of 3 shows in the next 14 days (1 with none, 1 with one)"), "coverage counts sellers, not Ticketmaster");
   assert.ok(impactMd.includes("Seller-order test readout on 4 Dec"));

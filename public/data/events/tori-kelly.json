@@ -2851,7 +2851,7 @@
     "ticketmaster_event_id": "1100656C9FC05DBD",
     "ticketmaster_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-vancouver-british-columbia-05-12-2027/event/1100656C9FC05DBD",
     "seatgeek_url": "https://seatgeek.com/tori-kelly-tickets/vancouver-canada-queen-elizabeth-theatre-vancouver-2027-05-12-7-pm/concert/18778581",
-    "vividseats_url": "",
+    "vividseats_url": "https://www.vividseats.com/tori-kelly-tickets-vancouver-queen-elizabeth-theatre---vancouver-5-12-2027/production/7881207",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.ca/tori-kelly-god-must-really-love-vancouver-british-columbia-05-12-2027/event/1100656C9FC05DBD",
     "last_verified_at": "2026-11-23",
@@ -2873,11 +2873,11 @@
         "availability_status": "listed"
       },
       "vivid-seats": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 7881207,
+        "url": "https://www.vividseats.com/tori-kelly-tickets-vancouver-queen-elizabeth-theatre---vancouver-5-12-2027/production/7881207",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       },
       "stubhub": {
         "event_id": null,

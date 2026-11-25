@@ -1323,11 +1323,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7982944",
-        "url": "https://www.ticketliquidator.com/tickets/7982944/John-Summit-tickets-Tue-Nov-24-2026-United-Center",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "vvG18Z_52-BljX",
@@ -1335,7 +1335,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/john-summit-chicago-tickets-11-24-2026/event/107189138",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7982944/John-Summit-tickets-Tue-Nov-24-2026-United-Center",
+    "ticketliquidator_url": "",
     "organizer_names": [
       "LIVE NATION MUSIC"
     ],
@@ -1407,7 +1407,7 @@
         "event_id": "7982965",
         "url": "https://www.ticketliquidator.com/tickets/7982965/John-Summit-tickets-Wed-Nov-25-2026-United-Center",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1481,7 +1481,7 @@
         "event_id": "7982966",
         "url": "https://www.ticketliquidator.com/tickets/7982966/John-Summit-tickets-Fri-Nov-27-2026-Liacouras-Center",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1569,7 +1569,7 @@
         "event_id": "7982967",
         "url": "https://www.ticketliquidator.com/tickets/7982967/John-Summit-tickets-Sat-Nov-28-2026-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1651,7 +1651,7 @@
         "event_id": "7982968",
         "url": "https://www.ticketliquidator.com/tickets/7982968/John-Summit-tickets-Fri-Dec-4-2026-Oakland-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1733,7 +1733,7 @@
         "event_id": "8005513",
         "url": "https://www.ticketliquidator.com/tickets/8005513/John-Summit-tickets-Sat-Dec-5-2026-Oakland-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1808,7 +1808,7 @@
         "event_id": "8204658",
         "url": "https://www.ticketliquidator.com/tickets/8204658/John-Summit-tickets-Sat-Dec-12-2026-Los-Angeles-Memorial-Coliseum",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -1942,7 +1942,7 @@
         "event_id": "8292934",
         "url": "https://www.ticketliquidator.com/tickets/8292934/John-Summit-tickets-Sun-Nov-29-2026-Barclays-Center",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -2017,7 +2017,7 @@
         "event_id": "8310401",
         "url": "https://www.ticketliquidator.com/tickets/8310401/John-Summit-tickets-Thu-Feb-11-2027-Arena-COS-Torwar",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -2090,7 +2090,7 @@
         "event_id": "8310402",
         "url": "https://www.ticketliquidator.com/tickets/8310402/John-Summit-tickets-Fri-Feb-12-2027-Vorst-Nationaal",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -2170,7 +2170,7 @@
         "event_id": "8310259",
         "url": "https://www.ticketliquidator.com/tickets/8310259/John-Summit-tickets-Sat-Feb-13-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -2251,7 +2251,7 @@
         "event_id": "8310113",
         "url": "https://www.ticketliquidator.com/tickets/8310113/John-Summit-tickets-Sat-Feb-27-2027-The-Bubble-Exhibition-Space-at-the-O2",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -2323,7 +2323,7 @@
         "event_id": "8310405",
         "url": "https://www.ticketliquidator.com/tickets/8310405/John-Summit-tickets-Sat-Feb-20-2027-Halle-622",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2458,7 +2458,7 @@
         "event_id": "8386725",
         "url": "https://www.ticketliquidator.com/tickets/8386725/John-Summit-tickets-Fri-Dec-11-2026-Los-Angeles-Memorial-Coliseum",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },

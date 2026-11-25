@@ -2721,11 +2721,11 @@
         "availability_status": "listed"
       },
       "ticket-liquidator": {
-        "event_id": "7877722",
-        "url": "https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden",
-        "verified": true,
-        "last_verified_at": "2026-11-24",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5diZ_FlffPZI",
@@ -2733,7 +2733,7 @@
     "status": "on-sale",
     "ticketnetwork_url": "",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-new-york-tickets-11-24-2026/event/107160120",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/7877722/sombr-tickets-Tue-Nov-24-2026-Madison-Square-Garden",
+    "ticketliquidator_url": "",
     "presales": [
       {
         "name": "Chase Cardholder Preferred Tickets",
@@ -2805,7 +2805,7 @@
         "event_id": "8245510",
         "url": "https://www.ticketliquidator.com/tickets/8245510/sombr-tickets-Fri-May-14-2027-Barclays-Arena-Hamburg",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -2888,6 +2888,13 @@
         "verified": true,
         "last_verified_at": "2026-11-25",
         "availability_status": "listed"
+      },
+      "ticket-liquidator": {
+        "event_id": "8389780",
+        "url": "https://www.ticketliquidator.com/tickets/8389780/sombr-tickets-Sun-May-16-2027-AFAS-Dome",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "Z698xZG2Z16v0pPS8o",
@@ -2898,7 +2905,8 @@
     ],
     "genre": "Rock",
     "stubhub_international_url": "https://www.stubhub.ie/sombr-tickets-antwerpen-afas-dome-16-5-2027/event/107666324",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8389780"
+    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8389780",
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8389780/sombr-tickets-Sun-May-16-2027-AFAS-Dome"
   },
   {
     "id": "tm-sombr-2027-berlin-z698xzc2z1akrz8f",
@@ -2959,7 +2967,7 @@
         "event_id": "8245511",
         "url": "https://www.ticketliquidator.com/tickets/8245511/sombr-tickets-Tue-May-18-2027-Uber-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3040,7 +3048,7 @@
         "event_id": "8245513",
         "url": "https://www.ticketliquidator.com/tickets/8245513/sombr-tickets-Fri-May-28-2027-Kleine-Olympiahalle-Munich",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3121,7 +3129,7 @@
         "event_id": "8245523",
         "url": "https://www.ticketliquidator.com/tickets/8245523/sombr-tickets-Mon-May-31-2027-Ziggo-Dome",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3321,7 +3329,7 @@
         "event_id": "8245421",
         "url": "https://www.ticketliquidator.com/tickets/8245421/sombr-tickets-Sat-Jun-19-2027-Bellahouston-Park",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -3413,7 +3421,7 @@
         "event_id": "8245378",
         "url": "https://www.ticketliquidator.com/tickets/8245378/sombr-tickets-Mon-Jun-21-2027-O2-Arena-London",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -3495,7 +3503,7 @@
         "event_id": "8245379",
         "url": "https://www.ticketliquidator.com/tickets/8245379/sombr-tickets-Tue-Jun-22-2027-O2-Arena-London",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -3577,7 +3585,7 @@
         "event_id": "8245380",
         "url": "https://www.ticketliquidator.com/tickets/8245380/sombr-tickets-Thu-Jun-24-2027-O2-Arena-London",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -3659,7 +3667,7 @@
         "event_id": "8248707",
         "url": "https://www.ticketliquidator.com/tickets/8248707/sombr-tickets-Fri-Jun-25-2027-O2-Arena-London",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -4060,7 +4068,7 @@
         "event_id": "8264595",
         "url": "https://www.ticketliquidator.com/tickets/8264595/sombr-tickets-Tue-Apr-27-2027-Spark-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -4130,7 +4138,7 @@
         "event_id": "8245506",
         "url": "https://www.ticketliquidator.com/tickets/8245506/sombr-tickets-Sat-May-8-2027-Unity-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       }
     },
@@ -4203,7 +4211,7 @@
         "event_id": "8245507",
         "url": "https://www.ticketliquidator.com/tickets/8245507/sombr-tickets-Tue-May-11-2027-Veikkaus-Arena",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -4284,7 +4292,7 @@
         "event_id": "8245515",
         "url": "https://www.ticketliquidator.com/tickets/8245515/sombr-tickets-Wed-May-19-2027-O2-Arena-Prague",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {
@@ -4365,7 +4373,7 @@
         "event_id": "8245518",
         "url": "https://www.ticketliquidator.com/tickets/8245518/sombr-tickets-Thu-May-27-2027-Hallenstadion-Zurich",
         "verified": true,
-        "last_verified_at": "2026-11-24",
+        "last_verified_at": "2026-11-25",
         "availability_status": "listed"
       },
       "stubhub-international": {

@@ -60,13 +60,21 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189082",
+        "url": "https://www.stubhub.ie/culture-club-tickets-bournemouth-bournemouth-international-centre-7-12-2026/event/107189082",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17uOv0G659y_XJ3",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090645",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090645/Boy-George-tickets-Mon-Dec-7-2026-Windsor-Hall-At-Bournemouth-International-Centre"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090645/Boy-George-tickets-Mon-Dec-7-2026-Windsor-Hall-At-Bournemouth-International-Centre",
+    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-bournemouth-bournemouth-international-centre-7-12-2026/event/107189082"
   },
   {
     "id": "tm-culture-club-2026-cardiff-17uov0g65qatjh8",
@@ -511,13 +519,21 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189085",
+        "url": "https://www.stubhub.ie/culture-club-tickets-sheffield-utilita-arena-sheffield-17-12-2026/event/107189085",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G659UVycG",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8090646",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090646/Boy-George-tickets-Thu-Dec-17-2026-Utilita-Arena-Sheffield"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8090646/Boy-George-tickets-Thu-Dec-17-2026-Utilita-Arena-Sheffield",
+    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-sheffield-utilita-arena-sheffield-17-12-2026/event/107189085"
   },
   {
     "id": "tm-culture-club-2026-birmingham-17fyv0g659y9xlw",
@@ -649,12 +665,20 @@
         "verified": true,
         "last_verified_at": "2026-11-24",
         "availability_status": "listed"
+      },
+      "stubhub-international": {
+        "event_id": "107189086",
+        "url": "https://www.stubhub.ie/culture-club-tickets-london-the-o2-arena-19-12-2026/event/107189086",
+        "verified": true,
+        "last_verified_at": "2026-11-25",
+        "availability_status": "listed"
       }
     },
     "ticketmaster_discovery_event_id": "17u8v0G659y9_DW",
     "timezone": "Europe/London",
     "status": "on-sale",
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8008391",
-    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8008391/Culture-Club-tickets-Sat-Dec-19-2026-O2-Arena-London"
+    "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8008391/Culture-Club-tickets-Sat-Dec-19-2026-O2-Arena-London",
+    "stubhub_international_url": "https://www.stubhub.ie/culture-club-tickets-london-the-o2-arena-19-12-2026/event/107189086"
   }
 ]

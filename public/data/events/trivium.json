@@ -1112,11 +1112,11 @@
         "availability_status": "not_checked"
       },
       "ticketnetwork": {
-        "event_id": "8151251",
-        "url": "https://www.ticketnetwork.com/en/p/8151251",
-        "verified": true,
-        "last_verified_at": "2026-11-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       },
       "ticket-liquidator": {
         "event_id": "8151251",
@@ -1131,7 +1131,7 @@
     "status": "on-sale",
     "ticket_limit": 8,
     "genre": "Rock",
-    "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8151251",
+    "ticketnetwork_url": "",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8151251/Trivium-tickets-Wed-Nov-25-2026-The-Factory-Chesterfield"
   },
   {
@@ -1186,7 +1186,7 @@
         "event_id": "8151254",
         "url": "https://www.ticketnetwork.com/en/p/8151254",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1267,7 +1267,7 @@
         "event_id": "8151256",
         "url": "https://www.ticketnetwork.com/en/p/8151256",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1347,7 +1347,7 @@
         "event_id": "8151257",
         "url": "https://www.ticketnetwork.com/en/p/8151257",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1428,7 +1428,7 @@
         "event_id": "8151261",
         "url": "https://www.ticketnetwork.com/en/p/8151261",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1522,7 +1522,7 @@
         "event_id": "8151262",
         "url": "https://www.ticketnetwork.com/en/p/8151262",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1608,7 +1608,7 @@
         "event_id": "8151283",
         "url": "https://www.ticketnetwork.com/en/p/8151283",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1678,7 +1678,7 @@
         "event_id": "8151273",
         "url": "https://www.ticketnetwork.com/en/p/8151273",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1761,7 +1761,7 @@
         "event_id": "8151265",
         "url": "https://www.ticketnetwork.com/en/p/8151265",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1844,7 +1844,7 @@
         "event_id": "8151267",
         "url": "https://www.ticketnetwork.com/en/p/8151267",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1927,7 +1927,7 @@
         "event_id": "8151286",
         "url": "https://www.ticketnetwork.com/en/p/8151286",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -1997,7 +1997,7 @@
         "event_id": "8359228",
         "url": "https://www.ticketnetwork.com/en/p/8359228",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2067,7 +2067,7 @@
         "event_id": "8151268",
         "url": "https://www.ticketnetwork.com/en/p/8151268",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2153,7 +2153,7 @@
         "event_id": "8151269",
         "url": "https://www.ticketnetwork.com/en/p/8151269",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2239,7 +2239,7 @@
         "event_id": "8151270",
         "url": "https://www.ticketnetwork.com/en/p/8151270",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2392,7 +2392,7 @@
         "event_id": "8233453",
         "url": "https://www.ticketnetwork.com/en/p/8233453",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2663,7 +2663,7 @@
         "event_id": "8151010",
         "url": "https://www.ticketnetwork.com/en/p/8151010",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {
@@ -2736,7 +2736,7 @@
         "event_id": "8151259",
         "url": "https://www.ticketnetwork.com/en/p/8151259",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticket-liquidator": {

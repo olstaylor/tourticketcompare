@@ -130,6 +130,8 @@ Never widen the match to an event-derived route. Those render approved price sna
 
 `/artists/<artist>/ticket-prices` is the one event-derived route that is edge cached, and it does not use the header path above. `onRequest` in `functions/[[path]].js` keeps each render in the colo's Cache API: fresh for 5 minutes, then served stale for up to an hour while one background render replaces it. A copy is never served past the earliest price-snapshot expiry or show start it rendered, and a render whose price read failed is never stored, so the freshness gates hold. The browser header stays `no-cache, max-age=0, must-revalidate`; `X-TTC-Edge-Cache: HIT|STALE|MISS` shows what happened. No dashboard rule is needed. Tests: `scripts/price-guides.test.mjs` part 5.
 
+Artist pages (`/artists/<artist>`) use the same in-function cache with shorter windows (fresh 1 minute, stale up to 5 more) and the same validity bound: the priced dates the page lists end a copy at the earliest snapshot expiry, show start, show-day midnight or pending public on-sale. It exists so a traffic spike renders each artist page about once a minute per colo instead of once per view. Artist-city, city, venue, event, home and presale routes are still never cached.
+
 ## GitHub Actions configuration
 
 Automation may require:

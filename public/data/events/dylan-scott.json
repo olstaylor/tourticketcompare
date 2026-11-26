@@ -1333,7 +1333,7 @@
     "event_name": "Dylan Scott",
     "city": "Chandler",
     "country": "United States Of America",
-    "venue": "The Showroom at Wild Horse Pass Resort & Casino",
+    "venue": "The Showroom at Wild Horse Pass",
     "datetime_iso": "2027-02-28T03:00:00Z",
     "tour_name": "Dear Big City Tour",
     "ticketmaster_event_id": "1900652CFC68157E",
@@ -1342,7 +1342,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/dylan-scott-chandler-arizona-02-27-2027/event/1900652CFC68157E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

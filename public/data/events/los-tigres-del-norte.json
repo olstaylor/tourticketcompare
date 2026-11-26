@@ -1068,7 +1068,7 @@
     "vividseats_url": "https://www.vividseats.com/los-tigres-del-norte-tickets-rosemont-allstate-arena-3-20-2027/production/7794809",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/los-tigres-del-norte-los-tigres-rosemont-illinois-03-20-2027/event/04006546C23AB42E",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1133,6 +1133,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-11-05T17:00:00Z",
         "end": "2027-03-19T22:00:00Z"
+      },
+      {
+        "name": "Black Friday Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
       }
     ],
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8355708",

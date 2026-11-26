@@ -102,7 +102,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/lady-a-this-winters-night-tour-gary-indiana-12-11-2026/event/050064BAC93EA4E7",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -159,6 +159,11 @@
         "name": "VIP Packages Onsale",
         "start": "2026-06-12T15:00:00Z",
         "end": "2026-12-04T23:00:00Z"
+      },
+      {
+        "name": "2 for 1 Tickets Offer / 21+ ONLY",
+        "start": "2026-11-30T16:00:00Z",
+        "end": "2026-12-01T04:00:00Z"
       }
     ],
     "ticket_limit": 8,

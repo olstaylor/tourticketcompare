@@ -1719,7 +1719,7 @@
     "event_name": "Melissa Etheridge Rise Again 2027",
     "city": "Chandler",
     "country": "United States Of America",
-    "venue": "The Showroom at Wild Horse Pass Resort & Casino",
+    "venue": "The Showroom at Wild Horse Pass",
     "datetime_iso": "2027-04-24T03:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "19006563EE3FAF53",
@@ -1728,7 +1728,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/melissa-etheridge-rise-again-2027-chandler-arizona-04-23-2027/event/19006563EE3FAF53",
-    "last_verified_at": "2026-11-16",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

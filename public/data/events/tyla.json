@@ -1371,7 +1371,7 @@
     "vividseats_url": "https://www.vividseats.com/tyla-tickets-washington-dc-the-anthem-12-2-2026--concerts-pop/production/7347447",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/tyla-the-apop-world-tour-washington-district-of-columbia-12-02-2026/event/150064F1C4C841AD",
-    "last_verified_at": "2026-11-07",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1431,13 +1431,6 @@
     "ticketnetwork_url": "https://www.ticketnetwork.com/en/p/8164835",
     "ticketliquidator_url": "https://www.ticketliquidator.com/tickets/8164835/Tyla-tickets-Wed-Dec-2-2026-The-Anthem-DC",
     "stubhub_international_url": "https://www.stubhub.ie/tyla-washington-tickets-12-2-2026/event/107460129",
-    "presales": [
-      {
-        "name": "VIP Package Onsale",
-        "start": "2026-07-31T14:00:00Z",
-        "end": "2026-11-26T03:00:00Z"
-      }
-    ],
     "ticket_limit": 4,
     "genre": "Pop"
   },

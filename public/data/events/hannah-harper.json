@@ -614,7 +614,7 @@
     "vividseats_url": "https://www.vividseats.com/hannah-harper-tickets-valparaiso-1st-source-bank-amphitheater-at-central-park-plaza-5-15-2027--concerts-country-and-folk/production/7834586",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/hometown-jams-hannah-harper-valparaiso-indiana-05-15-2027/event/0700654A2C26D89C",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -670,7 +670,14 @@
       "FLIGHT LEVELZ ENTERTAINMENT LLC"
     ],
     "ticket_limit": 8,
-    "genre": "Country"
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Black Friday Sale",
+        "start": "2026-11-27T16:00:00Z",
+        "end": "2026-12-01T05:59:00Z"
+      }
+    ]
   },
   {
     "id": "tm-hannah-harper-2027-augusta-vvg1zz_pq1iixu",

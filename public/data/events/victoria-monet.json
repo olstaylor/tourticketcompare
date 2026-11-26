@@ -1091,7 +1091,7 @@
     "city": "Washington",
     "country": "United States Of America",
     "venue": "The Anthem",
-    "datetime_iso": "2026-11-28T02:15:00Z",
+    "datetime_iso": "2026-11-28T01:30:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "15006528B61E893A",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
@@ -1099,7 +1099,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-washington-dc-the-anthem-11-27-2026--concerts-pop/production/7540341",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-washington-district-of-columbia-11-27-2026/event/15006528B61E893A",
-    "last_verified_at": "2026-11-25",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -1943,7 +1943,7 @@
     "city": "San Francisco",
     "country": "United States Of America",
     "venue": "Bill Graham Civic Auditorium",
-    "datetime_iso": "2026-12-18T04:00:00Z",
+    "datetime_iso": "2026-12-18T05:00:00Z",
     "tour_name": "",
     "ticketmaster_event_id": "1C006523E4C75D1A",
     "ticketmaster_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-francisco-california-12-17-2026/event/1C006523E4C75D1A",
@@ -1951,7 +1951,7 @@
     "vividseats_url": "https://www.vividseats.com/victoria-monet-tickets-san-francisco-bill-graham-civic-auditorium-12-17-2026--concerts-pop/production/7540497",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/victoria-monet-frequency-of-love-tour-san-francisco-california-12-17-2026/event/1C006523E4C75D1A",
-    "last_verified_at": "2026-11-20",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {

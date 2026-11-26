@@ -226,7 +226,7 @@
     "vividseats_url": "https://www.vividseats.com/travis-tritt-tickets-northfield-northfield-park-racino---center-stage-5-14-2027/production/7843655",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/travis-tritt-2027-northfield-ohio-05-14-2027/event/0500656200E3B209",
-    "last_verified_at": "2026-11-19",
+    "last_verified_at": "2026-11-26",
     "verification_status": "machine_high_confidence",
     "provider_links": {
       "ticketmaster": {
@@ -283,7 +283,14 @@
     ],
     "ticket_limit": 8,
     "legal_age_enforced": true,
-    "genre": "Country"
+    "genre": "Country",
+    "presales": [
+      {
+        "name": "Black Friday No Fee Ticket Office Offer",
+        "start": "2026-11-27T15:00:00Z",
+        "end": "2026-11-29T03:00:00Z"
+      }
+    ]
   },
   {
     "id": "tm-travis-tritt-2027-waterloo-k7vgf_29lrc4r",
@@ -1300,7 +1307,7 @@
     "vividseats_url": "",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAAoud",
-    "last_verified_at": null,
+    "last_verified_at": "2026-11-26",
     "verification_status": "needs_recheck",
     "provider_links": {
       "ticketmaster": {
@@ -1335,6 +1342,7 @@
     },
     "ticketmaster_discovery_event_id": "Z7r9jZ1AAAoud",
     "timezone": "America/Chicago",
-    "status": "on-sale"
+    "status": "on-sale",
+    "genre": "Country"
   }
 ]

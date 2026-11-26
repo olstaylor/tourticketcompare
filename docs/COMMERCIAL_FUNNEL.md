@@ -644,6 +644,10 @@ commission per page-backed SubId1 redirect (withheld on small samples or while m
 illustrative click requirements for 500 and 1,000, and three actions. It reads D1 only (SELECTs), so it needs
 Cloudflare D1 read access but no Impact credentials, writes nothing and is not scheduled. Payment status is not
 stored in the ledger, so it is shown as unavailable.
+Section 4b is the click-date cohort: per lane, page-backed SubId1 redirects and matched orders both dated by click
+date (`clicked_at` in the ledger), approved and pending kept apart, commission per 100 clicks withheld below 30
+clicks or 3 approved orders. Section 4c lists page-backed redirect counts by landing-page type, artist and show;
+no commission is attributed to them.
 `npm run report:scorecard -- --sample` prints fixture data to show the layout. Search Console clicks, Impact-side
 click counts and payment status are shown as unavailable.
 

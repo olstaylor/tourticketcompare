@@ -660,8 +660,22 @@ for (const priceRows of [[], PRICE_ROWS.map((row) => ({ ...row, expires_at: "202
     const expired = await serve(GUIDE_PATH);
     assert(expired.response.headers.get("x-ttc-edge-cache") === "MISS" && renders === rendersBeforeExpiry + 1, "past the stale window the visitor waits for a fresh render");
 
-    const artistPage = await serve("/artists/oasis");
-    assert(!artistPage.response.headers.has("x-ttc-edge-cache") && !storedFor("/artists/oasis"), "other routes are never edge cached");
+    const otherRoute = await serve("/artists");
+    assert(!otherRoute.response.headers.has("x-ttc-edge-cache") && !storedFor("/artists"), "other routes are never edge cached");
+    const artistMiss = await serve("/artists/oasis");
+    assert(artistMiss.response.headers.get("x-ttc-edge-cache") === "MISS" && !artistMiss.response.headers.has("x-ttc-edge-valid-until"), "an artist page is rendered and stored on a miss, without leaking the validity bound");
+    const artistRenders = renders;
+    now += 30 * 1000;
+    const artistHit = await serve("/artists/oasis");
+    assert(artistHit.response.headers.get("x-ttc-edge-cache") === "HIT" && renders === artistRenders, "a fresh artist page copy is served without rendering");
+    now += 40 * 1000;
+    const artistStale = await serve("/artists/oasis");
+    assert(artistStale.response.headers.get("x-ttc-edge-cache") === "STALE", "an artist page copy goes stale after one minute");
+    now += 361 * 1000;
+    const artistExpired = await serve("/artists/oasis");
+    assert(artistExpired.response.headers.get("x-ttc-edge-cache") === "MISS", "an artist page copy is never served past five stale minutes");
+    assert(Number(storedFor("/artists/oasis").headers.get("x-ttc-edge-expires-at")) <= Date.parse("2026-08-10T09:00:00Z"), "an artist page copy expires no later than its earliest price snapshot");
+    now = Date.parse("2026-08-09T09:00:00Z") + 0;
     const unknown = await serve("/artists/not-an-artist/ticket-prices");
     assert(unknown.response.status !== 200 && !storedFor("/artists/not-an-artist/ticket-prices"), "a non-200 guide response is never stored");
 

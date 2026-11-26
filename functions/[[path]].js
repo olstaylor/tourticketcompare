@@ -9558,6 +9558,13 @@ function renderTimer() {
 const PRICE_GUIDE_EDGE_FRESH_SECONDS = 300;
 const PRICE_GUIDE_EDGE_STALE_SECONDS = 3600;
 const PRICE_GUIDE_EDGE_PATH = /^\/artists\/[a-z0-9-]+\/ticket-prices$/;
+// Artist pages (/artists/<artist>) use the same cache with shorter windows: they
+// list the same priced dates under the same validity bound, but a traffic spike
+// only needs the render collapsed, so a copy is fresh for one minute and served
+// stale for at most five more.
+const ARTIST_PAGE_EDGE_PATH = /^\/artists\/[a-z0-9-]+$/;
+const ARTIST_PAGE_EDGE_FRESH_SECONDS = 60;
+const ARTIST_PAGE_EDGE_STALE_SECONDS = 300;
 const EDGE_RENDERED_AT_HEADER = "X-TTC-Rendered-At";
 const EDGE_EXPIRES_AT_HEADER = "X-TTC-Edge-Expires-At";
 const EDGE_VALID_UNTIL_HEADER = "X-TTC-Edge-Valid-Until";
@@ -9614,17 +9621,24 @@ const EDGE_CACHE_CODE_VERSION = "2026-10-05";
 // renders once rather than once per request.
 const EDGE_REFRESHES_IN_FLIGHT = new Map();
 
+function edgeWindowsFor(pathname) {
+  return ARTIST_PAGE_EDGE_PATH.test(pathname)
+    ? { fresh: ARTIST_PAGE_EDGE_FRESH_SECONDS, stale: ARTIST_PAGE_EDGE_STALE_SECONDS }
+    : { fresh: PRICE_GUIDE_EDGE_FRESH_SECONDS, stale: PRICE_GUIDE_EDGE_STALE_SECONDS };
+}
+
 function edgeCacheFor(request, url) {
   if (request.method !== "GET") return null;
-  if (!PRICE_GUIDE_EDGE_PATH.test(url.pathname)) return null;
+  if (!PRICE_GUIDE_EDGE_PATH.test(url.pathname) && !ARTIST_PAGE_EDGE_PATH.test(url.pathname)) return null;
   const cache = globalThis.caches?.default;
   return cache ? cache : null;
 }
 
 async function storeEdgeCopy(cache, key, response) {
   const now = Date.now();
+  const windows = edgeWindowsFor(new URL(key.url).pathname);
   const validUntil = Number(response.headers.get(EDGE_VALID_UNTIL_HEADER));
-  const expiresAt = Math.min(Number.isNaN(validUntil) ? 0 : validUntil, now + (PRICE_GUIDE_EDGE_FRESH_SECONDS + PRICE_GUIDE_EDGE_STALE_SECONDS) * 1000);
+  const expiresAt = Math.min(Number.isNaN(validUntil) ? 0 : validUntil, now + (windows.fresh + windows.stale) * 1000);
   if (!response.headers.has(EDGE_VALID_UNTIL_HEADER) || !(expiresAt > now)) return;
   const headers = new Headers(response.headers);
   headers.set("Cache-Control", `public, max-age=${Math.ceil((expiresAt - now) / 1000)}`);
@@ -9669,7 +9683,7 @@ export async function onRequest(context) {
   }
   if (cached && Date.now() < Number(cached.headers.get(EDGE_EXPIRES_AT_HEADER) || 0)) {
     const ageSeconds = (Date.now() - Number(cached.headers.get(EDGE_RENDERED_AT_HEADER) || 0)) / 1000;
-    if (ageSeconds >= 0 && ageSeconds < PRICE_GUIDE_EDGE_FRESH_SECONDS) return servedEdgeCopy(cached, "HIT");
+    if (ageSeconds >= 0 && ageSeconds < edgeWindowsFor(url.pathname).fresh) return servedEdgeCopy(cached, "HIT");
     if (ageSeconds >= 0) {
       if (!EDGE_REFRESHES_IN_FLIGHT.has(key.url)) {
         const refresh = renderAndStore(context, cache, key).finally(() => EDGE_REFRESHES_IN_FLIGHT.delete(key.url));
@@ -9847,7 +9861,7 @@ async function renderRequest(context) {
       ? fetchEventPriceRange(env?.DEMAND_DB || env?.DB, String(route.event.id), APPROVED_MARKETPLACE_PRICE_LANES).catch(() => new Map())
       : null;
     const pricedShows = await attachApprovedMarketplacePrices(priceCandidates, env);
-    if (route.type === "price-guide") edgeValidUntil = edgeValidUntilFor(pricedShows);
+    if (route.type === "price-guide" || route.type === "artist") edgeValidUntil = edgeValidUntilFor(pricedShows);
     const pricedById = new Map(pricedShows.map((show) => [String(show?.id || ""), show]));
     renderEvents = events.map((event) => {
       const priced = pricedById.get(String(event?.id || ""));

@@ -432,12 +432,12 @@ class MemoryCache {
   }
 
   async match(key) {
-    const response = this.items.get(String(key));
+    const response = this.items.get(String(key?.url || key));
     return response ? response.clone() : null;
   }
 
   async put(key, response) {
-    this.items.set(String(key), response.clone());
+    this.items.set(String(key?.url || key), response.clone());
   }
 }
 
@@ -799,6 +799,10 @@ function envWithEventsJson(eventsJson, overrides = {}) {
 
 async function routeResponse(pathname, envOverride = env, origin = "https://tourticketcompare.com") {
   let nextCalled = false;
+  // Each call renders against its own fixture env and data, so it starts with an
+  // empty edge cache; otherwise an earlier fixture's cached artist page would be
+  // served to a later one.
+  globalThis.caches.default = new MemoryCache();
   const response = await middlewareModule.onRequest({
     request: new Request(`${origin}${pathname}`),
     env: envOverride,

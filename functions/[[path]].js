@@ -6337,7 +6337,7 @@ export function renderPresalePageBody(route, events = [], env = {}) {
     ? deriveArtistCities(events, artist.slug).filter((city) => city.hasPublishable && city.indexable).slice(0, 6)
     : [];
   const cityRunsHtml = cityRuns.length
-    ? `<section class="nested-panel" aria-labelledby="presaleCitiesTitle"><h2 id="presaleCitiesTitle">${escapeHtml(`Compare ${artist.name} ticket prices by city`)}</h2><ul class="guide-link-list">${cityRuns
+    ? `<section class="nested-panel" aria-labelledby="presaleCitiesTitle"><h2 id="presaleCitiesTitle">${escapeHtml(cityRuns.length === 1 ? `Compare ${artist.name} ticket prices in ${cityRuns[0].label}` : `Compare ${artist.name} ticket prices by city`)}</h2><ul class="guide-link-list">${cityRuns
         .map((city) => `<li>${anchor(`${artist.name} tickets in ${city.label}`, `/artists/${artist.slug}/tickets/${city.slug}`)} \u2014 ${escapeHtml(cityShowCountLabel(city.showCount))}</li>`)
         .join("")}</ul></section>`
     : "";

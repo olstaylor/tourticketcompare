@@ -219,10 +219,10 @@ const text = (html) =>
   assert(body.includes("no presale code is shown"), "the page says codes are never shown");
   const cityLinks = [...page.main.matchAll(/href="(\/artists\/oasis\/tickets\/[a-z0-9-]+)"/g)].map((match) => match[1]);
   assert(
-    body.includes("Compare Oasis ticket prices by city") === cityLinks.length > 0,
+    /Compare Oasis ticket prices (by city|in )/.test(body) === cityLinks.length > 0,
     "the by-city price links appear only when an indexable multi-date artist-city page exists"
   );
-  assert(!/Compare Oasis ticket prices by city[\s\S]{0,400}(US\$|\$\d)/.test(body), "the by-city links carry no price of their own");
+  assert(!/Compare Oasis ticket prices (?:by city|in )[\s\S]{0,400}(US\$|\$\d)/.test(body), "the by-city links carry no price of their own");
   assert(page.html.includes('"@type":"WebPage"') || page.html.includes('"@type": "WebPage"'), "the page carries a WebPage node");
   assert(!page.html.includes('"MusicEvent"'), "the page carries no MusicEvent");
 }

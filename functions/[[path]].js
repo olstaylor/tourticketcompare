@@ -6326,7 +6326,7 @@ export function renderPresalePageBody(route, events = [], env = {}) {
   // on-sale has happened, because the data does not say when it did.
   const endedShows = presales.windowCount || !Array.isArray(events) ? [] : futureShowsForArtist(events, artist.slug);
   const endedRange = endedShows.length
-    ? ` Tracked dates run from ${formatShowDateServer(endedShows[0].datetime_iso, endedShows[0].timezone)} to ${formatShowDateServer(endedShows[endedShows.length - 1].datetime_iso, endedShows[endedShows.length - 1].timezone)}.`
+    ? ` Tracked dates start ${formatShowDateServer(endedShows[0].dateTimeISO, endedShows[0].timezone)} and run to ${formatShowDateServer(endedShows[endedShows.length - 1].dateTimeISO, endedShows[endedShows.length - 1].timezone)}.`
     : "";
   const emptyHtml = presales.windowCount
     ? ""

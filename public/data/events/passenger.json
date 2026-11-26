@@ -219,7 +219,7 @@
         "event_id": "107482765",
         "url": "https://www.stubhub.ie/passenger-tickets-belfast-ulster-hall-8-9-2027/event/107482765",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -285,7 +285,7 @@
         "event_id": "107506125",
         "url": "https://www.stubhub.ie/passenger-tickets-glasgow-o2-academy-glasgow-11-9-2027/event/107506125",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -352,7 +352,7 @@
         "event_id": "107506126",
         "url": "https://www.stubhub.ie/passenger-tickets-edinburgh-usher-hall-12-9-2027/event/107506126",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -478,7 +478,7 @@
         "event_id": "107482766",
         "url": "https://www.stubhub.ie/passenger-tickets-manchester-o2-apollo-manchester-15-9-2027/event/107482766",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -561,7 +561,7 @@
         "event_id": "107482767",
         "url": "https://www.stubhub.ie/passenger-tickets-london-eventim-apollo-17-9-2027/event/107482767",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },
@@ -624,11 +624,11 @@
         "availability_status": "not_checked"
       },
       "stubhub-international": {
-        "event_id": "107506128",
-        "url": "https://www.stubhub.ie/passenger-tickets-exeter-great-hall-exeter-21-9-2027/event/107506128",
-        "verified": true,
-        "last_verified_at": "2026-11-25",
-        "availability_status": "listed"
+        "event_id": null,
+        "url": null,
+        "verified": false,
+        "last_verified_at": null,
+        "availability_status": "not_listed"
       }
     },
     "ticketmaster_discovery_event_id": "G5vHZ_o2O0IRs",
@@ -639,7 +639,7 @@
     ],
     "ticket_limit": 8,
     "genre": "Rock",
-    "stubhub_international_url": "https://www.stubhub.ie/passenger-tickets-exeter-great-hall-exeter-21-9-2027/event/107506128"
+    "stubhub_international_url": ""
   },
   {
     "id": "tm-passenger-2027-birmingham-g5dzz_2wg0-vu",
@@ -700,7 +700,7 @@
         "event_id": "107482768",
         "url": "https://www.stubhub.ie/passenger-tickets-birmingham-o2-academy-birmingham-24-9-2027/event/107482768",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "ticketnetwork": {
@@ -775,7 +775,7 @@
         "event_id": "107506129",
         "url": "https://www.stubhub.ie/passenger-tickets-brighton-brighton-dome-25-9-2027/event/107506129",
         "verified": true,
-        "last_verified_at": "2026-11-25",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       }
     },

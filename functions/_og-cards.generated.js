@@ -670,7 +670,6 @@ export const OG_CARDS = {
   "/artists/rush": {"url":"/og/artists-rush.png","alt":"Tickets & tour dates: Rush"},
   "/artists/rush/presale": {"url":"/og/artists-rush-presale.png","alt":"Presale: Rush"},
   "/artists/rush/ticket-prices": {"url":"/og/artists-rush-ticket-prices.png","alt":"Ticket prices: Rush"},
-  "/artists/rush/tickets/atlanta-united-states": {"url":"/og/artists-rush-tickets-atlanta-united-states.png","alt":"Tickets: Rush in Atlanta"},
   "/artists/rush/tickets/edmonton-canada": {"url":"/og/artists-rush-tickets-edmonton-canada.png","alt":"Tickets: Rush in Edmonton"},
   "/artists/rush/tickets/glasgow-united-kingdom": {"url":"/og/artists-rush-tickets-glasgow-united-kingdom.png","alt":"Tickets: Rush in Glasgow"},
   "/artists/rush/tickets/glendale-united-states": {"url":"/og/artists-rush-tickets-glendale-united-states.png","alt":"Tickets: Rush in Glendale"},

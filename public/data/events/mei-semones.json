@@ -100,7 +100,7 @@
         "event_id": 18850382,
         "url": "https://seatgeek.com/mei-semones-tickets/portland-maine-space-gallery-2027-02-25-8-pm/concert/18850382",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -437,7 +437,7 @@
         "event_id": 18637352,
         "url": "https://seatgeek.com/mei-semones-tickets/washington-district-of-columbia-9-30-club-2027-04-09-6-pm/concert/18637352",
         "verified": true,
-        "last_verified_at": "2026-11-22",
+        "last_verified_at": "2026-11-26",
         "availability_status": "listed"
       },
       "vivid-seats": {
@@ -566,7 +566,7 @@
     "tour_name": "",
     "ticketmaster_event_id": "Z7r9jZ1AAeb46",
     "ticketmaster_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb46",
-    "seatgeek_url": "",
+    "seatgeek_url": "https://seatgeek.com/mei-semones-tickets/atlanta-georgia-terminal-west-2027-04-11-8-pm/concert/18870576",
     "vividseats_url": "https://www.vividseats.com/mei-semones-tickets-atlanta-terminal-west-4-11-2027/production/7629665",
     "source_type": "ticketmaster",
     "source_url": "https://www.ticketmaster.com/event/Z7r9jZ1AAeb46",
@@ -582,11 +582,11 @@
         "availability_status": "not_checked"
       },
       "seatgeek": {
-        "event_id": null,
-        "url": null,
-        "verified": false,
-        "last_verified_at": null,
-        "availability_status": "not_checked"
+        "event_id": 18870576,
+        "url": "https://seatgeek.com/mei-semones-tickets/atlanta-georgia-terminal-west-2027-04-11-8-pm/concert/18870576",
+        "verified": true,
+        "last_verified_at": "2026-11-26",
+        "availability_status": "listed"
       },
       "vivid-seats": {
         "event_id": 7629665,

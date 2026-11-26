@@ -90,7 +90,9 @@ async function main() {
   const seenFile = path.join(dir, "seen.json");
   const draftsFile = path.join(dir, "drafts.md");
   writeFileSync(seenFile, `${JSON.stringify(before)}\n`);
-  execFileSync(process.execPath, ["scripts/report-price-drops.mjs", "--out", draftsFile, "--seen", seenFile], { cwd: ROOT, stdio: "inherit", timeout: 300000 });
+  // PRICE_DROP_JSON_OUT: where the structured new drafts go for the optional X posting step.
+  const jsonFile = process.env.PRICE_DROP_JSON_OUT || path.join(dir, "drafts.json");
+  execFileSync(process.execPath, ["scripts/report-price-drops.mjs", "--out", draftsFile, "--seen", seenFile, "--json", jsonFile], { cwd: ROOT, stdio: "inherit", timeout: 300000 });
 
   const after = JSON.parse(readFileSync(seenFile, "utf8"));
   const added = after.filter((key) => !before.includes(key));

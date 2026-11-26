@@ -90,9 +90,15 @@ async function main() {
   const seenFile = path.join(dir, "seen.json");
   const draftsFile = path.join(dir, "drafts.md");
   writeFileSync(seenFile, `${JSON.stringify(before)}\n`);
-  // PRICE_DROP_JSON_OUT: where the structured new drafts go for the optional X posting step.
-  const jsonFile = process.env.PRICE_DROP_JSON_OUT || path.join(dir, "drafts.json");
-  execFileSync(process.execPath, ["scripts/report-price-drops.mjs", "--out", draftsFile, "--seen", seenFile, "--json", jsonFile], { cwd: ROOT, stdio: "inherit", timeout: 300000 });
+  execFileSync(process.execPath, ["scripts/report-price-drops.mjs", "--out", draftsFile, "--seen", seenFile], { cwd: ROOT, stdio: "inherit", timeout: 300000 });
+
+  // PRICE_DROP_JSON_OUT: every drop that passes the rules now, for the optional X posting
+  // step. Deliberately NOT filtered by the drafted-keys history: a drop drafted earlier
+  // with an old price, or after a failed post, may be postable on a later run. The X
+  // ledger (scripts/post-price-drops-to-x.mjs) excludes what was already posted.
+  if (process.env.PRICE_DROP_JSON_OUT) {
+    execFileSync(process.execPath, ["scripts/report-price-drops.mjs", "--out", path.join(dir, "candidates.md"), "--json", process.env.PRICE_DROP_JSON_OUT], { cwd: ROOT, stdio: "inherit", timeout: 300000 });
+  }
 
   const after = JSON.parse(readFileSync(seenFile, "utf8"));
   const added = after.filter((key) => !before.includes(key));

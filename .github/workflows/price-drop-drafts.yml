@@ -64,7 +64,6 @@ jobs:
       # Inactive unless the repository variable X_POSTING_ENABLED is "true" AND the
       # four X secrets exist; otherwise it only logs. Kill switch: change the variable.
       - name: Post new drops to X (inactive unless enabled)
-        if: hashFiles(format('{0}/price-drop-drafts.json', runner.temp)) != ''
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}

@@ -17,7 +17,7 @@
 //   - the post fits one X post with "#ad " first and the campaign
 //     utm_campaign=tourticketcomp-drop;
 //   - caps: 1 post a day, 4 a week, 40 a month (about $8 at $0.20 per link
-//     post, under the $10 cap), one per artist per 7 days, each drop key once ever.
+//     post, under the $10 cap), one per artist per 7 days, one per show per 14 days, each drop key once ever.
 // The record of posts lives in the body of one rolling `automation:x-posts`
 // issue (hidden marker). The record is written BEFORE the next post is
 // attempted and a failed X call records nothing, so a crash can mean a missed
@@ -26,7 +26,7 @@
 // Env: GITHUB_TOKEN (issues: write), GITHUB_REPOSITORY, X_POSTING_ENABLED, the four X secrets.
 
 import crypto from "node:crypto";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import assert from "node:assert/strict";
 import { fileURLToPath } from "node:url";
@@ -36,7 +36,7 @@ const LABEL = "automation:x-posts";
 const TITLE = "X posts (auto, @tourticketcomp)";
 const MARKER = /<!-- x-posted: (\[.*?\]) -->/s;
 const DAY = 86400000;
-export const CAPS = Object.freeze({ perDay: 1, perWeek: 4, perMonth: 40, artistDays: 7, maxAgeMs: 2 * 3600000 });
+export const CAPS = Object.freeze({ perDay: 1, perWeek: 4, perMonth: 40, artistDays: 7, showDays: 14, maxAgeMs: 2 * 3600000 });
 const CAMPAIGN = "tourticketcomp-drop";
 
 export function parsePosted(body) {
@@ -77,6 +77,7 @@ export function skipReason(d, posted, now) {
   if (within(7 * DAY).length >= CAPS.perWeek) return "weekly cap reached";
   if (within(30 * DAY).length >= CAPS.perMonth) return "monthly cap reached";
   if (within(CAPS.artistDays * DAY).some((p) => p.artist === d.artistSlug)) return "artist posted within 7 days";
+  if (within(CAPS.showDays * DAY).some((p) => p.event && p.event === d.eventId)) return "show posted within 14 days";
   return "";
 }
 
@@ -124,6 +125,8 @@ function selfTest() {
   const month = Array.from({ length: 40 }, (_, n) => ({ key: `m${n}`, at: new Date(now - (8 + n / 2) * DAY).toISOString(), artist: `m${n}` }));
   assert.equal(skipReason(drop, month, now), "monthly cap reached");
   assert.equal(skipReason(drop, [{ key: "o", at: "2026-11-27T01:00:00Z", artist: "a" }], now), "artist posted within 7 days");
+  assert.equal(skipReason({ ...drop, eventId: "e1", key: "k2" }, [{ key: "o", at: "2026-11-20T01:00:00Z", artist: "z", event: "e1" }], now), "show posted within 14 days");
+  assert.equal(skipReason({ ...drop, eventId: "e1", key: "k2" }, [{ key: "o", at: "2026-11-10T01:00:00Z", artist: "z", event: "e1" }], now), "");
   assert.deepEqual(parsePosted(buildBody([{ key: "k", at: "2026-12-01T00:00:00Z", artist: "a" }])).map((p) => p.key), ["k"]);
   assert.deepEqual(parsePosted("<!-- x-posted: [bad -->"), []);
   const h = oauthHeader({ method: "POST", url: "https://api.x.com/2/tweets", key: "k", secret: "s", token: "t", tokenSecret: "ts", nonce: "n", timestamp: 1 });
@@ -137,7 +140,12 @@ async function main() {
   const arg = (f) => (argv.includes(f) ? argv[argv.indexOf(f) + 1] : "");
   const dry = argv.includes("--dry-run");
   const now = arg("--now") ? Date.parse(arg("--now")) : Date.now();
-  const drafts = JSON.parse(readFileSync(arg("--drafts"), "utf8"));
+  const draftsPath = arg("--drafts");
+  if (!draftsPath || !existsSync(draftsPath)) {
+    console.log("No candidates file; nothing posted.");
+    return;
+  }
+  const drafts = JSON.parse(readFileSync(draftsPath, "utf8"));
   const env = process.env;
   const keys = ["X_API_KEY", "X_API_SECRET", "X_ACCESS_TOKEN", "X_ACCESS_SECRET"];
   const live = !dry && env.X_POSTING_ENABLED === "true" && keys.every((k) => env[k]);
@@ -152,14 +160,15 @@ async function main() {
     if (!res.ok) throw new Error(`GitHub ${method} ${endpoint} failed: ${res.status}`);
     return res.json();
   };
-  const open = await gh("GET", `/issues?state=open&labels=${encodeURIComponent(LABEL)}`);
-  const issue = open[0] || (await gh("POST", "/issues", { title: TITLE, body: buildBody([]), labels: [LABEL] }));
+  // The ledger is found in any state: a closed ledger must never reset the caps.
+  const found = await gh("GET", `/issues?state=all&labels=${encodeURIComponent(LABEL)}`);
+  const issue = found[0] || (await gh("POST", "/issues", { title: TITLE, body: buildBody([]), labels: [LABEL] }));
   let posted = parsePosted(issue.body);
   for (const d of drafts) {
     const why = skipReason(d, posted, Date.now());
     if (why) { console.log(`Skipped ${d.key}: ${why}`); continue; }
     const id = await sendPost(postText(d), env);
-    posted = [...posted, { key: d.key, at: new Date().toISOString(), artist: d.artistSlug, id }];
+    posted = [...posted, { key: d.key, at: new Date().toISOString(), artist: d.artistSlug, event: d.eventId, id }];
     await gh("PATCH", `/issues/${issue.number}`, { body: buildBody(posted) });
     console.log(`Posted ${d.key} as ${id}.`);
   }

@@ -6321,11 +6321,18 @@ export function renderPresalePageBody(route, events = [], env = {}) {
           : ""
       }</section>`
     : "";
+  // With no window left, say so plainly and point to where the dates and
+  // sellers are. Only dates already in the data are named; nothing says the
+  // on-sale has happened, because the data does not say when it did.
+  const endedShows = presales.windowCount || !Array.isArray(events) ? [] : futureShowsForArtist(events, artist.slug);
+  const endedRange = endedShows.length
+    ? ` Tracked dates run from ${formatShowDateServer(endedShows[0].datetime_iso, endedShows[0].timezone)} to ${formatShowDateServer(endedShows[endedShows.length - 1].datetime_iso, endedShows[endedShows.length - 1].timezone)}.`
+    : "";
   const emptyHtml = presales.windowCount
     ? ""
     : `<section class="nested-panel"><p>${
         presales.showCount
-          ? `${escapeHtml(artist.name)} has ${escapeHtml(presalePlural(presales.showCount, "tracked upcoming date", "tracked upcoming dates"))}, and none carries an open or upcoming presale on Ticketmaster's listing.`
+          ? `${escapeHtml(artist.name)} has ${escapeHtml(presalePlural(presales.showCount, "tracked upcoming date", "tracked upcoming dates"))}, and none carries an open or upcoming presale on Ticketmaster's listing. If a presale ran earlier, it has ended or is no longer listed.${escapeHtml(endedRange)}`
           : `No upcoming ${escapeHtml(artist.name)} date is tracked right now.`
       } ${anchor(`See ${artist.name} tickets and dates`, artistHref, "text-link")} or ${anchor("the on-sale calendar", ONSALE_CALENDAR_PATH, "text-link")}.</p></section>`;
   const nextDatesTable = renderPresaleNextDates(route, events, env);

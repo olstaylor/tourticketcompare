@@ -145,6 +145,7 @@ export const STEPS = [
   { id: "report:show-priority:self-test",         lane: "units",  run: "npm run report:show-priority:self-test" },
   { id: "report:seo-opportunities:self-test",    lane: "units",  run: "npm run report:seo-opportunities:self-test" },
   { id: "test:affiliate-attribution", lane: "units", run: "npm run test:affiliate-attribution" },
+  { id: "test:out-show-lookup", lane: "units", run: "npm run test:out-show-lookup" },
   { id: "test:bot-traffic", lane: "units", run: "npm run test:bot-traffic" },
   { id: "report:affiliate-performance:self-test", lane: "units",  run: "npm run report:affiliate-performance:self-test" },
   { id: "report:link-coverage:self-test",         lane: "units",  run: "node scripts/report-link-coverage.mjs --self-test" },

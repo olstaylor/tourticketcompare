@@ -26,6 +26,11 @@ const P = {
 };
 export const MAX_PER_DAY = 3;
 export const MAX_PER_WEEK = 21;
+// Owner decision 2026-11-26: from 1 Dec (after the Google core update) the cap rises to 8/day, 56/rolling week.
+export const RAISED_FROM = "2026-12-01";
+export const RAISED_PER_DAY = 8;
+export const RAISED_PER_WEEK = 56;
+const caps = (today) => (today >= RAISED_FROM ? [RAISED_PER_DAY, RAISED_PER_WEEK] : [MAX_PER_DAY, MAX_PER_WEEK]);
 const MAX_TITLE = 60;
 const MAX_DESCRIPTION = 160;
 const PLACEHOLDER = /\[OWNER COPY|placeholder|lorem|tbd|todo|example\.com/i;
@@ -80,13 +85,14 @@ export function shellProblems(record, catalog) {
   return problems;
 }
 
-/** How many more auto promotions today's run may make (3/day, 21/rolling week; owner decision 2026-11-21, was 12 and 84 from 2026-11-06). */
+/** How many more auto promotions today's run may make (3/day, 21/rolling week from owner decision 2026-11-21; 8/day, 56/week from 2026-12-01, owner decision 2026-11-26; was 12 and 84 from 2026-11-06). */
 export function remainingQuota(artists, today) {
   const since = (days) => new Date(Date.parse(`${today}T00:00:00Z`) - days * 86400000).toISOString().slice(0, 10);
   const auto = artists.filter((a) => a.promotion_source === "auto" && a.auto_promoted_at);
   const day = auto.filter((a) => a.auto_promoted_at >= today).length;
   const week = auto.filter((a) => a.auto_promoted_at > since(7)).length;
-  return Math.max(0, Math.min(MAX_PER_DAY - day, MAX_PER_WEEK - week));
+  const [perDay, perWeek] = caps(today);
+  return Math.max(0, Math.min(perDay - day, perWeek - week));
 }
 
 /** Amendment 4: the only change allowed in out.js is new VERIFIED_TICKET_LINKS entries appended to the block. */
@@ -250,6 +256,9 @@ function selfTest() {
   check(remainingQuota(full.artists, "2026-10-01") === 0 && remainingQuota(full.artists, "2026-10-02") === MAX_PER_DAY, `${MAX_PER_DAY} per day`);
   const week = Array.from({ length: MAX_PER_WEEK }, (_, i) => ({ slug: `w${i}`, promotion_source: "auto", auto_promoted_at: `2026-09-${25 + (i % 5)}` }));
   check(remainingQuota(week, "2026-10-01") === 0 && remainingQuota(week, "2026-10-06") === MAX_PER_DAY, `${MAX_PER_WEEK} per rolling week`);
+  const dec = Array.from({ length: RAISED_PER_DAY }, (_, i) => ({ slug: `d${i}`, promotion_source: "auto", auto_promoted_at: "2026-12-01" }));
+  check(remainingQuota(dec, "2026-12-01") === 0 && remainingQuota(dec.slice(0, 3), "2026-12-01") === RAISED_PER_DAY - 3 && remainingQuota([], "2026-12-01") === RAISED_PER_DAY, `${RAISED_PER_DAY} per day from ${RAISED_FROM}`);
+  check(remainingQuota([], "2026-11-30") === MAX_PER_DAY, "3 per day before the raise");
   check(shellRecords(row("x", { ticketmaster: { genre: "Undefined" } }), "t").catalogArtist.factual_summary.startsWith("X is listed by Ticketmaster."), "a catch-all genre is not stated");
   for (const f of failures) console.error(`  FAIL ${f}`);
   console.log(`[auto-promote] self-test: ${failures.length ? `${failures.length} failure(s)` : "all assertions passed"}`);
